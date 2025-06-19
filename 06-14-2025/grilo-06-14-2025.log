@@ -1,0 +1,937 @@
+--2025-06-14 08:20:28--  https://download.gnome.org/sources/grilo/0.3/grilo-0.3.19.tar.xz
+Resolving download.gnome.org (download.gnome.org)... 2a02:6ea0:c400::53, 2a02:6ea0:c400::54, 79.127.206.235, ...
+Connecting to download.gnome.org (download.gnome.org)|2a02:6ea0:c400::53|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 246376 (241K) [application/octet-stream]
+Saving to: 'grilo-0.3.19.tar.xz'
+
+     0K .......... .......... .......... .......... .......... 20% 3.96M 0s
+    50K .......... .......... .......... .......... .......... 41% 8.80M 0s
+   100K .......... .......... .......... .......... .......... 62% 15.1M 0s
+   150K .......... .......... .......... .......... .......... 83% 15.1M 0s
+   200K .......... .......... .......... ..........           100% 69.5M=0.02s
+
+2025-06-14 08:20:28 (9.43 MB/s) - 'grilo-0.3.19.tar.xz' saved [246376/246376]
+
+grilo-0.3.19/
+grilo-0.3.19/.editorconfig
+grilo-0.3.19/.gitlab-ci.yml
+grilo-0.3.19/.mailmap
+grilo-0.3.19/AUTHORS
+grilo-0.3.19/COPYING
+grilo-0.3.19/NEWS
+grilo-0.3.19/README.md
+grilo-0.3.19/TODO
+grilo-0.3.19/bindings/
+grilo-0.3.19/bindings/meson.build
+grilo-0.3.19/bindings/vala/
+grilo-0.3.19/bindings/vala/Grl-0.3.metadata
+grilo-0.3.19/bindings/vala/GrlNet-0.3.metadata
+grilo-0.3.19/bindings/vala/grilo-0.3-custom.vala
+grilo-0.3.19/bindings/vala/grilo-0.3.deps
+grilo-0.3.19/bindings/vala/grilo-net-0.3-custom.vala
+grilo-0.3.19/bindings/vala/grilo-net-0.3.deps
+grilo-0.3.19/bindings/vala/meson.build
+grilo-0.3.19/doc/
+grilo-0.3.19/doc/grilo/
+grilo-0.3.19/doc/grilo/environment-setup.xml
+grilo-0.3.19/doc/grilo/grilo-docs.sgml
+grilo-0.3.19/doc/grilo/grilo-overrides.txt
+grilo-0.3.19/doc/grilo/grilo-sections.txt
+grilo-0.3.19/doc/grilo/grilo.types
+grilo-0.3.19/doc/grilo/meson.build
+grilo-0.3.19/doc/grilo/overview.xml
+grilo-0.3.19/doc/grilo/plugins-sources.xml
+grilo-0.3.19/doc/grilo/plugins-testing.xml
+grilo-0.3.19/doc/grilo/quick-start.xml
+grilo-0.3.19/doc/grilo/writing-apps.xml
+grilo-0.3.19/doc/man/
+grilo-0.3.19/doc/man/grilo-test-ui-0.3.1
+grilo-0.3.19/doc/man/grl-inspect-0.3.1
+grilo-0.3.19/doc/man/grl-launch-0.3.1
+grilo-0.3.19/doc/man/meson.build
+grilo-0.3.19/doc/meson.build
+grilo-0.3.19/examples/
+grilo-0.3.19/examples/browsing-pls.c
+grilo-0.3.19/examples/browsing.c
+grilo-0.3.19/examples/configuring-plugins.c
+grilo-0.3.19/examples/efficient-metadata-resolution.c
+grilo-0.3.19/examples/loading-plugins.c
+grilo-0.3.19/examples/meson.build
+grilo-0.3.19/examples/multivalues.c
+grilo-0.3.19/examples/searching.c
+grilo-0.3.19/grilo.doap
+grilo-0.3.19/libs/
+grilo-0.3.19/libs/meson.build
+grilo-0.3.19/libs/net/
+grilo-0.3.19/libs/net/grl-net-mock-private.h
+grilo-0.3.19/libs/net/grl-net-mock.c
+grilo-0.3.19/libs/net/grl-net-wc-private.h
+grilo-0.3.19/libs/net/grl-net-wc.c
+grilo-0.3.19/libs/net/grl-net-wc.h
+grilo-0.3.19/libs/net/grl-net.h
+grilo-0.3.19/libs/net/meson.build
+grilo-0.3.19/libs/pls/
+grilo-0.3.19/libs/pls/grl-pls.c
+grilo-0.3.19/libs/pls/grl-pls.h
+grilo-0.3.19/libs/pls/meson.build
+grilo-0.3.19/meson.build
+grilo-0.3.19/meson_options.txt
+grilo-0.3.19/po/
+grilo-0.3.19/po/LINGUAS
+grilo-0.3.19/po/POTFILES.in
+grilo-0.3.19/po/ab.po
+grilo-0.3.19/po/as.po
+grilo-0.3.19/po/be.po
+grilo-0.3.19/po/bg.po
+grilo-0.3.19/po/bs.po
+grilo-0.3.19/po/ca.po
+grilo-0.3.19/po/ca@valencia.po
+grilo-0.3.19/po/cs.po
+grilo-0.3.19/po/da.po
+grilo-0.3.19/po/de.po
+grilo-0.3.19/po/el.po
+grilo-0.3.19/po/en_GB.po
+grilo-0.3.19/po/eo.po
+grilo-0.3.19/po/es.po
+grilo-0.3.19/po/eu.po
+grilo-0.3.19/po/fa.po
+grilo-0.3.19/po/fi.po
+grilo-0.3.19/po/fr.po
+grilo-0.3.19/po/fur.po
+grilo-0.3.19/po/gl.po
+grilo-0.3.19/po/he.po
+grilo-0.3.19/po/hi.po
+grilo-0.3.19/po/hr.po
+grilo-0.3.19/po/hu.po
+grilo-0.3.19/po/id.po
+grilo-0.3.19/po/it.po
+grilo-0.3.19/po/ja.po
+grilo-0.3.19/po/ka.po
+grilo-0.3.19/po/kab.po
+grilo-0.3.19/po/ko.po
+grilo-0.3.19/po/lt.po
+grilo-0.3.19/po/lv.po
+grilo-0.3.19/po/meson.build
+grilo-0.3.19/po/ml.po
+grilo-0.3.19/po/ms.po
+grilo-0.3.19/po/nb.po
+grilo-0.3.19/po/ne.po
+grilo-0.3.19/po/nl.po
+grilo-0.3.19/po/oc.po
+grilo-0.3.19/po/pa.po
+grilo-0.3.19/po/pl.po
+grilo-0.3.19/po/pt.po
+grilo-0.3.19/po/pt_BR.po
+grilo-0.3.19/po/ro.po
+grilo-0.3.19/po/ru.po
+grilo-0.3.19/po/sk.po
+grilo-0.3.19/po/sl.po
+grilo-0.3.19/po/sr.po
+grilo-0.3.19/po/sr@latin.po
+grilo-0.3.19/po/sv.po
+grilo-0.3.19/po/tg.po
+grilo-0.3.19/po/th.po
+grilo-0.3.19/po/tr.po
+grilo-0.3.19/po/uk.po
+grilo-0.3.19/po/uz.po
+grilo-0.3.19/po/zh_CN.po
+grilo-0.3.19/po/zh_HK.po
+grilo-0.3.19/po/zh_TW.po
+grilo-0.3.19/src/
+grilo-0.3.19/src/data/
+grilo-0.3.19/src/data/grl-config.c
+grilo-0.3.19/src/data/grl-config.h
+grilo-0.3.19/src/data/grl-data.c
+grilo-0.3.19/src/data/grl-data.h
+grilo-0.3.19/src/data/grl-media.c
+grilo-0.3.19/src/data/grl-media.h
+grilo-0.3.19/src/data/grl-related-keys.c
+grilo-0.3.19/src/data/grl-related-keys.h
+grilo-0.3.19/src/grilo.c
+grilo-0.3.19/src/grilo.h
+grilo-0.3.19/src/grl-caps.c
+grilo-0.3.19/src/grl-caps.h
+grilo-0.3.19/src/grl-definitions.h
+grilo-0.3.19/src/grl-error.h
+grilo-0.3.19/src/grl-log-priv.h
+grilo-0.3.19/src/grl-log.c
+grilo-0.3.19/src/grl-log.h
+grilo-0.3.19/src/grl-marshal.list
+grilo-0.3.19/src/grl-metadata-key-priv.h
+grilo-0.3.19/src/grl-metadata-key.c
+grilo-0.3.19/src/grl-metadata-key.h
+grilo-0.3.19/src/grl-multiple.c
+grilo-0.3.19/src/grl-multiple.h
+grilo-0.3.19/src/grl-operation-options-priv.h
+grilo-0.3.19/src/grl-operation-options.c
+grilo-0.3.19/src/grl-operation-options.h
+grilo-0.3.19/src/grl-operation-priv.h
+grilo-0.3.19/src/grl-operation.c
+grilo-0.3.19/src/grl-operation.h
+grilo-0.3.19/src/grl-plugin-priv.h
+grilo-0.3.19/src/grl-plugin.c
+grilo-0.3.19/src/grl-plugin.h
+grilo-0.3.19/src/grl-range-value.c
+grilo-0.3.19/src/grl-range-value.h
+grilo-0.3.19/src/grl-registry-priv.h
+grilo-0.3.19/src/grl-registry.c
+grilo-0.3.19/src/grl-registry.h
+grilo-0.3.19/src/grl-source.c
+grilo-0.3.19/src/grl-source.h
+grilo-0.3.19/src/grl-sync-priv.h
+grilo-0.3.19/src/grl-sync.c
+grilo-0.3.19/src/grl-type-builtins.c.template
+grilo-0.3.19/src/grl-type-builtins.h.template
+grilo-0.3.19/src/grl-util.c
+grilo-0.3.19/src/grl-util.h
+grilo-0.3.19/src/grl-value-helper.c
+grilo-0.3.19/src/grl-value-helper.h
+grilo-0.3.19/src/meson.build
+grilo-0.3.19/tests/
+grilo-0.3.19/tests/autoptr.c
+grilo-0.3.19/tests/lib-net.c
+grilo-0.3.19/tests/media.c
+grilo-0.3.19/tests/meson.build
+grilo-0.3.19/tests/operations.c
+grilo-0.3.19/tests/python/
+grilo-0.3.19/tests/python/constants.py
+grilo-0.3.19/tests/python/test_fs.py
+grilo-0.3.19/tests/python/test_media.py
+grilo-0.3.19/tests/python/test_net.py
+grilo-0.3.19/tests/python/test_options.py
+grilo-0.3.19/tests/python/test_plugin.py
+grilo-0.3.19/tests/python/test_registry.py
+grilo-0.3.19/tests/python/testrunner.py
+grilo-0.3.19/tests/python/util.py.in
+grilo-0.3.19/tests/registry.c
+grilo-0.3.19/tools/
+grilo-0.3.19/tools/grilo-inspect/
+grilo-0.3.19/tools/grilo-inspect/generate_core_keys.py
+grilo-0.3.19/tools/grilo-inspect/grl-inspect.c
+grilo-0.3.19/tools/grilo-inspect/meson.build
+grilo-0.3.19/tools/grilo-launch/
+grilo-0.3.19/tools/grilo-launch/grl-launch.c
+grilo-0.3.19/tools/grilo-launch/meson.build
+grilo-0.3.19/tools/grilo-test-ui/
+grilo-0.3.19/tools/grilo-test-ui/TODO
+grilo-0.3.19/tools/grilo-test-ui/flickr-oauth.c
+grilo-0.3.19/tools/grilo-test-ui/flickr-oauth.h
+grilo-0.3.19/tools/grilo-test-ui/main.c
+grilo-0.3.19/tools/grilo-test-ui/meson.build
+grilo-0.3.19/tools/meson.build
+The Meson build system
+Version: 1.7.0
+Source dir: /blfs/builds/grilo-0.3.19
+Build dir: /blfs/builds/grilo-0.3.19/build
+Build type: native build
+Project name: grilo
+Project version: 0.3.19
+C compiler for the host machine: cc (gcc 14.2.0 "cc (GCC) 14.2.0")
+C linker for the host machine: cc ld.bfd 2.44
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Found pkg-config: YES (/usr/bin/pkg-config) 2.4.3
+Run-time dependency gio-2.0 found: YES 2.84.3
+Run-time dependency glib-2.0 found: YES 2.84.3
+Run-time dependency gmodule-2.0 found: YES 2.84.3
+Run-time dependency gobject-2.0 found: YES 2.84.3
+Run-time dependency libxml-2.0 found: YES 2.14.3
+Run-time dependency libsoup-3.0 found: YES 3.6.5
+Run-time dependency totem-plparser found: YES 3.26.6
+Program g-ir-scanner found: YES (/usr/bin/g-ir-scanner)
+Program vapigen found: YES (/usr/bin/vapigen)
+Run-time dependency gtk+-3.0 found: YES 3.24.49
+Found CMake: /usr/bin/cmake (4.0.2)
+Run-time dependency oauth found: NO (tried pkgconfig and cmake)
+Run-time dependency gobject-introspection-1.0 found: YES 1.84.0
+Run-time dependency vapigen found: YES 0.56.18
+Dependency glib-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/glib-genmarshal found: YES (/usr/bin/glib-genmarshal)
+Dependency glib-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Dependency glib-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Configuring config.h using configuration
+Compiler for C supports link arguments -Wl,--no-undefined: YES 
+Dependency gobject-introspection-1.0 found: YES 1.84.0 (cached)
+Dependency gobject-introspection-1.0 found: YES 1.84.0 (cached)
+Program /usr/bin/g-ir-scanner found: YES (/usr/bin/g-ir-scanner)
+Dependency gobject-introspection-1.0 found: YES 1.84.0 (cached)
+Program /usr/bin/g-ir-compiler found: YES (/usr/bin/g-ir-compiler)
+Configuring config.h using configuration
+Configuring config.h using configuration
+Program vapigen found: YES (/usr/bin/vapigen)
+Program vapigen found: YES (/usr/bin/vapigen)
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Program msginit found: YES (/usr/bin/msginit)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program xgettext found: YES (/usr/bin/xgettext)
+Program python3 found: YES (/usr/bin/python3)
+Configuring config.h using configuration
+Configuring config.h using configuration
+Configuring config.h using configuration
+Program gtkdoc-scan found: YES (/usr/bin/gtkdoc-scan)
+Program gtkdoc-scangobj found: YES (/usr/bin/gtkdoc-scangobj)
+Program gtkdoc-mkdb found: YES (/usr/bin/gtkdoc-mkdb)
+Program gtkdoc-mkhtml found: YES (/usr/bin/gtkdoc-mkhtml)
+Program gtkdoc-fixxref found: YES (/usr/bin/gtkdoc-fixxref)
+Build targets in project: 92
+
+grilo 0.3.19
+
+  User defined options
+    buildtype     : release
+    enable-gtk-doc: true
+    prefix        : /usr
+
+Found ninja-1.12.1 at /usr/bin/ninja
+[1/128] Building translation po/as/LC_MESSAGES/grilo-as.mo
+[2/128] Building translation po/ab/LC_MESSAGES/grilo-ab.mo
+[3/128] Building translation po/be/LC_MESSAGES/grilo-be.mo
+[4/128] Building translation po/bg/LC_MESSAGES/grilo-bg.mo
+[5/128] Building translation po/bs/LC_MESSAGES/grilo-bs.mo
+[6/128] Building translation po/ca/LC_MESSAGES/grilo-ca.mo
+[7/128] Generating glib marshaller header src/grl-marshal_h
+[8/128] Building translation po/ca@valencia/LC_MESSAGES/grilo-ca@valencia.mo
+[9/128] Building translation po/cs/LC_MESSAGES/grilo-cs.mo
+[10/128] Building translation po/da/LC_MESSAGES/grilo-da.mo
+[11/128] Building translation po/de/LC_MESSAGES/grilo-de.mo
+[12/128] Building translation po/el/LC_MESSAGES/grilo-el.mo
+[13/128] Building translation po/en_GB/LC_MESSAGES/grilo-en_GB.mo
+[14/128] Building translation po/eo/LC_MESSAGES/grilo-eo.mo
+[15/128] Building translation po/es/LC_MESSAGES/grilo-es.mo
+[16/128] Building translation po/eu/LC_MESSAGES/grilo-eu.mo
+[17/128] Building translation po/fa/LC_MESSAGES/grilo-fa.mo
+[18/128] Generating glib marshaller source src/grl-marshal_c
+[19/128] Building translation po/fi/LC_MESSAGES/grilo-fi.mo
+[20/128] Building translation po/fr/LC_MESSAGES/grilo-fr.mo
+[21/128] Building translation po/fur/LC_MESSAGES/grilo-fur.mo
+[22/128] Building translation po/he/LC_MESSAGES/grilo-he.mo
+[23/128] Building translation po/gl/LC_MESSAGES/grilo-gl.mo
+[24/128] Building translation po/hi/LC_MESSAGES/grilo-hi.mo
+[25/128] Building translation po/hr/LC_MESSAGES/grilo-hr.mo
+[26/128] Building translation po/hu/LC_MESSAGES/grilo-hu.mo
+[27/128] Building translation po/id/LC_MESSAGES/grilo-id.mo
+[28/128] Building translation po/ja/LC_MESSAGES/grilo-ja.mo
+[29/128] Building translation po/it/LC_MESSAGES/grilo-it.mo
+[30/128] Building translation po/ka/LC_MESSAGES/grilo-ka.mo
+[31/128] Building translation po/kab/LC_MESSAGES/grilo-kab.mo
+[32/128] Building translation po/lt/LC_MESSAGES/grilo-lt.mo
+[33/128] Building translation po/ko/LC_MESSAGES/grilo-ko.mo
+[34/128] Building translation po/lv/LC_MESSAGES/grilo-lv.mo
+[35/128] Compiling C object examples/loading-plugins.p/loading-plugins.c.o
+[36/128] Building translation po/ml/LC_MESSAGES/grilo-ml.mo
+[37/128] Compiling C object examples/configuring-plugins.p/configuring-plugins.c.o
+[38/128] Building translation po/ms/LC_MESSAGES/grilo-ms.mo
+[39/128] Building translation po/ne/LC_MESSAGES/grilo-ne.mo
+[40/128] Building translation po/nl/LC_MESSAGES/grilo-nl.mo
+[41/128] Building translation po/nb/LC_MESSAGES/grilo-nb.mo
+[42/128] Compiling C object examples/browsing.p/browsing.c.o
+[43/128] Compiling C object examples/multivalues.p/multivalues.c.o
+[44/128] Building translation po/oc/LC_MESSAGES/grilo-oc.mo
+[45/128] Compiling C object tests/autoptr.p/autoptr.c.o
+[46/128] Compiling C object examples/searching.p/searching.c.o
+[47/128] Generating GObject enum file src/grl-type-builtins.h (wrapped by meson to capture output)
+[48/128] Building translation po/pl/LC_MESSAGES/grilo-pl.mo
+[49/128] Building translation po/pt/LC_MESSAGES/grilo-pt.mo
+[50/128] Compiling C object examples/efficient-metadata-resolution.p/efficient-metadata-resolution.c.o
+[51/128] Building translation po/pt_BR/LC_MESSAGES/grilo-pt_BR.mo
+[52/128] Building translation po/ro/LC_MESSAGES/grilo-ro.mo
+[53/128] Building translation po/ru/LC_MESSAGES/grilo-ru.mo
+[54/128] Building translation po/sk/LC_MESSAGES/grilo-sk.mo
+[55/128] Building translation po/sl/LC_MESSAGES/grilo-sl.mo
+[56/128] Building translation po/sr/LC_MESSAGES/grilo-sr.mo
+[57/128] Building translation po/pa/LC_MESSAGES/grilo-pa.mo
+[58/128] Compiling C object tests/registry.p/registry.c.o
+[59/128] Compiling C object tests/operations.p/operations.c.o
+[60/128] Compiling C object examples/browsing-pls.p/browsing-pls.c.o
+[61/128] Compiling C object libs/net/libgrlnet-0.3.so.0.319.0.p/grl-net-mock.c.o
+[62/128] Compiling C object tools/grilo-inspect/grl-inspect-0.3.p/grl-inspect.c.o
+[63/128] Compiling C object src/libgrilo-0.3.so.0.319.1.p/meson-generated_.._grl-marshal.c.o
+[64/128] Compiling C object tests/lib-net.p/lib-net.c.o
+[65/128] Compiling C object src/libgrilo-0.3.so.0.319.1.p/grl-operation.c.o
+[66/128] Compiling C object src/libgrilo-0.3.so.0.319.1.p/grl-caps.c.o
+[67/128] Compiling C object tools/grilo-launch/grl-launch-0.3.p/grl-launch.c.o
+[68/128] Compiling C object src/libgrilo-0.3.so.0.319.1.p/grl-range-value.c.o
+[69/128] Compiling C object src/libgrilo-0.3.so.0.319.1.p/grl-sync.c.o
+[70/128] Compiling C object src/libgrilo-0.3.so.0.319.1.p/grilo.c.o
+[71/128] Building translation po/sv/LC_MESSAGES/grilo-sv.mo
+[72/128] Building translation po/tg/LC_MESSAGES/grilo-tg.mo
+[73/128] Building translation po/sr@latin/LC_MESSAGES/grilo-sr@latin.mo
+[74/128] Building translation po/th/LC_MESSAGES/grilo-th.mo
+[75/128] Building translation po/tr/LC_MESSAGES/grilo-tr.mo
+[76/128] Building translation po/uk/LC_MESSAGES/grilo-uk.mo
+[77/128] Building translation po/uz/LC_MESSAGES/grilo-uz.mo
+[78/128] Building translation po/zh_HK/LC_MESSAGES/grilo-zh_HK.mo
+[79/128] Building translation po/zh_TW/LC_MESSAGES/grilo-zh_TW.mo
+[80/128] Generating GObject enum file src/grl-type-builtins.c (wrapped by meson to capture output)
+[81/128] Building translation po/zh_CN/LC_MESSAGES/grilo-zh_CN.mo
+[82/128] Compiling C object tests/media.p/media.c.o
+[83/128] Compiling C object libs/net/libgrlnet-0.3.so.0.319.0.p/grl-net-wc.c.o
+[84/128] Compiling C object src/libgrilo-0.3.so.0.319.1.p/grl-log.c.o
+[85/128] Compiling C object src/libgrilo-0.3.so.0.319.1.p/grl-metadata-key.c.o
+[86/128] Compiling C object src/libgrilo-0.3.so.0.319.1.p/data_grl-config.c.o
+[87/128] Compiling C object src/libgrilo-0.3.so.0.319.1.p/grl-util.c.o
+[88/128] Compiling C object libs/pls/libgrlpls-0.3.so.0.319.0.p/grl-pls.c.o
+[89/128] Compiling C object src/libgrilo-0.3.so.0.319.1.p/grl-multiple.c.o
+[90/128] Compiling C object src/libgrilo-0.3.so.0.319.1.p/grl-plugin.c.o
+[91/128] Compiling C object src/libgrilo-0.3.so.0.319.1.p/grl-value-helper.c.o
+[92/128] Compiling C object src/libgrilo-0.3.so.0.319.1.p/data_grl-related-keys.c.o
+[93/128] Compiling C object src/libgrilo-0.3.so.0.319.1.p/grl-operation-options.c.o
+[94/128] Compiling C object src/libgrilo-0.3.so.0.319.1.p/meson-generated_.._grl-type-builtins.c.o
+[95/128] Compiling C object src/libgrilo-0.3.so.0.319.1.p/data_grl-data.c.o
+[96/128] Compiling C object tools/grilo-test-ui/grilo-test-ui-0.3.p/main.c.o
+[97/128] Compiling C object src/libgrilo-0.3.so.0.319.1.p/grl-registry.c.o
+[98/128] Compiling C object src/libgrilo-0.3.so.0.319.1.p/data_grl-media.c.o
+[99/128] Compiling C object src/libgrilo-0.3.so.0.319.1.p/grl-source.c.o
+[100/128] Linking target src/libgrilo-0.3.so.0.319.1
+[101/128] Generating symbol file src/libgrilo-0.3.so.0.319.1.p/libgrilo-0.3.so.0.319.1.symbols
+[102/128] Linking target tools/grilo-inspect/grl-inspect-0.3
+[103/128] Linking target examples/browsing
+[104/128] Linking target examples/multivalues
+[105/128] Linking target examples/searching
+[106/128] Linking target examples/configuring-plugins
+[107/128] Linking target libs/net/libgrlnet-0.3.so.0.319.0
+[108/128] Linking target tools/grilo-launch/grl-launch-0.3
+[109/128] Linking target libs/pls/libgrlpls-0.3.so.0.319.0
+[110/128] Linking target examples/loading-plugins
+[111/128] Linking target examples/efficient-metadata-resolution
+[112/128] Linking target tools/grilo-test-ui/grilo-test-ui-0.3
+[113/128] Generating symbol file libs/net/libgrlnet-0.3.so.0.319.0.p/libgrlnet-0.3.so.0.319.0.symbols
+[114/128] Generating symbol file libs/pls/libgrlpls-0.3.so.0.319.0.p/libgrlpls-0.3.so.0.319.0.symbols
+[115/128] Linking target tests/media
+[116/128] Linking target tests/operations
+[117/128] Linking target tests/registry
+[118/128] Linking target tests/lib-net
+[119/128] Linking target tests/autoptr
+[120/128] Linking target examples/browsing-pls
+[121/128] Generating libs/net/GrlNet-0.3.gir with a custom command (wrapped by meson to set env)
+../libs/net/grl-net-wc.h:70: Warning: GrlNet: symbol='GRL_IS_NET_WC': Unknown namespace for symbol 'GRL_IS_NET_WC'
+../libs/net/grl-net-wc.h:76: Warning: GrlNet: symbol='GRL_IS_NET_WC_CLASS': Unknown namespace for symbol 'GRL_IS_NET_WC_CLASS'
+../libs/net/grl-net-wc.h:117: Warning: GrlNet: Couldn't find 'request_with_headers_hash_finish' for the corresponding async function: 'request_with_headers_hash_async'
+../libs/net/grl-net-wc.h:124: Warning: GrlNet: Couldn't find 'request_with_headers_finish' for the corresponding async function: 'request_with_headers_async'
+[122/128] Generating src/Grl-0.3.gir with a custom command (wrapped by meson to set env)
+../src/grl-metadata-key.h:40: Warning: Grl: symbol='GRLPOINTER_TO_KEYID': Unknown namespace for symbol 'GRLPOINTER_TO_KEYID'
+../src/grl-metadata-key.h:41: Warning: Grl: symbol='GRLKEYID_TO_POINTER': Unknown namespace for symbol 'GRLKEYID_TO_POINTER'
+../src/grl-metadata-key.h:61: Warning: Grl: symbol='g_value_get_grl_key_id': Skipping foreign symbol from namespace Gio
+../src/grl-metadata-key.h:62: Warning: Grl: symbol='g_value_set_grl_key_id': Skipping foreign symbol from namespace Gio
+[123/128] Generating libs/net/GrlNet-0.3.typelib with a custom command
+[124/128] Generating bindings/vala/grilo-net-0.3.vapi with a custom command
+Soup-3.0.gir:38.7-38.40: warning: Creation method of abstract class cannot be public.
+Soup-3.0.gir:1010.7-1010.21: warning: Virtual method `Soup.AuthDomain.accepts' conflicts with method of the same name
+[125/128] Generating bindings/vala/grilo-0.3.vapi with a custom command
+[126/128] Generating src/Grl-0.3.typelib with a custom command
+[127/128] Generating libs/pls/GrlPls-0.3.gir with a custom command (wrapped by meson to set env)
+[128/128] Generating libs/pls/GrlPls-0.3.typelib with a custom command
+[0/1] Installing files
+Installing src/libgrilo-0.3.so.0.319.1 to /usr/lib
+Installing src/Grl-0.3.gir to /usr/share/gir-1.0
+Installing src/Grl-0.3.typelib to /usr/lib/girepository-1.0
+Installing libs/net/libgrlnet-0.3.so.0.319.0 to /usr/lib
+Installing libs/net/GrlNet-0.3.gir to /usr/share/gir-1.0
+Installing libs/net/GrlNet-0.3.typelib to /usr/lib/girepository-1.0
+Installing libs/pls/libgrlpls-0.3.so.0.319.0 to /usr/lib
+Installing libs/pls/GrlPls-0.3.gir to /usr/share/gir-1.0
+Installing libs/pls/GrlPls-0.3.typelib to /usr/lib/girepository-1.0
+Installing bindings/vala/grilo-0.3.vapi to /usr/share/vala/vapi
+Installing bindings/vala/grilo-net-0.3.vapi to /usr/share/vala/vapi
+Installing po/ab/LC_MESSAGES/grilo.mo to /usr/share/locale/ab/LC_MESSAGES
+Installing po/as/LC_MESSAGES/grilo.mo to /usr/share/locale/as/LC_MESSAGES
+Installing po/be/LC_MESSAGES/grilo.mo to /usr/share/locale/be/LC_MESSAGES
+Installing po/bg/LC_MESSAGES/grilo.mo to /usr/share/locale/bg/LC_MESSAGES
+Installing po/bs/LC_MESSAGES/grilo.mo to /usr/share/locale/bs/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/grilo.mo to /usr/share/locale/ca/LC_MESSAGES
+Installing po/ca@valencia/LC_MESSAGES/grilo.mo to /usr/share/locale/ca@valencia/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/grilo.mo to /usr/share/locale/cs/LC_MESSAGES
+Installing po/da/LC_MESSAGES/grilo.mo to /usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/grilo.mo to /usr/share/locale/de/LC_MESSAGES
+Installing po/el/LC_MESSAGES/grilo.mo to /usr/share/locale/el/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/grilo.mo to /usr/share/locale/en_GB/LC_MESSAGES
+Installing po/eo/LC_MESSAGES/grilo.mo to /usr/share/locale/eo/LC_MESSAGES
+Installing po/es/LC_MESSAGES/grilo.mo to /usr/share/locale/es/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/grilo.mo to /usr/share/locale/eu/LC_MESSAGES
+Installing po/fa/LC_MESSAGES/grilo.mo to /usr/share/locale/fa/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/grilo.mo to /usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/grilo.mo to /usr/share/locale/fr/LC_MESSAGES
+Installing po/fur/LC_MESSAGES/grilo.mo to /usr/share/locale/fur/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/grilo.mo to /usr/share/locale/gl/LC_MESSAGES
+Installing po/he/LC_MESSAGES/grilo.mo to /usr/share/locale/he/LC_MESSAGES
+Installing po/hi/LC_MESSAGES/grilo.mo to /usr/share/locale/hi/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/grilo.mo to /usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/grilo.mo to /usr/share/locale/hu/LC_MESSAGES
+Installing po/id/LC_MESSAGES/grilo.mo to /usr/share/locale/id/LC_MESSAGES
+Installing po/it/LC_MESSAGES/grilo.mo to /usr/share/locale/it/LC_MESSAGES
+Installing po/ja/LC_MESSAGES/grilo.mo to /usr/share/locale/ja/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/grilo.mo to /usr/share/locale/ka/LC_MESSAGES
+Installing po/kab/LC_MESSAGES/grilo.mo to /usr/share/locale/kab/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/grilo.mo to /usr/share/locale/ko/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/grilo.mo to /usr/share/locale/lt/LC_MESSAGES
+Installing po/lv/LC_MESSAGES/grilo.mo to /usr/share/locale/lv/LC_MESSAGES
+Installing po/ml/LC_MESSAGES/grilo.mo to /usr/share/locale/ml/LC_MESSAGES
+Installing po/ms/LC_MESSAGES/grilo.mo to /usr/share/locale/ms/LC_MESSAGES
+Installing po/ne/LC_MESSAGES/grilo.mo to /usr/share/locale/ne/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/grilo.mo to /usr/share/locale/nl/LC_MESSAGES
+Installing po/nb/LC_MESSAGES/grilo.mo to /usr/share/locale/nb/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/grilo.mo to /usr/share/locale/oc/LC_MESSAGES
+Installing po/pa/LC_MESSAGES/grilo.mo to /usr/share/locale/pa/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/grilo.mo to /usr/share/locale/pl/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/grilo.mo to /usr/share/locale/pt/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/grilo.mo to /usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/grilo.mo to /usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/grilo.mo to /usr/share/locale/ru/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/grilo.mo to /usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/grilo.mo to /usr/share/locale/sl/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/grilo.mo to /usr/share/locale/sr/LC_MESSAGES
+Installing po/sr@latin/LC_MESSAGES/grilo.mo to /usr/share/locale/sr@latin/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/grilo.mo to /usr/share/locale/sv/LC_MESSAGES
+Installing po/tg/LC_MESSAGES/grilo.mo to /usr/share/locale/tg/LC_MESSAGES
+Installing po/th/LC_MESSAGES/grilo.mo to /usr/share/locale/th/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/grilo.mo to /usr/share/locale/tr/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/grilo.mo to /usr/share/locale/uk/LC_MESSAGES
+Installing po/uz/LC_MESSAGES/grilo.mo to /usr/share/locale/uz/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/grilo.mo to /usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_HK/LC_MESSAGES/grilo.mo to /usr/share/locale/zh_HK/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/grilo.mo to /usr/share/locale/zh_TW/LC_MESSAGES
+Installing tools/grilo-inspect/grl-inspect-0.3 to /usr/bin
+Installing tools/grilo-launch/grl-launch-0.3 to /usr/bin
+Installing tools/grilo-test-ui/grilo-test-ui-0.3 to /usr/bin
+Installing /blfs/builds/grilo-0.3.19/src/data/grl-config.h to /usr/include/grilo-0.3
+Installing /blfs/builds/grilo-0.3.19/src/data/grl-data.h to /usr/include/grilo-0.3
+Installing /blfs/builds/grilo-0.3.19/src/data/grl-media.h to /usr/include/grilo-0.3
+Installing /blfs/builds/grilo-0.3.19/src/data/grl-related-keys.h to /usr/include/grilo-0.3
+Installing /blfs/builds/grilo-0.3.19/src/grilo.h to /usr/include/grilo-0.3
+Installing /blfs/builds/grilo-0.3.19/src/grl-caps.h to /usr/include/grilo-0.3
+Installing /blfs/builds/grilo-0.3.19/src/grl-definitions.h to /usr/include/grilo-0.3
+Installing /blfs/builds/grilo-0.3.19/src/grl-error.h to /usr/include/grilo-0.3
+Installing /blfs/builds/grilo-0.3.19/src/grl-log.h to /usr/include/grilo-0.3
+Installing /blfs/builds/grilo-0.3.19/src/grl-metadata-key.h to /usr/include/grilo-0.3
+Installing /blfs/builds/grilo-0.3.19/src/grl-multiple.h to /usr/include/grilo-0.3
+Installing /blfs/builds/grilo-0.3.19/src/grl-operation-options.h to /usr/include/grilo-0.3
+Installing /blfs/builds/grilo-0.3.19/src/grl-operation.h to /usr/include/grilo-0.3
+Installing /blfs/builds/grilo-0.3.19/src/grl-plugin.h to /usr/include/grilo-0.3
+Installing /blfs/builds/grilo-0.3.19/src/grl-range-value.h to /usr/include/grilo-0.3
+Installing /blfs/builds/grilo-0.3.19/src/grl-registry.h to /usr/include/grilo-0.3
+Installing /blfs/builds/grilo-0.3.19/src/grl-source.h to /usr/include/grilo-0.3
+Installing /blfs/builds/grilo-0.3.19/src/grl-util.h to /usr/include/grilo-0.3
+Installing /blfs/builds/grilo-0.3.19/src/grl-value-helper.h to /usr/include/grilo-0.3
+Installing /blfs/builds/grilo-0.3.19/libs/net/grl-net.h to /usr/include/grilo-0.3/net
+Installing /blfs/builds/grilo-0.3.19/libs/net/grl-net-wc.h to /usr/include/grilo-0.3/net
+Installing /blfs/builds/grilo-0.3.19/libs/pls/grl-pls.h to /usr/include/grilo-0.3/pls
+Installing /blfs/builds/grilo-0.3.19/doc/man/grilo-test-ui-0.3.1 to /usr/share/man/man1
+Installing /blfs/builds/grilo-0.3.19/doc/man/grl-inspect-0.3.1 to /usr/share/man/man1
+Installing /blfs/builds/grilo-0.3.19/doc/man/grl-launch-0.3.1 to /usr/share/man/man1
+Installing /blfs/builds/grilo-0.3.19/build/meson-private/grilo-0.3.pc to /usr/lib/pkgconfig
+Installing /blfs/builds/grilo-0.3.19/build/meson-private/grilo-net-0.3.pc to /usr/lib/pkgconfig
+Installing /blfs/builds/grilo-0.3.19/build/meson-private/grilo-pls-0.3.pc to /usr/lib/pkgconfig
+Installing /blfs/builds/grilo-0.3.19/build/meson-private/grilo-0.3.deps to /usr/share/vala/vapi
+Installing /blfs/builds/grilo-0.3.19/build/meson-private/grilo-net-0.3.deps to /usr/share/vala/vapi
+Installing symlink pointing to libgrilo-0.3.so.0.319.1 to /usr/lib/libgrilo-0.3.so.0
+Installing symlink pointing to libgrilo-0.3.so.0 to /usr/lib/libgrilo-0.3.so
+Installing symlink pointing to libgrlnet-0.3.so.0.319.0 to /usr/lib/libgrlnet-0.3.so.0
+Installing symlink pointing to libgrlnet-0.3.so.0 to /usr/lib/libgrlnet-0.3.so
+Installing symlink pointing to libgrlpls-0.3.so.0.319.0 to /usr/lib/libgrlpls-0.3.so.0
+Installing symlink pointing to libgrlpls-0.3.so.0 to /usr/lib/libgrlpls-0.3.so
+Running custom install script '/usr/bin/meson --internal gtkdoc --sourcedir=/blfs/builds/grilo-0.3.19 --builddir=/blfs/builds/grilo-0.3.19/build --subdir=doc/grilo --headerdirs=/blfs/builds/grilo-0.3.19/src@@/blfs/builds/grilo-0.3.19/libs --mainfile=grilo-docs.sgml --modulename=grilo --moduleversion= --mode=auto --gtkdoc-scan=/usr/bin/gtkdoc-scan --gtkdoc-scangobj=/usr/bin/gtkdoc-scangobj --gtkdoc-mkdb=/usr/bin/gtkdoc-mkdb --gtkdoc-mkhtml=/usr/bin/gtkdoc-mkhtml --gtkdoc-fixxref=/usr/bin/gtkdoc-fixxref --htmlargs= --scanargs=--ignore-headers=grl-sync-priv.h grl-sync-priv.h grl-log-priv.h grl-metadata-key-priv.h grl-registry-priv.h grl-plugin-priv.h grl-operation-priv.h grl-operation-options-priv.h --scanobjsargs= --gobjects-types-file=/blfs/builds/grilo-0.3.19/build/doc/grilo/grilo.types --fixxrefargs= --mkdbargs= --html-assets= --content-files=/blfs/builds/grilo-0.3.19/doc/grilo/environment-setup.xml@@/blfs/builds/grilo-0.3.19/doc/grilo/plugins-sources.xml@@/blfs/builds/grilo-0.3.19/doc/grilo/plugins-testing.xml@@/blfs/builds/grilo-0.3.19/doc/grilo/quick-start.xml@@/blfs/builds/grilo-0.3.19/doc/grilo/writing-apps.xml@@/blfs/builds/grilo-0.3.19/doc/grilo/overview.xml@@/blfs/builds/grilo-0.3.19/examples/configuring-plugins.c@@/blfs/builds/grilo-0.3.19/examples/browsing.c@@/blfs/builds/grilo-0.3.19/examples/searching.c@@/blfs/builds/grilo-0.3.19/examples/multivalues.c@@/blfs/builds/grilo-0.3.19/examples/efficient-metadata-resolution.c --expand-content-files= --ignore-headers= --installdir= --cc=cc --ld=cc --cflags=-I/blfs/builds/grilo-0.3.19/src/. -I/blfs/builds/grilo-0.3.19/build/src/. -I/blfs/builds/grilo-0.3.19/src/data -I/blfs/builds/grilo-0.3.19/build/src/data -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sysprof-6 -pthread -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/libxml2 -O2 --ldflags=-L/blfs/builds/grilo-0.3.19/build/src -Wl,-rpath,/blfs/builds/grilo-0.3.19/build/src -lgrilo-0.3 -lglib-2.0 -lgobject-2.0 -lgmodule-2.0 -pthread -lgio-2.0 -lxml2 -O2'
+[0/1] Installing files
+Installing src/libgrilo-0.3.so.0.319.1 to /pkgs/grilo/usr/lib
+Installing src/Grl-0.3.gir to /pkgs/grilo/usr/share/gir-1.0
+Installing src/Grl-0.3.typelib to /pkgs/grilo/usr/lib/girepository-1.0
+Installing libs/net/libgrlnet-0.3.so.0.319.0 to /pkgs/grilo/usr/lib
+Installing libs/net/GrlNet-0.3.gir to /pkgs/grilo/usr/share/gir-1.0
+Installing libs/net/GrlNet-0.3.typelib to /pkgs/grilo/usr/lib/girepository-1.0
+Installing libs/pls/libgrlpls-0.3.so.0.319.0 to /pkgs/grilo/usr/lib
+Installing libs/pls/GrlPls-0.3.gir to /pkgs/grilo/usr/share/gir-1.0
+Installing libs/pls/GrlPls-0.3.typelib to /pkgs/grilo/usr/lib/girepository-1.0
+Installing bindings/vala/grilo-0.3.vapi to /pkgs/grilo/usr/share/vala/vapi
+Installing bindings/vala/grilo-net-0.3.vapi to /pkgs/grilo/usr/share/vala/vapi
+Installing po/ab/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/ab/LC_MESSAGES
+Installing po/as/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/as/LC_MESSAGES
+Installing po/be/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/be/LC_MESSAGES
+Installing po/bg/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/bg/LC_MESSAGES
+Installing po/bs/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/bs/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/ca/LC_MESSAGES
+Installing po/ca@valencia/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/ca@valencia/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/cs/LC_MESSAGES
+Installing po/da/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/de/LC_MESSAGES
+Installing po/el/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/el/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/en_GB/LC_MESSAGES
+Installing po/eo/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/eo/LC_MESSAGES
+Installing po/es/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/es/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/eu/LC_MESSAGES
+Installing po/fa/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/fa/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/fr/LC_MESSAGES
+Installing po/fur/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/fur/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/gl/LC_MESSAGES
+Installing po/he/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/he/LC_MESSAGES
+Installing po/hi/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/hi/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/hu/LC_MESSAGES
+Installing po/id/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/id/LC_MESSAGES
+Installing po/it/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/it/LC_MESSAGES
+Installing po/ja/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/ja/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/ka/LC_MESSAGES
+Installing po/kab/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/kab/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/ko/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/lt/LC_MESSAGES
+Installing po/lv/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/lv/LC_MESSAGES
+Installing po/ml/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/ml/LC_MESSAGES
+Installing po/ms/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/ms/LC_MESSAGES
+Installing po/ne/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/ne/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/nl/LC_MESSAGES
+Installing po/nb/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/nb/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/oc/LC_MESSAGES
+Installing po/pa/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/pa/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/pl/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/pt/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/ru/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/sl/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/sr/LC_MESSAGES
+Installing po/sr@latin/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/sr@latin/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/sv/LC_MESSAGES
+Installing po/tg/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/tg/LC_MESSAGES
+Installing po/th/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/th/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/tr/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/uk/LC_MESSAGES
+Installing po/uz/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/uz/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_HK/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/zh_HK/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/grilo.mo to /pkgs/grilo/usr/share/locale/zh_TW/LC_MESSAGES
+Installing tools/grilo-inspect/grl-inspect-0.3 to /pkgs/grilo/usr/bin
+Installing tools/grilo-launch/grl-launch-0.3 to /pkgs/grilo/usr/bin
+Installing tools/grilo-test-ui/grilo-test-ui-0.3 to /pkgs/grilo/usr/bin
+Installing /blfs/builds/grilo-0.3.19/src/data/grl-config.h to /pkgs/grilo/usr/include/grilo-0.3
+Installing /blfs/builds/grilo-0.3.19/src/data/grl-data.h to /pkgs/grilo/usr/include/grilo-0.3
+Installing /blfs/builds/grilo-0.3.19/src/data/grl-media.h to /pkgs/grilo/usr/include/grilo-0.3
+Installing /blfs/builds/grilo-0.3.19/src/data/grl-related-keys.h to /pkgs/grilo/usr/include/grilo-0.3
+Installing /blfs/builds/grilo-0.3.19/src/grilo.h to /pkgs/grilo/usr/include/grilo-0.3
+Installing /blfs/builds/grilo-0.3.19/src/grl-caps.h to /pkgs/grilo/usr/include/grilo-0.3
+Installing /blfs/builds/grilo-0.3.19/src/grl-definitions.h to /pkgs/grilo/usr/include/grilo-0.3
+Installing /blfs/builds/grilo-0.3.19/src/grl-error.h to /pkgs/grilo/usr/include/grilo-0.3
+Installing /blfs/builds/grilo-0.3.19/src/grl-log.h to /pkgs/grilo/usr/include/grilo-0.3
+Installing /blfs/builds/grilo-0.3.19/src/grl-metadata-key.h to /pkgs/grilo/usr/include/grilo-0.3
+Installing /blfs/builds/grilo-0.3.19/src/grl-multiple.h to /pkgs/grilo/usr/include/grilo-0.3
+Installing /blfs/builds/grilo-0.3.19/src/grl-operation-options.h to /pkgs/grilo/usr/include/grilo-0.3
+Installing /blfs/builds/grilo-0.3.19/src/grl-operation.h to /pkgs/grilo/usr/include/grilo-0.3
+Installing /blfs/builds/grilo-0.3.19/src/grl-plugin.h to /pkgs/grilo/usr/include/grilo-0.3
+Installing /blfs/builds/grilo-0.3.19/src/grl-range-value.h to /pkgs/grilo/usr/include/grilo-0.3
+Installing /blfs/builds/grilo-0.3.19/src/grl-registry.h to /pkgs/grilo/usr/include/grilo-0.3
+Installing /blfs/builds/grilo-0.3.19/src/grl-source.h to /pkgs/grilo/usr/include/grilo-0.3
+Installing /blfs/builds/grilo-0.3.19/src/grl-util.h to /pkgs/grilo/usr/include/grilo-0.3
+Installing /blfs/builds/grilo-0.3.19/src/grl-value-helper.h to /pkgs/grilo/usr/include/grilo-0.3
+Installing /blfs/builds/grilo-0.3.19/libs/net/grl-net.h to /pkgs/grilo/usr/include/grilo-0.3/net
+Installing /blfs/builds/grilo-0.3.19/libs/net/grl-net-wc.h to /pkgs/grilo/usr/include/grilo-0.3/net
+Installing /blfs/builds/grilo-0.3.19/libs/pls/grl-pls.h to /pkgs/grilo/usr/include/grilo-0.3/pls
+Installing /blfs/builds/grilo-0.3.19/doc/man/grilo-test-ui-0.3.1 to /pkgs/grilo/usr/share/man/man1
+Installing /blfs/builds/grilo-0.3.19/doc/man/grl-inspect-0.3.1 to /pkgs/grilo/usr/share/man/man1
+Installing /blfs/builds/grilo-0.3.19/doc/man/grl-launch-0.3.1 to /pkgs/grilo/usr/share/man/man1
+Installing /blfs/builds/grilo-0.3.19/build/meson-private/grilo-0.3.pc to /pkgs/grilo/usr/lib/pkgconfig
+Installing /blfs/builds/grilo-0.3.19/build/meson-private/grilo-net-0.3.pc to /pkgs/grilo/usr/lib/pkgconfig
+Installing /blfs/builds/grilo-0.3.19/build/meson-private/grilo-pls-0.3.pc to /pkgs/grilo/usr/lib/pkgconfig
+Installing /blfs/builds/grilo-0.3.19/build/meson-private/grilo-0.3.deps to /pkgs/grilo/usr/share/vala/vapi
+Installing /blfs/builds/grilo-0.3.19/build/meson-private/grilo-net-0.3.deps to /pkgs/grilo/usr/share/vala/vapi
+Installing symlink pointing to libgrilo-0.3.so.0.319.1 to /pkgs/grilo/usr/lib/libgrilo-0.3.so.0
+Installing symlink pointing to libgrilo-0.3.so.0 to /pkgs/grilo/usr/lib/libgrilo-0.3.so
+Installing symlink pointing to libgrlnet-0.3.so.0.319.0 to /pkgs/grilo/usr/lib/libgrlnet-0.3.so.0
+Installing symlink pointing to libgrlnet-0.3.so.0 to /pkgs/grilo/usr/lib/libgrlnet-0.3.so
+Installing symlink pointing to libgrlpls-0.3.so.0.319.0 to /pkgs/grilo/usr/lib/libgrlpls-0.3.so.0
+Installing symlink pointing to libgrlpls-0.3.so.0 to /pkgs/grilo/usr/lib/libgrlpls-0.3.so
+Running custom install script '/usr/bin/meson --internal gtkdoc --sourcedir=/blfs/builds/grilo-0.3.19 --builddir=/blfs/builds/grilo-0.3.19/build --subdir=doc/grilo --headerdirs=/blfs/builds/grilo-0.3.19/src@@/blfs/builds/grilo-0.3.19/libs --mainfile=grilo-docs.sgml --modulename=grilo --moduleversion= --mode=auto --gtkdoc-scan=/usr/bin/gtkdoc-scan --gtkdoc-scangobj=/usr/bin/gtkdoc-scangobj --gtkdoc-mkdb=/usr/bin/gtkdoc-mkdb --gtkdoc-mkhtml=/usr/bin/gtkdoc-mkhtml --gtkdoc-fixxref=/usr/bin/gtkdoc-fixxref --htmlargs= --scanargs=--ignore-headers=grl-sync-priv.h grl-sync-priv.h grl-log-priv.h grl-metadata-key-priv.h grl-registry-priv.h grl-plugin-priv.h grl-operation-priv.h grl-operation-options-priv.h --scanobjsargs= --gobjects-types-file=/blfs/builds/grilo-0.3.19/build/doc/grilo/grilo.types --fixxrefargs= --mkdbargs= --html-assets= --content-files=/blfs/builds/grilo-0.3.19/doc/grilo/environment-setup.xml@@/blfs/builds/grilo-0.3.19/doc/grilo/plugins-sources.xml@@/blfs/builds/grilo-0.3.19/doc/grilo/plugins-testing.xml@@/blfs/builds/grilo-0.3.19/doc/grilo/quick-start.xml@@/blfs/builds/grilo-0.3.19/doc/grilo/writing-apps.xml@@/blfs/builds/grilo-0.3.19/doc/grilo/overview.xml@@/blfs/builds/grilo-0.3.19/examples/configuring-plugins.c@@/blfs/builds/grilo-0.3.19/examples/browsing.c@@/blfs/builds/grilo-0.3.19/examples/searching.c@@/blfs/builds/grilo-0.3.19/examples/multivalues.c@@/blfs/builds/grilo-0.3.19/examples/efficient-metadata-resolution.c --expand-content-files= --ignore-headers= --installdir= --cc=cc --ld=cc --cflags=-I/blfs/builds/grilo-0.3.19/src/. -I/blfs/builds/grilo-0.3.19/build/src/. -I/blfs/builds/grilo-0.3.19/src/data -I/blfs/builds/grilo-0.3.19/build/src/data -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sysprof-6 -pthread -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/libxml2 -O2 --ldflags=-L/blfs/builds/grilo-0.3.19/build/src -Wl,-rpath,/blfs/builds/grilo-0.3.19/build/src -lgrilo-0.3 -lglib-2.0 -lgobject-2.0 -lgmodule-2.0 -pthread -lgio-2.0 -lxml2 -O2'
+grilo/
+grilo/usr/
+grilo/usr/share/
+grilo/usr/share/vala/
+grilo/usr/share/vala/vapi/
+grilo/usr/share/vala/vapi/grilo-net-0.3.vapi
+grilo/usr/share/vala/vapi/grilo-0.3.deps
+grilo/usr/share/vala/vapi/grilo-net-0.3.deps
+grilo/usr/share/vala/vapi/grilo-0.3.vapi
+grilo/usr/share/locale/
+grilo/usr/share/locale/zh_HK/
+grilo/usr/share/locale/zh_HK/LC_MESSAGES/
+grilo/usr/share/locale/zh_HK/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/be/
+grilo/usr/share/locale/be/LC_MESSAGES/
+grilo/usr/share/locale/be/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/ca/
+grilo/usr/share/locale/ca/LC_MESSAGES/
+grilo/usr/share/locale/ca/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/eu/
+grilo/usr/share/locale/eu/LC_MESSAGES/
+grilo/usr/share/locale/eu/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/en_GB/
+grilo/usr/share/locale/en_GB/LC_MESSAGES/
+grilo/usr/share/locale/en_GB/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/uk/
+grilo/usr/share/locale/uk/LC_MESSAGES/
+grilo/usr/share/locale/uk/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/it/
+grilo/usr/share/locale/it/LC_MESSAGES/
+grilo/usr/share/locale/it/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/he/
+grilo/usr/share/locale/he/LC_MESSAGES/
+grilo/usr/share/locale/he/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/de/
+grilo/usr/share/locale/de/LC_MESSAGES/
+grilo/usr/share/locale/de/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/pt/
+grilo/usr/share/locale/pt/LC_MESSAGES/
+grilo/usr/share/locale/pt/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/es/
+grilo/usr/share/locale/es/LC_MESSAGES/
+grilo/usr/share/locale/es/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/fur/
+grilo/usr/share/locale/fur/LC_MESSAGES/
+grilo/usr/share/locale/fur/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/ne/
+grilo/usr/share/locale/ne/LC_MESSAGES/
+grilo/usr/share/locale/ne/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/bs/
+grilo/usr/share/locale/bs/LC_MESSAGES/
+grilo/usr/share/locale/bs/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/da/
+grilo/usr/share/locale/da/LC_MESSAGES/
+grilo/usr/share/locale/da/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/zh_CN/
+grilo/usr/share/locale/zh_CN/LC_MESSAGES/
+grilo/usr/share/locale/zh_CN/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/ml/
+grilo/usr/share/locale/ml/LC_MESSAGES/
+grilo/usr/share/locale/ml/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/ko/
+grilo/usr/share/locale/ko/LC_MESSAGES/
+grilo/usr/share/locale/ko/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/pa/
+grilo/usr/share/locale/pa/LC_MESSAGES/
+grilo/usr/share/locale/pa/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/kab/
+grilo/usr/share/locale/kab/LC_MESSAGES/
+grilo/usr/share/locale/kab/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/nb/
+grilo/usr/share/locale/nb/LC_MESSAGES/
+grilo/usr/share/locale/nb/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/hr/
+grilo/usr/share/locale/hr/LC_MESSAGES/
+grilo/usr/share/locale/hr/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/sr/
+grilo/usr/share/locale/sr/LC_MESSAGES/
+grilo/usr/share/locale/sr/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/uz/
+grilo/usr/share/locale/uz/LC_MESSAGES/
+grilo/usr/share/locale/uz/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/pt_BR/
+grilo/usr/share/locale/pt_BR/LC_MESSAGES/
+grilo/usr/share/locale/pt_BR/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/tr/
+grilo/usr/share/locale/tr/LC_MESSAGES/
+grilo/usr/share/locale/tr/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/ca@valencia/
+grilo/usr/share/locale/ca@valencia/LC_MESSAGES/
+grilo/usr/share/locale/ca@valencia/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/fa/
+grilo/usr/share/locale/fa/LC_MESSAGES/
+grilo/usr/share/locale/fa/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/sk/
+grilo/usr/share/locale/sk/LC_MESSAGES/
+grilo/usr/share/locale/sk/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/hi/
+grilo/usr/share/locale/hi/LC_MESSAGES/
+grilo/usr/share/locale/hi/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/ms/
+grilo/usr/share/locale/ms/LC_MESSAGES/
+grilo/usr/share/locale/ms/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/gl/
+grilo/usr/share/locale/gl/LC_MESSAGES/
+grilo/usr/share/locale/gl/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/pl/
+grilo/usr/share/locale/pl/LC_MESSAGES/
+grilo/usr/share/locale/pl/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/sl/
+grilo/usr/share/locale/sl/LC_MESSAGES/
+grilo/usr/share/locale/sl/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/fi/
+grilo/usr/share/locale/fi/LC_MESSAGES/
+grilo/usr/share/locale/fi/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/zh_TW/
+grilo/usr/share/locale/zh_TW/LC_MESSAGES/
+grilo/usr/share/locale/zh_TW/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/nl/
+grilo/usr/share/locale/nl/LC_MESSAGES/
+grilo/usr/share/locale/nl/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/oc/
+grilo/usr/share/locale/oc/LC_MESSAGES/
+grilo/usr/share/locale/oc/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/ka/
+grilo/usr/share/locale/ka/LC_MESSAGES/
+grilo/usr/share/locale/ka/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/tg/
+grilo/usr/share/locale/tg/LC_MESSAGES/
+grilo/usr/share/locale/tg/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/as/
+grilo/usr/share/locale/as/LC_MESSAGES/
+grilo/usr/share/locale/as/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/fr/
+grilo/usr/share/locale/fr/LC_MESSAGES/
+grilo/usr/share/locale/fr/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/sr@latin/
+grilo/usr/share/locale/sr@latin/LC_MESSAGES/
+grilo/usr/share/locale/sr@latin/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/eo/
+grilo/usr/share/locale/eo/LC_MESSAGES/
+grilo/usr/share/locale/eo/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/ro/
+grilo/usr/share/locale/ro/LC_MESSAGES/
+grilo/usr/share/locale/ro/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/lt/
+grilo/usr/share/locale/lt/LC_MESSAGES/
+grilo/usr/share/locale/lt/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/cs/
+grilo/usr/share/locale/cs/LC_MESSAGES/
+grilo/usr/share/locale/cs/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/sv/
+grilo/usr/share/locale/sv/LC_MESSAGES/
+grilo/usr/share/locale/sv/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/el/
+grilo/usr/share/locale/el/LC_MESSAGES/
+grilo/usr/share/locale/el/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/ja/
+grilo/usr/share/locale/ja/LC_MESSAGES/
+grilo/usr/share/locale/ja/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/id/
+grilo/usr/share/locale/id/LC_MESSAGES/
+grilo/usr/share/locale/id/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/hu/
+grilo/usr/share/locale/hu/LC_MESSAGES/
+grilo/usr/share/locale/hu/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/bg/
+grilo/usr/share/locale/bg/LC_MESSAGES/
+grilo/usr/share/locale/bg/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/ru/
+grilo/usr/share/locale/ru/LC_MESSAGES/
+grilo/usr/share/locale/ru/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/lv/
+grilo/usr/share/locale/lv/LC_MESSAGES/
+grilo/usr/share/locale/lv/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/ab/
+grilo/usr/share/locale/ab/LC_MESSAGES/
+grilo/usr/share/locale/ab/LC_MESSAGES/grilo.mo
+grilo/usr/share/locale/th/
+grilo/usr/share/locale/th/LC_MESSAGES/
+grilo/usr/share/locale/th/LC_MESSAGES/grilo.mo
+grilo/usr/share/gtk-doc/
+grilo/usr/share/gtk-doc/html/
+grilo/usr/share/gtk-doc/html/grilo/
+grilo/usr/share/gtk-doc/html/grilo/rn04.html
+grilo/usr/share/gtk-doc/html/grilo/grilo-pls.html
+grilo/usr/share/gtk-doc/html/grilo/plugin-management.html
+grilo/usr/share/gtk-doc/html/grilo/rn01.html
+grilo/usr/share/gtk-doc/html/grilo/sources.html
+grilo/usr/share/gtk-doc/html/grilo/GrlConfig.html
+grilo/usr/share/gtk-doc/html/grilo/ch02.html
+grilo/usr/share/gtk-doc/html/grilo/left-insensitive.png
+grilo/usr/share/gtk-doc/html/grilo/index.html
+grilo/usr/share/gtk-doc/html/grilo/home.png
+grilo/usr/share/gtk-doc/html/grilo/ch01.html
+grilo/usr/share/gtk-doc/html/grilo/caps-options.html
+grilo/usr/share/gtk-doc/html/grilo/api-index-full.html
+grilo/usr/share/gtk-doc/html/grilo/style.css
+grilo/usr/share/gtk-doc/html/grilo/configure.html
+grilo/usr/share/gtk-doc/html/grilo/rn02.html
+grilo/usr/share/gtk-doc/html/grilo/grilo-GrlPls.html
+grilo/usr/share/gtk-doc/html/grilo/grilo.devhelp2
+grilo/usr/share/gtk-doc/html/grilo/multiple.html
+grilo/usr/share/gtk-doc/html/grilo/grilo-grl-log.html
+grilo/usr/share/gtk-doc/html/grilo/right.png
+grilo/usr/share/gtk-doc/html/grilo/GrlRegistry.html
+grilo/usr/share/gtk-doc/html/grilo/annotation-glossary.html
+grilo/usr/share/gtk-doc/html/grilo/GrlCaps.html
+grilo/usr/share/gtk-doc/html/grilo/data.html
+grilo/usr/share/gtk-doc/html/grilo/up.png
+grilo/usr/share/gtk-doc/html/grilo/rn03.html
+grilo/usr/share/gtk-doc/html/grilo/grilo-grl-operation.html
+grilo/usr/share/gtk-doc/html/grilo/grilo-Multiple.html
+grilo/usr/share/gtk-doc/html/grilo/misc.html
+grilo/usr/share/gtk-doc/html/grilo/grilo-grl-error.html
+grilo/usr/share/gtk-doc/html/grilo/GrlData.html
+grilo/usr/share/gtk-doc/html/grilo/GrlSource.html
+grilo/usr/share/gtk-doc/html/grilo/grilo-grl-util.html
+grilo/usr/share/gtk-doc/html/grilo/pr01.html
+grilo/usr/share/gtk-doc/html/grilo/ch04.html
+grilo/usr/share/gtk-doc/html/grilo/GrlRelatedKeys.html
+grilo/usr/share/gtk-doc/html/grilo/up-insensitive.png
+grilo/usr/share/gtk-doc/html/grilo/GrlMedia.html
+grilo/usr/share/gtk-doc/html/grilo/left.png
+grilo/usr/share/gtk-doc/html/grilo/GrlOperationOptions.html
+grilo/usr/share/gtk-doc/html/grilo/grilo-grl-metadata-key.html
+grilo/usr/share/gtk-doc/html/grilo/grilo-grl-definitions.html
+grilo/usr/share/gtk-doc/html/grilo/grilo-grilo.html
+grilo/usr/share/gtk-doc/html/grilo/grilo-GrlNetWc.html
+grilo/usr/share/gtk-doc/html/grilo/ch03.html
+grilo/usr/share/gtk-doc/html/grilo/GrlPlugin.html
+grilo/usr/share/gtk-doc/html/grilo/grilo-net.html
+grilo/usr/share/gtk-doc/html/grilo/right-insensitive.png
+grilo/usr/share/gir-1.0/
+grilo/usr/share/gir-1.0/GrlNet-0.3.gir
+grilo/usr/share/gir-1.0/GrlPls-0.3.gir
+grilo/usr/share/gir-1.0/Grl-0.3.gir
+grilo/usr/share/man/
+grilo/usr/share/man/man1/
+grilo/usr/share/man/man1/grl-launch-0.3.1
+grilo/usr/share/man/man1/grilo-test-ui-0.3.1
+grilo/usr/share/man/man1/grl-inspect-0.3.1
+grilo/usr/lib/
+grilo/usr/lib/libgrilo-0.3.so.0
+grilo/usr/lib/libgrlnet-0.3.so.0.319.0
+grilo/usr/lib/libgrlnet-0.3.so
+grilo/usr/lib/libgrilo-0.3.so
+grilo/usr/lib/girepository-1.0/
+grilo/usr/lib/girepository-1.0/Grl-0.3.typelib
+grilo/usr/lib/girepository-1.0/GrlPls-0.3.typelib
+grilo/usr/lib/girepository-1.0/GrlNet-0.3.typelib
+grilo/usr/lib/libgrlnet-0.3.so.0
+grilo/usr/lib/pkgconfig/
+grilo/usr/lib/pkgconfig/grilo-0.3.pc
+grilo/usr/lib/pkgconfig/grilo-pls-0.3.pc
+grilo/usr/lib/pkgconfig/grilo-net-0.3.pc
+grilo/usr/lib/libgrilo-0.3.so.0.319.1
+grilo/usr/lib/libgrlpls-0.3.so.0.319.0
+grilo/usr/lib/libgrlpls-0.3.so.0
+grilo/usr/lib/libgrlpls-0.3.so
+grilo/usr/include/
+grilo/usr/include/grilo-0.3/
+grilo/usr/include/grilo-0.3/grl-log.h
+grilo/usr/include/grilo-0.3/grl-util.h
+grilo/usr/include/grilo-0.3/grl-related-keys.h
+grilo/usr/include/grilo-0.3/grl-operation-options.h
+grilo/usr/include/grilo-0.3/grl-value-helper.h
+grilo/usr/include/grilo-0.3/grl-definitions.h
+grilo/usr/include/grilo-0.3/grl-data.h
+grilo/usr/include/grilo-0.3/grl-media.h
+grilo/usr/include/grilo-0.3/pls/
+grilo/usr/include/grilo-0.3/pls/grl-pls.h
+grilo/usr/include/grilo-0.3/grl-source.h
+grilo/usr/include/grilo-0.3/grl-caps.h
+grilo/usr/include/grilo-0.3/grl-multiple.h
+grilo/usr/include/grilo-0.3/grl-config.h
+grilo/usr/include/grilo-0.3/net/
+grilo/usr/include/grilo-0.3/net/grl-net.h
+grilo/usr/include/grilo-0.3/net/grl-net-wc.h
+grilo/usr/include/grilo-0.3/grl-operation.h
+grilo/usr/include/grilo-0.3/grl-registry.h
+grilo/usr/include/grilo-0.3/grl-error.h
+grilo/usr/include/grilo-0.3/grl-range-value.h
+grilo/usr/include/grilo-0.3/grl-plugin.h
+grilo/usr/include/grilo-0.3/grl-metadata-key.h
+grilo/usr/include/grilo-0.3/grilo.h
+grilo/usr/bin/
+grilo/usr/bin/grl-inspect-0.3
+grilo/usr/bin/grilo-test-ui-0.3
+grilo/usr/bin/grl-launch-0.3
+grilo/version
+grilo/depends
+grilo/postinst

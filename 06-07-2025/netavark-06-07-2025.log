@@ -1,0 +1,761 @@
+--2025-06-07 21:35:20--  https://github.com/containers/netavark/archive/refs/tags/v1.15.2.tar.gz
+Resolving github.com (github.com)... 140.82.112.4
+Connecting to github.com (github.com)|140.82.112.4|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://codeload.github.com/containers/netavark/tar.gz/refs/tags/v1.15.2 [following]
+--2025-06-07 21:35:20--  https://codeload.github.com/containers/netavark/tar.gz/refs/tags/v1.15.2
+Resolving codeload.github.com (codeload.github.com)... 140.82.113.9
+Connecting to codeload.github.com (codeload.github.com)|140.82.113.9|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/x-gzip]
+Saving to: 'v1.15.2.tar.gz'
+
+     0K .......... .......... .......... .......... .......... 2.08M
+    50K .......... .......... .......... .......... .......... 3.99M
+   100K .......... .......... .......... .......... ..........  250M
+   150K .......... .......... .....                            75.1M=0.04s
+
+2025-06-07 21:35:21 (4.72 MB/s) - 'v1.15.2.tar.gz' saved [179266]
+
+netavark-1.15.2/
+netavark-1.15.2/.cirrus.yml
+netavark-1.15.2/.github/
+netavark-1.15.2/.github/renovate.json5
+netavark-1.15.2/.github/workflows/
+netavark-1.15.2/.github/workflows/check_cirrus_cron.yml
+netavark-1.15.2/.github/workflows/release.yml
+netavark-1.15.2/.gitignore
+netavark-1.15.2/.packit.yaml
+netavark-1.15.2/CODE-OF-CONDUCT.md
+netavark-1.15.2/CONTRIBUTING.md
+netavark-1.15.2/Cargo.lock
+netavark-1.15.2/Cargo.toml
+netavark-1.15.2/DISTRO_PACKAGE.md
+netavark-1.15.2/LICENSE
+netavark-1.15.2/Makefile
+netavark-1.15.2/OWNERS
+netavark-1.15.2/README.md
+netavark-1.15.2/RELEASE_NOTES.md
+netavark-1.15.2/SECURITY.md
+netavark-1.15.2/build.rs
+netavark-1.15.2/contrib/
+netavark-1.15.2/contrib/cirrus/
+netavark-1.15.2/contrib/cirrus/cache_groom.sh
+netavark-1.15.2/contrib/cirrus/lib.sh
+netavark-1.15.2/contrib/cirrus/runner.sh
+netavark-1.15.2/contrib/cirrus/setup.sh
+netavark-1.15.2/contrib/container_images/
+netavark-1.15.2/contrib/container_images/Dockerfile.Rust
+netavark-1.15.2/contrib/container_images/README.md
+netavark-1.15.2/contrib/container_images/build_and_publish_rust_image.sh
+netavark-1.15.2/contrib/systemd/
+netavark-1.15.2/contrib/systemd/system/
+netavark-1.15.2/contrib/systemd/system/netavark-dhcp-proxy.service.in
+netavark-1.15.2/contrib/systemd/system/netavark-dhcp-proxy.socket
+netavark-1.15.2/contrib/systemd/system/netavark-firewalld-reload.service.in
+netavark-1.15.2/docs/
+netavark-1.15.2/docs/Makefile
+netavark-1.15.2/docs/generate-code-coverage-report.md
+netavark-1.15.2/docs/netavark-dhcp-proxy.md
+netavark-1.15.2/docs/netavark-firewalld.7.md
+netavark-1.15.2/docs/netavark.1.md
+netavark-1.15.2/docs/publish-crate.md
+netavark-1.15.2/examples/
+netavark-1.15.2/examples/error-plugin.rs
+netavark-1.15.2/examples/host-device-plugin.rs
+netavark-1.15.2/examples/stderr-plugin.rs
+netavark-1.15.2/hack/
+netavark-1.15.2/hack/get_ci_vm.sh
+netavark-1.15.2/hack/tree_status.sh
+netavark-1.15.2/perf-netavark.sh
+netavark-1.15.2/plugin-API.md
+netavark-1.15.2/rpm/
+netavark-1.15.2/rpm/netavark.spec
+netavark-1.15.2/src/
+netavark-1.15.2/src/commands/
+netavark-1.15.2/src/commands/dhcp_proxy.rs
+netavark-1.15.2/src/commands/firewalld_reload.rs
+netavark-1.15.2/src/commands/mod.rs
+netavark-1.15.2/src/commands/setup.rs
+netavark-1.15.2/src/commands/teardown.rs
+netavark-1.15.2/src/commands/update.rs
+netavark-1.15.2/src/commands/version.rs
+netavark-1.15.2/src/dhcp_proxy/
+netavark-1.15.2/src/dhcp_proxy/cache.rs
+netavark-1.15.2/src/dhcp_proxy/dhcp_service.rs
+netavark-1.15.2/src/dhcp_proxy/ip.rs
+netavark-1.15.2/src/dhcp_proxy/lib.rs
+netavark-1.15.2/src/dhcp_proxy/mod.rs
+netavark-1.15.2/src/dhcp_proxy/proxy_conf.rs
+netavark-1.15.2/src/dhcp_proxy/types.rs
+netavark-1.15.2/src/dhcp_proxy_client/
+netavark-1.15.2/src/dhcp_proxy_client/client.rs
+netavark-1.15.2/src/dhcp_proxy_client/commands/
+netavark-1.15.2/src/dhcp_proxy_client/commands/mod.rs
+netavark-1.15.2/src/dhcp_proxy_client/commands/setup.rs
+netavark-1.15.2/src/dhcp_proxy_client/commands/teardown.rs
+netavark-1.15.2/src/dns/
+netavark-1.15.2/src/dns/aardvark.rs
+netavark-1.15.2/src/dns/mod.rs
+netavark-1.15.2/src/error/
+netavark-1.15.2/src/error/mod.rs
+netavark-1.15.2/src/firewall/
+netavark-1.15.2/src/firewall/firewalld.rs
+netavark-1.15.2/src/firewall/fwnone.rs
+netavark-1.15.2/src/firewall/iptables.rs
+netavark-1.15.2/src/firewall/mod.rs
+netavark-1.15.2/src/firewall/nft.rs
+netavark-1.15.2/src/firewall/state.rs
+netavark-1.15.2/src/firewall/varktables/
+netavark-1.15.2/src/firewall/varktables/helpers.rs
+netavark-1.15.2/src/firewall/varktables/mod.rs
+netavark-1.15.2/src/firewall/varktables/types.rs
+netavark-1.15.2/src/lib.rs
+netavark-1.15.2/src/main.rs
+netavark-1.15.2/src/network/
+netavark-1.15.2/src/network/bridge.rs
+netavark-1.15.2/src/network/constants.rs
+netavark-1.15.2/src/network/core_utils.rs
+netavark-1.15.2/src/network/dhcp.rs
+netavark-1.15.2/src/network/driver.rs
+netavark-1.15.2/src/network/internal_types.rs
+netavark-1.15.2/src/network/mod.rs
+netavark-1.15.2/src/network/netlink.rs
+netavark-1.15.2/src/network/plugin.rs
+netavark-1.15.2/src/network/types.rs
+netavark-1.15.2/src/network/validation.rs
+netavark-1.15.2/src/network/vlan.rs
+netavark-1.15.2/src/plugin.rs
+netavark-1.15.2/src/proto/
+netavark-1.15.2/src/proto/proxy.proto
+netavark-1.15.2/src/test/
+netavark-1.15.2/src/test/config/
+netavark-1.15.2/src/test/config/portmapping.json
+netavark-1.15.2/src/test/config/setupopts.test.json
+netavark-1.15.2/src/test/config/setupopts2.test.json
+netavark-1.15.2/src/test/config/setupoptsmacvlan.test.json
+netavark-1.15.2/src/test/config/twoNetworks.json
+netavark-1.15.2/src/test/mod.rs
+netavark-1.15.2/src/test/netlink.rs
+netavark-1.15.2/src/test/test.rs
+netavark-1.15.2/test-dhcp/
+netavark-1.15.2/test-dhcp/001-basic.bats
+netavark-1.15.2/test-dhcp/002-setup.bats
+netavark-1.15.2/test-dhcp/003-teardown.bats
+netavark-1.15.2/test-dhcp/004-server.bats
+netavark-1.15.2/test-dhcp/005-renew.bats
+netavark-1.15.2/test-dhcp/README-manual_test.md
+netavark-1.15.2/test-dhcp/README.md
+netavark-1.15.2/test-dhcp/configfiles/
+netavark-1.15.2/test-dhcp/configfiles/bad_interface.json
+netavark-1.15.2/test-dhcp/configfiles/bad_mac.json
+netavark-1.15.2/test-dhcp/configfiles/basic.json
+netavark-1.15.2/test-dhcp/configfiles/no_mac.json
+netavark-1.15.2/test-dhcp/dnsmasqfiles/
+netavark-1.15.2/test-dhcp/dnsmasqfiles/sample.conf
+netavark-1.15.2/test-dhcp/helpers.bash
+netavark-1.15.2/test-dhcp/setup.sh
+netavark-1.15.2/test/
+netavark-1.15.2/test/001-basic.bats
+netavark-1.15.2/test/100-bridge-iptables.bats
+netavark-1.15.2/test/200-bridge-firewalld.bats
+netavark-1.15.2/test/250-bridge-nftables.bats
+netavark-1.15.2/test/300-macvlan.bats
+netavark-1.15.2/test/400-ipvlan.bats
+netavark-1.15.2/test/500-bridge-fwnone.bats
+netavark-1.15.2/test/500-plugin.bats
+netavark-1.15.2/test/600-bridge-vrf.bats
+netavark-1.15.2/test/610-bridge-vethname.bats
+netavark-1.15.2/test/620-bridge-mode.bats
+netavark-1.15.2/test/630-bridge-vlan.bats
+netavark-1.15.2/test/README.md
+netavark-1.15.2/test/helpers.bash
+netavark-1.15.2/test/testfiles/
+netavark-1.15.2/test/testfiles/bridge-managed-dhcp.json
+netavark-1.15.2/test/testfiles/bridge-managed.json
+netavark-1.15.2/test/testfiles/bridge-nodefaultroute.json
+netavark-1.15.2/test/testfiles/bridge-port-hostip.json
+netavark-1.15.2/test/testfiles/bridge-port-tcp-udp.json
+netavark-1.15.2/test/testfiles/bridge-staticroutes.json
+netavark-1.15.2/test/testfiles/bridge-unmanaged.json
+netavark-1.15.2/test/testfiles/bridge-vethname-exists.json
+netavark-1.15.2/test/testfiles/bridge-vethname.json
+netavark-1.15.2/test/testfiles/dns-invalid-names.json
+netavark-1.15.2/test/testfiles/dualstack-bridge-custom-dns-server.json
+netavark-1.15.2/test/testfiles/dualstack-bridge-multiple-custom-dns-server.json
+netavark-1.15.2/test/testfiles/dualstack-bridge-network-container-dns-server.json
+netavark-1.15.2/test/testfiles/dualstack-bridge.json
+netavark-1.15.2/test/testfiles/firewalld-dbus.conf
+netavark-1.15.2/test/testfiles/internal.json
+netavark-1.15.2/test/testfiles/invalid-port.json
+netavark-1.15.2/test/testfiles/ipv6-bridge-staticroutes.json
+netavark-1.15.2/test/testfiles/ipv6-bridge.json
+netavark-1.15.2/test/testfiles/ipvlan-internal.json
+netavark-1.15.2/test/testfiles/ipvlan-mtu.json
+netavark-1.15.2/test/testfiles/ipvlan-nodefaultroute.json
+netavark-1.15.2/test/testfiles/ipvlan-staticroutes.json
+netavark-1.15.2/test/testfiles/ipvlan.json
+netavark-1.15.2/test/testfiles/isolate1.json
+netavark-1.15.2/test/testfiles/isolate2.json
+netavark-1.15.2/test/testfiles/isolate3.json
+netavark-1.15.2/test/testfiles/isolate4.json
+netavark-1.15.2/test/testfiles/macvlan-dhcp.json
+netavark-1.15.2/test/testfiles/macvlan-internal.json
+netavark-1.15.2/test/testfiles/macvlan-mtu.json
+netavark-1.15.2/test/testfiles/macvlan-nodefaultroute.json
+netavark-1.15.2/test/testfiles/macvlan-staticroutes.json
+netavark-1.15.2/test/testfiles/macvlan.json
+netavark-1.15.2/test/testfiles/metric-macvlan.json
+netavark-1.15.2/test/testfiles/metric.json
+netavark-1.15.2/test/testfiles/simplebridge-vrf.json
+netavark-1.15.2/test/testfiles/simplebridge.json
+netavark-1.15.2/test/testfiles/two-networks.json
+mkdir -p bin
+mkdir -p targets
+cargo  build --release
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded anstream v0.6.18
+  Downloaded anstyle v1.0.10
+  Downloaded async-broadcast v0.7.2
+  Downloaded async-io v2.4.0
+  Downloaded async-executor v1.13.2
+  Downloaded async-channel v2.3.1
+  Downloaded arrayvec v0.7.6
+  Downloaded iptables v0.5.2
+  Downloaded aho-corasick v1.1.3
+  Downloaded dhcproto v0.12.0
+  Downloaded icu_provider_macros v1.5.0
+  Downloaded byteorder v1.5.0
+  Downloaded anyhow v1.0.98
+  Downloaded is_terminal_polyfill v1.70.1
+  Downloaded itoa v1.0.15
+  Downloaded idna_adapter v1.2.0
+  Downloaded ipnet v2.11.0
+  Downloaded clap_lex v0.7.4
+  Downloaded cfg_aliases v0.2.1
+  Downloaded endi v1.1.0
+  Downloaded blocking v1.6.1
+  Downloaded indexmap v2.9.0
+  Downloaded data-encoding v2.9.0
+  Downloaded itertools v0.14.0
+  Downloaded digest v0.10.7
+  Downloaded idna v0.2.3
+  Downloaded env_logger v0.11.8
+  Downloaded tempfile v3.20.0
+  Downloaded jiff v0.2.13
+  Downloaded thiserror-impl v2.0.12
+  Downloaded futures-task v0.3.31
+  Downloaded futures-lite v2.6.0
+  Downloaded event-listener-strategy v0.5.4
+  Downloaded generic-array v0.14.7
+  Downloaded tinyvec_macros v0.1.1
+  Downloaded hex v0.4.3
+  Downloaded futures-sink v0.3.31
+  Downloaded thiserror v2.0.12
+  Downloaded tinystr v0.7.6
+  Downloaded matchit v0.8.4
+  Downloaded async-task v4.7.1
+  Downloaded async-process v2.3.0
+  Downloaded tower-layer v0.3.3
+  Downloaded getrandom v0.3.3
+  Downloaded tower-service v0.3.3
+  Downloaded tonic-build v0.13.1
+  Downloaded matches v0.1.10
+  Downloaded iana-time-zone v0.1.63
+  Downloaded netlink-packet-utils v0.5.2
+  Downloaded num-traits v0.2.19
+  Downloaded want v0.3.1
+  Downloaded rand_chacha v0.9.0
+  Downloaded write16 v1.0.0
+  Downloaded icu_properties v1.5.1
+  Downloaded icu_locid v1.5.0
+  Downloaded tokio-stream v0.1.17
+  Downloaded bytes v1.10.1
+  Downloaded zvariant_utils v3.2.0
+  Downloaded multimap v0.10.1
+  Downloaded zvariant_derive v5.5.1
+  Downloaded zerofrom v0.1.5
+  Downloaded version_check v0.9.5
+  Downloaded yoke-derive v0.7.5
+  Downloaded tracing-attributes v0.1.28
+  Downloaded prost v0.13.5
+  Downloaded netlink-packet-core v0.7.0
+  Downloaded pin-project-lite v0.2.16
+  Downloaded zerovec-derive v0.10.3
+  Downloaded utf8_iter v1.0.4
+  Downloaded nftables v0.6.2
+  Downloaded zerofrom-derive v0.1.6
+  Downloaded prost-build v0.13.5
+  Downloaded unicode-ident v1.0.18
+  Downloaded clap_builder v4.5.38
+  Downloaded prost-types v0.13.5
+  Downloaded polling v3.7.4
+  Downloaded url v2.5.4
+  Downloaded wl-nl80211 v0.2.0
+  Downloaded rustix v1.0.7
+  Downloaded prettyplease v0.2.32
+  Downloaded tokio-util v0.7.15
+  Downloaded zvariant v5.5.1
+  Downloaded unicode-normalization v0.1.24
+  Downloaded etherparse v0.13.0
+  Downloaded zerovec v0.10.4
+  Downloaded zbus v5.6.0
+  Downloaded icu_properties_data v1.5.1
+  Downloaded typenum v1.18.0
+  Downloaded tower v0.5.2
+  Downloaded winnow v0.7.10
+  Downloaded mozim v0.2.6
+  Downloaded zerocopy v0.8.25
+  Downloaded syn v2.0.101
+  Downloaded nix v0.29.0
+  Downloaded netlink-packet-route v0.22.0
+  Downloaded serde_json v1.0.140
+  Downloaded trust-dns-proto v0.22.0
+  Downloaded toml_edit v0.22.26
+  Downloaded regex-syntax v0.8.5
+  Downloaded nispor v1.2.24
+  Downloaded rustix v0.38.44
+  Downloaded mio v1.0.3
+  Downloaded memchr v2.7.4
+  Downloaded h2 v0.4.10
+  Downloaded unicode-bidi v0.3.18
+  Downloaded tracing v0.1.41
+  Downloaded rand v0.9.1
+  Downloaded rand v0.8.5
+  Downloaded futures-util v0.3.31
+  Downloaded pin-project v1.1.10
+  Downloaded regex-automata v0.4.9
+  Downloaded tonic v0.13.1
+  Downloaded hyper v1.6.0
+  Downloaded log v0.4.27
+  Downloaded try-lock v0.2.5
+  Downloaded icu_collections v1.5.0
+  Downloaded petgraph v0.7.1
+  Downloaded tokio v1.45.0
+  Downloaded http v1.3.1
+  Downloaded zbus_names v4.2.0
+  Downloaded zbus_macros v5.6.0
+  Downloaded yoke v0.7.5
+  Downloaded walkdir v2.5.0
+  Downloaded libc v0.2.172
+  Downloaded utf8parse v0.2.2
+  Downloaded utf16_iter v1.0.5
+  Downloaded tracing-core v0.1.33
+  Downloaded serde v1.0.219
+  Downloaded schemars v0.8.22
+  Downloaded proc-macro2 v1.0.95
+  Downloaded netlink-proto v0.11.5
+  Downloaded litemap v0.7.4
+  Downloaded pin-project-internal v1.1.10
+  Downloaded hashbrown v0.15.3
+  Downloaded writeable v0.5.5
+  Downloaded tinyvec v1.9.0
+  Downloaded ppv-lite86 v0.2.21
+  Downloaded socket2 v0.5.9
+  Downloaded rtnetlink v0.16.0
+  Downloaded quote v1.0.40
+  Downloaded ordered-stream v0.2.0
+  Downloaded rand_chacha v0.3.1
+  Downloaded prost-derive v0.13.5
+  Downloaded proc-macro-crate v3.3.0
+  Downloaded percent-encoding v2.3.1
+  Downloaded netlink-packet-generic v0.3.3
+  Downloaded mptcp-pm v0.1.3
+  Downloaded futures v0.3.31
+  Downloaded mime v0.3.17
+  Downloaded icu_provider v1.5.0
+  Downloaded netlink-sys v0.8.7
+  Downloaded paste v1.0.15
+  Downloaded icu_normalizer_data v1.5.1
+  Downloaded icu_normalizer v1.5.0
+  Downloaded hyper-util v0.1.11
+  Downloaded bitflags v2.9.0
+  Downloaded async-trait v0.1.88
+  Downloaded toml_datetime v0.6.9
+  Downloaded tokio-macros v2.5.0
+  Downloaded slab v0.4.9
+  Downloaded signal-hook-registry v1.4.5
+  Downloaded sha2 v0.10.9
+  Downloaded piper v0.2.4
+  Downloaded atomic-waker v1.1.2
+  Downloaded sysctl v0.6.0
+  Downloaded synstructure v0.13.2
+  Downloaded static_assertions v1.1.0
+  Downloaded serde_repr v0.1.20
+  Downloaded same-file v1.0.6
+  Downloaded rustversion v1.0.20
+  Downloaded pin-utils v0.1.0
+  Downloaded memoffset v0.9.1
+  Downloaded icu_locid_transform v1.5.0
+  Downloaded hyper-timeout v0.5.2
+  Downloaded httpdate v1.0.3
+  Downloaded httparse v1.10.1
+  Downloaded heck v0.5.0
+  Downloaded genetlink v0.2.5
+  Downloaded futures-macro v0.3.31
+  Downloaded futures-io v0.3.31
+  Downloaded sync_wrapper v1.0.2
+  Downloaded syn v1.0.109
+  Downloaded http-body v1.0.1
+  Downloaded heck v0.4.1
+  Downloaded async-signal v0.2.10
+  Downloaded futures-executor v0.3.31
+  Downloaded futures-core v0.3.31
+  Downloaded form_urlencoded v1.2.1
+  Downloaded fnv v1.0.7
+  Downloaded fastrand v2.3.0
+  Downloaded errno v0.3.11
+  Downloaded either v1.15.0
+  Downloaded thiserror-impl v1.0.69
+  Downloaded thiserror v1.0.69
+  Downloaded strum_macros v0.27.1
+  Downloaded strum v0.27.1
+  Downloaded linux-raw-sys v0.4.15
+  Downloaded strsim v0.11.1
+  Downloaded stable_deref_trait v1.2.0
+  Downloaded smallvec v1.15.0
+  Downloaded serde_derive v1.0.219
+  Downloaded schemars_derive v0.8.22
+  Downloaded regex v1.11.1
+  Downloaded linux-raw-sys v0.9.4
+  Downloaded rand_core v0.9.3
+  Downloaded parking v2.2.1
+  Downloaded lazy_static v1.5.0
+  Downloaded icu_locid_transform_data v1.5.1
+  Downloaded http-body-util v0.1.3
+  Downloaded getrandom v0.2.16
+  Downloaded futures-channel v0.3.31
+  Downloaded event-listener v5.4.0
+  Downloaded serde_path_to_error v0.1.17
+  Downloaded serde_derive_internals v0.29.1
+  Downloaded ryu v1.0.20
+  Downloaded rand_core v0.6.4
+  Downloaded once_cell v1.21.3
+  Downloaded fs2 v0.4.3
+  Downloaded fixedbitset v0.5.7
+  Downloaded ethtool v0.2.8
+  Downloaded equivalent v1.0.2
+  Downloaded enumflags2 v0.7.11
+  Downloaded dyn-clone v1.0.19
+  Downloaded displaydoc v0.2.5
+  Downloaded dhcproto-macros v0.1.0
+  Downloaded colorchoice v1.0.3
+  Downloaded clap_derive v4.5.32
+  Downloaded clap v4.5.38
+  Downloaded chrono v0.4.41
+  Downloaded cfg-if v1.0.0
+  Downloaded block-buffer v0.10.4
+  Downloaded base64 v0.22.1
+  Downloaded axum-core v0.5.2
+  Downloaded axum v0.8.4
+  Downloaded async-lock v3.4.0
+  Downloaded env_filter v0.1.3
+  Downloaded enumflags2_derive v0.7.11
+  Downloaded enum-as-inner v0.6.1
+  Downloaded enum-as-inner v0.5.1
+  Downloaded crypto-common v0.1.6
+  Downloaded crossbeam-utils v0.8.21
+  Downloaded cpufeatures v0.2.17
+  Downloaded concurrent-queue v2.5.0
+  Downloaded autocfg v1.4.0
+  Downloaded idna v1.0.3
+  Downloaded anstyle-query v1.1.2
+  Downloaded anstyle-parse v0.2.6
+   Compiling proc-macro2 v1.0.95
+   Compiling unicode-ident v1.0.18
+   Compiling libc v0.2.172
+   Compiling pin-project-lite v0.2.16
+   Compiling autocfg v1.4.0
+   Compiling futures-core v0.3.31
+   Compiling memchr v2.7.4
+   Compiling futures-io v0.3.31
+   Compiling serde v1.0.219
+   Compiling anyhow v1.0.98
+   Compiling bytes v1.10.1
+   Compiling futures-sink v0.3.31
+   Compiling cfg-if v1.0.0
+   Compiling pin-utils v0.1.0
+   Compiling futures-task v0.3.31
+   Compiling thiserror v1.0.69
+   Compiling once_cell v1.21.3
+   Compiling itoa v1.0.15
+   Compiling hashbrown v0.15.3
+   Compiling equivalent v1.0.2
+   Compiling stable_deref_trait v1.2.0
+   Compiling bitflags v2.9.0
+   Compiling crossbeam-utils v0.8.21
+   Compiling paste v1.0.15
+   Compiling byteorder v1.5.0
+   Compiling parking v2.2.1
+   Compiling log v0.4.27
+   Compiling icu_locid_transform_data v1.5.1
+   Compiling futures-channel v0.3.31
+   Compiling thiserror v2.0.12
+   Compiling litemap v0.7.4
+   Compiling smallvec v1.15.0
+   Compiling tracing-core v0.1.33
+   Compiling writeable v0.5.5
+   Compiling zerocopy v0.8.25
+   Compiling fnv v1.0.7
+   Compiling icu_properties_data v1.5.1
+   Compiling heck v0.5.0
+   Compiling winnow v0.7.10
+   Compiling either v1.15.0
+   Compiling toml_datetime v0.6.9
+   Compiling icu_normalizer_data v1.5.1
+   Compiling cfg_aliases v0.2.1
+   Compiling fastrand v2.3.0
+   Compiling slab v0.4.9
+   Compiling memoffset v0.9.1
+   Compiling atomic-waker v1.1.2
+   Compiling itertools v0.14.0
+   Compiling static_assertions v1.1.0
+   Compiling nix v0.29.0
+   Compiling version_check v0.9.5
+   Compiling indexmap v2.9.0
+   Compiling getrandom v0.3.3
+   Compiling utf8_iter v1.0.4
+   Compiling concurrent-queue v2.5.0
+   Compiling http v1.3.1
+   Compiling utf16_iter v1.0.5
+   Compiling quote v1.0.40
+   Compiling rustix v0.38.44
+   Compiling percent-encoding v2.3.1
+   Compiling rustversion v1.0.20
+   Compiling event-listener v5.4.0
+   Compiling typenum v1.18.0
+   Compiling write16 v1.0.0
+   Compiling rustix v1.0.7
+   Compiling generic-array v0.14.7
+   Compiling syn v2.0.101
+   Compiling event-listener-strategy v0.5.4
+   Compiling futures-lite v2.6.0
+   Compiling syn v1.0.109
+   Compiling prettyplease v0.2.32
+   Compiling tower-service v0.3.3
+   Compiling linux-raw-sys v0.9.4
+   Compiling httparse v1.10.1
+   Compiling linux-raw-sys v0.4.15
+   Compiling regex-syntax v0.8.5
+   Compiling tinyvec_macros v0.1.1
+   Compiling serde_json v1.0.140
+   Compiling tinyvec v1.9.0
+   Compiling aho-corasick v1.1.3
+   Compiling num-traits v0.2.19
+   Compiling try-lock v0.2.5
+   Compiling utf8parse v0.2.2
+   Compiling fixedbitset v0.5.7
+   Compiling http-body v1.0.1
+   Compiling ryu v1.0.20
+   Compiling petgraph v0.7.1
+   Compiling anstyle-parse v0.2.6
+   Compiling want v0.3.1
+   Compiling signal-hook-registry v1.4.5
+   Compiling socket2 v0.5.9
+   Compiling mio v1.0.3
+   Compiling toml_edit v0.22.26
+   Compiling getrandom v0.2.16
+   Compiling unicode-normalization v0.1.24
+   Compiling rand_core v0.6.4
+   Compiling ppv-lite86 v0.2.21
+   Compiling async-lock v3.4.0
+   Compiling form_urlencoded v1.2.1
+   Compiling matches v0.1.10
+   Compiling endi v1.1.0
+   Compiling is_terminal_polyfill v1.70.1
+   Compiling httpdate v1.0.3
+   Compiling regex-automata v0.4.9
+   Compiling lazy_static v1.5.0
+   Compiling rand_chacha v0.3.1
+   Compiling anstyle-query v1.1.2
+   Compiling heck v0.4.1
+   Compiling sync_wrapper v1.0.2
+   Compiling anstyle v1.0.10
+   Compiling colorchoice v1.0.3
+   Compiling multimap v0.10.1
+   Compiling tower-layer v0.3.3
+   Compiling async-task v4.7.1
+   Compiling unicode-bidi v0.3.18
+   Compiling anstream v0.6.18
+   Compiling rand v0.8.5
+   Compiling http-body-util v0.1.3
+   Compiling async-channel v2.3.1
+   Compiling tempfile v3.20.0
+   Compiling schemars v0.8.22
+   Compiling iana-time-zone v0.1.63
+   Compiling proc-macro-crate v3.3.0
+   Compiling data-encoding v2.9.0
+   Compiling idna v0.2.3
+   Compiling mime v0.3.17
+   Compiling hex v0.4.3
+   Compiling rand_core v0.9.3
+   Compiling axum-core v0.5.2
+   Compiling crypto-common v0.1.6
+   Compiling block-buffer v0.10.4
+   Compiling piper v0.2.4
+   Compiling arrayvec v0.7.6
+   Compiling strsim v0.11.1
+   Compiling chrono v0.4.41
+   Compiling regex v1.11.1
+   Compiling dhcproto-macros v0.1.0
+   Compiling matchit v0.8.4
+   Compiling same-file v1.0.6
+   Compiling dyn-clone v1.0.19
+   Compiling clap_lex v0.7.4
+   Compiling walkdir v2.5.0
+   Compiling clap_builder v4.5.38
+   Compiling etherparse v0.13.0
+   Compiling synstructure v0.13.2
+   Compiling serde_derive_internals v0.29.1
+   Compiling blocking v1.6.1
+   Compiling digest v0.10.7
+   Compiling rand_chacha v0.9.0
+   Compiling enum-as-inner v0.5.1
+   Compiling async-executor v1.13.2
+   Compiling async-broadcast v0.7.2
+   Compiling ordered-stream v0.2.0
+   Compiling strum v0.27.1
+   Compiling base64 v0.22.1
+   Compiling jiff v0.2.13
+   Compiling cpufeatures v0.2.17
+   Compiling sha2 v0.10.9
+   Compiling rand v0.9.1
+   Compiling fs2 v0.4.3
+   Compiling serde_derive v1.0.219
+   Compiling futures-macro v0.3.31
+   Compiling tokio-macros v2.5.0
+   Compiling zerofrom-derive v0.1.6
+   Compiling thiserror-impl v1.0.69
+   Compiling tracing-attributes v0.1.28
+   Compiling yoke-derive v0.7.5
+   Compiling tokio v1.45.0
+   Compiling zerovec-derive v0.10.3
+   Compiling futures-util v0.3.31
+   Compiling displaydoc v0.2.5
+   Compiling thiserror-impl v2.0.12
+   Compiling icu_provider_macros v1.5.0
+   Compiling enumflags2_derive v0.7.11
+   Compiling netlink-packet-utils v0.5.2
+   Compiling prost-derive v0.13.5
+   Compiling tracing v0.1.41
+   Compiling zerofrom v0.1.5
+   Compiling async-trait v0.1.88
+   Compiling schemars_derive v0.8.22
+   Compiling netlink-packet-core v0.7.0
+   Compiling polling v3.7.4
+   Compiling yoke v0.7.5
+   Compiling netlink-packet-generic v0.3.3
+   Compiling netlink-packet-route v0.22.0
+   Compiling pin-project-internal v1.1.10
+   Compiling async-io v2.4.0
+   Compiling env_filter v0.1.3
+   Compiling zerovec v0.10.4
+   Compiling serde_repr v0.1.20
+   Compiling async-signal v0.2.10
+   Compiling async-process v2.3.0
+   Compiling strum_macros v0.27.1
+   Compiling enum-as-inner v0.6.1
+   Compiling clap_derive v4.5.32
+   Compiling tinystr v0.7.6
+   Compiling icu_collections v1.5.0
+   Compiling pin-project v1.1.10
+   Compiling env_logger v0.11.8
+   Compiling sysctl v0.6.0
+   Compiling iptables v0.5.2
+   Compiling icu_locid v1.5.0
+   Compiling prost v0.13.5
+   Compiling futures-executor v0.3.31
+   Compiling futures v0.3.31
+   Compiling prost-types v0.13.5
+   Compiling icu_provider v1.5.0
+   Compiling icu_locid_transform v1.5.0
+   Compiling prost-build v0.13.5
+   Compiling clap v4.5.38
+   Compiling netlink-sys v0.8.7
+   Compiling tokio-util v0.7.15
+   Compiling tokio-stream v0.1.17
+   Compiling netlink-proto v0.11.5
+   Compiling icu_properties v1.5.1
+   Compiling genetlink v0.2.5
+   Compiling h2 v0.4.10
+   Compiling tower v0.5.2
+   Compiling wl-nl80211 v0.2.0
+   Compiling ethtool v0.2.8
+   Compiling zvariant_utils v3.2.0
+   Compiling enumflags2 v0.7.11
+   Compiling ipnet v2.11.0
+   Compiling rtnetlink v0.16.0
+   Compiling mptcp-pm v0.1.3
+   Compiling zvariant_derive v5.5.1
+   Compiling tonic-build v0.13.1
+   Compiling icu_normalizer v1.5.0
+   Compiling nispor v1.2.24
+   Compiling axum v0.8.4
+   Compiling idna_adapter v1.2.0
+   Compiling idna v1.0.3
+   Compiling zvariant v5.5.1
+   Compiling hyper v1.6.0
+   Compiling url v2.5.4
+   Compiling netavark v1.15.2 (/blfs/builds/netavark-1.15.2)
+   Compiling trust-dns-proto v0.22.0
+   Compiling serde_path_to_error v0.1.17
+   Compiling nftables v0.6.2
+   Compiling hyper-util v0.1.11
+   Compiling zbus_names v4.2.0
+   Compiling zbus_macros v5.6.0
+   Compiling hyper-timeout v0.5.2
+   Compiling dhcproto v0.12.0
+   Compiling tonic v0.13.1
+   Compiling mozim v0.2.6
+   Compiling zbus v5.6.0
+    Finished `release` profile [optimized] target(s) in 56.41s
+cp targets/release/netavark bin/netavark
+cp targets/release/netavark-dhcp-proxy-client bin/netavark-dhcp-proxy-client
+sed -e 's;@@NETAVARK@@;/usr/libexec/podman/netavark;g' contrib/systemd/system/netavark-dhcp-proxy.service.in >contrib/systemd/system/netavark-dhcp-proxy.service.tmp.$ \
+	&& mv -f contrib/systemd/system/netavark-dhcp-proxy.service.tmp.$ contrib/systemd/system/netavark-dhcp-proxy.service
+sed -e 's;@@NETAVARK@@;/usr/libexec/podman/netavark;g' contrib/systemd/system/netavark-firewalld-reload.service.in >contrib/systemd/system/netavark-firewalld-reload.service.tmp.$ \
+	&& mv -f contrib/systemd/system/netavark-firewalld-reload.service.tmp.$ contrib/systemd/system/netavark-firewalld-reload.service
+install  -D -m0755 bin/netavark /pkgs/netavark/usr/libexec/podman/netavark
+make -C docs install
+make[1]: Entering directory '/blfs/builds/netavark-1.15.2/docs'
+go-md2man -in netavark-firewalld.7.md -out netavark-firewalld.7
+go-md2man -in netavark.1.md -out netavark.1
+install -d /pkgs/netavark//usr/share/man/man1
+install -m 0644 *.1 /pkgs/netavark//usr/share/man/man1
+install -d /pkgs/netavark//usr/share/man/man7
+install -m 0644 *.7 /pkgs/netavark//usr/share/man/man7
+make[1]: Leaving directory '/blfs/builds/netavark-1.15.2/docs'
+install  -m 755 -d /pkgs/netavark/usr/lib/systemd/system
+install  -m 644 contrib/systemd/system/netavark-dhcp-proxy.socket /pkgs/netavark/usr/lib/systemd/system/netavark-dhcp-proxy.socket
+install  -m 644 contrib/systemd/system/netavark-dhcp-proxy.service /pkgs/netavark/usr/lib/systemd/system/netavark-dhcp-proxy.service
+install  -m 644 contrib/systemd/system/netavark-firewalld-reload.service /pkgs/netavark/usr/lib/systemd/system/netavark-firewalld-reload.service
+netavark/
+netavark/usr/
+netavark/usr/share/
+netavark/usr/share/man/
+netavark/usr/share/man/man7/
+netavark/usr/share/man/man7/netavark-firewalld.7
+netavark/usr/share/man/man1/
+netavark/usr/share/man/man1/netavark.1
+netavark/usr/lib/
+netavark/usr/lib/systemd/
+netavark/usr/lib/systemd/system/
+netavark/usr/lib/systemd/system/netavark-dhcp-proxy.service
+netavark/usr/lib/systemd/system/netavark-dhcp-proxy.socket
+netavark/usr/lib/systemd/system/netavark-firewalld-reload.service
+netavark/usr/libexec/
+netavark/usr/libexec/podman/
+netavark/usr/libexec/podman/netavark
+netavark/version
+netavark/depends
+netavark/make-depends
+'/pkgs/netavark/depends' -> '/depends'
+'/pkgs/netavark/make-depends' -> '/make-depends'
+'/pkgs/netavark/usr/libexec/podman/netavark' -> '/usr/libexec/podman/netavark'
+'/pkgs/netavark/usr/share/man/man1/netavark.1' -> '/usr/share/man/man1/netavark.1'
+'/pkgs/netavark/usr/share/man/man7/netavark-firewalld.7' -> '/usr/share/man/man7/netavark-firewalld.7'
+'/pkgs/netavark/usr/lib/systemd/system/netavark-dhcp-proxy.socket' -> '/usr/lib/systemd/system/netavark-dhcp-proxy.socket'
+'/pkgs/netavark/usr/lib/systemd/system/netavark-dhcp-proxy.service' -> '/usr/lib/systemd/system/netavark-dhcp-proxy.service'
+'/pkgs/netavark/usr/lib/systemd/system/netavark-firewalld-reload.service' -> '/usr/lib/systemd/system/netavark-firewalld-reload.service'
+'/pkgs/netavark/version' -> '/version'

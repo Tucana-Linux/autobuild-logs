@@ -1,0 +1,754 @@
+--2025-06-11 07:36:39--  https://dri.freedesktop.org/libdrm/libdrm-2.4.125.tar.xz
+Resolving dri.freedesktop.org (dri.freedesktop.org)... 131.252.210.176
+Connecting to dri.freedesktop.org (dri.freedesktop.org)|131.252.210.176|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 485592 (474K) [application/x-xz]
+Saving to: 'libdrm-2.4.125.tar.xz.1'
+
+     0K .......... .......... .......... .......... .......... 10%  369K 1s
+    50K .......... .......... .......... .......... .......... 21% 1.22M 1s
+   100K .......... .......... .......... .......... .......... 31% 1.71M 0s
+   150K .......... .......... .......... .......... .......... 42%  108M 0s
+   200K .......... .......... .......... .......... .......... 52%  738K 0s
+   250K .......... .......... .......... .......... .......... 63%  129M 0s
+   300K .......... .......... .......... .......... .......... 73%  116M 0s
+   350K .......... .......... .......... .......... .......... 84%  109M 0s
+   400K .......... .......... .......... .......... .......... 94% 1.27M 0s
+   450K .......... .......... ....                            100%  550M=0.3s
+
+2025-06-11 07:36:39 (1.48 MB/s) - 'libdrm-2.4.125.tar.xz.1' saved [485592/485592]
+
+libdrm-2.4.125/
+libdrm-2.4.125/.editorconfig
+libdrm-2.4.125/.gitignore
+libdrm-2.4.125/.gitlab-ci.yml
+libdrm-2.4.125/Android.bp
+libdrm-2.4.125/Android.sources.bp
+libdrm-2.4.125/Android.sources.bp.mk
+libdrm-2.4.125/CONTRIBUTING.rst
+libdrm-2.4.125/CleanSpec.mk
+libdrm-2.4.125/README.rst
+libdrm-2.4.125/RELEASING
+libdrm-2.4.125/amdgpu/
+libdrm-2.4.125/amdgpu/.editorconfig
+libdrm-2.4.125/amdgpu/Android.bp
+libdrm-2.4.125/amdgpu/Android.sources.bp
+libdrm-2.4.125/amdgpu/amdgpu-symbols.txt
+libdrm-2.4.125/amdgpu/amdgpu.h
+libdrm-2.4.125/amdgpu/amdgpu_asic_id.c
+libdrm-2.4.125/amdgpu/amdgpu_bo.c
+libdrm-2.4.125/amdgpu/amdgpu_cs.c
+libdrm-2.4.125/amdgpu/amdgpu_device.c
+libdrm-2.4.125/amdgpu/amdgpu_gpu_info.c
+libdrm-2.4.125/amdgpu/amdgpu_internal.h
+libdrm-2.4.125/amdgpu/amdgpu_userq.c
+libdrm-2.4.125/amdgpu/amdgpu_vamgr.c
+libdrm-2.4.125/amdgpu/amdgpu_vm.c
+libdrm-2.4.125/amdgpu/handle_table.c
+libdrm-2.4.125/amdgpu/handle_table.h
+libdrm-2.4.125/amdgpu/libdrm_amdgpu.pc.in
+libdrm-2.4.125/amdgpu/meson.build
+libdrm-2.4.125/android/
+libdrm-2.4.125/android/gralloc_handle.h
+libdrm-2.4.125/core-symbols.txt
+libdrm-2.4.125/data/
+libdrm-2.4.125/data/Android.bp
+libdrm-2.4.125/data/amdgpu.ids
+libdrm-2.4.125/data/meson.build
+libdrm-2.4.125/etnaviv/
+libdrm-2.4.125/etnaviv/Android.bp
+libdrm-2.4.125/etnaviv/Android.sources.bp
+libdrm-2.4.125/etnaviv/etnaviv-symbols.txt
+libdrm-2.4.125/etnaviv/etnaviv_bo.c
+libdrm-2.4.125/etnaviv/etnaviv_bo_cache.c
+libdrm-2.4.125/etnaviv/etnaviv_cmd_stream.c
+libdrm-2.4.125/etnaviv/etnaviv_device.c
+libdrm-2.4.125/etnaviv/etnaviv_drm.h
+libdrm-2.4.125/etnaviv/etnaviv_drmif.h
+libdrm-2.4.125/etnaviv/etnaviv_gpu.c
+libdrm-2.4.125/etnaviv/etnaviv_perfmon.c
+libdrm-2.4.125/etnaviv/etnaviv_pipe.c
+libdrm-2.4.125/etnaviv/etnaviv_priv.h
+libdrm-2.4.125/etnaviv/libdrm_etnaviv.pc.in
+libdrm-2.4.125/etnaviv/meson.build
+libdrm-2.4.125/exynos/
+libdrm-2.4.125/exynos/exynos-symbols.txt
+libdrm-2.4.125/exynos/exynos_drm.c
+libdrm-2.4.125/exynos/exynos_drm.h
+libdrm-2.4.125/exynos/exynos_drmif.h
+libdrm-2.4.125/exynos/exynos_fimg2d.c
+libdrm-2.4.125/exynos/exynos_fimg2d.h
+libdrm-2.4.125/exynos/fimg2d_reg.h
+libdrm-2.4.125/exynos/libdrm_exynos.pc.in
+libdrm-2.4.125/exynos/meson.build
+libdrm-2.4.125/freedreno/
+libdrm-2.4.125/freedreno/freedreno-symbols.txt
+libdrm-2.4.125/freedreno/freedreno_bo.c
+libdrm-2.4.125/freedreno/freedreno_bo_cache.c
+libdrm-2.4.125/freedreno/freedreno_device.c
+libdrm-2.4.125/freedreno/freedreno_drmif.h
+libdrm-2.4.125/freedreno/freedreno_pipe.c
+libdrm-2.4.125/freedreno/freedreno_priv.h
+libdrm-2.4.125/freedreno/freedreno_ringbuffer.c
+libdrm-2.4.125/freedreno/freedreno_ringbuffer.h
+libdrm-2.4.125/freedreno/kgsl/
+libdrm-2.4.125/freedreno/kgsl/README
+libdrm-2.4.125/freedreno/kgsl/kgsl_bo.c
+libdrm-2.4.125/freedreno/kgsl/kgsl_device.c
+libdrm-2.4.125/freedreno/kgsl/kgsl_drm.h
+libdrm-2.4.125/freedreno/kgsl/kgsl_pipe.c
+libdrm-2.4.125/freedreno/kgsl/kgsl_priv.h
+libdrm-2.4.125/freedreno/kgsl/kgsl_ringbuffer.c
+libdrm-2.4.125/freedreno/kgsl/msm_kgsl.h
+libdrm-2.4.125/freedreno/libdrm_freedreno.pc.in
+libdrm-2.4.125/freedreno/meson.build
+libdrm-2.4.125/freedreno/msm/
+libdrm-2.4.125/freedreno/msm/msm_bo.c
+libdrm-2.4.125/freedreno/msm/msm_device.c
+libdrm-2.4.125/freedreno/msm/msm_pipe.c
+libdrm-2.4.125/freedreno/msm/msm_priv.h
+libdrm-2.4.125/freedreno/msm/msm_ringbuffer.c
+libdrm-2.4.125/gen_table_fourcc.py
+libdrm-2.4.125/include/
+libdrm-2.4.125/include/drm/
+libdrm-2.4.125/include/drm/README
+libdrm-2.4.125/include/drm/amdgpu_drm.h
+libdrm-2.4.125/include/drm/drm.h
+libdrm-2.4.125/include/drm/drm_fourcc.h
+libdrm-2.4.125/include/drm/drm_mode.h
+libdrm-2.4.125/include/drm/drm_sarea.h
+libdrm-2.4.125/include/drm/i915_drm.h
+libdrm-2.4.125/include/drm/mach64_drm.h
+libdrm-2.4.125/include/drm/mga_drm.h
+libdrm-2.4.125/include/drm/msm_drm.h
+libdrm-2.4.125/include/drm/nouveau_drm.h
+libdrm-2.4.125/include/drm/qxl_drm.h
+libdrm-2.4.125/include/drm/r128_drm.h
+libdrm-2.4.125/include/drm/radeon_drm.h
+libdrm-2.4.125/include/drm/savage_drm.h
+libdrm-2.4.125/include/drm/sis_drm.h
+libdrm-2.4.125/include/drm/tegra_drm.h
+libdrm-2.4.125/include/drm/vc4_drm.h
+libdrm-2.4.125/include/drm/via_drm.h
+libdrm-2.4.125/include/drm/virtgpu_drm.h
+libdrm-2.4.125/include/drm/vmwgfx_drm.h
+libdrm-2.4.125/intel/
+libdrm-2.4.125/intel/.gitignore
+libdrm-2.4.125/intel/Android.bp
+libdrm-2.4.125/intel/Android.sources.bp
+libdrm-2.4.125/intel/intel-symbols.txt
+libdrm-2.4.125/intel/intel_aub.h
+libdrm-2.4.125/intel/intel_bufmgr.c
+libdrm-2.4.125/intel/intel_bufmgr.h
+libdrm-2.4.125/intel/intel_bufmgr_fake.c
+libdrm-2.4.125/intel/intel_bufmgr_gem.c
+libdrm-2.4.125/intel/intel_bufmgr_priv.h
+libdrm-2.4.125/intel/intel_chipset.h
+libdrm-2.4.125/intel/intel_debug.h
+libdrm-2.4.125/intel/intel_decode.c
+libdrm-2.4.125/intel/libdrm_intel.pc.in
+libdrm-2.4.125/intel/meson.build
+libdrm-2.4.125/intel/mm.c
+libdrm-2.4.125/intel/mm.h
+libdrm-2.4.125/intel/test_decode.c
+libdrm-2.4.125/intel/tests/
+libdrm-2.4.125/intel/tests/.gitignore
+libdrm-2.4.125/intel/tests/gen4-3d.batch
+libdrm-2.4.125/intel/tests/gen4-3d.batch-ref.txt
+libdrm-2.4.125/intel/tests/gen4-3d.batch.sh
+libdrm-2.4.125/intel/tests/gen5-3d.batch
+libdrm-2.4.125/intel/tests/gen5-3d.batch-ref.txt
+libdrm-2.4.125/intel/tests/gen5-3d.batch.sh
+libdrm-2.4.125/intel/tests/gen6-3d.batch
+libdrm-2.4.125/intel/tests/gen6-3d.batch-ref.txt
+libdrm-2.4.125/intel/tests/gen6-3d.batch.sh
+libdrm-2.4.125/intel/tests/gen7-2d-copy.batch
+libdrm-2.4.125/intel/tests/gen7-2d-copy.batch-ref.txt
+libdrm-2.4.125/intel/tests/gen7-2d-copy.batch.sh
+libdrm-2.4.125/intel/tests/gen7-3d.batch
+libdrm-2.4.125/intel/tests/gen7-3d.batch-ref.txt
+libdrm-2.4.125/intel/tests/gen7-3d.batch.sh
+libdrm-2.4.125/intel/tests/gm45-3d.batch
+libdrm-2.4.125/intel/tests/gm45-3d.batch-ref.txt
+libdrm-2.4.125/intel/tests/gm45-3d.batch.sh
+libdrm-2.4.125/intel/tests/test-batch.sh
+libdrm-2.4.125/intel/uthash.h
+libdrm-2.4.125/libdrm.pc.in
+libdrm-2.4.125/libdrm_lists.h
+libdrm-2.4.125/libdrm_macros.h
+libdrm-2.4.125/libsync.h
+libdrm-2.4.125/man/
+libdrm-2.4.125/man/drm-kms.7.rst
+libdrm-2.4.125/man/drm-memory.7.rst
+libdrm-2.4.125/man/drm.7.rst
+libdrm-2.4.125/man/drmAvailable.3.rst
+libdrm-2.4.125/man/drmHandleEvent.3.rst
+libdrm-2.4.125/man/drmModeGetResources.3.rst
+libdrm-2.4.125/man/meson.build
+libdrm-2.4.125/meson.build
+libdrm-2.4.125/meson_options.txt
+libdrm-2.4.125/nouveau/
+libdrm-2.4.125/nouveau/Android.bp
+libdrm-2.4.125/nouveau/Android.sources.bp
+libdrm-2.4.125/nouveau/abi16.c
+libdrm-2.4.125/nouveau/bufctx.c
+libdrm-2.4.125/nouveau/libdrm_nouveau.pc.in
+libdrm-2.4.125/nouveau/meson.build
+libdrm-2.4.125/nouveau/nouveau-symbols.txt
+libdrm-2.4.125/nouveau/nouveau.c
+libdrm-2.4.125/nouveau/nouveau.h
+libdrm-2.4.125/nouveau/nvif/
+libdrm-2.4.125/nouveau/nvif/cl0080.h
+libdrm-2.4.125/nouveau/nvif/cl9097.h
+libdrm-2.4.125/nouveau/nvif/class.h
+libdrm-2.4.125/nouveau/nvif/if0002.h
+libdrm-2.4.125/nouveau/nvif/if0003.h
+libdrm-2.4.125/nouveau/nvif/ioctl.h
+libdrm-2.4.125/nouveau/nvif/unpack.h
+libdrm-2.4.125/nouveau/private.h
+libdrm-2.4.125/nouveau/pushbuf.c
+libdrm-2.4.125/omap/
+libdrm-2.4.125/omap/Android.bp
+libdrm-2.4.125/omap/Android.sources.bp
+libdrm-2.4.125/omap/libdrm_omap.pc.in
+libdrm-2.4.125/omap/meson.build
+libdrm-2.4.125/omap/omap-symbols.txt
+libdrm-2.4.125/omap/omap_drm.c
+libdrm-2.4.125/omap/omap_drm.h
+libdrm-2.4.125/omap/omap_drmif.h
+libdrm-2.4.125/radeon/
+libdrm-2.4.125/radeon/Android.bp
+libdrm-2.4.125/radeon/Android.sources.bp
+libdrm-2.4.125/radeon/bof.c
+libdrm-2.4.125/radeon/bof.h
+libdrm-2.4.125/radeon/libdrm_radeon.pc.in
+libdrm-2.4.125/radeon/meson.build
+libdrm-2.4.125/radeon/r600_pci_ids.h
+libdrm-2.4.125/radeon/radeon-symbols.txt
+libdrm-2.4.125/radeon/radeon_bo.c
+libdrm-2.4.125/radeon/radeon_bo.h
+libdrm-2.4.125/radeon/radeon_bo_gem.c
+libdrm-2.4.125/radeon/radeon_bo_gem.h
+libdrm-2.4.125/radeon/radeon_bo_int.h
+libdrm-2.4.125/radeon/radeon_cs.c
+libdrm-2.4.125/radeon/radeon_cs.h
+libdrm-2.4.125/radeon/radeon_cs_gem.c
+libdrm-2.4.125/radeon/radeon_cs_gem.h
+libdrm-2.4.125/radeon/radeon_cs_int.h
+libdrm-2.4.125/radeon/radeon_cs_space.c
+libdrm-2.4.125/radeon/radeon_surface.c
+libdrm-2.4.125/radeon/radeon_surface.h
+libdrm-2.4.125/symbols-check.py
+libdrm-2.4.125/tegra/
+libdrm-2.4.125/tegra/.gitignore
+libdrm-2.4.125/tegra/Android.bp
+libdrm-2.4.125/tegra/channel.c
+libdrm-2.4.125/tegra/job.c
+libdrm-2.4.125/tegra/libdrm_tegra.pc.in
+libdrm-2.4.125/tegra/meson.build
+libdrm-2.4.125/tegra/private.h
+libdrm-2.4.125/tegra/pushbuf.c
+libdrm-2.4.125/tegra/syncpt.c
+libdrm-2.4.125/tegra/tegra-symbols.txt
+libdrm-2.4.125/tegra/tegra.c
+libdrm-2.4.125/tegra/tegra.h
+libdrm-2.4.125/tests/
+libdrm-2.4.125/tests/Android.bp
+libdrm-2.4.125/tests/amdgpu/
+libdrm-2.4.125/tests/amdgpu/.editorconfig
+libdrm-2.4.125/tests/amdgpu/amdgpu_stress.c
+libdrm-2.4.125/tests/amdgpu/amdgpu_test.c
+libdrm-2.4.125/tests/amdgpu/amdgpu_test.h
+libdrm-2.4.125/tests/amdgpu/basic_tests.c
+libdrm-2.4.125/tests/amdgpu/bo_tests.c
+libdrm-2.4.125/tests/amdgpu/cp_dma_tests.c
+libdrm-2.4.125/tests/amdgpu/cs_tests.c
+libdrm-2.4.125/tests/amdgpu/deadlock_tests.c
+libdrm-2.4.125/tests/amdgpu/decode_messages.h
+libdrm-2.4.125/tests/amdgpu/frame.h
+libdrm-2.4.125/tests/amdgpu/hotunplug_tests.c
+libdrm-2.4.125/tests/amdgpu/jpeg_tests.c
+libdrm-2.4.125/tests/amdgpu/meson.build
+libdrm-2.4.125/tests/amdgpu/ras_tests.c
+libdrm-2.4.125/tests/amdgpu/security_tests.c
+libdrm-2.4.125/tests/amdgpu/shader_code.h
+libdrm-2.4.125/tests/amdgpu/shader_code_gfx10.h
+libdrm-2.4.125/tests/amdgpu/shader_code_gfx11.h
+libdrm-2.4.125/tests/amdgpu/shader_code_gfx9.h
+libdrm-2.4.125/tests/amdgpu/shader_code_hang.h
+libdrm-2.4.125/tests/amdgpu/shader_test_util.c
+libdrm-2.4.125/tests/amdgpu/syncobj_tests.c
+libdrm-2.4.125/tests/amdgpu/uvd_enc_tests.c
+libdrm-2.4.125/tests/amdgpu/uve_ib.h
+libdrm-2.4.125/tests/amdgpu/vce_ib.h
+libdrm-2.4.125/tests/amdgpu/vce_tests.c
+libdrm-2.4.125/tests/amdgpu/vcn_tests.c
+libdrm-2.4.125/tests/amdgpu/vm_tests.c
+libdrm-2.4.125/tests/drmdevice.c
+libdrm-2.4.125/tests/drmsl.c
+libdrm-2.4.125/tests/etnaviv/
+libdrm-2.4.125/tests/etnaviv/cmdstream.xml.h
+libdrm-2.4.125/tests/etnaviv/etnaviv_2d_test.c
+libdrm-2.4.125/tests/etnaviv/etnaviv_bo_cache_test.c
+libdrm-2.4.125/tests/etnaviv/etnaviv_cmd_stream_test.c
+libdrm-2.4.125/tests/etnaviv/meson.build
+libdrm-2.4.125/tests/etnaviv/state.xml.h
+libdrm-2.4.125/tests/etnaviv/state_2d.xml.h
+libdrm-2.4.125/tests/etnaviv/write_bmp.c
+libdrm-2.4.125/tests/etnaviv/write_bmp.h
+libdrm-2.4.125/tests/exynos/
+libdrm-2.4.125/tests/exynos/exynos_fimg2d_event.c
+libdrm-2.4.125/tests/exynos/exynos_fimg2d_perf.c
+libdrm-2.4.125/tests/exynos/exynos_fimg2d_test.c
+libdrm-2.4.125/tests/exynos/meson.build
+libdrm-2.4.125/tests/hash.c
+libdrm-2.4.125/tests/meson.build
+libdrm-2.4.125/tests/modeprint/
+libdrm-2.4.125/tests/modeprint/meson.build
+libdrm-2.4.125/tests/modeprint/modeprint.c
+libdrm-2.4.125/tests/modetest/
+libdrm-2.4.125/tests/modetest/Android.bp
+libdrm-2.4.125/tests/modetest/Android.sources.bp
+libdrm-2.4.125/tests/modetest/buffers.c
+libdrm-2.4.125/tests/modetest/buffers.h
+libdrm-2.4.125/tests/modetest/cursor.c
+libdrm-2.4.125/tests/modetest/cursor.h
+libdrm-2.4.125/tests/modetest/meson.build
+libdrm-2.4.125/tests/modetest/modetest.c
+libdrm-2.4.125/tests/nouveau/
+libdrm-2.4.125/tests/nouveau/.gitignore
+libdrm-2.4.125/tests/nouveau/meson.build
+libdrm-2.4.125/tests/nouveau/threaded.c
+libdrm-2.4.125/tests/proptest/
+libdrm-2.4.125/tests/proptest/Android.bp
+libdrm-2.4.125/tests/proptest/meson.build
+libdrm-2.4.125/tests/proptest/proptest.c
+libdrm-2.4.125/tests/radeon/
+libdrm-2.4.125/tests/radeon/meson.build
+libdrm-2.4.125/tests/radeon/radeon_ttm.c
+libdrm-2.4.125/tests/radeon/rbo.c
+libdrm-2.4.125/tests/radeon/rbo.h
+libdrm-2.4.125/tests/tegra/
+libdrm-2.4.125/tests/tegra/.gitignore
+libdrm-2.4.125/tests/tegra/drm-test-tegra.c
+libdrm-2.4.125/tests/tegra/drm-test-tegra.h
+libdrm-2.4.125/tests/tegra/drm-test.c
+libdrm-2.4.125/tests/tegra/drm-test.h
+libdrm-2.4.125/tests/tegra/gr2d-fill.c
+libdrm-2.4.125/tests/tegra/host1x.h
+libdrm-2.4.125/tests/tegra/meson.build
+libdrm-2.4.125/tests/tegra/openclose.c
+libdrm-2.4.125/tests/tegra/syncpt-timeout.c
+libdrm-2.4.125/tests/tegra/syncpt-wait.c
+libdrm-2.4.125/tests/tegra/vic-blit.c
+libdrm-2.4.125/tests/tegra/vic-clear.c
+libdrm-2.4.125/tests/tegra/vic-flip.c
+libdrm-2.4.125/tests/tegra/vic.c
+libdrm-2.4.125/tests/tegra/vic.h
+libdrm-2.4.125/tests/tegra/vic30.c
+libdrm-2.4.125/tests/tegra/vic30.h
+libdrm-2.4.125/tests/tegra/vic40.c
+libdrm-2.4.125/tests/tegra/vic40.h
+libdrm-2.4.125/tests/tegra/vic41.c
+libdrm-2.4.125/tests/tegra/vic41.h
+libdrm-2.4.125/tests/tegra/vic42.c
+libdrm-2.4.125/tests/tegra/vic42.h
+libdrm-2.4.125/tests/ttmtest/
+libdrm-2.4.125/tests/ttmtest/AUTHORS
+libdrm-2.4.125/tests/ttmtest/ChangeLog
+libdrm-2.4.125/tests/ttmtest/Makefile.am
+libdrm-2.4.125/tests/ttmtest/NEWS
+libdrm-2.4.125/tests/ttmtest/README
+libdrm-2.4.125/tests/ttmtest/configure.ac
+libdrm-2.4.125/tests/ttmtest/reconf
+libdrm-2.4.125/tests/ttmtest/src/
+libdrm-2.4.125/tests/ttmtest/src/Makefile.am
+libdrm-2.4.125/tests/ttmtest/src/ttmtest.c
+libdrm-2.4.125/tests/ttmtest/src/xf86dri.c
+libdrm-2.4.125/tests/ttmtest/src/xf86dri.h
+libdrm-2.4.125/tests/ttmtest/src/xf86dristr.h
+libdrm-2.4.125/tests/util/
+libdrm-2.4.125/tests/util/Android.bp
+libdrm-2.4.125/tests/util/Android.sources.bp
+libdrm-2.4.125/tests/util/common.h
+libdrm-2.4.125/tests/util/format.c
+libdrm-2.4.125/tests/util/format.h
+libdrm-2.4.125/tests/util/kms.c
+libdrm-2.4.125/tests/util/kms.h
+libdrm-2.4.125/tests/util/meson.build
+libdrm-2.4.125/tests/util/pattern.c
+libdrm-2.4.125/tests/util/pattern.h
+libdrm-2.4.125/tests/vbltest/
+libdrm-2.4.125/tests/vbltest/meson.build
+libdrm-2.4.125/tests/vbltest/vbltest.c
+libdrm-2.4.125/util_double_list.h
+libdrm-2.4.125/util_math.h
+libdrm-2.4.125/vc4/
+libdrm-2.4.125/vc4/libdrm_vc4.pc.in
+libdrm-2.4.125/vc4/meson.build
+libdrm-2.4.125/vc4/vc4_packet.h
+libdrm-2.4.125/vc4/vc4_qpu_defines.h
+libdrm-2.4.125/xf86atomic.h
+libdrm-2.4.125/xf86drm.c
+libdrm-2.4.125/xf86drm.h
+libdrm-2.4.125/xf86drmHash.c
+libdrm-2.4.125/xf86drmHash.h
+libdrm-2.4.125/xf86drmMode.c
+libdrm-2.4.125/xf86drmMode.h
+libdrm-2.4.125/xf86drmRandom.c
+libdrm-2.4.125/xf86drmRandom.h
+libdrm-2.4.125/xf86drmSL.c
+The Meson build system
+Version: 1.7.0
+Source dir: /blfs/builds/libdrm-2.4.125
+Build dir: /blfs/builds/libdrm-2.4.125/build
+Build type: native build
+Project name: libdrm
+Project version: 2.4.125
+C compiler for the host machine: cc (gcc 14.2.0 "cc (GCC) 14.2.0")
+C linker for the host machine: cc ld.bfd 2.44
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Run-time dependency threads found: YES
+Program symbols-check.py found: YES (/usr/bin/python3 /blfs/builds/libdrm-2.4.125/symbols-check.py)
+Program nm found: YES (/usr/bin/nm)
+Program python3 found: YES (/usr/bin/python3)
+Found pkg-config: YES (/usr/bin/i686-pc-linux-gnu-pkg-config) 2.4.3
+Found CMake: /usr/bin/cmake (4.0.2)
+Run-time dependency atomic_ops found: NO (tried pkgconfig and cmake)
+Checking if "Intel Atomics" links: YES 
+Run-time dependency pciaccess found: YES 0.18.1
+Checking for function "dlsym" : YES 
+Checking for function "clock_gettime" : YES 
+Check usable header "sys/select.h" : YES 
+Check usable header "alloca.h" : YES 
+Header "sys/sysmacros.h" has symbol "major" : YES 
+Header "sys/sysmacros.h" has symbol "minor" : YES 
+Header "sys/sysmacros.h" has symbol "makedev" : YES 
+Header "sys/mkdev.h" has symbol "major" : NO 
+Checking for function "open_memstream" : YES 
+Compiler for C supports arguments -Wsign-compare: YES 
+Compiler for C supports arguments -Werror=undef: YES 
+Compiler for C supports arguments -Werror=implicit-function-declaration: YES 
+Compiler for C supports arguments -Wpointer-arith: YES 
+Compiler for C supports arguments -Wwrite-strings: YES 
+Compiler for C supports arguments -Wstrict-prototypes: YES 
+Compiler for C supports arguments -Wmissing-prototypes: YES 
+Compiler for C supports arguments -Wmissing-declarations: YES 
+Compiler for C supports arguments -Wnested-externs: YES 
+Compiler for C supports arguments -Wpacked: YES 
+Compiler for C supports arguments -Wswitch-enum: YES 
+Compiler for C supports arguments -Wmissing-format-attribute: YES 
+Compiler for C supports arguments -Wstrict-aliasing=2: YES 
+Compiler for C supports arguments -Winit-self: YES 
+Compiler for C supports arguments -Winline: YES 
+Compiler for C supports arguments -Wshadow: YES 
+Compiler for C supports arguments -Wdeclaration-after-statement: YES 
+Compiler for C supports arguments -Wold-style-definition: YES 
+Compiler for C supports arguments -Wno-unused-parameter: YES 
+Compiler for C supports arguments -Wno-attributes: YES 
+Compiler for C supports arguments -Wno-long-long: YES 
+Compiler for C supports arguments -Wno-missing-field-initializers: YES 
+Run-time dependency cunit found: NO (tried pkgconfig and cmake)
+Run-time dependency cairo found: YES 1.18.4
+Dependency valgrind skipped: feature valgrind disabled
+Program rst2man found: YES (/usr/bin/rst2man)
+Compiler for C supports function attribute visibility:hidden: YES 
+Configuring config.h using configuration
+Program tests/gen4-3d.batch.sh found: YES (/blfs/builds/libdrm-2.4.125/intel/tests/gen4-3d.batch.sh)
+Program tests/gm45-3d.batch.sh found: YES (/blfs/builds/libdrm-2.4.125/intel/tests/gm45-3d.batch.sh)
+Program tests/gen5-3d.batch.sh found: YES (/blfs/builds/libdrm-2.4.125/intel/tests/gen5-3d.batch.sh)
+Program tests/gen6-3d.batch.sh found: YES (/blfs/builds/libdrm-2.4.125/intel/tests/gen6-3d.batch.sh)
+Program tests/gen7-3d.batch.sh found: YES (/blfs/builds/libdrm-2.4.125/intel/tests/gen7-3d.batch.sh)
+Program tests/gen7-2d-copy.batch.sh found: YES (/blfs/builds/libdrm-2.4.125/intel/tests/gen7-2d-copy.batch.sh)
+Build targets in project: 24
+
+libdrm 2.4.125
+
+    Intel         : true
+    Radeon        : true
+    AMDGPU        : true
+    Nouveau       : true
+    vmwgfx        : true
+    OMAP          : false
+    Freedreno     : false
+    Freedreon-kgsl: false
+    Tegra         : false
+    Etnaviv       : false
+    EXYNOS        : false
+    VC4           : false
+
+  User defined options
+    buildtype     : release
+    libdir        : /usr/lib32
+    prefix        : /usr
+    udev          : true
+    valgrind      : disabled
+
+Found ninja-1.12.1 at /usr/bin/ninja
+WARNING: Running the setup command as `meson [options]` instead of `meson setup [options]` is ambiguous and deprecated.
+[1/74] Generating format_mod_static_table with a custom command
+[2/74] Compiling C object amdgpu/libdrm_amdgpu.so.1.125.0.p/amdgpu_vm.c.o
+[3/74] Compiling C object amdgpu/libdrm_amdgpu.so.1.125.0.p/handle_table.c.o
+[4/74] Compiling C object amdgpu/libdrm_amdgpu.so.1.125.0.p/amdgpu_userq.c.o
+../amdgpu/amdgpu_userq.c: In function 'amdgpu_create_userqueue':
+../amdgpu/amdgpu_userq.c:77:24: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+   77 |         userq.in.mqd = (uint64_t)mqd_in;
+      |                        ^
+[5/74] Compiling C object tests/util/libutil.a.p/format.c.o
+[6/74] Compiling C object nouveau/libdrm_nouveau.so.2.125.0.p/bufctx.c.o
+[7/74] Compiling C object amdgpu/libdrm_amdgpu.so.1.125.0.p/amdgpu_asic_id.c.o
+[8/74] Compiling C object libdrm.so.2.125.0.p/xf86drmRandom.c.o
+[9/74] Compiling C object tests/util/libutil.a.p/kms.c.o
+[10/74] Compiling C object intel/libdrm_intel.so.1.125.0.p/mm.c.o
+[11/74] Compiling C object amdgpu/libdrm_amdgpu.so.1.125.0.p/amdgpu_gpu_info.c.o
+[12/74] Compiling C object intel/libdrm_intel.so.1.125.0.p/intel_bufmgr.c.o
+In file included from ../intel/intel_bufmgr.c:34:
+../include/drm/i915_drm.h:2233:1: warning: packed attribute is unnecessary for 'i915_context_engines_load_balance' [-Wpacked]
+ 2233 | } __attribute__((packed));
+      | ^
+../include/drm/i915_drm.h:2271:1: warning: packed attribute is unnecessary for 'i915_context_engines_bond' [-Wpacked]
+ 2271 | } __attribute__((packed));
+      | ^
+../include/drm/i915_drm.h:2399:1: warning: packed attribute is unnecessary for 'i915_context_engines_parallel_submit' [-Wpacked]
+ 2399 | } __attribute__((packed));
+      | ^
+../include/drm/i915_drm.h:2473:1: warning: packed attribute is unnecessary for 'i915_context_param_engines' [-Wpacked]
+ 2473 | } __attribute__((packed));
+      | ^
+[13/74] Compiling C object nouveau/libdrm_nouveau.so.2.125.0.p/abi16.c.o
+[14/74] Compiling C object amdgpu/libdrm_amdgpu.so.1.125.0.p/amdgpu_device.c.o
+[15/74] Compiling C object libdrm.so.2.125.0.p/xf86drmHash.c.o
+[16/74] Compiling C object intel/test_decode.p/test_decode.c.o
+[17/74] Compiling C object amdgpu/libdrm_amdgpu.so.1.125.0.p/amdgpu_vamgr.c.o
+[18/74] Compiling C object libdrm.so.2.125.0.p/xf86drmSL.c.o
+[19/74] Compiling C object radeon/libdrm_radeon.so.1.125.0.p/radeon_bo.c.o
+[20/74] Compiling C object radeon/libdrm_radeon.so.1.125.0.p/radeon_bo_gem.c.o
+[21/74] Compiling C object radeon/libdrm_radeon.so.1.125.0.p/radeon_cs.c.o
+[22/74] Compiling C object radeon/libdrm_radeon.so.1.125.0.p/radeon_cs_space.c.o
+[23/74] Compiling C object radeon/libdrm_radeon.so.1.125.0.p/radeon_cs_gem.c.o
+[24/74] Compiling C object amdgpu/libdrm_amdgpu.so.1.125.0.p/amdgpu_bo.c.o
+[25/74] Compiling C object tests/modetest/modetest.p/cursor.c.o
+[26/74] Compiling C object tests/radeon/radeon_ttm.p/radeon_ttm.c.o
+[27/74] Compiling C object tests/vbltest/vbltest.p/vbltest.c.o
+[28/74] Compiling C object tests/radeon/radeon_ttm.p/rbo.c.o
+[29/74] Compiling C object tests/modetest/modetest.p/buffers.c.o
+[30/74] Compiling C object tests/modeprint/modeprint.p/modeprint.c.o
+[31/74] Compiling C object nouveau/libdrm_nouveau.so.2.125.0.p/nouveau.c.o
+[32/74] Compiling C object tests/nouveau/threaded.p/threaded.c.o
+[33/74] Compiling C object amdgpu/libdrm_amdgpu.so.1.125.0.p/amdgpu_cs.c.o
+[34/74] Compiling C object tests/drmsl.p/drmsl.c.o
+[35/74] Compiling C object nouveau/libdrm_nouveau.so.2.125.0.p/pushbuf.c.o
+[36/74] Compiling C object tests/hash.p/hash.c.o
+[37/74] Compiling C object tests/proptest/proptest.p/proptest.c.o
+[38/74] Compiling C object tests/drmdevice.p/drmdevice.c.o
+[39/74] Compiling C object tests/amdgpu/amdgpu_stress.p/amdgpu_stress.c.o
+[40/74] Generating man/drm.7 with a custom command
+[41/74] Compiling C object intel/libdrm_intel.so.1.125.0.p/intel_bufmgr_fake.c.o
+In file included from ../intel/intel_bufmgr_fake.c:47:
+../include/drm/i915_drm.h:2233:1: warning: packed attribute is unnecessary for 'i915_context_engines_load_balance' [-Wpacked]
+ 2233 | } __attribute__((packed));
+      | ^
+../include/drm/i915_drm.h:2271:1: warning: packed attribute is unnecessary for 'i915_context_engines_bond' [-Wpacked]
+ 2271 | } __attribute__((packed));
+      | ^
+../include/drm/i915_drm.h:2399:1: warning: packed attribute is unnecessary for 'i915_context_engines_parallel_submit' [-Wpacked]
+ 2399 | } __attribute__((packed));
+      | ^
+../include/drm/i915_drm.h:2473:1: warning: packed attribute is unnecessary for 'i915_context_param_engines' [-Wpacked]
+ 2473 | } __attribute__((packed));
+      | ^
+[42/74] Generating man/drm-kms.7 with a custom command
+[43/74] Generating man/drm-memory.7 with a custom command
+[44/74] Generating man/drmAvailable.3 with a custom command
+[45/74] Generating man/drmHandleEvent.3 with a custom command
+[46/74] Generating man/drmModeGetResources.3 with a custom command
+[47/74] Compiling C object libdrm.so.2.125.0.p/xf86drmMode.c.o
+[48/74] Compiling C object radeon/libdrm_radeon.so.1.125.0.p/radeon_surface.c.o
+[49/74] Compiling C object tests/modetest/modetest.p/modetest.c.o
+[50/74] Compiling C object libdrm.so.2.125.0.p/xf86drm.c.o
+[51/74] Linking target libdrm.so.2.125.0
+[52/74] Compiling C object intel/libdrm_intel.so.1.125.0.p/intel_bufmgr_gem.c.o
+In file included from ../intel/intel_bufmgr_gem.c:62:
+../include/drm/i915_drm.h:2233:1: warning: packed attribute is unnecessary for 'i915_context_engines_load_balance' [-Wpacked]
+ 2233 | } __attribute__((packed));
+      | ^
+../include/drm/i915_drm.h:2271:1: warning: packed attribute is unnecessary for 'i915_context_engines_bond' [-Wpacked]
+ 2271 | } __attribute__((packed));
+      | ^
+../include/drm/i915_drm.h:2399:1: warning: packed attribute is unnecessary for 'i915_context_engines_parallel_submit' [-Wpacked]
+ 2399 | } __attribute__((packed));
+      | ^
+../include/drm/i915_drm.h:2473:1: warning: packed attribute is unnecessary for 'i915_context_param_engines' [-Wpacked]
+ 2473 | } __attribute__((packed));
+      | ^
+[53/74] Generating symbol file libdrm.so.2.125.0.p/libdrm.so.2.125.0.symbols
+[54/74] Linking target tests/radeon/radeon_ttm
+[55/74] Linking target tests/hash
+[56/74] Linking target nouveau/libdrm_nouveau.so.2.125.0
+[57/74] Linking target tests/drmsl
+[58/74] Linking target tests/drmdevice
+[59/74] Linking target radeon/libdrm_radeon.so.1.125.0
+[60/74] Linking target amdgpu/libdrm_amdgpu.so.1.125.0
+[61/74] Compiling C object tests/util/libutil.a.p/pattern.c.o
+[62/74] Linking static target tests/util/libutil.a
+[63/74] Linking target tests/vbltest/vbltest
+[64/74] Linking target tests/proptest/proptest
+[65/74] Linking target tests/modeprint/modeprint
+[66/74] Linking target tests/modetest/modetest
+[67/74] Generating symbol file amdgpu/libdrm_amdgpu.so.1.125.0.p/libdrm_amdgpu.so.1.125.0.symbols
+[68/74] Generating symbol file nouveau/libdrm_nouveau.so.2.125.0.p/libdrm_nouveau.so.2.125.0.symbols
+[69/74] Linking target tests/nouveau/threaded
+[70/74] Linking target tests/amdgpu/amdgpu_stress
+[71/74] Compiling C object intel/libdrm_intel.so.1.125.0.p/intel_decode.c.o
+[72/74] Linking target intel/libdrm_intel.so.1.125.0
+[73/74] Generating symbol file intel/libdrm_intel.so.1.125.0.p/libdrm_intel.so.1.125.0.symbols
+[74/74] Linking target intel/test_decode
+[0/1] Installing files
+Installing libdrm.so.2.125.0 to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/lib32
+Installing intel/libdrm_intel.so.1.125.0 to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/lib32
+Installing nouveau/libdrm_nouveau.so.2.125.0 to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/lib32
+Installing radeon/libdrm_radeon.so.1.125.0 to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/lib32
+Installing amdgpu/libdrm_amdgpu.so.1.125.0 to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/lib32
+Installing man/drm.7 to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/share/man/man7
+Installing man/drm-kms.7 to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/share/man/man7
+Installing man/drm-memory.7 to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/share/man/man7
+Installing man/drmAvailable.3 to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/share/man/man3
+Installing man/drmHandleEvent.3 to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/share/man/man3
+Installing man/drmModeGetResources.3 to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/share/man/man3
+Installing /blfs/builds/libdrm-2.4.125/libsync.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include
+Installing /blfs/builds/libdrm-2.4.125/xf86drm.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include
+Installing /blfs/builds/libdrm-2.4.125/xf86drmMode.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include
+Installing /blfs/builds/libdrm-2.4.125/include/drm/drm.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include/libdrm
+Installing /blfs/builds/libdrm-2.4.125/include/drm/drm_fourcc.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include/libdrm
+Installing /blfs/builds/libdrm-2.4.125/include/drm/drm_mode.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include/libdrm
+Installing /blfs/builds/libdrm-2.4.125/include/drm/drm_sarea.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include/libdrm
+Installing /blfs/builds/libdrm-2.4.125/include/drm/i915_drm.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include/libdrm
+Installing /blfs/builds/libdrm-2.4.125/include/drm/mach64_drm.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include/libdrm
+Installing /blfs/builds/libdrm-2.4.125/include/drm/mga_drm.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include/libdrm
+Installing /blfs/builds/libdrm-2.4.125/include/drm/msm_drm.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include/libdrm
+Installing /blfs/builds/libdrm-2.4.125/include/drm/nouveau_drm.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include/libdrm
+Installing /blfs/builds/libdrm-2.4.125/include/drm/qxl_drm.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include/libdrm
+Installing /blfs/builds/libdrm-2.4.125/include/drm/r128_drm.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include/libdrm
+Installing /blfs/builds/libdrm-2.4.125/include/drm/radeon_drm.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include/libdrm
+Installing /blfs/builds/libdrm-2.4.125/include/drm/amdgpu_drm.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include/libdrm
+Installing /blfs/builds/libdrm-2.4.125/include/drm/savage_drm.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include/libdrm
+Installing /blfs/builds/libdrm-2.4.125/include/drm/sis_drm.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include/libdrm
+Installing /blfs/builds/libdrm-2.4.125/include/drm/tegra_drm.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include/libdrm
+Installing /blfs/builds/libdrm-2.4.125/include/drm/vc4_drm.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include/libdrm
+Installing /blfs/builds/libdrm-2.4.125/include/drm/via_drm.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include/libdrm
+Installing /blfs/builds/libdrm-2.4.125/include/drm/virtgpu_drm.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include/libdrm
+Installing /blfs/builds/libdrm-2.4.125/include/drm/vmwgfx_drm.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include/libdrm
+Installing /blfs/builds/libdrm-2.4.125/intel/intel_bufmgr.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include/libdrm
+Installing /blfs/builds/libdrm-2.4.125/intel/intel_aub.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include/libdrm
+Installing /blfs/builds/libdrm-2.4.125/intel/intel_debug.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include/libdrm
+Installing /blfs/builds/libdrm-2.4.125/nouveau/nouveau.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include/libdrm/nouveau
+Installing /blfs/builds/libdrm-2.4.125/nouveau/nvif/class.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include/libdrm/nouveau/nvif
+Installing /blfs/builds/libdrm-2.4.125/nouveau/nvif/cl0080.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include/libdrm/nouveau/nvif
+Installing /blfs/builds/libdrm-2.4.125/nouveau/nvif/cl9097.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include/libdrm/nouveau/nvif
+Installing /blfs/builds/libdrm-2.4.125/nouveau/nvif/if0002.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include/libdrm/nouveau/nvif
+Installing /blfs/builds/libdrm-2.4.125/nouveau/nvif/if0003.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include/libdrm/nouveau/nvif
+Installing /blfs/builds/libdrm-2.4.125/nouveau/nvif/ioctl.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include/libdrm/nouveau/nvif
+Installing /blfs/builds/libdrm-2.4.125/nouveau/nvif/unpack.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include/libdrm/nouveau/nvif
+Installing /blfs/builds/libdrm-2.4.125/radeon/radeon_bo.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include/libdrm
+Installing /blfs/builds/libdrm-2.4.125/radeon/radeon_cs.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include/libdrm
+Installing /blfs/builds/libdrm-2.4.125/radeon/radeon_surface.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include/libdrm
+Installing /blfs/builds/libdrm-2.4.125/radeon/radeon_bo_gem.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include/libdrm
+Installing /blfs/builds/libdrm-2.4.125/radeon/radeon_cs_gem.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include/libdrm
+Installing /blfs/builds/libdrm-2.4.125/radeon/radeon_bo_int.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include/libdrm
+Installing /blfs/builds/libdrm-2.4.125/radeon/radeon_cs_int.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include/libdrm
+Installing /blfs/builds/libdrm-2.4.125/radeon/r600_pci_ids.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include/libdrm
+Installing /blfs/builds/libdrm-2.4.125/amdgpu/amdgpu.h to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/include/libdrm
+Installing /blfs/builds/libdrm-2.4.125/build/meson-private/libdrm.pc to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/lib32/pkgconfig
+Installing /blfs/builds/libdrm-2.4.125/build/meson-private/libdrm_intel.pc to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/lib32/pkgconfig
+Installing /blfs/builds/libdrm-2.4.125/build/meson-private/libdrm_nouveau.pc to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/lib32/pkgconfig
+Installing /blfs/builds/libdrm-2.4.125/build/meson-private/libdrm_radeon.pc to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/lib32/pkgconfig
+Installing /blfs/builds/libdrm-2.4.125/build/meson-private/libdrm_amdgpu.pc to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/lib32/pkgconfig
+Installing /blfs/builds/libdrm-2.4.125/data/amdgpu.ids to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/share/libdrm
+Installing symlink pointing to libdrm.so.2.125.0 to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/lib32/libdrm.so.2
+Installing symlink pointing to libdrm.so.2 to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/lib32/libdrm.so
+Installing symlink pointing to libdrm_intel.so.1.125.0 to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/lib32/libdrm_intel.so.1
+Installing symlink pointing to libdrm_intel.so.1 to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/lib32/libdrm_intel.so
+Installing symlink pointing to libdrm_nouveau.so.2.125.0 to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/lib32/libdrm_nouveau.so.2
+Installing symlink pointing to libdrm_nouveau.so.2 to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/lib32/libdrm_nouveau.so
+Installing symlink pointing to libdrm_radeon.so.1.125.0 to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/lib32/libdrm_radeon.so.1
+Installing symlink pointing to libdrm_radeon.so.1 to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/lib32/libdrm_radeon.so
+Installing symlink pointing to libdrm_amdgpu.so.1.125.0 to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/lib32/libdrm_amdgpu.so.1
+Installing symlink pointing to libdrm_amdgpu.so.1 to /blfs/builds/libdrm-2.4.125/build/DESTDIR/usr/lib32/libdrm_amdgpu.so
+'DESTDIR/usr/lib32/libdrm.so' -> '/pkgs/lib32-libdrm/usr/lib32/libdrm.so'
+'DESTDIR/usr/lib32/libdrm.so.2' -> '/pkgs/lib32-libdrm/usr/lib32/libdrm.so.2'
+'DESTDIR/usr/lib32/libdrm.so.2.125.0' -> '/pkgs/lib32-libdrm/usr/lib32/libdrm.so.2.125.0'
+'DESTDIR/usr/lib32/libdrm_amdgpu.so' -> '/pkgs/lib32-libdrm/usr/lib32/libdrm_amdgpu.so'
+'DESTDIR/usr/lib32/libdrm_amdgpu.so.1' -> '/pkgs/lib32-libdrm/usr/lib32/libdrm_amdgpu.so.1'
+'DESTDIR/usr/lib32/libdrm_amdgpu.so.1.125.0' -> '/pkgs/lib32-libdrm/usr/lib32/libdrm_amdgpu.so.1.125.0'
+'DESTDIR/usr/lib32/libdrm_intel.so' -> '/pkgs/lib32-libdrm/usr/lib32/libdrm_intel.so'
+'DESTDIR/usr/lib32/libdrm_intel.so.1' -> '/pkgs/lib32-libdrm/usr/lib32/libdrm_intel.so.1'
+'DESTDIR/usr/lib32/libdrm_intel.so.1.125.0' -> '/pkgs/lib32-libdrm/usr/lib32/libdrm_intel.so.1.125.0'
+'DESTDIR/usr/lib32/libdrm_nouveau.so' -> '/pkgs/lib32-libdrm/usr/lib32/libdrm_nouveau.so'
+'DESTDIR/usr/lib32/libdrm_nouveau.so.2' -> '/pkgs/lib32-libdrm/usr/lib32/libdrm_nouveau.so.2'
+'DESTDIR/usr/lib32/libdrm_nouveau.so.2.125.0' -> '/pkgs/lib32-libdrm/usr/lib32/libdrm_nouveau.so.2.125.0'
+'DESTDIR/usr/lib32/libdrm_radeon.so' -> '/pkgs/lib32-libdrm/usr/lib32/libdrm_radeon.so'
+'DESTDIR/usr/lib32/libdrm_radeon.so.1' -> '/pkgs/lib32-libdrm/usr/lib32/libdrm_radeon.so.1'
+'DESTDIR/usr/lib32/libdrm_radeon.so.1.125.0' -> '/pkgs/lib32-libdrm/usr/lib32/libdrm_radeon.so.1.125.0'
+'DESTDIR/usr/lib32/pkgconfig' -> '/pkgs/lib32-libdrm/usr/lib32/pkgconfig'
+'DESTDIR/usr/lib32/pkgconfig/libdrm.pc' -> '/pkgs/lib32-libdrm/usr/lib32/pkgconfig/libdrm.pc'
+'DESTDIR/usr/lib32/pkgconfig/libdrm_intel.pc' -> '/pkgs/lib32-libdrm/usr/lib32/pkgconfig/libdrm_intel.pc'
+'DESTDIR/usr/lib32/pkgconfig/libdrm_nouveau.pc' -> '/pkgs/lib32-libdrm/usr/lib32/pkgconfig/libdrm_nouveau.pc'
+'DESTDIR/usr/lib32/pkgconfig/libdrm_radeon.pc' -> '/pkgs/lib32-libdrm/usr/lib32/pkgconfig/libdrm_radeon.pc'
+'DESTDIR/usr/lib32/pkgconfig/libdrm_amdgpu.pc' -> '/pkgs/lib32-libdrm/usr/lib32/pkgconfig/libdrm_amdgpu.pc'
+removed '/usr/lib32/libdrm.so'
+'/pkgs/lib32-libdrm/usr/lib32/libdrm.so' -> '/usr/lib32/libdrm.so'
+removed '/usr/lib32/libdrm.so.2'
+'/pkgs/lib32-libdrm/usr/lib32/libdrm.so.2' -> '/usr/lib32/libdrm.so.2'
+'/pkgs/lib32-libdrm/usr/lib32/libdrm.so.2.125.0' -> '/usr/lib32/libdrm.so.2.125.0'
+removed '/usr/lib32/libdrm_amdgpu.so'
+'/pkgs/lib32-libdrm/usr/lib32/libdrm_amdgpu.so' -> '/usr/lib32/libdrm_amdgpu.so'
+removed '/usr/lib32/libdrm_amdgpu.so.1'
+'/pkgs/lib32-libdrm/usr/lib32/libdrm_amdgpu.so.1' -> '/usr/lib32/libdrm_amdgpu.so.1'
+'/pkgs/lib32-libdrm/usr/lib32/libdrm_amdgpu.so.1.125.0' -> '/usr/lib32/libdrm_amdgpu.so.1.125.0'
+removed '/usr/lib32/libdrm_intel.so'
+'/pkgs/lib32-libdrm/usr/lib32/libdrm_intel.so' -> '/usr/lib32/libdrm_intel.so'
+removed '/usr/lib32/libdrm_intel.so.1'
+'/pkgs/lib32-libdrm/usr/lib32/libdrm_intel.so.1' -> '/usr/lib32/libdrm_intel.so.1'
+'/pkgs/lib32-libdrm/usr/lib32/libdrm_intel.so.1.125.0' -> '/usr/lib32/libdrm_intel.so.1.125.0'
+removed '/usr/lib32/libdrm_nouveau.so'
+'/pkgs/lib32-libdrm/usr/lib32/libdrm_nouveau.so' -> '/usr/lib32/libdrm_nouveau.so'
+removed '/usr/lib32/libdrm_nouveau.so.2'
+'/pkgs/lib32-libdrm/usr/lib32/libdrm_nouveau.so.2' -> '/usr/lib32/libdrm_nouveau.so.2'
+'/pkgs/lib32-libdrm/usr/lib32/libdrm_nouveau.so.2.125.0' -> '/usr/lib32/libdrm_nouveau.so.2.125.0'
+removed '/usr/lib32/libdrm_radeon.so'
+'/pkgs/lib32-libdrm/usr/lib32/libdrm_radeon.so' -> '/usr/lib32/libdrm_radeon.so'
+removed '/usr/lib32/libdrm_radeon.so.1'
+'/pkgs/lib32-libdrm/usr/lib32/libdrm_radeon.so.1' -> '/usr/lib32/libdrm_radeon.so.1'
+'/pkgs/lib32-libdrm/usr/lib32/libdrm_radeon.so.1.125.0' -> '/usr/lib32/libdrm_radeon.so.1.125.0'
+'/pkgs/lib32-libdrm/usr/lib32/pkgconfig/libdrm.pc' -> '/usr/lib32/pkgconfig/libdrm.pc'
+'/pkgs/lib32-libdrm/usr/lib32/pkgconfig/libdrm_intel.pc' -> '/usr/lib32/pkgconfig/libdrm_intel.pc'
+'/pkgs/lib32-libdrm/usr/lib32/pkgconfig/libdrm_nouveau.pc' -> '/usr/lib32/pkgconfig/libdrm_nouveau.pc'
+'/pkgs/lib32-libdrm/usr/lib32/pkgconfig/libdrm_radeon.pc' -> '/usr/lib32/pkgconfig/libdrm_radeon.pc'
+'/pkgs/lib32-libdrm/usr/lib32/pkgconfig/libdrm_amdgpu.pc' -> '/usr/lib32/pkgconfig/libdrm_amdgpu.pc'
+lib32-libdrm/
+lib32-libdrm/usr/
+lib32-libdrm/usr/lib32/
+lib32-libdrm/usr/lib32/libdrm.so
+lib32-libdrm/usr/lib32/libdrm_intel.so.1.125.0
+lib32-libdrm/usr/lib32/libdrm_intel.so.1
+lib32-libdrm/usr/lib32/libdrm_nouveau.so.2.125.0
+lib32-libdrm/usr/lib32/libdrm.so.2.125.0
+lib32-libdrm/usr/lib32/libdrm_radeon.so.1
+lib32-libdrm/usr/lib32/libdrm_amdgpu.so
+lib32-libdrm/usr/lib32/libdrm_radeon.so.1.125.0
+lib32-libdrm/usr/lib32/libdrm_amdgpu.so.1
+lib32-libdrm/usr/lib32/libdrm_radeon.so
+lib32-libdrm/usr/lib32/libdrm_amdgpu.so.1.125.0
+lib32-libdrm/usr/lib32/pkgconfig/
+lib32-libdrm/usr/lib32/pkgconfig/libdrm_nouveau.pc
+lib32-libdrm/usr/lib32/pkgconfig/libdrm.pc
+lib32-libdrm/usr/lib32/pkgconfig/libdrm_radeon.pc
+lib32-libdrm/usr/lib32/pkgconfig/libdrm_amdgpu.pc
+lib32-libdrm/usr/lib32/pkgconfig/libdrm_intel.pc
+lib32-libdrm/usr/lib32/libdrm_intel.so
+lib32-libdrm/usr/lib32/libdrm.so.2
+lib32-libdrm/usr/lib32/libdrm_nouveau.so
+lib32-libdrm/usr/lib32/libdrm_nouveau.so.2
+lib32-libdrm/version
+lib32-libdrm/depends

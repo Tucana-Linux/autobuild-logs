@@ -1,0 +1,2246 @@
+--2025-06-19 07:16:39--  https://download.gnome.org/sources/sysprof/47/sysprof-47.2.tar.xz
+Resolving download.gnome.org (download.gnome.org)... 2a02:6ea0:c400::53, 2a02:6ea0:c400::54, 79.127.206.235, ...
+Connecting to download.gnome.org (download.gnome.org)|2a02:6ea0:c400::53|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1192172 (1.1M) [application/octet-stream]
+Saving to: 'sysprof-47.2.tar.xz'
+
+     0K .......... .......... .......... .......... ..........  4% 3.78M 0s
+    50K .......... .......... .......... .......... ..........  8% 9.17M 0s
+   100K .......... .......... .......... .......... .......... 12% 12.6M 0s
+   150K .......... .......... .......... .......... .......... 17% 17.4M 0s
+   200K .......... .......... .......... .......... .......... 21% 25.5M 0s
+   250K .......... .......... .......... .......... .......... 25% 19.4M 0s
+   300K .......... .......... .......... .......... .......... 30% 31.5M 0s
+   350K .......... .......... .......... .......... .......... 34% 24.8M 0s
+   400K .......... .......... .......... .......... .......... 38% 51.9M 0s
+   450K .......... .......... .......... .......... .......... 42% 49.3M 0s
+   500K .......... .......... .......... .......... .......... 47% 52.0M 0s
+   550K .......... .......... .......... .......... .......... 51% 36.5M 0s
+   600K .......... .......... .......... .......... .......... 55%  101M 0s
+   650K .......... .......... .......... .......... .......... 60% 71.2M 0s
+   700K .......... .......... .......... .......... .......... 64% 79.6M 0s
+   750K .......... .......... .......... .......... .......... 68% 51.2M 0s
+   800K .......... .......... .......... .......... .......... 73% 47.9M 0s
+   850K .......... .......... .......... .......... .......... 77% 18.4M 0s
+   900K .......... .......... .......... .......... .......... 81%  118M 0s
+   950K .......... .......... .......... .......... .......... 85%  117M 0s
+  1000K .......... .......... .......... .......... .......... 90% 11.1M 0s
+  1050K .......... .......... .......... .......... .......... 94%  115M 0s
+  1100K .......... .......... .......... .......... .......... 98%  118M 0s
+  1150K .......... ....                                       100%  125M=0.05s
+
+2025-06-19 07:16:39 (22.9 MB/s) - 'sysprof-47.2.tar.xz' saved [1192172/1192172]
+
+sysprof-47.2/
+sysprof-47.2/.editorconfig
+sysprof-47.2/.gitignore
+sysprof-47.2/.gitlab-ci.yml
+sysprof-47.2/AUTHORS
+sysprof-47.2/COPYING
+sysprof-47.2/COPYING.gpl-2
+sysprof-47.2/NEWS
+sysprof-47.2/README.md
+sysprof-47.2/build-aux/
+sysprof-47.2/build-aux/flatpak/
+sysprof-47.2/build-aux/flatpak/polkit-autogen
+sysprof-47.2/build-aux/flatpak/polkit-build-Add-option-to-build-without-polkitd.patch
+sysprof-47.2/config.h.meson
+sysprof-47.2/contrib/
+sysprof-47.2/contrib/eggbitset/
+sysprof-47.2/contrib/eggbitset/COPYING
+sysprof-47.2/contrib/eggbitset/README.md
+sysprof-47.2/contrib/eggbitset/eggbitset.c
+sysprof-47.2/contrib/eggbitset/eggbitset.h
+sysprof-47.2/contrib/eggbitset/meson.build
+sysprof-47.2/contrib/eggbitset/roaring.c
+sysprof-47.2/contrib/eggbitset/roaring.h
+sysprof-47.2/contrib/elfparser/
+sysprof-47.2/contrib/elfparser/demangle.cpp
+sysprof-47.2/contrib/elfparser/demangle.h
+sysprof-47.2/contrib/elfparser/elfparser.c
+sysprof-47.2/contrib/elfparser/elfparser.h
+sysprof-47.2/contrib/elfparser/meson.build
+sysprof-47.2/contrib/elfparser/rust-demangle.c
+sysprof-47.2/contrib/elfparser/rust-demangle.h
+sysprof-47.2/contrib/linereader/
+sysprof-47.2/contrib/linereader/line-reader-private.h
+sysprof-47.2/contrib/linereader/meson.build
+sysprof-47.2/contrib/meson.build
+sysprof-47.2/data/
+sysprof-47.2/data/icons/
+sysprof-47.2/data/icons/meson.build
+sysprof-47.2/data/icons/org.gnome.Sysprof.Devel.svg
+sysprof-47.2/data/icons/org.gnome.Sysprof.Source.svg
+sysprof-47.2/data/icons/org.gnome.Sysprof.svg
+sysprof-47.2/data/icons/scalable/
+sysprof-47.2/data/icons/scalable/actions/
+sysprof-47.2/data/icons/scalable/actions/sysprof-allocations.svg
+sysprof-47.2/data/icons/scalable/actions/sysprof-battery.svg
+sysprof-47.2/data/icons/scalable/actions/sysprof-calgraph.svg
+sysprof-47.2/data/icons/scalable/actions/sysprof-cli.svg
+sysprof-47.2/data/icons/scalable/actions/sysprof-cpu.svg
+sysprof-47.2/data/icons/scalable/actions/sysprof-disk.svg
+sysprof-47.2/data/icons/scalable/actions/sysprof-gtk.svg
+sysprof-47.2/data/icons/scalable/actions/sysprof-library.svg
+sysprof-47.2/data/icons/scalable/actions/sysprof-memory.svg
+sysprof-47.2/data/icons/scalable/actions/sysprof-networking.svg
+sysprof-47.2/data/icons/scalable/actions/sysprof-rapl.svg
+sysprof-47.2/data/icons/scalable/actions/sysprof-trace-app.svg
+sysprof-47.2/data/icons/symbolic/
+sysprof-47.2/data/icons/symbolic/apps/
+sysprof-47.2/data/icons/symbolic/apps/org.gnome.Sysprof-symbolic.svg
+sysprof-47.2/data/meson.build
+sysprof-47.2/data/org.gnome.Sysprof.appdata.xml.in.in
+sysprof-47.2/data/org.gnome.Sysprof.desktop.in.in
+sysprof-47.2/data/screenshots/
+sysprof-47.2/data/screenshots/sysprof-main-window.png
+sysprof-47.2/data/sysprof-mime.xml
+sysprof-47.2/examples/
+sysprof-47.2/examples/app.c
+sysprof-47.2/examples/meson.build
+sysprof-47.2/help/
+sysprof-47.2/help/C/
+sysprof-47.2/help/C/faq.page
+sysprof-47.2/help/C/figures/
+sysprof-47.2/help/C/figures/Sysprof.svg
+sysprof-47.2/help/C/index.page
+sysprof-47.2/help/C/introduction.page
+sysprof-47.2/help/C/legal.xml
+sysprof-47.2/help/C/profiling.page
+sysprof-47.2/help/LINGUAS
+sysprof-47.2/help/ca/
+sysprof-47.2/help/ca/ca.po
+sysprof-47.2/help/cs/
+sysprof-47.2/help/cs/cs.po
+sysprof-47.2/help/da/
+sysprof-47.2/help/da/da.po
+sysprof-47.2/help/de/
+sysprof-47.2/help/de/de.po
+sysprof-47.2/help/el/
+sysprof-47.2/help/el/el.po
+sysprof-47.2/help/es/
+sysprof-47.2/help/es/es.po
+sysprof-47.2/help/eu/
+sysprof-47.2/help/eu/eu.po
+sysprof-47.2/help/fr/
+sysprof-47.2/help/fr/fr.po
+sysprof-47.2/help/hu/
+sysprof-47.2/help/hu/hu.po
+sysprof-47.2/help/id/
+sysprof-47.2/help/id/id.po
+sysprof-47.2/help/ko/
+sysprof-47.2/help/ko/ko.po
+sysprof-47.2/help/meson.build
+sysprof-47.2/help/pl/
+sysprof-47.2/help/pl/pl.po
+sysprof-47.2/help/pt_BR/
+sysprof-47.2/help/pt_BR/pt_BR.po
+sysprof-47.2/help/ru/
+sysprof-47.2/help/ru/ru.po
+sysprof-47.2/help/sv/
+sysprof-47.2/help/sv/sv.po
+sysprof-47.2/help/uk/
+sysprof-47.2/help/uk/uk.po
+sysprof-47.2/meson.build
+sysprof-47.2/meson_options.txt
+sysprof-47.2/org.gnome.Sysprof.Devel.json
+sysprof-47.2/po/
+sysprof-47.2/po/LINGUAS
+sysprof-47.2/po/POTFILES.in
+sysprof-47.2/po/bg.po
+sysprof-47.2/po/ca.po
+sysprof-47.2/po/cs.po
+sysprof-47.2/po/da.po
+sysprof-47.2/po/de.po
+sysprof-47.2/po/el.po
+sysprof-47.2/po/en_GB.po
+sysprof-47.2/po/eo.po
+sysprof-47.2/po/es.po
+sysprof-47.2/po/eu.po
+sysprof-47.2/po/fa.po
+sysprof-47.2/po/fi.po
+sysprof-47.2/po/fr.po
+sysprof-47.2/po/fur.po
+sysprof-47.2/po/gl.po
+sysprof-47.2/po/he.po
+sysprof-47.2/po/hi.po
+sysprof-47.2/po/hu.po
+sysprof-47.2/po/id.po
+sysprof-47.2/po/it.po
+sysprof-47.2/po/ka.po
+sysprof-47.2/po/kab.po
+sysprof-47.2/po/ko.po
+sysprof-47.2/po/lt.po
+sysprof-47.2/po/meson.build
+sysprof-47.2/po/ne.po
+sysprof-47.2/po/nl.po
+sysprof-47.2/po/oc.po
+sysprof-47.2/po/pa.po
+sysprof-47.2/po/pl.po
+sysprof-47.2/po/pt.po
+sysprof-47.2/po/pt_BR.po
+sysprof-47.2/po/ro.po
+sysprof-47.2/po/ru.po
+sysprof-47.2/po/sk.po
+sysprof-47.2/po/sl.po
+sysprof-47.2/po/sr.po
+sysprof-47.2/po/sv.po
+sysprof-47.2/po/tr.po
+sysprof-47.2/po/uk.po
+sysprof-47.2/po/zh_CN.po
+sysprof-47.2/src/
+sysprof-47.2/src/libsysprof/
+sysprof-47.2/src/libsysprof/categories.txt
+sysprof-47.2/src/libsysprof/libsysprof.gresource.xml
+sysprof-47.2/src/libsysprof/mapped-ring-buffer-source-private.h
+sysprof-47.2/src/libsysprof/mapped-ring-buffer-source.c
+sysprof-47.2/src/libsysprof/meson.build
+sysprof-47.2/src/libsysprof/sysprof-address-layout-private.h
+sysprof-47.2/src/libsysprof/sysprof-address-layout.c
+sysprof-47.2/src/libsysprof/sysprof-allocator-private.h
+sysprof-47.2/src/libsysprof/sysprof-allocator.c
+sysprof-47.2/src/libsysprof/sysprof-battery-charge.c
+sysprof-47.2/src/libsysprof/sysprof-battery-charge.h
+sysprof-47.2/src/libsysprof/sysprof-bundled-symbolizer-private.h
+sysprof-47.2/src/libsysprof/sysprof-bundled-symbolizer.c
+sysprof-47.2/src/libsysprof/sysprof-bundled-symbolizer.h
+sysprof-47.2/src/libsysprof/sysprof-callgraph-categorize.c
+sysprof-47.2/src/libsysprof/sysprof-callgraph-frame-private.h
+sysprof-47.2/src/libsysprof/sysprof-callgraph-frame.c
+sysprof-47.2/src/libsysprof/sysprof-callgraph-frame.h
+sysprof-47.2/src/libsysprof/sysprof-callgraph-private.h
+sysprof-47.2/src/libsysprof/sysprof-callgraph-symbol-private.h
+sysprof-47.2/src/libsysprof/sysprof-callgraph-symbol.c
+sysprof-47.2/src/libsysprof/sysprof-callgraph-symbol.h
+sysprof-47.2/src/libsysprof/sysprof-callgraph.c
+sysprof-47.2/src/libsysprof/sysprof-callgraph.h
+sysprof-47.2/src/libsysprof/sysprof-categories-private.h
+sysprof-47.2/src/libsysprof/sysprof-categories.c
+sysprof-47.2/src/libsysprof/sysprof-category-summary-private.h
+sysprof-47.2/src/libsysprof/sysprof-category-summary.c
+sysprof-47.2/src/libsysprof/sysprof-category-summary.h
+sysprof-47.2/src/libsysprof/sysprof-controlfd-instrument-private.h
+sysprof-47.2/src/libsysprof/sysprof-controlfd-instrument.c
+sysprof-47.2/src/libsysprof/sysprof-cpu-info-private.h
+sysprof-47.2/src/libsysprof/sysprof-cpu-info.c
+sysprof-47.2/src/libsysprof/sysprof-cpu-info.h
+sysprof-47.2/src/libsysprof/sysprof-cpu-usage.c
+sysprof-47.2/src/libsysprof/sysprof-cpu-usage.h
+sysprof-47.2/src/libsysprof/sysprof-dbus-monitor.c
+sysprof-47.2/src/libsysprof/sysprof-dbus-monitor.h
+sysprof-47.2/src/libsysprof/sysprof-descendants-model-private.h
+sysprof-47.2/src/libsysprof/sysprof-descendants-model.c
+sysprof-47.2/src/libsysprof/sysprof-diagnostic-private.h
+sysprof-47.2/src/libsysprof/sysprof-diagnostic.c
+sysprof-47.2/src/libsysprof/sysprof-diagnostic.h
+sysprof-47.2/src/libsysprof/sysprof-disk-usage.c
+sysprof-47.2/src/libsysprof/sysprof-disk-usage.h
+sysprof-47.2/src/libsysprof/sysprof-document-allocation.c
+sysprof-47.2/src/libsysprof/sysprof-document-allocation.h
+sysprof-47.2/src/libsysprof/sysprof-document-bitset-index-private.h
+sysprof-47.2/src/libsysprof/sysprof-document-bitset-index.c
+sysprof-47.2/src/libsysprof/sysprof-document-counter-private.h
+sysprof-47.2/src/libsysprof/sysprof-document-counter-value-private.h
+sysprof-47.2/src/libsysprof/sysprof-document-counter-value.c
+sysprof-47.2/src/libsysprof/sysprof-document-counter-value.h
+sysprof-47.2/src/libsysprof/sysprof-document-counter.c
+sysprof-47.2/src/libsysprof/sysprof-document-counter.h
+sysprof-47.2/src/libsysprof/sysprof-document-ctrdef.c
+sysprof-47.2/src/libsysprof/sysprof-document-ctrdef.h
+sysprof-47.2/src/libsysprof/sysprof-document-ctrset.c
+sysprof-47.2/src/libsysprof/sysprof-document-ctrset.h
+sysprof-47.2/src/libsysprof/sysprof-document-dbus-message.c
+sysprof-47.2/src/libsysprof/sysprof-document-dbus-message.h
+sysprof-47.2/src/libsysprof/sysprof-document-exit.c
+sysprof-47.2/src/libsysprof/sysprof-document-exit.h
+sysprof-47.2/src/libsysprof/sysprof-document-file-chunk.c
+sysprof-47.2/src/libsysprof/sysprof-document-file-chunk.h
+sysprof-47.2/src/libsysprof/sysprof-document-file-private.h
+sysprof-47.2/src/libsysprof/sysprof-document-file.c
+sysprof-47.2/src/libsysprof/sysprof-document-file.h
+sysprof-47.2/src/libsysprof/sysprof-document-fork.c
+sysprof-47.2/src/libsysprof/sysprof-document-fork.h
+sysprof-47.2/src/libsysprof/sysprof-document-frame-private.h
+sysprof-47.2/src/libsysprof/sysprof-document-frame.c
+sysprof-47.2/src/libsysprof/sysprof-document-frame.h
+sysprof-47.2/src/libsysprof/sysprof-document-jitmap.c
+sysprof-47.2/src/libsysprof/sysprof-document-jitmap.h
+sysprof-47.2/src/libsysprof/sysprof-document-loader.c
+sysprof-47.2/src/libsysprof/sysprof-document-loader.h
+sysprof-47.2/src/libsysprof/sysprof-document-log.c
+sysprof-47.2/src/libsysprof/sysprof-document-log.h
+sysprof-47.2/src/libsysprof/sysprof-document-mark.c
+sysprof-47.2/src/libsysprof/sysprof-document-mark.h
+sysprof-47.2/src/libsysprof/sysprof-document-metadata.c
+sysprof-47.2/src/libsysprof/sysprof-document-metadata.h
+sysprof-47.2/src/libsysprof/sysprof-document-mmap.c
+sysprof-47.2/src/libsysprof/sysprof-document-mmap.h
+sysprof-47.2/src/libsysprof/sysprof-document-overlay.c
+sysprof-47.2/src/libsysprof/sysprof-document-overlay.h
+sysprof-47.2/src/libsysprof/sysprof-document-private.h
+sysprof-47.2/src/libsysprof/sysprof-document-process-private.h
+sysprof-47.2/src/libsysprof/sysprof-document-process.c
+sysprof-47.2/src/libsysprof/sysprof-document-process.h
+sysprof-47.2/src/libsysprof/sysprof-document-sample.c
+sysprof-47.2/src/libsysprof/sysprof-document-sample.h
+sysprof-47.2/src/libsysprof/sysprof-document-symbols-private.h
+sysprof-47.2/src/libsysprof/sysprof-document-symbols.c
+sysprof-47.2/src/libsysprof/sysprof-document-traceable.c
+sysprof-47.2/src/libsysprof/sysprof-document-traceable.h
+sysprof-47.2/src/libsysprof/sysprof-document.c
+sysprof-47.2/src/libsysprof/sysprof-document.h
+sysprof-47.2/src/libsysprof/sysprof-elf-loader-private.h
+sysprof-47.2/src/libsysprof/sysprof-elf-loader.c
+sysprof-47.2/src/libsysprof/sysprof-elf-private.h
+sysprof-47.2/src/libsysprof/sysprof-elf-symbolizer.c
+sysprof-47.2/src/libsysprof/sysprof-elf-symbolizer.h
+sysprof-47.2/src/libsysprof/sysprof-elf.c
+sysprof-47.2/src/libsysprof/sysprof-energy-usage.c
+sysprof-47.2/src/libsysprof/sysprof-energy-usage.h
+sysprof-47.2/src/libsysprof/sysprof-instrument-private.h
+sysprof-47.2/src/libsysprof/sysprof-instrument.c
+sysprof-47.2/src/libsysprof/sysprof-instrument.h
+sysprof-47.2/src/libsysprof/sysprof-jitmap-symbolizer.c
+sysprof-47.2/src/libsysprof/sysprof-jitmap-symbolizer.h
+sysprof-47.2/src/libsysprof/sysprof-journald-source.c
+sysprof-47.2/src/libsysprof/sysprof-journald-source.h
+sysprof-47.2/src/libsysprof/sysprof-kallsyms-symbolizer.c
+sysprof-47.2/src/libsysprof/sysprof-kallsyms-symbolizer.h
+sysprof-47.2/src/libsysprof/sysprof-leak-detector-private.h
+sysprof-47.2/src/libsysprof/sysprof-leak-detector.c
+sysprof-47.2/src/libsysprof/sysprof-linux-instrument-private.h
+sysprof-47.2/src/libsysprof/sysprof-linux-instrument.c
+sysprof-47.2/src/libsysprof/sysprof-malloc-tracing.c
+sysprof-47.2/src/libsysprof/sysprof-malloc-tracing.h
+sysprof-47.2/src/libsysprof/sysprof-maps-parser-private.h
+sysprof-47.2/src/libsysprof/sysprof-maps-parser.c
+sysprof-47.2/src/libsysprof/sysprof-mark-catalog-private.h
+sysprof-47.2/src/libsysprof/sysprof-mark-catalog.c
+sysprof-47.2/src/libsysprof/sysprof-mark-catalog.h
+sysprof-47.2/src/libsysprof/sysprof-memory-usage.c
+sysprof-47.2/src/libsysprof/sysprof-memory-usage.h
+sysprof-47.2/src/libsysprof/sysprof-mount-device-private.h
+sysprof-47.2/src/libsysprof/sysprof-mount-device.c
+sysprof-47.2/src/libsysprof/sysprof-mount-namespace-private.h
+sysprof-47.2/src/libsysprof/sysprof-mount-namespace.c
+sysprof-47.2/src/libsysprof/sysprof-mount-private.h
+sysprof-47.2/src/libsysprof/sysprof-mount.c
+sysprof-47.2/src/libsysprof/sysprof-mount.h
+sysprof-47.2/src/libsysprof/sysprof-multi-symbolizer.c
+sysprof-47.2/src/libsysprof/sysprof-multi-symbolizer.h
+sysprof-47.2/src/libsysprof/sysprof-network-usage.c
+sysprof-47.2/src/libsysprof/sysprof-network-usage.h
+sysprof-47.2/src/libsysprof/sysprof-no-symbolizer.c
+sysprof-47.2/src/libsysprof/sysprof-no-symbolizer.h
+sysprof-47.2/src/libsysprof/sysprof-perf-event-stream-private.h
+sysprof-47.2/src/libsysprof/sysprof-perf-event-stream.c
+sysprof-47.2/src/libsysprof/sysprof-podman-private.h
+sysprof-47.2/src/libsysprof/sysprof-podman.c
+sysprof-47.2/src/libsysprof/sysprof-polkit-private.h
+sysprof-47.2/src/libsysprof/sysprof-polkit.c
+sysprof-47.2/src/libsysprof/sysprof-power-profile.c
+sysprof-47.2/src/libsysprof/sysprof-power-profile.h
+sysprof-47.2/src/libsysprof/sysprof-process-info-private.h
+sysprof-47.2/src/libsysprof/sysprof-process-info.c
+sysprof-47.2/src/libsysprof/sysprof-profiler.c
+sysprof-47.2/src/libsysprof/sysprof-profiler.h
+sysprof-47.2/src/libsysprof/sysprof-proxied-instrument-private.h
+sysprof-47.2/src/libsysprof/sysprof-proxied-instrument.c
+sysprof-47.2/src/libsysprof/sysprof-proxied-instrument.h
+sysprof-47.2/src/libsysprof/sysprof-recording-private.h
+sysprof-47.2/src/libsysprof/sysprof-recording.c
+sysprof-47.2/src/libsysprof/sysprof-recording.h
+sysprof-47.2/src/libsysprof/sysprof-sampler.c
+sysprof-47.2/src/libsysprof/sysprof-sampler.h
+sysprof-47.2/src/libsysprof/sysprof-scheduler-details.c
+sysprof-47.2/src/libsysprof/sysprof-scheduler-details.h
+sysprof-47.2/src/libsysprof/sysprof-spawnable.c
+sysprof-47.2/src/libsysprof/sysprof-spawnable.h
+sysprof-47.2/src/libsysprof/sysprof-strings-private.h
+sysprof-47.2/src/libsysprof/sysprof-strings.c
+sysprof-47.2/src/libsysprof/sysprof-subprocess-output.c
+sysprof-47.2/src/libsysprof/sysprof-subprocess-output.h
+sysprof-47.2/src/libsysprof/sysprof-symbol-cache-private.h
+sysprof-47.2/src/libsysprof/sysprof-symbol-cache.c
+sysprof-47.2/src/libsysprof/sysprof-symbol-private.h
+sysprof-47.2/src/libsysprof/sysprof-symbol.c
+sysprof-47.2/src/libsysprof/sysprof-symbol.h
+sysprof-47.2/src/libsysprof/sysprof-symbolizer-private.h
+sysprof-47.2/src/libsysprof/sysprof-symbolizer.c
+sysprof-47.2/src/libsysprof/sysprof-symbolizer.h
+sysprof-47.2/src/libsysprof/sysprof-symbols-bundle.c
+sysprof-47.2/src/libsysprof/sysprof-symbols-bundle.h
+sysprof-47.2/src/libsysprof/sysprof-system-logs.c
+sysprof-47.2/src/libsysprof/sysprof-system-logs.h
+sysprof-47.2/src/libsysprof/sysprof-thread-info.c
+sysprof-47.2/src/libsysprof/sysprof-thread-info.h
+sysprof-47.2/src/libsysprof/sysprof-time-span.c
+sysprof-47.2/src/libsysprof/sysprof-time-span.h
+sysprof-47.2/src/libsysprof/sysprof-tracefd-consumer.c
+sysprof-47.2/src/libsysprof/sysprof-tracefd-consumer.h
+sysprof-47.2/src/libsysprof/sysprof-tracer.c
+sysprof-47.2/src/libsysprof/sysprof-tracer.h
+sysprof-47.2/src/libsysprof/sysprof.h
+sysprof-47.2/src/libsysprof/tests/
+sysprof-47.2/src/libsysprof/tests/meson.build
+sysprof-47.2/src/libsysprof/tests/ninja-to-marks.c
+sysprof-47.2/src/libsysprof/tests/read-build-id.c
+sysprof-47.2/src/libsysprof/tests/test-allocs-by-func.c
+sysprof-47.2/src/libsysprof/tests/test-callgraph.c
+sysprof-47.2/src/libsysprof/tests/test-capture-model.c
+sysprof-47.2/src/libsysprof/tests/test-cplusplus.cpp
+sysprof-47.2/src/libsysprof/tests/test-elf-loader.c
+sysprof-47.2/src/libsysprof/tests/test-leak-detector.c
+sysprof-47.2/src/libsysprof/tests/test-list-address-layout.c
+sysprof-47.2/src/libsysprof/tests/test-list-counters.c
+sysprof-47.2/src/libsysprof/tests/test-list-cpu.c
+sysprof-47.2/src/libsysprof/tests/test-list-files.c
+sysprof-47.2/src/libsysprof/tests/test-list-functions-by-weight.c
+sysprof-47.2/src/libsysprof/tests/test-list-jitmap.c
+sysprof-47.2/src/libsysprof/tests/test-list-overlays.c
+sysprof-47.2/src/libsysprof/tests/test-list-processes.c
+sysprof-47.2/src/libsysprof/tests/test-maps-parser.c
+sysprof-47.2/src/libsysprof/tests/test-mark-catalog.c
+sysprof-47.2/src/libsysprof/tests/test-print-file.c
+sysprof-47.2/src/libsysprof/tests/test-profiler.c
+sysprof-47.2/src/libsysprof/tests/test-strings.c
+sysprof-47.2/src/libsysprof/tests/test-symbol-cache.c
+sysprof-47.2/src/libsysprof/tests/test-symbolize.c
+sysprof-47.2/src/libsysprof/timsort/
+sysprof-47.2/src/libsysprof/timsort/COPYING
+sysprof-47.2/src/libsysprof/timsort/README.md
+sysprof-47.2/src/libsysprof/timsort/gtktimsort-impl.c
+sysprof-47.2/src/libsysprof/timsort/gtktimsort.c
+sysprof-47.2/src/libsysprof/timsort/gtktimsortprivate.h
+sysprof-47.2/src/libsysprof/tree.h
+sysprof-47.2/src/libsysprof-capture/
+sysprof-47.2/src/libsysprof-capture/COPYING
+sysprof-47.2/src/libsysprof-capture/mapped-ring-buffer.c
+sysprof-47.2/src/libsysprof-capture/mapped-ring-buffer.h
+sysprof-47.2/src/libsysprof-capture/meson.build
+sysprof-47.2/src/libsysprof-capture/sysprof-address-fallback.h
+sysprof-47.2/src/libsysprof-capture/sysprof-address.c
+sysprof-47.2/src/libsysprof-capture/sysprof-address.h
+sysprof-47.2/src/libsysprof-capture/sysprof-capture-condition.c
+sysprof-47.2/src/libsysprof-capture/sysprof-capture-condition.h
+sysprof-47.2/src/libsysprof-capture/sysprof-capture-cursor.c
+sysprof-47.2/src/libsysprof-capture/sysprof-capture-cursor.h
+sysprof-47.2/src/libsysprof-capture/sysprof-capture-reader.c
+sysprof-47.2/src/libsysprof-capture/sysprof-capture-reader.h
+sysprof-47.2/src/libsysprof-capture/sysprof-capture-types.h
+sysprof-47.2/src/libsysprof-capture/sysprof-capture-util-private.h
+sysprof-47.2/src/libsysprof-capture/sysprof-capture-util.c
+sysprof-47.2/src/libsysprof-capture/sysprof-capture-writer-cat.c
+sysprof-47.2/src/libsysprof-capture/sysprof-capture-writer.c
+sysprof-47.2/src/libsysprof-capture/sysprof-capture-writer.h
+sysprof-47.2/src/libsysprof-capture/sysprof-capture.h
+sysprof-47.2/src/libsysprof-capture/sysprof-clock.c
+sysprof-47.2/src/libsysprof-capture/sysprof-clock.h
+sysprof-47.2/src/libsysprof-capture/sysprof-collector.c
+sysprof-47.2/src/libsysprof-capture/sysprof-collector.h
+sysprof-47.2/src/libsysprof-capture/sysprof-macros-internal.h
+sysprof-47.2/src/libsysprof-capture/sysprof-macros.h
+sysprof-47.2/src/libsysprof-capture/sysprof-platform.c
+sysprof-47.2/src/libsysprof-capture/sysprof-platform.h
+sysprof-47.2/src/libsysprof-capture/sysprof-version-macros.h
+sysprof-47.2/src/libsysprof-capture/sysprof-version.h.in
+sysprof-47.2/src/libsysprof-capture/tests/
+sysprof-47.2/src/libsysprof-capture/tests/allocs-by-size.c
+sysprof-47.2/src/libsysprof-capture/tests/cross-thread-frees.c
+sysprof-47.2/src/libsysprof-capture/tests/find-temp-allocs.c
+sysprof-47.2/src/libsysprof-capture/tests/meson.build
+sysprof-47.2/src/libsysprof-capture/tests/rewrite-pid.c
+sysprof-47.2/src/libsysprof-capture/tests/test-capture-cursor.c
+sysprof-47.2/src/libsysprof-capture/tests/test-capture.c
+sysprof-47.2/src/libsysprof-capture/tests/test-cplusplus.cpp
+sysprof-47.2/src/libsysprof-capture/tests/test-mapped-ring-buffer.c
+sysprof-47.2/src/meson.build
+sysprof-47.2/src/preload/
+sysprof-47.2/src/preload/backtrace-helper.h
+sysprof-47.2/src/preload/gconstructor.h
+sysprof-47.2/src/preload/meson.build
+sysprof-47.2/src/preload/sysprof-memory-collector.c
+sysprof-47.2/src/preload/sysprof-speedtrack-collector.c
+sysprof-47.2/src/preload/sysprof-tracer-collector.c
+sysprof-47.2/src/sysprof/
+sysprof-47.2/src/sysprof/gtk/
+sysprof-47.2/src/sysprof/gtk/help-overlay.ui
+sysprof-47.2/src/sysprof/gtk/menus.ui
+sysprof-47.2/src/sysprof/icons/
+sysprof-47.2/src/sysprof/icons/scalable/
+sysprof-47.2/src/sysprof/icons/scalable/actions/
+sysprof-47.2/src/sysprof/icons/scalable/actions/address-layout-symbolic.svg
+sysprof-47.2/src/sysprof/icons/scalable/actions/dbus-symbolic.svg
+sysprof-47.2/src/sysprof/icons/scalable/actions/document-properties-symbolic.svg
+sysprof-47.2/src/sysprof/icons/scalable/actions/empty-symbolic.svg
+sysprof-47.2/src/sysprof/icons/scalable/actions/energy-symbolic.svg
+sysprof-47.2/src/sysprof/icons/scalable/actions/flamegraph-symbolic.svg
+sysprof-47.2/src/sysprof/icons/scalable/actions/graphics-symbolic.svg
+sysprof-47.2/src/sysprof/icons/scalable/actions/mark-chart-symbolic.svg
+sysprof-47.2/src/sysprof/icons/scalable/actions/mark-table-symbolic.svg
+sysprof-47.2/src/sysprof/icons/scalable/actions/mark-waterfall-symbolic.svg
+sysprof-47.2/src/sysprof/icons/scalable/actions/memory-allocations-symbolic.svg
+sysprof-47.2/src/sysprof/icons/scalable/actions/memory-leaks-symbolic.svg
+sysprof-47.2/src/sysprof/icons/scalable/actions/metadata-symbolic.svg
+sysprof-47.2/src/sysprof/icons/scalable/actions/process-mounts-symbolic.svg
+sysprof-47.2/src/sysprof/icons/scalable/actions/sidebar-show-right-symbolic.svg
+sysprof-47.2/src/sysprof/icons/scalable/actions/sidebar-show-symbolic.svg
+sysprof-47.2/src/sysprof/icons/scalable/actions/storage-symbolic.svg
+sysprof-47.2/src/sysprof/icons/scalable/actions/summary-symbolic.svg
+sysprof-47.2/src/sysprof/icons/scalable/actions/symbol-symbolic.svg
+sysprof-47.2/src/sysprof/icons/scalable/actions/system-log-symbolic.svg
+sysprof-47.2/src/sysprof/icons/scalable/actions/threads-symbolic.svg
+sysprof-47.2/src/sysprof/main.c
+sysprof-47.2/src/sysprof/meson.build
+sysprof-47.2/src/sysprof/style.css
+sysprof-47.2/src/sysprof/sysprof-animation.c
+sysprof-47.2/src/sysprof/sysprof-animation.h
+sysprof-47.2/src/sysprof/sysprof-application.c
+sysprof-47.2/src/sysprof/sysprof-application.h
+sysprof-47.2/src/sysprof/sysprof-axis-private.h
+sysprof-47.2/src/sysprof/sysprof-axis.c
+sysprof-47.2/src/sysprof/sysprof-axis.h
+sysprof-47.2/src/sysprof/sysprof-callgraph-view-private.h
+sysprof-47.2/src/sysprof/sysprof-callgraph-view.c
+sysprof-47.2/src/sysprof/sysprof-callgraph-view.h
+sysprof-47.2/src/sysprof/sysprof-callgraph-view.ui
+sysprof-47.2/src/sysprof/sysprof-category-icon.c
+sysprof-47.2/src/sysprof/sysprof-category-icon.h
+sysprof-47.2/src/sysprof/sysprof-chart-layer-factory-private.h
+sysprof-47.2/src/sysprof/sysprof-chart-layer-factory.c
+sysprof-47.2/src/sysprof/sysprof-chart-layer-factory.h
+sysprof-47.2/src/sysprof/sysprof-chart-layer-item-widget.c
+sysprof-47.2/src/sysprof/sysprof-chart-layer-item-widget.h
+sysprof-47.2/src/sysprof/sysprof-chart-layer-item.c
+sysprof-47.2/src/sysprof/sysprof-chart-layer-item.h
+sysprof-47.2/src/sysprof/sysprof-chart-layer-private.h
+sysprof-47.2/src/sysprof/sysprof-chart-layer.c
+sysprof-47.2/src/sysprof/sysprof-chart-layer.h
+sysprof-47.2/src/sysprof/sysprof-chart.c
+sysprof-47.2/src/sysprof/sysprof-chart.h
+sysprof-47.2/src/sysprof/sysprof-color-iter-private.h
+sysprof-47.2/src/sysprof/sysprof-color-iter.c
+sysprof-47.2/src/sysprof/sysprof-column-layer.c
+sysprof-47.2/src/sysprof/sysprof-column-layer.h
+sysprof-47.2/src/sysprof/sysprof-counters-section.c
+sysprof-47.2/src/sysprof/sysprof-counters-section.h
+sysprof-47.2/src/sysprof/sysprof-counters-section.ui
+sysprof-47.2/src/sysprof/sysprof-cpu-section-counter.ui
+sysprof-47.2/src/sysprof/sysprof-cpu-section.c
+sysprof-47.2/src/sysprof/sysprof-cpu-section.h
+sysprof-47.2/src/sysprof/sysprof-cpu-section.ui
+sysprof-47.2/src/sysprof/sysprof-credits.h
+sysprof-47.2/src/sysprof/sysprof-css-private.h
+sysprof-47.2/src/sysprof/sysprof-css.c
+sysprof-47.2/src/sysprof/sysprof-dbus-section.c
+sysprof-47.2/src/sysprof/sysprof-dbus-section.h
+sysprof-47.2/src/sysprof/sysprof-dbus-section.ui
+sysprof-47.2/src/sysprof/sysprof-dbus-utility.c
+sysprof-47.2/src/sysprof/sysprof-dbus-utility.h
+sysprof-47.2/src/sysprof/sysprof-dbus-utility.ui
+sysprof-47.2/src/sysprof/sysprof-duplex-layer.c
+sysprof-47.2/src/sysprof/sysprof-duplex-layer.h
+sysprof-47.2/src/sysprof/sysprof-energy-section-counter.ui
+sysprof-47.2/src/sysprof/sysprof-energy-section.c
+sysprof-47.2/src/sysprof/sysprof-energy-section.h
+sysprof-47.2/src/sysprof/sysprof-energy-section.ui
+sysprof-47.2/src/sysprof/sysprof-entry-popover.c
+sysprof-47.2/src/sysprof/sysprof-entry-popover.h
+sysprof-47.2/src/sysprof/sysprof-entry-popover.ui
+sysprof-47.2/src/sysprof/sysprof-files-section.c
+sysprof-47.2/src/sysprof/sysprof-files-section.h
+sysprof-47.2/src/sysprof/sysprof-files-section.ui
+sysprof-47.2/src/sysprof/sysprof-flame-graph.c
+sysprof-47.2/src/sysprof/sysprof-flame-graph.h
+sysprof-47.2/src/sysprof/sysprof-frame-source.c
+sysprof-47.2/src/sysprof/sysprof-frame-source.h
+sysprof-47.2/src/sysprof/sysprof-frame-utility.c
+sysprof-47.2/src/sysprof/sysprof-frame-utility.h
+sysprof-47.2/src/sysprof/sysprof-frame-utility.ui
+sysprof-47.2/src/sysprof/sysprof-graphics-section-counter.ui
+sysprof-47.2/src/sysprof/sysprof-graphics-section.c
+sysprof-47.2/src/sysprof/sysprof-graphics-section.h
+sysprof-47.2/src/sysprof/sysprof-graphics-section.ui
+sysprof-47.2/src/sysprof/sysprof-greeter.c
+sysprof-47.2/src/sysprof/sysprof-greeter.h
+sysprof-47.2/src/sysprof/sysprof-greeter.ui
+sysprof-47.2/src/sysprof/sysprof-line-layer.c
+sysprof-47.2/src/sysprof/sysprof-line-layer.h
+sysprof-47.2/src/sysprof/sysprof-logs-section.c
+sysprof-47.2/src/sysprof/sysprof-logs-section.h
+sysprof-47.2/src/sysprof/sysprof-logs-section.ui
+sysprof-47.2/src/sysprof/sysprof-mark-chart-item-private.h
+sysprof-47.2/src/sysprof/sysprof-mark-chart-item.c
+sysprof-47.2/src/sysprof/sysprof-mark-chart-row-private.h
+sysprof-47.2/src/sysprof/sysprof-mark-chart-row.c
+sysprof-47.2/src/sysprof/sysprof-mark-chart-row.ui
+sysprof-47.2/src/sysprof/sysprof-mark-chart.c
+sysprof-47.2/src/sysprof/sysprof-mark-chart.h
+sysprof-47.2/src/sysprof/sysprof-mark-chart.ui
+sysprof-47.2/src/sysprof/sysprof-mark-table.c
+sysprof-47.2/src/sysprof/sysprof-mark-table.h
+sysprof-47.2/src/sysprof/sysprof-mark-table.ui
+sysprof-47.2/src/sysprof/sysprof-marks-section.c
+sysprof-47.2/src/sysprof/sysprof-marks-section.h
+sysprof-47.2/src/sysprof/sysprof-marks-section.ui
+sysprof-47.2/src/sysprof/sysprof-memory-callgraph-view.c
+sysprof-47.2/src/sysprof/sysprof-memory-callgraph-view.h
+sysprof-47.2/src/sysprof/sysprof-memory-callgraph-view.ui
+sysprof-47.2/src/sysprof/sysprof-memory-section.c
+sysprof-47.2/src/sysprof/sysprof-memory-section.h
+sysprof-47.2/src/sysprof/sysprof-memory-section.ui
+sysprof-47.2/src/sysprof/sysprof-metadata-section.c
+sysprof-47.2/src/sysprof/sysprof-metadata-section.h
+sysprof-47.2/src/sysprof/sysprof-metadata-section.ui
+sysprof-47.2/src/sysprof/sysprof-network-section.c
+sysprof-47.2/src/sysprof/sysprof-network-section.h
+sysprof-47.2/src/sysprof/sysprof-network-section.ui
+sysprof-47.2/src/sysprof/sysprof-normalized-series-item.c
+sysprof-47.2/src/sysprof/sysprof-normalized-series-item.h
+sysprof-47.2/src/sysprof/sysprof-normalized-series.c
+sysprof-47.2/src/sysprof/sysprof-normalized-series.h
+sysprof-47.2/src/sysprof/sysprof-pair.c
+sysprof-47.2/src/sysprof/sysprof-pair.h
+sysprof-47.2/src/sysprof/sysprof-power-profiles.c
+sysprof-47.2/src/sysprof/sysprof-power-profiles.h
+sysprof-47.2/src/sysprof/sysprof-process-dialog.c
+sysprof-47.2/src/sysprof/sysprof-process-dialog.h
+sysprof-47.2/src/sysprof/sysprof-process-dialog.ui
+sysprof-47.2/src/sysprof/sysprof-processes-section.c
+sysprof-47.2/src/sysprof/sysprof-processes-section.h
+sysprof-47.2/src/sysprof/sysprof-processes-section.ui
+sysprof-47.2/src/sysprof/sysprof-progress-cell-private.h
+sysprof-47.2/src/sysprof/sysprof-progress-cell.c
+sysprof-47.2/src/sysprof/sysprof-recording-pad.c
+sysprof-47.2/src/sysprof/sysprof-recording-pad.h
+sysprof-47.2/src/sysprof/sysprof-recording-pad.ui
+sysprof-47.2/src/sysprof/sysprof-recording-template.c
+sysprof-47.2/src/sysprof/sysprof-recording-template.h
+sysprof-47.2/src/sysprof/sysprof-sampled-model.c
+sysprof-47.2/src/sysprof/sysprof-sampled-model.h
+sysprof-47.2/src/sysprof/sysprof-samples-section.c
+sysprof-47.2/src/sysprof/sysprof-samples-section.h
+sysprof-47.2/src/sysprof/sysprof-samples-section.ui
+sysprof-47.2/src/sysprof/sysprof-scheduler-private.h
+sysprof-47.2/src/sysprof/sysprof-scheduler.c
+sysprof-47.2/src/sysprof/sysprof-section.c
+sysprof-47.2/src/sysprof/sysprof-section.h
+sysprof-47.2/src/sysprof/sysprof-series-private.h
+sysprof-47.2/src/sysprof/sysprof-series.c
+sysprof-47.2/src/sysprof/sysprof-series.h
+sysprof-47.2/src/sysprof/sysprof-session-model-item.c
+sysprof-47.2/src/sysprof/sysprof-session-model-item.h
+sysprof-47.2/src/sysprof/sysprof-session-model.c
+sysprof-47.2/src/sysprof/sysprof-session-model.h
+sysprof-47.2/src/sysprof/sysprof-session-private.h
+sysprof-47.2/src/sysprof/sysprof-session.c
+sysprof-47.2/src/sysprof/sysprof-session.h
+sysprof-47.2/src/sysprof/sysprof-sidebar.c
+sysprof-47.2/src/sysprof/sysprof-sidebar.h
+sysprof-47.2/src/sysprof/sysprof-sidebar.ui
+sysprof-47.2/src/sysprof/sysprof-single-model.c
+sysprof-47.2/src/sysprof/sysprof-single-model.h
+sysprof-47.2/src/sysprof/sysprof-split-layer.c
+sysprof-47.2/src/sysprof/sysprof-split-layer.h
+sysprof-47.2/src/sysprof/sysprof-storage-section.c
+sysprof-47.2/src/sysprof/sysprof-storage-section.h
+sysprof-47.2/src/sysprof/sysprof-storage-section.ui
+sysprof-47.2/src/sysprof/sysprof-symbol-label-private.h
+sysprof-47.2/src/sysprof/sysprof-symbol-label.c
+sysprof-47.2/src/sysprof/sysprof-time-filter-model.c
+sysprof-47.2/src/sysprof/sysprof-time-filter-model.h
+sysprof-47.2/src/sysprof/sysprof-time-label.c
+sysprof-47.2/src/sysprof/sysprof-time-label.h
+sysprof-47.2/src/sysprof/sysprof-time-ruler.c
+sysprof-47.2/src/sysprof/sysprof-time-ruler.h
+sysprof-47.2/src/sysprof/sysprof-time-scrubber.c
+sysprof-47.2/src/sysprof/sysprof-time-scrubber.h
+sysprof-47.2/src/sysprof/sysprof-time-scrubber.ui
+sysprof-47.2/src/sysprof/sysprof-time-series-item-private.h
+sysprof-47.2/src/sysprof/sysprof-time-series-item.c
+sysprof-47.2/src/sysprof/sysprof-time-series-item.h
+sysprof-47.2/src/sysprof/sysprof-time-series.c
+sysprof-47.2/src/sysprof/sysprof-time-series.h
+sysprof-47.2/src/sysprof/sysprof-time-span-layer.c
+sysprof-47.2/src/sysprof/sysprof-time-span-layer.h
+sysprof-47.2/src/sysprof/sysprof-traceables-utility.c
+sysprof-47.2/src/sysprof/sysprof-traceables-utility.h
+sysprof-47.2/src/sysprof/sysprof-traceables-utility.ui
+sysprof-47.2/src/sysprof/sysprof-tree-expander.c
+sysprof-47.2/src/sysprof/sysprof-tree-expander.h
+sysprof-47.2/src/sysprof/sysprof-util.c
+sysprof-47.2/src/sysprof/sysprof-util.h
+sysprof-47.2/src/sysprof/sysprof-value-axis.c
+sysprof-47.2/src/sysprof/sysprof-value-axis.h
+sysprof-47.2/src/sysprof/sysprof-weighted-callgraph-view.c
+sysprof-47.2/src/sysprof/sysprof-weighted-callgraph-view.h
+sysprof-47.2/src/sysprof/sysprof-weighted-callgraph-view.ui
+sysprof-47.2/src/sysprof/sysprof-window.c
+sysprof-47.2/src/sysprof/sysprof-window.h
+sysprof-47.2/src/sysprof/sysprof-window.ui
+sysprof-47.2/src/sysprof/sysprof-xy-layer-private.h
+sysprof-47.2/src/sysprof/sysprof-xy-layer.c
+sysprof-47.2/src/sysprof/sysprof-xy-layer.h
+sysprof-47.2/src/sysprof/sysprof-xy-series-item-private.h
+sysprof-47.2/src/sysprof/sysprof-xy-series-item.c
+sysprof-47.2/src/sysprof/sysprof-xy-series-item.h
+sysprof-47.2/src/sysprof/sysprof-xy-series.c
+sysprof-47.2/src/sysprof/sysprof-xy-series.h
+sysprof-47.2/src/sysprof/sysprof.gresource.xml
+sysprof-47.2/src/sysprof-agent/
+sysprof-47.2/src/sysprof-agent/meson.build
+sysprof-47.2/src/sysprof-agent/org.gnome.Sysprof.Agent.xml
+sysprof-47.2/src/sysprof-agent/sysprof-agent.c
+sysprof-47.2/src/sysprof-cli/
+sysprof-47.2/src/sysprof-cli/meson.build
+sysprof-47.2/src/sysprof-cli/sysprof-cli.c
+sysprof-47.2/src/sysprof-diff/
+sysprof-47.2/src/sysprof-diff/meson.build
+sysprof-47.2/src/sysprof-diff/sysprof-diff.c
+sysprof-47.2/src/sysprofd/
+sysprof-47.2/src/sysprofd/helpers.c
+sysprof-47.2/src/sysprofd/helpers.h
+sysprof-47.2/src/sysprofd/ipc-rapl-profiler.c
+sysprof-47.2/src/sysprofd/ipc-rapl-profiler.h
+sysprof-47.2/src/sysprofd/ipc-service-impl.c
+sysprof-47.2/src/sysprofd/ipc-service-impl.h
+sysprof-47.2/src/sysprofd/meson.build
+sysprof-47.2/src/sysprofd/org.gnome.Sysprof3.Profiler.xml
+sysprof-47.2/src/sysprofd/org.gnome.Sysprof3.Service.xml
+sysprof-47.2/src/sysprofd/org.gnome.Sysprof3.conf.in
+sysprof-47.2/src/sysprofd/org.gnome.Sysprof3.service.in
+sysprof-47.2/src/sysprofd/org.gnome.sysprof3.policy.in
+sysprof-47.2/src/sysprofd/sysprof-turbostat.c
+sysprof-47.2/src/sysprofd/sysprof-turbostat.h
+sysprof-47.2/src/sysprofd/sysprof3.service.in
+sysprof-47.2/src/sysprofd/sysprofd.c
+sysprof-47.2/sysprof.doap
+The Meson build system
+Version: 1.7.0
+Source dir: /blfs/builds/sysprof-47.2
+Build dir: /blfs/builds/sysprof-47.2/build
+Build type: native build
+Project name: sysprof
+Project version: 47.2
+C compiler for the host machine: cc (gcc 14.2.0 "cc (GCC) 14.2.0")
+C linker for the host machine: cc ld.bfd 2.44
+C++ compiler for the host machine: c++ (gcc 14.2.0 "c++ (GCC) 14.2.0")
+C++ linker for the host machine: c++ ld.bfd 2.44
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Found pkg-config: YES (/usr/bin/pkg-config) 2.4.3
+Run-time dependency glib-2.0 found: YES 2.84.3
+Run-time dependency gio-2.0 found: YES 2.84.3
+Run-time dependency gio-unix-2.0 found: YES 2.84.3
+Run-time dependency gtk4 found: YES 4.18.6
+Run-time dependency libsystemd found: YES 257
+Compiler for C supports arguments -fvisibility=hidden: YES 
+Checking for function "reallocarray" : YES 
+Checking for function "strlcpy" : YES 
+Run-time dependency polkit-agent-1 found: YES 126
+Run-time dependency polkit-gobject-1 found: YES 126
+Run-time dependency libunwind-generic found: YES 1.8.2
+Header "libunwind.h" has symbol "unw_set_cache_size" with dependency libunwind-generic: YES 
+Checking whether type "struct perf_event_attr" has member "use_clockid" : YES 
+Checking whether type "struct perf_event_attr" has member "clockid" : YES 
+Compiler for C supports arguments -Wcast-align: YES 
+Compiler for C supports arguments -Wdeclaration-after-statement: YES 
+Compiler for C supports arguments -Wformat-nonliteral: YES 
+Compiler for C supports arguments -Wformat-security: YES 
+Compiler for C supports arguments -Wmissing-include-dirs: YES 
+Compiler for C supports arguments -Wnested-externs: YES 
+Compiler for C supports arguments -Wno-missing-field-initializers: YES 
+Compiler for C supports arguments -Wno-sign-compare: YES 
+Compiler for C supports arguments -Wno-unused-parameter: YES 
+Compiler for C supports arguments -Wno-cast-function-type: YES 
+Compiler for C supports arguments -Wpointer-arith: YES 
+Compiler for C supports arguments -Wredundant-decls: YES 
+Compiler for C supports arguments -Wswitch-default: YES 
+Compiler for C supports arguments -Wswitch-enum: YES 
+Compiler for C supports arguments -Wuninitialized: YES 
+Compiler for C supports arguments -Werror=format-security -Werror=format=2: YES 
+Compiler for C supports arguments -Werror=empty-body: YES 
+Compiler for C supports arguments -Werror=implicit-function-declaration: YES 
+Compiler for C supports arguments -Werror=pointer-arith: YES 
+Compiler for C supports arguments -Werror=init-self: YES 
+Compiler for C supports arguments -Werror=int-conversion: YES 
+Compiler for C supports arguments -Werror=misleading-indentation: YES 
+Compiler for C supports arguments -Werror=missing-include-dirs: YES 
+Compiler for C supports arguments -Werror=overflow: YES 
+Compiler for C supports arguments -Werror=parenthesis: NO 
+Compiler for C supports arguments -Werror=return-type: YES 
+Compiler for C supports arguments -Werror=shadow: YES 
+Compiler for C supports arguments -Werror=strict-prototypes: YES 
+Compiler for C supports arguments -Werror=undef: YES 
+Compiler for C supports link arguments -Wl,-z,relro: YES 
+Compiler for C supports link arguments -Wl,-z,now: YES 
+Compiler for C supports link arguments -fstack-protector-strong: YES 
+Compiler for C supports link arguments -Wl,-Bsymbolic: YES 
+Compiler for C supports link arguments -fno-plt: YES 
+Compiler for C supports link arguments -Wl,-z,relro: YES (cached)
+Compiler for C supports link arguments -Wl,-z,defs: YES 
+Compiler for C supports link arguments -Wl,-z,now: YES (cached)
+Dependency glib-2.0 found: YES 2.84.3 (cached)
+Configuring sysprof-version.h using configuration
+Run-time dependency threads found: YES
+Dependency glib-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Dependency glib-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Dependency gio-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Run-time dependency libdex-1 found: YES 0.10.0
+Run-time dependency json-glib-1.0 found: YES 1.10.0
+Run-time dependency dl found: YES
+Dependency glib-2.0 found: YES 2.84.3 (cached)
+Dependency gio-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Dependency gio-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Run-time dependency systemd found: YES 257
+Configuring org.gnome.Sysprof3.service using configuration
+Configuring org.gnome.Sysprof3.conf using configuration
+Configuring sysprof3.service using configuration
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Dependency gio-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Library m found: YES
+Dependency gtk4 found: YES 4.18.6 (cached)
+Run-time dependency libadwaita-1 found: YES 1.7.4
+Run-time dependency libpanel-1 found: YES 1.10.0
+Dependency gio-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Configuring org.gnome.Sysprof.appdata.xml.in using configuration
+Program appstreamcli found: YES (/usr/bin/appstreamcli)
+Configuring org.gnome.Sysprof.desktop.in using configuration
+Program msginit found: YES (/usr/bin/msginit)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program xgettext found: YES (/usr/bin/xgettext)
+Program itstool found: YES (/usr/bin/itstool)
+Program itstool found: YES (/usr/bin/itstool)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Dependency glib-2.0 found: YES 2.84.3 (cached)
+Configuring config.h using configuration
+Program gtk4-update-icon-cache found: YES (/usr/bin/gtk4-update-icon-cache)
+Program update-desktop-database found: YES (/usr/bin/update-desktop-database)
+Build targets in project: 196
+
+sysprof 47.2
+
+  User defined options
+    buildtype: release
+    prefix   : /usr
+
+Found ninja-1.12.1 at /usr/bin/ninja
+[1/471] Generating src/libsysprof/libsysprof-resources_h with a custom command
+[2/471] Generating src/libsysprof/libsysprof-resources_c with a custom command
+[3/471] Compiling C object src/libsysprof-capture/libsysprof-capture-4.a.p/sysprof-clock.c.o
+[4/471] Compiling C object src/libsysprof-capture/libsysprof-capture-4.a.p/sysprof-address.c.o
+[5/471] Compiling C object src/libsysprof-capture/libsysprof-capture-4.a.p/sysprof-platform.c.o
+[6/471] Compiling C object src/libsysprof-capture/libsysprof-capture-4.a.p/sysprof-capture-util.c.o
+[7/471] Compiling C object src/libsysprof-capture/libsysprof-capture-4.a.p/sysprof-capture-cursor.c.o
+[8/471] Generating gdbus header src/sysprofd/ipc-service.h
+[9/471] Generating gdbus header src/sysprofd/ipc-profiler.h
+[10/471] Generating gdbus source src/sysprofd/ipc-service.c
+[11/471] Generating gdbus source src/sysprofd/ipc-profiler.c
+[12/471] Generating gdbus source src/sysprof-agent/ipc-agent.c
+[13/471] Generating gdbus header src/sysprof-agent/ipc-agent.h
+[14/471] Compiling C object src/libsysprof-capture/libsysprof-capture-4.a.p/mapped-ring-buffer.c.o
+[15/471] Generating GObject enum file src/libsysprof/sysprof-enums.h (wrapped by meson because command contains newlines, to capture output)
+[16/471] Compiling C++ object contrib/elfparser/libelfparser.a.p/demangle.cpp.o
+[17/471] Compiling C object src/libsysprof-capture/libsysprof-capture-4.a.p/sysprof-capture-writer-cat.c.o
+[18/471] Generating GObject enum file src/libsysprof/sysprof-enums.c (wrapped by meson because command contains newlines, to capture output)
+[19/471] Compiling C object src/libsysprof-capture/tests/allocs-by-size.p/allocs-by-size.c.o
+[20/471] Compiling C object src/libsysprof-capture/libsysprof-capture-4.a.p/sysprof-capture-condition.c.o
+[21/471] Compiling C++ object src/libsysprof-capture/tests/test-cplusplus.p/test-cplusplus.cpp.o
+[22/471] Compiling C object src/libsysprof-capture/tests/cross-thread-frees.p/cross-thread-frees.c.o
+[23/471] Generating src/sysprof/sysprof-resources_c with a custom command
+[24/471] Generating src/sysprof/sysprof-resources_h with a custom command
+[25/471] Compiling C object src/libsysprof-capture/tests/test-capture-cursor.p/test-capture-cursor.c.o
+[26/471] Compiling C object src/libsysprof-capture/tests/find-temp-allocs.p/find-temp-allocs.c.o
+[27/471] Compiling C object src/libsysprof-capture/libsysprof-capture-4.a.p/sysprof-collector.c.o
+[28/471] Compiling C object src/preload/libsysprof-memory-6.so.p/sysprof-memory-collector.c.o
+[29/471] Compiling C object src/libsysprof-capture/tests/test-mapped-ring-buffer.p/test-mapped-ring-buffer.c.o
+[30/471] Compiling C object contrib/elfparser/libelfparser.a.p/elfparser.c.o
+[31/471] Compiling C object src/libsysprof/libsysprof-6.a.p/meson-generated_.._libsysprof-resources.c.o
+[32/471] Compiling C object src/libsysprof-capture/tests/rewrite-pid.p/rewrite-pid.c.o
+[33/471] Compiling C object src/libsysprof/libsysprof-6.a.p/meson-generated_.._sysprof-enums.c.o
+[34/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-cpu-info.c.o
+[35/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-callgraph-categorize.c.o
+[36/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-bundled-symbolizer.c.o
+[37/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-callgraph-symbol.c.o
+[38/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-battery-charge.c.o
+[39/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-category-summary.c.o
+[40/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-document-allocation.c.o
+[41/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-callgraph-frame.c.o
+[42/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-categories.c.o
+[43/471] Compiling C object src/libsysprof-capture/libsysprof-capture-4.a.p/sysprof-capture-reader.c.o
+[44/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-diagnostic.c.o
+[45/471] Compiling C object src/libsysprof-capture/libsysprof-capture-4.a.p/sysprof-capture-writer.c.o
+[46/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-document-counter-value.c.o
+[47/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-cpu-usage.c.o
+[48/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-document-file-chunk.c.o
+[49/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-document-ctrdef.c.o
+[50/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-document-ctrset.c.o
+[51/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-document-fork.c.o
+[52/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-dbus-monitor.c.o
+[53/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-document-exit.c.o
+[54/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-document-log.c.o
+[55/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-disk-usage.c.o
+[56/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-document-counter.c.o
+[57/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-document-overlay.c.o
+[58/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-document-jitmap.c.o
+[59/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-document-traceable.c.o
+[60/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-document-mark.c.o
+[61/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-document-file.c.o
+[62/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-callgraph.c.o
+[63/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-document-frame.c.o
+[64/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-document-sample.c.o
+[65/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-document-metadata.c.o
+[66/471] Compiling C object contrib/elfparser/libelfparser.a.p/rust-demangle.c.o
+[67/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-document-dbus-message.c.o
+[68/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-document-mmap.c.o
+[69/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-document-process.c.o
+[70/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-document-loader.c.o
+[71/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-energy-usage.c.o
+[72/471] Compiling C object src/libsysprof-capture/tests/test-capture.p/test-capture.c.o
+[73/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-elf-symbolizer.c.o
+[74/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-malloc-tracing.c.o
+[75/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-jitmap-symbolizer.c.o
+[76/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-no-symbolizer.c.o
+[77/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-mark-catalog.c.o
+[78/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-instrument.c.o
+[79/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-kallsyms-symbolizer.c.o
+[80/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-power-profile.c.o
+[81/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-profiler.c.o
+[82/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-multi-symbolizer.c.o
+[83/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-memory-usage.c.o
+[84/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-time-span.c.o
+[85/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-network-usage.c.o
+[86/471] Compiling C object src/libsysprof/libsysprof-6.a.p/mapped-ring-buffer-source.c.o
+[87/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-symbol.c.o
+[88/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-sampler.c.o
+[89/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-proxied-instrument.c.o
+[90/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-scheduler-details.c.o
+[91/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-symbols-bundle.c.o
+[92/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-allocator.c.o
+[93/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-thread-info.c.o
+[94/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-tracer.c.o
+[95/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-symbolizer.c.o
+[96/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-system-logs.c.o
+[97/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-tracefd-consumer.c.o
+[98/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-subprocess-output.c.o
+[99/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-maps-parser.c.o
+[100/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-address-layout.c.o
+[101/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-spawnable.c.o
+[102/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-strings.c.o
+[103/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-document-bitset-index.c.o
+[104/471] Linking static target contrib/elfparser/libelfparser.a
+[105/471] Linking static target src/libsysprof-capture/libsysprof-capture-4.a
+[106/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-process-info.c.o
+[107/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-elf.c.o
+[108/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-mount-device.c.o
+[109/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-elf-loader.c.o
+[110/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-document-symbols.c.o
+[111/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-controlfd-instrument.c.o
+[112/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-descendants-model.c.o
+[113/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-recording.c.o
+[114/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-podman.c.o
+[115/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-journald-source.c.o
+[116/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-mount.c.o
+[117/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-perf-event-stream.c.o
+[118/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/meson-generated_.._libsysprof-resources.c.o
+[119/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/meson-generated_.._sysprof-enums.c.o
+[120/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-polkit.c.o
+[121/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-leak-detector.c.o
+[122/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-cpu-info.c.o
+[123/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-mount-namespace.c.o
+[124/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-symbol-cache.c.o
+[125/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-callgraph-categorize.c.o
+[126/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-linux-instrument.c.o
+[127/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-bundled-symbolizer.c.o
+[128/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-category-summary.c.o
+[129/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-battery-charge.c.o
+[130/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-diagnostic.c.o
+[131/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-categories.c.o
+[132/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-document-allocation.c.o
+[133/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-callgraph-frame.c.o
+[134/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-callgraph-symbol.c.o
+[135/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-dbus-monitor.c.o
+[136/471] Compiling C object src/libsysprof/libsysprof-6.a.p/sysprof-document.c.o
+[137/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-document-file-chunk.c.o
+[138/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-document-fork.c.o
+[139/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-document-exit.c.o
+[140/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-document-counter-value.c.o
+[141/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-document-ctrdef.c.o
+[142/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-document-ctrset.c.o
+[143/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-cpu-usage.c.o
+[144/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-disk-usage.c.o
+[145/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-document-log.c.o
+[146/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-document-mark.c.o
+[147/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-document-metadata.c.o
+[148/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-document-overlay.c.o
+[149/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-document-frame.c.o
+[150/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-document-file.c.o
+[151/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-document-mmap.c.o
+[152/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-callgraph.c.o
+[153/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-document-counter.c.o
+[154/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-document-sample.c.o
+[155/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-document-dbus-message.c.o
+[156/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-document-jitmap.c.o
+[157/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-document-traceable.c.o
+[158/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-document-process.c.o
+[159/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-energy-usage.c.o
+[160/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-document-loader.c.o
+[161/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-malloc-tracing.c.o
+[162/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-elf-symbolizer.c.o
+[163/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-instrument.c.o
+[164/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-jitmap-symbolizer.c.o
+[165/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-kallsyms-symbolizer.c.o
+[166/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-multi-symbolizer.c.o
+[167/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-no-symbolizer.c.o
+[168/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-memory-usage.c.o
+[169/471] Compiling C object src/libsysprof/libsysprof-6.a.p/timsort_gtktimsort.c.o
+[170/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-profiler.c.o
+[171/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-proxied-instrument.c.o
+[172/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-mark-catalog.c.o
+[173/471] Linking static target src/libsysprof/libsysprof-6.a
+[174/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-power-profile.c.o
+[175/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-time-span.c.o
+[176/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-network-usage.c.o
+[177/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-symbol.c.o
+[178/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-symbolizer.c.o
+[179/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-thread-info.c.o
+[180/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-system-logs.c.o
+[181/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-symbols-bundle.c.o
+[182/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-scheduler-details.c.o
+[183/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-sampler.c.o
+[184/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-tracefd-consumer.c.o
+[185/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-spawnable.c.o
+[186/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-allocator.c.o
+[187/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/mapped-ring-buffer-source.c.o
+[188/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-subprocess-output.c.o
+[189/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-tracer.c.o
+[190/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-address-layout.c.o
+[191/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-document-bitset-index.c.o
+[192/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-maps-parser.c.o
+[193/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-strings.c.o
+[194/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-descendants-model.c.o
+[195/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-process-info.c.o
+[196/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-mount-device.c.o
+[197/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-recording.c.o
+[198/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-elf.c.o
+[199/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-controlfd-instrument.c.o
+[200/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-journald-source.c.o
+[201/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-document-symbols.c.o
+[202/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-mount.c.o
+[203/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-elf-loader.c.o
+[204/471] Compiling C object src/libsysprof/tests/read-build-id.p/read-build-id.c.o
+[205/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-podman.c.o
+[206/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-leak-detector.c.o
+[207/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-polkit.c.o
+[208/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-perf-event-stream.c.o
+[209/471] Compiling C object src/libsysprof/tests/read-build-id.p/meson-generated_.._.._sysprof-enums.c.o
+[210/471] Compiling C object src/libsysprof/tests/test-allocs-by-func.p/meson-generated_.._.._sysprof-enums.c.o
+[211/471] Compiling C object src/libsysprof/tests/ninja-to-marks.p/meson-generated_.._.._sysprof-enums.c.o
+[212/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-symbol-cache.c.o
+[213/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-linux-instrument.c.o
+[214/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-mount-namespace.c.o
+[215/471] Compiling C object src/libsysprof/tests/ninja-to-marks.p/ninja-to-marks.c.o
+[216/471] Compiling C object src/libsysprof/tests/test-callgraph.p/meson-generated_.._.._sysprof-enums.c.o
+[217/471] Compiling C object src/libsysprof/tests/test-capture-model.p/meson-generated_.._.._sysprof-enums.c.o
+[218/471] Compiling C object src/libsysprof/tests/test-allocs-by-func.p/test-allocs-by-func.c.o
+[219/471] Compiling C object src/libsysprof/tests/test-elf-loader.p/meson-generated_.._.._sysprof-enums.c.o
+[220/471] Compiling C object src/libsysprof/tests/test-cplusplus.p/meson-generated_.._.._sysprof-enums.c.o
+[221/471] Compiling C object src/libsysprof/tests/test-callgraph.p/test-callgraph.c.o
+[222/471] Compiling C object src/libsysprof/tests/test-leak-detector.p/meson-generated_.._.._sysprof-enums.c.o
+[223/471] Compiling C object src/libsysprof/tests/test-capture-model.p/test-capture-model.c.o
+[224/471] Compiling C object src/libsysprof/tests/test-elf-loader.p/test-elf-loader.c.o
+[225/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/sysprof-document.c.o
+[226/471] Compiling C++ object src/libsysprof/tests/test-cplusplus.p/test-cplusplus.cpp.o
+[227/471] Compiling C object src/libsysprof/tests/test-list-files.p/meson-generated_.._.._sysprof-enums.c.o
+[228/471] Compiling C object src/libsysprof/tests/test-list-cpu.p/meson-generated_.._.._sysprof-enums.c.o
+[229/471] Compiling C object src/libsysprof/tests/test-list-functions-by-weight.p/meson-generated_.._.._sysprof-enums.c.o
+[230/471] Compiling C object src/libsysprof/tests/test-maps-parser.p/test-maps-parser.c.o
+[231/471] Compiling C object src/libsysprof/tests/test-list-files.p/test-list-files.c.o
+[232/471] Compiling C object src/libsysprof/tests/test-list-cpu.p/test-list-cpu.c.o
+[233/471] Compiling C object src/libsysprof/tests/test-list-overlays.p/meson-generated_.._.._sysprof-enums.c.o
+[234/471] Compiling C object src/libsysprof/tests/test-list-counters.p/test-list-counters.c.o
+[235/471] Compiling C object src/libsysprof/tests/test-leak-detector.p/test-leak-detector.c.o
+[236/471] Compiling C object src/libsysprof/tests/test-list-counters.p/meson-generated_.._.._sysprof-enums.c.o
+[237/471] Compiling C object src/libsysprof/tests/test-list-jitmap.p/meson-generated_.._.._sysprof-enums.c.o
+[238/471] Compiling C object src/libsysprof/tests/test-maps-parser.p/meson-generated_.._.._sysprof-enums.c.o
+[239/471] Compiling C object src/libsysprof/tests/test-mark-catalog.p/meson-generated_.._.._sysprof-enums.c.o
+[240/471] Compiling C object src/libsysprof/tests/test-list-jitmap.p/test-list-jitmap.c.o
+[241/471] Compiling C object src/libsysprof/tests/test-list-functions-by-weight.p/test-list-functions-by-weight.c.o
+[242/471] Compiling C object src/libsysprof/tests/test-mark-catalog.p/test-mark-catalog.c.o
+[243/471] Compiling C object src/libsysprof/tests/test-list-overlays.p/test-list-overlays.c.o
+[244/471] Compiling C object src/libsysprof/tests/test-print-file.p/meson-generated_.._.._sysprof-enums.c.o
+[245/471] Compiling C object src/libsysprof/tests/test-profiler.p/meson-generated_.._.._sysprof-enums.c.o
+[246/471] Compiling C object src/libsysprof/tests/test-print-file.p/test-print-file.c.o
+[247/471] Compiling C object src/preload/libsysprof-tracer-6.so.p/sysprof-tracer-collector.c.o
+[248/471] Compiling C object src/libsysprof/tests/test-list-processes.p/meson-generated_.._.._sysprof-enums.c.o
+[249/471] Compiling C object src/libsysprof/tests/test-symbolize.p/meson-generated_.._.._sysprof-enums.c.o
+[250/471] Compiling C object src/libsysprof/tests/test-symbol-cache.p/meson-generated_.._.._sysprof-enums.c.o
+[251/471] Compiling C object src/libsysprof/tests/test-list-address-layout.p/test-list-address-layout.c.o
+[252/471] Compiling C object src/libsysprof/tests/test-strings.p/test-strings.c.o
+[253/471] Compiling C object src/libsysprof/tests/test-list-processes.p/test-list-processes.c.o
+[254/471] Compiling C object src/libsysprof/tests/test-profiler.p/test-profiler.c.o
+[255/471] Compiling C object src/libsysprof/tests/test-strings.p/meson-generated_.._.._sysprof-enums.c.o
+[256/471] Compiling C object src/preload/libsysprof-speedtrack-6.so.p/sysprof-speedtrack-collector.c.o
+[257/471] Compiling C object src/libsysprof/tests/test-list-address-layout.p/meson-generated_.._.._sysprof-enums.c.o
+[258/471] Compiling C object src/sysprofd/sysprofd.p/sysprofd.c.o
+[259/471] Compiling C object src/sysprofd/sysprofd.p/sysprof-turbostat.c.o
+[260/471] Compiling C object src/libsysprof/tests/test-symbol-cache.p/test-symbol-cache.c.o
+[261/471] Compiling C object src/libsysprof/tests/test-symbolize.p/test-symbolize.c.o
+[262/471] Compiling C object src/sysprof/sysprof.p/meson-generated_.._.._libsysprof_sysprof-enums.c.o
+[263/471] Compiling C object src/libsysprof/libsysprof-6.so.6.0.0.p/timsort_gtktimsort.c.o
+[264/471] Compiling C object src/sysprofd/sysprofd.p/ipc-rapl-profiler.c.o
+[265/471] Compiling C object src/sysprofd/sysprofd.p/ipc-service-impl.c.o
+[266/471] Compiling C object src/sysprof/sysprof.p/meson-generated_.._sysprof-resources.c.o
+[267/471] Compiling C object src/sysprof/sysprof.p/sysprof-axis.c.o
+[268/471] Compiling C object src/sysprofd/sysprofd.p/helpers.c.o
+[269/471] Compiling C object src/sysprofd/sysprofd.p/meson-generated_.._ipc-service.c.o
+[270/471] Compiling C object src/sysprofd/sysprofd.p/meson-generated_.._ipc-profiler.c.o
+[271/471] Compiling C object src/sysprof/sysprof.p/sysprof-chart-layer-item.c.o
+[272/471] Compiling C object src/sysprof/sysprof.p/main.c.o
+[273/471] Compiling C object src/sysprof/sysprof.p/sysprof-chart-layer-factory.c.o
+[274/471] Compiling C object src/sysprof/sysprof.p/sysprof-category-icon.c.o
+[275/471] Compiling C object src/sysprof/sysprof.p/sysprof-color-iter.c.o
+[276/471] Compiling C object src/sysprof/sysprof.p/sysprof-chart-layer-item-widget.c.o
+[277/471] Compiling C object src/sysprof/sysprof.p/sysprof-application.c.o
+[278/471] Compiling C object src/sysprof/sysprof.p/sysprof-css.c.o
+[279/471] Compiling C object src/sysprof/sysprof.p/sysprof-counters-section.c.o
+[280/471] Compiling C object src/sysprof/sysprof.p/sysprof-chart-layer.c.o
+[281/471] Compiling C object src/sysprof/sysprof.p/sysprof-frame-source.c.o
+[282/471] Compiling C object src/sysprof/sysprof.p/sysprof-cpu-section.c.o
+[283/471] Compiling C object src/sysprof/sysprof.p/sysprof-dbus-section.c.o
+[284/471] Compiling C object src/sysprof/sysprof.p/sysprof-duplex-layer.c.o
+[285/471] Compiling C object src/sysprof/sysprof.p/sysprof-animation.c.o
+[286/471] Compiling C object src/sysprof/sysprof.p/sysprof-energy-section.c.o
+[287/471] Compiling C object src/sysprof/sysprof.p/sysprof-dbus-utility.c.o
+[288/471] Compiling C object src/sysprof/sysprof.p/sysprof-column-layer.c.o
+[289/471] Compiling C object src/sysprof/sysprof.p/sysprof-files-section.c.o
+[290/471] Compiling C object src/sysprof/sysprof.p/sysprof-chart.c.o
+[291/471] Compiling C object src/sysprof/sysprof.p/sysprof-entry-popover.c.o
+[292/471] Compiling C object src/sysprof/sysprof.p/sysprof-callgraph-view.c.o
+[293/471] Compiling C object src/sysprof/sysprof.p/sysprof-pair.c.o
+[294/471] Compiling C object src/sysprof/sysprof.p/sysprof-normalized-series-item.c.o
+[295/471] Compiling C object src/sysprof/sysprof.p/sysprof-graphics-section.c.o
+[296/471] Compiling C object src/sysprof/sysprof.p/sysprof-mark-chart-item.c.o
+[297/471] Compiling C object src/sysprof/sysprof.p/sysprof-frame-utility.c.o
+[298/471] Compiling C object src/sysprof/sysprof.p/sysprof-mark-chart-row.c.o
+[299/471] Compiling C object src/sysprof/sysprof.p/sysprof-logs-section.c.o
+[300/471] Compiling C object src/sysprof/sysprof.p/sysprof-marks-section.c.o
+[301/471] Compiling C object src/sysprof/sysprof.p/sysprof-mark-chart.c.o
+[302/471] Compiling C object src/sysprof/sysprof.p/sysprof-mark-table.c.o
+[303/471] Compiling C object src/sysprof/sysprof.p/sysprof-line-layer.c.o
+[304/471] Compiling C object src/sysprof/sysprof.p/sysprof-metadata-section.c.o
+[305/471] Compiling C object src/sysprof/sysprof.p/sysprof-flame-graph.c.o
+[306/471] Compiling C object src/sysprof/sysprof.p/sysprof-network-section.c.o
+[307/471] Compiling C object src/sysprof/sysprof.p/sysprof-sampled-model.c.o
+[308/471] Compiling C object src/sysprof/sysprof.p/sysprof-greeter.c.o
+[309/471] Compiling C object src/sysprof/sysprof.p/sysprof-memory-section.c.o
+[310/471] Compiling C object src/sysprof/sysprof.p/sysprof-power-profiles.c.o
+[311/471] Compiling C object src/sysprof/sysprof.p/sysprof-memory-callgraph-view.c.o
+[312/471] Compiling C object src/sysprof/sysprof.p/sysprof-recording-template.c.o
+[313/471] Compiling C object src/sysprof/sysprof.p/sysprof-process-dialog.c.o
+[314/471] Compiling C object src/sysprof/sysprof.p/sysprof-normalized-series.c.o
+[315/471] Compiling C object src/sysprof/sysprof.p/sysprof-processes-section.c.o
+[316/471] Compiling C object src/sysprof/sysprof.p/sysprof-series.c.o
+[317/471] Compiling C object src/sysprof/sysprof.p/sysprof-single-model.c.o
+[318/471] Compiling C object src/sysprof/sysprof.p/sysprof-progress-cell.c.o
+[319/471] Compiling C object src/sysprof/sysprof.p/sysprof-scheduler.c.o
+[320/471] Compiling C object src/sysprof/sysprof.p/sysprof-recording-pad.c.o
+[321/471] Compiling C object src/sysprof/sysprof.p/sysprof-session-model-item.c.o
+[322/471] Compiling C object src/sysprof/sysprof.p/sysprof-samples-section.c.o
+[323/471] Compiling C object src/sysprof/sysprof.p/sysprof-value-axis.c.o
+[324/471] Compiling C object src/sysprof/sysprof.p/sysprof-session-model.c.o
+[325/471] Compiling C object src/sysprof/sysprof.p/sysprof-section.c.o
+[326/471] Compiling C object src/sysprof/sysprof.p/sysprof-storage-section.c.o
+[327/471] Compiling C object src/sysprof/sysprof.p/sysprof-sidebar.c.o
+[328/471] Compiling C object src/sysprof/sysprof.p/sysprof-symbol-label.c.o
+[329/471] Compiling C object src/sysprof/sysprof.p/sysprof-session.c.o
+[330/471] Compiling C object src/sysprof/sysprof.p/sysprof-time-label.c.o
+[331/471] Compiling C object src/sysprof/sysprof.p/sysprof-split-layer.c.o
+[332/471] Compiling C object src/sysprof/sysprof.p/sysprof-time-ruler.c.o
+[333/471] Generating yelp doc help/ca/help-sysprof-ca-gmo
+[334/471] Generating yelp doc help/cs/help-sysprof-cs-gmo
+[335/471] Generating yelp doc help/da/help-sysprof-da-gmo
+[336/471] Generating yelp doc help/de/help-sysprof-de-gmo
+[337/471] Compiling C object src/sysprof/sysprof.p/sysprof-time-series-item.c.o
+[338/471] Compiling C object src/sysprof/sysprof.p/sysprof-time-series.c.o
+[339/471] Generating yelp doc help/eu/help-sysprof-eu-gmo
+[340/471] Generating yelp doc help/el/help-sysprof-el-gmo
+[341/471] Generating yelp doc help/es/help-sysprof-es-gmo
+[342/471] Generating yelp doc help/hu/help-sysprof-hu-gmo
+[343/471] Generating yelp doc help/fr/help-sysprof-fr-gmo
+[344/471] Compiling C object src/sysprof-agent/sysprof-agent.p/meson-generated_.._.._libsysprof_sysprof-enums.c.o
+[345/471] Generating yelp doc help/id/help-sysprof-id-gmo
+[346/471] Generating yelp doc help/ko/help-sysprof-ko-gmo
+[347/471] Generating yelp doc help/pl/help-sysprof-pl-gmo
+[348/471] Generating yelp doc help/pt_BR/help-sysprof-pt_BR-gmo
+[349/471] Generating yelp doc help/sv/help-sysprof-sv-gmo
+[350/471] Compiling C object src/sysprof/sysprof.p/sysprof-time-filter-model.c.o
+[351/471] Generating yelp doc help/ru/help-sysprof-ru-gmo
+[352/471] Generating yelp doc help/uk/help-sysprof-uk-gmo
+[353/471] Compiling C object src/sysprof-cli/sysprof-cli.p/meson-generated_.._.._libsysprof_sysprof-enums.c.o
+[354/471] Linking target src/libsysprof-capture/tests/cross-thread-frees
+[355/471] Linking target src/libsysprof-capture/tests/allocs-by-size
+[356/471] Linking target src/libsysprof-capture/tests/rewrite-pid
+[357/471] Compiling C object src/sysprof/sysprof.p/sysprof-time-scrubber.c.o
+[358/471] Linking target src/libsysprof-capture/tests/find-temp-allocs
+[359/471] Linking target src/libsysprof-capture/tests/test-capture-cursor
+[360/471] Linking target src/libsysprof-capture/tests/test-capture
+[361/471] Linking target src/libsysprof-capture/tests/test-mapped-ring-buffer
+[362/471] Compiling C object src/sysprof-diff/sysprof-diff.p/meson-generated_.._.._libsysprof_sysprof-enums.c.o
+[363/471] Compiling C object src/sysprof/sysprof.p/sysprof-traceables-utility.c.o
+[364/471] Linking target src/preload/libsysprof-memory-6.so
+[365/471] Linking target src/preload/libsysprof-speedtrack-6.so
+[366/471] Compiling C object examples/example-app.p/app.c.o
+[367/471] Linking target src/libsysprof-capture/tests/test-cplusplus
+[368/471] Building translation po/ca/LC_MESSAGES/sysprof-ca.mo
+[369/471] Building translation po/cs/LC_MESSAGES/sysprof-cs.mo
+[370/471] Compiling C object src/sysprof/sysprof.p/sysprof-util.c.o
+[371/471] Linking target src/preload/libsysprof-tracer-6.so
+[372/471] Building translation po/bg/LC_MESSAGES/sysprof-bg.mo
+[373/471] Building translation po/da/LC_MESSAGES/sysprof-da.mo
+[374/471] Building translation po/el/LC_MESSAGES/sysprof-el.mo
+[375/471] Building translation po/de/LC_MESSAGES/sysprof-de.mo
+[376/471] Building translation po/en_GB/LC_MESSAGES/sysprof-en_GB.mo
+[377/471] Building translation po/fi/LC_MESSAGES/sysprof-fi.mo
+[378/471] Compiling C object src/sysprof-agent/sysprof-agent.p/meson-generated_.._ipc-agent.c.o
+[379/471] Building translation po/es/LC_MESSAGES/sysprof-es.mo
+[380/471] Building translation po/eo/LC_MESSAGES/sysprof-eo.mo
+[381/471] Building translation po/eu/LC_MESSAGES/sysprof-eu.mo
+[382/471] Building translation po/fa/LC_MESSAGES/sysprof-fa.mo
+[383/471] Building translation po/fr/LC_MESSAGES/sysprof-fr.mo
+[384/471] Building translation po/fur/LC_MESSAGES/sysprof-fur.mo
+[385/471] Linking target src/sysprofd/sysprofd
+[386/471] Building translation po/he/LC_MESSAGES/sysprof-he.mo
+[387/471] Building translation po/hi/LC_MESSAGES/sysprof-hi.mo
+[388/471] Building translation po/gl/LC_MESSAGES/sysprof-gl.mo
+[389/471] Building translation po/hu/LC_MESSAGES/sysprof-hu.mo
+[390/471] Building translation po/id/LC_MESSAGES/sysprof-id.mo
+[391/471] Building translation po/it/LC_MESSAGES/sysprof-it.mo
+[392/471] Building translation po/ka/LC_MESSAGES/sysprof-ka.mo
+[393/471] Building translation po/ko/LC_MESSAGES/sysprof-ko.mo
+[394/471] Building translation po/ne/LC_MESSAGES/sysprof-ne.mo
+[395/471] Building translation po/nl/LC_MESSAGES/sysprof-nl.mo
+[396/471] Building translation po/kab/LC_MESSAGES/sysprof-kab.mo
+[397/471] Building translation po/lt/LC_MESSAGES/sysprof-lt.mo
+[398/471] Building translation po/oc/LC_MESSAGES/sysprof-oc.mo
+[399/471] Building translation po/ro/LC_MESSAGES/sysprof-ro.mo
+[400/471] Building translation po/ru/LC_MESSAGES/sysprof-ru.mo
+[401/471] Building translation po/sl/LC_MESSAGES/sysprof-sl.mo
+[402/471] Building translation po/pa/LC_MESSAGES/sysprof-pa.mo
+[403/471] Building translation po/pl/LC_MESSAGES/sysprof-pl.mo
+[404/471] Building translation po/pt_BR/LC_MESSAGES/sysprof-pt_BR.mo
+[405/471] Building translation po/sk/LC_MESSAGES/sysprof-sk.mo
+[406/471] Building translation po/pt/LC_MESSAGES/sysprof-pt.mo
+[407/471] Building translation po/sr/LC_MESSAGES/sysprof-sr.mo
+[408/471] Building translation po/tr/LC_MESSAGES/sysprof-tr.mo
+[409/471] Building translation po/uk/LC_MESSAGES/sysprof-uk.mo
+[410/471] Building translation po/zh_CN/LC_MESSAGES/sysprof-zh_CN.mo
+[411/471] Compiling C object src/sysprof-agent/sysprof-agent.p/sysprof-agent.c.o
+[412/471] Building translation po/sv/LC_MESSAGES/sysprof-sv.mo
+[413/471] Compiling C object src/sysprof/sysprof.p/sysprof-xy-series-item.c.o
+[414/471] Compiling C object src/sysprof-diff/sysprof-diff.p/sysprof-diff.c.o
+[415/471] Compiling C object src/sysprof/sysprof.p/sysprof-tree-expander.c.o
+[416/471] Generating yelp doc help/el/help-sysprof-el
+[417/471] Compiling C object src/sysprof/sysprof.p/sysprof-time-span-layer.c.o
+[418/471] Generating yelp doc help/cs/help-sysprof-cs
+[419/471] Generating yelp doc help/es/help-sysprof-es
+[420/471] Compiling C object src/sysprof-cli/sysprof-cli.p/sysprof-cli.c.o
+[421/471] Generating yelp doc help/fr/help-sysprof-fr
+[422/471] Compiling C object src/sysprof/sysprof.p/sysprof-weighted-callgraph-view.c.o
+[423/471] Generating yelp doc help/hu/help-sysprof-hu
+[424/471] Generating yelp doc help/eu/help-sysprof-eu
+[425/471] Compiling C object src/sysprof/sysprof.p/sysprof-xy-layer.c.o
+[426/471] Generating yelp doc help/de/help-sysprof-de
+[427/471] Linking target examples/example-app
+[428/471] Generating yelp doc help/ca/help-sysprof-ca
+[429/471] Generating yelp doc help/da/help-sysprof-da
+[430/471] Merging translations for data/org.gnome.Sysprof.appdata.xml
+[431/471] Generating yelp doc help/id/help-sysprof-id
+[432/471] Generating yelp doc help/ko/help-sysprof-ko
+[433/471] Merging translations for data/org.gnome.Sysprof.desktop
+[434/471] Merging translations for src/sysprofd/org.gnome.sysprof3.policy
+[435/471] Generating yelp doc help/pl/help-sysprof-pl
+[436/471] Compiling C object src/sysprof/sysprof.p/sysprof-xy-series.c.o
+[437/471] Generating yelp doc help/pt_BR/help-sysprof-pt_BR
+[438/471] Generating yelp doc help/ru/help-sysprof-ru
+[439/471] Generating yelp doc help/sv/help-sysprof-sv
+[440/471] Generating yelp doc help/uk/help-sysprof-uk
+[441/471] Compiling C object src/sysprof/sysprof.p/sysprof-window.c.o
+[442/471] Compiling C object contrib/eggbitset/libeggbitset.a.p/eggbitset.c.o
+[443/471] Linking static target contrib/eggbitset/libeggbitset.a
+[444/471] Linking target src/libsysprof/tests/test-cplusplus
+[445/471] Linking target src/libsysprof/tests/ninja-to-marks
+[446/471] Linking target src/libsysprof/tests/test-maps-parser
+[447/471] Linking target src/libsysprof/tests/test-symbol-cache
+[448/471] Linking target src/libsysprof/tests/read-build-id
+[449/471] Linking target src/libsysprof/tests/test-strings
+[450/471] Linking target src/libsysprof/tests/test-list-functions-by-weight
+[451/471] Linking target src/libsysprof/tests/test-callgraph
+[452/471] Linking target src/libsysprof/tests/test-print-file
+[453/471] Linking target src/libsysprof/tests/test-mark-catalog
+[454/471] Linking target src/libsysprof/tests/test-capture-model
+[455/471] Linking target src/libsysprof/tests/test-list-counters
+[456/471] Linking target src/libsysprof/tests/test-allocs-by-func
+[457/471] Linking target src/libsysprof/tests/test-leak-detector
+[458/471] Linking target src/libsysprof/tests/test-list-processes
+[459/471] Linking target src/libsysprof/tests/test-list-cpu
+[460/471] Linking target src/libsysprof/tests/test-list-jitmap
+[461/471] Linking target src/libsysprof/tests/test-profiler
+[462/471] Linking target src/libsysprof/tests/test-symbolize
+[463/471] Linking target src/libsysprof/libsysprof-6.so.6.0.0
+[464/471] Linking target src/libsysprof/tests/test-elf-loader
+[465/471] Linking target src/libsysprof/tests/test-list-address-layout
+[466/471] Linking target src/libsysprof/tests/test-list-overlays
+[467/471] Linking target src/libsysprof/tests/test-list-files
+[468/471] Linking target src/sysprof-diff/sysprof-diff
+[469/471] Linking target src/sysprof-agent/sysprof-agent
+[470/471] Linking target src/sysprof-cli/sysprof-cli
+[471/471] Linking target src/sysprof/sysprof
+[0/1] Installing files
+Installing subdir /blfs/builds/sysprof-47.2/data/icons/scalable to /pkgs/sysprof/usr/share/icons/hicolor/scalable
+Installing /blfs/builds/sysprof-47.2/data/icons/scalable/actions/sysprof-gtk.svg to /pkgs/sysprof/usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/sysprof-47.2/data/icons/scalable/actions/sysprof-memory.svg to /pkgs/sysprof/usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/sysprof-47.2/data/icons/scalable/actions/sysprof-cpu.svg to /pkgs/sysprof/usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/sysprof-47.2/data/icons/scalable/actions/sysprof-disk.svg to /pkgs/sysprof/usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/sysprof-47.2/data/icons/scalable/actions/sysprof-library.svg to /pkgs/sysprof/usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/sysprof-47.2/data/icons/scalable/actions/sysprof-allocations.svg to /pkgs/sysprof/usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/sysprof-47.2/data/icons/scalable/actions/sysprof-trace-app.svg to /pkgs/sysprof/usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/sysprof-47.2/data/icons/scalable/actions/sysprof-cli.svg to /pkgs/sysprof/usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/sysprof-47.2/data/icons/scalable/actions/sysprof-networking.svg to /pkgs/sysprof/usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/sysprof-47.2/data/icons/scalable/actions/sysprof-rapl.svg to /pkgs/sysprof/usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/sysprof-47.2/data/icons/scalable/actions/sysprof-battery.svg to /pkgs/sysprof/usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/sysprof-47.2/data/icons/scalable/actions/sysprof-calgraph.svg to /pkgs/sysprof/usr/share/icons/hicolor/scalable/actions
+Installing subdir /blfs/builds/sysprof-47.2/data/icons/symbolic to /pkgs/sysprof/usr/share/icons/hicolor/symbolic
+Installing /blfs/builds/sysprof-47.2/data/icons/symbolic/apps/org.gnome.Sysprof-symbolic.svg to /pkgs/sysprof/usr/share/icons/hicolor/symbolic/apps
+Installing src/libsysprof-capture/libsysprof-capture-4.a to /pkgs/sysprof/usr/lib
+Installing src/libsysprof/sysprof-enums.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing src/libsysprof/libsysprof-6.so.6.0.0 to /pkgs/sysprof/usr/lib
+Installing src/preload/libsysprof-memory-6.so to /pkgs/sysprof/usr/lib
+Installing src/preload/libsysprof-speedtrack-6.so to /pkgs/sysprof/usr/lib
+Installing src/preload/libsysprof-tracer-6.so to /pkgs/sysprof/usr/lib
+Installing src/sysprofd/sysprofd to /pkgs/sysprof/usr/libexec
+Installing src/sysprofd/org.gnome.sysprof3.policy to /pkgs/sysprof/usr/share/polkit-1/actions
+Installing src/sysprof/sysprof to /pkgs/sysprof/usr/bin
+Installing src/sysprof-agent/sysprof-agent to /pkgs/sysprof/usr/bin
+Installing src/sysprof-cli/sysprof-cli to /pkgs/sysprof/usr/bin
+Installing data/org.gnome.Sysprof.appdata.xml to /pkgs/sysprof/usr/share/metainfo
+Installing data/org.gnome.Sysprof.desktop to /pkgs/sysprof/usr/share/applications
+Installing po/bg/LC_MESSAGES/sysprof.mo to /pkgs/sysprof/usr/share/locale/bg/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/sysprof.mo to /pkgs/sysprof/usr/share/locale/ca/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/sysprof.mo to /pkgs/sysprof/usr/share/locale/cs/LC_MESSAGES
+Installing po/da/LC_MESSAGES/sysprof.mo to /pkgs/sysprof/usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/sysprof.mo to /pkgs/sysprof/usr/share/locale/de/LC_MESSAGES
+Installing po/el/LC_MESSAGES/sysprof.mo to /pkgs/sysprof/usr/share/locale/el/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/sysprof.mo to /pkgs/sysprof/usr/share/locale/en_GB/LC_MESSAGES
+Installing po/eo/LC_MESSAGES/sysprof.mo to /pkgs/sysprof/usr/share/locale/eo/LC_MESSAGES
+Installing po/es/LC_MESSAGES/sysprof.mo to /pkgs/sysprof/usr/share/locale/es/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/sysprof.mo to /pkgs/sysprof/usr/share/locale/eu/LC_MESSAGES
+Installing po/fa/LC_MESSAGES/sysprof.mo to /pkgs/sysprof/usr/share/locale/fa/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/sysprof.mo to /pkgs/sysprof/usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/sysprof.mo to /pkgs/sysprof/usr/share/locale/fr/LC_MESSAGES
+Installing po/fur/LC_MESSAGES/sysprof.mo to /pkgs/sysprof/usr/share/locale/fur/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/sysprof.mo to /pkgs/sysprof/usr/share/locale/gl/LC_MESSAGES
+Installing po/he/LC_MESSAGES/sysprof.mo to /pkgs/sysprof/usr/share/locale/he/LC_MESSAGES
+Installing po/hi/LC_MESSAGES/sysprof.mo to /pkgs/sysprof/usr/share/locale/hi/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/sysprof.mo to /pkgs/sysprof/usr/share/locale/hu/LC_MESSAGES
+Installing po/id/LC_MESSAGES/sysprof.mo to /pkgs/sysprof/usr/share/locale/id/LC_MESSAGES
+Installing po/it/LC_MESSAGES/sysprof.mo to /pkgs/sysprof/usr/share/locale/it/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/sysprof.mo to /pkgs/sysprof/usr/share/locale/ka/LC_MESSAGES
+Installing po/kab/LC_MESSAGES/sysprof.mo to /pkgs/sysprof/usr/share/locale/kab/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/sysprof.mo to /pkgs/sysprof/usr/share/locale/ko/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/sysprof.mo to /pkgs/sysprof/usr/share/locale/lt/LC_MESSAGES
+Installing po/ne/LC_MESSAGES/sysprof.mo to /pkgs/sysprof/usr/share/locale/ne/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/sysprof.mo to /pkgs/sysprof/usr/share/locale/nl/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/sysprof.mo to /pkgs/sysprof/usr/share/locale/oc/LC_MESSAGES
+Installing po/pa/LC_MESSAGES/sysprof.mo to /pkgs/sysprof/usr/share/locale/pa/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/sysprof.mo to /pkgs/sysprof/usr/share/locale/pl/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/sysprof.mo to /pkgs/sysprof/usr/share/locale/pt/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/sysprof.mo to /pkgs/sysprof/usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/sysprof.mo to /pkgs/sysprof/usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/sysprof.mo to /pkgs/sysprof/usr/share/locale/ru/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/sysprof.mo to /pkgs/sysprof/usr/share/locale/sl/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/sysprof.mo to /pkgs/sysprof/usr/share/locale/sk/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/sysprof.mo to /pkgs/sysprof/usr/share/locale/sr/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/sysprof.mo to /pkgs/sysprof/usr/share/locale/sv/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/sysprof.mo to /pkgs/sysprof/usr/share/locale/tr/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/sysprof.mo to /pkgs/sysprof/usr/share/locale/uk/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/sysprof.mo to /pkgs/sysprof/usr/share/locale/zh_CN/LC_MESSAGES
+Installing help/ca/index.page to /pkgs/sysprof/usr/share/help/ca/sysprof
+Installing help/ca/introduction.page to /pkgs/sysprof/usr/share/help/ca/sysprof
+Installing help/ca/profiling.page to /pkgs/sysprof/usr/share/help/ca/sysprof
+Installing help/ca/faq.page to /pkgs/sysprof/usr/share/help/ca/sysprof
+Installing help/ca/legal.xml to /pkgs/sysprof/usr/share/help/ca/sysprof
+Installing help/cs/index.page to /pkgs/sysprof/usr/share/help/cs/sysprof
+Installing help/cs/introduction.page to /pkgs/sysprof/usr/share/help/cs/sysprof
+Installing help/cs/profiling.page to /pkgs/sysprof/usr/share/help/cs/sysprof
+Installing help/cs/faq.page to /pkgs/sysprof/usr/share/help/cs/sysprof
+Installing help/cs/legal.xml to /pkgs/sysprof/usr/share/help/cs/sysprof
+Installing help/da/index.page to /pkgs/sysprof/usr/share/help/da/sysprof
+Installing help/da/introduction.page to /pkgs/sysprof/usr/share/help/da/sysprof
+Installing help/da/profiling.page to /pkgs/sysprof/usr/share/help/da/sysprof
+Installing help/da/faq.page to /pkgs/sysprof/usr/share/help/da/sysprof
+Installing help/da/legal.xml to /pkgs/sysprof/usr/share/help/da/sysprof
+Installing help/de/index.page to /pkgs/sysprof/usr/share/help/de/sysprof
+Installing help/de/introduction.page to /pkgs/sysprof/usr/share/help/de/sysprof
+Installing help/de/profiling.page to /pkgs/sysprof/usr/share/help/de/sysprof
+Installing help/de/faq.page to /pkgs/sysprof/usr/share/help/de/sysprof
+Installing help/de/legal.xml to /pkgs/sysprof/usr/share/help/de/sysprof
+Installing help/el/index.page to /pkgs/sysprof/usr/share/help/el/sysprof
+Installing help/el/introduction.page to /pkgs/sysprof/usr/share/help/el/sysprof
+Installing help/el/profiling.page to /pkgs/sysprof/usr/share/help/el/sysprof
+Installing help/el/faq.page to /pkgs/sysprof/usr/share/help/el/sysprof
+Installing help/el/legal.xml to /pkgs/sysprof/usr/share/help/el/sysprof
+Installing help/es/index.page to /pkgs/sysprof/usr/share/help/es/sysprof
+Installing help/es/introduction.page to /pkgs/sysprof/usr/share/help/es/sysprof
+Installing help/es/profiling.page to /pkgs/sysprof/usr/share/help/es/sysprof
+Installing help/es/faq.page to /pkgs/sysprof/usr/share/help/es/sysprof
+Installing help/es/legal.xml to /pkgs/sysprof/usr/share/help/es/sysprof
+Installing help/eu/index.page to /pkgs/sysprof/usr/share/help/eu/sysprof
+Installing help/eu/introduction.page to /pkgs/sysprof/usr/share/help/eu/sysprof
+Installing help/eu/profiling.page to /pkgs/sysprof/usr/share/help/eu/sysprof
+Installing help/eu/faq.page to /pkgs/sysprof/usr/share/help/eu/sysprof
+Installing help/eu/legal.xml to /pkgs/sysprof/usr/share/help/eu/sysprof
+Installing help/fr/index.page to /pkgs/sysprof/usr/share/help/fr/sysprof
+Installing help/fr/introduction.page to /pkgs/sysprof/usr/share/help/fr/sysprof
+Installing help/fr/profiling.page to /pkgs/sysprof/usr/share/help/fr/sysprof
+Installing help/fr/faq.page to /pkgs/sysprof/usr/share/help/fr/sysprof
+Installing help/fr/legal.xml to /pkgs/sysprof/usr/share/help/fr/sysprof
+Installing help/hu/index.page to /pkgs/sysprof/usr/share/help/hu/sysprof
+Installing help/hu/introduction.page to /pkgs/sysprof/usr/share/help/hu/sysprof
+Installing help/hu/profiling.page to /pkgs/sysprof/usr/share/help/hu/sysprof
+Installing help/hu/faq.page to /pkgs/sysprof/usr/share/help/hu/sysprof
+Installing help/hu/legal.xml to /pkgs/sysprof/usr/share/help/hu/sysprof
+Installing help/id/index.page to /pkgs/sysprof/usr/share/help/id/sysprof
+Installing help/id/introduction.page to /pkgs/sysprof/usr/share/help/id/sysprof
+Installing help/id/profiling.page to /pkgs/sysprof/usr/share/help/id/sysprof
+Installing help/id/faq.page to /pkgs/sysprof/usr/share/help/id/sysprof
+Installing help/id/legal.xml to /pkgs/sysprof/usr/share/help/id/sysprof
+Installing help/ko/index.page to /pkgs/sysprof/usr/share/help/ko/sysprof
+Installing help/ko/introduction.page to /pkgs/sysprof/usr/share/help/ko/sysprof
+Installing help/ko/profiling.page to /pkgs/sysprof/usr/share/help/ko/sysprof
+Installing help/ko/faq.page to /pkgs/sysprof/usr/share/help/ko/sysprof
+Installing help/ko/legal.xml to /pkgs/sysprof/usr/share/help/ko/sysprof
+Installing help/pl/index.page to /pkgs/sysprof/usr/share/help/pl/sysprof
+Installing help/pl/introduction.page to /pkgs/sysprof/usr/share/help/pl/sysprof
+Installing help/pl/profiling.page to /pkgs/sysprof/usr/share/help/pl/sysprof
+Installing help/pl/faq.page to /pkgs/sysprof/usr/share/help/pl/sysprof
+Installing help/pl/legal.xml to /pkgs/sysprof/usr/share/help/pl/sysprof
+Installing help/pt_BR/index.page to /pkgs/sysprof/usr/share/help/pt_BR/sysprof
+Installing help/pt_BR/introduction.page to /pkgs/sysprof/usr/share/help/pt_BR/sysprof
+Installing help/pt_BR/profiling.page to /pkgs/sysprof/usr/share/help/pt_BR/sysprof
+Installing help/pt_BR/faq.page to /pkgs/sysprof/usr/share/help/pt_BR/sysprof
+Installing help/pt_BR/legal.xml to /pkgs/sysprof/usr/share/help/pt_BR/sysprof
+Installing help/ru/index.page to /pkgs/sysprof/usr/share/help/ru/sysprof
+Installing help/ru/introduction.page to /pkgs/sysprof/usr/share/help/ru/sysprof
+Installing help/ru/profiling.page to /pkgs/sysprof/usr/share/help/ru/sysprof
+Installing help/ru/faq.page to /pkgs/sysprof/usr/share/help/ru/sysprof
+Installing help/ru/legal.xml to /pkgs/sysprof/usr/share/help/ru/sysprof
+Installing help/sv/index.page to /pkgs/sysprof/usr/share/help/sv/sysprof
+Installing help/sv/introduction.page to /pkgs/sysprof/usr/share/help/sv/sysprof
+Installing help/sv/profiling.page to /pkgs/sysprof/usr/share/help/sv/sysprof
+Installing help/sv/faq.page to /pkgs/sysprof/usr/share/help/sv/sysprof
+Installing help/sv/legal.xml to /pkgs/sysprof/usr/share/help/sv/sysprof
+Installing help/uk/index.page to /pkgs/sysprof/usr/share/help/uk/sysprof
+Installing help/uk/introduction.page to /pkgs/sysprof/usr/share/help/uk/sysprof
+Installing help/uk/profiling.page to /pkgs/sysprof/usr/share/help/uk/sysprof
+Installing help/uk/faq.page to /pkgs/sysprof/usr/share/help/uk/sysprof
+Installing help/uk/legal.xml to /pkgs/sysprof/usr/share/help/uk/sysprof
+Installing /blfs/builds/sysprof-47.2/src/libsysprof-capture/sysprof-address.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof-capture/sysprof-clock.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof-capture/sysprof-capture-condition.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof-capture/sysprof-capture-cursor.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof-capture/sysprof-capture-reader.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof-capture/sysprof-capture-types.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof-capture/sysprof-capture-writer.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof-capture/sysprof-collector.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof-capture/sysprof-macros.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof-capture/sysprof-platform.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof-capture/sysprof-capture.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof-capture/sysprof-version-macros.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-battery-charge.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-bundled-symbolizer.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-callgraph-frame.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-callgraph-symbol.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-callgraph.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-category-summary.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-cpu-info.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-cpu-usage.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-dbus-monitor.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-diagnostic.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-disk-usage.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-allocation.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-counter-value.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-counter.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-ctrdef.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-ctrset.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-dbus-message.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-exit.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-file-chunk.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-file.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-fork.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-frame.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-jitmap.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-loader.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-log.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-mark.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-metadata.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-mmap.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-overlay.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-process.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-sample.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-traceable.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-elf-symbolizer.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-energy-usage.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-instrument.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-jitmap-symbolizer.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-kallsyms-symbolizer.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-malloc-tracing.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-mark-catalog.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-memory-usage.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-mount.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-multi-symbolizer.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-network-usage.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-no-symbolizer.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-power-profile.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-profiler.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-proxied-instrument.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-recording.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-sampler.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-scheduler-details.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-spawnable.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-subprocess-output.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-symbol.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-symbolizer.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-symbols-bundle.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-system-logs.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-thread-info.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-time-span.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-tracefd-consumer.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-tracer.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/build/src/libsysprof-capture/sysprof-version.h to /pkgs/sysprof/usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/build/meson-private/sysprof-capture-4.pc to /pkgs/sysprof/usr/lib/pkgconfig
+Installing /blfs/builds/sysprof-47.2/build/meson-private/sysprof-6.pc to /pkgs/sysprof/usr/lib/pkgconfig
+Installing /blfs/builds/sysprof-47.2/build/src/sysprofd/org.gnome.Sysprof3.service to /pkgs/sysprof/usr/share/dbus-1/system-services
+Installing /blfs/builds/sysprof-47.2/build/src/sysprofd/org.gnome.Sysprof3.conf to /pkgs/sysprof/usr/share/dbus-1/system.d
+Installing /blfs/builds/sysprof-47.2/build/src/sysprofd/sysprof3.service to /pkgs/sysprof/usr/lib/systemd/system
+Installing /blfs/builds/sysprof-47.2/src/sysprofd/org.gnome.Sysprof3.Profiler.xml to /pkgs/sysprof/usr/share/dbus-1/interfaces
+Installing /blfs/builds/sysprof-47.2/src/sysprofd/org.gnome.Sysprof3.Service.xml to /pkgs/sysprof/usr/share/dbus-1/interfaces
+Installing /blfs/builds/sysprof-47.2/src/sysprof-agent/org.gnome.Sysprof.Agent.xml to /pkgs/sysprof/usr/share/dbus-1/interfaces
+Installing /blfs/builds/sysprof-47.2/data/sysprof-mime.xml to /pkgs/sysprof/usr/share/mime/packages
+Installing /blfs/builds/sysprof-47.2/data/icons/org.gnome.Sysprof.svg to /pkgs/sysprof/usr/share/icons/hicolor/scalable/apps
+Installing /blfs/builds/sysprof-47.2/help/C/index.page to /pkgs/sysprof/usr/share/help/C/sysprof
+Installing /blfs/builds/sysprof-47.2/help/C/introduction.page to /pkgs/sysprof/usr/share/help/C/sysprof
+Installing /blfs/builds/sysprof-47.2/help/C/profiling.page to /pkgs/sysprof/usr/share/help/C/sysprof
+Installing /blfs/builds/sysprof-47.2/help/C/faq.page to /pkgs/sysprof/usr/share/help/C/sysprof
+Installing /blfs/builds/sysprof-47.2/help/C/legal.xml to /pkgs/sysprof/usr/share/help/C/sysprof
+Installing /blfs/builds/sysprof-47.2/help/C/figures/Sysprof.svg to /pkgs/sysprof/usr/share/help/C/sysprof/figures
+Installing symlink pointing to libsysprof-6.so.6.0.0 to /pkgs/sysprof/usr/lib/libsysprof-6.so.6
+Installing symlink pointing to libsysprof-6.so.6 to /pkgs/sysprof/usr/lib/libsysprof-6.so
+Installing symlink pointing to ../../../C/sysprof/figures/Sysprof.svg to /pkgs/sysprof/usr/share/help/ca/sysprof/figures/Sysprof.svg
+Installing symlink pointing to ../../../C/sysprof/figures/Sysprof.svg to /pkgs/sysprof/usr/share/help/cs/sysprof/figures/Sysprof.svg
+Installing symlink pointing to ../../../C/sysprof/figures/Sysprof.svg to /pkgs/sysprof/usr/share/help/da/sysprof/figures/Sysprof.svg
+Installing symlink pointing to ../../../C/sysprof/figures/Sysprof.svg to /pkgs/sysprof/usr/share/help/de/sysprof/figures/Sysprof.svg
+Installing symlink pointing to ../../../C/sysprof/figures/Sysprof.svg to /pkgs/sysprof/usr/share/help/el/sysprof/figures/Sysprof.svg
+Installing symlink pointing to ../../../C/sysprof/figures/Sysprof.svg to /pkgs/sysprof/usr/share/help/es/sysprof/figures/Sysprof.svg
+Installing symlink pointing to ../../../C/sysprof/figures/Sysprof.svg to /pkgs/sysprof/usr/share/help/eu/sysprof/figures/Sysprof.svg
+Installing symlink pointing to ../../../C/sysprof/figures/Sysprof.svg to /pkgs/sysprof/usr/share/help/fr/sysprof/figures/Sysprof.svg
+Installing symlink pointing to ../../../C/sysprof/figures/Sysprof.svg to /pkgs/sysprof/usr/share/help/hu/sysprof/figures/Sysprof.svg
+Installing symlink pointing to ../../../C/sysprof/figures/Sysprof.svg to /pkgs/sysprof/usr/share/help/id/sysprof/figures/Sysprof.svg
+Installing symlink pointing to ../../../C/sysprof/figures/Sysprof.svg to /pkgs/sysprof/usr/share/help/ko/sysprof/figures/Sysprof.svg
+Installing symlink pointing to ../../../C/sysprof/figures/Sysprof.svg to /pkgs/sysprof/usr/share/help/pl/sysprof/figures/Sysprof.svg
+Installing symlink pointing to ../../../C/sysprof/figures/Sysprof.svg to /pkgs/sysprof/usr/share/help/pt_BR/sysprof/figures/Sysprof.svg
+Installing symlink pointing to ../../../C/sysprof/figures/Sysprof.svg to /pkgs/sysprof/usr/share/help/ru/sysprof/figures/Sysprof.svg
+Installing symlink pointing to ../../../C/sysprof/figures/Sysprof.svg to /pkgs/sysprof/usr/share/help/sv/sysprof/figures/Sysprof.svg
+Installing symlink pointing to ../../../C/sysprof/figures/Sysprof.svg to /pkgs/sysprof/usr/share/help/uk/sysprof/figures/Sysprof.svg
+Skipping custom install script because DESTDIR is set '/usr/bin/gtk4-update-icon-cache -q -t -f /usr/share/icons/hicolor'
+Skipping custom install script because DESTDIR is set '/usr/bin/update-desktop-database -q /usr/share/applications'
+[0/1] Installing files
+Installing subdir /blfs/builds/sysprof-47.2/data/icons/scalable to /usr/share/icons/hicolor/scalable
+Installing /blfs/builds/sysprof-47.2/data/icons/scalable/actions/sysprof-gtk.svg to /usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/sysprof-47.2/data/icons/scalable/actions/sysprof-memory.svg to /usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/sysprof-47.2/data/icons/scalable/actions/sysprof-cpu.svg to /usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/sysprof-47.2/data/icons/scalable/actions/sysprof-disk.svg to /usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/sysprof-47.2/data/icons/scalable/actions/sysprof-library.svg to /usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/sysprof-47.2/data/icons/scalable/actions/sysprof-allocations.svg to /usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/sysprof-47.2/data/icons/scalable/actions/sysprof-trace-app.svg to /usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/sysprof-47.2/data/icons/scalable/actions/sysprof-cli.svg to /usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/sysprof-47.2/data/icons/scalable/actions/sysprof-networking.svg to /usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/sysprof-47.2/data/icons/scalable/actions/sysprof-rapl.svg to /usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/sysprof-47.2/data/icons/scalable/actions/sysprof-battery.svg to /usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/sysprof-47.2/data/icons/scalable/actions/sysprof-calgraph.svg to /usr/share/icons/hicolor/scalable/actions
+Installing subdir /blfs/builds/sysprof-47.2/data/icons/symbolic to /usr/share/icons/hicolor/symbolic
+Installing /blfs/builds/sysprof-47.2/data/icons/symbolic/apps/org.gnome.Sysprof-symbolic.svg to /usr/share/icons/hicolor/symbolic/apps
+Installing src/libsysprof-capture/libsysprof-capture-4.a to /usr/lib
+Installing src/libsysprof/sysprof-enums.h to /usr/include/sysprof-6
+Installing src/libsysprof/libsysprof-6.so.6.0.0 to /usr/lib
+Installing src/preload/libsysprof-memory-6.so to /usr/lib
+Installing src/preload/libsysprof-speedtrack-6.so to /usr/lib
+Installing src/preload/libsysprof-tracer-6.so to /usr/lib
+Installing src/sysprofd/sysprofd to /usr/libexec
+Installing src/sysprofd/org.gnome.sysprof3.policy to /usr/share/polkit-1/actions
+Installing src/sysprof/sysprof to /usr/bin
+Installing src/sysprof-agent/sysprof-agent to /usr/bin
+Installing src/sysprof-cli/sysprof-cli to /usr/bin
+Installing data/org.gnome.Sysprof.appdata.xml to /usr/share/metainfo
+Installing data/org.gnome.Sysprof.desktop to /usr/share/applications
+Installing po/bg/LC_MESSAGES/sysprof.mo to /usr/share/locale/bg/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/sysprof.mo to /usr/share/locale/ca/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/sysprof.mo to /usr/share/locale/cs/LC_MESSAGES
+Installing po/da/LC_MESSAGES/sysprof.mo to /usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/sysprof.mo to /usr/share/locale/de/LC_MESSAGES
+Installing po/el/LC_MESSAGES/sysprof.mo to /usr/share/locale/el/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/sysprof.mo to /usr/share/locale/en_GB/LC_MESSAGES
+Installing po/eo/LC_MESSAGES/sysprof.mo to /usr/share/locale/eo/LC_MESSAGES
+Installing po/es/LC_MESSAGES/sysprof.mo to /usr/share/locale/es/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/sysprof.mo to /usr/share/locale/eu/LC_MESSAGES
+Installing po/fa/LC_MESSAGES/sysprof.mo to /usr/share/locale/fa/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/sysprof.mo to /usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/sysprof.mo to /usr/share/locale/fr/LC_MESSAGES
+Installing po/fur/LC_MESSAGES/sysprof.mo to /usr/share/locale/fur/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/sysprof.mo to /usr/share/locale/gl/LC_MESSAGES
+Installing po/he/LC_MESSAGES/sysprof.mo to /usr/share/locale/he/LC_MESSAGES
+Installing po/hi/LC_MESSAGES/sysprof.mo to /usr/share/locale/hi/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/sysprof.mo to /usr/share/locale/hu/LC_MESSAGES
+Installing po/id/LC_MESSAGES/sysprof.mo to /usr/share/locale/id/LC_MESSAGES
+Installing po/it/LC_MESSAGES/sysprof.mo to /usr/share/locale/it/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/sysprof.mo to /usr/share/locale/ka/LC_MESSAGES
+Installing po/kab/LC_MESSAGES/sysprof.mo to /usr/share/locale/kab/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/sysprof.mo to /usr/share/locale/ko/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/sysprof.mo to /usr/share/locale/lt/LC_MESSAGES
+Installing po/ne/LC_MESSAGES/sysprof.mo to /usr/share/locale/ne/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/sysprof.mo to /usr/share/locale/nl/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/sysprof.mo to /usr/share/locale/oc/LC_MESSAGES
+Installing po/pa/LC_MESSAGES/sysprof.mo to /usr/share/locale/pa/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/sysprof.mo to /usr/share/locale/pl/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/sysprof.mo to /usr/share/locale/pt/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/sysprof.mo to /usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/sysprof.mo to /usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/sysprof.mo to /usr/share/locale/ru/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/sysprof.mo to /usr/share/locale/sl/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/sysprof.mo to /usr/share/locale/sk/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/sysprof.mo to /usr/share/locale/sr/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/sysprof.mo to /usr/share/locale/sv/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/sysprof.mo to /usr/share/locale/tr/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/sysprof.mo to /usr/share/locale/uk/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/sysprof.mo to /usr/share/locale/zh_CN/LC_MESSAGES
+Installing help/ca/index.page to /usr/share/help/ca/sysprof
+Installing help/ca/introduction.page to /usr/share/help/ca/sysprof
+Installing help/ca/profiling.page to /usr/share/help/ca/sysprof
+Installing help/ca/faq.page to /usr/share/help/ca/sysprof
+Installing help/ca/legal.xml to /usr/share/help/ca/sysprof
+Installing help/cs/index.page to /usr/share/help/cs/sysprof
+Installing help/cs/introduction.page to /usr/share/help/cs/sysprof
+Installing help/cs/profiling.page to /usr/share/help/cs/sysprof
+Installing help/cs/faq.page to /usr/share/help/cs/sysprof
+Installing help/cs/legal.xml to /usr/share/help/cs/sysprof
+Installing help/da/index.page to /usr/share/help/da/sysprof
+Installing help/da/introduction.page to /usr/share/help/da/sysprof
+Installing help/da/profiling.page to /usr/share/help/da/sysprof
+Installing help/da/faq.page to /usr/share/help/da/sysprof
+Installing help/da/legal.xml to /usr/share/help/da/sysprof
+Installing help/de/index.page to /usr/share/help/de/sysprof
+Installing help/de/introduction.page to /usr/share/help/de/sysprof
+Installing help/de/profiling.page to /usr/share/help/de/sysprof
+Installing help/de/faq.page to /usr/share/help/de/sysprof
+Installing help/de/legal.xml to /usr/share/help/de/sysprof
+Installing help/el/index.page to /usr/share/help/el/sysprof
+Installing help/el/introduction.page to /usr/share/help/el/sysprof
+Installing help/el/profiling.page to /usr/share/help/el/sysprof
+Installing help/el/faq.page to /usr/share/help/el/sysprof
+Installing help/el/legal.xml to /usr/share/help/el/sysprof
+Installing help/es/index.page to /usr/share/help/es/sysprof
+Installing help/es/introduction.page to /usr/share/help/es/sysprof
+Installing help/es/profiling.page to /usr/share/help/es/sysprof
+Installing help/es/faq.page to /usr/share/help/es/sysprof
+Installing help/es/legal.xml to /usr/share/help/es/sysprof
+Installing help/eu/index.page to /usr/share/help/eu/sysprof
+Installing help/eu/introduction.page to /usr/share/help/eu/sysprof
+Installing help/eu/profiling.page to /usr/share/help/eu/sysprof
+Installing help/eu/faq.page to /usr/share/help/eu/sysprof
+Installing help/eu/legal.xml to /usr/share/help/eu/sysprof
+Installing help/fr/index.page to /usr/share/help/fr/sysprof
+Installing help/fr/introduction.page to /usr/share/help/fr/sysprof
+Installing help/fr/profiling.page to /usr/share/help/fr/sysprof
+Installing help/fr/faq.page to /usr/share/help/fr/sysprof
+Installing help/fr/legal.xml to /usr/share/help/fr/sysprof
+Installing help/hu/index.page to /usr/share/help/hu/sysprof
+Installing help/hu/introduction.page to /usr/share/help/hu/sysprof
+Installing help/hu/profiling.page to /usr/share/help/hu/sysprof
+Installing help/hu/faq.page to /usr/share/help/hu/sysprof
+Installing help/hu/legal.xml to /usr/share/help/hu/sysprof
+Installing help/id/index.page to /usr/share/help/id/sysprof
+Installing help/id/introduction.page to /usr/share/help/id/sysprof
+Installing help/id/profiling.page to /usr/share/help/id/sysprof
+Installing help/id/faq.page to /usr/share/help/id/sysprof
+Installing help/id/legal.xml to /usr/share/help/id/sysprof
+Installing help/ko/index.page to /usr/share/help/ko/sysprof
+Installing help/ko/introduction.page to /usr/share/help/ko/sysprof
+Installing help/ko/profiling.page to /usr/share/help/ko/sysprof
+Installing help/ko/faq.page to /usr/share/help/ko/sysprof
+Installing help/ko/legal.xml to /usr/share/help/ko/sysprof
+Installing help/pl/index.page to /usr/share/help/pl/sysprof
+Installing help/pl/introduction.page to /usr/share/help/pl/sysprof
+Installing help/pl/profiling.page to /usr/share/help/pl/sysprof
+Installing help/pl/faq.page to /usr/share/help/pl/sysprof
+Installing help/pl/legal.xml to /usr/share/help/pl/sysprof
+Installing help/pt_BR/index.page to /usr/share/help/pt_BR/sysprof
+Installing help/pt_BR/introduction.page to /usr/share/help/pt_BR/sysprof
+Installing help/pt_BR/profiling.page to /usr/share/help/pt_BR/sysprof
+Installing help/pt_BR/faq.page to /usr/share/help/pt_BR/sysprof
+Installing help/pt_BR/legal.xml to /usr/share/help/pt_BR/sysprof
+Installing help/ru/index.page to /usr/share/help/ru/sysprof
+Installing help/ru/introduction.page to /usr/share/help/ru/sysprof
+Installing help/ru/profiling.page to /usr/share/help/ru/sysprof
+Installing help/ru/faq.page to /usr/share/help/ru/sysprof
+Installing help/ru/legal.xml to /usr/share/help/ru/sysprof
+Installing help/sv/index.page to /usr/share/help/sv/sysprof
+Installing help/sv/introduction.page to /usr/share/help/sv/sysprof
+Installing help/sv/profiling.page to /usr/share/help/sv/sysprof
+Installing help/sv/faq.page to /usr/share/help/sv/sysprof
+Installing help/sv/legal.xml to /usr/share/help/sv/sysprof
+Installing help/uk/index.page to /usr/share/help/uk/sysprof
+Installing help/uk/introduction.page to /usr/share/help/uk/sysprof
+Installing help/uk/profiling.page to /usr/share/help/uk/sysprof
+Installing help/uk/faq.page to /usr/share/help/uk/sysprof
+Installing help/uk/legal.xml to /usr/share/help/uk/sysprof
+Installing /blfs/builds/sysprof-47.2/src/libsysprof-capture/sysprof-address.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof-capture/sysprof-clock.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof-capture/sysprof-capture-condition.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof-capture/sysprof-capture-cursor.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof-capture/sysprof-capture-reader.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof-capture/sysprof-capture-types.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof-capture/sysprof-capture-writer.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof-capture/sysprof-collector.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof-capture/sysprof-macros.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof-capture/sysprof-platform.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof-capture/sysprof-capture.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof-capture/sysprof-version-macros.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-battery-charge.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-bundled-symbolizer.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-callgraph-frame.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-callgraph-symbol.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-callgraph.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-category-summary.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-cpu-info.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-cpu-usage.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-dbus-monitor.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-diagnostic.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-disk-usage.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-allocation.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-counter-value.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-counter.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-ctrdef.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-ctrset.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-dbus-message.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-exit.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-file-chunk.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-file.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-fork.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-frame.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-jitmap.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-loader.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-log.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-mark.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-metadata.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-mmap.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-overlay.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-process.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-sample.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document-traceable.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-document.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-elf-symbolizer.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-energy-usage.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-instrument.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-jitmap-symbolizer.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-kallsyms-symbolizer.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-malloc-tracing.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-mark-catalog.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-memory-usage.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-mount.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-multi-symbolizer.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-network-usage.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-no-symbolizer.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-power-profile.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-profiler.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-proxied-instrument.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-recording.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-sampler.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-scheduler-details.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-spawnable.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-subprocess-output.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-symbol.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-symbolizer.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-symbols-bundle.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-system-logs.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-thread-info.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-time-span.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-tracefd-consumer.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/src/libsysprof/sysprof-tracer.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/build/src/libsysprof-capture/sysprof-version.h to /usr/include/sysprof-6
+Installing /blfs/builds/sysprof-47.2/build/meson-private/sysprof-capture-4.pc to /usr/lib/pkgconfig
+Installing /blfs/builds/sysprof-47.2/build/meson-private/sysprof-6.pc to /usr/lib/pkgconfig
+Installing /blfs/builds/sysprof-47.2/build/src/sysprofd/org.gnome.Sysprof3.service to /usr/share/dbus-1/system-services
+Installing /blfs/builds/sysprof-47.2/build/src/sysprofd/org.gnome.Sysprof3.conf to /usr/share/dbus-1/system.d
+Installing /blfs/builds/sysprof-47.2/build/src/sysprofd/sysprof3.service to /usr/lib/systemd/system
+Installing /blfs/builds/sysprof-47.2/src/sysprofd/org.gnome.Sysprof3.Profiler.xml to /usr/share/dbus-1/interfaces
+Installing /blfs/builds/sysprof-47.2/src/sysprofd/org.gnome.Sysprof3.Service.xml to /usr/share/dbus-1/interfaces
+Installing /blfs/builds/sysprof-47.2/src/sysprof-agent/org.gnome.Sysprof.Agent.xml to /usr/share/dbus-1/interfaces
+Installing /blfs/builds/sysprof-47.2/data/sysprof-mime.xml to /usr/share/mime/packages
+Installing /blfs/builds/sysprof-47.2/data/icons/org.gnome.Sysprof.svg to /usr/share/icons/hicolor/scalable/apps
+Installing /blfs/builds/sysprof-47.2/help/C/index.page to /usr/share/help/C/sysprof
+Installing /blfs/builds/sysprof-47.2/help/C/introduction.page to /usr/share/help/C/sysprof
+Installing /blfs/builds/sysprof-47.2/help/C/profiling.page to /usr/share/help/C/sysprof
+Installing /blfs/builds/sysprof-47.2/help/C/faq.page to /usr/share/help/C/sysprof
+Installing /blfs/builds/sysprof-47.2/help/C/legal.xml to /usr/share/help/C/sysprof
+Installing /blfs/builds/sysprof-47.2/help/C/figures/Sysprof.svg to /usr/share/help/C/sysprof/figures
+Installing symlink pointing to libsysprof-6.so.6.0.0 to /usr/lib/libsysprof-6.so.6
+Installing symlink pointing to libsysprof-6.so.6 to /usr/lib/libsysprof-6.so
+Installing symlink pointing to ../../../C/sysprof/figures/Sysprof.svg to /usr/share/help/ca/sysprof/figures/Sysprof.svg
+Installing symlink pointing to ../../../C/sysprof/figures/Sysprof.svg to /usr/share/help/cs/sysprof/figures/Sysprof.svg
+Installing symlink pointing to ../../../C/sysprof/figures/Sysprof.svg to /usr/share/help/da/sysprof/figures/Sysprof.svg
+Installing symlink pointing to ../../../C/sysprof/figures/Sysprof.svg to /usr/share/help/de/sysprof/figures/Sysprof.svg
+Installing symlink pointing to ../../../C/sysprof/figures/Sysprof.svg to /usr/share/help/el/sysprof/figures/Sysprof.svg
+Installing symlink pointing to ../../../C/sysprof/figures/Sysprof.svg to /usr/share/help/es/sysprof/figures/Sysprof.svg
+Installing symlink pointing to ../../../C/sysprof/figures/Sysprof.svg to /usr/share/help/eu/sysprof/figures/Sysprof.svg
+Installing symlink pointing to ../../../C/sysprof/figures/Sysprof.svg to /usr/share/help/fr/sysprof/figures/Sysprof.svg
+Installing symlink pointing to ../../../C/sysprof/figures/Sysprof.svg to /usr/share/help/hu/sysprof/figures/Sysprof.svg
+Installing symlink pointing to ../../../C/sysprof/figures/Sysprof.svg to /usr/share/help/id/sysprof/figures/Sysprof.svg
+Installing symlink pointing to ../../../C/sysprof/figures/Sysprof.svg to /usr/share/help/ko/sysprof/figures/Sysprof.svg
+Installing symlink pointing to ../../../C/sysprof/figures/Sysprof.svg to /usr/share/help/pl/sysprof/figures/Sysprof.svg
+Installing symlink pointing to ../../../C/sysprof/figures/Sysprof.svg to /usr/share/help/pt_BR/sysprof/figures/Sysprof.svg
+Installing symlink pointing to ../../../C/sysprof/figures/Sysprof.svg to /usr/share/help/ru/sysprof/figures/Sysprof.svg
+Installing symlink pointing to ../../../C/sysprof/figures/Sysprof.svg to /usr/share/help/sv/sysprof/figures/Sysprof.svg
+Installing symlink pointing to ../../../C/sysprof/figures/Sysprof.svg to /usr/share/help/uk/sysprof/figures/Sysprof.svg
+Running custom install script '/usr/bin/gtk4-update-icon-cache -q -t -f /usr/share/icons/hicolor'
+Running custom install script '/usr/bin/update-desktop-database -q /usr/share/applications'
+sysprof/
+sysprof/usr/
+sysprof/usr/share/
+sysprof/usr/share/metainfo/
+sysprof/usr/share/metainfo/org.gnome.Sysprof.appdata.xml
+sysprof/usr/share/locale/
+sysprof/usr/share/locale/ca/
+sysprof/usr/share/locale/ca/LC_MESSAGES/
+sysprof/usr/share/locale/ca/LC_MESSAGES/sysprof.mo
+sysprof/usr/share/locale/eu/
+sysprof/usr/share/locale/eu/LC_MESSAGES/
+sysprof/usr/share/locale/eu/LC_MESSAGES/sysprof.mo
+sysprof/usr/share/locale/en_GB/
+sysprof/usr/share/locale/en_GB/LC_MESSAGES/
+sysprof/usr/share/locale/en_GB/LC_MESSAGES/sysprof.mo
+sysprof/usr/share/locale/uk/
+sysprof/usr/share/locale/uk/LC_MESSAGES/
+sysprof/usr/share/locale/uk/LC_MESSAGES/sysprof.mo
+sysprof/usr/share/locale/it/
+sysprof/usr/share/locale/it/LC_MESSAGES/
+sysprof/usr/share/locale/it/LC_MESSAGES/sysprof.mo
+sysprof/usr/share/locale/he/
+sysprof/usr/share/locale/he/LC_MESSAGES/
+sysprof/usr/share/locale/he/LC_MESSAGES/sysprof.mo
+sysprof/usr/share/locale/de/
+sysprof/usr/share/locale/de/LC_MESSAGES/
+sysprof/usr/share/locale/de/LC_MESSAGES/sysprof.mo
+sysprof/usr/share/locale/pt/
+sysprof/usr/share/locale/pt/LC_MESSAGES/
+sysprof/usr/share/locale/pt/LC_MESSAGES/sysprof.mo
+sysprof/usr/share/locale/es/
+sysprof/usr/share/locale/es/LC_MESSAGES/
+sysprof/usr/share/locale/es/LC_MESSAGES/sysprof.mo
+sysprof/usr/share/locale/fur/
+sysprof/usr/share/locale/fur/LC_MESSAGES/
+sysprof/usr/share/locale/fur/LC_MESSAGES/sysprof.mo
+sysprof/usr/share/locale/ne/
+sysprof/usr/share/locale/ne/LC_MESSAGES/
+sysprof/usr/share/locale/ne/LC_MESSAGES/sysprof.mo
+sysprof/usr/share/locale/da/
+sysprof/usr/share/locale/da/LC_MESSAGES/
+sysprof/usr/share/locale/da/LC_MESSAGES/sysprof.mo
+sysprof/usr/share/locale/zh_CN/
+sysprof/usr/share/locale/zh_CN/LC_MESSAGES/
+sysprof/usr/share/locale/zh_CN/LC_MESSAGES/sysprof.mo
+sysprof/usr/share/locale/ko/
+sysprof/usr/share/locale/ko/LC_MESSAGES/
+sysprof/usr/share/locale/ko/LC_MESSAGES/sysprof.mo
+sysprof/usr/share/locale/pa/
+sysprof/usr/share/locale/pa/LC_MESSAGES/
+sysprof/usr/share/locale/pa/LC_MESSAGES/sysprof.mo
+sysprof/usr/share/locale/kab/
+sysprof/usr/share/locale/kab/LC_MESSAGES/
+sysprof/usr/share/locale/kab/LC_MESSAGES/sysprof.mo
+sysprof/usr/share/locale/sr/
+sysprof/usr/share/locale/sr/LC_MESSAGES/
+sysprof/usr/share/locale/sr/LC_MESSAGES/sysprof.mo
+sysprof/usr/share/locale/pt_BR/
+sysprof/usr/share/locale/pt_BR/LC_MESSAGES/
+sysprof/usr/share/locale/pt_BR/LC_MESSAGES/sysprof.mo
+sysprof/usr/share/locale/tr/
+sysprof/usr/share/locale/tr/LC_MESSAGES/
+sysprof/usr/share/locale/tr/LC_MESSAGES/sysprof.mo
+sysprof/usr/share/locale/fa/
+sysprof/usr/share/locale/fa/LC_MESSAGES/
+sysprof/usr/share/locale/fa/LC_MESSAGES/sysprof.mo
+sysprof/usr/share/locale/sk/
+sysprof/usr/share/locale/sk/LC_MESSAGES/
+sysprof/usr/share/locale/sk/LC_MESSAGES/sysprof.mo
+sysprof/usr/share/locale/hi/
+sysprof/usr/share/locale/hi/LC_MESSAGES/
+sysprof/usr/share/locale/hi/LC_MESSAGES/sysprof.mo
+sysprof/usr/share/locale/gl/
+sysprof/usr/share/locale/gl/LC_MESSAGES/
+sysprof/usr/share/locale/gl/LC_MESSAGES/sysprof.mo
+sysprof/usr/share/locale/pl/
+sysprof/usr/share/locale/pl/LC_MESSAGES/
+sysprof/usr/share/locale/pl/LC_MESSAGES/sysprof.mo
+sysprof/usr/share/locale/sl/
+sysprof/usr/share/locale/sl/LC_MESSAGES/
+sysprof/usr/share/locale/sl/LC_MESSAGES/sysprof.mo
+sysprof/usr/share/locale/fi/
+sysprof/usr/share/locale/fi/LC_MESSAGES/
+sysprof/usr/share/locale/fi/LC_MESSAGES/sysprof.mo
+sysprof/usr/share/locale/nl/
+sysprof/usr/share/locale/nl/LC_MESSAGES/
+sysprof/usr/share/locale/nl/LC_MESSAGES/sysprof.mo
+sysprof/usr/share/locale/oc/
+sysprof/usr/share/locale/oc/LC_MESSAGES/
+sysprof/usr/share/locale/oc/LC_MESSAGES/sysprof.mo
+sysprof/usr/share/locale/ka/
+sysprof/usr/share/locale/ka/LC_MESSAGES/
+sysprof/usr/share/locale/ka/LC_MESSAGES/sysprof.mo
+sysprof/usr/share/locale/fr/
+sysprof/usr/share/locale/fr/LC_MESSAGES/
+sysprof/usr/share/locale/fr/LC_MESSAGES/sysprof.mo
+sysprof/usr/share/locale/eo/
+sysprof/usr/share/locale/eo/LC_MESSAGES/
+sysprof/usr/share/locale/eo/LC_MESSAGES/sysprof.mo
+sysprof/usr/share/locale/ro/
+sysprof/usr/share/locale/ro/LC_MESSAGES/
+sysprof/usr/share/locale/ro/LC_MESSAGES/sysprof.mo
+sysprof/usr/share/locale/lt/
+sysprof/usr/share/locale/lt/LC_MESSAGES/
+sysprof/usr/share/locale/lt/LC_MESSAGES/sysprof.mo
+sysprof/usr/share/locale/cs/
+sysprof/usr/share/locale/cs/LC_MESSAGES/
+sysprof/usr/share/locale/cs/LC_MESSAGES/sysprof.mo
+sysprof/usr/share/locale/sv/
+sysprof/usr/share/locale/sv/LC_MESSAGES/
+sysprof/usr/share/locale/sv/LC_MESSAGES/sysprof.mo
+sysprof/usr/share/locale/el/
+sysprof/usr/share/locale/el/LC_MESSAGES/
+sysprof/usr/share/locale/el/LC_MESSAGES/sysprof.mo
+sysprof/usr/share/locale/id/
+sysprof/usr/share/locale/id/LC_MESSAGES/
+sysprof/usr/share/locale/id/LC_MESSAGES/sysprof.mo
+sysprof/usr/share/locale/hu/
+sysprof/usr/share/locale/hu/LC_MESSAGES/
+sysprof/usr/share/locale/hu/LC_MESSAGES/sysprof.mo
+sysprof/usr/share/locale/bg/
+sysprof/usr/share/locale/bg/LC_MESSAGES/
+sysprof/usr/share/locale/bg/LC_MESSAGES/sysprof.mo
+sysprof/usr/share/locale/ru/
+sysprof/usr/share/locale/ru/LC_MESSAGES/
+sysprof/usr/share/locale/ru/LC_MESSAGES/sysprof.mo
+sysprof/usr/share/polkit-1/
+sysprof/usr/share/polkit-1/actions/
+sysprof/usr/share/polkit-1/actions/org.gnome.sysprof3.policy
+sysprof/usr/share/applications/
+sysprof/usr/share/applications/org.gnome.Sysprof.desktop
+sysprof/usr/share/dbus-1/
+sysprof/usr/share/dbus-1/system.d/
+sysprof/usr/share/dbus-1/system.d/org.gnome.Sysprof3.conf
+sysprof/usr/share/dbus-1/interfaces/
+sysprof/usr/share/dbus-1/interfaces/org.gnome.Sysprof3.Service.xml
+sysprof/usr/share/dbus-1/interfaces/org.gnome.Sysprof3.Profiler.xml
+sysprof/usr/share/dbus-1/interfaces/org.gnome.Sysprof.Agent.xml
+sysprof/usr/share/dbus-1/system-services/
+sysprof/usr/share/dbus-1/system-services/org.gnome.Sysprof3.service
+sysprof/usr/share/mime/
+sysprof/usr/share/mime/packages/
+sysprof/usr/share/mime/packages/sysprof-mime.xml
+sysprof/usr/share/icons/
+sysprof/usr/share/icons/hicolor/
+sysprof/usr/share/icons/hicolor/symbolic/
+sysprof/usr/share/icons/hicolor/symbolic/apps/
+sysprof/usr/share/icons/hicolor/symbolic/apps/org.gnome.Sysprof-symbolic.svg
+sysprof/usr/share/icons/hicolor/scalable/
+sysprof/usr/share/icons/hicolor/scalable/apps/
+sysprof/usr/share/icons/hicolor/scalable/apps/org.gnome.Sysprof.svg
+sysprof/usr/share/icons/hicolor/scalable/actions/
+sysprof/usr/share/icons/hicolor/scalable/actions/sysprof-gtk.svg
+sysprof/usr/share/icons/hicolor/scalable/actions/sysprof-memory.svg
+sysprof/usr/share/icons/hicolor/scalable/actions/sysprof-cpu.svg
+sysprof/usr/share/icons/hicolor/scalable/actions/sysprof-disk.svg
+sysprof/usr/share/icons/hicolor/scalable/actions/sysprof-library.svg
+sysprof/usr/share/icons/hicolor/scalable/actions/sysprof-allocations.svg
+sysprof/usr/share/icons/hicolor/scalable/actions/sysprof-trace-app.svg
+sysprof/usr/share/icons/hicolor/scalable/actions/sysprof-cli.svg
+sysprof/usr/share/icons/hicolor/scalable/actions/sysprof-networking.svg
+sysprof/usr/share/icons/hicolor/scalable/actions/sysprof-rapl.svg
+sysprof/usr/share/icons/hicolor/scalable/actions/sysprof-battery.svg
+sysprof/usr/share/icons/hicolor/scalable/actions/sysprof-calgraph.svg
+sysprof/usr/share/help/
+sysprof/usr/share/help/ca/
+sysprof/usr/share/help/ca/sysprof/
+sysprof/usr/share/help/ca/sysprof/index.page
+sysprof/usr/share/help/ca/sysprof/introduction.page
+sysprof/usr/share/help/ca/sysprof/legal.xml
+sysprof/usr/share/help/ca/sysprof/figures/
+sysprof/usr/share/help/ca/sysprof/figures/Sysprof.svg
+sysprof/usr/share/help/ca/sysprof/faq.page
+sysprof/usr/share/help/ca/sysprof/profiling.page
+sysprof/usr/share/help/eu/
+sysprof/usr/share/help/eu/sysprof/
+sysprof/usr/share/help/eu/sysprof/index.page
+sysprof/usr/share/help/eu/sysprof/introduction.page
+sysprof/usr/share/help/eu/sysprof/legal.xml
+sysprof/usr/share/help/eu/sysprof/figures/
+sysprof/usr/share/help/eu/sysprof/figures/Sysprof.svg
+sysprof/usr/share/help/eu/sysprof/faq.page
+sysprof/usr/share/help/eu/sysprof/profiling.page
+sysprof/usr/share/help/uk/
+sysprof/usr/share/help/uk/sysprof/
+sysprof/usr/share/help/uk/sysprof/index.page
+sysprof/usr/share/help/uk/sysprof/introduction.page
+sysprof/usr/share/help/uk/sysprof/legal.xml
+sysprof/usr/share/help/uk/sysprof/figures/
+sysprof/usr/share/help/uk/sysprof/figures/Sysprof.svg
+sysprof/usr/share/help/uk/sysprof/faq.page
+sysprof/usr/share/help/uk/sysprof/profiling.page
+sysprof/usr/share/help/de/
+sysprof/usr/share/help/de/sysprof/
+sysprof/usr/share/help/de/sysprof/index.page
+sysprof/usr/share/help/de/sysprof/introduction.page
+sysprof/usr/share/help/de/sysprof/legal.xml
+sysprof/usr/share/help/de/sysprof/figures/
+sysprof/usr/share/help/de/sysprof/figures/Sysprof.svg
+sysprof/usr/share/help/de/sysprof/faq.page
+sysprof/usr/share/help/de/sysprof/profiling.page
+sysprof/usr/share/help/C/
+sysprof/usr/share/help/C/sysprof/
+sysprof/usr/share/help/C/sysprof/index.page
+sysprof/usr/share/help/C/sysprof/introduction.page
+sysprof/usr/share/help/C/sysprof/legal.xml
+sysprof/usr/share/help/C/sysprof/figures/
+sysprof/usr/share/help/C/sysprof/figures/Sysprof.svg
+sysprof/usr/share/help/C/sysprof/faq.page
+sysprof/usr/share/help/C/sysprof/profiling.page
+sysprof/usr/share/help/es/
+sysprof/usr/share/help/es/sysprof/
+sysprof/usr/share/help/es/sysprof/index.page
+sysprof/usr/share/help/es/sysprof/introduction.page
+sysprof/usr/share/help/es/sysprof/legal.xml
+sysprof/usr/share/help/es/sysprof/figures/
+sysprof/usr/share/help/es/sysprof/figures/Sysprof.svg
+sysprof/usr/share/help/es/sysprof/faq.page
+sysprof/usr/share/help/es/sysprof/profiling.page
+sysprof/usr/share/help/da/
+sysprof/usr/share/help/da/sysprof/
+sysprof/usr/share/help/da/sysprof/index.page
+sysprof/usr/share/help/da/sysprof/introduction.page
+sysprof/usr/share/help/da/sysprof/legal.xml
+sysprof/usr/share/help/da/sysprof/figures/
+sysprof/usr/share/help/da/sysprof/figures/Sysprof.svg
+sysprof/usr/share/help/da/sysprof/faq.page
+sysprof/usr/share/help/da/sysprof/profiling.page
+sysprof/usr/share/help/ko/
+sysprof/usr/share/help/ko/sysprof/
+sysprof/usr/share/help/ko/sysprof/index.page
+sysprof/usr/share/help/ko/sysprof/introduction.page
+sysprof/usr/share/help/ko/sysprof/legal.xml
+sysprof/usr/share/help/ko/sysprof/figures/
+sysprof/usr/share/help/ko/sysprof/figures/Sysprof.svg
+sysprof/usr/share/help/ko/sysprof/faq.page
+sysprof/usr/share/help/ko/sysprof/profiling.page
+sysprof/usr/share/help/pt_BR/
+sysprof/usr/share/help/pt_BR/sysprof/
+sysprof/usr/share/help/pt_BR/sysprof/index.page
+sysprof/usr/share/help/pt_BR/sysprof/introduction.page
+sysprof/usr/share/help/pt_BR/sysprof/legal.xml
+sysprof/usr/share/help/pt_BR/sysprof/figures/
+sysprof/usr/share/help/pt_BR/sysprof/figures/Sysprof.svg
+sysprof/usr/share/help/pt_BR/sysprof/faq.page
+sysprof/usr/share/help/pt_BR/sysprof/profiling.page
+sysprof/usr/share/help/pl/
+sysprof/usr/share/help/pl/sysprof/
+sysprof/usr/share/help/pl/sysprof/index.page
+sysprof/usr/share/help/pl/sysprof/introduction.page
+sysprof/usr/share/help/pl/sysprof/legal.xml
+sysprof/usr/share/help/pl/sysprof/figures/
+sysprof/usr/share/help/pl/sysprof/figures/Sysprof.svg
+sysprof/usr/share/help/pl/sysprof/faq.page
+sysprof/usr/share/help/pl/sysprof/profiling.page
+sysprof/usr/share/help/fr/
+sysprof/usr/share/help/fr/sysprof/
+sysprof/usr/share/help/fr/sysprof/index.page
+sysprof/usr/share/help/fr/sysprof/introduction.page
+sysprof/usr/share/help/fr/sysprof/legal.xml
+sysprof/usr/share/help/fr/sysprof/figures/
+sysprof/usr/share/help/fr/sysprof/figures/Sysprof.svg
+sysprof/usr/share/help/fr/sysprof/faq.page
+sysprof/usr/share/help/fr/sysprof/profiling.page
+sysprof/usr/share/help/cs/
+sysprof/usr/share/help/cs/sysprof/
+sysprof/usr/share/help/cs/sysprof/index.page
+sysprof/usr/share/help/cs/sysprof/introduction.page
+sysprof/usr/share/help/cs/sysprof/legal.xml
+sysprof/usr/share/help/cs/sysprof/figures/
+sysprof/usr/share/help/cs/sysprof/figures/Sysprof.svg
+sysprof/usr/share/help/cs/sysprof/faq.page
+sysprof/usr/share/help/cs/sysprof/profiling.page
+sysprof/usr/share/help/sv/
+sysprof/usr/share/help/sv/sysprof/
+sysprof/usr/share/help/sv/sysprof/index.page
+sysprof/usr/share/help/sv/sysprof/introduction.page
+sysprof/usr/share/help/sv/sysprof/legal.xml
+sysprof/usr/share/help/sv/sysprof/figures/
+sysprof/usr/share/help/sv/sysprof/figures/Sysprof.svg
+sysprof/usr/share/help/sv/sysprof/faq.page
+sysprof/usr/share/help/sv/sysprof/profiling.page
+sysprof/usr/share/help/el/
+sysprof/usr/share/help/el/sysprof/
+sysprof/usr/share/help/el/sysprof/index.page
+sysprof/usr/share/help/el/sysprof/introduction.page
+sysprof/usr/share/help/el/sysprof/legal.xml
+sysprof/usr/share/help/el/sysprof/figures/
+sysprof/usr/share/help/el/sysprof/figures/Sysprof.svg
+sysprof/usr/share/help/el/sysprof/faq.page
+sysprof/usr/share/help/el/sysprof/profiling.page
+sysprof/usr/share/help/id/
+sysprof/usr/share/help/id/sysprof/
+sysprof/usr/share/help/id/sysprof/index.page
+sysprof/usr/share/help/id/sysprof/introduction.page
+sysprof/usr/share/help/id/sysprof/legal.xml
+sysprof/usr/share/help/id/sysprof/figures/
+sysprof/usr/share/help/id/sysprof/figures/Sysprof.svg
+sysprof/usr/share/help/id/sysprof/faq.page
+sysprof/usr/share/help/id/sysprof/profiling.page
+sysprof/usr/share/help/hu/
+sysprof/usr/share/help/hu/sysprof/
+sysprof/usr/share/help/hu/sysprof/index.page
+sysprof/usr/share/help/hu/sysprof/introduction.page
+sysprof/usr/share/help/hu/sysprof/legal.xml
+sysprof/usr/share/help/hu/sysprof/figures/
+sysprof/usr/share/help/hu/sysprof/figures/Sysprof.svg
+sysprof/usr/share/help/hu/sysprof/faq.page
+sysprof/usr/share/help/hu/sysprof/profiling.page
+sysprof/usr/share/help/ru/
+sysprof/usr/share/help/ru/sysprof/
+sysprof/usr/share/help/ru/sysprof/index.page
+sysprof/usr/share/help/ru/sysprof/introduction.page
+sysprof/usr/share/help/ru/sysprof/legal.xml
+sysprof/usr/share/help/ru/sysprof/figures/
+sysprof/usr/share/help/ru/sysprof/figures/Sysprof.svg
+sysprof/usr/share/help/ru/sysprof/faq.page
+sysprof/usr/share/help/ru/sysprof/profiling.page
+sysprof/usr/lib/
+sysprof/usr/lib/libsysprof-6.so.6
+sysprof/usr/lib/libsysprof-speedtrack-6.so
+sysprof/usr/lib/libsysprof-memory-6.so
+sysprof/usr/lib/libsysprof-capture-4.a
+sysprof/usr/lib/systemd/
+sysprof/usr/lib/systemd/system/
+sysprof/usr/lib/systemd/system/sysprof3.service
+sysprof/usr/lib/pkgconfig/
+sysprof/usr/lib/pkgconfig/sysprof-capture-4.pc
+sysprof/usr/lib/pkgconfig/sysprof-6.pc
+sysprof/usr/lib/libsysprof-6.so.6.0.0
+sysprof/usr/lib/libsysprof-tracer-6.so
+sysprof/usr/lib/libsysprof-6.so
+sysprof/usr/include/
+sysprof/usr/include/sysprof-6/
+sysprof/usr/include/sysprof-6/sysprof-document-file-chunk.h
+sysprof/usr/include/sysprof-6/sysprof-mark-catalog.h
+sysprof/usr/include/sysprof-6/sysprof-collector.h
+sysprof/usr/include/sysprof-6/sysprof-document-loader.h
+sysprof/usr/include/sysprof-6/sysprof-tracer.h
+sysprof/usr/include/sysprof-6/sysprof-capture-writer.h
+sysprof/usr/include/sysprof-6/sysprof-subprocess-output.h
+sysprof/usr/include/sysprof-6/sysprof-capture-types.h
+sysprof/usr/include/sysprof-6/sysprof-document-file.h
+sysprof/usr/include/sysprof-6/sysprof-disk-usage.h
+sysprof/usr/include/sysprof-6/sysprof-document-overlay.h
+sysprof/usr/include/sysprof-6/sysprof-capture-cursor.h
+sysprof/usr/include/sysprof-6/sysprof-document-fork.h
+sysprof/usr/include/sysprof-6/sysprof-recording.h
+sysprof/usr/include/sysprof-6/sysprof-document-dbus-message.h
+sysprof/usr/include/sysprof-6/sysprof-version-macros.h
+sysprof/usr/include/sysprof-6/sysprof-capture-reader.h
+sysprof/usr/include/sysprof-6/sysprof-document-log.h
+sysprof/usr/include/sysprof-6/sysprof-power-profile.h
+sysprof/usr/include/sysprof-6/sysprof-capture-condition.h
+sysprof/usr/include/sysprof-6/sysprof-time-span.h
+sysprof/usr/include/sysprof-6/sysprof-document-mmap.h
+sysprof/usr/include/sysprof-6/sysprof-clock.h
+sysprof/usr/include/sysprof-6/sysprof-platform.h
+sysprof/usr/include/sysprof-6/sysprof-callgraph-symbol.h
+sysprof/usr/include/sysprof-6/sysprof-cpu-info.h
+sysprof/usr/include/sysprof-6/sysprof.h
+sysprof/usr/include/sysprof-6/sysprof-scheduler-details.h
+sysprof/usr/include/sysprof-6/sysprof-system-logs.h
+sysprof/usr/include/sysprof-6/sysprof-kallsyms-symbolizer.h
+sysprof/usr/include/sysprof-6/sysprof-document-jitmap.h
+sysprof/usr/include/sysprof-6/sysprof-document-counter.h
+sysprof/usr/include/sysprof-6/sysprof-jitmap-symbolizer.h
+sysprof/usr/include/sysprof-6/sysprof-battery-charge.h
+sysprof/usr/include/sysprof-6/sysprof-document-ctrset.h
+sysprof/usr/include/sysprof-6/sysprof-document-exit.h
+sysprof/usr/include/sysprof-6/sysprof-document.h
+sysprof/usr/include/sysprof-6/sysprof-callgraph-frame.h
+sysprof/usr/include/sysprof-6/sysprof-mount.h
+sysprof/usr/include/sysprof-6/sysprof-document-allocation.h
+sysprof/usr/include/sysprof-6/sysprof-document-process.h
+sysprof/usr/include/sysprof-6/sysprof-tracefd-consumer.h
+sysprof/usr/include/sysprof-6/sysprof-malloc-tracing.h
+sysprof/usr/include/sysprof-6/sysprof-no-symbolizer.h
+sysprof/usr/include/sysprof-6/sysprof-document-metadata.h
+sysprof/usr/include/sysprof-6/sysprof-cpu-usage.h
+sysprof/usr/include/sysprof-6/sysprof-memory-usage.h
+sysprof/usr/include/sysprof-6/sysprof-document-counter-value.h
+sysprof/usr/include/sysprof-6/sysprof-elf-symbolizer.h
+sysprof/usr/include/sysprof-6/sysprof-profiler.h
+sysprof/usr/include/sysprof-6/sysprof-symbolizer.h
+sysprof/usr/include/sysprof-6/sysprof-network-usage.h
+sysprof/usr/include/sysprof-6/sysprof-document-ctrdef.h
+sysprof/usr/include/sysprof-6/sysprof-category-summary.h
+sysprof/usr/include/sysprof-6/sysprof-multi-symbolizer.h
+sysprof/usr/include/sysprof-6/sysprof-sampler.h
+sysprof/usr/include/sysprof-6/sysprof-document-sample.h
+sysprof/usr/include/sysprof-6/sysprof-thread-info.h
+sysprof/usr/include/sysprof-6/sysprof-diagnostic.h
+sysprof/usr/include/sysprof-6/sysprof-symbols-bundle.h
+sysprof/usr/include/sysprof-6/sysprof-document-traceable.h
+sysprof/usr/include/sysprof-6/sysprof-energy-usage.h
+sysprof/usr/include/sysprof-6/sysprof-callgraph.h
+sysprof/usr/include/sysprof-6/sysprof-dbus-monitor.h
+sysprof/usr/include/sysprof-6/sysprof-capture.h
+sysprof/usr/include/sysprof-6/sysprof-symbol.h
+sysprof/usr/include/sysprof-6/sysprof-instrument.h
+sysprof/usr/include/sysprof-6/sysprof-document-frame.h
+sysprof/usr/include/sysprof-6/sysprof-document-mark.h
+sysprof/usr/include/sysprof-6/sysprof-spawnable.h
+sysprof/usr/include/sysprof-6/sysprof-enums.h
+sysprof/usr/include/sysprof-6/sysprof-version.h
+sysprof/usr/include/sysprof-6/sysprof-proxied-instrument.h
+sysprof/usr/include/sysprof-6/sysprof-bundled-symbolizer.h
+sysprof/usr/include/sysprof-6/sysprof-macros.h
+sysprof/usr/include/sysprof-6/sysprof-address.h
+sysprof/usr/bin/
+sysprof/usr/bin/sysprof-agent
+sysprof/usr/bin/sysprof
+sysprof/usr/bin/sysprof-cli
+sysprof/usr/libexec/
+sysprof/usr/libexec/sysprofd
+sysprof/version
+sysprof/depends
+sysprof/make-depends

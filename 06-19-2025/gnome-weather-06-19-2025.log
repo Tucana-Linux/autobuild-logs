@@ -1,0 +1,872 @@
+--2025-06-19 07:18:37--  https://download.gnome.org/sources/gnome-weather/47/gnome-weather-47.0.tar.xz
+Resolving download.gnome.org (download.gnome.org)... 2a02:6ea0:c400::54, 2a02:6ea0:c400::53, 79.127.206.234, ...
+Connecting to download.gnome.org (download.gnome.org)|2a02:6ea0:c400::54|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 252112 (246K) [application/octet-stream]
+Saving to: 'gnome-weather-47.0.tar.xz'
+
+     0K .......... .......... .......... .......... .......... 20% 4.72M 0s
+    50K .......... .......... .......... .......... .......... 40% 8.91M 0s
+   100K .......... .......... .......... .......... .......... 60% 17.8M 0s
+   150K .......... .......... .......... .......... .......... 81% 12.1M 0s
+   200K .......... .......... .......... .......... ......    100% 43.6M=0.02s
+
+2025-06-19 07:18:37 (10.2 MB/s) - 'gnome-weather-47.0.tar.xz' saved [252112/252112]
+
+gnome-weather-47.0/
+gnome-weather-47.0/.editorconfig
+gnome-weather-47.0/.gitignore
+gnome-weather-47.0/.gitlab-ci.yml
+gnome-weather-47.0/COPYING.md
+gnome-weather-47.0/NEWS
+gnome-weather-47.0/README.md
+gnome-weather-47.0/data/
+gnome-weather-47.0/data/CREDITS
+gnome-weather-47.0/data/ShellSearchProvider2.xml
+gnome-weather-47.0/data/ShellWeatherIntegration.xml
+gnome-weather-47.0/data/city.ui
+gnome-weather-47.0/data/day-entry.ui
+gnome-weather-47.0/data/hour-entry.ui
+gnome-weather-47.0/data/icons/
+gnome-weather-47.0/data/icons/hicolor/
+gnome-weather-47.0/data/icons/hicolor/scalable/
+gnome-weather-47.0/data/icons/hicolor/scalable/apps/
+gnome-weather-47.0/data/icons/hicolor/scalable/apps/org.gnome.Weather.svg
+gnome-weather-47.0/data/icons/hicolor/scalable/apps/org.gnome.WeatherDevel.svg
+gnome-weather-47.0/data/icons/hicolor/scalable/status/
+gnome-weather-47.0/data/icons/hicolor/scalable/status/temperature-symbolic.svg
+gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-clear-large.svg
+gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-clear-night-large.svg
+gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-clear-night-small.svg
+gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-clear-small.svg
+gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-few-clouds-large.svg
+gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-few-clouds-night-large.svg
+gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-few-clouds-night-small.svg
+gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-few-clouds-small.svg
+gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-fog-large.svg
+gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-fog-small.svg
+gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-hourly-symbolic.svg
+gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-overcast-large.svg
+gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-overcast-small.svg
+gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-severe-alert-large.svg
+gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-severe-alert-small.svg
+gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-showers-large.svg
+gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-showers-scattered-large.svg
+gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-showers-scattered-small.svg
+gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-showers-small.svg
+gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-snow-large.svg
+gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-snow-small.svg
+gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-storm-large.svg
+gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-storm-small.svg
+gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-tornado-large.svg
+gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-tornado-small.svg
+gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-windy-large.svg
+gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-windy-small.svg
+gnome-weather-47.0/data/icons/hicolor/symbolic/
+gnome-weather-47.0/data/icons/hicolor/symbolic/apps/
+gnome-weather-47.0/data/icons/hicolor/symbolic/apps/org.gnome.Weather-symbolic.svg
+gnome-weather-47.0/data/icons/meson.build
+gnome-weather-47.0/data/icons/org.gnome.Weather.svg
+gnome-weather-47.0/data/meson.build
+gnome-weather-47.0/data/org.gnome.Weather.BackgroundService.data.gresource.xml
+gnome-weather-47.0/data/org.gnome.Weather.BackgroundService.service.in
+gnome-weather-47.0/data/org.gnome.Weather.appdata.xml.in.in
+gnome-weather-47.0/data/org.gnome.Weather.data.gresource.xml
+gnome-weather-47.0/data/org.gnome.Weather.desktop.in.in
+gnome-weather-47.0/data/org.gnome.Weather.gschema.xml
+gnome-weather-47.0/data/org.gnome.Weather.search-provider.ini.in
+gnome-weather-47.0/data/org.gnome.Weather.service.in
+gnome-weather-47.0/data/places-popover.ui
+gnome-weather-47.0/data/style-dark.css
+gnome-weather-47.0/data/style-hc.css
+gnome-weather-47.0/data/style.css
+gnome-weather-47.0/data/weather-widget.ui
+gnome-weather-47.0/data/window.ui
+gnome-weather-47.0/gnome-weather.doap
+gnome-weather-47.0/meson.build
+gnome-weather-47.0/meson_options.txt
+gnome-weather-47.0/meson_post_install.py
+gnome-weather-47.0/misc/
+gnome-weather-47.0/misc/screenshots/
+gnome-weather-47.0/misc/screenshots/daily.png
+gnome-weather-47.0/misc/screenshots/hourly.png
+gnome-weather-47.0/org.gnome.Weather.json
+gnome-weather-47.0/po/
+gnome-weather-47.0/po/LINGUAS
+gnome-weather-47.0/po/POTFILES.in
+gnome-weather-47.0/po/POTFILES.skip
+gnome-weather-47.0/po/ab.po
+gnome-weather-47.0/po/af.po
+gnome-weather-47.0/po/an.po
+gnome-weather-47.0/po/ar.po
+gnome-weather-47.0/po/as.po
+gnome-weather-47.0/po/be.po
+gnome-weather-47.0/po/bg.po
+gnome-weather-47.0/po/bn.po
+gnome-weather-47.0/po/bn_IN.po
+gnome-weather-47.0/po/bs.po
+gnome-weather-47.0/po/ca.po
+gnome-weather-47.0/po/ca@valencia.po
+gnome-weather-47.0/po/ckb.po
+gnome-weather-47.0/po/cs.po
+gnome-weather-47.0/po/da.po
+gnome-weather-47.0/po/de.po
+gnome-weather-47.0/po/el.po
+gnome-weather-47.0/po/en_GB.po
+gnome-weather-47.0/po/eo.po
+gnome-weather-47.0/po/es.po
+gnome-weather-47.0/po/et.po
+gnome-weather-47.0/po/eu.po
+gnome-weather-47.0/po/fa.po
+gnome-weather-47.0/po/fi.po
+gnome-weather-47.0/po/fr.po
+gnome-weather-47.0/po/fur.po
+gnome-weather-47.0/po/fy.po
+gnome-weather-47.0/po/ga.po
+gnome-weather-47.0/po/gd.po
+gnome-weather-47.0/po/gl.po
+gnome-weather-47.0/po/he.po
+gnome-weather-47.0/po/hi.po
+gnome-weather-47.0/po/hr.po
+gnome-weather-47.0/po/hu.po
+gnome-weather-47.0/po/id.po
+gnome-weather-47.0/po/is.po
+gnome-weather-47.0/po/it.po
+gnome-weather-47.0/po/ja.po
+gnome-weather-47.0/po/ka.po
+gnome-weather-47.0/po/kab.po
+gnome-weather-47.0/po/kk.po
+gnome-weather-47.0/po/kn.po
+gnome-weather-47.0/po/ko.po
+gnome-weather-47.0/po/lt.po
+gnome-weather-47.0/po/lv.po
+gnome-weather-47.0/po/meson.build
+gnome-weather-47.0/po/mjw.po
+gnome-weather-47.0/po/ml.po
+gnome-weather-47.0/po/ms.po
+gnome-weather-47.0/po/nb.po
+gnome-weather-47.0/po/ne.po
+gnome-weather-47.0/po/nl.po
+gnome-weather-47.0/po/oc.po
+gnome-weather-47.0/po/pa.po
+gnome-weather-47.0/po/pl.po
+gnome-weather-47.0/po/pt.po
+gnome-weather-47.0/po/pt_BR.po
+gnome-weather-47.0/po/ro.po
+gnome-weather-47.0/po/ru.po
+gnome-weather-47.0/po/rw.po
+gnome-weather-47.0/po/sk.po
+gnome-weather-47.0/po/sl.po
+gnome-weather-47.0/po/sr.po
+gnome-weather-47.0/po/sr@latin.po
+gnome-weather-47.0/po/sv.po
+gnome-weather-47.0/po/ta.po
+gnome-weather-47.0/po/te.po
+gnome-weather-47.0/po/tg.po
+gnome-weather-47.0/po/th.po
+gnome-weather-47.0/po/tr.po
+gnome-weather-47.0/po/uk.po
+gnome-weather-47.0/po/vi.po
+gnome-weather-47.0/po/zh_CN.po
+gnome-weather-47.0/po/zh_HK.po
+gnome-weather-47.0/po/zh_TW.po
+gnome-weather-47.0/src/
+gnome-weather-47.0/src/app/
+gnome-weather-47.0/src/app/application.js
+gnome-weather-47.0/src/app/city.js
+gnome-weather-47.0/src/app/currentLocationController.js
+gnome-weather-47.0/src/app/dailyForecast.js
+gnome-weather-47.0/src/app/entry.js
+gnome-weather-47.0/src/app/hourlyForecast.js
+gnome-weather-47.0/src/app/locationRow.js
+gnome-weather-47.0/src/app/locationRow.ui
+gnome-weather-47.0/src/app/main.js
+gnome-weather-47.0/src/app/shell.js
+gnome-weather-47.0/src/app/thermometer.js
+gnome-weather-47.0/src/app/window.js
+gnome-weather-47.0/src/app/world.js
+gnome-weather-47.0/src/meson.build
+gnome-weather-47.0/src/misc/
+gnome-weather-47.0/src/misc/util.js
+gnome-weather-47.0/src/org.gnome.Weather.BackgroundService.in
+gnome-weather-47.0/src/org.gnome.Weather.BackgroundService.src.gresource.xml.in
+gnome-weather-47.0/src/org.gnome.Weather.in
+gnome-weather-47.0/src/org.gnome.Weather.src.gresource.xml.in
+gnome-weather-47.0/src/service/
+gnome-weather-47.0/src/service/main.js
+gnome-weather-47.0/src/service/searchProvider.js
+gnome-weather-47.0/src/shared/
+gnome-weather-47.0/src/shared/world.js
+gnome-weather-47.0/tests/
+gnome-weather-47.0/tests/meson.build
+gnome-weather-47.0/tests/testutil.py
+gnome-weather-47.0/tests/world_view.py
+The Meson build system
+Version: 1.7.0
+Source dir: /blfs/builds/gnome-weather-47.0
+Build dir: /blfs/builds/gnome-weather-47.0/build
+Build type: native build
+Project name: gnome-weather
+Project version: 47.0
+C compiler for the host machine: cc (gcc 14.2.0 "cc (GCC) 14.2.0")
+C linker for the host machine: cc ld.bfd 2.44
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.0
+Run-time dependency glib-2.0 found: YES 2.84.3
+Run-time dependency gobject-introspection-1.0 found: YES 1.84.0
+Run-time dependency gtk4 found: YES 4.18.6
+Run-time dependency gjs-1.0 found: YES 1.84.2
+Run-time dependency libgeoclue-2.0 found: YES 2.7.2
+Run-time dependency libadwaita-1 found: YES 1.7.4
+Run-time dependency gweather4 found: YES 4.4.4
+Build-time dependency gio-2.0 found: YES 2.84.3
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Dependency gio-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Configuring org.gnome.Weather.desktop.in using configuration
+Program desktop-file-validate found: YES (/usr/bin/desktop-file-validate)
+Configuring org.gnome.Weather.appdata.xml.in using configuration
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Program appstreamcli found: YES (/usr/bin/appstreamcli)
+Configuring org.gnome.Weather.service using configuration
+Configuring org.gnome.Weather.BackgroundService.service using configuration
+Configuring org.gnome.Weather.search-provider.ini using configuration
+Message: Update translations
+Program msginit found: YES (/usr/bin/msginit)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program xgettext found: YES (/usr/bin/xgettext)
+Configuring org.gnome.Weather using configuration
+Configuring org.gnome.Weather.BackgroundService using configuration
+Configuring org.gnome.Weather.src.gresource.xml using configuration
+Dependency gio-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Configuring org.gnome.Weather.BackgroundService.src.gresource.xml using configuration
+Dependency gio-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Dependency gio-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/glib-compile-schemas found: YES (/usr/bin/glib-compile-schemas)
+Program gtk4-update-icon-cache found: YES (/usr/bin/gtk4-update-icon-cache)
+Program update-desktop-database found: YES (/usr/bin/update-desktop-database)
+Build targets in project: 84
+
+gnome-weather 47.0
+
+  User defined options
+    buildtype: release
+    prefix   : /usr
+
+Found ninja-1.13.0 at /usr/bin/ninja
+[1/80] Generating data/org.gnome.Weather.BackgroundService.data_gresource with a custom command
+[2/80] Building translation po/an/LC_MESSAGES/org.gnome.Weather-an.mo
+[3/80] Building translation po/as/LC_MESSAGES/org.gnome.Weather-as.mo
+[4/80] Building translation po/af/LC_MESSAGES/org.gnome.Weather-af.mo
+[5/80] Building translation po/ab/LC_MESSAGES/org.gnome.Weather-ab.mo
+[6/80] Building translation po/ar/LC_MESSAGES/org.gnome.Weather-ar.mo
+[7/80] Building translation po/be/LC_MESSAGES/org.gnome.Weather-be.mo
+[8/80] Building translation po/bg/LC_MESSAGES/org.gnome.Weather-bg.mo
+[9/80] Building translation po/bn/LC_MESSAGES/org.gnome.Weather-bn.mo
+[10/80] Building translation po/bn_IN/LC_MESSAGES/org.gnome.Weather-bn_IN.mo
+[11/80] Building translation po/bs/LC_MESSAGES/org.gnome.Weather-bs.mo
+[12/80] Building translation po/ca@valencia/LC_MESSAGES/org.gnome.Weather-ca@valencia.mo
+[13/80] Building translation po/ckb/LC_MESSAGES/org.gnome.Weather-ckb.mo
+[14/80] Building translation po/ca/LC_MESSAGES/org.gnome.Weather-ca.mo
+[15/80] Building translation po/da/LC_MESSAGES/org.gnome.Weather-da.mo
+[16/80] Building translation po/cs/LC_MESSAGES/org.gnome.Weather-cs.mo
+[17/80] Building translation po/el/LC_MESSAGES/org.gnome.Weather-el.mo
+[18/80] Building translation po/de/LC_MESSAGES/org.gnome.Weather-de.mo
+[19/80] Building translation po/en_GB/LC_MESSAGES/org.gnome.Weather-en_GB.mo
+[20/80] Building translation po/et/LC_MESSAGES/org.gnome.Weather-et.mo
+[21/80] Building translation po/eo/LC_MESSAGES/org.gnome.Weather-eo.mo
+[22/80] Building translation po/fa/LC_MESSAGES/org.gnome.Weather-fa.mo
+[23/80] Building translation po/es/LC_MESSAGES/org.gnome.Weather-es.mo
+[24/80] Building translation po/eu/LC_MESSAGES/org.gnome.Weather-eu.mo
+[25/80] Building translation po/fi/LC_MESSAGES/org.gnome.Weather-fi.mo
+[26/80] Building translation po/fr/LC_MESSAGES/org.gnome.Weather-fr.mo
+[27/80] Building translation po/fy/LC_MESSAGES/org.gnome.Weather-fy.mo
+[28/80] Building translation po/fur/LC_MESSAGES/org.gnome.Weather-fur.mo
+[29/80] Building translation po/ga/LC_MESSAGES/org.gnome.Weather-ga.mo
+[30/80] Building translation po/hr/LC_MESSAGES/org.gnome.Weather-hr.mo
+[31/80] Generating data/org.gnome.Weather.data_gresource with a custom command
+[32/80] Building translation po/gl/LC_MESSAGES/org.gnome.Weather-gl.mo
+[33/80] Building translation po/gd/LC_MESSAGES/org.gnome.Weather-gd.mo
+[34/80] Building translation po/hi/LC_MESSAGES/org.gnome.Weather-hi.mo
+[35/80] Building translation po/id/LC_MESSAGES/org.gnome.Weather-id.mo
+[36/80] Building translation po/he/LC_MESSAGES/org.gnome.Weather-he.mo
+[37/80] Building translation po/hu/LC_MESSAGES/org.gnome.Weather-hu.mo
+[38/80] Building translation po/is/LC_MESSAGES/org.gnome.Weather-is.mo
+[39/80] Building translation po/it/LC_MESSAGES/org.gnome.Weather-it.mo
+[40/80] Building translation po/ka/LC_MESSAGES/org.gnome.Weather-ka.mo
+[41/80] Building translation po/ja/LC_MESSAGES/org.gnome.Weather-ja.mo
+[42/80] Building translation po/kab/LC_MESSAGES/org.gnome.Weather-kab.mo
+[43/80] Building translation po/kn/LC_MESSAGES/org.gnome.Weather-kn.mo
+[44/80] Building translation po/ko/LC_MESSAGES/org.gnome.Weather-ko.mo
+[45/80] Building translation po/lt/LC_MESSAGES/org.gnome.Weather-lt.mo
+[46/80] Building translation po/kk/LC_MESSAGES/org.gnome.Weather-kk.mo
+[47/80] Building translation po/mjw/LC_MESSAGES/org.gnome.Weather-mjw.mo
+[48/80] Building translation po/ms/LC_MESSAGES/org.gnome.Weather-ms.mo
+[49/80] Building translation po/nb/LC_MESSAGES/org.gnome.Weather-nb.mo
+[50/80] Building translation po/ml/LC_MESSAGES/org.gnome.Weather-ml.mo
+[51/80] Building translation po/ne/LC_MESSAGES/org.gnome.Weather-ne.mo
+[52/80] Building translation po/nl/LC_MESSAGES/org.gnome.Weather-nl.mo
+[53/80] Building translation po/oc/LC_MESSAGES/org.gnome.Weather-oc.mo
+[54/80] Building translation po/lv/LC_MESSAGES/org.gnome.Weather-lv.mo
+[55/80] Building translation po/pa/LC_MESSAGES/org.gnome.Weather-pa.mo
+[56/80] Building translation po/pl/LC_MESSAGES/org.gnome.Weather-pl.mo
+[57/80] Building translation po/pt/LC_MESSAGES/org.gnome.Weather-pt.mo
+[58/80] Building translation po/pt_BR/LC_MESSAGES/org.gnome.Weather-pt_BR.mo
+[59/80] Building translation po/rw/LC_MESSAGES/org.gnome.Weather-rw.mo
+[60/80] Building translation po/ro/LC_MESSAGES/org.gnome.Weather-ro.mo
+[61/80] Building translation po/ru/LC_MESSAGES/org.gnome.Weather-ru.mo
+[62/80] Building translation po/sk/LC_MESSAGES/org.gnome.Weather-sk.mo
+[63/80] Building translation po/sl/LC_MESSAGES/org.gnome.Weather-sl.mo
+[64/80] Building translation po/sv/LC_MESSAGES/org.gnome.Weather-sv.mo
+[65/80] Building translation po/th/LC_MESSAGES/org.gnome.Weather-th.mo
+[66/80] Building translation po/tg/LC_MESSAGES/org.gnome.Weather-tg.mo
+[67/80] Building translation po/sr@latin/LC_MESSAGES/org.gnome.Weather-sr@latin.mo
+[68/80] Building translation po/sr/LC_MESSAGES/org.gnome.Weather-sr.mo
+[69/80] Building translation po/te/LC_MESSAGES/org.gnome.Weather-te.mo
+[70/80] Building translation po/ta/LC_MESSAGES/org.gnome.Weather-ta.mo
+[71/80] Building translation po/tr/LC_MESSAGES/org.gnome.Weather-tr.mo
+[72/80] Generating src/org.gnome.Weather.BackgroundService.src_gresource with a custom command
+[73/80] Building translation po/vi/LC_MESSAGES/org.gnome.Weather-vi.mo
+[74/80] Generating src/org.gnome.Weather.src_gresource with a custom command
+[75/80] Building translation po/zh_TW/LC_MESSAGES/org.gnome.Weather-zh_TW.mo
+[76/80] Building translation po/uk/LC_MESSAGES/org.gnome.Weather-uk.mo
+[77/80] Building translation po/zh_CN/LC_MESSAGES/org.gnome.Weather-zh_CN.mo
+[78/80] Building translation po/zh_HK/LC_MESSAGES/org.gnome.Weather-zh_HK.mo
+[79/80] Generating data/desktop-file with a custom command
+[80/80] Merging translations for data/org.gnome.Weather.appdata.xml
+[0/1] Installing files
+Installing subdir /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-tornado-small.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-few-clouds-small.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-windy-small.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-clear-small.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-showers-scattered-large.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-overcast-large.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-tornado-large.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-snow-small.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-fog-small.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-clear-large.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-storm-large.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-few-clouds-large.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-fog-large.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-severe-alert-small.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-clear-night-large.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-severe-alert-large.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-windy-large.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-hourly-symbolic.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-showers-scattered-small.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/temperature-symbolic.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-snow-large.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-few-clouds-night-small.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-overcast-small.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-storm-small.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-few-clouds-night-large.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-showers-small.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-clear-night-small.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-showers-large.svg to /usr/share/icons/hicolor/scalable/status
+Installing data/org.gnome.Weather.data.gresource to /usr/share/org.gnome.Weather
+Installing data/org.gnome.Weather.BackgroundService.data.gresource to /usr/share/org.gnome.Weather
+Installing data/org.gnome.Weather.desktop to /usr/share/applications
+Installing data/org.gnome.Weather.appdata.xml to /usr/share/metainfo
+Installing po/ab/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/ab/LC_MESSAGES
+Installing po/af/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/af/LC_MESSAGES
+Installing po/an/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/an/LC_MESSAGES
+Installing po/ar/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/ar/LC_MESSAGES
+Installing po/as/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/as/LC_MESSAGES
+Installing po/be/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/be/LC_MESSAGES
+Installing po/bg/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/bg/LC_MESSAGES
+Installing po/bn/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/bn/LC_MESSAGES
+Installing po/bn_IN/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/bn_IN/LC_MESSAGES
+Installing po/bs/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/bs/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/ca/LC_MESSAGES
+Installing po/ca@valencia/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/ca@valencia/LC_MESSAGES
+Installing po/ckb/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/ckb/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/cs/LC_MESSAGES
+Installing po/da/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/de/LC_MESSAGES
+Installing po/el/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/el/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/en_GB/LC_MESSAGES
+Installing po/eo/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/eo/LC_MESSAGES
+Installing po/es/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/es/LC_MESSAGES
+Installing po/et/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/et/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/eu/LC_MESSAGES
+Installing po/fa/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/fa/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/fr/LC_MESSAGES
+Installing po/fur/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/fur/LC_MESSAGES
+Installing po/fy/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/fy/LC_MESSAGES
+Installing po/ga/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/ga/LC_MESSAGES
+Installing po/gd/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/gd/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/gl/LC_MESSAGES
+Installing po/he/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/he/LC_MESSAGES
+Installing po/hi/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/hi/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/hu/LC_MESSAGES
+Installing po/id/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/id/LC_MESSAGES
+Installing po/is/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/is/LC_MESSAGES
+Installing po/it/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/it/LC_MESSAGES
+Installing po/ja/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/ja/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/ka/LC_MESSAGES
+Installing po/kab/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/kab/LC_MESSAGES
+Installing po/kk/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/kk/LC_MESSAGES
+Installing po/kn/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/kn/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/ko/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/lt/LC_MESSAGES
+Installing po/lv/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/lv/LC_MESSAGES
+Installing po/mjw/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/mjw/LC_MESSAGES
+Installing po/ml/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/ml/LC_MESSAGES
+Installing po/ms/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/ms/LC_MESSAGES
+Installing po/nb/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/nb/LC_MESSAGES
+Installing po/ne/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/ne/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/nl/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/oc/LC_MESSAGES
+Installing po/pa/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/pa/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/pl/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/pt/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/ru/LC_MESSAGES
+Installing po/rw/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/rw/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/sl/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/sr/LC_MESSAGES
+Installing po/sr@latin/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/sr@latin/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/sv/LC_MESSAGES
+Installing po/ta/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/ta/LC_MESSAGES
+Installing po/te/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/te/LC_MESSAGES
+Installing po/tg/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/tg/LC_MESSAGES
+Installing po/th/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/th/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/tr/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/uk/LC_MESSAGES
+Installing po/vi/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/vi/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_HK/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/zh_HK/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/org.gnome.Weather.mo to /usr/share/locale/zh_TW/LC_MESSAGES
+Installing src/org.gnome.Weather.src.gresource to /usr/share/org.gnome.Weather
+Installing src/org.gnome.Weather.BackgroundService.src.gresource to /usr/share/org.gnome.Weather
+Installing /blfs/builds/gnome-weather-47.0/data/org.gnome.Weather.gschema.xml to /usr/share/glib-2.0/schemas
+Installing /blfs/builds/gnome-weather-47.0/build/data/org.gnome.Weather.service to /usr/share/dbus-1/services
+Installing /blfs/builds/gnome-weather-47.0/build/data/org.gnome.Weather.BackgroundService.service to /usr/share/dbus-1/services
+Installing /blfs/builds/gnome-weather-47.0/build/data/org.gnome.Weather.search-provider.ini to /usr/share/gnome-shell/search-providers
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/apps/org.gnome.Weather.svg to /usr/share/icons/hicolor/scalable/apps
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/symbolic/apps/org.gnome.Weather-symbolic.svg to /usr/share/icons/hicolor/symbolic/apps
+Installing /blfs/builds/gnome-weather-47.0/build/src/org.gnome.Weather to /usr/share/org.gnome.Weather
+Installing /blfs/builds/gnome-weather-47.0/build/src/org.gnome.Weather.BackgroundService to /usr/share/org.gnome.Weather
+Running custom install script '/usr/bin/python3 /blfs/builds/gnome-weather-47.0/meson_post_install.py /usr/share/org.gnome.Weather /usr/bin org.gnome.Weather'
+Running custom install script '/usr/bin/glib-compile-schemas /usr/share/glib-2.0/schemas'
+Running custom install script '/usr/bin/gtk4-update-icon-cache -q -t -f /usr/share/icons/hicolor'
+Running custom install script '/usr/bin/update-desktop-database -q /usr/share/applications'
+[0/1] Installing files
+Installing subdir /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status to /pkgs/gnome-weather/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-tornado-small.svg to /pkgs/gnome-weather/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-few-clouds-small.svg to /pkgs/gnome-weather/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-windy-small.svg to /pkgs/gnome-weather/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-clear-small.svg to /pkgs/gnome-weather/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-showers-scattered-large.svg to /pkgs/gnome-weather/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-overcast-large.svg to /pkgs/gnome-weather/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-tornado-large.svg to /pkgs/gnome-weather/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-snow-small.svg to /pkgs/gnome-weather/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-fog-small.svg to /pkgs/gnome-weather/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-clear-large.svg to /pkgs/gnome-weather/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-storm-large.svg to /pkgs/gnome-weather/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-few-clouds-large.svg to /pkgs/gnome-weather/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-fog-large.svg to /pkgs/gnome-weather/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-severe-alert-small.svg to /pkgs/gnome-weather/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-clear-night-large.svg to /pkgs/gnome-weather/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-severe-alert-large.svg to /pkgs/gnome-weather/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-windy-large.svg to /pkgs/gnome-weather/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-hourly-symbolic.svg to /pkgs/gnome-weather/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-showers-scattered-small.svg to /pkgs/gnome-weather/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/temperature-symbolic.svg to /pkgs/gnome-weather/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-snow-large.svg to /pkgs/gnome-weather/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-few-clouds-night-small.svg to /pkgs/gnome-weather/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-overcast-small.svg to /pkgs/gnome-weather/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-storm-small.svg to /pkgs/gnome-weather/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-few-clouds-night-large.svg to /pkgs/gnome-weather/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-showers-small.svg to /pkgs/gnome-weather/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-clear-night-small.svg to /pkgs/gnome-weather/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/status/weather-showers-large.svg to /pkgs/gnome-weather/usr/share/icons/hicolor/scalable/status
+Installing data/org.gnome.Weather.data.gresource to /pkgs/gnome-weather/usr/share/org.gnome.Weather
+Installing data/org.gnome.Weather.BackgroundService.data.gresource to /pkgs/gnome-weather/usr/share/org.gnome.Weather
+Installing data/org.gnome.Weather.desktop to /pkgs/gnome-weather/usr/share/applications
+Installing data/org.gnome.Weather.appdata.xml to /pkgs/gnome-weather/usr/share/metainfo
+Installing po/ab/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/ab/LC_MESSAGES
+Installing po/af/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/af/LC_MESSAGES
+Installing po/an/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/an/LC_MESSAGES
+Installing po/ar/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/ar/LC_MESSAGES
+Installing po/as/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/as/LC_MESSAGES
+Installing po/be/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/be/LC_MESSAGES
+Installing po/bg/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/bg/LC_MESSAGES
+Installing po/bn/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/bn/LC_MESSAGES
+Installing po/bn_IN/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/bn_IN/LC_MESSAGES
+Installing po/bs/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/bs/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/ca/LC_MESSAGES
+Installing po/ca@valencia/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/ca@valencia/LC_MESSAGES
+Installing po/ckb/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/ckb/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/cs/LC_MESSAGES
+Installing po/da/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/de/LC_MESSAGES
+Installing po/el/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/el/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/en_GB/LC_MESSAGES
+Installing po/eo/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/eo/LC_MESSAGES
+Installing po/es/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/es/LC_MESSAGES
+Installing po/et/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/et/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/eu/LC_MESSAGES
+Installing po/fa/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/fa/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/fr/LC_MESSAGES
+Installing po/fur/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/fur/LC_MESSAGES
+Installing po/fy/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/fy/LC_MESSAGES
+Installing po/ga/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/ga/LC_MESSAGES
+Installing po/gd/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/gd/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/gl/LC_MESSAGES
+Installing po/he/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/he/LC_MESSAGES
+Installing po/hi/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/hi/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/hu/LC_MESSAGES
+Installing po/id/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/id/LC_MESSAGES
+Installing po/is/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/is/LC_MESSAGES
+Installing po/it/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/it/LC_MESSAGES
+Installing po/ja/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/ja/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/ka/LC_MESSAGES
+Installing po/kab/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/kab/LC_MESSAGES
+Installing po/kk/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/kk/LC_MESSAGES
+Installing po/kn/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/kn/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/ko/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/lt/LC_MESSAGES
+Installing po/lv/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/lv/LC_MESSAGES
+Installing po/mjw/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/mjw/LC_MESSAGES
+Installing po/ml/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/ml/LC_MESSAGES
+Installing po/ms/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/ms/LC_MESSAGES
+Installing po/nb/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/nb/LC_MESSAGES
+Installing po/ne/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/ne/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/nl/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/oc/LC_MESSAGES
+Installing po/pa/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/pa/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/pl/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/pt/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/ru/LC_MESSAGES
+Installing po/rw/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/rw/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/sl/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/sr/LC_MESSAGES
+Installing po/sr@latin/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/sr@latin/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/sv/LC_MESSAGES
+Installing po/ta/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/ta/LC_MESSAGES
+Installing po/te/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/te/LC_MESSAGES
+Installing po/tg/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/tg/LC_MESSAGES
+Installing po/th/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/th/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/tr/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/uk/LC_MESSAGES
+Installing po/vi/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/vi/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_HK/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/zh_HK/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/org.gnome.Weather.mo to /pkgs/gnome-weather/usr/share/locale/zh_TW/LC_MESSAGES
+Installing src/org.gnome.Weather.src.gresource to /pkgs/gnome-weather/usr/share/org.gnome.Weather
+Installing src/org.gnome.Weather.BackgroundService.src.gresource to /pkgs/gnome-weather/usr/share/org.gnome.Weather
+Installing /blfs/builds/gnome-weather-47.0/data/org.gnome.Weather.gschema.xml to /pkgs/gnome-weather/usr/share/glib-2.0/schemas
+Installing /blfs/builds/gnome-weather-47.0/build/data/org.gnome.Weather.service to /pkgs/gnome-weather/usr/share/dbus-1/services
+Installing /blfs/builds/gnome-weather-47.0/build/data/org.gnome.Weather.BackgroundService.service to /pkgs/gnome-weather/usr/share/dbus-1/services
+Installing /blfs/builds/gnome-weather-47.0/build/data/org.gnome.Weather.search-provider.ini to /pkgs/gnome-weather/usr/share/gnome-shell/search-providers
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/scalable/apps/org.gnome.Weather.svg to /pkgs/gnome-weather/usr/share/icons/hicolor/scalable/apps
+Installing /blfs/builds/gnome-weather-47.0/data/icons/hicolor/symbolic/apps/org.gnome.Weather-symbolic.svg to /pkgs/gnome-weather/usr/share/icons/hicolor/symbolic/apps
+Installing /blfs/builds/gnome-weather-47.0/build/src/org.gnome.Weather to /pkgs/gnome-weather/usr/share/org.gnome.Weather
+Installing /blfs/builds/gnome-weather-47.0/build/src/org.gnome.Weather.BackgroundService to /pkgs/gnome-weather/usr/share/org.gnome.Weather
+Running custom install script '/usr/bin/python3 /blfs/builds/gnome-weather-47.0/meson_post_install.py /usr/share/org.gnome.Weather /usr/bin org.gnome.Weather'
+Skipping custom install script because DESTDIR is set '/usr/bin/glib-compile-schemas /usr/share/glib-2.0/schemas'
+Skipping custom install script because DESTDIR is set '/usr/bin/gtk4-update-icon-cache -q -t -f /usr/share/icons/hicolor'
+Skipping custom install script because DESTDIR is set '/usr/bin/update-desktop-database -q /usr/share/applications'
+gnome-weather/
+gnome-weather/usr/
+gnome-weather/usr/share/
+gnome-weather/usr/share/metainfo/
+gnome-weather/usr/share/metainfo/org.gnome.Weather.appdata.xml
+gnome-weather/usr/share/glib-2.0/
+gnome-weather/usr/share/glib-2.0/schemas/
+gnome-weather/usr/share/glib-2.0/schemas/org.gnome.Weather.gschema.xml
+gnome-weather/usr/share/gnome-shell/
+gnome-weather/usr/share/gnome-shell/search-providers/
+gnome-weather/usr/share/gnome-shell/search-providers/org.gnome.Weather.search-provider.ini
+gnome-weather/usr/share/locale/
+gnome-weather/usr/share/locale/zh_HK/
+gnome-weather/usr/share/locale/zh_HK/LC_MESSAGES/
+gnome-weather/usr/share/locale/zh_HK/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/be/
+gnome-weather/usr/share/locale/be/LC_MESSAGES/
+gnome-weather/usr/share/locale/be/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/ckb/
+gnome-weather/usr/share/locale/ckb/LC_MESSAGES/
+gnome-weather/usr/share/locale/ckb/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/af/
+gnome-weather/usr/share/locale/af/LC_MESSAGES/
+gnome-weather/usr/share/locale/af/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/ca/
+gnome-weather/usr/share/locale/ca/LC_MESSAGES/
+gnome-weather/usr/share/locale/ca/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/eu/
+gnome-weather/usr/share/locale/eu/LC_MESSAGES/
+gnome-weather/usr/share/locale/eu/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/en_GB/
+gnome-weather/usr/share/locale/en_GB/LC_MESSAGES/
+gnome-weather/usr/share/locale/en_GB/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/uk/
+gnome-weather/usr/share/locale/uk/LC_MESSAGES/
+gnome-weather/usr/share/locale/uk/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/it/
+gnome-weather/usr/share/locale/it/LC_MESSAGES/
+gnome-weather/usr/share/locale/it/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/he/
+gnome-weather/usr/share/locale/he/LC_MESSAGES/
+gnome-weather/usr/share/locale/he/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/de/
+gnome-weather/usr/share/locale/de/LC_MESSAGES/
+gnome-weather/usr/share/locale/de/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/pt/
+gnome-weather/usr/share/locale/pt/LC_MESSAGES/
+gnome-weather/usr/share/locale/pt/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/kk/
+gnome-weather/usr/share/locale/kk/LC_MESSAGES/
+gnome-weather/usr/share/locale/kk/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/es/
+gnome-weather/usr/share/locale/es/LC_MESSAGES/
+gnome-weather/usr/share/locale/es/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/vi/
+gnome-weather/usr/share/locale/vi/LC_MESSAGES/
+gnome-weather/usr/share/locale/vi/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/fur/
+gnome-weather/usr/share/locale/fur/LC_MESSAGES/
+gnome-weather/usr/share/locale/fur/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/ne/
+gnome-weather/usr/share/locale/ne/LC_MESSAGES/
+gnome-weather/usr/share/locale/ne/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/bs/
+gnome-weather/usr/share/locale/bs/LC_MESSAGES/
+gnome-weather/usr/share/locale/bs/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/da/
+gnome-weather/usr/share/locale/da/LC_MESSAGES/
+gnome-weather/usr/share/locale/da/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/zh_CN/
+gnome-weather/usr/share/locale/zh_CN/LC_MESSAGES/
+gnome-weather/usr/share/locale/zh_CN/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/ml/
+gnome-weather/usr/share/locale/ml/LC_MESSAGES/
+gnome-weather/usr/share/locale/ml/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/ko/
+gnome-weather/usr/share/locale/ko/LC_MESSAGES/
+gnome-weather/usr/share/locale/ko/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/pa/
+gnome-weather/usr/share/locale/pa/LC_MESSAGES/
+gnome-weather/usr/share/locale/pa/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/ta/
+gnome-weather/usr/share/locale/ta/LC_MESSAGES/
+gnome-weather/usr/share/locale/ta/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/kab/
+gnome-weather/usr/share/locale/kab/LC_MESSAGES/
+gnome-weather/usr/share/locale/kab/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/nb/
+gnome-weather/usr/share/locale/nb/LC_MESSAGES/
+gnome-weather/usr/share/locale/nb/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/hr/
+gnome-weather/usr/share/locale/hr/LC_MESSAGES/
+gnome-weather/usr/share/locale/hr/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/sr/
+gnome-weather/usr/share/locale/sr/LC_MESSAGES/
+gnome-weather/usr/share/locale/sr/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/pt_BR/
+gnome-weather/usr/share/locale/pt_BR/LC_MESSAGES/
+gnome-weather/usr/share/locale/pt_BR/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/gd/
+gnome-weather/usr/share/locale/gd/LC_MESSAGES/
+gnome-weather/usr/share/locale/gd/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/tr/
+gnome-weather/usr/share/locale/tr/LC_MESSAGES/
+gnome-weather/usr/share/locale/tr/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/ca@valencia/
+gnome-weather/usr/share/locale/ca@valencia/LC_MESSAGES/
+gnome-weather/usr/share/locale/ca@valencia/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/fa/
+gnome-weather/usr/share/locale/fa/LC_MESSAGES/
+gnome-weather/usr/share/locale/fa/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/bn_IN/
+gnome-weather/usr/share/locale/bn_IN/LC_MESSAGES/
+gnome-weather/usr/share/locale/bn_IN/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/sk/
+gnome-weather/usr/share/locale/sk/LC_MESSAGES/
+gnome-weather/usr/share/locale/sk/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/hi/
+gnome-weather/usr/share/locale/hi/LC_MESSAGES/
+gnome-weather/usr/share/locale/hi/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/et/
+gnome-weather/usr/share/locale/et/LC_MESSAGES/
+gnome-weather/usr/share/locale/et/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/ms/
+gnome-weather/usr/share/locale/ms/LC_MESSAGES/
+gnome-weather/usr/share/locale/ms/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/te/
+gnome-weather/usr/share/locale/te/LC_MESSAGES/
+gnome-weather/usr/share/locale/te/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/ga/
+gnome-weather/usr/share/locale/ga/LC_MESSAGES/
+gnome-weather/usr/share/locale/ga/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/gl/
+gnome-weather/usr/share/locale/gl/LC_MESSAGES/
+gnome-weather/usr/share/locale/gl/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/pl/
+gnome-weather/usr/share/locale/pl/LC_MESSAGES/
+gnome-weather/usr/share/locale/pl/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/sl/
+gnome-weather/usr/share/locale/sl/LC_MESSAGES/
+gnome-weather/usr/share/locale/sl/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/fi/
+gnome-weather/usr/share/locale/fi/LC_MESSAGES/
+gnome-weather/usr/share/locale/fi/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/is/
+gnome-weather/usr/share/locale/is/LC_MESSAGES/
+gnome-weather/usr/share/locale/is/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/ar/
+gnome-weather/usr/share/locale/ar/LC_MESSAGES/
+gnome-weather/usr/share/locale/ar/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/zh_TW/
+gnome-weather/usr/share/locale/zh_TW/LC_MESSAGES/
+gnome-weather/usr/share/locale/zh_TW/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/nl/
+gnome-weather/usr/share/locale/nl/LC_MESSAGES/
+gnome-weather/usr/share/locale/nl/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/oc/
+gnome-weather/usr/share/locale/oc/LC_MESSAGES/
+gnome-weather/usr/share/locale/oc/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/ka/
+gnome-weather/usr/share/locale/ka/LC_MESSAGES/
+gnome-weather/usr/share/locale/ka/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/tg/
+gnome-weather/usr/share/locale/tg/LC_MESSAGES/
+gnome-weather/usr/share/locale/tg/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/as/
+gnome-weather/usr/share/locale/as/LC_MESSAGES/
+gnome-weather/usr/share/locale/as/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/fr/
+gnome-weather/usr/share/locale/fr/LC_MESSAGES/
+gnome-weather/usr/share/locale/fr/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/rw/
+gnome-weather/usr/share/locale/rw/LC_MESSAGES/
+gnome-weather/usr/share/locale/rw/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/sr@latin/
+gnome-weather/usr/share/locale/sr@latin/LC_MESSAGES/
+gnome-weather/usr/share/locale/sr@latin/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/eo/
+gnome-weather/usr/share/locale/eo/LC_MESSAGES/
+gnome-weather/usr/share/locale/eo/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/ro/
+gnome-weather/usr/share/locale/ro/LC_MESSAGES/
+gnome-weather/usr/share/locale/ro/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/lt/
+gnome-weather/usr/share/locale/lt/LC_MESSAGES/
+gnome-weather/usr/share/locale/lt/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/fy/
+gnome-weather/usr/share/locale/fy/LC_MESSAGES/
+gnome-weather/usr/share/locale/fy/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/cs/
+gnome-weather/usr/share/locale/cs/LC_MESSAGES/
+gnome-weather/usr/share/locale/cs/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/mjw/
+gnome-weather/usr/share/locale/mjw/LC_MESSAGES/
+gnome-weather/usr/share/locale/mjw/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/sv/
+gnome-weather/usr/share/locale/sv/LC_MESSAGES/
+gnome-weather/usr/share/locale/sv/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/bn/
+gnome-weather/usr/share/locale/bn/LC_MESSAGES/
+gnome-weather/usr/share/locale/bn/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/el/
+gnome-weather/usr/share/locale/el/LC_MESSAGES/
+gnome-weather/usr/share/locale/el/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/ja/
+gnome-weather/usr/share/locale/ja/LC_MESSAGES/
+gnome-weather/usr/share/locale/ja/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/id/
+gnome-weather/usr/share/locale/id/LC_MESSAGES/
+gnome-weather/usr/share/locale/id/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/hu/
+gnome-weather/usr/share/locale/hu/LC_MESSAGES/
+gnome-weather/usr/share/locale/hu/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/an/
+gnome-weather/usr/share/locale/an/LC_MESSAGES/
+gnome-weather/usr/share/locale/an/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/bg/
+gnome-weather/usr/share/locale/bg/LC_MESSAGES/
+gnome-weather/usr/share/locale/bg/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/ru/
+gnome-weather/usr/share/locale/ru/LC_MESSAGES/
+gnome-weather/usr/share/locale/ru/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/lv/
+gnome-weather/usr/share/locale/lv/LC_MESSAGES/
+gnome-weather/usr/share/locale/lv/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/kn/
+gnome-weather/usr/share/locale/kn/LC_MESSAGES/
+gnome-weather/usr/share/locale/kn/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/ab/
+gnome-weather/usr/share/locale/ab/LC_MESSAGES/
+gnome-weather/usr/share/locale/ab/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/locale/th/
+gnome-weather/usr/share/locale/th/LC_MESSAGES/
+gnome-weather/usr/share/locale/th/LC_MESSAGES/org.gnome.Weather.mo
+gnome-weather/usr/share/org.gnome.Weather/
+gnome-weather/usr/share/org.gnome.Weather/org.gnome.Weather.src.gresource
+gnome-weather/usr/share/org.gnome.Weather/org.gnome.Weather.BackgroundService.data.gresource
+gnome-weather/usr/share/org.gnome.Weather/org.gnome.Weather.data.gresource
+gnome-weather/usr/share/org.gnome.Weather/org.gnome.Weather
+gnome-weather/usr/share/org.gnome.Weather/org.gnome.Weather.BackgroundService
+gnome-weather/usr/share/org.gnome.Weather/org.gnome.Weather.BackgroundService.src.gresource
+gnome-weather/usr/share/applications/
+gnome-weather/usr/share/applications/org.gnome.Weather.desktop
+gnome-weather/usr/share/dbus-1/
+gnome-weather/usr/share/dbus-1/services/
+gnome-weather/usr/share/dbus-1/services/org.gnome.Weather.service
+gnome-weather/usr/share/dbus-1/services/org.gnome.Weather.BackgroundService.service
+gnome-weather/usr/share/icons/
+gnome-weather/usr/share/icons/hicolor/
+gnome-weather/usr/share/icons/hicolor/symbolic/
+gnome-weather/usr/share/icons/hicolor/symbolic/apps/
+gnome-weather/usr/share/icons/hicolor/symbolic/apps/org.gnome.Weather-symbolic.svg
+gnome-weather/usr/share/icons/hicolor/scalable/
+gnome-weather/usr/share/icons/hicolor/scalable/apps/
+gnome-weather/usr/share/icons/hicolor/scalable/apps/org.gnome.Weather.svg
+gnome-weather/usr/share/icons/hicolor/scalable/status/
+gnome-weather/usr/share/icons/hicolor/scalable/status/weather-tornado-small.svg
+gnome-weather/usr/share/icons/hicolor/scalable/status/weather-few-clouds-small.svg
+gnome-weather/usr/share/icons/hicolor/scalable/status/weather-windy-small.svg
+gnome-weather/usr/share/icons/hicolor/scalable/status/weather-clear-small.svg
+gnome-weather/usr/share/icons/hicolor/scalable/status/weather-showers-scattered-large.svg
+gnome-weather/usr/share/icons/hicolor/scalable/status/weather-overcast-large.svg
+gnome-weather/usr/share/icons/hicolor/scalable/status/weather-tornado-large.svg
+gnome-weather/usr/share/icons/hicolor/scalable/status/weather-snow-small.svg
+gnome-weather/usr/share/icons/hicolor/scalable/status/weather-fog-small.svg
+gnome-weather/usr/share/icons/hicolor/scalable/status/weather-clear-large.svg
+gnome-weather/usr/share/icons/hicolor/scalable/status/weather-storm-large.svg
+gnome-weather/usr/share/icons/hicolor/scalable/status/weather-few-clouds-large.svg
+gnome-weather/usr/share/icons/hicolor/scalable/status/weather-fog-large.svg
+gnome-weather/usr/share/icons/hicolor/scalable/status/weather-severe-alert-small.svg
+gnome-weather/usr/share/icons/hicolor/scalable/status/weather-clear-night-large.svg
+gnome-weather/usr/share/icons/hicolor/scalable/status/weather-severe-alert-large.svg
+gnome-weather/usr/share/icons/hicolor/scalable/status/weather-windy-large.svg
+gnome-weather/usr/share/icons/hicolor/scalable/status/weather-hourly-symbolic.svg
+gnome-weather/usr/share/icons/hicolor/scalable/status/weather-showers-scattered-small.svg
+gnome-weather/usr/share/icons/hicolor/scalable/status/temperature-symbolic.svg
+gnome-weather/usr/share/icons/hicolor/scalable/status/weather-snow-large.svg
+gnome-weather/usr/share/icons/hicolor/scalable/status/weather-few-clouds-night-small.svg
+gnome-weather/usr/share/icons/hicolor/scalable/status/weather-overcast-small.svg
+gnome-weather/usr/share/icons/hicolor/scalable/status/weather-storm-small.svg
+gnome-weather/usr/share/icons/hicolor/scalable/status/weather-few-clouds-night-large.svg
+gnome-weather/usr/share/icons/hicolor/scalable/status/weather-showers-small.svg
+gnome-weather/usr/share/icons/hicolor/scalable/status/weather-clear-night-small.svg
+gnome-weather/usr/share/icons/hicolor/scalable/status/weather-showers-large.svg
+gnome-weather/usr/bin/
+gnome-weather/usr/bin/gnome-weather
+gnome-weather/version
+gnome-weather/depends

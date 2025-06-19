@@ -1,0 +1,206 @@
+--2025-06-11 08:11:07--  https://www.lua.org/ftp/lua-5.4.8.tar.gz
+Resolving www.lua.org (www.lua.org)... 46.175.8.47
+Connecting to www.lua.org (www.lua.org)|46.175.8.47|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 374332 (366K) [application/octet-stream]
+Saving to: 'lua-5.4.8.tar.gz'
+
+     0K .......... .......... .......... .......... .......... 13%  478K 1s
+    50K .......... .......... .......... .......... .......... 27%  483K 1s
+   100K .......... .......... .......... .......... .......... 41% 20.5M 0s
+   150K .......... .......... .......... .......... .......... 54% 1.30M 0s
+   200K .......... .......... .......... .......... .......... 68%  772K 0s
+   250K .......... .......... .......... .......... .......... 82% 12.7M 0s
+   300K .......... .......... .......... .......... .......... 95% 53.5M 0s
+   350K .......... .....                                      100%  597M=0.3s
+
+2025-06-11 08:11:08 (1.12 MB/s) - 'lua-5.4.8.tar.gz' saved [374332/374332]
+
+--2025-06-11 08:11:08--  https://www.linuxfromscratch.org/patches/blfs/svn/lua-5.4.8-shared_library-1.patch
+Resolving www.linuxfromscratch.org (www.linuxfromscratch.org)... 208.118.68.85
+Connecting to www.linuxfromscratch.org (www.linuxfromscratch.org)|208.118.68.85|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3403 (3.3K)
+Saving to: 'lua-5.4.8-shared_library-1.patch'
+
+     0K ...                                                   100% 4.31G=0s
+
+2025-06-11 08:11:09 (4.31 GB/s) - 'lua-5.4.8-shared_library-1.patch' saved [3403/3403]
+
+lua-5.4.8/
+lua-5.4.8/Makefile
+lua-5.4.8/doc/
+lua-5.4.8/doc/luac.1
+lua-5.4.8/doc/manual.html
+lua-5.4.8/doc/manual.css
+lua-5.4.8/doc/OSIApproved_100X125.png
+lua-5.4.8/doc/contents.html
+lua-5.4.8/doc/lua.css
+lua-5.4.8/doc/logo.gif
+lua-5.4.8/doc/lua.1
+lua-5.4.8/doc/index.css
+lua-5.4.8/doc/readme.html
+lua-5.4.8/src/
+lua-5.4.8/src/ldblib.c
+lua-5.4.8/src/lmathlib.c
+lua-5.4.8/src/loslib.c
+lua-5.4.8/src/lvm.c
+lua-5.4.8/src/ldo.h
+lua-5.4.8/src/lua.h
+lua-5.4.8/src/lgc.h
+lua-5.4.8/src/ltm.h
+lua-5.4.8/src/loadlib.c
+lua-5.4.8/src/lmem.c
+lua-5.4.8/src/lstate.h
+lua-5.4.8/src/Makefile
+lua-5.4.8/src/lzio.h
+lua-5.4.8/src/luaconf.h
+lua-5.4.8/src/lopcodes.c
+lua-5.4.8/src/lua.c
+lua-5.4.8/src/lundump.h
+lua-5.4.8/src/ljumptab.h
+lua-5.4.8/src/lbaselib.c
+lua-5.4.8/src/ltable.c
+lua-5.4.8/src/ldump.c
+lua-5.4.8/src/liolib.c
+lua-5.4.8/src/llimits.h
+lua-5.4.8/src/lfunc.h
+lua-5.4.8/src/lualib.h
+lua-5.4.8/src/lzio.c
+lua-5.4.8/src/lopnames.h
+lua-5.4.8/src/lctype.c
+lua-5.4.8/src/lmem.h
+lua-5.4.8/src/llex.h
+lua-5.4.8/src/ltable.h
+lua-5.4.8/src/lstring.c
+lua-5.4.8/src/ldebug.h
+lua-5.4.8/src/lprefix.h
+lua-5.4.8/src/llex.c
+lua-5.4.8/src/linit.c
+lua-5.4.8/src/lobject.h
+lua-5.4.8/src/lapi.h
+lua-5.4.8/src/ldebug.c
+lua-5.4.8/src/ldo.c
+lua-5.4.8/src/lvm.h
+lua-5.4.8/src/lauxlib.c
+lua-5.4.8/src/luac.c
+lua-5.4.8/src/lctype.h
+lua-5.4.8/src/lstring.h
+lua-5.4.8/src/lcorolib.c
+lua-5.4.8/src/lutf8lib.c
+lua-5.4.8/src/lgc.c
+lua-5.4.8/src/lstate.c
+lua-5.4.8/src/lundump.c
+lua-5.4.8/src/ltablib.c
+lua-5.4.8/src/lauxlib.h
+lua-5.4.8/src/ltm.c
+lua-5.4.8/src/lparser.c
+lua-5.4.8/src/lcode.h
+lua-5.4.8/src/lobject.c
+lua-5.4.8/src/lcode.c
+lua-5.4.8/src/lopcodes.h
+lua-5.4.8/src/lfunc.c
+lua-5.4.8/src/lapi.c
+lua-5.4.8/src/lparser.h
+lua-5.4.8/src/lua.hpp
+lua-5.4.8/src/lstrlib.c
+lua-5.4.8/README
+patching file Makefile
+patching file src/luaconf.h
+Hunk #1 succeeded at 223 (offset -4 lines).
+patching file src/Makefile
+Hunk #2 succeeded at 33 with fuzz 1.
+make[1]: Entering directory '/blfs/builds/lua-5.4.8/src'
+make all SYSCFLAGS="-DLUA_USE_LINUX" SYSLIBS="-Wl,-E -ldl"
+make[2]: Entering directory '/blfs/builds/lua-5.4.8/src'
+gcc -std=gnu99 -fPIC -O0 -Wall -Wextra -DLUA_COMPAT_5_3 -DLUA_COMPAT_5_2 -DLUA_COMPAT_5_1 -DLUA_USE_LINUX    -c -o lapi.o lapi.c
+gcc -std=gnu99 -fPIC -O0 -Wall -Wextra -DLUA_COMPAT_5_3 -DLUA_COMPAT_5_2 -DLUA_COMPAT_5_1 -DLUA_USE_LINUX   -c lcode.c
+gcc -std=gnu99 -fPIC -O0 -Wall -Wextra -DLUA_COMPAT_5_3 -DLUA_COMPAT_5_2 -DLUA_COMPAT_5_1 -DLUA_USE_LINUX    -c -o lctype.o lctype.c
+gcc -std=gnu99 -fPIC -O0 -Wall -Wextra -DLUA_COMPAT_5_3 -DLUA_COMPAT_5_2 -DLUA_COMPAT_5_1 -DLUA_USE_LINUX    -c -o ldebug.o ldebug.c
+gcc -std=gnu99 -fPIC -O0 -Wall -Wextra -DLUA_COMPAT_5_3 -DLUA_COMPAT_5_2 -DLUA_COMPAT_5_1 -DLUA_USE_LINUX    -c -o ldo.o ldo.c
+gcc -std=gnu99 -fPIC -O0 -Wall -Wextra -DLUA_COMPAT_5_3 -DLUA_COMPAT_5_2 -DLUA_COMPAT_5_1 -DLUA_USE_LINUX    -c -o ldump.o ldump.c
+gcc -std=gnu99 -fPIC -O0 -Wall -Wextra -DLUA_COMPAT_5_3 -DLUA_COMPAT_5_2 -DLUA_COMPAT_5_1 -DLUA_USE_LINUX    -c -o lfunc.o lfunc.c
+gcc -std=gnu99 -fPIC -O0 -Wall -Wextra -DLUA_COMPAT_5_3 -DLUA_COMPAT_5_2 -DLUA_COMPAT_5_1 -DLUA_USE_LINUX    -c -o lgc.o lgc.c
+gcc -std=gnu99 -fPIC -O0 -Wall -Wextra -DLUA_COMPAT_5_3 -DLUA_COMPAT_5_2 -DLUA_COMPAT_5_1 -DLUA_USE_LINUX   -c llex.c
+gcc -std=gnu99 -fPIC -O0 -Wall -Wextra -DLUA_COMPAT_5_3 -DLUA_COMPAT_5_2 -DLUA_COMPAT_5_1 -DLUA_USE_LINUX    -c -o lmem.o lmem.c
+gcc -std=gnu99 -fPIC -O0 -Wall -Wextra -DLUA_COMPAT_5_3 -DLUA_COMPAT_5_2 -DLUA_COMPAT_5_1 -DLUA_USE_LINUX    -c -o lobject.o lobject.c
+gcc -std=gnu99 -fPIC -O0 -Wall -Wextra -DLUA_COMPAT_5_3 -DLUA_COMPAT_5_2 -DLUA_COMPAT_5_1 -DLUA_USE_LINUX    -c -o lopcodes.o lopcodes.c
+gcc -std=gnu99 -fPIC -O0 -Wall -Wextra -DLUA_COMPAT_5_3 -DLUA_COMPAT_5_2 -DLUA_COMPAT_5_1 -DLUA_USE_LINUX   -c lparser.c
+gcc -std=gnu99 -fPIC -O0 -Wall -Wextra -DLUA_COMPAT_5_3 -DLUA_COMPAT_5_2 -DLUA_COMPAT_5_1 -DLUA_USE_LINUX    -c -o lstate.o lstate.c
+gcc -std=gnu99 -fPIC -O0 -Wall -Wextra -DLUA_COMPAT_5_3 -DLUA_COMPAT_5_2 -DLUA_COMPAT_5_1 -DLUA_USE_LINUX    -c -o lstring.o lstring.c
+gcc -std=gnu99 -fPIC -O0 -Wall -Wextra -DLUA_COMPAT_5_3 -DLUA_COMPAT_5_2 -DLUA_COMPAT_5_1 -DLUA_USE_LINUX    -c -o ltable.o ltable.c
+gcc -std=gnu99 -fPIC -O0 -Wall -Wextra -DLUA_COMPAT_5_3 -DLUA_COMPAT_5_2 -DLUA_COMPAT_5_1 -DLUA_USE_LINUX    -c -o ltm.o ltm.c
+gcc -std=gnu99 -fPIC -O0 -Wall -Wextra -DLUA_COMPAT_5_3 -DLUA_COMPAT_5_2 -DLUA_COMPAT_5_1 -DLUA_USE_LINUX    -c -o lundump.o lundump.c
+gcc -std=gnu99 -fPIC -O0 -Wall -Wextra -DLUA_COMPAT_5_3 -DLUA_COMPAT_5_2 -DLUA_COMPAT_5_1 -DLUA_USE_LINUX    -c -o lvm.o lvm.c
+gcc -std=gnu99 -fPIC -O0 -Wall -Wextra -DLUA_COMPAT_5_3 -DLUA_COMPAT_5_2 -DLUA_COMPAT_5_1 -DLUA_USE_LINUX    -c -o lzio.o lzio.c
+gcc -std=gnu99 -fPIC -O0 -Wall -Wextra -DLUA_COMPAT_5_3 -DLUA_COMPAT_5_2 -DLUA_COMPAT_5_1 -DLUA_USE_LINUX    -c -o lauxlib.o lauxlib.c
+gcc -std=gnu99 -fPIC -O0 -Wall -Wextra -DLUA_COMPAT_5_3 -DLUA_COMPAT_5_2 -DLUA_COMPAT_5_1 -DLUA_USE_LINUX    -c -o lbaselib.o lbaselib.c
+gcc -std=gnu99 -fPIC -O0 -Wall -Wextra -DLUA_COMPAT_5_3 -DLUA_COMPAT_5_2 -DLUA_COMPAT_5_1 -DLUA_USE_LINUX    -c -o lcorolib.o lcorolib.c
+gcc -std=gnu99 -fPIC -O0 -Wall -Wextra -DLUA_COMPAT_5_3 -DLUA_COMPAT_5_2 -DLUA_COMPAT_5_1 -DLUA_USE_LINUX    -c -o ldblib.o ldblib.c
+gcc -std=gnu99 -fPIC -O0 -Wall -Wextra -DLUA_COMPAT_5_3 -DLUA_COMPAT_5_2 -DLUA_COMPAT_5_1 -DLUA_USE_LINUX    -c -o liolib.o liolib.c
+gcc -std=gnu99 -fPIC -O0 -Wall -Wextra -DLUA_COMPAT_5_3 -DLUA_COMPAT_5_2 -DLUA_COMPAT_5_1 -DLUA_USE_LINUX    -c -o lmathlib.o lmathlib.c
+gcc -std=gnu99 -fPIC -O0 -Wall -Wextra -DLUA_COMPAT_5_3 -DLUA_COMPAT_5_2 -DLUA_COMPAT_5_1 -DLUA_USE_LINUX    -c -o loadlib.o loadlib.c
+gcc -std=gnu99 -fPIC -O0 -Wall -Wextra -DLUA_COMPAT_5_3 -DLUA_COMPAT_5_2 -DLUA_COMPAT_5_1 -DLUA_USE_LINUX    -c -o loslib.o loslib.c
+gcc -std=gnu99 -fPIC -O0 -Wall -Wextra -DLUA_COMPAT_5_3 -DLUA_COMPAT_5_2 -DLUA_COMPAT_5_1 -DLUA_USE_LINUX    -c -o lstrlib.o lstrlib.c
+gcc -std=gnu99 -fPIC -O0 -Wall -Wextra -DLUA_COMPAT_5_3 -DLUA_COMPAT_5_2 -DLUA_COMPAT_5_1 -DLUA_USE_LINUX    -c -o ltablib.o ltablib.c
+gcc -std=gnu99 -fPIC -O0 -Wall -Wextra -DLUA_COMPAT_5_3 -DLUA_COMPAT_5_2 -DLUA_COMPAT_5_1 -DLUA_USE_LINUX    -c -o lutf8lib.o lutf8lib.c
+gcc -std=gnu99 -fPIC -O0 -Wall -Wextra -DLUA_COMPAT_5_3 -DLUA_COMPAT_5_2 -DLUA_COMPAT_5_1 -DLUA_USE_LINUX    -c -o linit.o linit.c
+gcc -std=gnu99 -fPIC -O0 -Wall -Wextra -DLUA_COMPAT_5_3 -DLUA_COMPAT_5_2 -DLUA_COMPAT_5_1 -DLUA_USE_LINUX    -c -o lua.o lua.c
+gcc -std=gnu99 -fPIC -O0 -Wall -Wextra -DLUA_COMPAT_5_3 -DLUA_COMPAT_5_2 -DLUA_COMPAT_5_1 -DLUA_USE_LINUX    -c -o luac.o luac.c
+ar rcu liblua.a lapi.o lcode.o lctype.o ldebug.o ldo.o ldump.o lfunc.o lgc.o llex.o lmem.o lobject.o lopcodes.o lparser.o lstate.o lstring.o ltable.o ltm.o lundump.o lvm.o lzio.o lauxlib.o lbaselib.o lcorolib.o ldblib.o liolib.o lmathlib.o loadlib.o loslib.o lstrlib.o ltablib.o lutf8lib.o linit.o 
+gcc -std=gnu99 -shared -ldl -Wl,--soname,liblua.so.5.4 -o liblua.so.5.4.8 lapi.o lcode.o lctype.o ldebug.o ldo.o ldump.o lfunc.o lgc.o llex.o lmem.o lobject.o lopcodes.o lparser.o lstate.o lstring.o ltable.o ltm.o lundump.o lvm.o lzio.o lauxlib.o lbaselib.o lcorolib.o ldblib.o liolib.o lmathlib.o loadlib.o loslib.o lstrlib.o ltablib.o lutf8lib.o linit.o -lm 
+ranlib liblua.a
+gcc -std=gnu99 -o lua   lua.o liblua.a -lm -Wl,-E -ldl 
+gcc -std=gnu99 -o luac   luac.o liblua.a -lm -Wl,-E -ldl 
+ln -sf liblua.so.5.4.8 liblua.so.5.4
+ln -sf liblua.so.5.4.8 liblua.so
+make[2]: Leaving directory '/blfs/builds/lua-5.4.8/src'
+make[1]: Leaving directory '/blfs/builds/lua-5.4.8/src'
+cd src && mkdir -p /pkgs/lua/usr/bin /pkgs/lua/usr/include /pkgs/lua/usr/lib /usr/share/man/man1 /pkgs/lua/usr/share/lua/5.4 /pkgs/lua/usr/lib/lua/5.4
+cd src && install -p -m 0755 lua luac /pkgs/lua/usr/bin
+cd src && cp -d lua.h luaconf.h lualib.h lauxlib.h lua.hpp /pkgs/lua/usr/include
+cd src && cp -d liblua.so liblua.so.5.4 liblua.so.5.4.8 /pkgs/lua/usr/lib
+cd doc && cp -d lua.1 luac.1 /usr/share/man/man1
+install: creating directory '/pkgs/lua/usr/lib/pkgconfig'
+'lua.pc' -> '/pkgs/lua/usr/lib/pkgconfig/lua.pc'
+lua/
+lua/usr/
+lua/usr/share/
+lua/usr/share/lua/
+lua/usr/share/lua/5.4/
+lua/usr/lib/
+lua/usr/lib/lua/
+lua/usr/lib/lua/5.4/
+lua/usr/lib/pkgconfig/
+lua/usr/lib/pkgconfig/lua.pc
+lua/usr/lib/liblua.so
+lua/usr/lib/liblua.so.5.4.8
+lua/usr/lib/liblua.so.5.4
+lua/usr/include/
+lua/usr/include/luaconf.h
+lua/usr/include/lua.h
+lua/usr/include/lualib.h
+lua/usr/include/lauxlib.h
+lua/usr/include/lua.hpp
+lua/usr/bin/
+lua/usr/bin/luac
+lua/usr/bin/lua
+lua/version
+lua/depends
+lua/make-depends
+'/pkgs/lua/depends' -> '/depends'
+'/pkgs/lua/make-depends' -> '/make-depends'
+'/pkgs/lua/usr/bin/lua' -> '/usr/bin/lua'
+'/pkgs/lua/usr/bin/luac' -> '/usr/bin/luac'
+'/pkgs/lua/usr/include/lua.h' -> '/usr/include/lua.h'
+'/pkgs/lua/usr/include/luaconf.h' -> '/usr/include/luaconf.h'
+'/pkgs/lua/usr/include/lualib.h' -> '/usr/include/lualib.h'
+'/pkgs/lua/usr/include/lauxlib.h' -> '/usr/include/lauxlib.h'
+'/pkgs/lua/usr/include/lua.hpp' -> '/usr/include/lua.hpp'
+removed '/usr/lib/liblua.so'
+'/pkgs/lua/usr/lib/liblua.so' -> '/usr/lib/liblua.so'
+removed '/usr/lib/liblua.so.5.4'
+'/pkgs/lua/usr/lib/liblua.so.5.4' -> '/usr/lib/liblua.so.5.4'
+'/pkgs/lua/usr/lib/liblua.so.5.4.8' -> '/usr/lib/liblua.so.5.4.8'
+'/pkgs/lua/usr/lib/pkgconfig/lua.pc' -> '/usr/lib/pkgconfig/lua.pc'
+'/pkgs/lua/version' -> '/version'

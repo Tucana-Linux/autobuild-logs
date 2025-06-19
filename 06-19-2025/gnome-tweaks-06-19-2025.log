@@ -1,0 +1,793 @@
+--2025-06-19 07:18:39--  https://download.gnome.org/sources/gnome-tweaks/45/gnome-tweaks-45.2.tar.xz
+Resolving download.gnome.org (download.gnome.org)... 2a02:6ea0:c400::54, 2a02:6ea0:c400::53, 79.127.206.207, ...
+Connecting to download.gnome.org (download.gnome.org)|2a02:6ea0:c400::54|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 738788 (721K) [application/octet-stream]
+Saving to: 'gnome-tweaks-45.2.tar.xz'
+
+     0K .......... .......... .......... .......... ..........  6% 4.18M 0s
+    50K .......... .......... .......... .......... .......... 13% 10.8M 0s
+   100K .......... .......... .......... .......... .......... 20% 14.0M 0s
+   150K .......... .......... .......... .......... .......... 27% 19.1M 0s
+   200K .......... .......... .......... .......... .......... 34% 19.9M 0s
+   250K .......... .......... .......... .......... .......... 41% 30.5M 0s
+   300K .......... .......... .......... .......... .......... 48% 40.5M 0s
+   350K .......... .......... .......... .......... .......... 55% 26.7M 0s
+   400K .......... .......... .......... .......... .......... 62% 49.6M 0s
+   450K .......... .......... .......... .......... .......... 69% 39.8M 0s
+   500K .......... .......... .......... .......... .......... 76% 53.3M 0s
+   550K .......... .......... .......... .......... .......... 83% 90.2M 0s
+   600K .......... .......... .......... .......... .......... 90% 70.2M 0s
+   650K .......... .......... .......... .......... .......... 97% 28.3M 0s
+   700K .......... .......... .                               100%  111M=0.04s
+
+2025-06-19 07:18:39 (19.8 MB/s) - 'gnome-tweaks-45.2.tar.xz' saved [738788/738788]
+
+gnome-tweaks-45.2/
+gnome-tweaks-45.2/.gitignore
+gnome-tweaks-45.2/AUTHORS
+gnome-tweaks-45.2/LICENSES/
+gnome-tweaks-45.2/LICENSES/CC0-1.0
+gnome-tweaks-45.2/LICENSES/GPL-3.0
+gnome-tweaks-45.2/NEWS
+gnome-tweaks-45.2/README.md
+gnome-tweaks-45.2/data/
+gnome-tweaks-45.2/data/meson.build
+gnome-tweaks-45.2/data/org.gnome.TweaksDevel.svg
+gnome-tweaks-45.2/data/org.gnome.tweaks-symbolic.svg
+gnome-tweaks-45.2/data/org.gnome.tweaks.appdata.xml.in
+gnome-tweaks-45.2/data/org.gnome.tweaks.desktop.in
+gnome-tweaks-45.2/data/org.gnome.tweaks.gschema.xml
+gnome-tweaks-45.2/data/org.gnome.tweaks.svg
+gnome-tweaks-45.2/data/screenshot-appearance.png
+gnome-tweaks-45.2/data/screenshot-fonts.png
+gnome-tweaks-45.2/data/screenshot-mouse-touchpad.png
+gnome-tweaks-45.2/data/screenshot-windows.png
+gnome-tweaks-45.2/data/shell.css
+gnome-tweaks-45.2/data/shell.ui
+gnome-tweaks-45.2/data/tweaks.ui
+gnome-tweaks-45.2/gnome-tweaks
+gnome-tweaks-45.2/gnome-tweaks.doap
+gnome-tweaks-45.2/gtweak/
+gnome-tweaks-45.2/gtweak/__init__.py
+gnome-tweaks-45.2/gtweak/app.py
+gnome-tweaks-45.2/gtweak/defs.py.in
+gnome-tweaks-45.2/gtweak/gsettings.py
+gnome-tweaks-45.2/gtweak/gshellwrapper.py
+gnome-tweaks-45.2/gtweak/gtksettings.py
+gnome-tweaks-45.2/gtweak/meson.build
+gnome-tweaks-45.2/gtweak/tweakmodel.py
+gnome-tweaks-45.2/gtweak/tweaks/
+gnome-tweaks-45.2/gtweak/tweaks/__init__.py
+gnome-tweaks-45.2/gtweak/tweaks/tweak_group_appearance.py
+gnome-tweaks-45.2/gtweak/tweaks/tweak_group_font.py
+gnome-tweaks-45.2/gtweak/tweaks/tweak_group_keyboard.py
+gnome-tweaks-45.2/gtweak/tweaks/tweak_group_mouse.py
+gnome-tweaks-45.2/gtweak/tweaks/tweak_group_sound.py
+gnome-tweaks-45.2/gtweak/tweaks/tweak_group_startup.py
+gnome-tweaks-45.2/gtweak/tweaks/tweak_group_windows.py
+gnome-tweaks-45.2/gtweak/tweakview.py
+gnome-tweaks-45.2/gtweak/utils.py
+gnome-tweaks-45.2/gtweak/widgets.py
+gnome-tweaks-45.2/logo.png
+gnome-tweaks-45.2/meson-postinstall.py
+gnome-tweaks-45.2/meson.build
+gnome-tweaks-45.2/meson_options.txt
+gnome-tweaks-45.2/org.gnome.Tweaks.json
+gnome-tweaks-45.2/po/
+gnome-tweaks-45.2/po/LINGUAS
+gnome-tweaks-45.2/po/POTFILES.in
+gnome-tweaks-45.2/po/ab.po
+gnome-tweaks-45.2/po/af.po
+gnome-tweaks-45.2/po/ar.po
+gnome-tweaks-45.2/po/as.po
+gnome-tweaks-45.2/po/be.po
+gnome-tweaks-45.2/po/bg.po
+gnome-tweaks-45.2/po/bs.po
+gnome-tweaks-45.2/po/ca.po
+gnome-tweaks-45.2/po/ca@valencia.po
+gnome-tweaks-45.2/po/ckb.po
+gnome-tweaks-45.2/po/cs.po
+gnome-tweaks-45.2/po/da.po
+gnome-tweaks-45.2/po/de.po
+gnome-tweaks-45.2/po/el.po
+gnome-tweaks-45.2/po/en_GB.po
+gnome-tweaks-45.2/po/eo.po
+gnome-tweaks-45.2/po/es.po
+gnome-tweaks-45.2/po/eu.po
+gnome-tweaks-45.2/po/fa.po
+gnome-tweaks-45.2/po/fi.po
+gnome-tweaks-45.2/po/fr.po
+gnome-tweaks-45.2/po/fur.po
+gnome-tweaks-45.2/po/gl.po
+gnome-tweaks-45.2/po/he.po
+gnome-tweaks-45.2/po/hr.po
+gnome-tweaks-45.2/po/hu.po
+gnome-tweaks-45.2/po/id.po
+gnome-tweaks-45.2/po/ie.po
+gnome-tweaks-45.2/po/is.po
+gnome-tweaks-45.2/po/it.po
+gnome-tweaks-45.2/po/ja.po
+gnome-tweaks-45.2/po/ka.po
+gnome-tweaks-45.2/po/kk.po
+gnome-tweaks-45.2/po/ko.po
+gnome-tweaks-45.2/po/ky.po
+gnome-tweaks-45.2/po/lt.po
+gnome-tweaks-45.2/po/lv.po
+gnome-tweaks-45.2/po/meson.build
+gnome-tweaks-45.2/po/mjw.po
+gnome-tweaks-45.2/po/ml.po
+gnome-tweaks-45.2/po/ms.po
+gnome-tweaks-45.2/po/my.po
+gnome-tweaks-45.2/po/nb.po
+gnome-tweaks-45.2/po/ne.po
+gnome-tweaks-45.2/po/nl.po
+gnome-tweaks-45.2/po/oc.po
+gnome-tweaks-45.2/po/pa.po
+gnome-tweaks-45.2/po/pl.po
+gnome-tweaks-45.2/po/pt.po
+gnome-tweaks-45.2/po/pt_BR.po
+gnome-tweaks-45.2/po/ro.po
+gnome-tweaks-45.2/po/ru.po
+gnome-tweaks-45.2/po/sk.po
+gnome-tweaks-45.2/po/sl.po
+gnome-tweaks-45.2/po/sr.po
+gnome-tweaks-45.2/po/sr@latin.po
+gnome-tweaks-45.2/po/sv.po
+gnome-tweaks-45.2/po/te.po
+gnome-tweaks-45.2/po/tg.po
+gnome-tweaks-45.2/po/th.po
+gnome-tweaks-45.2/po/tr.po
+gnome-tweaks-45.2/po/uk.po
+gnome-tweaks-45.2/po/vi.po
+gnome-tweaks-45.2/po/zh_CN.po
+gnome-tweaks-45.2/po/zh_HK.po
+gnome-tweaks-45.2/po/zh_TW.po
+The Meson build system
+Version: 1.7.0
+Source dir: /blfs/builds/gnome-tweaks-45.2
+Build dir: /blfs/builds/gnome-tweaks-45.2/build
+Build type: native build
+Project name: gnome-tweaks
+Project version: 45.2
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Program python3 found: YES (/usr/bin/python3)
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.0
+Run-time dependency libhandy-1 found: YES 1.8.3
+Configuring defs.py using configuration
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Configuring org.gnome.tweaks.desktop.temp using configuration
+Program msginit found: YES (/usr/bin/msginit)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program xgettext found: YES (/usr/bin/xgettext)
+Build targets in project: 70
+
+gnome-tweaks 45.2
+
+  User defined options
+    buildtype: release
+    prefix   : /usr
+
+Found ninja-1.13.0 at /usr/bin/ninja
+[1/67] Building translation po/ab/LC_MESSAGES/gnome-tweaks-ab.mo
+[2/67] Building translation po/as/LC_MESSAGES/gnome-tweaks-as.mo
+[3/67] Building translation po/bs/LC_MESSAGES/gnome-tweaks-bs.mo
+[4/67] Building translation po/af/LC_MESSAGES/gnome-tweaks-af.mo
+[5/67] Building translation po/ar/LC_MESSAGES/gnome-tweaks-ar.mo
+[6/67] Building translation po/be/LC_MESSAGES/gnome-tweaks-be.mo
+[7/67] Building translation po/bg/LC_MESSAGES/gnome-tweaks-bg.mo
+[8/67] Building translation po/ca/LC_MESSAGES/gnome-tweaks-ca.mo
+[9/67] Building translation po/ckb/LC_MESSAGES/gnome-tweaks-ckb.mo
+[10/67] Building translation po/cs/LC_MESSAGES/gnome-tweaks-cs.mo
+[11/67] Building translation po/ca@valencia/LC_MESSAGES/gnome-tweaks-ca@valencia.mo
+[12/67] Building translation po/da/LC_MESSAGES/gnome-tweaks-da.mo
+[13/67] Building translation po/de/LC_MESSAGES/gnome-tweaks-de.mo
+[14/67] Building translation po/el/LC_MESSAGES/gnome-tweaks-el.mo
+[15/67] Building translation po/en_GB/LC_MESSAGES/gnome-tweaks-en_GB.mo
+[16/67] Building translation po/eo/LC_MESSAGES/gnome-tweaks-eo.mo
+[17/67] Building translation po/es/LC_MESSAGES/gnome-tweaks-es.mo
+[18/67] Building translation po/eu/LC_MESSAGES/gnome-tweaks-eu.mo
+[19/67] Building translation po/fa/LC_MESSAGES/gnome-tweaks-fa.mo
+[20/67] Building translation po/fi/LC_MESSAGES/gnome-tweaks-fi.mo
+[21/67] Building translation po/fr/LC_MESSAGES/gnome-tweaks-fr.mo
+[22/67] Building translation po/fur/LC_MESSAGES/gnome-tweaks-fur.mo
+[23/67] Building translation po/gl/LC_MESSAGES/gnome-tweaks-gl.mo
+[24/67] Building translation po/hu/LC_MESSAGES/gnome-tweaks-hu.mo
+[25/67] Building translation po/id/LC_MESSAGES/gnome-tweaks-id.mo
+[26/67] Building translation po/ky/LC_MESSAGES/gnome-tweaks-ky.mo
+[27/67] Building translation po/he/LC_MESSAGES/gnome-tweaks-he.mo
+[28/67] Building translation po/hr/LC_MESSAGES/gnome-tweaks-hr.mo
+[29/67] Building translation po/ie/LC_MESSAGES/gnome-tweaks-ie.mo
+[30/67] Building translation po/is/LC_MESSAGES/gnome-tweaks-is.mo
+[31/67] Building translation po/it/LC_MESSAGES/gnome-tweaks-it.mo
+[32/67] Building translation po/ja/LC_MESSAGES/gnome-tweaks-ja.mo
+[33/67] Building translation po/ka/LC_MESSAGES/gnome-tweaks-ka.mo
+[34/67] Building translation po/kk/LC_MESSAGES/gnome-tweaks-kk.mo
+[35/67] Building translation po/ko/LC_MESSAGES/gnome-tweaks-ko.mo
+[36/67] Building translation po/lt/LC_MESSAGES/gnome-tweaks-lt.mo
+[37/67] Building translation po/lv/LC_MESSAGES/gnome-tweaks-lv.mo
+[38/67] Building translation po/mjw/LC_MESSAGES/gnome-tweaks-mjw.mo
+[39/67] Building translation po/my/LC_MESSAGES/gnome-tweaks-my.mo
+[40/67] Building translation po/ml/LC_MESSAGES/gnome-tweaks-ml.mo
+[41/67] Building translation po/ms/LC_MESSAGES/gnome-tweaks-ms.mo
+[42/67] Building translation po/nb/LC_MESSAGES/gnome-tweaks-nb.mo
+[43/67] Building translation po/nl/LC_MESSAGES/gnome-tweaks-nl.mo
+[44/67] Building translation po/pl/LC_MESSAGES/gnome-tweaks-pl.mo
+[45/67] Building translation po/ne/LC_MESSAGES/gnome-tweaks-ne.mo
+[46/67] Building translation po/oc/LC_MESSAGES/gnome-tweaks-oc.mo
+[47/67] Building translation po/pa/LC_MESSAGES/gnome-tweaks-pa.mo
+[48/67] Building translation po/pt/LC_MESSAGES/gnome-tweaks-pt.mo
+[49/67] Building translation po/pt_BR/LC_MESSAGES/gnome-tweaks-pt_BR.mo
+[50/67] Building translation po/ru/LC_MESSAGES/gnome-tweaks-ru.mo
+[51/67] Building translation po/ro/LC_MESSAGES/gnome-tweaks-ro.mo
+[52/67] Building translation po/sl/LC_MESSAGES/gnome-tweaks-sl.mo
+[53/67] Building translation po/sk/LC_MESSAGES/gnome-tweaks-sk.mo
+[54/67] Building translation po/sr/LC_MESSAGES/gnome-tweaks-sr.mo
+[55/67] Building translation po/sv/LC_MESSAGES/gnome-tweaks-sv.mo
+[56/67] Building translation po/te/LC_MESSAGES/gnome-tweaks-te.mo
+[57/67] Building translation po/sr@latin/LC_MESSAGES/gnome-tweaks-sr@latin.mo
+[58/67] Building translation po/tg/LC_MESSAGES/gnome-tweaks-tg.mo
+[59/67] Building translation po/zh_HK/LC_MESSAGES/gnome-tweaks-zh_HK.mo
+[60/67] Building translation po/zh_CN/LC_MESSAGES/gnome-tweaks-zh_CN.mo
+[61/67] Building translation po/tr/LC_MESSAGES/gnome-tweaks-tr.mo
+[62/67] Building translation po/th/LC_MESSAGES/gnome-tweaks-th.mo
+[63/67] Building translation po/vi/LC_MESSAGES/gnome-tweaks-vi.mo
+[64/67] Building translation po/uk/LC_MESSAGES/gnome-tweaks-uk.mo
+[65/67] Building translation po/zh_TW/LC_MESSAGES/gnome-tweaks-zh_TW.mo
+[66/67] Merging translations for data/org.gnome.tweaks.desktop
+[67/67] Merging translations for data/org.gnome.tweaks.appdata.xml
+[0/1] Installing files
+Installing data/org.gnome.tweaks.appdata.xml to /usr/share/metainfo
+Installing data/org.gnome.tweaks.desktop to /usr/share/applications
+Installing po/ab/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/ab/LC_MESSAGES
+Installing po/af/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/af/LC_MESSAGES
+Installing po/ar/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/ar/LC_MESSAGES
+Installing po/as/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/as/LC_MESSAGES
+Installing po/be/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/be/LC_MESSAGES
+Installing po/bg/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/bg/LC_MESSAGES
+Installing po/bs/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/bs/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/ca/LC_MESSAGES
+Installing po/ca@valencia/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/ca@valencia/LC_MESSAGES
+Installing po/ckb/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/ckb/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/cs/LC_MESSAGES
+Installing po/da/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/de/LC_MESSAGES
+Installing po/el/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/el/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/en_GB/LC_MESSAGES
+Installing po/eo/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/eo/LC_MESSAGES
+Installing po/es/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/es/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/eu/LC_MESSAGES
+Installing po/fa/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/fa/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/fr/LC_MESSAGES
+Installing po/fur/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/fur/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/gl/LC_MESSAGES
+Installing po/he/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/he/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/hu/LC_MESSAGES
+Installing po/id/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/id/LC_MESSAGES
+Installing po/ie/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/ie/LC_MESSAGES
+Installing po/is/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/is/LC_MESSAGES
+Installing po/it/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/it/LC_MESSAGES
+Installing po/ja/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/ja/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/ka/LC_MESSAGES
+Installing po/kk/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/kk/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/ko/LC_MESSAGES
+Installing po/ky/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/ky/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/lt/LC_MESSAGES
+Installing po/lv/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/lv/LC_MESSAGES
+Installing po/mjw/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/mjw/LC_MESSAGES
+Installing po/ml/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/ml/LC_MESSAGES
+Installing po/ms/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/ms/LC_MESSAGES
+Installing po/my/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/my/LC_MESSAGES
+Installing po/nb/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/nb/LC_MESSAGES
+Installing po/ne/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/ne/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/nl/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/oc/LC_MESSAGES
+Installing po/pa/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/pa/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/pl/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/pt/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/ru/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/sl/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/sr/LC_MESSAGES
+Installing po/sr@latin/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/sr@latin/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/sv/LC_MESSAGES
+Installing po/te/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/te/LC_MESSAGES
+Installing po/tg/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/tg/LC_MESSAGES
+Installing po/th/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/th/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/tr/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/uk/LC_MESSAGES
+Installing po/vi/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/vi/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_HK/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/zh_HK/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/gnome-tweaks.mo to /usr/share/locale/zh_TW/LC_MESSAGES
+Installing /blfs/builds/gnome-tweaks-45.2/gnome-tweaks to /usr/bin
+Installing /blfs/builds/gnome-tweaks-45.2/build/gtweak/defs.py to /usr/lib/python3.13/site-packages/gtweak
+Installing /blfs/builds/gnome-tweaks-45.2/gtweak/app.py to /usr/lib/python3.13/site-packages/gtweak
+Installing /blfs/builds/gnome-tweaks-45.2/gtweak/gsettings.py to /usr/lib/python3.13/site-packages/gtweak
+Installing /blfs/builds/gnome-tweaks-45.2/gtweak/gshellwrapper.py to /usr/lib/python3.13/site-packages/gtweak
+Installing /blfs/builds/gnome-tweaks-45.2/gtweak/gtksettings.py to /usr/lib/python3.13/site-packages/gtweak
+Installing /blfs/builds/gnome-tweaks-45.2/gtweak/__init__.py to /usr/lib/python3.13/site-packages/gtweak
+Installing /blfs/builds/gnome-tweaks-45.2/gtweak/tweakmodel.py to /usr/lib/python3.13/site-packages/gtweak
+Installing /blfs/builds/gnome-tweaks-45.2/gtweak/tweakview.py to /usr/lib/python3.13/site-packages/gtweak
+Installing /blfs/builds/gnome-tweaks-45.2/gtweak/utils.py to /usr/lib/python3.13/site-packages/gtweak
+Installing /blfs/builds/gnome-tweaks-45.2/gtweak/widgets.py to /usr/lib/python3.13/site-packages/gtweak
+Installing /blfs/builds/gnome-tweaks-45.2/gtweak/tweaks/__init__.py to /usr/lib/python3.13/site-packages/gtweak/tweaks
+Installing /blfs/builds/gnome-tweaks-45.2/gtweak/tweaks/tweak_group_appearance.py to /usr/lib/python3.13/site-packages/gtweak/tweaks
+Installing /blfs/builds/gnome-tweaks-45.2/gtweak/tweaks/tweak_group_sound.py to /usr/lib/python3.13/site-packages/gtweak/tweaks
+Installing /blfs/builds/gnome-tweaks-45.2/gtweak/tweaks/tweak_group_font.py to /usr/lib/python3.13/site-packages/gtweak/tweaks
+Installing /blfs/builds/gnome-tweaks-45.2/gtweak/tweaks/tweak_group_mouse.py to /usr/lib/python3.13/site-packages/gtweak/tweaks
+Installing /blfs/builds/gnome-tweaks-45.2/gtweak/tweaks/tweak_group_keyboard.py to /usr/lib/python3.13/site-packages/gtweak/tweaks
+Installing /blfs/builds/gnome-tweaks-45.2/gtweak/tweaks/tweak_group_startup.py to /usr/lib/python3.13/site-packages/gtweak/tweaks
+Installing /blfs/builds/gnome-tweaks-45.2/gtweak/tweaks/tweak_group_windows.py to /usr/lib/python3.13/site-packages/gtweak/tweaks
+Installing /blfs/builds/gnome-tweaks-45.2/data/shell.ui to /usr/share/gnome-tweaks
+Installing /blfs/builds/gnome-tweaks-45.2/data/tweaks.ui to /usr/share/gnome-tweaks
+Installing /blfs/builds/gnome-tweaks-45.2/data/shell.css to /usr/share/gnome-tweaks
+Installing /blfs/builds/gnome-tweaks-45.2/data/org.gnome.tweaks.gschema.xml to /usr/share/glib-2.0/schemas
+Installing /blfs/builds/gnome-tweaks-45.2/data/org.gnome.tweaks.svg to /usr/share/icons/hicolor/scalable/apps
+Installing /blfs/builds/gnome-tweaks-45.2/data/org.gnome.tweaks-symbolic.svg to /usr/share/icons/hicolor/symbolic/appsInstalling new Schemas
+Updating icon cache...
+Compiling python bytecode...
+Listing '/usr/lib/python3.13/site-packages/gtweak'...
+Compiling '/usr/lib/python3.13/site-packages/gtweak/__init__.py'...
+Compiling '/usr/lib/python3.13/site-packages/gtweak/app.py'...
+Compiling '/usr/lib/python3.13/site-packages/gtweak/defs.py'...
+Compiling '/usr/lib/python3.13/site-packages/gtweak/gsettings.py'...
+Compiling '/usr/lib/python3.13/site-packages/gtweak/gshellwrapper.py'...
+Compiling '/usr/lib/python3.13/site-packages/gtweak/gtksettings.py'...
+Compiling '/usr/lib/python3.13/site-packages/gtweak/tweakmodel.py'...
+Listing '/usr/lib/python3.13/site-packages/gtweak/tweaks'...
+Compiling '/usr/lib/python3.13/site-packages/gtweak/tweaks/__init__.py'...
+Compiling '/usr/lib/python3.13/site-packages/gtweak/tweaks/tweak_group_appearance.py'...
+Compiling '/usr/lib/python3.13/site-packages/gtweak/tweaks/tweak_group_font.py'...
+Compiling '/usr/lib/python3.13/site-packages/gtweak/tweaks/tweak_group_keyboard.py'...
+Compiling '/usr/lib/python3.13/site-packages/gtweak/tweaks/tweak_group_mouse.py'...
+Compiling '/usr/lib/python3.13/site-packages/gtweak/tweaks/tweak_group_sound.py'...
+Compiling '/usr/lib/python3.13/site-packages/gtweak/tweaks/tweak_group_startup.py'...
+Compiling '/usr/lib/python3.13/site-packages/gtweak/tweaks/tweak_group_windows.py'...
+Compiling '/usr/lib/python3.13/site-packages/gtweak/tweakview.py'...
+Compiling '/usr/lib/python3.13/site-packages/gtweak/utils.py'...
+Compiling '/usr/lib/python3.13/site-packages/gtweak/widgets.py'...
+Compiling '/usr/lib/python3.13/site-packages/gtweak/defs.py'...
+Compiling '/usr/lib/python3.13/site-packages/gtweak/app.py'...
+Compiling '/usr/lib/python3.13/site-packages/gtweak/gsettings.py'...
+Compiling '/usr/lib/python3.13/site-packages/gtweak/gshellwrapper.py'...
+Compiling '/usr/lib/python3.13/site-packages/gtweak/gtksettings.py'...
+Compiling '/usr/lib/python3.13/site-packages/gtweak/__init__.py'...
+Compiling '/usr/lib/python3.13/site-packages/gtweak/tweakmodel.py'...
+Compiling '/usr/lib/python3.13/site-packages/gtweak/tweakview.py'...
+Compiling '/usr/lib/python3.13/site-packages/gtweak/utils.py'...
+Compiling '/usr/lib/python3.13/site-packages/gtweak/widgets.py'...
+Compiling '/usr/lib/python3.13/site-packages/gtweak/tweaks/__init__.py'...
+Compiling '/usr/lib/python3.13/site-packages/gtweak/tweaks/tweak_group_appearance.py'...
+Compiling '/usr/lib/python3.13/site-packages/gtweak/tweaks/tweak_group_sound.py'...
+Compiling '/usr/lib/python3.13/site-packages/gtweak/tweaks/tweak_group_font.py'...
+Compiling '/usr/lib/python3.13/site-packages/gtweak/tweaks/tweak_group_mouse.py'...
+Compiling '/usr/lib/python3.13/site-packages/gtweak/tweaks/tweak_group_keyboard.py'...
+Compiling '/usr/lib/python3.13/site-packages/gtweak/tweaks/tweak_group_startup.py'...
+Compiling '/usr/lib/python3.13/site-packages/gtweak/tweaks/tweak_group_windows.py'...
+
+Running custom install script '/blfs/builds/gnome-tweaks-45.2/meson-postinstall.py'
+Running custom install script '/usr/bin/python3 /blfs/builds/gnome-tweaks-45.2/build/meson-private/pycompile.py python-3.13-installed.json 0'
+[0/1] Installing files
+Installing data/org.gnome.tweaks.appdata.xml to /pkgs/gnome-tweaks/usr/share/metainfo
+Installing data/org.gnome.tweaks.desktop to /pkgs/gnome-tweaks/usr/share/applications
+Installing po/ab/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/ab/LC_MESSAGES
+Installing po/af/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/af/LC_MESSAGES
+Installing po/ar/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/ar/LC_MESSAGES
+Installing po/as/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/as/LC_MESSAGES
+Installing po/be/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/be/LC_MESSAGES
+Installing po/bg/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/bg/LC_MESSAGES
+Installing po/bs/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/bs/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/ca/LC_MESSAGES
+Installing po/ca@valencia/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/ca@valencia/LC_MESSAGES
+Installing po/ckb/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/ckb/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/cs/LC_MESSAGES
+Installing po/da/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/de/LC_MESSAGES
+Installing po/el/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/el/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/en_GB/LC_MESSAGES
+Installing po/eo/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/eo/LC_MESSAGES
+Installing po/es/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/es/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/eu/LC_MESSAGES
+Installing po/fa/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/fa/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/fr/LC_MESSAGES
+Installing po/fur/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/fur/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/gl/LC_MESSAGES
+Installing po/he/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/he/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/hu/LC_MESSAGES
+Installing po/id/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/id/LC_MESSAGES
+Installing po/ie/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/ie/LC_MESSAGES
+Installing po/is/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/is/LC_MESSAGES
+Installing po/it/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/it/LC_MESSAGES
+Installing po/ja/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/ja/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/ka/LC_MESSAGES
+Installing po/kk/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/kk/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/ko/LC_MESSAGES
+Installing po/ky/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/ky/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/lt/LC_MESSAGES
+Installing po/lv/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/lv/LC_MESSAGES
+Installing po/mjw/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/mjw/LC_MESSAGES
+Installing po/ml/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/ml/LC_MESSAGES
+Installing po/ms/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/ms/LC_MESSAGES
+Installing po/my/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/my/LC_MESSAGES
+Installing po/nb/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/nb/LC_MESSAGES
+Installing po/ne/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/ne/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/nl/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/oc/LC_MESSAGES
+Installing po/pa/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/pa/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/pl/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/pt/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/ru/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/sl/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/sr/LC_MESSAGES
+Installing po/sr@latin/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/sr@latin/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/sv/LC_MESSAGES
+Installing po/te/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/te/LC_MESSAGES
+Installing po/tg/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/tg/LC_MESSAGES
+Installing po/th/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/th/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/tr/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/uk/LC_MESSAGES
+Installing po/vi/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/vi/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_HK/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/zh_HK/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/gnome-tweaks.mo to /pkgs/gnome-tweaks/usr/share/locale/zh_TW/LC_MESSAGES
+Installing /blfs/builds/gnome-tweaks-45.2/gnome-tweaks to /pkgs/gnome-tweaks/usr/bin
+Installing /blfs/builds/gnome-tweaks-45.2/build/gtweak/defs.py to /pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak
+Installing /blfs/builds/gnome-tweaks-45.2/gtweak/app.py to /pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak
+Installing /blfs/builds/gnome-tweaks-45.2/gtweak/gsettings.py to /pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak
+Installing /blfs/builds/gnome-tweaks-45.2/gtweak/gshellwrapper.py to /pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak
+Installing /blfs/builds/gnome-tweaks-45.2/gtweak/gtksettings.py to /pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak
+Installing /blfs/builds/gnome-tweaks-45.2/gtweak/__init__.py to /pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak
+Installing /blfs/builds/gnome-tweaks-45.2/gtweak/tweakmodel.py to /pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak
+Installing /blfs/builds/gnome-tweaks-45.2/gtweak/tweakview.py to /pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak
+Installing /blfs/builds/gnome-tweaks-45.2/gtweak/utils.py to /pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak
+Installing /blfs/builds/gnome-tweaks-45.2/gtweak/widgets.py to /pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak
+Installing /blfs/builds/gnome-tweaks-45.2/gtweak/tweaks/__init__.py to /pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks
+Installing /blfs/builds/gnome-tweaks-45.2/gtweak/tweaks/tweak_group_appearance.py to /pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaksCompiling python bytecode...
+Listing '/pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak'...
+Compiling '/pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/__init__.py'...
+Compiling '/pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/app.py'...
+Compiling '/pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/defs.py'...
+Compiling '/pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/gsettings.py'...
+Compiling '/pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/gshellwrapper.py'...
+Compiling '/pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/gtksettings.py'...
+Compiling '/pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweakmodel.py'...
+Listing '/pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks'...
+Compiling '/pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/__init__.py'...
+Compiling '/pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/tweak_group_appearance.py'...
+Compiling '/pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/tweak_group_font.py'...
+Compiling '/pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/tweak_group_keyboard.py'...
+Compiling '/pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/tweak_group_mouse.py'...
+Compiling '/pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/tweak_group_sound.py'...
+Compiling '/pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/tweak_group_startup.py'...
+Compiling '/pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/tweak_group_windows.py'...
+Compiling '/pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweakview.py'...
+Compiling '/pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/utils.py'...
+Compiling '/pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/widgets.py'...
+Compiling '/pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/defs.py'...
+Compiling '/pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/app.py'...
+Compiling '/pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/gsettings.py'...
+Compiling '/pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/gshellwrapper.py'...
+Compiling '/pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/gtksettings.py'...
+Compiling '/pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/__init__.py'...
+Compiling '/pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweakmodel.py'...
+Compiling '/pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweakview.py'...
+Compiling '/pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/utils.py'...
+Compiling '/pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/widgets.py'...
+Compiling '/pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/__init__.py'...
+Compiling '/pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/tweak_group_appearance.py'...
+Compiling '/pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/tweak_group_sound.py'...
+Compiling '/pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/tweak_group_font.py'...
+Compiling '/pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/tweak_group_mouse.py'...
+Compiling '/pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/tweak_group_keyboard.py'...
+Compiling '/pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/tweak_group_startup.py'...
+Compiling '/pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/tweak_group_windows.py'...
+
+Installing /blfs/builds/gnome-tweaks-45.2/gtweak/tweaks/tweak_group_sound.py to /pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks
+Installing /blfs/builds/gnome-tweaks-45.2/gtweak/tweaks/tweak_group_font.py to /pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks
+Installing /blfs/builds/gnome-tweaks-45.2/gtweak/tweaks/tweak_group_mouse.py to /pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks
+Installing /blfs/builds/gnome-tweaks-45.2/gtweak/tweaks/tweak_group_keyboard.py to /pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks
+Installing /blfs/builds/gnome-tweaks-45.2/gtweak/tweaks/tweak_group_startup.py to /pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks
+Installing /blfs/builds/gnome-tweaks-45.2/gtweak/tweaks/tweak_group_windows.py to /pkgs/gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks
+Installing /blfs/builds/gnome-tweaks-45.2/data/shell.ui to /pkgs/gnome-tweaks/usr/share/gnome-tweaks
+Installing /blfs/builds/gnome-tweaks-45.2/data/tweaks.ui to /pkgs/gnome-tweaks/usr/share/gnome-tweaks
+Installing /blfs/builds/gnome-tweaks-45.2/data/shell.css to /pkgs/gnome-tweaks/usr/share/gnome-tweaks
+Installing /blfs/builds/gnome-tweaks-45.2/data/org.gnome.tweaks.gschema.xml to /pkgs/gnome-tweaks/usr/share/glib-2.0/schemas
+Installing /blfs/builds/gnome-tweaks-45.2/data/org.gnome.tweaks.svg to /pkgs/gnome-tweaks/usr/share/icons/hicolor/scalable/apps
+Installing /blfs/builds/gnome-tweaks-45.2/data/org.gnome.tweaks-symbolic.svg to /pkgs/gnome-tweaks/usr/share/icons/hicolor/symbolic/apps
+Running custom install script '/blfs/builds/gnome-tweaks-45.2/meson-postinstall.py'
+Running custom install script '/usr/bin/python3 /blfs/builds/gnome-tweaks-45.2/build/meson-private/pycompile.py python-3.13-installed.json 0'
+gnome-tweaks/
+gnome-tweaks/usr/
+gnome-tweaks/usr/share/
+gnome-tweaks/usr/share/metainfo/
+gnome-tweaks/usr/share/metainfo/org.gnome.tweaks.appdata.xml
+gnome-tweaks/usr/share/glib-2.0/
+gnome-tweaks/usr/share/glib-2.0/schemas/
+gnome-tweaks/usr/share/glib-2.0/schemas/org.gnome.tweaks.gschema.xml
+gnome-tweaks/usr/share/locale/
+gnome-tweaks/usr/share/locale/zh_HK/
+gnome-tweaks/usr/share/locale/zh_HK/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/zh_HK/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/be/
+gnome-tweaks/usr/share/locale/be/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/be/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/ckb/
+gnome-tweaks/usr/share/locale/ckb/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/ckb/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/af/
+gnome-tweaks/usr/share/locale/af/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/af/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/ca/
+gnome-tweaks/usr/share/locale/ca/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/ca/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/eu/
+gnome-tweaks/usr/share/locale/eu/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/eu/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/en_GB/
+gnome-tweaks/usr/share/locale/en_GB/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/en_GB/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/uk/
+gnome-tweaks/usr/share/locale/uk/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/uk/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/it/
+gnome-tweaks/usr/share/locale/it/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/it/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/he/
+gnome-tweaks/usr/share/locale/he/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/he/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/de/
+gnome-tweaks/usr/share/locale/de/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/de/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/pt/
+gnome-tweaks/usr/share/locale/pt/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/pt/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/kk/
+gnome-tweaks/usr/share/locale/kk/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/kk/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/ky/
+gnome-tweaks/usr/share/locale/ky/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/ky/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/es/
+gnome-tweaks/usr/share/locale/es/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/es/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/vi/
+gnome-tweaks/usr/share/locale/vi/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/vi/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/fur/
+gnome-tweaks/usr/share/locale/fur/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/fur/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/ne/
+gnome-tweaks/usr/share/locale/ne/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/ne/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/bs/
+gnome-tweaks/usr/share/locale/bs/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/bs/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/da/
+gnome-tweaks/usr/share/locale/da/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/da/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/zh_CN/
+gnome-tweaks/usr/share/locale/zh_CN/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/zh_CN/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/ml/
+gnome-tweaks/usr/share/locale/ml/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/ml/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/ko/
+gnome-tweaks/usr/share/locale/ko/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/ko/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/pa/
+gnome-tweaks/usr/share/locale/pa/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/pa/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/nb/
+gnome-tweaks/usr/share/locale/nb/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/nb/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/hr/
+gnome-tweaks/usr/share/locale/hr/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/hr/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/sr/
+gnome-tweaks/usr/share/locale/sr/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/sr/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/pt_BR/
+gnome-tweaks/usr/share/locale/pt_BR/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/pt_BR/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/my/
+gnome-tweaks/usr/share/locale/my/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/my/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/tr/
+gnome-tweaks/usr/share/locale/tr/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/tr/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/ca@valencia/
+gnome-tweaks/usr/share/locale/ca@valencia/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/ca@valencia/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/fa/
+gnome-tweaks/usr/share/locale/fa/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/fa/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/ie/
+gnome-tweaks/usr/share/locale/ie/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/ie/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/sk/
+gnome-tweaks/usr/share/locale/sk/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/sk/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/ms/
+gnome-tweaks/usr/share/locale/ms/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/ms/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/te/
+gnome-tweaks/usr/share/locale/te/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/te/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/gl/
+gnome-tweaks/usr/share/locale/gl/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/gl/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/pl/
+gnome-tweaks/usr/share/locale/pl/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/pl/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/sl/
+gnome-tweaks/usr/share/locale/sl/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/sl/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/fi/
+gnome-tweaks/usr/share/locale/fi/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/fi/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/is/
+gnome-tweaks/usr/share/locale/is/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/is/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/ar/
+gnome-tweaks/usr/share/locale/ar/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/ar/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/zh_TW/
+gnome-tweaks/usr/share/locale/zh_TW/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/zh_TW/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/nl/
+gnome-tweaks/usr/share/locale/nl/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/nl/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/oc/
+gnome-tweaks/usr/share/locale/oc/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/oc/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/ka/
+gnome-tweaks/usr/share/locale/ka/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/ka/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/tg/
+gnome-tweaks/usr/share/locale/tg/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/tg/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/as/
+gnome-tweaks/usr/share/locale/as/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/as/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/fr/
+gnome-tweaks/usr/share/locale/fr/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/fr/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/sr@latin/
+gnome-tweaks/usr/share/locale/sr@latin/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/sr@latin/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/eo/
+gnome-tweaks/usr/share/locale/eo/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/eo/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/ro/
+gnome-tweaks/usr/share/locale/ro/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/ro/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/lt/
+gnome-tweaks/usr/share/locale/lt/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/lt/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/cs/
+gnome-tweaks/usr/share/locale/cs/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/cs/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/mjw/
+gnome-tweaks/usr/share/locale/mjw/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/mjw/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/sv/
+gnome-tweaks/usr/share/locale/sv/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/sv/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/el/
+gnome-tweaks/usr/share/locale/el/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/el/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/ja/
+gnome-tweaks/usr/share/locale/ja/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/ja/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/id/
+gnome-tweaks/usr/share/locale/id/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/id/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/hu/
+gnome-tweaks/usr/share/locale/hu/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/hu/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/bg/
+gnome-tweaks/usr/share/locale/bg/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/bg/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/ru/
+gnome-tweaks/usr/share/locale/ru/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/ru/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/lv/
+gnome-tweaks/usr/share/locale/lv/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/lv/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/ab/
+gnome-tweaks/usr/share/locale/ab/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/ab/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/locale/th/
+gnome-tweaks/usr/share/locale/th/LC_MESSAGES/
+gnome-tweaks/usr/share/locale/th/LC_MESSAGES/gnome-tweaks.mo
+gnome-tweaks/usr/share/gnome-tweaks/
+gnome-tweaks/usr/share/gnome-tweaks/shell.css
+gnome-tweaks/usr/share/gnome-tweaks/tweaks.ui
+gnome-tweaks/usr/share/gnome-tweaks/shell.ui
+gnome-tweaks/usr/share/applications/
+gnome-tweaks/usr/share/applications/org.gnome.tweaks.desktop
+gnome-tweaks/usr/share/icons/
+gnome-tweaks/usr/share/icons/hicolor/
+gnome-tweaks/usr/share/icons/hicolor/symbolic/
+gnome-tweaks/usr/share/icons/hicolor/symbolic/apps/
+gnome-tweaks/usr/share/icons/hicolor/symbolic/apps/org.gnome.tweaks-symbolic.svg
+gnome-tweaks/usr/share/icons/hicolor/scalable/
+gnome-tweaks/usr/share/icons/hicolor/scalable/apps/
+gnome-tweaks/usr/share/icons/hicolor/scalable/apps/org.gnome.tweaks.svg
+gnome-tweaks/usr/lib/
+gnome-tweaks/usr/lib/python3.13/
+gnome-tweaks/usr/lib/python3.13/site-packages/
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/utils.py
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/tweak_group_startup.py
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/tweak_group_keyboard.py
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/tweak_group_appearance.py
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/__init__.py
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/tweak_group_font.py
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/tweak_group_windows.py
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/__pycache__/
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/__pycache__/tweak_group_keyboard.cpython-313.opt-2.pyc
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/__pycache__/tweak_group_mouse.cpython-313.pyc
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/__pycache__/tweak_group_keyboard.cpython-313.pyc
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/__pycache__/tweak_group_windows.cpython-313.pyc
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/__pycache__/tweak_group_sound.cpython-313.pyc
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/__pycache__/tweak_group_appearance.cpython-313.opt-2.pyc
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/__pycache__/tweak_group_mouse.cpython-313.opt-2.pyc
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/__pycache__/tweak_group_startup.cpython-313.pyc
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/__pycache__/tweak_group_font.cpython-313.pyc
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/__pycache__/__init__.cpython-313.pyc
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/__pycache__/tweak_group_startup.cpython-313.opt-2.pyc
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/__pycache__/tweak_group_sound.cpython-313.opt-2.pyc
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/__pycache__/tweak_group_windows.cpython-313.opt-2.pyc
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/__pycache__/tweak_group_font.cpython-313.opt-2.pyc
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/__pycache__/tweak_group_appearance.cpython-313.pyc
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/__pycache__/__init__.cpython-313.opt-2.pyc
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/tweak_group_mouse.py
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweaks/tweak_group_sound.py
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweakmodel.py
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/widgets.py
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/tweakview.py
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/gsettings.py
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/__init__.py
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/defs.py
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/app.py
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/gtksettings.py
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/__pycache__/
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/__pycache__/gsettings.cpython-313.opt-2.pyc
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/__pycache__/gtksettings.cpython-313.pyc
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/__pycache__/gsettings.cpython-313.pyc
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/__pycache__/utils.cpython-313.opt-2.pyc
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/__pycache__/tweakmodel.cpython-313.opt-2.pyc
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/__pycache__/gtksettings.cpython-313.opt-2.pyc
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/__pycache__/app.cpython-313.opt-2.pyc
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/__pycache__/gshellwrapper.cpython-313.opt-2.pyc
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/__pycache__/tweakmodel.cpython-313.pyc
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/__pycache__/__init__.cpython-313.pyc
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/__pycache__/widgets.cpython-313.opt-2.pyc
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/__pycache__/tweakview.cpython-313.opt-2.pyc
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/__pycache__/tweakview.cpython-313.pyc
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/__pycache__/widgets.cpython-313.pyc
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/__pycache__/defs.cpython-313.opt-2.pyc
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/__pycache__/app.cpython-313.pyc
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/__pycache__/gshellwrapper.cpython-313.pyc
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/__pycache__/utils.cpython-313.pyc
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/__pycache__/defs.cpython-313.pyc
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/__pycache__/__init__.cpython-313.opt-2.pyc
+gnome-tweaks/usr/lib/python3.13/site-packages/gtweak/gshellwrapper.py
+gnome-tweaks/usr/bin/
+gnome-tweaks/usr/bin/gnome-tweaks
+gnome-tweaks/version
+gnome-tweaks/depends
+gnome-tweaks/postinst

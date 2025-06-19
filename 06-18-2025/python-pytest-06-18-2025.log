@@ -1,0 +1,1593 @@
+--2025-06-18 07:19:20--  https://files.pythonhosted.org/packages/source/p/pytest/pytest-8.4.1.tar.gz
+Resolving files.pythonhosted.org (files.pythonhosted.org)... 2a04:4e42::223, 2a04:4e42:600::223, 2a04:4e42:200::223, ...
+Connecting to files.pythonhosted.org (files.pythonhosted.org)|2a04:4e42::223|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://files.pythonhosted.org/packages/08/ba/45911d754e8eba3d5a841a5ce61a65a685ff1798421ac054f85aa8747dfb/pytest-8.4.1.tar.gz [following]
+--2025-06-18 07:19:20--  https://files.pythonhosted.org/packages/08/ba/45911d754e8eba3d5a841a5ce61a65a685ff1798421ac054f85aa8747dfb/pytest-8.4.1.tar.gz
+Reusing existing connection to [files.pythonhosted.org]:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1517714 (1.4M) [application/octet-stream]
+Saving to: 'pytest-8.4.1.tar.gz'
+
+     0K .......... .......... .......... .......... ..........  3% 7.02M 0s
+    50K .......... .......... .......... .......... ..........  6% 25.1M 0s
+   100K .......... .......... .......... .......... .......... 10% 8.56M 0s
+   150K .......... .......... .......... .......... .......... 13%  105M 0s
+   200K .......... .......... .......... .......... .......... 16% 66.9M 0s
+   250K .......... .......... .......... .......... .......... 20% 53.0M 0s
+   300K .......... .......... .......... .......... .......... 23% 28.6M 0s
+   350K .......... .......... .......... .......... .......... 26%  134M 0s
+   400K .......... .......... .......... .......... .......... 30% 65.9M 0s
+   450K .......... .......... .......... .......... .......... 33% 16.0M 0s
+   500K .......... .......... .......... .......... .......... 37%  128M 0s
+   550K .......... .......... .......... .......... .......... 40%  108M 0s
+   600K .......... .......... .......... .......... .......... 43%  173M 0s
+   650K .......... .......... .......... .......... .......... 47% 67.0M 0s
+   700K .......... .......... .......... .......... .......... 50%  170M 0s
+   750K .......... .......... .......... .......... .......... 53%  100M 0s
+   800K .......... .......... .......... .......... .......... 57% 95.3M 0s
+   850K .......... .......... .......... .......... .......... 60% 47.4M 0s
+   900K .......... .......... .......... .......... .......... 64% 95.4M 0s
+   950K .......... .......... .......... .......... .......... 67% 96.4M 0s
+  1000K .......... .......... .......... .......... .......... 70% 37.6M 0s
+  1050K .......... .......... .......... .......... .......... 74% 94.8M 0s
+  1100K .......... .......... .......... .......... .......... 77%  180M 0s
+  1150K .......... .......... .......... .......... .......... 80% 96.7M 0s
+  1200K .......... .......... .......... .......... .......... 84% 96.3M 0s
+  1250K .......... .......... .......... .......... .......... 87% 97.7M 0s
+  1300K .......... .......... .......... .......... .......... 91% 99.6M 0s
+  1350K .......... .......... .......... .......... .......... 94%  179M 0s
+  1400K .......... .......... .......... .......... .......... 97% 94.2M 0s
+  1450K .......... .......... .......... ..                   100%  121M=0.03s
+
+2025-06-18 07:19:20 (44.0 MB/s) - 'pytest-8.4.1.tar.gz' saved [1517714/1517714]
+
+pytest-8.4.1/
+pytest-8.4.1/.coveragerc
+pytest-8.4.1/.git-blame-ignore-revs
+pytest-8.4.1/.gitattributes
+pytest-8.4.1/.github/
+pytest-8.4.1/.github/FUNDING.yml
+pytest-8.4.1/.github/ISSUE_TEMPLATE/
+pytest-8.4.1/.github/ISSUE_TEMPLATE/1_bug_report.md
+pytest-8.4.1/.github/ISSUE_TEMPLATE/2_feature_request.md
+pytest-8.4.1/.github/ISSUE_TEMPLATE/config.yml
+pytest-8.4.1/.github/PULL_REQUEST_TEMPLATE.md
+pytest-8.4.1/.github/chronographer.yml
+pytest-8.4.1/.github/config.yml
+pytest-8.4.1/.github/dependabot.yml
+pytest-8.4.1/.github/labels.toml
+pytest-8.4.1/.github/patchback.yml
+pytest-8.4.1/.github/workflows/
+pytest-8.4.1/.github/workflows/deploy.yml
+pytest-8.4.1/.github/workflows/prepare-release-pr.yml
+pytest-8.4.1/.github/workflows/stale.yml
+pytest-8.4.1/.github/workflows/test.yml
+pytest-8.4.1/.github/workflows/update-plugin-list.yml
+pytest-8.4.1/.gitignore
+pytest-8.4.1/.pre-commit-config.yaml
+pytest-8.4.1/.readthedocs.yaml
+pytest-8.4.1/AUTHORS
+pytest-8.4.1/CHANGELOG.rst
+pytest-8.4.1/CITATION
+pytest-8.4.1/CODE_OF_CONDUCT.md
+pytest-8.4.1/CONTRIBUTING.rst
+pytest-8.4.1/LICENSE
+pytest-8.4.1/OPENCOLLECTIVE.rst
+pytest-8.4.1/PKG-INFO
+pytest-8.4.1/README.rst
+pytest-8.4.1/RELEASING.rst
+pytest-8.4.1/TIDELIFT.rst
+pytest-8.4.1/bench/
+pytest-8.4.1/bench/bench.py
+pytest-8.4.1/bench/bench_argcomplete.py
+pytest-8.4.1/bench/empty.py
+pytest-8.4.1/bench/manyparam.py
+pytest-8.4.1/bench/skip.py
+pytest-8.4.1/bench/unit_test.py
+pytest-8.4.1/bench/xunit.py
+pytest-8.4.1/changelog/
+pytest-8.4.1/changelog/.gitignore
+pytest-8.4.1/changelog/README.rst
+pytest-8.4.1/changelog/_template.rst
+pytest-8.4.1/codecov.yml
+pytest-8.4.1/doc/
+pytest-8.4.1/doc/en/
+pytest-8.4.1/doc/en/Makefile
+pytest-8.4.1/doc/en/_static/
+pytest-8.4.1/doc/en/_static/pytest-custom.css
+pytest-8.4.1/doc/en/_static/pytest1.png
+pytest-8.4.1/doc/en/_templates/
+pytest-8.4.1/doc/en/_templates/links.html
+pytest-8.4.1/doc/en/adopt.rst
+pytest-8.4.1/doc/en/announce/
+pytest-8.4.1/doc/en/announce/index.rst
+pytest-8.4.1/doc/en/announce/release-2.0.0.rst
+pytest-8.4.1/doc/en/announce/release-2.0.1.rst
+pytest-8.4.1/doc/en/announce/release-2.0.2.rst
+pytest-8.4.1/doc/en/announce/release-2.0.3.rst
+pytest-8.4.1/doc/en/announce/release-2.1.0.rst
+pytest-8.4.1/doc/en/announce/release-2.1.1.rst
+pytest-8.4.1/doc/en/announce/release-2.1.2.rst
+pytest-8.4.1/doc/en/announce/release-2.1.3.rst
+pytest-8.4.1/doc/en/announce/release-2.2.0.rst
+pytest-8.4.1/doc/en/announce/release-2.2.1.rst
+pytest-8.4.1/doc/en/announce/release-2.2.2.rst
+pytest-8.4.1/doc/en/announce/release-2.2.4.rst
+pytest-8.4.1/doc/en/announce/release-2.3.0.rst
+pytest-8.4.1/doc/en/announce/release-2.3.1.rst
+pytest-8.4.1/doc/en/announce/release-2.3.2.rst
+pytest-8.4.1/doc/en/announce/release-2.3.3.rst
+pytest-8.4.1/doc/en/announce/release-2.3.4.rst
+pytest-8.4.1/doc/en/announce/release-2.3.5.rst
+pytest-8.4.1/doc/en/announce/release-2.4.0.rst
+pytest-8.4.1/doc/en/announce/release-2.4.1.rst
+pytest-8.4.1/doc/en/announce/release-2.4.2.rst
+pytest-8.4.1/doc/en/announce/release-2.5.0.rst
+pytest-8.4.1/doc/en/announce/release-2.5.1.rst
+pytest-8.4.1/doc/en/announce/release-2.5.2.rst
+pytest-8.4.1/doc/en/announce/release-2.6.0.rst
+pytest-8.4.1/doc/en/announce/release-2.6.1.rst
+pytest-8.4.1/doc/en/announce/release-2.6.2.rst
+pytest-8.4.1/doc/en/announce/release-2.6.3.rst
+pytest-8.4.1/doc/en/announce/release-2.7.0.rst
+pytest-8.4.1/doc/en/announce/release-2.7.1.rst
+pytest-8.4.1/doc/en/announce/release-2.7.2.rst
+pytest-8.4.1/doc/en/announce/release-2.8.2.rst
+pytest-8.4.1/doc/en/announce/release-2.8.3.rst
+pytest-8.4.1/doc/en/announce/release-2.8.4.rst
+pytest-8.4.1/doc/en/announce/release-2.8.5.rst
+pytest-8.4.1/doc/en/announce/release-2.8.6.rst
+pytest-8.4.1/doc/en/announce/release-2.8.7.rst
+pytest-8.4.1/doc/en/announce/release-2.9.0.rst
+pytest-8.4.1/doc/en/announce/release-2.9.1.rst
+pytest-8.4.1/doc/en/announce/release-2.9.2.rst
+pytest-8.4.1/doc/en/announce/release-3.0.0.rst
+pytest-8.4.1/doc/en/announce/release-3.0.1.rst
+pytest-8.4.1/doc/en/announce/release-3.0.2.rst
+pytest-8.4.1/doc/en/announce/release-3.0.3.rst
+pytest-8.4.1/doc/en/announce/release-3.0.4.rst
+pytest-8.4.1/doc/en/announce/release-3.0.5.rst
+pytest-8.4.1/doc/en/announce/release-3.0.6.rst
+pytest-8.4.1/doc/en/announce/release-3.0.7.rst
+pytest-8.4.1/doc/en/announce/release-3.1.0.rst
+pytest-8.4.1/doc/en/announce/release-3.1.1.rst
+pytest-8.4.1/doc/en/announce/release-3.1.2.rst
+pytest-8.4.1/doc/en/announce/release-3.1.3.rst
+pytest-8.4.1/doc/en/announce/release-3.10.0.rst
+pytest-8.4.1/doc/en/announce/release-3.10.1.rst
+pytest-8.4.1/doc/en/announce/release-3.2.0.rst
+pytest-8.4.1/doc/en/announce/release-3.2.1.rst
+pytest-8.4.1/doc/en/announce/release-3.2.2.rst
+pytest-8.4.1/doc/en/announce/release-3.2.3.rst
+pytest-8.4.1/doc/en/announce/release-3.2.4.rst
+pytest-8.4.1/doc/en/announce/release-3.2.5.rst
+pytest-8.4.1/doc/en/announce/release-3.3.0.rst
+pytest-8.4.1/doc/en/announce/release-3.3.1.rst
+pytest-8.4.1/doc/en/announce/release-3.3.2.rst
+pytest-8.4.1/doc/en/announce/release-3.4.0.rst
+pytest-8.4.1/doc/en/announce/release-3.4.1.rst
+pytest-8.4.1/doc/en/announce/release-3.4.2.rst
+pytest-8.4.1/doc/en/announce/release-3.5.0.rst
+pytest-8.4.1/doc/en/announce/release-3.5.1.rst
+pytest-8.4.1/doc/en/announce/release-3.6.0.rst
+pytest-8.4.1/doc/en/announce/release-3.6.1.rst
+pytest-8.4.1/doc/en/announce/release-3.6.2.rst
+pytest-8.4.1/doc/en/announce/release-3.6.3.rst
+pytest-8.4.1/doc/en/announce/release-3.6.4.rst
+pytest-8.4.1/doc/en/announce/release-3.7.0.rst
+pytest-8.4.1/doc/en/announce/release-3.7.1.rst
+pytest-8.4.1/doc/en/announce/release-3.7.2.rst
+pytest-8.4.1/doc/en/announce/release-3.7.3.rst
+pytest-8.4.1/doc/en/announce/release-3.7.4.rst
+pytest-8.4.1/doc/en/announce/release-3.8.0.rst
+pytest-8.4.1/doc/en/announce/release-3.8.1.rst
+pytest-8.4.1/doc/en/announce/release-3.8.2.rst
+pytest-8.4.1/doc/en/announce/release-3.9.0.rst
+pytest-8.4.1/doc/en/announce/release-3.9.1.rst
+pytest-8.4.1/doc/en/announce/release-3.9.2.rst
+pytest-8.4.1/doc/en/announce/release-3.9.3.rst
+pytest-8.4.1/doc/en/announce/release-4.0.0.rst
+pytest-8.4.1/doc/en/announce/release-4.0.1.rst
+pytest-8.4.1/doc/en/announce/release-4.0.2.rst
+pytest-8.4.1/doc/en/announce/release-4.1.0.rst
+pytest-8.4.1/doc/en/announce/release-4.1.1.rst
+pytest-8.4.1/doc/en/announce/release-4.2.0.rst
+pytest-8.4.1/doc/en/announce/release-4.2.1.rst
+pytest-8.4.1/doc/en/announce/release-4.3.0.rst
+pytest-8.4.1/doc/en/announce/release-4.3.1.rst
+pytest-8.4.1/doc/en/announce/release-4.4.0.rst
+pytest-8.4.1/doc/en/announce/release-4.4.1.rst
+pytest-8.4.1/doc/en/announce/release-4.4.2.rst
+pytest-8.4.1/doc/en/announce/release-4.5.0.rst
+pytest-8.4.1/doc/en/announce/release-4.6.0.rst
+pytest-8.4.1/doc/en/announce/release-4.6.1.rst
+pytest-8.4.1/doc/en/announce/release-4.6.2.rst
+pytest-8.4.1/doc/en/announce/release-4.6.3.rst
+pytest-8.4.1/doc/en/announce/release-4.6.4.rst
+pytest-8.4.1/doc/en/announce/release-4.6.5.rst
+pytest-8.4.1/doc/en/announce/release-4.6.6.rst
+pytest-8.4.1/doc/en/announce/release-4.6.7.rst
+pytest-8.4.1/doc/en/announce/release-4.6.8.rst
+pytest-8.4.1/doc/en/announce/release-4.6.9.rst
+pytest-8.4.1/doc/en/announce/release-5.0.0.rst
+pytest-8.4.1/doc/en/announce/release-5.0.1.rst
+pytest-8.4.1/doc/en/announce/release-5.1.0.rst
+pytest-8.4.1/doc/en/announce/release-5.1.1.rst
+pytest-8.4.1/doc/en/announce/release-5.1.2.rst
+pytest-8.4.1/doc/en/announce/release-5.1.3.rst
+pytest-8.4.1/doc/en/announce/release-5.2.0.rst
+pytest-8.4.1/doc/en/announce/release-5.2.1.rst
+pytest-8.4.1/doc/en/announce/release-5.2.2.rst
+pytest-8.4.1/doc/en/announce/release-5.2.3.rst
+pytest-8.4.1/doc/en/announce/release-5.2.4.rst
+pytest-8.4.1/doc/en/announce/release-5.3.0.rst
+pytest-8.4.1/doc/en/announce/release-5.3.1.rst
+pytest-8.4.1/doc/en/announce/release-5.3.2.rst
+pytest-8.4.1/doc/en/announce/release-5.3.3.rst
+pytest-8.4.1/doc/en/announce/release-5.3.4.rst
+pytest-8.4.1/doc/en/announce/release-5.3.5.rst
+pytest-8.4.1/doc/en/announce/release-5.4.0.rst
+pytest-8.4.1/doc/en/announce/release-5.4.1.rst
+pytest-8.4.1/doc/en/announce/release-5.4.2.rst
+pytest-8.4.1/doc/en/announce/release-5.4.3.rst
+pytest-8.4.1/doc/en/announce/release-6.0.0.rst
+pytest-8.4.1/doc/en/announce/release-6.0.0rc1.rst
+pytest-8.4.1/doc/en/announce/release-6.0.1.rst
+pytest-8.4.1/doc/en/announce/release-6.0.2.rst
+pytest-8.4.1/doc/en/announce/release-6.1.0.rst
+pytest-8.4.1/doc/en/announce/release-6.1.1.rst
+pytest-8.4.1/doc/en/announce/release-6.1.2.rst
+pytest-8.4.1/doc/en/announce/release-6.2.0.rst
+pytest-8.4.1/doc/en/announce/release-6.2.1.rst
+pytest-8.4.1/doc/en/announce/release-6.2.2.rst
+pytest-8.4.1/doc/en/announce/release-6.2.3.rst
+pytest-8.4.1/doc/en/announce/release-6.2.4.rst
+pytest-8.4.1/doc/en/announce/release-6.2.5.rst
+pytest-8.4.1/doc/en/announce/release-7.0.0.rst
+pytest-8.4.1/doc/en/announce/release-7.0.0rc1.rst
+pytest-8.4.1/doc/en/announce/release-7.0.1.rst
+pytest-8.4.1/doc/en/announce/release-7.1.0.rst
+pytest-8.4.1/doc/en/announce/release-7.1.1.rst
+pytest-8.4.1/doc/en/announce/release-7.1.2.rst
+pytest-8.4.1/doc/en/announce/release-7.1.3.rst
+pytest-8.4.1/doc/en/announce/release-7.2.0.rst
+pytest-8.4.1/doc/en/announce/release-7.2.1.rst
+pytest-8.4.1/doc/en/announce/release-7.2.2.rst
+pytest-8.4.1/doc/en/announce/release-7.3.0.rst
+pytest-8.4.1/doc/en/announce/release-7.3.1.rst
+pytest-8.4.1/doc/en/announce/release-7.3.2.rst
+pytest-8.4.1/doc/en/announce/release-7.4.0.rst
+pytest-8.4.1/doc/en/announce/release-7.4.1.rst
+pytest-8.4.1/doc/en/announce/release-7.4.2.rst
+pytest-8.4.1/doc/en/announce/release-7.4.3.rst
+pytest-8.4.1/doc/en/announce/release-7.4.4.rst
+pytest-8.4.1/doc/en/announce/release-8.0.0.rst
+pytest-8.4.1/doc/en/announce/release-8.0.0rc1.rst
+pytest-8.4.1/doc/en/announce/release-8.0.0rc2.rst
+pytest-8.4.1/doc/en/announce/release-8.0.1.rst
+pytest-8.4.1/doc/en/announce/release-8.0.2.rst
+pytest-8.4.1/doc/en/announce/release-8.1.0.rst
+pytest-8.4.1/doc/en/announce/release-8.1.1.rst
+pytest-8.4.1/doc/en/announce/release-8.1.2.rst
+pytest-8.4.1/doc/en/announce/release-8.2.0.rst
+pytest-8.4.1/doc/en/announce/release-8.2.1.rst
+pytest-8.4.1/doc/en/announce/release-8.2.2.rst
+pytest-8.4.1/doc/en/announce/release-8.3.0.rst
+pytest-8.4.1/doc/en/announce/release-8.3.1.rst
+pytest-8.4.1/doc/en/announce/release-8.3.2.rst
+pytest-8.4.1/doc/en/announce/release-8.3.3.rst
+pytest-8.4.1/doc/en/announce/release-8.3.4.rst
+pytest-8.4.1/doc/en/announce/release-8.3.5.rst
+pytest-8.4.1/doc/en/announce/release-8.4.0.rst
+pytest-8.4.1/doc/en/announce/release-8.4.1.rst
+pytest-8.4.1/doc/en/announce/sprint2016.rst
+pytest-8.4.1/doc/en/backwards-compatibility.rst
+pytest-8.4.1/doc/en/broken-dep-constraints.txt
+pytest-8.4.1/doc/en/builtin.rst
+pytest-8.4.1/doc/en/changelog.rst
+pytest-8.4.1/doc/en/conf.py
+pytest-8.4.1/doc/en/conftest.py
+pytest-8.4.1/doc/en/contact.rst
+pytest-8.4.1/doc/en/contents.rst
+pytest-8.4.1/doc/en/contributing.rst
+pytest-8.4.1/doc/en/deprecations.rst
+pytest-8.4.1/doc/en/development_guide.rst
+pytest-8.4.1/doc/en/example/
+pytest-8.4.1/doc/en/example/assertion/
+pytest-8.4.1/doc/en/example/assertion/failure_demo.py
+pytest-8.4.1/doc/en/example/assertion/global_testmodule_config/
+pytest-8.4.1/doc/en/example/assertion/global_testmodule_config/conftest.py
+pytest-8.4.1/doc/en/example/assertion/global_testmodule_config/test_hello_world.py
+pytest-8.4.1/doc/en/example/assertion/test_failures.py
+pytest-8.4.1/doc/en/example/assertion/test_setup_flow_example.py
+pytest-8.4.1/doc/en/example/attic.rst
+pytest-8.4.1/doc/en/example/conftest.py
+pytest-8.4.1/doc/en/example/customdirectory/
+pytest-8.4.1/doc/en/example/customdirectory/conftest.py
+pytest-8.4.1/doc/en/example/customdirectory/pytest.ini
+pytest-8.4.1/doc/en/example/customdirectory/tests/
+pytest-8.4.1/doc/en/example/customdirectory/tests/manifest.json
+pytest-8.4.1/doc/en/example/customdirectory/tests/test_first.py
+pytest-8.4.1/doc/en/example/customdirectory/tests/test_second.py
+pytest-8.4.1/doc/en/example/customdirectory/tests/test_third.py
+pytest-8.4.1/doc/en/example/customdirectory.rst
+pytest-8.4.1/doc/en/example/fixtures/
+pytest-8.4.1/doc/en/example/fixtures/fixture_availability.svg
+pytest-8.4.1/doc/en/example/fixtures/fixture_availability_plugins.svg
+pytest-8.4.1/doc/en/example/fixtures/test_fixtures_order_autouse.py
+pytest-8.4.1/doc/en/example/fixtures/test_fixtures_order_autouse.svg
+pytest-8.4.1/doc/en/example/fixtures/test_fixtures_order_autouse_flat.svg
+pytest-8.4.1/doc/en/example/fixtures/test_fixtures_order_autouse_multiple_scopes.py
+pytest-8.4.1/doc/en/example/fixtures/test_fixtures_order_autouse_multiple_scopes.svg
+pytest-8.4.1/doc/en/example/fixtures/test_fixtures_order_autouse_temp_effects.py
+pytest-8.4.1/doc/en/example/fixtures/test_fixtures_order_autouse_temp_effects.svg
+pytest-8.4.1/doc/en/example/fixtures/test_fixtures_order_dependencies.py
+pytest-8.4.1/doc/en/example/fixtures/test_fixtures_order_dependencies.svg
+pytest-8.4.1/doc/en/example/fixtures/test_fixtures_order_dependencies_flat.svg
+pytest-8.4.1/doc/en/example/fixtures/test_fixtures_order_dependencies_unclear.svg
+pytest-8.4.1/doc/en/example/fixtures/test_fixtures_order_scope.py
+pytest-8.4.1/doc/en/example/fixtures/test_fixtures_order_scope.svg
+pytest-8.4.1/doc/en/example/fixtures/test_fixtures_request_different_scope.py
+pytest-8.4.1/doc/en/example/fixtures/test_fixtures_request_different_scope.svg
+pytest-8.4.1/doc/en/example/index.rst
+pytest-8.4.1/doc/en/example/markers.rst
+pytest-8.4.1/doc/en/example/multipython.py
+pytest-8.4.1/doc/en/example/nonpython/
+pytest-8.4.1/doc/en/example/nonpython/__init__.py
+pytest-8.4.1/doc/en/example/nonpython/conftest.py
+pytest-8.4.1/doc/en/example/nonpython/test_simple.yaml
+pytest-8.4.1/doc/en/example/nonpython.rst
+pytest-8.4.1/doc/en/example/parametrize.rst
+pytest-8.4.1/doc/en/example/pythoncollection.py
+pytest-8.4.1/doc/en/example/pythoncollection.rst
+pytest-8.4.1/doc/en/example/reportingdemo.rst
+pytest-8.4.1/doc/en/example/simple.rst
+pytest-8.4.1/doc/en/example/special.rst
+pytest-8.4.1/doc/en/example/xfail_demo.py
+pytest-8.4.1/doc/en/explanation/
+pytest-8.4.1/doc/en/explanation/anatomy.rst
+pytest-8.4.1/doc/en/explanation/ci.rst
+pytest-8.4.1/doc/en/explanation/fixtures.rst
+pytest-8.4.1/doc/en/explanation/flaky.rst
+pytest-8.4.1/doc/en/explanation/goodpractices.rst
+pytest-8.4.1/doc/en/explanation/index.rst
+pytest-8.4.1/doc/en/explanation/pythonpath.rst
+pytest-8.4.1/doc/en/explanation/types.rst
+pytest-8.4.1/doc/en/funcarg_compare.rst
+pytest-8.4.1/doc/en/funcargs.rst
+pytest-8.4.1/doc/en/getting-started.rst
+pytest-8.4.1/doc/en/historical-notes.rst
+pytest-8.4.1/doc/en/history.rst
+pytest-8.4.1/doc/en/how-to/
+pytest-8.4.1/doc/en/how-to/assert.rst
+pytest-8.4.1/doc/en/how-to/bash-completion.rst
+pytest-8.4.1/doc/en/how-to/cache.rst
+pytest-8.4.1/doc/en/how-to/capture-stdout-stderr.rst
+pytest-8.4.1/doc/en/how-to/capture-warnings.rst
+pytest-8.4.1/doc/en/how-to/doctest.rst
+pytest-8.4.1/doc/en/how-to/existingtestsuite.rst
+pytest-8.4.1/doc/en/how-to/failures.rst
+pytest-8.4.1/doc/en/how-to/fixtures.rst
+pytest-8.4.1/doc/en/how-to/index.rst
+pytest-8.4.1/doc/en/how-to/logging.rst
+pytest-8.4.1/doc/en/how-to/mark.rst
+pytest-8.4.1/doc/en/how-to/monkeypatch.rst
+pytest-8.4.1/doc/en/how-to/output.rst
+pytest-8.4.1/doc/en/how-to/parametrize.rst
+pytest-8.4.1/doc/en/how-to/plugins.rst
+pytest-8.4.1/doc/en/how-to/skipping.rst
+pytest-8.4.1/doc/en/how-to/tmp_path.rst
+pytest-8.4.1/doc/en/how-to/unittest.rst
+pytest-8.4.1/doc/en/how-to/usage.rst
+pytest-8.4.1/doc/en/how-to/writing_hook_functions.rst
+pytest-8.4.1/doc/en/how-to/writing_plugins.rst
+pytest-8.4.1/doc/en/how-to/xunit_setup.rst
+pytest-8.4.1/doc/en/img/
+pytest-8.4.1/doc/en/img/cramer2.png
+pytest-8.4.1/doc/en/img/favicon.png
+pytest-8.4.1/doc/en/img/freiburg2.jpg
+pytest-8.4.1/doc/en/img/gaynor3.png
+pytest-8.4.1/doc/en/img/keleshev.png
+pytest-8.4.1/doc/en/img/pullrequest.png
+pytest-8.4.1/doc/en/img/pylib.png
+pytest-8.4.1/doc/en/img/pytest_logo_curves.svg
+pytest-8.4.1/doc/en/img/theuni.png
+pytest-8.4.1/doc/en/index.rst
+pytest-8.4.1/doc/en/license.rst
+pytest-8.4.1/doc/en/naming20.rst
+pytest-8.4.1/doc/en/proposals/
+pytest-8.4.1/doc/en/proposals/parametrize_with_fixtures.rst
+pytest-8.4.1/doc/en/pytest.ini
+pytest-8.4.1/doc/en/recwarn.rst
+pytest-8.4.1/doc/en/reference/
+pytest-8.4.1/doc/en/reference/customize.rst
+pytest-8.4.1/doc/en/reference/exit-codes.rst
+pytest-8.4.1/doc/en/reference/fixtures.rst
+pytest-8.4.1/doc/en/reference/index.rst
+pytest-8.4.1/doc/en/reference/plugin_list.rst
+pytest-8.4.1/doc/en/reference/reference.rst
+pytest-8.4.1/doc/en/requirements.txt
+pytest-8.4.1/doc/en/sponsor.rst
+pytest-8.4.1/doc/en/talks.rst
+pytest-8.4.1/doc/en/tidelift.rst
+pytest-8.4.1/doc/en/yieldfixture.rst
+pytest-8.4.1/extra/
+pytest-8.4.1/extra/get_issues.py
+pytest-8.4.1/pyproject.toml
+pytest-8.4.1/scripts/
+pytest-8.4.1/scripts/.gitignore
+pytest-8.4.1/scripts/generate-gh-release-notes.py
+pytest-8.4.1/scripts/prepare-release-pr.py
+pytest-8.4.1/scripts/release.major.rst
+pytest-8.4.1/scripts/release.minor.rst
+pytest-8.4.1/scripts/release.patch.rst
+pytest-8.4.1/scripts/release.pre.rst
+pytest-8.4.1/scripts/release.py
+pytest-8.4.1/scripts/update-plugin-list.py
+pytest-8.4.1/setup.cfg
+pytest-8.4.1/src/
+pytest-8.4.1/src/_pytest/
+pytest-8.4.1/src/_pytest/__init__.py
+pytest-8.4.1/src/_pytest/_argcomplete.py
+pytest-8.4.1/src/_pytest/_code/
+pytest-8.4.1/src/_pytest/_code/__init__.py
+pytest-8.4.1/src/_pytest/_code/code.py
+pytest-8.4.1/src/_pytest/_code/source.py
+pytest-8.4.1/src/_pytest/_io/
+pytest-8.4.1/src/_pytest/_io/__init__.py
+pytest-8.4.1/src/_pytest/_io/pprint.py
+pytest-8.4.1/src/_pytest/_io/saferepr.py
+pytest-8.4.1/src/_pytest/_io/terminalwriter.py
+pytest-8.4.1/src/_pytest/_io/wcwidth.py
+pytest-8.4.1/src/_pytest/_py/
+pytest-8.4.1/src/_pytest/_py/__init__.py
+pytest-8.4.1/src/_pytest/_py/error.py
+pytest-8.4.1/src/_pytest/_py/path.py
+pytest-8.4.1/src/_pytest/_version.py
+pytest-8.4.1/src/_pytest/assertion/
+pytest-8.4.1/src/_pytest/assertion/__init__.py
+pytest-8.4.1/src/_pytest/assertion/rewrite.py
+pytest-8.4.1/src/_pytest/assertion/truncate.py
+pytest-8.4.1/src/_pytest/assertion/util.py
+pytest-8.4.1/src/_pytest/cacheprovider.py
+pytest-8.4.1/src/_pytest/capture.py
+pytest-8.4.1/src/_pytest/compat.py
+pytest-8.4.1/src/_pytest/config/
+pytest-8.4.1/src/_pytest/config/__init__.py
+pytest-8.4.1/src/_pytest/config/argparsing.py
+pytest-8.4.1/src/_pytest/config/compat.py
+pytest-8.4.1/src/_pytest/config/exceptions.py
+pytest-8.4.1/src/_pytest/config/findpaths.py
+pytest-8.4.1/src/_pytest/debugging.py
+pytest-8.4.1/src/_pytest/deprecated.py
+pytest-8.4.1/src/_pytest/doctest.py
+pytest-8.4.1/src/_pytest/faulthandler.py
+pytest-8.4.1/src/_pytest/fixtures.py
+pytest-8.4.1/src/_pytest/freeze_support.py
+pytest-8.4.1/src/_pytest/helpconfig.py
+pytest-8.4.1/src/_pytest/hookspec.py
+pytest-8.4.1/src/_pytest/junitxml.py
+pytest-8.4.1/src/_pytest/legacypath.py
+pytest-8.4.1/src/_pytest/logging.py
+pytest-8.4.1/src/_pytest/main.py
+pytest-8.4.1/src/_pytest/mark/
+pytest-8.4.1/src/_pytest/mark/__init__.py
+pytest-8.4.1/src/_pytest/mark/expression.py
+pytest-8.4.1/src/_pytest/mark/structures.py
+pytest-8.4.1/src/_pytest/monkeypatch.py
+pytest-8.4.1/src/_pytest/nodes.py
+pytest-8.4.1/src/_pytest/outcomes.py
+pytest-8.4.1/src/_pytest/pastebin.py
+pytest-8.4.1/src/_pytest/pathlib.py
+pytest-8.4.1/src/_pytest/py.typed
+pytest-8.4.1/src/_pytest/pytester.py
+pytest-8.4.1/src/_pytest/pytester_assertions.py
+pytest-8.4.1/src/_pytest/python.py
+pytest-8.4.1/src/_pytest/python_api.py
+pytest-8.4.1/src/_pytest/raises.py
+pytest-8.4.1/src/_pytest/recwarn.py
+pytest-8.4.1/src/_pytest/reports.py
+pytest-8.4.1/src/_pytest/runner.py
+pytest-8.4.1/src/_pytest/scope.py
+pytest-8.4.1/src/_pytest/setuponly.py
+pytest-8.4.1/src/_pytest/setupplan.py
+pytest-8.4.1/src/_pytest/skipping.py
+pytest-8.4.1/src/_pytest/stash.py
+pytest-8.4.1/src/_pytest/stepwise.py
+pytest-8.4.1/src/_pytest/terminal.py
+pytest-8.4.1/src/_pytest/threadexception.py
+pytest-8.4.1/src/_pytest/timing.py
+pytest-8.4.1/src/_pytest/tmpdir.py
+pytest-8.4.1/src/_pytest/tracemalloc.py
+pytest-8.4.1/src/_pytest/unittest.py
+pytest-8.4.1/src/_pytest/unraisableexception.py
+pytest-8.4.1/src/_pytest/warning_types.py
+pytest-8.4.1/src/_pytest/warnings.py
+pytest-8.4.1/src/py.py
+pytest-8.4.1/src/pytest/
+pytest-8.4.1/src/pytest/__init__.py
+pytest-8.4.1/src/pytest/__main__.py
+pytest-8.4.1/src/pytest/py.typed
+pytest-8.4.1/src/pytest.egg-info/
+pytest-8.4.1/src/pytest.egg-info/PKG-INFO
+pytest-8.4.1/src/pytest.egg-info/SOURCES.txt
+pytest-8.4.1/src/pytest.egg-info/dependency_links.txt
+pytest-8.4.1/src/pytest.egg-info/entry_points.txt
+pytest-8.4.1/src/pytest.egg-info/requires.txt
+pytest-8.4.1/src/pytest.egg-info/top_level.txt
+pytest-8.4.1/testing/
+pytest-8.4.1/testing/_py/
+pytest-8.4.1/testing/_py/test_local.py
+pytest-8.4.1/testing/acceptance_test.py
+pytest-8.4.1/testing/code/
+pytest-8.4.1/testing/code/test_code.py
+pytest-8.4.1/testing/code/test_excinfo.py
+pytest-8.4.1/testing/code/test_source.py
+pytest-8.4.1/testing/conftest.py
+pytest-8.4.1/testing/deprecated_test.py
+pytest-8.4.1/testing/example_scripts/
+pytest-8.4.1/testing/example_scripts/README.rst
+pytest-8.4.1/testing/example_scripts/__init__.py
+pytest-8.4.1/testing/example_scripts/acceptance/
+pytest-8.4.1/testing/example_scripts/acceptance/fixture_mock_integration.py
+pytest-8.4.1/testing/example_scripts/collect/
+pytest-8.4.1/testing/example_scripts/collect/collect_init_tests/
+pytest-8.4.1/testing/example_scripts/collect/collect_init_tests/pytest.ini
+pytest-8.4.1/testing/example_scripts/collect/collect_init_tests/tests/
+pytest-8.4.1/testing/example_scripts/collect/collect_init_tests/tests/__init__.py
+pytest-8.4.1/testing/example_scripts/collect/collect_init_tests/tests/test_foo.py
+pytest-8.4.1/testing/example_scripts/collect/package_infinite_recursion/
+pytest-8.4.1/testing/example_scripts/collect/package_infinite_recursion/__init__.pyi
+pytest-8.4.1/testing/example_scripts/collect/package_infinite_recursion/conftest.py
+pytest-8.4.1/testing/example_scripts/collect/package_infinite_recursion/tests/
+pytest-8.4.1/testing/example_scripts/collect/package_infinite_recursion/tests/__init__.py
+pytest-8.4.1/testing/example_scripts/collect/package_infinite_recursion/tests/test_basic.py
+pytest-8.4.1/testing/example_scripts/collect/package_init_given_as_arg/
+pytest-8.4.1/testing/example_scripts/collect/package_init_given_as_arg/pkg/
+pytest-8.4.1/testing/example_scripts/collect/package_init_given_as_arg/pkg/__init__.py
+pytest-8.4.1/testing/example_scripts/collect/package_init_given_as_arg/pkg/test_foo.py
+pytest-8.4.1/testing/example_scripts/config/
+pytest-8.4.1/testing/example_scripts/config/collect_pytest_prefix/
+pytest-8.4.1/testing/example_scripts/config/collect_pytest_prefix/__init__.pyi
+pytest-8.4.1/testing/example_scripts/config/collect_pytest_prefix/conftest.py
+pytest-8.4.1/testing/example_scripts/config/collect_pytest_prefix/test_foo.py
+pytest-8.4.1/testing/example_scripts/conftest_usageerror/
+pytest-8.4.1/testing/example_scripts/conftest_usageerror/__init__.pyi
+pytest-8.4.1/testing/example_scripts/conftest_usageerror/conftest.py
+pytest-8.4.1/testing/example_scripts/customdirectory/
+pytest-8.4.1/testing/example_scripts/customdirectory/conftest.py
+pytest-8.4.1/testing/example_scripts/customdirectory/pytest.ini
+pytest-8.4.1/testing/example_scripts/customdirectory/tests/
+pytest-8.4.1/testing/example_scripts/customdirectory/tests/manifest.json
+pytest-8.4.1/testing/example_scripts/customdirectory/tests/test_first.py
+pytest-8.4.1/testing/example_scripts/customdirectory/tests/test_second.py
+pytest-8.4.1/testing/example_scripts/customdirectory/tests/test_third.py
+pytest-8.4.1/testing/example_scripts/dataclasses/
+pytest-8.4.1/testing/example_scripts/dataclasses/test_compare_dataclasses.py
+pytest-8.4.1/testing/example_scripts/dataclasses/test_compare_dataclasses_field_comparison_off.py
+pytest-8.4.1/testing/example_scripts/dataclasses/test_compare_dataclasses_verbose.py
+pytest-8.4.1/testing/example_scripts/dataclasses/test_compare_dataclasses_with_custom_eq.py
+pytest-8.4.1/testing/example_scripts/dataclasses/test_compare_initvar.py
+pytest-8.4.1/testing/example_scripts/dataclasses/test_compare_recursive_dataclasses.py
+pytest-8.4.1/testing/example_scripts/dataclasses/test_compare_two_different_dataclasses.py
+pytest-8.4.1/testing/example_scripts/doctest/
+pytest-8.4.1/testing/example_scripts/doctest/main_py/
+pytest-8.4.1/testing/example_scripts/doctest/main_py/__main__.py
+pytest-8.4.1/testing/example_scripts/doctest/main_py/test_normal_module.py
+pytest-8.4.1/testing/example_scripts/fixtures/
+pytest-8.4.1/testing/example_scripts/fixtures/custom_item/
+pytest-8.4.1/testing/example_scripts/fixtures/custom_item/__init__.pyi
+pytest-8.4.1/testing/example_scripts/fixtures/custom_item/conftest.py
+pytest-8.4.1/testing/example_scripts/fixtures/custom_item/foo/
+pytest-8.4.1/testing/example_scripts/fixtures/custom_item/foo/__init__.py
+pytest-8.4.1/testing/example_scripts/fixtures/custom_item/foo/test_foo.py
+pytest-8.4.1/testing/example_scripts/fixtures/fill_fixtures/
+pytest-8.4.1/testing/example_scripts/fixtures/fill_fixtures/test_conftest_funcargs_only_available_in_subdir/
+pytest-8.4.1/testing/example_scripts/fixtures/fill_fixtures/test_conftest_funcargs_only_available_in_subdir/sub1/
+pytest-8.4.1/testing/example_scripts/fixtures/fill_fixtures/test_conftest_funcargs_only_available_in_subdir/sub1/__init__.py
+pytest-8.4.1/testing/example_scripts/fixtures/fill_fixtures/test_conftest_funcargs_only_available_in_subdir/sub1/conftest.py
+pytest-8.4.1/testing/example_scripts/fixtures/fill_fixtures/test_conftest_funcargs_only_available_in_subdir/sub1/test_in_sub1.py
+pytest-8.4.1/testing/example_scripts/fixtures/fill_fixtures/test_conftest_funcargs_only_available_in_subdir/sub2/
+pytest-8.4.1/testing/example_scripts/fixtures/fill_fixtures/test_conftest_funcargs_only_available_in_subdir/sub2/__init__.py
+pytest-8.4.1/testing/example_scripts/fixtures/fill_fixtures/test_conftest_funcargs_only_available_in_subdir/sub2/conftest.py
+pytest-8.4.1/testing/example_scripts/fixtures/fill_fixtures/test_conftest_funcargs_only_available_in_subdir/sub2/test_in_sub2.py
+pytest-8.4.1/testing/example_scripts/fixtures/fill_fixtures/test_detect_recursive_dependency_error.py
+pytest-8.4.1/testing/example_scripts/fixtures/fill_fixtures/test_extend_fixture_conftest_conftest/
+pytest-8.4.1/testing/example_scripts/fixtures/fill_fixtures/test_extend_fixture_conftest_conftest/__init__.pyi
+pytest-8.4.1/testing/example_scripts/fixtures/fill_fixtures/test_extend_fixture_conftest_conftest/conftest.py
+pytest-8.4.1/testing/example_scripts/fixtures/fill_fixtures/test_extend_fixture_conftest_conftest/pkg/
+pytest-8.4.1/testing/example_scripts/fixtures/fill_fixtures/test_extend_fixture_conftest_conftest/pkg/__init__.py
+pytest-8.4.1/testing/example_scripts/fixtures/fill_fixtures/test_extend_fixture_conftest_conftest/pkg/conftest.py
+pytest-8.4.1/testing/example_scripts/fixtures/fill_fixtures/test_extend_fixture_conftest_conftest/pkg/test_spam.py
+pytest-8.4.1/testing/example_scripts/fixtures/fill_fixtures/test_extend_fixture_conftest_module/
+pytest-8.4.1/testing/example_scripts/fixtures/fill_fixtures/test_extend_fixture_conftest_module/__init__.pyi
+pytest-8.4.1/testing/example_scripts/fixtures/fill_fixtures/test_extend_fixture_conftest_module/conftest.py
+pytest-8.4.1/testing/example_scripts/fixtures/fill_fixtures/test_extend_fixture_conftest_module/test_extend_fixture_conftest_module.py
+pytest-8.4.1/testing/example_scripts/fixtures/fill_fixtures/test_extend_fixture_module_class.py
+pytest-8.4.1/testing/example_scripts/fixtures/fill_fixtures/test_funcarg_basic.py
+pytest-8.4.1/testing/example_scripts/fixtures/fill_fixtures/test_funcarg_lookup_classlevel.py
+pytest-8.4.1/testing/example_scripts/fixtures/fill_fixtures/test_funcarg_lookup_modulelevel.py
+pytest-8.4.1/testing/example_scripts/fixtures/fill_fixtures/test_funcarg_lookupfails.py
+pytest-8.4.1/testing/example_scripts/fixtures/test_fixture_named_request.py
+pytest-8.4.1/testing/example_scripts/fixtures/test_getfixturevalue_dynamic.py
+pytest-8.4.1/testing/example_scripts/issue88_initial_file_multinodes/
+pytest-8.4.1/testing/example_scripts/issue88_initial_file_multinodes/__init__.pyi
+pytest-8.4.1/testing/example_scripts/issue88_initial_file_multinodes/conftest.py
+pytest-8.4.1/testing/example_scripts/issue88_initial_file_multinodes/test_hello.py
+pytest-8.4.1/testing/example_scripts/issue_519.py
+pytest-8.4.1/testing/example_scripts/junit-10.xsd
+pytest-8.4.1/testing/example_scripts/marks/
+pytest-8.4.1/testing/example_scripts/marks/marks_considered_keywords/
+pytest-8.4.1/testing/example_scripts/marks/marks_considered_keywords/__init__.pyi
+pytest-8.4.1/testing/example_scripts/marks/marks_considered_keywords/conftest.py
+pytest-8.4.1/testing/example_scripts/marks/marks_considered_keywords/test_marks_as_keywords.py
+pytest-8.4.1/testing/example_scripts/perf_examples/
+pytest-8.4.1/testing/example_scripts/perf_examples/collect_stats/
+pytest-8.4.1/testing/example_scripts/perf_examples/collect_stats/.gitignore
+pytest-8.4.1/testing/example_scripts/perf_examples/collect_stats/generate_folders.py
+pytest-8.4.1/testing/example_scripts/perf_examples/collect_stats/template_test.py
+pytest-8.4.1/testing/example_scripts/pytest.ini
+pytest-8.4.1/testing/example_scripts/tmpdir/
+pytest-8.4.1/testing/example_scripts/tmpdir/tmp_path_fixture.py
+pytest-8.4.1/testing/example_scripts/unittest/
+pytest-8.4.1/testing/example_scripts/unittest/test_parametrized_fixture_error_message.py
+pytest-8.4.1/testing/example_scripts/unittest/test_setup_skip.py
+pytest-8.4.1/testing/example_scripts/unittest/test_setup_skip_class.py
+pytest-8.4.1/testing/example_scripts/unittest/test_setup_skip_module.py
+pytest-8.4.1/testing/example_scripts/unittest/test_unittest_asyncio.py
+pytest-8.4.1/testing/example_scripts/unittest/test_unittest_asynctest.py
+pytest-8.4.1/testing/example_scripts/unittest/test_unittest_plain_async.py
+pytest-8.4.1/testing/example_scripts/warnings/
+pytest-8.4.1/testing/example_scripts/warnings/test_group_warnings_by_message.py
+pytest-8.4.1/testing/example_scripts/warnings/test_group_warnings_by_message_summary/
+pytest-8.4.1/testing/example_scripts/warnings/test_group_warnings_by_message_summary/test_1.py
+pytest-8.4.1/testing/example_scripts/warnings/test_group_warnings_by_message_summary/test_2.py
+pytest-8.4.1/testing/examples/
+pytest-8.4.1/testing/examples/test_issue519.py
+pytest-8.4.1/testing/freeze/
+pytest-8.4.1/testing/freeze/.gitignore
+pytest-8.4.1/testing/freeze/create_executable.py
+pytest-8.4.1/testing/freeze/runtests_script.py
+pytest-8.4.1/testing/freeze/tests/
+pytest-8.4.1/testing/freeze/tests/test_doctest.txt
+pytest-8.4.1/testing/freeze/tests/test_trivial.py
+pytest-8.4.1/testing/freeze/tox_run.py
+pytest-8.4.1/testing/io/
+pytest-8.4.1/testing/io/test_pprint.py
+pytest-8.4.1/testing/io/test_saferepr.py
+pytest-8.4.1/testing/io/test_terminalwriter.py
+pytest-8.4.1/testing/io/test_wcwidth.py
+pytest-8.4.1/testing/logging/
+pytest-8.4.1/testing/logging/test_fixture.py
+pytest-8.4.1/testing/logging/test_formatter.py
+pytest-8.4.1/testing/logging/test_reporting.py
+pytest-8.4.1/testing/plugins_integration/
+pytest-8.4.1/testing/plugins_integration/.gitignore
+pytest-8.4.1/testing/plugins_integration/README.rst
+pytest-8.4.1/testing/plugins_integration/bdd_wallet.feature
+pytest-8.4.1/testing/plugins_integration/bdd_wallet.py
+pytest-8.4.1/testing/plugins_integration/django_settings.py
+pytest-8.4.1/testing/plugins_integration/pytest.ini
+pytest-8.4.1/testing/plugins_integration/pytest_anyio_integration.py
+pytest-8.4.1/testing/plugins_integration/pytest_asyncio_integration.py
+pytest-8.4.1/testing/plugins_integration/pytest_mock_integration.py
+pytest-8.4.1/testing/plugins_integration/pytest_rerunfailures_integration.py
+pytest-8.4.1/testing/plugins_integration/pytest_trio_integration.py
+pytest-8.4.1/testing/plugins_integration/pytest_twisted_integration.py
+pytest-8.4.1/testing/plugins_integration/requirements.txt
+pytest-8.4.1/testing/plugins_integration/simple_integration.py
+pytest-8.4.1/testing/python/
+pytest-8.4.1/testing/python/approx.py
+pytest-8.4.1/testing/python/collect.py
+pytest-8.4.1/testing/python/fixtures.py
+pytest-8.4.1/testing/python/integration.py
+pytest-8.4.1/testing/python/metafunc.py
+pytest-8.4.1/testing/python/raises.py
+pytest-8.4.1/testing/python/raises_group.py
+pytest-8.4.1/testing/python/show_fixtures_per_test.py
+pytest-8.4.1/testing/test_argcomplete.py
+pytest-8.4.1/testing/test_assertion.py
+pytest-8.4.1/testing/test_assertrewrite.py
+pytest-8.4.1/testing/test_cacheprovider.py
+pytest-8.4.1/testing/test_capture.py
+pytest-8.4.1/testing/test_collect_imported_tests.py
+pytest-8.4.1/testing/test_collection.py
+pytest-8.4.1/testing/test_compat.py
+pytest-8.4.1/testing/test_config.py
+pytest-8.4.1/testing/test_conftest.py
+pytest-8.4.1/testing/test_debugging.py
+pytest-8.4.1/testing/test_doctest.py
+pytest-8.4.1/testing/test_entry_points.py
+pytest-8.4.1/testing/test_error_diffs.py
+pytest-8.4.1/testing/test_faulthandler.py
+pytest-8.4.1/testing/test_findpaths.py
+pytest-8.4.1/testing/test_helpconfig.py
+pytest-8.4.1/testing/test_junitxml.py
+pytest-8.4.1/testing/test_legacypath.py
+pytest-8.4.1/testing/test_link_resolve.py
+pytest-8.4.1/testing/test_main.py
+pytest-8.4.1/testing/test_mark.py
+pytest-8.4.1/testing/test_mark_expression.py
+pytest-8.4.1/testing/test_meta.py
+pytest-8.4.1/testing/test_monkeypatch.py
+pytest-8.4.1/testing/test_nodes.py
+pytest-8.4.1/testing/test_parseopt.py
+pytest-8.4.1/testing/test_pastebin.py
+pytest-8.4.1/testing/test_pathlib.py
+pytest-8.4.1/testing/test_pluginmanager.py
+pytest-8.4.1/testing/test_pytester.py
+pytest-8.4.1/testing/test_python_path.py
+pytest-8.4.1/testing/test_recwarn.py
+pytest-8.4.1/testing/test_reports.py
+pytest-8.4.1/testing/test_runner.py
+pytest-8.4.1/testing/test_runner_xunit.py
+pytest-8.4.1/testing/test_scope.py
+pytest-8.4.1/testing/test_session.py
+pytest-8.4.1/testing/test_setuponly.py
+pytest-8.4.1/testing/test_setupplan.py
+pytest-8.4.1/testing/test_skipping.py
+pytest-8.4.1/testing/test_stash.py
+pytest-8.4.1/testing/test_stepwise.py
+pytest-8.4.1/testing/test_terminal.py
+pytest-8.4.1/testing/test_threadexception.py
+pytest-8.4.1/testing/test_tmpdir.py
+pytest-8.4.1/testing/test_unittest.py
+pytest-8.4.1/testing/test_unraisableexception.py
+pytest-8.4.1/testing/test_warning_types.py
+pytest-8.4.1/testing/test_warnings.py
+pytest-8.4.1/testing/typing_checks.py
+pytest-8.4.1/testing/typing_raises_group.py
+pytest-8.4.1/tox.ini
+* Creating isolated environment: venv+pip...
+* Installing packages in isolated environment:
+  - setuptools-scm[toml]>=6.2.3
+  - setuptools>=61
+* Getting build dependencies for wheel...
+/tmp/build-env-0ebkz8vw/lib/python3.13/site-packages/setuptools/config/_apply_pyprojecttoml.py:82: SetuptoolsDeprecationWarning: `project.license` as a TOML table is deprecated
+!!
+
+        ********************************************************************************
+        Please use a simple string containing a SPDX expression for `project.license`. You can also use `project.license-files`. (Both options available on setuptools>=77.0.0).
+
+        By 2026-Feb-18, you need to update your project and remove deprecated calls
+        or your builds will no longer be supported.
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  corresp(dist, value, root_dir)
+/tmp/build-env-0ebkz8vw/lib/python3.13/site-packages/setuptools/config/_apply_pyprojecttoml.py:61: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+!!
+
+        ********************************************************************************
+        Please consider removing the following classifiers in favor of a SPDX license expression:
+
+        License :: OSI Approved :: MIT License
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  dist._finalize_license_expression()
+/tmp/build-env-0ebkz8vw/lib/python3.13/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+!!
+
+        ********************************************************************************
+        Please consider removing the following classifiers in favor of a SPDX license expression:
+
+        License :: OSI Approved :: MIT License
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  self._finalize_license_expression()
+running egg_info
+writing src/pytest.egg-info/PKG-INFO
+writing dependency_links to src/pytest.egg-info/dependency_links.txt
+writing entry points to src/pytest.egg-info/entry_points.txt
+writing requirements to src/pytest.egg-info/requires.txt
+writing top-level names to src/pytest.egg-info/top_level.txt
+ERROR setuptools_scm._file_finders.git listing git files failed - pretending there aren't any
+reading manifest file 'src/pytest.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+adding license file 'AUTHORS'
+writing manifest file 'src/pytest.egg-info/SOURCES.txt'
+* Building wheel...
+/tmp/build-env-0ebkz8vw/lib/python3.13/site-packages/setuptools/config/_apply_pyprojecttoml.py:82: SetuptoolsDeprecationWarning: `project.license` as a TOML table is deprecated
+!!
+
+        ********************************************************************************
+        Please use a simple string containing a SPDX expression for `project.license`. You can also use `project.license-files`. (Both options available on setuptools>=77.0.0).
+
+        By 2026-Feb-18, you need to update your project and remove deprecated calls
+        or your builds will no longer be supported.
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  corresp(dist, value, root_dir)
+/tmp/build-env-0ebkz8vw/lib/python3.13/site-packages/setuptools/config/_apply_pyprojecttoml.py:61: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+!!
+
+        ********************************************************************************
+        Please consider removing the following classifiers in favor of a SPDX license expression:
+
+        License :: OSI Approved :: MIT License
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  dist._finalize_license_expression()
+/tmp/build-env-0ebkz8vw/lib/python3.13/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+!!
+
+        ********************************************************************************
+        Please consider removing the following classifiers in favor of a SPDX license expression:
+
+        License :: OSI Approved :: MIT License
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  self._finalize_license_expression()
+running bdist_wheel
+running build
+running build_py
+creating build/lib
+copying src/py.py -> build/lib
+creating build/lib/pytest
+copying src/pytest/__main__.py -> build/lib/pytest
+copying src/pytest/__init__.py -> build/lib/pytest
+creating build/lib/_pytest
+copying src/_pytest/freeze_support.py -> build/lib/_pytest
+copying src/_pytest/tracemalloc.py -> build/lib/_pytest
+copying src/_pytest/setupplan.py -> build/lib/_pytest
+copying src/_pytest/_version.py -> build/lib/_pytest
+copying src/_pytest/pytester.py -> build/lib/_pytest
+copying src/_pytest/logging.py -> build/lib/_pytest
+copying src/_pytest/debugging.py -> build/lib/_pytest
+copying src/_pytest/terminal.py -> build/lib/_pytest
+copying src/_pytest/helpconfig.py -> build/lib/_pytest
+copying src/_pytest/capture.py -> build/lib/_pytest
+copying src/_pytest/threadexception.py -> build/lib/_pytest
+copying src/_pytest/scope.py -> build/lib/_pytest
+copying src/_pytest/tmpdir.py -> build/lib/_pytest
+copying src/_pytest/warnings.py -> build/lib/_pytest
+copying src/_pytest/doctest.py -> build/lib/_pytest
+copying src/_pytest/unraisableexception.py -> build/lib/_pytest
+copying src/_pytest/recwarn.py -> build/lib/_pytest
+copying src/_pytest/reports.py -> build/lib/_pytest
+copying src/_pytest/__init__.py -> build/lib/_pytest
+copying src/_pytest/stepwise.py -> build/lib/_pytest
+copying src/_pytest/raises.py -> build/lib/_pytest
+copying src/_pytest/runner.py -> build/lib/_pytest
+copying src/_pytest/main.py -> build/lib/_pytest
+copying src/_pytest/legacypath.py -> build/lib/_pytest
+copying src/_pytest/setuponly.py -> build/lib/_pytest
+copying src/_pytest/monkeypatch.py -> build/lib/_pytest
+copying src/_pytest/nodes.py -> build/lib/_pytest
+copying src/_pytest/warning_types.py -> build/lib/_pytest
+copying src/_pytest/timing.py -> build/lib/_pytest
+copying src/_pytest/pathlib.py -> build/lib/_pytest
+copying src/_pytest/hookspec.py -> build/lib/_pytest
+copying src/_pytest/unittest.py -> build/lib/_pytest
+copying src/_pytest/stash.py -> build/lib/_pytest
+copying src/_pytest/python_api.py -> build/lib/_pytest
+copying src/_pytest/skipping.py -> build/lib/_pytest
+copying src/_pytest/python.py -> build/lib/_pytest
+copying src/_pytest/_argcomplete.py -> build/lib/_pytest
+copying src/_pytest/pastebin.py -> build/lib/_pytest
+copying src/_pytest/junitxml.py -> build/lib/_pytest
+copying src/_pytest/cacheprovider.py -> build/lib/_pytest
+copying src/_pytest/deprecated.py -> build/lib/_pytest
+copying src/_pytest/pytester_assertions.py -> build/lib/_pytest
+copying src/_pytest/outcomes.py -> build/lib/_pytest
+copying src/_pytest/faulthandler.py -> build/lib/_pytest
+copying src/_pytest/fixtures.py -> build/lib/_pytest
+copying src/_pytest/compat.py -> build/lib/_pytest
+creating build/lib/_pytest/_code
+copying src/_pytest/_code/source.py -> build/lib/_pytest/_code
+copying src/_pytest/_code/__init__.py -> build/lib/_pytest/_code
+copying src/_pytest/_code/code.py -> build/lib/_pytest/_code
+creating build/lib/_pytest/_py
+copying src/_pytest/_py/__init__.py -> build/lib/_pytest/_py
+copying src/_pytest/_py/path.py -> build/lib/_pytest/_py
+copying src/_pytest/_py/error.py -> build/lib/_pytest/_py
+creating build/lib/_pytest/_io
+copying src/_pytest/_io/saferepr.py -> build/lib/_pytest/_io
+copying src/_pytest/_io/wcwidth.py -> build/lib/_pytest/_io
+copying src/_pytest/_io/__init__.py -> build/lib/_pytest/_io
+copying src/_pytest/_io/terminalwriter.py -> build/lib/_pytest/_io
+copying src/_pytest/_io/pprint.py -> build/lib/_pytest/_io
+creating build/lib/_pytest/assertion
+copying src/_pytest/assertion/__init__.py -> build/lib/_pytest/assertion
+copying src/_pytest/assertion/truncate.py -> build/lib/_pytest/assertion
+copying src/_pytest/assertion/util.py -> build/lib/_pytest/assertion
+copying src/_pytest/assertion/rewrite.py -> build/lib/_pytest/assertion
+creating build/lib/_pytest/mark
+copying src/_pytest/mark/expression.py -> build/lib/_pytest/mark
+copying src/_pytest/mark/__init__.py -> build/lib/_pytest/mark
+copying src/_pytest/mark/structures.py -> build/lib/_pytest/mark
+creating build/lib/_pytest/config
+copying src/_pytest/config/findpaths.py -> build/lib/_pytest/config
+copying src/_pytest/config/argparsing.py -> build/lib/_pytest/config
+copying src/_pytest/config/exceptions.py -> build/lib/_pytest/config
+copying src/_pytest/config/__init__.py -> build/lib/_pytest/config
+copying src/_pytest/config/compat.py -> build/lib/_pytest/config
+running egg_info
+writing src/pytest.egg-info/PKG-INFO
+writing dependency_links to src/pytest.egg-info/dependency_links.txt
+writing entry points to src/pytest.egg-info/entry_points.txt
+writing requirements to src/pytest.egg-info/requires.txt
+writing top-level names to src/pytest.egg-info/top_level.txt
+ERROR setuptools_scm._file_finders.git listing git files failed - pretending there aren't any
+reading manifest file 'src/pytest.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+adding license file 'AUTHORS'
+writing manifest file 'src/pytest.egg-info/SOURCES.txt'
+copying src/pytest/py.typed -> build/lib/pytest
+copying src/_pytest/py.typed -> build/lib/_pytest
+installing to build/bdist.linux-x86_64/wheel
+running install
+running install_lib
+creating build/bdist.linux-x86_64/wheel
+copying build/lib/py.py -> build/bdist.linux-x86_64/wheel/.
+creating build/bdist.linux-x86_64/wheel/pytest
+copying build/lib/pytest/__main__.py -> build/bdist.linux-x86_64/wheel/./pytest
+copying build/lib/pytest/py.typed -> build/bdist.linux-x86_64/wheel/./pytest
+copying build/lib/pytest/__init__.py -> build/bdist.linux-x86_64/wheel/./pytest
+creating build/bdist.linux-x86_64/wheel/_pytest
+copying build/lib/_pytest/freeze_support.py -> build/bdist.linux-x86_64/wheel/./_pytest
+creating build/bdist.linux-x86_64/wheel/_pytest/_code
+copying build/lib/_pytest/_code/source.py -> build/bdist.linux-x86_64/wheel/./_pytest/_code
+copying build/lib/_pytest/_code/__init__.py -> build/bdist.linux-x86_64/wheel/./_pytest/_code
+copying build/lib/_pytest/_code/code.py -> build/bdist.linux-x86_64/wheel/./_pytest/_code
+copying build/lib/_pytest/tracemalloc.py -> build/bdist.linux-x86_64/wheel/./_pytest
+copying build/lib/_pytest/setupplan.py -> build/bdist.linux-x86_64/wheel/./_pytest
+copying build/lib/_pytest/_version.py -> build/bdist.linux-x86_64/wheel/./_pytest
+creating build/bdist.linux-x86_64/wheel/_pytest/_py
+copying build/lib/_pytest/_py/__init__.py -> build/bdist.linux-x86_64/wheel/./_pytest/_py
+copying build/lib/_pytest/_py/path.py -> build/bdist.linux-x86_64/wheel/./_pytest/_py
+copying build/lib/_pytest/_py/error.py -> build/bdist.linux-x86_64/wheel/./_pytest/_py
+copying build/lib/_pytest/pytester.py -> build/bdist.linux-x86_64/wheel/./_pytest
+copying build/lib/_pytest/logging.py -> build/bdist.linux-x86_64/wheel/./_pytest
+copying build/lib/_pytest/debugging.py -> build/bdist.linux-x86_64/wheel/./_pytest
+copying build/lib/_pytest/terminal.py -> build/bdist.linux-x86_64/wheel/./_pytest
+creating build/bdist.linux-x86_64/wheel/_pytest/_io
+copying build/lib/_pytest/_io/saferepr.py -> build/bdist.linux-x86_64/wheel/./_pytest/_io
+copying build/lib/_pytest/_io/wcwidth.py -> build/bdist.linux-x86_64/wheel/./_pytest/_io
+copying build/lib/_pytest/_io/__init__.py -> build/bdist.linux-x86_64/wheel/./_pytest/_io
+copying build/lib/_pytest/_io/terminalwriter.py -> build/bdist.linux-x86_64/wheel/./_pytest/_io
+copying build/lib/_pytest/_io/pprint.py -> build/bdist.linux-x86_64/wheel/./_pytest/_io
+copying build/lib/_pytest/helpconfig.py -> build/bdist.linux-x86_64/wheel/./_pytest
+copying build/lib/_pytest/capture.py -> build/bdist.linux-x86_64/wheel/./_pytest
+copying build/lib/_pytest/threadexception.py -> build/bdist.linux-x86_64/wheel/./_pytest
+copying build/lib/_pytest/scope.py -> build/bdist.linux-x86_64/wheel/./_pytest
+copying build/lib/_pytest/tmpdir.py -> build/bdist.linux-x86_64/wheel/./_pytest
+copying build/lib/_pytest/warnings.py -> build/bdist.linux-x86_64/wheel/./_pytest
+copying build/lib/_pytest/doctest.py -> build/bdist.linux-x86_64/wheel/./_pytest
+copying build/lib/_pytest/py.typed -> build/bdist.linux-x86_64/wheel/./_pytest
+copying build/lib/_pytest/unraisableexception.py -> build/bdist.linux-x86_64/wheel/./_pytest
+creating build/bdist.linux-x86_64/wheel/_pytest/assertion
+copying build/lib/_pytest/assertion/__init__.py -> build/bdist.linux-x86_64/wheel/./_pytest/assertion
+copying build/lib/_pytest/assertion/truncate.py -> build/bdist.linux-x86_64/wheel/./_pytest/assertion
+copying build/lib/_pytest/assertion/util.py -> build/bdist.linux-x86_64/wheel/./_pytest/assertion
+copying build/lib/_pytest/assertion/rewrite.py -> build/bdist.linux-x86_64/wheel/./_pytest/assertion
+copying build/lib/_pytest/recwarn.py -> build/bdist.linux-x86_64/wheel/./_pytest
+copying build/lib/_pytest/reports.py -> build/bdist.linux-x86_64/wheel/./_pytest
+copying build/lib/_pytest/__init__.py -> build/bdist.linux-x86_64/wheel/./_pytest
+copying build/lib/_pytest/stepwise.py -> build/bdist.linux-x86_64/wheel/./_pytest
+copying build/lib/_pytest/raises.py -> build/bdist.linux-x86_64/wheel/./_pytest
+copying build/lib/_pytest/runner.py -> build/bdist.linux-x86_64/wheel/./_pytest
+copying build/lib/_pytest/main.py -> build/bdist.linux-x86_64/wheel/./_pytest
+copying build/lib/_pytest/legacypath.py -> build/bdist.linux-x86_64/wheel/./_pytest
+copying build/lib/_pytest/setuponly.py -> build/bdist.linux-x86_64/wheel/./_pytest
+copying build/lib/_pytest/monkeypatch.py -> build/bdist.linux-x86_64/wheel/./_pytest
+copying build/lib/_pytest/nodes.py -> build/bdist.linux-x86_64/wheel/./_pytest
+copying build/lib/_pytest/warning_types.py -> build/bdist.linux-x86_64/wheel/./_pytest
+copying build/lib/_pytest/timing.py -> build/bdist.linux-x86_64/wheel/./_pytest
+copying build/lib/_pytest/pathlib.py -> build/bdist.linux-x86_64/wheel/./_pytest
+copying build/lib/_pytest/hookspec.py -> build/bdist.linux-x86_64/wheel/./_pytest
+copying build/lib/_pytest/unittest.py -> build/bdist.linux-x86_64/wheel/./_pytest
+copying build/lib/_pytest/stash.py -> build/bdist.linux-x86_64/wheel/./_pytest
+copying build/lib/_pytest/python_api.py -> build/bdist.linux-x86_64/wheel/./_pytest
+copying build/lib/_pytest/skipping.py -> build/bdist.linux-x86_64/wheel/./_pytest
+copying build/lib/_pytest/python.py -> build/bdist.linux-x86_64/wheel/./_pytest
+copying build/lib/_pytest/_argcomplete.py -> build/bdist.linux-x86_64/wheel/./_pytest
+copying build/lib/_pytest/pastebin.py -> build/bdist.linux-x86_64/wheel/./_pytest
+copying build/lib/_pytest/junitxml.py -> build/bdist.linux-x86_64/wheel/./_pytest
+copying build/lib/_pytest/cacheprovider.py -> build/bdist.linux-x86_64/wheel/./_pytest
+copying build/lib/_pytest/deprecated.py -> build/bdist.linux-x86_64/wheel/./_pytest
+creating build/bdist.linux-x86_64/wheel/_pytest/mark
+copying build/lib/_pytest/mark/expression.py -> build/bdist.linux-x86_64/wheel/./_pytest/mark
+copying build/lib/_pytest/mark/__init__.py -> build/bdist.linux-x86_64/wheel/./_pytest/mark
+copying build/lib/_pytest/mark/structures.py -> build/bdist.linux-x86_64/wheel/./_pytest/mark
+creating build/bdist.linux-x86_64/wheel/_pytest/config
+copying build/lib/_pytest/config/findpaths.py -> build/bdist.linux-x86_64/wheel/./_pytest/config
+copying build/lib/_pytest/config/argparsing.py -> build/bdist.linux-x86_64/wheel/./_pytest/config
+copying build/lib/_pytest/config/exceptions.py -> build/bdist.linux-x86_64/wheel/./_pytest/config
+copying build/lib/_pytest/config/__init__.py -> build/bdist.linux-x86_64/wheel/./_pytest/config
+copying build/lib/_pytest/config/compat.py -> build/bdist.linux-x86_64/wheel/./_pytest/config
+copying build/lib/_pytest/pytester_assertions.py -> build/bdist.linux-x86_64/wheel/./_pytest
+copying build/lib/_pytest/outcomes.py -> build/bdist.linux-x86_64/wheel/./_pytest
+copying build/lib/_pytest/faulthandler.py -> build/bdist.linux-x86_64/wheel/./_pytest
+copying build/lib/_pytest/fixtures.py -> build/bdist.linux-x86_64/wheel/./_pytest
+copying build/lib/_pytest/compat.py -> build/bdist.linux-x86_64/wheel/./_pytest
+running install_egg_info
+Copying src/pytest.egg-info to build/bdist.linux-x86_64/wheel/./pytest-8.4.1-py3.13.egg-info
+running install_scripts
+creating build/bdist.linux-x86_64/wheel/pytest-8.4.1.dist-info/WHEEL
+creating '/blfs/builds/pytest-8.4.1/dist/.tmp-dea357qi/pytest-8.4.1-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+adding 'py.py'
+adding '_pytest/__init__.py'
+adding '_pytest/_argcomplete.py'
+adding '_pytest/_version.py'
+adding '_pytest/cacheprovider.py'
+adding '_pytest/capture.py'
+adding '_pytest/compat.py'
+adding '_pytest/debugging.py'
+adding '_pytest/deprecated.py'
+adding '_pytest/doctest.py'
+adding '_pytest/faulthandler.py'
+adding '_pytest/fixtures.py'
+adding '_pytest/freeze_support.py'
+adding '_pytest/helpconfig.py'
+adding '_pytest/hookspec.py'
+adding '_pytest/junitxml.py'
+adding '_pytest/legacypath.py'
+adding '_pytest/logging.py'
+adding '_pytest/main.py'
+adding '_pytest/monkeypatch.py'
+adding '_pytest/nodes.py'
+adding '_pytest/outcomes.py'
+adding '_pytest/pastebin.py'
+adding '_pytest/pathlib.py'
+adding '_pytest/py.typed'
+adding '_pytest/pytester.py'
+adding '_pytest/pytester_assertions.py'
+adding '_pytest/python.py'
+adding '_pytest/python_api.py'
+adding '_pytest/raises.py'
+adding '_pytest/recwarn.py'
+adding '_pytest/reports.py'
+adding '_pytest/runner.py'
+adding '_pytest/scope.py'
+adding '_pytest/setuponly.py'
+adding '_pytest/setupplan.py'
+adding '_pytest/skipping.py'
+adding '_pytest/stash.py'
+adding '_pytest/stepwise.py'
+adding '_pytest/terminal.py'
+adding '_pytest/threadexception.py'
+adding '_pytest/timing.py'
+adding '_pytest/tmpdir.py'
+adding '_pytest/tracemalloc.py'
+adding '_pytest/unittest.py'
+adding '_pytest/unraisableexception.py'
+adding '_pytest/warning_types.py'
+adding '_pytest/warnings.py'
+adding '_pytest/_code/__init__.py'
+adding '_pytest/_code/code.py'
+adding '_pytest/_code/source.py'
+adding '_pytest/_io/__init__.py'
+adding '_pytest/_io/pprint.py'
+adding '_pytest/_io/saferepr.py'
+adding '_pytest/_io/terminalwriter.py'
+adding '_pytest/_io/wcwidth.py'
+adding '_pytest/_py/__init__.py'
+adding '_pytest/_py/error.py'
+adding '_pytest/_py/path.py'
+adding '_pytest/assertion/__init__.py'
+adding '_pytest/assertion/rewrite.py'
+adding '_pytest/assertion/truncate.py'
+adding '_pytest/assertion/util.py'
+adding '_pytest/config/__init__.py'
+adding '_pytest/config/argparsing.py'
+adding '_pytest/config/compat.py'
+adding '_pytest/config/exceptions.py'
+adding '_pytest/config/findpaths.py'
+adding '_pytest/mark/__init__.py'
+adding '_pytest/mark/expression.py'
+adding '_pytest/mark/structures.py'
+adding 'pytest/__init__.py'
+adding 'pytest/__main__.py'
+adding 'pytest/py.typed'
+adding 'pytest-8.4.1.dist-info/licenses/AUTHORS'
+adding 'pytest-8.4.1.dist-info/licenses/LICENSE'
+adding 'pytest-8.4.1.dist-info/METADATA'
+adding 'pytest-8.4.1.dist-info/WHEEL'
+adding 'pytest-8.4.1.dist-info/entry_points.txt'
+adding 'pytest-8.4.1.dist-info/top_level.txt'
+adding 'pytest-8.4.1.dist-info/RECORD'
+removing build/bdist.linux-x86_64/wheel
+Successfully built pytest-8.4.1-py3-none-any.whl
+'/pkgs/python-pytest/usr/bin/py.test' -> '/usr/bin/py.test'
+'/pkgs/python-pytest/usr/bin/pytest' -> '/usr/bin/pytest'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/py.py' -> '/usr/lib/python3.13/site-packages/py.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__init__.py' -> '/usr/lib/python3.13/site-packages/_pytest/__init__.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/_argcomplete.py' -> '/usr/lib/python3.13/site-packages/_pytest/_argcomplete.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/_version.py' -> '/usr/lib/python3.13/site-packages/_pytest/_version.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/cacheprovider.py' -> '/usr/lib/python3.13/site-packages/_pytest/cacheprovider.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/capture.py' -> '/usr/lib/python3.13/site-packages/_pytest/capture.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/compat.py' -> '/usr/lib/python3.13/site-packages/_pytest/compat.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/debugging.py' -> '/usr/lib/python3.13/site-packages/_pytest/debugging.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/deprecated.py' -> '/usr/lib/python3.13/site-packages/_pytest/deprecated.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/doctest.py' -> '/usr/lib/python3.13/site-packages/_pytest/doctest.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/faulthandler.py' -> '/usr/lib/python3.13/site-packages/_pytest/faulthandler.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/fixtures.py' -> '/usr/lib/python3.13/site-packages/_pytest/fixtures.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/freeze_support.py' -> '/usr/lib/python3.13/site-packages/_pytest/freeze_support.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/helpconfig.py' -> '/usr/lib/python3.13/site-packages/_pytest/helpconfig.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/hookspec.py' -> '/usr/lib/python3.13/site-packages/_pytest/hookspec.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/junitxml.py' -> '/usr/lib/python3.13/site-packages/_pytest/junitxml.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/legacypath.py' -> '/usr/lib/python3.13/site-packages/_pytest/legacypath.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/logging.py' -> '/usr/lib/python3.13/site-packages/_pytest/logging.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/main.py' -> '/usr/lib/python3.13/site-packages/_pytest/main.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/monkeypatch.py' -> '/usr/lib/python3.13/site-packages/_pytest/monkeypatch.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/nodes.py' -> '/usr/lib/python3.13/site-packages/_pytest/nodes.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/outcomes.py' -> '/usr/lib/python3.13/site-packages/_pytest/outcomes.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/pastebin.py' -> '/usr/lib/python3.13/site-packages/_pytest/pastebin.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/pathlib.py' -> '/usr/lib/python3.13/site-packages/_pytest/pathlib.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/py.typed' -> '/usr/lib/python3.13/site-packages/_pytest/py.typed'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/pytester.py' -> '/usr/lib/python3.13/site-packages/_pytest/pytester.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/pytester_assertions.py' -> '/usr/lib/python3.13/site-packages/_pytest/pytester_assertions.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/python.py' -> '/usr/lib/python3.13/site-packages/_pytest/python.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/python_api.py' -> '/usr/lib/python3.13/site-packages/_pytest/python_api.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/raises.py' -> '/usr/lib/python3.13/site-packages/_pytest/raises.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/recwarn.py' -> '/usr/lib/python3.13/site-packages/_pytest/recwarn.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/reports.py' -> '/usr/lib/python3.13/site-packages/_pytest/reports.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/runner.py' -> '/usr/lib/python3.13/site-packages/_pytest/runner.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/scope.py' -> '/usr/lib/python3.13/site-packages/_pytest/scope.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/setuponly.py' -> '/usr/lib/python3.13/site-packages/_pytest/setuponly.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/setupplan.py' -> '/usr/lib/python3.13/site-packages/_pytest/setupplan.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/skipping.py' -> '/usr/lib/python3.13/site-packages/_pytest/skipping.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/stash.py' -> '/usr/lib/python3.13/site-packages/_pytest/stash.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/stepwise.py' -> '/usr/lib/python3.13/site-packages/_pytest/stepwise.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/terminal.py' -> '/usr/lib/python3.13/site-packages/_pytest/terminal.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/threadexception.py' -> '/usr/lib/python3.13/site-packages/_pytest/threadexception.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/timing.py' -> '/usr/lib/python3.13/site-packages/_pytest/timing.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/tmpdir.py' -> '/usr/lib/python3.13/site-packages/_pytest/tmpdir.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/tracemalloc.py' -> '/usr/lib/python3.13/site-packages/_pytest/tracemalloc.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/unittest.py' -> '/usr/lib/python3.13/site-packages/_pytest/unittest.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/unraisableexception.py' -> '/usr/lib/python3.13/site-packages/_pytest/unraisableexception.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/warning_types.py' -> '/usr/lib/python3.13/site-packages/_pytest/warning_types.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/warnings.py' -> '/usr/lib/python3.13/site-packages/_pytest/warnings.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/_code/__init__.py' -> '/usr/lib/python3.13/site-packages/_pytest/_code/__init__.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/_code/code.py' -> '/usr/lib/python3.13/site-packages/_pytest/_code/code.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/_code/source.py' -> '/usr/lib/python3.13/site-packages/_pytest/_code/source.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/_code/__pycache__/__init__.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/_code/__pycache__/__init__.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/_code/__pycache__/__init__.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/_code/__pycache__/__init__.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/_code/__pycache__/code.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/_code/__pycache__/code.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/_code/__pycache__/code.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/_code/__pycache__/code.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/_code/__pycache__/source.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/_code/__pycache__/source.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/_code/__pycache__/source.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/_code/__pycache__/source.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/_io/__init__.py' -> '/usr/lib/python3.13/site-packages/_pytest/_io/__init__.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/_io/pprint.py' -> '/usr/lib/python3.13/site-packages/_pytest/_io/pprint.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/_io/saferepr.py' -> '/usr/lib/python3.13/site-packages/_pytest/_io/saferepr.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/_io/terminalwriter.py' -> '/usr/lib/python3.13/site-packages/_pytest/_io/terminalwriter.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/_io/wcwidth.py' -> '/usr/lib/python3.13/site-packages/_pytest/_io/wcwidth.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/_io/__pycache__/__init__.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/_io/__pycache__/__init__.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/_io/__pycache__/__init__.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/_io/__pycache__/__init__.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/_io/__pycache__/pprint.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/_io/__pycache__/pprint.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/_io/__pycache__/pprint.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/_io/__pycache__/pprint.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/_io/__pycache__/saferepr.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/_io/__pycache__/saferepr.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/_io/__pycache__/saferepr.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/_io/__pycache__/saferepr.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/_io/__pycache__/terminalwriter.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/_io/__pycache__/terminalwriter.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/_io/__pycache__/terminalwriter.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/_io/__pycache__/terminalwriter.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/_io/__pycache__/wcwidth.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/_io/__pycache__/wcwidth.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/_io/__pycache__/wcwidth.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/_io/__pycache__/wcwidth.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/_py/__init__.py' -> '/usr/lib/python3.13/site-packages/_pytest/_py/__init__.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/_py/error.py' -> '/usr/lib/python3.13/site-packages/_pytest/_py/error.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/_py/path.py' -> '/usr/lib/python3.13/site-packages/_pytest/_py/path.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/_py/__pycache__/__init__.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/_py/__pycache__/__init__.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/_py/__pycache__/__init__.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/_py/__pycache__/__init__.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/_py/__pycache__/error.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/_py/__pycache__/error.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/_py/__pycache__/error.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/_py/__pycache__/error.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/_py/__pycache__/path.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/_py/__pycache__/path.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/_py/__pycache__/path.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/_py/__pycache__/path.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/assertion/__init__.py' -> '/usr/lib/python3.13/site-packages/_pytest/assertion/__init__.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/assertion/rewrite.py' -> '/usr/lib/python3.13/site-packages/_pytest/assertion/rewrite.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/assertion/truncate.py' -> '/usr/lib/python3.13/site-packages/_pytest/assertion/truncate.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/assertion/util.py' -> '/usr/lib/python3.13/site-packages/_pytest/assertion/util.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/assertion/__pycache__/__init__.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/assertion/__pycache__/__init__.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/assertion/__pycache__/__init__.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/assertion/__pycache__/__init__.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/assertion/__pycache__/rewrite.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/assertion/__pycache__/rewrite.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/assertion/__pycache__/rewrite.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/assertion/__pycache__/rewrite.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/assertion/__pycache__/truncate.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/assertion/__pycache__/truncate.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/assertion/__pycache__/truncate.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/assertion/__pycache__/truncate.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/assertion/__pycache__/util.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/assertion/__pycache__/util.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/assertion/__pycache__/util.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/assertion/__pycache__/util.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/config/__init__.py' -> '/usr/lib/python3.13/site-packages/_pytest/config/__init__.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/config/argparsing.py' -> '/usr/lib/python3.13/site-packages/_pytest/config/argparsing.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/config/compat.py' -> '/usr/lib/python3.13/site-packages/_pytest/config/compat.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/config/exceptions.py' -> '/usr/lib/python3.13/site-packages/_pytest/config/exceptions.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/config/findpaths.py' -> '/usr/lib/python3.13/site-packages/_pytest/config/findpaths.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/config/__pycache__/__init__.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/config/__pycache__/__init__.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/config/__pycache__/__init__.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/config/__pycache__/__init__.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/config/__pycache__/argparsing.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/config/__pycache__/argparsing.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/config/__pycache__/argparsing.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/config/__pycache__/argparsing.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/config/__pycache__/compat.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/config/__pycache__/compat.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/config/__pycache__/compat.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/config/__pycache__/compat.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/config/__pycache__/exceptions.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/config/__pycache__/exceptions.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/config/__pycache__/exceptions.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/config/__pycache__/exceptions.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/config/__pycache__/findpaths.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/config/__pycache__/findpaths.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/config/__pycache__/findpaths.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/config/__pycache__/findpaths.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/mark/__init__.py' -> '/usr/lib/python3.13/site-packages/_pytest/mark/__init__.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/mark/expression.py' -> '/usr/lib/python3.13/site-packages/_pytest/mark/expression.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/mark/structures.py' -> '/usr/lib/python3.13/site-packages/_pytest/mark/structures.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/mark/__pycache__/__init__.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/mark/__pycache__/__init__.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/mark/__pycache__/__init__.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/mark/__pycache__/__init__.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/mark/__pycache__/expression.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/mark/__pycache__/expression.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/mark/__pycache__/expression.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/mark/__pycache__/expression.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/mark/__pycache__/structures.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/mark/__pycache__/structures.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/mark/__pycache__/structures.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/mark/__pycache__/structures.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/__init__.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/__init__.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/__init__.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/__init__.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/_argcomplete.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/_argcomplete.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/_argcomplete.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/_argcomplete.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/_version.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/_version.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/_version.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/_version.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/cacheprovider.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/cacheprovider.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/cacheprovider.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/cacheprovider.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/capture.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/capture.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/capture.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/capture.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/compat.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/compat.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/compat.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/compat.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/debugging.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/debugging.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/debugging.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/debugging.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/deprecated.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/deprecated.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/deprecated.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/deprecated.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/doctest.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/doctest.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/doctest.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/doctest.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/faulthandler.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/faulthandler.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/faulthandler.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/faulthandler.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/fixtures.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/fixtures.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/fixtures.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/fixtures.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/freeze_support.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/freeze_support.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/freeze_support.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/freeze_support.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/helpconfig.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/helpconfig.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/helpconfig.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/helpconfig.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/hookspec.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/hookspec.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/hookspec.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/hookspec.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/junitxml.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/junitxml.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/junitxml.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/junitxml.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/legacypath.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/legacypath.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/legacypath.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/legacypath.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/logging.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/logging.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/logging.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/logging.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/main.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/main.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/main.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/main.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/monkeypatch.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/monkeypatch.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/monkeypatch.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/monkeypatch.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/nodes.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/nodes.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/nodes.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/nodes.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/outcomes.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/outcomes.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/outcomes.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/outcomes.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/pastebin.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/pastebin.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/pastebin.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/pastebin.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/pathlib.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/pathlib.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/pathlib.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/pathlib.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/pytester.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/pytester.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/pytester.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/pytester.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/pytester_assertions.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/pytester_assertions.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/pytester_assertions.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/pytester_assertions.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/python.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/python.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/python.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/python.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/python_api.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/python_api.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/python_api.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/python_api.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/raises.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/raises.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/raises.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/raises.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/recwarn.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/recwarn.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/recwarn.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/recwarn.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/reports.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/reports.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/reports.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/reports.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/runner.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/runner.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/runner.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/runner.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/scope.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/scope.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/scope.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/scope.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/setuponly.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/setuponly.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/setuponly.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/setuponly.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/setupplan.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/setupplan.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/setupplan.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/setupplan.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/skipping.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/skipping.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/skipping.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/skipping.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/stash.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/stash.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/stash.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/stash.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/stepwise.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/stepwise.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/stepwise.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/stepwise.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/terminal.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/terminal.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/terminal.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/terminal.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/threadexception.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/threadexception.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/threadexception.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/threadexception.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/timing.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/timing.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/timing.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/timing.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/tmpdir.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/tmpdir.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/tmpdir.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/tmpdir.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/tracemalloc.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/tracemalloc.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/tracemalloc.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/tracemalloc.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/unittest.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/unittest.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/unittest.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/unittest.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/unraisableexception.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/unraisableexception.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/unraisableexception.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/unraisableexception.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/warning_types.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/warning_types.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/warning_types.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/warning_types.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/warnings.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/warnings.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/warnings.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/_pytest/__pycache__/warnings.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/pytest/__init__.py' -> '/usr/lib/python3.13/site-packages/pytest/__init__.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/pytest/__main__.py' -> '/usr/lib/python3.13/site-packages/pytest/__main__.py'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/pytest/py.typed' -> '/usr/lib/python3.13/site-packages/pytest/py.typed'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/pytest/__pycache__/__init__.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/pytest/__pycache__/__init__.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/pytest/__pycache__/__init__.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/pytest/__pycache__/__init__.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/pytest/__pycache__/__main__.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/pytest/__pycache__/__main__.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/pytest/__pycache__/__main__.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/pytest/__pycache__/__main__.cpython-313.opt-1.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/pytest-8.4.1.dist-info' -> '/usr/lib/python3.13/site-packages/pytest-8.4.1.dist-info'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/pytest-8.4.1.dist-info/licenses' -> '/usr/lib/python3.13/site-packages/pytest-8.4.1.dist-info/licenses'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/pytest-8.4.1.dist-info/licenses/AUTHORS' -> '/usr/lib/python3.13/site-packages/pytest-8.4.1.dist-info/licenses/AUTHORS'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/pytest-8.4.1.dist-info/licenses/LICENSE' -> '/usr/lib/python3.13/site-packages/pytest-8.4.1.dist-info/licenses/LICENSE'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/pytest-8.4.1.dist-info/METADATA' -> '/usr/lib/python3.13/site-packages/pytest-8.4.1.dist-info/METADATA'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/pytest-8.4.1.dist-info/WHEEL' -> '/usr/lib/python3.13/site-packages/pytest-8.4.1.dist-info/WHEEL'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/pytest-8.4.1.dist-info/entry_points.txt' -> '/usr/lib/python3.13/site-packages/pytest-8.4.1.dist-info/entry_points.txt'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/pytest-8.4.1.dist-info/top_level.txt' -> '/usr/lib/python3.13/site-packages/pytest-8.4.1.dist-info/top_level.txt'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/pytest-8.4.1.dist-info/RECORD' -> '/usr/lib/python3.13/site-packages/pytest-8.4.1.dist-info/RECORD'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/__pycache__/py.cpython-313.pyc' -> '/usr/lib/python3.13/site-packages/__pycache__/py.cpython-313.pyc'
+'/pkgs/python-pytest/usr/lib/python3.13/site-packages/__pycache__/py.cpython-313.opt-1.pyc' -> '/usr/lib/python3.13/site-packages/__pycache__/py.cpython-313.opt-1.pyc'
+python-pytest/
+python-pytest/usr/
+python-pytest/usr/lib/
+python-pytest/usr/lib/python3.13/
+python-pytest/usr/lib/python3.13/site-packages/
+python-pytest/usr/lib/python3.13/site-packages/pytest-8.4.1.dist-info/
+python-pytest/usr/lib/python3.13/site-packages/pytest-8.4.1.dist-info/licenses/
+python-pytest/usr/lib/python3.13/site-packages/pytest-8.4.1.dist-info/licenses/LICENSE
+python-pytest/usr/lib/python3.13/site-packages/pytest-8.4.1.dist-info/licenses/AUTHORS
+python-pytest/usr/lib/python3.13/site-packages/pytest-8.4.1.dist-info/WHEEL
+python-pytest/usr/lib/python3.13/site-packages/pytest-8.4.1.dist-info/METADATA
+python-pytest/usr/lib/python3.13/site-packages/pytest-8.4.1.dist-info/RECORD
+python-pytest/usr/lib/python3.13/site-packages/pytest-8.4.1.dist-info/top_level.txt
+python-pytest/usr/lib/python3.13/site-packages/pytest-8.4.1.dist-info/entry_points.txt
+python-pytest/usr/lib/python3.13/site-packages/py.py
+python-pytest/usr/lib/python3.13/site-packages/pytest/
+python-pytest/usr/lib/python3.13/site-packages/pytest/__main__.py
+python-pytest/usr/lib/python3.13/site-packages/pytest/py.typed
+python-pytest/usr/lib/python3.13/site-packages/pytest/__init__.py
+python-pytest/usr/lib/python3.13/site-packages/pytest/__pycache__/
+python-pytest/usr/lib/python3.13/site-packages/pytest/__pycache__/__main__.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/pytest/__pycache__/__init__.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/pytest/__pycache__/__init__.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/pytest/__pycache__/__main__.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/
+python-pytest/usr/lib/python3.13/site-packages/_pytest/freeze_support.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/_code/
+python-pytest/usr/lib/python3.13/site-packages/_pytest/_code/source.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/_code/__init__.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/_code/__pycache__/
+python-pytest/usr/lib/python3.13/site-packages/_pytest/_code/__pycache__/code.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/_code/__pycache__/source.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/_code/__pycache__/code.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/_code/__pycache__/__init__.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/_code/__pycache__/__init__.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/_code/__pycache__/source.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/_code/code.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/tracemalloc.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/setupplan.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/_version.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/_py/
+python-pytest/usr/lib/python3.13/site-packages/_pytest/_py/__init__.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/_py/path.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/_py/__pycache__/
+python-pytest/usr/lib/python3.13/site-packages/_pytest/_py/__pycache__/error.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/_py/__pycache__/error.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/_py/__pycache__/__init__.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/_py/__pycache__/path.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/_py/__pycache__/path.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/_py/__pycache__/__init__.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/_py/error.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/pytester.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/logging.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/debugging.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/terminal.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/_io/
+python-pytest/usr/lib/python3.13/site-packages/_pytest/_io/saferepr.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/_io/wcwidth.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/_io/__init__.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/_io/__pycache__/
+python-pytest/usr/lib/python3.13/site-packages/_pytest/_io/__pycache__/pprint.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/_io/__pycache__/terminalwriter.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/_io/__pycache__/pprint.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/_io/__pycache__/saferepr.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/_io/__pycache__/wcwidth.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/_io/__pycache__/saferepr.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/_io/__pycache__/terminalwriter.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/_io/__pycache__/wcwidth.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/_io/__pycache__/__init__.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/_io/__pycache__/__init__.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/_io/terminalwriter.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/_io/pprint.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/helpconfig.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/capture.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/threadexception.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/scope.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/tmpdir.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/warnings.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/doctest.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/py.typed
+python-pytest/usr/lib/python3.13/site-packages/_pytest/unraisableexception.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/assertion/
+python-pytest/usr/lib/python3.13/site-packages/_pytest/assertion/__init__.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/assertion/truncate.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/assertion/util.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/assertion/__pycache__/
+python-pytest/usr/lib/python3.13/site-packages/_pytest/assertion/__pycache__/truncate.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/assertion/__pycache__/util.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/assertion/__pycache__/__init__.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/assertion/__pycache__/truncate.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/assertion/__pycache__/rewrite.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/assertion/__pycache__/util.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/assertion/__pycache__/__init__.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/assertion/__pycache__/rewrite.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/assertion/rewrite.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/recwarn.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/reports.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__init__.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/stepwise.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/raises.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/runner.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/main.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/legacypath.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/setuponly.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/monkeypatch.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/nodes.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/warning_types.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/timing.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/pathlib.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/hookspec.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/unraisableexception.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/timing.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/faulthandler.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/legacypath.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/debugging.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/compat.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/reports.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/pastebin.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/unittest.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/nodes.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/tracemalloc.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/terminal.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/deprecated.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/main.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/timing.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/fixtures.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/python.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/scope.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/pytester.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/tmpdir.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/_argcomplete.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/python_api.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/helpconfig.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/monkeypatch.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/recwarn.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/pytester_assertions.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/setuponly.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/freeze_support.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/warning_types.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/freeze_support.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/recwarn.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/junitxml.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/cacheprovider.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/python.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/python_api.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/capture.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/raises.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/legacypath.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/warnings.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/runner.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/setuponly.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/cacheprovider.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/pytester_assertions.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/debugging.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/monkeypatch.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/compat.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/setupplan.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/raises.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/scope.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/_version.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/_argcomplete.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/setupplan.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/__init__.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/threadexception.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/faulthandler.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/capture.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/hookspec.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/pastebin.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/pytester.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/outcomes.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/outcomes.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/pathlib.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/main.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/stash.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/doctest.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/logging.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/skipping.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/helpconfig.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/fixtures.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/nodes.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/hookspec.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/pathlib.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/reports.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/deprecated.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/logging.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/skipping.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/junitxml.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/warnings.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/stepwise.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/runner.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/warning_types.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/__init__.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/unraisableexception.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/stash.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/terminal.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/doctest.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/unittest.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/tmpdir.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/tracemalloc.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/stepwise.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/_version.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/__pycache__/threadexception.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/unittest.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/stash.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/python_api.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/skipping.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/python.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/_argcomplete.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/pastebin.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/junitxml.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/cacheprovider.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/deprecated.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/mark/
+python-pytest/usr/lib/python3.13/site-packages/_pytest/mark/expression.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/mark/__init__.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/mark/__pycache__/
+python-pytest/usr/lib/python3.13/site-packages/_pytest/mark/__pycache__/structures.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/mark/__pycache__/structures.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/mark/__pycache__/__init__.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/mark/__pycache__/expression.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/mark/__pycache__/__init__.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/mark/__pycache__/expression.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/mark/structures.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/config/
+python-pytest/usr/lib/python3.13/site-packages/_pytest/config/findpaths.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/config/argparsing.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/config/exceptions.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/config/__init__.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/config/__pycache__/
+python-pytest/usr/lib/python3.13/site-packages/_pytest/config/__pycache__/compat.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/config/__pycache__/findpaths.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/config/__pycache__/exceptions.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/config/__pycache__/compat.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/config/__pycache__/__init__.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/config/__pycache__/findpaths.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/config/__pycache__/argparsing.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/config/__pycache__/exceptions.cpython-313.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/config/__pycache__/__init__.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/config/__pycache__/argparsing.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/_pytest/config/compat.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/pytester_assertions.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/outcomes.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/faulthandler.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/fixtures.py
+python-pytest/usr/lib/python3.13/site-packages/_pytest/compat.py
+python-pytest/usr/lib/python3.13/site-packages/__pycache__/
+python-pytest/usr/lib/python3.13/site-packages/__pycache__/py.cpython-313.opt-1.pyc
+python-pytest/usr/lib/python3.13/site-packages/__pycache__/py.cpython-313.pyc
+python-pytest/usr/bin/
+python-pytest/usr/bin/pytest
+python-pytest/usr/bin/py.test
+python-pytest/version
+python-pytest/depends
+python-pytest/make-depends

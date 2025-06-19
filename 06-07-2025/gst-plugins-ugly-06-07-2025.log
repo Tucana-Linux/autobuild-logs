@@ -1,0 +1,665 @@
+--2025-06-07 21:08:49--  https://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-1.26.2.tar.xz
+Resolving gstreamer.freedesktop.org (gstreamer.freedesktop.org)... 131.252.210.176
+Connecting to gstreamer.freedesktop.org (gstreamer.freedesktop.org)|131.252.210.176|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 221804 (217K) [application/x-xz]
+Saving to: 'gst-plugins-ugly-1.26.2.tar.xz'
+
+     0K .......... .......... .......... .......... .......... 23%  374K 0s
+    50K .......... .......... .......... .......... .......... 46% 1.21M 0s
+   100K .......... .......... .......... .......... .......... 69% 1.70M 0s
+   150K .......... .......... .......... .......... .......... 92% 1.24M 0s
+   200K .......... ......                                     100%  371M=0.2s
+
+2025-06-07 21:08:50 (896 KB/s) - 'gst-plugins-ugly-1.26.2.tar.xz' saved [221804/221804]
+
+gst-plugins-ugly-1.26.2/
+gst-plugins-ugly-1.26.2/.gitignore
+gst-plugins-ugly-1.26.2/AUTHORS
+gst-plugins-ugly-1.26.2/COPYING
+gst-plugins-ugly-1.26.2/ChangeLog
+gst-plugins-ugly-1.26.2/MAINTAINERS
+gst-plugins-ugly-1.26.2/NEWS
+gst-plugins-ugly-1.26.2/README.md
+gst-plugins-ugly-1.26.2/README.static-linking
+gst-plugins-ugly-1.26.2/RELEASE
+gst-plugins-ugly-1.26.2/REQUIREMENTS
+gst-plugins-ugly-1.26.2/docs/
+gst-plugins-ugly-1.26.2/docs/all_index.md
+gst-plugins-ugly-1.26.2/docs/gst_api_version.in
+gst-plugins-ugly-1.26.2/docs/gst_plugins_cache.json
+gst-plugins-ugly-1.26.2/docs/index.md
+gst-plugins-ugly-1.26.2/docs/meson.build
+gst-plugins-ugly-1.26.2/docs/random/
+gst-plugins-ugly-1.26.2/docs/random/LICENSE
+gst-plugins-ugly-1.26.2/docs/random/PORTED_09
+gst-plugins-ugly-1.26.2/docs/sitemap.txt
+gst-plugins-ugly-1.26.2/ext/
+gst-plugins-ugly-1.26.2/ext/a52dec/
+gst-plugins-ugly-1.26.2/ext/a52dec/gsta52dec.c
+gst-plugins-ugly-1.26.2/ext/a52dec/gsta52dec.h
+gst-plugins-ugly-1.26.2/ext/a52dec/meson.build
+gst-plugins-ugly-1.26.2/ext/cdio/
+gst-plugins-ugly-1.26.2/ext/cdio/gstcdio.c
+gst-plugins-ugly-1.26.2/ext/cdio/gstcdio.h
+gst-plugins-ugly-1.26.2/ext/cdio/gstcdiocddasrc.c
+gst-plugins-ugly-1.26.2/ext/cdio/gstcdiocddasrc.h
+gst-plugins-ugly-1.26.2/ext/cdio/meson.build
+gst-plugins-ugly-1.26.2/ext/dvdread/
+gst-plugins-ugly-1.26.2/ext/dvdread/README
+gst-plugins-ugly-1.26.2/ext/dvdread/demo-play
+gst-plugins-ugly-1.26.2/ext/dvdread/dvdreadsrc.c
+gst-plugins-ugly-1.26.2/ext/dvdread/dvdreadsrc.h
+gst-plugins-ugly-1.26.2/ext/dvdread/meson.build
+gst-plugins-ugly-1.26.2/ext/meson.build
+gst-plugins-ugly-1.26.2/ext/mpeg2dec/
+gst-plugins-ugly-1.26.2/ext/mpeg2dec/gstmpeg2dec.c
+gst-plugins-ugly-1.26.2/ext/mpeg2dec/gstmpeg2dec.h
+gst-plugins-ugly-1.26.2/ext/mpeg2dec/meson.build
+gst-plugins-ugly-1.26.2/ext/sidplay/
+gst-plugins-ugly-1.26.2/ext/sidplay/gstsiddec.cc
+gst-plugins-ugly-1.26.2/ext/sidplay/gstsiddec.h
+gst-plugins-ugly-1.26.2/ext/sidplay/meson.build
+gst-plugins-ugly-1.26.2/ext/x264/
+gst-plugins-ugly-1.26.2/ext/x264/GstX264Enc.prs
+gst-plugins-ugly-1.26.2/ext/x264/gstencoderbitrateprofilemanager.c
+gst-plugins-ugly-1.26.2/ext/x264/gstencoderbitrateprofilemanager.h
+gst-plugins-ugly-1.26.2/ext/x264/gstx264enc.c
+gst-plugins-ugly-1.26.2/ext/x264/gstx264enc.h
+gst-plugins-ugly-1.26.2/ext/x264/meson.build
+gst-plugins-ugly-1.26.2/gst/
+gst-plugins-ugly-1.26.2/gst/asfdemux/
+gst-plugins-ugly-1.26.2/gst/asfdemux/README
+gst-plugins-ugly-1.26.2/gst/asfdemux/asfheaders.c
+gst-plugins-ugly-1.26.2/gst/asfdemux/asfheaders.h
+gst-plugins-ugly-1.26.2/gst/asfdemux/asfpacket.c
+gst-plugins-ugly-1.26.2/gst/asfdemux/asfpacket.h
+gst-plugins-ugly-1.26.2/gst/asfdemux/gstasf.c
+gst-plugins-ugly-1.26.2/gst/asfdemux/gstasfdemux.c
+gst-plugins-ugly-1.26.2/gst/asfdemux/gstasfdemux.h
+gst-plugins-ugly-1.26.2/gst/asfdemux/gstasfelement.c
+gst-plugins-ugly-1.26.2/gst/asfdemux/gstasfelements.h
+gst-plugins-ugly-1.26.2/gst/asfdemux/gstrtpasfdepay.c
+gst-plugins-ugly-1.26.2/gst/asfdemux/gstrtpasfdepay.h
+gst-plugins-ugly-1.26.2/gst/asfdemux/gstrtspwms.c
+gst-plugins-ugly-1.26.2/gst/asfdemux/gstrtspwms.h
+gst-plugins-ugly-1.26.2/gst/asfdemux/meson.build
+gst-plugins-ugly-1.26.2/gst/dvdlpcmdec/
+gst-plugins-ugly-1.26.2/gst/dvdlpcmdec/gstdvdlpcmdec.c
+gst-plugins-ugly-1.26.2/gst/dvdlpcmdec/gstdvdlpcmdec.h
+gst-plugins-ugly-1.26.2/gst/dvdlpcmdec/meson.build
+gst-plugins-ugly-1.26.2/gst/dvdsub/
+gst-plugins-ugly-1.26.2/gst/dvdsub/gstdvdsubdec.c
+gst-plugins-ugly-1.26.2/gst/dvdsub/gstdvdsubdec.h
+gst-plugins-ugly-1.26.2/gst/dvdsub/gstdvdsubparse.c
+gst-plugins-ugly-1.26.2/gst/dvdsub/gstdvdsubparse.h
+gst-plugins-ugly-1.26.2/gst/dvdsub/meson.build
+gst-plugins-ugly-1.26.2/gst/meson.build
+gst-plugins-ugly-1.26.2/gst/realmedia/
+gst-plugins-ugly-1.26.2/gst/realmedia/meson.build
+gst-plugins-ugly-1.26.2/gst/realmedia/pnmsrc.c
+gst-plugins-ugly-1.26.2/gst/realmedia/pnmsrc.h
+gst-plugins-ugly-1.26.2/gst/realmedia/rademux.c
+gst-plugins-ugly-1.26.2/gst/realmedia/rademux.h
+gst-plugins-ugly-1.26.2/gst/realmedia/realmedia.c
+gst-plugins-ugly-1.26.2/gst/realmedia/rmdemux.c
+gst-plugins-ugly-1.26.2/gst/realmedia/rmdemux.h
+gst-plugins-ugly-1.26.2/gst/realmedia/rmutils.c
+gst-plugins-ugly-1.26.2/gst/realmedia/rmutils.h
+gst-plugins-ugly-1.26.2/gst-libs/
+gst-plugins-ugly-1.26.2/gst-libs/gst/
+gst-plugins-ugly-1.26.2/gst-libs/gst/glib-compat-private.h
+gst-plugins-ugly-1.26.2/gst-plugins-ugly.doap
+gst-plugins-ugly-1.26.2/meson.build
+gst-plugins-ugly-1.26.2/meson_options.txt
+gst-plugins-ugly-1.26.2/po/
+gst-plugins-ugly-1.26.2/po/LINGUAS
+gst-plugins-ugly-1.26.2/po/POTFILES
+gst-plugins-ugly-1.26.2/po/af.po
+gst-plugins-ugly-1.26.2/po/ast.po
+gst-plugins-ugly-1.26.2/po/az.po
+gst-plugins-ugly-1.26.2/po/bg.po
+gst-plugins-ugly-1.26.2/po/ca.po
+gst-plugins-ugly-1.26.2/po/cs.po
+gst-plugins-ugly-1.26.2/po/da.po
+gst-plugins-ugly-1.26.2/po/de.po
+gst-plugins-ugly-1.26.2/po/el.po
+gst-plugins-ugly-1.26.2/po/en_GB.po
+gst-plugins-ugly-1.26.2/po/eo.po
+gst-plugins-ugly-1.26.2/po/es.po
+gst-plugins-ugly-1.26.2/po/eu.po
+gst-plugins-ugly-1.26.2/po/fi.po
+gst-plugins-ugly-1.26.2/po/fr.po
+gst-plugins-ugly-1.26.2/po/fur.po
+gst-plugins-ugly-1.26.2/po/gl.po
+gst-plugins-ugly-1.26.2/po/gst-plugins-ugly-1.0.pot
+gst-plugins-ugly-1.26.2/po/gst-plugins-ugly.pot
+gst-plugins-ugly-1.26.2/po/hr.po
+gst-plugins-ugly-1.26.2/po/hu.po
+gst-plugins-ugly-1.26.2/po/id.po
+gst-plugins-ugly-1.26.2/po/it.po
+gst-plugins-ugly-1.26.2/po/ja.po
+gst-plugins-ugly-1.26.2/po/ka.po
+gst-plugins-ugly-1.26.2/po/lt.po
+gst-plugins-ugly-1.26.2/po/lv.po
+gst-plugins-ugly-1.26.2/po/meson.build
+gst-plugins-ugly-1.26.2/po/ms.po
+gst-plugins-ugly-1.26.2/po/mt.po
+gst-plugins-ugly-1.26.2/po/nb.po
+gst-plugins-ugly-1.26.2/po/nl.po
+gst-plugins-ugly-1.26.2/po/or.po
+gst-plugins-ugly-1.26.2/po/pl.po
+gst-plugins-ugly-1.26.2/po/pt_BR.po
+gst-plugins-ugly-1.26.2/po/ro.po
+gst-plugins-ugly-1.26.2/po/ru.po
+gst-plugins-ugly-1.26.2/po/sk.po
+gst-plugins-ugly-1.26.2/po/sl.po
+gst-plugins-ugly-1.26.2/po/sq.po
+gst-plugins-ugly-1.26.2/po/sr.po
+gst-plugins-ugly-1.26.2/po/sv.po
+gst-plugins-ugly-1.26.2/po/ta.po
+gst-plugins-ugly-1.26.2/po/tr.po
+gst-plugins-ugly-1.26.2/po/uk.po
+gst-plugins-ugly-1.26.2/po/vi.po
+gst-plugins-ugly-1.26.2/po/zh_CN.po
+gst-plugins-ugly-1.26.2/po/zh_TW.po
+gst-plugins-ugly-1.26.2/scripts/
+gst-plugins-ugly-1.26.2/scripts/dist-translations.py
+gst-plugins-ugly-1.26.2/scripts/extract-release-date-from-doap-file.py
+gst-plugins-ugly-1.26.2/scripts/gen-changelog.py
+gst-plugins-ugly-1.26.2/scripts/meson.build
+gst-plugins-ugly-1.26.2/tests/
+gst-plugins-ugly-1.26.2/tests/check/
+gst-plugins-ugly-1.26.2/tests/check/elements/
+gst-plugins-ugly-1.26.2/tests/check/elements/mpeg2dec.c
+gst-plugins-ugly-1.26.2/tests/check/elements/x264enc.c
+gst-plugins-ugly-1.26.2/tests/check/generic/
+gst-plugins-ugly-1.26.2/tests/check/generic/index.c
+gst-plugins-ugly-1.26.2/tests/check/generic/states.c
+gst-plugins-ugly-1.26.2/tests/check/gst-plugins-ugly.supp
+gst-plugins-ugly-1.26.2/tests/check/meson.build
+gst-plugins-ugly-1.26.2/tests/meson.build
+The Meson build system
+Version: 1.7.0
+Source dir: /blfs/builds/gst-plugins-ugly-1.26.2
+Build dir: /blfs/builds/gst-plugins-ugly-1.26.2/build
+Build type: native build
+Project name: gst-plugins-ugly
+Project version: 1.26.2
+C compiler for the host machine: cc (gcc 14.2.0 "cc (GCC) 14.2.0")
+C linker for the host machine: cc ld.bfd 2.44
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+C++ compiler for the host machine: c++ (gcc 14.2.0 "c++ (GCC) 14.2.0")
+C++ linker for the host machine: c++ ld.bfd 2.44
+Compiler for C supports link arguments -Wl,-Bsymbolic-functions: YES 
+Compiler for C++ supports link arguments -Wl,-Bsymbolic-functions: YES 
+Compiler for C supports link arguments -Wl,-z,nodelete: YES 
+Compiler for C++ supports link arguments -Wl,-z,nodelete: YES 
+Has header "dlfcn.h" : YES 
+Has header "inttypes.h" : YES 
+Has header "malloc.h" : YES 
+Has header "memory.h" : YES 
+Has header "stdint.h" : YES 
+Has header "stdlib.h" : YES 
+Has header "strings.h" : YES 
+Has header "string.h" : YES 
+Has header "sys/stat.h" : YES 
+Has header "sys/types.h" : YES 
+Has header "unistd.h" : YES 
+Has header "winsock2.h" : NO 
+Checking for function "dcgettext" : YES 
+Checking for size of "char" : 1 
+Checking for size of "int" : 4 
+Checking for size of "long" : 8 
+Checking for size of "short" : 2 
+Checking for size of "void*" : 8 
+Found pkg-config: YES (/usr/bin/pkg-config) 2.4.3
+Run-time dependency gstreamer-1.0 found: YES 1.26.2
+Run-time dependency gstreamer-app-1.0 found: YES 1.26.2
+Run-time dependency gstreamer-video-1.0 found: YES 1.26.2
+Run-time dependency gstreamer-pbutils-1.0 found: YES 1.26.2
+Run-time dependency gstreamer-tag-1.0 found: YES 1.26.2
+Run-time dependency gstreamer-fft-1.0 found: YES 1.26.2
+Run-time dependency gstreamer-audio-1.0 found: YES 1.26.2
+Run-time dependency gstreamer-base-1.0 found: YES 1.26.2
+Run-time dependency gstreamer-riff-1.0 found: YES 1.26.2
+Run-time dependency gstreamer-rtp-1.0 found: YES 1.26.2
+Run-time dependency gstreamer-net-1.0 found: YES 1.26.2
+Run-time dependency gstreamer-sdp-1.0 found: YES 1.26.2
+Run-time dependency gstreamer-rtsp-1.0 found: YES 1.26.2
+Run-time dependency gstreamer-check-1.0 found: YES 1.26.2
+Run-time dependency gstreamer-controller-1.0 found: YES 1.26.2
+Found CMake: /usr/bin/cmake (4.0.2)
+Run-time dependency orc-0.4 found: NO (tried pkgconfig and cmake)
+Looking for a fallback subproject for the dependency orc-0.4
+Neither a subproject directory nor a orc.wrap file was found.
+Subproject  orc is buildable: NO (disabling)
+Dependency orc-0.4 from subproject orc found: NO (subproject failed to configure)
+Run-time dependency gmodule-no-export-2.0 found: YES 2.84.1
+Header "gst/gstconfig.h" has symbol "GST_DISABLE_GST_DEBUG" with dependency gstreamer-1.0: YES 
+Message: GStreamer debug system is disabled
+Compiler for C supports arguments -Wno-unused: YES 
+Compiler for C++ supports arguments -Wno-unused: YES 
+Compiler for C supports arguments -Waddress: YES 
+Compiler for C++ supports arguments -Waddress: YES 
+Compiler for C supports arguments -Waggregate-return: YES 
+Compiler for C++ supports arguments -Waggregate-return: YES 
+Compiler for C supports arguments -Wformat: YES 
+Compiler for C++ supports arguments -Wformat: YES 
+Compiler for C supports arguments -Wformat-nonliteral: YES 
+Compiler for C++ supports arguments -Wformat-nonliteral: YES 
+Compiler for C supports arguments -Wformat-security: YES 
+Compiler for C++ supports arguments -Wformat-security: YES 
+Compiler for C supports arguments -Wimplicit-fallthrough=3: YES 
+Compiler for C++ supports arguments -Wimplicit-fallthrough=3: YES 
+Compiler for C supports arguments -Winit-self: YES 
+Compiler for C++ supports arguments -Winit-self: YES 
+Compiler for C supports arguments -Wmissing-declarations: YES 
+Compiler for C++ supports arguments -Wmissing-declarations: YES 
+Compiler for C supports arguments -Wmissing-include-dirs: YES 
+Compiler for C++ supports arguments -Wmissing-include-dirs: YES 
+Compiler for C supports arguments -Wno-multichar: YES 
+Compiler for C++ supports arguments -Wno-multichar: YES 
+Compiler for C supports arguments -Wpointer-arith: YES 
+Compiler for C++ supports arguments -Wpointer-arith: YES 
+Compiler for C supports arguments -Wredundant-decls: YES 
+Compiler for C++ supports arguments -Wredundant-decls: YES 
+Compiler for C supports arguments -Wshift-negative-value: YES 
+Compiler for C++ supports arguments -Wshift-negative-value: YES 
+Compiler for C supports arguments -Wtype-limits: YES 
+Compiler for C++ supports arguments -Wtype-limits: YES 
+Compiler for C supports arguments -Wvla: YES 
+Compiler for C++ supports arguments -Wvla: YES 
+Compiler for C supports arguments -Wwrite-strings: YES 
+Compiler for C++ supports arguments -Wwrite-strings: YES 
+Compiler for C supports arguments -fno-strict-aliasing: YES 
+Compiler for C++ supports arguments -fno-strict-aliasing: YES 
+Compiler for C supports arguments -fvisibility=hidden: YES 
+Compiler for C++ supports arguments -fvisibility=hidden: YES 
+Compiler for C supports arguments -Wmissing-prototypes: YES 
+Compiler for C supports arguments -Wold-style-definition: YES 
+Compiler for C supports arguments -Wnested-externs: YES 
+Message: Disabling GLib cast checks
+Program python3 found: YES (/usr/bin/python3)
+Library a52 found: YES
+Header "a52dec/a52.h" has symbol "a52_init" : YES 
+Run-time dependency libcdio found: NO (tried pkgconfig and cmake)
+Run-time dependency dvdread found: YES 6.1.2
+Run-time dependency libmpeg2 found: NO (tried pkgconfig and cmake)
+Has header "sidplay/player.h" : NO 
+Run-time dependency x264 found: YES 0.164.x
+Run-time dependency gstreamer-plugins-base-1.0 found: YES 1.26.2
+Library m found: YES
+Compiler for C supports arguments -Wno-missing-prototypes: YES 
+Compiler for C supports arguments -Wno-missing-declarations: YES 
+Compiler for C supports arguments -Wno-old-style-definition: YES 
+Program xgettext found: YES (/usr/bin/xgettext)
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Program msginit found: YES (/usr/bin/msginit)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program xgettext found: YES (/usr/bin/xgettext)
+Program gst-plugins-doc-cache-generator found: YES (/usr/libexec/gstreamer-1.0/gst-plugins-doc-cache-generator)
+Configuring gst_api_version.md using configuration
+Configuring doc_sources.json using configuration
+Configuring doc_plugin_libs.json using configuration
+Program scripts/extract-release-date-from-doap-file.py found: YES (/blfs/builds/gst-plugins-ugly-1.26.2/scripts/extract-release-date-from-doap-file.py)
+Message: Package release date: 2025-05-29
+Configuring config.h using configuration
+Build targets in project: 59
+
+gst-plugins-ugly 1.26.2
+
+    Plugins               : asf, dvdlpcmdec, dvdsub, realmedia, a52dec,
+                            dvdread, x264
+    (A)GPL license allowed: true
+
+  Subprojects
+    orc                   : NO
+                            Neither a subproject directory nor a orc.wrap file was found.
+
+  User defined options
+    buildtype             : release
+    gpl                   : enabled
+    package-name          : GStreamer 1.26.2 for Tucana
+    package-origin        : https://github.com/xXTeraXx/Tucana
+    prefix                : /usr
+    wrap_mode             : nodownload
+
+Found ninja-1.12.1 at /usr/bin/ninja
+WARNING: Running the setup command as `meson [options]` instead of `meson setup [options]` is ambiguous and deprecated.
+[1/74] Building translation po/ast/LC_MESSAGES/gst-plugins-ugly-1.0-ast.mo
+[2/74] Building translation po/af/LC_MESSAGES/gst-plugins-ugly-1.0-af.mo
+[3/74] Building translation po/az/LC_MESSAGES/gst-plugins-ugly-1.0-az.mo
+[4/74] Building translation po/bg/LC_MESSAGES/gst-plugins-ugly-1.0-bg.mo
+[5/74] Building translation po/cs/LC_MESSAGES/gst-plugins-ugly-1.0-cs.mo
+[6/74] Building translation po/ca/LC_MESSAGES/gst-plugins-ugly-1.0-ca.mo
+[7/74] Building translation po/da/LC_MESSAGES/gst-plugins-ugly-1.0-da.mo
+[8/74] Building translation po/de/LC_MESSAGES/gst-plugins-ugly-1.0-de.mo
+[9/74] Building translation po/el/LC_MESSAGES/gst-plugins-ugly-1.0-el.mo
+[10/74] Building translation po/en_GB/LC_MESSAGES/gst-plugins-ugly-1.0-en_GB.mo
+[11/74] Building translation po/eo/LC_MESSAGES/gst-plugins-ugly-1.0-eo.mo
+[12/74] Building translation po/es/LC_MESSAGES/gst-plugins-ugly-1.0-es.mo
+[13/74] Building translation po/eu/LC_MESSAGES/gst-plugins-ugly-1.0-eu.mo
+[14/74] Building translation po/fi/LC_MESSAGES/gst-plugins-ugly-1.0-fi.mo
+[15/74] Building translation po/fr/LC_MESSAGES/gst-plugins-ugly-1.0-fr.mo
+[16/74] Building translation po/fur/LC_MESSAGES/gst-plugins-ugly-1.0-fur.mo
+[17/74] Building translation po/gl/LC_MESSAGES/gst-plugins-ugly-1.0-gl.mo
+[18/74] Building translation po/hr/LC_MESSAGES/gst-plugins-ugly-1.0-hr.mo
+[19/74] Building translation po/hu/LC_MESSAGES/gst-plugins-ugly-1.0-hu.mo
+[20/74] Building translation po/id/LC_MESSAGES/gst-plugins-ugly-1.0-id.mo
+[21/74] Building translation po/it/LC_MESSAGES/gst-plugins-ugly-1.0-it.mo
+[22/74] Compiling C object gst/realmedia/libgstrealmedia.so.p/realmedia.c.o
+[23/74] Compiling C object gst/asfdemux/libgstasf.so.p/asfheaders.c.o
+[24/74] Building translation po/ja/LC_MESSAGES/gst-plugins-ugly-1.0-ja.mo
+[25/74] Building translation po/lt/LC_MESSAGES/gst-plugins-ugly-1.0-lt.mo
+[26/74] Building translation po/ka/LC_MESSAGES/gst-plugins-ugly-1.0-ka.mo
+[27/74] Building translation po/ms/LC_MESSAGES/gst-plugins-ugly-1.0-ms.mo
+[28/74] Building translation po/lv/LC_MESSAGES/gst-plugins-ugly-1.0-lv.mo
+[29/74] Building translation po/mt/LC_MESSAGES/gst-plugins-ugly-1.0-mt.mo
+[30/74] Building translation po/nb/LC_MESSAGES/gst-plugins-ugly-1.0-nb.mo
+[31/74] Building translation po/nl/LC_MESSAGES/gst-plugins-ugly-1.0-nl.mo
+[32/74] Building translation po/or/LC_MESSAGES/gst-plugins-ugly-1.0-or.mo
+[33/74] Building translation po/pl/LC_MESSAGES/gst-plugins-ugly-1.0-pl.mo
+[34/74] Compiling C object gst/asfdemux/libgstasf.so.p/gstasfelement.c.o
+[35/74] Compiling C object gst/dvdsub/libgstdvdsub.so.p/gstdvdsubparse.c.o
+[36/74] Building translation po/pt_BR/LC_MESSAGES/gst-plugins-ugly-1.0-pt_BR.mo
+[37/74] Building translation po/ro/LC_MESSAGES/gst-plugins-ugly-1.0-ro.mo
+[38/74] Building translation po/ru/LC_MESSAGES/gst-plugins-ugly-1.0-ru.mo
+[39/74] Building translation po/sq/LC_MESSAGES/gst-plugins-ugly-1.0-sq.mo
+[40/74] Building translation po/sk/LC_MESSAGES/gst-plugins-ugly-1.0-sk.mo
+[41/74] Building translation po/sl/LC_MESSAGES/gst-plugins-ugly-1.0-sl.mo
+[42/74] Building translation po/sr/LC_MESSAGES/gst-plugins-ugly-1.0-sr.mo
+[43/74] Building translation po/ta/LC_MESSAGES/gst-plugins-ugly-1.0-ta.mo
+[44/74] Building translation po/sv/LC_MESSAGES/gst-plugins-ugly-1.0-sv.mo
+[45/74] Building translation po/vi/LC_MESSAGES/gst-plugins-ugly-1.0-vi.mo
+[46/74] Compiling C object ext/x264/libgstx264.so.p/gstencoderbitrateprofilemanager.c.o
+[47/74] Building translation po/zh_CN/LC_MESSAGES/gst-plugins-ugly-1.0-zh_CN.mo
+[48/74] Compiling C object gst/asfdemux/libgstasf.so.p/gstrtspwms.c.o
+[49/74] Building translation po/uk/LC_MESSAGES/gst-plugins-ugly-1.0-uk.mo
+[50/74] Building translation po/tr/LC_MESSAGES/gst-plugins-ugly-1.0-tr.mo
+[51/74] Building translation po/zh_TW/LC_MESSAGES/gst-plugins-ugly-1.0-zh_TW.mo
+[52/74] Compiling C object gst/asfdemux/libgstasf.so.p/gstasf.c.o
+[53/74] Compiling C object gst/realmedia/libgstrealmedia.so.p/rmutils.c.o
+[54/74] Compiling C object gst/asfdemux/libgstasf.so.p/gstrtpasfdepay.c.o
+[55/74] Compiling C object tests/check/generic_states.p/generic_states.c.o
+[56/74] Compiling C object ext/a52dec/libgsta52dec.so.p/gsta52dec.c.o
+[57/74] Linking target ext/a52dec/libgsta52dec.so
+[58/74] Linking target tests/check/generic_states
+[59/74] Compiling C object gst/realmedia/libgstrealmedia.so.p/rademux.c.o
+[60/74] Compiling C object gst/dvdlpcmdec/libgstdvdlpcmdec.so.p/gstdvdlpcmdec.c.o
+[61/74] Linking target gst/dvdlpcmdec/libgstdvdlpcmdec.so
+[62/74] Compiling C object gst/asfdemux/libgstasf.so.p/asfpacket.c.o
+[63/74] Compiling C object tests/check/elements_x264enc.p/elements_x264enc.c.o
+[64/74] Compiling C object gst/dvdsub/libgstdvdsub.so.p/gstdvdsubdec.c.o
+[65/74] Linking target gst/dvdsub/libgstdvdsub.so
+[66/74] Linking target tests/check/elements_x264enc
+[67/74] Compiling C object ext/dvdread/libgstdvdread.so.p/dvdreadsrc.c.o
+[68/74] Linking target ext/dvdread/libgstdvdread.so
+[69/74] Compiling C object gst/realmedia/libgstrealmedia.so.p/rmdemux.c.o
+[70/74] Linking target gst/realmedia/libgstrealmedia.so
+[71/74] Compiling C object ext/x264/libgstx264.so.p/gstx264enc.c.o
+[72/74] Linking target ext/x264/libgstx264.so
+[73/74] Compiling C object gst/asfdemux/libgstasf.so.p/gstasfdemux.c.o
+[74/74] Linking target gst/asfdemux/libgstasf.so
+[0/1] Installing files
+Installing gst/asfdemux/libgstasf.so to /pkgs/gst-plugins-ugly/usr/lib/gstreamer-1.0
+Installing gst/dvdlpcmdec/libgstdvdlpcmdec.so to /pkgs/gst-plugins-ugly/usr/lib/gstreamer-1.0
+Installing gst/dvdsub/libgstdvdsub.so to /pkgs/gst-plugins-ugly/usr/lib/gstreamer-1.0
+Installing gst/realmedia/libgstrealmedia.so to /pkgs/gst-plugins-ugly/usr/lib/gstreamer-1.0
+Installing ext/a52dec/libgsta52dec.so to /pkgs/gst-plugins-ugly/usr/lib/gstreamer-1.0
+Installing ext/dvdread/libgstdvdread.so to /pkgs/gst-plugins-ugly/usr/lib/gstreamer-1.0
+Installing ext/x264/libgstx264.so to /pkgs/gst-plugins-ugly/usr/lib/gstreamer-1.0
+Installing po/af/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/af/LC_MESSAGES
+Installing po/ast/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/ast/LC_MESSAGES
+Installing po/az/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/az/LC_MESSAGES
+Installing po/bg/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/bg/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/ca/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/cs/LC_MESSAGES
+Installing po/da/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/de/LC_MESSAGES
+Installing po/el/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/el/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/en_GB/LC_MESSAGES
+Installing po/eo/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/eo/LC_MESSAGES
+Installing po/es/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/es/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/eu/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/fr/LC_MESSAGES
+Installing po/fur/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/fur/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/gl/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/hu/LC_MESSAGES
+Installing po/id/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/id/LC_MESSAGES
+Installing po/it/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/it/LC_MESSAGES
+Installing po/ja/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/ja/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/ka/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/lt/LC_MESSAGES
+Installing po/lv/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/lv/LC_MESSAGES
+Installing po/ms/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/ms/LC_MESSAGES
+Installing po/mt/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/mt/LC_MESSAGES
+Installing po/nb/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/nb/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/nl/LC_MESSAGES
+Installing po/or/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/or/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/pl/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/ru/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/sl/LC_MESSAGES
+Installing po/sq/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/sq/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/sr/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/sv/LC_MESSAGES
+Installing po/ta/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/ta/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/tr/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/uk/LC_MESSAGES
+Installing po/vi/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/vi/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /pkgs/gst-plugins-ugly/usr/share/locale/zh_TW/LC_MESSAGES
+Installing /blfs/builds/gst-plugins-ugly-1.26.2/ext/x264/GstX264Enc.prs to /pkgs/gst-plugins-ugly/usr/share/gstreamer-1.0/presets
+[0/1] Installing files
+Installing gst/asfdemux/libgstasf.so to /usr/lib/gstreamer-1.0
+Installing gst/dvdlpcmdec/libgstdvdlpcmdec.so to /usr/lib/gstreamer-1.0
+Installing gst/dvdsub/libgstdvdsub.so to /usr/lib/gstreamer-1.0
+Installing gst/realmedia/libgstrealmedia.so to /usr/lib/gstreamer-1.0
+Installing ext/a52dec/libgsta52dec.so to /usr/lib/gstreamer-1.0
+Installing ext/dvdread/libgstdvdread.so to /usr/lib/gstreamer-1.0
+Installing ext/x264/libgstx264.so to /usr/lib/gstreamer-1.0
+Installing po/af/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/af/LC_MESSAGES
+Installing po/ast/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/ast/LC_MESSAGES
+Installing po/az/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/az/LC_MESSAGES
+Installing po/bg/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/bg/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/ca/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/cs/LC_MESSAGES
+Installing po/da/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/de/LC_MESSAGES
+Installing po/el/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/el/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/en_GB/LC_MESSAGES
+Installing po/eo/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/eo/LC_MESSAGES
+Installing po/es/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/es/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/eu/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/fr/LC_MESSAGES
+Installing po/fur/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/fur/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/gl/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/hu/LC_MESSAGES
+Installing po/id/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/id/LC_MESSAGES
+Installing po/it/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/it/LC_MESSAGES
+Installing po/ja/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/ja/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/ka/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/lt/LC_MESSAGES
+Installing po/lv/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/lv/LC_MESSAGES
+Installing po/ms/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/ms/LC_MESSAGES
+Installing po/mt/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/mt/LC_MESSAGES
+Installing po/nb/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/nb/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/nl/LC_MESSAGES
+Installing po/or/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/or/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/pl/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/ru/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/sl/LC_MESSAGES
+Installing po/sq/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/sq/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/sr/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/sv/LC_MESSAGES
+Installing po/ta/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/ta/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/tr/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/uk/LC_MESSAGES
+Installing po/vi/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/vi/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/gst-plugins-ugly-1.0.mo to /usr/share/locale/zh_TW/LC_MESSAGES
+Installing /blfs/builds/gst-plugins-ugly-1.26.2/ext/x264/GstX264Enc.prs to /usr/share/gstreamer-1.0/presets
+gst-plugins-ugly/
+gst-plugins-ugly/usr/
+gst-plugins-ugly/usr/share/
+gst-plugins-ugly/usr/share/locale/
+gst-plugins-ugly/usr/share/locale/af/
+gst-plugins-ugly/usr/share/locale/af/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/af/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/ca/
+gst-plugins-ugly/usr/share/locale/ca/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/ca/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/eu/
+gst-plugins-ugly/usr/share/locale/eu/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/eu/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/en_GB/
+gst-plugins-ugly/usr/share/locale/en_GB/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/en_GB/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/uk/
+gst-plugins-ugly/usr/share/locale/uk/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/uk/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/it/
+gst-plugins-ugly/usr/share/locale/it/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/it/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/de/
+gst-plugins-ugly/usr/share/locale/de/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/de/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/ast/
+gst-plugins-ugly/usr/share/locale/ast/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/ast/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/es/
+gst-plugins-ugly/usr/share/locale/es/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/es/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/vi/
+gst-plugins-ugly/usr/share/locale/vi/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/vi/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/fur/
+gst-plugins-ugly/usr/share/locale/fur/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/fur/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/da/
+gst-plugins-ugly/usr/share/locale/da/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/da/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/zh_CN/
+gst-plugins-ugly/usr/share/locale/zh_CN/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/zh_CN/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/or/
+gst-plugins-ugly/usr/share/locale/or/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/or/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/ta/
+gst-plugins-ugly/usr/share/locale/ta/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/ta/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/mt/
+gst-plugins-ugly/usr/share/locale/mt/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/mt/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/nb/
+gst-plugins-ugly/usr/share/locale/nb/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/nb/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/hr/
+gst-plugins-ugly/usr/share/locale/hr/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/hr/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/sr/
+gst-plugins-ugly/usr/share/locale/sr/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/sr/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/pt_BR/
+gst-plugins-ugly/usr/share/locale/pt_BR/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/pt_BR/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/tr/
+gst-plugins-ugly/usr/share/locale/tr/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/tr/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/sk/
+gst-plugins-ugly/usr/share/locale/sk/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/sk/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/az/
+gst-plugins-ugly/usr/share/locale/az/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/az/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/ms/
+gst-plugins-ugly/usr/share/locale/ms/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/ms/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/sq/
+gst-plugins-ugly/usr/share/locale/sq/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/sq/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/gl/
+gst-plugins-ugly/usr/share/locale/gl/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/gl/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/pl/
+gst-plugins-ugly/usr/share/locale/pl/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/pl/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/sl/
+gst-plugins-ugly/usr/share/locale/sl/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/sl/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/fi/
+gst-plugins-ugly/usr/share/locale/fi/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/fi/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/zh_TW/
+gst-plugins-ugly/usr/share/locale/zh_TW/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/zh_TW/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/nl/
+gst-plugins-ugly/usr/share/locale/nl/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/nl/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/ka/
+gst-plugins-ugly/usr/share/locale/ka/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/ka/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/fr/
+gst-plugins-ugly/usr/share/locale/fr/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/fr/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/eo/
+gst-plugins-ugly/usr/share/locale/eo/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/eo/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/ro/
+gst-plugins-ugly/usr/share/locale/ro/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/ro/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/lt/
+gst-plugins-ugly/usr/share/locale/lt/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/lt/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/cs/
+gst-plugins-ugly/usr/share/locale/cs/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/cs/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/sv/
+gst-plugins-ugly/usr/share/locale/sv/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/sv/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/el/
+gst-plugins-ugly/usr/share/locale/el/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/el/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/ja/
+gst-plugins-ugly/usr/share/locale/ja/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/ja/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/id/
+gst-plugins-ugly/usr/share/locale/id/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/id/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/hu/
+gst-plugins-ugly/usr/share/locale/hu/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/hu/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/bg/
+gst-plugins-ugly/usr/share/locale/bg/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/bg/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/ru/
+gst-plugins-ugly/usr/share/locale/ru/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/ru/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/locale/lv/
+gst-plugins-ugly/usr/share/locale/lv/LC_MESSAGES/
+gst-plugins-ugly/usr/share/locale/lv/LC_MESSAGES/gst-plugins-ugly-1.0.mo
+gst-plugins-ugly/usr/share/gstreamer-1.0/
+gst-plugins-ugly/usr/share/gstreamer-1.0/presets/
+gst-plugins-ugly/usr/share/gstreamer-1.0/presets/GstX264Enc.prs
+gst-plugins-ugly/usr/lib/
+gst-plugins-ugly/usr/lib/gstreamer-1.0/
+gst-plugins-ugly/usr/lib/gstreamer-1.0/libgstdvdlpcmdec.so
+gst-plugins-ugly/usr/lib/gstreamer-1.0/libgstdvdread.so
+gst-plugins-ugly/usr/lib/gstreamer-1.0/libgstx264.so
+gst-plugins-ugly/usr/lib/gstreamer-1.0/libgsta52dec.so
+gst-plugins-ugly/usr/lib/gstreamer-1.0/libgstdvdsub.so
+gst-plugins-ugly/usr/lib/gstreamer-1.0/libgstrealmedia.so
+gst-plugins-ugly/usr/lib/gstreamer-1.0/libgstasf.so
+gst-plugins-ugly/version
+gst-plugins-ugly/depends

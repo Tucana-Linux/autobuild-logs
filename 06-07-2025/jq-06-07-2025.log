@@ -1,0 +1,801 @@
+--2025-06-07 21:08:26--  https://github.com/stedolan/jq/releases/download/jq-1.8.0/jq-1.8.0.tar.gz
+Resolving github.com (github.com)... 140.82.113.4
+Connecting to github.com (github.com)|140.82.113.4|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-1.8.0.tar.gz [following]
+--2025-06-07 21:08:26--  https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-1.8.0.tar.gz
+Reusing existing connection to github.com:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/5101141/5b38d13a-17d9-4649-92bb-76f00e5195e9?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250607%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250607T210826Z&X-Amz-Expires=300&X-Amz-Signature=0e0bebf46d1d5455a76444bd458349070aee6931c741b0f570edfe1c5a270b3e&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Djq-1.8.0.tar.gz&response-content-type=application%2Foctet-stream [following]
+--2025-06-07 21:08:26--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/5101141/5b38d13a-17d9-4649-92bb-76f00e5195e9?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250607%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250607T210826Z&X-Amz-Expires=300&X-Amz-Signature=0e0bebf46d1d5455a76444bd458349070aee6931c741b0f570edfe1c5a270b3e&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Djq-1.8.0.tar.gz&response-content-type=application%2Foctet-stream
+Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.108.133, 185.199.109.133, 185.199.110.133, ...
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1908285 (1.8M) [application/octet-stream]
+Saving to: 'jq-1.8.0.tar.gz'
+
+     0K .......... .......... .......... .......... ..........  2% 7.35M 0s
+    50K .......... .......... .......... .......... ..........  5% 13.4M 0s
+   100K .......... .......... .......... .......... ..........  8% 12.1M 0s
+   150K .......... .......... .......... .......... .......... 10% 39.9M 0s
+   200K .......... .......... .......... .......... .......... 13% 18.8M 0s
+   250K .......... .......... .......... .......... .......... 16%  103M 0s
+   300K .......... .......... .......... .......... .......... 18% 64.8M 0s
+   350K .......... .......... .......... .......... .......... 21% 15.6M 0s
+   400K .......... .......... .......... .......... .......... 24%  103M 0s
+   450K .......... .......... .......... .......... .......... 26% 76.7M 0s
+   500K .......... .......... .......... .......... .......... 29%  103M 0s
+   550K .......... .......... .......... .......... .......... 32% 21.0M 0s
+   600K .......... .......... .......... .......... .......... 34%  117M 0s
+   650K .......... .......... .......... .......... .......... 37%  117M 0s
+   700K .......... .......... .......... .......... .......... 40% 85.8M 0s
+   750K .......... .......... .......... .......... .......... 42%  117M 0s
+   800K .......... .......... .......... .......... .......... 45% 21.9M 0s
+   850K .......... .......... .......... .......... .......... 48%  116M 0s
+   900K .......... .......... .......... .......... .......... 50%  114M 0s
+   950K .......... .......... .......... .......... .......... 53%  120M 0s
+  1000K .......... .......... .......... .......... .......... 56%  117M 0s
+  1050K .......... .......... .......... .......... .......... 59%  118M 0s
+  1100K .......... .......... .......... .......... .......... 61% 90.6M 0s
+  1150K .......... .......... .......... .......... .......... 64%  112M 0s
+  1200K .......... .......... .......... .......... .......... 67%  116M 0s
+  1250K .......... .......... .......... .......... .......... 69% 90.7M 0s
+  1300K .......... .......... .......... .......... .......... 72%  116M 0s
+  1350K .......... .......... .......... .......... .......... 75%  116M 0s
+  1400K .......... .......... .......... .......... .......... 77%  132M 0s
+  1450K .......... .......... .......... .......... .......... 80%  105M 0s
+  1500K .......... .......... .......... .......... .......... 83% 88.2M 0s
+  1550K .......... .......... .......... .......... .......... 85%  125M 0s
+  1600K .......... .......... .......... .......... .......... 88% 73.5M 0s
+  1650K .......... .......... .......... .......... .......... 91%  132M 0s
+  1700K .......... .......... .......... .......... .......... 93%  178M 0s
+  1750K .......... .......... .......... .......... .......... 96%  102M 0s
+  1800K .......... .......... .......... .......... .......... 99% 93.8M 0s
+  1850K .......... ...                                        100%  324M=0.04s
+
+2025-06-07 21:08:26 (46.1 MB/s) - 'jq-1.8.0.tar.gz' saved [1908285/1908285]
+
+jq-1.8.0/
+jq-1.8.0/Makefile.in
+jq-1.8.0/config/
+jq-1.8.0/config/depcomp
+jq-1.8.0/config/ltmain.sh
+jq-1.8.0/config/compile
+jq-1.8.0/config/m4/
+jq-1.8.0/config/m4/find-func-no-libs.m4
+jq-1.8.0/config/m4/ltversion.m4
+jq-1.8.0/config/m4/ltoptions.m4
+jq-1.8.0/config/m4/check-math-func.m4
+jq-1.8.0/config/m4/lt~obsolete.m4
+jq-1.8.0/config/m4/libtool.m4
+jq-1.8.0/config/m4/find-func.m4
+jq-1.8.0/config/m4/find-func-no-libs2.m4
+jq-1.8.0/config/m4/ltsugar.m4
+jq-1.8.0/config/m4/misc.m4
+jq-1.8.0/config/missing
+jq-1.8.0/config/config.guess
+jq-1.8.0/config/ylwrap
+jq-1.8.0/config/config.sub
+jq-1.8.0/config/ar-lib
+jq-1.8.0/config/test-driver
+jq-1.8.0/config/install-sh
+jq-1.8.0/COPYING
+jq-1.8.0/jq.spec
+jq-1.8.0/tests/
+jq-1.8.0/tests/torture/
+jq-1.8.0/tests/torture/input0.json
+jq-1.8.0/tests/jq.test
+jq-1.8.0/tests/uri.test
+jq-1.8.0/tests/setup
+jq-1.8.0/tests/utf8test
+jq-1.8.0/tests/manonigtest
+jq-1.8.0/tests/no-main-program.jq
+jq-1.8.0/tests/man.test
+jq-1.8.0/tests/manonig.test
+jq-1.8.0/tests/onig.supp
+jq-1.8.0/tests/jqtest
+jq-1.8.0/tests/optionaltest
+jq-1.8.0/tests/base64test
+jq-1.8.0/tests/local.supp
+jq-1.8.0/tests/modules/
+jq-1.8.0/tests/modules/shadow2.jq
+jq-1.8.0/tests/modules/c/
+jq-1.8.0/tests/modules/c/d.jq
+jq-1.8.0/tests/modules/c/c.jq
+jq-1.8.0/tests/modules/lib/
+jq-1.8.0/tests/modules/lib/jq/
+jq-1.8.0/tests/modules/lib/jq/f.jq
+jq-1.8.0/tests/modules/lib/jq/e/
+jq-1.8.0/tests/modules/lib/jq/e/e.jq
+jq-1.8.0/tests/modules/data.json
+jq-1.8.0/tests/modules/test_bind_order.jq
+jq-1.8.0/tests/modules/syntaxerror/
+jq-1.8.0/tests/modules/syntaxerror/syntaxerror.jq
+jq-1.8.0/tests/modules/test_bind_order2.jq
+jq-1.8.0/tests/modules/home1/
+jq-1.8.0/tests/modules/home1/.jq
+jq-1.8.0/tests/modules/test_bind_order0.jq
+jq-1.8.0/tests/modules/home2/
+jq-1.8.0/tests/modules/home2/.jq/
+jq-1.8.0/tests/modules/home2/.jq/g.jq
+jq-1.8.0/tests/modules/shadow1.jq
+jq-1.8.0/tests/modules/b/
+jq-1.8.0/tests/modules/b/b.jq
+jq-1.8.0/tests/modules/test_bind_order1.jq
+jq-1.8.0/tests/modules/a.jq
+jq-1.8.0/tests/onig.test
+jq-1.8.0/tests/mantest
+jq-1.8.0/tests/utf8-truncate.jq
+jq-1.8.0/tests/base64.test
+jq-1.8.0/tests/uritest
+jq-1.8.0/tests/onigtest
+jq-1.8.0/tests/shtest
+jq-1.8.0/tests/jq-f-test.sh
+jq-1.8.0/tests/yes-main-program.jq
+jq-1.8.0/tests/optional.test
+jq-1.8.0/configure
+jq-1.8.0/jq.1
+jq-1.8.0/m4/
+jq-1.8.0/m4/ax_pthread.m4
+jq-1.8.0/m4/ax_compare_version.m4
+jq-1.8.0/m4/ax_prog_bison_version.m4
+jq-1.8.0/configure.ac
+jq-1.8.0/README.md
+jq-1.8.0/scripts/
+jq-1.8.0/scripts/version
+jq-1.8.0/libjq.pc.in
+jq-1.8.0/ChangeLog
+jq-1.8.0/src/
+jq-1.8.0/src/linker.h
+jq-1.8.0/src/jv.c
+jq-1.8.0/src/jv_dtoa.c
+jq-1.8.0/src/inject_errors.c
+jq-1.8.0/src/libm.h
+jq-1.8.0/src/builtin.c
+jq-1.8.0/src/bytecode.c
+jq-1.8.0/src/jv_unicode.h
+jq-1.8.0/src/jv_private.h
+jq-1.8.0/src/jq.h
+jq-1.8.0/src/jv_utf8_tables.h
+jq-1.8.0/src/compile.h
+jq-1.8.0/src/jv_file.c
+jq-1.8.0/src/lexer.l
+jq-1.8.0/src/compile.c
+jq-1.8.0/src/jv_thread.h
+jq-1.8.0/src/jv_dtoa_tsd.h
+jq-1.8.0/src/jv.h
+jq-1.8.0/src/linker.c
+jq-1.8.0/src/jv_alloc.c
+jq-1.8.0/src/execute.c
+jq-1.8.0/src/builtin.h
+jq-1.8.0/src/jv_dtoa_tsd.c
+jq-1.8.0/src/jq_parser.h
+jq-1.8.0/src/builtin.jq
+jq-1.8.0/src/parser.h
+jq-1.8.0/src/lexer.h
+jq-1.8.0/src/lexer.c
+jq-1.8.0/src/jq_test.c
+jq-1.8.0/src/main.c
+jq-1.8.0/src/jv_print.c
+jq-1.8.0/src/jv_alloc.h
+jq-1.8.0/src/locfile.h
+jq-1.8.0/src/parser.y
+jq-1.8.0/src/util.c
+jq-1.8.0/src/exec_stack.h
+jq-1.8.0/src/opcode_list.h
+jq-1.8.0/src/version.h
+jq-1.8.0/src/jv_aux.c
+jq-1.8.0/src/locfile.c
+jq-1.8.0/src/jv_parse.c
+jq-1.8.0/src/jv_dtoa.h
+jq-1.8.0/src/bytecode.h
+jq-1.8.0/src/util.h
+jq-1.8.0/src/parser.c
+jq-1.8.0/src/jv_unicode.c
+jq-1.8.0/aclocal.m4
+jq-1.8.0/jq.1.prebuilt
+jq-1.8.0/libjq.pc
+jq-1.8.0/vendor/
+jq-1.8.0/vendor/oniguruma/
+jq-1.8.0/vendor/oniguruma/Makefile.in
+jq-1.8.0/vendor/oniguruma/onig-config.in
+jq-1.8.0/vendor/oniguruma/doc/
+jq-1.8.0/vendor/oniguruma/doc/FAQ.ja
+jq-1.8.0/vendor/oniguruma/doc/CALLOUTS.API
+jq-1.8.0/vendor/oniguruma/doc/API
+jq-1.8.0/vendor/oniguruma/doc/CALLOUTS.API.ja
+jq-1.8.0/vendor/oniguruma/doc/UNICODE_PROPERTIES
+jq-1.8.0/vendor/oniguruma/doc/FAQ
+jq-1.8.0/vendor/oniguruma/doc/RE.ja
+jq-1.8.0/vendor/oniguruma/doc/CALLOUTS.BUILTIN
+jq-1.8.0/vendor/oniguruma/doc/API.ja
+jq-1.8.0/vendor/oniguruma/doc/CALLOUTS.BUILTIN.ja
+jq-1.8.0/vendor/oniguruma/doc/RE
+jq-1.8.0/vendor/oniguruma/doc/SYNTAX.md
+jq-1.8.0/vendor/oniguruma/doc/onig_syn_md.c
+jq-1.8.0/vendor/oniguruma/make_win.bat
+jq-1.8.0/vendor/oniguruma/NEWS
+jq-1.8.0/vendor/oniguruma/sample/
+jq-1.8.0/vendor/oniguruma/sample/callout.c
+jq-1.8.0/vendor/oniguruma/sample/Makefile.in
+jq-1.8.0/vendor/oniguruma/sample/syntax.c
+jq-1.8.0/vendor/oniguruma/sample/names.c
+jq-1.8.0/vendor/oniguruma/sample/simple.c
+jq-1.8.0/vendor/oniguruma/sample/bug_fix.c
+jq-1.8.0/vendor/oniguruma/sample/callback_each_match.c
+jq-1.8.0/vendor/oniguruma/sample/posix.c
+jq-1.8.0/vendor/oniguruma/sample/user_property.c
+jq-1.8.0/vendor/oniguruma/sample/listcap.c
+jq-1.8.0/vendor/oniguruma/sample/encode.c
+jq-1.8.0/vendor/oniguruma/sample/scan.c
+jq-1.8.0/vendor/oniguruma/sample/echo.c
+jq-1.8.0/vendor/oniguruma/sample/Makefile.am
+jq-1.8.0/vendor/oniguruma/sample/sql.c
+jq-1.8.0/vendor/oniguruma/sample/regset.c
+jq-1.8.0/vendor/oniguruma/sample/count.c
+jq-1.8.0/vendor/oniguruma/depcomp
+jq-1.8.0/vendor/oniguruma/CMakeLists.txt
+jq-1.8.0/vendor/oniguruma/oniguruma.pc.in
+jq-1.8.0/vendor/oniguruma/INSTALL
+jq-1.8.0/vendor/oniguruma/ltmain.sh
+jq-1.8.0/vendor/oniguruma/COPYING
+jq-1.8.0/vendor/oniguruma/cmake/
+jq-1.8.0/vendor/oniguruma/cmake/Config.cmake.in
+jq-1.8.0/vendor/oniguruma/compile
+jq-1.8.0/vendor/oniguruma/configure
+jq-1.8.0/vendor/oniguruma/test/
+jq-1.8.0/vendor/oniguruma/test/Makefile.in
+jq-1.8.0/vendor/oniguruma/test/test_options.c
+jq-1.8.0/vendor/oniguruma/test/CMakeLists.txt
+jq-1.8.0/vendor/oniguruma/test/testp.c
+jq-1.8.0/vendor/oniguruma/test/test_regset.c
+jq-1.8.0/vendor/oniguruma/test/test_back.c
+jq-1.8.0/vendor/oniguruma/test/test_syntax.c
+jq-1.8.0/vendor/oniguruma/test/test_utf8.c
+jq-1.8.0/vendor/oniguruma/test/test.sh
+jq-1.8.0/vendor/oniguruma/test/testc.c
+jq-1.8.0/vendor/oniguruma/test/testu.c
+jq-1.8.0/vendor/oniguruma/test/Makefile.am
+jq-1.8.0/vendor/oniguruma/configure.ac
+jq-1.8.0/vendor/oniguruma/README.md
+jq-1.8.0/vendor/oniguruma/README_japanese
+jq-1.8.0/vendor/oniguruma/missing
+jq-1.8.0/vendor/oniguruma/ChangeLog
+jq-1.8.0/vendor/oniguruma/src/
+jq-1.8.0/vendor/oniguruma/src/regerror.c
+jq-1.8.0/vendor/oniguruma/src/Makefile.in
+jq-1.8.0/vendor/oniguruma/src/st.c
+jq-1.8.0/vendor/oniguruma/src/Makefile.windows
+jq-1.8.0/vendor/oniguruma/src/iso8859_9.c
+jq-1.8.0/vendor/oniguruma/src/iso8859_11.c
+jq-1.8.0/vendor/oniguruma/src/unicode_fold3_key.c
+jq-1.8.0/vendor/oniguruma/src/ascii.c
+jq-1.8.0/vendor/oniguruma/src/reggnu.c
+jq-1.8.0/vendor/oniguruma/src/utf16_be.c
+jq-1.8.0/vendor/oniguruma/src/st.h
+jq-1.8.0/vendor/oniguruma/src/cp1251.c
+jq-1.8.0/vendor/oniguruma/src/iso8859_15.c
+jq-1.8.0/vendor/oniguruma/src/mktable.c
+jq-1.8.0/vendor/oniguruma/src/config.h.win32
+jq-1.8.0/vendor/oniguruma/src/unicode_egcb_data.c
+jq-1.8.0/vendor/oniguruma/src/regversion.c
+jq-1.8.0/vendor/oniguruma/src/unicode_fold_data.c
+jq-1.8.0/vendor/oniguruma/src/iso8859_14.c
+jq-1.8.0/vendor/oniguruma/src/euc_jp.c
+jq-1.8.0/vendor/oniguruma/src/regint.h
+jq-1.8.0/vendor/oniguruma/src/regexec.c
+jq-1.8.0/vendor/oniguruma/src/regcomp.c
+jq-1.8.0/vendor/oniguruma/src/big5.c
+jq-1.8.0/vendor/oniguruma/src/iso8859_10.c
+jq-1.8.0/vendor/oniguruma/src/unicode_unfold_key.c
+jq-1.8.0/vendor/oniguruma/src/onigposix.h
+jq-1.8.0/vendor/oniguruma/src/config.h.windows.in
+jq-1.8.0/vendor/oniguruma/src/sjis.c
+jq-1.8.0/vendor/oniguruma/src/euc_kr.c
+jq-1.8.0/vendor/oniguruma/src/koi8_r.c
+jq-1.8.0/vendor/oniguruma/src/unicode_property_data_posix.c
+jq-1.8.0/vendor/oniguruma/src/iso8859_8.c
+jq-1.8.0/vendor/oniguruma/src/iso8859_1.c
+jq-1.8.0/vendor/oniguruma/src/config.h.win64
+jq-1.8.0/vendor/oniguruma/src/iso8859_5.c
+jq-1.8.0/vendor/oniguruma/src/sjis_prop.c
+jq-1.8.0/vendor/oniguruma/src/regenc.c
+jq-1.8.0/vendor/oniguruma/src/unicode_property_data.c
+jq-1.8.0/vendor/oniguruma/src/regsyntax.c
+jq-1.8.0/vendor/oniguruma/src/unicode_wb_data.c
+jq-1.8.0/vendor/oniguruma/src/koi8.c
+jq-1.8.0/vendor/oniguruma/src/regparse.c
+jq-1.8.0/vendor/oniguruma/src/utf16_le.c
+jq-1.8.0/vendor/oniguruma/src/oniggnu.h
+jq-1.8.0/vendor/oniguruma/src/regparse.h
+jq-1.8.0/vendor/oniguruma/src/unicode_fold2_key.c
+jq-1.8.0/vendor/oniguruma/src/regenc.h
+jq-1.8.0/vendor/oniguruma/src/gb18030.c
+jq-1.8.0/vendor/oniguruma/src/config.h.cmake.in
+jq-1.8.0/vendor/oniguruma/src/utf32_le.c
+jq-1.8.0/vendor/oniguruma/src/iso8859_2.c
+jq-1.8.0/vendor/oniguruma/src/utf8.c
+jq-1.8.0/vendor/oniguruma/src/iso8859_3.c
+jq-1.8.0/vendor/oniguruma/src/iso8859_16.c
+jq-1.8.0/vendor/oniguruma/src/config.h.in
+jq-1.8.0/vendor/oniguruma/src/onig_init.c
+jq-1.8.0/vendor/oniguruma/src/unicode.c
+jq-1.8.0/vendor/oniguruma/src/regposix.c
+jq-1.8.0/vendor/oniguruma/src/euc_jp_prop.c
+jq-1.8.0/vendor/oniguruma/src/unicode_fold1_key.c
+jq-1.8.0/vendor/oniguruma/src/iso8859_4.c
+jq-1.8.0/vendor/oniguruma/src/oniguruma.h
+jq-1.8.0/vendor/oniguruma/src/regext.c
+jq-1.8.0/vendor/oniguruma/src/regtrav.c
+jq-1.8.0/vendor/oniguruma/src/iso8859_6.c
+jq-1.8.0/vendor/oniguruma/src/iso8859_7.c
+jq-1.8.0/vendor/oniguruma/src/Makefile.am
+jq-1.8.0/vendor/oniguruma/src/regposerr.c
+jq-1.8.0/vendor/oniguruma/src/iso8859_13.c
+jq-1.8.0/vendor/oniguruma/src/euc_tw.c
+jq-1.8.0/vendor/oniguruma/src/utf32_be.c
+jq-1.8.0/vendor/oniguruma/config.guess
+jq-1.8.0/vendor/oniguruma/aclocal.m4
+jq-1.8.0/vendor/oniguruma/README
+jq-1.8.0/vendor/oniguruma/config.sub
+jq-1.8.0/vendor/oniguruma/index_ja.html
+jq-1.8.0/vendor/oniguruma/AUTHORS
+jq-1.8.0/vendor/oniguruma/onig-config.cmake.in
+jq-1.8.0/vendor/oniguruma/index.html
+jq-1.8.0/vendor/oniguruma/windows/
+jq-1.8.0/vendor/oniguruma/windows/CMakeLists.txt
+jq-1.8.0/vendor/oniguruma/windows/testc.c
+jq-1.8.0/vendor/oniguruma/test-driver
+jq-1.8.0/vendor/oniguruma/HISTORY
+jq-1.8.0/vendor/oniguruma/install-sh
+jq-1.8.0/vendor/oniguruma/oniguruma.pc.cmake.in
+jq-1.8.0/vendor/oniguruma/Makefile.am
+jq-1.8.0/vendor/decNumber/
+jq-1.8.0/vendor/decNumber/decContext.h
+jq-1.8.0/vendor/decNumber/decNumber.c
+jq-1.8.0/vendor/decNumber/decContext.c
+jq-1.8.0/vendor/decNumber/decNumber.h
+jq-1.8.0/vendor/decNumber/decNumberLocal.h
+jq-1.8.0/AUTHORS
+jq-1.8.0/NEWS.md
+jq-1.8.0/docs/
+jq-1.8.0/docs/Pipfile
+jq-1.8.0/docs/Pipfile.lock
+jq-1.8.0/docs/manual_schema.yml
+jq-1.8.0/docs/public/
+jq-1.8.0/docs/public/icon.svg
+jq-1.8.0/docs/public/CNAME
+jq-1.8.0/docs/public/jq.svg
+jq-1.8.0/docs/public/.htaccess
+jq-1.8.0/docs/public/css/
+jq-1.8.0/docs/public/css/style.css
+jq-1.8.0/docs/public/js/
+jq-1.8.0/docs/public/js/manual-search.js
+jq-1.8.0/docs/public/robots.txt
+jq-1.8.0/docs/public/icon.png
+jq-1.8.0/docs/templates/
+jq-1.8.0/docs/templates/default.html.j2
+jq-1.8.0/docs/templates/manual.html.j2
+jq-1.8.0/docs/templates/index.html.j2
+jq-1.8.0/docs/templates/shared/
+jq-1.8.0/docs/templates/shared/_navbar.html.j2
+jq-1.8.0/docs/templates/shared/_head.html.j2
+jq-1.8.0/docs/templates/shared/_footer.html.j2
+jq-1.8.0/docs/README.md
+jq-1.8.0/docs/build_manpage.py
+jq-1.8.0/docs/content/
+jq-1.8.0/docs/content/manual/
+jq-1.8.0/docs/content/manual/dev/
+jq-1.8.0/docs/content/manual/dev/manual.yml
+jq-1.8.0/docs/content/manual/v1.7/
+jq-1.8.0/docs/content/manual/v1.7/manual.yml
+jq-1.8.0/docs/content/manual/v1.3/
+jq-1.8.0/docs/content/manual/v1.3/manual.yml
+jq-1.8.0/docs/content/manual/manual.yml
+jq-1.8.0/docs/content/manual/v1.6/
+jq-1.8.0/docs/content/manual/v1.6/manual.yml
+jq-1.8.0/docs/content/manual/v1.4/
+jq-1.8.0/docs/content/manual/v1.4/manual.yml
+jq-1.8.0/docs/content/manual/v1.5/
+jq-1.8.0/docs/content/manual/v1.5/manual.yml
+jq-1.8.0/docs/content/tutorial/
+jq-1.8.0/docs/content/tutorial/default.yml
+jq-1.8.0/docs/content/download/
+jq-1.8.0/docs/content/download/default.yml
+jq-1.8.0/docs/content/index.yml
+jq-1.8.0/docs/build_mantests.py
+jq-1.8.0/docs/build_website.py
+jq-1.8.0/docs/validate_manual_schema.py
+jq-1.8.0/Makefile.am
+autoreconf: export WARNINGS=
+autoreconf: Entering directory '.'
+autoreconf: configure.ac: not using Gettext
+autoreconf: running: aclocal --force -I config/m4
+autoreconf: configure.ac: tracing
+autoreconf: configure.ac: adding subdirectory vendor/oniguruma to autoreconf
+autoreconf: Entering directory 'vendor/oniguruma'
+autoreconf: configure.ac: not using Gettext
+autoreconf: running: aclocal --force -I m4
+aclocal: warning: couldn't open directory 'm4': No such file or directory
+autoreconf: configure.ac: tracing
+autoreconf: running: libtoolize --copy --force
+libtoolize: putting auxiliary files in '.'.
+libtoolize: copying file './ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+libtoolize: copying file 'm4/libtool.m4'
+libtoolize: copying file 'm4/ltoptions.m4'
+libtoolize: copying file 'm4/ltsugar.m4'
+libtoolize: copying file 'm4/ltversion.m4'
+libtoolize: copying file 'm4/lt~obsolete.m4'
+autoreconf: configure.ac: not using Intltool
+autoreconf: configure.ac: not using Gtkdoc
+autoreconf: running: aclocal --force -I m4
+autoreconf: running: /usr/bin/autoconf --force
+autoreconf: running: /usr/bin/autoheader --force
+autoreconf: running: automake --add-missing --copy --force-missing
+configure.ac:55: installing './compile'
+configure.ac:6: installing './missing'
+sample/Makefile.am: installing './depcomp'
+autoreconf: Leaving directory 'vendor/oniguruma'
+autoreconf: running: libtoolize --copy --force
+libtoolize: putting auxiliary files in AC_CONFIG_AUX_DIR, 'config'.
+libtoolize: copying file 'config/ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIRS, 'config/m4'.
+libtoolize: copying file 'config/m4/libtool.m4'
+libtoolize: copying file 'config/m4/ltoptions.m4'
+libtoolize: copying file 'config/m4/ltsugar.m4'
+libtoolize: copying file 'config/m4/ltversion.m4'
+libtoolize: copying file 'config/m4/lt~obsolete.m4'
+autoreconf: configure.ac: not using Intltool
+autoreconf: configure.ac: not using Gtkdoc
+autoreconf: running: aclocal --force -I config/m4
+autoreconf: running: /usr/bin/autoconf --force
+autoreconf: configure.ac: not using Autoheader
+autoreconf: running: automake --add-missing --copy --force-missing
+configure.ac:8: installing 'config/compile'
+configure.ac:9: installing 'config/missing'
+Makefile.am: installing 'config/depcomp'
+autoreconf: Leaving directory '.'
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to enable C11 features... none needed
+checking whether gcc understands -c and -o together... yes
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for wchar.h... yes
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether _XOPEN_SOURCE should be defined... no
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether sleep supports fractional seconds... yes
+checking filesystem timestamp resolution... 0.01
+checking whether build environment is sane... yes
+checking for a race-free mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports the include directive... yes (GNU style)
+checking whether make supports nested variables... yes
+checking xargs -n works... yes
+checking whether UID '0' is supported by ustar format... yes
+checking whether GID '0' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking dependency style of gcc... gcc3
+checking for ar... ar
+checking the archiver (ar) interface... ar
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for gcc... (cached) gcc
+checking whether the compiler supports GNU C... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to enable C11 features... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking how to run the C preprocessor... gcc -E
+checking for bison... bison -y
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for file... file
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ranlib... ranlib
+checking for archiver @FILE support... @
+checking for strip... strip
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for gcc option to enable large file support... none needed
+checking for memmem... yes
+checking for sys/cygwin.h... no
+checking for shlwapi.h... no
+checking for pipenv... no
+checking for Python dependencies... no
+configure: WARNING: Error checking python dependencies: 
+*****************************************************************
+*  Python dependencies for building jq documentation not found. *
+*  You can still build, install and hack on jq, but the manpage *
+*  will not be rebuilt and new manpage tests will not be run.   *
+*  See docs/README.md for how to install the docs dependencies. *
+*****************************************************************
+checking for egrep -e... (cached) /usr/bin/grep -E
+checking whether gcc is Clang... no
+checking whether pthreads work with "-pthread" and "-lpthread"... yes
+checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+checking whether more special flags are required for pthreads... no
+checking for PTHREAD_PRIO_INHERIT... yes
+checking for size_t... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for isatty... yes
+checking for _isatty... no
+checking for strptime... yes
+checking for strftime... yes
+checking for setenv... yes
+checking for timegm... yes
+checking for gmtime_r... yes
+checking for gmtime... yes
+checking for localtime_r... yes
+checking for localtime... yes
+checking for gettimeofday... yes
+checking for struct tm.tm_gmtoff... yes
+checking for struct tm.__tm_gmtoff... no
+checking for setlocale... yes
+checking for pthread_key_create... yes
+checking for pthread_once... yes
+checking for atexit... yes
+checking for acos in -lm... yes
+checking for acosh in -lm... yes
+checking for asin in -lm... yes
+checking for asinh in -lm... yes
+checking for atan2 in -lm... yes
+checking for atan in -lm... yes
+checking for atanh in -lm... yes
+checking for cbrt in -lm... yes
+checking for ceil in -lm... yes
+checking for copysign in -lm... yes
+checking for cos in -lm... yes
+checking for cosh in -lm... yes
+checking for drem in -lm... yes
+checking for erf in -lm... yes
+checking for erfc in -lm... yes
+checking for exp10 in -lm... yes
+checking for __exp10 in -lm... no
+checking for exp2 in -lm... yes
+checking for exp in -lm... yes
+checking for expm1 in -lm... yes
+checking for fabs in -lm... yes
+checking for fdim in -lm... yes
+checking for floor in -lm... yes
+checking for fma in -lm... yes
+checking for fmax in -lm... yes
+checking for fmin in -lm... yes
+checking for fmod in -lm... yes
+checking for frexp in -lm... yes
+checking for gamma in -lm... yes
+checking for hypot in -lm... yes
+checking for j0 in -lm... yes
+checking for j1 in -lm... yes
+checking for jn in -lm... yes
+checking for ldexp in -lm... yes
+checking for lgamma in -lm... yes
+checking for log10 in -lm... yes
+checking for log1p in -lm... yes
+checking for log2 in -lm... yes
+checking for log in -lm... yes
+checking for logb in -lm... yes
+checking for modf in -lm... yes
+checking for lgamma_r in -lm... yes
+checking for nearbyint in -lm... yes
+checking for nextafter in -lm... yes
+checking for nexttoward in -lm... yes
+checking for pow in -lm... yes
+checking for remainder in -lm... yes
+checking for rint in -lm... yes
+checking for round in -lm... yes
+checking for scalb in -lm... yes
+checking for scalbln in -lm... yes
+checking for significand in -lm... yes
+checking for scalbn in -lm... yes
+checking for ilogb in -lm... yes
+checking for sin in -lm... yes
+checking for sinh in -lm... yes
+checking for sqrt in -lm... yes
+checking for tan in -lm... yes
+checking for tanh in -lm... yes
+checking for tgamma in -lm... yes
+checking for trunc in -lm... yes
+checking for y0 in -lm... yes
+checking for y1 in -lm... yes
+checking for yn in -lm... yes
+checking for thread-local storage... yes
+checking whether byte ordering is bigendian... no
+checking for oniguruma.h... yes
+checking for onig_version in -lonig... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating libjq.pc
+config.status: executing depfiles commands
+config.status: executing libtool commands
+mkdir -p src
+mkdir -p src
+  GEN      src/builtin.inc
+  GEN      src/config_opts.inc
+mkdir -p src
+  GEN      src/version.h
+make  all-recursive
+make[1]: Entering directory '/blfs/builds/jq-1.8.0'
+make[2]: Entering directory '/blfs/builds/jq-1.8.0'
+  CC       src/builtin.lo
+  CC       src/bytecode.lo
+  CC       src/compile.lo
+  CC       src/execute.lo
+  CC       src/jq_test.lo
+  CC       src/jv.lo
+  CC       src/jv_alloc.lo
+  CC       src/jv_aux.lo
+  CC       src/jv_dtoa.lo
+  CC       src/jv_file.lo
+  CC       src/jv_parse.lo
+  CC       src/jv_print.lo
+  CC       src/jv_unicode.lo
+  CC       src/linker.lo
+  CC       src/locfile.lo
+  CC       src/util.lo
+  CC       src/jv_dtoa_tsd.lo
+  CC       vendor/decNumber/decContext.lo
+  CC       vendor/decNumber/decNumber.lo
+  CC       src/lexer.lo
+  CC       src/parser.lo
+  CC       src/main.o
+  CCLD     libjq.la
+  CCLD     jq
+make[2]: Leaving directory '/blfs/builds/jq-1.8.0'
+make[1]: Leaving directory '/blfs/builds/jq-1.8.0'
+make  install-recursive
+make[1]: Entering directory '/blfs/builds/jq-1.8.0'
+make[2]: Entering directory '/blfs/builds/jq-1.8.0'
+make[3]: Entering directory '/blfs/builds/jq-1.8.0'
+ /usr/bin/mkdir -p '/pkgs/jq/usr/lib'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   libjq.la '/pkgs/jq/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libjq.so.1.0.4 /pkgs/jq/usr/lib/libjq.so.1.0.4
+libtool: install: (cd /pkgs/jq/usr/lib && { ln -s -f libjq.so.1.0.4 libjq.so.1 || { rm -f libjq.so.1 && ln -s libjq.so.1.0.4 libjq.so.1; }; })
+libtool: install: (cd /pkgs/jq/usr/lib && { ln -s -f libjq.so.1.0.4 libjq.so || { rm -f libjq.so && ln -s libjq.so.1.0.4 libjq.so; }; })
+libtool: install: /usr/bin/install -c .libs/libjq.lai /pkgs/jq/usr/lib/libjq.la
+libtool: install: /usr/bin/install -c .libs/libjq.a /pkgs/jq/usr/lib/libjq.a
+libtool: install: chmod 644 /pkgs/jq/usr/lib/libjq.a
+libtool: install: ranlib /pkgs/jq/usr/lib/libjq.a
+libtool: warning: remember to run 'libtool --finish /usr/lib'
+ /usr/bin/mkdir -p '/pkgs/jq/usr/bin'
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c jq '/pkgs/jq/usr/bin'
+libtool: install: /usr/bin/install -c .libs/jq /pkgs/jq/usr/bin/jq
+ /usr/bin/mkdir -p '/pkgs/jq/usr/share/doc/jq'
+ /usr/bin/install -c -m 644 README.md NEWS.md COPYING AUTHORS '/pkgs/jq/usr/share/doc/jq'
+ /usr/bin/mkdir -p '/pkgs/jq/usr/include'
+ /usr/bin/install -c -m 644 src/jv.h src/jq.h '/pkgs/jq/usr/include'
+ /usr/bin/mkdir -p '/pkgs/jq/usr/share/man/man1'
+ /usr/bin/install -c -m 644 jq.1 '/pkgs/jq/usr/share/man/man1'
+ /usr/bin/mkdir -p '/pkgs/jq/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libjq.pc '/pkgs/jq/usr/lib/pkgconfig'
+make[3]: Leaving directory '/blfs/builds/jq-1.8.0'
+make[2]: Leaving directory '/blfs/builds/jq-1.8.0'
+make[1]: Leaving directory '/blfs/builds/jq-1.8.0'
+make  install-recursive
+make[1]: Entering directory '/blfs/builds/jq-1.8.0'
+make[2]: Entering directory '/blfs/builds/jq-1.8.0'
+make[3]: Entering directory '/blfs/builds/jq-1.8.0'
+ /usr/bin/mkdir -p '/usr/lib'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   libjq.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libjq.so.1.0.4 /usr/lib/libjq.so.1.0.4
+libtool: install: (cd /usr/lib && { ln -s -f libjq.so.1.0.4 libjq.so.1 || { rm -f libjq.so.1 && ln -s libjq.so.1.0.4 libjq.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libjq.so.1.0.4 libjq.so || { rm -f libjq.so && ln -s libjq.so.1.0.4 libjq.so; }; })
+libtool: install: /usr/bin/install -c .libs/libjq.lai /usr/lib/libjq.la
+libtool: install: /usr/bin/install -c .libs/libjq.a /usr/lib/libjq.a
+libtool: install: chmod 644 /usr/lib/libjq.a
+libtool: install: ranlib /usr/lib/libjq.a
+libtool: finish: PATH="/usr/sbin:/usr/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /usr/bin/mkdir -p '/usr/bin'
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c jq '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/jq /usr/bin/jq
+ /usr/bin/mkdir -p '/usr/share/doc/jq'
+ /usr/bin/install -c -m 644 README.md NEWS.md COPYING AUTHORS '/usr/share/doc/jq'
+ /usr/bin/mkdir -p '/usr/include'
+ /usr/bin/install -c -m 644 src/jv.h src/jq.h '/usr/include'
+ /usr/bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 jq.1 '/usr/share/man/man1'
+ /usr/bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libjq.pc '/usr/lib/pkgconfig'
+make[3]: Leaving directory '/blfs/builds/jq-1.8.0'
+make[2]: Leaving directory '/blfs/builds/jq-1.8.0'
+make[1]: Leaving directory '/blfs/builds/jq-1.8.0'
+jq/
+jq/usr/
+jq/usr/share/
+jq/usr/share/man/
+jq/usr/share/man/man1/
+jq/usr/share/man/man1/jq.1
+jq/usr/share/doc/
+jq/usr/share/doc/jq/
+jq/usr/share/doc/jq/COPYING
+jq/usr/share/doc/jq/NEWS.md
+jq/usr/share/doc/jq/README.md
+jq/usr/share/doc/jq/AUTHORS
+jq/usr/lib/
+jq/usr/lib/libjq.so.1
+jq/usr/lib/libjq.so
+jq/usr/lib/libjq.so.1.0.4
+jq/usr/lib/pkgconfig/
+jq/usr/lib/pkgconfig/libjq.pc
+jq/usr/lib/libjq.a
+jq/usr/lib/libjq.la
+jq/usr/include/
+jq/usr/include/jq.h
+jq/usr/include/jv.h
+jq/usr/bin/
+jq/usr/bin/jq
+jq/version
+jq/depends
+jq/make-depends

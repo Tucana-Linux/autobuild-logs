@@ -1,0 +1,2338 @@
+--2025-06-19 07:17:59--  https://download.gnome.org/sources/gnome-settings-daemon/47/gnome-settings-daemon-47.2.tar.xz
+Resolving download.gnome.org (download.gnome.org)... 2a02:6ea0:c400::54, 2a02:6ea0:c400::53, 79.127.206.235, ...
+Connecting to download.gnome.org (download.gnome.org)|2a02:6ea0:c400::54|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1480428 (1.4M) [application/octet-stream]
+Saving to: 'gnome-settings-daemon-47.2.tar.xz'
+
+     0K .......... .......... .......... .......... ..........  3% 5.04M 0s
+    50K .......... .......... .......... .......... ..........  6% 13.0M 0s
+   100K .......... .......... .......... .......... .......... 10% 18.9M 0s
+   150K .......... .......... .......... .......... .......... 13% 27.8M 0s
+   200K .......... .......... .......... .......... .......... 17% 14.0M 0s
+   250K .......... .......... .......... .......... .......... 20% 44.5M 0s
+   300K .......... .......... .......... .......... .......... 24% 45.7M 0s
+   350K .......... .......... .......... .......... .......... 27% 29.5M 0s
+   400K .......... .......... .......... .......... .......... 31% 55.2M 0s
+   450K .......... .......... .......... .......... .......... 34% 81.5M 0s
+   500K .......... .......... .......... .......... .......... 38% 76.4M 0s
+   550K .......... .......... .......... .......... .......... 41% 23.6M 0s
+   600K .......... .......... .......... .......... .......... 44% 64.7M 0s
+   650K .......... .......... .......... .......... .......... 48% 74.6M 0s
+   700K .......... .......... .......... .......... .......... 51% 27.3M 0s
+   750K .......... .......... .......... .......... .......... 55% 74.3M 0s
+   800K .......... .......... .......... .......... .......... 58% 92.0M 0s
+   850K .......... .......... .......... .......... .......... 62% 10.6M 0s
+   900K .......... .......... .......... .......... .......... 65%  116M 0s
+   950K .......... .......... .......... .......... .......... 69%  113M 0s
+  1000K .......... .......... .......... .......... .......... 72% 11.8M 0s
+  1050K .......... .......... .......... .......... .......... 76%  131M 0s
+  1100K .......... .......... .......... .......... .......... 79%  105M 0s
+  1150K .......... .......... .......... .......... .......... 83% 11.1M 0s
+  1200K .......... .......... .......... .......... .......... 86%  113M 0s
+  1250K .......... .......... .......... .......... .......... 89%  112M 0s
+  1300K .......... .......... .......... .......... .......... 93% 12.8M 0s
+  1350K .......... .......... .......... .......... .......... 96%  111M 0s
+  1400K .......... .......... .......... .......... .....     100%  142M=0.05s
+
+2025-06-19 07:17:59 (26.2 MB/s) - 'gnome-settings-daemon-47.2.tar.xz' saved [1480428/1480428]
+
+gnome-settings-daemon-47.2/
+gnome-settings-daemon-47.2/.gitignore
+gnome-settings-daemon-47.2/.gitlab-ci/
+gnome-settings-daemon-47.2/.gitlab-ci/install-meson-project.sh
+gnome-settings-daemon-47.2/.gitlab-ci.yml
+gnome-settings-daemon-47.2/.gitmodules
+gnome-settings-daemon-47.2/AUTHORS
+gnome-settings-daemon-47.2/COPYING
+gnome-settings-daemon-47.2/COPYING.LIB
+gnome-settings-daemon-47.2/ChangeLog
+gnome-settings-daemon-47.2/MAINTAINERS
+gnome-settings-daemon-47.2/NEWS
+gnome-settings-daemon-47.2/README
+gnome-settings-daemon-47.2/build-aux/
+gnome-settings-daemon-47.2/build-aux/ci/
+gnome-settings-daemon-47.2/build-aux/ci/ci-helper.sh
+gnome-settings-daemon-47.2/data/
+gnome-settings-daemon-47.2/data/gnome-settings-daemon.convert
+gnome-settings-daemon-47.2/data/gsd-enums.h
+gnome-settings-daemon-47.2/data/meson.build
+gnome-settings-daemon-47.2/data/org.gnome.settings-daemon.peripherals.gschema.xml.in
+gnome-settings-daemon-47.2/data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in
+gnome-settings-daemon-47.2/data/org.gnome.settings-daemon.plugins.color.gschema.xml.in
+gnome-settings-daemon-47.2/data/org.gnome.settings-daemon.plugins.gschema.xml.in
+gnome-settings-daemon-47.2/data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in
+gnome-settings-daemon-47.2/data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in
+gnome-settings-daemon-47.2/data/org.gnome.settings-daemon.plugins.power.gschema.xml.in
+gnome-settings-daemon-47.2/data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in
+gnome-settings-daemon-47.2/data/org.gnome.settings-daemon.plugins.wwan.gschema.xml.in
+gnome-settings-daemon-47.2/data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in
+gnome-settings-daemon-47.2/gnome-settings-daemon/
+gnome-settings-daemon-47.2/gnome-settings-daemon/gnome-settings-bus.c
+gnome-settings-daemon-47.2/gnome-settings-daemon/gnome-settings-bus.h
+gnome-settings-daemon-47.2/gnome-settings-daemon/gnome-settings-module.c
+gnome-settings-daemon-47.2/gnome-settings-daemon/gnome-settings-module.h
+gnome-settings-daemon-47.2/gnome-settings-daemon/gnome-settings-plugin-info.c
+gnome-settings-daemon-47.2/gnome-settings-daemon/gnome-settings-plugin-info.h
+gnome-settings-daemon-47.2/gnome-settings-daemon/gnome-settings-profile.c
+gnome-settings-daemon-47.2/gnome-settings-daemon/gnome-settings-profile.h
+gnome-settings-daemon-47.2/gnome-settings-daemon/meson.build
+gnome-settings-daemon-47.2/gnome-settings-daemon/org.gnome.Mutter.DisplayConfig.xml
+gnome-settings-daemon-47.2/gnome-settings-daemon/org.gnome.ScreenSaver.xml
+gnome-settings-daemon-47.2/gnome-settings-daemon/org.gnome.SessionManager.xml
+gnome-settings-daemon-47.2/gnome-settings-daemon/org.gnome.Shell.xml
+gnome-settings-daemon-47.2/gnome-settings-daemon.doap
+gnome-settings-daemon-47.2/meson.build
+gnome-settings-daemon-47.2/meson_options.txt
+gnome-settings-daemon-47.2/plugins/
+gnome-settings-daemon-47.2/plugins/a11y-settings/
+gnome-settings-daemon-47.2/plugins/a11y-settings/gsd-a11y-settings-manager.c
+gnome-settings-daemon-47.2/plugins/a11y-settings/gsd-a11y-settings-manager.h
+gnome-settings-daemon-47.2/plugins/a11y-settings/main.c
+gnome-settings-daemon-47.2/plugins/a11y-settings/meson.build
+gnome-settings-daemon-47.2/plugins/color/
+gnome-settings-daemon-47.2/plugins/color/gcm-self-test.c
+gnome-settings-daemon-47.2/plugins/color/gnome-datetime-source.c
+gnome-settings-daemon-47.2/plugins/color/gnome-datetime-source.h
+gnome-settings-daemon-47.2/plugins/color/gsd-color-calibrate.c
+gnome-settings-daemon-47.2/plugins/color/gsd-color-calibrate.h
+gnome-settings-daemon-47.2/plugins/color/gsd-color-manager.c
+gnome-settings-daemon-47.2/plugins/color/gsd-color-manager.h
+gnome-settings-daemon-47.2/plugins/color/gsd-color-state.c
+gnome-settings-daemon-47.2/plugins/color/gsd-color-state.h
+gnome-settings-daemon-47.2/plugins/color/gsd-night-light-common.c
+gnome-settings-daemon-47.2/plugins/color/gsd-night-light-common.h
+gnome-settings-daemon-47.2/plugins/color/gsd-night-light.c
+gnome-settings-daemon-47.2/plugins/color/gsd-night-light.h
+gnome-settings-daemon-47.2/plugins/color/main.c
+gnome-settings-daemon-47.2/plugins/color/meson.build
+gnome-settings-daemon-47.2/plugins/color/test-data/
+gnome-settings-daemon-47.2/plugins/color/test-data/LG-L225W-External.bin
+gnome-settings-daemon-47.2/plugins/color/test-data/Lenovo-T61-Internal.bin
+gnome-settings-daemon-47.2/plugins/common/
+gnome-settings-daemon-47.2/plugins/common/daemon-skeleton-gtk.h
+gnome-settings-daemon-47.2/plugins/common/daemon-skeleton.h
+gnome-settings-daemon-47.2/plugins/common/gsd-input-helper.c
+gnome-settings-daemon-47.2/plugins/common/gsd-input-helper.h
+gnome-settings-daemon-47.2/plugins/common/gsd-settings-migrate.c
+gnome-settings-daemon-47.2/plugins/common/gsd-settings-migrate.h
+gnome-settings-daemon-47.2/plugins/common/gsd-shell-helper.c
+gnome-settings-daemon-47.2/plugins/common/gsd-shell-helper.h
+gnome-settings-daemon-47.2/plugins/common/gsd.gresources.xml
+gnome-settings-daemon-47.2/plugins/common/gtk.css
+gnome-settings-daemon-47.2/plugins/common/meson.build
+gnome-settings-daemon-47.2/plugins/datetime/
+gnome-settings-daemon-47.2/plugins/datetime/backward
+gnome-settings-daemon-47.2/plugins/datetime/gsd-datetime-manager.c
+gnome-settings-daemon-47.2/plugins/datetime/gsd-datetime-manager.h
+gnome-settings-daemon-47.2/plugins/datetime/gsd-timezone-monitor.c
+gnome-settings-daemon-47.2/plugins/datetime/gsd-timezone-monitor.h
+gnome-settings-daemon-47.2/plugins/datetime/main.c
+gnome-settings-daemon-47.2/plugins/datetime/meson.build
+gnome-settings-daemon-47.2/plugins/datetime/timedated1-interface.xml
+gnome-settings-daemon-47.2/plugins/datetime/tz.c
+gnome-settings-daemon-47.2/plugins/datetime/tz.h
+gnome-settings-daemon-47.2/plugins/datetime/weather-tz.c
+gnome-settings-daemon-47.2/plugins/datetime/weather-tz.h
+gnome-settings-daemon-47.2/plugins/gsd.service.in
+gnome-settings-daemon-47.2/plugins/gsd.target.in
+gnome-settings-daemon-47.2/plugins/housekeeping/
+gnome-settings-daemon-47.2/plugins/housekeeping/gsd-disk-space-helper.c
+gnome-settings-daemon-47.2/plugins/housekeeping/gsd-disk-space-helper.h
+gnome-settings-daemon-47.2/plugins/housekeeping/gsd-disk-space-test.c
+gnome-settings-daemon-47.2/plugins/housekeeping/gsd-disk-space.c
+gnome-settings-daemon-47.2/plugins/housekeeping/gsd-disk-space.h
+gnome-settings-daemon-47.2/plugins/housekeeping/gsd-empty-trash-test.c
+gnome-settings-daemon-47.2/plugins/housekeeping/gsd-housekeeping-manager.c
+gnome-settings-daemon-47.2/plugins/housekeeping/gsd-housekeeping-manager.h
+gnome-settings-daemon-47.2/plugins/housekeeping/gsd-purge-temp-test.c
+gnome-settings-daemon-47.2/plugins/housekeeping/gsd-systemd-notify.c
+gnome-settings-daemon-47.2/plugins/housekeeping/gsd-systemd-notify.h
+gnome-settings-daemon-47.2/plugins/housekeeping/main.c
+gnome-settings-daemon-47.2/plugins/housekeeping/meson.build
+gnome-settings-daemon-47.2/plugins/keyboard/
+gnome-settings-daemon-47.2/plugins/keyboard/.indent.pro
+gnome-settings-daemon-47.2/plugins/keyboard/gsd-keyboard-manager.c
+gnome-settings-daemon-47.2/plugins/keyboard/gsd-keyboard-manager.h
+gnome-settings-daemon-47.2/plugins/keyboard/main.c
+gnome-settings-daemon-47.2/plugins/keyboard/meson.build
+gnome-settings-daemon-47.2/plugins/media-keys/
+gnome-settings-daemon-47.2/plugins/media-keys/audio-selection-test.c
+gnome-settings-daemon-47.2/plugins/media-keys/bus-watch-namespace.c
+gnome-settings-daemon-47.2/plugins/media-keys/bus-watch-namespace.h
+gnome-settings-daemon-47.2/plugins/media-keys/gsd-marshal.list
+gnome-settings-daemon-47.2/plugins/media-keys/gsd-media-keys-manager.c
+gnome-settings-daemon-47.2/plugins/media-keys/gsd-media-keys-manager.h
+gnome-settings-daemon-47.2/plugins/media-keys/main.c
+gnome-settings-daemon-47.2/plugins/media-keys/media-keys.h
+gnome-settings-daemon-47.2/plugins/media-keys/meson.build
+gnome-settings-daemon-47.2/plugins/media-keys/mpris-controller.c
+gnome-settings-daemon-47.2/plugins/media-keys/mpris-controller.h
+gnome-settings-daemon-47.2/plugins/media-keys/org.gnome.ShellKeyGrabber.xml
+gnome-settings-daemon-47.2/plugins/media-keys/shell-action-modes.h
+gnome-settings-daemon-47.2/plugins/media-keys/shortcuts-list.h
+gnome-settings-daemon-47.2/plugins/meson-add-wants.sh
+gnome-settings-daemon-47.2/plugins/meson.build
+gnome-settings-daemon-47.2/plugins/org.gnome.SettingsDaemon.Dummy.desktop.in
+gnome-settings-daemon-47.2/plugins/org.gnome.SettingsDaemon.Real.desktop.in
+gnome-settings-daemon-47.2/plugins/power/
+gnome-settings-daemon-47.2/plugins/power/gpm-common.c
+gnome-settings-daemon-47.2/plugins/power/gpm-common.h
+gnome-settings-daemon-47.2/plugins/power/gsd-backlight-helper.c
+gnome-settings-daemon-47.2/plugins/power/gsd-backlight.c
+gnome-settings-daemon-47.2/plugins/power/gsd-backlight.h
+gnome-settings-daemon-47.2/plugins/power/gsd-power-constants-update.pl
+gnome-settings-daemon-47.2/plugins/power/gsd-power-constants.h
+gnome-settings-daemon-47.2/plugins/power/gsd-power-enums-update.c
+gnome-settings-daemon-47.2/plugins/power/gsd-power-enums.c.in
+gnome-settings-daemon-47.2/plugins/power/gsd-power-enums.h.in
+gnome-settings-daemon-47.2/plugins/power/gsd-power-manager.c
+gnome-settings-daemon-47.2/plugins/power/gsd-power-manager.h
+gnome-settings-daemon-47.2/plugins/power/gsdpowerconstants.py
+gnome-settings-daemon-47.2/plugins/power/gsm-inhibitor-flag.h
+gnome-settings-daemon-47.2/plugins/power/gsm-manager-logout-mode.h
+gnome-settings-daemon-47.2/plugins/power/gsm-presence-flag.h
+gnome-settings-daemon-47.2/plugins/power/main.c
+gnome-settings-daemon-47.2/plugins/power/meson.build
+gnome-settings-daemon-47.2/plugins/power/org.gnome.settings-daemon.plugins.power.policy.in.in
+gnome-settings-daemon-47.2/plugins/power/test-backlight-helper
+gnome-settings-daemon-47.2/plugins/power/test.py
+gnome-settings-daemon-47.2/plugins/print-notifications/
+gnome-settings-daemon-47.2/plugins/print-notifications/gsd-print-notifications-manager.c
+gnome-settings-daemon-47.2/plugins/print-notifications/gsd-print-notifications-manager.h
+gnome-settings-daemon-47.2/plugins/print-notifications/gsd-printer.c
+gnome-settings-daemon-47.2/plugins/print-notifications/main.c
+gnome-settings-daemon-47.2/plugins/print-notifications/meson.build
+gnome-settings-daemon-47.2/plugins/rfkill/
+gnome-settings-daemon-47.2/plugins/rfkill/61-gnome-settings-daemon-rfkill.rules
+gnome-settings-daemon-47.2/plugins/rfkill/gsd-rfkill-manager.c
+gnome-settings-daemon-47.2/plugins/rfkill/gsd-rfkill-manager.h
+gnome-settings-daemon-47.2/plugins/rfkill/main.c
+gnome-settings-daemon-47.2/plugins/rfkill/meson.build
+gnome-settings-daemon-47.2/plugins/rfkill/rfkill-glib.c
+gnome-settings-daemon-47.2/plugins/rfkill/rfkill-glib.h
+gnome-settings-daemon-47.2/plugins/rfkill/rfkill.h
+gnome-settings-daemon-47.2/plugins/screensaver-proxy/
+gnome-settings-daemon-47.2/plugins/screensaver-proxy/gsd-screensaver-proxy-manager.c
+gnome-settings-daemon-47.2/plugins/screensaver-proxy/gsd-screensaver-proxy-manager.h
+gnome-settings-daemon-47.2/plugins/screensaver-proxy/main.c
+gnome-settings-daemon-47.2/plugins/screensaver-proxy/meson.build
+gnome-settings-daemon-47.2/plugins/sharing/
+gnome-settings-daemon-47.2/plugins/sharing/gsd-sharing-enums.h
+gnome-settings-daemon-47.2/plugins/sharing/gsd-sharing-manager.c
+gnome-settings-daemon-47.2/plugins/sharing/gsd-sharing-manager.h
+gnome-settings-daemon-47.2/plugins/sharing/main.c
+gnome-settings-daemon-47.2/plugins/sharing/meson.build
+gnome-settings-daemon-47.2/plugins/smartcard/
+gnome-settings-daemon-47.2/plugins/smartcard/gsd-smartcard-enum-types.c.in
+gnome-settings-daemon-47.2/plugins/smartcard/gsd-smartcard-enum-types.h.in
+gnome-settings-daemon-47.2/plugins/smartcard/gsd-smartcard-manager.c
+gnome-settings-daemon-47.2/plugins/smartcard/gsd-smartcard-manager.h
+gnome-settings-daemon-47.2/plugins/smartcard/gsd-smartcard-service.c
+gnome-settings-daemon-47.2/plugins/smartcard/gsd-smartcard-service.h
+gnome-settings-daemon-47.2/plugins/smartcard/gsd-smartcard-utils.c
+gnome-settings-daemon-47.2/plugins/smartcard/gsd-smartcard-utils.h
+gnome-settings-daemon-47.2/plugins/smartcard/main.c
+gnome-settings-daemon-47.2/plugins/smartcard/meson.build
+gnome-settings-daemon-47.2/plugins/smartcard/org.gnome.SettingsDaemon.Smartcard.xml
+gnome-settings-daemon-47.2/plugins/sound/
+gnome-settings-daemon-47.2/plugins/sound/gsd-sound-manager.c
+gnome-settings-daemon-47.2/plugins/sound/gsd-sound-manager.h
+gnome-settings-daemon-47.2/plugins/sound/main.c
+gnome-settings-daemon-47.2/plugins/sound/meson.build
+gnome-settings-daemon-47.2/plugins/usb-protection/
+gnome-settings-daemon-47.2/plugins/usb-protection/gsd-usb-protection-manager.c
+gnome-settings-daemon-47.2/plugins/usb-protection/gsd-usb-protection-manager.h
+gnome-settings-daemon-47.2/plugins/usb-protection/main.c
+gnome-settings-daemon-47.2/plugins/usb-protection/meson.build
+gnome-settings-daemon-47.2/plugins/wacom/
+gnome-settings-daemon-47.2/plugins/wacom/gsd-wacom-manager.c
+gnome-settings-daemon-47.2/plugins/wacom/gsd-wacom-manager.h
+gnome-settings-daemon-47.2/plugins/wacom/gsd-wacom-oled-constants.h
+gnome-settings-daemon-47.2/plugins/wacom/gsd-wacom-oled-helper.c
+gnome-settings-daemon-47.2/plugins/wacom/gsd-wacom-oled.c
+gnome-settings-daemon-47.2/plugins/wacom/gsd-wacom-oled.h
+gnome-settings-daemon-47.2/plugins/wacom/main.c
+gnome-settings-daemon-47.2/plugins/wacom/meson.build
+gnome-settings-daemon-47.2/plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in
+gnome-settings-daemon-47.2/plugins/wwan/
+gnome-settings-daemon-47.2/plugins/wwan/cc-wwan-device.c
+gnome-settings-daemon-47.2/plugins/wwan/cc-wwan-device.h
+gnome-settings-daemon-47.2/plugins/wwan/cc-wwan-errors-private.h
+gnome-settings-daemon-47.2/plugins/wwan/gsd-wwan-manager.c
+gnome-settings-daemon-47.2/plugins/wwan/gsd-wwan-manager.h
+gnome-settings-daemon-47.2/plugins/wwan/main.c
+gnome-settings-daemon-47.2/plugins/wwan/meson.build
+gnome-settings-daemon-47.2/plugins/xsettings/
+gnome-settings-daemon-47.2/plugins/xsettings/00-xrdb
+gnome-settings-daemon-47.2/plugins/xsettings/README.xsettings
+gnome-settings-daemon-47.2/plugins/xsettings/fc-monitor.c
+gnome-settings-daemon-47.2/plugins/xsettings/fc-monitor.h
+gnome-settings-daemon-47.2/plugins/xsettings/fontconfig-test/
+gnome-settings-daemon-47.2/plugins/xsettings/fontconfig-test/fonts.conf
+gnome-settings-daemon-47.2/plugins/xsettings/gsd-remote-display-manager.h
+gnome-settings-daemon-47.2/plugins/xsettings/gsd-xsettings-gtk.c
+gnome-settings-daemon-47.2/plugins/xsettings/gsd-xsettings-gtk.h
+gnome-settings-daemon-47.2/plugins/xsettings/gsd-xsettings-manager.c
+gnome-settings-daemon-47.2/plugins/xsettings/gsd-xsettings-manager.h
+gnome-settings-daemon-47.2/plugins/xsettings/gtk-modules-test/
+gnome-settings-daemon-47.2/plugins/xsettings/gtk-modules-test/canberra-gtk-module.desktop
+gnome-settings-daemon-47.2/plugins/xsettings/gtk-modules-test/pk-gtk-module.desktop
+gnome-settings-daemon-47.2/plugins/xsettings/main.c
+gnome-settings-daemon-47.2/plugins/xsettings/meson.build
+gnome-settings-daemon-47.2/plugins/xsettings/test-gtk-modules.c
+gnome-settings-daemon-47.2/plugins/xsettings/test-wm-button-layout-translations.c
+gnome-settings-daemon-47.2/plugins/xsettings/test.py
+gnome-settings-daemon-47.2/plugins/xsettings/wm-button-layout-translation.c
+gnome-settings-daemon-47.2/plugins/xsettings/wm-button-layout-translation.h
+gnome-settings-daemon-47.2/plugins/xsettings/xsettings-common.c
+gnome-settings-daemon-47.2/plugins/xsettings/xsettings-common.h
+gnome-settings-daemon-47.2/plugins/xsettings/xsettings-manager.c
+gnome-settings-daemon-47.2/plugins/xsettings/xsettings-manager.h
+gnome-settings-daemon-47.2/po/
+gnome-settings-daemon-47.2/po/ChangeLog
+gnome-settings-daemon-47.2/po/LINGUAS
+gnome-settings-daemon-47.2/po/POTFILES.in
+gnome-settings-daemon-47.2/po/POTFILES.skip
+gnome-settings-daemon-47.2/po/ab.po
+gnome-settings-daemon-47.2/po/af.po
+gnome-settings-daemon-47.2/po/am.po
+gnome-settings-daemon-47.2/po/ar.po
+gnome-settings-daemon-47.2/po/as.po
+gnome-settings-daemon-47.2/po/ast.po
+gnome-settings-daemon-47.2/po/az.po
+gnome-settings-daemon-47.2/po/be.po
+gnome-settings-daemon-47.2/po/be@latin.po
+gnome-settings-daemon-47.2/po/bg.po
+gnome-settings-daemon-47.2/po/bn.po
+gnome-settings-daemon-47.2/po/bn_IN.po
+gnome-settings-daemon-47.2/po/br.po
+gnome-settings-daemon-47.2/po/bs.po
+gnome-settings-daemon-47.2/po/ca.po
+gnome-settings-daemon-47.2/po/ca@valencia.po
+gnome-settings-daemon-47.2/po/ckb.po
+gnome-settings-daemon-47.2/po/crh.po
+gnome-settings-daemon-47.2/po/cs.po
+gnome-settings-daemon-47.2/po/cy.po
+gnome-settings-daemon-47.2/po/da.po
+gnome-settings-daemon-47.2/po/de.po
+gnome-settings-daemon-47.2/po/dz.po
+gnome-settings-daemon-47.2/po/el.po
+gnome-settings-daemon-47.2/po/en@shaw.po
+gnome-settings-daemon-47.2/po/en_CA.po
+gnome-settings-daemon-47.2/po/en_GB.po
+gnome-settings-daemon-47.2/po/eo.po
+gnome-settings-daemon-47.2/po/es.po
+gnome-settings-daemon-47.2/po/et.po
+gnome-settings-daemon-47.2/po/eu.po
+gnome-settings-daemon-47.2/po/fa.po
+gnome-settings-daemon-47.2/po/fi.po
+gnome-settings-daemon-47.2/po/fr.po
+gnome-settings-daemon-47.2/po/fur.po
+gnome-settings-daemon-47.2/po/ga.po
+gnome-settings-daemon-47.2/po/gd.po
+gnome-settings-daemon-47.2/po/gl.po
+gnome-settings-daemon-47.2/po/gu.po
+gnome-settings-daemon-47.2/po/he.po
+gnome-settings-daemon-47.2/po/hi.po
+gnome-settings-daemon-47.2/po/hr.po
+gnome-settings-daemon-47.2/po/hu.po
+gnome-settings-daemon-47.2/po/id.po
+gnome-settings-daemon-47.2/po/is.po
+gnome-settings-daemon-47.2/po/it.po
+gnome-settings-daemon-47.2/po/ja.po
+gnome-settings-daemon-47.2/po/ka.po
+gnome-settings-daemon-47.2/po/kab.po
+gnome-settings-daemon-47.2/po/kk.po
+gnome-settings-daemon-47.2/po/km.po
+gnome-settings-daemon-47.2/po/kn.po
+gnome-settings-daemon-47.2/po/ko.po
+gnome-settings-daemon-47.2/po/ku.po
+gnome-settings-daemon-47.2/po/lt.po
+gnome-settings-daemon-47.2/po/lv.po
+gnome-settings-daemon-47.2/po/mai.po
+gnome-settings-daemon-47.2/po/meson.build
+gnome-settings-daemon-47.2/po/mg.po
+gnome-settings-daemon-47.2/po/mk.po
+gnome-settings-daemon-47.2/po/ml.po
+gnome-settings-daemon-47.2/po/mn.po
+gnome-settings-daemon-47.2/po/mr.po
+gnome-settings-daemon-47.2/po/ms.po
+gnome-settings-daemon-47.2/po/nb.po
+gnome-settings-daemon-47.2/po/nds.po
+gnome-settings-daemon-47.2/po/ne.po
+gnome-settings-daemon-47.2/po/nl.po
+gnome-settings-daemon-47.2/po/nn.po
+gnome-settings-daemon-47.2/po/nso.po
+gnome-settings-daemon-47.2/po/oc.po
+gnome-settings-daemon-47.2/po/or.po
+gnome-settings-daemon-47.2/po/pa.po
+gnome-settings-daemon-47.2/po/pl.po
+gnome-settings-daemon-47.2/po/pt.po
+gnome-settings-daemon-47.2/po/pt_BR.po
+gnome-settings-daemon-47.2/po/ro.po
+gnome-settings-daemon-47.2/po/ru.po
+gnome-settings-daemon-47.2/po/rw.po
+gnome-settings-daemon-47.2/po/si.po
+gnome-settings-daemon-47.2/po/sk.po
+gnome-settings-daemon-47.2/po/sl.po
+gnome-settings-daemon-47.2/po/sq.po
+gnome-settings-daemon-47.2/po/sr.po
+gnome-settings-daemon-47.2/po/sr@latin.po
+gnome-settings-daemon-47.2/po/sv.po
+gnome-settings-daemon-47.2/po/ta.po
+gnome-settings-daemon-47.2/po/te.po
+gnome-settings-daemon-47.2/po/tg.po
+gnome-settings-daemon-47.2/po/th.po
+gnome-settings-daemon-47.2/po/tr.po
+gnome-settings-daemon-47.2/po/ug.po
+gnome-settings-daemon-47.2/po/uk.po
+gnome-settings-daemon-47.2/po/vi.po
+gnome-settings-daemon-47.2/po/wa.po
+gnome-settings-daemon-47.2/po/xh.po
+gnome-settings-daemon-47.2/po/zh_CN.po
+gnome-settings-daemon-47.2/po/zh_HK.po
+gnome-settings-daemon-47.2/po/zh_TW.po
+gnome-settings-daemon-47.2/po/zu.po
+gnome-settings-daemon-47.2/subprojects/
+gnome-settings-daemon-47.2/subprojects/gvc/
+gnome-settings-daemon-47.2/subprojects/gvc/.gitignore
+gnome-settings-daemon-47.2/subprojects/gvc/.gitlab-ci/
+gnome-settings-daemon-47.2/subprojects/gvc/.gitlab-ci/meson.build
+gnome-settings-daemon-47.2/subprojects/gvc/.gitlab-ci/subprojects/
+gnome-settings-daemon-47.2/subprojects/gvc/.gitlab-ci/subprojects/gvc
+gnome-settings-daemon-47.2/subprojects/gvc/.gitlab-ci.yml
+gnome-settings-daemon-47.2/subprojects/gvc/README.md
+gnome-settings-daemon-47.2/subprojects/gvc/gvc-channel-map-private.h
+gnome-settings-daemon-47.2/subprojects/gvc/gvc-channel-map.c
+gnome-settings-daemon-47.2/subprojects/gvc/gvc-channel-map.h
+gnome-settings-daemon-47.2/subprojects/gvc/gvc-mixer-card-private.h
+gnome-settings-daemon-47.2/subprojects/gvc/gvc-mixer-card.c
+gnome-settings-daemon-47.2/subprojects/gvc/gvc-mixer-card.h
+gnome-settings-daemon-47.2/subprojects/gvc/gvc-mixer-control-private.h
+gnome-settings-daemon-47.2/subprojects/gvc/gvc-mixer-control.c
+gnome-settings-daemon-47.2/subprojects/gvc/gvc-mixer-control.h
+gnome-settings-daemon-47.2/subprojects/gvc/gvc-mixer-event-role.c
+gnome-settings-daemon-47.2/subprojects/gvc/gvc-mixer-event-role.h
+gnome-settings-daemon-47.2/subprojects/gvc/gvc-mixer-sink-input.c
+gnome-settings-daemon-47.2/subprojects/gvc/gvc-mixer-sink-input.h
+gnome-settings-daemon-47.2/subprojects/gvc/gvc-mixer-sink.c
+gnome-settings-daemon-47.2/subprojects/gvc/gvc-mixer-sink.h
+gnome-settings-daemon-47.2/subprojects/gvc/gvc-mixer-source-output.c
+gnome-settings-daemon-47.2/subprojects/gvc/gvc-mixer-source-output.h
+gnome-settings-daemon-47.2/subprojects/gvc/gvc-mixer-source.c
+gnome-settings-daemon-47.2/subprojects/gvc/gvc-mixer-source.h
+gnome-settings-daemon-47.2/subprojects/gvc/gvc-mixer-stream-private.h
+gnome-settings-daemon-47.2/subprojects/gvc/gvc-mixer-stream.c
+gnome-settings-daemon-47.2/subprojects/gvc/gvc-mixer-stream.h
+gnome-settings-daemon-47.2/subprojects/gvc/gvc-mixer-ui-device.c
+gnome-settings-daemon-47.2/subprojects/gvc/gvc-mixer-ui-device.h
+gnome-settings-daemon-47.2/subprojects/gvc/gvc-pulseaudio-fake.h
+gnome-settings-daemon-47.2/subprojects/gvc/libgnome-volume-control.doap
+gnome-settings-daemon-47.2/subprojects/gvc/meson.build
+gnome-settings-daemon-47.2/subprojects/gvc/meson_options.txt
+gnome-settings-daemon-47.2/subprojects/gvc/test-audio-device-selection.c
+gnome-settings-daemon-47.2/tests/
+gnome-settings-daemon-47.2/tests/dummy.session
+gnome-settings-daemon-47.2/tests/dummyapp.desktop
+gnome-settings-daemon-47.2/tests/get-display-name.sh
+gnome-settings-daemon-47.2/tests/gsdtestcase.py
+gnome-settings-daemon-47.2/tests/output_checker.py
+The Meson build system
+Version: 1.7.0
+Source dir: /blfs/builds/gnome-settings-daemon-47.2
+Build dir: /blfs/builds/gnome-settings-daemon-47.2/build
+Build type: native build
+Project name: gnome-settings-daemon
+Project version: 47.2
+C compiler for the host machine: cc (gcc 14.2.0 "cc (GCC) 14.2.0")
+C linker for the host machine: cc ld.bfd 2.44
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.0
+Run-time dependency glib-2.0 found: YES 2.84.3
+Run-time dependency geocode-glib-2.0 found: YES 3.26.4
+Run-time dependency gio-2.0 found: YES 2.84.3
+Run-time dependency gio-unix-2.0 found: YES 2.84.3
+Run-time dependency gnome-desktop-3.0 found: YES 43.2
+Run-time dependency gsettings-desktop-schemas found: YES 47.1
+Run-time dependency gtk+-3.0 found: YES 3.24.49
+Run-time dependency gtk+-x11-3.0 found: YES 3.24.49
+Run-time dependency gweather4 found: YES 4.4.4
+Run-time dependency libcanberra-gtk3 found: YES 0.30
+Run-time dependency libgeoclue-2.0 found: YES 2.7.2
+Run-time dependency libnotify found: YES 0.8.6
+Run-time dependency libpulse-mainloop-glib found: YES 17.0
+Run-time dependency pango found: YES 1.56.3
+Run-time dependency polkit-gobject-1 found: YES 126
+Run-time dependency upower-glib found: YES 1.90.9
+Run-time dependency x11 found: YES 1.8.12
+Run-time dependency xfixes found: YES 6.0.0
+Run-time dependency systemd found: YES 257
+Run-time dependency libsystemd found: YES 257
+../meson.build:127: WARNING: Project targets '>= 0.57.0' but uses feature deprecated since '0.56.0': dependency.get_pkgconfig_variable. use dependency.get_variable(pkgconfig : ...) instead
+Library m found: YES
+
+Executing subproject gvc 
+
+gvc| Project name: gvc
+gvc| Project version: undefined
+gvc| C compiler for the host machine: cc (gcc 14.2.0 "cc (GCC) 14.2.0")
+gvc| C linker for the host machine: cc ld.bfd 2.44
+gvc| Dependency glib-2.0 found: YES 2.84.3 (cached)
+gvc| Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+gvc| Dependency glib-2.0 found: YES 2.84.3 (cached)
+gvc| Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+gvc| Dependency gio-2.0 found: YES 2.84.3 (cached)
+gvc| Run-time dependency gobject-2.0 found: YES 2.84.3
+gvc| Run-time dependency libpulse found: YES 17.0
+gvc| Dependency libpulse-mainloop-glib found: YES 17.0 (cached)
+gvc| Run-time dependency alsa found: YES 1.2.14
+gvc| Configuring config.h using configuration
+gvc| Build targets in project: 4
+gvc| Subproject gvc finished.
+
+Run-time dependency gudev-1.0 found: YES 238
+Checking for function "timerfd_create" : YES 
+Run-time dependency wayland-client found: YES 1.23.92
+Run-time dependency gdk-wayland-3.0 found: YES 3.24.49
+Run-time dependency libwacom found: YES 2.16.0
+Run-time dependency gck-2 found: YES 4.4.0.1
+Run-time dependency cups found: YES 2.4.12
+Has header "linux/rfkill.h" : YES 
+Run-time dependency udev found: YES 257
+Run-time dependency gcr-4 found: YES 4.4.0.1
+Run-time dependency mm-glib found: YES 1.24.0
+Run-time dependency libnm found: YES 1.52.0
+Run-time dependency colord found: YES 1.4.7
+Dependency gio-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Dependency gio-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Dependency gio-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Dependency gio-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Configuring org.gnome.settings-daemon.peripherals.gschema.xml using configuration
+Configuring org.gnome.settings-daemon.peripherals.wacom.gschema.xml using configuration
+Configuring org.gnome.settings-daemon.plugins.gschema.xml using configuration
+Configuring org.gnome.settings-daemon.plugins.color.gschema.xml using configuration
+Configuring org.gnome.settings-daemon.plugins.housekeeping.gschema.xml using configuration
+Configuring org.gnome.settings-daemon.plugins.media-keys.gschema.xml using configuration
+Configuring org.gnome.settings-daemon.plugins.power.gschema.xml using configuration
+Configuring org.gnome.settings-daemon.plugins.sharing.gschema.xml using configuration
+Configuring org.gnome.settings-daemon.plugins.xsettings.gschema.xml using configuration
+Configuring org.gnome.settings-daemon.plugins.wwan.gschema.xml using configuration
+Dependency glib-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Program glib-compile-schemas found: YES (/usr/bin/glib-compile-schemas)
+Dependency gio-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Run-time dependency kbproto found: YES 1.0.7
+Run-time dependency xi found: YES 1.8.2
+Configuring org.gnome.SettingsDaemon.A11ySettings.desktop using configuration
+Configuring org.gnome.SettingsDaemon.A11ySettings.service using configuration
+Configuring org.gnome.SettingsDaemon.A11ySettings.target using configuration
+Configuring org.gnome.SettingsDaemon.Color.desktop using configuration
+Configuring org.gnome.SettingsDaemon.Color.service using configuration
+Configuring org.gnome.SettingsDaemon.Color.target using configuration
+Configuring org.gnome.SettingsDaemon.Datetime.desktop using configuration
+Configuring org.gnome.SettingsDaemon.Datetime.service using configuration
+Configuring org.gnome.SettingsDaemon.Datetime.target using configuration
+Dependency gio-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Configuring org.gnome.SettingsDaemon.Power.desktop using configuration
+Configuring org.gnome.SettingsDaemon.Power.service using configuration
+Configuring org.gnome.SettingsDaemon.Power.target using configuration
+Run-time dependency xext found: YES 1.3.6
+Dependency glib-2.0 found: YES 2.84.3 (cached)
+Dependency gio-2.0 found: YES 2.84.3 (cached)
+Dependency glib-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Dependency glib-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Configuring org.gnome.settings-daemon.plugins.power.policy.in using configuration
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Program test.py found: YES (/blfs/builds/gnome-settings-daemon-47.2/plugins/power/test.py)
+Configuring org.gnome.SettingsDaemon.Housekeeping.desktop using configuration
+Configuring org.gnome.SettingsDaemon.Housekeeping.service using configuration
+Configuring org.gnome.SettingsDaemon.Housekeeping.target using configuration
+Configuring org.gnome.SettingsDaemon.Keyboard.desktop using configuration
+Configuring org.gnome.SettingsDaemon.Keyboard.service using configuration
+Configuring org.gnome.SettingsDaemon.Keyboard.target using configuration
+Configuring org.gnome.SettingsDaemon.MediaKeys.desktop using configuration
+Configuring org.gnome.SettingsDaemon.MediaKeys.service using configuration
+Configuring org.gnome.SettingsDaemon.MediaKeys.target using configuration
+Dependency glib-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/glib-genmarshal found: YES (/usr/bin/glib-genmarshal)
+Dependency gio-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Configuring org.gnome.SettingsDaemon.ScreensaverProxy.desktop using configuration
+Configuring org.gnome.SettingsDaemon.ScreensaverProxy.service using configuration
+Configuring org.gnome.SettingsDaemon.ScreensaverProxy.target using configuration
+Configuring org.gnome.SettingsDaemon.Sharing.desktop using configuration
+Configuring org.gnome.SettingsDaemon.Sharing.service using configuration
+Configuring org.gnome.SettingsDaemon.Sharing.target using configuration
+Configuring org.gnome.SettingsDaemon.Sound.desktop using configuration
+Configuring org.gnome.SettingsDaemon.Sound.service using configuration
+Configuring org.gnome.SettingsDaemon.Sound.target using configuration
+Configuring org.gnome.SettingsDaemon.UsbProtection.desktop using configuration
+Configuring org.gnome.SettingsDaemon.UsbProtection.service using configuration
+Configuring org.gnome.SettingsDaemon.UsbProtection.target using configuration
+Configuring org.gnome.SettingsDaemon.XSettings.desktop using configuration
+Configuring org.gnome.SettingsDaemon.XSettings.service using configuration
+Configuring org.gnome.SettingsDaemon.XSettings.target using configuration
+Run-time dependency fontconfig found: YES 2.16.0
+Program test.py found: YES (/blfs/builds/gnome-settings-daemon-47.2/plugins/xsettings/test.py)
+Configuring org.gnome.SettingsDaemon.Smartcard.desktop using configuration
+Configuring org.gnome.SettingsDaemon.Smartcard.service using configuration
+Configuring org.gnome.SettingsDaemon.Smartcard.target using configuration
+Dependency glib-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Dependency glib-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Dependency gio-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Configuring org.gnome.SettingsDaemon.Wacom.desktop using configuration
+Configuring org.gnome.SettingsDaemon.Wacom.service using configuration
+Configuring org.gnome.SettingsDaemon.Wacom.target using configuration
+Configuring org.gnome.settings-daemon.plugins.wacom.policy.in using configuration
+Configuring org.gnome.SettingsDaemon.PrintNotifications.desktop using configuration
+Configuring org.gnome.SettingsDaemon.PrintNotifications.service using configuration
+Configuring org.gnome.SettingsDaemon.PrintNotifications.target using configuration
+Configuring org.gnome.SettingsDaemon.Rfkill.desktop using configuration
+Configuring org.gnome.SettingsDaemon.Rfkill.service using configuration
+Configuring org.gnome.SettingsDaemon.Rfkill.target using configuration
+Configuring org.gnome.SettingsDaemon.Wwan.desktop using configuration
+Configuring org.gnome.SettingsDaemon.Wwan.service using configuration
+Configuring org.gnome.SettingsDaemon.Wwan.target using configuration
+Program msginit found: YES (/usr/bin/msginit)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program xgettext found: YES (/usr/bin/xgettext)
+Configuring config.h using configuration
+Dependency gio-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/glib-compile-schemas found: YES (/usr/bin/glib-compile-schemas)
+Message: 
+        gnome-settings-daemon 47.2
+        =============================
+
+        prefix:                   /usr
+        exec_prefix:              /usr
+        libdir:                   /usr/lib
+        libexecdir:               /usr/libexec
+        bindir:                   /usr/bin
+        sysconfdir:               /etc
+        datadir:                  /usr/share
+
+        gtk modules dir:          /usr/lib/gnome-settings-daemon-3.0/gtk-modules
+
+        source code location:     /blfs/builds/gnome-settings-daemon-47.2
+        compiler:                 gcc
+        cflags:                   
+
+        ALSA support:             true
+        NetworkManager support:   true
+        Smartcard support:        true
+        USB Protection support:   true
+        Cups support:             true
+        Wayland support:          true
+        Wacom support:            true
+        RFKill support:           true
+        Systemd user unit dir:    /usr/lib/systemd/user
+        udev dir:                 /usr/lib/udev
+
+Build targets in project: 165
+WARNING: Deprecated features used:
+ * 0.56.0: {'dependency.get_pkgconfig_variable'}
+
+gnome-settings-daemon 47.2
+
+  Subprojects
+    gvc      : YES
+
+  User defined options
+    buildtype: release
+    prefix   : /usr
+
+Found ninja-1.13.0 at /usr/bin/ninja
+[1/273] Generating plugins/common/gsd-resources_h with a custom command
+[2/273] Generating plugins/common/gsd-resources_c with a custom command
+[3/273] Generating gdbus header gnome-settings-daemon/gsd-screen-saver-glue.h
+[4/273] Generating gdbus header gnome-settings-daemon/gsd-session-manager-glue.h
+[5/273] Generating gdbus source gnome-settings-daemon/gsd-shell-glue.c
+[6/273] Generating gdbus source gnome-settings-daemon/gsd-screen-saver-glue.c
+[7/273] Generating gdbus header gnome-settings-daemon/gsd-shell-glue.h
+[8/273] Generating gdbus source plugins/datetime/timedated.c
+[9/273] Generating glib marshaller header plugins/media-keys/gsd-marshal_h
+[10/273] Generating gdbus header gnome-settings-daemon/gsd-display-config-glue.h
+[11/273] Generating gdbus source gnome-settings-daemon/gsd-session-manager-glue.c
+[12/273] Generating gdbus header plugins/datetime/timedated.h
+[13/273] Generating gdbus source gnome-settings-daemon/gsd-display-config-glue.c
+[14/273] Generating gdbus source plugins/media-keys/shell-key-grabber.c
+[15/273] Generating gdbus header plugins/media-keys/shell-key-grabber.h
+[16/273] Generating gdbus source plugins/smartcard/org.gnome.SettingsDaemon.Smartcard.c
+[17/273] Generating gdbus header plugins/smartcard/org.gnome.SettingsDaemon.Smartcard.h
+[18/273] Generating glib marshaller source plugins/media-keys/gsd-marshal_c
+[19/273] Generating GObject enum file plugins/power/gsd-power-enums.h (wrapped by meson to capture output)
+[20/273] Compiling C object plugins/power/gsd-backlight-helper.p/gsd-backlight-helper.c.o
+[21/273] Generating GObject enum file subprojects/gvc/gvc-enum-types.c (wrapped by meson because command contains newlines, to capture output)
+[22/273] Generating GObject enum file subprojects/gvc/gvc-enum-types.h (wrapped by meson because command contains newlines, to capture output)
+[23/273] Generating GObject enum file plugins/smartcard/gsd-smartcard-enum-types.h (wrapped by meson to capture output)
+[24/273] Compiling C object gnome-settings-daemon/libgsd.so.p/gnome-settings-profile.c.o
+[25/273] Generating GObject enum file data/org.gnome.settings-daemon.enums.xml (wrapped by meson to capture output)
+[26/273] Compiling C object plugins/power/gsd-power-enums-update.p/gsd-power-enums-update.c.o
+[27/273] Compiling C object gnome-settings-daemon/libgsd.so.p/gnome-settings-bus.c.o
+[28/273] Compiling C object subprojects/gvc/test-audio-device-selection.p/test-audio-device-selection.c.o
+[29/273] Compiling C object plugins/common/libcommon.a.p/meson-generated_.._gsd-resources.c.o
+[30/273] Compiling C object subprojects/gvc/libgvc.a.p/meson-generated_.._gvc-enum-types.c.o
+[31/273] Generating GObject enum file plugins/power/gsd-power-enums.c (wrapped by meson to capture output)
+[32/273] Compiling C object plugins/common/libcommon.a.p/gsd-shell-helper.c.o
+[33/273] Compiling C object plugins/common/libcommon.a.p/gsd-settings-migrate.c.o
+[34/273] Compiling C object subprojects/gvc/libgvc.a.p/gvc-channel-map.c.o
+[35/273] Compiling C object plugins/common/libcommon.a.p/gsd-input-helper.c.o
+[36/273] Linking static target plugins/common/libcommon.a
+[37/273] Compiling C object gnome-settings-daemon/libgsd.so.p/meson-generated_.._gsd-shell-glue.c.o
+[38/273] Compiling C object plugins/power/gsd-power-enums-update.p/meson-generated_.._gsd-power-enums.c.o
+[39/273] Compiling C object subprojects/gvc/libgvc.a.p/gvc-mixer-source.c.o
+[40/273] Compiling C object gnome-settings-daemon/libgsd.so.p/meson-generated_.._gsd-screen-saver-glue.c.o
+[41/273] Compiling C object subprojects/gvc/libgvc.a.p/gvc-mixer-source-output.c.o
+[42/273] Compiling C object subprojects/gvc/libgvc.a.p/gvc-mixer-sink.c.o
+[43/273] Compiling C object subprojects/gvc/libgvc.a.p/gvc-mixer-sink-input.c.o
+[44/273] Compiling C object subprojects/gvc/libgvc.a.p/gvc-mixer-event-role.c.o
+[45/273] Generating GObject enum file plugins/smartcard/gsd-smartcard-enum-types.c (wrapped by meson to capture output)
+[46/273] Compiling C object plugins/color/gsd-color.p/gnome-datetime-source.c.o
+[47/273] Compiling C object plugins/a11y-settings/gsd-a11y-settings.p/gsd-a11y-settings-manager.c.o
+[48/273] Compiling C object subprojects/gvc/libgvc.a.p/gvc-mixer-card.c.o
+[49/273] Compiling C object plugins/a11y-settings/gsd-a11y-settings.p/main.c.o
+[50/273] Compiling C object plugins/color/gsd-color.p/gsd-color-state.c.o
+[51/273] Compiling C object plugins/color/gsd-color.p/gsd-night-light-common.c.o
+[52/273] Compiling C object subprojects/gvc/libgvc.a.p/gvc-mixer-ui-device.c.o
+[53/273] Compiling C object plugins/color/gcm-self-test.p/gnome-datetime-source.c.o
+[54/273] Compiling C object plugins/color/gcm-self-test.p/gsd-night-light-common.c.o
+[55/273] Compiling C object gnome-settings-daemon/libgsd.so.p/meson-generated_.._gsd-display-config-glue.c.o
+[56/273] Compiling C object subprojects/gvc/libgvc.a.p/gvc-mixer-stream.c.o
+[57/273] Compiling C object plugins/color/gsd-color.p/gsd-color-manager.c.o
+[58/273] Compiling C object plugins/color/gcm-self-test.p/gcm-self-test.c.o
+[59/273] Compiling C object plugins/color/gsd-color.p/gsd-night-light.c.o
+[60/273] Compiling C object gnome-settings-daemon/libgsd.so.p/meson-generated_.._gsd-session-manager-glue.c.o
+[61/273] Compiling C object plugins/color/gsd-color.p/main.c.o
+[62/273] Compiling C object plugins/datetime/gsd-datetime.p/gsd-datetime-manager.c.o
+[63/273] Linking target plugins/power/gsd-power-enums-update
+[64/273] Compiling C object plugins/color/gcm-self-test.p/gsd-night-light.c.o
+[65/273] Compiling C object plugins/datetime/gsd-datetime.p/tz.c.o
+[66/273] Linking target gnome-settings-daemon/libgsd.so
+[67/273] Compiling C object plugins/datetime/gsd-datetime.p/main.c.o
+[68/273] Compiling C object plugins/datetime/gsd-datetime.p/weather-tz.c.o
+[69/273] Compiling C object plugins/color/gsd-color.p/gsd-color-calibrate.c.o
+[70/273] Compiling C object plugins/datetime/gsd-datetime.p/gsd-timezone-monitor.c.o
+[71/273] Generating symbol file gnome-settings-daemon/libgsd.so.p/libgsd.so.symbols
+[72/273] Compiling C object plugins/datetime/gsd-datetime.p/meson-generated_.._timedated.c.o
+[73/273] Compiling C object plugins/housekeeping/gsd-housekeeping.p/gsd-disk-space-helper.c.o
+../plugins/housekeeping/gsd-disk-space-helper.c: In function 'gsd_should_ignore_unix_mount':
+../plugins/housekeeping/gsd-disk-space-helper.c:115:9: warning: 'g_unix_mount_get_fs_type' is deprecated: Use 'g_unix_mount_entry_get_fs_type' instead [-Wdeprecated-declarations]
+  115 |         fs = g_unix_mount_get_fs_type (mount);
+      |         ^~
+In file included from ../plugins/housekeeping/gsd-disk-space-helper.h:29,
+                 from ../plugins/housekeeping/gsd-disk-space-helper.c:30:
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:115:16: note: declared here
+  115 | const char *   g_unix_mount_get_fs_type             (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space-helper.c:128:9: warning: 'g_unix_mount_get_device_path' is deprecated: Use 'g_unix_mount_entry_get_device_path' instead [-Wdeprecated-declarations]
+  128 |         device = g_unix_mount_get_device_path (mount);
+      |         ^~~~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:105:16: note: declared here
+  105 | const char *   g_unix_mount_get_device_path         (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space-helper.c:133:9: warning: 'g_unix_mount_guess_name' is deprecated: Use 'g_unix_mount_entry_guess_name' instead [-Wdeprecated-declarations]
+  133 |         label = g_unix_mount_guess_name (mount);
+      |         ^~~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:145:16: note: declared here
+  145 | char *         g_unix_mount_guess_name              (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space-helper.c: In function 'gsd_is_removable_mount':
+../plugins/housekeeping/gsd-disk-space-helper.c:148:9: warning: 'g_unix_mount_get_mount_path' is deprecated: Use 'g_unix_mount_entry_get_mount_path' instead [-Wdeprecated-declarations]
+  148 |         mount_path = g_unix_mount_get_mount_path (mount);
+      |         ^~~~~~~~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:100:16: note: declared here
+  100 | const char *   g_unix_mount_get_mount_path          (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+[74/273] Compiling C object plugins/housekeeping/gsd-housekeeping.p/main.c.o
+[75/273] Compiling C object plugins/housekeeping/gsd-housekeeping.p/gsd-systemd-notify.c.o
+[76/273] Compiling C object plugins/power/gsd-power.p/gpm-common.c.o
+[77/273] Compiling C object plugins/housekeeping/gsd-disk-space-test.p/gsd-disk-space-helper.c.o
+../plugins/housekeeping/gsd-disk-space-helper.c: In function 'gsd_should_ignore_unix_mount':
+../plugins/housekeeping/gsd-disk-space-helper.c:115:9: warning: 'g_unix_mount_get_fs_type' is deprecated: Use 'g_unix_mount_entry_get_fs_type' instead [-Wdeprecated-declarations]
+  115 |         fs = g_unix_mount_get_fs_type (mount);
+      |         ^~
+In file included from ../plugins/housekeeping/gsd-disk-space-helper.h:29,
+                 from ../plugins/housekeeping/gsd-disk-space-helper.c:30:
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:115:16: note: declared here
+  115 | const char *   g_unix_mount_get_fs_type             (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space-helper.c:128:9: warning: 'g_unix_mount_get_device_path' is deprecated: Use 'g_unix_mount_entry_get_device_path' instead [-Wdeprecated-declarations]
+  128 |         device = g_unix_mount_get_device_path (mount);
+      |         ^~~~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:105:16: note: declared here
+  105 | const char *   g_unix_mount_get_device_path         (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space-helper.c:133:9: warning: 'g_unix_mount_guess_name' is deprecated: Use 'g_unix_mount_entry_guess_name' instead [-Wdeprecated-declarations]
+  133 |         label = g_unix_mount_guess_name (mount);
+      |         ^~~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:145:16: note: declared here
+  145 | char *         g_unix_mount_guess_name              (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space-helper.c: In function 'gsd_is_removable_mount':
+../plugins/housekeeping/gsd-disk-space-helper.c:148:9: warning: 'g_unix_mount_get_mount_path' is deprecated: Use 'g_unix_mount_entry_get_mount_path' instead [-Wdeprecated-declarations]
+  148 |         mount_path = g_unix_mount_get_mount_path (mount);
+      |         ^~~~~~~~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:100:16: note: declared here
+  100 | const char *   g_unix_mount_get_mount_path          (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+[78/273] Compiling C object plugins/housekeeping/gsd-housekeeping.p/gsd-housekeeping-manager.c.o
+[79/273] Compiling C object plugins/housekeeping/gsd-purge-temp-test.p/gsd-disk-space-helper.c.o
+../plugins/housekeeping/gsd-disk-space-helper.c: In function 'gsd_should_ignore_unix_mount':
+../plugins/housekeeping/gsd-disk-space-helper.c:115:9: warning: 'g_unix_mount_get_fs_type' is deprecated: Use 'g_unix_mount_entry_get_fs_type' instead [-Wdeprecated-declarations]
+  115 |         fs = g_unix_mount_get_fs_type (mount);
+      |         ^~
+In file included from ../plugins/housekeeping/gsd-disk-space-helper.h:29,
+                 from ../plugins/housekeeping/gsd-disk-space-helper.c:30:
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:115:16: note: declared here
+  115 | const char *   g_unix_mount_get_fs_type             (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space-helper.c:128:9: warning: 'g_unix_mount_get_device_path' is deprecated: Use 'g_unix_mount_entry_get_device_path' instead [-Wdeprecated-declarations]
+  128 |         device = g_unix_mount_get_device_path (mount);
+      |         ^~~~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:105:16: note: declared here
+  105 | const char *   g_unix_mount_get_device_path         (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space-helper.c:133:9: warning: 'g_unix_mount_guess_name' is deprecated: Use 'g_unix_mount_entry_guess_name' instead [-Wdeprecated-declarations]
+  133 |         label = g_unix_mount_guess_name (mount);
+      |         ^~~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:145:16: note: declared here
+  145 | char *         g_unix_mount_guess_name              (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space-helper.c: In function 'gsd_is_removable_mount':
+../plugins/housekeeping/gsd-disk-space-helper.c:148:9: warning: 'g_unix_mount_get_mount_path' is deprecated: Use 'g_unix_mount_entry_get_mount_path' instead [-Wdeprecated-declarations]
+  148 |         mount_path = g_unix_mount_get_mount_path (mount);
+      |         ^~~~~~~~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:100:16: note: declared here
+  100 | const char *   g_unix_mount_get_mount_path          (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+[80/273] Compiling C object plugins/power/gsd-power.p/gsd-backlight.c.o
+[81/273] Compiling C object plugins/housekeeping/gsd-empty-trash-test.p/gsd-disk-space-helper.c.o
+../plugins/housekeeping/gsd-disk-space-helper.c: In function 'gsd_should_ignore_unix_mount':
+../plugins/housekeeping/gsd-disk-space-helper.c:115:9: warning: 'g_unix_mount_get_fs_type' is deprecated: Use 'g_unix_mount_entry_get_fs_type' instead [-Wdeprecated-declarations]
+  115 |         fs = g_unix_mount_get_fs_type (mount);
+      |         ^~
+In file included from ../plugins/housekeeping/gsd-disk-space-helper.h:29,
+                 from ../plugins/housekeeping/gsd-disk-space-helper.c:30:
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:115:16: note: declared here
+  115 | const char *   g_unix_mount_get_fs_type             (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space-helper.c:128:9: warning: 'g_unix_mount_get_device_path' is deprecated: Use 'g_unix_mount_entry_get_device_path' instead [-Wdeprecated-declarations]
+  128 |         device = g_unix_mount_get_device_path (mount);
+      |         ^~~~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:105:16: note: declared here
+  105 | const char *   g_unix_mount_get_device_path         (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space-helper.c:133:9: warning: 'g_unix_mount_guess_name' is deprecated: Use 'g_unix_mount_entry_guess_name' instead [-Wdeprecated-declarations]
+  133 |         label = g_unix_mount_guess_name (mount);
+      |         ^~~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:145:16: note: declared here
+  145 | char *         g_unix_mount_guess_name              (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space-helper.c: In function 'gsd_is_removable_mount':
+../plugins/housekeeping/gsd-disk-space-helper.c:148:9: warning: 'g_unix_mount_get_mount_path' is deprecated: Use 'g_unix_mount_entry_get_mount_path' instead [-Wdeprecated-declarations]
+  148 |         mount_path = g_unix_mount_get_mount_path (mount);
+      |         ^~~~~~~~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:100:16: note: declared here
+  100 | const char *   g_unix_mount_get_mount_path          (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+[82/273] Compiling C object plugins/media-keys/gsd-media-keys.p/meson-generated_.._gsd-marshal.c.o
+[83/273] Compiling C object plugins/power/gsd-power.p/main.c.o
+[84/273] Compiling C object subprojects/gvc/libgvc.a.p/gvc-mixer-control.c.o
+[85/273] Compiling C object plugins/housekeeping/gsd-disk-space-test.p/gsd-disk-space-test.c.o
+[86/273] Linking static target subprojects/gvc/libgvc.a
+[87/273] Compiling C object plugins/housekeeping/gsd-empty-trash-test.p/gsd-empty-trash-test.c.o
+[88/273] Compiling C object plugins/housekeeping/gsd-housekeeping.p/gsd-disk-space.c.o
+../plugins/housekeeping/gsd-disk-space.c: In function 'ldsm_notify_for_mount':
+../plugins/housekeeping/gsd-disk-space.c:683:9: warning: 'g_unix_mount_guess_name' is deprecated: Use 'g_unix_mount_entry_guess_name' instead [-Wdeprecated-declarations]
+  683 |         name = g_unix_mount_guess_name (mount->mount);
+      |         ^~~~
+In file included from ../plugins/housekeeping/gsd-disk-space.c:32:
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:145:16: note: declared here
+  145 | char *         g_unix_mount_guess_name              (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space.c:684:9: warning: 'g_unix_mount_get_mount_path' is deprecated: Use 'g_unix_mount_entry_get_mount_path' instead [-Wdeprecated-declarations]
+  684 |         path = g_unix_mount_get_mount_path (mount->mount);
+      |         ^~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:100:16: note: declared here
+  100 | const char *   g_unix_mount_get_mount_path          (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space.c: In function 'ldsm_free_mount_info':
+../plugins/housekeeping/gsd-disk-space.c:772:9: warning: 'g_unix_mount_free' is deprecated: Use 'g_unix_mount_entry_free' instead [-Wdeprecated-declarations]
+  772 |         g_unix_mount_free (mount->mount);
+      |         ^~~~~~~~~~~~~~~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:78:16: note: declared here
+   78 | void           g_unix_mount_free                    (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space.c: In function 'ldsm_maybe_warn_mounts':
+../plugins/housekeeping/gsd-disk-space.c:800:17: warning: 'g_unix_mount_get_mount_path' is deprecated: Use 'g_unix_mount_entry_get_mount_path' instead [-Wdeprecated-declarations]
+  800 |                 path = g_unix_mount_get_mount_path (mount_info->mount);
+      |                 ^~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:100:16: note: declared here
+  100 | const char *   g_unix_mount_get_mount_path          (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space.c: In function 'ldsm_check_all_mounts':
+../plugins/housekeeping/gsd-disk-space.c:864:17: warning: 'g_unix_mount_at' is deprecated: Use 'g_unix_mount_entry_at' instead [-Wdeprecated-declarations]
+  864 |                 mount = g_unix_mount_at (path, time_read);
+      |                 ^~~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:213:18: note: declared here
+  213 | GUnixMountEntry *g_unix_mount_at                    (const char         *mount_path,
+      |                  ^~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space.c:874:17: warning: 'g_unix_mount_get_mount_path' is deprecated: Use 'g_unix_mount_entry_get_mount_path' instead [-Wdeprecated-declarations]
+  874 |                 path = g_unix_mount_get_mount_path (mount);
+      |                 ^~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:100:16: note: declared here
+  100 | const char *   g_unix_mount_get_mount_path          (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space.c:876:17: warning: 'g_unix_mount_is_readonly' is deprecated: Use 'g_unix_mount_entry_is_readonly' instead [-Wdeprecated-declarations]
+  876 |                 if (g_unix_mount_is_readonly (mount)) {
+      |                 ^~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:125:16: note: declared here
+  125 | gboolean       g_unix_mount_is_readonly             (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space.c:916:25: warning: 'g_unix_mount_get_mount_path' is deprecated: Use 'g_unix_mount_entry_get_mount_path' instead [-Wdeprecated-declarations]
+  916 |                         g_hash_table_remove (ldsm_notified_hash, g_unix_mount_get_mount_path (mount_info->mount));
+      |                         ^~~~~~~~~~~~~~~~~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:100:16: note: declared here
+  100 | const char *   g_unix_mount_get_mount_path          (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space.c: In function 'ldsm_is_hash_item_not_in_mounts':
+../plugins/housekeeping/gsd-disk-space.c:940:17: warning: 'g_unix_mount_get_mount_path' is deprecated: Use 'g_unix_mount_entry_get_mount_path' instead [-Wdeprecated-declarations]
+  940 |                 path = g_unix_mount_get_mount_path (mount);
+      |                 ^~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:100:16: note: declared here
+  100 | const char *   g_unix_mount_get_mount_path          (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space.c: In function 'ldsm_mounts_changed':
+../plugins/housekeeping/gsd-disk-space.c:956:9: warning: 'g_unix_mounts_get' is deprecated: Use 'g_unix_mount_entries_get' instead [-Wdeprecated-declarations]
+  956 |         mounts = g_unix_mounts_get (time_read);
+      |         ^~~~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:199:16: note: declared here
+  199 | GList *        g_unix_mounts_get                    (guint64            *time_read);
+      |                ^~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space.c:959:9: warning: 'g_unix_mount_free' is deprecated: Use 'g_unix_mount_entry_free' instead [-Wdeprecated-declarations]
+  959 |         g_list_free_full (mounts, (GDestroyNotify) g_unix_mount_free);
+      |         ^~~~~~~~~~~~~~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:78:16: note: declared here
+   78 | void           g_unix_mount_free                    (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~
+[89/273] Compiling C object plugins/housekeeping/gsd-purge-temp-test.p/gsd-purge-temp-test.c.o
+[90/273] Compiling C object plugins/housekeeping/gsd-disk-space-test.p/gsd-disk-space.c.o
+../plugins/housekeeping/gsd-disk-space.c: In function 'ldsm_notify_for_mount':
+../plugins/housekeeping/gsd-disk-space.c:683:9: warning: 'g_unix_mount_guess_name' is deprecated: Use 'g_unix_mount_entry_guess_name' instead [-Wdeprecated-declarations]
+  683 |         name = g_unix_mount_guess_name (mount->mount);
+      |         ^~~~
+In file included from ../plugins/housekeeping/gsd-disk-space.c:32:
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:145:16: note: declared here
+  145 | char *         g_unix_mount_guess_name              (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space.c:684:9: warning: 'g_unix_mount_get_mount_path' is deprecated: Use 'g_unix_mount_entry_get_mount_path' instead [-Wdeprecated-declarations]
+  684 |         path = g_unix_mount_get_mount_path (mount->mount);
+      |         ^~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:100:16: note: declared here
+  100 | const char *   g_unix_mount_get_mount_path          (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space.c: In function 'ldsm_free_mount_info':
+../plugins/housekeeping/gsd-disk-space.c:772:9: warning: 'g_unix_mount_free' is deprecated: Use 'g_unix_mount_entry_free' instead [-Wdeprecated-declarations]
+  772 |         g_unix_mount_free (mount->mount);
+      |         ^~~~~~~~~~~~~~~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:78:16: note: declared here
+   78 | void           g_unix_mount_free                    (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space.c: In function 'ldsm_maybe_warn_mounts':
+../plugins/housekeeping/gsd-disk-space.c:800:17: warning: 'g_unix_mount_get_mount_path' is deprecated: Use 'g_unix_mount_entry_get_mount_path' instead [-Wdeprecated-declarations]
+  800 |                 path = g_unix_mount_get_mount_path (mount_info->mount);
+      |                 ^~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:100:16: note: declared here
+  100 | const char *   g_unix_mount_get_mount_path          (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space.c: In function 'ldsm_check_all_mounts':
+../plugins/housekeeping/gsd-disk-space.c:864:17: warning: 'g_unix_mount_at' is deprecated: Use 'g_unix_mount_entry_at' instead [-Wdeprecated-declarations]
+  864 |                 mount = g_unix_mount_at (path, time_read);
+      |                 ^~~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:213:18: note: declared here
+  213 | GUnixMountEntry *g_unix_mount_at                    (const char         *mount_path,
+      |                  ^~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space.c:874:17: warning: 'g_unix_mount_get_mount_path' is deprecated: Use 'g_unix_mount_entry_get_mount_path' instead [-Wdeprecated-declarations]
+  874 |                 path = g_unix_mount_get_mount_path (mount);
+      |                 ^~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:100:16: note: declared here
+  100 | const char *   g_unix_mount_get_mount_path          (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space.c:876:17: warning: 'g_unix_mount_is_readonly' is deprecated: Use 'g_unix_mount_entry_is_readonly' instead [-Wdeprecated-declarations]
+  876 |                 if (g_unix_mount_is_readonly (mount)) {
+      |                 ^~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:125:16: note: declared here
+  125 | gboolean       g_unix_mount_is_readonly             (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space.c:916:25: warning: 'g_unix_mount_get_mount_path' is deprecated: Use 'g_unix_mount_entry_get_mount_path' instead [-Wdeprecated-declarations]
+  916 |                         g_hash_table_remove (ldsm_notified_hash, g_unix_mount_get_mount_path (mount_info->mount));
+      |                         ^~~~~~~~~~~~~~~~~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:100:16: note: declared here
+  100 | const char *   g_unix_mount_get_mount_path          (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space.c: In function 'ldsm_is_hash_item_not_in_mounts':
+../plugins/housekeeping/gsd-disk-space.c:940:17: warning: 'g_unix_mount_get_mount_path' is deprecated: Use 'g_unix_mount_entry_get_mount_path' instead [-Wdeprecated-declarations]
+  940 |                 path = g_unix_mount_get_mount_path (mount);
+      |                 ^~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:100:16: note: declared here
+  100 | const char *   g_unix_mount_get_mount_path          (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space.c: In function 'ldsm_mounts_changed':
+../plugins/housekeeping/gsd-disk-space.c:956:9: warning: 'g_unix_mounts_get' is deprecated: Use 'g_unix_mount_entries_get' instead [-Wdeprecated-declarations]
+  956 |         mounts = g_unix_mounts_get (time_read);
+      |         ^~~~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:199:16: note: declared here
+  199 | GList *        g_unix_mounts_get                    (guint64            *time_read);
+      |                ^~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space.c:959:9: warning: 'g_unix_mount_free' is deprecated: Use 'g_unix_mount_entry_free' instead [-Wdeprecated-declarations]
+  959 |         g_list_free_full (mounts, (GDestroyNotify) g_unix_mount_free);
+      |         ^~~~~~~~~~~~~~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:78:16: note: declared here
+   78 | void           g_unix_mount_free                    (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~
+[91/273] Compiling C object plugins/media-keys/gsd-media-keys.p/bus-watch-namespace.c.o
+[92/273] Compiling C object plugins/media-keys/gsd-media-keys.p/mpris-controller.c.o
+[93/273] Compiling C object plugins/screensaver-proxy/gsd-screensaver-proxy.p/main.c.o
+[94/273] Compiling C object plugins/screensaver-proxy/gsd-screensaver-proxy.p/gsd-screensaver-proxy-manager.c.o
+[95/273] Compiling C object plugins/media-keys/gsd-media-keys.p/meson-generated_.._shell-key-grabber.c.o
+[96/273] Compiling C object plugins/housekeeping/gsd-empty-trash-test.p/gsd-disk-space.c.o
+../plugins/housekeeping/gsd-disk-space.c: In function 'ldsm_notify_for_mount':
+../plugins/housekeeping/gsd-disk-space.c:683:9: warning: 'g_unix_mount_guess_name' is deprecated: Use 'g_unix_mount_entry_guess_name' instead [-Wdeprecated-declarations]
+  683 |         name = g_unix_mount_guess_name (mount->mount);
+      |         ^~~~
+In file included from ../plugins/housekeeping/gsd-disk-space.c:32:
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:145:16: note: declared here
+  145 | char *         g_unix_mount_guess_name              (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space.c:684:9: warning: 'g_unix_mount_get_mount_path' is deprecated: Use 'g_unix_mount_entry_get_mount_path' instead [-Wdeprecated-declarations]
+  684 |         path = g_unix_mount_get_mount_path (mount->mount);
+      |         ^~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:100:16: note: declared here
+  100 | const char *   g_unix_mount_get_mount_path          (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space.c: In function 'ldsm_free_mount_info':
+../plugins/housekeeping/gsd-disk-space.c:772:9: warning: 'g_unix_mount_free' is deprecated: Use 'g_unix_mount_entry_free' instead [-Wdeprecated-declarations]
+  772 |         g_unix_mount_free (mount->mount);
+      |         ^~~~~~~~~~~~~~~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:78:16: note: declared here
+   78 | void           g_unix_mount_free                    (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space.c: In function 'ldsm_maybe_warn_mounts':
+../plugins/housekeeping/gsd-disk-space.c:800:17: warning: 'g_unix_mount_get_mount_path' is deprecated: Use 'g_unix_mount_entry_get_mount_path' instead [-Wdeprecated-declarations]
+  800 |                 path = g_unix_mount_get_mount_path (mount_info->mount);
+      |                 ^~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:100:16: note: declared here
+  100 | const char *   g_unix_mount_get_mount_path          (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space.c: In function 'ldsm_check_all_mounts':
+../plugins/housekeeping/gsd-disk-space.c:864:17: warning: 'g_unix_mount_at' is deprecated: Use 'g_unix_mount_entry_at' instead [-Wdeprecated-declarations]
+  864 |                 mount = g_unix_mount_at (path, time_read);
+      |                 ^~~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:213:18: note: declared here
+  213 | GUnixMountEntry *g_unix_mount_at                    (const char         *mount_path,
+      |                  ^~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space.c:874:17: warning: 'g_unix_mount_get_mount_path' is deprecated: Use 'g_unix_mount_entry_get_mount_path' instead [-Wdeprecated-declarations]
+  874 |                 path = g_unix_mount_get_mount_path (mount);
+      |                 ^~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:100:16: note: declared here
+  100 | const char *   g_unix_mount_get_mount_path          (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space.c:876:17: warning: 'g_unix_mount_is_readonly' is deprecated: Use 'g_unix_mount_entry_is_readonly' instead [-Wdeprecated-declarations]
+  876 |                 if (g_unix_mount_is_readonly (mount)) {
+      |                 ^~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:125:16: note: declared here
+  125 | gboolean       g_unix_mount_is_readonly             (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space.c:916:25: warning: 'g_unix_mount_get_mount_path' is deprecated: Use 'g_unix_mount_entry_get_mount_path' instead [-Wdeprecated-declarations]
+  916 |                         g_hash_table_remove (ldsm_notified_hash, g_unix_mount_get_mount_path (mount_info->mount));
+      |                         ^~~~~~~~~~~~~~~~~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:100:16: note: declared here
+  100 | const char *   g_unix_mount_get_mount_path          (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space.c: In function 'ldsm_is_hash_item_not_in_mounts':
+../plugins/housekeeping/gsd-disk-space.c:940:17: warning: 'g_unix_mount_get_mount_path' is deprecated: Use 'g_unix_mount_entry_get_mount_path' instead [-Wdeprecated-declarations]
+  940 |                 path = g_unix_mount_get_mount_path (mount);
+      |                 ^~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:100:16: note: declared here
+  100 | const char *   g_unix_mount_get_mount_path          (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space.c: In function 'ldsm_mounts_changed':
+../plugins/housekeeping/gsd-disk-space.c:956:9: warning: 'g_unix_mounts_get' is deprecated: Use 'g_unix_mount_entries_get' instead [-Wdeprecated-declarations]
+  956 |         mounts = g_unix_mounts_get (time_read);
+      |         ^~~~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:199:16: note: declared here
+  199 | GList *        g_unix_mounts_get                    (guint64            *time_read);
+      |                ^~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space.c:959:9: warning: 'g_unix_mount_free' is deprecated: Use 'g_unix_mount_entry_free' instead [-Wdeprecated-declarations]
+  959 |         g_list_free_full (mounts, (GDestroyNotify) g_unix_mount_free);
+      |         ^~~~~~~~~~~~~~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:78:16: note: declared here
+   78 | void           g_unix_mount_free                    (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~
+[97/273] Compiling C object plugins/media-keys/audio-selection-test.p/audio-selection-test.c.o
+[98/273] Compiling C object plugins/keyboard/gsd-keyboard.p/main.c.o
+[99/273] Compiling C object plugins/housekeeping/gsd-purge-temp-test.p/gsd-disk-space.c.o
+../plugins/housekeeping/gsd-disk-space.c: In function 'ldsm_notify_for_mount':
+../plugins/housekeeping/gsd-disk-space.c:683:9: warning: 'g_unix_mount_guess_name' is deprecated: Use 'g_unix_mount_entry_guess_name' instead [-Wdeprecated-declarations]
+  683 |         name = g_unix_mount_guess_name (mount->mount);
+      |         ^~~~
+In file included from ../plugins/housekeeping/gsd-disk-space.c:32:
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:145:16: note: declared here
+  145 | char *         g_unix_mount_guess_name              (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space.c:684:9: warning: 'g_unix_mount_get_mount_path' is deprecated: Use 'g_unix_mount_entry_get_mount_path' instead [-Wdeprecated-declarations]
+  684 |         path = g_unix_mount_get_mount_path (mount->mount);
+      |         ^~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:100:16: note: declared here
+  100 | const char *   g_unix_mount_get_mount_path          (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space.c: In function 'ldsm_free_mount_info':
+../plugins/housekeeping/gsd-disk-space.c:772:9: warning: 'g_unix_mount_free' is deprecated: Use 'g_unix_mount_entry_free' instead [-Wdeprecated-declarations]
+  772 |         g_unix_mount_free (mount->mount);
+      |         ^~~~~~~~~~~~~~~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:78:16: note: declared here
+   78 | void           g_unix_mount_free                    (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space.c: In function 'ldsm_maybe_warn_mounts':
+../plugins/housekeeping/gsd-disk-space.c:800:17: warning: 'g_unix_mount_get_mount_path' is deprecated: Use 'g_unix_mount_entry_get_mount_path' instead [-Wdeprecated-declarations]
+  800 |                 path = g_unix_mount_get_mount_path (mount_info->mount);
+      |                 ^~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:100:16: note: declared here
+  100 | const char *   g_unix_mount_get_mount_path          (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space.c: In function 'ldsm_check_all_mounts':
+../plugins/housekeeping/gsd-disk-space.c:864:17: warning: 'g_unix_mount_at' is deprecated: Use 'g_unix_mount_entry_at' instead [-Wdeprecated-declarations]
+  864 |                 mount = g_unix_mount_at (path, time_read);
+      |                 ^~~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:213:18: note: declared here
+  213 | GUnixMountEntry *g_unix_mount_at                    (const char         *mount_path,
+      |                  ^~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space.c:874:17: warning: 'g_unix_mount_get_mount_path' is deprecated: Use 'g_unix_mount_entry_get_mount_path' instead [-Wdeprecated-declarations]
+  874 |                 path = g_unix_mount_get_mount_path (mount);
+      |                 ^~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:100:16: note: declared here
+  100 | const char *   g_unix_mount_get_mount_path          (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space.c:876:17: warning: 'g_unix_mount_is_readonly' is deprecated: Use 'g_unix_mount_entry_is_readonly' instead [-Wdeprecated-declarations]
+  876 |                 if (g_unix_mount_is_readonly (mount)) {
+      |                 ^~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:125:16: note: declared here
+  125 | gboolean       g_unix_mount_is_readonly             (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space.c:916:25: warning: 'g_unix_mount_get_mount_path' is deprecated: Use 'g_unix_mount_entry_get_mount_path' instead [-Wdeprecated-declarations]
+  916 |                         g_hash_table_remove (ldsm_notified_hash, g_unix_mount_get_mount_path (mount_info->mount));
+      |                         ^~~~~~~~~~~~~~~~~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:100:16: note: declared here
+  100 | const char *   g_unix_mount_get_mount_path          (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space.c: In function 'ldsm_is_hash_item_not_in_mounts':
+../plugins/housekeeping/gsd-disk-space.c:940:17: warning: 'g_unix_mount_get_mount_path' is deprecated: Use 'g_unix_mount_entry_get_mount_path' instead [-Wdeprecated-declarations]
+  940 |                 path = g_unix_mount_get_mount_path (mount);
+      |                 ^~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:100:16: note: declared here
+  100 | const char *   g_unix_mount_get_mount_path          (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space.c: In function 'ldsm_mounts_changed':
+../plugins/housekeeping/gsd-disk-space.c:956:9: warning: 'g_unix_mounts_get' is deprecated: Use 'g_unix_mount_entries_get' instead [-Wdeprecated-declarations]
+  956 |         mounts = g_unix_mounts_get (time_read);
+      |         ^~~~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:199:16: note: declared here
+  199 | GList *        g_unix_mounts_get                    (guint64            *time_read);
+      |                ^~~~~~~~~~~~~~~~~
+../plugins/housekeeping/gsd-disk-space.c:959:9: warning: 'g_unix_mount_free' is deprecated: Use 'g_unix_mount_entry_free' instead [-Wdeprecated-declarations]
+  959 |         g_list_free_full (mounts, (GDestroyNotify) g_unix_mount_free);
+      |         ^~~~~~~~~~~~~~~~
+/usr/include/gio-unix-2.0/gio/gunixmounts.h:78:16: note: declared here
+   78 | void           g_unix_mount_free                    (GUnixMountEntry    *mount_entry);
+      |                ^~~~~~~~~~~~~~~~~
+[100/273] Compiling C object plugins/media-keys/gsd-media-keys.p/main.c.o
+[101/273] Compiling C object plugins/keyboard/gsd-keyboard.p/gsd-keyboard-manager.c.o
+[102/273] Compiling C object plugins/xsettings/gsd-xsettings.p/wm-button-layout-translation.c.o
+[103/273] Compiling C object plugins/sound/gsd-sound.p/main.c.o
+[104/273] Compiling C object plugins/usb-protection/gsd-usb-protection.p/main.c.o
+[105/273] Compiling C object plugins/sharing/gsd-sharing.p/main.c.o
+[106/273] Compiling C object plugins/sound/gsd-sound.p/gsd-sound-manager.c.o
+[107/273] Compiling C object plugins/xsettings/gsd-xsettings.p/xsettings-common.c.o
+[108/273] Compiling C object plugins/xsettings/test-gtk-modules.p/test-gtk-modules.c.o
+[109/273] Compiling C object plugins/xsettings/test-wm-button-layout-translations.p/wm-button-layout-translation.c.o
+[110/273] Compiling C object plugins/xsettings/gsd-xsettings.p/fc-monitor.c.o
+[111/273] Compiling C object plugins/power/gsd-power.p/gsd-power-manager.c.o
+../plugins/power/gsd-power-manager.c: In function 'lid_state_changed_cb':
+../plugins/power/gsd-power-manager.c:1558:9: warning: 'up_client_get_lid_is_closed' is deprecated [-Wdeprecated-declarations]
+ 1558 |         tmp = up_client_get_lid_is_closed (manager->up_client);
+      |         ^~~
+In file included from /usr/include/libupower-glib/upower.h:38,
+                 from ../plugins/power/gsd-power-manager.c:29:
+/usr/include/libupower-glib/up-client.h:98:18: note: declared here
+   98 | gboolean         up_client_get_lid_is_closed            (UpClient               *client);
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../plugins/power/gsd-power-manager.c: In function 'gsd_power_manager_start':
+../plugins/power/gsd-power-manager.c:2944:9: warning: 'up_client_get_lid_is_present' is deprecated [-Wdeprecated-declarations]
+ 2944 |         manager->lid_is_present = up_client_get_lid_is_present (manager->up_client);
+      |         ^~~~~~~
+/usr/include/libupower-glib/up-client.h:100:18: note: declared here
+  100 | gboolean         up_client_get_lid_is_present           (UpClient               *client);
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../plugins/power/gsd-power-manager.c:2946:17: warning: 'up_client_get_lid_is_closed' is deprecated [-Wdeprecated-declarations]
+ 2946 |                 manager->lid_is_closed = up_client_get_lid_is_closed (manager->up_client);
+      |                 ^~~~~~~
+/usr/include/libupower-glib/up-client.h:98:18: note: declared here
+   98 | gboolean         up_client_get_lid_is_closed            (UpClient               *client);
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+[112/273] Compiling C object plugins/xsettings/test-wm-button-layout-translations.p/test-wm-button-layout-translations.c.o
+[113/273] Compiling C object plugins/xsettings/gsd-xsettings.p/xsettings-manager.c.o
+[114/273] Compiling C object plugins/xsettings/gsd-xsettings.p/gsd-xsettings-gtk.c.o
+[115/273] Compiling C object plugins/smartcard/gsd-smartcard.p/meson-generated_.._gsd-smartcard-enum-types.c.o
+[116/273] Compiling C object plugins/sharing/gsd-sharing.p/gsd-sharing-manager.c.o
+[117/273] Compiling C object plugins/usb-protection/gsd-usb-protection.p/gsd-usb-protection-manager.c.o
+[118/273] Compiling C object plugins/xsettings/test-fontconfig-monitor.p/fc-monitor.c.o
+[119/273] Compiling C object plugins/xsettings/test-gtk-modules.p/gsd-xsettings-gtk.c.o
+[120/273] Compiling C object plugins/print-notifications/gsd-print-notifications.p/main.c.o
+[121/273] Compiling C object plugins/smartcard/gsd-smartcard.p/gsd-smartcard-utils.c.o
+In file included from /usr/include/glib-2.0/glib/giochannel.h:36,
+                 from /usr/include/glib-2.0/glib.h:56,
+                 from /usr/include/glib-2.0/gobject/gbinding.h:30,
+                 from /usr/include/glib-2.0/glib-object.h:24,
+                 from ../plugins/smartcard/gsd-smartcard-utils.h:23,
+                 from ../plugins/smartcard/gsd-smartcard-utils.c:21:
+../plugins/smartcard/gsd-smartcard-utils.c: In function 'gsd_smartcard_utils_escape_object_path':
+/usr/include/glib-2.0/glib/gstring.h:76:5: warning: ignoring return value of 'g_string_free_and_steal' declared with attribute 'warn_unused_result' [-Wunused-result]
+   72 |   (__builtin_constant_p (free_segment) ?        \
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   73 |     ((free_segment) ?                           \
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   74 |       (g_string_free) ((str), (free_segment)) : \
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   75 |       g_string_free_and_steal (str))            \
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   76 |     :                                           \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   77 |     (g_string_free) ((str), (free_segment)))
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../plugins/smartcard/gsd-smartcard-utils.c:167:3: note: in expansion of macro 'g_string_free'
+  167 |   g_string_free (string, FALSE);
+      |   ^~~~~~~~~~~~~
+[122/273] Compiling C object plugins/smartcard/gsd-smartcard.p/main.c.o
+[123/273] Compiling C object plugins/xsettings/gsd-xsettings.p/main.c.o
+[124/273] Compiling C object plugins/smartcard/gsd-smartcard.p/gsd-smartcard-service.c.o
+[125/273] Compiling C object plugins/wacom/gsd-wacom-oled-helper.p/gsd-wacom-oled-helper.c.o
+[126/273] Compiling C object plugins/wacom/gsd-wacom.p/gsd-wacom-oled.c.o
+[127/273] Generating data/compile-schemas with a custom command
+[128/273] Compiling C object plugins/smartcard/gsd-smartcard.p/gsd-smartcard-manager.c.o
+[129/273] Compiling C object plugins/wacom/gsd-wacom.p/main.c.o
+[130/273] Linking target plugins/a11y-settings/gsd-a11y-settings
+[131/273] Linking target subprojects/gvc/test-audio-device-selection
+[132/273] Compiling C object plugins/wacom/gsd-wacom.p/gsd-wacom-manager.c.o
+[133/273] Compiling C object plugins/media-keys/gsd-media-keys.p/gsd-media-keys-manager.c.o
+[134/273] Compiling C object plugins/rfkill/gsd-rfkill.p/gsd-rfkill-manager.c.o
+[135/273] Generating plugins/power/gsdpowerconstants.py with a custom command
+We just finished converting ../plugins/power/gsd-power-constants.h to plugins/power/gsdpowerconstants.py
+Thank you
+[136/273] Linking target plugins/power/gsd-backlight-helper
+[137/273] Compiling C object plugins/rfkill/gsd-rfkill.p/main.c.o
+[138/273] Compiling C object plugins/xsettings/gsd-xsettings.p/gsd-xsettings-manager.c.o
+[139/273] Linking target plugins/color/gcm-self-test
+[140/273] Generating plugins/power/gsdpowerenums.py with a custom command (wrapped by meson to capture output)
+[141/273] Linking target plugins/housekeeping/gsd-housekeeping
+[142/273] Compiling C object plugins/wwan/gsd-wwan.p/main.c.o
+[143/273] Compiling C object plugins/rfkill/gsd-rfkill.p/rfkill-glib.c.o
+[144/273] Linking target plugins/datetime/gsd-datetime
+[145/273] Linking target plugins/color/gsd-color
+[146/273] Linking target plugins/housekeeping/gsd-disk-space-test
+[147/273] Linking target plugins/housekeeping/gsd-empty-trash-test
+[148/273] Linking target plugins/screensaver-proxy/gsd-screensaver-proxy
+[149/273] Linking target plugins/housekeeping/gsd-purge-temp-test
+[150/273] Linking target plugins/usb-protection/gsd-usb-protection
+[151/273] Linking target plugins/sound/gsd-sound
+[152/273] Linking target plugins/power/gsd-power
+[153/273] Linking target plugins/sharing/gsd-sharing
+[154/273] Linking target plugins/xsettings/test-gtk-modules
+[155/273] Compiling C object plugins/print-notifications/gsd-printer.p/gsd-printer.c.o
+../plugins/print-notifications/gsd-printer.c: In function 'execute_maintenance_command':
+../plugins/print-notifications/gsd-printer.c:628:9: warning: 'httpConnectEncrypt' is deprecated: Use httpConnect2 instead. [-Wdeprecated-declarations]
+  628 |         http = httpConnectEncrypt (cupsServer (),
+      |         ^~~~
+In file included from /usr/include/cups/ipp.h:19,
+                 from /usr/include/cups/cups.h:28,
+                 from ../plugins/print-notifications/gsd-printer.c:27:
+/usr/include/cups/http.h:478:26: note: declared here
+  478 | extern http_t           *httpConnectEncrypt(const char *host, int port, http_encryption_t encryption) _CUPS_DEPRECATED_1_7_MSG("Use httpConnect2 instead.");
+      |                          ^~~~~~~~~~~~~~~~~~
+../plugins/print-notifications/gsd-printer.c: In function 'setup_printer':
+../plugins/print-notifications/gsd-printer.c:840:17: warning: 'cupsGetPPD' is deprecated: Use cupsCopyDestInfo and friends instead. [-Wdeprecated-declarations]
+  840 |                 ppd_file_name = cupsGetPPD (printer_name);
+      |                 ^~~~~~~~~~~~~
+In file included from ../plugins/print-notifications/gsd-printer.c:28:
+/usr/include/cups/ppd.h:359:26: note: declared here
+  359 | extern const char       *cupsGetPPD(const char *name) _CUPS_DEPRECATED_1_6_MSG("Use cupsCopyDestInfo and friends instead.");
+      |                          ^~~~~~~~~~
+../plugins/print-notifications/gsd-printer.c: In function 'handle_method_call':
+../plugins/print-notifications/gsd-printer.c:946:25: warning: 'cupsGetPPD' is deprecated: Use cupsCopyDestInfo and friends instead. [-Wdeprecated-declarations]
+  946 |                         ppd_file_name = cupsGetPPD (name);
+      |                         ^~~~~~~~~~~~~
+/usr/include/cups/ppd.h:359:26: note: declared here
+  359 | extern const char       *cupsGetPPD(const char *name) _CUPS_DEPRECATED_1_6_MSG("Use cupsCopyDestInfo and friends instead.");
+      |                          ^~~~~~~~~~
+[156/273] Linking target plugins/keyboard/gsd-keyboard
+[157/273] Linking target plugins/xsettings/test-wm-button-layout-translations
+[158/273] Linking target plugins/xsettings/gsd-xsettings
+[159/273] Linking target plugins/wacom/gsd-wacom-oled-helper
+[160/273] Building translation po/ab/LC_MESSAGES/gnome-settings-daemon-ab.mo
+[161/273] Building translation po/af/LC_MESSAGES/gnome-settings-daemon-af.mo
+[162/273] Building translation po/am/LC_MESSAGES/gnome-settings-daemon-am.mo
+[163/273] Compiling C object plugins/print-notifications/gsd-print-notifications.p/gsd-print-notifications-manager.c.o
+../plugins/print-notifications/gsd-print-notifications-manager.c: In function 'process_cups_notification':
+../plugins/print-notifications/gsd-print-notifications-manager.c:661:17: warning: 'httpConnectEncrypt' is deprecated: Use httpConnect2 instead. [-Wdeprecated-declarations]
+  661 |                 if ((http = httpConnectEncrypt (cupsServer (), ippPort (),
+      |                 ^~
+In file included from /usr/include/cups/ipp.h:19,
+                 from /usr/include/cups/cups.h:28,
+                 from ../plugins/print-notifications/gsd-print-notifications-manager.c:36:
+/usr/include/cups/http.h:478:26: note: declared here
+  478 | extern http_t           *httpConnectEncrypt(const char *host, int port, http_encryption_t encryption) _CUPS_DEPRECATED_1_7_MSG("Use httpConnect2 instead.");
+      |                          ^~~~~~~~~~~~~~~~~~
+../plugins/print-notifications/gsd-print-notifications-manager.c:989:41: warning: 'cupsGetPPD' is deprecated: Use cupsCopyDestInfo and friends instead. [-Wdeprecated-declarations]
+  989 |                                         ppd_file_name = g_strdup (cupsGetPPD (printer_name));
+      |                                         ^~~~~~~~~~~~~
+In file included from ../plugins/print-notifications/gsd-print-notifications-manager.c:37:
+/usr/include/cups/ppd.h:359:26: note: declared here
+  359 | extern const char       *cupsGetPPD(const char *name) _CUPS_DEPRECATED_1_6_MSG("Use cupsCopyDestInfo and friends instead.");
+      |                          ^~~~~~~~~~
+../plugins/print-notifications/gsd-print-notifications-manager.c:991:49: warning: 'ppdOpenFile' is deprecated: Use cupsCopyDestInfo and friends instead. [-Wdeprecated-declarations]
+  991 |                                                 ppd_file = ppdOpenFile (ppd_file_name);
+      |                                                 ^~~~~~~~
+/usr/include/cups/ppd.h:390:26: note: declared here
+  390 | extern ppd_file_t       *ppdOpenFile(const char *filename) _CUPS_DEPRECATED_1_6_MSG("Use cupsCopyDestInfo and friends instead.");
+      |                          ^~~~~~~~~~~
+../plugins/print-notifications/gsd-print-notifications-manager.c:1001:65: warning: 'ppdLocalizeIPPReason' is deprecated: Use cupsCopyDestInfo and friends instead. [-Wdeprecated-declarations]
+ 1001 |                                                                 if (ppdLocalizeIPPReason (ppd_file, data, schemes[j], buffer, sizeof (buffer))) {
+      |                                                                 ^~
+/usr/include/cups/ppd.h:439:26: note: declared here
+  439 | extern const char       *ppdLocalizeIPPReason(ppd_file_t *ppd,
+      |                          ^~~~~~~~~~~~~~~~~~~~
+../plugins/print-notifications/gsd-print-notifications-manager.c:1010:57: warning: 'ppdClose' is deprecated: Use cupsCopyDestInfo and friends instead. [-Wdeprecated-declarations]
+ 1010 |                                                         ppdClose (ppd_file);
+      |                                                         ^~~~~~~~
+/usr/include/cups/ppd.h:365:25: note: declared here
+  365 | extern void             ppdClose(ppd_file_t *ppd) _CUPS_DEPRECATED_1_6_MSG("Use cupsCopyDestInfo and friends instead.");
+      |                         ^~~~~~~~
+../plugins/print-notifications/gsd-print-notifications-manager.c: In function 'cancel_subscription':
+../plugins/print-notifications/gsd-print-notifications-manager.c:1282:13: warning: 'httpConnectEncrypt' is deprecated: Use httpConnect2 instead. [-Wdeprecated-declarations]
+ 1282 |             ((http = httpConnectEncrypt (cupsServer (), ippPort (),
+      |             ^
+/usr/include/cups/http.h:478:26: note: declared here
+  478 | extern http_t           *httpConnectEncrypt(const char *host, int port, http_encryption_t encryption) _CUPS_DEPRECATED_1_7_MSG("Use httpConnect2 instead.");
+      |                          ^~~~~~~~~~~~~~~~~~
+../plugins/print-notifications/gsd-print-notifications-manager.c: In function 'renew_subscription':
+../plugins/print-notifications/gsd-print-notifications-manager.c:1314:9: warning: 'httpConnectEncrypt' is deprecated: Use httpConnect2 instead. [-Wdeprecated-declarations]
+ 1314 |         if ((http = httpConnectEncrypt (cupsServer (), ippPort (),
+      |         ^~
+/usr/include/cups/http.h:478:26: note: declared here
+  478 | extern http_t           *httpConnectEncrypt(const char *host, int port, http_encryption_t encryption) _CUPS_DEPRECATED_1_7_MSG("Use httpConnect2 instead.");
+      |                          ^~~~~~~~~~~~~~~~~~
+[164/273] Building translation po/ar/LC_MESSAGES/gnome-settings-daemon-ar.mo
+[165/273] Building translation po/az/LC_MESSAGES/gnome-settings-daemon-az.mo
+[166/273] Building translation po/as/LC_MESSAGES/gnome-settings-daemon-as.mo
+[167/273] Building translation po/ast/LC_MESSAGES/gnome-settings-daemon-ast.mo
+[168/273] Linking target plugins/rfkill/gsd-rfkill
+[169/273] Linking target plugins/xsettings/test-fontconfig-monitor
+[170/273] Building translation po/be@latin/LC_MESSAGES/gnome-settings-daemon-be@latin.mo
+[171/273] Building translation po/br/LC_MESSAGES/gnome-settings-daemon-br.mo
+[172/273] Building translation po/bn/LC_MESSAGES/gnome-settings-daemon-bn.mo
+[173/273] Linking target plugins/media-keys/audio-selection-test
+[174/273] Building translation po/be/LC_MESSAGES/gnome-settings-daemon-be.mo
+[175/273] Building translation po/bg/LC_MESSAGES/gnome-settings-daemon-bg.mo
+[176/273] Building translation po/bs/LC_MESSAGES/gnome-settings-daemon-bs.mo
+[177/273] Building translation po/bn_IN/LC_MESSAGES/gnome-settings-daemon-bn_IN.mo
+[178/273] Building translation po/ckb/LC_MESSAGES/gnome-settings-daemon-ckb.mo
+[179/273] Building translation po/ca/LC_MESSAGES/gnome-settings-daemon-ca.mo
+[180/273] Building translation po/ca@valencia/LC_MESSAGES/gnome-settings-daemon-ca@valencia.mo
+[181/273] Building translation po/cy/LC_MESSAGES/gnome-settings-daemon-cy.mo
+[182/273] Building translation po/cs/LC_MESSAGES/gnome-settings-daemon-cs.mo
+[183/273] Building translation po/crh/LC_MESSAGES/gnome-settings-daemon-crh.mo
+[184/273] Building translation po/de/LC_MESSAGES/gnome-settings-daemon-de.mo
+[185/273] Building translation po/en@shaw/LC_MESSAGES/gnome-settings-daemon-en@shaw.mo
+[186/273] Building translation po/dz/LC_MESSAGES/gnome-settings-daemon-dz.mo
+[187/273] Building translation po/en_CA/LC_MESSAGES/gnome-settings-daemon-en_CA.mo
+[188/273] Building translation po/el/LC_MESSAGES/gnome-settings-daemon-el.mo
+[189/273] Building translation po/da/LC_MESSAGES/gnome-settings-daemon-da.mo
+[190/273] Linking target plugins/wacom/gsd-wacom
+[191/273] Linking target plugins/media-keys/gsd-media-keys
+[192/273] Building translation po/eo/LC_MESSAGES/gnome-settings-daemon-eo.mo
+[193/273] Building translation po/et/LC_MESSAGES/gnome-settings-daemon-et.mo
+[194/273] Building translation po/en_GB/LC_MESSAGES/gnome-settings-daemon-en_GB.mo
+[195/273] Linking target plugins/print-notifications/gsd-print-notifications
+[196/273] Building translation po/eu/LC_MESSAGES/gnome-settings-daemon-eu.mo
+[197/273] Building translation po/ga/LC_MESSAGES/gnome-settings-daemon-ga.mo
+[198/273] Building translation po/fur/LC_MESSAGES/gnome-settings-daemon-fur.mo
+[199/273] Building translation po/es/LC_MESSAGES/gnome-settings-daemon-es.mo
+[200/273] Compiling C object plugins/wwan/gsd-wwan.p/gsd-wwan-manager.c.o
+In file included from ../plugins/wwan/gsd-wwan-manager.c:42:
+../plugins/wwan/cc-wwan-errors-private.h:73:3: warning: 'MMMobileEquipmentErrorDeprecated' is deprecated [-Wdeprecated-declarations]
+   73 |   { MM_MOBILE_EQUIPMENT_ERROR_GPRS_ILLEGAL_MS,                    "Illegal MS" },
+      |   ^
+../plugins/wwan/cc-wwan-errors-private.h:74:3: warning: 'MMMobileEquipmentErrorDeprecated' is deprecated [-Wdeprecated-declarations]
+   74 |   { MM_MOBILE_EQUIPMENT_ERROR_GPRS_ILLEGAL_ME,                    "Illegal ME" },
+      |   ^
+../plugins/wwan/cc-wwan-errors-private.h:75:3: warning: 'MMMobileEquipmentErrorDeprecated' is deprecated [-Wdeprecated-declarations]
+   75 |   { MM_MOBILE_EQUIPMENT_ERROR_GPRS_SERVICE_NOT_ALLOWED,           "GPRS services not allowed" },
+      |   ^
+../plugins/wwan/cc-wwan-errors-private.h:76:3: warning: 'MMMobileEquipmentErrorDeprecated' is deprecated [-Wdeprecated-declarations]
+   76 |   { MM_MOBILE_EQUIPMENT_ERROR_GPRS_PLMN_NOT_ALLOWED,              "PLMN not allowed" },
+      |   ^
+../plugins/wwan/cc-wwan-errors-private.h:77:3: warning: 'MMMobileEquipmentErrorDeprecated' is deprecated [-Wdeprecated-declarations]
+   77 |   { MM_MOBILE_EQUIPMENT_ERROR_GPRS_LOCATION_NOT_ALLOWED,          "Location area not allowed" },
+      |   ^
+../plugins/wwan/cc-wwan-errors-private.h:78:3: warning: 'MMMobileEquipmentErrorDeprecated' is deprecated [-Wdeprecated-declarations]
+   78 |   { MM_MOBILE_EQUIPMENT_ERROR_GPRS_ROAMING_NOT_ALLOWED,           "Roaming not allowed in this location area" },
+      |   ^
+../plugins/wwan/cc-wwan-errors-private.h:79:3: warning: 'MMMobileEquipmentErrorDeprecated' is deprecated [-Wdeprecated-declarations]
+   79 |   { MM_MOBILE_EQUIPMENT_ERROR_GPRS_SERVICE_OPTION_NOT_SUPPORTED,  "Service option not supported" },
+      |   ^
+../plugins/wwan/cc-wwan-errors-private.h:80:3: warning: 'MMMobileEquipmentErrorDeprecated' is deprecated [-Wdeprecated-declarations]
+   80 |   { MM_MOBILE_EQUIPMENT_ERROR_GPRS_SERVICE_OPTION_NOT_SUBSCRIBED, "Requested service option not subscribed" },
+      |   ^
+../plugins/wwan/cc-wwan-errors-private.h:81:3: warning: 'MMMobileEquipmentErrorDeprecated' is deprecated [-Wdeprecated-declarations]
+   81 |   { MM_MOBILE_EQUIPMENT_ERROR_GPRS_SERVICE_OPTION_OUT_OF_ORDER,   "Service option temporarily out of order" },
+      |   ^
+../plugins/wwan/cc-wwan-errors-private.h:83:3: warning: 'MMMobileEquipmentErrorDeprecated' is deprecated [-Wdeprecated-declarations]
+   83 |   { MM_MOBILE_EQUIPMENT_ERROR_GPRS_PDP_AUTH_FAILURE,              "PDP authentication failure" },
+      |   ^
+../plugins/wwan/cc-wwan-errors-private.h:84:3: warning: 'MMMobileEquipmentErrorDeprecated' is deprecated [-Wdeprecated-declarations]
+   84 |   { MM_MOBILE_EQUIPMENT_ERROR_GPRS_INVALID_MOBILE_CLASS,          "Invalid mobile class" },
+      |   ^
+[201/273] Building translation po/fr/LC_MESSAGES/gnome-settings-daemon-fr.mo
+[202/273] Building translation po/fi/LC_MESSAGES/gnome-settings-daemon-fi.mo
+[203/273] Building translation po/gd/LC_MESSAGES/gnome-settings-daemon-gd.mo
+[204/273] Linking target plugins/print-notifications/gsd-printer
+[205/273] Building translation po/fa/LC_MESSAGES/gnome-settings-daemon-fa.mo
+[206/273] Building translation po/hu/LC_MESSAGES/gnome-settings-daemon-hu.mo
+[207/273] Building translation po/gl/LC_MESSAGES/gnome-settings-daemon-gl.mo
+[208/273] Building translation po/he/LC_MESSAGES/gnome-settings-daemon-he.mo
+[209/273] Building translation po/gu/LC_MESSAGES/gnome-settings-daemon-gu.mo
+[210/273] Building translation po/hi/LC_MESSAGES/gnome-settings-daemon-hi.mo
+[211/273] Building translation po/hr/LC_MESSAGES/gnome-settings-daemon-hr.mo
+[212/273] Building translation po/id/LC_MESSAGES/gnome-settings-daemon-id.mo
+[213/273] Building translation po/kk/LC_MESSAGES/gnome-settings-daemon-kk.mo
+[214/273] Building translation po/it/LC_MESSAGES/gnome-settings-daemon-it.mo
+[215/273] Building translation po/ka/LC_MESSAGES/gnome-settings-daemon-ka.mo
+[216/273] Building translation po/is/LC_MESSAGES/gnome-settings-daemon-is.mo
+[217/273] Building translation po/kab/LC_MESSAGES/gnome-settings-daemon-kab.mo
+[218/273] Building translation po/km/LC_MESSAGES/gnome-settings-daemon-km.mo
+[219/273] Building translation po/mai/LC_MESSAGES/gnome-settings-daemon-mai.mo
+[220/273] Building translation po/ja/LC_MESSAGES/gnome-settings-daemon-ja.mo
+[221/273] Building translation po/ku/LC_MESSAGES/gnome-settings-daemon-ku.mo
+[222/273] Building translation po/kn/LC_MESSAGES/gnome-settings-daemon-kn.mo
+[223/273] Building translation po/ko/LC_MESSAGES/gnome-settings-daemon-ko.mo
+[224/273] Building translation po/mg/LC_MESSAGES/gnome-settings-daemon-mg.mo
+[225/273] Building translation po/lv/LC_MESSAGES/gnome-settings-daemon-lv.mo
+[226/273] Building translation po/lt/LC_MESSAGES/gnome-settings-daemon-lt.mo
+[227/273] Building translation po/ms/LC_MESSAGES/gnome-settings-daemon-ms.mo
+[228/273] Building translation po/ml/LC_MESSAGES/gnome-settings-daemon-ml.mo
+[229/273] Building translation po/mn/LC_MESSAGES/gnome-settings-daemon-mn.mo
+[230/273] Building translation po/nds/LC_MESSAGES/gnome-settings-daemon-nds.mo
+[231/273] Building translation po/mr/LC_MESSAGES/gnome-settings-daemon-mr.mo
+[232/273] Building translation po/mk/LC_MESSAGES/gnome-settings-daemon-mk.mo
+[233/273] Building translation po/nb/LC_MESSAGES/gnome-settings-daemon-nb.mo
+[234/273] Building translation po/or/LC_MESSAGES/gnome-settings-daemon-or.mo
+[235/273] Building translation po/nso/LC_MESSAGES/gnome-settings-daemon-nso.mo
+[236/273] Building translation po/nn/LC_MESSAGES/gnome-settings-daemon-nn.mo
+[237/273] Building translation po/nl/LC_MESSAGES/gnome-settings-daemon-nl.mo
+[238/273] Building translation po/ne/LC_MESSAGES/gnome-settings-daemon-ne.mo
+[239/273] Building translation po/oc/LC_MESSAGES/gnome-settings-daemon-oc.mo
+[240/273] Building translation po/rw/LC_MESSAGES/gnome-settings-daemon-rw.mo
+[241/273] Building translation po/pt_BR/LC_MESSAGES/gnome-settings-daemon-pt_BR.mo
+[242/273] Building translation po/pl/LC_MESSAGES/gnome-settings-daemon-pl.mo
+[243/273] Building translation po/ro/LC_MESSAGES/gnome-settings-daemon-ro.mo
+[244/273] Building translation po/si/LC_MESSAGES/gnome-settings-daemon-si.mo
+[245/273] Building translation po/pt/LC_MESSAGES/gnome-settings-daemon-pt.mo
+[246/273] Building translation po/ru/LC_MESSAGES/gnome-settings-daemon-ru.mo
+[247/273] Compiling C object plugins/wwan/gsd-wwan.p/cc-wwan-device.c.o
+In file included from ../plugins/wwan/cc-wwan-device.c:39:
+../plugins/wwan/cc-wwan-errors-private.h:73:3: warning: 'MMMobileEquipmentErrorDeprecated' is deprecated [-Wdeprecated-declarations]
+   73 |   { MM_MOBILE_EQUIPMENT_ERROR_GPRS_ILLEGAL_MS,                    "Illegal MS" },
+      |   ^
+../plugins/wwan/cc-wwan-errors-private.h:74:3: warning: 'MMMobileEquipmentErrorDeprecated' is deprecated [-Wdeprecated-declarations]
+   74 |   { MM_MOBILE_EQUIPMENT_ERROR_GPRS_ILLEGAL_ME,                    "Illegal ME" },
+      |   ^
+../plugins/wwan/cc-wwan-errors-private.h:75:3: warning: 'MMMobileEquipmentErrorDeprecated' is deprecated [-Wdeprecated-declarations]
+   75 |   { MM_MOBILE_EQUIPMENT_ERROR_GPRS_SERVICE_NOT_ALLOWED,           "GPRS services not allowed" },
+      |   ^
+../plugins/wwan/cc-wwan-errors-private.h:76:3: warning: 'MMMobileEquipmentErrorDeprecated' is deprecated [-Wdeprecated-declarations]
+   76 |   { MM_MOBILE_EQUIPMENT_ERROR_GPRS_PLMN_NOT_ALLOWED,              "PLMN not allowed" },
+      |   ^
+../plugins/wwan/cc-wwan-errors-private.h:77:3: warning: 'MMMobileEquipmentErrorDeprecated' is deprecated [-Wdeprecated-declarations]
+   77 |   { MM_MOBILE_EQUIPMENT_ERROR_GPRS_LOCATION_NOT_ALLOWED,          "Location area not allowed" },
+      |   ^
+../plugins/wwan/cc-wwan-errors-private.h:78:3: warning: 'MMMobileEquipmentErrorDeprecated' is deprecated [-Wdeprecated-declarations]
+   78 |   { MM_MOBILE_EQUIPMENT_ERROR_GPRS_ROAMING_NOT_ALLOWED,           "Roaming not allowed in this location area" },
+      |   ^
+../plugins/wwan/cc-wwan-errors-private.h:79:3: warning: 'MMMobileEquipmentErrorDeprecated' is deprecated [-Wdeprecated-declarations]
+   79 |   { MM_MOBILE_EQUIPMENT_ERROR_GPRS_SERVICE_OPTION_NOT_SUPPORTED,  "Service option not supported" },
+      |   ^
+../plugins/wwan/cc-wwan-errors-private.h:80:3: warning: 'MMMobileEquipmentErrorDeprecated' is deprecated [-Wdeprecated-declarations]
+   80 |   { MM_MOBILE_EQUIPMENT_ERROR_GPRS_SERVICE_OPTION_NOT_SUBSCRIBED, "Requested service option not subscribed" },
+      |   ^
+../plugins/wwan/cc-wwan-errors-private.h:81:3: warning: 'MMMobileEquipmentErrorDeprecated' is deprecated [-Wdeprecated-declarations]
+   81 |   { MM_MOBILE_EQUIPMENT_ERROR_GPRS_SERVICE_OPTION_OUT_OF_ORDER,   "Service option temporarily out of order" },
+      |   ^
+../plugins/wwan/cc-wwan-errors-private.h:83:3: warning: 'MMMobileEquipmentErrorDeprecated' is deprecated [-Wdeprecated-declarations]
+   83 |   { MM_MOBILE_EQUIPMENT_ERROR_GPRS_PDP_AUTH_FAILURE,              "PDP authentication failure" },
+      |   ^
+../plugins/wwan/cc-wwan-errors-private.h:84:3: warning: 'MMMobileEquipmentErrorDeprecated' is deprecated [-Wdeprecated-declarations]
+   84 |   { MM_MOBILE_EQUIPMENT_ERROR_GPRS_INVALID_MOBILE_CLASS,          "Invalid mobile class" },
+      |   ^
+[248/273] Building translation po/pa/LC_MESSAGES/gnome-settings-daemon-pa.mo
+[249/273] Building translation po/sq/LC_MESSAGES/gnome-settings-daemon-sq.mo
+[250/273] Building translation po/sl/LC_MESSAGES/gnome-settings-daemon-sl.mo
+[251/273] Building translation po/tg/LC_MESSAGES/gnome-settings-daemon-tg.mo
+[252/273] Building translation po/sk/LC_MESSAGES/gnome-settings-daemon-sk.mo
+[253/273] Building translation po/ta/LC_MESSAGES/gnome-settings-daemon-ta.mo
+[254/273] Building translation po/sr@latin/LC_MESSAGES/gnome-settings-daemon-sr@latin.mo
+[255/273] Building translation po/sv/LC_MESSAGES/gnome-settings-daemon-sv.mo
+[256/273] Building translation po/te/LC_MESSAGES/gnome-settings-daemon-te.mo
+[257/273] Building translation po/sr/LC_MESSAGES/gnome-settings-daemon-sr.mo
+[258/273] Building translation po/tr/LC_MESSAGES/gnome-settings-daemon-tr.mo
+[259/273] Building translation po/wa/LC_MESSAGES/gnome-settings-daemon-wa.mo
+[260/273] Building translation po/ug/LC_MESSAGES/gnome-settings-daemon-ug.mo
+[261/273] Building translation po/xh/LC_MESSAGES/gnome-settings-daemon-xh.mo
+[262/273] Building translation po/zu/LC_MESSAGES/gnome-settings-daemon-zu.mo
+[263/273] Building translation po/th/LC_MESSAGES/gnome-settings-daemon-th.mo
+[264/273] Building translation po/uk/LC_MESSAGES/gnome-settings-daemon-uk.mo
+[265/273] Building translation po/vi/LC_MESSAGES/gnome-settings-daemon-vi.mo
+[266/273] Compiling C object plugins/smartcard/gsd-smartcard.p/meson-generated_.._org.gnome.SettingsDaemon.Smartcard.c.o
+[267/273] Building translation po/zh_HK/LC_MESSAGES/gnome-settings-daemon-zh_HK.mo
+[268/273] Building translation po/zh_CN/LC_MESSAGES/gnome-settings-daemon-zh_CN.mo
+[269/273] Building translation po/zh_TW/LC_MESSAGES/gnome-settings-daemon-zh_TW.mo
+[270/273] Linking target plugins/wwan/gsd-wwan
+[271/273] Linking target plugins/smartcard/gsd-smartcard
+[272/273] Merging translations for plugins/power/org.gnome.settings-daemon.plugins.power.policy
+[273/273] Merging translations for plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy
+[0/1] Installing files
+Installing gnome-settings-daemon/libgsd.so to /usr/lib/gnome-settings-daemon-47
+Installing data/org.gnome.settings-daemon.enums.xml to /usr/share/glib-2.0/schemas
+Installing plugins/a11y-settings/gsd-a11y-settings to /usr/libexec
+Installing plugins/color/gsd-color to /usr/libexec
+Installing plugins/datetime/gsd-datetime to /usr/libexec
+Installing plugins/power/gsd-power to /usr/libexec
+Installing plugins/power/org.gnome.settings-daemon.plugins.power.policy to /usr/share/polkit-1/actions
+Installing plugins/power/gsd-backlight-helper to /usr/libexec
+Installing plugins/housekeeping/gsd-housekeeping to /usr/libexec
+Installing plugins/keyboard/gsd-keyboard to /usr/libexec
+Installing plugins/media-keys/gsd-media-keys to /usr/libexec
+Installing plugins/screensaver-proxy/gsd-screensaver-proxy to /usr/libexec
+Installing plugins/sharing/gsd-sharing to /usr/libexec
+Installing plugins/sound/gsd-sound to /usr/libexec
+Installing plugins/usb-protection/gsd-usb-protection to /usr/libexec
+Installing plugins/xsettings/gsd-xsettings to /usr/libexec
+Installing plugins/smartcard/gsd-smartcard to /usr/libexec
+Installing plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy to /usr/share/polkit-1/actions
+Installing plugins/wacom/gsd-wacom to /usr/libexec
+Installing plugins/wacom/gsd-wacom-oled-helper to /usr/libexec
+Installing plugins/print-notifications/gsd-print-notifications to /usr/libexec
+Installing plugins/print-notifications/gsd-printer to /usr/libexec
+Installing plugins/rfkill/gsd-rfkill to /usr/libexec
+Installing plugins/wwan/gsd-wwan to /usr/libexec
+Installing po/ab/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/ab/LC_MESSAGES
+Installing po/af/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/af/LC_MESSAGES
+Installing po/am/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/am/LC_MESSAGES
+Installing po/ar/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/ar/LC_MESSAGES
+Installing po/as/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/as/LC_MESSAGES
+Installing po/ast/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/ast/LC_MESSAGES
+Installing po/az/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/az/LC_MESSAGES
+Installing po/be/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/be/LC_MESSAGES
+Installing po/be@latin/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/be@latin/LC_MESSAGES
+Installing po/bg/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/bg/LC_MESSAGES
+Installing po/bn/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/bn/LC_MESSAGES
+Installing po/bn_IN/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/bn_IN/LC_MESSAGES
+Installing po/br/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/br/LC_MESSAGES
+Installing po/bs/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/bs/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/ca/LC_MESSAGES
+Installing po/ca@valencia/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/ca@valencia/LC_MESSAGES
+Installing po/ckb/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/ckb/LC_MESSAGES
+Installing po/crh/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/crh/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/cs/LC_MESSAGES
+Installing po/cy/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/cy/LC_MESSAGES
+Installing po/da/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/de/LC_MESSAGES
+Installing po/dz/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/dz/LC_MESSAGES
+Installing po/el/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/el/LC_MESSAGES
+Installing po/en_CA/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/en_CA/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/en_GB/LC_MESSAGES
+Installing po/en@shaw/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/en@shaw/LC_MESSAGES
+Installing po/eo/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/eo/LC_MESSAGES
+Installing po/es/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/es/LC_MESSAGES
+Installing po/et/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/et/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/eu/LC_MESSAGES
+Installing po/fa/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/fa/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/fr/LC_MESSAGES
+Installing po/fur/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/fur/LC_MESSAGES
+Installing po/ga/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/ga/LC_MESSAGES
+Installing po/gd/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/gd/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/gl/LC_MESSAGES
+Installing po/gu/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/gu/LC_MESSAGES
+Installing po/he/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/he/LC_MESSAGES
+Installing po/hi/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/hi/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/hu/LC_MESSAGES
+Installing po/id/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/id/LC_MESSAGES
+Installing po/is/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/is/LC_MESSAGES
+Installing po/it/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/it/LC_MESSAGES
+Installing po/ja/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/ja/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/ka/LC_MESSAGES
+Installing po/kab/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/kab/LC_MESSAGES
+Installing po/kk/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/kk/LC_MESSAGES
+Installing po/km/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/km/LC_MESSAGES
+Installing po/kn/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/kn/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/ko/LC_MESSAGES
+Installing po/ku/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/ku/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/lt/LC_MESSAGES
+Installing po/lv/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/lv/LC_MESSAGES
+Installing po/mai/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/mai/LC_MESSAGES
+Installing po/mg/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/mg/LC_MESSAGES
+Installing po/mk/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/mk/LC_MESSAGES
+Installing po/ml/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/ml/LC_MESSAGES
+Installing po/mn/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/mn/LC_MESSAGES
+Installing po/mr/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/mr/LC_MESSAGES
+Installing po/ms/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/ms/LC_MESSAGES
+Installing po/nb/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/nb/LC_MESSAGES
+Installing po/nds/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/nds/LC_MESSAGES
+Installing po/ne/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/ne/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/nl/LC_MESSAGES
+Installing po/nn/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/nn/LC_MESSAGES
+Installing po/nso/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/nso/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/oc/LC_MESSAGES
+Installing po/or/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/or/LC_MESSAGES
+Installing po/pa/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/pa/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/pl/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/pt/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/ru/LC_MESSAGES
+Installing po/rw/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/rw/LC_MESSAGES
+Installing po/si/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/si/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/sl/LC_MESSAGES
+Installing po/sq/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/sq/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/sr/LC_MESSAGES
+Installing po/sr@latin/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/sr@latin/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/sv/LC_MESSAGES
+Installing po/ta/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/ta/LC_MESSAGES
+Installing po/te/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/te/LC_MESSAGES
+Installing po/tg/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/tg/LC_MESSAGES
+Installing po/th/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/th/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/tr/LC_MESSAGES
+Installing po/ug/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/ug/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/uk/LC_MESSAGES
+Installing po/vi/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/vi/LC_MESSAGES
+Installing po/wa/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/wa/LC_MESSAGES
+Installing po/xh/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/xh/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_HK/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/zh_HK/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/zh_TW/LC_MESSAGES
+Installing po/zu/LC_MESSAGES/gnome-settings-daemon.mo to /usr/share/locale/zu/LC_MESSAGES
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/data/org.gnome.settings-daemon.peripherals.gschema.xml to /usr/share/glib-2.0/schemas
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml to /usr/share/glib-2.0/schemas
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/data/org.gnome.settings-daemon.plugins.gschema.xml to /usr/share/glib-2.0/schemas
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/data/org.gnome.settings-daemon.plugins.color.gschema.xml to /usr/share/glib-2.0/schemas
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml to /usr/share/glib-2.0/schemas
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml to /usr/share/glib-2.0/schemas
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/data/org.gnome.settings-daemon.plugins.power.gschema.xml to /usr/share/glib-2.0/schemas
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/data/org.gnome.settings-daemon.plugins.sharing.gschema.xml to /usr/share/glib-2.0/schemas
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml to /usr/share/glib-2.0/schemas
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/data/org.gnome.settings-daemon.plugins.wwan.gschema.xml to /usr/share/glib-2.0/schemas
+Installing /blfs/builds/gnome-settings-daemon-47.2/data/gsd-enums.h to /usr/include/gnome-settings-daemon-47/gnome-settings-daemon
+Installing /blfs/builds/gnome-settings-daemon-47.2/data/gnome-settings-daemon.convert to /usr/share/GConf/gsettings
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/meson-private/gnome-settings-daemon.pc to /usr/lib/pkgconfig
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.A11ySettings.desktop to /etc/xdg/autostart
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.A11ySettings.service to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.A11ySettings.target to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Color.desktop to /etc/xdg/autostart
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Color.service to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Color.target to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Datetime.desktop to /etc/xdg/autostart
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Datetime.service to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Datetime.target to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/plugins/datetime/backward to /usr/share/gnome-settings-daemon/datetime
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Power.desktop to /etc/xdg/autostart
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Power.service to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Power.target to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Housekeeping.desktop to /etc/xdg/autostart
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Housekeeping.service to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Housekeeping.target to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Keyboard.desktop to /etc/xdg/autostart
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Keyboard.service to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Keyboard.target to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.MediaKeys.desktop to /etc/xdg/autostart
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.MediaKeys.service to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.MediaKeys.target to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.ScreensaverProxy.desktop to /etc/xdg/autostart
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.ScreensaverProxy.service to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.ScreensaverProxy.target to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Sharing.desktop to /etc/xdg/autostart
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Sharing.service to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Sharing.target to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Sound.desktop to /etc/xdg/autostart
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Sound.service to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Sound.target to /usr/lib/systemd/user'/usr/lib/systemd/user/gnome-session-x11-services.target.wants/org.gnome.SettingsDaemon.XSettings.service' -> '../org.gnome.SettingsDaemon.XSettings.service'
+'/usr/lib/systemd/user/gnome-session-x11-services-ready.target.wants/org.gnome.SettingsDaemon.XSettings.service' -> '../org.gnome.SettingsDaemon.XSettings.service'
+
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.UsbProtection.desktop to /etc/xdg/autostart
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.UsbProtection.service to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.UsbProtection.target to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.XSettings.desktop to /etc/xdg/autostart
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.XSettings.service to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.XSettings.target to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/plugins/xsettings/00-xrdb to /etc/xdg/Xwayland-session.d
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Smartcard.desktop to /etc/xdg/autostart
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Smartcard.service to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Smartcard.target to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Wacom.desktop to /etc/xdg/autostart
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Wacom.service to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Wacom.target to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.PrintNotifications.desktop to /etc/xdg/autostart
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.PrintNotifications.service to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.PrintNotifications.target to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Rfkill.desktop to /etc/xdg/autostart
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Rfkill.service to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Rfkill.target to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/plugins/rfkill/61-gnome-settings-daemon-rfkill.rules to /usr/lib/udev/rules.d
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Wwan.desktop to /etc/xdg/autostart
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Wwan.service to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Wwan.target to /usr/lib/systemd/user
+Running custom install script '/blfs/builds/gnome-settings-daemon-47.2/plugins/meson-add-wants.sh /usr/lib/systemd/user gnome-session-x11-services.target.wants/ org.gnome.SettingsDaemon.XSettings.service'
+Running custom install script '/blfs/builds/gnome-settings-daemon-47.2/plugins/meson-add-wants.sh /usr/lib/systemd/user gnome-session-x11-services-ready.target.wants/ org.gnome.SettingsDaemon.XSettings.service'
+Running custom install script '/usr/bin/glib-compile-schemas /usr/share/glib-2.0/schemas'
+[0/1] Installing files
+Installing gnome-settings-daemon/libgsd.so to /pkgs/gnome-settings-daemon/usr/lib/gnome-settings-daemon-47
+Installing data/org.gnome.settings-daemon.enums.xml to /pkgs/gnome-settings-daemon/usr/share/glib-2.0/schemas
+Installing plugins/a11y-settings/gsd-a11y-settings to /pkgs/gnome-settings-daemon/usr/libexec
+Installing plugins/color/gsd-color to /pkgs/gnome-settings-daemon/usr/libexec
+Installing plugins/datetime/gsd-datetime to /pkgs/gnome-settings-daemon/usr/libexec
+Installing plugins/power/gsd-power to /pkgs/gnome-settings-daemon/usr/libexec
+Installing plugins/power/org.gnome.settings-daemon.plugins.power.policy to /pkgs/gnome-settings-daemon/usr/share/polkit-1/actions
+Installing plugins/power/gsd-backlight-helper to /pkgs/gnome-settings-daemon/usr/libexec
+Installing plugins/housekeeping/gsd-housekeeping to /pkgs/gnome-settings-daemon/usr/libexec
+Installing plugins/keyboard/gsd-keyboard to /pkgs/gnome-settings-daemon/usr/libexec
+Installing plugins/media-keys/gsd-media-keys to /pkgs/gnome-settings-daemon/usr/libexec
+Installing plugins/screensaver-proxy/gsd-screensaver-proxy to /pkgs/gnome-settings-daemon/usr/libexec
+Installing plugins/sharing/gsd-sharing to /pkgs/gnome-settings-daemon/usr/libexec
+Installing plugins/sound/gsd-sound to /pkgs/gnome-settings-daemon/usr/libexec
+Installing plugins/usb-protection/gsd-usb-protection to /pkgs/gnome-settings-daemon/usr/libexec
+Installing plugins/xsettings/gsd-xsettings to /pkgs/gnome-settings-daemon/usr/libexec
+Installing plugins/smartcard/gsd-smartcard to /pkgs/gnome-settings-daemon/usr/libexec
+Installing plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy to /pkgs/gnome-settings-daemon/usr/share/polkit-1/actions
+Installing plugins/wacom/gsd-wacom to /pkgs/gnome-settings-daemon/usr/libexec
+Installing plugins/wacom/gsd-wacom-oled-helper to /pkgs/gnome-settings-daemon/usr/libexec
+Installing plugins/print-notifications/gsd-print-notifications to /pkgs/gnome-settings-daemon/usr/libexec
+Installing plugins/print-notifications/gsd-printer to /pkgs/gnome-settings-daemon/usr/libexec
+Installing plugins/rfkill/gsd-rfkill to /pkgs/gnome-settings-daemon/usr/libexec
+Installing plugins/wwan/gsd-wwan to /pkgs/gnome-settings-daemon/usr/libexec
+Installing po/ab/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/ab/LC_MESSAGES
+Installing po/af/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/af/LC_MESSAGES
+Installing po/am/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/am/LC_MESSAGES
+Installing po/ar/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/ar/LC_MESSAGES
+Installing po/as/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/as/LC_MESSAGES
+Installing po/ast/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/ast/LC_MESSAGES
+Installing po/az/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/az/LC_MESSAGES
+Installing po/be/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/be/LC_MESSAGES
+Installing po/be@latin/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/be@latin/LC_MESSAGES
+Installing po/bg/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/bg/LC_MESSAGES
+Installing po/bn/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/bn/LC_MESSAGES
+Installing po/bn_IN/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/bn_IN/LC_MESSAGES
+Installing po/br/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/br/LC_MESSAGES
+Installing po/bs/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/bs/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/ca/LC_MESSAGES
+Installing po/ca@valencia/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/ca@valencia/LC_MESSAGES
+Installing po/ckb/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/ckb/LC_MESSAGES
+Installing po/crh/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/crh/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/cs/LC_MESSAGES
+Installing po/cy/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/cy/LC_MESSAGES
+Installing po/da/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/de/LC_MESSAGES
+Installing po/dz/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/dz/LC_MESSAGES
+Installing po/el/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/el/LC_MESSAGES
+Installing po/en_CA/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/en_CA/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/en_GB/LC_MESSAGES
+Installing po/en@shaw/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/en@shaw/LC_MESSAGES
+Installing po/eo/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/eo/LC_MESSAGES
+Installing po/es/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/es/LC_MESSAGES
+Installing po/et/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/et/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/eu/LC_MESSAGES
+Installing po/fa/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/fa/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/fr/LC_MESSAGES
+Installing po/fur/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/fur/LC_MESSAGES
+Installing po/ga/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/ga/LC_MESSAGES
+Installing po/gd/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/gd/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/gl/LC_MESSAGES
+Installing po/gu/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/gu/LC_MESSAGES
+Installing po/he/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/he/LC_MESSAGES
+Installing po/hi/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/hi/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/hu/LC_MESSAGES
+Installing po/id/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/id/LC_MESSAGES
+Installing po/is/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/is/LC_MESSAGES
+Installing po/it/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/it/LC_MESSAGES
+Installing po/ja/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/ja/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/ka/LC_MESSAGES
+Installing po/kab/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/kab/LC_MESSAGES
+Installing po/kk/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/kk/LC_MESSAGES
+Installing po/km/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/km/LC_MESSAGES
+Installing po/kn/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/kn/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/ko/LC_MESSAGES
+Installing po/ku/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/ku/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/lt/LC_MESSAGES
+Installing po/lv/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/lv/LC_MESSAGES
+Installing po/mai/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/mai/LC_MESSAGES
+Installing po/mg/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/mg/LC_MESSAGES
+Installing po/mk/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/mk/LC_MESSAGES
+Installing po/ml/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/ml/LC_MESSAGES
+Installing po/mn/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/mn/LC_MESSAGES
+Installing po/mr/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/mr/LC_MESSAGES
+Installing po/ms/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/ms/LC_MESSAGES
+Installing po/nb/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/nb/LC_MESSAGES
+Installing po/nds/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/nds/LC_MESSAGES
+Installing po/ne/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/ne/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/nl/LC_MESSAGES
+Installing po/nn/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/nn/LC_MESSAGES
+Installing po/nso/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/nso/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/oc/LC_MESSAGES
+Installing po/or/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/or/LC_MESSAGES
+Installing po/pa/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/pa/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/pl/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/pt/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/ru/LC_MESSAGES
+Installing po/rw/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/rw/LC_MESSAGES
+Installing po/si/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/si/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/sl/LC_MESSAGES
+Installing po/sq/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/sq/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/sr/LC_MESSAGES
+Installing po/sr@latin/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/sr@latin/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/sv/LC_MESSAGES
+Installing po/ta/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/ta/LC_MESSAGES
+Installing po/te/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/te/LC_MESSAGES
+Installing po/tg/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/tg/LC_MESSAGES
+Installing po/th/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/th/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/tr/LC_MESSAGES
+Installing po/ug/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/ug/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/uk/LC_MESSAGES
+Installing po/vi/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/vi/LC_MESSAGES
+Installing po/wa/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/wa/LC_MESSAGES
+Installing po/xh/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/xh/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_HK/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/zh_HK/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/zh_TW/LC_MESSAGES
+Installing po/zu/LC_MESSAGES/gnome-settings-daemon.mo to /pkgs/gnome-settings-daemon/usr/share/locale/zu/LC_MESSAGES
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/data/org.gnome.settings-daemon.peripherals.gschema.xml to /pkgs/gnome-settings-daemon/usr/share/glib-2.0/schemas
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml to /pkgs/gnome-settings-daemon/usr/share/glib-2.0/schemas
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/data/org.gnome.settings-daemon.plugins.gschema.xml to /pkgs/gnome-settings-daemon/usr/share/glib-2.0/schemas
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/data/org.gnome.settings-daemon.plugins.color.gschema.xml to /pkgs/gnome-settings-daemon/usr/share/glib-2.0/schemas
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml to /pkgs/gnome-settings-daemon/usr/share/glib-2.0/schemas
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml to /pkgs/gnome-settings-daemon/usr/share/glib-2.0/schemas
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/data/org.gnome.settings-daemon.plugins.power.gschema.xml to /pkgs/gnome-settings-daemon/usr/share/glib-2.0/schemas
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/data/org.gnome.settings-daemon.plugins.sharing.gschema.xml to /pkgs/gnome-settings-daemon/usr/share/glib-2.0/schemas
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml to /pkgs/gnome-settings-daemon/usr/share/glib-2.0/schemas
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/data/org.gnome.settings-daemon.plugins.wwan.gschema.xml to /pkgs/gnome-settings-daemon/usr/share/glib-2.0/schemas
+Installing /blfs/builds/gnome-settings-daemon-47.2/data/gsd-enums.h to /pkgs/gnome-settings-daemon/usr/include/gnome-settings-daemon-47/gnome-settings-daemon
+Installing /blfs/builds/gnome-settings-daemon-47.2/data/gnome-settings-daemon.convert to /pkgs/gnome-settings-daemon/usr/share/GConf/gsettings
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/meson-private/gnome-settings-daemon.pc to /pkgs/gnome-settings-daemon/usr/lib/pkgconfig
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.A11ySettings.desktop to /pkgs/gnome-settings-daemon/etc/xdg/autostart
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.A11ySettings.service to /pkgs/gnome-settings-daemon/usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.A11ySettings.target to /pkgs/gnome-settings-daemon/usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Color.desktop to /pkgs/gnome-settings-daemon/etc/xdg/autostart
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Color.service to /pkgs/gnome-settings-daemon/usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Color.target to /pkgs/gnome-settings-daemon/usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Datetime.desktop to /pkgs/gnome-settings-daemon/etc/xdg/autostart
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Datetime.service to /pkgs/gnome-settings-daemon/usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Datetime.target to /pkgs/gnome-settings-daemon/usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/plugins/datetime/backward to /pkgs/gnome-settings-daemon/usr/share/gnome-settings-daemon/datetime
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Power.desktop to /pkgs/gnome-settings-daemon/etc/xdg/autostart
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Power.service to /pkgs/gnome-settings-daemon/usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Power.target to /pkgs/gnome-settings-daemon/usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Housekeeping.desktop to /pkgs/gnome-settings-daemon/etc/xdg/autostart
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Housekeeping.service to /pkgs/gnome-settings-daemon/usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Housekeeping.target to /pkgs/gnome-settings-daemon/usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Keyboard.desktop to /pkgs/gnome-settings-daemon/etc/xdg/autostart
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Keyboard.service to /pkgs/gnome-settings-daemon/usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Keyboard.target to /pkgs/gnome-settings-daemon/usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.MediaKeys.desktop to /pkgs/gnome-settings-daemon/etc/xdg/autostart
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.MediaKeys.service to /pkgs/gnome-settings-daemon/usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.MediaKeys.target to /pkgs/gnome-settings-daemon/usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.ScreensaverProxy.desktop to /pkgs/gnome-settings-daemon/etc/xdg/autostart
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.ScreensaverProxy.service to /pkgs/gnome-settings-daemon/usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.ScreensaverProxy.target to /pkgs/gnome-settings-daemon/usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Sharing.desktop to /pkgs/gnome-settings-daemon/etc/xdg/autostart
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Sharing.service to /pkgs/gnome-settings-daemon/usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Sharing.target to /pkgs/gnome-settings-daemon/usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Sound.desktop to /pkgs/gnome-settings-daemon/etc/xdg/autostart
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Sound.service to /pkgs/gnome-settings-daemon/usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Sound.target to /pkgs/gnome-settings-daemon/usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.UsbProtection.desktop to /pkgs/gnome-settings-daemon/etc/xdg/autostart
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.UsbProtection.service to /pkgs/gnome-settings-daemon/usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.UsbProtection.target to /pkgs/gnome-settings-daemon/usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.XSettings.desktop to /pkgs/gnome-settings-daemon/etc/xdg/autostart
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.XSettings.service to /pkgs/gnome-settings-daemon/usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.XSettings.target to /pkgs/gnome-settings-daemon/usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/plugins/xsettings/00-xrdb to /pkgs/gnome-settings-daemon/etc/xdg/Xwayland-session.d
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Smartcard.desktop to /pkgs/gnome-settings-daemon/etc/xdg/autostart
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Smartcard.service to /pkgs/gnome-settings-daemon/usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Smartcard.target to /pkgs/gnome-settings-daemon/usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Wacom.desktop to /pkgs/gnome-settings-daemon/etc/xdg/autostart
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Wacom.service to /pkgs/gnome-settings-daemon/usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Wacom.target to /pkgs/gnome-settings-daemon/usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.PrintNotifications.desktop to /pkgs/gnome-settings-daemon/etc/xdg/autostart
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.PrintNotifications.service to /pkgs/gnome-settings-daemon/usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.PrintNotifications.target to /pkgs/gnome-settings-daemon/usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Rfkill.desktop to /pkgs/gnome-settings-daemon/etc/xdg/autostart
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Rfkill.service to /pkgs/gnome-settings-daemon/usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Rfkill.target to /pkgs/gnome-settings-daemon/usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/plugins/rfkill/61-gnome-settings-daemon-rfkill.rules to /pkgs/gnome-settings-daemon/usr/lib/udev/rules.d
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Wwan.desktop to /pkgs/gnome-settings-daemon/etc/xdg/autostart
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Wwan.service to /pkgs/gnome-settings-daemon/usr/lib/systemd/user
+Installing /blfs/builds/gnome-settings-daemon-47.2/build/plugins/org.gnome.SettingsDaemon.Wwan.target to /pkgs/gnome-settings-daemon/usr/lib/systemd/user
+Running custom install script '/blfs/builds/gnome-settings-daemon-47.2/plugins/meson-add-wants.sh /usr/lib/systemd/user gnome-session-x11-services.target.wants/ org.gnome.SettingsDaemon.XSettings.service'mkdir: created directory '/pkgs/gnome-settings-daemon/usr/lib/systemd/user/gnome-session-x11-services.target.wants/'
+'/pkgs/gnome-settings-daemon/usr/lib/systemd/user/gnome-session-x11-services.target.wants/org.gnome.SettingsDaemon.XSettings.service' -> '../org.gnome.SettingsDaemon.XSettings.service'
+mkdir: created directory '/pkgs/gnome-settings-daemon/usr/lib/systemd/user/gnome-session-x11-services-ready.target.wants/'
+'/pkgs/gnome-settings-daemon/usr/lib/systemd/user/gnome-session-x11-services-ready.target.wants/org.gnome.SettingsDaemon.XSettings.service' -> '../org.gnome.SettingsDaemon.XSettings.service'
+
+Running custom install script '/blfs/builds/gnome-settings-daemon-47.2/plugins/meson-add-wants.sh /usr/lib/systemd/user gnome-session-x11-services-ready.target.wants/ org.gnome.SettingsDaemon.XSettings.service'
+Skipping custom install script because DESTDIR is set '/usr/bin/glib-compile-schemas /usr/share/glib-2.0/schemas'
+gnome-settings-daemon/
+gnome-settings-daemon/usr/
+gnome-settings-daemon/usr/share/
+gnome-settings-daemon/usr/share/glib-2.0/
+gnome-settings-daemon/usr/share/glib-2.0/schemas/
+gnome-settings-daemon/usr/share/glib-2.0/schemas/org.gnome.settings-daemon.plugins.xsettings.gschema.xml
+gnome-settings-daemon/usr/share/glib-2.0/schemas/org.gnome.settings-daemon.plugins.wwan.gschema.xml
+gnome-settings-daemon/usr/share/glib-2.0/schemas/org.gnome.settings-daemon.plugins.color.gschema.xml
+gnome-settings-daemon/usr/share/glib-2.0/schemas/org.gnome.settings-daemon.peripherals.gschema.xml
+gnome-settings-daemon/usr/share/glib-2.0/schemas/org.gnome.settings-daemon.plugins.media-keys.gschema.xml
+gnome-settings-daemon/usr/share/glib-2.0/schemas/org.gnome.settings-daemon.plugins.power.gschema.xml
+gnome-settings-daemon/usr/share/glib-2.0/schemas/org.gnome.settings-daemon.plugins.gschema.xml
+gnome-settings-daemon/usr/share/glib-2.0/schemas/org.gnome.settings-daemon.enums.xml
+gnome-settings-daemon/usr/share/glib-2.0/schemas/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml
+gnome-settings-daemon/usr/share/glib-2.0/schemas/org.gnome.settings-daemon.plugins.sharing.gschema.xml
+gnome-settings-daemon/usr/share/glib-2.0/schemas/org.gnome.settings-daemon.peripherals.wacom.gschema.xml
+gnome-settings-daemon/usr/share/locale/
+gnome-settings-daemon/usr/share/locale/mg/
+gnome-settings-daemon/usr/share/locale/mg/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/mg/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/zh_HK/
+gnome-settings-daemon/usr/share/locale/zh_HK/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/zh_HK/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/be/
+gnome-settings-daemon/usr/share/locale/be/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/be/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/ckb/
+gnome-settings-daemon/usr/share/locale/ckb/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/ckb/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/af/
+gnome-settings-daemon/usr/share/locale/af/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/af/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/ca/
+gnome-settings-daemon/usr/share/locale/ca/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/ca/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/eu/
+gnome-settings-daemon/usr/share/locale/eu/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/eu/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/en_GB/
+gnome-settings-daemon/usr/share/locale/en_GB/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/en_GB/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/uk/
+gnome-settings-daemon/usr/share/locale/uk/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/uk/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/be@latin/
+gnome-settings-daemon/usr/share/locale/be@latin/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/be@latin/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/it/
+gnome-settings-daemon/usr/share/locale/it/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/it/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/ug/
+gnome-settings-daemon/usr/share/locale/ug/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/ug/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/he/
+gnome-settings-daemon/usr/share/locale/he/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/he/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/de/
+gnome-settings-daemon/usr/share/locale/de/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/de/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/pt/
+gnome-settings-daemon/usr/share/locale/pt/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/pt/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/kk/
+gnome-settings-daemon/usr/share/locale/kk/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/kk/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/nso/
+gnome-settings-daemon/usr/share/locale/nso/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/nso/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/ast/
+gnome-settings-daemon/usr/share/locale/ast/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/ast/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/wa/
+gnome-settings-daemon/usr/share/locale/wa/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/wa/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/es/
+gnome-settings-daemon/usr/share/locale/es/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/es/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/vi/
+gnome-settings-daemon/usr/share/locale/vi/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/vi/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/fur/
+gnome-settings-daemon/usr/share/locale/fur/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/fur/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/ne/
+gnome-settings-daemon/usr/share/locale/ne/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/ne/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/zu/
+gnome-settings-daemon/usr/share/locale/zu/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/zu/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/bs/
+gnome-settings-daemon/usr/share/locale/bs/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/bs/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/mk/
+gnome-settings-daemon/usr/share/locale/mk/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/mk/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/da/
+gnome-settings-daemon/usr/share/locale/da/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/da/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/zh_CN/
+gnome-settings-daemon/usr/share/locale/zh_CN/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/zh_CN/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/km/
+gnome-settings-daemon/usr/share/locale/km/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/km/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/ml/
+gnome-settings-daemon/usr/share/locale/ml/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/ml/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/ko/
+gnome-settings-daemon/usr/share/locale/ko/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/ko/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/pa/
+gnome-settings-daemon/usr/share/locale/pa/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/pa/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/or/
+gnome-settings-daemon/usr/share/locale/or/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/or/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/ta/
+gnome-settings-daemon/usr/share/locale/ta/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/ta/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/kab/
+gnome-settings-daemon/usr/share/locale/kab/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/kab/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/mai/
+gnome-settings-daemon/usr/share/locale/mai/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/mai/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/nb/
+gnome-settings-daemon/usr/share/locale/nb/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/nb/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/hr/
+gnome-settings-daemon/usr/share/locale/hr/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/hr/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/sr/
+gnome-settings-daemon/usr/share/locale/sr/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/sr/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/pt_BR/
+gnome-settings-daemon/usr/share/locale/pt_BR/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/pt_BR/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/am/
+gnome-settings-daemon/usr/share/locale/am/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/am/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/nn/
+gnome-settings-daemon/usr/share/locale/nn/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/nn/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/gd/
+gnome-settings-daemon/usr/share/locale/gd/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/gd/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/tr/
+gnome-settings-daemon/usr/share/locale/tr/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/tr/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/ca@valencia/
+gnome-settings-daemon/usr/share/locale/ca@valencia/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/ca@valencia/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/fa/
+gnome-settings-daemon/usr/share/locale/fa/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/fa/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/bn_IN/
+gnome-settings-daemon/usr/share/locale/bn_IN/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/bn_IN/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/sk/
+gnome-settings-daemon/usr/share/locale/sk/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/sk/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/br/
+gnome-settings-daemon/usr/share/locale/br/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/br/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/hi/
+gnome-settings-daemon/usr/share/locale/hi/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/hi/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/et/
+gnome-settings-daemon/usr/share/locale/et/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/et/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/az/
+gnome-settings-daemon/usr/share/locale/az/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/az/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/ms/
+gnome-settings-daemon/usr/share/locale/ms/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/ms/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/sq/
+gnome-settings-daemon/usr/share/locale/sq/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/sq/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/crh/
+gnome-settings-daemon/usr/share/locale/crh/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/crh/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/nds/
+gnome-settings-daemon/usr/share/locale/nds/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/nds/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/te/
+gnome-settings-daemon/usr/share/locale/te/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/te/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/ga/
+gnome-settings-daemon/usr/share/locale/ga/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/ga/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/gl/
+gnome-settings-daemon/usr/share/locale/gl/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/gl/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/pl/
+gnome-settings-daemon/usr/share/locale/pl/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/pl/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/sl/
+gnome-settings-daemon/usr/share/locale/sl/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/sl/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/fi/
+gnome-settings-daemon/usr/share/locale/fi/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/fi/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/is/
+gnome-settings-daemon/usr/share/locale/is/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/is/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/ar/
+gnome-settings-daemon/usr/share/locale/ar/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/ar/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/zh_TW/
+gnome-settings-daemon/usr/share/locale/zh_TW/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/zh_TW/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/nl/
+gnome-settings-daemon/usr/share/locale/nl/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/nl/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/oc/
+gnome-settings-daemon/usr/share/locale/oc/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/oc/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/ka/
+gnome-settings-daemon/usr/share/locale/ka/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/ka/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/tg/
+gnome-settings-daemon/usr/share/locale/tg/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/tg/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/as/
+gnome-settings-daemon/usr/share/locale/as/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/as/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/fr/
+gnome-settings-daemon/usr/share/locale/fr/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/fr/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/dz/
+gnome-settings-daemon/usr/share/locale/dz/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/dz/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/en@shaw/
+gnome-settings-daemon/usr/share/locale/en@shaw/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/en@shaw/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/rw/
+gnome-settings-daemon/usr/share/locale/rw/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/rw/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/si/
+gnome-settings-daemon/usr/share/locale/si/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/si/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/sr@latin/
+gnome-settings-daemon/usr/share/locale/sr@latin/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/sr@latin/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/mr/
+gnome-settings-daemon/usr/share/locale/mr/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/mr/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/ku/
+gnome-settings-daemon/usr/share/locale/ku/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/ku/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/eo/
+gnome-settings-daemon/usr/share/locale/eo/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/eo/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/ro/
+gnome-settings-daemon/usr/share/locale/ro/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/ro/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/mn/
+gnome-settings-daemon/usr/share/locale/mn/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/mn/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/cy/
+gnome-settings-daemon/usr/share/locale/cy/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/cy/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/lt/
+gnome-settings-daemon/usr/share/locale/lt/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/lt/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/cs/
+gnome-settings-daemon/usr/share/locale/cs/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/cs/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/sv/
+gnome-settings-daemon/usr/share/locale/sv/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/sv/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/bn/
+gnome-settings-daemon/usr/share/locale/bn/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/bn/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/gu/
+gnome-settings-daemon/usr/share/locale/gu/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/gu/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/el/
+gnome-settings-daemon/usr/share/locale/el/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/el/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/xh/
+gnome-settings-daemon/usr/share/locale/xh/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/xh/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/ja/
+gnome-settings-daemon/usr/share/locale/ja/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/ja/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/id/
+gnome-settings-daemon/usr/share/locale/id/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/id/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/hu/
+gnome-settings-daemon/usr/share/locale/hu/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/hu/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/bg/
+gnome-settings-daemon/usr/share/locale/bg/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/bg/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/ru/
+gnome-settings-daemon/usr/share/locale/ru/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/ru/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/lv/
+gnome-settings-daemon/usr/share/locale/lv/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/lv/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/kn/
+gnome-settings-daemon/usr/share/locale/kn/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/kn/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/ab/
+gnome-settings-daemon/usr/share/locale/ab/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/ab/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/th/
+gnome-settings-daemon/usr/share/locale/th/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/th/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/locale/en_CA/
+gnome-settings-daemon/usr/share/locale/en_CA/LC_MESSAGES/
+gnome-settings-daemon/usr/share/locale/en_CA/LC_MESSAGES/gnome-settings-daemon.mo
+gnome-settings-daemon/usr/share/gnome-settings-daemon/
+gnome-settings-daemon/usr/share/gnome-settings-daemon/datetime/
+gnome-settings-daemon/usr/share/gnome-settings-daemon/datetime/backward
+gnome-settings-daemon/usr/share/polkit-1/
+gnome-settings-daemon/usr/share/polkit-1/actions/
+gnome-settings-daemon/usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.power.policy
+gnome-settings-daemon/usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.wacom.policy
+gnome-settings-daemon/usr/share/GConf/
+gnome-settings-daemon/usr/share/GConf/gsettings/
+gnome-settings-daemon/usr/share/GConf/gsettings/gnome-settings-daemon.convert
+gnome-settings-daemon/usr/lib/
+gnome-settings-daemon/usr/lib/gnome-settings-daemon-47/
+gnome-settings-daemon/usr/lib/gnome-settings-daemon-47/libgsd.so
+gnome-settings-daemon/usr/lib/systemd/
+gnome-settings-daemon/usr/lib/systemd/user/
+gnome-settings-daemon/usr/lib/systemd/user/org.gnome.SettingsDaemon.Housekeeping.service
+gnome-settings-daemon/usr/lib/systemd/user/org.gnome.SettingsDaemon.Color.target
+gnome-settings-daemon/usr/lib/systemd/user/gnome-session-x11-services.target.wants/
+gnome-settings-daemon/usr/lib/systemd/user/gnome-session-x11-services.target.wants/org.gnome.SettingsDaemon.XSettings.service
+gnome-settings-daemon/usr/lib/systemd/user/org.gnome.SettingsDaemon.Sharing.target
+gnome-settings-daemon/usr/lib/systemd/user/org.gnome.SettingsDaemon.Sound.service
+gnome-settings-daemon/usr/lib/systemd/user/org.gnome.SettingsDaemon.Wacom.service
+gnome-settings-daemon/usr/lib/systemd/user/org.gnome.SettingsDaemon.Rfkill.target
+gnome-settings-daemon/usr/lib/systemd/user/org.gnome.SettingsDaemon.XSettings.service
+gnome-settings-daemon/usr/lib/systemd/user/org.gnome.SettingsDaemon.Power.target
+gnome-settings-daemon/usr/lib/systemd/user/org.gnome.SettingsDaemon.A11ySettings.target
+gnome-settings-daemon/usr/lib/systemd/user/org.gnome.SettingsDaemon.Smartcard.target
+gnome-settings-daemon/usr/lib/systemd/user/org.gnome.SettingsDaemon.MediaKeys.service
+gnome-settings-daemon/usr/lib/systemd/user/org.gnome.SettingsDaemon.Housekeeping.target
+gnome-settings-daemon/usr/lib/systemd/user/org.gnome.SettingsDaemon.Datetime.service
+gnome-settings-daemon/usr/lib/systemd/user/org.gnome.SettingsDaemon.XSettings.target
+gnome-settings-daemon/usr/lib/systemd/user/org.gnome.SettingsDaemon.ScreensaverProxy.target
+gnome-settings-daemon/usr/lib/systemd/user/org.gnome.SettingsDaemon.PrintNotifications.service
+gnome-settings-daemon/usr/lib/systemd/user/org.gnome.SettingsDaemon.Keyboard.service
+gnome-settings-daemon/usr/lib/systemd/user/org.gnome.SettingsDaemon.Wwan.target
+gnome-settings-daemon/usr/lib/systemd/user/org.gnome.SettingsDaemon.A11ySettings.service
+gnome-settings-daemon/usr/lib/systemd/user/org.gnome.SettingsDaemon.UsbProtection.target
+gnome-settings-daemon/usr/lib/systemd/user/org.gnome.SettingsDaemon.Smartcard.service
+gnome-settings-daemon/usr/lib/systemd/user/org.gnome.SettingsDaemon.Sound.target
+gnome-settings-daemon/usr/lib/systemd/user/org.gnome.SettingsDaemon.Power.service
+gnome-settings-daemon/usr/lib/systemd/user/org.gnome.SettingsDaemon.Keyboard.target
+gnome-settings-daemon/usr/lib/systemd/user/org.gnome.SettingsDaemon.PrintNotifications.target
+gnome-settings-daemon/usr/lib/systemd/user/org.gnome.SettingsDaemon.Color.service
+gnome-settings-daemon/usr/lib/systemd/user/org.gnome.SettingsDaemon.Wwan.service
+gnome-settings-daemon/usr/lib/systemd/user/org.gnome.SettingsDaemon.Sharing.service
+gnome-settings-daemon/usr/lib/systemd/user/org.gnome.SettingsDaemon.ScreensaverProxy.service
+gnome-settings-daemon/usr/lib/systemd/user/org.gnome.SettingsDaemon.Wacom.target
+gnome-settings-daemon/usr/lib/systemd/user/org.gnome.SettingsDaemon.MediaKeys.target
+gnome-settings-daemon/usr/lib/systemd/user/org.gnome.SettingsDaemon.Rfkill.service
+gnome-settings-daemon/usr/lib/systemd/user/org.gnome.SettingsDaemon.UsbProtection.service
+gnome-settings-daemon/usr/lib/systemd/user/gnome-session-x11-services-ready.target.wants/
+gnome-settings-daemon/usr/lib/systemd/user/gnome-session-x11-services-ready.target.wants/org.gnome.SettingsDaemon.XSettings.service
+gnome-settings-daemon/usr/lib/systemd/user/org.gnome.SettingsDaemon.Datetime.target
+gnome-settings-daemon/usr/lib/pkgconfig/
+gnome-settings-daemon/usr/lib/pkgconfig/gnome-settings-daemon.pc
+gnome-settings-daemon/usr/lib/udev/
+gnome-settings-daemon/usr/lib/udev/rules.d/
+gnome-settings-daemon/usr/lib/udev/rules.d/61-gnome-settings-daemon-rfkill.rules
+gnome-settings-daemon/usr/include/
+gnome-settings-daemon/usr/include/gnome-settings-daemon-47/
+gnome-settings-daemon/usr/include/gnome-settings-daemon-47/gnome-settings-daemon/
+gnome-settings-daemon/usr/include/gnome-settings-daemon-47/gnome-settings-daemon/gsd-enums.h
+gnome-settings-daemon/usr/libexec/
+gnome-settings-daemon/usr/libexec/gsd-xsettings
+gnome-settings-daemon/usr/libexec/gsd-a11y-settings
+gnome-settings-daemon/usr/libexec/gsd-printer
+gnome-settings-daemon/usr/libexec/gsd-color
+gnome-settings-daemon/usr/libexec/gsd-wwan
+gnome-settings-daemon/usr/libexec/gsd-screensaver-proxy
+gnome-settings-daemon/usr/libexec/gsd-sharing
+gnome-settings-daemon/usr/libexec/gsd-print-notifications
+gnome-settings-daemon/usr/libexec/gsd-media-keys
+gnome-settings-daemon/usr/libexec/gsd-sound
+gnome-settings-daemon/usr/libexec/gsd-housekeeping
+gnome-settings-daemon/usr/libexec/gsd-smartcard
+gnome-settings-daemon/usr/libexec/gsd-keyboard
+gnome-settings-daemon/usr/libexec/gsd-usb-protection
+gnome-settings-daemon/usr/libexec/gsd-wacom-oled-helper
+gnome-settings-daemon/usr/libexec/gsd-backlight-helper
+gnome-settings-daemon/usr/libexec/gsd-wacom
+gnome-settings-daemon/usr/libexec/gsd-rfkill
+gnome-settings-daemon/usr/libexec/gsd-datetime
+gnome-settings-daemon/usr/libexec/gsd-power
+gnome-settings-daemon/version
+gnome-settings-daemon/depends
+gnome-settings-daemon/etc/
+gnome-settings-daemon/etc/xdg/
+gnome-settings-daemon/etc/xdg/Xwayland-session.d/
+gnome-settings-daemon/etc/xdg/Xwayland-session.d/00-xrdb
+gnome-settings-daemon/etc/xdg/autostart/
+gnome-settings-daemon/etc/xdg/autostart/org.gnome.SettingsDaemon.ScreensaverProxy.desktop
+gnome-settings-daemon/etc/xdg/autostart/org.gnome.SettingsDaemon.A11ySettings.desktop
+gnome-settings-daemon/etc/xdg/autostart/org.gnome.SettingsDaemon.Rfkill.desktop
+gnome-settings-daemon/etc/xdg/autostart/org.gnome.SettingsDaemon.Housekeeping.desktop
+gnome-settings-daemon/etc/xdg/autostart/org.gnome.SettingsDaemon.Wacom.desktop
+gnome-settings-daemon/etc/xdg/autostart/org.gnome.SettingsDaemon.Power.desktop
+gnome-settings-daemon/etc/xdg/autostart/org.gnome.SettingsDaemon.MediaKeys.desktop
+gnome-settings-daemon/etc/xdg/autostart/org.gnome.SettingsDaemon.Sound.desktop
+gnome-settings-daemon/etc/xdg/autostart/org.gnome.SettingsDaemon.UsbProtection.desktop
+gnome-settings-daemon/etc/xdg/autostart/org.gnome.SettingsDaemon.Sharing.desktop
+gnome-settings-daemon/etc/xdg/autostart/org.gnome.SettingsDaemon.Keyboard.desktop
+gnome-settings-daemon/etc/xdg/autostart/org.gnome.SettingsDaemon.PrintNotifications.desktop
+gnome-settings-daemon/etc/xdg/autostart/org.gnome.SettingsDaemon.Datetime.desktop
+gnome-settings-daemon/etc/xdg/autostart/org.gnome.SettingsDaemon.Wwan.desktop
+gnome-settings-daemon/etc/xdg/autostart/org.gnome.SettingsDaemon.Smartcard.desktop
+gnome-settings-daemon/etc/xdg/autostart/org.gnome.SettingsDaemon.Color.desktop
+gnome-settings-daemon/etc/xdg/autostart/org.gnome.SettingsDaemon.XSettings.desktop

@@ -1,0 +1,485 @@
+--2025-06-11 07:34:57--  https://www.cairographics.org/releases/pixman-0.46.2.tar.gz
+Resolving www.cairographics.org (www.cairographics.org)... 131.252.210.176
+Connecting to www.cairographics.org (www.cairographics.org)|131.252.210.176|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 827019 (808K) [application/x-gzip]
+Saving to: 'pixman-0.46.2.tar.gz.1'
+
+     0K .......... .......... .......... .......... ..........  6%  369K 2s
+    50K .......... .......... .......... .......... .......... 12% 1.23M 1s
+   100K .......... .......... .......... .......... .......... 18% 1.71M 1s
+   150K .......... .......... .......... .......... .......... 24%  118M 1s
+   200K .......... .......... .......... .......... .......... 30%  739K 1s
+   250K .......... .......... .......... .......... .......... 37%  110M 0s
+   300K .......... .......... .......... .......... .......... 43%  132M 0s
+   350K .......... .......... .......... .......... .......... 49%  129M 0s
+   400K .......... .......... .......... .......... .......... 55% 1.27M 0s
+   450K .......... .......... .......... .......... .......... 61% 1.72M 0s
+   500K .......... .......... .......... .......... .......... 68%  127M 0s
+   550K .......... .......... .......... .......... .......... 74%  124M 0s
+   600K .......... .......... .......... .......... .......... 80%  117M 0s
+   650K .......... .......... .......... .......... .......... 86%  204M 0s
+   700K .......... .......... .......... .......... .......... 92% 98.7M 0s
+   750K .......... .......... .......... .......... .......... 99% 93.7M 0s
+   800K .......                                               100%  495M=0.3s
+
+2025-06-11 07:35:00 (2.30 MB/s) - 'pixman-0.46.2.tar.gz.1' saved [827019/827019]
+
+pixman-0.46.2/
+pixman-0.46.2/.clang-format
+pixman-0.46.2/.editorconfig
+pixman-0.46.2/.gitignore
+pixman-0.46.2/.gitlab-ci.d/
+pixman-0.46.2/.gitlab-ci.d/01-docker/
+pixman-0.46.2/.gitlab-ci.d/01-docker/Dockerfile
+pixman-0.46.2/.gitlab-ci.d/01-docker/target-env/
+pixman-0.46.2/.gitlab-ci.d/01-docker/target-env/linux-386.env
+pixman-0.46.2/.gitlab-ci.d/01-docker/target-env/linux-amd64.env
+pixman-0.46.2/.gitlab-ci.d/01-docker/target-env/linux-arm-v5.env
+pixman-0.46.2/.gitlab-ci.d/01-docker/target-env/linux-arm-v7.env
+pixman-0.46.2/.gitlab-ci.d/01-docker/target-env/linux-arm64-v8.env
+pixman-0.46.2/.gitlab-ci.d/01-docker/target-env/linux-mips.env
+pixman-0.46.2/.gitlab-ci.d/01-docker/target-env/linux-mips64le.env
+pixman-0.46.2/.gitlab-ci.d/01-docker/target-env/linux-mipsel.env
+pixman-0.46.2/.gitlab-ci.d/01-docker/target-env/linux-ppc.env
+pixman-0.46.2/.gitlab-ci.d/01-docker/target-env/linux-ppc64.env
+pixman-0.46.2/.gitlab-ci.d/01-docker/target-env/linux-ppc64le.env
+pixman-0.46.2/.gitlab-ci.d/01-docker/target-env/linux-riscv64.env
+pixman-0.46.2/.gitlab-ci.d/01-docker/target-env/windows-686.env
+pixman-0.46.2/.gitlab-ci.d/01-docker/target-env/windows-amd64.env
+pixman-0.46.2/.gitlab-ci.d/01-docker/target-env/windows-arm64-v8.env
+pixman-0.46.2/.gitlab-ci.d/01-docker.yml
+pixman-0.46.2/.gitlab-ci.d/02-build.yml
+pixman-0.46.2/.gitlab-ci.d/03-test.yml
+pixman-0.46.2/.gitlab-ci.d/04-summary.yml
+pixman-0.46.2/.gitlab-ci.d/meson-cross/
+pixman-0.46.2/.gitlab-ci.d/meson-cross/linux-386-gnu.meson
+pixman-0.46.2/.gitlab-ci.d/meson-cross/linux-386-llvm.meson
+pixman-0.46.2/.gitlab-ci.d/meson-cross/linux-amd64-gnu.meson
+pixman-0.46.2/.gitlab-ci.d/meson-cross/linux-amd64-llvm.meson
+pixman-0.46.2/.gitlab-ci.d/meson-cross/linux-arm-v5-gnu.meson
+pixman-0.46.2/.gitlab-ci.d/meson-cross/linux-arm-v5-llvm.meson
+pixman-0.46.2/.gitlab-ci.d/meson-cross/linux-arm-v7-gnu.meson
+pixman-0.46.2/.gitlab-ci.d/meson-cross/linux-arm-v7-llvm.meson
+pixman-0.46.2/.gitlab-ci.d/meson-cross/linux-arm64-v8-gnu.meson
+pixman-0.46.2/.gitlab-ci.d/meson-cross/linux-arm64-v8-llvm.meson
+pixman-0.46.2/.gitlab-ci.d/meson-cross/linux-mips-gnu.meson
+pixman-0.46.2/.gitlab-ci.d/meson-cross/linux-mips-llvm.meson
+pixman-0.46.2/.gitlab-ci.d/meson-cross/linux-mips64le-gnu.meson
+pixman-0.46.2/.gitlab-ci.d/meson-cross/linux-mips64le-llvm.meson
+pixman-0.46.2/.gitlab-ci.d/meson-cross/linux-mipsel-gnu.meson
+pixman-0.46.2/.gitlab-ci.d/meson-cross/linux-mipsel-llvm.meson
+pixman-0.46.2/.gitlab-ci.d/meson-cross/linux-ppc-gnu.meson
+pixman-0.46.2/.gitlab-ci.d/meson-cross/linux-ppc-llvm.meson
+pixman-0.46.2/.gitlab-ci.d/meson-cross/linux-ppc64-gnu.meson
+pixman-0.46.2/.gitlab-ci.d/meson-cross/linux-ppc64-llvm.meson
+pixman-0.46.2/.gitlab-ci.d/meson-cross/linux-ppc64le-gnu.meson
+pixman-0.46.2/.gitlab-ci.d/meson-cross/linux-ppc64le-llvm.meson
+pixman-0.46.2/.gitlab-ci.d/meson-cross/linux-riscv64-gnu.meson
+pixman-0.46.2/.gitlab-ci.d/meson-cross/linux-riscv64-llvm.meson
+pixman-0.46.2/.gitlab-ci.d/meson-cross/native-gnu-noopenmp.meson
+pixman-0.46.2/.gitlab-ci.d/meson-cross/native-gnu.meson
+pixman-0.46.2/.gitlab-ci.d/meson-cross/native-llvm-noopenmp.meson
+pixman-0.46.2/.gitlab-ci.d/meson-cross/native-llvm.meson
+pixman-0.46.2/.gitlab-ci.d/meson-cross/windows-686-gnu.meson
+pixman-0.46.2/.gitlab-ci.d/meson-cross/windows-686-llvm.meson
+pixman-0.46.2/.gitlab-ci.d/meson-cross/windows-amd64-gnu.meson
+pixman-0.46.2/.gitlab-ci.d/meson-cross/windows-amd64-llvm.meson
+pixman-0.46.2/.gitlab-ci.d/meson-cross/windows-arm64-v8-llvm.meson
+pixman-0.46.2/.gitlab-ci.d/pixman-project.yml
+pixman-0.46.2/.gitlab-ci.d/templates/
+pixman-0.46.2/.gitlab-ci.d/templates/build-aarch64.yml
+pixman-0.46.2/.gitlab-ci.d/templates/build-kvm.yml
+pixman-0.46.2/.gitlab-ci.d/templates/build.yml
+pixman-0.46.2/.gitlab-ci.d/templates/docker.yml
+pixman-0.46.2/.gitlab-ci.d/templates/targets.yml
+pixman-0.46.2/.gitlab-ci.d/templates/test.yml
+pixman-0.46.2/.gitlab-ci.yml
+pixman-0.46.2/AUTHORS
+pixman-0.46.2/CODING_STYLE
+pixman-0.46.2/COPYING
+pixman-0.46.2/INSTALL
+pixman-0.46.2/NEWS
+pixman-0.46.2/README
+pixman-0.46.2/RELEASING
+pixman-0.46.2/a64-neon-test.S
+pixman-0.46.2/arm-simd-test.S
+pixman-0.46.2/demos/
+pixman-0.46.2/demos/alpha-test.c
+pixman-0.46.2/demos/checkerboard.c
+pixman-0.46.2/demos/clip-in.c
+pixman-0.46.2/demos/clip-test.c
+pixman-0.46.2/demos/composite-test.c
+pixman-0.46.2/demos/conical-test.c
+pixman-0.46.2/demos/convolution-test.c
+pixman-0.46.2/demos/dither.c
+pixman-0.46.2/demos/dither.ui
+pixman-0.46.2/demos/gradient-test.c
+pixman-0.46.2/demos/gtk-utils.c
+pixman-0.46.2/demos/gtk-utils.h
+pixman-0.46.2/demos/linear-gradient.c
+pixman-0.46.2/demos/meson.build
+pixman-0.46.2/demos/parrot.c
+pixman-0.46.2/demos/parrot.jpg
+pixman-0.46.2/demos/quad2quad.c
+pixman-0.46.2/demos/radial-test.c
+pixman-0.46.2/demos/scale.c
+pixman-0.46.2/demos/scale.ui
+pixman-0.46.2/demos/screen-test.c
+pixman-0.46.2/demos/srgb-test.c
+pixman-0.46.2/demos/srgb-trap-test.c
+pixman-0.46.2/demos/trap-test.c
+pixman-0.46.2/demos/tri-test.c
+pixman-0.46.2/demos/zone_plate.png
+pixman-0.46.2/meson.build
+pixman-0.46.2/meson.options
+pixman-0.46.2/neon-test.S
+pixman-0.46.2/pixman/
+pixman-0.46.2/pixman/dither/
+pixman-0.46.2/pixman/dither/blue-noise-64x64.h
+pixman-0.46.2/pixman/dither/make-blue-noise.c
+pixman-0.46.2/pixman/loongson-mmintrin.h
+pixman-0.46.2/pixman/make-srgb.pl
+pixman-0.46.2/pixman/meson.build
+pixman-0.46.2/pixman/pixman-access-accessors.c
+pixman-0.46.2/pixman/pixman-access.c
+pixman-0.46.2/pixman/pixman-accessor.h
+pixman-0.46.2/pixman/pixman-arm-asm.h
+pixman-0.46.2/pixman/pixman-arm-common.h
+pixman-0.46.2/pixman/pixman-arm-detect-win32.asm
+pixman-0.46.2/pixman/pixman-arm-neon-asm-bilinear.S
+pixman-0.46.2/pixman/pixman-arm-neon-asm.S
+pixman-0.46.2/pixman/pixman-arm-neon-asm.h
+pixman-0.46.2/pixman/pixman-arm-neon.c
+pixman-0.46.2/pixman/pixman-arm-simd-asm-scaled.S
+pixman-0.46.2/pixman/pixman-arm-simd-asm.S
+pixman-0.46.2/pixman/pixman-arm-simd-asm.h
+pixman-0.46.2/pixman/pixman-arm-simd.c
+pixman-0.46.2/pixman/pixman-arm.c
+pixman-0.46.2/pixman/pixman-arma64-neon-asm-bilinear.S
+pixman-0.46.2/pixman/pixman-arma64-neon-asm.S
+pixman-0.46.2/pixman/pixman-arma64-neon-asm.h
+pixman-0.46.2/pixman/pixman-bits-image.c
+pixman-0.46.2/pixman/pixman-combine-float.c
+pixman-0.46.2/pixman/pixman-combine-float.h
+pixman-0.46.2/pixman/pixman-combine32.c
+pixman-0.46.2/pixman/pixman-combine32.h
+pixman-0.46.2/pixman/pixman-compiler.h
+pixman-0.46.2/pixman/pixman-conical-gradient.c
+pixman-0.46.2/pixman/pixman-edge-accessors.c
+pixman-0.46.2/pixman/pixman-edge-imp.h
+pixman-0.46.2/pixman/pixman-edge.c
+pixman-0.46.2/pixman/pixman-fast-path.c
+pixman-0.46.2/pixman/pixman-filter.c
+pixman-0.46.2/pixman/pixman-general.c
+pixman-0.46.2/pixman/pixman-glyph.c
+pixman-0.46.2/pixman/pixman-gradient-walker.c
+pixman-0.46.2/pixman/pixman-image.c
+pixman-0.46.2/pixman/pixman-implementation.c
+pixman-0.46.2/pixman/pixman-inlines.h
+pixman-0.46.2/pixman/pixman-linear-gradient.c
+pixman-0.46.2/pixman/pixman-matrix.c
+pixman-0.46.2/pixman/pixman-mips-dspr2-asm.S
+pixman-0.46.2/pixman/pixman-mips-dspr2-asm.h
+pixman-0.46.2/pixman/pixman-mips-dspr2.c
+pixman-0.46.2/pixman/pixman-mips-dspr2.h
+pixman-0.46.2/pixman/pixman-mips-memcpy-asm.S
+pixman-0.46.2/pixman/pixman-mips.c
+pixman-0.46.2/pixman/pixman-mmx.c
+pixman-0.46.2/pixman/pixman-noop.c
+pixman-0.46.2/pixman/pixman-ppc.c
+pixman-0.46.2/pixman/pixman-private.h
+pixman-0.46.2/pixman/pixman-radial-gradient.c
+pixman-0.46.2/pixman/pixman-region.c
+pixman-0.46.2/pixman/pixman-region16.c
+pixman-0.46.2/pixman/pixman-region32.c
+pixman-0.46.2/pixman/pixman-region64f.c
+pixman-0.46.2/pixman/pixman-riscv.c
+pixman-0.46.2/pixman/pixman-rvv.c
+pixman-0.46.2/pixman/pixman-solid-fill.c
+pixman-0.46.2/pixman/pixman-sse2.c
+pixman-0.46.2/pixman/pixman-ssse3.c
+pixman-0.46.2/pixman/pixman-timer.c
+pixman-0.46.2/pixman/pixman-trap.c
+pixman-0.46.2/pixman/pixman-utils.c
+pixman-0.46.2/pixman/pixman-version.h.in
+pixman-0.46.2/pixman/pixman-vmx.c
+pixman-0.46.2/pixman/pixman-x86.c
+pixman-0.46.2/pixman/pixman.c
+pixman-0.46.2/pixman/pixman.h
+pixman-0.46.2/pixman/rounding.txt
+pixman-0.46.2/pixman/solaris-hwcap.mapfile
+pixman-0.46.2/release.sh
+pixman-0.46.2/test/
+pixman-0.46.2/test/a1-trap-test.c
+pixman-0.46.2/test/affine-bench.c
+pixman-0.46.2/test/affine-test.c
+pixman-0.46.2/test/alpha-loop.c
+pixman-0.46.2/test/alphamap.c
+pixman-0.46.2/test/blitters-test.c
+pixman-0.46.2/test/check-formats.c
+pixman-0.46.2/test/combiner-test.c
+pixman-0.46.2/test/composite-traps-test.c
+pixman-0.46.2/test/composite.c
+pixman-0.46.2/test/cover-test.c
+pixman-0.46.2/test/fence-image-self-test.c
+pixman-0.46.2/test/fetch-test.c
+pixman-0.46.2/test/filter-reduction-test.c
+pixman-0.46.2/test/fuzzer-find-diff.pl
+pixman-0.46.2/test/glyph-test.c
+pixman-0.46.2/test/gradient-crash-test.c
+pixman-0.46.2/test/infinite-loop.c
+pixman-0.46.2/test/lowlevel-blt-bench.c
+pixman-0.46.2/test/lowlevel_blt_bench_compare.py
+pixman-0.46.2/test/matrix-test.c
+pixman-0.46.2/test/meson.build
+pixman-0.46.2/test/neg-stride-test.c
+pixman-0.46.2/test/oob-test.c
+pixman-0.46.2/test/pdf-op-test.c
+pixman-0.46.2/test/pixel-test.c
+pixman-0.46.2/test/prng-test.c
+pixman-0.46.2/test/radial-invalid.c
+pixman-0.46.2/test/radial-perf-test.c
+pixman-0.46.2/test/region-contains-test.c
+pixman-0.46.2/test/region-fractional-test.c
+pixman-0.46.2/test/region-test.c
+pixman-0.46.2/test/region-translate-test.c
+pixman-0.46.2/test/rotate-test.c
+pixman-0.46.2/test/scaling-bench.c
+pixman-0.46.2/test/scaling-crash-test.c
+pixman-0.46.2/test/scaling-helpers-test.c
+pixman-0.46.2/test/scaling-test.c
+pixman-0.46.2/test/solid-test.c
+pixman-0.46.2/test/stress-test.c
+pixman-0.46.2/test/thread-test.c
+pixman-0.46.2/test/tolerance-test.c
+pixman-0.46.2/test/trap-crasher.c
+pixman-0.46.2/test/utils/
+pixman-0.46.2/test/utils/meson.build
+pixman-0.46.2/test/utils/utils-prng.c
+pixman-0.46.2/test/utils/utils-prng.h
+pixman-0.46.2/test/utils/utils.c
+pixman-0.46.2/test/utils/utils.h
+The Meson build system
+Version: 1.7.0
+Source dir: /blfs/builds/pixman-0.46.2
+Build dir: /blfs/builds/pixman-0.46.2/build
+Build type: native build
+Project name: pixman
+Project version: 0.46.2
+C compiler for the host machine: cc (gcc 14.2.0 "cc (GCC) 14.2.0")
+C linker for the host machine: cc ld.bfd 2.44
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Compiler for C supports arguments -Wdeclaration-after-statement: YES 
+Compiler for C supports arguments -fno-strict-aliasing: YES 
+Compiler for C supports arguments -fvisibility=hidden: YES 
+Compiler for C supports arguments -Wundef: YES 
+Compiler for C supports arguments -ftrapping-math: YES 
+Compiler for C supports arguments -Wunused-local-typedefs: YES 
+Checking if "SSSE3 Intrinsic Support" compiles: YES 
+Checking if "test for ASM .func directive" compiles: YES 
+Checking if "test for ASM .syntax unified directive" compiles: NO 
+Checking if "test for ASM leading underscore" links: NO 
+Checking if "GNU Inline ASM support." compiles: YES 
+Run-time dependency OpenMP found: YES 4.5
+Found pkg-config: YES (/usr/bin/i686-pc-linux-gnu-pkg-config) 2.4.3
+Found CMake: /usr/bin/cmake (4.0.2)
+Run-time dependency gtk+-3.0 found: NO (tried pkgconfig and cmake)
+Run-time dependency glib-2.0 found: YES 2.84.1
+Run-time dependency libpng found: YES 1.6.48
+Library m found: YES
+Run-time dependency threads found: YES
+Has header "pthread.h" : YES 
+Checking for function "sigaction" : YES 
+Checking for function "alarm" : YES 
+Checking for function "mprotect" : YES 
+Checking for function "getpagesize" : YES 
+Checking for function "mmap" : YES 
+Checking for function "getisax" : NO 
+Checking for function "gettimeofday" : YES 
+Checking for function "posix_memalign" : YES 
+Checking for function "feenableexcept" with dependency -lm: YES 
+Header "fenv.h" has symbol "FE_DIVBYZERO" : YES 
+Check usable header "sys/mman.h" : YES 
+Check usable header "fenv.h" : YES 
+Check usable header "unistd.h" : YES 
+Checking if "TLS via __thread" compiles: YES 
+Checking if "__attribute__((constructor))" links: YES 
+Checking if "__attribute__((destructor))" links: YES 
+Checking if "Has float128 support" links: YES 
+Checking for function "clz" : YES 
+Checking if "Support for GCC vector extensions" links: YES 
+Checking for size of "long" : 4 
+Configuring pixman-config.h using configuration
+Configuring pixman-version.h using configuration
+Compiler for C supports function attribute dllexport: NO 
+Build targets in project: 45
+
+pixman 0.46.2
+
+  User defined options
+    buildtype: release
+    libdir   : /usr/lib32
+    prefix   : /usr
+
+Found ninja-1.12.1 at /usr/bin/ninja
+WARNING: Running the setup command as `meson [options]` instead of `meson setup [options]` is ambiguous and deprecated.
+[1/123] Compiling C object pixman/libpixman-1.so.0.46.2.p/pixman-arm.c.o
+[2/123] Compiling C object pixman/libpixman-1.so.0.46.2.p/pixman-general.c.o
+[3/123] Compiling C object pixman/libpixman-1.so.0.46.2.p/pixman-mips.c.o
+[4/123] Compiling C object pixman/libpixman-1.so.0.46.2.p/pixman-gradient-walker.c.o
+[5/123] Compiling C object pixman/libpixman-1.so.0.46.2.p/pixman-conical-gradient.c.o
+[6/123] Compiling C object pixman/libpixman-1.so.0.46.2.p/pixman-linear-gradient.c.o
+[7/123] Compiling C object pixman/libpixman-ssse3.a.p/pixman-ssse3.c.o
+[8/123] Linking static target pixman/libpixman-ssse3.a
+[9/123] Compiling C object pixman/libpixman-1.so.0.46.2.p/pixman-ppc.c.o
+[10/123] Compiling C object pixman/libpixman-1.so.0.46.2.p/pixman-filter.c.o
+[11/123] Compiling C object pixman/libpixman-1.so.0.46.2.p/pixman-implementation.c.o
+[12/123] Compiling C object pixman/libpixman-1.so.0.46.2.p/pixman-edge.c.o
+[13/123] Compiling C object pixman/libpixman-1.so.0.46.2.p/pixman-riscv.c.o
+[14/123] Compiling C object pixman/libpixman-1.so.0.46.2.p/pixman-noop.c.o
+[15/123] Compiling C object pixman/libpixman-1.so.0.46.2.p/pixman-solid-fill.c.o
+[16/123] Compiling C object pixman/libpixman-1.so.0.46.2.p/pixman-edge-accessors.c.o
+[17/123] Compiling C object pixman/libpixman-1.so.0.46.2.p/pixman-glyph.c.o
+[18/123] Compiling C object pixman/libpixman-1.so.0.46.2.p/pixman-timer.c.o
+[19/123] Compiling C object pixman/libpixman-1.so.0.46.2.p/pixman-image.c.o
+[20/123] Compiling C object test/infinite-loop.p/infinite-loop.c.o
+[21/123] Compiling C object pixman/libpixman-1.so.0.46.2.p/pixman-radial-gradient.c.o
+[22/123] Compiling C object pixman/libpixman-1.so.0.46.2.p/pixman.c.o
+[23/123] Compiling C object pixman/libpixman-1.so.0.46.2.p/pixman-x86.c.o
+[24/123] Compiling C object test/oob-test.p/oob-test.c.o
+[25/123] Compiling C object test/region-translate-test.p/region-translate-test.c.o
+[26/123] Compiling C object test/trap-crasher.p/trap-crasher.c.o
+[27/123] Compiling C object test/a1-trap-test.p/a1-trap-test.c.o
+[28/123] Compiling C object test/fetch-test.p/fetch-test.c.o
+[29/123] Compiling C object pixman/libpixman-1.so.0.46.2.p/pixman-utils.c.o
+[30/123] Compiling C object test/fence-image-self-test.p/fence-image-self-test.c.o
+[31/123] Compiling C object test/pdf-op-test.p/pdf-op-test.c.o
+[32/123] Compiling C object test/radial-invalid.p/radial-invalid.c.o
+[33/123] Compiling C object test/prng-test.p/prng-test.c.o
+[34/123] Compiling C object pixman/libpixman-1.so.0.46.2.p/pixman-trap.c.o
+[35/123] Compiling C object test/utils/libtestutils.a.p/utils-prng.c.o
+[36/123] Compiling C object test/region-test.p/region-test.c.o
+[37/123] Compiling C object test/alpha-loop.p/alpha-loop.c.o
+[38/123] Compiling C object pixman/libpixman-1.so.0.46.2.p/pixman-matrix.c.o
+[39/123] Compiling C object test/scaling-crash-test.p/scaling-crash-test.c.o
+[40/123] Compiling C object test/region-fractional-test.p/region-fractional-test.c.o
+[41/123] Compiling C object test/combiner-test.p/combiner-test.c.o
+[42/123] Compiling C object test/rotate-test.p/rotate-test.c.o
+[43/123] Compiling C object test/scaling-helpers-test.p/scaling-helpers-test.c.o
+[44/123] Compiling C object test/filter-reduction-test.p/filter-reduction-test.c.o
+[45/123] Compiling C object test/gradient-crash-test.p/gradient-crash-test.c.o
+[46/123] Compiling C object test/alphamap.p/alphamap.c.o
+[47/123] Compiling C object test/region-contains-test.p/region-contains-test.c.o
+[48/123] Compiling C object test/solid-test.p/solid-test.c.o
+[49/123] Compiling C object test/pixel-test.p/pixel-test.c.o
+../test/pixel-test.c: In function 'verify':
+../test/pixel-test.c:2977:27: warning: 'mask' may be used uninitialized [-Wmaybe-uninitialized]
+ 2977 |     if (have_mask && mask != NULL)
+      |                           ^
+../test/pixel-test.c:2861:27: note: 'mask' was declared here
+ 2861 |     pixman_image_t *src, *mask, *dest;
+      |                           ^~~~
+[50/123] Compiling C object test/matrix-test.p/matrix-test.c.o
+[51/123] Compiling C object test/glyph-test.p/glyph-test.c.o
+[52/123] Compiling C object test/composite-traps-test.p/composite-traps-test.c.o
+[53/123] Compiling C object test/neg-stride-test.p/neg-stride-test.c.o
+[54/123] Compiling C object test/thread-test.p/thread-test.c.o
+[55/123] Compiling C object test/cover-test.p/cover-test.c.o
+[56/123] Compiling C object test/blitters-test.p/blitters-test.c.o
+[57/123] Compiling C object test/composite.p/composite.c.o
+[58/123] Compiling C object test/utils/libtestutils.a.p/utils.c.o
+[59/123] Compiling C object test/radial-perf-test.p/radial-perf-test.c.o
+[60/123] Linking static target test/utils/libtestutils.a
+[61/123] Compiling C object test/tolerance-test.p/tolerance-test.c.o
+[62/123] Compiling C object pixman/libpixman-1.so.0.46.2.p/pixman-combine32.c.o
+[63/123] Compiling C object test/scaling-test.p/scaling-test.c.o
+[64/123] Compiling C object test/check-formats.p/check-formats.c.o
+[65/123] Compiling C object test/affine-test.p/affine-test.c.o
+[66/123] Compiling C object test/scaling-bench.p/scaling-bench.c.o
+[67/123] Compiling C object pixman/libpixman-1.so.0.46.2.p/pixman-bits-image.c.o
+[68/123] Compiling C object test/affine-bench.p/affine-bench.c.o
+[69/123] Compiling C object test/lowlevel-blt-bench.p/lowlevel-blt-bench.c.o
+[70/123] Compiling C object test/stress-test.p/stress-test.c.o
+[71/123] Compiling C object pixman/libpixman-1.so.0.46.2.p/pixman-region32.c.o
+[72/123] Compiling C object pixman/libpixman-1.so.0.46.2.p/pixman-region16.c.o
+[73/123] Compiling C object pixman/libpixman-1.so.0.46.2.p/pixman-region64f.c.o
+[74/123] Compiling C object pixman/libpixman-1.so.0.46.2.p/pixman-access-accessors.c.o
+[75/123] Compiling C object pixman/libpixman-1.so.0.46.2.p/pixman-access.c.o
+[76/123] Compiling C object pixman/libpixman-mmx.a.p/pixman-mmx.c.o
+[77/123] Linking static target pixman/libpixman-mmx.a
+[78/123] Compiling C object pixman/libpixman-1.so.0.46.2.p/pixman-combine-float.c.o
+[79/123] Compiling C object pixman/libpixman-1.so.0.46.2.p/pixman-fast-path.c.o
+[80/123] Compiling C object pixman/libpixman-sse2.a.p/pixman-sse2.c.o
+[81/123] Linking static target pixman/libpixman-sse2.a
+[82/123] Linking target pixman/libpixman-1.so.0.46.2
+[83/123] Generating symbol file pixman/libpixman-1.so.0.46.2.p/libpixman-1.so.0.46.2.symbols
+[84/123] Linking target test/trap-crasher
+[85/123] Linking target test/oob-test
+[86/123] Linking target test/scaling-crash-test
+[87/123] Linking target test/fetch-test
+[88/123] Linking target test/infinite-loop
+[89/123] Linking target test/fence-image-self-test
+[90/123] Linking target test/prng-test
+[91/123] Linking target test/region-test
+[92/123] Linking target test/combiner-test
+[93/123] Linking target test/radial-invalid
+[94/123] Linking target test/pdf-op-test
+[95/123] Linking target test/alpha-loop
+[96/123] Linking target test/region-fractional-test
+[97/123] Linking target test/scaling-helpers-test
+[98/123] Linking target test/rotate-test
+[99/123] Linking target test/region-translate-test
+[100/123] Linking target test/pixel-test
+[101/123] Linking target test/matrix-test
+[102/123] Linking target test/a1-trap-test
+[103/123] Linking target test/alphamap
+[104/123] Linking target test/gradient-crash-test
+[105/123] Linking target test/filter-reduction-test
+[106/123] Linking target test/stress-test
+[107/123] Linking target test/lowlevel-blt-bench
+[108/123] Linking target test/composite-traps-test
+[109/123] Linking target test/region-contains-test
+[110/123] Linking target test/glyph-test
+[111/123] Linking target test/thread-test
+[112/123] Linking target test/affine-test
+[113/123] Linking target test/neg-stride-test
+[114/123] Linking target test/composite
+[115/123] Linking target test/solid-test
+[116/123] Linking target test/blitters-test
+[117/123] Linking target test/cover-test
+[118/123] Linking target test/radial-perf-test
+[119/123] Linking target test/scaling-bench
+[120/123] Linking target test/tolerance-test
+[121/123] Linking target test/scaling-test
+[122/123] Linking target test/check-formats
+[123/123] Linking target test/affine-bench
+[0/1] Installing files
+Installing pixman/libpixman-1.so.0.46.2 to /blfs/builds/pixman-0.46.2/build/DESTDIR/usr/lib32
+Installing /blfs/builds/pixman-0.46.2/pixman/pixman.h to /blfs/builds/pixman-0.46.2/build/DESTDIR/usr/include/pixman-1
+Installing /blfs/builds/pixman-0.46.2/build/pixman/pixman-version.h to /blfs/builds/pixman-0.46.2/build/DESTDIR/usr/include/pixman-1
+Installing /blfs/builds/pixman-0.46.2/build/meson-private/pixman-1.pc to /blfs/builds/pixman-0.46.2/build/DESTDIR/usr/lib32/pkgconfig
+Installing symlink pointing to libpixman-1.so.0.46.2 to /blfs/builds/pixman-0.46.2/build/DESTDIR/usr/lib32/libpixman-1.so.0
+Installing symlink pointing to libpixman-1.so.0 to /blfs/builds/pixman-0.46.2/build/DESTDIR/usr/lib32/libpixman-1.so
+'DESTDIR/usr/lib32/libpixman-1.so' -> '/pkgs/lib32-pixman/usr/lib32/libpixman-1.so'
+'DESTDIR/usr/lib32/libpixman-1.so.0' -> '/pkgs/lib32-pixman/usr/lib32/libpixman-1.so.0'
+'DESTDIR/usr/lib32/libpixman-1.so.0.46.2' -> '/pkgs/lib32-pixman/usr/lib32/libpixman-1.so.0.46.2'
+'DESTDIR/usr/lib32/pkgconfig' -> '/pkgs/lib32-pixman/usr/lib32/pkgconfig'
+'DESTDIR/usr/lib32/pkgconfig/pixman-1.pc' -> '/pkgs/lib32-pixman/usr/lib32/pkgconfig/pixman-1.pc'
+removed '/usr/lib32/libpixman-1.so'
+'/pkgs/lib32-pixman/usr/lib32/libpixman-1.so' -> '/usr/lib32/libpixman-1.so'
+removed '/usr/lib32/libpixman-1.so.0'
+'/pkgs/lib32-pixman/usr/lib32/libpixman-1.so.0' -> '/usr/lib32/libpixman-1.so.0'
+'/pkgs/lib32-pixman/usr/lib32/libpixman-1.so.0.46.2' -> '/usr/lib32/libpixman-1.so.0.46.2'
+'/pkgs/lib32-pixman/usr/lib32/pkgconfig/pixman-1.pc' -> '/usr/lib32/pkgconfig/pixman-1.pc'
+lib32-pixman/
+lib32-pixman/usr/
+lib32-pixman/usr/lib32/
+lib32-pixman/usr/lib32/libpixman-1.so.0
+lib32-pixman/usr/lib32/libpixman-1.so.0.46.2
+lib32-pixman/usr/lib32/libpixman-1.so
+lib32-pixman/usr/lib32/pkgconfig/
+lib32-pixman/usr/lib32/pkgconfig/pixman-1.pc
+lib32-pixman/version
+lib32-pixman/depends

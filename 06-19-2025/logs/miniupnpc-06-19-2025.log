@@ -1,0 +1,83 @@
+--2025-06-19 18:30:03--  http://miniupnp.free.fr/files/miniupnpc-20091016.tar.gz
+Resolving miniupnp.free.fr (miniupnp.free.fr)... 212.27.63.162
+Connecting to miniupnp.free.fr (miniupnp.free.fr)|212.27.63.162|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 41792 (41K) [application/x-gzip]
+Saving to: ‘miniupnpc-20091016.tar.gz’
+
+     0K .......... .......... .......... ..........           100% 21.8K=1.9s
+
+2025-06-19 18:30:06 (21.8 KB/s) - ‘miniupnpc-20091016.tar.gz’ saved [41792/41792]
+
+miniupnpc-20091016/Makefile
+miniupnpc-20091016/igd_desc_parse.c
+miniupnpc-20091016/igd_desc_parse.h
+miniupnpc-20091016/miniwget.c
+miniupnpc-20091016/miniwget.h
+miniupnpc-20091016/minixml.c
+miniupnpc-20091016/minixml.h
+miniupnpc-20091016/upnpc.c
+miniupnpc-20091016/testminixml.c
+miniupnpc-20091016/minisoap.c
+miniupnpc-20091016/minisoap.h
+miniupnpc-20091016/miniupnpc.c
+miniupnpc-20091016/miniupnpc.h
+miniupnpc-20091016/README
+miniupnpc-20091016/LICENCE
+miniupnpc-20091016/upnpcommands.c
+miniupnpc-20091016/upnpreplyparse.c
+miniupnpc-20091016/upnpreplyparse.h
+miniupnpc-20091016/upnpcommands.h
+miniupnpc-20091016/Makefile.mingw
+miniupnpc-20091016/bsdqueue.h
+miniupnpc-20091016/Changelog.txt
+miniupnpc-20091016/minixmlvalid.c
+miniupnpc-20091016/declspec.h
+miniupnpc-20091016/mingw32make.bat
+miniupnpc-20091016/testupnpreplyparse.c
+miniupnpc-20091016/miniupnpcmodule.c
+miniupnpc-20091016/pymoduletest.py
+miniupnpc-20091016/setup.py
+miniupnpc-20091016/setupmingw32.py
+miniupnpc-20091016/minissdpc.h
+miniupnpc-20091016/minissdpc.c
+miniupnpc-20091016/man3/miniupnpc.3
+miniupnpc-20091016/upnperrors.h
+miniupnpc-20091016/upnperrors.c
+miniupnpc-20091016/testigddescparse.c
+miniupnpc-20091016/testupnpigd.py
+miniupnpc-20091016/miniupnpc.def
+miniupnpc-20091016/codelength.h
+miniupnpc-20091016/miniupnpcstrings.h.in
+miniupnpc-20091016/updateminiupnpcstrings.sh
+cc -O2    -c -o minixmlvalid.o minixmlvalid.c
+cc -O2    -c -o minixml.o minixml.c
+/bin/sh updateminiupnpcstrings.sh
+cc -O2    -c -o igd_desc_parse.o igd_desc_parse.c
+cc -O2    -c -o miniupnpc.o miniupnpc.c
+cc -O2    -c -o upnpreplyparse.o upnpreplyparse.c
+cc -O2    -c -o upnpcommands.o upnpcommands.c
+cc -O2    -c -o minissdpc.o minissdpc.c
+cc -O2    -c -o upnperrors.o upnperrors.c
+cc -O2    -c -o upnpc.o upnpc.c
+cc -O2    -c -o testminixml.o testminixml.c
+cc -O2    -c -o testupnpreplyparse.o testupnpreplyparse.c
+cc -O2    -c -o testigddescparse.o testigddescparse.c
+which: no lsb_release in (/usr/sbin:/usr/bin:/usr/sbin/)
+Detected OS [Linux] version [6.15.1-tucana]
+setting OS_STRING macro value to Linux/6.15.1-tucana in miniupnpcstrings.h.
+cc -O2    -c -o miniwget.o miniwget.c
+cc -O2    -c -o minisoap.o minisoap.c
+cc   minixmlvalid.o minixml.o   -o minixmlvalid
+cc   testupnpreplyparse.o minixml.o upnpreplyparse.o   -o testupnpreplyparse
+cc   testminixml.o minixml.o igd_desc_parse.o   -o testminixml
+cc   testigddescparse.o igd_desc_parse.o minixml.o   -o testigddescparse
+minixml validation test
+./minixmlvalid
+14 events
+touch validateminixml
+ar crs libminiupnpc.a miniwget.o minixml.o igd_desc_parse.o minisoap.o miniupnpc.o upnpreplyparse.o upnpcommands.o minissdpc.o upnperrors.o
+cc -shared -Wl,-soname,libminiupnpc.so.4 -o libminiupnpc.so miniwget.o minixml.o igd_desc_parse.o minisoap.o miniupnpc.o upnpreplyparse.o upnpcommands.o minissdpc.o upnperrors.o
+cc -o upnpc-static upnpc.o libminiupnpc.a
+cc -o upnpc-shared upnpc.o libminiupnpc.so
+/Tucana-Build-Scripts/miniupnpc: line 21: python: command not found

@@ -1,0 +1,1313 @@
+--2025-06-17 07:11:33--  https://archive.xfce.org/src/apps/parole/4.20/parole-4.20.0.tar.xz
+Resolving archive.xfce.org (archive.xfce.org)... 217.70.191.87
+Connecting to archive.xfce.org (archive.xfce.org)|217.70.191.87|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://archive.al-us.xfce.org/src/apps/parole/4.20/parole-4.20.0.tar.xz [following]
+--2025-06-17 07:11:33--  https://archive.al-us.xfce.org/src/apps/parole/4.20/parole-4.20.0.tar.xz
+Resolving archive.al-us.xfce.org (archive.al-us.xfce.org)... 207.223.116.211
+Connecting to archive.al-us.xfce.org (archive.al-us.xfce.org)|207.223.116.211|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 481288 (470K) [application/x-xz]
+Saving to: 'parole-4.20.0.tar.xz'
+
+     0K .......... .......... .......... .......... .......... 10%  796K 1s
+    50K .......... .......... .......... .......... .......... 21%  640K 1s
+   100K .......... .......... .......... .......... .......... 31%  699K 0s
+   150K .......... .......... .......... .......... .......... 42%  924K 0s
+   200K .......... .......... .......... .......... .......... 53%  844K 0s
+   250K .......... .......... .......... .......... .......... 63%  972K 0s
+   300K .......... .......... .......... .......... .......... 74% 1008K 0s
+   350K .......... .......... .......... .......... .......... 85%  824K 0s
+   400K .......... .......... .......... .......... .......... 95% 1.01M 0s
+   450K .......... ..........                                 100% 1005K=0.6s
+
+2025-06-17 07:11:34 (845 KB/s) - 'parole-4.20.0.tar.xz' saved [481288/481288]
+
+parole-4.20.0/
+parole-4.20.0/.gitignore
+parole-4.20.0/.gitlab-ci.yml
+parole-4.20.0/AUTHORS
+parole-4.20.0/COPYING
+parole-4.20.0/ChangeLog
+parole-4.20.0/Makefile.am
+parole-4.20.0/NEWS
+parole-4.20.0/README.md
+parole-4.20.0/THANKS
+parole-4.20.0/TODO
+parole-4.20.0/autogen.sh
+parole-4.20.0/configure.ac
+parole-4.20.0/data/
+parole-4.20.0/data/Makefile.am
+parole-4.20.0/data/desktop/
+parole-4.20.0/data/desktop/Makefile.am
+parole-4.20.0/data/desktop/desktop.sh
+parole-4.20.0/data/desktop/meson.build
+parole-4.20.0/data/desktop/org.xfce.Parole.desktop.in.in
+parole-4.20.0/data/icons/
+parole-4.20.0/data/icons/128x128/
+parole-4.20.0/data/icons/128x128/Makefile.am
+parole-4.20.0/data/icons/128x128/org.xfce.parole.png
+parole-4.20.0/data/icons/16x16/
+parole-4.20.0/data/icons/16x16/Makefile.am
+parole-4.20.0/data/icons/16x16/org.xfce.parole.png
+parole-4.20.0/data/icons/16x16/org.xfce.parole.svg
+parole-4.20.0/data/icons/16x16/parole-extension-symbolic.svg
+parole-4.20.0/data/icons/16x16/parole-extension.png
+parole-4.20.0/data/icons/16x16/parole-extension.svg
+parole-4.20.0/data/icons/24x24/
+parole-4.20.0/data/icons/24x24/Makefile.am
+parole-4.20.0/data/icons/24x24/org.xfce.parole.png
+parole-4.20.0/data/icons/24x24/org.xfce.parole.svg
+parole-4.20.0/data/icons/32x32/
+parole-4.20.0/data/icons/32x32/Makefile.am
+parole-4.20.0/data/icons/32x32/org.xfce.parole.png
+parole-4.20.0/data/icons/32x32/org.xfce.parole.svg
+parole-4.20.0/data/icons/48x48/
+parole-4.20.0/data/icons/48x48/Makefile.am
+parole-4.20.0/data/icons/48x48/org.xfce.parole.png
+parole-4.20.0/data/icons/48x48/org.xfce.parole.svg
+parole-4.20.0/data/icons/48x48/parole-extension.png
+parole-4.20.0/data/icons/48x48/parole-extension.svg
+parole-4.20.0/data/icons/64x64/
+parole-4.20.0/data/icons/64x64/Makefile.am
+parole-4.20.0/data/icons/64x64/org.xfce.parole.png
+parole-4.20.0/data/icons/64x64/org.xfce.parole.svg
+parole-4.20.0/data/icons/96x96/
+parole-4.20.0/data/icons/96x96/Makefile.am
+parole-4.20.0/data/icons/96x96/org.xfce.parole.png
+parole-4.20.0/data/icons/96x96/org.xfce.parole.svg
+parole-4.20.0/data/icons/Makefile.am
+parole-4.20.0/data/icons/meson.build
+parole-4.20.0/data/icons/scalable/
+parole-4.20.0/data/icons/scalable/Makefile.am
+parole-4.20.0/data/icons/scalable/org.xfce.parole.svg
+parole-4.20.0/data/interfaces/
+parole-4.20.0/data/interfaces/Makefile.am
+parole-4.20.0/data/interfaces/mediachooser.ui
+parole-4.20.0/data/interfaces/meson.build
+parole-4.20.0/data/interfaces/open-location.ui
+parole-4.20.0/data/interfaces/parole-settings.ui
+parole-4.20.0/data/interfaces/parole.gresource.xml
+parole-4.20.0/data/interfaces/parole.ui
+parole-4.20.0/data/interfaces/playlist.ui
+parole-4.20.0/data/interfaces/plugins.ui
+parole-4.20.0/data/interfaces/save-playlist.ui
+parole-4.20.0/data/interfaces/shortcuts.ui
+parole-4.20.0/data/meson.build
+parole-4.20.0/data/metainfo/
+parole-4.20.0/data/metainfo/Makefile.am
+parole-4.20.0/data/metainfo/meson.build
+parole-4.20.0/data/metainfo/parole.appdata.xml.in
+parole-4.20.0/data/mime/
+parole-4.20.0/data/mime/Makefile.am
+parole-4.20.0/data/mime/meson.build
+parole-4.20.0/data/mime/mime-functions.sh
+parole-4.20.0/data/mime/mime-type-include.sh
+parole-4.20.0/data/mime/mime-type-list.txt
+parole-4.20.0/data/pixmaps/
+parole-4.20.0/data/pixmaps/Makefile.am
+parole-4.20.0/data/pixmaps/meson.build
+parole-4.20.0/data/pixmaps/no-cover.png
+parole-4.20.0/data/pixmaps/play.png
+parole-4.20.0/data/pixmaps/play.svg
+parole-4.20.0/data/pixmaps/replay.png
+parole-4.20.0/data/pixmaps/replay.svg
+parole-4.20.0/docs/
+parole-4.20.0/docs/Makefile.am
+parole-4.20.0/docs/meson.build
+parole-4.20.0/docs/plugin-api/
+parole-4.20.0/docs/plugin-api/Makefile.am
+parole-4.20.0/docs/plugin-api/Parole-Plugins-docs.sgml
+parole-4.20.0/docs/plugin-api/Parole-Plugins-overrides.txt
+parole-4.20.0/docs/plugin-api/Parole-Plugins-sections.txt
+parole-4.20.0/docs/plugin-api/meson.build
+parole-4.20.0/docs/plugin-api/parole-plugins-tut.sgml
+parole-4.20.0/docs/plugin-api/tmpl/
+parole-4.20.0/docs/plugin-api/tmpl/Parole-Plugins-unused.sgml
+parole-4.20.0/docs/plugin-api/tmpl/parole-debug.sgml
+parole-4.20.0/docs/plugin-api/tmpl/parole-file.sgml
+parole-4.20.0/docs/plugin-api/tmpl/parole-filters.sgml
+parole-4.20.0/docs/plugin-api/tmpl/parole-marshal.sgml
+parole-4.20.0/docs/plugin-api/tmpl/parole-pl-parser.sgml
+parole-4.20.0/docs/plugin-api/tmpl/parole-provider-player.sgml
+parole-4.20.0/docs/plugin-api/tmpl/parole-provider-plugin.sgml
+parole-4.20.0/docs/plugin-api/tmpl/parole-stream.sgml
+parole-4.20.0/docs/plugin-api/tmpl/parole.sgml
+parole-4.20.0/docs/plugin-api/tmpl/stamp-enum-types.sgml
+parole-4.20.0/docs/plugin-api/version.xml.in
+parole-4.20.0/meson.build
+parole-4.20.0/meson_options.txt
+parole-4.20.0/po/
+parole-4.20.0/po/LINGUAS
+parole-4.20.0/po/Makevars
+parole-4.20.0/po/POTFILES.in
+parole-4.20.0/po/POTFILES.skip
+parole-4.20.0/po/ar.po
+parole-4.20.0/po/ast.po
+parole-4.20.0/po/be.po
+parole-4.20.0/po/bg.po
+parole-4.20.0/po/ca.po
+parole-4.20.0/po/cs.po
+parole-4.20.0/po/da.po
+parole-4.20.0/po/de.po
+parole-4.20.0/po/el.po
+parole-4.20.0/po/en_AU.po
+parole-4.20.0/po/en_GB.po
+parole-4.20.0/po/es.po
+parole-4.20.0/po/et.po
+parole-4.20.0/po/eu.po
+parole-4.20.0/po/fi.po
+parole-4.20.0/po/fr.po
+parole-4.20.0/po/gl.po
+parole-4.20.0/po/he.po
+parole-4.20.0/po/hr.po
+parole-4.20.0/po/hu.po
+parole-4.20.0/po/hy_AM.po
+parole-4.20.0/po/hye.po
+parole-4.20.0/po/id.po
+parole-4.20.0/po/ie.po
+parole-4.20.0/po/is.po
+parole-4.20.0/po/it.po
+parole-4.20.0/po/ja.po
+parole-4.20.0/po/kk.po
+parole-4.20.0/po/ko.po
+parole-4.20.0/po/lt.po
+parole-4.20.0/po/lv.po
+parole-4.20.0/po/meson.build
+parole-4.20.0/po/ms.po
+parole-4.20.0/po/nb.po
+parole-4.20.0/po/nl.po
+parole-4.20.0/po/nn.po
+parole-4.20.0/po/oc.po
+parole-4.20.0/po/pl.po
+parole-4.20.0/po/pt.po
+parole-4.20.0/po/pt_BR.po
+parole-4.20.0/po/ro.po
+parole-4.20.0/po/ru.po
+parole-4.20.0/po/sk.po
+parole-4.20.0/po/sl.po
+parole-4.20.0/po/sq.po
+parole-4.20.0/po/sr.po
+parole-4.20.0/po/sv.po
+parole-4.20.0/po/te.po
+parole-4.20.0/po/th.po
+parole-4.20.0/po/tr.po
+parole-4.20.0/po/ug.po
+parole-4.20.0/po/uk.po
+parole-4.20.0/po/zh_CN.po
+parole-4.20.0/po/zh_TW.po
+parole-4.20.0/src/
+parole-4.20.0/src/Makefile.am
+parole-4.20.0/src/common/
+parole-4.20.0/src/common/Makefile.am
+parole-4.20.0/src/common/meson.build
+parole-4.20.0/src/common/parole-common.c
+parole-4.20.0/src/common/parole-common.h
+parole-4.20.0/src/common/parole-powermanager.c
+parole-4.20.0/src/common/parole-powermanager.h
+parole-4.20.0/src/common/parole-rc-utils.c
+parole-4.20.0/src/common/parole-rc-utils.h
+parole-4.20.0/src/common/parole-screensaver.c
+parole-4.20.0/src/common/parole-screensaver.h
+parole-4.20.0/src/dbus/
+parole-4.20.0/src/dbus/Makefile.am
+parole-4.20.0/src/dbus/meson.build
+parole-4.20.0/src/dbus/parole-dbus.c
+parole-4.20.0/src/dbus/parole-dbus.h
+parole-4.20.0/src/gmarshal.list
+parole-4.20.0/src/gst/
+parole-4.20.0/src/gst/Makefile.am
+parole-4.20.0/src/gst/gstmarshal.list
+parole-4.20.0/src/gst/meson.build
+parole-4.20.0/src/gst/parole-gst.c
+parole-4.20.0/src/gst/parole-gst.h
+parole-4.20.0/src/main.c
+parole-4.20.0/src/meson.build
+parole-4.20.0/src/misc/
+parole-4.20.0/src/misc/Makefile.am
+parole-4.20.0/src/misc/meson.build
+parole-4.20.0/src/misc/parole-debug.c
+parole-4.20.0/src/misc/parole-debug.h
+parole-4.20.0/src/misc/parole-file.c
+parole-4.20.0/src/misc/parole-file.h
+parole-4.20.0/src/misc/parole-filters.c
+parole-4.20.0/src/misc/parole-filters.h
+parole-4.20.0/src/misc/parole-marshal.list
+parole-4.20.0/src/misc/parole-pl-parser.c
+parole-4.20.0/src/misc/parole-pl-parser.h
+parole-4.20.0/src/misc/parole-provider-player.c
+parole-4.20.0/src/misc/parole-provider-player.h
+parole-4.20.0/src/misc/parole-provider-plugin.c
+parole-4.20.0/src/misc/parole-provider-plugin.h
+parole-4.20.0/src/misc/parole-stream.c
+parole-4.20.0/src/misc/parole-stream.h
+parole-4.20.0/src/misc/parole.h.in
+parole-4.20.0/src/org.parole.media.list.xml
+parole-4.20.0/src/org.parole.media.player.xml
+parole-4.20.0/src/parole-about.c
+parole-4.20.0/src/parole-about.h
+parole-4.20.0/src/parole-builder.c
+parole-4.20.0/src/parole-builder.h
+parole-4.20.0/src/parole-button.c
+parole-4.20.0/src/parole-button.h
+parole-4.20.0/src/parole-conf-dialog.c
+parole-4.20.0/src/parole-conf-dialog.h
+parole-4.20.0/src/parole-conf.c
+parole-4.20.0/src/parole-conf.h
+parole-4.20.0/src/parole-disc.c
+parole-4.20.0/src/parole-disc.h
+parole-4.20.0/src/parole-mediachooser.c
+parole-4.20.0/src/parole-mediachooser.h
+parole-4.20.0/src/parole-medialist.c
+parole-4.20.0/src/parole-medialist.h
+parole-4.20.0/src/parole-module.c
+parole-4.20.0/src/parole-module.h
+parole-4.20.0/src/parole-open-location.c
+parole-4.20.0/src/parole-open-location.h
+parole-4.20.0/src/parole-player.c
+parole-4.20.0/src/parole-player.h
+parole-4.20.0/src/parole-plugin-player.c
+parole-4.20.0/src/parole-plugin-player.h
+parole-4.20.0/src/parole-plugins-manager.c
+parole-4.20.0/src/parole-plugins-manager.h
+parole-4.20.0/src/parole-shortcuts.c
+parole-4.20.0/src/parole-shortcuts.h
+parole-4.20.0/src/parole-subtitle-encoding.c
+parole-4.20.0/src/parole-subtitle-encoding.h
+parole-4.20.0/src/parole-utils.c
+parole-4.20.0/src/parole-utils.h
+parole-4.20.0/src/parole-vis.c
+parole-4.20.0/src/parole-vis.h
+parole-4.20.0/src/plugins/
+parole-4.20.0/src/plugins/Makefile.am
+parole-4.20.0/src/plugins/meson.build
+parole-4.20.0/src/plugins/mpris2/
+parole-4.20.0/src/plugins/mpris2/Makefile.am
+parole-4.20.0/src/plugins/mpris2/meson.build
+parole-4.20.0/src/plugins/mpris2/mpris2-plugin.c
+parole-4.20.0/src/plugins/mpris2/mpris2-provider.c
+parole-4.20.0/src/plugins/mpris2/mpris2-provider.h
+parole-4.20.0/src/plugins/mpris2/mpris2.desktop.in
+parole-4.20.0/src/plugins/notify/
+parole-4.20.0/src/plugins/notify/Makefile.am
+parole-4.20.0/src/plugins/notify/meson.build
+parole-4.20.0/src/plugins/notify/notify-plugin.c
+parole-4.20.0/src/plugins/notify/notify-provider.c
+parole-4.20.0/src/plugins/notify/notify-provider.h
+parole-4.20.0/src/plugins/notify/notify.desktop.in
+parole-4.20.0/src/plugins/sample/
+parole-4.20.0/src/plugins/sample/Makefile.am
+parole-4.20.0/src/plugins/sample/meson.build
+parole-4.20.0/src/plugins/sample/sample-plugin.c
+parole-4.20.0/src/plugins/sample/sample-provider.c
+parole-4.20.0/src/plugins/sample/sample-provider.h
+parole-4.20.0/src/plugins/tray/
+parole-4.20.0/src/plugins/tray/Makefile.am
+parole-4.20.0/src/plugins/tray/meson.build
+parole-4.20.0/src/plugins/tray/system-tray.desktop.in
+parole-4.20.0/src/plugins/tray/tray-plugin.c
+parole-4.20.0/src/plugins/tray/tray-provider.c
+parole-4.20.0/src/plugins/tray/tray-provider.h
+parole-4.20.0/xfce-revision.h.in
+The Meson build system
+Version: 1.7.0
+Source dir: /blfs/builds/parole-4.20.0
+Build dir: /blfs/builds/parole-4.20.0/build
+Build type: native build
+Project name: parole
+Project version: 4.20.0
+C compiler for the host machine: cc (gcc 14.2.0 "cc (GCC) 14.2.0")
+C linker for the host machine: cc ld.bfd 2.44
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Found pkg-config: YES (/usr/bin/pkg-config) 2.4.3
+Run-time dependency glib-2.0 found: YES 2.84.3
+Run-time dependency gobject-2.0 found: YES 2.84.3
+Run-time dependency gmodule-2.0 found: YES 2.84.3
+Run-time dependency gio-2.0 found: YES 2.84.3
+Run-time dependency gtk+-3.0 found: YES 3.24.49
+Run-time dependency dbus-1 found: YES 1.16.2
+Run-time dependency dbus-glib-1 found: YES 0.114
+Run-time dependency libxfce4ui-2 found: YES 4.21.0
+Run-time dependency libxfce4util-1.0 found: YES 4.20.1
+Run-time dependency libxfconf-0 found: YES 4.21.0
+Run-time dependency gstreamer-1.0 found: YES 1.26.2
+Run-time dependency gstreamer-base-1.0 found: YES 1.26.2
+Run-time dependency gstreamer-video-1.0 found: YES 1.26.2
+Run-time dependency gstreamer-audio-1.0 found: YES 1.26.2
+Run-time dependency gstreamer-pbutils-1.0 found: YES 1.26.2
+Run-time dependency gstreamer-tag-1.0 found: YES 1.26.2
+Run-time dependency gdk-x11-3.0 found: YES 3.24.49
+Run-time dependency x11 found: YES 1.8.12
+Run-time dependency gdk-wayland-3.0 found: YES 3.24.49
+Found CMake: /usr/bin/cmake (4.0.3)
+Run-time dependency taglib_c found: NO (tried pkgconfig and cmake)
+Run-time dependency libnotify found: YES 0.8.6
+Program dbus-binding-tool found: YES (/usr/bin/dbus-binding-tool)
+Checking for function "strcoll" : YES 
+Header "X11/XF86keysym.h" has symbol "XF86XK_AudioPlay" : YES 
+Compiler for C supports arguments -Wmissing-declarations: YES 
+Compiler for C supports arguments -Wmissing-noreturn: YES 
+Compiler for C supports arguments -Wold-style-definition: YES 
+Compiler for C supports arguments -Wredundant-decls: YES 
+Compiler for C supports arguments -Wpointer-arith: YES 
+Compiler for C supports arguments -Wcast-align: YES 
+Compiler for C supports arguments -Winit-self: YES 
+Compiler for C supports arguments -Wshadow: YES 
+Compiler for C supports arguments -Wmissing-include-dirs: YES 
+Compiler for C supports arguments -Wundef: YES 
+Compiler for C supports arguments -Wformat: YES 
+Compiler for C supports arguments -Wformat-security: YES 
+Compiler for C supports arguments -Wformat-y2k: YES 
+Compiler for C supports arguments -Wnested-externs: YES 
+Compiler for C supports arguments -Wno-unused-parameter: YES 
+Compiler for C supports arguments -Wno-declaration-after-statement: YES 
+Compiler for C supports arguments -Wno-missing-field-initializers: YES 
+Compiler for C supports arguments -Werror=implicit-function-declaration: YES 
+Compiler for C supports arguments -Wno-error=deprecated-declarations: YES 
+Program desktop.sh found: YES (/blfs/builds/parole-4.20.0/data/desktop/desktop.sh)
+Configuring org.xfce.Parole.desktop.in with command
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Dependency gio-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Program mime-type-include.sh found: YES (/blfs/builds/parole-4.20.0/data/mime/mime-type-include.sh)
+Configuring parole-mime-types.h with command
+Program msginit found: YES (/usr/bin/msginit)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program xgettext found: YES (/usr/bin/xgettext)
+Configuring parole.h using configuration
+Dependency glib-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/glib-genmarshal found: YES (/usr/bin/glib-genmarshal)
+Dependency glib-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Dependency glib-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Dependency glib-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/glib-genmarshal found: YES (/usr/bin/glib-genmarshal)
+Dependency glib-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Dependency glib-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Dependency glib-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/glib-genmarshal found: YES (/usr/bin/glib-genmarshal)
+Dependency glib-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Dependency glib-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Configuring org.parole.media.list.h with command
+Configuring org.parole.media.player.h with command
+Build targets in project: 87
+
+parole 4.20.0
+
+  User defined options
+    buildtype: release
+    prefix   : /usr
+
+Found ninja-1.12.1 at /usr/bin/ninja
+[1/132] Generating data/interfaces/parole-resources_h with a custom command
+[2/132] Generating data/interfaces/parole-resources_c with a custom command
+[3/132] Generating glib marshaller header src/gmarshal_h
+[4/132] Generating glib marshaller header src/misc/parole-marshal_h
+[5/132] Generating glib marshaller header src/gst/gstmarshal_h
+[6/132] Generating xfce-revision.h with a custom command
+fatal: not a git repository (or any of the parent directories): .git
+[7/132] Generating glib marshaller source src/misc/parole-marshal_c
+[8/132] Compiling C object src/dbus/libparoledbus.a.p/parole-dbus.c.o
+[9/132] Linking static target src/dbus/libparoledbus.a
+[10/132] Generating glib marshaller source src/gmarshal_c
+[11/132] Generating glib marshaller source src/gst/gstmarshal_c
+[12/132] Generating GObject enum file src/gst/gst-enum-types.h (wrapped by meson because command contains newlines, to capture output)
+[13/132] Generating GObject enum file src/misc/parole-enum-types.c (wrapped by meson because command contains newlines, to capture output)
+[14/132] Generating GObject enum file src/misc/parole-enum-types.h (wrapped by meson because command contains newlines, to capture output)
+[15/132] Building translation po/be/LC_MESSAGES/parole-be.mo
+[16/132] Building translation po/bg/LC_MESSAGES/parole-bg.mo
+[17/132] Building translation po/ast/LC_MESSAGES/parole-ast.mo
+[18/132] Generating GObject enum file src/enum-gtypes.h (wrapped by meson because command contains newlines, to capture output)
+[19/132] Building translation po/ar/LC_MESSAGES/parole-ar.mo
+[20/132] Generating GObject enum file src/gst/gst-enum-types.c (wrapped by meson because command contains newlines, to capture output)
+[21/132] Generating GObject enum file src/enum-gtypes.c (wrapped by meson because command contains newlines, to capture output)
+[22/132] Compiling C object src/common/libparolecommon.a.p/parole-rc-utils.c.o
+[23/132] Compiling C object src/misc/libparole.so.p/parole-debug.c.o
+[24/132] Compiling C object src/misc/libparole.so.p/meson-generated_.._parole-marshal.c.o
+[25/132] Compiling C object src/plugins/mpris2/parole-mpris2.so.p/mpris2-plugin.c.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/misc/parole-filters.h:30,
+                 from ./src/misc/parole.h:34,
+                 from ../src/plugins/mpris2/mpris2-plugin.c:29:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[26/132] Compiling C object src/plugins/notify/parole-notify.so.p/notify-plugin.c.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/misc/parole-filters.h:30,
+                 from ./src/misc/parole.h:34,
+                 from ../src/plugins/notify/notify-provider.h:26,
+                 from ../src/plugins/notify/notify-plugin.c:29:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[27/132] Compiling C object src/common/libparolecommon.a.p/parole-common.c.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/common/parole-common.h:26,
+                 from ../src/common/parole-common.c:35:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[28/132] Compiling C object src/plugins/sample/sample-plugin.so.p/sample-plugin.c.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/misc/parole-filters.h:30,
+                 from ./src/misc/parole.h:34,
+                 from ../src/plugins/sample/sample-plugin.c:27:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[29/132] Compiling C object src/plugins/sample/sample-plugin.so.p/sample-provider.c.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/misc/parole-filters.h:30,
+                 from ./src/misc/parole.h:34,
+                 from ../src/plugins/sample/sample-provider.h:26,
+                 from ../src/plugins/sample/sample-provider.c:27:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[30/132] Compiling C object src/common/libparolecommon.a.p/parole-powermanager.c.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/common/parole-powermanager.c:31:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[31/132] Compiling C object src/common/libparolescreensaver.a.p/parole-screensaver.c.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkx.h:28,
+                 from ../src/common/parole-screensaver.c:33:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[32/132] Linking static target src/common/libparolecommon.a
+[33/132] Compiling C object src/plugins/tray/tray-icon.so.p/tray-plugin.c.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/misc/parole-filters.h:30,
+                 from ./src/misc/parole.h:34,
+                 from ../src/plugins/tray/tray-provider.h:26,
+                 from ../src/plugins/tray/tray-plugin.c:29:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[34/132] Linking static target src/common/libparolescreensaver.a
+[35/132] Merging translations for data/desktop/org.xfce.Parole.desktop
+[36/132] Compiling C object src/plugins/notify/parole-notify.so.p/notify-provider.c.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/plugins/notify/notify-provider.c:28:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[37/132] Compiling C object src/gst/libparolegst.a.p/meson-generated_.._gstmarshal.c.o
+[38/132] Merging translations for data/metainfo/parole.appdata.xml
+[39/132] Compiling C object src/parole.p/meson-generated_.._gmarshal.c.o
+[40/132] Compiling C object src/misc/libparole.so.p/parole-file.c.o
+[41/132] Compiling C object src/parole.p/meson-generated_.._enum-gtypes.c.o
+[42/132] Compiling C object src/misc/libparole.so.p/parole-stream.c.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from ../src/misc/parole-stream.h:31,
+                 from ../src/misc/parole-stream.c:36:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[43/132] Compiling C object src/misc/libparole.so.p/meson-generated_.._parole-enum-types.c.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/misc/parole-provider-player.h:30,
+                 from src/misc/parole-enum-types.c:6:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[44/132] Compiling C object src/plugins/tray/tray-icon.so.p/tray-provider.c.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/plugins/tray/tray-provider.c:28:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[45/132] Compiling C object src/misc/libparole.so.p/parole-filters.c.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/misc/parole-filters.h:30,
+                 from ../src/misc/parole-filters.c:39:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[46/132] Compiling C object src/misc/libparole.so.p/parole-provider-plugin.c.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/misc/parole-provider-plugin.h:30,
+                 from ../src/misc/parole-provider-plugin.c:27:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[47/132] Compiling C object src/parole.p/meson-generated_.._.._data_interfaces_parole-resources.c.o
+[48/132] Compiling C object src/plugins/mpris2/parole-mpris2.so.p/mpris2-provider.c.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/misc/parole-filters.h:30,
+                 from ./src/misc/parole.h:34,
+                 from ../src/plugins/mpris2/mpris2-provider.h:28,
+                 from ../src/plugins/mpris2/mpris2-provider.c:31:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[49/132] Compiling C object src/misc/libparole.so.p/parole-provider-player.c.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/misc/parole-provider-player.h:30,
+                 from ../src/misc/parole-provider-player.c:30:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[50/132] Compiling C object src/gst/libparolegst.a.p/meson-generated_.._.._misc_parole-enum-types.c.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/misc/parole-provider-player.h:30,
+                 from src/misc/parole-enum-types.c:6:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[51/132] Building translation po/ca/LC_MESSAGES/parole-ca.mo
+[52/132] Building translation po/cs/LC_MESSAGES/parole-cs.mo
+[53/132] Building translation po/da/LC_MESSAGES/parole-da.mo
+[54/132] Compiling C object src/parole.p/parole-builder.c.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/parole-builder.h:27,
+                 from ../src/parole-builder.c:33:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[55/132] Building translation po/de/LC_MESSAGES/parole-de.mo
+[56/132] Building translation po/el/LC_MESSAGES/parole-el.mo
+[57/132] Building translation po/en_AU/LC_MESSAGES/parole-en_AU.mo
+[58/132] Compiling C object src/parole.p/parole-about.c.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/parole-about.h:26,
+                 from ../src/parole-about.c:39:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[59/132] Building translation po/en_GB/LC_MESSAGES/parole-en_GB.mo
+[60/132] Compiling C object src/misc/libparole.so.p/parole-pl-parser.c.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/misc/parole-filters.h:30,
+                 from ../src/misc/parole-pl-parser.c:50:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[61/132] Building translation po/et/LC_MESSAGES/parole-et.mo
+[62/132] Building translation po/es/LC_MESSAGES/parole-es.mo
+[63/132] Building translation po/eu/LC_MESSAGES/parole-eu.mo
+[64/132] Linking static target src/misc/libparole.a
+[65/132] Building translation po/he/LC_MESSAGES/parole-he.mo
+[66/132] Building translation po/hr/LC_MESSAGES/parole-hr.mo
+[67/132] Building translation po/fi/LC_MESSAGES/parole-fi.mo
+[68/132] Building translation po/fr/LC_MESSAGES/parole-fr.mo
+[69/132] Building translation po/gl/LC_MESSAGES/parole-gl.mo
+[70/132] Compiling C object src/parole.p/parole-vis.c.o
+[71/132] Building translation po/hu/LC_MESSAGES/parole-hu.mo
+[72/132] Building translation po/hy_AM/LC_MESSAGES/parole-hy_AM.mo
+[73/132] Compiling C object src/gst/libparolegst.a.p/meson-generated_.._gst-enum-types.c.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/gst/parole-gst.h:28,
+                 from src/gst/gst-enum-types.c:5:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[74/132] Building translation po/hye/LC_MESSAGES/parole-hye.mo
+[75/132] Building translation po/id/LC_MESSAGES/parole-id.mo
+[76/132] Building translation po/ie/LC_MESSAGES/parole-ie.mo
+[77/132] Building translation po/is/LC_MESSAGES/parole-is.mo
+[78/132] Building translation po/it/LC_MESSAGES/parole-it.mo
+[79/132] Building translation po/lv/LC_MESSAGES/parole-lv.mo
+[80/132] Building translation po/lt/LC_MESSAGES/parole-lt.mo
+[81/132] Building translation po/ja/LC_MESSAGES/parole-ja.mo
+[82/132] Building translation po/ko/LC_MESSAGES/parole-ko.mo
+[83/132] Building translation po/kk/LC_MESSAGES/parole-kk.mo
+[84/132] Building translation po/ms/LC_MESSAGES/parole-ms.mo
+[85/132] Building translation po/nn/LC_MESSAGES/parole-nn.mo
+[86/132] Building translation po/nl/LC_MESSAGES/parole-nl.mo
+[87/132] Building translation po/nb/LC_MESSAGES/parole-nb.mo
+[88/132] Building translation po/oc/LC_MESSAGES/parole-oc.mo
+[89/132] Building translation po/pt_BR/LC_MESSAGES/parole-pt_BR.mo
+[90/132] Building translation po/ru/LC_MESSAGES/parole-ru.mo
+[91/132] Building translation po/ro/LC_MESSAGES/parole-ro.mo
+[92/132] Building translation po/pl/LC_MESSAGES/parole-pl.mo
+[93/132] Building translation po/pt/LC_MESSAGES/parole-pt.mo
+[94/132] Building translation po/sk/LC_MESSAGES/parole-sk.mo
+[95/132] Building translation po/sl/LC_MESSAGES/parole-sl.mo
+[96/132] Building translation po/sq/LC_MESSAGES/parole-sq.mo
+[97/132] Compiling C object src/parole.p/parole-button.c.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkx.h:28,
+                 from ../src/parole-button.c:43:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[98/132] Building translation po/sr/LC_MESSAGES/parole-sr.mo
+[99/132] Building translation po/sv/LC_MESSAGES/parole-sv.mo
+[100/132] Building translation po/ug/LC_MESSAGES/parole-ug.mo
+[101/132] Building translation po/zh_TW/LC_MESSAGES/parole-zh_TW.mo
+[102/132] Building translation po/te/LC_MESSAGES/parole-te.mo
+[103/132] Building translation po/tr/LC_MESSAGES/parole-tr.mo
+[104/132] Building translation po/th/LC_MESSAGES/parole-th.mo
+[105/132] Building translation po/uk/LC_MESSAGES/parole-uk.mo
+[106/132] Building translation po/zh_CN/LC_MESSAGES/parole-zh_CN.mo
+[107/132] Compiling C object src/parole.p/main.c.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/main.c:37:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[108/132] Linking target src/plugins/sample/sample-plugin.so
+[109/132] Compiling C object src/parole.p/parole-module.c.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/misc/parole-provider-plugin.h:30,
+                 from ../src/parole-module.c:33:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[110/132] Compiling C object src/parole.p/parole-open-location.c.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/parole-builder.h:27,
+                 from ../src/parole-open-location.c:35:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[111/132] Compiling C object src/parole.p/parole-disc.c.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/parole-disc.c:41:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[112/132] Compiling C object src/parole.p/parole-mediachooser.c.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/parole-mediachooser.c:31:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[113/132] Linking target src/plugins/tray/tray-icon.so
+[114/132] Linking target src/misc/libparole.so
+[115/132] Compiling C object src/parole.p/parole-conf-dialog.c.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/gst/parole-gst.h:28,
+                 from ../src/parole-conf-dialog.c:31:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[116/132] Linking target src/plugins/mpris2/parole-mpris2.so
+[117/132] Linking target src/plugins/notify/parole-notify.so
+[118/132] Compiling C object src/parole.p/parole-conf.c.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/gst/parole-gst.h:28,
+                 from ../src/parole-conf.c:37:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[119/132] Compiling C object src/parole.p/parole-subtitle-encoding.c.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/parole-subtitle-encoding.h:33,
+                 from ../src/parole-subtitle-encoding.c:41:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[120/132] Compiling C object src/parole.p/parole-shortcuts.c.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/parole-builder.h:27,
+                 from ../src/parole-shortcuts.c:33:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[121/132] Compiling C object src/parole.p/parole-plugin-player.c.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/gst/parole-gst.h:28,
+                 from ../src/parole-plugin-player.c:33:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[122/132] Merging translations for src/plugins/notify/notify.desktop
+[123/132] Merging translations for src/plugins/mpris2/mpris2.desktop
+[124/132] Merging translations for src/plugins/tray/system-tray.desktop
+[125/132] Compiling C object src/parole.p/parole-plugins-manager.c.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/parole-plugins-manager.c:32:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[126/132] Compiling C object src/parole.p/parole-utils.c.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/misc/parole-filters.h:30,
+                 from ./src/misc/parole.h:34,
+                 from ../src/parole-utils.c:49:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[127/132] Compiling C object src/gst/libparolegst.a.p/parole-gst.c.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/gst/parole-gst.c:46:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+../src/gst/parole-gst.c: In function 'parole_gst_realize':
+../src/gst/parole-gst.c:249:5: warning: 'gdk_window_set_background_rgba' is deprecated [-Wdeprecated-declarations]
+  249 |     gdk_window_set_background_rgba(gtk_widget_get_window(widget), &color);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/gtk-3.0/gdk/gdkseat.h:28,
+                 from /usr/include/gtk-3.0/gdk/gdkdisplay.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkscreen.h:32,
+                 from /usr/include/gtk-3.0/gdk/gdkapplaunchcontext.h:31,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:32:
+/usr/include/gtk-3.0/gdk/gdkwindow.h:787:15: note: declared here
+  787 | void          gdk_window_set_background_rgba (GdkWindow     *window,
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[128/132] Linking static target src/gst/libparolegst.a
+[129/132] Compiling C object src/parole.p/parole-medialist.c.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/parole-medialist.c:33:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[130/132] Compiling C object src/parole.p/parole-player.c.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkx.h:28,
+                 from ../src/parole-player.c:36:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[131/132] Linking target src/parole
+[131/132] Installing files
+Installing data/desktop/org.xfce.Parole.desktop to /pkgs/parole/usr/share/applications
+Installing data/metainfo/parole.appdata.xml to /pkgs/parole/usr/share/metainfo
+Installing po/ar/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/ar/LC_MESSAGES
+Installing po/ast/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/ast/LC_MESSAGES
+Installing po/be/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/be/LC_MESSAGES
+Installing po/bg/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/bg/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/ca/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/cs/LC_MESSAGES
+Installing po/da/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/de/LC_MESSAGES
+Installing po/el/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/el/LC_MESSAGES
+Installing po/en_AU/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/en_AU/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/en_GB/LC_MESSAGES
+Installing po/es/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/es/LC_MESSAGES
+Installing po/et/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/et/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/eu/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/fr/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/gl/LC_MESSAGES
+Installing po/he/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/he/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/hu/LC_MESSAGES
+Installing po/hy_AM/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/hy_AM/LC_MESSAGES
+Installing po/hye/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/hye/LC_MESSAGES
+Installing po/id/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/id/LC_MESSAGES
+Installing po/ie/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/ie/LC_MESSAGES
+Installing po/is/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/is/LC_MESSAGES
+Installing po/it/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/it/LC_MESSAGES
+Installing po/ja/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/ja/LC_MESSAGES
+Installing po/kk/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/kk/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/ko/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/lt/LC_MESSAGES
+Installing po/lv/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/lv/LC_MESSAGES
+Installing po/ms/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/ms/LC_MESSAGES
+Installing po/nb/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/nb/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/nl/LC_MESSAGES
+Installing po/nn/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/nn/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/oc/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/pl/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/pt/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/ru/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/sl/LC_MESSAGES
+Installing po/sq/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/sq/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/sr/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/sv/LC_MESSAGES
+Installing po/te/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/te/LC_MESSAGES
+Installing po/th/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/th/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/tr/LC_MESSAGES
+Installing po/ug/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/ug/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/uk/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/parole.mo to /pkgs/parole/usr/share/locale/zh_TW/LC_MESSAGES
+Installing src/plugins/mpris2/parole-mpris2.so to /pkgs/parole/usr/lib/parole-0
+Installing src/plugins/mpris2/mpris2.desktop to /pkgs/parole/usr/share/parole/parole-plugins-0
+Installing src/plugins/notify/parole-notify.so to /pkgs/parole/usr/lib/parole-0
+Installing src/plugins/notify/notify.desktop to /pkgs/parole/usr/share/parole/parole-plugins-0
+Installing src/plugins/tray/tray-icon.so to /pkgs/parole/usr/lib/parole-0
+Installing src/plugins/tray/system-tray.desktop to /pkgs/parole/usr/share/parole/parole-plugins-0
+Installing src/parole to /pkgs/parole/usr/bin
+Installing /blfs/builds/parole-4.20.0/src/misc/parole-debug.h to /pkgs/parole/usr/include/parole
+Installing /blfs/builds/parole-4.20.0/src/misc/parole-file.h to /pkgs/parole/usr/include/parole
+Installing /blfs/builds/parole-4.20.0/src/misc/parole-filters.h to /pkgs/parole/usr/include/parole
+Installing /blfs/builds/parole-4.20.0/src/misc/parole-pl-parser.h to /pkgs/parole/usr/include/parole
+Installing /blfs/builds/parole-4.20.0/src/misc/parole-provider-player.h to /pkgs/parole/usr/include/parole
+Installing /blfs/builds/parole-4.20.0/src/misc/parole-provider-plugin.h to /pkgs/parole/usr/include/parole
+Installing /blfs/builds/parole-4.20.0/src/misc/parole-stream.h to /pkgs/parole/usr/include/parole
+Installing /blfs/builds/parole-4.20.0/build/src/misc/parole.h to /pkgs/parole/usr/include/parole
+Installing /blfs/builds/parole-4.20.0/data/icons/16x16/org.xfce.parole.png to /pkgs/parole/usr/share/icons/hicolor/16x16/apps
+Installing /blfs/builds/parole-4.20.0/data/icons/24x24/org.xfce.parole.png to /pkgs/parole/usr/share/icons/hicolor/24x24/apps
+Installing /blfs/builds/parole-4.20.0/data/icons/32x32/org.xfce.parole.png to /pkgs/parole/usr/share/icons/hicolor/32x32/apps
+Installing /blfs/builds/parole-4.20.0/data/icons/48x48/org.xfce.parole.png to /pkgs/parole/usr/share/icons/hicolor/48x48/apps
+Installing /blfs/builds/parole-4.20.0/data/icons/64x64/org.xfce.parole.png to /pkgs/parole/usr/share/icons/hicolor/64x64/apps
+Installing /blfs/builds/parole-4.20.0/data/icons/96x96/org.xfce.parole.png to /pkgs/parole/usr/share/icons/hicolor/96x96/apps
+Installing /blfs/builds/parole-4.20.0/data/icons/128x128/org.xfce.parole.png to /pkgs/parole/usr/share/icons/hicolor/128x128/apps
+Installing /blfs/builds/parole-4.20.0/data/icons/16x16/parole-extension.png to /pkgs/parole/usr/share/icons/hicolor/16x16/apps
+Installing /blfs/builds/parole-4.20.0/data/icons/48x48/parole-extension.png to /pkgs/parole/usr/share/icons/hicolor/48x48/apps
+Installing /blfs/builds/parole-4.20.0/data/icons/16x16/parole-extension-symbolic.svg to /pkgs/parole/usr/share/icons/hicolor/16x16/apps
+Installing /blfs/builds/parole-4.20.0/data/icons/scalable/org.xfce.parole.svg to /pkgs/parole/usr/share/icons/hicolor/scalable/apps
+Installing /blfs/builds/parole-4.20.0/data/pixmaps/no-cover.png to /pkgs/parole/usr/share/parole/pixmaps
+Installing /blfs/builds/parole-4.20.0/data/pixmaps/play.png to /pkgs/parole/usr/share/parole/pixmaps
+Installing /blfs/builds/parole-4.20.0/data/pixmaps/replay.png to /pkgs/parole/usr/share/parole/pixmaps
+[1/5] Generating xfce-revision.h with a custom command
+fatal: not a git repository (or any of the parent directories): .git
+[1/2] Installing files
+Installing data/desktop/org.xfce.Parole.desktop to /usr/share/applications
+Installing data/metainfo/parole.appdata.xml to /usr/share/metainfo
+Installing po/ar/LC_MESSAGES/parole.mo to /usr/share/locale/ar/LC_MESSAGES
+Installing po/ast/LC_MESSAGES/parole.mo to /usr/share/locale/ast/LC_MESSAGES
+Installing po/be/LC_MESSAGES/parole.mo to /usr/share/locale/be/LC_MESSAGES
+Installing po/bg/LC_MESSAGES/parole.mo to /usr/share/locale/bg/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/parole.mo to /usr/share/locale/ca/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/parole.mo to /usr/share/locale/cs/LC_MESSAGES
+Installing po/da/LC_MESSAGES/parole.mo to /usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/parole.mo to /usr/share/locale/de/LC_MESSAGES
+Installing po/el/LC_MESSAGES/parole.mo to /usr/share/locale/el/LC_MESSAGES
+Installing po/en_AU/LC_MESSAGES/parole.mo to /usr/share/locale/en_AU/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/parole.mo to /usr/share/locale/en_GB/LC_MESSAGES
+Installing po/es/LC_MESSAGES/parole.mo to /usr/share/locale/es/LC_MESSAGES
+Installing po/et/LC_MESSAGES/parole.mo to /usr/share/locale/et/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/parole.mo to /usr/share/locale/eu/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/parole.mo to /usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/parole.mo to /usr/share/locale/fr/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/parole.mo to /usr/share/locale/gl/LC_MESSAGES
+Installing po/he/LC_MESSAGES/parole.mo to /usr/share/locale/he/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/parole.mo to /usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/parole.mo to /usr/share/locale/hu/LC_MESSAGES
+Installing po/hy_AM/LC_MESSAGES/parole.mo to /usr/share/locale/hy_AM/LC_MESSAGES
+Installing po/hye/LC_MESSAGES/parole.mo to /usr/share/locale/hye/LC_MESSAGES
+Installing po/id/LC_MESSAGES/parole.mo to /usr/share/locale/id/LC_MESSAGES
+Installing po/ie/LC_MESSAGES/parole.mo to /usr/share/locale/ie/LC_MESSAGES
+Installing po/is/LC_MESSAGES/parole.mo to /usr/share/locale/is/LC_MESSAGES
+Installing po/it/LC_MESSAGES/parole.mo to /usr/share/locale/it/LC_MESSAGES
+Installing po/ja/LC_MESSAGES/parole.mo to /usr/share/locale/ja/LC_MESSAGES
+Installing po/kk/LC_MESSAGES/parole.mo to /usr/share/locale/kk/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/parole.mo to /usr/share/locale/ko/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/parole.mo to /usr/share/locale/lt/LC_MESSAGES
+Installing po/lv/LC_MESSAGES/parole.mo to /usr/share/locale/lv/LC_MESSAGES
+Installing po/ms/LC_MESSAGES/parole.mo to /usr/share/locale/ms/LC_MESSAGES
+Installing po/nb/LC_MESSAGES/parole.mo to /usr/share/locale/nb/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/parole.mo to /usr/share/locale/nl/LC_MESSAGES
+Installing po/nn/LC_MESSAGES/parole.mo to /usr/share/locale/nn/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/parole.mo to /usr/share/locale/oc/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/parole.mo to /usr/share/locale/pl/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/parole.mo to /usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/parole.mo to /usr/share/locale/pt/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/parole.mo to /usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/parole.mo to /usr/share/locale/ru/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/parole.mo to /usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/parole.mo to /usr/share/locale/sl/LC_MESSAGES
+Installing po/sq/LC_MESSAGES/parole.mo to /usr/share/locale/sq/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/parole.mo to /usr/share/locale/sr/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/parole.mo to /usr/share/locale/sv/LC_MESSAGES
+Installing po/te/LC_MESSAGES/parole.mo to /usr/share/locale/te/LC_MESSAGES
+Installing po/th/LC_MESSAGES/parole.mo to /usr/share/locale/th/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/parole.mo to /usr/share/locale/tr/LC_MESSAGES
+Installing po/ug/LC_MESSAGES/parole.mo to /usr/share/locale/ug/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/parole.mo to /usr/share/locale/uk/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/parole.mo to /usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/parole.mo to /usr/share/locale/zh_TW/LC_MESSAGES
+Installing src/plugins/mpris2/parole-mpris2.so to /usr/lib/parole-0
+Installing src/plugins/mpris2/mpris2.desktop to /usr/share/parole/parole-plugins-0
+Installing src/plugins/notify/parole-notify.so to /usr/lib/parole-0
+Installing src/plugins/notify/notify.desktop to /usr/share/parole/parole-plugins-0
+Installing src/plugins/tray/tray-icon.so to /usr/lib/parole-0
+Installing src/plugins/tray/system-tray.desktop to /usr/share/parole/parole-plugins-0
+Installing src/parole to /usr/bin
+Installing /blfs/builds/parole-4.20.0/src/misc/parole-debug.h to /usr/include/parole
+Installing /blfs/builds/parole-4.20.0/src/misc/parole-file.h to /usr/include/parole
+Installing /blfs/builds/parole-4.20.0/src/misc/parole-filters.h to /usr/include/parole
+Installing /blfs/builds/parole-4.20.0/src/misc/parole-pl-parser.h to /usr/include/parole
+Installing /blfs/builds/parole-4.20.0/src/misc/parole-provider-player.h to /usr/include/parole
+Installing /blfs/builds/parole-4.20.0/src/misc/parole-provider-plugin.h to /usr/include/parole
+Installing /blfs/builds/parole-4.20.0/src/misc/parole-stream.h to /usr/include/parole
+Installing /blfs/builds/parole-4.20.0/build/src/misc/parole.h to /usr/include/parole
+Installing /blfs/builds/parole-4.20.0/data/icons/16x16/org.xfce.parole.png to /usr/share/icons/hicolor/16x16/apps
+Installing /blfs/builds/parole-4.20.0/data/icons/24x24/org.xfce.parole.png to /usr/share/icons/hicolor/24x24/apps
+Installing /blfs/builds/parole-4.20.0/data/icons/32x32/org.xfce.parole.png to /usr/share/icons/hicolor/32x32/apps
+Installing /blfs/builds/parole-4.20.0/data/icons/48x48/org.xfce.parole.png to /usr/share/icons/hicolor/48x48/apps
+Installing /blfs/builds/parole-4.20.0/data/icons/64x64/org.xfce.parole.png to /usr/share/icons/hicolor/64x64/apps
+Installing /blfs/builds/parole-4.20.0/data/icons/96x96/org.xfce.parole.png to /usr/share/icons/hicolor/96x96/apps
+Installing /blfs/builds/parole-4.20.0/data/icons/128x128/org.xfce.parole.png to /usr/share/icons/hicolor/128x128/apps
+Installing /blfs/builds/parole-4.20.0/data/icons/16x16/parole-extension.png to /usr/share/icons/hicolor/16x16/apps
+Installing /blfs/builds/parole-4.20.0/data/icons/48x48/parole-extension.png to /usr/share/icons/hicolor/48x48/apps
+Installing /blfs/builds/parole-4.20.0/data/icons/16x16/parole-extension-symbolic.svg to /usr/share/icons/hicolor/16x16/apps
+Installing /blfs/builds/parole-4.20.0/data/icons/scalable/org.xfce.parole.svg to /usr/share/icons/hicolor/scalable/apps
+Installing /blfs/builds/parole-4.20.0/data/pixmaps/no-cover.png to /usr/share/parole/pixmaps
+Installing /blfs/builds/parole-4.20.0/data/pixmaps/play.png to /usr/share/parole/pixmaps
+Installing /blfs/builds/parole-4.20.0/data/pixmaps/replay.png to /usr/share/parole/pixmaps
+parole/
+parole/usr/
+parole/usr/share/
+parole/usr/share/metainfo/
+parole/usr/share/metainfo/parole.appdata.xml
+parole/usr/share/locale/
+parole/usr/share/locale/be/
+parole/usr/share/locale/be/LC_MESSAGES/
+parole/usr/share/locale/be/LC_MESSAGES/parole.mo
+parole/usr/share/locale/ca/
+parole/usr/share/locale/ca/LC_MESSAGES/
+parole/usr/share/locale/ca/LC_MESSAGES/parole.mo
+parole/usr/share/locale/eu/
+parole/usr/share/locale/eu/LC_MESSAGES/
+parole/usr/share/locale/eu/LC_MESSAGES/parole.mo
+parole/usr/share/locale/en_GB/
+parole/usr/share/locale/en_GB/LC_MESSAGES/
+parole/usr/share/locale/en_GB/LC_MESSAGES/parole.mo
+parole/usr/share/locale/uk/
+parole/usr/share/locale/uk/LC_MESSAGES/
+parole/usr/share/locale/uk/LC_MESSAGES/parole.mo
+parole/usr/share/locale/it/
+parole/usr/share/locale/it/LC_MESSAGES/
+parole/usr/share/locale/it/LC_MESSAGES/parole.mo
+parole/usr/share/locale/ug/
+parole/usr/share/locale/ug/LC_MESSAGES/
+parole/usr/share/locale/ug/LC_MESSAGES/parole.mo
+parole/usr/share/locale/he/
+parole/usr/share/locale/he/LC_MESSAGES/
+parole/usr/share/locale/he/LC_MESSAGES/parole.mo
+parole/usr/share/locale/de/
+parole/usr/share/locale/de/LC_MESSAGES/
+parole/usr/share/locale/de/LC_MESSAGES/parole.mo
+parole/usr/share/locale/pt/
+parole/usr/share/locale/pt/LC_MESSAGES/
+parole/usr/share/locale/pt/LC_MESSAGES/parole.mo
+parole/usr/share/locale/kk/
+parole/usr/share/locale/kk/LC_MESSAGES/
+parole/usr/share/locale/kk/LC_MESSAGES/parole.mo
+parole/usr/share/locale/en_AU/
+parole/usr/share/locale/en_AU/LC_MESSAGES/
+parole/usr/share/locale/en_AU/LC_MESSAGES/parole.mo
+parole/usr/share/locale/ast/
+parole/usr/share/locale/ast/LC_MESSAGES/
+parole/usr/share/locale/ast/LC_MESSAGES/parole.mo
+parole/usr/share/locale/es/
+parole/usr/share/locale/es/LC_MESSAGES/
+parole/usr/share/locale/es/LC_MESSAGES/parole.mo
+parole/usr/share/locale/da/
+parole/usr/share/locale/da/LC_MESSAGES/
+parole/usr/share/locale/da/LC_MESSAGES/parole.mo
+parole/usr/share/locale/zh_CN/
+parole/usr/share/locale/zh_CN/LC_MESSAGES/
+parole/usr/share/locale/zh_CN/LC_MESSAGES/parole.mo
+parole/usr/share/locale/ko/
+parole/usr/share/locale/ko/LC_MESSAGES/
+parole/usr/share/locale/ko/LC_MESSAGES/parole.mo
+parole/usr/share/locale/nb/
+parole/usr/share/locale/nb/LC_MESSAGES/
+parole/usr/share/locale/nb/LC_MESSAGES/parole.mo
+parole/usr/share/locale/hr/
+parole/usr/share/locale/hr/LC_MESSAGES/
+parole/usr/share/locale/hr/LC_MESSAGES/parole.mo
+parole/usr/share/locale/sr/
+parole/usr/share/locale/sr/LC_MESSAGES/
+parole/usr/share/locale/sr/LC_MESSAGES/parole.mo
+parole/usr/share/locale/pt_BR/
+parole/usr/share/locale/pt_BR/LC_MESSAGES/
+parole/usr/share/locale/pt_BR/LC_MESSAGES/parole.mo
+parole/usr/share/locale/nn/
+parole/usr/share/locale/nn/LC_MESSAGES/
+parole/usr/share/locale/nn/LC_MESSAGES/parole.mo
+parole/usr/share/locale/tr/
+parole/usr/share/locale/tr/LC_MESSAGES/
+parole/usr/share/locale/tr/LC_MESSAGES/parole.mo
+parole/usr/share/locale/ie/
+parole/usr/share/locale/ie/LC_MESSAGES/
+parole/usr/share/locale/ie/LC_MESSAGES/parole.mo
+parole/usr/share/locale/sk/
+parole/usr/share/locale/sk/LC_MESSAGES/
+parole/usr/share/locale/sk/LC_MESSAGES/parole.mo
+parole/usr/share/locale/et/
+parole/usr/share/locale/et/LC_MESSAGES/
+parole/usr/share/locale/et/LC_MESSAGES/parole.mo
+parole/usr/share/locale/ms/
+parole/usr/share/locale/ms/LC_MESSAGES/
+parole/usr/share/locale/ms/LC_MESSAGES/parole.mo
+parole/usr/share/locale/sq/
+parole/usr/share/locale/sq/LC_MESSAGES/
+parole/usr/share/locale/sq/LC_MESSAGES/parole.mo
+parole/usr/share/locale/te/
+parole/usr/share/locale/te/LC_MESSAGES/
+parole/usr/share/locale/te/LC_MESSAGES/parole.mo
+parole/usr/share/locale/gl/
+parole/usr/share/locale/gl/LC_MESSAGES/
+parole/usr/share/locale/gl/LC_MESSAGES/parole.mo
+parole/usr/share/locale/pl/
+parole/usr/share/locale/pl/LC_MESSAGES/
+parole/usr/share/locale/pl/LC_MESSAGES/parole.mo
+parole/usr/share/locale/sl/
+parole/usr/share/locale/sl/LC_MESSAGES/
+parole/usr/share/locale/sl/LC_MESSAGES/parole.mo
+parole/usr/share/locale/fi/
+parole/usr/share/locale/fi/LC_MESSAGES/
+parole/usr/share/locale/fi/LC_MESSAGES/parole.mo
+parole/usr/share/locale/is/
+parole/usr/share/locale/is/LC_MESSAGES/
+parole/usr/share/locale/is/LC_MESSAGES/parole.mo
+parole/usr/share/locale/ar/
+parole/usr/share/locale/ar/LC_MESSAGES/
+parole/usr/share/locale/ar/LC_MESSAGES/parole.mo
+parole/usr/share/locale/zh_TW/
+parole/usr/share/locale/zh_TW/LC_MESSAGES/
+parole/usr/share/locale/zh_TW/LC_MESSAGES/parole.mo
+parole/usr/share/locale/nl/
+parole/usr/share/locale/nl/LC_MESSAGES/
+parole/usr/share/locale/nl/LC_MESSAGES/parole.mo
+parole/usr/share/locale/oc/
+parole/usr/share/locale/oc/LC_MESSAGES/
+parole/usr/share/locale/oc/LC_MESSAGES/parole.mo
+parole/usr/share/locale/fr/
+parole/usr/share/locale/fr/LC_MESSAGES/
+parole/usr/share/locale/fr/LC_MESSAGES/parole.mo
+parole/usr/share/locale/hy_AM/
+parole/usr/share/locale/hy_AM/LC_MESSAGES/
+parole/usr/share/locale/hy_AM/LC_MESSAGES/parole.mo
+parole/usr/share/locale/ro/
+parole/usr/share/locale/ro/LC_MESSAGES/
+parole/usr/share/locale/ro/LC_MESSAGES/parole.mo
+parole/usr/share/locale/lt/
+parole/usr/share/locale/lt/LC_MESSAGES/
+parole/usr/share/locale/lt/LC_MESSAGES/parole.mo
+parole/usr/share/locale/cs/
+parole/usr/share/locale/cs/LC_MESSAGES/
+parole/usr/share/locale/cs/LC_MESSAGES/parole.mo
+parole/usr/share/locale/sv/
+parole/usr/share/locale/sv/LC_MESSAGES/
+parole/usr/share/locale/sv/LC_MESSAGES/parole.mo
+parole/usr/share/locale/hye/
+parole/usr/share/locale/hye/LC_MESSAGES/
+parole/usr/share/locale/hye/LC_MESSAGES/parole.mo
+parole/usr/share/locale/el/
+parole/usr/share/locale/el/LC_MESSAGES/
+parole/usr/share/locale/el/LC_MESSAGES/parole.mo
+parole/usr/share/locale/ja/
+parole/usr/share/locale/ja/LC_MESSAGES/
+parole/usr/share/locale/ja/LC_MESSAGES/parole.mo
+parole/usr/share/locale/id/
+parole/usr/share/locale/id/LC_MESSAGES/
+parole/usr/share/locale/id/LC_MESSAGES/parole.mo
+parole/usr/share/locale/hu/
+parole/usr/share/locale/hu/LC_MESSAGES/
+parole/usr/share/locale/hu/LC_MESSAGES/parole.mo
+parole/usr/share/locale/bg/
+parole/usr/share/locale/bg/LC_MESSAGES/
+parole/usr/share/locale/bg/LC_MESSAGES/parole.mo
+parole/usr/share/locale/ru/
+parole/usr/share/locale/ru/LC_MESSAGES/
+parole/usr/share/locale/ru/LC_MESSAGES/parole.mo
+parole/usr/share/locale/lv/
+parole/usr/share/locale/lv/LC_MESSAGES/
+parole/usr/share/locale/lv/LC_MESSAGES/parole.mo
+parole/usr/share/locale/th/
+parole/usr/share/locale/th/LC_MESSAGES/
+parole/usr/share/locale/th/LC_MESSAGES/parole.mo
+parole/usr/share/applications/
+parole/usr/share/applications/org.xfce.Parole.desktop
+parole/usr/share/parole/
+parole/usr/share/parole/parole-plugins-0/
+parole/usr/share/parole/parole-plugins-0/notify.desktop
+parole/usr/share/parole/parole-plugins-0/mpris2.desktop
+parole/usr/share/parole/parole-plugins-0/system-tray.desktop
+parole/usr/share/parole/pixmaps/
+parole/usr/share/parole/pixmaps/no-cover.png
+parole/usr/share/parole/pixmaps/play.png
+parole/usr/share/parole/pixmaps/replay.png
+parole/usr/share/icons/
+parole/usr/share/icons/hicolor/
+parole/usr/share/icons/hicolor/24x24/
+parole/usr/share/icons/hicolor/24x24/apps/
+parole/usr/share/icons/hicolor/24x24/apps/org.xfce.parole.png
+parole/usr/share/icons/hicolor/48x48/
+parole/usr/share/icons/hicolor/48x48/apps/
+parole/usr/share/icons/hicolor/48x48/apps/parole-extension.png
+parole/usr/share/icons/hicolor/48x48/apps/org.xfce.parole.png
+parole/usr/share/icons/hicolor/64x64/
+parole/usr/share/icons/hicolor/64x64/apps/
+parole/usr/share/icons/hicolor/64x64/apps/org.xfce.parole.png
+parole/usr/share/icons/hicolor/32x32/
+parole/usr/share/icons/hicolor/32x32/apps/
+parole/usr/share/icons/hicolor/32x32/apps/org.xfce.parole.png
+parole/usr/share/icons/hicolor/128x128/
+parole/usr/share/icons/hicolor/128x128/apps/
+parole/usr/share/icons/hicolor/128x128/apps/org.xfce.parole.png
+parole/usr/share/icons/hicolor/96x96/
+parole/usr/share/icons/hicolor/96x96/apps/
+parole/usr/share/icons/hicolor/96x96/apps/org.xfce.parole.png
+parole/usr/share/icons/hicolor/scalable/
+parole/usr/share/icons/hicolor/scalable/apps/
+parole/usr/share/icons/hicolor/scalable/apps/org.xfce.parole.svg
+parole/usr/share/icons/hicolor/16x16/
+parole/usr/share/icons/hicolor/16x16/apps/
+parole/usr/share/icons/hicolor/16x16/apps/parole-extension.png
+parole/usr/share/icons/hicolor/16x16/apps/org.xfce.parole.png
+parole/usr/share/icons/hicolor/16x16/apps/parole-extension-symbolic.svg
+parole/usr/lib/
+parole/usr/lib/parole-0/
+parole/usr/lib/parole-0/parole-mpris2.so
+parole/usr/lib/parole-0/tray-icon.so
+parole/usr/lib/parole-0/parole-notify.so
+parole/usr/include/
+parole/usr/include/parole/
+parole/usr/include/parole/parole-provider-plugin.h
+parole/usr/include/parole/parole-debug.h
+parole/usr/include/parole/parole-pl-parser.h
+parole/usr/include/parole/parole-provider-player.h
+parole/usr/include/parole/parole-stream.h
+parole/usr/include/parole/parole-file.h
+parole/usr/include/parole/parole.h
+parole/usr/include/parole/parole-filters.h
+parole/usr/bin/
+parole/usr/bin/parole
+parole/version
+parole/depends
+parole/make-depends

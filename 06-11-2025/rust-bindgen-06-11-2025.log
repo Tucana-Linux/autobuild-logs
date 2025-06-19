@@ -1,0 +1,1571 @@
+--2025-06-11 08:45:29--  https://github.com/rust-lang/rust-bindgen/archive/v0.69.4/rust-bindgen-0.69.4.tar.gz
+Resolving github.com (github.com)... 140.82.113.3
+Connecting to github.com (github.com)|140.82.113.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://codeload.github.com/rust-lang/rust-bindgen/tar.gz/refs/tags/v0.69.4 [following]
+--2025-06-11 08:45:29--  https://codeload.github.com/rust-lang/rust-bindgen/tar.gz/refs/tags/v0.69.4
+Resolving codeload.github.com (codeload.github.com)... 140.82.112.9
+Connecting to codeload.github.com (codeload.github.com)|140.82.112.9|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/x-gzip]
+Saving to: 'rust-bindgen-0.69.4.tar.gz'
+
+     0K .......... .......... .......... .......... .......... 2.11M
+    50K .......... .......... .......... .......... .......... 4.07M
+   100K .......... .......... .......... .......... .......... 99.0M
+   150K .......... .......... .......... .......... ..........  140M
+   200K .......... .......... .......... .......... .......... 4.17M
+   250K .......... .......... .......... .......... ..........  198M
+   300K .......... .......... .......... .......... .......... 94.4M
+   350K .......... .......... .......... .......... ..........  170M
+   400K .......... .......... .......... .......... .......... 4.52M
+   450K .......... .......... .......... .......... ..........  149M
+   500K .......... .......... .......... .......... .......... 2.60M
+   550K .......... .......... .......... .......... ..........  141M
+   600K .......... .......... .......... .......... .......... 92.3M
+   650K .......... .......... .......... .......... ..........  128M
+   700K .......... .......... .......... .......... ..........  118M
+   750K .......... .......... .......... .......... .......... 1.56M
+   800K .......... .......... .......... .......... ..........  331M
+   850K .......... .......... .......... .......... .......... 68.8M
+   900K .......... .......... .......... .......... ..........  120M
+   950K .......... .......... .......... .......... ..........  128M
+  1000K .......... .......... .......... .......... .......... 1.51M
+  1050K .......... .......... .......... .......... ..........  126M
+  1100K .......... .......... .......... .......... ..........  352M
+  1150K .......... .......... .......... .......... ..........  109M
+  1200K .......... .......... .......... .......... .......... 94.8M
+  1250K .......... .......... .......... .......... .......... 5.66M
+  1300K .......... .......... .......... .......... ..........  326M
+  1350K .......... .......... .......... .......... .......... 83.9M
+  1400K .......... .......... .......... .......... ..........  117M
+  1450K .......... .......... .......... .......... ..........  178M
+  1500K .......... .......... .......... .......... .......... 5.68M
+  1550K .......... .......... .......... .......... ..........  105M
+  1600K .......... .......... .......... .......... .......... 73.2M
+  1650K .......... .......... .......... .......... ..........  133M
+  1700K .......... .......... .......... .......... ..........  177M
+  1750K .......... .......... .......... .......... .......... 5.17M
+  1800K .......... .......... .......... .......... .......... 88.1M
+  1850K .......... .......... .......... .......... ..........  121M
+  1900K .......... .......... .......... .......... ..........  131M
+  1950K .......... .......... .......... .......... .......... 97.9M
+  2000K .......... .......... .......... .......... .......... 6.45M
+  2050K .......... .......... .......... .......... ..........  145M
+  2100K .......... .......... .......... .......... .......... 92.6M
+  2150K .......... .......... .......... .......... ..........  114M
+  2200K .......... .......... .......... .......... ..........  111M
+  2250K ..........                                             11.3M=0.2s
+
+2025-06-11 08:45:30 (11.7 MB/s) - 'rust-bindgen-0.69.4.tar.gz' saved [2314307]
+
+rust-bindgen-0.69.4/
+rust-bindgen-0.69.4/.gitattributes
+rust-bindgen-0.69.4/.github/
+rust-bindgen-0.69.4/.github/ISSUE_TEMPLATE.md
+rust-bindgen-0.69.4/.github/workflows/
+rust-bindgen-0.69.4/.github/workflows/bindgen.yml
+rust-bindgen-0.69.4/.github/workflows/deploy-book.yml
+rust-bindgen-0.69.4/.github/workflows/publish.yml
+rust-bindgen-0.69.4/.github/workflows/release.yml
+rust-bindgen-0.69.4/.gitignore
+rust-bindgen-0.69.4/CHANGELOG.md
+rust-bindgen-0.69.4/CONTRIBUTING.md
+rust-bindgen-0.69.4/Cargo.lock
+rust-bindgen-0.69.4/Cargo.toml
+rust-bindgen-0.69.4/LICENSE
+rust-bindgen-0.69.4/README.md
+rust-bindgen-0.69.4/appveyor.yml
+rust-bindgen-0.69.4/bindgen-cli/
+rust-bindgen-0.69.4/bindgen-cli/Cargo.toml
+rust-bindgen-0.69.4/bindgen-cli/LICENSE
+rust-bindgen-0.69.4/bindgen-cli/main.rs
+rust-bindgen-0.69.4/bindgen-cli/options.rs
+rust-bindgen-0.69.4/bindgen-integration/
+rust-bindgen-0.69.4/bindgen-integration/.gitattributes
+rust-bindgen-0.69.4/bindgen-integration/Cargo.toml
+rust-bindgen-0.69.4/bindgen-integration/build.rs
+rust-bindgen-0.69.4/bindgen-integration/cpp/
+rust-bindgen-0.69.4/bindgen-integration/cpp/Test.cc
+rust-bindgen-0.69.4/bindgen-integration/cpp/Test.h
+rust-bindgen-0.69.4/bindgen-integration/include/
+rust-bindgen-0.69.4/bindgen-integration/include/stub.h
+rust-bindgen-0.69.4/bindgen-integration/src/
+rust-bindgen-0.69.4/bindgen-integration/src/lib.rs
+rust-bindgen-0.69.4/bindgen-tests/
+rust-bindgen-0.69.4/bindgen-tests/Cargo.toml
+rust-bindgen-0.69.4/bindgen-tests/build.rs
+rust-bindgen-0.69.4/bindgen-tests/src/
+rust-bindgen-0.69.4/bindgen-tests/src/lib.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/
+rust-bindgen-0.69.4/bindgen-tests/tests/.gitattributes
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/Cargo.toml
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/build.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/lib.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/rustfmt.toml
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/src/
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/src/lib.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/struct_with_anon_struct_array_float.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/.gitattributes
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/16-byte-alignment.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/16-byte-alignment_1_0.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/381-decltype-alias.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/abi-override.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/abi_variadic_function.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/accessors.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/alias_comments.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/allowlist-file.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/allowlist-namespaces-basic.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/allowlist-namespaces.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/allowlist_basic.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/allowlist_fix.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/allowlist_item.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/allowlist_vars.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/allowlist_warnings.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/allowlisted-item-references-no-hash.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/allowlisted-item-references-no-partialeq.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/allowlisted_item_references_no_copy.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/annotation_hide.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/anon-fields-prefix.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/anon_enum.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/anon_enum_allowlist.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/anon_enum_trait.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/anon_struct_in_union.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/anon_struct_in_union_1_0.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/anon_union.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/anon_union_1_0.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/anonymous-template-types.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/arg_keyword.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/array-of-zero-sized-types.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/attribute_warn_unused_result.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/attribute_warn_unused_result_no_attribute_detection.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/attribute_warn_unused_result_pre_1_27.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/auto.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/bad-namespace-parenthood-inheritance.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/base-to-derived.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/bindgen-union-inside-namespace.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/bitfield-32bit-overflow.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/bitfield-enum-basic.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/bitfield-enum-repr-c.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/bitfield-enum-repr-transparent.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/bitfield-large.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/bitfield-linux-32.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/bitfield-method-same-name.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/bitfield_align.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/bitfield_align_2.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/bitfield_large_overflow.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/bitfield_method_mangling.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/bitfield_pragma_packed.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/block_return_type.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/blocklist-and-impl-debug.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/blocklist-file.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/blocklist-function.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/blocklist-item.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/blocklist-methods.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/blocklist-var.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/blocks-signature.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/blocks.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/bug-1529681.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/builtin-template.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/c-empty-layout.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/c-unwind-abi-override.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/c_naming.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/call-conv-field.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/call-conv-typedef.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/canonical-types.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/canonical_path_without_namespacing.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/char.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/class.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/class_1_0.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/class_nested.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/class_no_members.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/class_static.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/class_static_const.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/class_use_as.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/class_with_dtor.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/class_with_inner_struct.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/class_with_inner_struct_1_0.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/class_with_typedef.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/comment-indent.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/complex.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/complex_global.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/const-const-mut-ptr.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/const_array.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/const_array_fn_arg.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/const_bool.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/const_enum_unnamed.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/const_multidim_array_fn_arg.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/const_ptr.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/const_resolved_ty.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/const_tparam.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/constant-evaluate.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/constant-non-specialized-tp.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/constified-enum-module-overflow.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/constify-all-enums.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/constify-enum.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/constify-module-enums-basic.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/constify-module-enums-namespace.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/constify-module-enums-shadow-name.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/constify-module-enums-simple-alias.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/constify-module-enums-simple-nonamespace.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/constify-module-enums-types.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/constructor-tp.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/constructors.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/constructors_1_33.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/contains-vs-inherits-zero-sized.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/convert-cpp-comment-to-rust.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/convert-floats.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/core_ffi_c.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/cpp-empty-layout.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/crtp.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/ctypes-prefix-path.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/dash_language.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/decl_extern_int_twice.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/decl_ptr_to_array.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/default-enum-style-constified-module.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/default-macro-constant-type-signed.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/default-macro-constant-type-unsigned.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/default-macro-constant-type.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/default-template-parameter.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/default_visibility_crate.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/default_visibility_private.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/default_visibility_private_respects_cxx_access_spec.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/deleted-function.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/derive-bitfield-method-same-name.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/derive-clone.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/derive-clone_1_0.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/derive-custom-cli.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/derive-custom.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/derive-debug-bitfield-core.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/derive-debug-bitfield.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/derive-debug-function-pointer.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/derive-debug-generic.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/derive-debug-mangle-name.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/derive-debug-opaque-template-instantiation.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/derive-debug-opaque.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/derive-default-and-blocklist.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/derive-fn-ptr.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/derive-hash-and-blocklist.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/derive-hash-blocklisting.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/derive-hash-struct-with-anon-struct-float.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/derive-hash-struct-with-float-array.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/derive-hash-struct-with-incomplete-array.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/derive-hash-struct-with-pointer.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/derive-hash-template-def-float.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/derive-hash-template-inst-float.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/derive-partialeq-and-blocklist.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/derive-partialeq-anonfield.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/derive-partialeq-base.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/derive-partialeq-bitfield.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/derive-partialeq-core.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/derive-partialeq-pointer.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/derive-partialeq-union.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/derive-partialeq-union_1_0.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/disable-namespacing.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/disable-nested-struct-naming.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/disable-untagged-union.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/divide-by-zero-in-struct-layout.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/do-not-derive-copy.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/doggo-or-null.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/dupe-enum-variant-in-namespace.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/duplicated-definition-count.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/duplicated-namespaces-definitions.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/duplicated-namespaces.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/duplicated_constants_in_ns.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/dynamic_loading_attributes.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/dynamic_loading_required.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/dynamic_loading_simple.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/dynamic_loading_template.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/dynamic_loading_with_allowlist.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/dynamic_loading_with_blocklist.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/dynamic_loading_with_class.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/elaborated.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/empty-enum.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/empty-union.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/empty_template_param_name.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/enum-default-bitfield.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/enum-default-consts.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/enum-default-module.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/enum-default-rust.d
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/enum-default-rust.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/enum-doc-bitfield.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/enum-doc-mod.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/enum-doc-rusty.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/enum-doc.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/enum-no-debug-rust.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/enum-translate-type.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/enum-typedef.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/enum-undefault.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/enum-variant-replaces.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/enum.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/enum_alias.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/enum_and_vtable_mangling.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/enum_dupe.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/enum_explicit_type.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/enum_explicit_type_constants.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/enum_in_template.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/enum_in_template_with_typedef.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/enum_negative.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/enum_packed.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/error-E0600-cannot-apply-unary-negation-to-u32.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/eval-value-dependent.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/eval-variadic-template-parameter.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/explicit-padding.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/extern-const-struct.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/extern.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/field-visibility-callback.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/field-visibility.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/fit-macro-constant-types-signed.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/fit-macro-constant-types.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/float128.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/float16.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/forward-declaration-autoptr.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/forward-enum-decl.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/forward-inherit-struct-with-fields.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/forward-inherit-struct.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/forward_declared_complex_types.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/forward_declared_complex_types_1_0.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/forward_declared_opaque.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/forward_declared_struct.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/func_proto.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/func_ptr.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/func_ptr_in_struct.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/func_ptr_return_type.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/func_return_must_use.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/func_with_array_arg.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/func_with_func_ptr_arg.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/function-typedef-stdcall.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/gen-constructors-neg.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/gen-constructors.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/gen-destructors-neg.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/gen-destructors.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/generate-inline.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/generated/
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/generated/README.md
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/generated/wrap_static_fns.c
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/i128.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/in_class_typedef.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/incomplete-array-padding.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/infinite-macro.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/inherit-from-template-instantiation-with-vtable.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/inherit-namespaced.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/inherit_multiple_interfaces.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/inherit_named.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/inherit_typedef.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/inline-function.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/inline_namespace.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/inline_namespace_allowlist.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/inline_namespace_conservative.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/inline_namespace_nested.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/inline_namespace_no_ns_enabled.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/inner-typedef-gh422.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/inner_const.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/inner_template_self.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/int128_t.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-1025-unknown-enum-repr.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-1034.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-1040.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-1076-unnamed-bitfield-alignment.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-1113-template-references.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-1118-using-forward-decl.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-1197-pure-virtual-stuff.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-1198-alias-rust-bitfield-enum.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-1198-alias-rust-const-mod-bitfield-enum.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-1198-alias-rust-const-mod-enum.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-1198-alias-rust-enum.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-1216-variadic-member.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-1238-fwd-no-copy.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-1281.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-1285.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-1291.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-1350-attribute-overloadable.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-1375-prefixed-functions.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-1382-rust-primitive-types.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-1435.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-1443.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-1454.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-1464.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-1488-enum-new-type.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-1488-options.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-1488-template-alias-new-type.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-1498.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-1514.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-1554.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-1599-opaque-typedef-to-enum.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-1676-macro-namespace-prefix.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-1947.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-1977-larger-arrays.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-1995.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-2019.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-2239-template-dependent-bit-width.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-2556.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-2566-cstr.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-2566.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-2695.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-358.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-372.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-410.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-446.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-447.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-493.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-493_1_0.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-511.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-537-repr-packed-n.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-537.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-544-stylo-creduce-2.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-544-stylo-creduce.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-569-non-type-template-params-causing-layout-test-failures.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-573-layout-test-failures.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-574-assertion-failure-in-codegen.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-584-stylo-template-analysis-panic.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-638-stylo-cannot-find-T-in-this-scope.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-639-typedef-anon-field.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-643-inner-struct.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-645-cannot-find-type-T-in-this-scope.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-648-derive-debug-with-padding.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-654-struct-fn-collision.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-662-cannot-find-T-in-this-scope.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-662-part-2.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-674-1.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-674-2.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-674-3.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-677-nested-ns-specifier.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-691-template-parameter-virtual.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-710-must-use-type.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-739-pointer-wide-bitfield.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-769-bad-instantiation-test.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-801-opaque-sloppiness.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-807-opaque-types-methods-being-generated.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-816.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-820-unused-template-param-in-alias.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-826-generating-methods-when-asked-not-to.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-833-1.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-833-2.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-833.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-834.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-848-replacement-system-include.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-888-enum-var-decl-jump.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-944-derive-copy-and-blocklisting.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue-946.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue_311.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/issue_315.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/jsval_layout_opaque.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/jsval_layout_opaque_1_0.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/keywords.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/layout.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/layout_align.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/layout_arp.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/layout_array.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/layout_array_too_long.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/layout_cmdline_token.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/layout_eth_conf.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/layout_eth_conf_1_0.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/layout_kni_mbuf.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/layout_large_align_field.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/layout_mbuf.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/layout_mbuf_1_0.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/libclang-9/
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/libclang-9/constified-enum-module-overflow.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/libclang-9/issue-544-stylo-creduce-2.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/libclang-9/ptr32-has-different-size.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/libclang-9/struct_typedef_ns.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/libclang_version_specific_generated_tests.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/long_double.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/macro-expr-basic.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/macro-expr-uncommon-token.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/macro-redef.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/macro_const.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/macro_const_1_0.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/maddness-is-avoidable.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/mangling-ios.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/mangling-linux32.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/mangling-linux64.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/mangling-macos.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/mangling-win32.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/mangling-win64.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/merge-extern-blocks.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/method-mangling.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/module-allowlisted.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/msvc-no-usr.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/multiple-inherit-empty-correct-layout.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/mutable.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/namespace.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/nested-template-typedef.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/nested.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/nested_vtable.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/nested_within_namespace.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/newtype-enum.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/newtype-global-enum.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/no-comments.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/no-derive-debug.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/no-derive-default.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/no-hash-allowlisted.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/no-hash-opaque.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/no-partialeq-allowlisted.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/no-partialeq-opaque.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/no-recursive-allowlisting.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/no-std.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/no_copy.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/no_copy_allowlisted.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/no_copy_opaque.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/no_debug.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/no_debug_allowlisted.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/no_debug_bypass_impl_debug.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/no_debug_opaque.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/no_default.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/no_default_allowlisted.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/no_default_bypass_derive_default.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/no_default_opaque.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/no_size_t_is_usize.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/non-type-params.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/noreturn.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/nsBaseHashtable.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/nsStyleAutoArray.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/objc_allowlist.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/objc_blocklist.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/objc_category.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/objc_class.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/objc_class_method.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/objc_escape.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/objc_inheritance.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/objc_interface.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/objc_interface_type.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/objc_method.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/objc_method_clash.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/objc_pointer_return_types.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/objc_property_fnptr.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/objc_protocol.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/objc_protocol_inheritance.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/objc_sel_and_id.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/objc_template.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/only_bitfields.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/opaque-template-inst-member-2.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/opaque-template-inst-member.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/opaque-template-instantiation-namespaced.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/opaque-template-instantiation.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/opaque-tracing.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/opaque_in_struct.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/opaque_pointer.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/opaque_typedef.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/operator.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/ord-enum.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/overflowed_enum.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/overloading.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/packed-bitfield.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/packed-n-with-padding.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/packed-vtable.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/parm-union.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/parsecb-anonymous-enum-variant-rename.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/partial-specialization-and-inheritance.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/pointer-attr.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/prefix-link-name-c.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/prefix-link-name-cpp.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/prepend-enum-constified-variant.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/prepend_enum_name.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/private.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/private_fields.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/ptr32-has-different-size.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/public-dtor.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/qualified-dependent-types.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/redeclaration.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/redundant-packed-and-align.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/ref_argument_array.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/reparented_replacement.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/replace_template_alias.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/replace_use.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/replaces_double.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/repr-align.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/resolved_type_def_function.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/same_struct_name_in_different_namespaces.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/sentry-defined-multiple-times.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/short-enums.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/size_t_template.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/sort-items.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/sorted_items.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/stdint_typedef.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/strings_array.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/strings_cstr.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/struct_containing_forward_declared_struct.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/struct_typedef.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/struct_typedef_ns.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/struct_with_anon_struct.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/struct_with_anon_struct_array.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/struct_with_anon_struct_pointer.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/struct_with_anon_union.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/struct_with_anon_union_1_0.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/struct_with_anon_unnamed_struct.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/struct_with_anon_unnamed_union.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/struct_with_anon_unnamed_union_1_0.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/struct_with_bitfields.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/struct_with_derive_debug.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/struct_with_large_array.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/struct_with_nesting.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/struct_with_nesting_1_0.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/struct_with_packing.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/struct_with_struct.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/struct_with_typedef_template_arg.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/template-fun-ty.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/template-param-usage-0.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/template-param-usage-1.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/template-param-usage-10.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/template-param-usage-11.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/template-param-usage-12.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/template-param-usage-13.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/template-param-usage-14.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/template-param-usage-15.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/template-param-usage-2.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/template-param-usage-3.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/template-param-usage-4.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/template-param-usage-5.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/template-param-usage-6.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/template-param-usage-7.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/template-param-usage-8.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/template-param-usage-9.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/template-with-var.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/template.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/template_alias.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/template_alias_basic.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/template_alias_namespace.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/template_fun.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/template_instantiation_with_fn_local_type.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/template_partial_specification.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/template_typedef_transitive_param.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/template_typedefs.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/templateref_opaque.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/templatized-bitfield.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/test_mixed_header_and_header_contents.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/test_multiple_header_calls_in_builder.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/timex.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/transform-op.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/type-referenced-by-allowlisted-function.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/type_alias_empty.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/type_alias_partial_template_especialization.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/type_alias_template_specialized.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/typedef-pointer-overlap.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/typedefd-array-as-function-arg.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/typeref.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/typeref_1_0.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/underscore.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/union-align.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/union-in-ns.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/union-in-ns_1_0.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/union_bitfield.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/union_bitfield_1_0.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/union_dtor.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/union_dtor_1_0.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/union_fields.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/union_fields_1_0.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/union_template.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/union_template_1_0.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/union_with_anon_struct.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/union_with_anon_struct_1_0.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/union_with_anon_struct_bitfield.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/union_with_anon_struct_bitfield_1_0.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/union_with_anon_union.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/union_with_anon_union_1_0.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/union_with_anon_unnamed_struct.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/union_with_anon_unnamed_struct_1_0.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/union_with_anon_unnamed_union.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/union_with_anon_unnamed_union_1_0.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/union_with_big_member.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/union_with_big_member_1_0.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/union_with_nesting.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/union_with_nesting_1_0.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/union_with_non_copy_member.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/unknown_attr.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/unsorted-items.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/use-core.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/use-core_1_0.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/using.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/var-tracing.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/variadic-method.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/variadic_template_function.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/vector.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/virtual_dtor.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/virtual_inheritance.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/virtual_interface.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/virtual_overloaded.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/void_typedef.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/vtable_recursive_sig.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/wasm-constructor-returns.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/wasm-import-module.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/weird_bitfields.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/what_is_going_on.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/win32-dtors.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/win32-thiscall_1_0.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/win32-thiscall_1_73.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/win32-thiscall_nightly.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/win32-vectorcall-1_0.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/win32-vectorcall-nightly.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/with_array_pointers_arguments.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/without_array_pointers_arguments.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/wrap-static-fns.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/wrap_unsafe_ops_anon_union_1_0.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/wrap_unsafe_ops_class.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/wrap_unsafe_ops_dynamic_loading_simple.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/wrap_unsafe_ops_objc_class.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/zero-size-array-align.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/expectations/tests/zero-sized-array.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/16-byte-alignment.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/16-byte-alignment_1_0.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/381-decltype-alias.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/abi-override.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/abi_variadic_function.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/accessors.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/alias_comments.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/allowlist-file.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/allowlist-namespaces-basic.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/allowlist-namespaces.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/allowlist_basic.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/allowlist_fix.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/allowlist_item.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/allowlist_vars.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/allowlist_warnings.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/allowlisted-item-references-no-hash.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/allowlisted-item-references-no-partialeq.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/allowlisted/
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/allowlisted/file.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/allowlisted_item_references_no_copy.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/annotation_hide.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/anon-fields-prefix.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/anon_enum.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/anon_enum_allowlist.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/anon_enum_trait.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/anon_struct_in_union.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/anon_struct_in_union_1_0.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/anon_union.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/anon_union_1_0.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/anonymous-template-types.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/arg_keyword.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/array-of-zero-sized-types.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/attribute_warn_unused_result.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/attribute_warn_unused_result_no_attribute_detection.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/attribute_warn_unused_result_pre_1_27.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/auto.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/bad-namespace-parenthood-inheritance.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/base-to-derived.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/bindgen-union-inside-namespace.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/bitfield-32bit-overflow.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/bitfield-enum-basic.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/bitfield-enum-repr-c.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/bitfield-enum-repr-transparent.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/bitfield-large.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/bitfield-linux-32.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/bitfield-method-same-name.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/bitfield_align.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/bitfield_align_2.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/bitfield_large_overflow.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/bitfield_method_mangling.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/bitfield_pragma_packed.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/block_return_type.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/blocklist-and-impl-debug.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/blocklist-file.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/blocklist-function.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/blocklist-item.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/blocklist-methods.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/blocklist-var.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/blocklisted/
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/blocklisted/fake-stdint.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/blocklisted/file.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/blocks-signature.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/blocks.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/bug-1529681.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/builtin-template.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/c-empty-layout.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/c-unwind-abi-override.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/c_naming.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/call-conv-field.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/call-conv-typedef.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/canonical-types.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/canonical_path_without_namespacing.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/char.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/class.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/class_1_0.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/class_nested.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/class_no_members.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/class_static.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/class_static_const.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/class_use_as.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/class_with_dtor.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/class_with_inner_struct.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/class_with_inner_struct_1_0.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/class_with_typedef.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/comment-indent.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/complex.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/complex_global.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/const-const-mut-ptr.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/const_array.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/const_array_fn_arg.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/const_bool.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/const_enum_unnamed.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/const_multidim_array_fn_arg.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/const_ptr.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/const_resolved_ty.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/const_tparam.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/constant-evaluate.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/constant-non-specialized-tp.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/constified-enum-module-overflow.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/constify-all-enums.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/constify-enum.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/constify-module-enums-basic.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/constify-module-enums-namespace.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/constify-module-enums-shadow-name.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/constify-module-enums-simple-alias.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/constify-module-enums-simple-nonamespace.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/constify-module-enums-types.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/constructor-tp.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/constructors.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/constructors_1_33.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/contains-vs-inherits-zero-sized.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/convert-cpp-comment-to-rust.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/convert-floats.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/core_ffi_c.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/cpp-empty-layout.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/crtp.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/ctypes-prefix-path.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/dash_language.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/decl_extern_int_twice.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/decl_ptr_to_array.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/default-enum-style-constified-module.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/default-macro-constant-type-signed.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/default-macro-constant-type-unsigned.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/default-macro-constant-type.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/default-template-parameter.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/default_visibility_crate.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/default_visibility_private.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/default_visibility_private_respects_cxx_access_spec.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/deleted-function.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/derive-bitfield-method-same-name.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/derive-clone.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/derive-clone_1_0.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/derive-custom-cli.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/derive-custom.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/derive-debug-bitfield-core.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/derive-debug-bitfield.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/derive-debug-function-pointer.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/derive-debug-generic.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/derive-debug-mangle-name.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/derive-debug-opaque-template-instantiation.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/derive-debug-opaque.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/derive-default-and-blocklist.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/derive-fn-ptr.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/derive-hash-and-blocklist.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/derive-hash-blocklisting.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/derive-hash-struct-with-anon-struct-float.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/derive-hash-struct-with-float-array.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/derive-hash-struct-with-incomplete-array.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/derive-hash-struct-with-pointer.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/derive-hash-template-def-float.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/derive-hash-template-inst-float.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/derive-partialeq-and-blocklist.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/derive-partialeq-anonfield.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/derive-partialeq-base.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/derive-partialeq-bitfield.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/derive-partialeq-core.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/derive-partialeq-pointer.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/derive-partialeq-union.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/derive-partialeq-union_1_0.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/disable-namespacing.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/disable-nested-struct-naming.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/disable-untagged-union.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/divide-by-zero-in-struct-layout.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/do-not-derive-copy.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/doggo-or-null.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/dupe-enum-variant-in-namespace.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/duplicated-definition-count.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/duplicated-namespaces-definitions.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/duplicated-namespaces.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/duplicated_constants_in_ns.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/dynamic_loading_attributes.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/dynamic_loading_required.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/dynamic_loading_simple.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/dynamic_loading_template.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/dynamic_loading_with_allowlist.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/dynamic_loading_with_blocklist.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/dynamic_loading_with_class.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/elaborated.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/empty-enum.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/empty-union.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/empty_template_param_name.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/enum-default-bitfield.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/enum-default-consts.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/enum-default-module.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/enum-default-rust.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/enum-doc-bitfield.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/enum-doc-mod.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/enum-doc-rusty.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/enum-doc.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/enum-no-debug-rust.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/enum-translate-type.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/enum-typedef.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/enum-undefault.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/enum-variant-replaces.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/enum.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/enum_alias.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/enum_and_vtable_mangling.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/enum_dupe.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/enum_explicit_type.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/enum_explicit_type_constants.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/enum_in_template.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/enum_in_template_with_typedef.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/enum_negative.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/enum_packed.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/error-E0600-cannot-apply-unary-negation-to-u32.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/eval-value-dependent.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/eval-variadic-template-parameter.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/explicit-padding.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/extern-const-struct.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/extern.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/field-visibility-callback.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/field-visibility.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/fit-macro-constant-types-signed.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/fit-macro-constant-types.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/float128.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/float16.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/forward-declaration-autoptr.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/forward-enum-decl.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/forward-inherit-struct-with-fields.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/forward-inherit-struct.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/forward_declared_complex_types.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/forward_declared_complex_types_1_0.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/forward_declared_opaque.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/forward_declared_struct.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/func_proto.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/func_ptr.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/func_ptr_in_struct.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/func_ptr_return_type.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/func_return_must_use.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/func_with_array_arg.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/func_with_func_ptr_arg.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/function-typedef-stdcall.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/gen-constructors-neg.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/gen-constructors.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/gen-destructors-neg.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/gen-destructors.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/generate-inline.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/i128.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/in_class_typedef.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/incomplete-array-padding.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/infinite-macro.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/inherit-from-template-instantiation-with-vtable.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/inherit-namespaced.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/inherit_multiple_interfaces.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/inherit_named.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/inherit_typedef.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/inline-function.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/inline_namespace.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/inline_namespace_allowlist.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/inline_namespace_conservative.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/inline_namespace_nested.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/inline_namespace_no_ns_enabled.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/inner-typedef-gh422.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/inner_const.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/inner_template_self.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/int128_t.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-1025-unknown-enum-repr.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-1034.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-1040.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-1076-unnamed-bitfield-alignment.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-1113-template-references.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-1118-using-forward-decl.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-1197-pure-virtual-stuff.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-1198-alias-rust-bitfield-enum.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-1198-alias-rust-const-mod-bitfield-enum.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-1198-alias-rust-const-mod-enum.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-1198-alias-rust-enum.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-1216-variadic-member.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-1238-fwd-no-copy.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-1281.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-1285.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-1291.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-1350-attribute-overloadable.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-1375-prefixed-functions.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-1382-rust-primitive-types.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-1435.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-1443.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-1454.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-1464.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-1488-enum-new-type.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-1488-options.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-1488-template-alias-new-type.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-1498.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-1514.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-1554.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-1599-opaque-typedef-to-enum.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-1676-macro-namespace-prefix.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-1947.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-1977-larger-arrays.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-1995.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-2019.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-2239-template-dependent-bit-width.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-2556.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-2556/
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-2556/LayoutConstants.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-2556/nsSize.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-2556/nsStyleStruct.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-2566-cstr.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-2566.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-2695.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-358.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-372.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-410.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-446.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-447.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-493.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-493_1_0.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-511.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-537-repr-packed-n.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-537.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-544-stylo-creduce-2.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-544-stylo-creduce.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-569-non-type-template-params-causing-layout-test-failures.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-573-layout-test-failures.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-574-assertion-failure-in-codegen.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-584-stylo-template-analysis-panic.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-638-stylo-cannot-find-T-in-this-scope.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-639-typedef-anon-field.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-643-inner-struct.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-645-cannot-find-type-T-in-this-scope.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-648-derive-debug-with-padding.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-654-struct-fn-collision.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-662-cannot-find-T-in-this-scope.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-662-part-2.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-674-1.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-674-2.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-674-3.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-677-nested-ns-specifier.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-691-template-parameter-virtual.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-710-must-use-type.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-739-pointer-wide-bitfield.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-769-bad-instantiation-test.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-801-opaque-sloppiness.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-807-opaque-types-methods-being-generated.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-816.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-820-unused-template-param-in-alias.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-826-generating-methods-when-asked-not-to.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-833-1.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-833-2.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-833.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-834.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-848-replacement-system-include.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-848/
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-848/an-include.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-888-enum-var-decl-jump.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-944-derive-copy-and-blocklisting.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue-946.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue_311.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/issue_315.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/jsval_layout_opaque.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/jsval_layout_opaque_1_0.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/keywords.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/layout.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/layout_align.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/layout_arp.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/layout_array.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/layout_array_too_long.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/layout_cmdline_token.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/layout_eth_conf.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/layout_eth_conf_1_0.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/layout_kni_mbuf.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/layout_large_align_field.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/layout_mbuf.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/layout_mbuf_1_0.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/long_double.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/macro-expr-basic.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/macro-expr-uncommon-token.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/macro-redef.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/macro_const.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/macro_const_1_0.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/maddness-is-avoidable.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/mangling-ios.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/mangling-linux32.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/mangling-linux64.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/mangling-macos.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/mangling-win32.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/mangling-win64.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/merge-extern-blocks.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/method-mangling.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/module-allowlisted.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/msvc-no-usr.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/multiple-inherit-empty-correct-layout.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/mutable.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/namespace.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/namespace/
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/namespace/nsbegin.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/namespace/nsend.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/nested-template-typedef.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/nested.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/nested_vtable.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/nested_within_namespace.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/newtype-enum.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/newtype-global-enum.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/no-comments.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/no-derive-debug.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/no-derive-default.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/no-hash-allowlisted.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/no-hash-opaque.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/no-partialeq-allowlisted.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/no-partialeq-opaque.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/no-recursive-allowlisting.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/no-std.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/no_copy.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/no_copy_allowlisted.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/no_copy_opaque.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/no_debug.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/no_debug_allowlisted.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/no_debug_bypass_impl_debug.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/no_debug_opaque.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/no_default.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/no_default_allowlisted.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/no_default_bypass_derive_default.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/no_default_opaque.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/no_size_t_is_usize.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/non-type-params.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/noreturn.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/nsBaseHashtable.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/nsStyleAutoArray.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/objc_allowlist.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/objc_blocklist.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/objc_category.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/objc_class.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/objc_class_method.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/objc_escape.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/objc_inheritance.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/objc_interface.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/objc_interface_type.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/objc_method.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/objc_method_clash.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/objc_pointer_return_types.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/objc_property_fnptr.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/objc_protocol.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/objc_protocol_inheritance.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/objc_sel_and_id.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/objc_template.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/only_bitfields.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/opaque-template-inst-member-2.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/opaque-template-inst-member.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/opaque-template-instantiation-namespaced.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/opaque-template-instantiation.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/opaque-tracing.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/opaque_in_struct.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/opaque_pointer.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/opaque_typedef.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/operator.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/ord-enum.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/overflowed_enum.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/overloading.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/packed-bitfield.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/packed-n-with-padding.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/packed-vtable.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/parm-union.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/parsecb-anonymous-enum-variant-rename.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/partial-specialization-and-inheritance.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/pointer-attr.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/prefix-link-name-c.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/prefix-link-name-cpp.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/prepend-enum-constified-variant.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/prepend_enum_name.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/private.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/private_fields.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/ptr32-has-different-size.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/public-dtor.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/qualified-dependent-types.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/redeclaration.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/redundant-packed-and-align.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/ref_argument_array.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/reparented_replacement.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/replace_template_alias.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/replace_use.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/replaces_double.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/repr-align.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/resolved_type_def_function.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/same_struct_name_in_different_namespaces.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/sentry-defined-multiple-times.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/short-enums.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/size_t_template.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/sorted_items.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/stdint_typedef.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/strings_array.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/strings_cstr.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/struct_containing_forward_declared_struct.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/struct_typedef.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/struct_typedef_ns.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/struct_with_anon_struct.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/struct_with_anon_struct_array.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/struct_with_anon_struct_pointer.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/struct_with_anon_union.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/struct_with_anon_union_1_0.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/struct_with_anon_unnamed_struct.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/struct_with_anon_unnamed_union.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/struct_with_anon_unnamed_union_1_0.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/struct_with_bitfields.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/struct_with_derive_debug.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/struct_with_large_array.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/struct_with_nesting.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/struct_with_nesting_1_0.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/struct_with_packing.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/struct_with_struct.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/struct_with_typedef_template_arg.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/template-fun-ty.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/template-param-usage-0.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/template-param-usage-1.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/template-param-usage-10.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/template-param-usage-11.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/template-param-usage-12.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/template-param-usage-13.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/template-param-usage-14.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/template-param-usage-15.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/template-param-usage-2.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/template-param-usage-3.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/template-param-usage-4.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/template-param-usage-5.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/template-param-usage-6.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/template-param-usage-7.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/template-param-usage-8.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/template-param-usage-9.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/template-with-var.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/template.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/template_alias.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/template_alias_basic.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/template_alias_namespace.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/template_fun.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/template_instantiation_with_fn_local_type.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/template_partial_specification.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/template_typedef_transitive_param.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/template_typedefs.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/templateref_opaque.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/templatized-bitfield.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/timex.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/transform-op.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/type-referenced-by-allowlisted-function.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/type_alias_empty.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/type_alias_partial_template_especialization.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/type_alias_template_specialized.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/typedef-pointer-overlap.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/typedefd-array-as-function-arg.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/typeref.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/typeref_1_0.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/underscore.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/union-align.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/union-in-ns.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/union-in-ns_1_0.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/union_bitfield.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/union_bitfield_1_0.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/union_dtor.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/union_dtor_1_0.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/union_fields.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/union_fields_1_0.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/union_template.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/union_template_1_0.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/union_with_anon_struct.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/union_with_anon_struct_1_0.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/union_with_anon_struct_bitfield.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/union_with_anon_struct_bitfield_1_0.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/union_with_anon_union.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/union_with_anon_union_1_0.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/union_with_anon_unnamed_struct.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/union_with_anon_unnamed_struct_1_0.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/union_with_anon_unnamed_union.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/union_with_anon_unnamed_union_1_0.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/union_with_big_member.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/union_with_big_member_1_0.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/union_with_nesting.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/union_with_nesting_1_0.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/union_with_non_copy_member.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/unknown_attr.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/unsorted-items.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/use-core.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/use-core_1_0.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/using.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/var-tracing.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/variadic-method.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/variadic_template_function.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/vector.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/virtual_dtor.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/virtual_inheritance.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/virtual_interface.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/virtual_overloaded.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/void_typedef.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/vtable_recursive_sig.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/wasm-constructor-returns.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/wasm-import-module.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/weird_bitfields.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/what_is_going_on.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/win32-dtors.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/win32-thiscall_1_0.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/win32-thiscall_1_73.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/win32-thiscall_nightly.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/win32-vectorcall-1_0.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/win32-vectorcall-nightly.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/with_array_pointers_arguments.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/without_array_pointers_arguments.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/wrap-static-fns.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/wrap_unsafe_ops_anon_union_1_0.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/wrap_unsafe_ops_class.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/wrap_unsafe_ops_dynamic_loading_simple.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/wrap_unsafe_ops_objc_class.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/zero-size-array-align.h
+rust-bindgen-0.69.4/bindgen-tests/tests/headers/zero-sized-array.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/parse_callbacks/
+rust-bindgen-0.69.4/bindgen-tests/tests/parse_callbacks/mod.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/quickchecking/
+rust-bindgen-0.69.4/bindgen-tests/tests/quickchecking/.gitignore
+rust-bindgen-0.69.4/bindgen-tests/tests/quickchecking/Cargo.toml
+rust-bindgen-0.69.4/bindgen-tests/tests/quickchecking/README.md
+rust-bindgen-0.69.4/bindgen-tests/tests/quickchecking/src/
+rust-bindgen-0.69.4/bindgen-tests/tests/quickchecking/src/bin.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/quickchecking/src/fuzzers.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/quickchecking/src/lib.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/quickchecking/tests/
+rust-bindgen-0.69.4/bindgen-tests/tests/quickchecking/tests/fuzzed-c-headers.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/rustfmt.toml
+rust-bindgen-0.69.4/bindgen-tests/tests/stylo.hpp
+rust-bindgen-0.69.4/bindgen-tests/tests/stylo_sanity.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/test-one.sh
+rust-bindgen-0.69.4/bindgen-tests/tests/tests.rs
+rust-bindgen-0.69.4/bindgen-tests/tests/uses/
+rust-bindgen-0.69.4/bindgen-tests/tests/uses/.gitignore
+rust-bindgen-0.69.4/bindgen/
+rust-bindgen-0.69.4/bindgen/Cargo.toml
+rust-bindgen-0.69.4/bindgen/LICENSE
+rust-bindgen-0.69.4/bindgen/build.rs
+rust-bindgen-0.69.4/bindgen/callbacks.rs
+rust-bindgen-0.69.4/bindgen/clang.rs
+rust-bindgen-0.69.4/bindgen/codegen/
+rust-bindgen-0.69.4/bindgen/codegen/bitfield_unit.rs
+rust-bindgen-0.69.4/bindgen/codegen/bitfield_unit_tests.rs
+rust-bindgen-0.69.4/bindgen/codegen/dyngen.rs
+rust-bindgen-0.69.4/bindgen/codegen/error.rs
+rust-bindgen-0.69.4/bindgen/codegen/helpers.rs
+rust-bindgen-0.69.4/bindgen/codegen/impl_debug.rs
+rust-bindgen-0.69.4/bindgen/codegen/impl_partialeq.rs
+rust-bindgen-0.69.4/bindgen/codegen/mod.rs
+rust-bindgen-0.69.4/bindgen/codegen/postprocessing/
+rust-bindgen-0.69.4/bindgen/codegen/postprocessing/merge_extern_blocks.rs
+rust-bindgen-0.69.4/bindgen/codegen/postprocessing/mod.rs
+rust-bindgen-0.69.4/bindgen/codegen/postprocessing/sort_semantically.rs
+rust-bindgen-0.69.4/bindgen/codegen/serialize.rs
+rust-bindgen-0.69.4/bindgen/codegen/struct_layout.rs
+rust-bindgen-0.69.4/bindgen/deps.rs
+rust-bindgen-0.69.4/bindgen/diagnostics.rs
+rust-bindgen-0.69.4/bindgen/extra_assertions.rs
+rust-bindgen-0.69.4/bindgen/features.rs
+rust-bindgen-0.69.4/bindgen/ir/
+rust-bindgen-0.69.4/bindgen/ir/analysis/
+rust-bindgen-0.69.4/bindgen/ir/analysis/derive.rs
+rust-bindgen-0.69.4/bindgen/ir/analysis/has_destructor.rs
+rust-bindgen-0.69.4/bindgen/ir/analysis/has_float.rs
+rust-bindgen-0.69.4/bindgen/ir/analysis/has_type_param_in_array.rs
+rust-bindgen-0.69.4/bindgen/ir/analysis/has_vtable.rs
+rust-bindgen-0.69.4/bindgen/ir/analysis/mod.rs
+rust-bindgen-0.69.4/bindgen/ir/analysis/sizedness.rs
+rust-bindgen-0.69.4/bindgen/ir/analysis/template_params.rs
+rust-bindgen-0.69.4/bindgen/ir/annotations.rs
+rust-bindgen-0.69.4/bindgen/ir/comment.rs
+rust-bindgen-0.69.4/bindgen/ir/comp.rs
+rust-bindgen-0.69.4/bindgen/ir/context.rs
+rust-bindgen-0.69.4/bindgen/ir/derive.rs
+rust-bindgen-0.69.4/bindgen/ir/dot.rs
+rust-bindgen-0.69.4/bindgen/ir/enum_ty.rs
+rust-bindgen-0.69.4/bindgen/ir/function.rs
+rust-bindgen-0.69.4/bindgen/ir/int.rs
+rust-bindgen-0.69.4/bindgen/ir/item.rs
+rust-bindgen-0.69.4/bindgen/ir/item_kind.rs
+rust-bindgen-0.69.4/bindgen/ir/layout.rs
+rust-bindgen-0.69.4/bindgen/ir/mod.rs
+rust-bindgen-0.69.4/bindgen/ir/module.rs
+rust-bindgen-0.69.4/bindgen/ir/objc.rs
+rust-bindgen-0.69.4/bindgen/ir/template.rs
+rust-bindgen-0.69.4/bindgen/ir/traversal.rs
+rust-bindgen-0.69.4/bindgen/ir/ty.rs
+rust-bindgen-0.69.4/bindgen/ir/var.rs
+rust-bindgen-0.69.4/bindgen/lib.rs
+rust-bindgen-0.69.4/bindgen/log_stubs.rs
+rust-bindgen-0.69.4/bindgen/options/
+rust-bindgen-0.69.4/bindgen/options/as_args.rs
+rust-bindgen-0.69.4/bindgen/options/helpers.rs
+rust-bindgen-0.69.4/bindgen/options/mod.rs
+rust-bindgen-0.69.4/bindgen/parse.rs
+rust-bindgen-0.69.4/bindgen/regex_set.rs
+rust-bindgen-0.69.4/bindgen/time.rs
+rust-bindgen-0.69.4/book/
+rust-bindgen-0.69.4/book/.gitignore
+rust-bindgen-0.69.4/book/book.toml
+rust-bindgen-0.69.4/book/src/
+rust-bindgen-0.69.4/book/src/SUMMARY.md
+rust-bindgen-0.69.4/book/src/allowlisting.md
+rust-bindgen-0.69.4/book/src/blocklisting.md
+rust-bindgen-0.69.4/book/src/code-formatting.md
+rust-bindgen-0.69.4/book/src/command-line-usage.md
+rust-bindgen-0.69.4/book/src/cpp.md
+rust-bindgen-0.69.4/book/src/customizing-generated-bindings.md
+rust-bindgen-0.69.4/book/src/faq.md
+rust-bindgen-0.69.4/book/src/introduction.md
+rust-bindgen-0.69.4/book/src/library-usage.md
+rust-bindgen-0.69.4/book/src/must-use-types.md
+rust-bindgen-0.69.4/book/src/nocopy.md
+rust-bindgen-0.69.4/book/src/nodebug.md
+rust-bindgen-0.69.4/book/src/nodefault.md
+rust-bindgen-0.69.4/book/src/non-system-libraries.md
+rust-bindgen-0.69.4/book/src/objc.md
+rust-bindgen-0.69.4/book/src/opaque.md
+rust-bindgen-0.69.4/book/src/replacing-types.md
+rust-bindgen-0.69.4/book/src/requirements.md
+rust-bindgen-0.69.4/book/src/tutorial-0.md
+rust-bindgen-0.69.4/book/src/tutorial-1.md
+rust-bindgen-0.69.4/book/src/tutorial-2.md
+rust-bindgen-0.69.4/book/src/tutorial-3.md
+rust-bindgen-0.69.4/book/src/tutorial-4.md
+rust-bindgen-0.69.4/book/src/tutorial-5.md
+rust-bindgen-0.69.4/book/src/tutorial-6.md
+rust-bindgen-0.69.4/book/src/using-bitfields.md
+rust-bindgen-0.69.4/book/src/using-unions.md
+rust-bindgen-0.69.4/book/src/visibility.md
+rust-bindgen-0.69.4/ci/
+rust-bindgen-0.69.4/ci/assert-no-diff.bat
+rust-bindgen-0.69.4/ci/no-includes.sh
+rust-bindgen-0.69.4/ci/test.bat
+rust-bindgen-0.69.4/ci/test.sh
+rust-bindgen-0.69.4/clippy.toml
+rust-bindgen-0.69.4/csmith-fuzzing/
+rust-bindgen-0.69.4/csmith-fuzzing/README.md
+rust-bindgen-0.69.4/csmith-fuzzing/csmith.h
+rust-bindgen-0.69.4/csmith-fuzzing/driver.py
+rust-bindgen-0.69.4/csmith-fuzzing/predicate.py
+rust-bindgen-0.69.4/example-graphviz-ir.png
+rust-bindgen-0.69.4/releases/
+rust-bindgen-0.69.4/releases/friends.sh
+rust-bindgen-0.69.4/releases/release-announcement-template.md
+rust-bindgen-0.69.4/rustfmt.toml
+rust-bindgen-0.69.4/triagebot.toml
+warning: /blfs/builds/rust-bindgen-0.69.4/bindgen-integration/Cargo.toml: no edition set: defaulting to the 2015 edition while the latest is 2024
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded either v1.8.1
+  Downloaded cexpr v0.6.0
+  Downloaded bitflags v1.3.2
+  Downloaded clap_derive v4.1.0
+  Downloaded humantime v2.1.0
+  Downloaded termcolor v1.2.0
+  Downloaded glob v0.3.1
+  Downloaded proc-macro-error-attr v1.0.4
+  Downloaded strsim v0.10.0
+  Downloaded version_check v0.9.4
+  Downloaded is-terminal v0.4.7
+  Downloaded env_logger v0.10.0
+  Downloaded which v4.4.0
+  Downloaded yansi-term v0.1.2
+  Downloaded unicode-width v0.1.10
+  Downloaded os_str_bytes v6.4.1
+  Downloaded shlex v1.3.0
+  Downloaded rustc-hash v1.1.0
+  Downloaded libloading v0.7.4
+  Downloaded proc-macro-error v1.0.4
+  Downloaded proc-macro2 v1.0.60
+  Downloaded prettyplease v0.2.7
+  Downloaded minimal-lexical v0.2.1
+  Downloaded aho-corasick v0.7.20
+  Downloaded once_cell v1.17.0
+  Downloaded log v0.4.17
+  Downloaded quote v1.0.28
+  Downloaded lazycell v1.3.0
+  Downloaded lazy_static v1.4.0
+  Downloaded unicode-ident v1.0.6
+  Downloaded io-lifetimes v1.0.4
+  Downloaded clap_complete v4.2.0
+  Downloaded memchr v2.5.0
+  Downloaded clap v4.1.4
+  Downloaded bitflags v2.2.1
+  Downloaded nom v7.1.3
+  Downloaded syn v1.0.107
+  Downloaded syn v2.0.18
+  Downloaded regex v1.7.1
+  Downloaded regex-syntax v0.6.28
+  Downloaded itertools v0.12.1
+  Downloaded heck v0.4.0
+  Downloaded clap_lex v0.3.1
+  Downloaded clang-sys v1.4.0
+  Downloaded rustix v0.37.3
+  Downloaded cfg-if v1.0.0
+  Downloaded annotate-snippets v0.9.1
+  Downloaded libc v0.2.139
+  Downloaded linux-raw-sys v0.3.8
+   Compiling proc-macro2 v1.0.60
+   Compiling quote v1.0.28
+   Compiling libc v0.2.139
+   Compiling version_check v0.9.4
+   Compiling memchr v2.5.0
+   Compiling unicode-ident v1.0.6
+   Compiling io-lifetimes v1.0.4
+   Compiling syn v1.0.107
+   Compiling rustix v0.37.3
+   Compiling linux-raw-sys v0.3.8
+   Compiling glob v0.3.1
+   Compiling cfg-if v1.0.0
+   Compiling bitflags v1.3.2
+   Compiling prettyplease v0.2.7
+   Compiling log v0.4.17
+   Compiling regex-syntax v0.6.28
+   Compiling either v1.8.1
+   Compiling minimal-lexical v0.2.1
+   Compiling heck v0.4.0
+   Compiling termcolor v1.2.0
+   Compiling os_str_bytes v6.4.1
+   Compiling libloading v0.7.4
+   Compiling once_cell v1.17.0
+   Compiling strsim v0.10.0
+   Compiling unicode-width v0.1.10
+   Compiling bindgen v0.69.4 (/blfs/builds/rust-bindgen-0.69.4/bindgen)
+   Compiling clap_lex v0.3.1
+   Compiling yansi-term v0.1.2
+   Compiling proc-macro-error-attr v1.0.4
+   Compiling proc-macro-error v1.0.4
+   Compiling itertools v0.12.1
+   Compiling lazy_static v1.4.0
+   Compiling bindgen-tests v0.1.0 (/blfs/builds/rust-bindgen-0.69.4/bindgen-tests)
+   Compiling clang-sys v1.4.0
+   Compiling bitflags v2.2.1
+   Compiling annotate-snippets v0.9.1
+   Compiling lazycell v1.3.0
+   Compiling humantime v2.1.0
+   Compiling shlex v1.3.0
+   Compiling rustc-hash v1.1.0
+   Compiling aho-corasick v0.7.20
+   Compiling nom v7.1.3
+   Compiling syn v2.0.18
+   Compiling regex v1.7.1
+   Compiling which v4.4.0
+   Compiling cexpr v0.6.0
+   Compiling is-terminal v0.4.7
+   Compiling env_logger v0.10.0
+   Compiling clap_derive v4.1.0
+   Compiling clap v4.1.4
+   Compiling clap_complete v4.2.0
+warning: trait `HasFloat` is never used
+  --> bindgen/ir/item.rs:89:18
+   |
+89 | pub(crate) trait HasFloat {
+   |                  ^^^^^^^^
+   |
+   = note: `#[warn(dead_code)]` on by default
+
+warning: `bindgen` (lib) generated 1 warning
+   Compiling bindgen-cli v0.69.4 (/blfs/builds/rust-bindgen-0.69.4/bindgen-cli)
+    Finished `release` profile [optimized] target(s) in 20.56s
+rust-bindgen/
+rust-bindgen/usr/
+rust-bindgen/usr/bin/
+rust-bindgen/usr/bin/bindgen
+rust-bindgen/version
+rust-bindgen/depends
+rust-bindgen/make-depends
+'/pkgs/rust-bindgen' -> '/rust-bindgen'
+'/pkgs/rust-bindgen/usr' -> '/rust-bindgen/usr'
+'/pkgs/rust-bindgen/usr/bin' -> '/rust-bindgen/usr/bin'
+'/pkgs/rust-bindgen/usr/bin/bindgen' -> '/rust-bindgen/usr/bin/bindgen'
+'/pkgs/rust-bindgen/depends' -> '/rust-bindgen/depends'
+'/pkgs/rust-bindgen/make-depends' -> '/rust-bindgen/make-depends'
+'/pkgs/rust-bindgen/version' -> '/rust-bindgen/version'

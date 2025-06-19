@@ -1,0 +1,234 @@
+--2025-06-11 07:34:38--  https://www.rarlab.com/rar/unrarsrc-7.1.7.tar.gz
+Resolving www.rarlab.com (www.rarlab.com)... 51.195.68.162
+Connecting to www.rarlab.com (www.rarlab.com)|51.195.68.162|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 267949 (262K) [application/x-gzip]
+Saving to: 'unrarsrc-7.1.7.tar.gz'
+
+     0K .......... .......... .......... .......... .......... 19%  258K 1s
+    50K .......... .......... .......... .......... .......... 38%  261K 1s
+   100K .......... .......... .......... .......... .......... 57%  520K 0s
+   150K .......... .......... .......... .......... .......... 76% 12.2M 0s
+   200K .......... .......... .......... .......... .......... 95%  521K 0s
+   250K .......... .                                          100%  375M=0.6s
+
+2025-06-11 07:34:39 (450 KB/s) - 'unrarsrc-7.1.7.tar.gz' saved [267949/267949]
+
+unrar/arccmt.cpp
+unrar/archive.cpp
+unrar/arcread.cpp
+unrar/blake2s.cpp
+unrar/blake2sp.cpp
+unrar/blake2s_sse.cpp
+unrar/cmddata.cpp
+unrar/cmdfilter.cpp
+unrar/cmdmix.cpp
+unrar/coder.cpp
+unrar/consio.cpp
+unrar/crc.cpp
+unrar/crypt.cpp
+unrar/crypt1.cpp
+unrar/crypt2.cpp
+unrar/crypt3.cpp
+unrar/crypt5.cpp
+unrar/dll.cpp
+unrar/encname.cpp
+unrar/errhnd.cpp
+unrar/extinfo.cpp
+unrar/extract.cpp
+unrar/filcreat.cpp
+unrar/file.cpp
+unrar/filefn.cpp
+unrar/filestr.cpp
+unrar/find.cpp
+unrar/getbits.cpp
+unrar/global.cpp
+unrar/hardlinks.cpp
+unrar/hash.cpp
+unrar/headers.cpp
+unrar/isnt.cpp
+unrar/largepage.cpp
+unrar/list.cpp
+unrar/log.cpp
+unrar/match.cpp
+unrar/model.cpp
+unrar/motw.cpp
+unrar/options.cpp
+unrar/pathfn.cpp
+unrar/qopen.cpp
+unrar/rar.cpp
+unrar/rarpch.cpp
+unrar/rarvm.cpp
+unrar/rawread.cpp
+unrar/rdwrfn.cpp
+unrar/recvol.cpp
+unrar/recvol3.cpp
+unrar/recvol5.cpp
+unrar/resource.cpp
+unrar/rijndael.cpp
+unrar/rs.cpp
+unrar/rs16.cpp
+unrar/scantree.cpp
+unrar/secpassword.cpp
+unrar/sha1.cpp
+unrar/sha256.cpp
+unrar/smallfn.cpp
+unrar/strfn.cpp
+unrar/strlist.cpp
+unrar/suballoc.cpp
+unrar/system.cpp
+unrar/threadmisc.cpp
+unrar/threadpool.cpp
+unrar/timefn.cpp
+unrar/ui.cpp
+unrar/uicommon.cpp
+unrar/uiconsole.cpp
+unrar/uisilent.cpp
+unrar/ulinks.cpp
+unrar/unicode.cpp
+unrar/unpack.cpp
+unrar/unpack15.cpp
+unrar/unpack20.cpp
+unrar/unpack30.cpp
+unrar/unpack50.cpp
+unrar/unpack50frag.cpp
+unrar/unpack50mt.cpp
+unrar/unpackinline.cpp
+unrar/uowners.cpp
+unrar/volume.cpp
+unrar/win32acl.cpp
+unrar/win32lnk.cpp
+unrar/win32stm.cpp
+unrar/archive.hpp
+unrar/blake2s.hpp
+unrar/cmddata.hpp
+unrar/coder.hpp
+unrar/compress.hpp
+unrar/consio.hpp
+unrar/crc.hpp
+unrar/crypt.hpp
+unrar/dll.hpp
+unrar/encname.hpp
+unrar/errhnd.hpp
+unrar/extinfo.hpp
+unrar/extract.hpp
+unrar/filcreat.hpp
+unrar/file.hpp
+unrar/filefn.hpp
+unrar/filestr.hpp
+unrar/find.hpp
+unrar/getbits.hpp
+unrar/global.hpp
+unrar/hash.hpp
+unrar/headers.hpp
+unrar/headers5.hpp
+unrar/isnt.hpp
+unrar/largepage.hpp
+unrar/list.hpp
+unrar/loclang.hpp
+unrar/log.hpp
+unrar/match.hpp
+unrar/model.hpp
+unrar/motw.hpp
+unrar/options.hpp
+unrar/os.hpp
+unrar/pathfn.hpp
+unrar/qopen.hpp
+unrar/rar.hpp
+unrar/rardefs.hpp
+unrar/rarlang.hpp
+unrar/raros.hpp
+unrar/rartypes.hpp
+unrar/rarvm.hpp
+unrar/rawint.hpp
+unrar/rawread.hpp
+unrar/rdwrfn.hpp
+unrar/recvol.hpp
+unrar/resource.hpp
+unrar/rijndael.hpp
+unrar/rs.hpp
+unrar/rs16.hpp
+unrar/scantree.hpp
+unrar/secpassword.hpp
+unrar/sha1.hpp
+unrar/sha256.hpp
+unrar/smallfn.hpp
+unrar/strfn.hpp
+unrar/strlist.hpp
+unrar/suballoc.hpp
+unrar/system.hpp
+unrar/threadpool.hpp
+unrar/timefn.hpp
+unrar/ui.hpp
+unrar/unicode.hpp
+unrar/unpack.hpp
+unrar/version.hpp
+unrar/volume.hpp
+unrar/makefile
+unrar/dll.def
+unrar/dll_nocrypt.def
+unrar/dll.rc
+unrar/UnRAR.vcxproj
+unrar/UnRARDll.vcxproj
+unrar/readme.txt
+unrar/license.txt
+unrar/acknow.txt
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c rar.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c strlist.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c strfn.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c pathfn.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c smallfn.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c global.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c file.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c filefn.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c filcreat.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c archive.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c arcread.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c unicode.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c system.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c crypt.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c crc.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c rawread.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c encname.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c resource.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c match.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c timefn.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c rdwrfn.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c consio.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c options.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c errhnd.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c rarvm.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c secpassword.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c rijndael.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c getbits.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c sha1.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c sha256.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c blake2s.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c hash.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c extinfo.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c extract.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c volume.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c list.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c find.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c unpack.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c headers.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c threadpool.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c rs16.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c cmddata.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c ui.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c largepage.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c filestr.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c recvol.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c rs.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c scantree.cpp
+c++  -O2 -std=c++11 -Wno-logical-op-parentheses -Wno-switch -Wno-dangling-else -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DRAR_SMP -DUNRAR -c qopen.cpp
+c++ -o unrar -pthread rar.o strlist.o strfn.o pathfn.o smallfn.o global.o file.o filefn.o filcreat.o archive.o arcread.o unicode.o system.o crypt.o crc.o rawread.o encname.o resource.o match.o timefn.o rdwrfn.o consio.o options.o errhnd.o rarvm.o secpassword.o rijndael.o getbits.o sha1.o sha256.o blake2s.o hash.o extinfo.o extract.o volume.o list.o find.o unpack.o headers.o threadpool.o rs16.o cmddata.o ui.o largepage.o filestr.o recvol.o rs.o scantree.o qopen.o 	
+strip unrar
+install -D unrar /pkgs/unrar/bin/unrar
+install -D unrar /usr/bin/unrar
+unrar/
+unrar/version
+unrar/depends
+unrar/bin/
+unrar/bin/unrar
+unrar/make-depends

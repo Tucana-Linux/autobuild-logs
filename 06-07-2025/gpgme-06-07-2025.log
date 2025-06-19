@@ -1,0 +1,1049 @@
+--2025-06-07 20:03:08--  https://www.gnupg.org/ftp/gcrypt/gpgme/gpgme-2.0.0.tar.bz2
+Resolving www.gnupg.org (www.gnupg.org)... 2001:aa8:fff1:2100::60, 217.69.76.60
+Connecting to www.gnupg.org (www.gnupg.org)|2001:aa8:fff1:2100::60|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1383911 (1.3M) [text/plain]
+Saving to: 'gpgme-2.0.0.tar.bz2'
+
+     0K .......... .......... .......... .......... ..........  3%  272K 5s
+    50K .......... .......... .......... .......... ..........  7%  543K 3s
+   100K .......... .......... .......... .......... .......... 11% 80.8M 2s
+   150K .......... .......... .......... .......... .......... 14%  546K 2s
+   200K .......... .......... .......... .......... .......... 18% 70.7M 2s
+   250K .......... .......... .......... .......... .......... 22%  161M 1s
+   300K .......... .......... .......... .......... .......... 25% 66.1M 1s
+   350K .......... .......... .......... .......... .......... 29%  553K 1s
+   400K .......... .......... .......... .......... .......... 33%  150M 1s
+   450K .......... .......... .......... .......... .......... 36% 87.4M 1s
+   500K .......... .......... .......... .......... .......... 40% 89.7M 1s
+   550K .......... .......... .......... .......... .......... 44% 66.9M 1s
+   600K .......... .......... .......... .......... .......... 48% 95.9M 0s
+   650K .......... .......... .......... .......... .......... 51%  169M 0s
+   700K .......... .......... .......... .......... .......... 55%  562K 0s
+   750K .......... .......... .......... .......... .......... 59% 85.5M 0s
+   800K .......... .......... .......... .......... .......... 62%  148M 0s
+   850K .......... .......... .......... .......... .......... 66% 97.5M 0s
+   900K .......... .......... .......... .......... .......... 70% 98.8M 0s
+   950K .......... .......... .......... .......... .......... 73% 89.0M 0s
+  1000K .......... .......... .......... .......... .......... 77% 95.3M 0s
+  1050K .......... .......... .......... .......... .......... 81%  103M 0s
+  1100K .......... .......... .......... .......... .......... 85% 98.5M 0s
+  1150K .......... .......... .......... .......... .......... 88%  167M 0s
+  1200K .......... .......... .......... .......... .......... 92% 96.8M 0s
+  1250K .......... .......... .......... .......... .......... 96% 99.1M 0s
+  1300K .......... .......... .......... .......... .......... 99% 87.3M 0s
+  1350K .                                                     100% 2.75T=0.6s
+
+2025-06-07 20:03:10 (2.37 MB/s) - 'gpgme-2.0.0.tar.bz2' saved [1383911/1383911]
+
+gpgme-2.0.0/
+gpgme-2.0.0/COPYING
+gpgme-2.0.0/autogen.rc
+gpgme-2.0.0/AUTHORS
+gpgme-2.0.0/THANKS
+gpgme-2.0.0/doc/
+gpgme-2.0.0/doc/lesser.texi
+gpgme-2.0.0/doc/gpgme.info
+gpgme-2.0.0/doc/gpgme.texi
+gpgme-2.0.0/doc/texinfo.tex
+gpgme-2.0.0/doc/examples/
+gpgme-2.0.0/doc/examples/gpgme-mozilla.json
+gpgme-2.0.0/doc/examples/gpgme-chrome.json
+gpgme-2.0.0/doc/DCO
+gpgme-2.0.0/doc/gpgme.info-2
+gpgme-2.0.0/doc/Makefile.in
+gpgme-2.0.0/doc/uiserver.texi
+gpgme-2.0.0/doc/gpgme.info-1
+gpgme-2.0.0/doc/mkdefsinc.c
+gpgme-2.0.0/doc/gpgme-json.texi
+gpgme-2.0.0/doc/gpl.texi
+gpgme-2.0.0/doc/mdate-sh
+gpgme-2.0.0/doc/Makefile.am
+gpgme-2.0.0/doc/HACKING
+gpgme-2.0.0/doc/ChangeLog-2011
+gpgme-2.0.0/doc/defsincdate
+gpgme-2.0.0/doc/module-overview.sk
+gpgme-2.0.0/build-aux/
+gpgme-2.0.0/build-aux/mkinstalldirs
+gpgme-2.0.0/build-aux/ltmain.sh
+gpgme-2.0.0/build-aux/install-sh
+gpgme-2.0.0/build-aux/texinfo.tex
+gpgme-2.0.0/build-aux/missing
+gpgme-2.0.0/build-aux/config.guess
+gpgme-2.0.0/build-aux/compile
+gpgme-2.0.0/build-aux/depcomp
+gpgme-2.0.0/build-aux/mdate-sh
+gpgme-2.0.0/build-aux/libtool-patch.sed
+gpgme-2.0.0/build-aux/config.sub
+gpgme-2.0.0/conf/
+gpgme-2.0.0/conf/whatisthis
+gpgme-2.0.0/conf/config.h.in
+gpgme-2.0.0/tests/
+gpgme-2.0.0/tests/run-genkey.c
+gpgme-2.0.0/tests/t-data-2.txt
+gpgme-2.0.0/tests/run-receive-keys.c
+gpgme-2.0.0/tests/run-genrandom.c
+gpgme-2.0.0/tests/start-stop-agent
+gpgme-2.0.0/tests/opassuan/
+gpgme-2.0.0/tests/opassuan/Makefile.in
+gpgme-2.0.0/tests/opassuan/t-command.c
+gpgme-2.0.0/tests/opassuan/Makefile.am
+gpgme-2.0.0/tests/run-decrypt.c
+gpgme-2.0.0/tests/run-tofu.c
+gpgme-2.0.0/tests/Makefile.in
+gpgme-2.0.0/tests/json/
+gpgme-2.0.0/tests/json/t-export.in.json
+gpgme-2.0.0/tests/json/t-sign.in.json
+gpgme-2.0.0/tests/json/t-version.in.json
+gpgme-2.0.0/tests/json/t-decrypt-verify.in.json
+gpgme-2.0.0/tests/json/t-verify.out.json
+gpgme-2.0.0/tests/json/t-config-opt.in.json
+gpgme-2.0.0/tests/json/t-encrypt.out.json
+gpgme-2.0.0/tests/json/t-decrypt.in.json
+gpgme-2.0.0/tests/json/t-encrypt.in.json
+gpgme-2.0.0/tests/json/t-decrypt-verify.out.json
+gpgme-2.0.0/tests/json/key-with-revokers.asc
+gpgme-2.0.0/tests/json/t-import.out.json
+gpgme-2.0.0/tests/json/t-import.in.json
+gpgme-2.0.0/tests/json/t-encrypt-sign.out.json
+gpgme-2.0.0/tests/json/t-keylist-secret.in.json
+gpgme-2.0.0/tests/json/t-keylist-revokers.out.json
+gpgme-2.0.0/tests/json/t-sig-notations.out.json
+gpgme-2.0.0/tests/json/t-chunking.in.json
+gpgme-2.0.0/tests/json/t-export.out.json
+gpgme-2.0.0/tests/json/t-version.out.json
+gpgme-2.0.0/tests/json/Makefile.in
+gpgme-2.0.0/tests/json/t-delete.in.json
+gpgme-2.0.0/tests/json/final.test
+gpgme-2.0.0/tests/json/t-chunking.out.json
+gpgme-2.0.0/tests/json/t-keylist.out.json
+gpgme-2.0.0/tests/json/t-verify.in.json
+gpgme-2.0.0/tests/json/t-json.c
+gpgme-2.0.0/tests/json/t-keylist-revokers.in.json
+gpgme-2.0.0/tests/json/t-config-opt.out.json
+gpgme-2.0.0/tests/json/t-keylist.in.json
+gpgme-2.0.0/tests/json/t-keylist-secret.out.json
+gpgme-2.0.0/tests/json/t-export-secret-info.out.json
+gpgme-2.0.0/tests/json/t-config.out.json
+gpgme-2.0.0/tests/json/t-sig-notations.in.json
+gpgme-2.0.0/tests/json/Makefile.am
+gpgme-2.0.0/tests/json/t-sign.out.json
+gpgme-2.0.0/tests/json/t-encrypt-sign.in.json
+gpgme-2.0.0/tests/json/initial.test
+gpgme-2.0.0/tests/json/t-delete.out.json
+gpgme-2.0.0/tests/json/t-export-secret-info.in.json
+gpgme-2.0.0/tests/json/t-createkey.in.json
+gpgme-2.0.0/tests/json/t-decrypt.out.json
+gpgme-2.0.0/tests/json/t-config.in.json
+gpgme-2.0.0/tests/json/t-createkey.out.json
+gpgme-2.0.0/tests/run-verify.c
+gpgme-2.0.0/tests/gpgsm/
+gpgme-2.0.0/tests/gpgsm/32100C27173EF6E9C4E9A25D3D69F86D37A4F939
+gpgme-2.0.0/tests/gpgsm/cert_dfn_pca01.der
+gpgme-2.0.0/tests/gpgsm/cert_dfn_pca15.der
+gpgme-2.0.0/tests/gpgsm/cms-decrypt.c
+gpgme-2.0.0/tests/gpgsm/t-export.c
+gpgme-2.0.0/tests/gpgsm/t-keylist.c
+gpgme-2.0.0/tests/gpgsm/cert_g10code_test1.der
+gpgme-2.0.0/tests/gpgsm/t-import.c
+gpgme-2.0.0/tests/gpgsm/Makefile.in
+gpgme-2.0.0/tests/gpgsm/t-support.h
+gpgme-2.0.0/tests/gpgsm/t-genkey.c
+gpgme-2.0.0/tests/gpgsm/final.test
+gpgme-2.0.0/tests/gpgsm/t-encrypt.c
+gpgme-2.0.0/tests/gpgsm/t-decrypt.c
+gpgme-2.0.0/tests/gpgsm/cms-keylist.c
+gpgme-2.0.0/tests/gpgsm/t-sign.c
+gpgme-2.0.0/tests/gpgsm/Makefile.am
+gpgme-2.0.0/tests/gpgsm/initial.test
+gpgme-2.0.0/tests/gpgsm/t-verify.c
+gpgme-2.0.0/tests/t-version.c
+gpgme-2.0.0/tests/t-engine-info.c
+gpgme-2.0.0/tests/gpg/
+gpgme-2.0.0/tests/gpg/pinentry
+gpgme-2.0.0/tests/gpg/t-setownertrust.c
+gpgme-2.0.0/tests/gpg/13CBE3758AFE42B5E5E2AE4CED27AFA455E3F87F
+gpgme-2.0.0/tests/gpg/cipher-no-sig.asc
+gpgme-2.0.0/tests/gpg/t-sig-notation.c
+gpgme-2.0.0/tests/gpg/t-export.c
+gpgme-2.0.0/tests/gpg/t-thread1.c
+gpgme-2.0.0/tests/gpg/t-keylist-sig.c
+gpgme-2.0.0/tests/gpg/t-edit.c
+gpgme-2.0.0/tests/gpg/seckey-1.asc
+gpgme-2.0.0/tests/gpg/t-cancel.c
+gpgme-2.0.0/tests/gpg/gpg.conf.in
+gpgme-2.0.0/tests/gpg/t-encrypt-sym.c
+gpgme-2.0.0/tests/gpg/76F7E2B35832976B50A27A282D9B87E44577EB66
+gpgme-2.0.0/tests/gpg/t-keylist.c
+gpgme-2.0.0/tests/gpg/t-thread-keylist.c
+gpgme-2.0.0/tests/gpg/t-gpgconf.c
+gpgme-2.0.0/tests/gpg/t-import.c
+gpgme-2.0.0/tests/gpg/t-encrypt-mixed.c
+gpgme-2.0.0/tests/gpg/7A030357C0F253A5BBCD282FFC4E521B37558F5C
+gpgme-2.0.0/tests/gpg/cipher-2.asc
+gpgme-2.0.0/tests/gpg/secdemo.asc
+gpgme-2.0.0/tests/gpg/Makefile.in
+gpgme-2.0.0/tests/gpg/t-support.h
+gpgme-2.0.0/tests/gpg/t-genkey.c
+gpgme-2.0.0/tests/gpg/t-thread-keylist-verify.c
+gpgme-2.0.0/tests/gpg/A0747D5F9425E6664F4FFBEED20FBCA79FDED2BD
+gpgme-2.0.0/tests/gpg/t-decrypt-verify.c
+gpgme-2.0.0/tests/gpg/final.test
+gpgme-2.0.0/tests/gpg/geheim.txt
+gpgme-2.0.0/tests/gpg/pubdemo.asc
+gpgme-2.0.0/tests/gpg/cipher-1.asc
+gpgme-2.0.0/tests/gpg/t-signers.c
+gpgme-2.0.0/tests/gpg/13CD0F3BDF24BE53FE192D62F18737256FF6E4FD
+gpgme-2.0.0/tests/gpg/t-encrypt.c
+gpgme-2.0.0/tests/gpg/t-encrypt-large.c
+gpgme-2.0.0/tests/gpg/t-decrypt.c
+gpgme-2.0.0/tests/gpg/cipher-3.asc
+gpgme-2.0.0/tests/gpg/t-sign.c
+gpgme-2.0.0/tests/gpg/Makefile.am
+gpgme-2.0.0/tests/gpg/t-file-name.c
+gpgme-2.0.0/tests/gpg/t-encrypt-sign.c
+gpgme-2.0.0/tests/gpg/ownertrust.txt
+gpgme-2.0.0/tests/gpg/initial.test
+gpgme-2.0.0/tests/gpg/t-keylist-secret-sig.c
+gpgme-2.0.0/tests/gpg/t-eventloop.c
+gpgme-2.0.0/tests/gpg/pubkey-1.asc
+gpgme-2.0.0/tests/gpg/t-verify.c
+gpgme-2.0.0/tests/gpg/t-edit-sign.c
+gpgme-2.0.0/tests/gpg/t-wait.c
+gpgme-2.0.0/tests/t-data.c
+gpgme-2.0.0/tests/Makefile.am
+gpgme-2.0.0/tests/run-keysign.c
+gpgme-2.0.0/tests/t-data-1.txt
+gpgme-2.0.0/tests/run-encrypt.c
+gpgme-2.0.0/tests/run-export.c
+gpgme-2.0.0/tests/ChangeLog-2011
+gpgme-2.0.0/tests/run-identify.c
+gpgme-2.0.0/tests/run-keylist.c
+gpgme-2.0.0/tests/run-setownertrust.c
+gpgme-2.0.0/tests/run-support.h
+gpgme-2.0.0/tests/run-import.c
+gpgme-2.0.0/tests/run-swdb.c
+gpgme-2.0.0/tests/run-threaded.c
+gpgme-2.0.0/tests/run-sign.c
+gpgme-2.0.0/INSTALL
+gpgme-2.0.0/missing
+gpgme-2.0.0/autogen.sh
+gpgme-2.0.0/aclocal.m4
+gpgme-2.0.0/TODO
+gpgme-2.0.0/gpgme.spec.in
+gpgme-2.0.0/ChangeLog
+gpgme-2.0.0/Makefile.in
+gpgme-2.0.0/configure
+gpgme-2.0.0/README
+gpgme-2.0.0/src/
+gpgme-2.0.0/src/keysign.c
+gpgme-2.0.0/src/cJSON.c
+gpgme-2.0.0/src/queryswdb.c
+gpgme-2.0.0/src/json-core.c
+gpgme-2.0.0/src/debug.c
+gpgme-2.0.0/src/w32-glib-io.c
+gpgme-2.0.0/src/w32-util.c
+gpgme-2.0.0/src/gpgme-config.in
+gpgme-2.0.0/src/opassuan.c
+gpgme-2.0.0/src/export.c
+gpgme-2.0.0/src/edit.c
+gpgme-2.0.0/src/signers.c
+gpgme-2.0.0/src/passphrase.c
+gpgme-2.0.0/src/encrypt-sign.c
+gpgme-2.0.0/src/argparse.h
+gpgme-2.0.0/src/data-compat.c
+gpgme-2.0.0/src/gpgme.pc.in
+gpgme-2.0.0/src/sig-notation.c
+gpgme-2.0.0/src/getauditlog.c
+gpgme-2.0.0/src/gpgme.h.in
+gpgme-2.0.0/src/decrypt-verify.c
+gpgme-2.0.0/src/decrypt.c
+gpgme-2.0.0/src/argparse.c
+gpgme-2.0.0/src/versioninfo.rc.in
+gpgme-2.0.0/src/json-common.h
+gpgme-2.0.0/src/setownertrust.c
+gpgme-2.0.0/src/data-estream.c
+gpgme-2.0.0/src/status-table.c
+gpgme-2.0.0/src/data.c
+gpgme-2.0.0/src/parsetlv.h
+gpgme-2.0.0/src/gpgme.c
+gpgme-2.0.0/src/import.c
+gpgme-2.0.0/src/data-user.c
+gpgme-2.0.0/src/wait.c
+gpgme-2.0.0/src/gpgme-w32spawn.c
+gpgme-2.0.0/src/engine.h
+gpgme-2.0.0/src/progress.c
+gpgme-2.0.0/src/vfs-mount.c
+gpgme-2.0.0/src/keylist.c
+gpgme-2.0.0/src/engine-gpgconf.c
+gpgme-2.0.0/src/data-fd.c
+gpgme-2.0.0/src/engine-g13.c
+gpgme-2.0.0/src/revsig.c
+gpgme-2.0.0/src/posix-util.c
+gpgme-2.0.0/src/delete.c
+gpgme-2.0.0/src/version.c
+gpgme-2.0.0/src/Makefile.in
+gpgme-2.0.0/src/engine-backend.h
+gpgme-2.0.0/src/gpgme-json.c
+gpgme-2.0.0/src/priv-io.h
+gpgme-2.0.0/src/parsetlv.c
+gpgme-2.0.0/src/engine-uiserver.c
+gpgme-2.0.0/src/posix-io.c
+gpgme-2.0.0/src/key.c
+gpgme-2.0.0/src/data-identify.c
+gpgme-2.0.0/src/wait-global.c
+gpgme-2.0.0/src/wait-user.c
+gpgme-2.0.0/src/libgpgme.vers
+gpgme-2.0.0/src/setenv.c
+gpgme-2.0.0/src/stpcpy.c
+gpgme-2.0.0/src/spawn.c
+gpgme-2.0.0/src/gpgme.def
+gpgme-2.0.0/src/json-util.c
+gpgme-2.0.0/src/util.h
+gpgme-2.0.0/src/mbox-util.h
+gpgme-2.0.0/src/sema.h
+gpgme-2.0.0/src/gpgme-glib.pc.in
+gpgme-2.0.0/src/engine-assuan.c
+gpgme-2.0.0/src/data-stream.c
+gpgme-2.0.0/src/wait-private.c
+gpgme-2.0.0/src/wait.h
+gpgme-2.0.0/src/debug.h
+gpgme-2.0.0/src/passwd.c
+gpgme-2.0.0/src/error.c
+gpgme-2.0.0/src/Makefile.am
+gpgme-2.0.0/src/engine-gpgsm.c
+gpgme-2.0.0/src/data.h
+gpgme-2.0.0/src/gpgme.m4
+gpgme-2.0.0/src/setexpire.c
+gpgme-2.0.0/src/gpgme-tool.c
+gpgme-2.0.0/src/data-mem.c
+gpgme-2.0.0/src/gpgconf.c
+gpgme-2.0.0/src/engine-gpg.c
+gpgme-2.0.0/src/ChangeLog-2011
+gpgme-2.0.0/src/vfs-create.c
+gpgme-2.0.0/src/dirinfo.c
+gpgme-2.0.0/src/get-env.c
+gpgme-2.0.0/src/ttyname_r.c
+gpgme-2.0.0/src/tofupolicy.c
+gpgme-2.0.0/src/encrypt.c
+gpgme-2.0.0/src/ops.h
+gpgme-2.0.0/src/engine-spawn.c
+gpgme-2.0.0/src/mbox-util.c
+gpgme-2.0.0/src/cJSON.h
+gpgme-2.0.0/src/conversion.c
+gpgme-2.0.0/src/op-support.c
+gpgme-2.0.0/src/genrandom.c
+gpgme-2.0.0/src/sign.c
+gpgme-2.0.0/src/genkey.c
+gpgme-2.0.0/src/context.h
+gpgme-2.0.0/src/w32-io.c
+gpgme-2.0.0/src/engine.c
+gpgme-2.0.0/src/assuan-support.c
+gpgme-2.0.0/src/verify.c
+gpgme-2.0.0/src/sys-util.h
+gpgme-2.0.0/Makefile.am
+gpgme-2.0.0/m4/
+gpgme-2.0.0/m4/gnupg-ttyname.m4
+gpgme-2.0.0/m4/glibc21.m4
+gpgme-2.0.0/m4/ltsugar.m4
+gpgme-2.0.0/m4/lt~obsolete.m4
+gpgme-2.0.0/m4/glib-2.0.m4
+gpgme-2.0.0/m4/gpg-error.m4
+gpgme-2.0.0/m4/ltoptions.m4
+gpgme-2.0.0/m4/libassuan.m4
+gpgme-2.0.0/m4/ChangeLog-2011
+gpgme-2.0.0/m4/libtool.m4
+gpgme-2.0.0/m4/ltversion.m4
+gpgme-2.0.0/gpgme.spec
+gpgme-2.0.0/acinclude.m4
+gpgme-2.0.0/ChangeLog-2011
+gpgme-2.0.0/configure.ac
+gpgme-2.0.0/COPYING.LESSER
+gpgme-2.0.0/lang/
+gpgme-2.0.0/lang/js/
+gpgme-2.0.0/lang/js/BrowserTestExtension/
+gpgme-2.0.0/lang/js/BrowserTestExtension/browsertest.html
+gpgme-2.0.0/lang/js/BrowserTestExtension/runbrowsertest.js
+gpgme-2.0.0/lang/js/BrowserTestExtension/testkey2.pub
+gpgme-2.0.0/lang/js/BrowserTestExtension/tests/
+gpgme-2.0.0/lang/js/BrowserTestExtension/tests/verifyTest.js
+gpgme-2.0.0/lang/js/BrowserTestExtension/tests/signTest.js
+gpgme-2.0.0/lang/js/BrowserTestExtension/tests/KeyImportExport.js
+gpgme-2.0.0/lang/js/BrowserTestExtension/tests/encryptDecryptTest.js
+gpgme-2.0.0/lang/js/BrowserTestExtension/tests/encryptTest.js
+gpgme-2.0.0/lang/js/BrowserTestExtension/tests/decryptTest.js
+gpgme-2.0.0/lang/js/BrowserTestExtension/tests/inputvalues.js
+gpgme-2.0.0/lang/js/BrowserTestExtension/tests/KeyInfos.js
+gpgme-2.0.0/lang/js/BrowserTestExtension/tests/startup.js
+gpgme-2.0.0/lang/js/BrowserTestExtension/tests/longRunningTests.js
+gpgme-2.0.0/lang/js/BrowserTestExtension/setup_testing.js
+gpgme-2.0.0/lang/js/BrowserTestExtension/popup.js
+gpgme-2.0.0/lang/js/BrowserTestExtension/testicon.png
+gpgme-2.0.0/lang/js/BrowserTestExtension/manifest.json
+gpgme-2.0.0/lang/js/BrowserTestExtension/testkey.pub
+gpgme-2.0.0/lang/js/BrowserTestExtension/Makefile.in
+gpgme-2.0.0/lang/js/BrowserTestExtension/longTests.html
+gpgme-2.0.0/lang/js/BrowserTestExtension/rununittests.js
+gpgme-2.0.0/lang/js/BrowserTestExtension/unittests.html
+gpgme-2.0.0/lang/js/BrowserTestExtension/popup.html
+gpgme-2.0.0/lang/js/BrowserTestExtension/Makefile.am
+gpgme-2.0.0/lang/js/BrowserTestExtension/testkey.sec
+gpgme-2.0.0/lang/js/BrowserTestExtension/index.html
+gpgme-2.0.0/lang/js/webpack.conf_unittests.js
+gpgme-2.0.0/lang/js/package.json
+gpgme-2.0.0/lang/js/.eslintrc.json
+gpgme-2.0.0/lang/js/jsdoc.conf
+gpgme-2.0.0/lang/js/Makefile.in
+gpgme-2.0.0/lang/js/README
+gpgme-2.0.0/lang/js/unittests.js
+gpgme-2.0.0/lang/js/DemoExtension/
+gpgme-2.0.0/lang/js/DemoExtension/entry.js
+gpgme-2.0.0/lang/js/DemoExtension/testicon.png
+gpgme-2.0.0/lang/js/DemoExtension/manifest.json
+gpgme-2.0.0/lang/js/DemoExtension/mainui.html
+gpgme-2.0.0/lang/js/DemoExtension/Makefile.in
+gpgme-2.0.0/lang/js/DemoExtension/ui.css
+gpgme-2.0.0/lang/js/DemoExtension/popup.html
+gpgme-2.0.0/lang/js/DemoExtension/Makefile.am
+gpgme-2.0.0/lang/js/DemoExtension/maindemo.js
+gpgme-2.0.0/lang/js/webpack.conf.js
+gpgme-2.0.0/lang/js/src/
+gpgme-2.0.0/lang/js/src/Key.js
+gpgme-2.0.0/lang/js/src/Helpers.js
+gpgme-2.0.0/lang/js/src/Keyring.js
+gpgme-2.0.0/lang/js/src/Message.js
+gpgme-2.0.0/lang/js/src/Makefile.in
+gpgme-2.0.0/lang/js/src/Errors.js
+gpgme-2.0.0/lang/js/src/Connection.js
+gpgme-2.0.0/lang/js/src/Signature.js
+gpgme-2.0.0/lang/js/src/permittedOperations.js
+gpgme-2.0.0/lang/js/src/gpgmejs.js
+gpgme-2.0.0/lang/js/src/index.js
+gpgme-2.0.0/lang/js/src/Makefile.am
+gpgme-2.0.0/lang/js/unittest_inputvalues.js
+gpgme-2.0.0/lang/js/Makefile.am
+gpgme-2.0.0/lang/js/build_extensions.sh
+gpgme-2.0.0/lang/js/jsdoc_index.md
+gpgme-2.0.0/lang/Makefile.in
+gpgme-2.0.0/lang/README
+gpgme-2.0.0/lang/cl/
+gpgme-2.0.0/lang/cl/gpgme-grovel.lisp
+gpgme-2.0.0/lang/cl/gpgme.asd
+gpgme-2.0.0/lang/cl/gpgme-package.lisp
+gpgme-2.0.0/lang/cl/Makefile.in
+gpgme-2.0.0/lang/cl/gpgme.asd.in
+gpgme-2.0.0/lang/cl/README
+gpgme-2.0.0/lang/cl/gpgme.lisp
+gpgme-2.0.0/lang/cl/Makefile.am
+gpgme-2.0.0/lang/cl/ChangeLog-2011
+gpgme-2.0.0/lang/Makefile.am
+gpgme-2.0.0/VERSION
+gpgme-2.0.0/NEWS
+gpgme-2.0.0/LICENSES
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a race-free mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking whether make supports nested variables... (cached) yes
+checking for yat2m... /usr/bin/yat2m
+checking whether make supports the include directive... yes (GNU style)
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to enable C11 features... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for wchar.h... yes
+checking for minix/config.h... no
+checking for locale.h... yes
+checking for sys/select.h... yes
+checking for sys/uio.h... yes
+checking for argp.h... yes
+checking for poll.h... yes
+checking for sys/time.h... yes
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether _XOPEN_SOURCE should be defined... no
+checking for gcc... (cached) gcc
+checking whether the compiler supports GNU C... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to enable C11 features... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking dependency style of gcc... (cached) gcc3
+checking how to run the C preprocessor... gcc -E
+checking for gitlog-to-changelog... no
+checking for cc for build... gcc
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for file... file
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for windres... no
+checking for inline... inline
+checking for flexible array members... yes
+checking size of unsigned int... 4
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for off_t... yes
+checking for uintptr_t... yes
+checking if gcc supports -Wno-missing-field-initializers... yes
+checking for __thread... yes
+configure: checking for libraries
+checking for _LARGEFILE_SOURCE value needed for large files... no
+checking for gcc options needed to detect all undeclared functions... none needed
+checking whether ttyname_r is declared... yes
+checking for unistd.h... (cached) yes
+checking for ttyname_r... yes
+checking whether ttyname_r is compatible with its POSIX signature... yes
+checking whether ttyname_r works with small buffers... yes
+checking whether we are using the GNU C Library 2.1 or newer... yes
+checking for getenv_r... no
+checking for timegm... yes
+checking for setlocale... yes
+checking for gpg-error-config... no
+checking for gpgrt-config... /usr/bin/gpgrt-config
+configure: Use gpgrt-config with /usr/lib as gpg-error-config
+checking for GPG Error - version >= 1.47... yes (1.55)
+configure: Use gpgrt-config as libassuan-config
+checking for LIBASSUAN - version >= 2.4.2... yes (3.0.2)
+checking LIBASSUAN API version... okay
+checking for getgid... yes
+checking for getegid... yes
+checking for closefrom... yes
+checking for nanosleep... yes
+checking for gettid... yes
+checking for stpcpy... yes
+checking for setenv... yes
+checking for struct cmsghdr.cmsg_len... yes
+checking for error_t... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating tests/Makefile
+config.status: creating tests/gpg/Makefile
+config.status: creating tests/gpgsm/Makefile
+config.status: creating tests/opassuan/Makefile
+config.status: creating tests/json/Makefile
+config.status: creating doc/Makefile
+config.status: creating src/versioninfo.rc
+config.status: creating src/gpgme.pc
+config.status: creating src/gpgme-glib.pc
+config.status: creating src/gpgme.h
+config.status: creating src/gpgme-config
+config.status: creating lang/Makefile
+config.status: creating lang/cl/Makefile
+config.status: creating lang/cl/gpgme.asd
+config.status: creating lang/js/Makefile
+config.status: creating lang/js/src/Makefile
+config.status: creating lang/js/BrowserTestExtension/Makefile
+config.status: creating lang/js/DemoExtension/Makefile
+config.status: creating conf/config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+
+        GPGME v2.0.0 has been configured as follows:
+
+        Revision:          e17ba578  (57723)
+        Platform:          x86_64-pc-linux-gnu
+
+        UI Server:         yes
+        FD Passing:        yes
+
+        Language bindings: cl
+
+make  all-recursive
+make[1]: Entering directory '/blfs/builds/gpgme-2.0.0'
+Making all in src
+make[2]: Entering directory '/blfs/builds/gpgme-2.0.0/src'
+gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT gpgme-tool.o -MD -MP -MF .deps/gpgme-tool.Tpo -c -o gpgme-tool.o gpgme-tool.c
+gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT argparse.o -MD -MP -MF .deps/argparse.Tpo -c -o argparse.o argparse.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT conversion.lo -MD -MP -MF .deps/conversion.Tpo -c -o conversion.lo conversion.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT get-env.lo -MD -MP -MF .deps/get-env.Tpo -c -o get-env.lo get-env.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT parsetlv.lo -MD -MP -MF .deps/parsetlv.Tpo -c -o parsetlv.lo parsetlv.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT mbox-util.lo -MD -MP -MF .deps/mbox-util.Tpo -c -o mbox-util.lo mbox-util.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT data.lo -MD -MP -MF .deps/data.Tpo -c -o data.lo data.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT data-fd.lo -MD -MP -MF .deps/data-fd.Tpo -c -o data-fd.lo data-fd.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT data-stream.lo -MD -MP -MF .deps/data-stream.Tpo -c -o data-stream.lo data-stream.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT data-mem.lo -MD -MP -MF .deps/data-mem.Tpo -c -o data-mem.lo data-mem.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT data-user.lo -MD -MP -MF .deps/data-user.Tpo -c -o data-user.lo data-user.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT data-estream.lo -MD -MP -MF .deps/data-estream.Tpo -c -o data-estream.lo data-estream.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT data-compat.lo -MD -MP -MF .deps/data-compat.Tpo -c -o data-compat.lo data-compat.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT data-identify.lo -MD -MP -MF .deps/data-identify.Tpo -c -o data-identify.lo data-identify.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT signers.lo -MD -MP -MF .deps/signers.Tpo -c -o signers.lo signers.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT sig-notation.lo -MD -MP -MF .deps/sig-notation.Tpo -c -o sig-notation.lo sig-notation.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT conversion.lo -MD -MP -MF .deps/conversion.Tpo -c conversion.c  -fPIC -DPIC -o .libs/conversion.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT get-env.lo -MD -MP -MF .deps/get-env.Tpo -c get-env.c  -fPIC -DPIC -o .libs/get-env.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT data.lo -MD -MP -MF .deps/data.Tpo -c data.c  -fPIC -DPIC -o .libs/data.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT data-fd.lo -MD -MP -MF .deps/data-fd.Tpo -c data-fd.c  -fPIC -DPIC -o .libs/data-fd.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT data-user.lo -MD -MP -MF .deps/data-user.Tpo -c data-user.c  -fPIC -DPIC -o .libs/data-user.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT parsetlv.lo -MD -MP -MF .deps/parsetlv.Tpo -c parsetlv.c  -fPIC -DPIC -o .libs/parsetlv.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT data-compat.lo -MD -MP -MF .deps/data-compat.Tpo -c data-compat.c  -fPIC -DPIC -o .libs/data-compat.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT data-identify.lo -MD -MP -MF .deps/data-identify.Tpo -c data-identify.c  -fPIC -DPIC -o .libs/data-identify.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT data-mem.lo -MD -MP -MF .deps/data-mem.Tpo -c data-mem.c  -fPIC -DPIC -o .libs/data-mem.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT mbox-util.lo -MD -MP -MF .deps/mbox-util.Tpo -c mbox-util.c  -fPIC -DPIC -o .libs/mbox-util.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT data-estream.lo -MD -MP -MF .deps/data-estream.Tpo -c data-estream.c  -fPIC -DPIC -o .libs/data-estream.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT signers.lo -MD -MP -MF .deps/signers.Tpo -c signers.c  -fPIC -DPIC -o .libs/signers.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT data-stream.lo -MD -MP -MF .deps/data-stream.Tpo -c data-stream.c  -fPIC -DPIC -o .libs/data-stream.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT sig-notation.lo -MD -MP -MF .deps/sig-notation.Tpo -c sig-notation.c  -fPIC -DPIC -o .libs/sig-notation.o
+mv -f .deps/data-fd.Tpo .deps/data-fd.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT wait.lo -MD -MP -MF .deps/wait.Tpo -c -o wait.lo wait.c
+mv -f .deps/parsetlv.Tpo .deps/parsetlv.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT wait-global.lo -MD -MP -MF .deps/wait-global.Tpo -c -o wait-global.lo wait-global.c
+mv -f .deps/data-stream.Tpo .deps/data-stream.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT wait-private.lo -MD -MP -MF .deps/wait-private.Tpo -c -o wait-private.lo wait-private.c
+mv -f .deps/get-env.Tpo .deps/get-env.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT wait-user.lo -MD -MP -MF .deps/wait-user.Tpo -c -o wait-user.lo wait-user.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT wait.lo -MD -MP -MF .deps/wait.Tpo -c wait.c  -fPIC -DPIC -o .libs/wait.o
+mv -f .deps/data-user.Tpo .deps/data-user.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT op-support.lo -MD -MP -MF .deps/op-support.Tpo -c -o op-support.lo op-support.c
+mv -f .deps/data-estream.Tpo .deps/data-estream.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT encrypt.lo -MD -MP -MF .deps/encrypt.Tpo -c -o encrypt.lo encrypt.c
+mv -f .deps/sig-notation.Tpo .deps/sig-notation.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT encrypt-sign.lo -MD -MP -MF .deps/encrypt-sign.Tpo -c -o encrypt-sign.lo encrypt-sign.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT wait-global.lo -MD -MP -MF .deps/wait-global.Tpo -c wait-global.c  -fPIC -DPIC -o .libs/wait-global.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT wait-user.lo -MD -MP -MF .deps/wait-user.Tpo -c wait-user.c  -fPIC -DPIC -o .libs/wait-user.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT wait-private.lo -MD -MP -MF .deps/wait-private.Tpo -c wait-private.c  -fPIC -DPIC -o .libs/wait-private.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT op-support.lo -MD -MP -MF .deps/op-support.Tpo -c op-support.c  -fPIC -DPIC -o .libs/op-support.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT encrypt.lo -MD -MP -MF .deps/encrypt.Tpo -c encrypt.c  -fPIC -DPIC -o .libs/encrypt.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT encrypt-sign.lo -MD -MP -MF .deps/encrypt-sign.Tpo -c encrypt-sign.c  -fPIC -DPIC -o .libs/encrypt-sign.o
+mv -f .deps/mbox-util.Tpo .deps/mbox-util.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT decrypt.lo -MD -MP -MF .deps/decrypt.Tpo -c -o decrypt.lo decrypt.c
+mv -f .deps/signers.Tpo .deps/signers.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT decrypt-verify.lo -MD -MP -MF .deps/decrypt-verify.Tpo -c -o decrypt-verify.lo decrypt-verify.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT decrypt.lo -MD -MP -MF .deps/decrypt.Tpo -c decrypt.c  -fPIC -DPIC -o .libs/decrypt.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT decrypt-verify.lo -MD -MP -MF .deps/decrypt-verify.Tpo -c decrypt-verify.c  -fPIC -DPIC -o .libs/decrypt-verify.o
+mv -f .deps/data-mem.Tpo .deps/data-mem.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT verify.lo -MD -MP -MF .deps/verify.Tpo -c -o verify.lo verify.c
+mv -f .deps/data-compat.Tpo .deps/data-compat.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT sign.lo -MD -MP -MF .deps/sign.Tpo -c -o sign.lo sign.c
+mv -f .deps/wait.Tpo .deps/wait.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT passphrase.lo -MD -MP -MF .deps/passphrase.Tpo -c -o passphrase.lo passphrase.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT verify.lo -MD -MP -MF .deps/verify.Tpo -c verify.c  -fPIC -DPIC -o .libs/verify.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT sign.lo -MD -MP -MF .deps/sign.Tpo -c sign.c  -fPIC -DPIC -o .libs/sign.o
+mv -f .deps/wait-user.Tpo .deps/wait-user.Plo
+mv -f .deps/data-identify.Tpo .deps/data-identify.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT progress.lo -MD -MP -MF .deps/progress.Tpo -c -o progress.lo progress.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT key.lo -MD -MP -MF .deps/key.Tpo -c -o key.lo key.c
+mv -f .deps/wait-private.Tpo .deps/wait-private.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT keylist.lo -MD -MP -MF .deps/keylist.Tpo -c -o keylist.lo keylist.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT passphrase.lo -MD -MP -MF .deps/passphrase.Tpo -c passphrase.c  -fPIC -DPIC -o .libs/passphrase.o
+mv -f .deps/conversion.Tpo .deps/conversion.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT keysign.lo -MD -MP -MF .deps/keysign.Tpo -c -o keysign.lo keysign.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT progress.lo -MD -MP -MF .deps/progress.Tpo -c progress.c  -fPIC -DPIC -o .libs/progress.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT key.lo -MD -MP -MF .deps/key.Tpo -c key.c  -fPIC -DPIC -o .libs/key.o
+mv -f .deps/encrypt-sign.Tpo .deps/encrypt-sign.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT tofupolicy.lo -MD -MP -MF .deps/tofupolicy.Tpo -c -o tofupolicy.lo tofupolicy.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT keylist.lo -MD -MP -MF .deps/keylist.Tpo -c keylist.c  -fPIC -DPIC -o .libs/keylist.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT keysign.lo -MD -MP -MF .deps/keysign.Tpo -c keysign.c  -fPIC -DPIC -o .libs/keysign.o
+mv -f .deps/wait-global.Tpo .deps/wait-global.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT revsig.lo -MD -MP -MF .deps/revsig.Tpo -c -o revsig.lo revsig.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT tofupolicy.lo -MD -MP -MF .deps/tofupolicy.Tpo -c tofupolicy.c  -fPIC -DPIC -o .libs/tofupolicy.o
+mv -f .deps/decrypt-verify.Tpo .deps/decrypt-verify.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT import.lo -MD -MP -MF .deps/import.Tpo -c -o import.lo import.c
+mv -f .deps/encrypt.Tpo .deps/encrypt.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT export.lo -MD -MP -MF .deps/export.Tpo -c -o export.lo export.c
+mv -f .deps/op-support.Tpo .deps/op-support.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT genkey.lo -MD -MP -MF .deps/genkey.Tpo -c -o genkey.lo genkey.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT revsig.lo -MD -MP -MF .deps/revsig.Tpo -c revsig.c  -fPIC -DPIC -o .libs/revsig.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT import.lo -MD -MP -MF .deps/import.Tpo -c import.c  -fPIC -DPIC -o .libs/import.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT export.lo -MD -MP -MF .deps/export.Tpo -c export.c  -fPIC -DPIC -o .libs/export.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT genkey.lo -MD -MP -MF .deps/genkey.Tpo -c genkey.c  -fPIC -DPIC -o .libs/genkey.o
+mv -f .deps/progress.Tpo .deps/progress.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT delete.lo -MD -MP -MF .deps/delete.Tpo -c -o delete.lo delete.c
+mv -f .deps/passphrase.Tpo .deps/passphrase.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT edit.lo -MD -MP -MF .deps/edit.Tpo -c -o edit.lo edit.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT delete.lo -MD -MP -MF .deps/delete.Tpo -c delete.c  -fPIC -DPIC -o .libs/delete.o
+mv -f .deps/data.Tpo .deps/data.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT getauditlog.lo -MD -MP -MF .deps/getauditlog.Tpo -c -o getauditlog.lo getauditlog.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT edit.lo -MD -MP -MF .deps/edit.Tpo -c edit.c  -fPIC -DPIC -o .libs/edit.o
+mv -f .deps/tofupolicy.Tpo .deps/tofupolicy.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT setexpire.lo -MD -MP -MF .deps/setexpire.Tpo -c -o setexpire.lo setexpire.c
+mv -f .deps/decrypt.Tpo .deps/decrypt.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT setownertrust.lo -MD -MP -MF .deps/setownertrust.Tpo -c -o setownertrust.lo setownertrust.c
+mv -f .deps/keysign.Tpo .deps/keysign.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT genrandom.lo -MD -MP -MF .deps/genrandom.Tpo -c -o genrandom.lo genrandom.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT getauditlog.lo -MD -MP -MF .deps/getauditlog.Tpo -c getauditlog.c  -fPIC -DPIC -o .libs/getauditlog.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT setexpire.lo -MD -MP -MF .deps/setexpire.Tpo -c setexpire.c  -fPIC -DPIC -o .libs/setexpire.o
+mv -f .deps/sign.Tpo .deps/sign.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT opassuan.lo -MD -MP -MF .deps/opassuan.Tpo -c -o opassuan.lo opassuan.c
+mv -f .deps/revsig.Tpo .deps/revsig.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT passwd.lo -MD -MP -MF .deps/passwd.Tpo -c -o passwd.lo passwd.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT setownertrust.lo -MD -MP -MF .deps/setownertrust.Tpo -c setownertrust.c  -fPIC -DPIC -o .libs/setownertrust.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT genrandom.lo -MD -MP -MF .deps/genrandom.Tpo -c genrandom.c  -fPIC -DPIC -o .libs/genrandom.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT opassuan.lo -MD -MP -MF .deps/opassuan.Tpo -c opassuan.c  -fPIC -DPIC -o .libs/opassuan.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT passwd.lo -MD -MP -MF .deps/passwd.Tpo -c passwd.c  -fPIC -DPIC -o .libs/passwd.o
+mv -f .deps/getauditlog.Tpo .deps/getauditlog.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT spawn.lo -MD -MP -MF .deps/spawn.Tpo -c -o spawn.lo spawn.c
+mv -f .deps/delete.Tpo .deps/delete.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT assuan-support.lo -MD -MP -MF .deps/assuan-support.Tpo -c -o assuan-support.lo assuan-support.c
+mv -f .deps/key.Tpo .deps/key.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT engine.lo -MD -MP -MF .deps/engine.Tpo -c -o engine.lo engine.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT spawn.lo -MD -MP -MF .deps/spawn.Tpo -c spawn.c  -fPIC -DPIC -o .libs/spawn.o
+mv -f .deps/argparse.Tpo .deps/argparse.Po
+mv -f .deps/setexpire.Tpo .deps/setexpire.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT engine-gpg.lo -MD -MP -MF .deps/engine-gpg.Tpo -c -o engine-gpg.lo engine-gpg.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT status-table.lo -MD -MP -MF .deps/status-table.Tpo -c -o status-table.lo status-table.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT assuan-support.lo -MD -MP -MF .deps/assuan-support.Tpo -c assuan-support.c  -fPIC -DPIC -o .libs/assuan-support.o
+mv -f .deps/setownertrust.Tpo .deps/setownertrust.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT engine-gpgsm.lo -MD -MP -MF .deps/engine-gpgsm.Tpo -c -o engine-gpgsm.lo engine-gpgsm.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT engine.lo -MD -MP -MF .deps/engine.Tpo -c engine.c  -fPIC -DPIC -o .libs/engine.o
+mv -f .deps/edit.Tpo .deps/edit.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT engine-assuan.lo -MD -MP -MF .deps/engine-assuan.Tpo -c -o engine-assuan.lo engine-assuan.c
+mv -f .deps/genrandom.Tpo .deps/genrandom.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT engine-gpgconf.lo -MD -MP -MF .deps/engine-gpgconf.Tpo -c -o engine-gpgconf.lo engine-gpgconf.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT status-table.lo -MD -MP -MF .deps/status-table.Tpo -c status-table.c  -fPIC -DPIC -o .libs/status-table.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT engine-gpg.lo -MD -MP -MF .deps/engine-gpg.Tpo -c engine-gpg.c  -fPIC -DPIC -o .libs/engine-gpg.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT engine-gpgsm.lo -MD -MP -MF .deps/engine-gpgsm.Tpo -c engine-gpgsm.c  -fPIC -DPIC -o .libs/engine-gpgsm.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT engine-assuan.lo -MD -MP -MF .deps/engine-assuan.Tpo -c engine-assuan.c  -fPIC -DPIC -o .libs/engine-assuan.o
+mv -f .deps/opassuan.Tpo .deps/opassuan.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT engine-uiserver.lo -MD -MP -MF .deps/engine-uiserver.Tpo -c -o engine-uiserver.lo engine-uiserver.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT engine-gpgconf.lo -MD -MP -MF .deps/engine-gpgconf.Tpo -c engine-gpgconf.c  -fPIC -DPIC -o .libs/engine-gpgconf.o
+mv -f .deps/export.Tpo .deps/export.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT engine-g13.lo -MD -MP -MF .deps/engine-g13.Tpo -c -o engine-g13.lo engine-g13.c
+mv -f .deps/passwd.Tpo .deps/passwd.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT vfs-mount.lo -MD -MP -MF .deps/vfs-mount.Tpo -c -o vfs-mount.lo vfs-mount.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT engine-uiserver.lo -MD -MP -MF .deps/engine-uiserver.Tpo -c engine-uiserver.c  -fPIC -DPIC -o .libs/engine-uiserver.o
+mv -f .deps/spawn.Tpo .deps/spawn.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT vfs-create.lo -MD -MP -MF .deps/vfs-create.Tpo -c -o vfs-create.lo vfs-create.c
+mv -f .deps/genkey.Tpo .deps/genkey.Plo
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT engine-g13.lo -MD -MP -MF .deps/engine-g13.Tpo -c engine-g13.c  -fPIC -DPIC -o .libs/engine-g13.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT vfs-mount.lo -MD -MP -MF .deps/vfs-mount.Tpo -c vfs-mount.c  -fPIC -DPIC -o .libs/vfs-mount.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT engine-spawn.lo -MD -MP -MF .deps/engine-spawn.Tpo -c -o engine-spawn.lo engine-spawn.c
+mv -f .deps/status-table.Tpo .deps/status-table.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT gpgconf.lo -MD -MP -MF .deps/gpgconf.Tpo -c -o gpgconf.lo gpgconf.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT vfs-create.lo -MD -MP -MF .deps/vfs-create.Tpo -c vfs-create.c  -fPIC -DPIC -o .libs/vfs-create.o
+mv -f .deps/assuan-support.Tpo .deps/assuan-support.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT queryswdb.lo -MD -MP -MF .deps/queryswdb.Tpo -c -o queryswdb.lo queryswdb.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT engine-spawn.lo -MD -MP -MF .deps/engine-spawn.Tpo -c engine-spawn.c  -fPIC -DPIC -o .libs/engine-spawn.o
+mv -f .deps/verify.Tpo .deps/verify.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT posix-util.lo -MD -MP -MF .deps/posix-util.Tpo -c -o posix-util.lo posix-util.c
+mv -f .deps/import.Tpo .deps/import.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT posix-io.lo -MD -MP -MF .deps/posix-io.Tpo -c -o posix-io.lo posix-io.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT gpgconf.lo -MD -MP -MF .deps/gpgconf.Tpo -c gpgconf.c  -fPIC -DPIC -o .libs/gpgconf.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT queryswdb.lo -MD -MP -MF .deps/queryswdb.Tpo -c queryswdb.c  -fPIC -DPIC -o .libs/queryswdb.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT posix-io.lo -MD -MP -MF .deps/posix-io.Tpo -c posix-io.c  -fPIC -DPIC -o .libs/posix-io.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT posix-util.lo -MD -MP -MF .deps/posix-util.Tpo -c posix-util.c  -fPIC -DPIC -o .libs/posix-util.o
+mv -f .deps/gpgconf.Tpo .deps/gpgconf.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT dirinfo.lo -MD -MP -MF .deps/dirinfo.Tpo -c -o dirinfo.lo dirinfo.c
+mv -f .deps/vfs-create.Tpo .deps/vfs-create.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT debug.lo -MD -MP -MF .deps/debug.Tpo -c -o debug.lo debug.c
+mv -f .deps/vfs-mount.Tpo .deps/vfs-mount.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT gpgme.lo -MD -MP -MF .deps/gpgme.Tpo -c -o gpgme.lo gpgme.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT dirinfo.lo -MD -MP -MF .deps/dirinfo.Tpo -c dirinfo.c  -fPIC -DPIC -o .libs/dirinfo.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT debug.lo -MD -MP -MF .deps/debug.Tpo -c debug.c  -fPIC -DPIC -o .libs/debug.o
+mv -f .deps/queryswdb.Tpo .deps/queryswdb.Plo
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT gpgme.lo -MD -MP -MF .deps/gpgme.Tpo -c gpgme.c  -fPIC -DPIC -o .libs/gpgme.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT version.lo -MD -MP -MF .deps/version.Tpo -c -o version.lo version.c
+mv -f .deps/posix-util.Tpo .deps/posix-util.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT error.lo -MD -MP -MF .deps/error.Tpo -c -o error.lo error.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT version.lo -MD -MP -MF .deps/version.Tpo -c version.c  -fPIC -DPIC -o .libs/version.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../conf -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT error.lo -MD -MP -MF .deps/error.Tpo -c error.c  -fPIC -DPIC -o .libs/error.o
+mv -f .deps/engine-assuan.Tpo .deps/engine-assuan.Plo
+gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT gpgme-json.o -MD -MP -MF .deps/gpgme-json.Tpo -c -o gpgme-json.o gpgme-json.c
+mv -f .deps/engine-g13.Tpo .deps/engine-g13.Plo
+mv -f .deps/engine-spawn.Tpo .deps/engine-spawn.Plo
+gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT json-core.o -MD -MP -MF .deps/json-core.Tpo -c -o json-core.o json-core.c
+gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT json-util.o -MD -MP -MF .deps/json-util.Tpo -c -o json-util.o json-util.c
+mv -f .deps/keylist.Tpo .deps/keylist.Plo
+gcc -DHAVE_CONFIG_H -I. -I../conf     -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -MT cJSON.o -MD -MP -MF .deps/cJSON.Tpo -c -o cJSON.o cJSON.c
+mv -f .deps/error.Tpo .deps/error.Plo
+mv -f .deps/engine.Tpo .deps/engine.Plo
+mv -f .deps/debug.Tpo .deps/debug.Plo
+mv -f .deps/json-util.Tpo .deps/json-util.Po
+mv -f .deps/version.Tpo .deps/version.Plo
+mv -f .deps/engine-uiserver.Tpo .deps/engine-uiserver.Plo
+mv -f .deps/dirinfo.Tpo .deps/dirinfo.Plo
+mv -f .deps/engine-gpgconf.Tpo .deps/engine-gpgconf.Plo
+mv -f .deps/gpgme-json.Tpo .deps/gpgme-json.Po
+mv -f .deps/gpgme-tool.Tpo .deps/gpgme-tool.Po
+mv -f .deps/posix-io.Tpo .deps/posix-io.Plo
+mv -f .deps/engine-gpgsm.Tpo .deps/engine-gpgsm.Plo
+mv -f .deps/gpgme.Tpo .deps/gpgme.Plo
+mv -f .deps/cJSON.Tpo .deps/cJSON.Po
+mv -f .deps/json-core.Tpo .deps/json-core.Po
+mv -f .deps/engine-gpg.Tpo .deps/engine-gpg.Plo
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div    -Wl,--version-script=./libgpgme.vers -version-info 45:0:0  -o libgpgme.la -rpath /usr/lib conversion.lo get-env.lo parsetlv.lo mbox-util.lo data.lo data-fd.lo data-stream.lo data-mem.lo data-user.lo data-estream.lo data-compat.lo data-identify.lo signers.lo sig-notation.lo wait.lo wait-global.lo wait-private.lo wait-user.lo op-support.lo encrypt.lo encrypt-sign.lo decrypt.lo decrypt-verify.lo verify.lo sign.lo passphrase.lo progress.lo key.lo keylist.lo keysign.lo tofupolicy.lo revsig.lo import.lo export.lo genkey.lo delete.lo edit.lo getauditlog.lo setexpire.lo setownertrust.lo genrandom.lo opassuan.lo passwd.lo spawn.lo assuan-support.lo engine.lo engine-gpg.lo status-table.lo engine-gpgsm.lo engine-assuan.lo engine-gpgconf.lo engine-uiserver.lo engine-g13.lo vfs-mount.lo vfs-create.lo engine-spawn.lo gpgconf.lo queryswdb.lo posix-util.lo posix-io.lo dirinfo.lo debug.lo gpgme.lo version.lo error.lo   -lassuan -lgpg-error  
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/conversion.o .libs/get-env.o .libs/parsetlv.o .libs/mbox-util.o .libs/data.o .libs/data-fd.o .libs/data-stream.o .libs/data-mem.o .libs/data-user.o .libs/data-estream.o .libs/data-compat.o .libs/data-identify.o .libs/signers.o .libs/sig-notation.o .libs/wait.o .libs/wait-global.o .libs/wait-private.o .libs/wait-user.o .libs/op-support.o .libs/encrypt.o .libs/encrypt-sign.o .libs/decrypt.o .libs/decrypt-verify.o .libs/verify.o .libs/sign.o .libs/passphrase.o .libs/progress.o .libs/key.o .libs/keylist.o .libs/keysign.o .libs/tofupolicy.o .libs/revsig.o .libs/import.o .libs/export.o .libs/genkey.o .libs/delete.o .libs/edit.o .libs/getauditlog.o .libs/setexpire.o .libs/setownertrust.o .libs/genrandom.o .libs/opassuan.o .libs/passwd.o .libs/spawn.o .libs/assuan-support.o .libs/engine.o .libs/engine-gpg.o .libs/status-table.o .libs/engine-gpgsm.o .libs/engine-assuan.o .libs/engine-gpgconf.o .libs/engine-uiserver.o .libs/engine-g13.o .libs/vfs-mount.o .libs/vfs-create.o .libs/engine-spawn.o .libs/gpgconf.o .libs/queryswdb.o .libs/posix-util.o .libs/posix-io.o .libs/dirinfo.o .libs/debug.o .libs/gpgme.o .libs/version.o .libs/error.o   /usr/lib/libassuan.so /usr/lib/libgpg-error.so  -O2 -Wl,--version-script=./libgpgme.vers   -Wl,-soname -Wl,libgpgme.so.45 -o .libs/libgpgme.so.45.0.0
+libtool: link: (cd ".libs" && rm -f "libgpgme.so.45" && ln -s "libgpgme.so.45.0.0" "libgpgme.so.45")
+libtool: link: (cd ".libs" && rm -f "libgpgme.so" && ln -s "libgpgme.so.45.0.0" "libgpgme.so")
+libtool: link: ( cd ".libs" && rm -f "libgpgme.la" && ln -s "../libgpgme.la" "libgpgme.la" )
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div   -o gpgme-tool gpgme-tool.o argparse.o libgpgme.la -lassuan -lgpg-error 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div   -o gpgme-json gpgme-json.o json-core.o json-util.o cJSON.o -lm libgpgme.la -lgpg-error 
+libtool: link: gcc -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -o .libs/gpgme-json gpgme-json.o json-core.o json-util.o cJSON.o  -lm ./.libs/libgpgme.so /usr/lib/libgpg-error.so
+libtool: link: gcc -O2 -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wno-format-y2k -Wno-missing-field-initializers -Wno-sign-compare -Wno-format-zero-length -Wno-format-truncation -Wno-sizeof-pointer-div -o .libs/gpgme-tool gpgme-tool.o argparse.o  ./.libs/libgpgme.so /usr/lib/libassuan.so /usr/lib/libgpg-error.so
+make[2]: Leaving directory '/blfs/builds/gpgme-2.0.0/src'
+Making all in doc
+make[2]: Entering directory '/blfs/builds/gpgme-2.0.0/doc'
+make[2]: Circular defs.inc <- defsincdate dependency dropped.
+gcc -I. -I../conf  -I. \
+    -o mkdefsinc ./mkdefsinc.c
+incd="`test -f defsincdate || echo './'`defsincdate"; \
+./mkdefsinc -C . --date "`cat $incd 2>/dev/null`" \
+    gpgme.texi uiserver.texi lesser.texi gpl.texi gpgme-json.texi >defs.inc
+make  all-am
+make[3]: Entering directory '/blfs/builds/gpgme-2.0.0/doc'
+make[3]: Circular defsincdate <- gpgme.texi dependency dropped.
+incd="`test -f defsincdate || echo './'`defsincdate"; \
+for file in gpgme-json.texi ; do \
+              /usr/bin/yat2m -I . --release "GPGME 2.0.0" --store \
+                  --date "`cat $incd 2>/dev/null`" \
+          `test -f '$file' || echo './'`$file ; done
+make[3]: Leaving directory '/blfs/builds/gpgme-2.0.0/doc'
+make[2]: Leaving directory '/blfs/builds/gpgme-2.0.0/doc'
+Making all in lang
+make[2]: Entering directory '/blfs/builds/gpgme-2.0.0/lang'
+Making all in cl
+make[3]: Entering directory '/blfs/builds/gpgme-2.0.0/lang/cl'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/blfs/builds/gpgme-2.0.0/lang/cl'
+make[3]: Entering directory '/blfs/builds/gpgme-2.0.0/lang'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/blfs/builds/gpgme-2.0.0/lang'
+make[2]: Leaving directory '/blfs/builds/gpgme-2.0.0/lang'
+make[2]: Entering directory '/blfs/builds/gpgme-2.0.0'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/blfs/builds/gpgme-2.0.0'
+make[1]: Leaving directory '/blfs/builds/gpgme-2.0.0'
+make  install-recursive
+make[1]: Entering directory '/blfs/builds/gpgme-2.0.0'
+Making install in src
+make[2]: Entering directory '/blfs/builds/gpgme-2.0.0/src'
+make[3]: Entering directory '/blfs/builds/gpgme-2.0.0/src'
+ /usr/bin/mkdir -p '/pkgs/gpgme/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libgpgme.la '/pkgs/gpgme/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libgpgme.so.45.0.0 /pkgs/gpgme/usr/lib/libgpgme.so.45.0.0
+libtool: install: (cd /pkgs/gpgme/usr/lib && { ln -s -f libgpgme.so.45.0.0 libgpgme.so.45 || { rm -f libgpgme.so.45 && ln -s libgpgme.so.45.0.0 libgpgme.so.45; }; })
+libtool: install: (cd /pkgs/gpgme/usr/lib && { ln -s -f libgpgme.so.45.0.0 libgpgme.so || { rm -f libgpgme.so && ln -s libgpgme.so.45.0.0 libgpgme.so; }; })
+libtool: install: /usr/bin/install -c .libs/libgpgme.lai /pkgs/gpgme/usr/lib/libgpgme.la
+libtool: install: warning: remember to run `libtool --finish /usr/lib'
+ /usr/bin/mkdir -p '/pkgs/gpgme/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c gpgme-tool gpgme-json '/pkgs/gpgme/usr/bin'
+libtool: install: /usr/bin/install -c .libs/gpgme-tool /pkgs/gpgme/usr/bin/gpgme-tool
+libtool: install: /usr/bin/install -c .libs/gpgme-json /pkgs/gpgme/usr/bin/gpgme-json
+ /usr/bin/mkdir -p '/pkgs/gpgme/usr/share/aclocal'
+ /usr/bin/install -c -m 644 gpgme.m4 '/pkgs/gpgme/usr/share/aclocal'
+ /usr/bin/mkdir -p '/pkgs/gpgme/usr/include'
+ /usr/bin/install -c -m 644 gpgme.h '/pkgs/gpgme/usr/include'
+ /usr/bin/mkdir -p '/pkgs/gpgme/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 gpgme.pc gpgme-glib.pc '/pkgs/gpgme/usr/lib/pkgconfig'
+make[3]: Leaving directory '/blfs/builds/gpgme-2.0.0/src'
+make[2]: Leaving directory '/blfs/builds/gpgme-2.0.0/src'
+Making install in doc
+make[2]: Entering directory '/blfs/builds/gpgme-2.0.0/doc'
+make[2]: Circular defs.inc <- defsincdate dependency dropped.
+make  install-am
+make[3]: Entering directory '/blfs/builds/gpgme-2.0.0/doc'
+make[3]: Circular defsincdate <- gpgme.texi dependency dropped.
+make[4]: Entering directory '/blfs/builds/gpgme-2.0.0/doc'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Circular defsincdate <- gpgme.texi dependency dropped.
+ /usr/bin/mkdir -p '/pkgs/gpgme/usr/share/info'
+ /usr/bin/install -c -m 644 ./gpgme.info ./gpgme.info-1 ./gpgme.info-2 '/pkgs/gpgme/usr/share/info'
+ install-info --info-dir='/pkgs/gpgme/usr/share/info' '/pkgs/gpgme/usr/share/info/gpgme.info'
+ /usr/bin/mkdir -p '/pkgs/gpgme/usr/share/man/man1'
+ /usr/bin/install -c -m 644 gpgme-json.1 '/pkgs/gpgme/usr/share/man/man1'
+make[4]: Leaving directory '/blfs/builds/gpgme-2.0.0/doc'
+make[3]: Leaving directory '/blfs/builds/gpgme-2.0.0/doc'
+make[2]: Leaving directory '/blfs/builds/gpgme-2.0.0/doc'
+Making install in lang
+make[2]: Entering directory '/blfs/builds/gpgme-2.0.0/lang'
+Making install in cl
+make[3]: Entering directory '/blfs/builds/gpgme-2.0.0/lang/cl'
+make[4]: Entering directory '/blfs/builds/gpgme-2.0.0/lang/cl'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/pkgs/gpgme/usr/share/common-lisp/source/gpgme'
+ /usr/bin/install -c -m 644 gpgme.asd gpgme-package.lisp gpgme-grovel.lisp gpgme.lisp '/pkgs/gpgme/usr/share/common-lisp/source/gpgme'
+make[4]: Leaving directory '/blfs/builds/gpgme-2.0.0/lang/cl'
+make[3]: Leaving directory '/blfs/builds/gpgme-2.0.0/lang/cl'
+make[3]: Entering directory '/blfs/builds/gpgme-2.0.0/lang'
+make[4]: Entering directory '/blfs/builds/gpgme-2.0.0/lang'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/blfs/builds/gpgme-2.0.0/lang'
+make[3]: Leaving directory '/blfs/builds/gpgme-2.0.0/lang'
+make[2]: Leaving directory '/blfs/builds/gpgme-2.0.0/lang'
+make[2]: Entering directory '/blfs/builds/gpgme-2.0.0'
+make[3]: Entering directory '/blfs/builds/gpgme-2.0.0'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/blfs/builds/gpgme-2.0.0'
+make[2]: Leaving directory '/blfs/builds/gpgme-2.0.0'
+make[1]: Leaving directory '/blfs/builds/gpgme-2.0.0'
+make  install-recursive
+make[1]: Entering directory '/blfs/builds/gpgme-2.0.0'
+Making install in src
+make[2]: Entering directory '/blfs/builds/gpgme-2.0.0/src'
+make[3]: Entering directory '/blfs/builds/gpgme-2.0.0/src'
+ /usr/bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libgpgme.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libgpgme.so.45.0.0 /usr/lib/libgpgme.so.45.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libgpgme.so.45.0.0 libgpgme.so.45 || { rm -f libgpgme.so.45 && ln -s libgpgme.so.45.0.0 libgpgme.so.45; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libgpgme.so.45.0.0 libgpgme.so || { rm -f libgpgme.so && ln -s libgpgme.so.45.0.0 libgpgme.so; }; })
+libtool: install: /usr/bin/install -c .libs/libgpgme.lai /usr/lib/libgpgme.la
+libtool: finish: PATH="/usr/sbin:/usr/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /usr/bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c gpgme-tool gpgme-json '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/gpgme-tool /usr/bin/gpgme-tool
+libtool: install: /usr/bin/install -c .libs/gpgme-json /usr/bin/gpgme-json
+ /usr/bin/mkdir -p '/usr/share/aclocal'
+ /usr/bin/install -c -m 644 gpgme.m4 '/usr/share/aclocal'
+ /usr/bin/mkdir -p '/usr/include'
+ /usr/bin/install -c -m 644 gpgme.h '/usr/include'
+ /usr/bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 gpgme.pc gpgme-glib.pc '/usr/lib/pkgconfig'
+make[3]: Leaving directory '/blfs/builds/gpgme-2.0.0/src'
+make[2]: Leaving directory '/blfs/builds/gpgme-2.0.0/src'
+Making install in doc
+make[2]: Entering directory '/blfs/builds/gpgme-2.0.0/doc'
+make[2]: Circular defs.inc <- defsincdate dependency dropped.
+make  install-am
+make[3]: Entering directory '/blfs/builds/gpgme-2.0.0/doc'
+make[3]: Circular defsincdate <- gpgme.texi dependency dropped.
+make[4]: Entering directory '/blfs/builds/gpgme-2.0.0/doc'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Circular defsincdate <- gpgme.texi dependency dropped.
+ /usr/bin/mkdir -p '/usr/share/info'
+ /usr/bin/install -c -m 644 ./gpgme.info ./gpgme.info-1 ./gpgme.info-2 '/usr/share/info'
+ install-info --info-dir='/usr/share/info' '/usr/share/info/gpgme.info'
+ /usr/bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 gpgme-json.1 '/usr/share/man/man1'
+make[4]: Leaving directory '/blfs/builds/gpgme-2.0.0/doc'
+make[3]: Leaving directory '/blfs/builds/gpgme-2.0.0/doc'
+make[2]: Leaving directory '/blfs/builds/gpgme-2.0.0/doc'
+Making install in lang
+make[2]: Entering directory '/blfs/builds/gpgme-2.0.0/lang'
+Making install in cl
+make[3]: Entering directory '/blfs/builds/gpgme-2.0.0/lang/cl'
+make[4]: Entering directory '/blfs/builds/gpgme-2.0.0/lang/cl'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/share/common-lisp/source/gpgme'
+ /usr/bin/install -c -m 644 gpgme.asd gpgme-package.lisp gpgme-grovel.lisp gpgme.lisp '/usr/share/common-lisp/source/gpgme'
+make[4]: Leaving directory '/blfs/builds/gpgme-2.0.0/lang/cl'
+make[3]: Leaving directory '/blfs/builds/gpgme-2.0.0/lang/cl'
+make[3]: Entering directory '/blfs/builds/gpgme-2.0.0/lang'
+make[4]: Entering directory '/blfs/builds/gpgme-2.0.0/lang'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/blfs/builds/gpgme-2.0.0/lang'
+make[3]: Leaving directory '/blfs/builds/gpgme-2.0.0/lang'
+make[2]: Leaving directory '/blfs/builds/gpgme-2.0.0/lang'
+make[2]: Entering directory '/blfs/builds/gpgme-2.0.0'
+make[3]: Entering directory '/blfs/builds/gpgme-2.0.0'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/blfs/builds/gpgme-2.0.0'
+make[2]: Leaving directory '/blfs/builds/gpgme-2.0.0'
+make[1]: Leaving directory '/blfs/builds/gpgme-2.0.0'
+gpgme/
+gpgme/usr/
+gpgme/usr/share/
+gpgme/usr/share/info/
+gpgme/usr/share/info/gpgme.info-2
+gpgme/usr/share/info/gpgme.info-1
+gpgme/usr/share/info/gpgme.info
+gpgme/usr/share/info/dir
+gpgme/usr/share/aclocal/
+gpgme/usr/share/aclocal/gpgme.m4
+gpgme/usr/share/common-lisp/
+gpgme/usr/share/common-lisp/source/
+gpgme/usr/share/common-lisp/source/gpgme/
+gpgme/usr/share/common-lisp/source/gpgme/gpgme.lisp
+gpgme/usr/share/common-lisp/source/gpgme/gpgme-package.lisp
+gpgme/usr/share/common-lisp/source/gpgme/gpgme-grovel.lisp
+gpgme/usr/share/common-lisp/source/gpgme/gpgme.asd
+gpgme/usr/share/man/
+gpgme/usr/share/man/man1/
+gpgme/usr/share/man/man1/gpgme-json.1
+gpgme/usr/lib/
+gpgme/usr/lib/libgpgme.la
+gpgme/usr/lib/libgpgme.so.45.0.0
+gpgme/usr/lib/libgpgme.so.45
+gpgme/usr/lib/libgpgme.so
+gpgme/usr/lib/pkgconfig/
+gpgme/usr/lib/pkgconfig/gpgme.pc
+gpgme/usr/lib/pkgconfig/gpgme-glib.pc
+gpgme/usr/include/
+gpgme/usr/include/gpgme.h
+gpgme/usr/bin/
+gpgme/usr/bin/gpgme-json
+gpgme/usr/bin/gpgme-tool
+gpgme/version
+gpgme/depends
+gpgme/make-depends

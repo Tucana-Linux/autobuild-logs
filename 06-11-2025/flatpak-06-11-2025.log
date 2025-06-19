@@ -1,0 +1,1720 @@
+--2025-06-11 08:27:10--  https://github.com/flatpak/flatpak/releases/download/1.16.1/flatpak-1.16.1.tar.xz
+Resolving github.com (github.com)... 140.82.114.3
+Connecting to github.com (github.com)|140.82.114.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/59213200/ed3cad0d-1ca1-4182-b8b2-cecd7f964bf7?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250611T082710Z&X-Amz-Expires=300&X-Amz-Signature=10fbb9d4460ceefdc23b5cf325ae304895cde5c8d0694870c71a801886a19589&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dflatpak-1.16.1.tar.xz&response-content-type=application%2Foctet-stream [following]
+--2025-06-11 08:27:11--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/59213200/ed3cad0d-1ca1-4182-b8b2-cecd7f964bf7?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250611%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250611T082710Z&X-Amz-Expires=300&X-Amz-Signature=10fbb9d4460ceefdc23b5cf325ae304895cde5c8d0694870c71a801886a19589&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dflatpak-1.16.1.tar.xz&response-content-type=application%2Foctet-stream
+Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.108.133, 185.199.109.133, 185.199.111.133, ...
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1225384 (1.2M) [application/octet-stream]
+Saving to: 'flatpak-1.16.1.tar.xz'
+
+     0K .......... .......... .......... .......... ..........  4% 6.36M 0s
+    50K .......... .......... .......... .......... ..........  8% 27.1M 0s
+   100K .......... .......... .......... .......... .......... 12% 27.7M 0s
+   150K .......... .......... .......... .......... .......... 16% 13.1M 0s
+   200K .......... .......... .......... .......... .......... 20% 57.6M 0s
+   250K .......... .......... .......... .......... .......... 25% 58.9M 0s
+   300K .......... .......... .......... .......... .......... 29% 86.3M 0s
+   350K .......... .......... .......... .......... .......... 33%  118M 0s
+   400K .......... .......... .......... .......... .......... 37% 31.7M 0s
+   450K .......... .......... .......... .......... .......... 41%  119M 0s
+   500K .......... .......... .......... .......... .......... 45%  118M 0s
+   550K .......... .......... .......... .......... .......... 50%  118M 0s
+   600K .......... .......... .......... .......... .......... 54% 17.2M 0s
+   650K .......... .......... .......... .......... .......... 58%  118M 0s
+   700K .......... .......... .......... .......... .......... 62% 86.2M 0s
+   750K .......... .......... .......... .......... .......... 66%  118M 0s
+   800K .......... .......... .......... .......... .......... 71%  118M 0s
+   850K .......... .......... .......... .......... .......... 75%  118M 0s
+   900K .......... .......... .......... .......... .......... 79%  117M 0s
+   950K .......... .......... .......... .......... .......... 83%  120M 0s
+  1000K .......... .......... .......... .......... .......... 87%  114M 0s
+  1050K .......... .......... .......... .......... .......... 91%  119M 0s
+  1100K .......... .......... .......... .......... .......... 96% 85.3M 0s
+  1150K .......... .......... .......... .......... ......    100%  138M=0.03s
+
+2025-06-11 08:27:11 (41.7 MB/s) - 'flatpak-1.16.1.tar.xz' saved [1225384/1225384]
+
+flatpak-1.16.1/
+flatpak-1.16.1/.devcontainer/
+flatpak-1.16.1/.devcontainer/devcontainer.json
+flatpak-1.16.1/.editorconfig
+flatpak-1.16.1/.flake8
+flatpak-1.16.1/.github/
+flatpak-1.16.1/.github/FUNDING.yml
+flatpak-1.16.1/.github/ISSUE_TEMPLATE/
+flatpak-1.16.1/.github/ISSUE_TEMPLATE/bug_template.yml
+flatpak-1.16.1/.github/ISSUE_TEMPLATE/feature_request.yml
+flatpak-1.16.1/.github/workflows/
+flatpak-1.16.1/.github/workflows/block-autosquash-commits.yml
+flatpak-1.16.1/.github/workflows/check.yml
+flatpak-1.16.1/.github/workflows/differential-shellcheck.yml
+flatpak-1.16.1/.gitignore
+flatpak-1.16.1/CODE_OF_CONDUCT.md
+flatpak-1.16.1/CONTRIBUTING.md
+flatpak-1.16.1/COPYING
+flatpak-1.16.1/NEWS
+flatpak-1.16.1/README.md
+flatpak-1.16.1/SECURITY.md
+flatpak-1.16.1/app/
+flatpak-1.16.1/app/flatpak-builtins-build-bundle.c
+flatpak-1.16.1/app/flatpak-builtins-build-commit-from.c
+flatpak-1.16.1/app/flatpak-builtins-build-export.c
+flatpak-1.16.1/app/flatpak-builtins-build-finish.c
+flatpak-1.16.1/app/flatpak-builtins-build-import-bundle.c
+flatpak-1.16.1/app/flatpak-builtins-build-init.c
+flatpak-1.16.1/app/flatpak-builtins-build-sign.c
+flatpak-1.16.1/app/flatpak-builtins-build-update-repo.c
+flatpak-1.16.1/app/flatpak-builtins-build.c
+flatpak-1.16.1/app/flatpak-builtins-config.c
+flatpak-1.16.1/app/flatpak-builtins-create-usb.c
+flatpak-1.16.1/app/flatpak-builtins-document-export.c
+flatpak-1.16.1/app/flatpak-builtins-document-info.c
+flatpak-1.16.1/app/flatpak-builtins-document-list.c
+flatpak-1.16.1/app/flatpak-builtins-document-unexport.c
+flatpak-1.16.1/app/flatpak-builtins-enter.c
+flatpak-1.16.1/app/flatpak-builtins-history.c
+flatpak-1.16.1/app/flatpak-builtins-info.c
+flatpak-1.16.1/app/flatpak-builtins-install.c
+flatpak-1.16.1/app/flatpak-builtins-kill.c
+flatpak-1.16.1/app/flatpak-builtins-list.c
+flatpak-1.16.1/app/flatpak-builtins-make-current.c
+flatpak-1.16.1/app/flatpak-builtins-mask.c
+flatpak-1.16.1/app/flatpak-builtins-override.c
+flatpak-1.16.1/app/flatpak-builtins-permission-list.c
+flatpak-1.16.1/app/flatpak-builtins-permission-remove.c
+flatpak-1.16.1/app/flatpak-builtins-permission-reset.c
+flatpak-1.16.1/app/flatpak-builtins-permission-set.c
+flatpak-1.16.1/app/flatpak-builtins-permission-show.c
+flatpak-1.16.1/app/flatpak-builtins-pin.c
+flatpak-1.16.1/app/flatpak-builtins-ps.c
+flatpak-1.16.1/app/flatpak-builtins-remote-add.c
+flatpak-1.16.1/app/flatpak-builtins-remote-delete.c
+flatpak-1.16.1/app/flatpak-builtins-remote-info.c
+flatpak-1.16.1/app/flatpak-builtins-remote-list.c
+flatpak-1.16.1/app/flatpak-builtins-remote-ls.c
+flatpak-1.16.1/app/flatpak-builtins-remote-modify.c
+flatpak-1.16.1/app/flatpak-builtins-repair.c
+flatpak-1.16.1/app/flatpak-builtins-repo.c
+flatpak-1.16.1/app/flatpak-builtins-run.c
+flatpak-1.16.1/app/flatpak-builtins-search.c
+flatpak-1.16.1/app/flatpak-builtins-uninstall.c
+flatpak-1.16.1/app/flatpak-builtins-update.c
+flatpak-1.16.1/app/flatpak-builtins-utils.c
+flatpak-1.16.1/app/flatpak-builtins-utils.h
+flatpak-1.16.1/app/flatpak-builtins.h
+flatpak-1.16.1/app/flatpak-cli-transaction.c
+flatpak-1.16.1/app/flatpak-cli-transaction.h
+flatpak-1.16.1/app/flatpak-complete.c
+flatpak-1.16.1/app/flatpak-complete.h
+flatpak-1.16.1/app/flatpak-main.c
+flatpak-1.16.1/app/flatpak-polkit-agent-text-listener.c
+flatpak-1.16.1/app/flatpak-polkit-agent-text-listener.h
+flatpak-1.16.1/app/flatpak-quiet-transaction.c
+flatpak-1.16.1/app/flatpak-quiet-transaction.h
+flatpak-1.16.1/app/flatpak-table-printer.c
+flatpak-1.16.1/app/flatpak-table-printer.h
+flatpak-1.16.1/app/flatpak-tty-utils-private.h
+flatpak-1.16.1/app/flatpak-tty-utils.c
+flatpak-1.16.1/app/meson.build
+flatpak-1.16.1/app/parse-datetime.h
+flatpak-1.16.1/app/parse-datetime.y
+flatpak-1.16.1/buildutil/
+flatpak-1.16.1/buildutil/tap-test
+flatpak-1.16.1/common/
+flatpak-1.16.1/common/flatpak-appdata-private.h
+flatpak-1.16.1/common/flatpak-appdata.c
+flatpak-1.16.1/common/flatpak-auth-private.h
+flatpak-1.16.1/common/flatpak-auth.c
+flatpak-1.16.1/common/flatpak-bundle-ref.c
+flatpak-1.16.1/common/flatpak-bundle-ref.h
+flatpak-1.16.1/common/flatpak-bwrap-private.h
+flatpak-1.16.1/common/flatpak-bwrap.c
+flatpak-1.16.1/common/flatpak-chain-input-stream-private.h
+flatpak-1.16.1/common/flatpak-chain-input-stream.c
+flatpak-1.16.1/common/flatpak-common-types-private.h
+flatpak-1.16.1/common/flatpak-context-private.h
+flatpak-1.16.1/common/flatpak-context.c
+flatpak-1.16.1/common/flatpak-dir-private.h
+flatpak-1.16.1/common/flatpak-dir-utils-private.h
+flatpak-1.16.1/common/flatpak-dir-utils.c
+flatpak-1.16.1/common/flatpak-dir.c
+flatpak-1.16.1/common/flatpak-enum-types.c.template
+flatpak-1.16.1/common/flatpak-enum-types.h.template
+flatpak-1.16.1/common/flatpak-error.c
+flatpak-1.16.1/common/flatpak-error.h
+flatpak-1.16.1/common/flatpak-exports-private.h
+flatpak-1.16.1/common/flatpak-exports.c
+flatpak-1.16.1/common/flatpak-glib-backports-private.h
+flatpak-1.16.1/common/flatpak-glib-backports.c
+flatpak-1.16.1/common/flatpak-installation-private.h
+flatpak-1.16.1/common/flatpak-installation.c
+flatpak-1.16.1/common/flatpak-installation.h
+flatpak-1.16.1/common/flatpak-installed-ref-private.h
+flatpak-1.16.1/common/flatpak-installed-ref.c
+flatpak-1.16.1/common/flatpak-installed-ref.h
+flatpak-1.16.1/common/flatpak-instance-private.h
+flatpak-1.16.1/common/flatpak-instance.c
+flatpak-1.16.1/common/flatpak-instance.h
+flatpak-1.16.1/common/flatpak-json-backports-private.h
+flatpak-1.16.1/common/flatpak-json-oci-private.h
+flatpak-1.16.1/common/flatpak-json-oci.c
+flatpak-1.16.1/common/flatpak-json-private.h
+flatpak-1.16.1/common/flatpak-json.c
+flatpak-1.16.1/common/flatpak-locale-utils-private.h
+flatpak-1.16.1/common/flatpak-locale-utils.c
+flatpak-1.16.1/common/flatpak-metadata-private.h
+flatpak-1.16.1/common/flatpak-oci-registry-private.h
+flatpak-1.16.1/common/flatpak-oci-registry.c
+flatpak-1.16.1/common/flatpak-parental-controls-private.h
+flatpak-1.16.1/common/flatpak-parental-controls.c
+flatpak-1.16.1/common/flatpak-portal-error.c
+flatpak-1.16.1/common/flatpak-portal-error.h
+flatpak-1.16.1/common/flatpak-progress-private.h
+flatpak-1.16.1/common/flatpak-progress.c
+flatpak-1.16.1/common/flatpak-prune-private.h
+flatpak-1.16.1/common/flatpak-prune.c
+flatpak-1.16.1/common/flatpak-ref-utils-private.h
+flatpak-1.16.1/common/flatpak-ref-utils.c
+flatpak-1.16.1/common/flatpak-ref.c
+flatpak-1.16.1/common/flatpak-ref.h
+flatpak-1.16.1/common/flatpak-related-ref-private.h
+flatpak-1.16.1/common/flatpak-related-ref.c
+flatpak-1.16.1/common/flatpak-related-ref.h
+flatpak-1.16.1/common/flatpak-remote-private.h
+flatpak-1.16.1/common/flatpak-remote-ref-private.h
+flatpak-1.16.1/common/flatpak-remote-ref.c
+flatpak-1.16.1/common/flatpak-remote-ref.h
+flatpak-1.16.1/common/flatpak-remote.c
+flatpak-1.16.1/common/flatpak-remote.h
+flatpak-1.16.1/common/flatpak-repo-utils-private.h
+flatpak-1.16.1/common/flatpak-repo-utils.c
+flatpak-1.16.1/common/flatpak-run-cups-private.h
+flatpak-1.16.1/common/flatpak-run-cups.c
+flatpak-1.16.1/common/flatpak-run-dbus-private.h
+flatpak-1.16.1/common/flatpak-run-dbus.c
+flatpak-1.16.1/common/flatpak-run-private.h
+flatpak-1.16.1/common/flatpak-run-pulseaudio-private.h
+flatpak-1.16.1/common/flatpak-run-pulseaudio.c
+flatpak-1.16.1/common/flatpak-run-sockets-private.h
+flatpak-1.16.1/common/flatpak-run-sockets.c
+flatpak-1.16.1/common/flatpak-run-wayland-private.h
+flatpak-1.16.1/common/flatpak-run-wayland.c
+flatpak-1.16.1/common/flatpak-run-x11-private.h
+flatpak-1.16.1/common/flatpak-run-x11.c
+flatpak-1.16.1/common/flatpak-run.c
+flatpak-1.16.1/common/flatpak-syscalls-private.h
+flatpak-1.16.1/common/flatpak-transaction-private.h
+flatpak-1.16.1/common/flatpak-transaction.c
+flatpak-1.16.1/common/flatpak-transaction.h
+flatpak-1.16.1/common/flatpak-uri-private.h
+flatpak-1.16.1/common/flatpak-uri.c
+flatpak-1.16.1/common/flatpak-usb-private.h
+flatpak-1.16.1/common/flatpak-usb.c
+flatpak-1.16.1/common/flatpak-utils-base-private.h
+flatpak-1.16.1/common/flatpak-utils-base.c
+flatpak-1.16.1/common/flatpak-utils-http-private.h
+flatpak-1.16.1/common/flatpak-utils-http.c
+flatpak-1.16.1/common/flatpak-utils-private.h
+flatpak-1.16.1/common/flatpak-utils.c
+flatpak-1.16.1/common/flatpak-version-macros.h.in
+flatpak-1.16.1/common/flatpak-xml-utils-private.h
+flatpak-1.16.1/common/flatpak-xml-utils.c
+flatpak-1.16.1/common/flatpak-zstd-decompressor-private.h
+flatpak-1.16.1/common/flatpak-zstd-decompressor.c
+flatpak-1.16.1/common/flatpak.c
+flatpak-1.16.1/common/flatpak.h
+flatpak-1.16.1/common/meson.build
+flatpak-1.16.1/common/test-lib.c
+flatpak-1.16.1/common/valgrind-private.h
+flatpak-1.16.1/completion/
+flatpak-1.16.1/completion/_flatpak
+flatpak-1.16.1/completion/flatpak
+flatpak-1.16.1/completion/flatpak.fish
+flatpak-1.16.1/completion/meson.build
+flatpak-1.16.1/data/
+flatpak-1.16.1/data/flatpak-docker-seccomp.json
+flatpak-1.16.1/data/flatpak-variants.gv
+flatpak-1.16.1/data/meson.build
+flatpak-1.16.1/data/org.freedesktop.Flatpak.Authenticator.xml
+flatpak-1.16.1/data/org.freedesktop.Flatpak.xml
+flatpak-1.16.1/data/org.freedesktop.impl.portal.PermissionStore.xml
+flatpak-1.16.1/data/org.freedesktop.portal.Documents.xml
+flatpak-1.16.1/data/org.freedesktop.portal.Flatpak.xml
+flatpak-1.16.1/data/org.freedesktop.systemd1.xml
+flatpak-1.16.1/data/tmpfiles.d/
+flatpak-1.16.1/data/tmpfiles.d/flatpak.conf
+flatpak-1.16.1/doc/
+flatpak-1.16.1/doc/docbook.css
+flatpak-1.16.1/doc/flatpak-build-bundle.xml
+flatpak-1.16.1/doc/flatpak-build-commit-from.xml
+flatpak-1.16.1/doc/flatpak-build-export.xml
+flatpak-1.16.1/doc/flatpak-build-finish.xml
+flatpak-1.16.1/doc/flatpak-build-import-bundle.xml
+flatpak-1.16.1/doc/flatpak-build-init.xml
+flatpak-1.16.1/doc/flatpak-build-sign.xml
+flatpak-1.16.1/doc/flatpak-build-update-repo.xml
+flatpak-1.16.1/doc/flatpak-build.xml
+flatpak-1.16.1/doc/flatpak-config.xml
+flatpak-1.16.1/doc/flatpak-create-usb.xml
+flatpak-1.16.1/doc/flatpak-docs.xml.in
+flatpak-1.16.1/doc/flatpak-document-export.xml
+flatpak-1.16.1/doc/flatpak-document-info.xml
+flatpak-1.16.1/doc/flatpak-document-unexport.xml
+flatpak-1.16.1/doc/flatpak-documents.xml
+flatpak-1.16.1/doc/flatpak-enter.xml
+flatpak-1.16.1/doc/flatpak-history.xml
+flatpak-1.16.1/doc/flatpak-info.xml
+flatpak-1.16.1/doc/flatpak-install.xml
+flatpak-1.16.1/doc/flatpak-installation.xml
+flatpak-1.16.1/doc/flatpak-kill.xml
+flatpak-1.16.1/doc/flatpak-list.xml
+flatpak-1.16.1/doc/flatpak-make-current.xml
+flatpak-1.16.1/doc/flatpak-mask.xml
+flatpak-1.16.1/doc/flatpak-metadata.xml
+flatpak-1.16.1/doc/flatpak-override.xml
+flatpak-1.16.1/doc/flatpak-permission-remove.xml
+flatpak-1.16.1/doc/flatpak-permission-reset.xml
+flatpak-1.16.1/doc/flatpak-permission-set.xml
+flatpak-1.16.1/doc/flatpak-permission-show.xml
+flatpak-1.16.1/doc/flatpak-permissions.xml
+flatpak-1.16.1/doc/flatpak-pin.xml
+flatpak-1.16.1/doc/flatpak-ps.xml
+flatpak-1.16.1/doc/flatpak-remote-add.xml
+flatpak-1.16.1/doc/flatpak-remote-delete.xml
+flatpak-1.16.1/doc/flatpak-remote-info.xml
+flatpak-1.16.1/doc/flatpak-remote-ls.xml
+flatpak-1.16.1/doc/flatpak-remote-modify.xml
+flatpak-1.16.1/doc/flatpak-remote.xml
+flatpak-1.16.1/doc/flatpak-remotes.xml
+flatpak-1.16.1/doc/flatpak-repair.xml
+flatpak-1.16.1/doc/flatpak-repo.xml
+flatpak-1.16.1/doc/flatpak-run.xml
+flatpak-1.16.1/doc/flatpak-search.xml
+flatpak-1.16.1/doc/flatpak-spawn.xml
+flatpak-1.16.1/doc/flatpak-summaries.txt
+flatpak-1.16.1/doc/flatpak-uninstall.xml
+flatpak-1.16.1/doc/flatpak-update.xml
+flatpak-1.16.1/doc/flatpak.xml
+flatpak-1.16.1/doc/flatpakref.xml
+flatpak-1.16.1/doc/flatpakrepo.xml
+flatpak-1.16.1/doc/meson.build
+flatpak-1.16.1/doc/reference/
+flatpak-1.16.1/doc/reference/.gitignore
+flatpak-1.16.1/doc/reference/flatpak-sections.txt
+flatpak-1.16.1/doc/reference/libflatpak-docs.xml
+flatpak-1.16.1/doc/reference/meson.build
+flatpak-1.16.1/doc/reference/version.xml.in
+flatpak-1.16.1/doc/release-checklist.md
+flatpak-1.16.1/doc/xmlto-config.xsl
+flatpak-1.16.1/env.d/
+flatpak-1.16.1/env.d/60-flatpak
+flatpak-1.16.1/env.d/60-flatpak-system-only
+flatpak-1.16.1/env.d/flatpak.env.in
+flatpak-1.16.1/env.d/meson.build
+flatpak-1.16.1/flatpak.png
+flatpak-1.16.1/icon-validator/
+flatpak-1.16.1/icon-validator/meson.build
+flatpak-1.16.1/icon-validator/validate-icon.c
+flatpak-1.16.1/meson.build
+flatpak-1.16.1/meson_options.txt
+flatpak-1.16.1/oci-authenticator/
+flatpak-1.16.1/oci-authenticator/flatpak-oci-authenticator.c
+flatpak-1.16.1/oci-authenticator/flatpak-oci-authenticator.service.in
+flatpak-1.16.1/oci-authenticator/meson.build
+flatpak-1.16.1/oci-authenticator/org.flatpak.Authenticator.Oci.service.in
+flatpak-1.16.1/po/
+flatpak-1.16.1/po/LINGUAS
+flatpak-1.16.1/po/Makevars
+flatpak-1.16.1/po/POTFILES.in
+flatpak-1.16.1/po/POTFILES.skip
+flatpak-1.16.1/po/bg.po
+flatpak-1.16.1/po/cs.po
+flatpak-1.16.1/po/da.po
+flatpak-1.16.1/po/de.po
+flatpak-1.16.1/po/en_GB.po
+flatpak-1.16.1/po/es.po
+flatpak-1.16.1/po/fr.po
+flatpak-1.16.1/po/gl.po
+flatpak-1.16.1/po/hi.po
+flatpak-1.16.1/po/hr.po
+flatpak-1.16.1/po/hu.po
+flatpak-1.16.1/po/id.po
+flatpak-1.16.1/po/ka.po
+flatpak-1.16.1/po/meson.build
+flatpak-1.16.1/po/nl.po
+flatpak-1.16.1/po/oc.po
+flatpak-1.16.1/po/pl.po
+flatpak-1.16.1/po/pt.po
+flatpak-1.16.1/po/pt_BR.po
+flatpak-1.16.1/po/ro.po
+flatpak-1.16.1/po/ru.po
+flatpak-1.16.1/po/sk.po
+flatpak-1.16.1/po/sl.po
+flatpak-1.16.1/po/sv.po
+flatpak-1.16.1/po/tr.po
+flatpak-1.16.1/po/uk.po
+flatpak-1.16.1/po/zh_CN.po
+flatpak-1.16.1/po/zh_TW.po
+flatpak-1.16.1/portal/
+flatpak-1.16.1/portal/flatpak-portal-app-info.c
+flatpak-1.16.1/portal/flatpak-portal-app-info.h
+flatpak-1.16.1/portal/flatpak-portal.c
+flatpak-1.16.1/portal/flatpak-portal.h
+flatpak-1.16.1/portal/flatpak-portal.service.in
+flatpak-1.16.1/portal/meson.build
+flatpak-1.16.1/portal/org.freedesktop.portal.Flatpak.service.in
+flatpak-1.16.1/portal/portal-impl.c
+flatpak-1.16.1/portal/portal-impl.h
+flatpak-1.16.1/profile/
+flatpak-1.16.1/profile/flatpak.csh
+flatpak-1.16.1/profile/flatpak.fish
+flatpak-1.16.1/profile/flatpak.sh
+flatpak-1.16.1/profile/meson.build
+flatpak-1.16.1/revokefs/
+flatpak-1.16.1/revokefs/demo.c
+flatpak-1.16.1/revokefs/main.c
+flatpak-1.16.1/revokefs/meson.build
+flatpak-1.16.1/revokefs/writer.c
+flatpak-1.16.1/revokefs/writer.h
+flatpak-1.16.1/scripts/
+flatpak-1.16.1/scripts/flatpak-bisect
+flatpak-1.16.1/scripts/flatpak-coredumpctl
+flatpak-1.16.1/scripts/meson.build
+flatpak-1.16.1/selinux/
+flatpak-1.16.1/selinux/build-selinux.sh
+flatpak-1.16.1/selinux/flatpak.fc
+flatpak-1.16.1/selinux/flatpak.if
+flatpak-1.16.1/selinux/flatpak.te
+flatpak-1.16.1/selinux/meson.build
+flatpak-1.16.1/session-helper/
+flatpak-1.16.1/session-helper/flatpak-session-helper.c
+flatpak-1.16.1/session-helper/flatpak-session-helper.h
+flatpak-1.16.1/session-helper/flatpak-session-helper.service.in
+flatpak-1.16.1/session-helper/meson.build
+flatpak-1.16.1/session-helper/org.freedesktop.Flatpak.service.in
+flatpak-1.16.1/sideload-repos-systemd/
+flatpak-1.16.1/sideload-repos-systemd/flatpak-create-sideload-symlinks.sh
+flatpak-1.16.1/sideload-repos-systemd/flatpak-sideload-usb-repo.path.in
+flatpak-1.16.1/sideload-repos-systemd/flatpak-sideload-usb-repo.service.in
+flatpak-1.16.1/sideload-repos-systemd/meson.build
+flatpak-1.16.1/sideload-repos-systemd/tmpfiles.d/
+flatpak-1.16.1/sideload-repos-systemd/tmpfiles.d/flatpak-sideload-repos.conf
+flatpak-1.16.1/subprojects/
+flatpak-1.16.1/subprojects/.gitignore
+flatpak-1.16.1/subprojects/README.md
+flatpak-1.16.1/subprojects/bubblewrap.wrap
+flatpak-1.16.1/subprojects/dbus-proxy.wrap
+flatpak-1.16.1/subprojects/libglnx/
+flatpak-1.16.1/subprojects/libglnx/.gitignore
+flatpak-1.16.1/subprojects/libglnx/.gitlab-ci.yml
+flatpak-1.16.1/subprojects/libglnx/COPYING
+flatpak-1.16.1/subprojects/libglnx/LICENSES/
+flatpak-1.16.1/subprojects/libglnx/LICENSES/LGPL-2.0-or-later.txt
+flatpak-1.16.1/subprojects/libglnx/LICENSES/LGPL-2.1-or-later.txt
+flatpak-1.16.1/subprojects/libglnx/LICENSES/LicenseRef-old-glib-tests.txt
+flatpak-1.16.1/subprojects/libglnx/Makefile-libglnx.am
+flatpak-1.16.1/subprojects/libglnx/README.md
+flatpak-1.16.1/subprojects/libglnx/glnx-backport-autocleanups.h
+flatpak-1.16.1/subprojects/libglnx/glnx-backport-autoptr.h
+flatpak-1.16.1/subprojects/libglnx/glnx-backport-testutils.c
+flatpak-1.16.1/subprojects/libglnx/glnx-backport-testutils.h
+flatpak-1.16.1/subprojects/libglnx/glnx-backports.c
+flatpak-1.16.1/subprojects/libglnx/glnx-backports.h
+flatpak-1.16.1/subprojects/libglnx/glnx-console.c
+flatpak-1.16.1/subprojects/libglnx/glnx-console.h
+flatpak-1.16.1/subprojects/libglnx/glnx-dirfd.c
+flatpak-1.16.1/subprojects/libglnx/glnx-dirfd.h
+flatpak-1.16.1/subprojects/libglnx/glnx-errors.c
+flatpak-1.16.1/subprojects/libglnx/glnx-errors.h
+flatpak-1.16.1/subprojects/libglnx/glnx-fdio.c
+flatpak-1.16.1/subprojects/libglnx/glnx-fdio.h
+flatpak-1.16.1/subprojects/libglnx/glnx-local-alloc.c
+flatpak-1.16.1/subprojects/libglnx/glnx-local-alloc.h
+flatpak-1.16.1/subprojects/libglnx/glnx-lockfile.c
+flatpak-1.16.1/subprojects/libglnx/glnx-lockfile.h
+flatpak-1.16.1/subprojects/libglnx/glnx-macros.h
+flatpak-1.16.1/subprojects/libglnx/glnx-missing-syscall.h
+flatpak-1.16.1/subprojects/libglnx/glnx-missing.h
+flatpak-1.16.1/subprojects/libglnx/glnx-shutil.c
+flatpak-1.16.1/subprojects/libglnx/glnx-shutil.h
+flatpak-1.16.1/subprojects/libglnx/glnx-xattrs.c
+flatpak-1.16.1/subprojects/libglnx/glnx-xattrs.h
+flatpak-1.16.1/subprojects/libglnx/libglnx.doap
+flatpak-1.16.1/subprojects/libglnx/libglnx.h
+flatpak-1.16.1/subprojects/libglnx/libglnx.m4
+flatpak-1.16.1/subprojects/libglnx/meson.build
+flatpak-1.16.1/subprojects/libglnx/meson_options.txt
+flatpak-1.16.1/subprojects/libglnx/tests/
+flatpak-1.16.1/subprojects/libglnx/tests/libglnx-testlib.c
+flatpak-1.16.1/subprojects/libglnx/tests/libglnx-testlib.h
+flatpak-1.16.1/subprojects/libglnx/tests/meson.build
+flatpak-1.16.1/subprojects/libglnx/tests/test-libglnx-backports.c
+flatpak-1.16.1/subprojects/libglnx/tests/test-libglnx-errors.c
+flatpak-1.16.1/subprojects/libglnx/tests/test-libglnx-fdio.c
+flatpak-1.16.1/subprojects/libglnx/tests/test-libglnx-macros.c
+flatpak-1.16.1/subprojects/libglnx/tests/test-libglnx-shutil.c
+flatpak-1.16.1/subprojects/libglnx/tests/test-libglnx-testing.c
+flatpak-1.16.1/subprojects/libglnx/tests/test-libglnx-xattrs.c
+flatpak-1.16.1/subprojects/libglnx/tests/testing-helper.c
+flatpak-1.16.1/subprojects/libglnx/tests/use-as-subproject/
+flatpak-1.16.1/subprojects/libglnx/tests/use-as-subproject/.gitignore
+flatpak-1.16.1/subprojects/libglnx/tests/use-as-subproject/README
+flatpak-1.16.1/subprojects/libglnx/tests/use-as-subproject/config.h
+flatpak-1.16.1/subprojects/libglnx/tests/use-as-subproject/dummy-config.h.in
+flatpak-1.16.1/subprojects/libglnx/tests/use-as-subproject/meson.build
+flatpak-1.16.1/subprojects/libglnx/tests/use-as-subproject/trivial.c
+flatpak-1.16.1/subprojects/libglnx/tests/use-as-subproject/use-libglnx.c
+flatpak-1.16.1/subprojects/libglnx/tests/use-as-subproject/use-testlib.c
+flatpak-1.16.1/subprojects/variant-schema-compiler/
+flatpak-1.16.1/subprojects/variant-schema-compiler/.gitignore
+flatpak-1.16.1/subprojects/variant-schema-compiler/COPYING
+flatpak-1.16.1/subprojects/variant-schema-compiler/Makefile
+flatpak-1.16.1/subprojects/variant-schema-compiler/README.md
+flatpak-1.16.1/subprojects/variant-schema-compiler/TODO.md
+flatpak-1.16.1/subprojects/variant-schema-compiler/ostree.gv
+flatpak-1.16.1/subprojects/variant-schema-compiler/ostree_test.c
+flatpak-1.16.1/subprojects/variant-schema-compiler/performance.c
+flatpak-1.16.1/subprojects/variant-schema-compiler/performance.gv
+flatpak-1.16.1/subprojects/variant-schema-compiler/sample.c
+flatpak-1.16.1/subprojects/variant-schema-compiler/sample.gv
+flatpak-1.16.1/subprojects/variant-schema-compiler/selftests.c
+flatpak-1.16.1/subprojects/variant-schema-compiler/variant-schema-compiler
+flatpak-1.16.1/system-helper/
+flatpak-1.16.1/system-helper/flatpak-system-helper.c
+flatpak-1.16.1/system-helper/flatpak-system-helper.h
+flatpak-1.16.1/system-helper/flatpak-system-helper.service.in
+flatpak-1.16.1/system-helper/flatpak.conf.in
+flatpak-1.16.1/system-helper/meson.build
+flatpak-1.16.1/system-helper/org.freedesktop.Flatpak.SystemHelper.conf
+flatpak-1.16.1/system-helper/org.freedesktop.Flatpak.SystemHelper.service.in
+flatpak-1.16.1/system-helper/org.freedesktop.Flatpak.policy.in
+flatpak-1.16.1/system-helper/org.freedesktop.Flatpak.rules.in
+flatpak-1.16.1/tests/
+flatpak-1.16.1/tests/can-use-fuse.c
+flatpak-1.16.1/tests/can-use-fuse.h
+flatpak-1.16.1/tests/expand-test-matrix.sh
+flatpak-1.16.1/tests/flatpak-asan.supp
+flatpak-1.16.1/tests/flatpak.supp
+flatpak-1.16.1/tests/glib.supp
+flatpak-1.16.1/tests/gphoto2-list
+flatpak-1.16.1/tests/hold-lock.c
+flatpak-1.16.1/tests/http-utils-test-server.py
+flatpak-1.16.1/tests/httpcache.c
+flatpak-1.16.1/tests/installed-services/
+flatpak-1.16.1/tests/installed-services/meson.build
+flatpak-1.16.1/tests/installed-tests.sh.in
+flatpak-1.16.1/tests/libpreload.c
+flatpak-1.16.1/tests/libtest.sh
+flatpak-1.16.1/tests/list-unused.c
+flatpak-1.16.1/tests/make-multi-collection-id-repo.sh
+flatpak-1.16.1/tests/make-runtime-repos
+flatpak-1.16.1/tests/make-test-app.sh
+flatpak-1.16.1/tests/make-test-runtime.sh
+flatpak-1.16.1/tests/meson.build
+flatpak-1.16.1/tests/mock-flatpak.c
+flatpak-1.16.1/tests/oci-registry-client.py
+flatpak-1.16.1/tests/oci-registry-server.py
+flatpak-1.16.1/tests/org.flatpak.Authenticator.test.service.in
+flatpak-1.16.1/tests/org.freedesktop.impl.portal.desktop.test.service.in
+flatpak-1.16.1/tests/org.test.Hello.png
+flatpak-1.16.1/tests/package_version.txt.in
+flatpak-1.16.1/tests/services/
+flatpak-1.16.1/tests/services/meson.build
+flatpak-1.16.1/tests/session.conf.in
+flatpak-1.16.1/tests/share/
+flatpak-1.16.1/tests/share/xdg-desktop-portal/
+flatpak-1.16.1/tests/share/xdg-desktop-portal/portals/
+flatpak-1.16.1/tests/share/xdg-desktop-portal/portals/meson.build
+flatpak-1.16.1/tests/tap.test.in
+flatpak-1.16.1/tests/test-auth.sh
+flatpak-1.16.1/tests/test-authenticator.c
+flatpak-1.16.1/tests/test-basic.sh
+flatpak-1.16.1/tests/test-build-update-repo.sh
+flatpak-1.16.1/tests/test-bundle.sh
+flatpak-1.16.1/tests/test-completion.sh
+flatpak-1.16.1/tests/test-config.sh
+flatpak-1.16.1/tests/test-context.c
+flatpak-1.16.1/tests/test-default-remotes.sh
+flatpak-1.16.1/tests/test-exports.c
+flatpak-1.16.1/tests/test-extensions.sh
+flatpak-1.16.1/tests/test-history.sh
+flatpak-1.16.1/tests/test-http-utils.sh
+flatpak-1.16.1/tests/test-info.sh
+flatpak-1.16.1/tests/test-instance.c
+flatpak-1.16.1/tests/test-keyring/
+flatpak-1.16.1/tests/test-keyring/README
+flatpak-1.16.1/tests/test-keyring/meson.build
+flatpak-1.16.1/tests/test-keyring/pubring.gpg
+flatpak-1.16.1/tests/test-keyring/secring.gpg
+flatpak-1.16.1/tests/test-keyring2/
+flatpak-1.16.1/tests/test-keyring2/README
+flatpak-1.16.1/tests/test-keyring2/meson.build
+flatpak-1.16.1/tests/test-keyring2/pubring.gpg
+flatpak-1.16.1/tests/test-keyring2/secring.gpg
+flatpak-1.16.1/tests/test-locale-utils.c
+flatpak-1.16.1/tests/test-matrix/
+flatpak-1.16.1/tests/test-matrix/meson.build
+flatpak-1.16.1/tests/test-metadata-validation.sh
+flatpak-1.16.1/tests/test-oci-registry.sh
+flatpak-1.16.1/tests/test-oci.sh
+flatpak-1.16.1/tests/test-override.sh
+flatpak-1.16.1/tests/test-portal-impl.c
+flatpak-1.16.1/tests/test-portal.c
+flatpak-1.16.1/tests/test-prune.sh
+flatpak-1.16.1/tests/test-repair.sh
+flatpak-1.16.1/tests/test-repo.sh
+flatpak-1.16.1/tests/test-run.sh
+flatpak-1.16.1/tests/test-seccomp.sh
+flatpak-1.16.1/tests/test-sideload.sh
+flatpak-1.16.1/tests/test-subset.sh
+flatpak-1.16.1/tests/test-summaries.sh
+flatpak-1.16.1/tests/test-unused.sh
+flatpak-1.16.1/tests/test-update-portal.c
+flatpak-1.16.1/tests/test-update-portal.sh
+flatpak-1.16.1/tests/test-update-remote-configuration.sh
+flatpak-1.16.1/tests/test-webserver.sh
+flatpak-1.16.1/tests/test-wrapper.sh
+flatpak-1.16.1/tests/test.filter
+flatpak-1.16.1/tests/test.portal.in
+flatpak-1.16.1/tests/testapp.c
+flatpak-1.16.1/tests/testcommon.c
+flatpak-1.16.1/tests/testlib.c
+flatpak-1.16.1/tests/testlib.h
+flatpak-1.16.1/tests/testlibrary.c
+flatpak-1.16.1/tests/try-syscall.c
+flatpak-1.16.1/tests/update-test-matrix
+flatpak-1.16.1/tests/web-server.py
+flatpak-1.16.1/tools/
+flatpak-1.16.1/tools/usb/
+flatpak-1.16.1/tools/usb/README.md
+flatpak-1.16.1/tools/usb/epsonscan2-parse.py
+flatpak-1.16.1/tools/usb/gphoto2-parse.py
+flatpak-1.16.1/tools/usb/libsane-parse.py
+flatpak-1.16.1/tools/usb/utsushi-parse.py
+flatpak-1.16.1/triggers/
+flatpak-1.16.1/triggers/desktop-database.trigger
+flatpak-1.16.1/triggers/gtk-icon-cache.trigger
+flatpak-1.16.1/triggers/meson.build
+flatpak-1.16.1/triggers/mime-database.trigger
+flatpak-1.16.1/uncrustify.cfg
+flatpak-1.16.1/uncrustify.sh
+Initialized empty Git repository in /blfs/builds/flatpak-1.16.1/subprojects/bubblewrap/.git/
+From https://github.com/containers/bubblewrap
+ * branch            9ca3b05ec787acfb4b17bed37db5719fa777834f -> FETCH_HEAD
+HEAD is now at 9ca3b05 Prepare v0.11.0
+Initialized empty Git repository in /blfs/builds/flatpak-1.16.1/subprojects/dbus-proxy/.git/
+From https://github.com/flatpak/xdg-dbus-proxy
+ * branch            1c1989e56f94b9eb3b7567f8a6e8a0aa16cba496 -> FETCH_HEAD
+HEAD is now at 1c1989e 0.1.6
+The Meson build system
+Version: 1.7.0
+Source dir: /blfs/builds/flatpak-1.16.1
+Build dir: /blfs/builds/flatpak-1.16.1/build
+Build type: native build
+Project name: flatpak
+Project version: 1.16.1
+C compiler for the host machine: cc (gcc 14.2.0 "cc (GCC) 14.2.0")
+C linker for the host machine: cc ld.bfd 2.44
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Compiler for C supports arguments -Werror=shadow: YES 
+Compiler for C supports arguments -Werror=empty-body: YES 
+Compiler for C supports arguments -Werror=strict-prototypes: YES 
+Compiler for C supports arguments -Werror=missing-prototypes: YES 
+Compiler for C supports arguments -Werror=implicit-function-declaration: YES 
+Compiler for C supports arguments -Werror=pointer-arith: YES 
+Compiler for C supports arguments -Werror=init-self: YES 
+Compiler for C supports arguments -Werror=missing-declarations: YES 
+Compiler for C supports arguments -Werror=return-type: YES 
+Compiler for C supports arguments -Werror=overflow: YES 
+Compiler for C supports arguments -Werror=int-conversion: YES 
+Compiler for C supports arguments -Werror=parenthesis: NO 
+Compiler for C supports arguments -Werror=incompatible-pointer-types: YES 
+Compiler for C supports arguments -Werror=misleading-indentation: YES 
+Compiler for C supports arguments -Werror=missing-include-dirs: YES 
+Compiler for C supports arguments -Wno-sign-compare: YES 
+Compiler for C supports arguments -Wno-error=sign-compare: YES 
+Compiler for C supports arguments -Wno-cast-function-type: YES 
+Compiler for C supports arguments -Wno-error=cast-function-type: YES 
+Compiler for C supports arguments -Wno-missing-field-initializers: YES 
+Compiler for C supports arguments -Wno-error=missing-field-initializers: YES 
+Compiler for C supports arguments -Wno-unused-parameter: YES 
+Compiler for C supports arguments -Wno-error=unused-parameter: YES 
+Compiler for C supports arguments -Werror=format=2: YES 
+Compiler for C supports arguments -Werror=format-security: NO 
+Check usable header "sys/xattr.h" : YES 
+
+Executing subproject libglnx 
+
+libglnx| Project name: libglnx
+libglnx| Project version: undefined
+libglnx| C compiler for the host machine: cc (gcc 14.2.0 "cc (GCC) 14.2.0")
+libglnx| C linker for the host machine: cc ld.bfd 2.44
+libglnx| Checking if "renameat2() is declared" compiles: YES
+libglnx| Checking if "memfd_create() is declared" compiles: YES
+libglnx| Checking if "copy_file_range() is declared" compiles: YES
+libglnx| Checking for function "close_range" : YES
+libglnx| Configuring libglnx-config.h using configuration
+libglnx| Found pkg-config: YES (/usr/bin/pkg-config) 2.4.3
+libglnx| Run-time dependency gio-2.0 found: YES 2.84.1
+libglnx| Run-time dependency gio-unix-2.0 found: YES 2.84.1
+libglnx| Build targets in project: 2
+libglnx| Subproject libglnx finished.
+
+Run-time dependency threads found: YES
+Program bison found: YES (/usr/bin/bison)
+Run-time dependency libcap found: YES 2.76
+Run-time dependency libarchive found: YES 3.8.1
+Run-time dependency glib-2.0 found: YES 2.84.1
+Dependency gio-2.0 found: YES 2.84.1 (cached)
+Dependency gio-unix-2.0 found: YES 2.84.1 (cached)
+Run-time dependency libcurl found: YES 8.14.1
+Run-time dependency libxml-2.0 found: YES 2.14.3
+Run-time dependency libzstd found: YES 1.5.7
+Run-time dependency dconf found: YES 0.40.0
+Run-time dependency libsystemd found: YES 257
+Run-time dependency malcontent-0 found: YES 0.11.0
+Run-time dependency polkit-agent-1 found: YES 126
+Run-time dependency fuse3 found: YES 3.17.2
+Program fusermount3 found: YES (/usr/bin/fusermount3)
+Run-time dependency xau found: YES 1.0.12
+Run-time dependency ostree-1 found: YES 2025.2
+Run-time dependency json-glib-1.0 found: YES 1.10.0
+Run-time dependency appstream found: YES 1.0.5
+Run-time dependency gdk-pixbuf-2.0 found: YES 2.42.12
+Run-time dependency libseccomp found: YES 2.6.0
+Run-time dependency gobject-introspection-1.0 found: YES 1.84.0
+Build-time dependency gtk-doc found: YES 1.34.0
+Run-time dependency wayland-client found: YES 1.23.92
+Build-time dependency wayland-scanner found: YES 1.23.92
+Run-time dependency wayland-protocols found: YES 1.44
+Run-time dependency gpgme found: YES 2.0.0
+Program xsltproc found: YES (/usr/bin/xsltproc)
+Message: Docbook XSL found
+Program xmlto found: YES (/usr/bin/xmlto)
+Program pkcheck found: YES (/usr/bin/pkcheck)
+Program socat found: YES (/usr/bin/socat)
+Checking for function "archive_read_support_filter_all" with dependency libarchive: YES 
+Configuring config.h using configuration
+
+Executing subproject bubblewrap 
+
+bubblewrap| Project name: bubblewrap
+bubblewrap| Project version: 0.11.0
+bubblewrap| C compiler for the host machine: cc (gcc 14.2.0 "cc (GCC) 14.2.0")
+bubblewrap| C linker for the host machine: cc ld.bfd 2.44
+bubblewrap| Compiler for C supports arguments -Werror=shadow: YES (cached)
+bubblewrap| Compiler for C supports arguments -Werror=empty-body: YES (cached)
+bubblewrap| Compiler for C supports arguments -Werror=strict-prototypes: YES (cached)
+bubblewrap| Compiler for C supports arguments -Werror=missing-prototypes: YES (cached)
+bubblewrap| Compiler for C supports arguments -Werror=implicit-function-declaration: YES (cached)
+bubblewrap| Compiler for C supports arguments -Werror=pointer-arith: YES (cached)
+bubblewrap| Compiler for C supports arguments -Werror=init-self: YES (cached)
+bubblewrap| Compiler for C supports arguments -Werror=missing-declarations: YES (cached)
+bubblewrap| Compiler for C supports arguments -Werror=return-type: YES (cached)
+bubblewrap| Compiler for C supports arguments -Werror=overflow: YES (cached)
+bubblewrap| Compiler for C supports arguments -Werror=int-conversion: YES (cached)
+bubblewrap| Compiler for C supports arguments -Werror=parenthesis: NO (cached)
+bubblewrap| Compiler for C supports arguments -Werror=incompatible-pointer-types: YES (cached)
+bubblewrap| Compiler for C supports arguments -Werror=misleading-indentation: YES (cached)
+bubblewrap| Compiler for C supports arguments -Werror=missing-include-dirs: YES (cached)
+bubblewrap| Compiler for C supports arguments -Werror=aggregate-return: YES
+bubblewrap| Compiler for C supports arguments -Werror=switch-default: YES
+bubblewrap| Compiler for C supports arguments -Wswitch-enum: YES
+bubblewrap| Compiler for C supports arguments -Wno-missing-field-initializers: YES (cached)
+bubblewrap| Compiler for C supports arguments -Wno-error=missing-field-initializers: YES (cached)
+bubblewrap| Compiler for C supports arguments -Werror=format=2: YES (cached)
+bubblewrap| Compiler for C supports arguments -Werror=format-security: NO (cached)
+bubblewrap| Program bash found: YES (/usr/bin/bash)
+bubblewrap| Program python3 found: YES (/usr/bin/python3)
+bubblewrap| Dependency libcap found: YES 2.76 (cached)
+bubblewrap| Found CMake: /usr/bin/cmake (4.0.2)
+bubblewrap| Run-time dependency libselinux found: NO (tried pkgconfig and cmake)
+bubblewrap| Configuring config.h using configuration
+bubblewrap| Program xsltproc found: YES (/usr/bin/xsltproc)
+bubblewrap| Build targets in project: 3
+bubblewrap| Subproject bubblewrap finished.
+
+
+Executing subproject dbus-proxy 
+
+dbus-proxy| Project name: xdg-dbus-proxy
+dbus-proxy| Project version: 0.1.6
+dbus-proxy| C compiler for the host machine: cc (gcc 14.2.0 "cc (GCC) 14.2.0")
+dbus-proxy| C linker for the host machine: cc ld.bfd 2.44
+dbus-proxy| Compiler for C supports arguments -Werror=aggregate-return: YES (cached)
+dbus-proxy| Compiler for C supports arguments -Werror=empty-body: YES (cached)
+dbus-proxy| Compiler for C supports arguments -Werror=implicit-function-declaration: YES (cached)
+dbus-proxy| Compiler for C supports arguments -Werror=incompatible-pointer-types: YES (cached)
+dbus-proxy| Compiler for C supports arguments -Werror=init-self: YES (cached)
+dbus-proxy| Compiler for C supports arguments -Werror=int-conversion: YES (cached)
+dbus-proxy| Compiler for C supports arguments -Werror=misleading-indentation: YES (cached)
+dbus-proxy| Compiler for C supports arguments -Werror=missing-declarations: YES (cached)
+dbus-proxy| Compiler for C supports arguments -Werror=missing-include-dirs: YES (cached)
+dbus-proxy| Compiler for C supports arguments -Werror=missing-prototypes: YES (cached)
+dbus-proxy| Compiler for C supports arguments -Werror=overflow: YES (cached)
+dbus-proxy| Compiler for C supports arguments -Werror=parenthesis: NO (cached)
+dbus-proxy| Compiler for C supports arguments -Werror=pointer-arith: YES (cached)
+dbus-proxy| Compiler for C supports arguments -Werror=return-type: YES (cached)
+dbus-proxy| Compiler for C supports arguments -Werror=shadow: YES (cached)
+dbus-proxy| Compiler for C supports arguments -Werror=strict-prototypes: YES (cached)
+dbus-proxy| Compiler for C supports arguments -Werror=switch-default: YES (cached)
+dbus-proxy| Compiler for C supports arguments -Wswitch-enum: YES (cached)
+dbus-proxy| Compiler for C supports arguments -Wno-missing-field-initializers: YES (cached)
+dbus-proxy| Compiler for C supports arguments -Wno-error=missing-field-initializers: YES (cached)
+dbus-proxy| Compiler for C supports arguments -Wno-unused-parameter: YES (cached)
+dbus-proxy| Compiler for C supports arguments -Wno-error=unused-parameter: YES (cached)
+dbus-proxy| Dependency glib-2.0 found: YES 2.84.1 (cached)
+dbus-proxy| Dependency gio-2.0 found: YES 2.84.1 (cached)
+dbus-proxy| Dependency gio-unix-2.0 found: YES 2.84.1 (cached)
+dbus-proxy| Configuring config.h using configuration
+dbus-proxy| Program xsltproc found: YES (/usr/bin/xsltproc)
+dbus-proxy| Build targets in project: 4
+dbus-proxy| Subproject dbus-proxy finished.
+
+Configuring flatpak-version-macros.h using configuration
+Dependency glib-2.0 found: YES 2.84.1 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Dependency glib-2.0 found: YES 2.84.1 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Dependency gio-2.0 found: YES 2.84.1 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Dependency gio-2.0 found: YES 2.84.1 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Dependency gio-2.0 found: YES 2.84.1 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Program /usr/bin/wayland-scanner found: YES (/usr/bin/wayland-scanner)
+Dependency gobject-introspection-1.0 found: YES 1.84.0 (cached)
+Dependency gobject-introspection-1.0 found: YES 1.84.0 (cached)
+Program /usr/bin/g-ir-scanner found: YES (/usr/bin/g-ir-scanner)
+Dependency gobject-introspection-1.0 found: YES 1.84.0 (cached)
+Program /usr/bin/g-ir-compiler found: YES (/usr/bin/g-ir-compiler)
+Dependency gio-2.0 found: YES 2.84.1 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Configuring flatpak-oci-authenticator.service using configuration
+Configuring org.flatpak.Authenticator.Oci.service using configuration
+Dependency gio-2.0 found: YES 2.84.1 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Dependency gio-2.0 found: YES 2.84.1 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Configuring flatpak-portal.service using configuration
+Configuring org.freedesktop.portal.Flatpak.service using configuration
+Configuring flatpak-session-helper.service using configuration
+Configuring org.freedesktop.Flatpak.service using configuration
+Configuring version.xml using configuration
+Dependency gio-2.0 found: YES 2.84.1 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Program gtkdoc-scan found: YES (/usr/bin/gtkdoc-scan)
+Program gtkdoc-scangobj found: YES (/usr/bin/gtkdoc-scangobj)
+Program gtkdoc-mkdb found: YES (/usr/bin/gtkdoc-mkdb)
+Program gtkdoc-mkhtml found: YES (/usr/bin/gtkdoc-mkhtml)
+Program gtkdoc-fixxref found: YES (/usr/bin/gtkdoc-fixxref)
+Configuring flatpak-docs.xml using configuration
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Program msginit found: YES (/usr/bin/msginit)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program xgettext found: YES (/usr/bin/xgettext)
+Configuring flatpak-system-helper.service using configuration
+Configuring org.freedesktop.Flatpak.SystemHelper.service using configuration
+Configuring org.freedesktop.Flatpak.rules using configuration
+Configuring flatpak.conf using configuration
+Program /blfs/builds/flatpak-1.16.1/buildutil/tap-test found: YES (/blfs/builds/flatpak-1.16.1/buildutil/tap-test)
+Configuring org.flatpak.Authenticator.Oci.service using configuration
+Configuring org.freedesktop.portal.Flatpak.service using configuration
+Configuring org.freedesktop.Flatpak.service using configuration
+Configuring org.freedesktop.Flatpak.SystemHelper.service using configuration
+Configuring org.flatpak.Authenticator.test.service using configuration
+Configuring org.freedesktop.impl.portal.desktop.test.service using configuration
+Configuring package_version.txt using configuration
+Build targets in project: 143
+NOTICE: Future-deprecated features used:
+ * 0.62.0: {'pkgconfig.generate variable for builtin directories'}
+
+flatpak 1.16.1
+
+    Build system helper     : YES
+    Build selinux module    : NO
+    Build bubblewrap        : YES
+    Build dbus-proxy        : YES
+    fusermount executable   : /usr/bin/fusermount3
+    Use sandboxed triggers  : YES
+    Use seccomp             : YES
+    Privileged group        : wheel
+    Use dconf               : YES
+    Use libsystemd          : YES
+    Use libmalcontent       : YES
+    Use libzstd             : YES
+    Use auto sideloading    : NO
+    Wayland security context: YES
+
+  Subprojects
+    bubblewrap              : YES
+    dbus-proxy              : YES
+    libglnx                 : YES
+
+  User defined options
+    buildtype               : release
+    prefix                  : /usr
+
+Found ninja-1.12.1 at /usr/bin/ninja
+[1/294] Generating common/security-context-v1-protocol.c with a custom command
+[2/294] Generating common/security-context-v1-protocol.h with a custom command
+[3/294] Compiling C object common/libflatpak.so.0.11601.0.p/flatpak.c.o
+[4/294] Generating gdbus header common/flatpak-systemd-dbus-generated.h
+[5/294] Generating gdbus source common/flatpak-document-dbus-generated.c
+[6/294] Generating gdbus source common/flatpak-systemd-dbus-generated.c
+[7/294] Generating gdbus header common/flatpak-dbus-generated.h
+[8/294] Generating gdbus header common/flatpak-document-dbus-generated.h
+[9/294] Generating gdbus source common/flatpak-dbus-generated.c
+[10/294] Generating gdbus source app/flatpak-permission-dbus-generated.c
+[11/294] Generating app/parse-datetime.c with a custom command
+[12/294] Generating gdbus source portal/flatpak-permission-dbus.c
+[13/294] Generating gdbus header portal/flatpak-permission-dbus.h
+[14/294] Generating gdbus source portal/flatpak-portal-dbus.c
+[15/294] Generating gdbus header app/flatpak-permission-dbus-generated.h
+[16/294] Generating gdbus header portal/flatpak-portal-dbus.h
+[17/294] Compiling C object subprojects/libglnx/libglnx.a.p/glnx-backports.c.o
+[18/294] Compiling C object subprojects/libglnx/libglnx.a.p/glnx-local-alloc.c.o
+[19/294] Compiling C object subprojects/libglnx/libglnx.a.p/glnx-backport-testutils.c.o
+[20/294] Generating GObject enum file common/flatpak-enum-types.h (wrapped by meson to capture output)
+[21/294] Compiling C object subprojects/libglnx/libglnx.a.p/glnx-errors.c.o
+[22/294] Compiling C object subprojects/libglnx/tests/libglnx-testlib.a.p/libglnx-testlib.c.o
+[23/294] Compiling C object subprojects/libglnx/libglnx.a.p/glnx-lockfile.c.o
+[24/294] Linking static target subprojects/libglnx/tests/libglnx-testlib.a
+[25/294] Compiling C object subprojects/libglnx/libglnx.a.p/glnx-shutil.c.o
+[26/294] Compiling C object subprojects/bubblewrap/flatpak-bwrap.p/network.c.o
+[27/294] Compiling C object subprojects/libglnx/libglnx.a.p/glnx-dirfd.c.o
+[28/294] Compiling C object common/libflatpak-common-base.a.p/flatpak-utils-base.c.o
+[29/294] Compiling C object subprojects/libglnx/libglnx.a.p/glnx-console.c.o
+[30/294] Generating common/flatpak-variant-private.h with a custom command
+[31/294] Compiling C object subprojects/libglnx/libglnx.a.p/glnx-xattrs.c.o
+[32/294] Compiling C object subprojects/bubblewrap/flatpak-bwrap.p/bind-mount.c.o
+[33/294] Compiling C object tests/libpreload.so.p/libpreload.c.o
+[34/294] Compiling C object tests/try-syscall.p/try-syscall.c.o
+[35/294] Generating GObject enum file common/flatpak-enum-types.c (wrapped by meson to capture output)
+[36/294] Compiling C object common/libflatpak-common.a.p/meson-generated_.._security-context-v1-protocol.c.o
+[37/294] Compiling C object revokefs/revokefs-demo.p/demo.c.o
+[38/294] Compiling C object tests/libtestlib.a.p/testlib.c.o
+[39/294] Compiling C object icon-validator/flatpak-validate-icon.p/validate-icon.c.o
+[40/294] Compiling C object subprojects/dbus-proxy/flatpak-dbus-proxy.p/dbus-proxy.c.o
+[41/294] Compiling C object tests/test-portal-impl.p/test-portal-impl.c.o
+[42/294] Compiling C object tests/hold-lock.p/hold-lock.c.o
+[43/294] Compiling C object revokefs/revokefs-fuse.p/main.c.o
+[44/294] Compiling C object subprojects/bubblewrap/flatpak-bwrap.p/utils.c.o
+[45/294] Compiling C object subprojects/libglnx/libglnx.a.p/glnx-fdio.c.o
+[46/294] Compiling C object tests/test-update-portal.p/test-update-portal.c.o
+[47/294] Compiling C object revokefs/revokefs-fuse.p/writer.c.o
+[48/294] Compiling C object common/libflatpak-common.a.p/meson-generated_.._flatpak-enum-types.c.o
+[49/294] Compiling C object common/libflatpak-common.a.p/flatpak-error.c.o
+[50/294] Compiling C object common/libflatpak-common.a.p/flatpak-auth.c.o
+[51/294] Compiling C object common/libflatpak-common.a.p/flatpak-appdata.c.o
+[52/294] Compiling C object common/libflatpak-common.a.p/flatpak-bundle-ref.c.o
+[53/294] Compiling C object common/libflatpak-common.a.p/meson-generated_.._flatpak-systemd-dbus-generated.c.o
+[54/294] Compiling C object common/libflatpak-common.a.p/flatpak-chain-input-stream.c.o
+[55/294] Compiling C object common/libflatpak-common.a.p/flatpak-bwrap.c.o
+[56/294] Compiling C object common/libflatpak-common-base.a.p/meson-generated_.._flatpak-document-dbus-generated.c.o
+[57/294] Compiling C object common/libflatpak-common.a.p/flatpak-glib-backports.c.o
+[58/294] Compiling C object common/libflatpak-common.a.p/flatpak-dir-utils.c.o
+[59/294] Compiling C object common/libflatpak-common.a.p/flatpak-installed-ref.c.o
+[60/294] Compiling C object common/libflatpak-common.a.p/flatpak-json.c.o
+[61/294] Compiling C object tests/test-update-portal.p/meson-generated_.._.._portal_flatpak-portal-dbus.c.o
+[62/294] Compiling C object common/libflatpak-common.a.p/flatpak-portal-error.c.o
+[63/294] Compiling C object common/libflatpak-common.a.p/flatpak-ref.c.o
+[64/294] Compiling C object common/libflatpak-common.a.p/flatpak-instance.c.o
+[65/294] Compiling C object common/libflatpak-common.a.p/flatpak-progress.c.o
+[66/294] Compiling C object common/libflatpak-common.a.p/flatpak-related-ref.c.o
+[67/294] Compiling C object common/libflatpak-common.a.p/flatpak-locale-utils.c.o
+[68/294] Compiling C object subprojects/dbus-proxy/flatpak-dbus-proxy.p/flatpak-proxy.c.o
+[69/294] Compiling C object common/libflatpak-common.a.p/flatpak-exports.c.o
+[70/294] Compiling C object common/libflatpak-common.a.p/flatpak-json-oci.c.o
+[71/294] Compiling C object common/libflatpak-common.a.p/flatpak-remote-ref.c.o
+[72/294] Compiling C object common/libflatpak-common.a.p/flatpak-run-cups.c.o
+[73/294] Compiling C object subprojects/bubblewrap/flatpak-bwrap.p/bubblewrap.c.o
+[74/294] Compiling C object common/libflatpak-common.a.p/flatpak-run-x11.c.o
+[75/294] Compiling C object common/libflatpak-common.a.p/flatpak-run-pulseaudio.c.o
+[76/294] Compiling C object common/libflatpak-common.a.p/flatpak-installation.c.o
+[77/294] Linking static target subprojects/libglnx/libglnx.a
+[78/294] Compiling C object common/libflatpak-common.a.p/flatpak-run-sockets.c.o
+[79/294] Compiling C object common/libflatpak-common.a.p/flatpak-run-wayland.c.o
+[80/294] Compiling C object common/libflatpak-common.a.p/flatpak-remote.c.o
+[81/294] Compiling C object common/libflatpak-common.a.p/flatpak-prune.c.o
+[82/294] Compiling C object common/libflatpak-common.a.p/flatpak-run-dbus.c.o
+[83/294] Compiling C object common/libflatpak-common.a.p/flatpak-zstd-decompressor.c.o
+[84/294] Compiling C object common/libflatpak-common.a.p/flatpak-parental-controls.c.o
+[85/294] Compiling C object common/libflatpak-common.a.p/flatpak-usb.c.o
+[86/294] Compiling C object common/libflatpak-common.a.p/flatpak-uri.c.o
+[87/294] Compiling C object common/libflatpak-common.a.p/flatpak-ref-utils.c.o
+[88/294] Compiling C object common/test-libflatpak.p/test-lib.c.o
+[89/294] Compiling C object common/libflatpak-common.a.p/flatpak-context.c.o
+[90/294] Compiling C object common/libflatpak-common.a.p/flatpak-xml-utils.c.o
+[91/294] Compiling C object app/liblibflatpak-app.a.p/flatpak-tty-utils.c.o
+[92/294] Compiling C object common/libflatpak-common.a.p/flatpak-utils-http.c.o
+[93/294] Compiling C object common/libflatpak-common-base.a.p/meson-generated_.._flatpak-dbus-generated.c.o
+[94/294] Linking static target common/libflatpak-common-base.a
+[95/294] Compiling C object app/flatpak.p/flatpak-builtins-build-import-bundle.c.o
+[96/294] Compiling C object app/liblibflatpak-app.a.p/meson-generated_.._parse-datetime.c.o
+[97/294] Compiling C object app/flatpak.p/flatpak-builtins-build-bundle.c.o
+[98/294] Compiling C object app/liblibflatpak-app.a.p/flatpak-table-printer.c.o
+[99/294] Compiling C object app/flatpak.p/flatpak-builtins-build-finish.c.o
+[100/294] Compiling C object app/flatpak.p/flatpak-builtins-build-sign.c.o
+[101/294] Compiling C object app/flatpak.p/meson-generated_.._flatpak-permission-dbus-generated.c.o
+[102/294] Compiling C object app/liblibflatpak-app.a.p/flatpak-builtins-utils.c.o
+[103/294] Linking static target app/liblibflatpak-app.a
+[104/294] Compiling C object common/libflatpak-common.a.p/flatpak-utils.c.o
+[105/294] Compiling C object app/flatpak.p/flatpak-builtins-build.c.o
+[106/294] Compiling C object app/flatpak.p/flatpak-builtins-build-export.c.o
+[107/294] Compiling C object app/flatpak.p/flatpak-builtins-build-init.c.o
+[108/294] Compiling C object app/flatpak.p/flatpak-builtins-build-commit-from.c.o
+[109/294] Compiling C object app/flatpak.p/flatpak-builtins-build-update-repo.c.o
+[110/294] Compiling C object app/flatpak.p/flatpak-builtins-config.c.o
+[111/294] Compiling C object app/flatpak.p/flatpak-builtins-document-export.c.o
+[112/294] Compiling C object app/flatpak.p/flatpak-builtins-document-info.c.o
+[113/294] Compiling C object app/flatpak.p/flatpak-builtins-document-list.c.o
+[114/294] Compiling C object common/libflatpak-common.a.p/flatpak-oci-registry.c.o
+[115/294] Compiling C object app/flatpak.p/flatpak-builtins-kill.c.o
+[116/294] Compiling C object app/flatpak.p/flatpak-builtins-document-unexport.c.o
+[117/294] Compiling C object app/flatpak.p/flatpak-builtins-make-current.c.o
+[118/294] Compiling C object app/flatpak.p/flatpak-builtins-mask.c.o
+[119/294] Compiling C object app/flatpak.p/flatpak-builtins-create-usb.c.o
+[120/294] Compiling C object app/flatpak.p/flatpak-builtins-enter.c.o
+[121/294] Compiling C object common/libflatpak-common.a.p/flatpak-run.c.o
+[122/294] Compiling C object app/flatpak.p/flatpak-builtins-list.c.o
+[123/294] Compiling C object app/flatpak.p/flatpak-builtins-permission-list.c.o
+[124/294] Compiling C object app/flatpak.p/flatpak-builtins-permission-remove.c.o
+[125/294] Compiling C object app/flatpak.p/flatpak-builtins-history.c.o
+[126/294] Compiling C object app/flatpak.p/flatpak-builtins-permission-show.c.o
+[127/294] Compiling C object app/flatpak.p/flatpak-builtins-permission-reset.c.o
+[128/294] Compiling C object app/flatpak.p/flatpak-builtins-override.c.o
+[129/294] Compiling C object app/flatpak.p/flatpak-builtins-pin.c.o
+[130/294] Compiling C object app/flatpak.p/flatpak-builtins-permission-set.c.o
+[131/294] Compiling C object app/flatpak.p/flatpak-builtins-install.c.o
+[132/294] Compiling C object app/flatpak.p/flatpak-builtins-ps.c.o
+[133/294] Compiling C object app/flatpak.p/flatpak-builtins-info.c.o
+[134/294] Compiling C object app/flatpak.p/flatpak-builtins-remote-delete.c.o
+[135/294] Compiling C object app/flatpak.p/flatpak-builtins-remote-list.c.o
+[136/294] Compiling C object app/flatpak.p/flatpak-builtins-remote-add.c.o
+[137/294] Compiling C object app/flatpak.p/flatpak-builtins-search.c.o
+[138/294] Compiling C object common/libflatpak-common.a.p/flatpak-transaction.c.o
+[139/294] Compiling C object app/flatpak.p/flatpak-builtins-run.c.o
+[140/294] Compiling C object app/flatpak.p/flatpak-builtins-repair.c.o
+[141/294] Compiling C object app/flatpak.p/flatpak-builtins-remote-modify.c.o
+[142/294] Compiling C object app/flatpak.p/flatpak-builtins-update.c.o
+[143/294] Linking static target tests/libtestlib.a
+[144/294] Compiling C object app/flatpak.p/flatpak-polkit-agent-text-listener.c.o
+[145/294] Compiling C object app/flatpak.p/meson-generated_.._.._common_flatpak-dbus-generated.c.o
+[146/294] Compiling C object app/flatpak.p/flatpak-builtins-uninstall.c.o
+[147/294] Compiling C object app/flatpak.p/flatpak-quiet-transaction.c.o
+[148/294] Compiling C object app/flatpak.p/flatpak-builtins-remote-info.c.o
+[149/294] Compiling C object portal/flatpak-portal.p/.._common_flatpak-portal-error.c.o
+[150/294] Compiling C object portal/flatpak-portal.p/flatpak-portal-app-info.c.o
+[151/294] Compiling C object app/flatpak.p/flatpak-builtins-remote-ls.c.o
+[152/294] Compiling C object app/flatpak.p/flatpak-complete.c.o
+[153/294] Compiling C object portal/flatpak-portal.p/portal-impl.c.o
+[154/294] Compiling C object app/flatpak.p/flatpak-main.c.o
+[155/294] Compiling C object tests/testlibrary.p/can-use-fuse.c.o
+[156/294] Compiling C object app/flatpak.p/flatpak-builtins-repo.c.o
+[157/294] Compiling C object portal/flatpak-portal.p/meson-generated_.._flatpak-permission-dbus.c.o
+[158/294] Compiling C object oci-authenticator/flatpak-oci-authenticator.p/flatpak-oci-authenticator.c.o
+[159/294] Compiling C object session-helper/flatpak-session-helper.p/flatpak-session-helper.c.o
+[160/294] Compiling C object tests/testlibrary.p/testlib.c.o
+[161/294] Linking target subprojects/bubblewrap/flatpak-bwrap
+[162/294] Linking target subprojects/dbus-proxy/flatpak-dbus-proxy
+[163/294] Compiling C object tests/testapp.p/testapp.c.o
+[164/294] Compiling C object app/flatpak.p/flatpak-cli-transaction.c.o
+[165/294] Linking target icon-validator/flatpak-validate-icon
+[166/294] Linking target revokefs/revokefs-demo
+[167/294] Linking target session-helper/flatpak-session-helper
+[168/294] Compiling C object tests/mock-flatpak.p/mock-flatpak.c.o
+[169/294] Compiling C object tests/httpcache.p/httpcache.c.o
+[170/294] Linking target revokefs/revokefs-fuse
+[171/294] Compiling C object tests/test-locale-utils.p/test-locale-utils.c.o
+[172/294] Generating gdbus header doc/reference/doc-dbus-generated.h
+[173/294] Generating gdbus docbook doc/reference/doc-dbus-generated-docbook
+[174/294] Generating gdbus source doc/reference/doc-dbus-generated.c
+[175/294] Compiling C object tests/list-unused.p/list-unused.c.o
+[176/294] Compiling C object common/libflatpak-common.a.p/flatpak-repo-utils.c.o
+[177/294] Compiling C object portal/flatpak-portal.p/meson-generated_.._flatpak-portal-dbus.c.o
+[178/294] Compiling C object tests/test-authenticator.p/test-authenticator.c.o
+[179/294] Compiling C object tests/test-portal.p/test-portal.c.o
+[180/294] Generating doc/flatpak.1 with a custom command
+[181/294] Generating doc/flatpak-remote-add.1 with a custom command
+[182/294] Generating doc/flatpak-remotes.1 with a custom command
+[183/294] Compiling C object tests/test-instance.p/test-instance.c.o
+[184/294] Generating doc/flatpak-remote-modify.1 with a custom command
+[185/294] Generating doc/flatpak-remote-delete.1 with a custom command
+[186/294] Generating doc/flatpak-remote-info.1 with a custom command
+[187/294] Generating doc/flatpak-install.1 with a custom command
+[188/294] Generating doc/flatpak-remote-ls.1 with a custom command
+[189/294] Generating doc/flatpak-mask.1 with a custom command
+[190/294] Generating doc/flatpak-config.1 with a custom command
+[191/294] Generating doc/flatpak-uninstall.1 with a custom command
+[192/294] Generating doc/flatpak-pin.1 with a custom command
+[193/294] Generating doc/flatpak-update.1 with a custom command
+[194/294] Compiling C object tests/test-portal.p/meson-generated_.._.._portal_flatpak-portal-dbus.c.o
+[195/294] Generating doc/flatpak-list.1 with a custom command
+[196/294] Generating doc/flatpak-make-current.1 with a custom command
+[197/294] Generating doc/flatpak-override.1 with a custom command
+[198/294] Generating doc/flatpak-enter.1 with a custom command
+[199/294] Generating doc/flatpak-info.1 with a custom command
+[200/294] Generating doc/flatpak-document-export.1 with a custom command
+[201/294] Generating doc/flatpak-ps.1 with a custom command
+[202/294] Generating doc/flatpak-document-unexport.1 with a custom command
+[203/294] Compiling C object system-helper/flatpak-system-helper.p/flatpak-system-helper.c.o
+[204/294] Generating doc/flatpak-run.1 with a custom command
+[205/294] Generating doc/flatpak-permission-remove.1 with a custom command
+[206/294] Generating doc/flatpak-document-info.1 with a custom command
+[207/294] Compiling C object tests/testcommon.p/testcommon.c.o
+[208/294] Generating doc/flatpak-documents.1 with a custom command
+[209/294] Generating doc/flatpak-permissions.1 with a custom command
+[210/294] Generating doc/flatpak-permission-reset.1 with a custom command
+[211/294] Generating doc/flatpak-permission-show.1 with a custom command
+[212/294] Generating doc/flatpak-permission-set.1 with a custom command
+[213/294] Compiling C object tests/test-context.p/test-context.c.o
+[214/294] Generating doc/flatpak-build.1 with a custom command
+[215/294] Generating doc/flatpak-build-bundle.1 with a custom command
+[216/294] Generating doc/flatpak-build-init.1 with a custom command
+[217/294] Generating doc/flatpak-build-export.1 with a custom command
+[218/294] Generating doc/flatpak-build-import-bundle.1 with a custom command
+[219/294] Generating doc/flatpak-build-update-repo.1 with a custom command
+[220/294] Generating doc/flatpak-build-finish.1 with a custom command
+[221/294] Generating doc/flatpak-build-sign.1 with a custom command
+[222/294] Compiling C object tests/test-exports.p/test-exports.c.o
+[223/294] Building translation po/bg/LC_MESSAGES/flatpak-bg.mo
+[224/294] Building translation po/da/LC_MESSAGES/flatpak-da.mo
+[225/294] Building translation po/cs/LC_MESSAGES/flatpak-cs.mo
+[226/294] Building translation po/de/LC_MESSAGES/flatpak-de.mo
+[227/294] Generating doc/flatpak-create-usb.1 with a custom command
+[228/294] Generating doc/flatpak-search.1 with a custom command
+[229/294] Generating doc/flatpak-build-commit-from.1 with a custom command
+[230/294] Building translation po/es/LC_MESSAGES/flatpak-es.mo
+[231/294] Generating doc/flatpak-repo.1 with a custom command
+[232/294] Building translation po/en_GB/LC_MESSAGES/flatpak-en_GB.mo
+[233/294] Generating doc/flatpak-kill.1 with a custom command
+[234/294] Building translation po/fr/LC_MESSAGES/flatpak-fr.mo
+[235/294] Building translation po/gl/LC_MESSAGES/flatpak-gl.mo
+[236/294] Building translation po/hu/LC_MESSAGES/flatpak-hu.mo
+[237/294] Building translation po/hi/LC_MESSAGES/flatpak-hi.mo
+[238/294] Building translation po/oc/LC_MESSAGES/flatpak-oc.mo
+[239/294] Building translation po/id/LC_MESSAGES/flatpak-id.mo
+[240/294] Building translation po/nl/LC_MESSAGES/flatpak-nl.mo
+[241/294] Generating doc/flatpak-spawn.1 with a custom command
+[242/294] Building translation po/hr/LC_MESSAGES/flatpak-hr.mo
+[243/294] Building translation po/ro/LC_MESSAGES/flatpak-ro.mo
+[244/294] Building translation po/sk/LC_MESSAGES/flatpak-sk.mo
+[245/294] Building translation po/pt_BR/LC_MESSAGES/flatpak-pt_BR.mo
+[246/294] Building translation po/sl/LC_MESSAGES/flatpak-sl.mo
+[247/294] Building translation po/pl/LC_MESSAGES/flatpak-pl.mo
+[248/294] Building translation po/ka/LC_MESSAGES/flatpak-ka.mo
+[249/294] Building translation po/sv/LC_MESSAGES/flatpak-sv.mo
+[250/294] Building translation po/ru/LC_MESSAGES/flatpak-ru.mo
+[251/294] Generating doc/flatpak-history.1 with a custom command
+[252/294] Building translation po/pt/LC_MESSAGES/flatpak-pt.mo
+[253/294] Generating doc/flatpak-repair.1 with a custom command
+[254/294] Building translation po/tr/LC_MESSAGES/flatpak-tr.mo
+[255/294] Linking target tests/try-syscall
+[256/294] Building translation po/zh_CN/LC_MESSAGES/flatpak-zh_CN.mo
+[257/294] Linking target tests/libpreload.so
+[258/294] Building translation po/uk/LC_MESSAGES/flatpak-uk.mo
+[259/294] Building translation po/zh_TW/LC_MESSAGES/flatpak-zh_TW.mo
+[260/294] Generating doc/flatpakrepo.5 with a custom command
+[261/294] Linking target tests/hold-lock
+[262/294] Compiling C object portal/flatpak-portal.p/flatpak-portal.c.o
+[263/294] Linking target tests/test-portal-impl
+[264/294] Linking target tests/test-update-portal
+[265/294] Generating doc/flatpak-metadata.5 with a custom command
+[266/294] Generating doc/flatpakref.5 with a custom command
+[267/294] Generating doc/flatpak-installation.5 with a custom command
+[268/294] Generating doc/flatpak-remote.5 with a custom command
+[269/294] Merging translations for system-helper/org.freedesktop.Flatpak.policy
+[270/294] Generating doc/flatpak-docs.html with a custom command
+[271/294] Compiling C object tests/testlibrary.p/testlibrary.c.o
+[272/294] Compiling C object common/libflatpak-common.a.p/flatpak-dir.c.o
+[273/294] Linking static target common/libflatpak-common.a
+[274/294] Linking target tests/httpcache
+[275/294] Linking target tests/test-locale-utils
+[276/294] Linking target tests/test-portal
+[277/294] Linking target tests/test-instance
+[278/294] Linking target tests/testcommon
+[279/294] Linking target common/libflatpak.so.0.11601.0
+[280/294] Linking target app/flatpak
+[281/294] Linking target tests/mock-flatpak
+[282/294] Linking target tests/test-context
+[283/294] Linking target tests/test-exports
+[284/294] Linking target oci-authenticator/flatpak-oci-authenticator
+[285/294] Linking target portal/flatpak-portal
+[286/294] Linking target system-helper/flatpak-system-helper
+[287/294] Generating symbol file common/libflatpak.so.0.11601.0.p/libflatpak.so.0.11601.0.symbols
+[288/294] Linking target tests/test-authenticator
+[289/294] Linking target tests/list-unused
+[290/294] Linking target tests/testapp
+[291/294] Linking target common/test-libflatpak
+[292/294] Linking target tests/testlibrary
+[293/294] Generating common/Flatpak-1.0.gir with a custom command (wrapped by meson to set env)
+[294/294] Generating common/Flatpak-1.0.typelib with a custom command
+[1/2] Generating gdbus docbook doc/reference/doc-dbus-generated-docbook
+[1/2] Installing files
+Installing subprojects/bubblewrap/flatpak-bwrap to /pkgs/flatpak/usr/libexec
+Installing subprojects/dbus-proxy/flatpak-dbus-proxy to /pkgs/flatpak/usr/libexec
+Installing common/flatpak-enum-types.h to /pkgs/flatpak/usr/include/flatpak
+Installing common/libflatpak.so.0.11601.0 to /pkgs/flatpak/usr/lib
+Installing common/Flatpak-1.0.gir to /pkgs/flatpak/usr/share/gir-1.0
+Installing common/Flatpak-1.0.typelib to /pkgs/flatpak/usr/lib/girepository-1.0
+Installing app/flatpak to /pkgs/flatpak/usr/bin
+Installing icon-validator/flatpak-validate-icon to /pkgs/flatpak/usr/libexec
+Installing oci-authenticator/flatpak-oci-authenticator to /pkgs/flatpak/usr/libexec
+Installing portal/flatpak-portal to /pkgs/flatpak/usr/libexec
+Installing revokefs/revokefs-fuse to /pkgs/flatpak/usr/libexec
+Installing session-helper/flatpak-session-helper to /pkgs/flatpak/usr/libexec
+Installing doc/flatpak.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-remotes.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-remote-add.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-remote-delete.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-remote-modify.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-remote-ls.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-remote-info.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-install.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-config.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-update.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-uninstall.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-mask.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-pin.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-list.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-info.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-make-current.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-run.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-override.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-enter.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-ps.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-document-export.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-document-unexport.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-document-info.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-documents.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-permission-remove.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-permissions.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-permission-show.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-permission-reset.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-permission-set.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-build-init.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-build.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-build-bundle.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-build-import-bundle.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-build-finish.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-build-export.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-build-update-repo.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-build-sign.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-build-commit-from.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-repo.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-search.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-create-usb.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-repair.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-kill.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-history.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-spawn.1 to /pkgs/flatpak/usr/share/man/man1
+Installing doc/flatpak-metadata.5 to /pkgs/flatpak/usr/share/man/man5
+Installing doc/flatpakrepo.5 to /pkgs/flatpak/usr/share/man/man5
+Installing doc/flatpakref.5 to /pkgs/flatpak/usr/share/man/man5
+Installing doc/flatpak-remote.5 to /pkgs/flatpak/usr/share/man/man5
+Installing doc/flatpak-installation.5 to /pkgs/flatpak/usr/share/man/man5
+Installing doc/flatpak-docs.html to /pkgs/flatpak/usr/share/doc/flatpak
+Installing po/bg/LC_MESSAGES/flatpak.mo to /pkgs/flatpak/usr/share/locale/bg/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/flatpak.mo to /pkgs/flatpak/usr/share/locale/cs/LC_MESSAGES
+Installing po/da/LC_MESSAGES/flatpak.mo to /pkgs/flatpak/usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/flatpak.mo to /pkgs/flatpak/usr/share/locale/de/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/flatpak.mo to /pkgs/flatpak/usr/share/locale/en_GB/LC_MESSAGES
+Installing po/es/LC_MESSAGES/flatpak.mo to /pkgs/flatpak/usr/share/locale/es/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/flatpak.mo to /pkgs/flatpak/usr/share/locale/fr/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/flatpak.mo to /pkgs/flatpak/usr/share/locale/gl/LC_MESSAGES
+Installing po/hi/LC_MESSAGES/flatpak.mo to /pkgs/flatpak/usr/share/locale/hi/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/flatpak.mo to /pkgs/flatpak/usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/flatpak.mo to /pkgs/flatpak/usr/share/locale/hu/LC_MESSAGES
+Installing po/id/LC_MESSAGES/flatpak.mo to /pkgs/flatpak/usr/share/locale/id/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/flatpak.mo to /pkgs/flatpak/usr/share/locale/ka/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/flatpak.mo to /pkgs/flatpak/usr/share/locale/nl/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/flatpak.mo to /pkgs/flatpak/usr/share/locale/oc/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/flatpak.mo to /pkgs/flatpak/usr/share/locale/pl/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/flatpak.mo to /pkgs/flatpak/usr/share/locale/pt/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/flatpak.mo to /pkgs/flatpak/usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/flatpak.mo to /pkgs/flatpak/usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/flatpak.mo to /pkgs/flatpak/usr/share/locale/ru/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/flatpak.mo to /pkgs/flatpak/usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/flatpak.mo to /pkgs/flatpak/usr/share/locale/sl/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/flatpak.mo to /pkgs/flatpak/usr/share/locale/sv/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/flatpak.mo to /pkgs/flatpak/usr/share/locale/tr/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/flatpak.mo to /pkgs/flatpak/usr/share/locale/uk/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/flatpak.mo to /pkgs/flatpak/usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/flatpak.mo to /pkgs/flatpak/usr/share/locale/zh_TW/LC_MESSAGES
+Installing system-helper/flatpak-system-helper to /pkgs/flatpak/usr/libexec
+Installing system-helper/org.freedesktop.Flatpak.policy to /pkgs/flatpak/usr/share/polkit-1/actions
+Installing /blfs/builds/flatpak-1.16.1/common/flatpak-bundle-ref.h to /pkgs/flatpak/usr/include/flatpak
+Installing /blfs/builds/flatpak-1.16.1/common/flatpak-error.h to /pkgs/flatpak/usr/include/flatpak
+Installing /blfs/builds/flatpak-1.16.1/common/flatpak-installation.h to /pkgs/flatpak/usr/include/flatpak
+Installing /blfs/builds/flatpak-1.16.1/common/flatpak-installed-ref.h to /pkgs/flatpak/usr/include/flatpak
+Installing /blfs/builds/flatpak-1.16.1/common/flatpak-instance.h to /pkgs/flatpak/usr/include/flatpak
+Installing /blfs/builds/flatpak-1.16.1/common/flatpak-portal-error.h to /pkgs/flatpak/usr/include/flatpak
+Installing /blfs/builds/flatpak-1.16.1/common/flatpak-ref.h to /pkgs/flatpak/usr/include/flatpak
+Installing /blfs/builds/flatpak-1.16.1/common/flatpak-related-ref.h to /pkgs/flatpak/usr/include/flatpak
+Installing /blfs/builds/flatpak-1.16.1/common/flatpak-remote-ref.h to /pkgs/flatpak/usr/include/flatpak
+Installing /blfs/builds/flatpak-1.16.1/common/flatpak-remote.h to /pkgs/flatpak/usr/include/flatpak
+Installing /blfs/builds/flatpak-1.16.1/common/flatpak-transaction.h to /pkgs/flatpak/usr/include/flatpak
+Installing /blfs/builds/flatpak-1.16.1/common/flatpak.h to /pkgs/flatpak/usr/include/flatpak
+Installing /blfs/builds/flatpak-1.16.1/build/common/flatpak-version-macros.h to /pkgs/flatpak/usr/include/flatpak
+Installing /blfs/builds/flatpak-1.16.1/data/org.freedesktop.Flatpak.xml to /pkgs/flatpak/usr/share/dbus-1/interfaces
+Installing /blfs/builds/flatpak-1.16.1/data/org.freedesktop.Flatpak.Authenticator.xml to /pkgs/flatpak/usr/share/dbus-1/interfaces
+Installing /blfs/builds/flatpak-1.16.1/data/org.freedesktop.portal.Flatpak.xml to /pkgs/flatpak/usr/share/dbus-1/interfaces
+Installing /blfs/builds/flatpak-1.16.1/data/tmpfiles.d/flatpak.conf to /pkgs/flatpak/usr/lib/tmpfiles.d
+Installing /blfs/builds/flatpak-1.16.1/env.d/60-flatpak to /pkgs/flatpak/usr/lib/systemd/user-environment-generators
+Installing /blfs/builds/flatpak-1.16.1/env.d/60-flatpak-system-only to /pkgs/flatpak/usr/lib/systemd/system-environment-generators
+Installing /blfs/builds/flatpak-1.16.1/profile/flatpak.csh to /pkgs/flatpak/etc/profile.d
+Installing /blfs/builds/flatpak-1.16.1/profile/flatpak.sh to /pkgs/flatpak/etc/profile.d
+Installing /blfs/builds/flatpak-1.16.1/profile/flatpak.fish to /pkgs/flatpak/usr/share/fish/vendor_conf.d
+Installing /blfs/builds/flatpak-1.16.1/build/oci-authenticator/flatpak-oci-authenticator.service to /pkgs/flatpak/usr/lib/systemd/user
+Installing /blfs/builds/flatpak-1.16.1/build/oci-authenticator/org.flatpak.Authenticator.Oci.service to /pkgs/flatpak/usr/share/dbus-1/services
+Installing /blfs/builds/flatpak-1.16.1/build/portal/flatpak-portal.service to /pkgs/flatpak/usr/lib/systemd/user
+Installing /blfs/builds/flatpak-1.16.1/build/portal/org.freedesktop.portal.Flatpak.service to /pkgs/flatpak/usr/share/dbus-1/services
+Installing /blfs/builds/flatpak-1.16.1/build/session-helper/flatpak-session-helper.service to /pkgs/flatpak/usr/lib/systemd/user
+Installing /blfs/builds/flatpak-1.16.1/build/session-helper/org.freedesktop.Flatpak.service to /pkgs/flatpak/usr/share/dbus-1/services
+Installing /blfs/builds/flatpak-1.16.1/scripts/flatpak-bisect to /pkgs/flatpak/usr/bin
+Installing /blfs/builds/flatpak-1.16.1/scripts/flatpak-coredumpctl to /pkgs/flatpak/usr/bin
+Installing /blfs/builds/flatpak-1.16.1/completion/flatpak to /pkgs/flatpak/usr/share/bash-completion/completions
+Installing /blfs/builds/flatpak-1.16.1/completion/_flatpak to /pkgs/flatpak/usr/share/zsh/site-functions
+Installing /blfs/builds/flatpak-1.16.1/completion/flatpak.fish to /pkgs/flatpak/usr/share/fish/vendor_completions.d
+Installing /blfs/builds/flatpak-1.16.1/doc/docbook.css to /pkgs/flatpak/usr/share/doc/flatpak
+Installing /blfs/builds/flatpak-1.16.1/triggers/desktop-database.trigger to /pkgs/flatpak/usr/share/flatpak/triggers
+Installing /blfs/builds/flatpak-1.16.1/triggers/gtk-icon-cache.trigger to /pkgs/flatpak/usr/share/flatpak/triggers
+Installing /blfs/builds/flatpak-1.16.1/triggers/mime-database.trigger to /pkgs/flatpak/usr/share/flatpak/triggers
+Installing /blfs/builds/flatpak-1.16.1/build/system-helper/flatpak-system-helper.service to /pkgs/flatpak/usr/lib/systemd/system
+Installing /blfs/builds/flatpak-1.16.1/build/system-helper/org.freedesktop.Flatpak.SystemHelper.service to /pkgs/flatpak/usr/share/dbus-1/system-services
+Installing /blfs/builds/flatpak-1.16.1/system-helper/org.freedesktop.Flatpak.SystemHelper.conf to /pkgs/flatpak/etc/dbus-1/system.d
+Installing /blfs/builds/flatpak-1.16.1/build/system-helper/org.freedesktop.Flatpak.rules to /pkgs/flatpak/usr/share/polkit-1/rules.d
+Installing /blfs/builds/flatpak-1.16.1/build/system-helper/flatpak.conf to /pkgs/flatpak/usr/lib/sysusers.d
+Installing /blfs/builds/flatpak-1.16.1/build/meson-private/flatpak.pc to /pkgs/flatpak/usr/lib/pkgconfig
+Installing symlink pointing to libflatpak.so.0.11601.0 to /pkgs/flatpak/usr/lib/libflatpak.so.0
+Installing symlink pointing to libflatpak.so.0 to /pkgs/flatpak/usr/lib/libflatpak.so
+Running custom install script '/usr/bin/meson --internal gtkdoc --sourcedir=/blfs/builds/flatpak-1.16.1 --builddir=/blfs/builds/flatpak-1.16.1/build --subdir=doc/reference --headerdirs=/blfs/builds/flatpak-1.16.1/build/common@@/blfs/builds/flatpak-1.16.1/common --mainfile=libflatpak-docs.xml --modulename=flatpak --moduleversion= --mode=auto --gtkdoc-scan=/usr/bin/gtkdoc-scan --gtkdoc-scangobj=/usr/bin/gtkdoc-scangobj --gtkdoc-mkdb=/usr/bin/gtkdoc-mkdb --gtkdoc-mkhtml=/usr/bin/gtkdoc-mkhtml --gtkdoc-fixxref=/usr/bin/gtkdoc-fixxref --namespace=flatpak --htmlargs= --scanargs=--ignore-decorators=FLATPAK_EXTERN@@--rebuild-types --scanobjsargs= --gobjects-types-file= --fixxrefargs= --mkdbargs= --html-assets= --content-files=/blfs/builds/flatpak-1.16.1/build/doc/reference/dbus-org.freedesktop.Flatpak.Authenticator.xml@@/blfs/builds/flatpak-1.16.1/build/doc/reference/dbus-org.freedesktop.Flatpak.xml@@/blfs/builds/flatpak-1.16.1/build/doc/reference/dbus-org.freedesktop.impl.portal.PermissionStore.xml@@/blfs/builds/flatpak-1.16.1/build/doc/reference/dbus-org.freedesktop.portal.Documents.xml@@/blfs/builds/flatpak-1.16.1/build/doc/reference/dbus-org.freedesktop.portal.Flatpak.xml --expand-content-files= --ignore-headers=valgrind-private.h@@flatpak-bwrap-private.h@@flatpak-chain-input-stream-private.h@@flatpak-common-types-private.h@@flatpak-context-private.h@@flatpak-dbus-generated.h@@flatpak-dir-private.h@@flatpak-document-dbus-generated.h@@flatpak-enum-types.h@@flatpak-exports-private.h@@flatpak-installed-ref-private.h@@flatpak-json-oci-private.h@@flatpak-json-private.h@@flatpak-oci-registry-private.h@@flatpak-progress-private.h@@flatpak-remote-private.h@@flatpak-remote-ref-private.h@@flatpak-run-private.h@@flatpak-systemd-dbus-generated.h@@flatpak-installation-private.h@@flatpak-transaction-private.h@@flatpak-utils-private.h@@flatpak-utils-base-private.h@@flatpak-utils-http-private.h@@flatpak-instance-private.h@@flatpak-auth-private.h@@flatpak-parental-controls-private.h@@flatpak-appdata-private.h@@flatpak-zstd-decompressor-private.h --installdir= --cc=cc --ld=cc --cflags=-I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sysprof-6 -pthread -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/gio-unix-2.0 -I/blfs/builds/flatpak-1.16.1/. -I/blfs/builds/flatpak-1.16.1/build/. -I/blfs/builds/flatpak-1.16.1/common -I/blfs/builds/flatpak-1.16.1/build/common -I/usr/include/dconf -I/usr/include/json-glib-1.0 -I/blfs/builds/flatpak-1.16.1/subprojects/libglnx/. -I/blfs/builds/flatpak-1.16.1/build/subprojects/libglnx/. -I/usr/include/ostree-1 -I/usr/include/libsoup-3.0 -D_REENTRANT -I/usr/include/libxml2 -I/usr/include/malcontent-0 -I/usr/include/polkit-1 -O2 -include config.h -Werror=shadow -Werror=empty-body -Werror=strict-prototypes -Werror=missing-prototypes -Werror=implicit-function-declaration -Werror=pointer-arith -Werror=init-self -Werror=missing-declarations -Werror=return-type -Werror=overflow -Werror=int-conversion -Werror=incompatible-pointer-types -Werror=misleading-indentation -Werror=missing-include-dirs -Wno-sign-compare -Wno-error=sign-compare -Wno-cast-function-type -Wno-error=cast-function-type -Wno-missing-field-initializers -Wno-error=missing-field-initializers -Wno-unused-parameter -Wno-error=unused-parameter -fvisibility=hidden --ldflags=-L/blfs/builds/flatpak-1.16.1/build/common -Wl,-rpath,/blfs/builds/flatpak-1.16.1/build/common -lflatpak -lglib-2.0 -lgio-2.0 -lgobject-2.0 -ldconf -lgpgme -ljson-glib-1.0 -larchive -lcurl -lostree-1 -lseccomp -lsystemd -lxml2 -lzstd -lmalcontent-0 -lpolkit-agent-1 -lpolkit-gobject-1 -lXau -lwayland-client -lm -O2'
+Running custom install script '/usr/bin/sh -c ln -sf flatpakrepo.5 $MESON_INSTALL_DESTDIR_PREFIX/share/man/man5/flatpak-flatpakrepo.5'
+Running custom install script '/usr/bin/sh -c ln -sf flatpakref.5 $MESON_INSTALL_DESTDIR_PREFIX/share/man/man5/flatpak-flatpakref.5'
+[1/2] Generating gdbus docbook doc/reference/doc-dbus-generated-docbook
+[1/2] Installing files
+Installing subprojects/bubblewrap/flatpak-bwrap to /usr/libexec
+Installing subprojects/dbus-proxy/flatpak-dbus-proxy to /usr/libexec
+Installing common/flatpak-enum-types.h to /usr/include/flatpak
+Installing common/libflatpak.so.0.11601.0 to /usr/lib
+Installing common/Flatpak-1.0.gir to /usr/share/gir-1.0
+Installing common/Flatpak-1.0.typelib to /usr/lib/girepository-1.0
+Installing app/flatpak to /usr/bin
+Installing icon-validator/flatpak-validate-icon to /usr/libexec
+Installing oci-authenticator/flatpak-oci-authenticator to /usr/libexec
+Installing portal/flatpak-portal to /usr/libexec
+Installing revokefs/revokefs-fuse to /usr/libexec
+Installing session-helper/flatpak-session-helper to /usr/libexec
+Installing doc/flatpak.1 to /usr/share/man/man1
+Installing doc/flatpak-remotes.1 to /usr/share/man/man1
+Installing doc/flatpak-remote-add.1 to /usr/share/man/man1
+Installing doc/flatpak-remote-delete.1 to /usr/share/man/man1
+Installing doc/flatpak-remote-modify.1 to /usr/share/man/man1
+Installing doc/flatpak-remote-ls.1 to /usr/share/man/man1
+Installing doc/flatpak-remote-info.1 to /usr/share/man/man1
+Installing doc/flatpak-install.1 to /usr/share/man/man1
+Installing doc/flatpak-config.1 to /usr/share/man/man1
+Installing doc/flatpak-update.1 to /usr/share/man/man1
+Installing doc/flatpak-uninstall.1 to /usr/share/man/man1
+Installing doc/flatpak-mask.1 to /usr/share/man/man1
+Installing doc/flatpak-pin.1 to /usr/share/man/man1
+Installing doc/flatpak-list.1 to /usr/share/man/man1
+Installing doc/flatpak-info.1 to /usr/share/man/man1
+Installing doc/flatpak-make-current.1 to /usr/share/man/man1
+Installing doc/flatpak-run.1 to /usr/share/man/man1
+Installing doc/flatpak-override.1 to /usr/share/man/man1
+Installing doc/flatpak-enter.1 to /usr/share/man/man1
+Installing doc/flatpak-ps.1 to /usr/share/man/man1
+Installing doc/flatpak-document-export.1 to /usr/share/man/man1
+Installing doc/flatpak-document-unexport.1 to /usr/share/man/man1
+Installing doc/flatpak-document-info.1 to /usr/share/man/man1
+Installing doc/flatpak-documents.1 to /usr/share/man/man1
+Installing doc/flatpak-permission-remove.1 to /usr/share/man/man1
+Installing doc/flatpak-permissions.1 to /usr/share/man/man1
+Installing doc/flatpak-permission-show.1 to /usr/share/man/man1
+Installing doc/flatpak-permission-reset.1 to /usr/share/man/man1
+Installing doc/flatpak-permission-set.1 to /usr/share/man/man1
+Installing doc/flatpak-build-init.1 to /usr/share/man/man1
+Installing doc/flatpak-build.1 to /usr/share/man/man1
+Installing doc/flatpak-build-bundle.1 to /usr/share/man/man1
+Installing doc/flatpak-build-import-bundle.1 to /usr/share/man/man1
+Installing doc/flatpak-build-finish.1 to /usr/share/man/man1
+Installing doc/flatpak-build-export.1 to /usr/share/man/man1
+Installing doc/flatpak-build-update-repo.1 to /usr/share/man/man1
+Installing doc/flatpak-build-sign.1 to /usr/share/man/man1
+Installing doc/flatpak-build-commit-from.1 to /usr/share/man/man1
+Installing doc/flatpak-repo.1 to /usr/share/man/man1
+Installing doc/flatpak-search.1 to /usr/share/man/man1
+Installing doc/flatpak-create-usb.1 to /usr/share/man/man1
+Installing doc/flatpak-repair.1 to /usr/share/man/man1
+Installing doc/flatpak-kill.1 to /usr/share/man/man1
+Installing doc/flatpak-history.1 to /usr/share/man/man1
+Installing doc/flatpak-spawn.1 to /usr/share/man/man1
+Installing doc/flatpak-metadata.5 to /usr/share/man/man5
+Installing doc/flatpakrepo.5 to /usr/share/man/man5
+Installing doc/flatpakref.5 to /usr/share/man/man5
+Installing doc/flatpak-remote.5 to /usr/share/man/man5
+Installing doc/flatpak-installation.5 to /usr/share/man/man5
+Installing doc/flatpak-docs.html to /usr/share/doc/flatpak
+Installing po/bg/LC_MESSAGES/flatpak.mo to /usr/share/locale/bg/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/flatpak.mo to /usr/share/locale/cs/LC_MESSAGES
+Installing po/da/LC_MESSAGES/flatpak.mo to /usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/flatpak.mo to /usr/share/locale/de/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/flatpak.mo to /usr/share/locale/en_GB/LC_MESSAGES
+Installing po/es/LC_MESSAGES/flatpak.mo to /usr/share/locale/es/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/flatpak.mo to /usr/share/locale/fr/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/flatpak.mo to /usr/share/locale/gl/LC_MESSAGES
+Installing po/hi/LC_MESSAGES/flatpak.mo to /usr/share/locale/hi/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/flatpak.mo to /usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/flatpak.mo to /usr/share/locale/hu/LC_MESSAGES
+Installing po/id/LC_MESSAGES/flatpak.mo to /usr/share/locale/id/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/flatpak.mo to /usr/share/locale/ka/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/flatpak.mo to /usr/share/locale/nl/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/flatpak.mo to /usr/share/locale/oc/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/flatpak.mo to /usr/share/locale/pl/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/flatpak.mo to /usr/share/locale/pt/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/flatpak.mo to /usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/flatpak.mo to /usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/flatpak.mo to /usr/share/locale/ru/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/flatpak.mo to /usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/flatpak.mo to /usr/share/locale/sl/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/flatpak.mo to /usr/share/locale/sv/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/flatpak.mo to /usr/share/locale/tr/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/flatpak.mo to /usr/share/locale/uk/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/flatpak.mo to /usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/flatpak.mo to /usr/share/locale/zh_TW/LC_MESSAGES
+Installing system-helper/flatpak-system-helper to /usr/libexec
+Installing system-helper/org.freedesktop.Flatpak.policy to /usr/share/polkit-1/actions
+Installing /blfs/builds/flatpak-1.16.1/common/flatpak-bundle-ref.h to /usr/include/flatpak
+Installing /blfs/builds/flatpak-1.16.1/common/flatpak-error.h to /usr/include/flatpak
+Installing /blfs/builds/flatpak-1.16.1/common/flatpak-installation.h to /usr/include/flatpak
+Installing /blfs/builds/flatpak-1.16.1/common/flatpak-installed-ref.h to /usr/include/flatpak
+Installing /blfs/builds/flatpak-1.16.1/common/flatpak-instance.h to /usr/include/flatpak
+Installing /blfs/builds/flatpak-1.16.1/common/flatpak-portal-error.h to /usr/include/flatpak
+Installing /blfs/builds/flatpak-1.16.1/common/flatpak-ref.h to /usr/include/flatpak
+Installing /blfs/builds/flatpak-1.16.1/common/flatpak-related-ref.h to /usr/include/flatpak
+Installing /blfs/builds/flatpak-1.16.1/common/flatpak-remote-ref.h to /usr/include/flatpak
+Installing /blfs/builds/flatpak-1.16.1/common/flatpak-remote.h to /usr/include/flatpak
+Installing /blfs/builds/flatpak-1.16.1/common/flatpak-transaction.h to /usr/include/flatpak
+Installing /blfs/builds/flatpak-1.16.1/common/flatpak.h to /usr/include/flatpak
+Installing /blfs/builds/flatpak-1.16.1/build/common/flatpak-version-macros.h to /usr/include/flatpak
+Installing /blfs/builds/flatpak-1.16.1/data/org.freedesktop.Flatpak.xml to /usr/share/dbus-1/interfaces
+Installing /blfs/builds/flatpak-1.16.1/data/org.freedesktop.Flatpak.Authenticator.xml to /usr/share/dbus-1/interfaces
+Installing /blfs/builds/flatpak-1.16.1/data/org.freedesktop.portal.Flatpak.xml to /usr/share/dbus-1/interfaces
+Installing /blfs/builds/flatpak-1.16.1/data/tmpfiles.d/flatpak.conf to /usr/lib/tmpfiles.d
+Installing /blfs/builds/flatpak-1.16.1/env.d/60-flatpak to /usr/lib/systemd/user-environment-generators
+Installing /blfs/builds/flatpak-1.16.1/env.d/60-flatpak-system-only to /usr/lib/systemd/system-environment-generators
+Installing /blfs/builds/flatpak-1.16.1/profile/flatpak.csh to /etc/profile.d
+Installing /blfs/builds/flatpak-1.16.1/profile/flatpak.sh to /etc/profile.d
+Installing /blfs/builds/flatpak-1.16.1/profile/flatpak.fish to /usr/share/fish/vendor_conf.d
+Installing /blfs/builds/flatpak-1.16.1/build/oci-authenticator/flatpak-oci-authenticator.service to /usr/lib/systemd/user
+Installing /blfs/builds/flatpak-1.16.1/build/oci-authenticator/org.flatpak.Authenticator.Oci.service to /usr/share/dbus-1/services
+Installing /blfs/builds/flatpak-1.16.1/build/portal/flatpak-portal.service to /usr/lib/systemd/user
+Installing /blfs/builds/flatpak-1.16.1/build/portal/org.freedesktop.portal.Flatpak.service to /usr/share/dbus-1/services
+Installing /blfs/builds/flatpak-1.16.1/build/session-helper/flatpak-session-helper.service to /usr/lib/systemd/user
+Installing /blfs/builds/flatpak-1.16.1/build/session-helper/org.freedesktop.Flatpak.service to /usr/share/dbus-1/services
+Installing /blfs/builds/flatpak-1.16.1/scripts/flatpak-bisect to /usr/bin
+Installing /blfs/builds/flatpak-1.16.1/scripts/flatpak-coredumpctl to /usr/bin
+Installing /blfs/builds/flatpak-1.16.1/completion/flatpak to /usr/share/bash-completion/completions
+Installing /blfs/builds/flatpak-1.16.1/completion/_flatpak to /usr/share/zsh/site-functions
+Installing /blfs/builds/flatpak-1.16.1/completion/flatpak.fish to /usr/share/fish/vendor_completions.d
+Installing /blfs/builds/flatpak-1.16.1/doc/docbook.css to /usr/share/doc/flatpak
+Installing /blfs/builds/flatpak-1.16.1/triggers/desktop-database.trigger to /usr/share/flatpak/triggers
+Installing /blfs/builds/flatpak-1.16.1/triggers/gtk-icon-cache.trigger to /usr/share/flatpak/triggers
+Installing /blfs/builds/flatpak-1.16.1/triggers/mime-database.trigger to /usr/share/flatpak/triggers
+Installing /blfs/builds/flatpak-1.16.1/build/system-helper/flatpak-system-helper.service to /usr/lib/systemd/system
+Installing /blfs/builds/flatpak-1.16.1/build/system-helper/org.freedesktop.Flatpak.SystemHelper.service to /usr/share/dbus-1/system-services
+Installing /blfs/builds/flatpak-1.16.1/system-helper/org.freedesktop.Flatpak.SystemHelper.conf to /etc/dbus-1/system.d
+Installing /blfs/builds/flatpak-1.16.1/build/system-helper/org.freedesktop.Flatpak.rules to /usr/share/polkit-1/rules.d
+Installing /blfs/builds/flatpak-1.16.1/build/system-helper/flatpak.conf to /usr/lib/sysusers.d
+Installing /blfs/builds/flatpak-1.16.1/build/meson-private/flatpak.pc to /usr/lib/pkgconfig
+Installing symlink pointing to libflatpak.so.0.11601.0 to /usr/lib/libflatpak.so.0
+Installing symlink pointing to libflatpak.so.0 to /usr/lib/libflatpak.so
+Running custom install script '/usr/bin/meson --internal gtkdoc --sourcedir=/blfs/builds/flatpak-1.16.1 --builddir=/blfs/builds/flatpak-1.16.1/build --subdir=doc/reference --headerdirs=/blfs/builds/flatpak-1.16.1/build/common@@/blfs/builds/flatpak-1.16.1/common --mainfile=libflatpak-docs.xml --modulename=flatpak --moduleversion= --mode=auto --gtkdoc-scan=/usr/bin/gtkdoc-scan --gtkdoc-scangobj=/usr/bin/gtkdoc-scangobj --gtkdoc-mkdb=/usr/bin/gtkdoc-mkdb --gtkdoc-mkhtml=/usr/bin/gtkdoc-mkhtml --gtkdoc-fixxref=/usr/bin/gtkdoc-fixxref --namespace=flatpak --htmlargs= --scanargs=--ignore-decorators=FLATPAK_EXTERN@@--rebuild-types --scanobjsargs= --gobjects-types-file= --fixxrefargs= --mkdbargs= --html-assets= --content-files=/blfs/builds/flatpak-1.16.1/build/doc/reference/dbus-org.freedesktop.Flatpak.Authenticator.xml@@/blfs/builds/flatpak-1.16.1/build/doc/reference/dbus-org.freedesktop.Flatpak.xml@@/blfs/builds/flatpak-1.16.1/build/doc/reference/dbus-org.freedesktop.impl.portal.PermissionStore.xml@@/blfs/builds/flatpak-1.16.1/build/doc/reference/dbus-org.freedesktop.portal.Documents.xml@@/blfs/builds/flatpak-1.16.1/build/doc/reference/dbus-org.freedesktop.portal.Flatpak.xml --expand-content-files= --ignore-headers=valgrind-private.h@@flatpak-bwrap-private.h@@flatpak-chain-input-stream-private.h@@flatpak-common-types-private.h@@flatpak-context-private.h@@flatpak-dbus-generated.h@@flatpak-dir-private.h@@flatpak-document-dbus-generated.h@@flatpak-enum-types.h@@flatpak-exports-private.h@@flatpak-installed-ref-private.h@@flatpak-json-oci-private.h@@flatpak-json-private.h@@flatpak-oci-registry-private.h@@flatpak-progress-private.h@@flatpak-remote-private.h@@flatpak-remote-ref-private.h@@flatpak-run-private.h@@flatpak-systemd-dbus-generated.h@@flatpak-installation-private.h@@flatpak-transaction-private.h@@flatpak-utils-private.h@@flatpak-utils-base-private.h@@flatpak-utils-http-private.h@@flatpak-instance-private.h@@flatpak-auth-private.h@@flatpak-parental-controls-private.h@@flatpak-appdata-private.h@@flatpak-zstd-decompressor-private.h --installdir= --cc=cc --ld=cc --cflags=-I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sysprof-6 -pthread -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/gio-unix-2.0 -I/blfs/builds/flatpak-1.16.1/. -I/blfs/builds/flatpak-1.16.1/build/. -I/blfs/builds/flatpak-1.16.1/common -I/blfs/builds/flatpak-1.16.1/build/common -I/usr/include/dconf -I/usr/include/json-glib-1.0 -I/blfs/builds/flatpak-1.16.1/subprojects/libglnx/. -I/blfs/builds/flatpak-1.16.1/build/subprojects/libglnx/. -I/usr/include/ostree-1 -I/usr/include/libsoup-3.0 -D_REENTRANT -I/usr/include/libxml2 -I/usr/include/malcontent-0 -I/usr/include/polkit-1 -O2 -include config.h -Werror=shadow -Werror=empty-body -Werror=strict-prototypes -Werror=missing-prototypes -Werror=implicit-function-declaration -Werror=pointer-arith -Werror=init-self -Werror=missing-declarations -Werror=return-type -Werror=overflow -Werror=int-conversion -Werror=incompatible-pointer-types -Werror=misleading-indentation -Werror=missing-include-dirs -Wno-sign-compare -Wno-error=sign-compare -Wno-cast-function-type -Wno-error=cast-function-type -Wno-missing-field-initializers -Wno-error=missing-field-initializers -Wno-unused-parameter -Wno-error=unused-parameter -fvisibility=hidden --ldflags=-L/blfs/builds/flatpak-1.16.1/build/common -Wl,-rpath,/blfs/builds/flatpak-1.16.1/build/common -lflatpak -lglib-2.0 -lgio-2.0 -lgobject-2.0 -ldconf -lgpgme -ljson-glib-1.0 -larchive -lcurl -lostree-1 -lseccomp -lsystemd -lxml2 -lzstd -lmalcontent-0 -lpolkit-agent-1 -lpolkit-gobject-1 -lXau -lwayland-client -lm -O2'
+Running custom install script '/usr/bin/sh -c ln -sf flatpakrepo.5 $MESON_INSTALL_DESTDIR_PREFIX/share/man/man5/flatpak-flatpakrepo.5'
+Running custom install script '/usr/bin/sh -c ln -sf flatpakref.5 $MESON_INSTALL_DESTDIR_PREFIX/share/man/man5/flatpak-flatpakref.5'
+flatpak/
+flatpak/usr/
+flatpak/usr/share/
+flatpak/usr/share/locale/
+flatpak/usr/share/locale/en_GB/
+flatpak/usr/share/locale/en_GB/LC_MESSAGES/
+flatpak/usr/share/locale/en_GB/LC_MESSAGES/flatpak.mo
+flatpak/usr/share/locale/uk/
+flatpak/usr/share/locale/uk/LC_MESSAGES/
+flatpak/usr/share/locale/uk/LC_MESSAGES/flatpak.mo
+flatpak/usr/share/locale/de/
+flatpak/usr/share/locale/de/LC_MESSAGES/
+flatpak/usr/share/locale/de/LC_MESSAGES/flatpak.mo
+flatpak/usr/share/locale/pt/
+flatpak/usr/share/locale/pt/LC_MESSAGES/
+flatpak/usr/share/locale/pt/LC_MESSAGES/flatpak.mo
+flatpak/usr/share/locale/es/
+flatpak/usr/share/locale/es/LC_MESSAGES/
+flatpak/usr/share/locale/es/LC_MESSAGES/flatpak.mo
+flatpak/usr/share/locale/da/
+flatpak/usr/share/locale/da/LC_MESSAGES/
+flatpak/usr/share/locale/da/LC_MESSAGES/flatpak.mo
+flatpak/usr/share/locale/zh_CN/
+flatpak/usr/share/locale/zh_CN/LC_MESSAGES/
+flatpak/usr/share/locale/zh_CN/LC_MESSAGES/flatpak.mo
+flatpak/usr/share/locale/hr/
+flatpak/usr/share/locale/hr/LC_MESSAGES/
+flatpak/usr/share/locale/hr/LC_MESSAGES/flatpak.mo
+flatpak/usr/share/locale/pt_BR/
+flatpak/usr/share/locale/pt_BR/LC_MESSAGES/
+flatpak/usr/share/locale/pt_BR/LC_MESSAGES/flatpak.mo
+flatpak/usr/share/locale/tr/
+flatpak/usr/share/locale/tr/LC_MESSAGES/
+flatpak/usr/share/locale/tr/LC_MESSAGES/flatpak.mo
+flatpak/usr/share/locale/sk/
+flatpak/usr/share/locale/sk/LC_MESSAGES/
+flatpak/usr/share/locale/sk/LC_MESSAGES/flatpak.mo
+flatpak/usr/share/locale/hi/
+flatpak/usr/share/locale/hi/LC_MESSAGES/
+flatpak/usr/share/locale/hi/LC_MESSAGES/flatpak.mo
+flatpak/usr/share/locale/gl/
+flatpak/usr/share/locale/gl/LC_MESSAGES/
+flatpak/usr/share/locale/gl/LC_MESSAGES/flatpak.mo
+flatpak/usr/share/locale/pl/
+flatpak/usr/share/locale/pl/LC_MESSAGES/
+flatpak/usr/share/locale/pl/LC_MESSAGES/flatpak.mo
+flatpak/usr/share/locale/sl/
+flatpak/usr/share/locale/sl/LC_MESSAGES/
+flatpak/usr/share/locale/sl/LC_MESSAGES/flatpak.mo
+flatpak/usr/share/locale/zh_TW/
+flatpak/usr/share/locale/zh_TW/LC_MESSAGES/
+flatpak/usr/share/locale/zh_TW/LC_MESSAGES/flatpak.mo
+flatpak/usr/share/locale/nl/
+flatpak/usr/share/locale/nl/LC_MESSAGES/
+flatpak/usr/share/locale/nl/LC_MESSAGES/flatpak.mo
+flatpak/usr/share/locale/oc/
+flatpak/usr/share/locale/oc/LC_MESSAGES/
+flatpak/usr/share/locale/oc/LC_MESSAGES/flatpak.mo
+flatpak/usr/share/locale/ka/
+flatpak/usr/share/locale/ka/LC_MESSAGES/
+flatpak/usr/share/locale/ka/LC_MESSAGES/flatpak.mo
+flatpak/usr/share/locale/fr/
+flatpak/usr/share/locale/fr/LC_MESSAGES/
+flatpak/usr/share/locale/fr/LC_MESSAGES/flatpak.mo
+flatpak/usr/share/locale/ro/
+flatpak/usr/share/locale/ro/LC_MESSAGES/
+flatpak/usr/share/locale/ro/LC_MESSAGES/flatpak.mo
+flatpak/usr/share/locale/cs/
+flatpak/usr/share/locale/cs/LC_MESSAGES/
+flatpak/usr/share/locale/cs/LC_MESSAGES/flatpak.mo
+flatpak/usr/share/locale/sv/
+flatpak/usr/share/locale/sv/LC_MESSAGES/
+flatpak/usr/share/locale/sv/LC_MESSAGES/flatpak.mo
+flatpak/usr/share/locale/id/
+flatpak/usr/share/locale/id/LC_MESSAGES/
+flatpak/usr/share/locale/id/LC_MESSAGES/flatpak.mo
+flatpak/usr/share/locale/hu/
+flatpak/usr/share/locale/hu/LC_MESSAGES/
+flatpak/usr/share/locale/hu/LC_MESSAGES/flatpak.mo
+flatpak/usr/share/locale/bg/
+flatpak/usr/share/locale/bg/LC_MESSAGES/
+flatpak/usr/share/locale/bg/LC_MESSAGES/flatpak.mo
+flatpak/usr/share/locale/ru/
+flatpak/usr/share/locale/ru/LC_MESSAGES/
+flatpak/usr/share/locale/ru/LC_MESSAGES/flatpak.mo
+flatpak/usr/share/polkit-1/
+flatpak/usr/share/polkit-1/actions/
+flatpak/usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy
+flatpak/usr/share/polkit-1/rules.d/
+flatpak/usr/share/polkit-1/rules.d/org.freedesktop.Flatpak.rules
+flatpak/usr/share/flatpak/
+flatpak/usr/share/flatpak/triggers/
+flatpak/usr/share/flatpak/triggers/gtk-icon-cache.trigger
+flatpak/usr/share/flatpak/triggers/desktop-database.trigger
+flatpak/usr/share/flatpak/triggers/mime-database.trigger
+flatpak/usr/share/dbus-1/
+flatpak/usr/share/dbus-1/interfaces/
+flatpak/usr/share/dbus-1/interfaces/org.freedesktop.Flatpak.Authenticator.xml
+flatpak/usr/share/dbus-1/interfaces/org.freedesktop.portal.Flatpak.xml
+flatpak/usr/share/dbus-1/interfaces/org.freedesktop.Flatpak.xml
+flatpak/usr/share/dbus-1/services/
+flatpak/usr/share/dbus-1/services/org.freedesktop.Flatpak.service
+flatpak/usr/share/dbus-1/services/org.flatpak.Authenticator.Oci.service
+flatpak/usr/share/dbus-1/services/org.freedesktop.portal.Flatpak.service
+flatpak/usr/share/dbus-1/system-services/
+flatpak/usr/share/dbus-1/system-services/org.freedesktop.Flatpak.SystemHelper.service
+flatpak/usr/share/gtk-doc/
+flatpak/usr/share/gtk-doc/html/
+flatpak/usr/share/gtk-doc/html/flatpak/
+flatpak/usr/share/gtk-doc/html/flatpak/gdbus-org.freedesktop.portal.Documents.html
+flatpak/usr/share/gtk-doc/html/flatpak/FlatpakRemoteRef.html
+flatpak/usr/share/gtk-doc/html/flatpak/ch02.html
+flatpak/usr/share/gtk-doc/html/flatpak/left-insensitive.png
+flatpak/usr/share/gtk-doc/html/flatpak/index.html
+flatpak/usr/share/gtk-doc/html/flatpak/home.png
+flatpak/usr/share/gtk-doc/html/flatpak/gdbus-org.freedesktop.portal.Flatpak.UpdateMonitor.html
+flatpak/usr/share/gtk-doc/html/flatpak/ch01.html
+flatpak/usr/share/gtk-doc/html/flatpak/style.css
+flatpak/usr/share/gtk-doc/html/flatpak/FlatpakBundleRef.html
+flatpak/usr/share/gtk-doc/html/flatpak/right.png
+flatpak/usr/share/gtk-doc/html/flatpak/FlatpakRemote.html
+flatpak/usr/share/gtk-doc/html/flatpak/annotation-glossary.html
+flatpak/usr/share/gtk-doc/html/flatpak/FlatpakTransactionProgress.html
+flatpak/usr/share/gtk-doc/html/flatpak/gdbus-org.freedesktop.Flatpak.Authenticator.html
+flatpak/usr/share/gtk-doc/html/flatpak/FlatpakTransaction.html
+flatpak/usr/share/gtk-doc/html/flatpak/gdbus-org.freedesktop.Flatpak.SessionHelper.html
+flatpak/usr/share/gtk-doc/html/flatpak/up.png
+flatpak/usr/share/gtk-doc/html/flatpak/FlatpakTransactionOperation.html
+flatpak/usr/share/gtk-doc/html/flatpak/gdbus-org.freedesktop.Flatpak.SystemHelper.html
+flatpak/usr/share/gtk-doc/html/flatpak/flatpak-Error-codes.html
+flatpak/usr/share/gtk-doc/html/flatpak/gdbus-org.freedesktop.Flatpak.AuthenticatorRequest.html
+flatpak/usr/share/gtk-doc/html/flatpak/up-insensitive.png
+flatpak/usr/share/gtk-doc/html/flatpak/left.png
+flatpak/usr/share/gtk-doc/html/flatpak/FlatpakInstance.html
+flatpak/usr/share/gtk-doc/html/flatpak/gdbus-org.freedesktop.impl.portal.PermissionStore.html
+flatpak/usr/share/gtk-doc/html/flatpak/full-api-index.html
+flatpak/usr/share/gtk-doc/html/flatpak/flatpak-Version-information.html
+flatpak/usr/share/gtk-doc/html/flatpak/FlatpakInstallation.html
+flatpak/usr/share/gtk-doc/html/flatpak/gdbus-org.freedesktop.Flatpak.Development.html
+flatpak/usr/share/gtk-doc/html/flatpak/flatpak.devhelp2
+flatpak/usr/share/gtk-doc/html/flatpak/gdbus-org.freedesktop.portal.Flatpak.html
+flatpak/usr/share/gtk-doc/html/flatpak/FlatpakRelatedRef.html
+flatpak/usr/share/gtk-doc/html/flatpak/FlatpakRef.html
+flatpak/usr/share/gtk-doc/html/flatpak/right-insensitive.png
+flatpak/usr/share/gtk-doc/html/flatpak/object-tree.html
+flatpak/usr/share/gtk-doc/html/flatpak/FlatpakInstalledRef.html
+flatpak/usr/share/zsh/
+flatpak/usr/share/zsh/site-functions/
+flatpak/usr/share/zsh/site-functions/_flatpak
+flatpak/usr/share/bash-completion/
+flatpak/usr/share/bash-completion/completions/
+flatpak/usr/share/bash-completion/completions/flatpak
+flatpak/usr/share/fish/
+flatpak/usr/share/fish/vendor_conf.d/
+flatpak/usr/share/fish/vendor_conf.d/flatpak.fish
+flatpak/usr/share/fish/vendor_completions.d/
+flatpak/usr/share/fish/vendor_completions.d/flatpak.fish
+flatpak/usr/share/gir-1.0/
+flatpak/usr/share/gir-1.0/Flatpak-1.0.gir
+flatpak/usr/share/man/
+flatpak/usr/share/man/man5/
+flatpak/usr/share/man/man5/flatpak-flatpakref.5
+flatpak/usr/share/man/man5/flatpak-metadata.5
+flatpak/usr/share/man/man5/flatpakrepo.5
+flatpak/usr/share/man/man5/flatpakref.5
+flatpak/usr/share/man/man5/flatpak-remote.5
+flatpak/usr/share/man/man5/flatpak-installation.5
+flatpak/usr/share/man/man5/flatpak-flatpakrepo.5
+flatpak/usr/share/man/man1/
+flatpak/usr/share/man/man1/flatpak-repo.1
+flatpak/usr/share/man/man1/flatpak-build-import-bundle.1
+flatpak/usr/share/man/man1/flatpak-kill.1
+flatpak/usr/share/man/man1/flatpak-spawn.1
+flatpak/usr/share/man/man1/flatpak-permission-set.1
+flatpak/usr/share/man/man1/flatpak-permission-show.1
+flatpak/usr/share/man/man1/flatpak-history.1
+flatpak/usr/share/man/man1/flatpak-build-init.1
+flatpak/usr/share/man/man1/flatpak-document-unexport.1
+flatpak/usr/share/man/man1/flatpak-remote-modify.1
+flatpak/usr/share/man/man1/flatpak-enter.1
+flatpak/usr/share/man/man1/flatpak-build-sign.1
+flatpak/usr/share/man/man1/flatpak-document-info.1
+flatpak/usr/share/man/man1/flatpak-remote-add.1
+flatpak/usr/share/man/man1/flatpak-repair.1
+flatpak/usr/share/man/man1/flatpak-build-commit-from.1
+flatpak/usr/share/man/man1/flatpak-document-export.1
+flatpak/usr/share/man/man1/flatpak-mask.1
+flatpak/usr/share/man/man1/flatpak-pin.1
+flatpak/usr/share/man/man1/flatpak-ps.1
+flatpak/usr/share/man/man1/flatpak-remote-delete.1
+flatpak/usr/share/man/man1/flatpak-create-usb.1
+flatpak/usr/share/man/man1/flatpak-override.1
+flatpak/usr/share/man/man1/flatpak-permission-remove.1
+flatpak/usr/share/man/man1/flatpak-install.1
+flatpak/usr/share/man/man1/flatpak-build-finish.1
+flatpak/usr/share/man/man1/flatpak-permissions.1
+flatpak/usr/share/man/man1/flatpak-uninstall.1
+flatpak/usr/share/man/man1/flatpak-make-current.1
+flatpak/usr/share/man/man1/flatpak-build.1
+flatpak/usr/share/man/man1/flatpak-permission-reset.1
+flatpak/usr/share/man/man1/flatpak-info.1
+flatpak/usr/share/man/man1/flatpak-remotes.1
+flatpak/usr/share/man/man1/flatpak-build-update-repo.1
+flatpak/usr/share/man/man1/flatpak-documents.1
+flatpak/usr/share/man/man1/flatpak-config.1
+flatpak/usr/share/man/man1/flatpak-remote-info.1
+flatpak/usr/share/man/man1/flatpak-update.1
+flatpak/usr/share/man/man1/flatpak-remote-ls.1
+flatpak/usr/share/man/man1/flatpak-build-export.1
+flatpak/usr/share/man/man1/flatpak-run.1
+flatpak/usr/share/man/man1/flatpak-search.1
+flatpak/usr/share/man/man1/flatpak.1
+flatpak/usr/share/man/man1/flatpak-list.1
+flatpak/usr/share/man/man1/flatpak-build-bundle.1
+flatpak/usr/share/doc/
+flatpak/usr/share/doc/flatpak/
+flatpak/usr/share/doc/flatpak/flatpak-docs.html
+flatpak/usr/share/doc/flatpak/docbook.css
+flatpak/usr/lib/
+flatpak/usr/lib/tmpfiles.d/
+flatpak/usr/lib/tmpfiles.d/flatpak.conf
+flatpak/usr/lib/libflatpak.so.0.11601.0
+flatpak/usr/lib/libflatpak.so
+flatpak/usr/lib/systemd/
+flatpak/usr/lib/systemd/system/
+flatpak/usr/lib/systemd/system/flatpak-system-helper.service
+flatpak/usr/lib/systemd/user/
+flatpak/usr/lib/systemd/user/flatpak-oci-authenticator.service
+flatpak/usr/lib/systemd/user/flatpak-portal.service
+flatpak/usr/lib/systemd/user/flatpak-session-helper.service
+flatpak/usr/lib/systemd/system-environment-generators/
+flatpak/usr/lib/systemd/system-environment-generators/60-flatpak-system-only
+flatpak/usr/lib/systemd/user-environment-generators/
+flatpak/usr/lib/systemd/user-environment-generators/60-flatpak
+flatpak/usr/lib/girepository-1.0/
+flatpak/usr/lib/girepository-1.0/Flatpak-1.0.typelib
+flatpak/usr/lib/pkgconfig/
+flatpak/usr/lib/pkgconfig/flatpak.pc
+flatpak/usr/lib/libflatpak.so.0
+flatpak/usr/lib/sysusers.d/
+flatpak/usr/lib/sysusers.d/flatpak.conf
+flatpak/usr/include/
+flatpak/usr/include/flatpak/
+flatpak/usr/include/flatpak/flatpak-instance.h
+flatpak/usr/include/flatpak/flatpak-related-ref.h
+flatpak/usr/include/flatpak/flatpak-transaction.h
+flatpak/usr/include/flatpak/flatpak-installation.h
+flatpak/usr/include/flatpak/flatpak.h
+flatpak/usr/include/flatpak/flatpak-ref.h
+flatpak/usr/include/flatpak/flatpak-version-macros.h
+flatpak/usr/include/flatpak/flatpak-error.h
+flatpak/usr/include/flatpak/flatpak-enum-types.h
+flatpak/usr/include/flatpak/flatpak-remote-ref.h
+flatpak/usr/include/flatpak/flatpak-installed-ref.h
+flatpak/usr/include/flatpak/flatpak-bundle-ref.h
+flatpak/usr/include/flatpak/flatpak-remote.h
+flatpak/usr/include/flatpak/flatpak-portal-error.h
+flatpak/usr/bin/
+flatpak/usr/bin/flatpak-coredumpctl
+flatpak/usr/bin/flatpak-bisect
+flatpak/usr/bin/flatpak
+flatpak/usr/libexec/
+flatpak/usr/libexec/flatpak-session-helper
+flatpak/usr/libexec/flatpak-dbus-proxy
+flatpak/usr/libexec/flatpak-validate-icon
+flatpak/usr/libexec/revokefs-fuse
+flatpak/usr/libexec/flatpak-system-helper
+flatpak/usr/libexec/flatpak-portal
+flatpak/usr/libexec/flatpak-oci-authenticator
+flatpak/usr/libexec/flatpak-bwrap
+flatpak/version
+flatpak/depends
+flatpak/etc/
+flatpak/etc/dbus-1/
+flatpak/etc/dbus-1/system.d/
+flatpak/etc/dbus-1/system.d/org.freedesktop.Flatpak.SystemHelper.conf
+flatpak/etc/profile.d/
+flatpak/etc/profile.d/flatpak.csh
+flatpak/etc/profile.d/flatpak.sh
+flatpak/make-depends
