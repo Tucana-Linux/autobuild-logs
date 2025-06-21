@@ -1,0 +1,1684 @@
+--2025-06-21 07:10:46--  https://github.com/linux-pam/linux-pam/releases/download/v1.7.1/Linux-PAM-1.7.1.tar.xz
+Resolving github.com (github.com)... 140.82.114.3
+Connecting to github.com (github.com)|140.82.114.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/76264690/696bff6c-c3b2-498f-9636-dab2eab9fa63?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250621%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250621T071046Z&X-Amz-Expires=1800&X-Amz-Signature=3c450166252cff85e8495d66d2f250ea2537580a0b0ea13e6888482b7639073a&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3DLinux-PAM-1.7.1.tar.xz&response-content-type=application%2Foctet-stream [following]
+--2025-06-21 07:10:46--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/76264690/696bff6c-c3b2-498f-9636-dab2eab9fa63?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250621%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250621T071046Z&X-Amz-Expires=1800&X-Amz-Signature=3c450166252cff85e8495d66d2f250ea2537580a0b0ea13e6888482b7639073a&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3DLinux-PAM-1.7.1.tar.xz&response-content-type=application%2Foctet-stream
+Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.111.133, 185.199.109.133, 185.199.108.133, ...
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.111.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 510828 (499K) [application/octet-stream]
+Saving to: 'Linux-PAM-1.7.1.tar.xz.1'
+
+     0K .......... .......... .......... .......... .......... 10% 8.41M 0s
+    50K .......... .......... .......... .......... .......... 20% 24.5M 0s
+   100K .......... .......... .......... .......... .......... 30% 8.82M 0s
+   150K .......... .......... .......... .......... .......... 40% 83.9M 0s
+   200K .......... .......... .......... .......... .......... 50% 84.0M 0s
+   250K .......... .......... .......... .......... .......... 60% 55.9M 0s
+   300K .......... .......... .......... .......... .......... 70% 22.3M 0s
+   350K .......... .......... .......... .......... .......... 80%  116M 0s
+   400K .......... .......... .......... .......... .......... 90%  104M 0s
+   450K .......... .......... .......... .......... ........  100% 15.2M=0.02s
+
+2025-06-21 07:10:46 (22.6 MB/s) - 'Linux-PAM-1.7.1.tar.xz.1' saved [510828/510828]
+
+Linux-PAM-1.7.1/
+Linux-PAM-1.7.1/AUTHORS
+Linux-PAM-1.7.1/COPYING
+Linux-PAM-1.7.1/Copyright
+Linux-PAM-1.7.1/NEWS
+Linux-PAM-1.7.1/README
+Linux-PAM-1.7.1/aux/
+Linux-PAM-1.7.1/aux/chdir_meson_build_subdir.sh
+Linux-PAM-1.7.1/aux/redir_exe.sh
+Linux-PAM-1.7.1/ci/
+Linux-PAM-1.7.1/ci/build.sh
+Linux-PAM-1.7.1/ci/install-dependencies.sh
+Linux-PAM-1.7.1/conf/
+Linux-PAM-1.7.1/conf/install_conf
+Linux-PAM-1.7.1/conf/md5itall
+Linux-PAM-1.7.1/conf/pam.conf
+Linux-PAM-1.7.1/conf/pam_conv1/
+Linux-PAM-1.7.1/conf/pam_conv1/README
+Linux-PAM-1.7.1/conf/pam_conv1/meson.build
+Linux-PAM-1.7.1/conf/pam_conv1/pam_conv_l.l
+Linux-PAM-1.7.1/conf/pam_conv1/pam_conv_y.y
+Linux-PAM-1.7.1/doc/
+Linux-PAM-1.7.1/doc/adg/
+Linux-PAM-1.7.1/doc/adg/Linux-PAM_ADG.xml
+Linux-PAM-1.7.1/doc/adg/html/
+Linux-PAM-1.7.1/doc/adg/html/meson.build
+Linux-PAM-1.7.1/doc/adg/meson.build
+Linux-PAM-1.7.1/doc/adg/pam_acct_mgmt.xml
+Linux-PAM-1.7.1/doc/adg/pam_authenticate.xml
+Linux-PAM-1.7.1/doc/adg/pam_chauthtok.xml
+Linux-PAM-1.7.1/doc/adg/pam_close_session.xml
+Linux-PAM-1.7.1/doc/adg/pam_conv.xml
+Linux-PAM-1.7.1/doc/adg/pam_end.xml
+Linux-PAM-1.7.1/doc/adg/pam_fail_delay.xml
+Linux-PAM-1.7.1/doc/adg/pam_get_item.xml
+Linux-PAM-1.7.1/doc/adg/pam_getenv.xml
+Linux-PAM-1.7.1/doc/adg/pam_getenvlist.xml
+Linux-PAM-1.7.1/doc/adg/pam_misc_conv.xml
+Linux-PAM-1.7.1/doc/adg/pam_misc_drop_env.xml
+Linux-PAM-1.7.1/doc/adg/pam_misc_paste_env.xml
+Linux-PAM-1.7.1/doc/adg/pam_misc_setenv.xml
+Linux-PAM-1.7.1/doc/adg/pam_open_session.xml
+Linux-PAM-1.7.1/doc/adg/pam_putenv.xml
+Linux-PAM-1.7.1/doc/adg/pam_set_item.xml
+Linux-PAM-1.7.1/doc/adg/pam_setcred.xml
+Linux-PAM-1.7.1/doc/adg/pam_start.xml
+Linux-PAM-1.7.1/doc/adg/pam_strerror.xml
+Linux-PAM-1.7.1/doc/custom-man.xsl.in
+Linux-PAM-1.7.1/doc/guide-html-meson.build
+Linux-PAM-1.7.1/doc/guide-meson.build
+Linux-PAM-1.7.1/doc/index.html
+Linux-PAM-1.7.1/doc/install-html.sh
+Linux-PAM-1.7.1/doc/man/
+Linux-PAM-1.7.1/doc/man/meson.build
+Linux-PAM-1.7.1/doc/man/misc_conv.3.xml
+Linux-PAM-1.7.1/doc/man/pam.3.xml
+Linux-PAM-1.7.1/doc/man/pam.8.xml
+Linux-PAM-1.7.1/doc/man/pam.conf-desc.xml
+Linux-PAM-1.7.1/doc/man/pam.conf-dir.xml
+Linux-PAM-1.7.1/doc/man/pam.conf-syntax.xml
+Linux-PAM-1.7.1/doc/man/pam.conf.5.xml
+Linux-PAM-1.7.1/doc/man/pam_acct_mgmt.3.xml
+Linux-PAM-1.7.1/doc/man/pam_authenticate.3.xml
+Linux-PAM-1.7.1/doc/man/pam_chauthtok.3.xml
+Linux-PAM-1.7.1/doc/man/pam_close_session.3.xml
+Linux-PAM-1.7.1/doc/man/pam_conv.3.xml
+Linux-PAM-1.7.1/doc/man/pam_end.3.xml
+Linux-PAM-1.7.1/doc/man/pam_error.3.xml
+Linux-PAM-1.7.1/doc/man/pam_fail_delay.3.xml
+Linux-PAM-1.7.1/doc/man/pam_get_authtok.3.xml
+Linux-PAM-1.7.1/doc/man/pam_get_data.3.xml
+Linux-PAM-1.7.1/doc/man/pam_get_item.3.xml
+Linux-PAM-1.7.1/doc/man/pam_get_user.3.xml
+Linux-PAM-1.7.1/doc/man/pam_getenv.3.xml
+Linux-PAM-1.7.1/doc/man/pam_getenvlist.3.xml
+Linux-PAM-1.7.1/doc/man/pam_info.3.xml
+Linux-PAM-1.7.1/doc/man/pam_item_types_ext.inc.xml
+Linux-PAM-1.7.1/doc/man/pam_item_types_std.inc.xml
+Linux-PAM-1.7.1/doc/man/pam_misc_drop_env.3.xml
+Linux-PAM-1.7.1/doc/man/pam_misc_paste_env.3.xml
+Linux-PAM-1.7.1/doc/man/pam_misc_setenv.3.xml
+Linux-PAM-1.7.1/doc/man/pam_open_session.3.xml
+Linux-PAM-1.7.1/doc/man/pam_prompt.3.xml
+Linux-PAM-1.7.1/doc/man/pam_putenv.3.xml
+Linux-PAM-1.7.1/doc/man/pam_set_data.3.xml
+Linux-PAM-1.7.1/doc/man/pam_set_item.3.xml
+Linux-PAM-1.7.1/doc/man/pam_setcred.3.xml
+Linux-PAM-1.7.1/doc/man/pam_sm_acct_mgmt.3.xml
+Linux-PAM-1.7.1/doc/man/pam_sm_authenticate.3.xml
+Linux-PAM-1.7.1/doc/man/pam_sm_chauthtok.3.xml
+Linux-PAM-1.7.1/doc/man/pam_sm_close_session.3.xml
+Linux-PAM-1.7.1/doc/man/pam_sm_open_session.3.xml
+Linux-PAM-1.7.1/doc/man/pam_sm_setcred.3.xml
+Linux-PAM-1.7.1/doc/man/pam_start.3.xml
+Linux-PAM-1.7.1/doc/man/pam_strerror.3.xml
+Linux-PAM-1.7.1/doc/man/pam_syslog.3.xml
+Linux-PAM-1.7.1/doc/man/pam_xauth_data.3.xml
+Linux-PAM-1.7.1/doc/meson.build
+Linux-PAM-1.7.1/doc/mwg/
+Linux-PAM-1.7.1/doc/mwg/Linux-PAM_MWG.xml
+Linux-PAM-1.7.1/doc/mwg/html/
+Linux-PAM-1.7.1/doc/mwg/html/meson.build
+Linux-PAM-1.7.1/doc/mwg/meson.build
+Linux-PAM-1.7.1/doc/mwg/pam_conv.xml
+Linux-PAM-1.7.1/doc/mwg/pam_fail_delay.xml
+Linux-PAM-1.7.1/doc/mwg/pam_get_data.xml
+Linux-PAM-1.7.1/doc/mwg/pam_get_item.xml
+Linux-PAM-1.7.1/doc/mwg/pam_get_user.xml
+Linux-PAM-1.7.1/doc/mwg/pam_getenv.xml
+Linux-PAM-1.7.1/doc/mwg/pam_getenvlist.xml
+Linux-PAM-1.7.1/doc/mwg/pam_putenv.xml
+Linux-PAM-1.7.1/doc/mwg/pam_set_data.xml
+Linux-PAM-1.7.1/doc/mwg/pam_set_item.xml
+Linux-PAM-1.7.1/doc/mwg/pam_sm_acct_mgmt.xml
+Linux-PAM-1.7.1/doc/mwg/pam_sm_authenticate.xml
+Linux-PAM-1.7.1/doc/mwg/pam_sm_chauthtok.xml
+Linux-PAM-1.7.1/doc/mwg/pam_sm_close_session.xml
+Linux-PAM-1.7.1/doc/mwg/pam_sm_open_session.xml
+Linux-PAM-1.7.1/doc/mwg/pam_sm_setcred.xml
+Linux-PAM-1.7.1/doc/mwg/pam_strerror.xml
+Linux-PAM-1.7.1/doc/sag/
+Linux-PAM-1.7.1/doc/sag/Linux-PAM_SAG.xml
+Linux-PAM-1.7.1/doc/sag/html/
+Linux-PAM-1.7.1/doc/sag/html/meson.build
+Linux-PAM-1.7.1/doc/sag/meson.build
+Linux-PAM-1.7.1/doc/sag/pam_access.xml
+Linux-PAM-1.7.1/doc/sag/pam_canonicalize_user.xml
+Linux-PAM-1.7.1/doc/sag/pam_debug.xml
+Linux-PAM-1.7.1/doc/sag/pam_deny.xml
+Linux-PAM-1.7.1/doc/sag/pam_echo.xml
+Linux-PAM-1.7.1/doc/sag/pam_env.xml
+Linux-PAM-1.7.1/doc/sag/pam_exec.xml
+Linux-PAM-1.7.1/doc/sag/pam_faildelay.xml
+Linux-PAM-1.7.1/doc/sag/pam_faillock.xml
+Linux-PAM-1.7.1/doc/sag/pam_filter.xml
+Linux-PAM-1.7.1/doc/sag/pam_ftp.xml
+Linux-PAM-1.7.1/doc/sag/pam_group.xml
+Linux-PAM-1.7.1/doc/sag/pam_issue.xml
+Linux-PAM-1.7.1/doc/sag/pam_keyinit.xml
+Linux-PAM-1.7.1/doc/sag/pam_lastlog.xml
+Linux-PAM-1.7.1/doc/sag/pam_limits.xml
+Linux-PAM-1.7.1/doc/sag/pam_listfile.xml
+Linux-PAM-1.7.1/doc/sag/pam_localuser.xml
+Linux-PAM-1.7.1/doc/sag/pam_loginuid.xml
+Linux-PAM-1.7.1/doc/sag/pam_mail.xml
+Linux-PAM-1.7.1/doc/sag/pam_mkhomedir.xml
+Linux-PAM-1.7.1/doc/sag/pam_motd.xml
+Linux-PAM-1.7.1/doc/sag/pam_namespace.xml
+Linux-PAM-1.7.1/doc/sag/pam_nologin.xml
+Linux-PAM-1.7.1/doc/sag/pam_permit.xml
+Linux-PAM-1.7.1/doc/sag/pam_pwhistory.xml
+Linux-PAM-1.7.1/doc/sag/pam_rhosts.xml
+Linux-PAM-1.7.1/doc/sag/pam_rootok.xml
+Linux-PAM-1.7.1/doc/sag/pam_securetty.xml
+Linux-PAM-1.7.1/doc/sag/pam_selinux.xml
+Linux-PAM-1.7.1/doc/sag/pam_sepermit.xml
+Linux-PAM-1.7.1/doc/sag/pam_setquota.xml
+Linux-PAM-1.7.1/doc/sag/pam_shells.xml
+Linux-PAM-1.7.1/doc/sag/pam_succeed_if.xml
+Linux-PAM-1.7.1/doc/sag/pam_time.xml
+Linux-PAM-1.7.1/doc/sag/pam_timestamp.xml
+Linux-PAM-1.7.1/doc/sag/pam_tty_audit.xml
+Linux-PAM-1.7.1/doc/sag/pam_umask.xml
+Linux-PAM-1.7.1/doc/sag/pam_unix.xml
+Linux-PAM-1.7.1/doc/sag/pam_userdb.xml
+Linux-PAM-1.7.1/doc/sag/pam_warn.xml
+Linux-PAM-1.7.1/doc/sag/pam_wheel.xml
+Linux-PAM-1.7.1/doc/sag/pam_xauth.xml
+Linux-PAM-1.7.1/doc/specs/
+Linux-PAM-1.7.1/doc/specs/draft-morgan-pam.raw
+Linux-PAM-1.7.1/doc/specs/meson.build
+Linux-PAM-1.7.1/doc/specs/parse_l.l
+Linux-PAM-1.7.1/doc/specs/parse_y.y
+Linux-PAM-1.7.1/doc/specs/rfc86.0.txt
+Linux-PAM-1.7.1/doc/specs/std-agent-id.raw
+Linux-PAM-1.7.1/examples/
+Linux-PAM-1.7.1/examples/README
+Linux-PAM-1.7.1/examples/blank.c
+Linux-PAM-1.7.1/examples/check_user.c
+Linux-PAM-1.7.1/examples/meson.build
+Linux-PAM-1.7.1/examples/tty_conv.c
+Linux-PAM-1.7.1/examples/vpass.c
+Linux-PAM-1.7.1/examples/xsh.c
+Linux-PAM-1.7.1/libpam/
+Linux-PAM-1.7.1/libpam/include/
+Linux-PAM-1.7.1/libpam/include/meson.build
+Linux-PAM-1.7.1/libpam/include/pam_cc_compat.h
+Linux-PAM-1.7.1/libpam/include/pam_i18n.h
+Linux-PAM-1.7.1/libpam/include/pam_inline.h
+Linux-PAM-1.7.1/libpam/include/security/
+Linux-PAM-1.7.1/libpam/include/security/_pam_compat.h
+Linux-PAM-1.7.1/libpam/include/security/_pam_macros.h
+Linux-PAM-1.7.1/libpam/include/security/_pam_types.h
+Linux-PAM-1.7.1/libpam/include/security/meson.build
+Linux-PAM-1.7.1/libpam/include/security/pam_appl.h
+Linux-PAM-1.7.1/libpam/include/security/pam_ext.h
+Linux-PAM-1.7.1/libpam/include/security/pam_modules.h
+Linux-PAM-1.7.1/libpam/include/security/pam_modutil.h
+Linux-PAM-1.7.1/libpam/include/test_assert.h
+Linux-PAM-1.7.1/libpam/libpam.map
+Linux-PAM-1.7.1/libpam/meson.build
+Linux-PAM-1.7.1/libpam/pam.pc.in
+Linux-PAM-1.7.1/libpam/pam_account.c
+Linux-PAM-1.7.1/libpam/pam_audit.c
+Linux-PAM-1.7.1/libpam/pam_auth.c
+Linux-PAM-1.7.1/libpam/pam_data.c
+Linux-PAM-1.7.1/libpam/pam_delay.c
+Linux-PAM-1.7.1/libpam/pam_dispatch.c
+Linux-PAM-1.7.1/libpam/pam_dynamic.c
+Linux-PAM-1.7.1/libpam/pam_end.c
+Linux-PAM-1.7.1/libpam/pam_env.c
+Linux-PAM-1.7.1/libpam/pam_get_authtok.c
+Linux-PAM-1.7.1/libpam/pam_handlers.c
+Linux-PAM-1.7.1/libpam/pam_item.c
+Linux-PAM-1.7.1/libpam/pam_misc.c
+Linux-PAM-1.7.1/libpam/pam_modutil_check_user.c
+Linux-PAM-1.7.1/libpam/pam_modutil_cleanup.c
+Linux-PAM-1.7.1/libpam/pam_modutil_getgrgid.c
+Linux-PAM-1.7.1/libpam/pam_modutil_getgrnam.c
+Linux-PAM-1.7.1/libpam/pam_modutil_getlogin.c
+Linux-PAM-1.7.1/libpam/pam_modutil_getpwnam.c
+Linux-PAM-1.7.1/libpam/pam_modutil_getpwuid.c
+Linux-PAM-1.7.1/libpam/pam_modutil_getspnam.c
+Linux-PAM-1.7.1/libpam/pam_modutil_ingroup.c
+Linux-PAM-1.7.1/libpam/pam_modutil_ioloop.c
+Linux-PAM-1.7.1/libpam/pam_modutil_priv.c
+Linux-PAM-1.7.1/libpam/pam_modutil_private.h
+Linux-PAM-1.7.1/libpam/pam_modutil_sanitize.c
+Linux-PAM-1.7.1/libpam/pam_modutil_searchkey.c
+Linux-PAM-1.7.1/libpam/pam_password.c
+Linux-PAM-1.7.1/libpam/pam_prelude.c
+Linux-PAM-1.7.1/libpam/pam_prelude.h
+Linux-PAM-1.7.1/libpam/pam_private.h
+Linux-PAM-1.7.1/libpam/pam_session.c
+Linux-PAM-1.7.1/libpam/pam_start.c
+Linux-PAM-1.7.1/libpam/pam_strerror.c
+Linux-PAM-1.7.1/libpam/pam_syslog.c
+Linux-PAM-1.7.1/libpam/pam_tokens.h
+Linux-PAM-1.7.1/libpam/pam_vprompt.c
+Linux-PAM-1.7.1/libpam_internal/
+Linux-PAM-1.7.1/libpam_internal/include/
+Linux-PAM-1.7.1/libpam_internal/include/pam_econf.h
+Linux-PAM-1.7.1/libpam_internal/include/pam_line.h
+Linux-PAM-1.7.1/libpam_internal/meson.build
+Linux-PAM-1.7.1/libpam_internal/pam_debug.c
+Linux-PAM-1.7.1/libpam_internal/pam_econf.c
+Linux-PAM-1.7.1/libpam_internal/pam_line.c
+Linux-PAM-1.7.1/libpam_misc/
+Linux-PAM-1.7.1/libpam_misc/help_env.c
+Linux-PAM-1.7.1/libpam_misc/include/
+Linux-PAM-1.7.1/libpam_misc/include/security/
+Linux-PAM-1.7.1/libpam_misc/include/security/meson.build
+Linux-PAM-1.7.1/libpam_misc/include/security/pam_misc.h
+Linux-PAM-1.7.1/libpam_misc/libpam_misc.map
+Linux-PAM-1.7.1/libpam_misc/meson.build
+Linux-PAM-1.7.1/libpam_misc/misc_conv.c
+Linux-PAM-1.7.1/libpam_misc/pam_misc.pc.in
+Linux-PAM-1.7.1/libpamc/
+Linux-PAM-1.7.1/libpamc/License
+Linux-PAM-1.7.1/libpamc/include/
+Linux-PAM-1.7.1/libpamc/include/security/
+Linux-PAM-1.7.1/libpamc/include/security/meson.build
+Linux-PAM-1.7.1/libpamc/include/security/pam_client.h
+Linux-PAM-1.7.1/libpamc/libpamc.h
+Linux-PAM-1.7.1/libpamc/libpamc.map
+Linux-PAM-1.7.1/libpamc/meson.build
+Linux-PAM-1.7.1/libpamc/pamc.pc.in
+Linux-PAM-1.7.1/libpamc/pamc_client.c
+Linux-PAM-1.7.1/libpamc/pamc_converse.c
+Linux-PAM-1.7.1/libpamc/pamc_load.c
+Linux-PAM-1.7.1/libpamc/test/
+Linux-PAM-1.7.1/libpamc/test/agents/
+Linux-PAM-1.7.1/libpamc/test/agents/secret@here
+Linux-PAM-1.7.1/libpamc/test/modules/
+Linux-PAM-1.7.1/libpamc/test/modules/pam_secret.c
+Linux-PAM-1.7.1/libpamc/test/regress/
+Linux-PAM-1.7.1/libpamc/test/regress/run_test.sh
+Linux-PAM-1.7.1/libpamc/test/regress/test.libpamc.c
+Linux-PAM-1.7.1/libpamc/test/regress/test.secret@here
+Linux-PAM-1.7.1/meson.build
+Linux-PAM-1.7.1/meson_options.txt
+Linux-PAM-1.7.1/modules/
+Linux-PAM-1.7.1/modules/meson.build
+Linux-PAM-1.7.1/modules/module-meson.build
+Linux-PAM-1.7.1/modules/modules.map
+Linux-PAM-1.7.1/modules/pam_access/
+Linux-PAM-1.7.1/modules/pam_access/README.xml
+Linux-PAM-1.7.1/modules/pam_access/access.conf
+Linux-PAM-1.7.1/modules/pam_access/access.conf.5.xml
+Linux-PAM-1.7.1/modules/pam_access/meson.build
+Linux-PAM-1.7.1/modules/pam_access/pam_access.8.xml
+Linux-PAM-1.7.1/modules/pam_access/pam_access.c
+Linux-PAM-1.7.1/modules/pam_access/tst-pam_access
+Linux-PAM-1.7.1/modules/pam_canonicalize_user/
+Linux-PAM-1.7.1/modules/pam_canonicalize_user/README.xml
+Linux-PAM-1.7.1/modules/pam_canonicalize_user/meson.build
+Linux-PAM-1.7.1/modules/pam_canonicalize_user/pam_canonicalize_user.8.xml
+Linux-PAM-1.7.1/modules/pam_canonicalize_user/pam_canonicalize_user.c
+Linux-PAM-1.7.1/modules/pam_canonicalize_user/tst-pam_canonicalize_user
+Linux-PAM-1.7.1/modules/pam_canonicalize_user/tst-pam_canonicalize_user-retval.c
+Linux-PAM-1.7.1/modules/pam_debug/
+Linux-PAM-1.7.1/modules/pam_debug/README.xml
+Linux-PAM-1.7.1/modules/pam_debug/meson.build
+Linux-PAM-1.7.1/modules/pam_debug/pam_debug.8.xml
+Linux-PAM-1.7.1/modules/pam_debug/pam_debug.c
+Linux-PAM-1.7.1/modules/pam_debug/tst-pam_debug
+Linux-PAM-1.7.1/modules/pam_debug/tst-pam_debug-retval.c
+Linux-PAM-1.7.1/modules/pam_deny/
+Linux-PAM-1.7.1/modules/pam_deny/README.xml
+Linux-PAM-1.7.1/modules/pam_deny/meson.build
+Linux-PAM-1.7.1/modules/pam_deny/pam_deny.8.xml
+Linux-PAM-1.7.1/modules/pam_deny/pam_deny.c
+Linux-PAM-1.7.1/modules/pam_deny/tst-pam_deny
+Linux-PAM-1.7.1/modules/pam_deny/tst-pam_deny-retval.c
+Linux-PAM-1.7.1/modules/pam_echo/
+Linux-PAM-1.7.1/modules/pam_echo/README.xml
+Linux-PAM-1.7.1/modules/pam_echo/meson.build
+Linux-PAM-1.7.1/modules/pam_echo/pam_echo.8.xml
+Linux-PAM-1.7.1/modules/pam_echo/pam_echo.c
+Linux-PAM-1.7.1/modules/pam_echo/tst-pam_echo
+Linux-PAM-1.7.1/modules/pam_echo/tst-pam_echo-retval.c
+Linux-PAM-1.7.1/modules/pam_env/
+Linux-PAM-1.7.1/modules/pam_env/README.xml
+Linux-PAM-1.7.1/modules/pam_env/environment
+Linux-PAM-1.7.1/modules/pam_env/meson.build
+Linux-PAM-1.7.1/modules/pam_env/pam_env.8.xml
+Linux-PAM-1.7.1/modules/pam_env/pam_env.c
+Linux-PAM-1.7.1/modules/pam_env/pam_env.conf
+Linux-PAM-1.7.1/modules/pam_env/pam_env.conf.5.xml
+Linux-PAM-1.7.1/modules/pam_env/tst-pam_env
+Linux-PAM-1.7.1/modules/pam_env/tst-pam_env-retval.c
+Linux-PAM-1.7.1/modules/pam_exec/
+Linux-PAM-1.7.1/modules/pam_exec/README.xml
+Linux-PAM-1.7.1/modules/pam_exec/meson.build
+Linux-PAM-1.7.1/modules/pam_exec/pam_exec.8.xml
+Linux-PAM-1.7.1/modules/pam_exec/pam_exec.c
+Linux-PAM-1.7.1/modules/pam_exec/tst-pam_exec
+Linux-PAM-1.7.1/modules/pam_faildelay/
+Linux-PAM-1.7.1/modules/pam_faildelay/README.xml
+Linux-PAM-1.7.1/modules/pam_faildelay/meson.build
+Linux-PAM-1.7.1/modules/pam_faildelay/pam_faildelay.8.xml
+Linux-PAM-1.7.1/modules/pam_faildelay/pam_faildelay.c
+Linux-PAM-1.7.1/modules/pam_faildelay/tst-pam_faildelay
+Linux-PAM-1.7.1/modules/pam_faildelay/tst-pam_faildelay-retval.c
+Linux-PAM-1.7.1/modules/pam_faillock/
+Linux-PAM-1.7.1/modules/pam_faillock/README.xml
+Linux-PAM-1.7.1/modules/pam_faillock/faillock.8.xml
+Linux-PAM-1.7.1/modules/pam_faillock/faillock.c
+Linux-PAM-1.7.1/modules/pam_faillock/faillock.conf
+Linux-PAM-1.7.1/modules/pam_faillock/faillock.conf.5.xml
+Linux-PAM-1.7.1/modules/pam_faillock/faillock.h
+Linux-PAM-1.7.1/modules/pam_faillock/faillock_config.c
+Linux-PAM-1.7.1/modules/pam_faillock/faillock_config.h
+Linux-PAM-1.7.1/modules/pam_faillock/main.c
+Linux-PAM-1.7.1/modules/pam_faillock/meson.build
+Linux-PAM-1.7.1/modules/pam_faillock/pam_faillock.8.xml
+Linux-PAM-1.7.1/modules/pam_faillock/pam_faillock.c
+Linux-PAM-1.7.1/modules/pam_faillock/tst-pam_faillock
+Linux-PAM-1.7.1/modules/pam_faillock/tst-pam_faillock-retval.c
+Linux-PAM-1.7.1/modules/pam_filter/
+Linux-PAM-1.7.1/modules/pam_filter/README.xml
+Linux-PAM-1.7.1/modules/pam_filter/meson.build
+Linux-PAM-1.7.1/modules/pam_filter/pam_filter.8.xml
+Linux-PAM-1.7.1/modules/pam_filter/pam_filter.c
+Linux-PAM-1.7.1/modules/pam_filter/pam_filter.h
+Linux-PAM-1.7.1/modules/pam_filter/tst-pam_filter
+Linux-PAM-1.7.1/modules/pam_filter/upperLOWER/
+Linux-PAM-1.7.1/modules/pam_filter/upperLOWER/meson.build
+Linux-PAM-1.7.1/modules/pam_filter/upperLOWER/upperLOWER.c
+Linux-PAM-1.7.1/modules/pam_ftp/
+Linux-PAM-1.7.1/modules/pam_ftp/README.xml
+Linux-PAM-1.7.1/modules/pam_ftp/meson.build
+Linux-PAM-1.7.1/modules/pam_ftp/pam_ftp.8.xml
+Linux-PAM-1.7.1/modules/pam_ftp/pam_ftp.c
+Linux-PAM-1.7.1/modules/pam_ftp/tst-pam_ftp
+Linux-PAM-1.7.1/modules/pam_group/
+Linux-PAM-1.7.1/modules/pam_group/README.xml
+Linux-PAM-1.7.1/modules/pam_group/group.conf
+Linux-PAM-1.7.1/modules/pam_group/group.conf.5.xml
+Linux-PAM-1.7.1/modules/pam_group/meson.build
+Linux-PAM-1.7.1/modules/pam_group/pam_group.8.xml
+Linux-PAM-1.7.1/modules/pam_group/pam_group.c
+Linux-PAM-1.7.1/modules/pam_group/tst-pam_group
+Linux-PAM-1.7.1/modules/pam_issue/
+Linux-PAM-1.7.1/modules/pam_issue/README.xml
+Linux-PAM-1.7.1/modules/pam_issue/meson.build
+Linux-PAM-1.7.1/modules/pam_issue/pam_issue.8.xml
+Linux-PAM-1.7.1/modules/pam_issue/pam_issue.c
+Linux-PAM-1.7.1/modules/pam_issue/tst-pam_issue
+Linux-PAM-1.7.1/modules/pam_keyinit/
+Linux-PAM-1.7.1/modules/pam_keyinit/README.xml
+Linux-PAM-1.7.1/modules/pam_keyinit/meson.build
+Linux-PAM-1.7.1/modules/pam_keyinit/pam_keyinit.8.xml
+Linux-PAM-1.7.1/modules/pam_keyinit/pam_keyinit.c
+Linux-PAM-1.7.1/modules/pam_keyinit/tst-pam_keyinit
+Linux-PAM-1.7.1/modules/pam_lastlog/
+Linux-PAM-1.7.1/modules/pam_lastlog/README.xml
+Linux-PAM-1.7.1/modules/pam_lastlog/meson.build
+Linux-PAM-1.7.1/modules/pam_lastlog/pam_lastlog.8.xml
+Linux-PAM-1.7.1/modules/pam_lastlog/pam_lastlog.c
+Linux-PAM-1.7.1/modules/pam_lastlog/tst-pam_lastlog
+Linux-PAM-1.7.1/modules/pam_limits/
+Linux-PAM-1.7.1/modules/pam_limits/README.xml
+Linux-PAM-1.7.1/modules/pam_limits/limits.conf
+Linux-PAM-1.7.1/modules/pam_limits/limits.conf.5.xml
+Linux-PAM-1.7.1/modules/pam_limits/meson.build
+Linux-PAM-1.7.1/modules/pam_limits/pam_limits.8.xml
+Linux-PAM-1.7.1/modules/pam_limits/pam_limits.c
+Linux-PAM-1.7.1/modules/pam_limits/tst-pam_limits
+Linux-PAM-1.7.1/modules/pam_listfile/
+Linux-PAM-1.7.1/modules/pam_listfile/README.xml
+Linux-PAM-1.7.1/modules/pam_listfile/meson.build
+Linux-PAM-1.7.1/modules/pam_listfile/pam_listfile.8.xml
+Linux-PAM-1.7.1/modules/pam_listfile/pam_listfile.c
+Linux-PAM-1.7.1/modules/pam_listfile/tst-pam_listfile
+Linux-PAM-1.7.1/modules/pam_listfile/tst-pam_listfile-retval.c
+Linux-PAM-1.7.1/modules/pam_localuser/
+Linux-PAM-1.7.1/modules/pam_localuser/README.xml
+Linux-PAM-1.7.1/modules/pam_localuser/meson.build
+Linux-PAM-1.7.1/modules/pam_localuser/pam_localuser.8.xml
+Linux-PAM-1.7.1/modules/pam_localuser/pam_localuser.c
+Linux-PAM-1.7.1/modules/pam_localuser/tst-pam_localuser
+Linux-PAM-1.7.1/modules/pam_localuser/tst-pam_localuser-retval.c
+Linux-PAM-1.7.1/modules/pam_loginuid/
+Linux-PAM-1.7.1/modules/pam_loginuid/README.xml
+Linux-PAM-1.7.1/modules/pam_loginuid/meson.build
+Linux-PAM-1.7.1/modules/pam_loginuid/pam_loginuid.8.xml
+Linux-PAM-1.7.1/modules/pam_loginuid/pam_loginuid.c
+Linux-PAM-1.7.1/modules/pam_loginuid/tst-pam_loginuid
+Linux-PAM-1.7.1/modules/pam_mail/
+Linux-PAM-1.7.1/modules/pam_mail/README.xml
+Linux-PAM-1.7.1/modules/pam_mail/meson.build
+Linux-PAM-1.7.1/modules/pam_mail/pam_mail.8.xml
+Linux-PAM-1.7.1/modules/pam_mail/pam_mail.c
+Linux-PAM-1.7.1/modules/pam_mail/tst-pam_mail
+Linux-PAM-1.7.1/modules/pam_mkhomedir/
+Linux-PAM-1.7.1/modules/pam_mkhomedir/README.xml
+Linux-PAM-1.7.1/modules/pam_mkhomedir/meson.build
+Linux-PAM-1.7.1/modules/pam_mkhomedir/mkhomedir_helper.8.xml
+Linux-PAM-1.7.1/modules/pam_mkhomedir/mkhomedir_helper.c
+Linux-PAM-1.7.1/modules/pam_mkhomedir/pam_mkhomedir.8.xml
+Linux-PAM-1.7.1/modules/pam_mkhomedir/pam_mkhomedir.c
+Linux-PAM-1.7.1/modules/pam_mkhomedir/tst-pam_mkhomedir
+Linux-PAM-1.7.1/modules/pam_mkhomedir/tst-pam_mkhomedir-retval.c
+Linux-PAM-1.7.1/modules/pam_motd/
+Linux-PAM-1.7.1/modules/pam_motd/README.xml
+Linux-PAM-1.7.1/modules/pam_motd/meson.build
+Linux-PAM-1.7.1/modules/pam_motd/pam_motd.8.xml
+Linux-PAM-1.7.1/modules/pam_motd/pam_motd.c
+Linux-PAM-1.7.1/modules/pam_motd/tst-pam_motd
+Linux-PAM-1.7.1/modules/pam_namespace/
+Linux-PAM-1.7.1/modules/pam_namespace/README.xml
+Linux-PAM-1.7.1/modules/pam_namespace/argv_parse.c
+Linux-PAM-1.7.1/modules/pam_namespace/argv_parse.h
+Linux-PAM-1.7.1/modules/pam_namespace/md5.c
+Linux-PAM-1.7.1/modules/pam_namespace/md5.h
+Linux-PAM-1.7.1/modules/pam_namespace/meson.build
+Linux-PAM-1.7.1/modules/pam_namespace/namespace.conf
+Linux-PAM-1.7.1/modules/pam_namespace/namespace.conf.5.xml
+Linux-PAM-1.7.1/modules/pam_namespace/namespace.init
+Linux-PAM-1.7.1/modules/pam_namespace/pam_namespace.8.xml
+Linux-PAM-1.7.1/modules/pam_namespace/pam_namespace.c
+Linux-PAM-1.7.1/modules/pam_namespace/pam_namespace.h
+Linux-PAM-1.7.1/modules/pam_namespace/pam_namespace.service.in
+Linux-PAM-1.7.1/modules/pam_namespace/pam_namespace_helper.8.xml
+Linux-PAM-1.7.1/modules/pam_namespace/pam_namespace_helper.in
+Linux-PAM-1.7.1/modules/pam_namespace/tst-pam_namespace
+Linux-PAM-1.7.1/modules/pam_nologin/
+Linux-PAM-1.7.1/modules/pam_nologin/README.xml
+Linux-PAM-1.7.1/modules/pam_nologin/meson.build
+Linux-PAM-1.7.1/modules/pam_nologin/pam_nologin.8.xml
+Linux-PAM-1.7.1/modules/pam_nologin/pam_nologin.c
+Linux-PAM-1.7.1/modules/pam_nologin/tst-pam_nologin
+Linux-PAM-1.7.1/modules/pam_nologin/tst-pam_nologin-retval.c
+Linux-PAM-1.7.1/modules/pam_permit/
+Linux-PAM-1.7.1/modules/pam_permit/README.xml
+Linux-PAM-1.7.1/modules/pam_permit/meson.build
+Linux-PAM-1.7.1/modules/pam_permit/pam_permit.8.xml
+Linux-PAM-1.7.1/modules/pam_permit/pam_permit.c
+Linux-PAM-1.7.1/modules/pam_permit/tst-pam_permit
+Linux-PAM-1.7.1/modules/pam_permit/tst-pam_permit-retval.c
+Linux-PAM-1.7.1/modules/pam_pwhistory/
+Linux-PAM-1.7.1/modules/pam_pwhistory/README.xml
+Linux-PAM-1.7.1/modules/pam_pwhistory/meson.build
+Linux-PAM-1.7.1/modules/pam_pwhistory/opasswd.c
+Linux-PAM-1.7.1/modules/pam_pwhistory/opasswd.h
+Linux-PAM-1.7.1/modules/pam_pwhistory/pam_pwhistory.8.xml
+Linux-PAM-1.7.1/modules/pam_pwhistory/pam_pwhistory.c
+Linux-PAM-1.7.1/modules/pam_pwhistory/pwhistory.conf
+Linux-PAM-1.7.1/modules/pam_pwhistory/pwhistory.conf.5.xml
+Linux-PAM-1.7.1/modules/pam_pwhistory/pwhistory_config.c
+Linux-PAM-1.7.1/modules/pam_pwhistory/pwhistory_config.h
+Linux-PAM-1.7.1/modules/pam_pwhistory/pwhistory_helper.8.xml
+Linux-PAM-1.7.1/modules/pam_pwhistory/pwhistory_helper.c
+Linux-PAM-1.7.1/modules/pam_pwhistory/tst-pam_pwhistory
+Linux-PAM-1.7.1/modules/pam_pwhistory/tst-pam_pwhistory-retval.c
+Linux-PAM-1.7.1/modules/pam_rhosts/
+Linux-PAM-1.7.1/modules/pam_rhosts/README.xml
+Linux-PAM-1.7.1/modules/pam_rhosts/meson.build
+Linux-PAM-1.7.1/modules/pam_rhosts/pam_rhosts.8.xml
+Linux-PAM-1.7.1/modules/pam_rhosts/pam_rhosts.c
+Linux-PAM-1.7.1/modules/pam_rhosts/tst-pam_rhosts
+Linux-PAM-1.7.1/modules/pam_rootok/
+Linux-PAM-1.7.1/modules/pam_rootok/README.xml
+Linux-PAM-1.7.1/modules/pam_rootok/meson.build
+Linux-PAM-1.7.1/modules/pam_rootok/pam_rootok.8.xml
+Linux-PAM-1.7.1/modules/pam_rootok/pam_rootok.c
+Linux-PAM-1.7.1/modules/pam_rootok/tst-pam_rootok
+Linux-PAM-1.7.1/modules/pam_rootok/tst-pam_rootok-retval.c
+Linux-PAM-1.7.1/modules/pam_securetty/
+Linux-PAM-1.7.1/modules/pam_securetty/README.xml
+Linux-PAM-1.7.1/modules/pam_securetty/meson.build
+Linux-PAM-1.7.1/modules/pam_securetty/pam_securetty.8.xml
+Linux-PAM-1.7.1/modules/pam_securetty/pam_securetty.c
+Linux-PAM-1.7.1/modules/pam_securetty/tst-pam_securetty
+Linux-PAM-1.7.1/modules/pam_selinux/
+Linux-PAM-1.7.1/modules/pam_selinux/README.xml
+Linux-PAM-1.7.1/modules/pam_selinux/meson.build
+Linux-PAM-1.7.1/modules/pam_selinux/pam_selinux.8.xml
+Linux-PAM-1.7.1/modules/pam_selinux/pam_selinux.c
+Linux-PAM-1.7.1/modules/pam_selinux/pam_selinux_check.8
+Linux-PAM-1.7.1/modules/pam_selinux/pam_selinux_check.c
+Linux-PAM-1.7.1/modules/pam_selinux/tst-pam_selinux
+Linux-PAM-1.7.1/modules/pam_sepermit/
+Linux-PAM-1.7.1/modules/pam_sepermit/README.xml
+Linux-PAM-1.7.1/modules/pam_sepermit/meson.build
+Linux-PAM-1.7.1/modules/pam_sepermit/pam_sepermit.8.xml
+Linux-PAM-1.7.1/modules/pam_sepermit/pam_sepermit.c
+Linux-PAM-1.7.1/modules/pam_sepermit/sepermit.conf
+Linux-PAM-1.7.1/modules/pam_sepermit/sepermit.conf.5.xml
+Linux-PAM-1.7.1/modules/pam_sepermit/tst-pam_sepermit
+Linux-PAM-1.7.1/modules/pam_sepermit/tst-pam_sepermit-retval.c
+Linux-PAM-1.7.1/modules/pam_setquota/
+Linux-PAM-1.7.1/modules/pam_setquota/README.xml
+Linux-PAM-1.7.1/modules/pam_setquota/meson.build
+Linux-PAM-1.7.1/modules/pam_setquota/pam_setquota.8.xml
+Linux-PAM-1.7.1/modules/pam_setquota/pam_setquota.c
+Linux-PAM-1.7.1/modules/pam_setquota/tst-pam_setquota
+Linux-PAM-1.7.1/modules/pam_shells/
+Linux-PAM-1.7.1/modules/pam_shells/README.xml
+Linux-PAM-1.7.1/modules/pam_shells/meson.build
+Linux-PAM-1.7.1/modules/pam_shells/pam_shells.8.xml
+Linux-PAM-1.7.1/modules/pam_shells/pam_shells.c
+Linux-PAM-1.7.1/modules/pam_shells/tst-pam_shells
+Linux-PAM-1.7.1/modules/pam_stress/
+Linux-PAM-1.7.1/modules/pam_stress/README.xml
+Linux-PAM-1.7.1/modules/pam_stress/meson.build
+Linux-PAM-1.7.1/modules/pam_stress/pam_stress.8.xml
+Linux-PAM-1.7.1/modules/pam_stress/pam_stress.c
+Linux-PAM-1.7.1/modules/pam_stress/tst-pam_stress
+Linux-PAM-1.7.1/modules/pam_succeed_if/
+Linux-PAM-1.7.1/modules/pam_succeed_if/README.xml
+Linux-PAM-1.7.1/modules/pam_succeed_if/meson.build
+Linux-PAM-1.7.1/modules/pam_succeed_if/pam_succeed_if.8.xml
+Linux-PAM-1.7.1/modules/pam_succeed_if/pam_succeed_if.c
+Linux-PAM-1.7.1/modules/pam_succeed_if/tst-pam_succeed_if
+Linux-PAM-1.7.1/modules/pam_succeed_if/tst-pam_succeed_if-retval.c
+Linux-PAM-1.7.1/modules/pam_time/
+Linux-PAM-1.7.1/modules/pam_time/README.xml
+Linux-PAM-1.7.1/modules/pam_time/meson.build
+Linux-PAM-1.7.1/modules/pam_time/pam_time.8.xml
+Linux-PAM-1.7.1/modules/pam_time/pam_time.c
+Linux-PAM-1.7.1/modules/pam_time/time.conf
+Linux-PAM-1.7.1/modules/pam_time/time.conf.5.xml
+Linux-PAM-1.7.1/modules/pam_time/tst-pam_time
+Linux-PAM-1.7.1/modules/pam_time/tst-pam_time-retval.c
+Linux-PAM-1.7.1/modules/pam_timestamp/
+Linux-PAM-1.7.1/modules/pam_timestamp/README.xml
+Linux-PAM-1.7.1/modules/pam_timestamp/hmac_openssl_wrapper.c
+Linux-PAM-1.7.1/modules/pam_timestamp/hmac_openssl_wrapper.h
+Linux-PAM-1.7.1/modules/pam_timestamp/hmacfile.c
+Linux-PAM-1.7.1/modules/pam_timestamp/hmacsha1.c
+Linux-PAM-1.7.1/modules/pam_timestamp/hmacsha1.h
+Linux-PAM-1.7.1/modules/pam_timestamp/meson.build
+Linux-PAM-1.7.1/modules/pam_timestamp/pam_timestamp.8.xml
+Linux-PAM-1.7.1/modules/pam_timestamp/pam_timestamp.c
+Linux-PAM-1.7.1/modules/pam_timestamp/pam_timestamp_check.8.xml
+Linux-PAM-1.7.1/modules/pam_timestamp/pam_timestamp_check.c
+Linux-PAM-1.7.1/modules/pam_timestamp/sha1.c
+Linux-PAM-1.7.1/modules/pam_timestamp/sha1.h
+Linux-PAM-1.7.1/modules/pam_timestamp/tst-pam_timestamp
+Linux-PAM-1.7.1/modules/pam_tty_audit/
+Linux-PAM-1.7.1/modules/pam_tty_audit/README.xml
+Linux-PAM-1.7.1/modules/pam_tty_audit/meson.build
+Linux-PAM-1.7.1/modules/pam_tty_audit/pam_tty_audit.8.xml
+Linux-PAM-1.7.1/modules/pam_tty_audit/pam_tty_audit.c
+Linux-PAM-1.7.1/modules/pam_tty_audit/tst-pam_tty_audit
+Linux-PAM-1.7.1/modules/pam_umask/
+Linux-PAM-1.7.1/modules/pam_umask/README.xml
+Linux-PAM-1.7.1/modules/pam_umask/meson.build
+Linux-PAM-1.7.1/modules/pam_umask/pam_umask.8.xml
+Linux-PAM-1.7.1/modules/pam_umask/pam_umask.c
+Linux-PAM-1.7.1/modules/pam_umask/tst-pam_umask
+Linux-PAM-1.7.1/modules/pam_unix/
+Linux-PAM-1.7.1/modules/pam_unix/README.xml
+Linux-PAM-1.7.1/modules/pam_unix/audit.c
+Linux-PAM-1.7.1/modules/pam_unix/audit.h
+Linux-PAM-1.7.1/modules/pam_unix/bigcrypt.c
+Linux-PAM-1.7.1/modules/pam_unix/bigcrypt.h
+Linux-PAM-1.7.1/modules/pam_unix/bigcrypt_main.c
+Linux-PAM-1.7.1/modules/pam_unix/lckpwdf.-c
+Linux-PAM-1.7.1/modules/pam_unix/md5.c
+Linux-PAM-1.7.1/modules/pam_unix/md5.h
+Linux-PAM-1.7.1/modules/pam_unix/md5_broken.c
+Linux-PAM-1.7.1/modules/pam_unix/md5_crypt.c
+Linux-PAM-1.7.1/modules/pam_unix/md5_good.c
+Linux-PAM-1.7.1/modules/pam_unix/meson.build
+Linux-PAM-1.7.1/modules/pam_unix/pam_unix.8.xml
+Linux-PAM-1.7.1/modules/pam_unix/pam_unix_acct.c
+Linux-PAM-1.7.1/modules/pam_unix/pam_unix_auth.c
+Linux-PAM-1.7.1/modules/pam_unix/pam_unix_passwd.c
+Linux-PAM-1.7.1/modules/pam_unix/pam_unix_sess.c
+Linux-PAM-1.7.1/modules/pam_unix/passverify.c
+Linux-PAM-1.7.1/modules/pam_unix/passverify.h
+Linux-PAM-1.7.1/modules/pam_unix/support.c
+Linux-PAM-1.7.1/modules/pam_unix/support.h
+Linux-PAM-1.7.1/modules/pam_unix/tst-pam_unix
+Linux-PAM-1.7.1/modules/pam_unix/unix_chkpwd.8.xml
+Linux-PAM-1.7.1/modules/pam_unix/unix_chkpwd.c
+Linux-PAM-1.7.1/modules/pam_unix/unix_update.8.xml
+Linux-PAM-1.7.1/modules/pam_unix/unix_update.c
+Linux-PAM-1.7.1/modules/pam_unix/yppasswd.h
+Linux-PAM-1.7.1/modules/pam_unix/yppasswd_xdr.c
+Linux-PAM-1.7.1/modules/pam_userdb/
+Linux-PAM-1.7.1/modules/pam_userdb/README.xml
+Linux-PAM-1.7.1/modules/pam_userdb/create.pl
+Linux-PAM-1.7.1/modules/pam_userdb/meson.build
+Linux-PAM-1.7.1/modules/pam_userdb/pam_userdb.8.xml
+Linux-PAM-1.7.1/modules/pam_userdb/pam_userdb.c
+Linux-PAM-1.7.1/modules/pam_userdb/pam_userdb.h
+Linux-PAM-1.7.1/modules/pam_userdb/tst-pam_userdb
+Linux-PAM-1.7.1/modules/pam_usertype/
+Linux-PAM-1.7.1/modules/pam_usertype/README.xml
+Linux-PAM-1.7.1/modules/pam_usertype/meson.build
+Linux-PAM-1.7.1/modules/pam_usertype/pam_usertype.8.xml
+Linux-PAM-1.7.1/modules/pam_usertype/pam_usertype.c
+Linux-PAM-1.7.1/modules/pam_usertype/tst-pam_usertype
+Linux-PAM-1.7.1/modules/pam_warn/
+Linux-PAM-1.7.1/modules/pam_warn/README.xml
+Linux-PAM-1.7.1/modules/pam_warn/meson.build
+Linux-PAM-1.7.1/modules/pam_warn/pam_warn.8.xml
+Linux-PAM-1.7.1/modules/pam_warn/pam_warn.c
+Linux-PAM-1.7.1/modules/pam_warn/tst-pam_warn
+Linux-PAM-1.7.1/modules/pam_warn/tst-pam_warn-retval.c
+Linux-PAM-1.7.1/modules/pam_wheel/
+Linux-PAM-1.7.1/modules/pam_wheel/README.xml
+Linux-PAM-1.7.1/modules/pam_wheel/meson.build
+Linux-PAM-1.7.1/modules/pam_wheel/pam_wheel.8.xml
+Linux-PAM-1.7.1/modules/pam_wheel/pam_wheel.c
+Linux-PAM-1.7.1/modules/pam_wheel/tst-pam_wheel
+Linux-PAM-1.7.1/modules/pam_xauth/
+Linux-PAM-1.7.1/modules/pam_xauth/README.xml
+Linux-PAM-1.7.1/modules/pam_xauth/meson.build
+Linux-PAM-1.7.1/modules/pam_xauth/pam_xauth.8.xml
+Linux-PAM-1.7.1/modules/pam_xauth/pam_xauth.c
+Linux-PAM-1.7.1/modules/pam_xauth/tst-pam_xauth
+Linux-PAM-1.7.1/pgp.keys.asc
+Linux-PAM-1.7.1/po/
+Linux-PAM-1.7.1/po/LINGUAS
+Linux-PAM-1.7.1/po/Linux-PAM.pot
+Linux-PAM-1.7.1/po/POTFILES.in
+Linux-PAM-1.7.1/po/af.po
+Linux-PAM-1.7.1/po/am.po
+Linux-PAM-1.7.1/po/ar.po
+Linux-PAM-1.7.1/po/as.po
+Linux-PAM-1.7.1/po/az.po
+Linux-PAM-1.7.1/po/be.po
+Linux-PAM-1.7.1/po/bg.po
+Linux-PAM-1.7.1/po/bn.po
+Linux-PAM-1.7.1/po/bn_IN.po
+Linux-PAM-1.7.1/po/bs.po
+Linux-PAM-1.7.1/po/ca.po
+Linux-PAM-1.7.1/po/cs.po
+Linux-PAM-1.7.1/po/cy.po
+Linux-PAM-1.7.1/po/da.po
+Linux-PAM-1.7.1/po/de.po
+Linux-PAM-1.7.1/po/de_CH.po
+Linux-PAM-1.7.1/po/el.po
+Linux-PAM-1.7.1/po/eo.po
+Linux-PAM-1.7.1/po/es.po
+Linux-PAM-1.7.1/po/et.po
+Linux-PAM-1.7.1/po/eu.po
+Linux-PAM-1.7.1/po/fa.po
+Linux-PAM-1.7.1/po/fi.po
+Linux-PAM-1.7.1/po/fr.po
+Linux-PAM-1.7.1/po/ga.po
+Linux-PAM-1.7.1/po/gl.po
+Linux-PAM-1.7.1/po/gu.po
+Linux-PAM-1.7.1/po/he.po
+Linux-PAM-1.7.1/po/hi.po
+Linux-PAM-1.7.1/po/hr.po
+Linux-PAM-1.7.1/po/hu.po
+Linux-PAM-1.7.1/po/ia.po
+Linux-PAM-1.7.1/po/id.po
+Linux-PAM-1.7.1/po/is.po
+Linux-PAM-1.7.1/po/it.po
+Linux-PAM-1.7.1/po/ja.po
+Linux-PAM-1.7.1/po/ka.po
+Linux-PAM-1.7.1/po/kk.po
+Linux-PAM-1.7.1/po/km.po
+Linux-PAM-1.7.1/po/kn.po
+Linux-PAM-1.7.1/po/ko.po
+Linux-PAM-1.7.1/po/kw_GB.po
+Linux-PAM-1.7.1/po/ky.po
+Linux-PAM-1.7.1/po/lt.po
+Linux-PAM-1.7.1/po/lv.po
+Linux-PAM-1.7.1/po/meson.build
+Linux-PAM-1.7.1/po/mk.po
+Linux-PAM-1.7.1/po/ml.po
+Linux-PAM-1.7.1/po/mn.po
+Linux-PAM-1.7.1/po/mr.po
+Linux-PAM-1.7.1/po/ms.po
+Linux-PAM-1.7.1/po/my.po
+Linux-PAM-1.7.1/po/nb.po
+Linux-PAM-1.7.1/po/ne.po
+Linux-PAM-1.7.1/po/nl.po
+Linux-PAM-1.7.1/po/nn.po
+Linux-PAM-1.7.1/po/or.po
+Linux-PAM-1.7.1/po/pa.po
+Linux-PAM-1.7.1/po/pl.po
+Linux-PAM-1.7.1/po/pt.po
+Linux-PAM-1.7.1/po/pt_BR.po
+Linux-PAM-1.7.1/po/ro.po
+Linux-PAM-1.7.1/po/ru.po
+Linux-PAM-1.7.1/po/si.po
+Linux-PAM-1.7.1/po/sk.po
+Linux-PAM-1.7.1/po/sl.po
+Linux-PAM-1.7.1/po/sq.po
+Linux-PAM-1.7.1/po/sr.po
+Linux-PAM-1.7.1/po/sr@latin.po
+Linux-PAM-1.7.1/po/sv.po
+Linux-PAM-1.7.1/po/ta.po
+Linux-PAM-1.7.1/po/te.po
+Linux-PAM-1.7.1/po/tg.po
+Linux-PAM-1.7.1/po/th.po
+Linux-PAM-1.7.1/po/tr.po
+Linux-PAM-1.7.1/po/uk.po
+Linux-PAM-1.7.1/po/ur.po
+Linux-PAM-1.7.1/po/vi.po
+Linux-PAM-1.7.1/po/yo.po
+Linux-PAM-1.7.1/po/zh_CN.po
+Linux-PAM-1.7.1/po/zh_HK.po
+Linux-PAM-1.7.1/po/zh_TW.po
+Linux-PAM-1.7.1/po/zu.po
+Linux-PAM-1.7.1/tests/
+Linux-PAM-1.7.1/tests/confdir
+Linux-PAM-1.7.1/tests/meson.build
+Linux-PAM-1.7.1/tests/tst-dlopen.c
+Linux-PAM-1.7.1/tests/tst-pam_acct_mgmt.c
+Linux-PAM-1.7.1/tests/tst-pam_authenticate.c
+Linux-PAM-1.7.1/tests/tst-pam_chauthtok.c
+Linux-PAM-1.7.1/tests/tst-pam_close_session.c
+Linux-PAM-1.7.1/tests/tst-pam_end.c
+Linux-PAM-1.7.1/tests/tst-pam_fail_delay.c
+Linux-PAM-1.7.1/tests/tst-pam_get_authtok.c
+Linux-PAM-1.7.1/tests/tst-pam_get_data.c
+Linux-PAM-1.7.1/tests/tst-pam_get_item.c
+Linux-PAM-1.7.1/tests/tst-pam_get_user.c
+Linux-PAM-1.7.1/tests/tst-pam_getenvlist.c
+Linux-PAM-1.7.1/tests/tst-pam_mkargv.c
+Linux-PAM-1.7.1/tests/tst-pam_open_session.c
+Linux-PAM-1.7.1/tests/tst-pam_set_data.c
+Linux-PAM-1.7.1/tests/tst-pam_set_item.c
+Linux-PAM-1.7.1/tests/tst-pam_setcred.c
+Linux-PAM-1.7.1/tests/tst-pam_start.c
+Linux-PAM-1.7.1/tests/tst-pam_start_confdir.c
+Linux-PAM-1.7.1/xtests/
+Linux-PAM-1.7.1/xtests/access.conf
+Linux-PAM-1.7.1/xtests/group.conf
+Linux-PAM-1.7.1/xtests/limits.conf
+Linux-PAM-1.7.1/xtests/meson.build
+Linux-PAM-1.7.1/xtests/run-xtests.sh
+Linux-PAM-1.7.1/xtests/shells.conf
+Linux-PAM-1.7.1/xtests/time.conf
+Linux-PAM-1.7.1/xtests/tst-pam_access1.c
+Linux-PAM-1.7.1/xtests/tst-pam_access1.pamd
+Linux-PAM-1.7.1/xtests/tst-pam_access1.sh
+Linux-PAM-1.7.1/xtests/tst-pam_access2.c
+Linux-PAM-1.7.1/xtests/tst-pam_access2.pamd
+Linux-PAM-1.7.1/xtests/tst-pam_access2.sh
+Linux-PAM-1.7.1/xtests/tst-pam_access3.c
+Linux-PAM-1.7.1/xtests/tst-pam_access3.pamd
+Linux-PAM-1.7.1/xtests/tst-pam_access3.sh
+Linux-PAM-1.7.1/xtests/tst-pam_access4.c
+Linux-PAM-1.7.1/xtests/tst-pam_access4.pamd
+Linux-PAM-1.7.1/xtests/tst-pam_access4.sh
+Linux-PAM-1.7.1/xtests/tst-pam_assemble_line1.pamd
+Linux-PAM-1.7.1/xtests/tst-pam_assemble_line1.sh
+Linux-PAM-1.7.1/xtests/tst-pam_authfail.c
+Linux-PAM-1.7.1/xtests/tst-pam_authfail.pamd
+Linux-PAM-1.7.1/xtests/tst-pam_authsucceed.c
+Linux-PAM-1.7.1/xtests/tst-pam_authsucceed.pamd
+Linux-PAM-1.7.1/xtests/tst-pam_dispatch1.c
+Linux-PAM-1.7.1/xtests/tst-pam_dispatch1.pamd
+Linux-PAM-1.7.1/xtests/tst-pam_dispatch2.c
+Linux-PAM-1.7.1/xtests/tst-pam_dispatch2.pamd
+Linux-PAM-1.7.1/xtests/tst-pam_dispatch3.c
+Linux-PAM-1.7.1/xtests/tst-pam_dispatch3.pamd
+Linux-PAM-1.7.1/xtests/tst-pam_dispatch4.c
+Linux-PAM-1.7.1/xtests/tst-pam_dispatch4.pamd
+Linux-PAM-1.7.1/xtests/tst-pam_dispatch5.c
+Linux-PAM-1.7.1/xtests/tst-pam_dispatch5.pamd
+Linux-PAM-1.7.1/xtests/tst-pam_group1.c
+Linux-PAM-1.7.1/xtests/tst-pam_group1.pamd
+Linux-PAM-1.7.1/xtests/tst-pam_group1.sh
+Linux-PAM-1.7.1/xtests/tst-pam_limits1.c
+Linux-PAM-1.7.1/xtests/tst-pam_limits1.pamd
+Linux-PAM-1.7.1/xtests/tst-pam_limits1.sh
+Linux-PAM-1.7.1/xtests/tst-pam_motd.c
+Linux-PAM-1.7.1/xtests/tst-pam_motd.sh
+Linux-PAM-1.7.1/xtests/tst-pam_motd1.pamd
+Linux-PAM-1.7.1/xtests/tst-pam_motd1.sh
+Linux-PAM-1.7.1/xtests/tst-pam_motd2.pamd
+Linux-PAM-1.7.1/xtests/tst-pam_motd2.sh
+Linux-PAM-1.7.1/xtests/tst-pam_motd3.pamd
+Linux-PAM-1.7.1/xtests/tst-pam_motd3.sh
+Linux-PAM-1.7.1/xtests/tst-pam_motd4.pamd
+Linux-PAM-1.7.1/xtests/tst-pam_motd4.sh
+Linux-PAM-1.7.1/xtests/tst-pam_pwhistory1.c
+Linux-PAM-1.7.1/xtests/tst-pam_pwhistory1.pamd
+Linux-PAM-1.7.1/xtests/tst-pam_pwhistory1.sh
+Linux-PAM-1.7.1/xtests/tst-pam_shells.c
+Linux-PAM-1.7.1/xtests/tst-pam_shells.pamd
+Linux-PAM-1.7.1/xtests/tst-pam_shells.sh
+Linux-PAM-1.7.1/xtests/tst-pam_substack1.pamd
+Linux-PAM-1.7.1/xtests/tst-pam_substack1.sh
+Linux-PAM-1.7.1/xtests/tst-pam_substack1a.pamd
+Linux-PAM-1.7.1/xtests/tst-pam_substack2.pamd
+Linux-PAM-1.7.1/xtests/tst-pam_substack2.sh
+Linux-PAM-1.7.1/xtests/tst-pam_substack2a.pamd
+Linux-PAM-1.7.1/xtests/tst-pam_substack3.pamd
+Linux-PAM-1.7.1/xtests/tst-pam_substack3.sh
+Linux-PAM-1.7.1/xtests/tst-pam_substack3a.pamd
+Linux-PAM-1.7.1/xtests/tst-pam_substack4.pamd
+Linux-PAM-1.7.1/xtests/tst-pam_substack4.sh
+Linux-PAM-1.7.1/xtests/tst-pam_substack4a.pamd
+Linux-PAM-1.7.1/xtests/tst-pam_substack5.pamd
+Linux-PAM-1.7.1/xtests/tst-pam_substack5.sh
+Linux-PAM-1.7.1/xtests/tst-pam_substack5a.pamd
+Linux-PAM-1.7.1/xtests/tst-pam_succeed_if1.c
+Linux-PAM-1.7.1/xtests/tst-pam_succeed_if1.pamd
+Linux-PAM-1.7.1/xtests/tst-pam_succeed_if1.sh
+Linux-PAM-1.7.1/xtests/tst-pam_time1.c
+Linux-PAM-1.7.1/xtests/tst-pam_time1.pamd
+Linux-PAM-1.7.1/xtests/tst-pam_unix1.c
+Linux-PAM-1.7.1/xtests/tst-pam_unix1.pamd
+Linux-PAM-1.7.1/xtests/tst-pam_unix1.sh
+Linux-PAM-1.7.1/xtests/tst-pam_unix2.c
+Linux-PAM-1.7.1/xtests/tst-pam_unix2.pamd
+Linux-PAM-1.7.1/xtests/tst-pam_unix2.sh
+Linux-PAM-1.7.1/xtests/tst-pam_unix3.c
+Linux-PAM-1.7.1/xtests/tst-pam_unix3.pamd
+Linux-PAM-1.7.1/xtests/tst-pam_unix3.sh
+Linux-PAM-1.7.1/xtests/tst-pam_unix4.c
+Linux-PAM-1.7.1/xtests/tst-pam_unix4.pamd
+Linux-PAM-1.7.1/xtests/tst-pam_unix4.sh
+The Meson build system
+Version: 1.7.0
+Source dir: /blfs/builds/Linux-PAM-1.7.1
+Build dir: /blfs/builds/Linux-PAM-1.7.1/build
+Build type: native build
+Project name: Linux-PAM
+Project version: 1.7.1
+C compiler for the host machine: cc (gcc 14.2.0 "cc (GCC) 14.2.0")
+C linker for the host machine: cc ld.bfd 2.44
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Checking for size of "long" : 4 
+Compiler for C supports arguments -Wbad-function-cast: YES 
+Compiler for C supports arguments -Wcast-align: YES 
+Compiler for C supports arguments -Wcast-align=strict: YES 
+Compiler for C supports arguments -Wcast-qual: YES 
+Compiler for C supports arguments -Wdeprecated: YES 
+Compiler for C supports arguments -Wformat=2: YES 
+Compiler for C supports arguments -Winit-self: YES 
+Compiler for C supports arguments -Wmain: YES 
+Compiler for C supports arguments -Wmissing-declarations: YES 
+Compiler for C supports arguments -Wmissing-format-attribute: YES 
+Compiler for C supports arguments -Wmissing-prototypes: YES 
+Compiler for C supports arguments -Wnull-dereference: YES 
+Compiler for C supports arguments -Wpointer-arith: YES 
+Compiler for C supports arguments -Wreturn-type: YES 
+Compiler for C supports arguments -Wshadow: YES 
+Compiler for C supports arguments -Wstrict-prototypes: YES 
+Compiler for C supports arguments -Wundef: YES 
+Compiler for C supports arguments -Wuninitialized: YES 
+Compiler for C supports arguments -Wunused: YES 
+Compiler for C supports arguments -Wwrite-strings: YES 
+Compiler for C supports arguments -Wzero-as-null-pointer-constant: NO 
+Compiler for C supports link arguments -Wl,--fatal-warnings: YES 
+Compiler for C supports link arguments -Wl,-O1: YES 
+Compiler for C supports link arguments -Wl,-z,relro: YES 
+Compiler for C supports link arguments -Wl,-z,now: YES 
+Has header "crypt.h" : YES 
+Has header "paths.h" : YES 
+Has header "sys/random.h" : YES 
+Checking for function "close_range" : YES 
+Checking for function "explicit_bzero" : YES 
+Checking for function "getdomainname" : YES 
+Checking for function "getgrgid_r" : YES 
+Checking for function "getgrnam_r" : YES 
+Checking for function "getgrouplist" : YES 
+Checking for function "getmntent_r" : YES 
+Checking for function "getpwnam" : YES 
+Checking for function "getpwnam_r" : YES 
+Checking for function "getpwuid_r" : YES 
+Checking for function "getrandom" : YES 
+Checking for function "getspnam_r" : YES 
+Checking for function "getutent_r" : YES 
+Checking for function "innetgr" : YES 
+Checking for function "memset_explicit" : NO 
+Checking for function "quotactl" : YES 
+Checking for function "ruserok" : YES 
+Checking for function "ruserok_af" : YES 
+Checking for function "unshare" : YES 
+Fetching value of define "__NR_keyctl" : 288 
+Fetching value of define "_PATH_MAILDIR" : "/var/mail" 
+Run-time dependency dl found: YES
+Run-time dependency intl found: YES
+Checking for function "bindtextdomain" with dependency intl: YES 
+Checking for function "dngettext" with dependency intl: YES 
+Found pkg-config: YES (/usr/bin/i686-pc-linux-gnu-pkg-config) 2.5.0
+Found CMake: /usr/bin/cmake (4.0.3)
+Run-time dependency audit found: NO (tried pkgconfig and cmake)
+Run-time dependency libcrypt found: YES 4.4.36
+Checking for function "crypt_r" with dependency libcrypt: YES 
+Run-time dependency libeconf found: NO (tried pkgconfig and cmake)
+Run-time dependency libselinux found: NO (tried pkgconfig and cmake)
+Run-time dependency libsystemd found: YES 257
+Run-time dependency systemd found: YES 257
+Library db found: NO
+Library gdbm found: NO
+Library ndbm found: NO
+Checking for function "lckpwdf" : YES 
+Run-time dependency libtirpc found: NO (tried pkgconfig and cmake)
+Checking for function "getrpcport" with dependency libtirpc: NO 
+Checking for function "rpcb_getaddr" with dependency libtirpc: NO 
+Run-time dependency libnsl found: NO (tried pkgconfig and cmake)
+Program xsltproc found: YES (/usr/bin/xsltproc)
+Program xmllint found: YES (/usr/bin/xmllint)
+Program w3m found: NO
+Program elinks found: NO
+Program fop found: NO
+Program xmlcatalog found: YES (/usr/bin/xmlcatalog)
+Program flex found: YES (/usr/bin/flex)
+Program bison found: YES (/usr/bin/bison)
+Program gettext found: YES (/usr/bin/gettext)
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Program msginit found: YES (/usr/bin/msginit)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program xgettext found: YES (/usr/bin/xgettext)
+Configuring config.h using configuration
+Configuring pam_namespace_helper using configuration
+Configuring pam_namespace.service using configuration
+Build targets in project: 185
+
+Linux-PAM 1.7.1
+
+  User defined options
+    buildtype: release
+    libdir   : /usr/lib32
+    prefix   : /usr
+
+Found ninja-1.13.0 at /usr/bin/ninja
+[1/345] Compiling C object libpam_internal/libpam_internal.a.p/pam_econf.c.o
+[2/345] Compiling C object libpam_internal/libpam_internal.a.p/pam_debug.c.o
+[3/345] Compiling C object libpam/libpam.so.0.85.1.p/pam_modutil_cleanup.c.o
+[4/345] Compiling C object libpam/libpam.so.0.85.1.p/pam_dynamic.c.o
+[5/345] Compiling C object libpam/libpam.so.0.85.1.p/pam_account.c.o
+[6/345] Compiling C object libpam/libpam.so.0.85.1.p/pam_auth.c.o
+[7/345] Compiling C object libpam/libpam.so.0.85.1.p/pam_audit.c.o
+[8/345] Compiling C object libpam/libpam.so.0.85.1.p/pam_modutil_check_user.c.o
+[9/345] Compiling C object libpam/libpam.so.0.85.1.p/pam_data.c.o
+[10/345] Compiling C object libpam/libpam.so.0.85.1.p/pam_modutil_getlogin.c.o
+[11/345] Compiling C object libpam/libpam.so.0.85.1.p/pam_modutil_getgrnam.c.o
+[12/345] Compiling C object libpam/libpam.so.0.85.1.p/pam_modutil_getgrgid.c.o
+[13/345] Compiling C object libpam/libpam.so.0.85.1.p/pam_delay.c.o
+[14/345] Compiling C object libpam/libpam.so.0.85.1.p/pam_modutil_getpwnam.c.o
+[15/345] Compiling C object libpam/libpam.so.0.85.1.p/pam_end.c.o
+[16/345] Compiling C object libpam/libpam.so.0.85.1.p/pam_prelude.c.o
+[17/345] Compiling C object libpam_internal/libpam_internal.a.p/pam_line.c.o
+[18/345] Compiling C object libpam/libpam.so.0.85.1.p/pam_modutil_ioloop.c.o
+[19/345] Compiling C object libpam/libpam.so.0.85.1.p/pam_modutil_getspnam.c.o
+[20/345] Linking static target libpam_internal/libpam_internal.a
+[21/345] Compiling C object libpam/libpam.so.0.85.1.p/pam_modutil_ingroup.c.o
+[22/345] Compiling C object libpam/libpam.so.0.85.1.p/pam_modutil_getpwuid.c.o
+[23/345] Compiling C object libpam/libpam.so.0.85.1.p/pam_session.c.o
+[24/345] Compiling C object libpam/libpam.so.0.85.1.p/pam_password.c.o
+[25/345] Compiling C object libpam/libpam.so.0.85.1.p/pam_modutil_sanitize.c.o
+[26/345] Compiling C object libpam/libpam.so.0.85.1.p/pam_modutil_searchkey.c.o
+[27/345] Compiling C object libpam/libpam.so.0.85.1.p/pam_strerror.c.o
+[28/345] Compiling C object libpam/libpam.so.0.85.1.p/pam_misc.c.o
+[29/345] Generating doc/specs/parse_y.[ch] with a custom command
+../doc/specs/parse_y.y: warning: 2 shift/reduce conflicts [-Wconflicts-sr]
+../doc/specs/parse_y.y: warning: 8 reduce/reduce conflicts [-Wconflicts-rr]
+../doc/specs/parse_y.y: note: rerun with option '-Wcounterexamples' to generate conflict counterexamples
+../doc/specs/parse_y.y:97.3-123.1: warning: rule useless in parser due to conflicts [-Wother]
+   97 | | doc stuff RIGHT stuff RIGHT stuff NEWLINE {
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[30/345] Compiling C object libpam/libpam.so.0.85.1.p/pam_modutil_priv.c.o
+[31/345] Compiling C object libpam/libpam.so.0.85.1.p/pam_item.c.o
+[32/345] Compiling C object libpam/libpam.so.0.85.1.p/pam_dispatch.c.o
+[33/345] Compiling C object libpam/libpam.so.0.85.1.p/pam_env.c.o
+[34/345] Compiling C object libpam/libpam.so.0.85.1.p/pam_syslog.c.o
+[35/345] Generating doc/specs/parse_l.c with a custom command
+[36/345] Generating conf/pam_conv1/pam_conv_y.[ch] with a custom command
+[37/345] Compiling C object libpam/libpam.so.0.85.1.p/pam_get_authtok.c.o
+[38/345] Compiling C object libpam/libpam.so.0.85.1.p/pam_start.c.o
+[39/345] Compiling C object libpam/libpam.so.0.85.1.p/pam_vprompt.c.o
+[40/345] Generating conf/pam_conv1/pam_conv_l.c with a custom command
+[41/345] Compiling C object tests/tst-dlopen.p/tst-dlopen.c.o
+[42/345] Compiling C object libpam_misc/libpam_misc.so.0.82.1.p/help_env.c.o
+[43/345] Compiling C object tests/tst-pam_end.p/tst-pam_end.c.o
+[44/345] Compiling C object tests/tst-pam_close_session.p/tst-pam_close_session.c.o
+[45/345] Compiling C object tests/tst-pam_open_session.p/tst-pam_open_session.c.o
+[46/345] Compiling C object tests/tst-pam_fail_delay.p/tst-pam_fail_delay.c.o
+[47/345] Compiling C object tests/tst-pam_authenticate.p/tst-pam_authenticate.c.o
+[48/345] Compiling C object tests/tst-pam_chauthtok.p/tst-pam_chauthtok.c.o
+[49/345] Compiling C object tests/tst-pam_start.p/tst-pam_start.c.o
+[50/345] Compiling C object tests/tst-pam_acct_mgmt.p/tst-pam_acct_mgmt.c.o
+[51/345] Compiling C object tests/tst-pam_setcred.p/tst-pam_setcred.c.o
+[52/345] Compiling C object tests/tst-pam_get_authtok.p/tst-pam_get_authtok.c.o
+[53/345] Compiling C object libpamc/libpamc.so.0.82.1.p/pamc_client.c.o
+[54/345] Compiling C object tests/tst-pam_get_item.p/tst-pam_get_item.c.o
+[55/345] Compiling C object modules/pam_canonicalize_user/pam_canonicalize_user.so.p/pam_canonicalize_user.c.o
+[56/345] Compiling C object tests/tst-pam_set_item.p/tst-pam_set_item.c.o
+[57/345] Compiling C object libpamc/libpamc.so.0.82.1.p/pamc_converse.c.o
+[58/345] Compiling C object tests/tst-pam_getenvlist.p/tst-pam_getenvlist.c.o
+[59/345] Compiling C object modules/pam_deny/pam_deny.so.p/pam_deny.c.o
+[60/345] Compiling C object tests/tst-pam_get_user.p/tst-pam_get_user.c.o
+[61/345] Compiling C object tests/tst-pam_start_confdir.p/tst-pam_start_confdir.c.o
+[62/345] Compiling C object tests/tst-pam_get_data.p/tst-pam_get_data.c.o
+[63/345] Compiling C object modules/pam_debug/tst-pam_debug-retval.p/tst-pam_debug-retval.c.o
+[64/345] Compiling C object modules/pam_debug/pam_debug.so.p/pam_debug.c.o
+[65/345] Compiling C object modules/pam_deny/tst-pam_deny-retval.p/tst-pam_deny-retval.c.o
+[66/345] Compiling C object libpam_misc/libpam_misc.so.0.82.1.p/misc_conv.c.o
+[67/345] Compiling C object libpam/libpam.so.0.85.1.p/pam_handlers.c.o
+[68/345] Compiling C object tests/tst-pam_set_data.p/tst-pam_set_data.c.o
+[69/345] Compiling C object tests/tst-pam_mkargv.p/tst-pam_mkargv.c.o
+[70/345] Linking target libpam/libpam.so.0.85.1
+[71/345] Compiling C object modules/pam_faillock/pam_faillock.so.p/faillock.c.o
+[72/345] Compiling C object modules/pam_echo/pam_echo.so.p/pam_echo.c.o
+[73/345] Compiling C object modules/pam_faildelay/pam_faildelay.so.p/pam_faildelay.c.o
+[74/345] Compiling C object modules/pam_echo/tst-pam_echo-retval.p/tst-pam_echo-retval.c.o
+[75/345] Compiling C object modules/pam_faildelay/tst-pam_faildelay-retval.p/tst-pam_faildelay-retval.c.o
+[76/345] Compiling C object libpamc/libpamc.so.0.82.1.p/pamc_load.c.o
+[77/345] Compiling C object modules/pam_canonicalize_user/tst-pam_canonicalize_user-retval.p/tst-pam_canonicalize_user-retval.c.o
+[78/345] Compiling C object modules/pam_faillock/pam_faillock.so.p/faillock_config.c.o
+[79/345] Compiling C object modules/pam_faillock/faillock.p/faillock.c.o
+[80/345] Compiling C object doc/specs/padout.p/meson-generated_.._parse_y.c.o
+[81/345] Compiling C object modules/pam_faillock/faillock.p/main.c.o
+[82/345] Compiling C object modules/pam_faillock/tst-pam_faillock-retval.p/tst-pam_faillock-retval.c.o
+[83/345] Compiling C object modules/pam_env/tst-pam_env-retval.p/tst-pam_env-retval.c.o
+[84/345] Compiling C object modules/pam_ftp/pam_ftp.so.p/pam_ftp.c.o
+[85/345] Compiling C object doc/specs/padout.p/meson-generated_.._parse_l.c.o
+[86/345] Compiling C object modules/pam_filter/upperLOWER/upperLOWER.p/upperLOWER.c.o
+[87/345] Compiling C object modules/pam_faillock/faillock.p/faillock_config.c.o
+[88/345] Compiling C object modules/pam_localuser/pam_localuser.so.p/pam_localuser.c.o
+[89/345] Compiling C object modules/pam_faillock/pam_faillock.so.p/pam_faillock.c.o
+[90/345] Compiling C object modules/pam_loginuid/pam_loginuid.so.p/pam_loginuid.c.o
+[91/345] Compiling C object modules/pam_keyinit/pam_keyinit.so.p/pam_keyinit.c.o
+[92/345] Compiling C object modules/pam_exec/pam_exec.so.p/pam_exec.c.o
+[93/345] Linking target doc/specs/padout
+[94/345] Compiling C object modules/pam_issue/pam_issue.so.p/pam_issue.c.o
+[95/345] Generating symbol file libpam/libpam.so.0.85.1.p/libpam.so.0.85.1.symbols
+[96/345] Compiling C object modules/pam_namespace/pam_namespace.so.p/argv_parse.c.o
+[97/345] Compiling C object modules/pam_permit/pam_permit.so.p/pam_permit.c.o
+[98/345] Linking target libpam_misc/libpam_misc.so.0.82.1
+[99/345] Compiling C object modules/pam_nologin/pam_nologin.so.p/pam_nologin.c.o
+[100/345] Compiling C object modules/pam_localuser/tst-pam_localuser-retval.p/tst-pam_localuser-retval.c.o
+[101/345] Compiling C object modules/pam_listfile/pam_listfile.so.p/pam_listfile.c.o
+[102/345] Compiling C object modules/pam_env/pam_env.so.p/pam_env.c.o
+[103/345] Compiling C object modules/pam_access/pam_access.so.p/pam_access.c.o
+[104/345] Compiling C object modules/pam_mkhomedir/pam_mkhomedir.so.p/pam_mkhomedir.c.o
+[105/345] Compiling C object modules/pam_mkhomedir/mkhomedir_helper.p/mkhomedir_helper.c.o
+[106/345] Compiling C object modules/pam_mkhomedir/tst-pam_mkhomedir-retval.p/tst-pam_mkhomedir-retval.c.o
+[107/345] Compiling C object modules/pam_filter/pam_filter.so.p/pam_filter.c.o
+[108/345] Compiling C object modules/pam_rootok/pam_rootok.so.p/pam_rootok.c.o
+[109/345] Compiling C object modules/pam_mail/pam_mail.so.p/pam_mail.c.o
+[110/345] Compiling C object modules/pam_pwhistory/pwhistory_helper.p/pwhistory_helper.c.o
+[111/345] Compiling C object modules/pam_permit/tst-pam_permit-retval.p/tst-pam_permit-retval.c.o
+[112/345] Compiling C object modules/pam_group/pam_group.so.p/pam_group.c.o
+[113/345] Compiling C object modules/pam_pwhistory/tst-pam_pwhistory-retval.p/tst-pam_pwhistory-retval.c.o
+[114/345] Compiling C object modules/pam_namespace/pam_namespace.so.p/md5.c.o
+[115/345] Compiling C object modules/pam_rhosts/pam_rhosts.so.p/pam_rhosts.c.o
+[116/345] Compiling C object modules/pam_pwhistory/pam_pwhistory.so.p/pwhistory_config.c.o
+[117/345] Compiling C object modules/pam_pwhistory/pam_pwhistory.so.p/pam_pwhistory.c.o
+[118/345] Compiling C object modules/pam_motd/pam_motd.so.p/pam_motd.c.o
+[119/345] Compiling C object modules/pam_rootok/tst-pam_rootok-retval.p/tst-pam_rootok-retval.c.o
+[120/345] Compiling C object modules/pam_shells/pam_shells.so.p/pam_shells.c.o
+[121/345] Generating symbol file libpam_misc/libpam_misc.so.0.82.1.p/libpam_misc.so.0.82.1.symbols
+[122/345] Compiling C object modules/pam_nologin/tst-pam_nologin-retval.p/tst-pam_nologin-retval.c.o
+[123/345] Compiling C object modules/pam_pwhistory/pam_pwhistory.so.p/opasswd.c.o
+[124/345] Compiling C object modules/pam_succeed_if/tst-pam_succeed_if-retval.p/tst-pam_succeed_if-retval.c.o
+[125/345] Compiling C object modules/pam_pwhistory/pwhistory_helper.p/opasswd.c.o
+[126/345] Compiling C object modules/pam_unix/pam_unix.so.p/bigcrypt.c.o
+[127/345] Compiling C object modules/pam_timestamp/pam_timestamp.so.p/hmacsha1.c.o
+[128/345] Compiling C object modules/pam_setquota/pam_setquota.so.p/pam_setquota.c.o
+[129/345] Compiling C object modules/pam_time/tst-pam_time-retval.p/tst-pam_time-retval.c.o
+[130/345] Compiling C object modules/pam_timestamp/hmacfile.p/hmacsha1.c.o
+[131/345] Compiling C object modules/pam_securetty/pam_securetty.so.p/pam_securetty.c.o
+[132/345] Compiling C object modules/pam_timestamp/pam_timestamp.so.p/sha1.c.o
+[133/345] Compiling C object modules/pam_timestamp/hmacfile.p/hmacfile.c.o
+[134/345] Compiling C object modules/pam_timestamp/hmacfile.p/sha1.c.o
+[135/345] Compiling C object modules/pam_umask/pam_umask.so.p/pam_umask.c.o
+[136/345] Compiling C object modules/pam_unix/unix_chkpwd.p/audit.c.o
+[137/345] Compiling C object modules/pam_timestamp/pam_timestamp_check.p/pam_timestamp_check.c.o
+[138/345] Compiling C object modules/pam_unix/pam_unix.so.p/pam_unix_auth.c.o
+[139/345] Compiling C object modules/pam_unix/pam_unix.so.p/pam_unix_acct.c.o
+[140/345] Compiling C object modules/pam_stress/pam_stress.so.p/pam_stress.c.o
+[141/345] Compiling C object modules/pam_unix/pam_unix.so.p/pam_unix_sess.c.o
+[142/345] Compiling C object modules/pam_unix/unix_chkpwd.p/bigcrypt.c.o
+[143/345] Compiling C object modules/pam_unix/unix_chkpwd.p/unix_chkpwd.c.o
+[144/345] Compiling C object modules/pam_unix/bigcrypt.p/bigcrypt_main.c.o
+[145/345] Compiling C object modules/pam_succeed_if/pam_succeed_if.so.p/pam_succeed_if.c.o
+[146/345] Compiling C object modules/pam_unix/bigcrypt.p/bigcrypt.c.o
+[147/345] Compiling C object modules/pam_warn/pam_warn.so.p/pam_warn.c.o
+[148/345] Compiling C object modules/pam_limits/pam_limits.so.p/pam_limits.c.o
+[149/345] Compiling C object examples/vpass.p/vpass.c.o
+[150/345] Compiling C object modules/pam_timestamp/pam_timestamp.so.p/pam_timestamp.c.o
+[151/345] Compiling C object modules/pam_unix/pam_unix.so.p/pam_unix_passwd.c.o
+[152/345] Compiling C object modules/pam_time/pam_time.so.p/pam_time.c.o
+[153/345] Building translation po/af/LC_MESSAGES/Linux-PAM-af.mo
+[154/345] Compiling C object modules/pam_usertype/pam_usertype.so.p/pam_usertype.c.o
+[155/345] Building translation po/am/LC_MESSAGES/Linux-PAM-am.mo
+[156/345] Compiling C object modules/pam_wheel/pam_wheel.so.p/pam_wheel.c.o
+[157/345] Compiling C object examples/check_user.p/check_user.c.o
+[158/345] Building translation po/ar/LC_MESSAGES/Linux-PAM-ar.mo
+[159/345] Building translation po/as/LC_MESSAGES/Linux-PAM-as.mo
+[160/345] Building translation po/bg/LC_MESSAGES/Linux-PAM-bg.mo
+[161/345] Compiling C object examples/xsh.p/xsh.c.o
+[162/345] Building translation po/be/LC_MESSAGES/Linux-PAM-be.mo
+[163/345] Building translation po/bs/LC_MESSAGES/Linux-PAM-bs.mo
+[164/345] Building translation po/cs/LC_MESSAGES/Linux-PAM-cs.mo
+[165/345] Building translation po/bn_IN/LC_MESSAGES/Linux-PAM-bn_IN.mo
+[166/345] Building translation po/ca/LC_MESSAGES/Linux-PAM-ca.mo
+[167/345] Building translation po/bn/LC_MESSAGES/Linux-PAM-bn.mo
+[168/345] Building translation po/cy/LC_MESSAGES/Linux-PAM-cy.mo
+[169/345] Building translation po/de_CH/LC_MESSAGES/Linux-PAM-de_CH.mo
+[170/345] Building translation po/da/LC_MESSAGES/Linux-PAM-da.mo
+[171/345] Building translation po/eo/LC_MESSAGES/Linux-PAM-eo.mo
+[172/345] Building translation po/es/LC_MESSAGES/Linux-PAM-es.mo
+[173/345] Building translation po/eu/LC_MESSAGES/Linux-PAM-eu.mo
+[174/345] Building translation po/de/LC_MESSAGES/Linux-PAM-de.mo
+[175/345] Building translation po/el/LC_MESSAGES/Linux-PAM-el.mo
+[176/345] Building translation po/et/LC_MESSAGES/Linux-PAM-et.mo
+[177/345] Building translation po/fa/LC_MESSAGES/Linux-PAM-fa.mo
+[178/345] Building translation po/fi/LC_MESSAGES/Linux-PAM-fi.mo
+[179/345] Building translation po/fr/LC_MESSAGES/Linux-PAM-fr.mo
+[180/345] Building translation po/ga/LC_MESSAGES/Linux-PAM-ga.mo
+[181/345] Building translation po/gl/LC_MESSAGES/Linux-PAM-gl.mo
+[182/345] Building translation po/he/LC_MESSAGES/Linux-PAM-he.mo
+[183/345] Building translation po/hr/LC_MESSAGES/Linux-PAM-hr.mo
+[184/345] Building translation po/gu/LC_MESSAGES/Linux-PAM-gu.mo
+[185/345] Compiling C object modules/pam_unix/pam_unix.so.p/md5_good.c.o
+[186/345] Compiling C object modules/pam_unix/pam_unix.so.p/md5_broken.c.o
+[187/345] Building translation po/hi/LC_MESSAGES/Linux-PAM-hi.mo
+[188/345] Building translation po/hu/LC_MESSAGES/Linux-PAM-hu.mo
+[189/345] Compiling C object examples/blank.p/blank.c.o
+[190/345] Building translation po/ia/LC_MESSAGES/Linux-PAM-ia.mo
+[191/345] Compiling C object modules/pam_warn/tst-pam_warn-retval.p/tst-pam_warn-retval.c.o
+[192/345] Building translation po/is/LC_MESSAGES/Linux-PAM-is.mo
+[193/345] Building translation po/it/LC_MESSAGES/Linux-PAM-it.mo
+[194/345] Building translation po/id/LC_MESSAGES/Linux-PAM-id.mo
+[195/345] Building translation po/ja/LC_MESSAGES/Linux-PAM-ja.mo
+[196/345] Building translation po/ka/LC_MESSAGES/Linux-PAM-ka.mo
+[197/345] Building translation po/kk/LC_MESSAGES/Linux-PAM-kk.mo
+[198/345] Building translation po/km/LC_MESSAGES/Linux-PAM-km.mo
+[199/345] Building translation po/ko/LC_MESSAGES/Linux-PAM-ko.mo
+[200/345] Building translation po/kw_GB/LC_MESSAGES/Linux-PAM-kw_GB.mo
+[201/345] Building translation po/kn/LC_MESSAGES/Linux-PAM-kn.mo
+[202/345] Building translation po/ky/LC_MESSAGES/Linux-PAM-ky.mo
+[203/345] Building translation po/lt/LC_MESSAGES/Linux-PAM-lt.mo
+[204/345] Building translation po/lv/LC_MESSAGES/Linux-PAM-lv.mo
+[205/345] Building translation po/mk/LC_MESSAGES/Linux-PAM-mk.mo
+[206/345] Building translation po/ml/LC_MESSAGES/Linux-PAM-ml.mo
+[207/345] Building translation po/mn/LC_MESSAGES/Linux-PAM-mn.mo
+[208/345] Building translation po/mr/LC_MESSAGES/Linux-PAM-mr.mo
+[209/345] Building translation po/ms/LC_MESSAGES/Linux-PAM-ms.mo
+[210/345] Building translation po/my/LC_MESSAGES/Linux-PAM-my.mo
+[211/345] Building translation po/nb/LC_MESSAGES/Linux-PAM-nb.mo
+[212/345] Building translation po/ne/LC_MESSAGES/Linux-PAM-ne.mo
+[213/345] Building translation po/nl/LC_MESSAGES/Linux-PAM-nl.mo
+[214/345] Building translation po/nn/LC_MESSAGES/Linux-PAM-nn.mo
+[215/345] Building translation po/or/LC_MESSAGES/Linux-PAM-or.mo
+[216/345] Building translation po/pa/LC_MESSAGES/Linux-PAM-pa.mo
+[217/345] Building translation po/pl/LC_MESSAGES/Linux-PAM-pl.mo
+[218/345] Building translation po/pt_BR/LC_MESSAGES/Linux-PAM-pt_BR.mo
+[219/345] Building translation po/pt/LC_MESSAGES/Linux-PAM-pt.mo
+[220/345] Building translation po/ro/LC_MESSAGES/Linux-PAM-ro.mo
+[221/345] Compiling C object modules/pam_unix/unix_chkpwd.p/md5_good.c.o
+[222/345] Building translation po/ru/LC_MESSAGES/Linux-PAM-ru.mo
+[223/345] Building translation po/si/LC_MESSAGES/Linux-PAM-si.mo
+[224/345] Building translation po/sk/LC_MESSAGES/Linux-PAM-sk.mo
+[225/345] Building translation po/sl/LC_MESSAGES/Linux-PAM-sl.mo
+[226/345] Compiling C object examples/tty_conv.p/tty_conv.c.o
+[227/345] Building translation po/sq/LC_MESSAGES/Linux-PAM-sq.mo
+[228/345] Building translation po/sr@latin/LC_MESSAGES/Linux-PAM-sr@latin.mo
+[229/345] Building translation po/sr/LC_MESSAGES/Linux-PAM-sr.mo
+[230/345] Building translation po/sv/LC_MESSAGES/Linux-PAM-sv.mo
+[231/345] Compiling C object conf/pam_conv1/pam_conv1.p/meson-generated_.._pam_conv_y.c.o
+[232/345] Building translation po/ta/LC_MESSAGES/Linux-PAM-ta.mo
+[233/345] Building translation po/te/LC_MESSAGES/Linux-PAM-te.mo
+[234/345] Building translation po/tg/LC_MESSAGES/Linux-PAM-tg.mo
+[235/345] Building translation po/th/LC_MESSAGES/Linux-PAM-th.mo
+[236/345] Building translation po/tr/LC_MESSAGES/Linux-PAM-tr.mo
+[237/345] Building translation po/uk/LC_MESSAGES/Linux-PAM-uk.mo
+[238/345] Building translation po/ur/LC_MESSAGES/Linux-PAM-ur.mo
+[239/345] Building translation po/vi/LC_MESSAGES/Linux-PAM-vi.mo
+[240/345] Building translation po/yo/LC_MESSAGES/Linux-PAM-yo.mo
+[241/345] Building translation po/zh_CN/LC_MESSAGES/Linux-PAM-zh_CN.mo
+[242/345] Building translation po/zh_HK/LC_MESSAGES/Linux-PAM-zh_HK.mo
+[243/345] Building translation po/zh_TW/LC_MESSAGES/Linux-PAM-zh_TW.mo
+[244/345] Building translation po/zu/LC_MESSAGES/Linux-PAM-zu.mo
+[245/345] Building translation po/az/LC_MESSAGES/Linux-PAM-az.mo
+[246/345] Generating doc/specs/draft-morgan-pam-current.txt with a custom command
+[247/345] Compiling C object modules/pam_unix/unix_chkpwd.p/md5_broken.c.o
+[248/345] Linking target tests/tst-pam_end
+[249/345] Linking target tests/tst-pam_start
+[250/345] Linking target tests/tst-pam_open_session
+[251/345] Linking target tests/tst-pam_chauthtok
+[252/345] Linking target tests/tst-pam_fail_delay
+[253/345] Linking target tests/tst-dlopen
+[254/345] Linking target tests/tst-pam_acct_mgmt
+[255/345] Linking target tests/tst-pam_authenticate
+[256/345] Linking target tests/tst-pam_setcred
+[257/345] Compiling C object modules/pam_unix/pam_unix.so.p/passverify.c.o
+[258/345] Linking target tests/tst-pam_get_authtok
+[259/345] Linking target libpamc/libpamc.so.0.82.1
+[260/345] Linking target tests/tst-pam_close_session
+[261/345] Linking target tests/tst-pam_set_item
+[262/345] Linking target tests/tst-pam_get_item
+[263/345] Linking target tests/tst-pam_getenvlist
+[264/345] Linking target modules/pam_deny/pam_deny.so
+[265/345] Linking target tests/tst-pam_get_user
+[266/345] Linking target tests/tst-pam_set_data
+[267/345] Linking target tests/tst-pam_mkargv
+[268/345] Linking target modules/pam_canonicalize_user/pam_canonicalize_user.so
+[269/345] Compiling C object modules/pam_unix/pam_unix.so.p/support.c.o
+[270/345] Linking target tests/tst-pam_start_confdir
+[271/345] Linking target modules/pam_canonicalize_user/tst-pam_canonicalize_user-retval
+[272/345] Linking target modules/pam_echo/pam_echo.so
+[273/345] Linking target modules/pam_debug/tst-pam_debug-retval
+[274/345] Linking target modules/pam_echo/tst-pam_echo-retval
+[275/345] Linking target modules/pam_env/pam_env.so
+[276/345] Linking target tests/tst-pam_get_data
+[277/345] Linking target modules/pam_debug/pam_debug.so
+[278/345] Linking target modules/pam_env/tst-pam_env-retval
+[279/345] Linking target modules/pam_access/pam_access.so
+[280/345] Linking target modules/pam_deny/tst-pam_deny-retval
+[281/345] Linking target modules/pam_exec/pam_exec.so
+[282/345] Linking target modules/pam_faildelay/pam_faildelay.so
+[283/345] Linking target modules/pam_faillock/pam_faillock.so
+[284/345] Linking target modules/pam_faildelay/tst-pam_faildelay-retval
+[285/345] Linking target modules/pam_ftp/pam_ftp.so
+[286/345] Linking target modules/pam_filter/pam_filter.so
+[287/345] Linking target modules/pam_faillock/tst-pam_faillock-retval
+[288/345] Linking target modules/pam_group/pam_group.so
+[289/345] Linking target modules/pam_faillock/faillock
+[290/345] Linking target modules/pam_localuser/pam_localuser.so
+[291/345] Linking target modules/pam_keyinit/pam_keyinit.so
+[292/345] Linking target modules/pam_localuser/tst-pam_localuser-retval
+[293/345] Compiling C object modules/pam_listfile/tst-pam_listfile-retval.p/tst-pam_listfile-retval.c.o
+[294/345] Compiling C object modules/pam_xauth/pam_xauth.so.p/pam_xauth.c.o
+[295/345] Linking target modules/pam_issue/pam_issue.so
+[296/345] Linking target modules/pam_limits/pam_limits.so
+[297/345] Linking target modules/pam_listfile/pam_listfile.so
+[298/345] Linking target modules/pam_loginuid/pam_loginuid.so
+[299/345] Linking target modules/pam_filter/upperLOWER/upperLOWER
+[300/345] Compiling C object modules/pam_unix/unix_chkpwd.p/passverify.c.o
+[301/345] Linking target modules/pam_mkhomedir/pam_mkhomedir.so
+[302/345] Linking target modules/pam_mkhomedir/mkhomedir_helper
+[303/345] Linking target modules/pam_mkhomedir/tst-pam_mkhomedir-retval
+[304/345] Linking target modules/pam_permit/tst-pam_permit-retval
+[305/345] Linking target modules/pam_nologin/pam_nologin.so
+[306/345] Linking target modules/pam_nologin/tst-pam_nologin-retval
+[307/345] Linking target modules/pam_mail/pam_mail.so
+[308/345] Linking target modules/pam_permit/pam_permit.so
+[309/345] Linking target modules/pam_motd/pam_motd.so
+[310/345] Linking target modules/pam_pwhistory/pam_pwhistory.so
+[311/345] Linking target modules/pam_pwhistory/pwhistory_helper
+[312/345] Linking target modules/pam_pwhistory/tst-pam_pwhistory-retval
+[313/345] Linking target modules/pam_listfile/tst-pam_listfile-retval
+[314/345] Linking target modules/pam_rhosts/pam_rhosts.so
+[315/345] Linking target modules/pam_rootok/tst-pam_rootok-retval
+[316/345] Linking target modules/pam_rootok/pam_rootok.so
+[317/345] Linking target modules/pam_setquota/pam_setquota.so
+[318/345] Compiling C object conf/pam_conv1/pam_conv1.p/meson-generated_.._pam_conv_l.c.o
+[319/345] Linking target modules/pam_securetty/pam_securetty.so
+[320/345] Linking target modules/pam_stress/pam_stress.so
+[321/345] Linking target modules/pam_succeed_if/tst-pam_succeed_if-retval
+[322/345] Linking target modules/pam_time/tst-pam_time-retval
+[323/345] Linking target modules/pam_timestamp/hmacfile
+[324/345] Linking target modules/pam_umask/pam_umask.so
+[325/345] Linking target modules/pam_unix/unix_chkpwd
+[326/345] Linking target modules/pam_usertype/pam_usertype.so
+[327/345] Linking target modules/pam_xauth/pam_xauth.so
+[328/345] Linking target modules/pam_unix/pam_unix.so
+[329/345] Linking target modules/pam_timestamp/pam_timestamp.so
+[330/345] Linking target modules/pam_shells/pam_shells.so
+[331/345] Linking target modules/pam_warn/tst-pam_warn-retval
+[332/345] Linking target conf/pam_conv1/pam_conv1
+[333/345] Linking target modules/pam_timestamp/pam_timestamp_check
+[334/345] Linking target modules/pam_succeed_if/pam_succeed_if.so
+[335/345] Linking target modules/pam_wheel/pam_wheel.so
+[336/345] Linking target modules/pam_warn/pam_warn.so
+[337/345] Linking target modules/pam_time/pam_time.so
+[338/345] Linking target examples/xsh
+[339/345] Linking target examples/vpass
+[340/345] Linking target examples/tty_conv
+[341/345] Linking target modules/pam_unix/bigcrypt
+[342/345] Linking target examples/blank
+[343/345] Linking target examples/check_user
+[344/345] Compiling C object modules/pam_namespace/pam_namespace.so.p/pam_namespace.c.o
+[345/345] Linking target modules/pam_namespace/pam_namespace.so
+[0/1] Installing files
+Installing po/af/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/af/LC_MESSAGES
+Installing po/am/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/am/LC_MESSAGES
+Installing po/ar/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/ar/LC_MESSAGES
+Installing po/as/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/as/LC_MESSAGES
+Installing po/be/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/be/LC_MESSAGES
+Installing po/bg/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/bg/LC_MESSAGES
+Installing po/bn_IN/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/bn_IN/LC_MESSAGES
+Installing po/bn/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/bn/LC_MESSAGES
+Installing po/bs/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/bs/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/ca/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/cs/LC_MESSAGES
+Installing po/cy/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/cy/LC_MESSAGES
+Installing po/da/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/da/LC_MESSAGES
+Installing po/de_CH/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/de_CH/LC_MESSAGES
+Installing po/de/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/de/LC_MESSAGES
+Installing po/el/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/el/LC_MESSAGES
+Installing po/eo/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/eo/LC_MESSAGES
+Installing po/es/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/es/LC_MESSAGES
+Installing po/et/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/et/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/eu/LC_MESSAGES
+Installing po/fa/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/fa/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/fr/LC_MESSAGES
+Installing po/ga/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/ga/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/gl/LC_MESSAGES
+Installing po/gu/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/gu/LC_MESSAGES
+Installing po/he/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/he/LC_MESSAGES
+Installing po/hi/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/hi/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/hu/LC_MESSAGES
+Installing po/ia/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/ia/LC_MESSAGES
+Installing po/id/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/id/LC_MESSAGES
+Installing po/is/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/is/LC_MESSAGES
+Installing po/it/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/it/LC_MESSAGES
+Installing po/ja/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/ja/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/ka/LC_MESSAGES
+Installing po/kk/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/kk/LC_MESSAGES
+Installing po/km/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/km/LC_MESSAGES
+Installing po/kn/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/kn/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/ko/LC_MESSAGES
+Installing po/kw_GB/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/kw_GB/LC_MESSAGES
+Installing po/ky/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/ky/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/lt/LC_MESSAGES
+Installing po/lv/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/lv/LC_MESSAGES
+Installing po/mk/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/mk/LC_MESSAGES
+Installing po/ml/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/ml/LC_MESSAGES
+Installing po/mn/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/mn/LC_MESSAGES
+Installing po/mr/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/mr/LC_MESSAGES
+Installing po/ms/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/ms/LC_MESSAGES
+Installing po/my/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/my/LC_MESSAGES
+Installing po/nb/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/nb/LC_MESSAGES
+Installing po/ne/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/ne/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/nl/LC_MESSAGES
+Installing po/nn/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/nn/LC_MESSAGES
+Installing po/or/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/or/LC_MESSAGES
+Installing po/pa/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/pa/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/pl/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/pt/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/ru/LC_MESSAGES
+Installing po/si/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/si/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/sl/LC_MESSAGES
+Installing po/sq/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/sq/LC_MESSAGES
+Installing po/sr@latin/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/sr@latin/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/sr/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/sv/LC_MESSAGES
+Installing po/ta/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/ta/LC_MESSAGES
+Installing po/te/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/te/LC_MESSAGES
+Installing po/tg/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/tg/LC_MESSAGES
+Installing po/th/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/th/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/tr/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/uk/LC_MESSAGES
+Installing po/ur/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/ur/LC_MESSAGES
+Installing po/vi/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/vi/LC_MESSAGES
+Installing po/yo/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/yo/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_HK/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/zh_HK/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/zh_TW/LC_MESSAGES
+Installing po/zu/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/zu/LC_MESSAGES
+Installing po/az/LC_MESSAGES/Linux-PAM.mo to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/locale/az/LC_MESSAGES
+Installing libpam/libpam.so.0.85.1 to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32
+Installing libpamc/libpamc.so.0.82.1 to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32
+Installing libpam_misc/libpam_misc.so.0.82.1 to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32
+Installing doc/specs/draft-morgan-pam-current.txt to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/doc/Linux-PAM
+Installing modules/pam_access/pam_access.so to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/security
+Installing modules/pam_canonicalize_user/pam_canonicalize_user.so to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/security
+Installing modules/pam_debug/pam_debug.so to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/security
+Installing modules/pam_deny/pam_deny.so to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/security
+Installing modules/pam_echo/pam_echo.so to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/security
+Installing modules/pam_env/pam_env.so to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/security
+Installing modules/pam_exec/pam_exec.so to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/security
+Installing modules/pam_faildelay/pam_faildelay.so to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/security
+Installing modules/pam_faillock/pam_faillock.so to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/security
+Installing modules/pam_faillock/faillock to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/sbin
+Installing modules/pam_filter/pam_filter.so to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/security
+Installing modules/pam_filter/upperLOWER/upperLOWER to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/security/pam_filter
+Installing modules/pam_ftp/pam_ftp.so to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/security
+Installing modules/pam_group/pam_group.so to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/security
+Installing modules/pam_issue/pam_issue.so to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/security
+Installing modules/pam_keyinit/pam_keyinit.so to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/security
+Installing modules/pam_limits/pam_limits.so to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/security
+Installing modules/pam_listfile/pam_listfile.so to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/security
+Installing modules/pam_localuser/pam_localuser.so to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/security
+Installing modules/pam_loginuid/pam_loginuid.so to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/security
+Installing modules/pam_mail/pam_mail.so to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/security
+Installing modules/pam_mkhomedir/pam_mkhomedir.so to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/security
+Installing modules/pam_mkhomedir/mkhomedir_helper to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/sbin
+Installing modules/pam_motd/pam_motd.so to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/security
+Installing modules/pam_namespace/pam_namespace.so to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/security
+Installing modules/pam_nologin/pam_nologin.so to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/security
+Installing modules/pam_permit/pam_permit.so to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/security
+Installing modules/pam_pwhistory/pam_pwhistory.so to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/security
+Installing modules/pam_pwhistory/pwhistory_helper to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/sbin
+Installing modules/pam_rhosts/pam_rhosts.so to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/security
+Installing modules/pam_rootok/pam_rootok.so to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/security
+Installing modules/pam_securetty/pam_securetty.so to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/security
+Installing modules/pam_setquota/pam_setquota.so to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/security
+Installing modules/pam_shells/pam_shells.so to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/security
+Installing modules/pam_stress/pam_stress.so to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/security
+Installing modules/pam_succeed_if/pam_succeed_if.so to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/security
+Installing modules/pam_time/pam_time.so to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/security
+Installing modules/pam_timestamp/pam_timestamp.so to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/security
+Installing modules/pam_timestamp/pam_timestamp_check to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/sbin
+Installing modules/pam_umask/pam_umask.so to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/security
+Installing modules/pam_unix/pam_unix.so to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/security
+Installing modules/pam_unix/unix_chkpwd to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/sbin
+Installing modules/pam_usertype/pam_usertype.so to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/security
+Installing modules/pam_warn/pam_warn.so to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/security
+Installing modules/pam_wheel/pam_wheel.so to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/security
+Installing modules/pam_xauth/pam_xauth.so to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/security
+Installing /blfs/builds/Linux-PAM-1.7.1/libpam/include/security/_pam_compat.h to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/include/security
+Installing /blfs/builds/Linux-PAM-1.7.1/libpam/include/security/_pam_macros.h to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/include/security
+Installing /blfs/builds/Linux-PAM-1.7.1/libpam/include/security/_pam_types.h to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/include/security
+Installing /blfs/builds/Linux-PAM-1.7.1/libpam/include/security/pam_appl.h to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/include/security
+Installing /blfs/builds/Linux-PAM-1.7.1/libpam/include/security/pam_ext.h to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/include/security
+Installing /blfs/builds/Linux-PAM-1.7.1/libpam/include/security/pam_modules.h to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/include/security
+Installing /blfs/builds/Linux-PAM-1.7.1/libpam/include/security/pam_modutil.h to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/include/security
+Installing /blfs/builds/Linux-PAM-1.7.1/libpamc/include/security/pam_client.h to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/include/security
+Installing /blfs/builds/Linux-PAM-1.7.1/libpam_misc/include/security/pam_misc.h to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/include/security
+Installing new directory /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/etc/security/limits.d
+Installing new directory /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/etc/security/namespace.d
+Installing /blfs/builds/Linux-PAM-1.7.1/build/meson-private/pam.pc to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/pkgconfig
+Installing /blfs/builds/Linux-PAM-1.7.1/build/meson-private/pamc.pc to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/pkgconfig
+Installing /blfs/builds/Linux-PAM-1.7.1/build/meson-private/pam_misc.pc to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/pkgconfig
+Installing /blfs/builds/Linux-PAM-1.7.1/doc/index.html to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/doc/Linux-PAM
+Installing /blfs/builds/Linux-PAM-1.7.1/doc/specs/rfc86.0.txt to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/share/doc/Linux-PAM
+Installing /blfs/builds/Linux-PAM-1.7.1/modules/pam_access/access.conf to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/etc/security
+Installing /blfs/builds/Linux-PAM-1.7.1/modules/pam_env/pam_env.conf to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/etc/security
+Installing /blfs/builds/Linux-PAM-1.7.1/modules/pam_env/environment to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/etc
+Installing /blfs/builds/Linux-PAM-1.7.1/modules/pam_faillock/faillock.conf to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/etc/security
+Installing /blfs/builds/Linux-PAM-1.7.1/modules/pam_filter/pam_filter.h to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/include/security
+Installing /blfs/builds/Linux-PAM-1.7.1/modules/pam_group/group.conf to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/etc/security
+Installing /blfs/builds/Linux-PAM-1.7.1/modules/pam_limits/limits.conf to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/etc/security
+Installing /blfs/builds/Linux-PAM-1.7.1/build/modules/pam_namespace/pam_namespace_helper to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/sbin
+Installing /blfs/builds/Linux-PAM-1.7.1/build/modules/pam_namespace/pam_namespace.service to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib/systemd/system
+Installing /blfs/builds/Linux-PAM-1.7.1/modules/pam_namespace/namespace.conf to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/etc/security
+Installing /blfs/builds/Linux-PAM-1.7.1/modules/pam_namespace/namespace.init to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/etc/security
+Installing /blfs/builds/Linux-PAM-1.7.1/modules/pam_pwhistory/pwhistory.conf to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/etc/security
+Installing /blfs/builds/Linux-PAM-1.7.1/modules/pam_time/time.conf to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/etc/security
+Installing symlink pointing to libpam.so.0.85.1 to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/libpam.so.0
+Installing symlink pointing to libpam.so.0 to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/libpam.so
+Installing symlink pointing to libpamc.so.0.82.1 to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/libpamc.so.0
+Installing symlink pointing to libpamc.so.0 to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/libpamc.so
+Installing symlink pointing to libpam_misc.so.0.82.1 to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/libpam_misc.so.0
+Installing symlink pointing to libpam_misc.so.0 to /blfs/builds/Linux-PAM-1.7.1/build/DESTDIR/usr/lib32/libpam_misc.so
+'DESTDIR/usr/lib32/libpam.so' -> '/pkgs/lib32-pam/usr/lib32/libpam.so'
+'DESTDIR/usr/lib32/libpam.so.0' -> '/pkgs/lib32-pam/usr/lib32/libpam.so.0'
+'DESTDIR/usr/lib32/libpam.so.0.85.1' -> '/pkgs/lib32-pam/usr/lib32/libpam.so.0.85.1'
+'DESTDIR/usr/lib32/libpam_misc.so' -> '/pkgs/lib32-pam/usr/lib32/libpam_misc.so'
+'DESTDIR/usr/lib32/libpam_misc.so.0' -> '/pkgs/lib32-pam/usr/lib32/libpam_misc.so.0'
+'DESTDIR/usr/lib32/libpam_misc.so.0.82.1' -> '/pkgs/lib32-pam/usr/lib32/libpam_misc.so.0.82.1'
+'DESTDIR/usr/lib32/libpamc.so' -> '/pkgs/lib32-pam/usr/lib32/libpamc.so'
+'DESTDIR/usr/lib32/libpamc.so.0' -> '/pkgs/lib32-pam/usr/lib32/libpamc.so.0'
+'DESTDIR/usr/lib32/libpamc.so.0.82.1' -> '/pkgs/lib32-pam/usr/lib32/libpamc.so.0.82.1'
+'DESTDIR/usr/lib32/pkgconfig' -> '/pkgs/lib32-pam/usr/lib32/pkgconfig'
+'DESTDIR/usr/lib32/pkgconfig/pam.pc' -> '/pkgs/lib32-pam/usr/lib32/pkgconfig/pam.pc'
+'DESTDIR/usr/lib32/pkgconfig/pamc.pc' -> '/pkgs/lib32-pam/usr/lib32/pkgconfig/pamc.pc'
+'DESTDIR/usr/lib32/pkgconfig/pam_misc.pc' -> '/pkgs/lib32-pam/usr/lib32/pkgconfig/pam_misc.pc'
+'DESTDIR/usr/lib32/security' -> '/pkgs/lib32-pam/usr/lib32/security'
+'DESTDIR/usr/lib32/security/pam_access.so' -> '/pkgs/lib32-pam/usr/lib32/security/pam_access.so'
+'DESTDIR/usr/lib32/security/pam_canonicalize_user.so' -> '/pkgs/lib32-pam/usr/lib32/security/pam_canonicalize_user.so'
+'DESTDIR/usr/lib32/security/pam_debug.so' -> '/pkgs/lib32-pam/usr/lib32/security/pam_debug.so'
+'DESTDIR/usr/lib32/security/pam_deny.so' -> '/pkgs/lib32-pam/usr/lib32/security/pam_deny.so'
+'DESTDIR/usr/lib32/security/pam_echo.so' -> '/pkgs/lib32-pam/usr/lib32/security/pam_echo.so'
+'DESTDIR/usr/lib32/security/pam_env.so' -> '/pkgs/lib32-pam/usr/lib32/security/pam_env.so'
+'DESTDIR/usr/lib32/security/pam_exec.so' -> '/pkgs/lib32-pam/usr/lib32/security/pam_exec.so'
+'DESTDIR/usr/lib32/security/pam_faildelay.so' -> '/pkgs/lib32-pam/usr/lib32/security/pam_faildelay.so'
+'DESTDIR/usr/lib32/security/pam_faillock.so' -> '/pkgs/lib32-pam/usr/lib32/security/pam_faillock.so'
+'DESTDIR/usr/lib32/security/pam_filter.so' -> '/pkgs/lib32-pam/usr/lib32/security/pam_filter.so'
+'DESTDIR/usr/lib32/security/pam_filter' -> '/pkgs/lib32-pam/usr/lib32/security/pam_filter'
+'DESTDIR/usr/lib32/security/pam_filter/upperLOWER' -> '/pkgs/lib32-pam/usr/lib32/security/pam_filter/upperLOWER'
+'DESTDIR/usr/lib32/security/pam_ftp.so' -> '/pkgs/lib32-pam/usr/lib32/security/pam_ftp.so'
+'DESTDIR/usr/lib32/security/pam_group.so' -> '/pkgs/lib32-pam/usr/lib32/security/pam_group.so'
+'DESTDIR/usr/lib32/security/pam_issue.so' -> '/pkgs/lib32-pam/usr/lib32/security/pam_issue.so'
+'DESTDIR/usr/lib32/security/pam_keyinit.so' -> '/pkgs/lib32-pam/usr/lib32/security/pam_keyinit.so'
+'DESTDIR/usr/lib32/security/pam_limits.so' -> '/pkgs/lib32-pam/usr/lib32/security/pam_limits.so'
+'DESTDIR/usr/lib32/security/pam_listfile.so' -> '/pkgs/lib32-pam/usr/lib32/security/pam_listfile.so'
+'DESTDIR/usr/lib32/security/pam_localuser.so' -> '/pkgs/lib32-pam/usr/lib32/security/pam_localuser.so'
+'DESTDIR/usr/lib32/security/pam_loginuid.so' -> '/pkgs/lib32-pam/usr/lib32/security/pam_loginuid.so'
+'DESTDIR/usr/lib32/security/pam_mail.so' -> '/pkgs/lib32-pam/usr/lib32/security/pam_mail.so'
+'DESTDIR/usr/lib32/security/pam_mkhomedir.so' -> '/pkgs/lib32-pam/usr/lib32/security/pam_mkhomedir.so'
+'DESTDIR/usr/lib32/security/pam_motd.so' -> '/pkgs/lib32-pam/usr/lib32/security/pam_motd.so'
+'DESTDIR/usr/lib32/security/pam_namespace.so' -> '/pkgs/lib32-pam/usr/lib32/security/pam_namespace.so'
+'DESTDIR/usr/lib32/security/pam_nologin.so' -> '/pkgs/lib32-pam/usr/lib32/security/pam_nologin.so'
+'DESTDIR/usr/lib32/security/pam_permit.so' -> '/pkgs/lib32-pam/usr/lib32/security/pam_permit.so'
+'DESTDIR/usr/lib32/security/pam_pwhistory.so' -> '/pkgs/lib32-pam/usr/lib32/security/pam_pwhistory.so'
+'DESTDIR/usr/lib32/security/pam_rhosts.so' -> '/pkgs/lib32-pam/usr/lib32/security/pam_rhosts.so'
+'DESTDIR/usr/lib32/security/pam_rootok.so' -> '/pkgs/lib32-pam/usr/lib32/security/pam_rootok.so'
+'DESTDIR/usr/lib32/security/pam_securetty.so' -> '/pkgs/lib32-pam/usr/lib32/security/pam_securetty.so'
+'DESTDIR/usr/lib32/security/pam_setquota.so' -> '/pkgs/lib32-pam/usr/lib32/security/pam_setquota.so'
+'DESTDIR/usr/lib32/security/pam_shells.so' -> '/pkgs/lib32-pam/usr/lib32/security/pam_shells.so'
+'DESTDIR/usr/lib32/security/pam_stress.so' -> '/pkgs/lib32-pam/usr/lib32/security/pam_stress.so'
+'DESTDIR/usr/lib32/security/pam_succeed_if.so' -> '/pkgs/lib32-pam/usr/lib32/security/pam_succeed_if.so'
+'DESTDIR/usr/lib32/security/pam_time.so' -> '/pkgs/lib32-pam/usr/lib32/security/pam_time.so'
+'DESTDIR/usr/lib32/security/pam_timestamp.so' -> '/pkgs/lib32-pam/usr/lib32/security/pam_timestamp.so'
+'DESTDIR/usr/lib32/security/pam_umask.so' -> '/pkgs/lib32-pam/usr/lib32/security/pam_umask.so'
+'DESTDIR/usr/lib32/security/pam_unix.so' -> '/pkgs/lib32-pam/usr/lib32/security/pam_unix.so'
+'DESTDIR/usr/lib32/security/pam_usertype.so' -> '/pkgs/lib32-pam/usr/lib32/security/pam_usertype.so'
+'DESTDIR/usr/lib32/security/pam_warn.so' -> '/pkgs/lib32-pam/usr/lib32/security/pam_warn.so'
+'DESTDIR/usr/lib32/security/pam_wheel.so' -> '/pkgs/lib32-pam/usr/lib32/security/pam_wheel.so'
+'DESTDIR/usr/lib32/security/pam_xauth.so' -> '/pkgs/lib32-pam/usr/lib32/security/pam_xauth.so'
+removed '/usr/lib32/libpam.so'
+'/pkgs/lib32-pam/usr/lib32/libpam.so' -> '/usr/lib32/libpam.so'
+removed '/usr/lib32/libpam.so.0'
+'/pkgs/lib32-pam/usr/lib32/libpam.so.0' -> '/usr/lib32/libpam.so.0'
+'/pkgs/lib32-pam/usr/lib32/libpam.so.0.85.1' -> '/usr/lib32/libpam.so.0.85.1'
+removed '/usr/lib32/libpam_misc.so'
+'/pkgs/lib32-pam/usr/lib32/libpam_misc.so' -> '/usr/lib32/libpam_misc.so'
+removed '/usr/lib32/libpam_misc.so.0'
+'/pkgs/lib32-pam/usr/lib32/libpam_misc.so.0' -> '/usr/lib32/libpam_misc.so.0'
+'/pkgs/lib32-pam/usr/lib32/libpam_misc.so.0.82.1' -> '/usr/lib32/libpam_misc.so.0.82.1'
+removed '/usr/lib32/libpamc.so'
+'/pkgs/lib32-pam/usr/lib32/libpamc.so' -> '/usr/lib32/libpamc.so'
+removed '/usr/lib32/libpamc.so.0'
+'/pkgs/lib32-pam/usr/lib32/libpamc.so.0' -> '/usr/lib32/libpamc.so.0'
+'/pkgs/lib32-pam/usr/lib32/libpamc.so.0.82.1' -> '/usr/lib32/libpamc.so.0.82.1'
+'/pkgs/lib32-pam/usr/lib32/pkgconfig/pam.pc' -> '/usr/lib32/pkgconfig/pam.pc'
+'/pkgs/lib32-pam/usr/lib32/pkgconfig/pamc.pc' -> '/usr/lib32/pkgconfig/pamc.pc'
+'/pkgs/lib32-pam/usr/lib32/pkgconfig/pam_misc.pc' -> '/usr/lib32/pkgconfig/pam_misc.pc'
+'/pkgs/lib32-pam/usr/lib32/security/pam_access.so' -> '/usr/lib32/security/pam_access.so'
+'/pkgs/lib32-pam/usr/lib32/security/pam_canonicalize_user.so' -> '/usr/lib32/security/pam_canonicalize_user.so'
+'/pkgs/lib32-pam/usr/lib32/security/pam_debug.so' -> '/usr/lib32/security/pam_debug.so'
+'/pkgs/lib32-pam/usr/lib32/security/pam_deny.so' -> '/usr/lib32/security/pam_deny.so'
+'/pkgs/lib32-pam/usr/lib32/security/pam_echo.so' -> '/usr/lib32/security/pam_echo.so'
+'/pkgs/lib32-pam/usr/lib32/security/pam_env.so' -> '/usr/lib32/security/pam_env.so'
+'/pkgs/lib32-pam/usr/lib32/security/pam_exec.so' -> '/usr/lib32/security/pam_exec.so'
+'/pkgs/lib32-pam/usr/lib32/security/pam_faildelay.so' -> '/usr/lib32/security/pam_faildelay.so'
+'/pkgs/lib32-pam/usr/lib32/security/pam_faillock.so' -> '/usr/lib32/security/pam_faillock.so'
+'/pkgs/lib32-pam/usr/lib32/security/pam_filter.so' -> '/usr/lib32/security/pam_filter.so'
+'/pkgs/lib32-pam/usr/lib32/security/pam_filter/upperLOWER' -> '/usr/lib32/security/pam_filter/upperLOWER'
+'/pkgs/lib32-pam/usr/lib32/security/pam_ftp.so' -> '/usr/lib32/security/pam_ftp.so'
+'/pkgs/lib32-pam/usr/lib32/security/pam_group.so' -> '/usr/lib32/security/pam_group.so'
+'/pkgs/lib32-pam/usr/lib32/security/pam_issue.so' -> '/usr/lib32/security/pam_issue.so'
+'/pkgs/lib32-pam/usr/lib32/security/pam_keyinit.so' -> '/usr/lib32/security/pam_keyinit.so'
+'/pkgs/lib32-pam/usr/lib32/security/pam_limits.so' -> '/usr/lib32/security/pam_limits.so'
+'/pkgs/lib32-pam/usr/lib32/security/pam_listfile.so' -> '/usr/lib32/security/pam_listfile.so'
+'/pkgs/lib32-pam/usr/lib32/security/pam_localuser.so' -> '/usr/lib32/security/pam_localuser.so'
+'/pkgs/lib32-pam/usr/lib32/security/pam_loginuid.so' -> '/usr/lib32/security/pam_loginuid.so'
+'/pkgs/lib32-pam/usr/lib32/security/pam_mail.so' -> '/usr/lib32/security/pam_mail.so'
+'/pkgs/lib32-pam/usr/lib32/security/pam_mkhomedir.so' -> '/usr/lib32/security/pam_mkhomedir.so'
+'/pkgs/lib32-pam/usr/lib32/security/pam_motd.so' -> '/usr/lib32/security/pam_motd.so'
+'/pkgs/lib32-pam/usr/lib32/security/pam_namespace.so' -> '/usr/lib32/security/pam_namespace.so'
+'/pkgs/lib32-pam/usr/lib32/security/pam_nologin.so' -> '/usr/lib32/security/pam_nologin.so'
+'/pkgs/lib32-pam/usr/lib32/security/pam_permit.so' -> '/usr/lib32/security/pam_permit.so'
+'/pkgs/lib32-pam/usr/lib32/security/pam_pwhistory.so' -> '/usr/lib32/security/pam_pwhistory.so'
+'/pkgs/lib32-pam/usr/lib32/security/pam_rhosts.so' -> '/usr/lib32/security/pam_rhosts.so'
+'/pkgs/lib32-pam/usr/lib32/security/pam_rootok.so' -> '/usr/lib32/security/pam_rootok.so'
+'/pkgs/lib32-pam/usr/lib32/security/pam_securetty.so' -> '/usr/lib32/security/pam_securetty.so'
+'/pkgs/lib32-pam/usr/lib32/security/pam_setquota.so' -> '/usr/lib32/security/pam_setquota.so'
+'/pkgs/lib32-pam/usr/lib32/security/pam_shells.so' -> '/usr/lib32/security/pam_shells.so'
+'/pkgs/lib32-pam/usr/lib32/security/pam_stress.so' -> '/usr/lib32/security/pam_stress.so'
+'/pkgs/lib32-pam/usr/lib32/security/pam_succeed_if.so' -> '/usr/lib32/security/pam_succeed_if.so'
+'/pkgs/lib32-pam/usr/lib32/security/pam_time.so' -> '/usr/lib32/security/pam_time.so'
+'/pkgs/lib32-pam/usr/lib32/security/pam_timestamp.so' -> '/usr/lib32/security/pam_timestamp.so'
+'/pkgs/lib32-pam/usr/lib32/security/pam_umask.so' -> '/usr/lib32/security/pam_umask.so'
+'/pkgs/lib32-pam/usr/lib32/security/pam_unix.so' -> '/usr/lib32/security/pam_unix.so'
+'/pkgs/lib32-pam/usr/lib32/security/pam_usertype.so' -> '/usr/lib32/security/pam_usertype.so'
+'/pkgs/lib32-pam/usr/lib32/security/pam_warn.so' -> '/usr/lib32/security/pam_warn.so'
+'/pkgs/lib32-pam/usr/lib32/security/pam_wheel.so' -> '/usr/lib32/security/pam_wheel.so'
+'/pkgs/lib32-pam/usr/lib32/security/pam_xauth.so' -> '/usr/lib32/security/pam_xauth.so'
+lib32-pam/
+lib32-pam/usr/
+lib32-pam/usr/lib32/
+lib32-pam/usr/lib32/security/
+lib32-pam/usr/lib32/security/pam_filter.so
+lib32-pam/usr/lib32/security/pam_mkhomedir.so
+lib32-pam/usr/lib32/security/pam_succeed_if.so
+lib32-pam/usr/lib32/security/pam_timestamp.so
+lib32-pam/usr/lib32/security/pam_rootok.so
+lib32-pam/usr/lib32/security/pam_usertype.so
+lib32-pam/usr/lib32/security/pam_mail.so
+lib32-pam/usr/lib32/security/pam_ftp.so
+lib32-pam/usr/lib32/security/pam_deny.so
+lib32-pam/usr/lib32/security/pam_echo.so
+lib32-pam/usr/lib32/security/pam_faildelay.so
+lib32-pam/usr/lib32/security/pam_faillock.so
+lib32-pam/usr/lib32/security/pam_securetty.so
+lib32-pam/usr/lib32/security/pam_nologin.so
+lib32-pam/usr/lib32/security/pam_xauth.so
+lib32-pam/usr/lib32/security/pam_umask.so
+lib32-pam/usr/lib32/security/pam_listfile.so
+lib32-pam/usr/lib32/security/pam_keyinit.so
+lib32-pam/usr/lib32/security/pam_env.so
+lib32-pam/usr/lib32/security/pam_filter/
+lib32-pam/usr/lib32/security/pam_filter/upperLOWER
+lib32-pam/usr/lib32/security/pam_time.so
+lib32-pam/usr/lib32/security/pam_loginuid.so
+lib32-pam/usr/lib32/security/pam_setquota.so
+lib32-pam/usr/lib32/security/pam_warn.so
+lib32-pam/usr/lib32/security/pam_debug.so
+lib32-pam/usr/lib32/security/pam_wheel.so
+lib32-pam/usr/lib32/security/pam_pwhistory.so
+lib32-pam/usr/lib32/security/pam_localuser.so
+lib32-pam/usr/lib32/security/pam_access.so
+lib32-pam/usr/lib32/security/pam_rhosts.so
+lib32-pam/usr/lib32/security/pam_motd.so
+lib32-pam/usr/lib32/security/pam_unix.so
+lib32-pam/usr/lib32/security/pam_issue.so
+lib32-pam/usr/lib32/security/pam_canonicalize_user.so
+lib32-pam/usr/lib32/security/pam_limits.so
+lib32-pam/usr/lib32/security/pam_exec.so
+lib32-pam/usr/lib32/security/pam_namespace.so
+lib32-pam/usr/lib32/security/pam_permit.so
+lib32-pam/usr/lib32/security/pam_stress.so
+lib32-pam/usr/lib32/security/pam_group.so
+lib32-pam/usr/lib32/security/pam_shells.so
+lib32-pam/usr/lib32/libpam.so.0
+lib32-pam/usr/lib32/libpamc.so.0
+lib32-pam/usr/lib32/libpam_misc.so.0.82.1
+lib32-pam/usr/lib32/libpamc.so
+lib32-pam/usr/lib32/pkgconfig/
+lib32-pam/usr/lib32/pkgconfig/pam.pc
+lib32-pam/usr/lib32/pkgconfig/pamc.pc
+lib32-pam/usr/lib32/pkgconfig/pam_misc.pc
+lib32-pam/usr/lib32/libpam.so
+lib32-pam/usr/lib32/libpam_misc.so
+lib32-pam/usr/lib32/libpam_misc.so.0
+lib32-pam/usr/lib32/libpamc.so.0.82.1
+lib32-pam/usr/lib32/libpam.so.0.85.1
+lib32-pam/version
+lib32-pam/depends
