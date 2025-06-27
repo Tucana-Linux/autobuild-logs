@@ -1,0 +1,2414 @@
+--2025-06-27 07:29:26--  https://gstreamer.freedesktop.org/src/gstreamer/gstreamer-1.26.3.tar.xz
+Resolving gstreamer.freedesktop.org (gstreamer.freedesktop.org)... 131.252.210.176
+Connecting to gstreamer.freedesktop.org (gstreamer.freedesktop.org)|131.252.210.176|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1880304 (1.8M) [application/x-xz]
+Saving to: 'gstreamer-1.26.3.tar.xz'
+
+     0K .......... .......... .......... .......... ..........  2%  375K 5s
+    50K .......... .......... .......... .......... ..........  5% 1.22M 3s
+   100K .......... .......... .......... .......... ..........  8% 1.71M 2s
+   150K .......... .......... .......... .......... .......... 10% 88.2M 2s
+   200K .......... .......... .......... .......... .......... 13%  744K 2s
+   250K .......... .......... .......... .......... .......... 16%  102M 1s
+   300K .......... .......... .......... .......... .......... 19% 85.3M 1s
+   350K .......... .......... .......... .......... .......... 21%  105M 1s
+   400K .......... .......... .......... .......... .......... 24% 1.26M 1s
+   450K .......... .......... .......... .......... .......... 27% 1.74M 1s
+   500K .......... .......... .......... .......... .......... 29%  153M 1s
+   550K .......... .......... .......... .......... .......... 32%  108M 1s
+   600K .......... .......... .......... .......... .......... 35% 85.4M 1s
+   650K .......... .......... .......... .......... .......... 38%  195M 1s
+   700K .......... .......... .......... .......... .......... 40% 99.2M 0s
+   750K .......... .......... .......... .......... .......... 43%  106M 0s
+   800K .......... .......... .......... .......... .......... 46%  172M 0s
+   850K .......... .......... .......... .......... .......... 49% 1.33M 0s
+   900K .......... .......... .......... .......... .......... 51% 75.7M 0s
+   950K .......... .......... .......... .......... .......... 54% 1.77M 0s
+  1000K .......... .......... .......... .......... .......... 57% 79.7M 0s
+  1050K .......... .......... .......... .......... .......... 59%  221M 0s
+  1100K .......... .......... .......... .......... .......... 62% 91.0M 0s
+  1150K .......... .......... .......... .......... .......... 65% 89.5M 0s
+  1200K .......... .......... .......... .......... .......... 68%  152M 0s
+  1250K .......... .......... .......... .......... .......... 70% 89.5M 0s
+  1300K .......... .......... .......... .......... .......... 73%  167M 0s
+  1350K .......... .......... .......... .......... .......... 76% 86.6M 0s
+  1400K .......... .......... .......... .......... .......... 78%  156M 0s
+  1450K .......... .......... .......... .......... .......... 81% 92.0M 0s
+  1500K .......... .......... .......... .......... .......... 84%  112M 0s
+  1550K .......... .......... .......... .......... .......... 87% 97.2M 0s
+  1600K .......... .......... .......... .......... .......... 89%  168M 0s
+  1650K .......... .......... .......... .......... .......... 92% 99.5M 0s
+  1700K .......... .......... .......... .......... .......... 95% 96.5M 0s
+  1750K .......... .......... .......... .......... .......... 98% 1.47M 0s
+  1800K .......... .......... .......... ......               100%  644M=0.4s
+
+2025-06-27 07:29:27 (4.02 MB/s) - 'gstreamer-1.26.3.tar.xz' saved [1880304/1880304]
+
+gstreamer-1.26.3/
+gstreamer-1.26.3/.gitignore
+gstreamer-1.26.3/AUTHORS
+gstreamer-1.26.3/COPYING
+gstreamer-1.26.3/ChangeLog
+gstreamer-1.26.3/MAINTAINERS
+gstreamer-1.26.3/NEWS
+gstreamer-1.26.3/README.md
+gstreamer-1.26.3/README.static-linking
+gstreamer-1.26.3/RELEASE
+gstreamer-1.26.3/cmake/
+gstreamer-1.26.3/cmake/FindGStreamer.cmake
+gstreamer-1.26.3/cmake/meson.build
+gstreamer-1.26.3/data/
+gstreamer-1.26.3/data/android/
+gstreamer-1.26.3/data/android/GStreamer.java
+gstreamer-1.26.3/data/bash-completion/
+gstreamer-1.26.3/data/bash-completion/completions/
+gstreamer-1.26.3/data/bash-completion/completions/gst-inspect-1.0
+gstreamer-1.26.3/data/bash-completion/completions/gst-launch-1.0
+gstreamer-1.26.3/data/bash-completion/helpers/
+gstreamer-1.26.3/data/bash-completion/helpers/gst.in
+gstreamer-1.26.3/data/bash-completion/helpers/meson.build
+gstreamer-1.26.3/data/meson.build
+gstreamer-1.26.3/docs/
+gstreamer-1.26.3/docs/README
+gstreamer-1.26.3/docs/gst/
+gstreamer-1.26.3/docs/gst/building.md
+gstreamer-1.26.3/docs/gst/gi-index.md
+gstreamer-1.26.3/docs/gst/index.md
+gstreamer-1.26.3/docs/gst/overview.md
+gstreamer-1.26.3/docs/gst/running.md
+gstreamer-1.26.3/docs/gst/sitemap.txt
+gstreamer-1.26.3/docs/gst-hotdoc-plugins-scanner.c
+gstreamer-1.26.3/docs/gst-plugins-doc-cache-generator.py
+gstreamer-1.26.3/docs/images/
+gstreamer-1.26.3/docs/images/gdp-header.png
+gstreamer-1.26.3/docs/images/gst-universe.svg
+gstreamer-1.26.3/docs/libs/
+gstreamer-1.26.3/docs/libs/base/
+gstreamer-1.26.3/docs/libs/base/index.md
+gstreamer-1.26.3/docs/libs/base/sitemap.txt
+gstreamer-1.26.3/docs/libs/check/
+gstreamer-1.26.3/docs/libs/check/index.md
+gstreamer-1.26.3/docs/libs/check/sitemap.txt
+gstreamer-1.26.3/docs/libs/controller/
+gstreamer-1.26.3/docs/libs/controller/index.md
+gstreamer-1.26.3/docs/libs/controller/sitemap.txt
+gstreamer-1.26.3/docs/libs/net/
+gstreamer-1.26.3/docs/libs/net/index.md
+gstreamer-1.26.3/docs/libs/net/sitemap.txt
+gstreamer-1.26.3/docs/meson.build
+gstreamer-1.26.3/docs/plugins/
+gstreamer-1.26.3/docs/plugins/coretracers/
+gstreamer-1.26.3/docs/plugins/coretracers/index.md
+gstreamer-1.26.3/docs/plugins/coretracers/sitemap.txt
+gstreamer-1.26.3/docs/plugins/gst_plugins_cache.json
+gstreamer-1.26.3/docs/plugins/index.md
+gstreamer-1.26.3/docs/plugins/scanobj-build.stamp
+gstreamer-1.26.3/docs/plugins/sitemap.txt
+gstreamer-1.26.3/docs/random/
+gstreamer-1.26.3/docs/random/aspectratio
+gstreamer-1.26.3/docs/random/bbb/
+gstreamer-1.26.3/docs/random/bbb/optional-properties
+gstreamer-1.26.3/docs/random/caps_grammar
+gstreamer-1.26.3/docs/random/company/
+gstreamer-1.26.3/docs/random/company/clocks
+gstreamer-1.26.3/docs/random/company/gstdata
+gstreamer-1.26.3/docs/random/company/gstparse
+gstreamer-1.26.3/docs/random/company/gvadec.txt
+gstreamer-1.26.3/docs/random/company/push-vs-pull
+gstreamer-1.26.3/docs/random/company/tagging
+gstreamer-1.26.3/docs/random/company/time
+gstreamer-1.26.3/docs/random/ds/
+gstreamer-1.26.3/docs/random/ds/0.9-planning2
+gstreamer-1.26.3/docs/random/ds/0.9-suggested-changes
+gstreamer-1.26.3/docs/random/ds/caps
+gstreamer-1.26.3/docs/random/ds/negotiation
+gstreamer-1.26.3/docs/random/dynpads
+gstreamer-1.26.3/docs/random/ensonic/
+gstreamer-1.26.3/docs/random/ensonic/distributed.txt
+gstreamer-1.26.3/docs/random/ensonic/draft-bufferpools.txt
+gstreamer-1.26.3/docs/random/ensonic/embedded.txt
+gstreamer-1.26.3/docs/random/ensonic/profiling.txt
+gstreamer-1.26.3/docs/random/events
+gstreamer-1.26.3/docs/random/gdp
+gstreamer-1.26.3/docs/random/i18n
+gstreamer-1.26.3/docs/random/intro
+gstreamer-1.26.3/docs/random/matth/
+gstreamer-1.26.3/docs/random/matth/scheduling.txt
+gstreamer-1.26.3/docs/random/mimetypes
+gstreamer-1.26.3/docs/random/moving-plugins
+gstreamer-1.26.3/docs/random/plan-0.11.txt
+gstreamer-1.26.3/docs/random/porting-to-1.0.txt
+gstreamer-1.26.3/docs/random/release
+gstreamer-1.26.3/docs/random/slomo/
+gstreamer-1.26.3/docs/random/slomo/controller.txt
+gstreamer-1.26.3/docs/random/streamheader
+gstreamer-1.26.3/docs/random/thomasvs/
+gstreamer-1.26.3/docs/random/thomasvs/capturing
+gstreamer-1.26.3/docs/random/thomasvs/metadata
+gstreamer-1.26.3/docs/random/thomasvs/packaging
+gstreamer-1.26.3/docs/random/typefind
+gstreamer-1.26.3/docs/random/uraeus/
+gstreamer-1.26.3/docs/random/uraeus/gstreamer_and_midi.txt
+gstreamer-1.26.3/docs/random/wingo/
+gstreamer-1.26.3/docs/random/wingo/pro-audio-with-gstreamer
+gstreamer-1.26.3/docs/random/wtay/
+gstreamer-1.26.3/docs/random/wtay/CORBA
+gstreamer-1.26.3/docs/random/wtay/DVDplayer
+gstreamer-1.26.3/docs/random/wtay/abstract
+gstreamer-1.26.3/docs/random/wtay/autoplug2
+gstreamer-1.26.3/docs/random/wtay/autoplug3
+gstreamer-1.26.3/docs/random/wtay/caps-negociation
+gstreamer-1.26.3/docs/random/wtay/capsnego-cases
+gstreamer-1.26.3/docs/random/wtay/capsnego2
+gstreamer-1.26.3/docs/random/wtay/capsnego2-docs
+gstreamer-1.26.3/docs/random/wtay/capsnego3
+gstreamer-1.26.3/docs/random/wtay/clocking
+gstreamer-1.26.3/docs/random/wtay/clocking2
+gstreamer-1.26.3/docs/random/wtay/clocking3
+gstreamer-1.26.3/docs/random/wtay/eos-19012001
+gstreamer-1.26.3/docs/random/wtay/eos2
+gstreamer-1.26.3/docs/random/wtay/eos3
+gstreamer-1.26.3/docs/random/wtay/eos4
+gstreamer-1.26.3/docs/random/wtay/eos5
+gstreamer-1.26.3/docs/random/wtay/events
+gstreamer-1.26.3/docs/random/wtay/events2
+gstreamer-1.26.3/docs/random/wtay/events3
+gstreamer-1.26.3/docs/random/wtay/interactivity
+gstreamer-1.26.3/docs/random/wtay/messages
+gstreamer-1.26.3/docs/random/wtay/namespaces
+gstreamer-1.26.3/docs/random/wtay/negotiation3
+gstreamer-1.26.3/docs/random/wtay/network-transp
+gstreamer-1.26.3/docs/random/wtay/padprobes
+gstreamer-1.26.3/docs/random/wtay/performance
+gstreamer-1.26.3/docs/random/wtay/pipelineinfo
+gstreamer-1.26.3/docs/random/wtay/player.svg
+gstreamer-1.26.3/docs/random/wtay/plugin_guidelines
+gstreamer-1.26.3/docs/random/wtay/poll-timeout
+gstreamer-1.26.3/docs/random/wtay/porting-list-0.11.txt
+gstreamer-1.26.3/docs/random/wtay/qos
+gstreamer-1.26.3/docs/random/wtay/registry
+gstreamer-1.26.3/docs/random/wtay/rwlocks
+gstreamer-1.26.3/docs/random/wtay/scheduling_ideas
+gstreamer-1.26.3/docs/random/wtay/states
+gstreamer-1.26.3/docs/random/wtay/strip_down
+gstreamer-1.26.3/docs/random/wtay/threading
+gstreamer-1.26.3/docs/random/wtay/threads_hilevel
+gstreamer-1.26.3/docs/random/wtay/timecache
+gstreamer-1.26.3/docs/version.in
+gstreamer-1.26.3/gst/
+gstreamer-1.26.3/gst/glib-compat-private.h
+gstreamer-1.26.3/gst/glib-compat.c
+gstreamer-1.26.3/gst/glib-compat.h
+gstreamer-1.26.3/gst/gst.c
+gstreamer-1.26.3/gst/gst.h
+gstreamer-1.26.3/gst/gst_private.h
+gstreamer-1.26.3/gst/gstallocator.c
+gstreamer-1.26.3/gst/gstallocator.h
+gstreamer-1.26.3/gst/gstandroid.c
+gstreamer-1.26.3/gst/gstatomicqueue.c
+gstreamer-1.26.3/gst/gstatomicqueue.h
+gstreamer-1.26.3/gst/gstbin.c
+gstreamer-1.26.3/gst/gstbin.h
+gstreamer-1.26.3/gst/gstbuffer.c
+gstreamer-1.26.3/gst/gstbuffer.h
+gstreamer-1.26.3/gst/gstbufferlist.c
+gstreamer-1.26.3/gst/gstbufferlist.h
+gstreamer-1.26.3/gst/gstbufferpool.c
+gstreamer-1.26.3/gst/gstbufferpool.h
+gstreamer-1.26.3/gst/gstbus.c
+gstreamer-1.26.3/gst/gstbus.h
+gstreamer-1.26.3/gst/gstbytearrayinterface.h
+gstreamer-1.26.3/gst/gstcaps.c
+gstreamer-1.26.3/gst/gstcaps.h
+gstreamer-1.26.3/gst/gstcapsfeatures.c
+gstreamer-1.26.3/gst/gstcapsfeatures.h
+gstreamer-1.26.3/gst/gstchildproxy.c
+gstreamer-1.26.3/gst/gstchildproxy.h
+gstreamer-1.26.3/gst/gstclock.c
+gstreamer-1.26.3/gst/gstclock.h
+gstreamer-1.26.3/gst/gstcompat.h
+gstreamer-1.26.3/gst/gstconfig.h.in
+gstreamer-1.26.3/gst/gstcontext.c
+gstreamer-1.26.3/gst/gstcontext.h
+gstreamer-1.26.3/gst/gstcontrolbinding.c
+gstreamer-1.26.3/gst/gstcontrolbinding.h
+gstreamer-1.26.3/gst/gstcontrolsource.c
+gstreamer-1.26.3/gst/gstcontrolsource.h
+gstreamer-1.26.3/gst/gstdatetime.c
+gstreamer-1.26.3/gst/gstdatetime.h
+gstreamer-1.26.3/gst/gstdebugutils.c
+gstreamer-1.26.3/gst/gstdebugutils.h
+gstreamer-1.26.3/gst/gstdevice.c
+gstreamer-1.26.3/gst/gstdevice.h
+gstreamer-1.26.3/gst/gstdevicemonitor.c
+gstreamer-1.26.3/gst/gstdevicemonitor.h
+gstreamer-1.26.3/gst/gstdeviceprovider.c
+gstreamer-1.26.3/gst/gstdeviceprovider.h
+gstreamer-1.26.3/gst/gstdeviceproviderfactory.c
+gstreamer-1.26.3/gst/gstdeviceproviderfactory.h
+gstreamer-1.26.3/gst/gstdynamictypefactory.c
+gstreamer-1.26.3/gst/gstdynamictypefactory.h
+gstreamer-1.26.3/gst/gstelement.c
+gstreamer-1.26.3/gst/gstelement.h
+gstreamer-1.26.3/gst/gstelementfactory.c
+gstreamer-1.26.3/gst/gstelementfactory.h
+gstreamer-1.26.3/gst/gstelementmetadata.h
+gstreamer-1.26.3/gst/gsterror.c
+gstreamer-1.26.3/gst/gsterror.h
+gstreamer-1.26.3/gst/gstevent.c
+gstreamer-1.26.3/gst/gstevent.h
+gstreamer-1.26.3/gst/gstformat.c
+gstreamer-1.26.3/gst/gstformat.h
+gstreamer-1.26.3/gst/gstghostpad.c
+gstreamer-1.26.3/gst/gstghostpad.h
+gstreamer-1.26.3/gst/gstidstr-private.h
+gstreamer-1.26.3/gst/gstidstr.c
+gstreamer-1.26.3/gst/gstidstr.h
+gstreamer-1.26.3/gst/gstinfo.c
+gstreamer-1.26.3/gst/gstinfo.h
+gstreamer-1.26.3/gst/gstiterator.c
+gstreamer-1.26.3/gst/gstiterator.h
+gstreamer-1.26.3/gst/gstmacos.h
+gstreamer-1.26.3/gst/gstmacos.m
+gstreamer-1.26.3/gst/gstmacros.h
+gstreamer-1.26.3/gst/gstmemory.c
+gstreamer-1.26.3/gst/gstmemory.h
+gstreamer-1.26.3/gst/gstmessage.c
+gstreamer-1.26.3/gst/gstmessage.h
+gstreamer-1.26.3/gst/gstmeta.c
+gstreamer-1.26.3/gst/gstmeta.h
+gstreamer-1.26.3/gst/gstminiobject.c
+gstreamer-1.26.3/gst/gstminiobject.h
+gstreamer-1.26.3/gst/gstobject.c
+gstreamer-1.26.3/gst/gstobject.h
+gstreamer-1.26.3/gst/gstpad.c
+gstreamer-1.26.3/gst/gstpad.h
+gstreamer-1.26.3/gst/gstpadtemplate.c
+gstreamer-1.26.3/gst/gstpadtemplate.h
+gstreamer-1.26.3/gst/gstparamspecs.c
+gstreamer-1.26.3/gst/gstparamspecs.h
+gstreamer-1.26.3/gst/gstparse.c
+gstreamer-1.26.3/gst/gstparse.h
+gstreamer-1.26.3/gst/gstpipeline.c
+gstreamer-1.26.3/gst/gstpipeline.h
+gstreamer-1.26.3/gst/gstplugin.c
+gstreamer-1.26.3/gst/gstplugin.h
+gstreamer-1.26.3/gst/gstpluginfeature.c
+gstreamer-1.26.3/gst/gstpluginfeature.h
+gstreamer-1.26.3/gst/gstpluginloader-win32.c
+gstreamer-1.26.3/gst/gstpluginloader.c
+gstreamer-1.26.3/gst/gstpluginloader.h
+gstreamer-1.26.3/gst/gstpoll.c
+gstreamer-1.26.3/gst/gstpoll.h
+gstreamer-1.26.3/gst/gstpreset.c
+gstreamer-1.26.3/gst/gstpreset.h
+gstreamer-1.26.3/gst/gstpromise.c
+gstreamer-1.26.3/gst/gstpromise.h
+gstreamer-1.26.3/gst/gstprotection.c
+gstreamer-1.26.3/gst/gstprotection.h
+gstreamer-1.26.3/gst/gstquery.c
+gstreamer-1.26.3/gst/gstquery.h
+gstreamer-1.26.3/gst/gstregistry.c
+gstreamer-1.26.3/gst/gstregistry.h
+gstreamer-1.26.3/gst/gstregistrybinary.c
+gstreamer-1.26.3/gst/gstregistrybinary.h
+gstreamer-1.26.3/gst/gstregistrychunks.c
+gstreamer-1.26.3/gst/gstregistrychunks.h
+gstreamer-1.26.3/gst/gstsample.c
+gstreamer-1.26.3/gst/gstsample.h
+gstreamer-1.26.3/gst/gstsegment.c
+gstreamer-1.26.3/gst/gstsegment.h
+gstreamer-1.26.3/gst/gststreamcollection.c
+gstreamer-1.26.3/gst/gststreamcollection.h
+gstreamer-1.26.3/gst/gststreams.c
+gstreamer-1.26.3/gst/gststreams.h
+gstreamer-1.26.3/gst/gststructure.c
+gstreamer-1.26.3/gst/gststructure.h
+gstreamer-1.26.3/gst/gstsystemclock.c
+gstreamer-1.26.3/gst/gstsystemclock.h
+gstreamer-1.26.3/gst/gsttaglist.c
+gstreamer-1.26.3/gst/gsttaglist.h
+gstreamer-1.26.3/gst/gsttagsetter.c
+gstreamer-1.26.3/gst/gsttagsetter.h
+gstreamer-1.26.3/gst/gsttask.c
+gstreamer-1.26.3/gst/gsttask.h
+gstreamer-1.26.3/gst/gsttaskpool.c
+gstreamer-1.26.3/gst/gsttaskpool.h
+gstreamer-1.26.3/gst/gsttoc.c
+gstreamer-1.26.3/gst/gsttoc.h
+gstreamer-1.26.3/gst/gsttocsetter.c
+gstreamer-1.26.3/gst/gsttocsetter.h
+gstreamer-1.26.3/gst/gsttracer.c
+gstreamer-1.26.3/gst/gsttracer.h
+gstreamer-1.26.3/gst/gsttracerfactory.c
+gstreamer-1.26.3/gst/gsttracerfactory.h
+gstreamer-1.26.3/gst/gsttracerrecord.c
+gstreamer-1.26.3/gst/gsttracerrecord.h
+gstreamer-1.26.3/gst/gsttracerutils.c
+gstreamer-1.26.3/gst/gsttracerutils.h
+gstreamer-1.26.3/gst/gsttypefind.c
+gstreamer-1.26.3/gst/gsttypefind.h
+gstreamer-1.26.3/gst/gsttypefindfactory.c
+gstreamer-1.26.3/gst/gsttypefindfactory.h
+gstreamer-1.26.3/gst/gsturi.c
+gstreamer-1.26.3/gst/gsturi.h
+gstreamer-1.26.3/gst/gstutils.c
+gstreamer-1.26.3/gst/gstutils.h
+gstreamer-1.26.3/gst/gstvalue.c
+gstreamer-1.26.3/gst/gstvalue.h
+gstreamer-1.26.3/gst/gstvecdeque.c
+gstreamer-1.26.3/gst/gstvecdeque.h
+gstreamer-1.26.3/gst/gstversion.h.in
+gstreamer-1.26.3/gst/math-compat.h
+gstreamer-1.26.3/gst/meson.build
+gstreamer-1.26.3/gst/parse/
+gstreamer-1.26.3/gst/parse/gen_grammar.py.in
+gstreamer-1.26.3/gst/parse/gen_lex.py.in
+gstreamer-1.26.3/gst/parse/get_flex_version.py
+gstreamer-1.26.3/gst/parse/grammar.y.in
+gstreamer-1.26.3/gst/parse/meson.build
+gstreamer-1.26.3/gst/parse/parse.l
+gstreamer-1.26.3/gst/parse/types.h
+gstreamer-1.26.3/gst/printf/
+gstreamer-1.26.3/gst/printf/README
+gstreamer-1.26.3/gst/printf/asnprintf.c
+gstreamer-1.26.3/gst/printf/gst-printf.h
+gstreamer-1.26.3/gst/printf/meson.build
+gstreamer-1.26.3/gst/printf/printf-args.c
+gstreamer-1.26.3/gst/printf/printf-args.h
+gstreamer-1.26.3/gst/printf/printf-extension.c
+gstreamer-1.26.3/gst/printf/printf-extension.h
+gstreamer-1.26.3/gst/printf/printf-parse.c
+gstreamer-1.26.3/gst/printf/printf-parse.h
+gstreamer-1.26.3/gst/printf/printf.c
+gstreamer-1.26.3/gst/printf/printf.h
+gstreamer-1.26.3/gst/printf/vasnprintf.c
+gstreamer-1.26.3/gst/printf/vasnprintf.h
+gstreamer-1.26.3/gst-element-check-1.0.m4
+gstreamer-1.26.3/gstreamer.doap
+gstreamer-1.26.3/libs/
+gstreamer-1.26.3/libs/gst/
+gstreamer-1.26.3/libs/gst/base/
+gstreamer-1.26.3/libs/gst/base/README
+gstreamer-1.26.3/libs/gst/base/base-prelude.h
+gstreamer-1.26.3/libs/gst/base/base.h
+gstreamer-1.26.3/libs/gst/base/gstadapter.c
+gstreamer-1.26.3/libs/gst/base/gstadapter.h
+gstreamer-1.26.3/libs/gst/base/gstaggregator.c
+gstreamer-1.26.3/libs/gst/base/gstaggregator.h
+gstreamer-1.26.3/libs/gst/base/gstbaseparse.c
+gstreamer-1.26.3/libs/gst/base/gstbaseparse.h
+gstreamer-1.26.3/libs/gst/base/gstbasesink.c
+gstreamer-1.26.3/libs/gst/base/gstbasesink.h
+gstreamer-1.26.3/libs/gst/base/gstbasesrc.c
+gstreamer-1.26.3/libs/gst/base/gstbasesrc.h
+gstreamer-1.26.3/libs/gst/base/gstbasetransform.c
+gstreamer-1.26.3/libs/gst/base/gstbasetransform.h
+gstreamer-1.26.3/libs/gst/base/gstbitreader-docs.h
+gstreamer-1.26.3/libs/gst/base/gstbitreader.c
+gstreamer-1.26.3/libs/gst/base/gstbitreader.h
+gstreamer-1.26.3/libs/gst/base/gstbitwriter-docs.h
+gstreamer-1.26.3/libs/gst/base/gstbitwriter.c
+gstreamer-1.26.3/libs/gst/base/gstbitwriter.h
+gstreamer-1.26.3/libs/gst/base/gstbytereader-docs.h
+gstreamer-1.26.3/libs/gst/base/gstbytereader.c
+gstreamer-1.26.3/libs/gst/base/gstbytereader.h
+gstreamer-1.26.3/libs/gst/base/gstbytewriter-docs.h
+gstreamer-1.26.3/libs/gst/base/gstbytewriter.c
+gstreamer-1.26.3/libs/gst/base/gstbytewriter.h
+gstreamer-1.26.3/libs/gst/base/gstcollectpads.c
+gstreamer-1.26.3/libs/gst/base/gstcollectpads.h
+gstreamer-1.26.3/libs/gst/base/gstdataqueue.c
+gstreamer-1.26.3/libs/gst/base/gstdataqueue.h
+gstreamer-1.26.3/libs/gst/base/gstflowcombiner.c
+gstreamer-1.26.3/libs/gst/base/gstflowcombiner.h
+gstreamer-1.26.3/libs/gst/base/gstindex.c
+gstreamer-1.26.3/libs/gst/base/gstindex.h
+gstreamer-1.26.3/libs/gst/base/gstmemindex.c
+gstreamer-1.26.3/libs/gst/base/gstpushsrc.c
+gstreamer-1.26.3/libs/gst/base/gstpushsrc.h
+gstreamer-1.26.3/libs/gst/base/gstqueuearray.c
+gstreamer-1.26.3/libs/gst/base/gstqueuearray.h
+gstreamer-1.26.3/libs/gst/base/gsttypefindhelper.c
+gstreamer-1.26.3/libs/gst/base/gsttypefindhelper.h
+gstreamer-1.26.3/libs/gst/base/meson.build
+gstreamer-1.26.3/libs/gst/check/
+gstreamer-1.26.3/libs/gst/check/check-prelude.h
+gstreamer-1.26.3/libs/gst/check/check.h
+gstreamer-1.26.3/libs/gst/check/gstbufferstraw.c
+gstreamer-1.26.3/libs/gst/check/gstbufferstraw.h
+gstreamer-1.26.3/libs/gst/check/gstcheck.c
+gstreamer-1.26.3/libs/gst/check/gstcheck.h
+gstreamer-1.26.3/libs/gst/check/gstconsistencychecker.c
+gstreamer-1.26.3/libs/gst/check/gstconsistencychecker.h
+gstreamer-1.26.3/libs/gst/check/gstharness.c
+gstreamer-1.26.3/libs/gst/check/gstharness.h
+gstreamer-1.26.3/libs/gst/check/gstharnesslink.c
+gstreamer-1.26.3/libs/gst/check/gstharnesslink.h
+gstreamer-1.26.3/libs/gst/check/gsttestclock.c
+gstreamer-1.26.3/libs/gst/check/gsttestclock.h
+gstreamer-1.26.3/libs/gst/check/libcheck/
+gstreamer-1.26.3/libs/gst/check/libcheck/README.txt
+gstreamer-1.26.3/libs/gst/check/libcheck/check.c
+gstreamer-1.26.3/libs/gst/check/libcheck/check.h.in
+gstreamer-1.26.3/libs/gst/check/libcheck/check_error.c
+gstreamer-1.26.3/libs/gst/check/libcheck/check_error.h
+gstreamer-1.26.3/libs/gst/check/libcheck/check_impl.h
+gstreamer-1.26.3/libs/gst/check/libcheck/check_list.c
+gstreamer-1.26.3/libs/gst/check/libcheck/check_list.h
+gstreamer-1.26.3/libs/gst/check/libcheck/check_log.c
+gstreamer-1.26.3/libs/gst/check/libcheck/check_log.h
+gstreamer-1.26.3/libs/gst/check/libcheck/check_msg.c
+gstreamer-1.26.3/libs/gst/check/libcheck/check_msg.h
+gstreamer-1.26.3/libs/gst/check/libcheck/check_pack.c
+gstreamer-1.26.3/libs/gst/check/libcheck/check_pack.h
+gstreamer-1.26.3/libs/gst/check/libcheck/check_print.c
+gstreamer-1.26.3/libs/gst/check/libcheck/check_print.h
+gstreamer-1.26.3/libs/gst/check/libcheck/check_run.c
+gstreamer-1.26.3/libs/gst/check/libcheck/check_str.c
+gstreamer-1.26.3/libs/gst/check/libcheck/check_str.h
+gstreamer-1.26.3/libs/gst/check/libcheck/libcompat/
+gstreamer-1.26.3/libs/gst/check/libcheck/libcompat/alarm.c
+gstreamer-1.26.3/libs/gst/check/libcheck/libcompat/clock_gettime.c
+gstreamer-1.26.3/libs/gst/check/libcheck/libcompat/getline.c
+gstreamer-1.26.3/libs/gst/check/libcheck/libcompat/gettimeofday.c
+gstreamer-1.26.3/libs/gst/check/libcheck/libcompat/libcompat.c
+gstreamer-1.26.3/libs/gst/check/libcheck/libcompat/libcompat.h
+gstreamer-1.26.3/libs/gst/check/libcheck/libcompat/localtime_r.c
+gstreamer-1.26.3/libs/gst/check/libcheck/libcompat/strdup.c
+gstreamer-1.26.3/libs/gst/check/libcheck/libcompat/strsignal.c
+gstreamer-1.26.3/libs/gst/check/libcheck/libcompat/timer_create.c
+gstreamer-1.26.3/libs/gst/check/libcheck/libcompat/timer_delete.c
+gstreamer-1.26.3/libs/gst/check/libcheck/libcompat/timer_settime.c
+gstreamer-1.26.3/libs/gst/check/libcheck/meson.build
+gstreamer-1.26.3/libs/gst/check/meson.build
+gstreamer-1.26.3/libs/gst/controller/
+gstreamer-1.26.3/libs/gst/controller/controller-prelude.h
+gstreamer-1.26.3/libs/gst/controller/controller.h
+gstreamer-1.26.3/libs/gst/controller/gstargbcontrolbinding.c
+gstreamer-1.26.3/libs/gst/controller/gstargbcontrolbinding.h
+gstreamer-1.26.3/libs/gst/controller/gstdirectcontrolbinding.c
+gstreamer-1.26.3/libs/gst/controller/gstdirectcontrolbinding.h
+gstreamer-1.26.3/libs/gst/controller/gstinterpolationcontrolsource.c
+gstreamer-1.26.3/libs/gst/controller/gstinterpolationcontrolsource.h
+gstreamer-1.26.3/libs/gst/controller/gstlfocontrolsource.c
+gstreamer-1.26.3/libs/gst/controller/gstlfocontrolsource.h
+gstreamer-1.26.3/libs/gst/controller/gstproxycontrolbinding.c
+gstreamer-1.26.3/libs/gst/controller/gstproxycontrolbinding.h
+gstreamer-1.26.3/libs/gst/controller/gsttimedvaluecontrolsource.c
+gstreamer-1.26.3/libs/gst/controller/gsttimedvaluecontrolsource.h
+gstreamer-1.26.3/libs/gst/controller/gsttriggercontrolsource.c
+gstreamer-1.26.3/libs/gst/controller/gsttriggercontrolsource.h
+gstreamer-1.26.3/libs/gst/controller/meson.build
+gstreamer-1.26.3/libs/gst/helpers/
+gstreamer-1.26.3/libs/gst/helpers/glib_gobject_helper.py
+gstreamer-1.26.3/libs/gst/helpers/gst-completion-helper.c
+gstreamer-1.26.3/libs/gst/helpers/gst-plugin-scanner.c
+gstreamer-1.26.3/libs/gst/helpers/gst_gdb.py
+gstreamer-1.26.3/libs/gst/helpers/libgstreamer-gdb.py.in
+gstreamer-1.26.3/libs/gst/helpers/meson.build
+gstreamer-1.26.3/libs/gst/helpers/ptp/
+gstreamer-1.26.3/libs/gst/helpers/ptp/args.rs
+gstreamer-1.26.3/libs/gst/helpers/ptp/clock.rs
+gstreamer-1.26.3/libs/gst/helpers/ptp/conf_lib.rs.in
+gstreamer-1.26.3/libs/gst/helpers/ptp/error.rs
+gstreamer-1.26.3/libs/gst/helpers/ptp/ffi.rs
+gstreamer-1.26.3/libs/gst/helpers/ptp/io.rs
+gstreamer-1.26.3/libs/gst/helpers/ptp/log.rs
+gstreamer-1.26.3/libs/gst/helpers/ptp/main.rs
+gstreamer-1.26.3/libs/gst/helpers/ptp/meson.build
+gstreamer-1.26.3/libs/gst/helpers/ptp/net.rs
+gstreamer-1.26.3/libs/gst/helpers/ptp/parse.rs
+gstreamer-1.26.3/libs/gst/helpers/ptp/privileges.rs
+gstreamer-1.26.3/libs/gst/helpers/ptp/ptp_helper_post_install.sh
+gstreamer-1.26.3/libs/gst/helpers/ptp/rand.rs
+gstreamer-1.26.3/libs/gst/helpers/ptp/thread.rs
+gstreamer-1.26.3/libs/gst/meson.build
+gstreamer-1.26.3/libs/gst/net/
+gstreamer-1.26.3/libs/gst/net/gstnet.h
+gstreamer-1.26.3/libs/gst/net/gstnetaddressmeta.c
+gstreamer-1.26.3/libs/gst/net/gstnetaddressmeta.h
+gstreamer-1.26.3/libs/gst/net/gstnetclientclock.c
+gstreamer-1.26.3/libs/gst/net/gstnetclientclock.h
+gstreamer-1.26.3/libs/gst/net/gstnetcontrolmessagemeta.c
+gstreamer-1.26.3/libs/gst/net/gstnetcontrolmessagemeta.h
+gstreamer-1.26.3/libs/gst/net/gstnettimepacket.c
+gstreamer-1.26.3/libs/gst/net/gstnettimepacket.h
+gstreamer-1.26.3/libs/gst/net/gstnettimeprovider.c
+gstreamer-1.26.3/libs/gst/net/gstnettimeprovider.h
+gstreamer-1.26.3/libs/gst/net/gstnetutils.c
+gstreamer-1.26.3/libs/gst/net/gstnetutils.h
+gstreamer-1.26.3/libs/gst/net/gstntppacket.c
+gstreamer-1.26.3/libs/gst/net/gstntppacket.h
+gstreamer-1.26.3/libs/gst/net/gstptpclock.c
+gstreamer-1.26.3/libs/gst/net/gstptpclock.h
+gstreamer-1.26.3/libs/gst/net/meson.build
+gstreamer-1.26.3/libs/gst/net/net-prelude.h
+gstreamer-1.26.3/libs/gst/net/net.h
+gstreamer-1.26.3/libs/meson.build
+gstreamer-1.26.3/meson.build
+gstreamer-1.26.3/meson_options.txt
+gstreamer-1.26.3/plugins/
+gstreamer-1.26.3/plugins/elements/
+gstreamer-1.26.3/plugins/elements/gstcapsfilter.c
+gstreamer-1.26.3/plugins/elements/gstcapsfilter.h
+gstreamer-1.26.3/plugins/elements/gstclocksync.c
+gstreamer-1.26.3/plugins/elements/gstclocksync.h
+gstreamer-1.26.3/plugins/elements/gstconcat.c
+gstreamer-1.26.3/plugins/elements/gstconcat.h
+gstreamer-1.26.3/plugins/elements/gstcoreelementselements.h
+gstreamer-1.26.3/plugins/elements/gstcoreelementsplugin.c
+gstreamer-1.26.3/plugins/elements/gstdataurisrc.c
+gstreamer-1.26.3/plugins/elements/gstdataurisrc.h
+gstreamer-1.26.3/plugins/elements/gstdownloadbuffer.c
+gstreamer-1.26.3/plugins/elements/gstdownloadbuffer.h
+gstreamer-1.26.3/plugins/elements/gstelements_private.c
+gstreamer-1.26.3/plugins/elements/gstelements_private.h
+gstreamer-1.26.3/plugins/elements/gstfakesink.c
+gstreamer-1.26.3/plugins/elements/gstfakesink.h
+gstreamer-1.26.3/plugins/elements/gstfakesrc.c
+gstreamer-1.26.3/plugins/elements/gstfakesrc.h
+gstreamer-1.26.3/plugins/elements/gstfdsink.c
+gstreamer-1.26.3/plugins/elements/gstfdsink.h
+gstreamer-1.26.3/plugins/elements/gstfdsrc.c
+gstreamer-1.26.3/plugins/elements/gstfdsrc.h
+gstreamer-1.26.3/plugins/elements/gstfilesink.c
+gstreamer-1.26.3/plugins/elements/gstfilesink.h
+gstreamer-1.26.3/plugins/elements/gstfilesrc.c
+gstreamer-1.26.3/plugins/elements/gstfilesrc.h
+gstreamer-1.26.3/plugins/elements/gstfunnel.c
+gstreamer-1.26.3/plugins/elements/gstfunnel.h
+gstreamer-1.26.3/plugins/elements/gstidentity.c
+gstreamer-1.26.3/plugins/elements/gstidentity.h
+gstreamer-1.26.3/plugins/elements/gstinputselector.c
+gstreamer-1.26.3/plugins/elements/gstinputselector.h
+gstreamer-1.26.3/plugins/elements/gstmultiqueue.c
+gstreamer-1.26.3/plugins/elements/gstmultiqueue.h
+gstreamer-1.26.3/plugins/elements/gstoutputselector.c
+gstreamer-1.26.3/plugins/elements/gstoutputselector.h
+gstreamer-1.26.3/plugins/elements/gstqueue.c
+gstreamer-1.26.3/plugins/elements/gstqueue.h
+gstreamer-1.26.3/plugins/elements/gstqueue2.c
+gstreamer-1.26.3/plugins/elements/gstqueue2.h
+gstreamer-1.26.3/plugins/elements/gstsparsefile.c
+gstreamer-1.26.3/plugins/elements/gstsparsefile.h
+gstreamer-1.26.3/plugins/elements/gststreamiddemux.c
+gstreamer-1.26.3/plugins/elements/gststreamiddemux.h
+gstreamer-1.26.3/plugins/elements/gsttee.c
+gstreamer-1.26.3/plugins/elements/gsttee.h
+gstreamer-1.26.3/plugins/elements/gsttypefindelement.c
+gstreamer-1.26.3/plugins/elements/gsttypefindelement.h
+gstreamer-1.26.3/plugins/elements/gstvalve.c
+gstreamer-1.26.3/plugins/elements/gstvalve.h
+gstreamer-1.26.3/plugins/elements/meson.build
+gstreamer-1.26.3/plugins/meson.build
+gstreamer-1.26.3/plugins/tracers/
+gstreamer-1.26.3/plugins/tracers/gstdots.c
+gstreamer-1.26.3/plugins/tracers/gstfactories.c
+gstreamer-1.26.3/plugins/tracers/gstfactories.h
+gstreamer-1.26.3/plugins/tracers/gstlatency.c
+gstreamer-1.26.3/plugins/tracers/gstlatency.h
+gstreamer-1.26.3/plugins/tracers/gstleaks.c
+gstreamer-1.26.3/plugins/tracers/gstleaks.h
+gstreamer-1.26.3/plugins/tracers/gstlog.c
+gstreamer-1.26.3/plugins/tracers/gstlog.h
+gstreamer-1.26.3/plugins/tracers/gstrusage.c
+gstreamer-1.26.3/plugins/tracers/gstrusage.h
+gstreamer-1.26.3/plugins/tracers/gststats.c
+gstreamer-1.26.3/plugins/tracers/gststats.h
+gstreamer-1.26.3/plugins/tracers/gsttracers.c
+gstreamer-1.26.3/plugins/tracers/meson.build
+gstreamer-1.26.3/po/
+gstreamer-1.26.3/po/LINGUAS
+gstreamer-1.26.3/po/POTFILES
+gstreamer-1.26.3/po/POTFILES.skip
+gstreamer-1.26.3/po/af.po
+gstreamer-1.26.3/po/ast.po
+gstreamer-1.26.3/po/az.po
+gstreamer-1.26.3/po/be.po
+gstreamer-1.26.3/po/bg.po
+gstreamer-1.26.3/po/ca.po
+gstreamer-1.26.3/po/cs.po
+gstreamer-1.26.3/po/da.po
+gstreamer-1.26.3/po/de.po
+gstreamer-1.26.3/po/el.po
+gstreamer-1.26.3/po/en_GB.po
+gstreamer-1.26.3/po/eo.po
+gstreamer-1.26.3/po/es.po
+gstreamer-1.26.3/po/eu.po
+gstreamer-1.26.3/po/fi.po
+gstreamer-1.26.3/po/fr.po
+gstreamer-1.26.3/po/fur.po
+gstreamer-1.26.3/po/gl.po
+gstreamer-1.26.3/po/gstreamer-1.0.pot
+gstreamer-1.26.3/po/gstreamer.pot
+gstreamer-1.26.3/po/hr.po
+gstreamer-1.26.3/po/hu.po
+gstreamer-1.26.3/po/id.po
+gstreamer-1.26.3/po/it.po
+gstreamer-1.26.3/po/ja.po
+gstreamer-1.26.3/po/ka.po
+gstreamer-1.26.3/po/ko.po
+gstreamer-1.26.3/po/lt.po
+gstreamer-1.26.3/po/lv.po
+gstreamer-1.26.3/po/meson.build
+gstreamer-1.26.3/po/nb.po
+gstreamer-1.26.3/po/nl.po
+gstreamer-1.26.3/po/pl.po
+gstreamer-1.26.3/po/pt_BR.po
+gstreamer-1.26.3/po/ro.po
+gstreamer-1.26.3/po/ru.po
+gstreamer-1.26.3/po/rw.po
+gstreamer-1.26.3/po/sk.po
+gstreamer-1.26.3/po/sl.po
+gstreamer-1.26.3/po/sq.po
+gstreamer-1.26.3/po/sr.po
+gstreamer-1.26.3/po/sv.po
+gstreamer-1.26.3/po/tr.po
+gstreamer-1.26.3/po/uk.po
+gstreamer-1.26.3/po/vi.po
+gstreamer-1.26.3/po/zh_CN.po
+gstreamer-1.26.3/po/zh_TW.po
+gstreamer-1.26.3/scripts/
+gstreamer-1.26.3/scripts/dist-translations.py
+gstreamer-1.26.3/scripts/extract-release-date-from-doap-file.py
+gstreamer-1.26.3/scripts/gen-changelog.py
+gstreamer-1.26.3/scripts/git-version.sh
+gstreamer-1.26.3/scripts/gst-plot-timeline.py
+gstreamer-1.26.3/scripts/gst-plot-traces.sh
+gstreamer-1.26.3/scripts/meson.build
+gstreamer-1.26.3/scripts/update-funcnames
+gstreamer-1.26.3/scripts/update-macros
+gstreamer-1.26.3/scripts/update-states
+gstreamer-1.26.3/tests/
+gstreamer-1.26.3/tests/README
+gstreamer-1.26.3/tests/benchmarks/
+gstreamer-1.26.3/tests/benchmarks/caps.c
+gstreamer-1.26.3/tests/benchmarks/capsnego.c
+gstreamer-1.26.3/tests/benchmarks/complexity.c
+gstreamer-1.26.3/tests/benchmarks/complexity.gnuplot
+gstreamer-1.26.3/tests/benchmarks/complexity.scm
+gstreamer-1.26.3/tests/benchmarks/controller.c
+gstreamer-1.26.3/tests/benchmarks/gstbufferstress.c
+gstreamer-1.26.3/tests/benchmarks/gstclockstress.c
+gstreamer-1.26.3/tests/benchmarks/gstpollstress.c
+gstreamer-1.26.3/tests/benchmarks/gstpoolstress.c
+gstreamer-1.26.3/tests/benchmarks/init.c
+gstreamer-1.26.3/tests/benchmarks/mass-elements.c
+gstreamer-1.26.3/tests/benchmarks/mass-elements.gnuplot
+gstreamer-1.26.3/tests/benchmarks/mass-elements.scm
+gstreamer-1.26.3/tests/benchmarks/meson.build
+gstreamer-1.26.3/tests/benchmarks/tracerserialize.c
+gstreamer-1.26.3/tests/benchmarks/tracing.sh
+gstreamer-1.26.3/tests/check/
+gstreamer-1.26.3/tests/check/elements/
+gstreamer-1.26.3/tests/check/elements/capsfilter.c
+gstreamer-1.26.3/tests/check/elements/clocksync.c
+gstreamer-1.26.3/tests/check/elements/concat.c
+gstreamer-1.26.3/tests/check/elements/dataurisrc.c
+gstreamer-1.26.3/tests/check/elements/fakesink.c
+gstreamer-1.26.3/tests/check/elements/fakesrc.c
+gstreamer-1.26.3/tests/check/elements/fdsrc.c
+gstreamer-1.26.3/tests/check/elements/filesink.c
+gstreamer-1.26.3/tests/check/elements/filesrc.c
+gstreamer-1.26.3/tests/check/elements/funnel.c
+gstreamer-1.26.3/tests/check/elements/identity.c
+gstreamer-1.26.3/tests/check/elements/leaks.c
+gstreamer-1.26.3/tests/check/elements/multiqueue.c
+gstreamer-1.26.3/tests/check/elements/queue.c
+gstreamer-1.26.3/tests/check/elements/queue2.c
+gstreamer-1.26.3/tests/check/elements/selector.c
+gstreamer-1.26.3/tests/check/elements/streamiddemux.c
+gstreamer-1.26.3/tests/check/elements/tee.c
+gstreamer-1.26.3/tests/check/elements/valve.c
+gstreamer-1.26.3/tests/check/generic/
+gstreamer-1.26.3/tests/check/generic/sinks.c
+gstreamer-1.26.3/tests/check/generic/states.c
+gstreamer-1.26.3/tests/check/gst/
+gstreamer-1.26.3/tests/check/gst/capslist.h
+gstreamer-1.26.3/tests/check/gst/gst.c
+gstreamer-1.26.3/tests/check/gst/gstabi.c
+gstreamer-1.26.3/tests/check/gst/gstatomicqueue.c
+gstreamer-1.26.3/tests/check/gst/gstbin.c
+gstreamer-1.26.3/tests/check/gst/gstbuffer.c
+gstreamer-1.26.3/tests/check/gst/gstbufferlist.c
+gstreamer-1.26.3/tests/check/gst/gstbufferpool.c
+gstreamer-1.26.3/tests/check/gst/gstbus.c
+gstreamer-1.26.3/tests/check/gst/gstcaps.c
+gstreamer-1.26.3/tests/check/gst/gstcapsfeatures.c
+gstreamer-1.26.3/tests/check/gst/gstchildproxy.c
+gstreamer-1.26.3/tests/check/gst/gstclock.c
+gstreamer-1.26.3/tests/check/gst/gstcontext.c
+gstreamer-1.26.3/tests/check/gst/gstcontroller.c
+gstreamer-1.26.3/tests/check/gst/gstcpp.cc
+gstreamer-1.26.3/tests/check/gst/gstdatetime.c
+gstreamer-1.26.3/tests/check/gst/gstdeinit.c
+gstreamer-1.26.3/tests/check/gst/gstdevice.c
+gstreamer-1.26.3/tests/check/gst/gstelement.c
+gstreamer-1.26.3/tests/check/gst/gstelementfactory.c
+gstreamer-1.26.3/tests/check/gst/gstevent.c
+gstreamer-1.26.3/tests/check/gst/gstghostpad.c
+gstreamer-1.26.3/tests/check/gst/gstidstr-noinline.c
+gstreamer-1.26.3/tests/check/gst/gstidstr.c
+gstreamer-1.26.3/tests/check/gst/gstindex.c
+gstreamer-1.26.3/tests/check/gst/gstinfo.c
+gstreamer-1.26.3/tests/check/gst/gstiterator.c
+gstreamer-1.26.3/tests/check/gst/gstmemory.c
+gstreamer-1.26.3/tests/check/gst/gstmessage.c
+gstreamer-1.26.3/tests/check/gst/gstmeta.c
+gstreamer-1.26.3/tests/check/gst/gstminiobject.c
+gstreamer-1.26.3/tests/check/gst/gstobject.c
+gstreamer-1.26.3/tests/check/gst/gstpad.c
+gstreamer-1.26.3/tests/check/gst/gstparamspecs.c
+gstreamer-1.26.3/tests/check/gst/gstpipeline.c
+gstreamer-1.26.3/tests/check/gst/gstplugin.c
+gstreamer-1.26.3/tests/check/gst/gstpoll.c
+gstreamer-1.26.3/tests/check/gst/gstpreset.c
+gstreamer-1.26.3/tests/check/gst/gstprintf.c
+gstreamer-1.26.3/tests/check/gst/gstpromise.c
+gstreamer-1.26.3/tests/check/gst/gstprotection.c
+gstreamer-1.26.3/tests/check/gst/gstquery.c
+gstreamer-1.26.3/tests/check/gst/gstregistry.c
+gstreamer-1.26.3/tests/check/gst/gstsegment.c
+gstreamer-1.26.3/tests/check/gst/gststream.c
+gstreamer-1.26.3/tests/check/gst/gststructure.c
+gstreamer-1.26.3/tests/check/gst/gstsystemclock.c
+gstreamer-1.26.3/tests/check/gst/gsttag.c
+gstreamer-1.26.3/tests/check/gst/gsttagsetter.c
+gstreamer-1.26.3/tests/check/gst/gsttask.c
+gstreamer-1.26.3/tests/check/gst/gsttoc.c
+gstreamer-1.26.3/tests/check/gst/gsttocsetter.c
+gstreamer-1.26.3/tests/check/gst/gsttracerrecord.c
+gstreamer-1.26.3/tests/check/gst/gsturi.c
+gstreamer-1.26.3/tests/check/gst/gstutils.c
+gstreamer-1.26.3/tests/check/gst/gstvalue.c
+gstreamer-1.26.3/tests/check/gst/gstvecdeque.c
+gstreamer-1.26.3/tests/check/gst/struct_arm.h
+gstreamer-1.26.3/tests/check/gst/struct_hppa.h
+gstreamer-1.26.3/tests/check/gst/struct_i386.h
+gstreamer-1.26.3/tests/check/gst/struct_i386w.h
+gstreamer-1.26.3/tests/check/gst/struct_ppc32.h
+gstreamer-1.26.3/tests/check/gst/struct_ppc64.h
+gstreamer-1.26.3/tests/check/gst/struct_sparc.h
+gstreamer-1.26.3/tests/check/gst/struct_x86_64.h
+gstreamer-1.26.3/tests/check/gst/struct_x86_64w.h
+gstreamer-1.26.3/tests/check/gstreamer.supp
+gstreamer-1.26.3/tests/check/libs/
+gstreamer-1.26.3/tests/check/libs/adapter.c
+gstreamer-1.26.3/tests/check/libs/aggregator.c
+gstreamer-1.26.3/tests/check/libs/baseparse.c
+gstreamer-1.26.3/tests/check/libs/basesink.c
+gstreamer-1.26.3/tests/check/libs/basesrc.c
+gstreamer-1.26.3/tests/check/libs/bitreader-noinline.c
+gstreamer-1.26.3/tests/check/libs/bitreader.c
+gstreamer-1.26.3/tests/check/libs/bitwriter.c
+gstreamer-1.26.3/tests/check/libs/bytereader-noinline.c
+gstreamer-1.26.3/tests/check/libs/bytereader.c
+gstreamer-1.26.3/tests/check/libs/bytewriter-noinline.c
+gstreamer-1.26.3/tests/check/libs/bytewriter.c
+gstreamer-1.26.3/tests/check/libs/collectpads.c
+gstreamer-1.26.3/tests/check/libs/controller.c
+gstreamer-1.26.3/tests/check/libs/flowcombiner.c
+gstreamer-1.26.3/tests/check/libs/gstharness.c
+gstreamer-1.26.3/tests/check/libs/gstlibscpp.cc
+gstreamer-1.26.3/tests/check/libs/gstnetclientclock.c
+gstreamer-1.26.3/tests/check/libs/gstnettimeprovider.c
+gstreamer-1.26.3/tests/check/libs/gsttestclock.c
+gstreamer-1.26.3/tests/check/libs/libsabi.c
+gstreamer-1.26.3/tests/check/libs/queuearray.c
+gstreamer-1.26.3/tests/check/libs/sparsefile.c
+gstreamer-1.26.3/tests/check/libs/struct_arm.h
+gstreamer-1.26.3/tests/check/libs/struct_hppa.h
+gstreamer-1.26.3/tests/check/libs/struct_i386.h
+gstreamer-1.26.3/tests/check/libs/struct_ppc32.h
+gstreamer-1.26.3/tests/check/libs/struct_ppc64.h
+gstreamer-1.26.3/tests/check/libs/struct_sparc.h
+gstreamer-1.26.3/tests/check/libs/struct_x86_64.h
+gstreamer-1.26.3/tests/check/libs/test_transform.c
+gstreamer-1.26.3/tests/check/libs/transform1.c
+gstreamer-1.26.3/tests/check/libs/transform2.c
+gstreamer-1.26.3/tests/check/libs/typefindhelper.c
+gstreamer-1.26.3/tests/check/meson.build
+gstreamer-1.26.3/tests/check/pipelines/
+gstreamer-1.26.3/tests/check/pipelines/cleanup.c
+gstreamer-1.26.3/tests/check/pipelines/parse-disabled.c
+gstreamer-1.26.3/tests/check/pipelines/parse-launch.c
+gstreamer-1.26.3/tests/check/pipelines/queue-error.c
+gstreamer-1.26.3/tests/check/pipelines/seek.c
+gstreamer-1.26.3/tests/check/pipelines/simple-launch-lines.c
+gstreamer-1.26.3/tests/check/pipelines/stress.c
+gstreamer-1.26.3/tests/check/tools/
+gstreamer-1.26.3/tests/check/tools/gstinspect.c
+gstreamer-1.26.3/tests/examples/
+gstreamer-1.26.3/tests/examples/adapter/
+gstreamer-1.26.3/tests/examples/adapter/adapter_test.c
+gstreamer-1.26.3/tests/examples/adapter/meson.build
+gstreamer-1.26.3/tests/examples/controller/
+gstreamer-1.26.3/tests/examples/controller/absolute-example.c
+gstreamer-1.26.3/tests/examples/controller/audio-example.c
+gstreamer-1.26.3/tests/examples/controller/control-sources.c
+gstreamer-1.26.3/tests/examples/controller/controller-graph.c
+gstreamer-1.26.3/tests/examples/controller/meson.build
+gstreamer-1.26.3/tests/examples/controller/text-color-example.c
+gstreamer-1.26.3/tests/examples/helloworld/
+gstreamer-1.26.3/tests/examples/helloworld/helloworld.c
+gstreamer-1.26.3/tests/examples/helloworld/meson.build
+gstreamer-1.26.3/tests/examples/memory/
+gstreamer-1.26.3/tests/examples/memory/memory_test.c
+gstreamer-1.26.3/tests/examples/memory/meson.build
+gstreamer-1.26.3/tests/examples/memory/my-memory.c
+gstreamer-1.26.3/tests/examples/memory/my-memory.h
+gstreamer-1.26.3/tests/examples/memory/my-vidmem.c
+gstreamer-1.26.3/tests/examples/memory/my-vidmem.h
+gstreamer-1.26.3/tests/examples/meson.build
+gstreamer-1.26.3/tests/examples/netclock/
+gstreamer-1.26.3/tests/examples/netclock/meson.build
+gstreamer-1.26.3/tests/examples/netclock/netclock-client.c
+gstreamer-1.26.3/tests/examples/netclock/netclock-server.c
+gstreamer-1.26.3/tests/examples/ptp/
+gstreamer-1.26.3/tests/examples/ptp/meson.build
+gstreamer-1.26.3/tests/examples/ptp/ptp-print-times.c
+gstreamer-1.26.3/tests/examples/stepping/
+gstreamer-1.26.3/tests/examples/stepping/framestep1.c
+gstreamer-1.26.3/tests/examples/stepping/meson.build
+gstreamer-1.26.3/tests/examples/streamiddemux/
+gstreamer-1.26.3/tests/examples/streamiddemux/meson.build
+gstreamer-1.26.3/tests/examples/streamiddemux/streamiddemux-stream.c
+gstreamer-1.26.3/tests/examples/streams/
+gstreamer-1.26.3/tests/examples/streams/meson.build
+gstreamer-1.26.3/tests/examples/streams/rtpool-test.c
+gstreamer-1.26.3/tests/examples/streams/stream-status.c
+gstreamer-1.26.3/tests/examples/streams/testrtpool.c
+gstreamer-1.26.3/tests/examples/streams/testrtpool.h
+gstreamer-1.26.3/tests/meson.build
+gstreamer-1.26.3/tests/misc/
+gstreamer-1.26.3/tests/misc/meson.build
+gstreamer-1.26.3/tests/misc/netclock-replay.c
+gstreamer-1.26.3/tests/misc/network-clock-utils.scm
+gstreamer-1.26.3/tests/misc/network-clock.scm
+gstreamer-1.26.3/tests/misc/plot-data
+gstreamer-1.26.3/tests/validate/
+gstreamer-1.26.3/tests/validate/gst-tester.c
+gstreamer-1.26.3/tests/validate/meson.build
+gstreamer-1.26.3/tests/validate/simplest/
+gstreamer-1.26.3/tests/validate/simplest/flow-expectations/
+gstreamer-1.26.3/tests/validate/simplest/flow-expectations/log-sink-sink-expected
+gstreamer-1.26.3/tests/validate/simplest.validatetest
+gstreamer-1.26.3/tools/
+gstreamer-1.26.3/tools/gst-inspect-1.0.1
+gstreamer-1.26.3/tools/gst-inspect.c
+gstreamer-1.26.3/tools/gst-launch-1.0.1
+gstreamer-1.26.3/tools/gst-launch.c
+gstreamer-1.26.3/tools/gst-stats-1.0.1
+gstreamer-1.26.3/tools/gst-stats.c
+gstreamer-1.26.3/tools/gst-typefind-1.0.1
+gstreamer-1.26.3/tools/gst-typefind.c
+gstreamer-1.26.3/tools/meson.build
+gstreamer-1.26.3/tools/tools.h
+The Meson build system
+Version: 1.7.0
+Source dir: /blfs/builds/gstreamer-1.26.3
+Build dir: /blfs/builds/gstreamer-1.26.3/build
+Build type: native build
+Project name: gstreamer
+Project version: 1.26.3
+C compiler for the host machine: cc (gcc 14.2.0 "cc (GCC) 14.2.0")
+C linker for the host machine: cc ld.bfd 2.44
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Compiler for C supports link arguments -Wl,-Bsymbolic-functions: YES 
+Compiler for C supports link arguments -Wl,-z,nodelete: YES 
+Compiler for C supports arguments -fvisibility=hidden: YES 
+Compiler for C supports arguments -fno-strict-aliasing: YES 
+Message: Disabling GLib cast checks
+Has header "dlfcn.h" : YES 
+Has header "inttypes.h" : YES 
+Has header "memory.h" : YES 
+Has header "poll.h" : YES 
+Has header "stdint.h" : YES 
+Has header "stdio_ext.h" : YES 
+Has header "strings.h" : YES 
+Has header "string.h" : YES 
+Has header "sys/param.h" : YES 
+Has header "sys/poll.h" : YES 
+Has header "sys/prctl.h" : YES 
+Has header "sys/socket.h" : YES 
+Has header "sys/stat.h" : YES 
+Has header "sys/times.h" : YES 
+Has header "sys/time.h" : YES 
+Has header "sys/types.h" : YES 
+Has header "sys/utsname.h" : YES 
+Has header "sys/wait.h" : YES 
+Has header "ucontext.h" : YES 
+Has header "unistd.h" : YES 
+Has header "sys/resource.h" : YES 
+Has header "sys/uio.h" : YES 
+Checking whether type "struct tm" has member "tm_gmtoff" : YES 
+Checking for function "gmtime_r" : YES 
+Checking for function "sigaction" : YES 
+Checking for function "getrusage" : YES 
+Checking for function "fseeko" : YES 
+Checking for function "ftello" : YES 
+Checking for function "poll" : YES 
+Checking for function "ppoll" : YES 
+Checking for function "pselect" : YES 
+Checking for function "getpagesize" : YES 
+Checking for function "clock_gettime" : YES 
+Checking for function "clock_nanosleep" : YES 
+Checking for function "strnlen" : YES 
+Checking for function "getline" : YES 
+Checking for function "mkstemp" : YES 
+Checking for function "alarm" : YES 
+Checking for function "gettimeofday" : YES 
+Checking for function "localtime_r" : YES 
+Checking if "pthread_setname_np(const char*)" links: NO 
+Header "pthread.h" has symbol "pthread_condattr_setclock" : YES 
+Header "pthread.h" has symbol "pthread_cond_timedwait_relative_np" : NO 
+Checking if "futex(2) system call" compiles: YES 
+Checking if "futex_time64(2) system call" compiles: NO 
+Checking if "posix timers from time.h" compiles: YES 
+Checking if "monotonic clock from time.h" compiles: YES 
+Checking if "__uint128_t available" compiles: YES 
+Checking for function "getpid" : YES 
+Checking for function "strdup" : YES 
+Checking for function "strsignal" : YES 
+Checking for type "clockid_t" : YES 
+Checking for type "timer_t" : YES 
+Checking whether type "struct timespec" has members "tv_sec", "tv_nsec" : YES 
+Checking whether type "struct itimerspec" has members "it_interval", "it_value" : YES 
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.0
+Run-time dependency libunwind found: YES 1.8.2
+Run-time dependency libdw found: YES 0.193
+Has header "dbghelp.h" : NO 
+Has header "execinfo.h" : YES 
+Checking for function "backtrace" : YES 
+Compiler for C supports arguments -Wno-unused: YES 
+Compiler for C supports arguments -Waddress: YES 
+Compiler for C supports arguments -Waggregate-return: YES 
+Compiler for C supports arguments -Wformat: YES 
+Compiler for C supports arguments -Wformat-nonliteral: YES 
+Compiler for C supports arguments -Wformat-security: YES 
+Compiler for C supports arguments -Wimplicit-fallthrough=3: YES 
+Compiler for C supports arguments -Winit-self: YES 
+Compiler for C supports arguments -Wmissing-declarations: YES 
+Compiler for C supports arguments -Wmissing-include-dirs: YES 
+Compiler for C supports arguments -Wmissing-parameter-type: YES 
+Compiler for C supports arguments -Wmissing-prototypes: YES 
+Compiler for C supports arguments -Wno-multichar: YES 
+Compiler for C supports arguments -Wold-style-definition: YES 
+Compiler for C supports arguments -Wpointer-arith: YES 
+Compiler for C supports arguments -Wredundant-decls: YES 
+Compiler for C supports arguments -Wshift-negative-value: YES 
+Compiler for C supports arguments -Wtype-limits: YES 
+Compiler for C supports arguments -Wundef: YES 
+Compiler for C supports arguments -Wvla: YES 
+Compiler for C supports arguments -Wwrite-strings: YES 
+Library gmp found: YES
+Library gsl found: NO
+Library gslcblas found: NO
+Library dl found: YES
+Checking for function "dladdr" with dependency -ldl: YES 
+Run-time dependency glib-2.0 found: YES 2.84.3
+Run-time dependency gobject-2.0 found: YES 2.84.3
+Run-time dependency gmodule-no-export-2.0 found: YES 2.84.3
+Run-time dependency gio-2.0 found: YES 2.84.3
+Run-time dependency gio-unix-2.0 found: YES 2.84.3
+Library m found: YES
+Library rt found: YES
+Library socket found: NO
+Library nsl found: YES
+Library atomic found: YES
+Program g-ir-scanner found: YES (/usr/bin/g-ir-scanner)
+Program python3 found: YES (/usr/bin/python3)
+Found CMake: /usr/bin/cmake (4.0.3)
+Run-time dependency bash-completion found: NO (tried pkgconfig and cmake)
+Configuring gstconfig.h using configuration
+Configuring gstversion.h using configuration
+Dependency glib-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Dependency glib-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Program flex found: YES (/usr/bin/flex)
+Program get_flex_version.py found: YES (/blfs/builds/gstreamer-1.26.3/gst/parse/get_flex_version.py)
+Message: flex version 2.6.4 >= 2.5.31: YES
+Configuring gen_lex.py using configuration
+Program bison found: YES (/usr/bin/bison)
+Message: bison version 3.8.2 >= 2.4: YES
+Configuring grammar.y using configuration
+Configuring gen_grammar.py using configuration
+Compiler for C supports arguments -Wno-format-nonliteral: YES 
+Checking if "long long" compiles: YES 
+Checking if "uintmax_t in inttypes.h" compiles: YES 
+Checking if "uintmax_t in stdint.h" compiles: YES 
+Run-time dependency gobject-introspection-1.0 found: YES 1.84.0
+Dependency gobject-introspection-1.0 found: YES 1.84.0 (cached)
+Program /usr/bin/g-ir-scanner found: YES (/usr/bin/g-ir-scanner)
+Dependency gobject-introspection-1.0 found: YES 1.84.0 (cached)
+Program /usr/bin/g-ir-compiler found: YES (/usr/bin/g-ir-compiler)
+Dependency glib-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Dependency glib-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Compiler for language rust for the host machine not found.
+Configuring libgstreamer-1.0.so.0.2603.0-gdb.py using configuration
+Configuring check.h using configuration
+Compiler for C supports arguments -Wno-undef: YES 
+Compiler for C supports arguments -Wno-redundant-decls: YES 
+Compiler for C supports arguments -Wno-missing-prototypes: YES 
+Compiler for C supports arguments -Wno-missing-declarations: YES 
+Compiler for C supports arguments -Wno-old-style-definition: YES 
+Compiler for C supports arguments -Wno-declaration-after-statement: YES 
+Compiler for C supports arguments -Wno-format-nonliteral: YES (cached)
+Compiler for C supports arguments -Wno-tautological-constant-out-of-range-compare: NO 
+Configuring internal-check.h using configuration
+Run-time dependency threads found: YES
+C++ compiler for the host machine: c++ (gcc 14.2.0 "c++ (GCC) 14.2.0")
+C++ linker for the host machine: c++ ld.bfd 2.44
+Run-time dependency gtk+-3.0 found: YES 3.24.49
+Has header "pthread.h" : YES 
+Dependency threads found: YES unknown (cached)
+Program /blfs/builds/gstreamer-1.26.3/build/docs/gst-plugins-doc-cache-generator found: YES (/blfs/builds/gstreamer-1.26.3/build/docs/gst-plugins-doc-cache-generator)
+Configuring gst_api_version.md using configuration
+Configuring gst_doc_sources.json using configuration
+Configuring gst_doc_gi_sources.json using configuration
+Configuring libs_doc_sources.json using configuration
+Configuring libs_doc_gi_sources.json using configuration
+Configuring doc_sources.json using configuration
+Configuring doc_plugin_libs.json using configuration
+Program xgettext found: YES (/usr/bin/xgettext)
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Program msginit found: YES (/usr/bin/msginit)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program xgettext found: YES (/usr/bin/xgettext)
+Program scripts/extract-release-date-from-doap-file.py found: YES (/blfs/builds/gstreamer-1.26.3/scripts/extract-release-date-from-doap-file.py)
+Message: Package release date: 2025-06-26
+Configuring config.h using configuration
+Build targets in project: 217
+
+gstreamer 1.26.3
+
+    Plugins     : coreelements, coretracers
+
+  User defined options
+    buildtype   : release
+    gst_debug   : false
+    package-name: GStreamer 1.26.3 For Tucana
+    prefix      : /usr
+
+Found ninja-1.13.0 at /usr/bin/ninja
+[1/522] Compiling C object libs/gst/check/libcheck/libcheck.a.p/libcompat_libcompat.c.o
+[2/522] Building translation po/af/LC_MESSAGES/gstreamer-1.0-af.mo
+[3/522] Generating gst/parse/parselex with a custom command
+[4/522] Compiling C object libs/gst/check/libcheck/libcheck.a.p/check_str.c.o
+[5/522] Compiling C object libs/gst/check/libcheck/libcheck.a.p/check_error.c.o
+[6/522] Building translation po/az/LC_MESSAGES/gstreamer-1.0-az.mo
+[7/522] Building translation po/be/LC_MESSAGES/gstreamer-1.0-be.mo
+[8/522] Building translation po/ast/LC_MESSAGES/gstreamer-1.0-ast.mo
+[9/522] Compiling C object gst/printf/libgstprintf.a.p/asnprintf.c.o
+[10/522] Compiling C object libs/gst/check/libcheck/libcheck.a.p/check_list.c.o
+[11/522] Building translation po/bg/LC_MESSAGES/gstreamer-1.0-bg.mo
+[12/522] Building translation po/ca/LC_MESSAGES/gstreamer-1.0-ca.mo
+[13/522] Compiling C object gst/printf/libgstprintf.a.p/printf.c.o
+[14/522] Building translation po/da/LC_MESSAGES/gstreamer-1.0-da.mo
+[15/522] Building translation po/el/LC_MESSAGES/gstreamer-1.0-el.mo
+[16/522] Building translation po/cs/LC_MESSAGES/gstreamer-1.0-cs.mo
+[17/522] Compiling C object libs/gst/check/libcheck/libcheck.a.p/check_print.c.o
+[18/522] Compiling C object gst/printf/libgstprintf.a.p/printf-extension.c.o
+[19/522] Building translation po/de/LC_MESSAGES/gstreamer-1.0-de.mo
+[20/522] Building translation po/en_GB/LC_MESSAGES/gstreamer-1.0-en_GB.mo
+[21/522] Building translation po/eo/LC_MESSAGES/gstreamer-1.0-eo.mo
+[22/522] Building translation po/fi/LC_MESSAGES/gstreamer-1.0-fi.mo
+[23/522] Building translation po/es/LC_MESSAGES/gstreamer-1.0-es.mo
+[24/522] Building translation po/eu/LC_MESSAGES/gstreamer-1.0-eu.mo
+[25/522] Building translation po/fur/LC_MESSAGES/gstreamer-1.0-fur.mo
+[26/522] Compiling C object libs/gst/check/libcheck/libcheck.a.p/check_msg.c.o
+[27/522] Building translation po/hr/LC_MESSAGES/gstreamer-1.0-hr.mo
+[28/522] Building translation po/fr/LC_MESSAGES/gstreamer-1.0-fr.mo
+[29/522] Building translation po/hu/LC_MESSAGES/gstreamer-1.0-hu.mo
+[30/522] Building translation po/id/LC_MESSAGES/gstreamer-1.0-id.mo
+[31/522] Building translation po/gl/LC_MESSAGES/gstreamer-1.0-gl.mo
+[32/522] Building translation po/ja/LC_MESSAGES/gstreamer-1.0-ja.mo
+[33/522] Building translation po/ka/LC_MESSAGES/gstreamer-1.0-ka.mo
+[34/522] Compiling C object gst/printf/libgstprintf.a.p/printf-args.c.o
+[35/522] Building translation po/lt/LC_MESSAGES/gstreamer-1.0-lt.mo
+[36/522] Building translation po/ko/LC_MESSAGES/gstreamer-1.0-ko.mo
+[37/522] Building translation po/it/LC_MESSAGES/gstreamer-1.0-it.mo
+[38/522] Building translation po/lv/LC_MESSAGES/gstreamer-1.0-lv.mo
+[39/522] Building translation po/nl/LC_MESSAGES/gstreamer-1.0-nl.mo
+[40/522] Building translation po/pl/LC_MESSAGES/gstreamer-1.0-pl.mo
+[41/522] Building translation po/pt_BR/LC_MESSAGES/gstreamer-1.0-pt_BR.mo
+[42/522] Compiling C object libs/gst/check/libcheck/libcheck.a.p/check_pack.c.o
+[43/522] Building translation po/nb/LC_MESSAGES/gstreamer-1.0-nb.mo
+[44/522] Building translation po/ro/LC_MESSAGES/gstreamer-1.0-ro.mo
+[45/522] Building translation po/rw/LC_MESSAGES/gstreamer-1.0-rw.mo
+[46/522] Building translation po/sk/LC_MESSAGES/gstreamer-1.0-sk.mo
+[47/522] Building translation po/sl/LC_MESSAGES/gstreamer-1.0-sl.mo
+[48/522] Building translation po/sq/LC_MESSAGES/gstreamer-1.0-sq.mo
+[49/522] Building translation po/tr/LC_MESSAGES/gstreamer-1.0-tr.mo
+[50/522] Building translation po/sv/LC_MESSAGES/gstreamer-1.0-sv.mo
+[51/522] Building translation po/vi/LC_MESSAGES/gstreamer-1.0-vi.mo
+[52/522] Building translation po/ru/LC_MESSAGES/gstreamer-1.0-ru.mo
+[53/522] Building translation po/zh_TW/LC_MESSAGES/gstreamer-1.0-zh_TW.mo
+[54/522] Building translation po/zh_CN/LC_MESSAGES/gstreamer-1.0-zh_CN.mo
+[55/522] Building translation po/sr/LC_MESSAGES/gstreamer-1.0-sr.mo
+[56/522] Building translation po/uk/LC_MESSAGES/gstreamer-1.0-uk.mo
+[57/522] Compiling C object libs/gst/check/libcheck/libcheck.a.p/check_log.c.o
+[58/522] Generating GObject enum file libs/gst/controller/controller-enumtypes.h (wrapped by meson because command contains newlines, to capture output)
+[59/522] Generating GObject enum file libs/gst/controller/controller-enumtypes.c (wrapped by meson because command contains newlines, to capture output)
+[60/522] Generating gst/parse/parsegrammar with a custom command
+[61/522] Compiling C object gst/printf/libgstprintf.a.p/printf-parse.c.o
+[62/522] Compiling C object libs/gst/check/libcheck/libcheck.a.p/check.c.o
+[63/522] Compiling C object tests/validate/gst-tester-1.0.p/gst-tester.c.o
+[64/522] Linking target tests/validate/gst-tester-1.0
+[65/522] Compiling C object libs/gst/check/libcheck/libcheck.a.p/check_run.c.o
+[66/522] Linking static target libs/gst/check/libcheck/libcheck.a
+[67/522] Generating GObject enum file gst/gstenumtypes.c (wrapped by meson because command contains newlines, to capture output)
+[68/522] Compiling C object gst/printf/libgstprintf.a.p/vasnprintf.c.o
+[69/522] Linking static target gst/printf/libgstprintf.a
+[70/522] Generating GObject enum file gst/gstenumtypes.h (wrapped by meson because command contains newlines, to capture output)
+[71/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstdebugutils.c.o
+[72/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstcontrolsource.c.o
+[73/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstcontext.c.o
+[74/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstcontrolbinding.c.o
+[75/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstchildproxy.c.o
+[76/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstbufferlist.c.o
+[77/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gst.c.o
+[78/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstallocator.c.o
+[79/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstbufferpool.c.o
+[80/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstdatetime.c.o
+[81/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstdynamictypefactory.c.o
+[82/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstbus.c.o
+[83/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstclock.c.o
+[84/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstdevice.c.o
+[85/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstdeviceproviderfactory.c.o
+[86/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstdeviceprovider.c.o
+[87/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstobject.c.o
+[88/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/meson-generated_.._parse_lex.priv_gst_parse_yy.c.o
+[89/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/meson-generated_.._gstenumtypes.c.o
+[90/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gsterror.c.o
+[91/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstcapsfeatures.c.o
+[92/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstformat.c.o
+[93/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstidstr.c.o
+[94/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstatomicqueue.c.o
+[95/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstghostpad.c.o
+[96/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstmemory.c.o
+[97/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstmeta.c.o
+[98/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstinfo.c.o
+[99/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstdevicemonitor.c.o
+[100/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstiterator.c.o
+[101/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstparamspecs.c.o
+[102/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstbuffer.c.o
+[103/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstelementfactory.c.o
+[104/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstpluginfeature.c.o
+[105/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstpadtemplate.c.o
+[106/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/meson-generated_.._parse_grammar.tab.c.o
+[107/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstprotection.c.o
+[108/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstevent.c.o
+[109/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstbin.c.o
+[110/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstpipeline.c.o
+[111/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstpromise.c.o
+[112/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstminiobject.c.o
+[113/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstsample.c.o
+[114/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstpoll.c.o
+[115/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gststreamcollection.c.o
+[116/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstplugin.c.o
+[117/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gststreams.c.o
+[118/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstpreset.c.o
+[119/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstcaps.c.o
+[120/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstelement.c.o
+[121/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gsttracerfactory.c.o
+[122/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gsttagsetter.c.o
+[123/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstsystemclock.c.o
+[124/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gsttaskpool.c.o
+[125/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gsttocsetter.c.o
+[126/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstmessage.c.o
+[127/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gsttracer.c.o
+[128/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gsttask.c.o
+[129/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstsegment.c.o
+[130/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstregistry.c.o
+[131/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstregistrychunks.c.o
+[132/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gsttypefindfactory.c.o
+[133/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gsttoc.c.o
+[134/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gsttracerrecord.c.o
+[135/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gsttypefind.c.o
+[136/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gsttracerutils.c.o
+[137/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstquery.c.o
+[138/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstregistrybinary.c.o
+[139/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstparse.c.o
+[140/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstpluginloader.c.o
+[141/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstvecdeque.c.o
+[142/522] Compiling C object libs/gst/base/libgstbase-1.0.so.0.2603.0.p/gstbitreader.c.o
+[143/522] Compiling C object libs/gst/base/libgstbase-1.0.so.0.2603.0.p/gstflowcombiner.c.o
+[144/522] Compiling C object libs/gst/base/libgstbase-1.0.so.0.2603.0.p/gstadapter.c.o
+[145/522] Compiling C object libs/gst/base/libgstbase-1.0.so.0.2603.0.p/gstpushsrc.c.o
+[146/522] Compiling C object libs/gst/base/libgstbase-1.0.so.0.2603.0.p/gstbitwriter.c.o
+[147/522] Compiling C object libs/gst/base/libgstbase-1.0.so.0.2603.0.p/gstdataqueue.c.o
+[148/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gsttaglist.c.o
+[149/522] Compiling C object libs/gst/base/libgstbase-1.0.so.0.2603.0.p/gstqueuearray.c.o
+[150/522] Compiling C object libs/gst/controller/libgstcontroller-1.0.so.0.2603.0.p/meson-generated_.._controller-enumtypes.c.o
+[151/522] Compiling C object libs/gst/base/libgstbase-1.0.so.0.2603.0.p/gstcollectpads.c.o
+[152/522] Compiling C object libs/gst/base/libgstbase-1.0.so.0.2603.0.p/gsttypefindhelper.c.o
+[153/522] Compiling C object libs/gst/base/libgstbase-1.0.so.0.2603.0.p/gstbytewriter.c.o
+[154/522] Compiling C object libs/gst/controller/libgstcontroller-1.0.so.0.2603.0.p/gsttimedvaluecontrolsource.c.o
+[155/522] Compiling C object libs/gst/base/libgstbase-1.0.so.0.2603.0.p/gstbasetransform.c.o
+[156/522] Compiling C object libs/gst/controller/libgstcontroller-1.0.so.0.2603.0.p/gsttriggercontrolsource.c.o
+[157/522] Compiling C object libs/gst/controller/libgstcontroller-1.0.so.0.2603.0.p/gstproxycontrolbinding.c.o
+[158/522] Compiling C object libs/gst/base/libgstbase-1.0.so.0.2603.0.p/gstbytereader.c.o
+[159/522] Compiling C object libs/gst/controller/libgstcontroller-1.0.so.0.2603.0.p/gstargbcontrolbinding.c.o
+[160/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gsturi.c.o
+[161/522] Compiling C object libs/gst/controller/libgstcontroller-1.0.so.0.2603.0.p/gstdirectcontrolbinding.c.o
+[162/522] Compiling C object libs/gst/base/libgstbase-1.0.so.0.2603.0.p/gstbasesrc.c.o
+[163/522] Compiling C object libs/gst/controller/libgstcontroller-1.0.so.0.2603.0.p/gstlfocontrolsource.c.o
+[164/522] Compiling C object libs/gst/net/libgstnet-1.0.so.0.2603.0.p/gstnetcontrolmessagemeta.c.o
+[165/522] Compiling C object libs/gst/controller/libgstcontroller-1.0.so.0.2603.0.p/gstinterpolationcontrolsource.c.o
+[166/522] Compiling C object libs/gst/net/libgstnet-1.0.so.0.2603.0.p/gstnetaddressmeta.c.o
+[167/522] Compiling C object libs/gst/base/libgstbase-1.0.so.0.2603.0.p/gstaggregator.c.o
+[168/522] Compiling C object libs/gst/net/libgstnet-1.0.so.0.2603.0.p/gstnettimepacket.c.o
+[169/522] Compiling C object libs/gst/net/libgstnet-1.0.so.0.2603.0.p/gstnettimeprovider.c.o
+[170/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstpad.c.o
+[171/522] Compiling C object libs/gst/net/libgstnet-1.0.so.0.2603.0.p/gstnetutils.c.o
+[172/522] Compiling C object libs/gst/net/libgstnet-1.0.so.0.2603.0.p/gstntppacket.c.o
+[173/522] Compiling C object libs/gst/check/libgstcheck-1.0.so.0.2603.0.p/gstbufferstraw.c.o
+[174/522] Compiling C object libs/gst/check/libgstcheck-1.0.so.0.2603.0.p/gstharnesslink.c.o
+[175/522] Compiling C object libs/gst/helpers/gst-plugin-scanner.p/gst-plugin-scanner.c.o
+[176/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstutils.c.o
+[177/522] Compiling C object libs/gst/check/libgstcheck-1.0.so.0.2603.0.p/gstconsistencychecker.c.o
+[178/522] Compiling C object libs/gst/base/libgstbase-1.0.so.0.2603.0.p/gstbasesink.c.o
+[179/522] Compiling C object libs/gst/helpers/gst-completion-helper.p/gst-completion-helper.c.o
+[180/522] Compiling C object plugins/elements/libgstcoreelements.so.p/gstcoreelementsplugin.c.o
+[181/522] Compiling C object libs/gst/net/libgstnet-1.0.so.0.2603.0.p/gstnetclientclock.c.o
+[182/522] Compiling C object plugins/elements/libgstcoreelements.so.p/gstcapsfilter.c.o
+[183/522] Compiling C object plugins/elements/libgstcoreelements.so.p/gstdataurisrc.c.o
+[184/522] Compiling C object libs/gst/check/libgstcheck-1.0.so.0.2603.0.p/gstcheck.c.o
+[185/522] Compiling C object libs/gst/check/libgstcheck-1.0.so.0.2603.0.p/gsttestclock.c.o
+[186/522] Compiling C object plugins/elements/libgstcoreelements.so.p/gstfakesink.c.o
+[187/522] Compiling C object plugins/elements/libgstcoreelements.so.p/gstclocksync.c.o
+[188/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gststructure.c.o
+[189/522] Compiling C object libs/gst/base/libgstbase-1.0.so.0.2603.0.p/gstbaseparse.c.o
+[190/522] Compiling C object plugins/elements/libgstcoreelements.so.p/gstfdsrc.c.o
+[191/522] Compiling C object plugins/elements/libgstcoreelements.so.p/gstelements_private.c.o
+[192/522] Compiling C object plugins/elements/libgstcoreelements.so.p/gstfunnel.c.o
+[193/522] Compiling C object plugins/elements/libgstcoreelements.so.p/gstfilesrc.c.o
+[194/522] Compiling C object plugins/elements/libgstcoreelements.so.p/gstconcat.c.o
+[195/522] Compiling C object plugins/elements/libgstcoreelements.so.p/gstfdsink.c.o
+[196/522] Compiling C object plugins/elements/libgstcoreelements.so.p/gstfakesrc.c.o
+[197/522] Compiling C object plugins/elements/libgstcoreelements.so.p/gstdownloadbuffer.c.o
+[198/522] Compiling C object plugins/elements/libgstcoreelements.so.p/gstfilesink.c.o
+[199/522] Compiling C object plugins/elements/libgstcoreelements.so.p/gstoutputselector.c.o
+[200/522] Compiling C object plugins/elements/libgstcoreelements.so.p/gstsparsefile.c.o
+[201/522] Compiling C object plugins/elements/libgstcoreelements.so.p/gststreamiddemux.c.o
+[202/522] Compiling C object plugins/elements/libgstcoreelements.so.p/gstvalve.c.o
+[203/522] Compiling C object plugins/tracers/libgstcoretracers.so.p/gsttracers.c.o
+[204/522] Compiling C object libs/gst/check/libgstcheck-1.0.so.0.2603.0.p/gstharness.c.o
+[205/522] Compiling C object plugins/elements/libgstcoreelements.so.p/gstidentity.c.o
+[206/522] Compiling C object plugins/elements/libgstcoreelements.so.p/gsttee.c.o
+[207/522] Compiling C object plugins/tracers/libgstcoretracers.so.p/gstdots.c.o
+[208/522] Compiling C object plugins/tracers/libgstcoretracers.so.p/gstrusage.c.o
+[209/522] Compiling C object libs/gst/net/libgstnet-1.0.so.0.2603.0.p/gstptpclock.c.o
+[210/522] Compiling C object tests/benchmarks/caps.p/caps.c.o
+[211/522] Compiling C object plugins/elements/libgstcoreelements.so.p/gsttypefindelement.c.o
+[212/522] Compiling C object plugins/tracers/libgstcoretracers.so.p/gstlatency.c.o
+[213/522] Compiling C object plugins/tracers/libgstcoretracers.so.p/gstfactories.c.o
+[214/522] Compiling C object tools/gst-typefind-1.0.p/gst-typefind.c.o
+[215/522] Compiling C object plugins/elements/libgstcoreelements.so.p/gstinputselector.c.o
+[216/522] Compiling C object plugins/elements/libgstcoreelements.so.p/gstqueue.c.o
+[217/522] Compiling C object tests/benchmarks/init.p/init.c.o
+[218/522] Compiling C object plugins/tracers/libgstcoretracers.so.p/gstleaks.c.o
+[219/522] Compiling C object tests/benchmarks/capsnego.p/capsnego.c.o
+[220/522] Compiling C object tests/benchmarks/controller.p/controller.c.o
+[221/522] Compiling C object tests/benchmarks/complexity.p/complexity.c.o
+[222/522] Compiling C object tests/benchmarks/gstpoolstress.p/gstpoolstress.c.o
+[223/522] Compiling C object tests/benchmarks/gstpollstress.p/gstpollstress.c.o
+[224/522] Compiling C object tests/check/gst_gstabi.p/gst_gstabi.c.o
+[225/522] Compiling C object tests/benchmarks/mass-elements.p/mass-elements.c.o
+[226/522] Compiling C object tests/benchmarks/gstclockstress.p/gstclockstress.c.o
+[227/522] Compiling C object tests/check/gst_gst.p/gst_gst.c.o
+[228/522] Compiling C object tests/benchmarks/gstbufferstress.p/gstbufferstress.c.o
+[229/522] Compiling C object tests/check/gst_gstatomicqueue.p/gst_gstatomicqueue.c.o
+[230/522] Compiling C object tests/check/gst_gstchildproxy.p/gst_gstchildproxy.c.o
+[231/522] Compiling C object tests/check/gst_gstclock.p/gst_gstclock.c.o
+[232/522] Compiling C object tools/gst-launch-1.0.p/gst-launch.c.o
+[233/522] Compiling C object plugins/tracers/libgstcoretracers.so.p/gststats.c.o
+[234/522] Compiling C object tests/check/gst_gstcapsfeatures.p/gst_gstcapsfeatures.c.o
+[235/522] Compiling C object tests/check/gst_gstcontext.p/gst_gstcontext.c.o
+[236/522] Compiling C object plugins/elements/libgstcoreelements.so.p/gstmultiqueue.c.o
+[237/522] Compiling C object tests/check/gst_gstdeinit.p/gst_gstdeinit.c.o
+[238/522] Compiling C object tests/check/gst_gstcontroller.p/gst_gstcontroller.c.o
+[239/522] Compiling C object tests/check/gst_gstbufferpool.p/gst_gstbufferpool.c.o
+[240/522] Compiling C object plugins/elements/libgstcoreelements.so.p/gstqueue2.c.o
+[241/522] Compiling C object tests/check/gst_gstelementfactory.p/gst_gstelementfactory.c.o
+[242/522] Compiling C object tools/gst-stats-1.0.p/gst-stats.c.o
+[243/522] Compiling C object tests/check/gst_gstinfo.p/gst_gstinfo.c.o
+[244/522] Compiling C object tests/check/gst_gstidstr_noinline.p/gst_gstidstr-noinline.c.o
+[245/522] Compiling C object tests/check/gst_gstdevice.p/gst_gstdevice.c.o
+[246/522] Compiling C object tests/check/gst_gstbufferlist.p/gst_gstbufferlist.c.o
+[247/522] Compiling C object tests/check/gst_gstidstr.p/gst_gstidstr.c.o
+[248/522] Compiling C object tests/check/gst_gstparamspecs.p/gst_gstparamspecs.c.o
+[249/522] Compiling C object tests/check/gst_gstbuffer.p/gst_gstbuffer.c.o
+[250/522] Compiling C object tests/check/gst_gstelement.p/gst_gstelement.c.o
+[251/522] Compiling C object tests/check/gst_gstiterator.p/gst_gstiterator.c.o
+[252/522] Compiling C object tests/check/gst_gstpreset.p/gst_gstpreset.c.o
+[253/522] Compiling C object tests/check/gst_gstplugin.p/gst_gstplugin.c.o
+[254/522] Compiling C object tests/check/gst_gstregistry.p/gst_gstregistry.c.o
+[255/522] Compiling C object tests/check/gst_gstobject.p/gst_gstobject.c.o
+[256/522] Compiling C object tests/check/gst_gstquery.p/gst_gstquery.c.o
+[257/522] Compiling C object tests/check/gst_gstminiobject.p/gst_gstminiobject.c.o
+[258/522] Compiling C object tests/check/gst_gstprotection.p/gst_gstprotection.c.o
+[259/522] Compiling C object tests/check/gst_gstmessage.p/gst_gstmessage.c.o
+[260/522] Compiling C object tests/check/gst_gstmeta.p/gst_gstmeta.c.o
+[261/522] Compiling C object tests/check/gst_gstpipeline.p/gst_gstpipeline.c.o
+[262/522] Compiling C object tests/check/gst_gstmemory.p/gst_gstmemory.c.o
+[263/522] Compiling C object tests/check/gst_gstpoll.p/gst_gstpoll.c.o
+[264/522] Compiling C object tests/check/gst_gstghostpad.p/gst_gstghostpad.c.o
+[265/522] Compiling C object tools/gst-inspect-1.0.p/gst-inspect.c.o
+[266/522] Compiling C object tests/check/gst_gstdatetime.p/gst_gstdatetime.c.o
+[267/522] Compiling C object tests/check/gst_gststream.p/gst_gststream.c.o
+[268/522] Compiling C object tests/check/gst_gstsystemclock.p/gst_gstsystemclock.c.o
+[269/522] Compiling C object tests/check/gst_gsttocsetter.p/gst_gsttocsetter.c.o
+[270/522] Compiling C object gst/libgstreamer-1.0.so.0.2603.0.p/gstvalue.c.o
+[271/522] Compiling C object tests/check/gst_gstpromise.p/gst_gstpromise.c.o
+[272/522] Compiling C object tests/check/gst_gsttagsetter.p/gst_gsttagsetter.c.o
+[273/522] Compiling C object tests/check/gst_gstcaps.p/gst_gstcaps.c.o
+[274/522] Compiling C object tests/check/generic_states.p/generic_states.c.o
+[275/522] Compiling C object tests/check/gst_gsttask.p/gst_gsttask.c.o
+[276/522] Linking target gst/libgstreamer-1.0.so.0.2603.0
+[277/522] Compiling C object tests/check/gst_gsttoc.p/gst_gsttoc.c.o
+[278/522] Compiling C object tests/check/libs_basesink.p/libs_basesink.c.o
+[279/522] Compiling C object tests/check/gst_gstvecdeque.p/gst_gstvecdeque.c.o
+[280/522] Generating symbol file gst/libgstreamer-1.0.so.0.2603.0.p/libgstreamer-1.0.so.0.2603.0.symbols
+[281/522] Compiling C object tests/check/libs_baseparse.p/libs_baseparse.c.o
+[282/522] Linking target libs/gst/controller/libgstcontroller-1.0.so.0.2603.0
+[283/522] Compiling C object tests/check/libs_basesrc.p/libs_basesrc.c.o
+[284/522] Compiling C object tests/check/gst_gststructure.p/gst_gststructure.c.o
+[285/522] Linking target libs/gst/base/libgstbase-1.0.so.0.2603.0
+[286/522] Compiling C object tests/check/gst_gsttag.p/gst_gsttag.c.o
+[287/522] Linking target libs/gst/check/libgstcheck-1.0.so.0.2603.0
+[288/522] Compiling C object tests/check/libs_bitreader_noinline.p/libs_bitreader-noinline.c.o
+[289/522] Compiling C object tests/check/gst_gsturi.p/gst_gsturi.c.o
+[290/522] Compiling C object tests/check/libs_aggregator.p/libs_aggregator.c.o
+[291/522] Compiling C object tests/check/libs_bytewriter_noinline.p/libs_bytewriter-noinline.c.o
+[292/522] Generating symbol file libs/gst/base/libgstbase-1.0.so.0.2603.0.p/libgstbase-1.0.so.0.2603.0.symbols
+[293/522] Generating symbol file libs/gst/controller/libgstcontroller-1.0.so.0.2603.0.p/libgstcontroller-1.0.so.0.2603.0.symbols
+[294/522] Generating symbol file libs/gst/check/libgstcheck-1.0.so.0.2603.0.p/libgstcheck-1.0.so.0.2603.0.symbols
+[295/522] Linking target libs/gst/net/libgstnet-1.0.so.0.2603.0
+[296/522] Compiling C object tests/check/gst_gstutils.p/gst_gstutils.c.o
+[297/522] Compiling C object tests/check/libs_adapter.p/libs_adapter.c.o
+[298/522] Compiling C object tests/check/libs_gstharness.p/libs_gstharness.c.o
+[299/522] Compiling C object tests/check/libs_flowcombiner.p/libs_flowcombiner.c.o
+[300/522] Compiling C object tests/check/libs_collectpads.p/libs_collectpads.c.o
+[301/522] Compiling C object tests/check/libs_bytewriter.p/libs_bytewriter.c.o
+[302/522] Generating symbol file libs/gst/net/libgstnet-1.0.so.0.2603.0.p/libgstnet-1.0.so.0.2603.0.symbols
+[303/522] Compiling C object tests/check/libs_gstnettimeprovider.p/libs_gstnettimeprovider.c.o
+[304/522] Compiling C object tests/check/libs_gstnetclientclock.p/libs_gstnetclientclock.c.o
+[305/522] Compiling C object tests/check/libs_bitwriter.p/libs_bitwriter.c.o
+[306/522] Compiling C object tests/check/libs_libsabi.p/libs_libsabi.c.o
+[307/522] Compiling C object tests/check/libs_bitreader.p/libs_bitreader.c.o
+[308/522] Compiling C object tests/check/gst_gstpad.p/gst_gstpad.c.o
+[309/522] Compiling C object tests/check/libs_typefindhelper.p/libs_typefindhelper.c.o
+[310/522] Compiling C object tests/check/libs_transform2.p/libs_transform2.c.o
+[311/522] Compiling C object tests/check/gst_gstsegment.p/gst_gstsegment.c.o
+[312/522] Compiling C object tests/check/elements_clocksync.p/elements_clocksync.c.o
+[313/522] Compiling C object tests/check/elements_fdsrc.p/elements_fdsrc.c.o
+[314/522] Compiling C object tests/check/libs_sparsefile.p/libs_sparsefile.c.o
+[315/522] Compiling C object tests/check/elements_capsfilter.p/elements_capsfilter.c.o
+[316/522] Compiling C object tests/check/elements_fakesrc.p/elements_fakesrc.c.o
+[317/522] Compiling C object tests/check/libs_gsttestclock.p/libs_gsttestclock.c.o
+[318/522] Compiling C object tests/check/libs_queuearray.p/libs_queuearray.c.o
+[319/522] Compiling C object tests/check/libs_controller.p/libs_controller.c.o
+[320/522] Compiling C object tests/check/elements_dataurisrc.p/elements_dataurisrc.c.o
+[321/522] Compiling C object tests/check/elements_concat.p/elements_concat.c.o
+[322/522] Compiling C object tests/check/elements_identity.p/elements_identity.c.o
+[323/522] Compiling C object tests/check/libs_transform1.p/libs_transform1.c.o
+[324/522] Compiling C object tests/check/elements_funnel.p/elements_funnel.c.o
+[325/522] Compiling C object tests/check/libs_bytereader_noinline.p/libs_bytereader-noinline.c.o
+[326/522] Compiling C object tests/check/libs_bytereader.p/libs_bytereader.c.o
+[327/522] Compiling C object tests/check/elements_filesrc.p/elements_filesrc.c.o
+[328/522] Compiling C object tests/check/elements_valve.p/elements_valve.c.o
+[329/522] Compiling C object tests/check/pipelines_queue_error.p/pipelines_queue-error.c.o
+[330/522] Compiling C object tests/check/pipelines_simple_launch_lines.p/pipelines_simple-launch-lines.c.o
+[331/522] Compiling C object tests/check/elements_selector.p/elements_selector.c.o
+[332/522] Compiling C object tests/check/pipelines_seek.p/pipelines_seek.c.o
+[333/522] Compiling C object tests/check/pipelines_cleanup.p/pipelines_cleanup.c.o
+[334/522] Compiling C object tests/check/elements_streamiddemux.p/elements_streamiddemux.c.o
+[335/522] Compiling C object tests/check/elements_filesink.p/elements_filesink.c.o
+[336/522] Compiling C object tests/check/pipelines_stress.p/pipelines_stress.c.o
+[337/522] Compiling C object tests/check/pipelines_parse_launch.p/pipelines_parse-launch.c.o
+[338/522] Compiling C object tests/check/elements_tee.p/elements_tee.c.o
+[339/522] Compiling C object tests/examples/adapter/adapter_test.p/adapter_test.c.o
+[340/522] Compiling C object tests/examples/controller/audio-example.p/audio-example.c.o
+[341/522] Compiling C object tests/examples/controller/text-color-example.p/text-color-example.c.o
+[342/522] Compiling C object tests/check/elements_queue2.p/elements_queue2.c.o
+[343/522] Compiling C object tests/check/elements_multiqueue.p/elements_multiqueue.c.o
+[344/522] Compiling C object tests/check/elements_queue.p/elements_queue.c.o
+[345/522] Compiling C object tests/examples/controller/control-sources.p/control-sources.c.o
+[346/522] Compiling C object tests/examples/helloworld/helloworld.p/helloworld.c.o
+[347/522] Compiling C object tests/examples/controller/absolute-example.p/absolute-example.c.o
+[348/522] Compiling C object tests/examples/memory/memory_test.p/my-memory.c.o
+[349/522] Compiling C object tests/examples/memory/memory_test.p/memory_test.c.o
+[350/522] Compiling C object tests/examples/netclock/netclock-client.p/netclock-client.c.o
+[351/522] Compiling C object tests/examples/memory/memory_test.p/my-vidmem.c.o
+[352/522] Compiling C object tests/check/elements_fakesink.p/elements_fakesink.c.o
+[353/522] Compiling C object tests/check/gst_gstevent.p/gst_gstevent.c.o
+[354/522] Compiling C object tests/check/gst_gstbus.p/gst_gstbus.c.o
+[355/522] Compiling C object tests/examples/netclock/netclock-server.p/netclock-server.c.o
+[356/522] Linking target libs/gst/helpers/gst-plugin-scanner
+[357/522] Linking target libs/gst/helpers/gst-completion-helper
+[358/522] Linking target plugins/elements/libgstcoreelements.so
+[359/522] Compiling C object tests/examples/stepping/framestep1.p/framestep1.c.o
+[360/522] Linking target plugins/tracers/libgstcoretracers.so
+[361/522] Compiling C object tests/examples/streams/stream-status.p/stream-status.c.o
+[362/522] Linking target tests/benchmarks/caps
+[363/522] Linking target tools/gst-typefind-1.0
+[364/522] Compiling C object tests/check/generic_sinks.p/generic_sinks.c.o
+[365/522] Compiling C object tests/examples/streams/rtpool-test.p/testrtpool.c.o
+[366/522] Compiling C object tests/examples/ptp/ptp-print-times.p/ptp-print-times.c.o
+[367/522] Linking target tools/gst-inspect-1.0
+[368/522] Linking target tools/gst-stats-1.0
+[369/522] Linking target tools/gst-launch-1.0
+[370/522] Linking target tests/benchmarks/capsnego
+[371/522] Linking target tests/benchmarks/complexity
+[372/522] Compiling C object tests/examples/streams/rtpool-test.p/rtpool-test.c.o
+[373/522] Linking target tests/benchmarks/mass-elements
+[374/522] Linking target tests/benchmarks/init
+[375/522] Compiling C object tests/examples/streamiddemux/streamiddemux-stream.p/streamiddemux-stream.c.o
+[376/522] Linking target tests/benchmarks/controller
+[377/522] Compiling C++ object tests/check/gst_gstcpp.p/gst_gstcpp.cc.o
+[378/522] Linking target tests/benchmarks/gstpollstress
+[379/522] Linking target tests/benchmarks/gstbufferstress
+[380/522] Linking target tests/benchmarks/gstpoolstress
+[381/522] Compiling C object tests/check/gst_gstvalue.p/gst_gstvalue.c.o
+[382/522] Linking target tests/benchmarks/gstclockstress
+[383/522] Linking target tests/check/gst_gstabi
+[384/522] Linking target tests/check/gst_gst
+[385/522] Linking target tests/check/gst_gstbuffer
+[386/522] Linking target tests/check/gst_gstbufferlist
+[387/522] Linking target tests/check/gst_gstbufferpool
+[388/522] Linking target tests/check/gst_gstatomicqueue
+[389/522] Linking target tests/check/gst_gstchildproxy
+[390/522] Linking target tests/check/gst_gstclock
+[391/522] Linking target tests/check/gst_gstcapsfeatures
+[392/522] Linking target tests/check/gst_gstcontroller
+[393/522] Linking target tests/check/gst_gstdatetime
+[394/522] Linking target tests/check/gst_gstcaps
+[395/522] Linking target tests/check/gst_gstcontext
+[396/522] Linking target tests/check/gst_gstdeinit
+[397/522] Compiling C object tests/examples/controller/controller-graph.p/controller-graph.c.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../tests/examples/controller/controller-graph.c:29:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[398/522] Linking target tests/check/gst_gstdevice
+[399/522] Linking target tests/check/gst_gstelementfactory
+[400/522] Linking target tests/check/gst_gstghostpad
+[401/522] Linking target tests/check/gst_gstidstr_noinline
+[402/522] Linking target tests/check/gst_gstinfo
+[403/522] Linking target tests/check/gst_gstiterator
+[404/522] Linking target tests/check/gst_gstelement
+[405/522] Linking target tests/check/gst_gstmemory
+[406/522] Linking target tests/check/gst_gstmeta
+[407/522] Compiling C++ object tests/check/libs_gstlibscpp.p/libs_gstlibscpp.cc.o
+[408/522] Linking target tests/check/gst_gstpad
+[409/522] Linking target tests/check/gst_gstparamspecs
+[410/522] Linking target tests/check/gst_gstminiobject
+[411/522] Linking target tests/check/gst_gstidstr
+[412/522] Linking target tests/check/gst_gstobject
+[413/522] Linking target tests/check/gst_gstpipeline
+[414/522] Linking target tests/check/gst_gstplugin
+[415/522] Linking target tests/check/gst_gstpoll
+[416/522] Linking target tests/check/gst_gstprotection
+[417/522] Linking target tests/check/gst_gstpreset
+[418/522] Linking target tests/check/gst_gstregistry
+[419/522] Linking target tests/check/gst_gstquery
+[420/522] Linking target tests/check/gst_gstmessage
+[421/522] Linking target tests/check/gst_gstsegment
+[422/522] Linking target tests/check/gst_gstpromise
+[423/522] Linking target tests/check/gst_gststream
+[424/522] Linking target tests/check/gst_gstsystemclock
+[425/522] Linking target tests/check/gst_gsttag
+[426/522] Linking target tests/check/gst_gsturi
+[427/522] Linking target tests/check/gst_gsttask
+[428/522] Linking target tests/check/gst_gsttoc
+[429/522] Linking target tests/check/gst_gsttocsetter
+[430/522] Linking target tests/check/gst_gststructure
+[431/522] Linking target tests/check/gst_gstutils
+[432/522] Linking target tests/check/gst_gstvalue
+[433/522] Linking target tests/check/gst_gstvecdeque
+[434/522] Linking target tests/check/generic_states
+[435/522] Linking target tests/check/libs_adapter
+[436/522] Linking target tests/check/gst_gsttagsetter
+[437/522] Linking target tests/check/libs_aggregator
+[438/522] Linking target tests/check/libs_baseparse
+[439/522] Linking target tests/check/libs_basesrc
+[440/522] Linking target tests/check/libs_bitreader
+[441/522] Linking target tests/check/libs_basesink
+[442/522] Linking target tests/check/libs_bytewriter
+[443/522] Linking target tests/check/libs_bitwriter
+[444/522] Linking target tests/check/libs_bytereader
+[445/522] Linking target tests/check/libs_bytereader_noinline
+[446/522] Linking target tests/check/libs_bytewriter_noinline
+[447/522] Linking target tests/check/libs_collectpads
+[448/522] Linking target tests/check/libs_controller
+[449/522] Linking target tests/check/libs_gstnetclientclock
+[450/522] Linking target tests/check/libs_flowcombiner
+[451/522] Linking target tests/check/libs_gstharness
+[452/522] Linking target tests/check/libs_bitreader_noinline
+[453/522] Linking target tests/check/libs_sparsefile
+[454/522] Compiling C object tests/misc/netclock-replay.p/netclock-replay.c.o
+[455/522] Linking target tests/check/libs_gstnettimeprovider
+[456/522] Linking target tests/check/libs_libsabi
+[457/522] Linking target tests/check/libs_transform1
+[458/522] Linking target tests/check/libs_transform2
+[459/522] Linking target tests/check/libs_queuearray
+[460/522] Linking target tests/check/libs_gsttestclock
+[461/522] Linking target tests/check/libs_typefindhelper
+[462/522] Linking target tests/check/elements_clocksync
+[463/522] Linking target tests/check/elements_fakesrc
+[464/522] Linking target tests/check/elements_capsfilter
+[465/522] Linking target tests/check/elements_concat
+[466/522] Linking target tests/check/elements_dataurisrc
+[467/522] Linking target tests/check/elements_identity
+[468/522] Linking target tests/check/elements_filesink
+[469/522] Linking target tests/check/elements_multiqueue
+[470/522] Linking target tests/check/elements_tee
+[471/522] Linking target tests/check/elements_filesrc
+[472/522] Linking target tests/check/elements_selector
+[473/522] Linking target tests/check/elements_queue
+[474/522] Linking target tests/check/elements_fdsrc
+[475/522] Linking target tests/check/elements_streamiddemux
+[476/522] Linking target tests/check/elements_valve
+[477/522] Linking target tests/check/elements_queue2
+[478/522] Linking target tests/check/elements_funnel
+[479/522] Linking target tests/check/pipelines_seek
+[480/522] Linking target tests/check/pipelines_simple_launch_lines
+[481/522] Linking target tests/check/pipelines_parse_launch
+[482/522] Linking target tests/check/elements_fakesink
+[483/522] Linking target tests/check/gst_gstbus
+[484/522] Linking target tests/check/pipelines_queue_error
+[485/522] Linking target tests/check/gst_gstevent
+[486/522] Linking target tests/check/pipelines_stress
+[487/522] Linking target tests/check/pipelines_cleanup
+[488/522] Linking target tests/check/generic_sinks
+[489/522] Linking target tests/examples/controller/text-color-example
+[490/522] Linking target tests/examples/controller/audio-example
+[491/522] Linking target tests/check/gst_gstcpp
+[492/522] Linking target tests/examples/controller/control-sources
+[493/522] Linking target tests/check/libs_gstlibscpp
+[494/522] Linking target tests/examples/helloworld/helloworld
+[495/522] Linking target tests/examples/controller/absolute-example
+[496/522] Linking target tests/examples/ptp/ptp-print-times
+[497/522] Linking target tests/examples/memory/memory_test
+[498/522] Linking target tests/examples/streams/stream-status
+[499/522] Linking target tests/examples/adapter/adapter_test
+[500/522] Linking target tests/examples/stepping/framestep1
+[501/522] Linking target tests/examples/streams/rtpool-test
+[502/522] Linking target tests/examples/netclock/netclock-client
+[503/522] Linking target tests/examples/streamiddemux/streamiddemux-stream
+[504/522] Linking target tests/examples/netclock/netclock-server
+[505/522] Linking target tests/misc/netclock-replay
+[506/522] Linking target tests/examples/controller/controller-graph
+[507/522] Compiling C object tests/check/gst_gstbin.p/gst_gstbin.c.o
+[508/522] Compiling C object tests/check/tools_gstinspect.p/tools_gstinspect.c.o
+[509/522] Linking target tests/check/gst_gstbin
+[510/522] Compiling C object docs/gst-hotdoc-plugins-scanner.p/gst-hotdoc-plugins-scanner.c.o
+[511/522] Linking target tests/check/tools_gstinspect
+[512/522] Linking target docs/gst-hotdoc-plugins-scanner
+[513/522] Generating gst/Gst-1.0.gir with a custom command (wrapped by meson to set env)
+[514/522] Generating gst/Gst-1.0.typelib with a custom command
+[515/522] Generating libs/gst/controller/GstController-1.0.gir with a custom command (wrapped by meson to set env)
+[516/522] Generating libs/gst/check/GstCheck-1.0.gir with a custom command (wrapped by meson to set env)
+[517/522] Generating libs/gst/controller/GstController-1.0.typelib with a custom command
+[518/522] Generating libs/gst/check/GstCheck-1.0.typelib with a custom command
+[519/522] Generating libs/gst/base/GstBase-1.0.gir with a custom command (wrapped by meson to set env)
+[520/522] Generating libs/gst/base/GstBase-1.0.typelib with a custom command
+[521/522] Generating libs/gst/net/GstNet-1.0.gir with a custom command (wrapped by meson to set env)
+[522/522] Generating libs/gst/net/GstNet-1.0.typelib with a custom command
+[0/1] Installing files
+Installing gst/gstenumtypes.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing gst/libgstreamer-1.0.so.0.2603.0 to /pkgs/gstreamer/usr/lib
+Installing gst/Gst-1.0.gir to /pkgs/gstreamer/usr/share/gir-1.0
+Installing gst/Gst-1.0.typelib to /pkgs/gstreamer/usr/lib/girepository-1.0
+Installing libs/gst/base/libgstbase-1.0.so.0.2603.0 to /pkgs/gstreamer/usr/lib
+Installing libs/gst/base/GstBase-1.0.gir to /pkgs/gstreamer/usr/share/gir-1.0
+Installing libs/gst/base/GstBase-1.0.typelib to /pkgs/gstreamer/usr/lib/girepository-1.0
+Installing libs/gst/controller/controller-enumtypes.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/controller
+Installing libs/gst/controller/libgstcontroller-1.0.so.0.2603.0 to /pkgs/gstreamer/usr/lib
+Installing libs/gst/controller/GstController-1.0.gir to /pkgs/gstreamer/usr/share/gir-1.0
+Installing libs/gst/controller/GstController-1.0.typelib to /pkgs/gstreamer/usr/lib/girepository-1.0
+Installing libs/gst/net/libgstnet-1.0.so.0.2603.0 to /pkgs/gstreamer/usr/lib
+Installing libs/gst/net/GstNet-1.0.gir to /pkgs/gstreamer/usr/share/gir-1.0
+Installing libs/gst/net/GstNet-1.0.typelib to /pkgs/gstreamer/usr/lib/girepository-1.0
+Installing libs/gst/helpers/gst-plugin-scanner to /pkgs/gstreamer/usr/libexec/gstreamer-1.0
+Installing libs/gst/helpers/gst-completion-helper to /pkgs/gstreamer/usr/libexec/gstreamer-1.0
+Installing libs/gst/check/libgstcheck-1.0.so.0.2603.0 to /pkgs/gstreamer/usr/lib
+Installing libs/gst/check/GstCheck-1.0.gir to /pkgs/gstreamer/usr/share/gir-1.0
+Installing libs/gst/check/GstCheck-1.0.typelib to /pkgs/gstreamer/usr/lib/girepository-1.0
+Installing plugins/elements/libgstcoreelements.so to /pkgs/gstreamer/usr/lib/gstreamer-1.0
+Installing plugins/tracers/libgstcoretracers.so to /pkgs/gstreamer/usr/lib/gstreamer-1.0
+Installing tools/gst-inspect-1.0 to /pkgs/gstreamer/usr/bin
+Installing tools/gst-stats-1.0 to /pkgs/gstreamer/usr/bin
+Installing tools/gst-typefind-1.0 to /pkgs/gstreamer/usr/bin
+Installing tools/gst-launch-1.0 to /pkgs/gstreamer/usr/bin
+Installing tests/validate/gst-tester-1.0 to /pkgs/gstreamer/usr/bin
+Installing docs/gst-hotdoc-plugins-scanner to /pkgs/gstreamer/usr/libexec/gstreamer-1.0
+Installing po/af/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/af/LC_MESSAGES
+Installing po/ast/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/ast/LC_MESSAGES
+Installing po/az/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/az/LC_MESSAGES
+Installing po/be/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/be/LC_MESSAGES
+Installing po/bg/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/bg/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/ca/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/cs/LC_MESSAGES
+Installing po/da/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/de/LC_MESSAGES
+Installing po/el/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/el/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/en_GB/LC_MESSAGES
+Installing po/eo/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/eo/LC_MESSAGES
+Installing po/es/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/es/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/eu/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/fr/LC_MESSAGES
+Installing po/fur/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/fur/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/gl/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/hu/LC_MESSAGES
+Installing po/id/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/id/LC_MESSAGES
+Installing po/it/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/it/LC_MESSAGES
+Installing po/ja/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/ja/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/ka/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/ko/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/lt/LC_MESSAGES
+Installing po/lv/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/lv/LC_MESSAGES
+Installing po/nb/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/nb/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/nl/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/pl/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/ru/LC_MESSAGES
+Installing po/rw/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/rw/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/sl/LC_MESSAGES
+Installing po/sq/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/sq/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/sr/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/sv/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/tr/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/uk/LC_MESSAGES
+Installing po/vi/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/vi/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/gstreamer-1.0.mo to /pkgs/gstreamer/usr/share/locale/zh_TW/LC_MESSAGES
+Installing /blfs/builds/gstreamer-1.26.3/gst/gst.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/glib-compat.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstobject.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstallocator.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstbin.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstbuffer.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstbufferlist.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstbufferpool.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstbus.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstbytearrayinterface.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstcaps.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstcapsfeatures.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstchildproxy.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstclock.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstcompat.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstcontext.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstcontrolbinding.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstcontrolsource.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstdatetime.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstdebugutils.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstelement.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstelementmetadata.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstdevice.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstdeviceprovider.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstdeviceproviderfactory.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstdynamictypefactory.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstelementfactory.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gsterror.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstevent.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstformat.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstghostpad.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstdevicemonitor.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstidstr.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstinfo.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstiterator.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstatomicqueue.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstmacros.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstmessage.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstmeta.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstmemory.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstminiobject.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstpad.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstpadtemplate.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstparamspecs.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstpipeline.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstplugin.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstpluginfeature.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstpoll.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstpreset.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstprotection.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstquery.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstpromise.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstsample.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstsegment.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gststreamcollection.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gststreams.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gststructure.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstsystemclock.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gsttaglist.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gsttagsetter.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gsttask.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gsttaskpool.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gsttoc.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gsttocsetter.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gsttracer.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gsttracerfactory.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gsttracerrecord.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gsttypefind.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gsttypefindfactory.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gsturi.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstutils.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstvalue.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstvecdeque.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstregistry.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstparse.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/math-compat.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/base/base.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/base
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/base/base-prelude.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/base
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/base/gstadapter.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/base
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/base/gstaggregator.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/base
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/base/gstbaseparse.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/base
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/base/gstbasesink.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/base
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/base/gstbasesrc.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/base
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/base/gstbasetransform.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/base
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/base/gstbitreader.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/base
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/base/gstbitwriter.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/base
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/base/gstbytereader.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/base
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/base/gstbytewriter.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/base
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/base/gstcollectpads.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/base
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/base/gstdataqueue.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/base
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/base/gstflowcombiner.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/base
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/base/gstpushsrc.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/base
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/base/gstqueuearray.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/base
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/base/gsttypefindhelper.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/base
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/controller/gstinterpolationcontrolsource.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/controller
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/controller/gstlfocontrolsource.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/controller
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/controller/gstargbcontrolbinding.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/controller
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/controller/gstdirectcontrolbinding.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/controller
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/controller/gsttimedvaluecontrolsource.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/controller
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/controller/gstinterpolationcontrolsource.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/controller
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/controller/gstproxycontrolbinding.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/controller
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/controller/gsttriggercontrolsource.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/controller
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/controller/gstlfocontrolsource.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/controller
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/controller/controller-prelude.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/controller
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/controller/controller.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/controller
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/net/gstnet.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/net
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/net/gstnetaddressmeta.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/net
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/net/gstnetclientclock.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/net
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/net/gstnetcontrolmessagemeta.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/net
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/net/gstnettimepacket.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/net
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/net/gstnettimeprovider.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/net
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/net/gstnetutils.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/net
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/net/gstptpclock.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/net
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/net/net-prelude.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/net
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/net/net.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/net
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/check/check.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/check
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/check/check-prelude.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/check
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/check/gstbufferstraw.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/check
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/check/gstcheck.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/check
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/check/gstconsistencychecker.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/check
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/check/gstharness.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/check
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/check/gsttestclock.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/check
+Installing /blfs/builds/gstreamer-1.26.3/tools/gst-inspect-1.0.1 to /pkgs/gstreamer/usr/share/man/man1
+Installing /blfs/builds/gstreamer-1.26.3/tools/gst-stats-1.0.1 to /pkgs/gstreamer/usr/share/man/man1
+Installing /blfs/builds/gstreamer-1.26.3/tools/gst-typefind-1.0.1 to /pkgs/gstreamer/usr/share/man/man1
+Installing /blfs/builds/gstreamer-1.26.3/tools/gst-launch-1.0.1 to /pkgs/gstreamer/usr/share/man/man1
+Installing /blfs/builds/gstreamer-1.26.3/cmake/FindGStreamer.cmake to /pkgs/gstreamer/usr/share/cmake
+Installing /blfs/builds/gstreamer-1.26.3/build/gst/gstconfig.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/build/gst/gstversion.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/build/meson-private/gstreamer-1.0.pc to /pkgs/gstreamer/usr/lib/pkgconfig
+Installing /blfs/builds/gstreamer-1.26.3/build/meson-private/gstreamer-base-1.0.pc to /pkgs/gstreamer/usr/lib/pkgconfig
+Installing /blfs/builds/gstreamer-1.26.3/build/meson-private/gstreamer-controller-1.0.pc to /pkgs/gstreamer/usr/lib/pkgconfig
+Installing /blfs/builds/gstreamer-1.26.3/build/meson-private/gstreamer-net-1.0.pc to /pkgs/gstreamer/usr/lib/pkgconfig
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/helpers/gst_gdb.py to /pkgs/gstreamer/usr/share/gstreamer-1.0/gdb
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/helpers/glib_gobject_helper.py to /pkgs/gstreamer/usr/share/gstreamer-1.0/gdb
+Installing /blfs/builds/gstreamer-1.26.3/build/libs/gst/helpers/libgstreamer-1.0.so.0.2603.0-gdb.py to /pkgs/gstreamer/usr/share/gdb/auto-load/.//usr/lib
+Installing /blfs/builds/gstreamer-1.26.3/build/libs/gst/check/internal-check.h to /pkgs/gstreamer/usr/include/gstreamer-1.0/gst/check
+Installing /blfs/builds/gstreamer-1.26.3/build/meson-private/gstreamer-check-1.0.pc to /pkgs/gstreamer/usr/lib/pkgconfig
+Installing /blfs/builds/gstreamer-1.26.3/build/docs/gst-plugins-doc-cache-generator to /pkgs/gstreamer/usr/libexec/gstreamer-1.0
+Installing /blfs/builds/gstreamer-1.26.3/gst-element-check-1.0.m4 to /pkgs/gstreamer/usr/share/aclocal
+Installing symlink pointing to libgstreamer-1.0.so.0.2603.0 to /pkgs/gstreamer/usr/lib/libgstreamer-1.0.so.0
+Installing symlink pointing to libgstreamer-1.0.so.0 to /pkgs/gstreamer/usr/lib/libgstreamer-1.0.so
+Installing symlink pointing to libgstbase-1.0.so.0.2603.0 to /pkgs/gstreamer/usr/lib/libgstbase-1.0.so.0
+Installing symlink pointing to libgstbase-1.0.so.0 to /pkgs/gstreamer/usr/lib/libgstbase-1.0.so
+Installing symlink pointing to libgstcontroller-1.0.so.0.2603.0 to /pkgs/gstreamer/usr/lib/libgstcontroller-1.0.so.0
+Installing symlink pointing to libgstcontroller-1.0.so.0 to /pkgs/gstreamer/usr/lib/libgstcontroller-1.0.so
+Installing symlink pointing to libgstnet-1.0.so.0.2603.0 to /pkgs/gstreamer/usr/lib/libgstnet-1.0.so.0
+Installing symlink pointing to libgstnet-1.0.so.0 to /pkgs/gstreamer/usr/lib/libgstnet-1.0.so
+Installing symlink pointing to libgstcheck-1.0.so.0.2603.0 to /pkgs/gstreamer/usr/lib/libgstcheck-1.0.so.0
+Installing symlink pointing to libgstcheck-1.0.so.0 to /pkgs/gstreamer/usr/lib/libgstcheck-1.0.so
+[0/1] Installing files
+Installing gst/gstenumtypes.h to /usr/include/gstreamer-1.0/gst
+Installing gst/libgstreamer-1.0.so.0.2603.0 to /usr/lib
+Installing gst/Gst-1.0.gir to /usr/share/gir-1.0
+Installing gst/Gst-1.0.typelib to /usr/lib/girepository-1.0
+Installing libs/gst/base/libgstbase-1.0.so.0.2603.0 to /usr/lib
+Installing libs/gst/base/GstBase-1.0.gir to /usr/share/gir-1.0
+Installing libs/gst/base/GstBase-1.0.typelib to /usr/lib/girepository-1.0
+Installing libs/gst/controller/controller-enumtypes.h to /usr/include/gstreamer-1.0/gst/controller
+Installing libs/gst/controller/libgstcontroller-1.0.so.0.2603.0 to /usr/lib
+Installing libs/gst/controller/GstController-1.0.gir to /usr/share/gir-1.0
+Installing libs/gst/controller/GstController-1.0.typelib to /usr/lib/girepository-1.0
+Installing libs/gst/net/libgstnet-1.0.so.0.2603.0 to /usr/lib
+Installing libs/gst/net/GstNet-1.0.gir to /usr/share/gir-1.0
+Installing libs/gst/net/GstNet-1.0.typelib to /usr/lib/girepository-1.0
+Installing libs/gst/helpers/gst-plugin-scanner to /usr/libexec/gstreamer-1.0
+Installing libs/gst/helpers/gst-completion-helper to /usr/libexec/gstreamer-1.0
+Installing libs/gst/check/libgstcheck-1.0.so.0.2603.0 to /usr/lib
+Installing libs/gst/check/GstCheck-1.0.gir to /usr/share/gir-1.0
+Installing libs/gst/check/GstCheck-1.0.typelib to /usr/lib/girepository-1.0
+Installing plugins/elements/libgstcoreelements.so to /usr/lib/gstreamer-1.0
+Installing plugins/tracers/libgstcoretracers.so to /usr/lib/gstreamer-1.0
+Installing tools/gst-inspect-1.0 to /usr/bin
+Installing tools/gst-stats-1.0 to /usr/bin
+Installing tools/gst-typefind-1.0 to /usr/bin
+Installing tools/gst-launch-1.0 to /usr/bin
+Installing tests/validate/gst-tester-1.0 to /usr/bin
+Installing docs/gst-hotdoc-plugins-scanner to /usr/libexec/gstreamer-1.0
+Installing po/af/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/af/LC_MESSAGES
+Installing po/ast/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/ast/LC_MESSAGES
+Installing po/az/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/az/LC_MESSAGES
+Installing po/be/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/be/LC_MESSAGES
+Installing po/bg/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/bg/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/ca/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/cs/LC_MESSAGES
+Installing po/da/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/de/LC_MESSAGES
+Installing po/el/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/el/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/en_GB/LC_MESSAGES
+Installing po/eo/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/eo/LC_MESSAGES
+Installing po/es/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/es/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/eu/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/fr/LC_MESSAGES
+Installing po/fur/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/fur/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/gl/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/hu/LC_MESSAGES
+Installing po/id/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/id/LC_MESSAGES
+Installing po/it/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/it/LC_MESSAGES
+Installing po/ja/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/ja/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/ka/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/ko/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/lt/LC_MESSAGES
+Installing po/lv/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/lv/LC_MESSAGES
+Installing po/nb/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/nb/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/nl/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/pl/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/ru/LC_MESSAGES
+Installing po/rw/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/rw/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/sl/LC_MESSAGES
+Installing po/sq/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/sq/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/sr/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/sv/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/tr/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/uk/LC_MESSAGES
+Installing po/vi/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/vi/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/gstreamer-1.0.mo to /usr/share/locale/zh_TW/LC_MESSAGES
+Installing /blfs/builds/gstreamer-1.26.3/gst/gst.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/glib-compat.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstobject.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstallocator.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstbin.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstbuffer.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstbufferlist.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstbufferpool.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstbus.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstbytearrayinterface.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstcaps.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstcapsfeatures.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstchildproxy.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstclock.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstcompat.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstcontext.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstcontrolbinding.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstcontrolsource.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstdatetime.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstdebugutils.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstelement.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstelementmetadata.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstdevice.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstdeviceprovider.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstdeviceproviderfactory.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstdynamictypefactory.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstelementfactory.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gsterror.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstevent.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstformat.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstghostpad.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstdevicemonitor.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstidstr.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstinfo.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstiterator.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstatomicqueue.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstmacros.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstmessage.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstmeta.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstmemory.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstminiobject.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstpad.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstpadtemplate.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstparamspecs.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstpipeline.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstplugin.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstpluginfeature.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstpoll.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstpreset.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstprotection.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstquery.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstpromise.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstsample.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstsegment.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gststreamcollection.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gststreams.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gststructure.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstsystemclock.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gsttaglist.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gsttagsetter.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gsttask.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gsttaskpool.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gsttoc.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gsttocsetter.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gsttracer.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gsttracerfactory.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gsttracerrecord.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gsttypefind.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gsttypefindfactory.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gsturi.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstutils.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstvalue.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstvecdeque.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstregistry.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/gstparse.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/gst/math-compat.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/base/base.h to /usr/include/gstreamer-1.0/gst/base
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/base/base-prelude.h to /usr/include/gstreamer-1.0/gst/base
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/base/gstadapter.h to /usr/include/gstreamer-1.0/gst/base
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/base/gstaggregator.h to /usr/include/gstreamer-1.0/gst/base
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/base/gstbaseparse.h to /usr/include/gstreamer-1.0/gst/base
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/base/gstbasesink.h to /usr/include/gstreamer-1.0/gst/base
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/base/gstbasesrc.h to /usr/include/gstreamer-1.0/gst/base
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/base/gstbasetransform.h to /usr/include/gstreamer-1.0/gst/base
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/base/gstbitreader.h to /usr/include/gstreamer-1.0/gst/base
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/base/gstbitwriter.h to /usr/include/gstreamer-1.0/gst/base
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/base/gstbytereader.h to /usr/include/gstreamer-1.0/gst/base
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/base/gstbytewriter.h to /usr/include/gstreamer-1.0/gst/base
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/base/gstcollectpads.h to /usr/include/gstreamer-1.0/gst/base
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/base/gstdataqueue.h to /usr/include/gstreamer-1.0/gst/base
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/base/gstflowcombiner.h to /usr/include/gstreamer-1.0/gst/base
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/base/gstpushsrc.h to /usr/include/gstreamer-1.0/gst/base
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/base/gstqueuearray.h to /usr/include/gstreamer-1.0/gst/base
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/base/gsttypefindhelper.h to /usr/include/gstreamer-1.0/gst/base
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/controller/gstinterpolationcontrolsource.h to /usr/include/gstreamer-1.0/gst/controller
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/controller/gstlfocontrolsource.h to /usr/include/gstreamer-1.0/gst/controller
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/controller/gstargbcontrolbinding.h to /usr/include/gstreamer-1.0/gst/controller
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/controller/gstdirectcontrolbinding.h to /usr/include/gstreamer-1.0/gst/controller
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/controller/gsttimedvaluecontrolsource.h to /usr/include/gstreamer-1.0/gst/controller
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/controller/gstinterpolationcontrolsource.h to /usr/include/gstreamer-1.0/gst/controller
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/controller/gstproxycontrolbinding.h to /usr/include/gstreamer-1.0/gst/controller
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/controller/gsttriggercontrolsource.h to /usr/include/gstreamer-1.0/gst/controller
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/controller/gstlfocontrolsource.h to /usr/include/gstreamer-1.0/gst/controller
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/controller/controller-prelude.h to /usr/include/gstreamer-1.0/gst/controller
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/controller/controller.h to /usr/include/gstreamer-1.0/gst/controller
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/net/gstnet.h to /usr/include/gstreamer-1.0/gst/net
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/net/gstnetaddressmeta.h to /usr/include/gstreamer-1.0/gst/net
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/net/gstnetclientclock.h to /usr/include/gstreamer-1.0/gst/net
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/net/gstnetcontrolmessagemeta.h to /usr/include/gstreamer-1.0/gst/net
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/net/gstnettimepacket.h to /usr/include/gstreamer-1.0/gst/net
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/net/gstnettimeprovider.h to /usr/include/gstreamer-1.0/gst/net
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/net/gstnetutils.h to /usr/include/gstreamer-1.0/gst/net
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/net/gstptpclock.h to /usr/include/gstreamer-1.0/gst/net
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/net/net-prelude.h to /usr/include/gstreamer-1.0/gst/net
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/net/net.h to /usr/include/gstreamer-1.0/gst/net
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/check/check.h to /usr/include/gstreamer-1.0/gst/check
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/check/check-prelude.h to /usr/include/gstreamer-1.0/gst/check
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/check/gstbufferstraw.h to /usr/include/gstreamer-1.0/gst/check
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/check/gstcheck.h to /usr/include/gstreamer-1.0/gst/check
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/check/gstconsistencychecker.h to /usr/include/gstreamer-1.0/gst/check
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/check/gstharness.h to /usr/include/gstreamer-1.0/gst/check
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/check/gsttestclock.h to /usr/include/gstreamer-1.0/gst/check
+Installing /blfs/builds/gstreamer-1.26.3/tools/gst-inspect-1.0.1 to /usr/share/man/man1
+Installing /blfs/builds/gstreamer-1.26.3/tools/gst-stats-1.0.1 to /usr/share/man/man1
+Installing /blfs/builds/gstreamer-1.26.3/tools/gst-typefind-1.0.1 to /usr/share/man/man1
+Installing /blfs/builds/gstreamer-1.26.3/tools/gst-launch-1.0.1 to /usr/share/man/man1
+Installing /blfs/builds/gstreamer-1.26.3/cmake/FindGStreamer.cmake to /usr/share/cmake
+Installing /blfs/builds/gstreamer-1.26.3/build/gst/gstconfig.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/build/gst/gstversion.h to /usr/include/gstreamer-1.0/gst
+Installing /blfs/builds/gstreamer-1.26.3/build/meson-private/gstreamer-1.0.pc to /usr/lib/pkgconfig
+Installing /blfs/builds/gstreamer-1.26.3/build/meson-private/gstreamer-base-1.0.pc to /usr/lib/pkgconfig
+Installing /blfs/builds/gstreamer-1.26.3/build/meson-private/gstreamer-controller-1.0.pc to /usr/lib/pkgconfig
+Installing /blfs/builds/gstreamer-1.26.3/build/meson-private/gstreamer-net-1.0.pc to /usr/lib/pkgconfig
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/helpers/gst_gdb.py to /usr/share/gstreamer-1.0/gdb
+Installing /blfs/builds/gstreamer-1.26.3/libs/gst/helpers/glib_gobject_helper.py to /usr/share/gstreamer-1.0/gdb
+Installing /blfs/builds/gstreamer-1.26.3/build/libs/gst/helpers/libgstreamer-1.0.so.0.2603.0-gdb.py to /usr/share/gdb/auto-load/.//usr/lib
+Installing /blfs/builds/gstreamer-1.26.3/build/libs/gst/check/internal-check.h to /usr/include/gstreamer-1.0/gst/check
+Installing /blfs/builds/gstreamer-1.26.3/build/meson-private/gstreamer-check-1.0.pc to /usr/lib/pkgconfig
+Installing /blfs/builds/gstreamer-1.26.3/build/docs/gst-plugins-doc-cache-generator to /usr/libexec/gstreamer-1.0
+Installing /blfs/builds/gstreamer-1.26.3/gst-element-check-1.0.m4 to /usr/share/aclocal
+Installing symlink pointing to libgstreamer-1.0.so.0.2603.0 to /usr/lib/libgstreamer-1.0.so.0
+Installing symlink pointing to libgstreamer-1.0.so.0 to /usr/lib/libgstreamer-1.0.so
+Installing symlink pointing to libgstbase-1.0.so.0.2603.0 to /usr/lib/libgstbase-1.0.so.0
+Installing symlink pointing to libgstbase-1.0.so.0 to /usr/lib/libgstbase-1.0.so
+Installing symlink pointing to libgstcontroller-1.0.so.0.2603.0 to /usr/lib/libgstcontroller-1.0.so.0
+Installing symlink pointing to libgstcontroller-1.0.so.0 to /usr/lib/libgstcontroller-1.0.so
+Installing symlink pointing to libgstnet-1.0.so.0.2603.0 to /usr/lib/libgstnet-1.0.so.0
+Installing symlink pointing to libgstnet-1.0.so.0 to /usr/lib/libgstnet-1.0.so
+Installing symlink pointing to libgstcheck-1.0.so.0.2603.0 to /usr/lib/libgstcheck-1.0.so.0
+Installing symlink pointing to libgstcheck-1.0.so.0 to /usr/lib/libgstcheck-1.0.so
+gstreamer/
+gstreamer/prerm
+gstreamer/usr/
+gstreamer/usr/share/
+gstreamer/usr/share/locale/
+gstreamer/usr/share/locale/be/
+gstreamer/usr/share/locale/be/LC_MESSAGES/
+gstreamer/usr/share/locale/be/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/af/
+gstreamer/usr/share/locale/af/LC_MESSAGES/
+gstreamer/usr/share/locale/af/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/ca/
+gstreamer/usr/share/locale/ca/LC_MESSAGES/
+gstreamer/usr/share/locale/ca/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/eu/
+gstreamer/usr/share/locale/eu/LC_MESSAGES/
+gstreamer/usr/share/locale/eu/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/en_GB/
+gstreamer/usr/share/locale/en_GB/LC_MESSAGES/
+gstreamer/usr/share/locale/en_GB/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/uk/
+gstreamer/usr/share/locale/uk/LC_MESSAGES/
+gstreamer/usr/share/locale/uk/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/it/
+gstreamer/usr/share/locale/it/LC_MESSAGES/
+gstreamer/usr/share/locale/it/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/de/
+gstreamer/usr/share/locale/de/LC_MESSAGES/
+gstreamer/usr/share/locale/de/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/ast/
+gstreamer/usr/share/locale/ast/LC_MESSAGES/
+gstreamer/usr/share/locale/ast/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/es/
+gstreamer/usr/share/locale/es/LC_MESSAGES/
+gstreamer/usr/share/locale/es/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/vi/
+gstreamer/usr/share/locale/vi/LC_MESSAGES/
+gstreamer/usr/share/locale/vi/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/fur/
+gstreamer/usr/share/locale/fur/LC_MESSAGES/
+gstreamer/usr/share/locale/fur/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/da/
+gstreamer/usr/share/locale/da/LC_MESSAGES/
+gstreamer/usr/share/locale/da/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/zh_CN/
+gstreamer/usr/share/locale/zh_CN/LC_MESSAGES/
+gstreamer/usr/share/locale/zh_CN/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/ko/
+gstreamer/usr/share/locale/ko/LC_MESSAGES/
+gstreamer/usr/share/locale/ko/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/nb/
+gstreamer/usr/share/locale/nb/LC_MESSAGES/
+gstreamer/usr/share/locale/nb/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/hr/
+gstreamer/usr/share/locale/hr/LC_MESSAGES/
+gstreamer/usr/share/locale/hr/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/sr/
+gstreamer/usr/share/locale/sr/LC_MESSAGES/
+gstreamer/usr/share/locale/sr/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/pt_BR/
+gstreamer/usr/share/locale/pt_BR/LC_MESSAGES/
+gstreamer/usr/share/locale/pt_BR/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/tr/
+gstreamer/usr/share/locale/tr/LC_MESSAGES/
+gstreamer/usr/share/locale/tr/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/sk/
+gstreamer/usr/share/locale/sk/LC_MESSAGES/
+gstreamer/usr/share/locale/sk/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/az/
+gstreamer/usr/share/locale/az/LC_MESSAGES/
+gstreamer/usr/share/locale/az/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/sq/
+gstreamer/usr/share/locale/sq/LC_MESSAGES/
+gstreamer/usr/share/locale/sq/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/gl/
+gstreamer/usr/share/locale/gl/LC_MESSAGES/
+gstreamer/usr/share/locale/gl/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/pl/
+gstreamer/usr/share/locale/pl/LC_MESSAGES/
+gstreamer/usr/share/locale/pl/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/sl/
+gstreamer/usr/share/locale/sl/LC_MESSAGES/
+gstreamer/usr/share/locale/sl/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/fi/
+gstreamer/usr/share/locale/fi/LC_MESSAGES/
+gstreamer/usr/share/locale/fi/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/zh_TW/
+gstreamer/usr/share/locale/zh_TW/LC_MESSAGES/
+gstreamer/usr/share/locale/zh_TW/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/nl/
+gstreamer/usr/share/locale/nl/LC_MESSAGES/
+gstreamer/usr/share/locale/nl/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/ka/
+gstreamer/usr/share/locale/ka/LC_MESSAGES/
+gstreamer/usr/share/locale/ka/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/fr/
+gstreamer/usr/share/locale/fr/LC_MESSAGES/
+gstreamer/usr/share/locale/fr/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/rw/
+gstreamer/usr/share/locale/rw/LC_MESSAGES/
+gstreamer/usr/share/locale/rw/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/eo/
+gstreamer/usr/share/locale/eo/LC_MESSAGES/
+gstreamer/usr/share/locale/eo/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/ro/
+gstreamer/usr/share/locale/ro/LC_MESSAGES/
+gstreamer/usr/share/locale/ro/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/lt/
+gstreamer/usr/share/locale/lt/LC_MESSAGES/
+gstreamer/usr/share/locale/lt/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/cs/
+gstreamer/usr/share/locale/cs/LC_MESSAGES/
+gstreamer/usr/share/locale/cs/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/sv/
+gstreamer/usr/share/locale/sv/LC_MESSAGES/
+gstreamer/usr/share/locale/sv/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/el/
+gstreamer/usr/share/locale/el/LC_MESSAGES/
+gstreamer/usr/share/locale/el/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/ja/
+gstreamer/usr/share/locale/ja/LC_MESSAGES/
+gstreamer/usr/share/locale/ja/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/id/
+gstreamer/usr/share/locale/id/LC_MESSAGES/
+gstreamer/usr/share/locale/id/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/hu/
+gstreamer/usr/share/locale/hu/LC_MESSAGES/
+gstreamer/usr/share/locale/hu/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/bg/
+gstreamer/usr/share/locale/bg/LC_MESSAGES/
+gstreamer/usr/share/locale/bg/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/ru/
+gstreamer/usr/share/locale/ru/LC_MESSAGES/
+gstreamer/usr/share/locale/ru/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/locale/lv/
+gstreamer/usr/share/locale/lv/LC_MESSAGES/
+gstreamer/usr/share/locale/lv/LC_MESSAGES/gstreamer-1.0.mo
+gstreamer/usr/share/cmake/
+gstreamer/usr/share/cmake/FindGStreamer.cmake
+gstreamer/usr/share/gstreamer-1.0/
+gstreamer/usr/share/gstreamer-1.0/gdb/
+gstreamer/usr/share/gstreamer-1.0/gdb/gst_gdb.py
+gstreamer/usr/share/gstreamer-1.0/gdb/glib_gobject_helper.py
+gstreamer/usr/share/aclocal/
+gstreamer/usr/share/aclocal/gst-element-check-1.0.m4
+gstreamer/usr/share/gdb/
+gstreamer/usr/share/gdb/auto-load/
+gstreamer/usr/share/gdb/auto-load/usr/
+gstreamer/usr/share/gdb/auto-load/usr/lib/
+gstreamer/usr/share/gdb/auto-load/usr/lib/libgstreamer-1.0.so.0.2603.0-gdb.py
+gstreamer/usr/share/gir-1.0/
+gstreamer/usr/share/gir-1.0/GstBase-1.0.gir
+gstreamer/usr/share/gir-1.0/GstNet-1.0.gir
+gstreamer/usr/share/gir-1.0/GstCheck-1.0.gir
+gstreamer/usr/share/gir-1.0/GstController-1.0.gir
+gstreamer/usr/share/gir-1.0/Gst-1.0.gir
+gstreamer/usr/share/man/
+gstreamer/usr/share/man/man1/
+gstreamer/usr/share/man/man1/gst-launch-1.0.1
+gstreamer/usr/share/man/man1/gst-inspect-1.0.1
+gstreamer/usr/share/man/man1/gst-typefind-1.0.1
+gstreamer/usr/share/man/man1/gst-stats-1.0.1
+gstreamer/usr/lib/
+gstreamer/usr/lib/libgstreamer-1.0.so
+gstreamer/usr/lib/libgstbase-1.0.so
+gstreamer/usr/lib/libgstreamer-1.0.so.0.2603.0
+gstreamer/usr/lib/libgstcheck-1.0.so.0.2603.0
+gstreamer/usr/lib/libgstcontroller-1.0.so.0.2603.0
+gstreamer/usr/lib/libgstbase-1.0.so.0
+gstreamer/usr/lib/libgstcheck-1.0.so
+gstreamer/usr/lib/libgstcontroller-1.0.so
+gstreamer/usr/lib/libgstreamer-1.0.so.0
+gstreamer/usr/lib/libgstnet-1.0.so.0
+gstreamer/usr/lib/girepository-1.0/
+gstreamer/usr/lib/girepository-1.0/GstBase-1.0.typelib
+gstreamer/usr/lib/girepository-1.0/GstNet-1.0.typelib
+gstreamer/usr/lib/girepository-1.0/Gst-1.0.typelib
+gstreamer/usr/lib/girepository-1.0/GstController-1.0.typelib
+gstreamer/usr/lib/girepository-1.0/GstCheck-1.0.typelib
+gstreamer/usr/lib/libgstcontroller-1.0.so.0
+gstreamer/usr/lib/libgstcheck-1.0.so.0
+gstreamer/usr/lib/gstreamer-1.0/
+gstreamer/usr/lib/gstreamer-1.0/libgstcoretracers.so
+gstreamer/usr/lib/gstreamer-1.0/libgstcoreelements.so
+gstreamer/usr/lib/pkgconfig/
+gstreamer/usr/lib/pkgconfig/gstreamer-check-1.0.pc
+gstreamer/usr/lib/pkgconfig/gstreamer-1.0.pc
+gstreamer/usr/lib/pkgconfig/gstreamer-net-1.0.pc
+gstreamer/usr/lib/pkgconfig/gstreamer-controller-1.0.pc
+gstreamer/usr/lib/pkgconfig/gstreamer-base-1.0.pc
+gstreamer/usr/lib/libgstbase-1.0.so.0.2603.0
+gstreamer/usr/lib/libgstnet-1.0.so
+gstreamer/usr/lib/libgstnet-1.0.so.0.2603.0
+gstreamer/usr/include/
+gstreamer/usr/include/gstreamer-1.0/
+gstreamer/usr/include/gstreamer-1.0/gst/
+gstreamer/usr/include/gstreamer-1.0/gst/gsterror.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstmacros.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstsystemclock.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstelementmetadata.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstpadtemplate.h
+gstreamer/usr/include/gstreamer-1.0/gst/gsttocsetter.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstpromise.h
+gstreamer/usr/include/gstreamer-1.0/gst/base/
+gstreamer/usr/include/gstreamer-1.0/gst/base/gstbasesrc.h
+gstreamer/usr/include/gstreamer-1.0/gst/base/base-prelude.h
+gstreamer/usr/include/gstreamer-1.0/gst/base/gstcollectpads.h
+gstreamer/usr/include/gstreamer-1.0/gst/base/base.h
+gstreamer/usr/include/gstreamer-1.0/gst/base/gstbytereader.h
+gstreamer/usr/include/gstreamer-1.0/gst/base/gstbitwriter.h
+gstreamer/usr/include/gstreamer-1.0/gst/base/gstbasesink.h
+gstreamer/usr/include/gstreamer-1.0/gst/base/gstbasetransform.h
+gstreamer/usr/include/gstreamer-1.0/gst/base/gsttypefindhelper.h
+gstreamer/usr/include/gstreamer-1.0/gst/base/gstaggregator.h
+gstreamer/usr/include/gstreamer-1.0/gst/base/gstpushsrc.h
+gstreamer/usr/include/gstreamer-1.0/gst/base/gstqueuearray.h
+gstreamer/usr/include/gstreamer-1.0/gst/base/gstflowcombiner.h
+gstreamer/usr/include/gstreamer-1.0/gst/base/gstdataqueue.h
+gstreamer/usr/include/gstreamer-1.0/gst/base/gstadapter.h
+gstreamer/usr/include/gstreamer-1.0/gst/base/gstbytewriter.h
+gstreamer/usr/include/gstreamer-1.0/gst/base/gstbitreader.h
+gstreamer/usr/include/gstreamer-1.0/gst/base/gstbaseparse.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstdevice.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstbuffer.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstregistry.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstiterator.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstpreset.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstdeviceprovider.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstcompat.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstdebugutils.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstparse.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstutils.h
+gstreamer/usr/include/gstreamer-1.0/gst/gststreamcollection.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstobject.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstcontrolsource.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstmemory.h
+gstreamer/usr/include/gstreamer-1.0/gst/gststreams.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstbufferlist.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstdatetime.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstminiobject.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstdynamictypefactory.h
+gstreamer/usr/include/gstreamer-1.0/gst/gsttagsetter.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstvecdeque.h
+gstreamer/usr/include/gstreamer-1.0/gst/gsttypefind.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstpipeline.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstbufferpool.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstenumtypes.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstevent.h
+gstreamer/usr/include/gstreamer-1.0/gst/gsttracer.h
+gstreamer/usr/include/gstreamer-1.0/gst/gsttask.h
+gstreamer/usr/include/gstreamer-1.0/gst/controller/
+gstreamer/usr/include/gstreamer-1.0/gst/controller/gsttriggercontrolsource.h
+gstreamer/usr/include/gstreamer-1.0/gst/controller/controller-prelude.h
+gstreamer/usr/include/gstreamer-1.0/gst/controller/gsttimedvaluecontrolsource.h
+gstreamer/usr/include/gstreamer-1.0/gst/controller/gstinterpolationcontrolsource.h
+gstreamer/usr/include/gstreamer-1.0/gst/controller/gstargbcontrolbinding.h
+gstreamer/usr/include/gstreamer-1.0/gst/controller/gstproxycontrolbinding.h
+gstreamer/usr/include/gstreamer-1.0/gst/controller/gstdirectcontrolbinding.h
+gstreamer/usr/include/gstreamer-1.0/gst/controller/controller-enumtypes.h
+gstreamer/usr/include/gstreamer-1.0/gst/controller/gstlfocontrolsource.h
+gstreamer/usr/include/gstreamer-1.0/gst/controller/controller.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstprotection.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstformat.h
+gstreamer/usr/include/gstreamer-1.0/gst/gststructure.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstcaps.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstallocator.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstversion.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstmessage.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstsegment.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstelement.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstelementfactory.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstpad.h
+gstreamer/usr/include/gstreamer-1.0/gst/net/
+gstreamer/usr/include/gstreamer-1.0/gst/net/gstnettimepacket.h
+gstreamer/usr/include/gstreamer-1.0/gst/net/gstptpclock.h
+gstreamer/usr/include/gstreamer-1.0/gst/net/net-prelude.h
+gstreamer/usr/include/gstreamer-1.0/gst/net/gstnetcontrolmessagemeta.h
+gstreamer/usr/include/gstreamer-1.0/gst/net/net.h
+gstreamer/usr/include/gstreamer-1.0/gst/net/gstnet.h
+gstreamer/usr/include/gstreamer-1.0/gst/net/gstnettimeprovider.h
+gstreamer/usr/include/gstreamer-1.0/gst/net/gstnetaddressmeta.h
+gstreamer/usr/include/gstreamer-1.0/gst/net/gstnetutils.h
+gstreamer/usr/include/gstreamer-1.0/gst/net/gstnetclientclock.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstghostpad.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstmeta.h
+gstreamer/usr/include/gstreamer-1.0/gst/gsturi.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstpluginfeature.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstcapsfeatures.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstidstr.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstpoll.h
+gstreamer/usr/include/gstreamer-1.0/gst/glib-compat.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstbin.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstbytearrayinterface.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstdevicemonitor.h
+gstreamer/usr/include/gstreamer-1.0/gst/gsttaglist.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstparamspecs.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstatomicqueue.h
+gstreamer/usr/include/gstreamer-1.0/gst/gsttracerrecord.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstplugin.h
+gstreamer/usr/include/gstreamer-1.0/gst/gsttypefindfactory.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstcontrolbinding.h
+gstreamer/usr/include/gstreamer-1.0/gst/math-compat.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstinfo.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstvalue.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstcontext.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstconfig.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstchildproxy.h
+gstreamer/usr/include/gstreamer-1.0/gst/gsttoc.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstbus.h
+gstreamer/usr/include/gstreamer-1.0/gst/check/
+gstreamer/usr/include/gstreamer-1.0/gst/check/gstbufferstraw.h
+gstreamer/usr/include/gstreamer-1.0/gst/check/internal-check.h
+gstreamer/usr/include/gstreamer-1.0/gst/check/gsttestclock.h
+gstreamer/usr/include/gstreamer-1.0/gst/check/gstcheck.h
+gstreamer/usr/include/gstreamer-1.0/gst/check/gstconsistencychecker.h
+gstreamer/usr/include/gstreamer-1.0/gst/check/gstharness.h
+gstreamer/usr/include/gstreamer-1.0/gst/check/check-prelude.h
+gstreamer/usr/include/gstreamer-1.0/gst/check/check.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstsample.h
+gstreamer/usr/include/gstreamer-1.0/gst/gsttaskpool.h
+gstreamer/usr/include/gstreamer-1.0/gst/gsttracerfactory.h
+gstreamer/usr/include/gstreamer-1.0/gst/gst.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstdeviceproviderfactory.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstquery.h
+gstreamer/usr/include/gstreamer-1.0/gst/gstclock.h
+gstreamer/usr/bin/
+gstreamer/usr/bin/gst-launch-1.0
+gstreamer/usr/bin/gst-stats-1.0
+gstreamer/usr/bin/gst-tester-1.0
+gstreamer/usr/bin/gst-typefind-1.0
+gstreamer/usr/bin/gst-inspect-1.0
+gstreamer/usr/libexec/
+gstreamer/usr/libexec/gstreamer-1.0/
+gstreamer/usr/libexec/gstreamer-1.0/gst-plugin-scanner
+gstreamer/usr/libexec/gstreamer-1.0/gst-plugins-doc-cache-generator
+gstreamer/usr/libexec/gstreamer-1.0/gst-hotdoc-plugins-scanner
+gstreamer/usr/libexec/gstreamer-1.0/gst-completion-helper
+gstreamer/version
+gstreamer/depends
+gstreamer/preupdate
