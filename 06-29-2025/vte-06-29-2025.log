@@ -1,0 +1,2271 @@
+--2025-06-29 07:10:26--  https://download.gnome.org/sources/vte/0.80/vte-0.80.3.tar.xz
+Resolving download.gnome.org (download.gnome.org)... 2a02:6ea0:c400::54, 2a02:6ea0:c400::53, 79.127.206.207, ...
+Connecting to download.gnome.org (download.gnome.org)|2a02:6ea0:c400::54|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 586568 (573K) [application/octet-stream]
+Saving to: 'vte-0.80.3.tar.xz'
+
+     0K .......... .......... .......... .......... ..........  8% 3.71M 0s
+    50K .......... .......... .......... .......... .......... 17% 8.76M 0s
+   100K .......... .......... .......... .......... .......... 26% 12.2M 0s
+   150K .......... .......... .......... .......... .......... 34% 17.4M 0s
+   200K .......... .......... .......... .......... .......... 43% 24.5M 0s
+   250K .......... .......... .......... .......... .......... 52% 23.6M 0s
+   300K .......... .......... .......... .......... .......... 61% 33.1M 0s
+   350K .......... .......... .......... .......... .......... 69% 25.8M 0s
+   400K .......... .......... .......... .......... .......... 78% 46.4M 0s
+   450K .......... .......... .......... .......... .......... 87% 59.3M 0s
+   500K .......... .......... .......... .......... .......... 96% 54.5M 0s
+   550K .......... .......... ..                              100%  197M=0.04s
+
+2025-06-29 07:10:26 (15.6 MB/s) - 'vte-0.80.3.tar.xz' saved [586568/586568]
+
+vte-0.80.3/
+vte-0.80.3/.dir-locals.el
+vte-0.80.3/.gitattributes
+vte-0.80.3/.gitlab-ci/
+vte-0.80.3/.gitlab-ci/docs.html
+vte-0.80.3/.gitlab-ci/make-release.sh
+vte-0.80.3/.gitlab-ci.yml
+vte-0.80.3/AUTHORS
+vte-0.80.3/COPYING.CC-BY-4-0
+vte-0.80.3/COPYING.GPL3
+vte-0.80.3/COPYING.LGPL3
+vte-0.80.3/COPYING.XTERM
+vte-0.80.3/ChangeLog
+vte-0.80.3/Makefile.meson
+vte-0.80.3/README.md
+vte-0.80.3/bindings/
+vte-0.80.3/bindings/gir/
+vte-0.80.3/bindings/gir/meson.build
+vte-0.80.3/bindings/glade/
+vte-0.80.3/bindings/glade/hicolor_actions_16x16_widget-vte-terminal.png
+vte-0.80.3/bindings/glade/hicolor_actions_22x22_widget-vte-terminal.png
+vte-0.80.3/bindings/glade/meson.build
+vte-0.80.3/bindings/glade/vte.xml.in
+vte-0.80.3/bindings/meson.build
+vte-0.80.3/bindings/vala/
+vte-0.80.3/bindings/vala/Vte-2.91.metadata
+vte-0.80.3/bindings/vala/meson.build
+vte-0.80.3/build-aux/
+vte-0.80.3/build-aux/org.gnome.vte.gtk3.json
+vte-0.80.3/build-aux/org.gnome.vte.gtk4.json
+vte-0.80.3/doc/
+vte-0.80.3/doc/ambiguous.txt
+vte-0.80.3/doc/boxes.txt
+vte-0.80.3/doc/reference/
+vte-0.80.3/doc/reference/licence.md
+vte-0.80.3/doc/reference/meson.build
+vte-0.80.3/doc/reference/vte-gtk3.toml.in
+vte-0.80.3/doc/reference/vte-gtk4.toml.in
+vte-0.80.3/doc/rewrap.txt
+vte-0.80.3/doc/scrolling-region.txt
+vte-0.80.3/meson.build
+vte-0.80.3/meson_changelog.sh
+vte-0.80.3/meson_options.txt
+vte-0.80.3/perf/
+vte-0.80.3/perf/1fb.sh
+vte-0.80.3/perf/256test.sh
+vte-0.80.3/perf/UTF-8-demo.txt
+vte-0.80.3/perf/UTF-8-test.txt
+vte-0.80.3/perf/bidi-demo.txt
+vte-0.80.3/perf/bidi.sh
+vte-0.80.3/perf/block.py
+vte-0.80.3/perf/checkered.sh
+vte-0.80.3/perf/deco.sh
+vte-0.80.3/perf/devanagari.txt
+vte-0.80.3/perf/hyperlink-demo.txt
+vte-0.80.3/perf/img.sh
+vte-0.80.3/perf/inc.sh
+vte-0.80.3/perf/legacy.py
+vte-0.80.3/perf/line-drawing-missing.sh
+vte-0.80.3/perf/printwinsize.py
+vte-0.80.3/perf/random.sh
+vte-0.80.3/perf/scroll.vim
+vte-0.80.3/perf/sgr-test.sh
+vte-0.80.3/perf/utf8.sh
+vte-0.80.3/perf/vim.sh
+vte-0.80.3/po/
+vte-0.80.3/po/LINGUAS
+vte-0.80.3/po/POTFILES.in
+vte-0.80.3/po/POTFILES.skip
+vte-0.80.3/po/ab.po
+vte-0.80.3/po/am.po
+vte-0.80.3/po/an.po
+vte-0.80.3/po/ang.po
+vte-0.80.3/po/ar.po
+vte-0.80.3/po/as.po
+vte-0.80.3/po/ast.po
+vte-0.80.3/po/az.po
+vte-0.80.3/po/be.po
+vte-0.80.3/po/be@latin.po
+vte-0.80.3/po/bg.po
+vte-0.80.3/po/bn.po
+vte-0.80.3/po/bn_IN.po
+vte-0.80.3/po/bs.po
+vte-0.80.3/po/ca.po
+vte-0.80.3/po/ca@valencia.po
+vte-0.80.3/po/ckb.po
+vte-0.80.3/po/cs.po
+vte-0.80.3/po/cy.po
+vte-0.80.3/po/da.po
+vte-0.80.3/po/de.po
+vte-0.80.3/po/dz.po
+vte-0.80.3/po/el.po
+vte-0.80.3/po/en@shaw.po
+vte-0.80.3/po/en_CA.po
+vte-0.80.3/po/en_GB.po
+vte-0.80.3/po/eo.po
+vte-0.80.3/po/es.po
+vte-0.80.3/po/et.po
+vte-0.80.3/po/eu.po
+vte-0.80.3/po/fa.po
+vte-0.80.3/po/fi.po
+vte-0.80.3/po/fr.po
+vte-0.80.3/po/fur.po
+vte-0.80.3/po/ga.po
+vte-0.80.3/po/gd.po
+vte-0.80.3/po/gl.po
+vte-0.80.3/po/gu.po
+vte-0.80.3/po/he.po
+vte-0.80.3/po/hi.po
+vte-0.80.3/po/hr.po
+vte-0.80.3/po/hu.po
+vte-0.80.3/po/id.po
+vte-0.80.3/po/is.po
+vte-0.80.3/po/it.po
+vte-0.80.3/po/ja.po
+vte-0.80.3/po/ka.po
+vte-0.80.3/po/kab.po
+vte-0.80.3/po/kk.po
+vte-0.80.3/po/kn.po
+vte-0.80.3/po/ko.po
+vte-0.80.3/po/ku.po
+vte-0.80.3/po/ky.po
+vte-0.80.3/po/li.po
+vte-0.80.3/po/lt.po
+vte-0.80.3/po/lv.po
+vte-0.80.3/po/mai.po
+vte-0.80.3/po/meson.build
+vte-0.80.3/po/mi.po
+vte-0.80.3/po/mjw.po
+vte-0.80.3/po/mk.po
+vte-0.80.3/po/ml.po
+vte-0.80.3/po/mn.po
+vte-0.80.3/po/mr.po
+vte-0.80.3/po/ms.po
+vte-0.80.3/po/nb.po
+vte-0.80.3/po/nds.po
+vte-0.80.3/po/ne.po
+vte-0.80.3/po/nl.po
+vte-0.80.3/po/nn.po
+vte-0.80.3/po/oc.po
+vte-0.80.3/po/or.po
+vte-0.80.3/po/pa.po
+vte-0.80.3/po/pl.po
+vte-0.80.3/po/pt.po
+vte-0.80.3/po/pt_BR.po
+vte-0.80.3/po/ro.po
+vte-0.80.3/po/ru.po
+vte-0.80.3/po/rw.po
+vte-0.80.3/po/si.po
+vte-0.80.3/po/sk.po
+vte-0.80.3/po/sl.po
+vte-0.80.3/po/sq.po
+vte-0.80.3/po/sr.po
+vte-0.80.3/po/sr@latin.po
+vte-0.80.3/po/sv.po
+vte-0.80.3/po/ta.po
+vte-0.80.3/po/te.po
+vte-0.80.3/po/tg.po
+vte-0.80.3/po/th.po
+vte-0.80.3/po/tr.po
+vte-0.80.3/po/ug.po
+vte-0.80.3/po/uk.po
+vte-0.80.3/po/uz.po
+vte-0.80.3/po/uz@cyrillic.po
+vte-0.80.3/po/vi.po
+vte-0.80.3/po/wa.po
+vte-0.80.3/po/xh.po
+vte-0.80.3/po/zh_CN.po
+vte-0.80.3/po/zh_HK.po
+vte-0.80.3/po/zh_TW.po
+vte-0.80.3/src/
+vte-0.80.3/src/app/
+vte-0.80.3/src/app/app-gtk3.css
+vte-0.80.3/src/app/app-gtk3.gresource.xml
+vte-0.80.3/src/app/app-gtk4.css
+vte-0.80.3/src/app/app-gtk4.gresource.xml
+vte-0.80.3/src/app/app.cc
+vte-0.80.3/src/app/appmenu-gtk3.ui
+vte-0.80.3/src/app/appmenu-gtk4.ui
+vte-0.80.3/src/app/meson.build
+vte-0.80.3/src/app/meson_desktopfile.py
+vte-0.80.3/src/app/search-popover-gtk3.ui
+vte-0.80.3/src/app/search-popover-gtk4.ui
+vte-0.80.3/src/app/vte.desktop.in
+vte-0.80.3/src/app/window-gtk3.ui
+vte-0.80.3/src/app/window-gtk4.ui
+vte-0.80.3/src/attr.hh
+vte-0.80.3/src/bidi.cc
+vte-0.80.3/src/bidi.hh
+vte-0.80.3/src/bidiarrays.hh
+vte-0.80.3/src/box-drawing.hh
+vte-0.80.3/src/buffer.h
+vte-0.80.3/src/cairo-glue.hh
+vte-0.80.3/src/caps.hh
+vte-0.80.3/src/cell.hh
+vte-0.80.3/src/check-doc-syntax.sh
+vte-0.80.3/src/chunk.cc
+vte-0.80.3/src/chunk.hh
+vte-0.80.3/src/clipboard-gtk.cc
+vte-0.80.3/src/clipboard-gtk.hh
+vte-0.80.3/src/color-names-tests.hh
+vte-0.80.3/src/color-names.hh
+vte-0.80.3/src/color-palette.hh
+vte-0.80.3/src/color-parser.cc
+vte-0.80.3/src/color-parser.hh
+vte-0.80.3/src/color-test.cc
+vte-0.80.3/src/color-triple.hh
+vte-0.80.3/src/color.hh
+vte-0.80.3/src/cxx-utils.hh
+vte-0.80.3/src/debug.cc
+vte-0.80.3/src/debug.h
+vte-0.80.3/src/decoder-cat.cc
+vte-0.80.3/src/decset
+vte-0.80.3/src/drawing-cairo.cc
+vte-0.80.3/src/drawing-cairo.hh
+vte-0.80.3/src/drawing-context.cc
+vte-0.80.3/src/drawing-context.hh
+vte-0.80.3/src/drawing-gsk.cc
+vte-0.80.3/src/drawing-gsk.hh
+vte-0.80.3/src/dumpkeys.c
+vte-0.80.3/src/fonts-pangocairo.cc
+vte-0.80.3/src/fonts-pangocairo.hh
+vte-0.80.3/src/fwd.hh
+vte-0.80.3/src/gdkarrayimpl.c
+vte-0.80.3/src/glib-glue.cc
+vte-0.80.3/src/glib-glue.hh
+vte-0.80.3/src/gobject-glue.hh
+vte-0.80.3/src/graphene-glue.hh
+vte-0.80.3/src/gtk-glue.hh
+vte-0.80.3/src/icu-converter.cc
+vte-0.80.3/src/icu-converter.hh
+vte-0.80.3/src/icu-decoder.cc
+vte-0.80.3/src/icu-decoder.hh
+vte-0.80.3/src/icu-glue.cc
+vte-0.80.3/src/icu-glue.hh
+vte-0.80.3/src/keymap.cc
+vte-0.80.3/src/keymap.h
+vte-0.80.3/src/libc-glue.hh
+vte-0.80.3/src/marshal.list
+vte-0.80.3/src/meson.build
+vte-0.80.3/src/mev.c
+vte-0.80.3/src/minifont-coverage.py
+vte-0.80.3/src/minifont-test.cc
+vte-0.80.3/src/minifont.cc
+vte-0.80.3/src/minifont.hh
+vte-0.80.3/src/missing.cc
+vte-0.80.3/src/missing.hh
+vte-0.80.3/src/modes-test.cc
+vte-0.80.3/src/modes.hh
+vte-0.80.3/src/modes.py
+vte-0.80.3/src/osc
+vte-0.80.3/src/osc-colors.cc
+vte-0.80.3/src/osc-colors.hh
+vte-0.80.3/src/pango-glue.hh
+vte-0.80.3/src/parser-arg.hh
+vte-0.80.3/src/parser-cat.cc
+vte-0.80.3/src/parser-charset-tables.hh
+vte-0.80.3/src/parser-charset.hh
+vte-0.80.3/src/parser-decsgr.hh
+vte-0.80.3/src/parser-glue.hh
+vte-0.80.3/src/parser-osc.hh
+vte-0.80.3/src/parser-reply.hh
+vte-0.80.3/src/parser-seq.py
+vte-0.80.3/src/parser-sgr.hh
+vte-0.80.3/src/parser-string.hh
+vte-0.80.3/src/parser-test.cc
+vte-0.80.3/src/parser.cc
+vte-0.80.3/src/parser.hh
+vte-0.80.3/src/pastify-test.cc
+vte-0.80.3/src/pastify.cc
+vte-0.80.3/src/pastify.hh
+vte-0.80.3/src/pcre2-glue.hh
+vte-0.80.3/src/pty.cc
+vte-0.80.3/src/pty.hh
+vte-0.80.3/src/reaper.cc
+vte-0.80.3/src/reaper.hh
+vte-0.80.3/src/rect.hh
+vte-0.80.3/src/reflect.c
+vte-0.80.3/src/refptr-test.cc
+vte-0.80.3/src/refptr.hh
+vte-0.80.3/src/regex.cc
+vte-0.80.3/src/regex.hh
+vte-0.80.3/src/ring.cc
+vte-0.80.3/src/ring.hh
+vte-0.80.3/src/ringview.cc
+vte-0.80.3/src/ringview.hh
+vte-0.80.3/src/scheduler.cc
+vte-0.80.3/src/scheduler.h
+vte-0.80.3/src/sgr.hh
+vte-0.80.3/src/slowcat.c
+vte-0.80.3/src/spawn.cc
+vte-0.80.3/src/spawn.hh
+vte-0.80.3/src/std-glue.hh
+vte-0.80.3/src/systemd.cc
+vte-0.80.3/src/systemd.hh
+vte-0.80.3/src/tabstops-test.cc
+vte-0.80.3/src/tabstops.hh
+vte-0.80.3/src/termprops-test.cc
+vte-0.80.3/src/termprops.hh
+vte-0.80.3/src/test-vte-urlencode-cwd.sh
+vte-0.80.3/src/unicode-width-generate.py
+vte-0.80.3/src/unicode-width-test.cc
+vte-0.80.3/src/unicode-width.hh
+vte-0.80.3/src/urlencode.cc
+vte-0.80.3/src/utf8-test.cc
+vte-0.80.3/src/utf8.cc
+vte-0.80.3/src/utf8.hh
+vte-0.80.3/src/uuid-test.cc
+vte-0.80.3/src/uuid.cc
+vte-0.80.3/src/uuid.hh
+vte-0.80.3/src/vte/
+vte-0.80.3/src/vte/meson.build
+vte-0.80.3/src/vte/vte.h
+vte-0.80.3/src/vte/vtedeprecated.h
+vte-0.80.3/src/vte/vteenums.h
+vte-0.80.3/src/vte/vteglobals.h
+vte-0.80.3/src/vte/vtemacros.h
+vte-0.80.3/src/vte/vtepty.h
+vte-0.80.3/src/vte/vteregex.h
+vte-0.80.3/src/vte/vteterminal.h
+vte-0.80.3/src/vte/vtetypebuiltins.h
+vte-0.80.3/src/vte/vteuuid.h
+vte-0.80.3/src/vte/vteversion.h.in
+vte-0.80.3/src/vte-glue.hh
+vte-0.80.3/src/vte-gtk4.gresource.xml
+vte-0.80.3/src/vte-spawn-.scope.conf
+vte-0.80.3/src/vte.cc
+vte-0.80.3/src/vte.csh.in
+vte-0.80.3/src/vte.gresource.xml
+vte-0.80.3/src/vte.sh.in
+vte-0.80.3/src/vteaccess-gtk4.cc
+vte-0.80.3/src/vteaccess-gtk4.h
+vte-0.80.3/src/vteaccess.cc
+vte-0.80.3/src/vteaccess.h
+vte-0.80.3/src/vtedefines.hh
+vte-0.80.3/src/vtegtk.cc
+vte-0.80.3/src/vtegtk.hh
+vte-0.80.3/src/vteinternal.hh
+vte-0.80.3/src/vtepty.cc
+vte-0.80.3/src/vteptyinternal.hh
+vte-0.80.3/src/vteregex.cc
+vte-0.80.3/src/vteregexinternal.hh
+vte-0.80.3/src/vterowdata.cc
+vte-0.80.3/src/vterowdata.hh
+vte-0.80.3/src/vteseq.cc
+vte-0.80.3/src/vtespawn.cc
+vte-0.80.3/src/vtespawn.hh
+vte-0.80.3/src/vtestream-base.h
+vte-0.80.3/src/vtestream-file.h
+vte-0.80.3/src/vtestream.cc
+vte-0.80.3/src/vtestream.h
+vte-0.80.3/src/vtetypebuiltins.cc.template
+vte-0.80.3/src/vtetypebuiltins.h.template
+vte-0.80.3/src/vtetypes.cc
+vte-0.80.3/src/vtetypes.hh
+vte-0.80.3/src/vteunistr.cc
+vte-0.80.3/src/vteunistr.h
+vte-0.80.3/src/vteutils.cc
+vte-0.80.3/src/vteutils.h
+vte-0.80.3/src/vteuuid.cc
+vte-0.80.3/src/vteuuidinternal.hh
+vte-0.80.3/src/widget.cc
+vte-0.80.3/src/widget.hh
+vte-0.80.3/src/window
+vte-0.80.3/src/xticker.c
+vte-0.80.3/subprojects/
+vte-0.80.3/subprojects/fast_float.wrap
+vte-0.80.3/subprojects/packagefiles/
+vte-0.80.3/subprojects/packagefiles/fast_float/
+vte-0.80.3/subprojects/packagefiles/fast_float/meson.build
+vte-0.80.3/vte.doap
+The Meson build system
+Version: 1.7.0
+Source dir: /blfs/builds/vte-0.80.3
+Build dir: /blfs/builds/vte-0.80.3/build
+Build type: native build
+Project name: vte
+Project version: 0.80.3
+C compiler for the host machine: cc (gcc 14.2.0 "cc (GCC) 14.2.0")
+C linker for the host machine: cc ld.bfd 2.44
+C++ compiler for the host machine: c++ (gcc 14.2.0 "c++ (GCC) 14.2.0")
+C++ linker for the host machine: c++ ld.bfd 2.44
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Compiler for C supports arguments -std=gnu11: YES 
+../meson.build:143: WARNING: Consider using the built-in option for language standard version instead of using "-std=gnu11".
+Compiler for C++ supports arguments -std=gnu++20: YES 
+../meson.build:151: WARNING: Consider using the built-in option for language standard version instead of using "-std=gnu++20".
+Program python3 (dataclasses) found: YES (/usr/bin/python3) modules: dataclasses
+Header "sys/ioctl.h" has symbol "TIOCGWINSZ" : YES 
+Library m found: YES
+Checking if "fork" compiles: YES 
+Checking if "grantpt" compiles: YES 
+Checking if "posix_openpt" compiles: YES 
+Checking if "ptsname" compiles: YES 
+Checking if "tcgetattr" compiles: YES 
+Checking if "unlockpt" compiles: YES 
+Checking if "explicit_bzero" compiles: YES 
+Checking if "fdwalk" compiles: NO 
+Checking if "pread" compiles: YES 
+Checking if "pwrite" compiles: YES 
+Checking if "strchrnul" compiles: YES 
+Checking if "close_range" compiles: YES 
+Checking if "ceil" with dependency -lm compiles: YES 
+Checking if "floor" with dependency -lm compiles: YES 
+Checking if "round" with dependency -lm compiles: YES 
+Compiler for C supports arguments -Wall: YES 
+Compiler for C supports arguments -Wextra: YES 
+Compiler for C supports arguments -Wcast-align: YES 
+Compiler for C supports arguments -Wcast-function-type: YES 
+Compiler for C supports arguments -Wclobbered: YES 
+Compiler for C supports arguments -Wempty-body: YES 
+Compiler for C supports arguments -Wendif-labels: YES 
+Compiler for C supports arguments -Werror=init-self: YES 
+Compiler for C supports arguments -Werror=missing-include-dirs: YES 
+Compiler for C supports arguments -Werror=pointer-arith: YES 
+Compiler for C supports arguments -Wfloat-equal: YES 
+Compiler for C supports arguments -Wignored-qualifiers: YES 
+Compiler for C supports arguments -Winvalid-pch: YES 
+Compiler for C supports arguments -Wlogical-op: YES 
+Compiler for C supports arguments -Wmisleading-indentation: YES 
+Compiler for C supports arguments -Wmissing-declarations: YES 
+Compiler for C supports arguments -Wmissing-field-initializers: YES 
+Compiler for C supports arguments -Wmissing-format-attribute: YES 
+Compiler for C supports arguments -Wmissing-include-dirs: YES 
+Compiler for C supports arguments -Wmissing-noreturn: YES 
+Compiler for C supports arguments -Wno-deprecated-declarations: YES 
+Compiler for C supports arguments -Wno-address-of-packed-member: YES 
+Compiler for C supports arguments -Wno-c99-designator: NO 
+Compiler for C supports arguments -Wno-missing-field-initializers: YES 
+Compiler for C supports arguments -Wno-packed: YES 
+Compiler for C supports arguments -Wno-switch-enum: YES 
+Compiler for C supports arguments -Wno-unused-parameter: YES 
+Compiler for C supports arguments -Wno-volatile: NO 
+Compiler for C supports arguments -Wshadow: YES 
+Compiler for C supports arguments -Wshift-negative-value: YES 
+Compiler for C supports arguments -Wsign-compare: YES 
+Compiler for C supports arguments -Wstrict-aliasing=2: YES 
+Compiler for C supports arguments -Wtype-limits: YES 
+Compiler for C supports arguments -Wundef: YES 
+Compiler for C supports arguments -Wuninitialized: YES 
+Compiler for C supports arguments -Wuninitialized: YES (cached)
+Compiler for C supports arguments -Wunsafe-loop-optimizations: YES 
+Compiler for C supports arguments -Wunused: YES 
+Compiler for C supports arguments -Wunused-but-set-parameter: YES 
+Compiler for C supports arguments -Wunused-but-set-variable: YES 
+Compiler for C supports arguments -Wunused-function: YES 
+Compiler for C supports arguments -Wunused-label: YES 
+Compiler for C supports arguments -Wunused-local-typedefs: YES 
+Compiler for C supports arguments -Wunused-value: YES 
+Compiler for C supports arguments -Wunused-variable: YES 
+Compiler for C supports arguments -Wvla: YES 
+Compiler for C supports arguments -Wwrite-strings: YES 
+Compiler for C supports arguments -fdiagnostics-show-option: YES 
+Compiler for C supports arguments -fno-common: YES 
+Compiler for C supports arguments -fno-semantic-interposition: YES 
+Compiler for C supports arguments -fno-strict-aliasing: YES 
+Compiler for C supports arguments -Waggregate-return: YES 
+Compiler for C supports arguments -Werror=implicit-function-declaration: YES 
+Compiler for C supports arguments -Werror=missing-prototypes: YES 
+Compiler for C supports arguments -Wimplicit: YES 
+Compiler for C supports arguments -Wimplicit-fallthrough=3: YES 
+Compiler for C supports arguments -Wmissing-parameter-type: YES 
+Compiler for C supports arguments -Wnested-externs: YES 
+Compiler for C supports arguments -Wold-style-declaration: YES 
+Compiler for C supports arguments -Wold-style-definition: YES 
+Compiler for C supports arguments -Woverride-init: YES 
+Compiler for C supports arguments -Wsign-compare: YES (cached)
+Compiler for C supports arguments -Wstrict-prototypes: YES 
+Compiler for C++ supports arguments -Wall: YES 
+Compiler for C++ supports arguments -Wextra: YES 
+Compiler for C++ supports arguments -Wcast-align: YES 
+Compiler for C++ supports arguments -Wcast-function-type: YES 
+Compiler for C++ supports arguments -Wclobbered: YES 
+Compiler for C++ supports arguments -Wempty-body: YES 
+Compiler for C++ supports arguments -Wendif-labels: YES 
+Compiler for C++ supports arguments -Werror=init-self: YES 
+Compiler for C++ supports arguments -Werror=missing-include-dirs: YES 
+Compiler for C++ supports arguments -Werror=pointer-arith: YES 
+Compiler for C++ supports arguments -Wfloat-equal: YES 
+Compiler for C++ supports arguments -Wignored-qualifiers: YES 
+Compiler for C++ supports arguments -Winvalid-pch: YES 
+Compiler for C++ supports arguments -Wlogical-op: YES 
+Compiler for C++ supports arguments -Wmisleading-indentation: YES 
+Compiler for C++ supports arguments -Wmissing-declarations: YES 
+Compiler for C++ supports arguments -Wmissing-field-initializers: YES 
+Compiler for C++ supports arguments -Wmissing-format-attribute: YES 
+Compiler for C++ supports arguments -Wmissing-include-dirs: YES 
+Compiler for C++ supports arguments -Wmissing-noreturn: YES 
+Compiler for C++ supports arguments -Wno-deprecated-declarations: YES 
+Compiler for C++ supports arguments -Wno-address-of-packed-member: YES 
+Compiler for C++ supports arguments -Wno-c99-designator: NO 
+Compiler for C++ supports arguments -Wno-missing-field-initializers: YES 
+Compiler for C++ supports arguments -Wno-packed: YES 
+Compiler for C++ supports arguments -Wno-switch-enum: YES 
+Compiler for C++ supports arguments -Wno-unused-parameter: YES 
+Compiler for C++ supports arguments -Wno-volatile: YES 
+Compiler for C++ supports arguments -Wshadow: YES 
+Compiler for C++ supports arguments -Wshift-negative-value: YES 
+Compiler for C++ supports arguments -Wsign-compare: YES 
+Compiler for C++ supports arguments -Wstrict-aliasing=2: YES 
+Compiler for C++ supports arguments -Wtype-limits: YES 
+Compiler for C++ supports arguments -Wundef: YES 
+Compiler for C++ supports arguments -Wuninitialized: YES 
+Compiler for C++ supports arguments -Wuninitialized: YES (cached)
+Compiler for C++ supports arguments -Wunsafe-loop-optimizations: YES 
+Compiler for C++ supports arguments -Wunused: YES 
+Compiler for C++ supports arguments -Wunused-but-set-parameter: YES 
+Compiler for C++ supports arguments -Wunused-but-set-variable: YES 
+Compiler for C++ supports arguments -Wunused-function: YES 
+Compiler for C++ supports arguments -Wunused-label: YES 
+Compiler for C++ supports arguments -Wunused-local-typedefs: YES 
+Compiler for C++ supports arguments -Wunused-value: YES 
+Compiler for C++ supports arguments -Wunused-variable: YES 
+Compiler for C++ supports arguments -Wvla: YES 
+Compiler for C++ supports arguments -Wwrite-strings: YES 
+Cloning into 'fast_float'...
+Compiler for C++ supports arguments -fdiagnostics-show-option: YES 
+Compiler for C++ supports arguments -fno-common: YES 
+Compiler for C++ supports arguments -fno-semantic-interposition: YES 
+Compiler for C++ supports arguments -fno-strict-aliasing: YES 
+Compiler for C++ supports arguments -Wimplicit-fallthrough=5: YES 
+Compiler for C++ supports arguments -Wnon-virtual-dtor: YES 
+Compiler for C++ supports arguments -Wstrict-null-sentinel: YES 
+Compiler for C++ supports arguments -fvisibility-inlines-hidden: YES 
+Compiler for C++ supports arguments -fvisibility=hidden: YES 
+Compiler for C++ supports arguments -fvisibility-inlines-hidden: YES (cached)
+Compiler for C++ supports arguments -fvisibility=hidden: YES (cached)
+Compiler for C supports arguments -Werror=format=2 -Werror=format-nonliteral -Werror=format-security: YES 
+Compiler for C++ supports arguments -Werror=format=2 -Werror=format-nonliteral -Werror=format-security: YES 
+Checking if "excess precision check" compiles: NO 
+../meson.build:612: WARNING: Consider using the built-in warning_level option instead of using "-Wall".
+../meson.build:612: WARNING: Consider using the built-in warning_level option instead of using "-Wextra".
+../meson.build:613: WARNING: Consider using the built-in warning_level option instead of using "-Wall".
+../meson.build:613: WARNING: Consider using the built-in warning_level option instead of using "-Wextra".
+Compiler for C supports link arguments -Wl,-Bsymbolic: YES 
+Compiler for C++ supports link arguments -Wl,-Bsymbolic: YES 
+Compiler for C supports link arguments -Wl,-Bsymbolic-functions: YES 
+Compiler for C++ supports link arguments -Wl,-Bsymbolic-functions: YES 
+Compiler for C supports link arguments -fstack-protector: YES 
+Compiler for C++ supports link arguments -fstack-protector: YES 
+Compiler for C supports link arguments -fstack-protector-strong: YES 
+Compiler for C++ supports link arguments -fstack-protector-strong: YES 
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.0
+Run-time dependency cairo found: YES 1.18.4
+Run-time dependency cairo-gobject found: YES 1.18.4
+Run-time dependency gio-2.0 found: YES 2.84.3
+Run-time dependency glib-2.0 found: YES 2.84.3
+Run-time dependency gobject-2.0 found: YES 2.84.3
+Run-time dependency pango found: YES 1.56.3
+Run-time dependency libpcre2-8 found: YES 10.45
+Run-time dependency threads found: YES
+Run-time dependency liblz4 found: YES 1.10.0
+Run-time dependency gnutls found: YES 3.8.9
+Run-time dependency gtk+-3.0 found: YES 3.24.49
+Run-time dependency gtk4 found: YES 4.18.6
+Run-time dependency icu-uc found: YES 77.1
+Run-time dependency libsystemd found: YES 257
+Checking if "system fast_float usability check" compiles: NO 
+Found CMake: /usr/bin/cmake (4.0.3)
+Run-time dependency fast_float found: NO (tried pkgconfig and cmake)
+Looking for a fallback subproject for the dependency fast_float
+
+Executing subproject fast_float 
+
+fast_float| Project name: fast_float
+fast_float| Project version: 6.1.6
+fast_float| C++ compiler for the host machine: c++ (gcc 14.2.0 "c++ (GCC) 14.2.0")
+fast_float| C++ linker for the host machine: c++ ld.bfd 2.44
+fast_float| Build targets in project: 0
+fast_float| Subproject fast_float finished.
+
+Dependency fast_float found: YES 6.1.6 (overridden)
+Configuring config.h using configuration
+Configuring vteversion.h using configuration
+Program glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Dependency gio-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Dependency glib-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/glib-genmarshal found: YES (/usr/bin/glib-genmarshal)
+Dependency gio-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Configuring vte.csh using configuration
+Configuring vte.sh using configuration
+Dependency gio-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Dependency gio-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Configuring org.gnome.Vte.App.Gtk3.desktop using configuration
+Configuring org.gnome.Vte.App.Gtk4.desktop using configuration
+Configuring vte-2.91.xml using configuration
+Run-time dependency gobject-introspection-1.0 found: YES 1.84.0
+Dependency gobject-introspection-1.0 found: YES 1.84.0 (cached)
+Dependency gobject-introspection-1.0 found: YES 1.84.0 (cached)
+Program /usr/bin/g-ir-scanner found: YES (/usr/bin/g-ir-scanner)
+Dependency gobject-introspection-1.0 found: YES 1.84.0 (cached)
+Program /usr/bin/g-ir-compiler found: YES (/usr/bin/g-ir-compiler)
+../bindings/vala/meson.build:19: WARNING: add_languages is missing native:, assuming languages are wanted for both host and build.
+Vala compiler for the host machine: valac (valac 0.56.18)
+Library posix found: YES
+Program vapigen found: YES (/usr/bin/vapigen)
+Program vapigen found: YES (/usr/bin/vapigen)
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Program msginit found: YES (/usr/bin/msginit)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program xgettext found: YES (/usr/bin/xgettext)
+Program meson_changelog.sh found: YES (/blfs/builds/vte-0.80.3/meson_changelog.sh)
+Configuring Makefile using configuration
+Configuring .gitignore with command
+Message: 
+Configuration for VTE:
+
+  Version:      0.80.3
+
+  C compiler:   gcc (version 14.2.0)
+  C++ compiler: gcc (version 14.2.0)
+
+  Coverage:     false
+  Debug:        false
+
+  A11y:         true
+  Docs:         false
+  FRIBIDI:      false
+  GNUTLS:       true
+  GTK+ 3.0:     true
+  GTK+ 4.0:     true
+  ICU:          true
+  GIR:          true
+  systemd:      true
+  Glade:        true
+  Vala:         true
+
+  Prefix:       /usr
+
+Message: This is a stable release.
+Build targets in project: 159
+
+vte 0.80.3
+
+  Subprojects
+    fast_float: YES
+
+  User defined options
+    buildtype : release
+    fribidi   : false
+    prefix    : /usr
+
+Found ninja-1.13.0 at /usr/bin/ninja
+[1/306] Generating src/vteresources_c with a custom command
+[2/306] Generating src/vteresources_h with a custom command
+[3/306] Generating src/vteresources-gtk4.cc_c with a custom command
+[4/306] Generating src/vteresources-gtk4.cc_h with a custom command
+[5/306] Compiling C++ object src/preprocessor_0.p/minifont.cc.i
+[6/306] Generating src/app/resources-gtk3.cc_c with a custom command
+[7/306] Generating src/app/resources-gtk4.cc_c with a custom command
+[8/306] Compiling C++ object src/preprocessor_1.p/minifont.cc.i
+[9/306] Generating src/app/resources-gtk4.cc_h with a custom command
+[10/306] Generating src/app/resources-gtk3.cc_h with a custom command
+[11/306] Compiling C++ object src/decoder-cat.p/utf8.cc.o
+[12/306] Generating glib marshaller header src/marshal_h
+[13/306] Generating src/vte/vtetypebuiltins-gtk4.h with a custom command
+[14/306] Generating src/vte/vtetypebuiltins-gtk3.h with a custom command
+[15/306] Generating src/vte/vtetypebuiltins-gtk4.cc with a custom command
+[16/306] Generating src/vte/vtetypebuiltins-gtk3.cc with a custom command
+[17/306] Compiling C++ object src/vte-urlencode-cwd.p/urlencode.cc.o
+[18/306] Generating glib marshaller source src/marshal_c
+[19/306] Generating src/minifont-coverage-gtk3.inc with a custom command
+[20/306] Generating src/minifont-coverage-tests-gtk4.inc with a custom command
+[21/306] Compiling C object src/dumpkeys.p/dumpkeys.c.o
+[22/306] Generating src/modes with a custom command
+[23/306] Generating src/minifont-coverage-tests-gtk3.inc with a custom command
+[24/306] Compiling C++ object src/decoder-cat.p/debug.cc.o
+[25/306] Generating src/minifont-coverage-gtk4.inc with a custom command
+[26/306] Compiling C object src/slowcat.p/slowcat.c.o
+[27/306] Compiling C object src/xticker.p/xticker.c.o
+[28/306] Compiling C++ object src/test-colors.p/debug.cc.o
+[29/306] Compiling C object src/mev.p/mev.c.o
+[30/306] Compiling C++ object src/test-reaper.p/debug.cc.o
+[31/306] Compiling C++ object src/test-minifont-gtk3.p/minifont-test.cc.o
+[32/306] Compiling C++ object src/test-minifont-gtk4.p/minifont-test.cc.o
+[33/306] Compiling C++ object src/test-reaper.p/reaper.cc.o
+[34/306] Compiling C++ object src/test-stream.p/vteutils.cc.o
+[35/306] Compiling C++ object src/test-termprops.p/debug.cc.o
+[36/306] Generating src/parser-seq with a custom command
+[37/306] Compiling C object src/reflect-vte.p/reflect.c.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/reflect.c:24:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[38/306] Compiling C object src/reflect-textview.p/reflect.c.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/reflect.c:24:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[39/306] Compiling C object src/libvte-2.91.so.0.8000.3.p/meson-generated_.._vteresources.c.o
+[40/306] Compiling C++ object src/test-pastify.p/pastify.cc.o
+[41/306] Compiling C object src/libvte-2.91.so.0.8000.3.p/meson-generated_.._marshal.c.o
+[42/306] Compiling C++ object src/test-modes.p/modes-test.cc.o
+[43/306] Compiling C++ object src/test-tabstops.p/tabstops-test.cc.o
+[44/306] Compiling C++ object src/decoder-cat.p/icu-decoder.cc.o
+[45/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/debug.cc.o
+[46/306] Compiling C++ object src/decoder-cat.p/icu-converter.cc.o
+[47/306] Compiling C++ object src/decoder-cat.p/glib-glue.cc.o
+[48/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/utf8.cc.o
+[49/306] Compiling C++ object src/test-unicode-width.p/unicode-width-test.cc.o
+[50/306] Compiling C++ object src/test-refptr.p/refptr-test.cc.o
+[51/306] Compiling C++ object src/test-colors.p/color-test.cc.o
+[52/306] Compiling C++ object src/test-colors.p/glib-glue.cc.o
+[53/306] Compiling C++ object src/test-colors.p/color-parser.cc.o
+[54/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/meson-generated_.._vte_vtetypebuiltins-gtk3.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/vte/vte.h:21,
+                 from src/vte/vtetypebuiltins-gtk3.cc:4:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[55/306] Compiling C++ object src/test-pastify.p/pastify-test.cc.o
+[56/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/pastify.cc.o
+[57/306] Compiling C++ object src/decoder-cat.p/decoder-cat.cc.o
+[58/306] Compiling C++ object src/test-termprops.p/uuid.cc.o
+[59/306] Compiling C++ object src/test-termprops.p/glib-glue.cc.o
+[60/306] Compiling C++ object src/test-termprops.p/color-parser.cc.o
+[61/306] Compiling C++ object src/decoder-cat.p/icu-glue.cc.o
+[62/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/parser.cc.o
+[63/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/reaper.cc.o
+[64/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/missing.cc.o
+[65/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/glib-glue.cc.o
+[66/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/color-parser.cc.o
+[67/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/osc-colors.cc.o
+[68/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/chunk.cc.o
+[69/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/keymap.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/keymap.cc:27:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[70/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/uuid.cc.o
+[71/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/regex.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/vte/vtemacros.h:24,
+                 from ../src/vte/vteregex.h:28,
+                 from ../src/regex.cc:22:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[72/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/scheduler.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/scheduler.h:18,
+                 from ../src/scheduler.cc:20:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[73/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/vtespawn.cc.o
+[74/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/pty.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/vte/vte.h:21,
+                 from ../src/pty.cc:34:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[75/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/vteuuid.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/vte/vtemacros.h:24,
+                 from ../src/vteuuid.cc:30:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[76/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/vteunistr.cc.o
+[77/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/ring.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/vte/vte.h:21,
+                 from ../src/ring.hh:25,
+                 from ../src/ring.cc:23:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[78/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/fonts-pangocairo.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/fonts-pangocairo.hh:25,
+                 from ../src/fonts-pangocairo.cc:21:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[79/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/drawing-context.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/vte/vte.h:21,
+                 from ../src/ring.hh:25,
+                 from ../src/bidi.hh:22,
+                 from ../src/drawing-context.cc:24:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[80/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/vteutils.cc.o
+[81/306] Compiling C++ object src/test-stream.p/vtestream.cc.o
+[82/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/vtestream.cc.o
+[83/306] Compiling C object src/libvte-2.91-gtk4.so.0.p/meson-generated_.._marshal.c.o
+[84/306] Compiling C object src/libvte-2.91-gtk4.so.0.p/meson-generated_.._vteresources.c.o
+[85/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/vtetypes.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from ../src/vtetypes.hh:21,
+                 from ../src/vtetypes.cc:22:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[86/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/vtepty.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/vte/vte.h:21,
+                 from ../src/vtepty.cc:32:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[87/306] Compiling C object src/libvte-2.91-gtk4.so.0.p/meson-generated_.._vteresources-gtk4.cc.c.o
+[88/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/debug.cc.o
+[89/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/icu-decoder.cc.o
+[90/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/vteregex.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/vte/vtemacros.h:24,
+                 from ../src/vteregex.cc:29:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[91/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/icu-converter.cc.o
+[92/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/minifont.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/drawing-context.hh:29,
+                 from ../src/minifont.cc:33:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[93/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/spawn.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/vte/vtemacros.h:24,
+                 from ../src/vte/vtepty.h:27,
+                 from ../src/spawn.hh:26,
+                 from ../src/spawn.cc:21:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[94/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/utf8.cc.o
+[95/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/vterowdata.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/vte/vtemacros.h:24,
+                 from ../src/vterowdata.hh:25,
+                 from ../src/vterowdata.cc:23:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[96/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/systemd.cc.o
+[97/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/bidi.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/vte/vte.h:21,
+                 from ../src/ring.hh:25,
+                 from ../src/bidi.hh:22,
+                 from ../src/bidi.cc:45:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[98/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/pastify.cc.o
+[99/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/meson-generated_.._vte_vtetypebuiltins-gtk4.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-4.0/gdk/deprecated/gdkpixbuf.h:32,
+                 from /usr/include/gtk-4.0/gdk/gdkcairo.h:25,
+                 from /usr/include/gtk-4.0/gdk/gdk.h:30,
+                 from /usr/include/gtk-4.0/gtk/gtk.h:30,
+                 from ../src/vte/vte.h:21,
+                 from src/vte/vtetypebuiltins-gtk4.cc:4:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[100/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/parser.cc.o
+[101/306] Compiling C++ object src/test-termprops.p/termprops-test.cc.o
+[102/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/drawing-cairo.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/vte/vte.h:21,
+                 from ../src/ring.hh:25,
+                 from ../src/bidi.hh:22,
+                 from ../src/drawing-cairo.cc:22:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[103/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/color-parser.cc.o
+[104/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/glib-glue.cc.o
+[105/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/clipboard-gtk.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/clipboard-gtk.hh:24,
+                 from ../src/clipboard-gtk.cc:20:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[106/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/icu-glue.cc.o
+[107/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/chunk.cc.o
+[108/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/uuid.cc.o
+[109/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/missing.cc.o
+[110/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/ringview.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/vte/vte.h:21,
+                 from ../src/ring.hh:25,
+                 from ../src/bidi.hh:22,
+                 from ../src/ringview.cc:20:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[111/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/reaper.cc.o
+[112/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/osc-colors.cc.o
+[113/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/keymap.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-4.0/gdk/deprecated/gdkpixbuf.h:32,
+                 from /usr/include/gtk-4.0/gdk/gdkcairo.h:25,
+                 from /usr/include/gtk-4.0/gdk/gdk.h:30,
+                 from /usr/include/gtk-4.0/gtk/gtk.h:30,
+                 from ../src/keymap.cc:27:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[114/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/pty.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-4.0/gdk/deprecated/gdkpixbuf.h:32,
+                 from /usr/include/gtk-4.0/gdk/gdkcairo.h:25,
+                 from /usr/include/gtk-4.0/gdk/gdk.h:30,
+                 from /usr/include/gtk-4.0/gtk/gtk.h:30,
+                 from ../src/vte/vte.h:21,
+                 from ../src/pty.cc:34:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[115/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/vteuuid.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-4.0/gdk/deprecated/gdkpixbuf.h:32,
+                 from /usr/include/gtk-4.0/gdk/gdkcairo.h:25,
+                 from /usr/include/gtk-4.0/gdk/gdk.h:30,
+                 from /usr/include/gtk-4.0/gtk/gtk.h:30,
+                 from ../src/vte/vtemacros.h:24,
+                 from ../src/vteuuid.cc:30:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[116/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/regex.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-4.0/gdk/deprecated/gdkpixbuf.h:32,
+                 from /usr/include/gtk-4.0/gdk/gdkcairo.h:25,
+                 from /usr/include/gtk-4.0/gdk/gdk.h:30,
+                 from /usr/include/gtk-4.0/gtk/gtk.h:30,
+                 from ../src/vte/vtemacros.h:24,
+                 from ../src/vte/vteregex.h:28,
+                 from ../src/regex.cc:22:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[117/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/vtespawn.cc.o
+[118/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/scheduler.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-4.0/gdk/deprecated/gdkpixbuf.h:32,
+                 from /usr/include/gtk-4.0/gdk/gdkcairo.h:25,
+                 from /usr/include/gtk-4.0/gdk/gdk.h:30,
+                 from /usr/include/gtk-4.0/gtk/gtk.h:30,
+                 from ../src/scheduler.h:18,
+                 from ../src/scheduler.cc:20:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[119/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/drawing-context.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-4.0/gdk/deprecated/gdkpixbuf.h:32,
+                 from /usr/include/gtk-4.0/gdk/gdkcairo.h:25,
+                 from /usr/include/gtk-4.0/gdk/gdk.h:30,
+                 from /usr/include/gtk-4.0/gtk/gtk.h:30,
+                 from ../src/vte/vte.h:21,
+                 from ../src/ring.hh:25,
+                 from ../src/bidi.hh:22,
+                 from ../src/drawing-context.cc:24:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[120/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/vtepty.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-4.0/gdk/deprecated/gdkpixbuf.h:32,
+                 from /usr/include/gtk-4.0/gdk/gdkcairo.h:25,
+                 from /usr/include/gtk-4.0/gdk/gdk.h:30,
+                 from /usr/include/gtk-4.0/gtk/gtk.h:30,
+                 from ../src/vte/vte.h:21,
+                 from ../src/vtepty.cc:32:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[121/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/fonts-pangocairo.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-4.0/gdk/deprecated/gdkpixbuf.h:32,
+                 from /usr/include/gtk-4.0/gdk/gdkcairo.h:25,
+                 from /usr/include/gtk-4.0/gdk/gdk.h:30,
+                 from /usr/include/gtk-4.0/gtk/gtk.h:30,
+                 from ../src/fonts-pangocairo.hh:25,
+                 from ../src/fonts-pangocairo.cc:21:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[122/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/vteutils.cc.o
+[123/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/vteunistr.cc.o
+[124/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/ring.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-4.0/gdk/deprecated/gdkpixbuf.h:32,
+                 from /usr/include/gtk-4.0/gdk/gdkcairo.h:25,
+                 from /usr/include/gtk-4.0/gdk/gdk.h:30,
+                 from /usr/include/gtk-4.0/gtk/gtk.h:30,
+                 from ../src/vte/vte.h:21,
+                 from ../src/ring.hh:25,
+                 from ../src/ring.cc:23:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[125/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/widget.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/vte/vteterminal.h:30,
+                 from ../src/widget.hh:27,
+                 from ../src/widget.cc:21:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[126/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/vtestream.cc.o
+[127/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/vteaccess.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/vteaccess.cc:21:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[128/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/vterowdata.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-4.0/gdk/deprecated/gdkpixbuf.h:32,
+                 from /usr/include/gtk-4.0/gdk/gdkcairo.h:25,
+                 from /usr/include/gtk-4.0/gdk/gdk.h:30,
+                 from /usr/include/gtk-4.0/gtk/gtk.h:30,
+                 from ../src/vte/vtemacros.h:24,
+                 from ../src/vterowdata.hh:25,
+                 from ../src/vterowdata.cc:23:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[129/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/spawn.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-4.0/gdk/deprecated/gdkpixbuf.h:32,
+                 from /usr/include/gtk-4.0/gdk/gdkcairo.h:25,
+                 from /usr/include/gtk-4.0/gdk/gdk.h:30,
+                 from /usr/include/gtk-4.0/gtk/gtk.h:30,
+                 from ../src/vte/vtemacros.h:24,
+                 from ../src/vte/vtepty.h:27,
+                 from ../src/spawn.hh:26,
+                 from ../src/spawn.cc:21:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[130/306] Compiling C++ object src/parser-cat.p/utf8.cc.o
+[131/306] Compiling C++ object src/parser-cat.p/debug.cc.o
+[132/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/icu-converter.cc.o
+[133/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/vtetypes.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-4.0/gdk/deprecated/gdkpixbuf.h:32,
+                 from /usr/include/gtk-4.0/gdk/gdkcairo.h:25,
+                 from /usr/include/gtk-4.0/gdk/gdk.h:30,
+                 from ../src/vtetypes.hh:21,
+                 from ../src/vtetypes.cc:22:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[134/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/vteregex.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-4.0/gdk/deprecated/gdkpixbuf.h:32,
+                 from /usr/include/gtk-4.0/gdk/gdkcairo.h:25,
+                 from /usr/include/gtk-4.0/gdk/gdk.h:30,
+                 from /usr/include/gtk-4.0/gtk/gtk.h:30,
+                 from ../src/vte/vtemacros.h:24,
+                 from ../src/vteregex.cc:29:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[135/306] Compiling C++ object src/test-utf8.p/utf8.cc.o
+[136/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/icu-decoder.cc.o
+[137/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/bidi.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-4.0/gdk/deprecated/gdkpixbuf.h:32,
+                 from /usr/include/gtk-4.0/gdk/gdkcairo.h:25,
+                 from /usr/include/gtk-4.0/gdk/gdk.h:30,
+                 from /usr/include/gtk-4.0/gtk/gtk.h:30,
+                 from ../src/vte/vte.h:21,
+                 from ../src/ring.hh:25,
+                 from ../src/bidi.hh:22,
+                 from ../src/bidi.cc:45:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[138/306] Compiling C++ object src/parser-cat.p/parser.cc.o
+[139/306] Compiling C++ object src/test-uuid.p/debug.cc.o
+[140/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/systemd.cc.o
+[141/306] Compiling C++ object src/parser-cat.p/glib-glue.cc.o
+[142/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/clipboard-gtk.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-4.0/gdk/deprecated/gdkpixbuf.h:32,
+                 from /usr/include/gtk-4.0/gdk/gdkcairo.h:25,
+                 from /usr/include/gtk-4.0/gdk/gdk.h:30,
+                 from /usr/include/gtk-4.0/gtk/gtk.h:30,
+                 from ../src/clipboard-gtk.hh:24,
+                 from ../src/clipboard-gtk.cc:20:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[143/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/minifont.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-4.0/gdk/deprecated/gdkpixbuf.h:32,
+                 from /usr/include/gtk-4.0/gdk/gdkcairo.h:25,
+                 from /usr/include/gtk-4.0/gdk/gdk.h:30,
+                 from ../src/minifont.cc:29:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[144/306] Compiling C object src/app/vte-2.91.p/meson-generated_.._resources-gtk3.cc.c.o
+[145/306] Compiling C++ object src/app/vte-2.91.p/.._debug.cc.o
+[146/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/icu-glue.cc.o
+[147/306] Compiling C++ object src/test-parser.p/parser.cc.o
+[148/306] Compiling C object src/app/vte-2.91-gtk4.p/meson-generated_.._resources-gtk4.cc.c.o
+[149/306] Compiling C++ object src/app/vte-2.91-gtk4.p/.._debug.cc.o
+[150/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/ringview.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-4.0/gdk/deprecated/gdkpixbuf.h:32,
+                 from /usr/include/gtk-4.0/gdk/gdkcairo.h:25,
+                 from /usr/include/gtk-4.0/gdk/gdk.h:30,
+                 from /usr/include/gtk-4.0/gtk/gtk.h:30,
+                 from ../src/vte/vte.h:21,
+                 from ../src/ring.hh:25,
+                 from ../src/bidi.hh:22,
+                 from ../src/ringview.cc:20:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[151/306] Linking target src/decoder-cat
+[152/306] Linking target src/dumpkeys
+[153/306] Linking target src/mev
+[154/306] Linking target src/slowcat
+[155/306] Linking target src/vte-urlencode-cwd
+[156/306] Linking target src/xticker
+[157/306] Linking target src/test-colors
+[158/306] Linking target src/reflect-textview
+[159/306] Compiling C++ object src/test-utf8.p/utf8-test.cc.o
+[160/306] Linking target src/test-minifont-gtk3
+[161/306] Linking target src/test-minifont-gtk4
+[162/306] Linking target src/test-modes
+[163/306] Compiling C++ object src/test-vtetypes.p/vtetypes.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from ../src/vtetypes.hh:21,
+                 from ../src/vtetypes.cc:22:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[164/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/drawing-gsk.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-4.0/gdk/deprecated/gdkpixbuf.h:32,
+                 from /usr/include/gtk-4.0/gdk/gdkcairo.h:25,
+                 from /usr/include/gtk-4.0/gdk/gdk.h:30,
+                 from /usr/include/gtk-4.0/gtk/gtk.h:30,
+                 from ../src/vte/vte.h:21,
+                 from ../src/ring.hh:25,
+                 from ../src/bidi.hh:22,
+                 from ../src/drawing-gsk.cc:20:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[165/306] Linking target src/test-pastify
+[166/306] Compiling C++ object src/test-uuid.p/uuid.cc.o
+[167/306] Compiling C++ object src/test-uuid.p/glib-glue.cc.o
+[168/306] Linking target src/test-reaper
+[169/306] Linking target src/test-stream
+[170/306] Building translation po/ab/LC_MESSAGES/vte-2.91-ab.mo
+[171/306] Linking target src/test-unicode-width
+[172/306] Building translation po/am/LC_MESSAGES/vte-2.91-am.mo
+[173/306] Building translation po/an/LC_MESSAGES/vte-2.91-an.mo
+[174/306] Building translation po/ang/LC_MESSAGES/vte-2.91-ang.mo
+[175/306] Building translation po/as/LC_MESSAGES/vte-2.91-as.mo
+[176/306] Building translation po/ar/LC_MESSAGES/vte-2.91-ar.mo
+[177/306] Building translation po/ast/LC_MESSAGES/vte-2.91-ast.mo
+[178/306] Building translation po/az/LC_MESSAGES/vte-2.91-az.mo
+[179/306] Linking target src/test-refptr
+[180/306] Building translation po/be/LC_MESSAGES/vte-2.91-be.mo
+[181/306] Building translation po/be@latin/LC_MESSAGES/vte-2.91-be@latin.mo
+[182/306] Building translation po/bg/LC_MESSAGES/vte-2.91-bg.mo
+[183/306] Linking target src/test-vtetypes
+[184/306] Linking target src/test-tabstops
+[185/306] Building translation po/bn/LC_MESSAGES/vte-2.91-bn.mo
+[186/306] Building translation po/bn_IN/LC_MESSAGES/vte-2.91-bn_IN.mo
+[187/306] Building translation po/bs/LC_MESSAGES/vte-2.91-bs.mo
+[188/306] Building translation po/ca/LC_MESSAGES/vte-2.91-ca.mo
+[189/306] Linking target src/test-termprops
+[190/306] Building translation po/ca@valencia/LC_MESSAGES/vte-2.91-ca@valencia.mo
+[191/306] Building translation po/ckb/LC_MESSAGES/vte-2.91-ckb.mo
+[192/306] Building translation po/cs/LC_MESSAGES/vte-2.91-cs.mo
+[193/306] Building translation po/cy/LC_MESSAGES/vte-2.91-cy.mo
+[194/306] Building translation po/da/LC_MESSAGES/vte-2.91-da.mo
+[195/306] Building translation po/de/LC_MESSAGES/vte-2.91-de.mo
+[196/306] Building translation po/en_CA/LC_MESSAGES/vte-2.91-en_CA.mo
+[197/306] Building translation po/en_GB/LC_MESSAGES/vte-2.91-en_GB.mo
+[198/306] Building translation po/en@shaw/LC_MESSAGES/vte-2.91-en@shaw.mo
+[199/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/vtegtk.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/vtegtk.cc:46:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[200/306] Building translation po/dz/LC_MESSAGES/vte-2.91-dz.mo
+[201/306] Linking target src/test-utf8
+[202/306] Building translation po/el/LC_MESSAGES/vte-2.91-el.mo
+[203/306] Building translation po/es/LC_MESSAGES/vte-2.91-es.mo
+[204/306] Building translation po/eo/LC_MESSAGES/vte-2.91-eo.mo
+[205/306] Building translation po/et/LC_MESSAGES/vte-2.91-et.mo
+[206/306] Building translation po/eu/LC_MESSAGES/vte-2.91-eu.mo
+[207/306] Building translation po/fa/LC_MESSAGES/vte-2.91-fa.mo
+[208/306] Building translation po/fi/LC_MESSAGES/vte-2.91-fi.mo
+[209/306] Building translation po/fr/LC_MESSAGES/vte-2.91-fr.mo
+[210/306] Building translation po/fur/LC_MESSAGES/vte-2.91-fur.mo
+[211/306] Compiling C++ object src/app/vte-2.91.p/.._glib-glue.cc.o
+[212/306] Building translation po/ga/LC_MESSAGES/vte-2.91-ga.mo
+[213/306] Building translation po/gd/LC_MESSAGES/vte-2.91-gd.mo
+[214/306] Building translation po/gl/LC_MESSAGES/vte-2.91-gl.mo
+[215/306] Building translation po/gu/LC_MESSAGES/vte-2.91-gu.mo
+[216/306] Building translation po/he/LC_MESSAGES/vte-2.91-he.mo
+[217/306] Building translation po/hi/LC_MESSAGES/vte-2.91-hi.mo
+[218/306] Building translation po/id/LC_MESSAGES/vte-2.91-id.mo
+[219/306] Building translation po/hr/LC_MESSAGES/vte-2.91-hr.mo
+[220/306] Building translation po/hu/LC_MESSAGES/vte-2.91-hu.mo
+[221/306] Building translation po/is/LC_MESSAGES/vte-2.91-is.mo
+[222/306] Building translation po/it/LC_MESSAGES/vte-2.91-it.mo
+[223/306] Building translation po/ja/LC_MESSAGES/vte-2.91-ja.mo
+[224/306] Building translation po/ka/LC_MESSAGES/vte-2.91-ka.mo
+[225/306] Building translation po/kab/LC_MESSAGES/vte-2.91-kab.mo
+[226/306] Building translation po/kk/LC_MESSAGES/vte-2.91-kk.mo
+[227/306] Building translation po/kn/LC_MESSAGES/vte-2.91-kn.mo
+[228/306] Compiling C++ object src/test-uuid.p/uuid-test.cc.o
+[229/306] Building translation po/ko/LC_MESSAGES/vte-2.91-ko.mo
+[230/306] Building translation po/ku/LC_MESSAGES/vte-2.91-ku.mo
+[231/306] Building translation po/ky/LC_MESSAGES/vte-2.91-ky.mo
+[232/306] Building translation po/li/LC_MESSAGES/vte-2.91-li.mo
+[233/306] Building translation po/lt/LC_MESSAGES/vte-2.91-lt.mo
+[234/306] Building translation po/lv/LC_MESSAGES/vte-2.91-lv.mo
+[235/306] Building translation po/mi/LC_MESSAGES/vte-2.91-mi.mo
+[236/306] Building translation po/mai/LC_MESSAGES/vte-2.91-mai.mo
+[237/306] Building translation po/mjw/LC_MESSAGES/vte-2.91-mjw.mo
+[238/306] Building translation po/mk/LC_MESSAGES/vte-2.91-mk.mo
+[239/306] Building translation po/ml/LC_MESSAGES/vte-2.91-ml.mo
+[240/306] Building translation po/mn/LC_MESSAGES/vte-2.91-mn.mo
+[241/306] Building translation po/mr/LC_MESSAGES/vte-2.91-mr.mo
+[242/306] Building translation po/ms/LC_MESSAGES/vte-2.91-ms.mo
+[243/306] Building translation po/nb/LC_MESSAGES/vte-2.91-nb.mo
+[244/306] Building translation po/nds/LC_MESSAGES/vte-2.91-nds.mo
+[245/306] Building translation po/ne/LC_MESSAGES/vte-2.91-ne.mo
+[246/306] Building translation po/nl/LC_MESSAGES/vte-2.91-nl.mo
+[247/306] Building translation po/nn/LC_MESSAGES/vte-2.91-nn.mo
+[248/306] Building translation po/oc/LC_MESSAGES/vte-2.91-oc.mo
+[249/306] Building translation po/or/LC_MESSAGES/vte-2.91-or.mo
+[250/306] Building translation po/pl/LC_MESSAGES/vte-2.91-pl.mo
+[251/306] Building translation po/pt_BR/LC_MESSAGES/vte-2.91-pt_BR.mo
+[252/306] Building translation po/pa/LC_MESSAGES/vte-2.91-pa.mo
+[253/306] Building translation po/pt/LC_MESSAGES/vte-2.91-pt.mo
+[254/306] Building translation po/ro/LC_MESSAGES/vte-2.91-ro.mo
+[255/306] Building translation po/rw/LC_MESSAGES/vte-2.91-rw.mo
+[256/306] Building translation po/ru/LC_MESSAGES/vte-2.91-ru.mo
+[257/306] Building translation po/sk/LC_MESSAGES/vte-2.91-sk.mo
+[258/306] Building translation po/sl/LC_MESSAGES/vte-2.91-sl.mo
+[259/306] Building translation po/si/LC_MESSAGES/vte-2.91-si.mo
+[260/306] Building translation po/sq/LC_MESSAGES/vte-2.91-sq.mo
+[261/306] Building translation po/sr/LC_MESSAGES/vte-2.91-sr.mo
+[262/306] Building translation po/sr@latin/LC_MESSAGES/vte-2.91-sr@latin.mo
+[263/306] Building translation po/te/LC_MESSAGES/vte-2.91-te.mo
+[264/306] Building translation po/tg/LC_MESSAGES/vte-2.91-tg.mo
+[265/306] Building translation po/tr/LC_MESSAGES/vte-2.91-tr.mo
+[266/306] Building translation po/sv/LC_MESSAGES/vte-2.91-sv.mo
+[267/306] Building translation po/ta/LC_MESSAGES/vte-2.91-ta.mo
+[268/306] Building translation po/th/LC_MESSAGES/vte-2.91-th.mo
+[269/306] Building translation po/ug/LC_MESSAGES/vte-2.91-ug.mo
+[270/306] Building translation po/uk/LC_MESSAGES/vte-2.91-uk.mo
+[271/306] Building translation po/uz/LC_MESSAGES/vte-2.91-uz.mo
+[272/306] Building translation po/uz@cyrillic/LC_MESSAGES/vte-2.91-uz@cyrillic.mo
+[273/306] Building translation po/vi/LC_MESSAGES/vte-2.91-vi.mo
+[274/306] Building translation po/wa/LC_MESSAGES/vte-2.91-wa.mo
+[275/306] Building translation po/xh/LC_MESSAGES/vte-2.91-xh.mo
+[276/306] Building translation po/zh_CN/LC_MESSAGES/vte-2.91-zh_CN.mo
+[277/306] Building translation po/zh_HK/LC_MESSAGES/vte-2.91-zh_HK.mo
+[278/306] Building translation po/zh_TW/LC_MESSAGES/vte-2.91-zh_TW.mo
+[279/306] Linking target src/test-uuid
+[280/306] Compiling C++ object src/app/vte-2.91-gtk4.p/.._glib-glue.cc.o
+[281/306] Compiling C++ object src/parser-cat.p/parser-cat.cc.o
+[282/306] Linking target src/parser-cat
+[283/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/vteaccess-gtk4.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-4.0/gdk/deprecated/gdkpixbuf.h:32,
+                 from /usr/include/gtk-4.0/gdk/gdkcairo.h:25,
+                 from /usr/include/gtk-4.0/gdk/gdk.h:30,
+                 from /usr/include/gtk-4.0/gtk/gtk.h:30,
+                 from ../src/clipboard-gtk.hh:24,
+                 from ../src/vteinternal.hh:37,
+                 from ../src/vteaccess-gtk4.cc:21:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+../src/vteaccess-gtk4.cc: In function 'GBytes* vte_accessible_text_get_contents_at(GtkAccessibleText*, guint, GtkAccessibleTextGranularity, guint*, guint*)':
+../src/vteaccess-gtk4.cc:502:39: warning: comparison of unsigned expression in '>= 0' is always true [-Wtype-limits]
+  502 |                         while (offset >= 0 &&
+      |                                ~~~~~~~^~~~
+../src/vteaccess-gtk4.cc:511:31: warning: comparison of unsigned expression in '>= 0' is always true [-Wtype-limits]
+  511 |                 while (*start >= 0 &&
+      |                        ~~~~~~~^~~~
+[284/306] Compiling C++ object src/test-parser.p/parser-test.cc.o
+[285/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/vteseq.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/vte/vte.h:21,
+                 from ../src/vteseq.cc:32:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[286/306] Linking target src/test-parser
+[287/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/widget.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-4.0/gdk/deprecated/gdkpixbuf.h:32,
+                 from /usr/include/gtk-4.0/gdk/gdkcairo.h:25,
+                 from /usr/include/gtk-4.0/gdk/gdk.h:30,
+                 from /usr/include/gtk-4.0/gtk/gtk.h:30,
+                 from ../src/vte/vteterminal.h:30,
+                 from ../src/widget.hh:27,
+                 from ../src/widget.cc:21:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[288/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/vtegtk.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-4.0/gdk/deprecated/gdkpixbuf.h:32,
+                 from /usr/include/gtk-4.0/gdk/gdkcairo.h:25,
+                 from /usr/include/gtk-4.0/gdk/gdk.h:30,
+                 from /usr/include/gtk-4.0/gtk/gtk.h:30,
+                 from ../src/vtegtk.cc:46:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[289/306] Compiling C++ object src/libvte-2.91.so.0.8000.3.p/vte.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:29,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from ../src/vte/vte.h:21,
+                 from ../src/vte.cc:42:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+../src/vte.cc: In member function 'void vte::terminal::Terminal::process_incoming_utf8(ProcessingContext&, vte::base::Chunk&)':
+../src/vte.cc:4246:1: warning: label 'switched_data_syntax' defined but not used [-Wunused-label]
+ 4246 | switched_data_syntax:
+      | ^~~~~~~~~~~~~~~~~~~~
+../src/vte.cc: In member function 'void vte::terminal::Terminal::process_incoming_pcterm(ProcessingContext&, vte::base::Chunk&)':
+../src/vte.cc:4374:2: warning: label 'switched_data_syntax' defined but not used [-Wunused-label]
+ 4374 |  switched_data_syntax:
+      |  ^~~~~~~~~~~~~~~~~~~~
+[290/306] Linking target src/libvte-2.91.so.0.8000.3
+[291/306] Generating symbol file src/libvte-2.91.so.0.8000.3.p/libvte-2.91.so.0.8000.3.symbols
+[292/306] Compiling C++ object src/app/vte-2.91.p/app.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from ../src/app/app.cc:32:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[293/306] Linking target src/reflect-vte
+[294/306] Linking target src/app/vte-2.91
+[295/306] Compiling C++ object src/app/vte-2.91-gtk4.p/app.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from ../src/app/app.cc:32:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[296/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/vteseq.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-4.0/gdk/deprecated/gdkpixbuf.h:32,
+                 from /usr/include/gtk-4.0/gdk/gdkcairo.h:25,
+                 from /usr/include/gtk-4.0/gdk/gdk.h:30,
+                 from /usr/include/gtk-4.0/gtk/gtk.h:30,
+                 from ../src/vte/vte.h:21,
+                 from ../src/vteseq.cc:32:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+[297/306] Generating bindings/gir/Vte-2.91.gir with a custom command (wrapped by meson to set env)
+../src/vtegtk.cc:3080: Error: Vte: identifier not found on the first line:
+ * SECTION: Terminal properties
+   ^
+../src/vtepty.cc:853: Warning: Vte: invalid "closure" annotation: only valid on callback parameters
+../src/vtepty.cc:858: Warning: Vte: invalid "closure" annotation: only valid on callback parameters
+../src/vtepty.cc:728: Warning: Vte: invalid "scope" annotation: only valid on callback parameters
+../src/vtepty.cc:730: Warning: Vte: invalid "scope" annotation: only valid on callback parameters
+../src/vtepty.cc:734: Warning: Vte: invalid "closure" annotation: only valid on callback parameters
+../src/vtepty.cc:739: Warning: Vte: invalid "closure" annotation: only valid on callback parameters
+../src/vtegtk.cc:5236: Warning: Vte: invalid "closure" annotation: only valid on callback parameters
+../src/vtegtk.cc:5241: Warning: Vte: invalid "closure" annotation: only valid on callback parameters
+../src/vtegtk.cc:5115: Warning: Vte: invalid "scope" annotation: only valid on callback parameters
+../src/vtegtk.cc:5117: Warning: Vte: invalid "scope" annotation: only valid on callback parameters
+../src/vtegtk.cc:5121: Warning: Vte: invalid "closure" annotation: only valid on callback parameters
+../src/vtegtk.cc:5126: Warning: Vte: invalid "closure" annotation: only valid on callback parameters
+../src/vtegtk.cc:8193: Warning: Vte: vte_terminal_get_enable_legacy_osc777: unknown parameter 'enable' in documentation comment
+../src/vte/vtepty.h:109: Warning: Vte: Couldn't find 'spawn_with_fds_finish' for the corresponding async function: 'spawn_with_fds_async'
+[298/306] Generating bindings/vala/vte-2.91.vapi with a custom command
+Vte-2.91.gir:2539.7-2539.41: warning: Signal `Vte.Terminal.termprops_changed' conflicts with method of the same name
+[299/306] Generating bindings/gir/Vte-2.91.typelib with a custom command
+[300/306] Compiling C++ object src/libvte-2.91-gtk4.so.0.p/vte.cc.o
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:30,
+                 from /usr/include/gtk-4.0/gdk/deprecated/gdkpixbuf.h:32,
+                 from /usr/include/gtk-4.0/gdk/gdkcairo.h:25,
+                 from /usr/include/gtk-4.0/gdk/gdk.h:30,
+                 from /usr/include/gtk-4.0/gtk/gtk.h:30,
+                 from ../src/vte/vte.h:21,
+                 from ../src/vte.cc:42:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:719:40: warning: "GDK_PIXBUF_VERSION_2_44" is not defined, evaluates to 0 [-Wundef]
+  719 | #if GDK_PIXBUF_VERSION_MIN_REQUIRED >= GDK_PIXBUF_VERSION_2_44
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+../src/vte.cc: In member function 'void vte::terminal::Terminal::process_incoming_utf8(ProcessingContext&, vte::base::Chunk&)':
+../src/vte.cc:4246:1: warning: label 'switched_data_syntax' defined but not used [-Wunused-label]
+ 4246 | switched_data_syntax:
+      | ^~~~~~~~~~~~~~~~~~~~
+../src/vte.cc: In member function 'void vte::terminal::Terminal::process_incoming_pcterm(ProcessingContext&, vte::base::Chunk&)':
+../src/vte.cc:4374:2: warning: label 'switched_data_syntax' defined but not used [-Wunused-label]
+ 4374 |  switched_data_syntax:
+      |  ^~~~~~~~~~~~~~~~~~~~
+[301/306] Linking target src/libvte-2.91-gtk4.so.0
+[302/306] Generating symbol file src/libvte-2.91-gtk4.so.0.p/libvte-2.91-gtk4.so.0.symbols
+[303/306] Linking target src/app/vte-2.91-gtk4
+[304/306] Generating bindings/gir/Vte-3.91.gir with a custom command (wrapped by meson to set env)
+../src/vtegtk.cc:3080: Error: Vte: identifier not found on the first line:
+ * SECTION: Terminal properties
+   ^
+../src/vtepty.cc:853: Warning: Vte: invalid "closure" annotation: only valid on callback parameters
+../src/vtepty.cc:858: Warning: Vte: invalid "closure" annotation: only valid on callback parameters
+../src/vtepty.cc:728: Warning: Vte: invalid "scope" annotation: only valid on callback parameters
+../src/vtepty.cc:730: Warning: Vte: invalid "scope" annotation: only valid on callback parameters
+../src/vtepty.cc:734: Warning: Vte: invalid "closure" annotation: only valid on callback parameters
+../src/vtepty.cc:739: Warning: Vte: invalid "closure" annotation: only valid on callback parameters
+../src/vtegtk.cc:5236: Warning: Vte: invalid "closure" annotation: only valid on callback parameters
+../src/vtegtk.cc:5241: Warning: Vte: invalid "closure" annotation: only valid on callback parameters
+../src/vtegtk.cc:5115: Warning: Vte: invalid "scope" annotation: only valid on callback parameters
+../src/vtegtk.cc:5117: Warning: Vte: invalid "scope" annotation: only valid on callback parameters
+../src/vtegtk.cc:5121: Warning: Vte: invalid "closure" annotation: only valid on callback parameters
+../src/vtegtk.cc:5126: Warning: Vte: invalid "closure" annotation: only valid on callback parameters
+../src/vtegtk.cc:8193: Warning: Vte: vte_terminal_get_enable_legacy_osc777: unknown parameter 'enable' in documentation comment
+../src/vte/vtepty.h:109: Warning: Vte: Couldn't find 'spawn_with_fds_finish' for the corresponding async function: 'spawn_with_fds_async'
+[305/306] Generating bindings/vala/vte-2.91-gtk4.vapi with a custom command
+Vte-3.91.gir:2562.7-2562.41: warning: Signal `Vte.Terminal.termprops_changed' conflicts with method of the same name
+[306/306] Generating bindings/gir/Vte-3.91.typelib with a custom command
+[0/1] Installing files
+Installing src/vte/vtetypebuiltins-gtk3.h to /usr/include/vte-2.91/vte
+Installing src/vte/vtetypebuiltins-gtk4.h to /usr/include/vte-2.91-gtk4/vte
+Installing src/libvte-2.91.so.0.8000.3 to /usr/lib
+Installing src/libvte-2.91-gtk4.so.0 to /usr/lib
+Installing src/vte-urlencode-cwd to /usr/libexec
+Installing src/app/vte-2.91 to /usr/bin
+Installing src/app/vte-2.91-gtk4 to /usr/bin
+Installing bindings/gir/Vte-2.91.gir to /usr/share/gir-1.0
+Installing bindings/gir/Vte-2.91.typelib to /usr/lib/girepository-1.0
+Installing bindings/gir/Vte-3.91.gir to /usr/share/gir-1.0
+Installing bindings/gir/Vte-3.91.typelib to /usr/lib/girepository-1.0
+Installing bindings/vala/vte-2.91.vapi to /usr/share/vala/vapi
+Installing bindings/vala/vte-2.91-gtk4.vapi to /usr/share/vala/vapi
+Installing po/ab/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/ab/LC_MESSAGES
+Installing po/am/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/am/LC_MESSAGES
+Installing po/an/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/an/LC_MESSAGES
+Installing po/ang/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/ang/LC_MESSAGES
+Installing po/ar/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/ar/LC_MESSAGES
+Installing po/as/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/as/LC_MESSAGES
+Installing po/ast/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/ast/LC_MESSAGES
+Installing po/az/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/az/LC_MESSAGES
+Installing po/be/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/be/LC_MESSAGES
+Installing po/be@latin/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/be@latin/LC_MESSAGES
+Installing po/bg/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/bg/LC_MESSAGES
+Installing po/bn/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/bn/LC_MESSAGES
+Installing po/bn_IN/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/bn_IN/LC_MESSAGES
+Installing po/bs/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/bs/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/ca/LC_MESSAGES
+Installing po/ca@valencia/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/ca@valencia/LC_MESSAGES
+Installing po/ckb/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/ckb/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/cs/LC_MESSAGES
+Installing po/cy/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/cy/LC_MESSAGES
+Installing po/da/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/de/LC_MESSAGES
+Installing po/dz/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/dz/LC_MESSAGES
+Installing po/el/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/el/LC_MESSAGES
+Installing po/en_CA/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/en_CA/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/en_GB/LC_MESSAGES
+Installing po/en@shaw/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/en@shaw/LC_MESSAGES
+Installing po/eo/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/eo/LC_MESSAGES
+Installing po/es/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/es/LC_MESSAGES
+Installing po/et/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/et/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/eu/LC_MESSAGES
+Installing po/fa/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/fa/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/fr/LC_MESSAGES
+Installing po/fur/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/fur/LC_MESSAGES
+Installing po/ga/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/ga/LC_MESSAGES
+Installing po/gd/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/gd/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/gl/LC_MESSAGES
+Installing po/gu/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/gu/LC_MESSAGES
+Installing po/he/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/he/LC_MESSAGES
+Installing po/hi/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/hi/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/hu/LC_MESSAGES
+Installing po/id/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/id/LC_MESSAGES
+Installing po/is/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/is/LC_MESSAGES
+Installing po/it/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/it/LC_MESSAGES
+Installing po/ja/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/ja/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/ka/LC_MESSAGES
+Installing po/kab/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/kab/LC_MESSAGES
+Installing po/kk/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/kk/LC_MESSAGES
+Installing po/kn/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/kn/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/ko/LC_MESSAGES
+Installing po/ku/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/ku/LC_MESSAGES
+Installing po/ky/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/ky/LC_MESSAGES
+Installing po/li/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/li/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/lt/LC_MESSAGES
+Installing po/lv/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/lv/LC_MESSAGES
+Installing po/mai/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/mai/LC_MESSAGES
+Installing po/mi/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/mi/LC_MESSAGES
+Installing po/mjw/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/mjw/LC_MESSAGES
+Installing po/mk/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/mk/LC_MESSAGES
+Installing po/ml/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/ml/LC_MESSAGES
+Installing po/mn/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/mn/LC_MESSAGES
+Installing po/mr/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/mr/LC_MESSAGES
+Installing po/ms/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/ms/LC_MESSAGES
+Installing po/nb/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/nb/LC_MESSAGES
+Installing po/nds/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/nds/LC_MESSAGES
+Installing po/ne/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/ne/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/nl/LC_MESSAGES
+Installing po/nn/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/nn/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/oc/LC_MESSAGES
+Installing po/or/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/or/LC_MESSAGES
+Installing po/pa/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/pa/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/pl/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/pt/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/ru/LC_MESSAGES
+Installing po/rw/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/rw/LC_MESSAGES
+Installing po/si/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/si/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/sl/LC_MESSAGES
+Installing po/sq/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/sq/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/sr/LC_MESSAGES
+Installing po/sr@latin/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/sr@latin/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/sv/LC_MESSAGES
+Installing po/ta/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/ta/LC_MESSAGES
+Installing po/te/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/te/LC_MESSAGES
+Installing po/tg/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/tg/LC_MESSAGES
+Installing po/th/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/th/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/tr/LC_MESSAGES
+Installing po/ug/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/ug/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/uk/LC_MESSAGES
+Installing po/uz/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/uz/LC_MESSAGES
+Installing po/uz@cyrillic/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/uz@cyrillic/LC_MESSAGES
+Installing po/vi/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/vi/LC_MESSAGES/usr/share/applications/org.gnome.Vte.App.Gtk3.desktop: hint: value "GNOME;GTK;System;TerminalEmulator;Utility;X-GNOME-Utilities;" for key "Categories" in group "Desktop Entry" contains more than one main category; application might appear more than once in the application menu
+/usr/share/applications/org.gnome.Vte.App.Gtk4.desktop: hint: value "GNOME;GTK;System;TerminalEmulator;Utility;X-GNOME-Utilities;" for key "Categories" in group "Desktop Entry" contains more than one main category; application might appear more than once in the application menu
+
+Installing po/wa/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/wa/LC_MESSAGES
+Installing po/xh/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/xh/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_HK/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/zh_HK/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/vte-2.91.mo to /usr/share/locale/zh_TW/LC_MESSAGES
+Installing /blfs/builds/vte-0.80.3/src/vte/vte.h to /usr/include/vte-2.91/vte
+Installing /blfs/builds/vte-0.80.3/src/vte/vtedeprecated.h to /usr/include/vte-2.91/vte
+Installing /blfs/builds/vte-0.80.3/src/vte/vteenums.h to /usr/include/vte-2.91/vte
+Installing /blfs/builds/vte-0.80.3/src/vte/vteglobals.h to /usr/include/vte-2.91/vte
+Installing /blfs/builds/vte-0.80.3/src/vte/vtemacros.h to /usr/include/vte-2.91/vte
+Installing /blfs/builds/vte-0.80.3/src/vte/vtepty.h to /usr/include/vte-2.91/vte
+Installing /blfs/builds/vte-0.80.3/src/vte/vteregex.h to /usr/include/vte-2.91/vte
+Installing /blfs/builds/vte-0.80.3/src/vte/vteterminal.h to /usr/include/vte-2.91/vte
+Installing /blfs/builds/vte-0.80.3/src/vte/vteuuid.h to /usr/include/vte-2.91/vte
+Installing /blfs/builds/vte-0.80.3/src/vte/vtetypebuiltins.h to /usr/include/vte-2.91/vte
+Installing /blfs/builds/vte-0.80.3/build/src/vte/vteversion.h to /usr/include/vte-2.91/vte
+Installing /blfs/builds/vte-0.80.3/src/vte/vte.h to /usr/include/vte-2.91-gtk4/vte
+Installing /blfs/builds/vte-0.80.3/src/vte/vtedeprecated.h to /usr/include/vte-2.91-gtk4/vte
+Installing /blfs/builds/vte-0.80.3/src/vte/vteenums.h to /usr/include/vte-2.91-gtk4/vte
+Installing /blfs/builds/vte-0.80.3/src/vte/vteglobals.h to /usr/include/vte-2.91-gtk4/vte
+Installing /blfs/builds/vte-0.80.3/src/vte/vtemacros.h to /usr/include/vte-2.91-gtk4/vte
+Installing /blfs/builds/vte-0.80.3/src/vte/vtepty.h to /usr/include/vte-2.91-gtk4/vte
+Installing /blfs/builds/vte-0.80.3/src/vte/vteregex.h to /usr/include/vte-2.91-gtk4/vte
+Installing /blfs/builds/vte-0.80.3/src/vte/vteterminal.h to /usr/include/vte-2.91-gtk4/vte
+Installing /blfs/builds/vte-0.80.3/src/vte/vteuuid.h to /usr/include/vte-2.91-gtk4/vte
+Installing /blfs/builds/vte-0.80.3/src/vte/vtetypebuiltins.h to /usr/include/vte-2.91-gtk4/vte
+Installing /blfs/builds/vte-0.80.3/build/src/vte/vteversion.h to /usr/include/vte-2.91-gtk4/vte
+Installing /blfs/builds/vte-0.80.3/build/meson-private/vte-2.91.pc to /usr/lib/pkgconfig
+Installing /blfs/builds/vte-0.80.3/build/meson-private/vte-2.91-gtk4.pc to /usr/lib/pkgconfig
+Installing /blfs/builds/vte-0.80.3/build/src/vte.csh to /etc/profile.d
+Installing /blfs/builds/vte-0.80.3/build/src/vte.sh to /etc/profile.d
+Installing /blfs/builds/vte-0.80.3/src/vte-spawn-.scope.conf to /usr/lib/systemd/user/vte-spawn-.scope.d
+Installing /blfs/builds/vte-0.80.3/build/src/app/org.gnome.Vte.App.Gtk3.desktop to /usr/share/applications
+Installing /blfs/builds/vte-0.80.3/build/src/app/org.gnome.Vte.App.Gtk4.desktop to /usr/share/applications
+Installing /blfs/builds/vte-0.80.3/build/bindings/glade/vte-2.91.xml to /usr/share/glade/catalogs
+Installing /blfs/builds/vte-0.80.3/bindings/glade/hicolor_actions_16x16_widget-vte-terminal.png to /usr/share/glade/pixmaps/hicolor/16x16/actions
+Installing /blfs/builds/vte-0.80.3/bindings/glade/hicolor_actions_22x22_widget-vte-terminal.png to /usr/share/glade/pixmaps/hicolor/22x22/actions
+Installing /blfs/builds/vte-0.80.3/build/meson-private/vte-2.91.deps to /usr/share/vala/vapi
+Installing /blfs/builds/vte-0.80.3/build/meson-private/vte-2.91-gtk4.deps to /usr/share/vala/vapi
+Installing symlink pointing to libvte-2.91.so.0.8000.3 to /usr/lib/libvte-2.91.so.0
+Installing symlink pointing to libvte-2.91.so.0 to /usr/lib/libvte-2.91.so
+Installing symlink pointing to libvte-2.91-gtk4.so.0 to /usr/lib/libvte-2.91-gtk4.so
+Installing symlink pointing to ../applications/org.gnome.Vte.App.Gtk3.desktop to /usr/share/xdg-terminals/org.gnome.Vte.App.Gtk3.desktop
+Installing symlink pointing to ../applications/org.gnome.Vte.App.Gtk4.desktop to /usr/share/xdg-terminals/org.gnome.Vte.App.Gtk4.desktop
+Running custom install script '/blfs/builds/vte-0.80.3/src/app/meson_desktopfile.py share/applications org.gnome.Vte.App.Gtk3.desktop'
+Running custom install script '/blfs/builds/vte-0.80.3/src/app/meson_desktopfile.py share/applications org.gnome.Vte.App.Gtk4.desktop'
+[0/1] Installing files
+Installing src/vte/vtetypebuiltins-gtk3.h to /pkgs/vte/usr/include/vte-2.91/vte
+Installing src/vte/vtetypebuiltins-gtk4.h to /pkgs/vte/usr/include/vte-2.91-gtk4/vte
+Installing src/libvte-2.91.so.0.8000.3 to /pkgs/vte/usr/lib
+Installing src/libvte-2.91-gtk4.so.0 to /pkgs/vte/usr/lib
+Installing src/vte-urlencode-cwd to /pkgs/vte/usr/libexec
+Installing src/app/vte-2.91 to /pkgs/vte/usr/bin
+Installing src/app/vte-2.91-gtk4 to /pkgs/vte/usr/bin
+Installing bindings/gir/Vte-2.91.gir to /pkgs/vte/usr/share/gir-1.0
+Installing bindings/gir/Vte-2.91.typelib to /pkgs/vte/usr/lib/girepository-1.0
+Installing bindings/gir/Vte-3.91.gir to /pkgs/vte/usr/share/gir-1.0
+Installing bindings/gir/Vte-3.91.typelib to /pkgs/vte/usr/lib/girepository-1.0
+Installing bindings/vala/vte-2.91.vapi to /pkgs/vte/usr/share/vala/vapi
+Installing bindings/vala/vte-2.91-gtk4.vapi to /pkgs/vte/usr/share/vala/vapi
+Installing po/ab/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/ab/LC_MESSAGES
+Installing po/am/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/am/LC_MESSAGES
+Installing po/an/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/an/LC_MESSAGES
+Installing po/ang/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/ang/LC_MESSAGES
+Installing po/ar/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/ar/LC_MESSAGES
+Installing po/as/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/as/LC_MESSAGES
+Installing po/ast/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/ast/LC_MESSAGES
+Installing po/az/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/az/LC_MESSAGES
+Installing po/be/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/be/LC_MESSAGES
+Installing po/be@latin/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/be@latin/LC_MESSAGES
+Installing po/bg/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/bg/LC_MESSAGES
+Installing po/bn/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/bn/LC_MESSAGES
+Installing po/bn_IN/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/bn_IN/LC_MESSAGES
+Installing po/bs/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/bs/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/ca/LC_MESSAGES
+Installing po/ca@valencia/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/ca@valencia/LC_MESSAGES
+Installing po/ckb/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/ckb/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/cs/LC_MESSAGES
+Installing po/cy/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/cy/LC_MESSAGES
+Installing po/da/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/de/LC_MESSAGES
+Installing po/dz/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/dz/LC_MESSAGES
+Installing po/el/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/el/LC_MESSAGES
+Installing po/en_CA/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/en_CA/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/en_GB/LC_MESSAGES
+Installing po/en@shaw/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/en@shaw/LC_MESSAGES
+Installing po/eo/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/eo/LC_MESSAGES
+Installing po/es/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/es/LC_MESSAGES
+Installing po/et/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/et/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/eu/LC_MESSAGES
+Installing po/fa/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/fa/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/fr/LC_MESSAGES
+Installing po/fur/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/fur/LC_MESSAGES
+Installing po/ga/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/ga/LC_MESSAGES
+Installing po/gd/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/gd/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/gl/LC_MESSAGES
+Installing po/gu/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/gu/LC_MESSAGES
+Installing po/he/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/he/LC_MESSAGES
+Installing po/hi/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/hi/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/hu/LC_MESSAGES
+Installing po/id/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/id/LC_MESSAGES
+Installing po/is/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/is/LC_MESSAGES
+Installing po/it/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/it/LC_MESSAGES
+Installing po/ja/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/ja/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/ka/LC_MESSAGES
+Installing po/kab/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/kab/LC_MESSAGES
+Installing po/kk/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/kk/LC_MESSAGES
+Installing po/kn/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/kn/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/ko/LC_MESSAGES
+Installing po/ku/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/ku/LC_MESSAGES
+Installing po/ky/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/ky/LC_MESSAGES
+Installing po/li/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/li/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/lt/LC_MESSAGES
+Installing po/lv/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/lv/LC_MESSAGES
+Installing po/mai/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/mai/LC_MESSAGES
+Installing po/mi/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/mi/LC_MESSAGES
+Installing po/mjw/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/mjw/LC_MESSAGES
+Installing po/mk/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/mk/LC_MESSAGES
+Installing po/ml/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/ml/LC_MESSAGES
+Installing po/mn/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/mn/LC_MESSAGES
+Installing po/mr/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/mr/LC_MESSAGES
+Installing po/ms/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/ms/LC_MESSAGES
+Installing po/nb/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/nb/LC_MESSAGES
+Installing po/nds/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/nds/LC_MESSAGES
+Installing po/ne/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/ne/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/nl/LC_MESSAGES
+Installing po/nn/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/nn/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/oc/LC_MESSAGES
+Installing po/or/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/or/LC_MESSAGES
+Installing po/pa/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/pa/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/pl/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/pt/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/ru/LC_MESSAGES
+Installing po/rw/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/rw/LC_MESSAGES
+Installing po/si/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/si/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/sl/LC_MESSAGES
+Installing po/sq/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/sq/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/sr/LC_MESSAGES
+Installing po/sr@latin/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/sr@latin/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/sv/LC_MESSAGES
+Installing po/ta/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/ta/LC_MESSAGES
+Installing po/te/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/te/LC_MESSAGES
+Installing po/tg/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/tg/LC_MESSAGES
+Installing po/th/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/th/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/tr/LC_MESSAGES
+Installing po/ug/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/ug/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/uk/LC_MESSAGES
+Installing po/uz/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/uz/LC_MESSAGES
+Installing po/uz@cyrillic/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/uz@cyrillic/LC_MESSAGES
+Installing po/vi/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/vi/LC_MESSAGES
+Installing po/wa/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/wa/LC_MESSAGES
+Installing po/xh/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/xh/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_HK/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/zh_HK/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/vte-2.91.mo to /pkgs/vte/usr/share/locale/zh_TW/LC_MESSAGES
+Installing /blfs/builds/vte-0.80.3/src/vte/vte.h to /pkgs/vte/usr/include/vte-2.91/vte
+Installing /blfs/builds/vte-0.80.3/src/vte/vtedeprecated.h to /pkgs/vte/usr/include/vte-2.91/vte
+Installing /blfs/builds/vte-0.80.3/src/vte/vteenums.h to /pkgs/vte/usr/include/vte-2.91/vte
+Installing /blfs/builds/vte-0.80.3/src/vte/vteglobals.h to /pkgs/vte/usr/include/vte-2.91/vte
+Installing /blfs/builds/vte-0.80.3/src/vte/vtemacros.h to /pkgs/vte/usr/include/vte-2.91/vte
+Installing /blfs/builds/vte-0.80.3/src/vte/vtepty.h to /pkgs/vte/usr/include/vte-2.91/vte
+Installing /blfs/builds/vte-0.80.3/src/vte/vteregex.h to /pkgs/vte/usr/include/vte-2.91/vte
+Installing /blfs/builds/vte-0.80.3/src/vte/vteterminal.h to /pkgs/vte/usr/include/vte-2.91/vte
+Installing /blfs/builds/vte-0.80.3/src/vte/vteuuid.h to /pkgs/vte/usr/include/vte-2.91/vte
+Installing /blfs/builds/vte-0.80.3/src/vte/vtetypebuiltins.h to /pkgs/vte/usr/include/vte-2.91/vte
+Installing /blfs/builds/vte-0.80.3/build/src/vte/vteversion.h to /pkgs/vte/usr/include/vte-2.91/vte
+Installing /blfs/builds/vte-0.80.3/src/vte/vte.h to /pkgs/vte/usr/include/vte-2.91-gtk4/vte
+Installing /blfs/builds/vte-0.80.3/src/vte/vtedeprecated.h to /pkgs/vte/usr/include/vte-2.91-gtk4/vte
+Installing /blfs/builds/vte-0.80.3/src/vte/vteenums.h to /pkgs/vte/usr/include/vte-2.91-gtk4/vte
+Installing /blfs/builds/vte-0.80.3/src/vte/vteglobals.h to /pkgs/vte/usr/include/vte-2.91-gtk4/vte
+Installing /blfs/builds/vte-0.80.3/src/vte/vtemacros.h to /pkgs/vte/usr/include/vte-2.91-gtk4/vte
+Installing /blfs/builds/vte-0.80.3/src/vte/vtepty.h to /pkgs/vte/usr/include/vte-2.91-gtk4/vte
+Installing /blfs/builds/vte-0.80.3/src/vte/vteregex.h to /pkgs/vte/usr/include/vte-2.91-gtk4/vte
+Installing /blfs/builds/vte-0.80.3/src/vte/vteterminal.h to /pkgs/vte/usr/include/vte-2.91-gtk4/vte
+Installing /blfs/builds/vte-0.80.3/src/vte/vteuuid.h to /pkgs/vte/usr/include/vte-2.91-gtk4/vte
+Installing /blfs/builds/vte-0.80.3/src/vte/vtetypebuiltins.h to /pkgs/vte/usr/include/vte-2.91-gtk4/vte
+Installing /blfs/builds/vte-0.80.3/build/src/vte/vteversion.h to /pkgs/vte/usr/include/vte-2.91-gtk4/vte
+Installing /blfs/builds/vte-0.80.3/build/meson-private/vte-2.91.pc to /pkgs/vte/usr/lib/pkgconfig
+Installing /blfs/builds/vte-0.80.3/build/meson-private/vte-2.91-gtk4.pc to /pkgs/vte/usr/lib/pkgconfig
+Installing /blfs/builds/vte-0.80.3/build/src/vte.csh to /pkgs/vte/etc/profile.d
+Installing /blfs/builds/vte-0.80.3/build/src/vte.sh to /pkgs/vte/etc/profile.d
+Installing /blfs/builds/vte-0.80.3/src/vte-spawn-.scope.conf to /pkgs/vte/usr/lib/systemd/user/vte-spawn-.scope.d
+Installing /blfs/builds/vte-0.80.3/build/src/app/org.gnome.Vte.App.Gtk3.desktop to /pkgs/vte/usr/share/applications
+Installing /blfs/builds/vte-0.80.3/build/src/app/org.gnome.Vte.App.Gtk4.desktop to /pkgs/vte/usr/share/applications
+Installing /blfs/builds/vte-0.80.3/build/bindings/glade/vte-2.91.xml to /pkgs/vte/usr/share/glade/catalogs
+Installing /blfs/builds/vte-0.80.3/bindings/glade/hicolor_actions_16x16_widget-vte-terminal.png to /pkgs/vte/usr/share/glade/pixmaps/hicolor/16x16/actions
+Installing /blfs/builds/vte-0.80.3/bindings/glade/hicolor_actions_22x22_widget-vte-terminal.png to /pkgs/vte/usr/share/glade/pixmaps/hicolor/22x22/actions
+Installing /blfs/builds/vte-0.80.3/build/meson-private/vte-2.91.deps to /pkgs/vte/usr/share/vala/vapi
+Installing /blfs/builds/vte-0.80.3/build/meson-private/vte-2.91-gtk4.deps to /pkgs/vte/usr/share/vala/vapi
+Installing symlink pointing to libvte-2.91.so.0.8000.3 to /pkgs/vte/usr/lib/libvte-2.91.so.0
+Installing symlink pointing to libvte-2.91.so.0 to /pkgs/vte/usr/lib/libvte-2.91.so
+Installing symlink pointing to libvte-2.91-gtk4.so.0 to /pkgs/vte/usr/lib/libvte-2.91-gtk4.so
+Installing symlink pointing to ../applications/org.gnome.Vte.App.Gtk3.desktop to /pkgs/vte/usr/share/xdg-terminals/org.gnome.Vte.App.Gtk3.desktop
+Installing symlink pointing to ../applications/org.gnome.Vte.App.Gtk4.desktop to /pkgs/vte/usr/share/xdg-terminals/org.gnome.Vte.App.Gtk4.desktop
+Running custom install script '/blfs/builds/vte-0.80.3/src/app/meson_desktopfile.py share/applications org.gnome.Vte.App.Gtk3.desktop'
+Running custom install script '/blfs/builds/vte-0.80.3/src/app/meson_desktopfile.py share/applications org.gnome.Vte.App.Gtk4.desktop'
+vte/
+vte/usr/
+vte/usr/share/
+vte/usr/share/xdg-terminals/
+vte/usr/share/xdg-terminals/org.gnome.Vte.App.Gtk4.desktop
+vte/usr/share/xdg-terminals/org.gnome.Vte.App.Gtk3.desktop
+vte/usr/share/vala/
+vte/usr/share/vala/vapi/
+vte/usr/share/vala/vapi/vte-2.91.vapi
+vte/usr/share/vala/vapi/vte-2.91-gtk4.vapi
+vte/usr/share/vala/vapi/vte-2.91.deps
+vte/usr/share/vala/vapi/vte-2.91-gtk4.deps
+vte/usr/share/locale/
+vte/usr/share/locale/zh_HK/
+vte/usr/share/locale/zh_HK/LC_MESSAGES/
+vte/usr/share/locale/zh_HK/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/be/
+vte/usr/share/locale/be/LC_MESSAGES/
+vte/usr/share/locale/be/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/ckb/
+vte/usr/share/locale/ckb/LC_MESSAGES/
+vte/usr/share/locale/ckb/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/ca/
+vte/usr/share/locale/ca/LC_MESSAGES/
+vte/usr/share/locale/ca/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/eu/
+vte/usr/share/locale/eu/LC_MESSAGES/
+vte/usr/share/locale/eu/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/en_GB/
+vte/usr/share/locale/en_GB/LC_MESSAGES/
+vte/usr/share/locale/en_GB/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/uk/
+vte/usr/share/locale/uk/LC_MESSAGES/
+vte/usr/share/locale/uk/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/be@latin/
+vte/usr/share/locale/be@latin/LC_MESSAGES/
+vte/usr/share/locale/be@latin/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/it/
+vte/usr/share/locale/it/LC_MESSAGES/
+vte/usr/share/locale/it/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/ug/
+vte/usr/share/locale/ug/LC_MESSAGES/
+vte/usr/share/locale/ug/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/he/
+vte/usr/share/locale/he/LC_MESSAGES/
+vte/usr/share/locale/he/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/de/
+vte/usr/share/locale/de/LC_MESSAGES/
+vte/usr/share/locale/de/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/uz@cyrillic/
+vte/usr/share/locale/uz@cyrillic/LC_MESSAGES/
+vte/usr/share/locale/uz@cyrillic/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/pt/
+vte/usr/share/locale/pt/LC_MESSAGES/
+vte/usr/share/locale/pt/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/kk/
+vte/usr/share/locale/kk/LC_MESSAGES/
+vte/usr/share/locale/kk/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/ky/
+vte/usr/share/locale/ky/LC_MESSAGES/
+vte/usr/share/locale/ky/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/ast/
+vte/usr/share/locale/ast/LC_MESSAGES/
+vte/usr/share/locale/ast/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/wa/
+vte/usr/share/locale/wa/LC_MESSAGES/
+vte/usr/share/locale/wa/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/es/
+vte/usr/share/locale/es/LC_MESSAGES/
+vte/usr/share/locale/es/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/vi/
+vte/usr/share/locale/vi/LC_MESSAGES/
+vte/usr/share/locale/vi/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/fur/
+vte/usr/share/locale/fur/LC_MESSAGES/
+vte/usr/share/locale/fur/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/ne/
+vte/usr/share/locale/ne/LC_MESSAGES/
+vte/usr/share/locale/ne/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/bs/
+vte/usr/share/locale/bs/LC_MESSAGES/
+vte/usr/share/locale/bs/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/mk/
+vte/usr/share/locale/mk/LC_MESSAGES/
+vte/usr/share/locale/mk/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/da/
+vte/usr/share/locale/da/LC_MESSAGES/
+vte/usr/share/locale/da/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/zh_CN/
+vte/usr/share/locale/zh_CN/LC_MESSAGES/
+vte/usr/share/locale/zh_CN/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/ml/
+vte/usr/share/locale/ml/LC_MESSAGES/
+vte/usr/share/locale/ml/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/ko/
+vte/usr/share/locale/ko/LC_MESSAGES/
+vte/usr/share/locale/ko/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/pa/
+vte/usr/share/locale/pa/LC_MESSAGES/
+vte/usr/share/locale/pa/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/or/
+vte/usr/share/locale/or/LC_MESSAGES/
+vte/usr/share/locale/or/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/ta/
+vte/usr/share/locale/ta/LC_MESSAGES/
+vte/usr/share/locale/ta/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/kab/
+vte/usr/share/locale/kab/LC_MESSAGES/
+vte/usr/share/locale/kab/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/mai/
+vte/usr/share/locale/mai/LC_MESSAGES/
+vte/usr/share/locale/mai/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/nb/
+vte/usr/share/locale/nb/LC_MESSAGES/
+vte/usr/share/locale/nb/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/hr/
+vte/usr/share/locale/hr/LC_MESSAGES/
+vte/usr/share/locale/hr/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/mi/
+vte/usr/share/locale/mi/LC_MESSAGES/
+vte/usr/share/locale/mi/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/sr/
+vte/usr/share/locale/sr/LC_MESSAGES/
+vte/usr/share/locale/sr/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/uz/
+vte/usr/share/locale/uz/LC_MESSAGES/
+vte/usr/share/locale/uz/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/pt_BR/
+vte/usr/share/locale/pt_BR/LC_MESSAGES/
+vte/usr/share/locale/pt_BR/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/am/
+vte/usr/share/locale/am/LC_MESSAGES/
+vte/usr/share/locale/am/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/nn/
+vte/usr/share/locale/nn/LC_MESSAGES/
+vte/usr/share/locale/nn/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/gd/
+vte/usr/share/locale/gd/LC_MESSAGES/
+vte/usr/share/locale/gd/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/tr/
+vte/usr/share/locale/tr/LC_MESSAGES/
+vte/usr/share/locale/tr/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/ca@valencia/
+vte/usr/share/locale/ca@valencia/LC_MESSAGES/
+vte/usr/share/locale/ca@valencia/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/fa/
+vte/usr/share/locale/fa/LC_MESSAGES/
+vte/usr/share/locale/fa/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/bn_IN/
+vte/usr/share/locale/bn_IN/LC_MESSAGES/
+vte/usr/share/locale/bn_IN/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/sk/
+vte/usr/share/locale/sk/LC_MESSAGES/
+vte/usr/share/locale/sk/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/li/
+vte/usr/share/locale/li/LC_MESSAGES/
+vte/usr/share/locale/li/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/hi/
+vte/usr/share/locale/hi/LC_MESSAGES/
+vte/usr/share/locale/hi/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/et/
+vte/usr/share/locale/et/LC_MESSAGES/
+vte/usr/share/locale/et/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/az/
+vte/usr/share/locale/az/LC_MESSAGES/
+vte/usr/share/locale/az/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/ms/
+vte/usr/share/locale/ms/LC_MESSAGES/
+vte/usr/share/locale/ms/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/sq/
+vte/usr/share/locale/sq/LC_MESSAGES/
+vte/usr/share/locale/sq/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/nds/
+vte/usr/share/locale/nds/LC_MESSAGES/
+vte/usr/share/locale/nds/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/te/
+vte/usr/share/locale/te/LC_MESSAGES/
+vte/usr/share/locale/te/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/ga/
+vte/usr/share/locale/ga/LC_MESSAGES/
+vte/usr/share/locale/ga/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/gl/
+vte/usr/share/locale/gl/LC_MESSAGES/
+vte/usr/share/locale/gl/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/pl/
+vte/usr/share/locale/pl/LC_MESSAGES/
+vte/usr/share/locale/pl/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/sl/
+vte/usr/share/locale/sl/LC_MESSAGES/
+vte/usr/share/locale/sl/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/fi/
+vte/usr/share/locale/fi/LC_MESSAGES/
+vte/usr/share/locale/fi/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/is/
+vte/usr/share/locale/is/LC_MESSAGES/
+vte/usr/share/locale/is/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/ar/
+vte/usr/share/locale/ar/LC_MESSAGES/
+vte/usr/share/locale/ar/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/zh_TW/
+vte/usr/share/locale/zh_TW/LC_MESSAGES/
+vte/usr/share/locale/zh_TW/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/nl/
+vte/usr/share/locale/nl/LC_MESSAGES/
+vte/usr/share/locale/nl/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/oc/
+vte/usr/share/locale/oc/LC_MESSAGES/
+vte/usr/share/locale/oc/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/ka/
+vte/usr/share/locale/ka/LC_MESSAGES/
+vte/usr/share/locale/ka/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/tg/
+vte/usr/share/locale/tg/LC_MESSAGES/
+vte/usr/share/locale/tg/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/as/
+vte/usr/share/locale/as/LC_MESSAGES/
+vte/usr/share/locale/as/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/fr/
+vte/usr/share/locale/fr/LC_MESSAGES/
+vte/usr/share/locale/fr/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/dz/
+vte/usr/share/locale/dz/LC_MESSAGES/
+vte/usr/share/locale/dz/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/en@shaw/
+vte/usr/share/locale/en@shaw/LC_MESSAGES/
+vte/usr/share/locale/en@shaw/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/rw/
+vte/usr/share/locale/rw/LC_MESSAGES/
+vte/usr/share/locale/rw/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/si/
+vte/usr/share/locale/si/LC_MESSAGES/
+vte/usr/share/locale/si/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/sr@latin/
+vte/usr/share/locale/sr@latin/LC_MESSAGES/
+vte/usr/share/locale/sr@latin/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/mr/
+vte/usr/share/locale/mr/LC_MESSAGES/
+vte/usr/share/locale/mr/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/ku/
+vte/usr/share/locale/ku/LC_MESSAGES/
+vte/usr/share/locale/ku/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/eo/
+vte/usr/share/locale/eo/LC_MESSAGES/
+vte/usr/share/locale/eo/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/ro/
+vte/usr/share/locale/ro/LC_MESSAGES/
+vte/usr/share/locale/ro/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/mn/
+vte/usr/share/locale/mn/LC_MESSAGES/
+vte/usr/share/locale/mn/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/cy/
+vte/usr/share/locale/cy/LC_MESSAGES/
+vte/usr/share/locale/cy/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/lt/
+vte/usr/share/locale/lt/LC_MESSAGES/
+vte/usr/share/locale/lt/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/cs/
+vte/usr/share/locale/cs/LC_MESSAGES/
+vte/usr/share/locale/cs/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/mjw/
+vte/usr/share/locale/mjw/LC_MESSAGES/
+vte/usr/share/locale/mjw/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/sv/
+vte/usr/share/locale/sv/LC_MESSAGES/
+vte/usr/share/locale/sv/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/bn/
+vte/usr/share/locale/bn/LC_MESSAGES/
+vte/usr/share/locale/bn/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/gu/
+vte/usr/share/locale/gu/LC_MESSAGES/
+vte/usr/share/locale/gu/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/el/
+vte/usr/share/locale/el/LC_MESSAGES/
+vte/usr/share/locale/el/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/xh/
+vte/usr/share/locale/xh/LC_MESSAGES/
+vte/usr/share/locale/xh/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/ang/
+vte/usr/share/locale/ang/LC_MESSAGES/
+vte/usr/share/locale/ang/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/ja/
+vte/usr/share/locale/ja/LC_MESSAGES/
+vte/usr/share/locale/ja/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/id/
+vte/usr/share/locale/id/LC_MESSAGES/
+vte/usr/share/locale/id/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/hu/
+vte/usr/share/locale/hu/LC_MESSAGES/
+vte/usr/share/locale/hu/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/an/
+vte/usr/share/locale/an/LC_MESSAGES/
+vte/usr/share/locale/an/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/bg/
+vte/usr/share/locale/bg/LC_MESSAGES/
+vte/usr/share/locale/bg/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/ru/
+vte/usr/share/locale/ru/LC_MESSAGES/
+vte/usr/share/locale/ru/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/lv/
+vte/usr/share/locale/lv/LC_MESSAGES/
+vte/usr/share/locale/lv/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/kn/
+vte/usr/share/locale/kn/LC_MESSAGES/
+vte/usr/share/locale/kn/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/ab/
+vte/usr/share/locale/ab/LC_MESSAGES/
+vte/usr/share/locale/ab/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/th/
+vte/usr/share/locale/th/LC_MESSAGES/
+vte/usr/share/locale/th/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/locale/en_CA/
+vte/usr/share/locale/en_CA/LC_MESSAGES/
+vte/usr/share/locale/en_CA/LC_MESSAGES/vte-2.91.mo
+vte/usr/share/applications/
+vte/usr/share/applications/org.gnome.Vte.App.Gtk4.desktop
+vte/usr/share/applications/org.gnome.Vte.App.Gtk3.desktop
+vte/usr/share/glade/
+vte/usr/share/glade/pixmaps/
+vte/usr/share/glade/pixmaps/hicolor/
+vte/usr/share/glade/pixmaps/hicolor/16x16/
+vte/usr/share/glade/pixmaps/hicolor/16x16/actions/
+vte/usr/share/glade/pixmaps/hicolor/16x16/actions/widget-vte-terminal.png
+vte/usr/share/glade/pixmaps/hicolor/22x22/
+vte/usr/share/glade/pixmaps/hicolor/22x22/actions/
+vte/usr/share/glade/pixmaps/hicolor/22x22/actions/widget-vte-terminal.png
+vte/usr/share/glade/catalogs/
+vte/usr/share/glade/catalogs/vte-2.91.xml
+vte/usr/share/gir-1.0/
+vte/usr/share/gir-1.0/Vte-2.91.gir
+vte/usr/share/gir-1.0/Vte-3.91.gir
+vte/usr/lib/
+vte/usr/lib/libvte-2.91.so
+vte/usr/lib/libvte-2.91-gtk4.so.0
+vte/usr/lib/libvte-2.91-gtk4.so
+vte/usr/lib/libvte-2.91.so.0.8000.3
+vte/usr/lib/libvte-2.91.so.0
+vte/usr/lib/systemd/
+vte/usr/lib/systemd/user/
+vte/usr/lib/systemd/user/vte-spawn-.scope.d/
+vte/usr/lib/systemd/user/vte-spawn-.scope.d/defaults.conf
+vte/usr/lib/girepository-1.0/
+vte/usr/lib/girepository-1.0/Vte-2.91.typelib
+vte/usr/lib/girepository-1.0/Vte-3.91.typelib
+vte/usr/lib/pkgconfig/
+vte/usr/lib/pkgconfig/vte-2.91.pc
+vte/usr/lib/pkgconfig/vte-2.91-gtk4.pc
+vte/usr/include/
+vte/usr/include/vte-2.91-gtk4/
+vte/usr/include/vte-2.91-gtk4/vte/
+vte/usr/include/vte-2.91-gtk4/vte/vteenums.h
+vte/usr/include/vte-2.91-gtk4/vte/vte.h
+vte/usr/include/vte-2.91-gtk4/vte/vteregex.h
+vte/usr/include/vte-2.91-gtk4/vte/vteversion.h
+vte/usr/include/vte-2.91-gtk4/vte/vtetypebuiltins.h
+vte/usr/include/vte-2.91-gtk4/vte/vtetypebuiltins-gtk4.h
+vte/usr/include/vte-2.91-gtk4/vte/vteuuid.h
+vte/usr/include/vte-2.91-gtk4/vte/vtemacros.h
+vte/usr/include/vte-2.91-gtk4/vte/vtepty.h
+vte/usr/include/vte-2.91-gtk4/vte/vteterminal.h
+vte/usr/include/vte-2.91-gtk4/vte/vtedeprecated.h
+vte/usr/include/vte-2.91-gtk4/vte/vteglobals.h
+vte/usr/include/vte-2.91/
+vte/usr/include/vte-2.91/vte/
+vte/usr/include/vte-2.91/vte/vteenums.h
+vte/usr/include/vte-2.91/vte/vte.h
+vte/usr/include/vte-2.91/vte/vteregex.h
+vte/usr/include/vte-2.91/vte/vteversion.h
+vte/usr/include/vte-2.91/vte/vtetypebuiltins.h
+vte/usr/include/vte-2.91/vte/vteuuid.h
+vte/usr/include/vte-2.91/vte/vtemacros.h
+vte/usr/include/vte-2.91/vte/vtepty.h
+vte/usr/include/vte-2.91/vte/vtetypebuiltins-gtk3.h
+vte/usr/include/vte-2.91/vte/vteterminal.h
+vte/usr/include/vte-2.91/vte/vtedeprecated.h
+vte/usr/include/vte-2.91/vte/vteglobals.h
+vte/usr/bin/
+vte/usr/bin/vte-2.91-gtk4
+vte/usr/bin/vte-2.91
+vte/usr/libexec/
+vte/usr/libexec/vte-urlencode-cwd
+vte/version
+vte/depends
+vte/etc/
+vte/etc/profile.d/
+vte/etc/profile.d/vte.csh
+vte/etc/profile.d/vte.sh
+vte/postinst
