@@ -1,0 +1,1173 @@
+--2025-07-03 07:39:28--  https://github.com/strukturag/libheif/releases/download/v1.20.1/libheif-1.20.1.tar.gz
+Resolving github.com (github.com)... 140.82.114.3
+Connecting to github.com (github.com)|140.82.114.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/115012280/24b836bc-4a66-4213-9b4d-03e3d1907ad0?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250703%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250703T073928Z&X-Amz-Expires=1800&X-Amz-Signature=7cebf48e21052c383297c98f2388289b80e87cc8af11c90f65f73aa89767691c&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dlibheif-1.20.1.tar.gz&response-content-type=application%2Foctet-stream [following]
+--2025-07-03 07:39:28--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/115012280/24b836bc-4a66-4213-9b4d-03e3d1907ad0?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250703%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250703T073928Z&X-Amz-Expires=1800&X-Amz-Signature=7cebf48e21052c383297c98f2388289b80e87cc8af11c90f65f73aa89767691c&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dlibheif-1.20.1.tar.gz&response-content-type=application%2Foctet-stream
+Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.109.133, 185.199.111.133, 185.199.108.133, ...
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.109.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1787033 (1.7M) [application/octet-stream]
+Saving to: 'libheif-1.20.1.tar.gz'
+
+     0K .......... .......... .......... .......... ..........  2% 6.69M 0s
+    50K .......... .......... .......... .......... ..........  5% 20.6M 0s
+   100K .......... .......... .......... .......... ..........  8% 9.45M 0s
+   150K .......... .......... .......... .......... .......... 11% 92.6M 0s
+   200K .......... .......... .......... .......... .......... 14% 56.0M 0s
+   250K .......... .......... .......... .......... .......... 17% 57.9M 0s
+   300K .......... .......... .......... .......... .......... 20% 27.7M 0s
+   350K .......... .......... .......... .......... .......... 22% 95.1M 0s
+   400K .......... .......... .......... .......... .......... 25%  118M 0s
+   450K .......... .......... .......... .......... .......... 28%  105M 0s
+   500K .......... .......... .......... .......... .......... 31% 17.4M 0s
+   550K .......... .......... .......... .......... .......... 34%  138M 0s
+   600K .......... .......... .......... .......... .......... 37%  118M 0s
+   650K .......... .......... .......... .......... .......... 40%  118M 0s
+   700K .......... .......... .......... .......... .......... 42%  118M 0s
+   750K .......... .......... .......... .......... .......... 45% 85.0M 0s
+   800K .......... .......... .......... .......... .......... 48%  118M 0s
+   850K .......... .......... .......... .......... .......... 51%  118M 0s
+   900K .......... .......... .......... .......... .......... 54%  118M 0s
+   950K .......... .......... .......... .......... .......... 57%  117M 0s
+  1000K .......... .......... .......... .......... .......... 60%  119M 0s
+  1050K .......... .......... .......... .......... .......... 63%  115M 0s
+  1100K .......... .......... .......... .......... .......... 65%  118M 0s
+  1150K .......... .......... .......... .......... .......... 68% 7.31M 0s
+  1200K .......... .......... .......... .......... .......... 71%  860M 0s
+  1250K .......... .......... .......... .......... .......... 74%  941M 0s
+  1300K .......... .......... .......... .......... .......... 77%  911M 0s
+  1350K .......... .......... .......... .......... .......... 80%  947M 0s
+  1400K .......... .......... .......... .......... .......... 83%  915M 0s
+  1450K .......... .......... .......... .......... .......... 85%  957M 0s
+  1500K .......... .......... .......... .......... .......... 88%  953M 0s
+  1550K .......... .......... .......... .......... .......... 91%  689M 0s
+  1600K .......... .......... .......... .......... .......... 94%  953M 0s
+  1650K .......... .......... .......... .......... .......... 97%  921M 0s
+  1700K .......... .......... .......... .......... .....     100%  911M=0.04s
+
+2025-07-03 07:39:29 (48.1 MB/s) - 'libheif-1.20.1.tar.gz' saved [1787033/1787033]
+
+libheif-1.20.1/README.md
+libheif-1.20.1/CPPLINT.cfg
+libheif-1.20.1/COPYING
+libheif-1.20.1/libheif/
+libheif-1.20.1/libheif/security_limits.h
+libheif-1.20.1/libheif/nclx.h
+libheif-1.20.1/libheif/bitstream.h
+libheif-1.20.1/libheif/compression_zlib.cc
+libheif-1.20.1/libheif/box.h
+libheif-1.20.1/libheif/context.cc
+libheif-1.20.1/libheif/api/
+libheif-1.20.1/libheif/api/libheif/
+libheif-1.20.1/libheif/api/libheif/heif_regions.h
+libheif-1.20.1/libheif/api/libheif/heif_encoding.cc
+libheif-1.20.1/libheif/api/libheif/heif_context.h
+libheif-1.20.1/libheif/api/libheif/heif_properties.h
+libheif-1.20.1/libheif/api/libheif/heif_aux_images.cc
+libheif-1.20.1/libheif/api/libheif/heif_entity_groups.cc
+libheif-1.20.1/libheif/api/libheif/heif_library.h
+libheif-1.20.1/libheif/api/libheif/heif_tai_timestamps.h
+libheif-1.20.1/libheif/api/libheif/heif_plugin.cc
+libheif-1.20.1/libheif/api/libheif/heif.h
+libheif-1.20.1/libheif/api/libheif/heif_regions.cc
+libheif-1.20.1/libheif/api/libheif/api_structs.h
+libheif-1.20.1/libheif/api/libheif/heif_security.cc
+libheif-1.20.1/libheif/api/libheif/heif_brands.cc
+libheif-1.20.1/libheif/api/libheif/heif_entity_groups.h
+libheif-1.20.1/libheif/api/libheif/heif_library.cc
+libheif-1.20.1/libheif/api/libheif/heif_decoding.h
+libheif-1.20.1/libheif/api/libheif/heif.cc
+libheif-1.20.1/libheif/api/libheif/heif_encoding.h
+libheif-1.20.1/libheif/api/libheif/heif_color.h
+libheif-1.20.1/libheif/api/libheif/heif_experimental.h
+libheif-1.20.1/libheif/api/libheif/heif_tai_timestamps.cc
+libheif-1.20.1/libheif/api/libheif/heif_items.cc
+libheif-1.20.1/libheif/api/libheif/heif_uncompressed.h
+libheif-1.20.1/libheif/api/libheif/heif_sequences.h
+libheif-1.20.1/libheif/api/libheif/heif_tiling.cc
+libheif-1.20.1/libheif/api/libheif/heif_items.h
+libheif-1.20.1/libheif/api/libheif/heif_plugin.h
+libheif-1.20.1/libheif/api/libheif/heif_metadata.h
+libheif-1.20.1/libheif/api/libheif/heif_image_handle.cc
+libheif-1.20.1/libheif/api/libheif/heif_emscripten.h
+libheif-1.20.1/libheif/api/libheif/heif_uncompressed.cc
+libheif-1.20.1/libheif/api/libheif/heif_version.h.in
+libheif-1.20.1/libheif/api/libheif/heif_color.cc
+libheif-1.20.1/libheif/api/libheif/heif_brands.h
+libheif-1.20.1/libheif/api/libheif/heif_context.cc
+libheif-1.20.1/libheif/api/libheif/heif_cxx.h
+libheif-1.20.1/libheif/api/libheif/heif_error.h
+libheif-1.20.1/libheif/api/libheif/heif_decoding.cc
+libheif-1.20.1/libheif/api/libheif/heif_properties.cc
+libheif-1.20.1/libheif/api/libheif/heif_experimental.cc
+libheif-1.20.1/libheif/api/libheif/heif_security.h
+libheif-1.20.1/libheif/api/libheif/heif_image.h
+libheif-1.20.1/libheif/api/libheif/heif_sequences.cc
+libheif-1.20.1/libheif/api/libheif/heif_image.cc
+libheif-1.20.1/libheif/api/libheif/heif_tiling.h
+libheif-1.20.1/libheif/api/libheif/heif_metadata.cc
+libheif-1.20.1/libheif/api/libheif/heif_image_handle.h
+libheif-1.20.1/libheif/api/libheif/heif_aux_images.h
+libheif-1.20.1/libheif/init.cc
+libheif-1.20.1/libheif/plugins_windows.h
+libheif-1.20.1/libheif/error.h
+libheif-1.20.1/libheif/brands.h
+libheif-1.20.1/libheif/logging.h
+libheif-1.20.1/libheif/plugins_windows.cc
+libheif-1.20.1/libheif/nclx.cc
+libheif-1.20.1/libheif/mdat_data.h
+libheif-1.20.1/libheif/CMakeLists.txt
+libheif-1.20.1/libheif/compression.h
+libheif-1.20.1/libheif/mini.cc
+libheif-1.20.1/libheif/brands.cc
+libheif-1.20.1/libheif/sequences/
+libheif-1.20.1/libheif/sequences/chunk.cc
+libheif-1.20.1/libheif/sequences/track_metadata.cc
+libheif-1.20.1/libheif/sequences/track.cc
+libheif-1.20.1/libheif/sequences/track_visual.cc
+libheif-1.20.1/libheif/sequences/chunk.h
+libheif-1.20.1/libheif/sequences/track_metadata.h
+libheif-1.20.1/libheif/sequences/seq_boxes.h
+libheif-1.20.1/libheif/sequences/seq_boxes.cc
+libheif-1.20.1/libheif/sequences/track_visual.h
+libheif-1.20.1/libheif/sequences/track.h
+libheif-1.20.1/libheif/codecs/
+libheif-1.20.1/libheif/codecs/avif_enc.cc
+libheif-1.20.1/libheif/codecs/uncompressed/
+libheif-1.20.1/libheif/codecs/uncompressed/decoder_tile_component_interleave.h
+libheif-1.20.1/libheif/codecs/uncompressed/unc_codec.cc
+libheif-1.20.1/libheif/codecs/uncompressed/decoder_tile_component_interleave.cc
+libheif-1.20.1/libheif/codecs/uncompressed/decoder_abstract.cc
+libheif-1.20.1/libheif/codecs/uncompressed/unc_boxes.h
+libheif-1.20.1/libheif/codecs/uncompressed/decoder_mixed_interleave.h
+libheif-1.20.1/libheif/codecs/uncompressed/decoder_row_interleave.h
+libheif-1.20.1/libheif/codecs/uncompressed/unc_types.h
+libheif-1.20.1/libheif/codecs/uncompressed/unc_dec.h
+libheif-1.20.1/libheif/codecs/uncompressed/decoder_row_interleave.cc
+libheif-1.20.1/libheif/codecs/uncompressed/unc_codec.h
+libheif-1.20.1/libheif/codecs/uncompressed/decoder_pixel_interleave.cc
+libheif-1.20.1/libheif/codecs/uncompressed/decoder_pixel_interleave.h
+libheif-1.20.1/libheif/codecs/uncompressed/unc_boxes.cc
+libheif-1.20.1/libheif/codecs/uncompressed/unc_enc.h
+libheif-1.20.1/libheif/codecs/uncompressed/decoder_component_interleave.h
+libheif-1.20.1/libheif/codecs/uncompressed/unc_enc.cc
+libheif-1.20.1/libheif/codecs/uncompressed/decoder_component_interleave.cc
+libheif-1.20.1/libheif/codecs/uncompressed/decoder_abstract.h
+libheif-1.20.1/libheif/codecs/uncompressed/unc_dec.cc
+libheif-1.20.1/libheif/codecs/uncompressed/decoder_mixed_interleave.cc
+libheif-1.20.1/libheif/codecs/jpeg_dec.cc
+libheif-1.20.1/libheif/codecs/jpeg2000_enc.h
+libheif-1.20.1/libheif/codecs/hevc_enc.h
+libheif-1.20.1/libheif/codecs/decoder.h
+libheif-1.20.1/libheif/codecs/vvc_boxes.h
+libheif-1.20.1/libheif/codecs/vvc_dec.h
+libheif-1.20.1/libheif/codecs/jpeg_dec.h
+libheif-1.20.1/libheif/codecs/avif_enc.h
+libheif-1.20.1/libheif/codecs/jpeg_enc.h
+libheif-1.20.1/libheif/codecs/vvc_enc.cc
+libheif-1.20.1/libheif/codecs/avc_boxes.h
+libheif-1.20.1/libheif/codecs/vvc_dec.cc
+libheif-1.20.1/libheif/codecs/decoder.cc
+libheif-1.20.1/libheif/codecs/encoder.cc
+libheif-1.20.1/libheif/codecs/hevc_dec.cc
+libheif-1.20.1/libheif/codecs/hevc_dec.h
+libheif-1.20.1/libheif/codecs/jpeg2000_boxes.cc
+libheif-1.20.1/libheif/codecs/avc_boxes.cc
+libheif-1.20.1/libheif/codecs/avif_dec.h
+libheif-1.20.1/libheif/codecs/hevc_enc.cc
+libheif-1.20.1/libheif/codecs/vvc_boxes.cc
+libheif-1.20.1/libheif/codecs/encoder.h
+libheif-1.20.1/libheif/codecs/avif_boxes.h
+libheif-1.20.1/libheif/codecs/jpeg2000_dec.cc
+libheif-1.20.1/libheif/codecs/avif_dec.cc
+libheif-1.20.1/libheif/codecs/jpeg_boxes.cc
+libheif-1.20.1/libheif/codecs/hevc_boxes.cc
+libheif-1.20.1/libheif/codecs/hevc_boxes.h
+libheif-1.20.1/libheif/codecs/jpeg_enc.cc
+libheif-1.20.1/libheif/codecs/jpeg2000_enc.cc
+libheif-1.20.1/libheif/codecs/jpeg2000_boxes.h
+libheif-1.20.1/libheif/codecs/avif_boxes.cc
+libheif-1.20.1/libheif/codecs/avc_dec.cc
+libheif-1.20.1/libheif/codecs/vvc_enc.h
+libheif-1.20.1/libheif/codecs/jpeg2000_dec.h
+libheif-1.20.1/libheif/codecs/avc_dec.h
+libheif-1.20.1/libheif/codecs/jpeg_boxes.h
+libheif-1.20.1/libheif/plugins_unix.h
+libheif-1.20.1/libheif/bitstream.cc
+libheif-1.20.1/libheif/logging.cc
+libheif-1.20.1/libheif/Doxyfile.in
+libheif-1.20.1/libheif/pixelimage.cc
+libheif-1.20.1/libheif/context.h
+libheif-1.20.1/libheif/file.h
+libheif-1.20.1/libheif/plugins_unix.cc
+libheif-1.20.1/libheif/file_layout.cc
+libheif-1.20.1/libheif/common_utils.h
+libheif-1.20.1/libheif/pixelimage.h
+libheif-1.20.1/libheif/compression_brotli.cc
+libheif-1.20.1/libheif/error.cc
+libheif-1.20.1/libheif/mini.h
+libheif-1.20.1/libheif/common_utils.cc
+libheif-1.20.1/libheif/plugin_registry.cc
+libheif-1.20.1/libheif/file.cc
+libheif-1.20.1/libheif/region.h
+libheif-1.20.1/libheif/init.h
+libheif-1.20.1/libheif/region.cc
+libheif-1.20.1/libheif/file_layout.h
+libheif-1.20.1/libheif/color-conversion/
+libheif-1.20.1/libheif/color-conversion/monochrome.cc
+libheif-1.20.1/libheif/color-conversion/colorconversion.h
+libheif-1.20.1/libheif/color-conversion/chroma_sampling.cc
+libheif-1.20.1/libheif/color-conversion/hdr_sdr.h
+libheif-1.20.1/libheif/color-conversion/rgb2rgb.cc
+libheif-1.20.1/libheif/color-conversion/rgb2yuv.cc
+libheif-1.20.1/libheif/color-conversion/alpha.cc
+libheif-1.20.1/libheif/color-conversion/rgb2rgb.h
+libheif-1.20.1/libheif/color-conversion/rgb2yuv_sharp.h
+libheif-1.20.1/libheif/color-conversion/yuv2rgb.h
+libheif-1.20.1/libheif/color-conversion/rgb2yuv_sharp.cc
+libheif-1.20.1/libheif/color-conversion/alpha.h
+libheif-1.20.1/libheif/color-conversion/chroma_sampling.h
+libheif-1.20.1/libheif/color-conversion/rgb2yuv.h
+libheif-1.20.1/libheif/color-conversion/colorconversion.cc
+libheif-1.20.1/libheif/color-conversion/yuv2rgb.cc
+libheif-1.20.1/libheif/color-conversion/monochrome.h
+libheif-1.20.1/libheif/color-conversion/hdr_sdr.cc
+libheif-1.20.1/libheif/security_limits.cc
+libheif-1.20.1/libheif/image-items/
+libheif-1.20.1/libheif/image-items/mask_image.h
+libheif-1.20.1/libheif/image-items/vvc.h
+libheif-1.20.1/libheif/image-items/tiled.cc
+libheif-1.20.1/libheif/image-items/mask_image.cc
+libheif-1.20.1/libheif/image-items/jpeg.cc
+libheif-1.20.1/libheif/image-items/image_item.h
+libheif-1.20.1/libheif/image-items/jpeg2000.h
+libheif-1.20.1/libheif/image-items/avif.cc
+libheif-1.20.1/libheif/image-items/hevc.h
+libheif-1.20.1/libheif/image-items/overlay.cc
+libheif-1.20.1/libheif/image-items/avc.h
+libheif-1.20.1/libheif/image-items/iden.cc
+libheif-1.20.1/libheif/image-items/jpeg2000.cc
+libheif-1.20.1/libheif/image-items/unc_image.h
+libheif-1.20.1/libheif/image-items/vvc.cc
+libheif-1.20.1/libheif/image-items/tiled.h
+libheif-1.20.1/libheif/image-items/hevc.cc
+libheif-1.20.1/libheif/image-items/jpeg.h
+libheif-1.20.1/libheif/image-items/iden.h
+libheif-1.20.1/libheif/image-items/grid.cc
+libheif-1.20.1/libheif/image-items/image_item.cc
+libheif-1.20.1/libheif/image-items/grid.h
+libheif-1.20.1/libheif/image-items/avif.h
+libheif-1.20.1/libheif/image-items/unc_image.cc
+libheif-1.20.1/libheif/image-items/avc.cc
+libheif-1.20.1/libheif/image-items/overlay.h
+libheif-1.20.1/libheif/plugins/
+libheif-1.20.1/libheif/plugins/encoder_uncompressed.cc
+libheif-1.20.1/libheif/plugins/decoder_jpeg.cc
+libheif-1.20.1/libheif/plugins/decoder_aom.cc
+libheif-1.20.1/libheif/plugins/encoder_aom.h
+libheif-1.20.1/libheif/plugins/encoder_jpeg.cc
+libheif-1.20.1/libheif/plugins/decoder_ffmpeg.cc
+libheif-1.20.1/libheif/plugins/encoder_kvazaar.h
+libheif-1.20.1/libheif/plugins/decoder_openh264.cc
+libheif-1.20.1/libheif/plugins/decoder_openh264.h
+libheif-1.20.1/libheif/plugins/encoder_uvg266.cc
+libheif-1.20.1/libheif/plugins/decoder_uncompressed.h
+libheif-1.20.1/libheif/plugins/encoder_rav1e.cc
+libheif-1.20.1/libheif/plugins/encoder_jpeg.h
+libheif-1.20.1/libheif/plugins/nalu_utils.h
+libheif-1.20.1/libheif/plugins/decoder_vvdec.cc
+libheif-1.20.1/libheif/plugins/encoder_openjph.cc
+libheif-1.20.1/libheif/plugins/encoder_aom.cc
+libheif-1.20.1/libheif/plugins/encoder_x265.cc
+libheif-1.20.1/libheif/plugins/decoder_uncompressed.cc
+libheif-1.20.1/libheif/plugins/CMakeLists.txt
+libheif-1.20.1/libheif/plugins/decoder_libde265.cc
+libheif-1.20.1/libheif/plugins/decoder_dav1d.h
+libheif-1.20.1/libheif/plugins/decoder_openjpeg.cc
+libheif-1.20.1/libheif/plugins/encoder_mask.cc
+libheif-1.20.1/libheif/plugins/encoder_x265.h
+libheif-1.20.1/libheif/plugins/encoder_vvenc.h
+libheif-1.20.1/libheif/plugins/decoder_openjpeg.h
+libheif-1.20.1/libheif/plugins/encoder_openjpeg.h
+libheif-1.20.1/libheif/plugins/encoder_svt.h
+libheif-1.20.1/libheif/plugins/encoder_vvenc.cc
+libheif-1.20.1/libheif/plugins/nalu_utils.cc
+libheif-1.20.1/libheif/plugins/decoder_libde265.h
+libheif-1.20.1/libheif/plugins/encoder_mask.h
+libheif-1.20.1/libheif/plugins/encoder_openjpeg.cc
+libheif-1.20.1/libheif/plugins/encoder_openjph.h
+libheif-1.20.1/libheif/plugins/decoder_jpeg.h
+libheif-1.20.1/libheif/plugins/encoder_svt.cc
+libheif-1.20.1/libheif/plugins/decoder_vvdec.h
+libheif-1.20.1/libheif/plugins/encoder_uvg266.h
+libheif-1.20.1/libheif/plugins/encoder_rav1e.h
+libheif-1.20.1/libheif/plugins/encoder_kvazaar.cc
+libheif-1.20.1/libheif/plugins/decoder_ffmpeg.h
+libheif-1.20.1/libheif/plugins/decoder_aom.h
+libheif-1.20.1/libheif/plugins/encoder_uncompressed.h
+libheif-1.20.1/libheif/plugins/decoder_dav1d.cc
+libheif-1.20.1/libheif/box.cc
+libheif-1.20.1/libheif/plugin_registry.h
+libheif-1.20.1/build-emscripten.sh
+libheif-1.20.1/gdk-pixbuf/
+libheif-1.20.1/gdk-pixbuf/CMakeLists.txt
+libheif-1.20.1/gdk-pixbuf/pixbufloader-heif.c
+libheif-1.20.1/CMakeLists.txt
+libheif-1.20.1/CMakePresets.json
+libheif-1.20.1/scripts/
+libheif-1.20.1/scripts/test-javascript.js
+libheif-1.20.1/scripts/install-emscripten.sh
+libheif-1.20.1/scripts/install-clang.sh
+libheif-1.20.1/scripts/run-ci.sh
+libheif-1.20.1/scripts/install-ci-osx.sh
+libheif-1.20.1/scripts/install-ci-linux.sh
+libheif-1.20.1/scripts/prepare-ci.sh
+libheif-1.20.1/scripts/pre-commit.hook
+libheif-1.20.1/scripts/cpplint.py
+libheif-1.20.1/scripts/check-gofmt.sh
+libheif-1.20.1/scripts/check-emscripten-enums.sh
+libheif-1.20.1/scripts/build-android-libs.sh
+libheif-1.20.1/scripts/configure-fuzzer.sh
+libheif-1.20.1/scripts/check-go-enums.sh
+libheif-1.20.1/scripts/check-licenses.sh
+libheif-1.20.1/heifio/
+libheif-1.20.1/heifio/encoder_y4m.cc
+libheif-1.20.1/heifio/encoder_tiff.cc
+libheif-1.20.1/heifio/decoder_jpeg.cc
+libheif-1.20.1/heifio/encoder_jpeg.cc
+libheif-1.20.1/heifio/decoder_y4m.h
+libheif-1.20.1/heifio/stubs.cc
+libheif-1.20.1/heifio/decoder.h
+libheif-1.20.1/heifio/encoder_png.h
+libheif-1.20.1/heifio/decoder_png.cc
+libheif-1.20.1/heifio/decoder_tiff.cc
+libheif-1.20.1/heifio/encoder_jpeg.h
+libheif-1.20.1/heifio/decoder_y4m.cc
+libheif-1.20.1/heifio/encoder.cc
+libheif-1.20.1/heifio/CMakeLists.txt
+libheif-1.20.1/heifio/exif.cc
+libheif-1.20.1/heifio/decoder_png.h
+libheif-1.20.1/heifio/encoder.h
+libheif-1.20.1/heifio/encoder_tiff.h
+libheif-1.20.1/heifio/encoder_y4m.h
+libheif-1.20.1/heifio/decoder_jpeg.h
+libheif-1.20.1/heifio/decoder_tiff.h
+libheif-1.20.1/heifio/exif.h
+libheif-1.20.1/heifio/encoder_png.cc
+libheif-1.20.1/extra/
+libheif-1.20.1/extra/getopt.h
+libheif-1.20.1/extra/getopt.c
+libheif-1.20.1/extra/getopt_long.c
+libheif-1.20.1/tests/
+libheif-1.20.1/tests/test_utils.cc
+libheif-1.20.1/tests/uncompressed_decode_generic_compression.cc
+libheif-1.20.1/tests/uncompressed_decode.cc
+libheif-1.20.1/tests/conversion.cc
+libheif-1.20.1/tests/idat.cc
+libheif-1.20.1/tests/uncompressed_decode_ycbcr422.cc
+libheif-1.20.1/tests/test-config.cc.in
+libheif-1.20.1/tests/test_utils.h
+libheif-1.20.1/tests/avc_box.cc
+libheif-1.20.1/tests/test-race.go
+libheif-1.20.1/tests/bitstream_tests.cc
+libheif-1.20.1/tests/CMakeLists.txt
+libheif-1.20.1/tests/uncompressed_box.cc
+libheif-1.20.1/tests/jpeg2000.cc
+libheif-1.20.1/tests/main.cc
+libheif-1.20.1/tests/encode.cc
+libheif-1.20.1/tests/test-config.h
+libheif-1.20.1/tests/uncompressed_decode_mono.cc
+libheif-1.20.1/tests/uncompressed_encode.cc
+libheif-1.20.1/tests/catch_amalgamated.hpp
+libheif-1.20.1/tests/extended_type.cc
+libheif-1.20.1/tests/pixel_data_types.cc
+libheif-1.20.1/tests/uncompressed_decode_rgb.cc
+libheif-1.20.1/tests/catch_amalgamated.cpp
+libheif-1.20.1/tests/file_layout.cc
+libheif-1.20.1/tests/uncompressed_decode_ycbcr.cc
+libheif-1.20.1/tests/data/
+libheif-1.20.1/tests/data/uncompressed_row_RGxB.heif
+libheif-1.20.1/tests/data/uncompressed_pix_RGB.heif
+libheif-1.20.1/tests/data/uncompressed_mix_Y16U16V16_422.heif
+libheif-1.20.1/tests/data/uncompressed_row_R7+1G7+1B7+1_tiled.heif
+libheif-1.20.1/tests/data/uncompressed_comp_Y16U16V16_422.heif
+libheif-1.20.1/tests/data/uncompressed_pix_M_tiled.heif
+libheif-1.20.1/tests/data/rgb_generic_compressed_zlib.heif
+libheif-1.20.1/tests/data/uncompressed_pix_RGB_tiled_row_tile_align.heif
+libheif-1.20.1/tests/data/uncompressed_pix_RGxB_tiled.heif
+libheif-1.20.1/tests/data/uncompressed_tile_R7G7B7_tiled.heif
+libheif-1.20.1/tests/data/uncompressed_comp_R7G7B7_tiled.heif
+libheif-1.20.1/tests/data/uncompressed_tile_RGxB_tiled.heif
+libheif-1.20.1/tests/data/uncompressed_pix_YUV_tiled.heif
+libheif-1.20.1/tests/data/uncompressed_comp_RGB_tiled_row_tile_align.heif
+libheif-1.20.1/tests/data/uncompressed_row_RGB_tiled_row_tile_align.heif
+libheif-1.20.1/tests/data/uncompressed_comp_M_tiled.heif
+libheif-1.20.1/tests/data/uncompressed_mix_Y16U16V16_420.heif
+libheif-1.20.1/tests/data/uncompressed_row_B16R16G16_tiled.heif
+libheif-1.20.1/tests/data/uncompressed_pix_ABGR.heif
+libheif-1.20.1/tests/data/uncompressed_row_M_tiled.heif
+libheif-1.20.1/tests/data/uncompressed_pix_ABGR_tiled.heif
+libheif-1.20.1/tests/data/uncompressed_comp_R7G7+1B7_tiled.heif
+libheif-1.20.1/tests/data/uncompressed_comp_VUY_420.heif
+libheif-1.20.1/tests/data/uncompressed_pix_R7+1G7+1B7+1_tiled.heif
+libheif-1.20.1/tests/data/uncompressed_mix_YVU_420.heif
+libheif-1.20.1/tests/data/uncompressed_pix_R8G8B8_bsz0_psz10_tiled.heif
+libheif-1.20.1/tests/data/uncompressed_mix_YUV_420.heif
+libheif-1.20.1/tests/data/uncompressed_comp_YVU_420.heif
+libheif-1.20.1/tests/data/uncompressed_comp_VUY_422.heif
+libheif-1.20.1/tests/data/uncompressed_tile_R5G6B5_tiled.heif
+libheif-1.20.1/tests/data/uncompressed_row_R7G7+1B7_tiled.heif
+libheif-1.20.1/tests/data/uncompressed_pix_R7G7+1B7_tiled.heif
+libheif-1.20.1/tests/data/uncompressed_comp_YUV_422.heif
+libheif-1.20.1/tests/data/uncompressed_tile_R7G7+1B7_tiled.heif
+libheif-1.20.1/tests/data/uncompressed_comp_R5G6B5_tiled.heif
+libheif-1.20.1/tests/data/uncompressed_mix_VUY_420.heif
+libheif-1.20.1/tests/data/uncompressed_pix_RGxB.heif
+libheif-1.20.1/tests/data/rgb_generic_compressed_zlib_tiled.heif
+libheif-1.20.1/tests/data/uncompressed_pix_R7G7B7_tiled.heif
+libheif-1.20.1/tests/data/uncompressed_pix_RGB_tiled.heif
+libheif-1.20.1/tests/data/uncompressed_comp_M.heif
+libheif-1.20.1/tests/data/uncompressed_row_RGB.heif
+libheif-1.20.1/tests/data/uncompressed_row_R5G6B5_tiled.heif
+libheif-1.20.1/tests/data/rgb_generic_compressed_defl.heif
+libheif-1.20.1/tests/data/uncompressed_comp_ABGR.heif
+libheif-1.20.1/tests/data/uncompressed_tile_RGB_tiled_row_tile_align.heif
+libheif-1.20.1/tests/data/uncompressed_tile_RGB_tiled.heif
+libheif-1.20.1/tests/data/uncompressed_comp_RGB_tiled.heif
+libheif-1.20.1/tests/data/uncompressed_comp_B16R16G16_tiled.heif
+libheif-1.20.1/tests/data/heifio/
+libheif-1.20.1/tests/data/heifio/rgb.tif
+libheif-1.20.1/tests/data/heifio/mono_planar.tif
+libheif-1.20.1/tests/data/heifio/rgba_planar.tif
+libheif-1.20.1/tests/data/heifio/rgba.tif
+libheif-1.20.1/tests/data/heifio/mono.tif
+libheif-1.20.1/tests/data/heifio/rgb_planar.tif
+libheif-1.20.1/tests/data/uncompressed_comp_B16R16G16.heif
+libheif-1.20.1/tests/data/uncompressed_mix_YUV_422.heif
+libheif-1.20.1/tests/data/uncompressed_comp_YVU_422.heif
+libheif-1.20.1/tests/data/uncompressed_pix_R5G6B5_tiled.heif
+libheif-1.20.1/tests/data/uncompressed_comp_ABGR_tiled.heif
+libheif-1.20.1/tests/data/uncompressed_pix_R8G8B8A8_bsz0_psz5_tiled.heif
+libheif-1.20.1/tests/data/uncompressed_mix_VUY_422.heif
+libheif-1.20.1/tests/data/uncompressed_comp_Y16U16V16_420.heif
+libheif-1.20.1/tests/data/uncompressed_pix_R8G8B8A8_bsz0_psz10_tiled.heif
+libheif-1.20.1/tests/data/rgb_generic_compressed_zlib_rows.heif
+libheif-1.20.1/tests/data/uncompressed_pix_B16R16G16_tiled.heif
+libheif-1.20.1/tests/data/uncompressed_row_RGxB_tiled.heif
+libheif-1.20.1/tests/data/uncompressed_tile_B16R16G16_tiled.heif
+libheif-1.20.1/tests/data/simple_osm_tile_meta.avif
+libheif-1.20.1/tests/data/uncompressed_row_B16R16G16.heif
+libheif-1.20.1/tests/data/rgb_generic_compressed_tile_deflate.heif
+libheif-1.20.1/tests/data/uncompressed_row_ABGR_tiled.heif
+libheif-1.20.1/tests/data/uncompressed_pix_M.heif
+libheif-1.20.1/tests/data/uncompressed_tile_M_tiled.heif
+libheif-1.20.1/tests/data/uncompressed_row_M.heif
+libheif-1.20.1/tests/data/uncompressed_comp_RGB.heif
+libheif-1.20.1/tests/data/uncompressed_tile_YUV_tiled.heif
+libheif-1.20.1/tests/data/uncompressed_row_YUV_tiled.heif
+libheif-1.20.1/tests/data/uncompressed_mix_YVU_422.heif
+libheif-1.20.1/tests/data/uncompressed_tile_R7+1G7+1B7+1_tiled.heif
+libheif-1.20.1/tests/data/uncompressed_row_R7G7B7_tiled.heif
+libheif-1.20.1/tests/data/uncompressed_comp_YUV_tiled.heif
+libheif-1.20.1/tests/data/uncompressed_tile_ABGR_tiled.heif
+libheif-1.20.1/tests/data/uncompressed_comp_R7+1G7+1B7+1_tiled.heif
+libheif-1.20.1/tests/data/uncompressed_pix_R8G8B8_bsz0_psz5_tiled.heif
+libheif-1.20.1/tests/data/uncompressed_comp_RGxB_tiled.heif
+libheif-1.20.1/tests/data/uncompressed_comp_YUV_420.heif
+libheif-1.20.1/tests/data/simple_osm_tile_alpha.avif
+libheif-1.20.1/tests/data/uncompressed_row_RGB_tiled.heif
+libheif-1.20.1/tests/data/uncompressed_pix_B16R16G16.heif
+libheif-1.20.1/tests/data/rgb_generic_compressed_brotli.heif
+libheif-1.20.1/tests/data/uncompressed_row_ABGR.heif
+libheif-1.20.1/tests/data/uncompressed_comp_RGxB.heif
+libheif-1.20.1/tests/data/lightning_mini.heif
+libheif-1.20.1/tests/mini_decode.cc
+libheif-1.20.1/tests/uncompressed_decode_rgb565.cc
+libheif-1.20.1/tests/encode_htj2k.cc
+libheif-1.20.1/tests/uncompressed_decode_ycbcr420.cc
+libheif-1.20.1/tests/region.cc
+libheif-1.20.1/tests/encode_jpeg2000.cc
+libheif-1.20.1/tests/tiffdecode.cc
+libheif-1.20.1/tests/uncompressed_decode_rgb7.cc
+libheif-1.20.1/tests/uncompressed_decode.h
+libheif-1.20.1/tests/box_equals.cc
+libheif-1.20.1/tests/mini_box.cc
+libheif-1.20.1/tests/uncompressed_decode_rgb16.cc
+libheif-1.20.1/tests/tai.cc
+libheif-1.20.1/third-party/
+libheif-1.20.1/third-party/rav1e.cmd
+libheif-1.20.1/third-party/svt.cmd
+libheif-1.20.1/third-party/libsharpyuv.cmd
+libheif-1.20.1/third-party/dav1d.cmd
+libheif-1.20.1/third-party/aom.cmd
+libheif-1.20.1/fuzzing/
+libheif-1.20.1/fuzzing/box_fuzzer.cc
+libheif-1.20.1/fuzzing/encoder_fuzzer.cc
+libheif-1.20.1/fuzzing/CMakeLists.txt
+libheif-1.20.1/fuzzing/file_fuzzer.cc
+libheif-1.20.1/fuzzing/data/
+libheif-1.20.1/fuzzing/data/dictionary.txt
+libheif-1.20.1/fuzzing/data/corpus/
+libheif-1.20.1/fuzzing/data/corpus/clusterfuzz-testcase-minimized-file-fuzzer-5643900194127872.heic
+libheif-1.20.1/fuzzing/data/corpus/github_367_1.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_tile_ABGR_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/github_47.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_pix_RGxB.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_row_M_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/clusterfuzz-testcase-minimized-file-fuzzer-5720856641142784.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_pix_RGB_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_comp_R5G6B5_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_pix_RGB.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_row_R7G7+1B7_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/clusterfuzz-testcase-minimized-file-fuzzer-4616081830051840.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_tile_RGB_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_comp_ABGR.heic
+libheif-1.20.1/fuzzing/data/corpus/crash-20ca2625096a205937b809a7841e7f019f0b2dc6.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_comp_RGxB.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_row_RGB.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_comp_RGB_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/rgb_generic_compressed_zlib.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_comp_B16R16G16_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_pix_B16R16G16_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/clusterfuzz-testcase-minimized-file-fuzzer-5732616832024576.heic
+libheif-1.20.1/fuzzing/data/corpus/rgb_generic_compressed_defl.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_pix_M.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_row_M.heic
+libheif-1.20.1/fuzzing/data/corpus/github_138.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_mix_YUV_422.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_pix_R8G8B8A8_bsz0_psz5_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/clusterfuzz-testcase-minimized-file-fuzzer-5662360964956160.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_comp_Y16U16V16_420.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_row_B16R16G16_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_row_RGxB.heic
+libheif-1.20.1/fuzzing/data/corpus/region-mask-missing-refs.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_tile_R7+1G7+1B7+1_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_mix_VUY_420.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_row_R7G7B7_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_comp_R7+1G7+1B7+1_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/uaf_heif_context.h_117_1.heic
+libheif-1.20.1/fuzzing/data/corpus/clap-overflow-divide-zero.heic
+libheif-1.20.1/fuzzing/data/corpus/github_46_2.heic
+libheif-1.20.1/fuzzing/data/corpus/github_46_1.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_comp_R7G7B7_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/github_15.heic
+libheif-1.20.1/fuzzing/data/corpus/github_45.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_comp_B16R16G16.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_comp_YUV_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_pix_R7+1G7+1B7+1_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/hbo_heif_context.h_126_1.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_tile_RGB_tiled_row_tile_align.heic
+libheif-1.20.1/fuzzing/data/corpus/clusterfuzz-testcase-minimized-file-fuzzer-5120279175102464.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_row_ABGR.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_row_YUV_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_mix_VUY_422.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_mix_YVU_422.heic
+libheif-1.20.1/fuzzing/data/corpus/clusterfuzz-testcase-minimized-file-fuzzer-6045213633282048.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_comp_RGB_tiled_row_tile_align.heic
+libheif-1.20.1/fuzzing/data/corpus/github_44.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_comp_VUY_422.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_pix_R8G8B8_bsz0_psz5_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_pix_R7G7+1B7_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_tile_R7G7+1B7_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_row_ABGR_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_mix_YUV_420.heic
+libheif-1.20.1/fuzzing/data/corpus/rgb_generic_compressed_zlib_rows.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_pix_R8G8B8_bsz0_psz10_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/clusterfuzz-testcase-minimized-color-conversion-fuzzer-6275694804467712
+libheif-1.20.1/fuzzing/data/corpus/github_367_2.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_pix_R7G7B7_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_tile_M_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_mix_YVU_420.heic
+libheif-1.20.1/fuzzing/data/corpus/rgb_generic_compressed_brotli.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_pix_ABGR_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/clusterfuzz-testcase-minimized-file-fuzzer-5718632116518912.heic
+libheif-1.20.1/fuzzing/data/corpus/github_50.heic
+libheif-1.20.1/fuzzing/data/corpus/colors-no-alpha-thumbnail.heic
+libheif-1.20.1/fuzzing/data/corpus/github_49.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_tile_YUV_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_comp_RGB.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_row_R5G6B5_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_comp_YVU_420.heic
+libheif-1.20.1/fuzzing/data/corpus/colors-with-alpha-thumbnail.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_tile_R5G6B5_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/colors-no-alpha.heic
+libheif-1.20.1/fuzzing/data/corpus/github_48.heic
+libheif-1.20.1/fuzzing/data/corpus/clusterfuzz-testcase-minimized-file-fuzzer-5651556035198976.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_comp_YUV_420.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_row_RGB_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/colors-with-alpha.heic
+libheif-1.20.1/fuzzing/data/corpus/rgb_generic_compressed_zlib_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/clusterfuzz-testcase-minimized-file-fuzzer-5757633845264384.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_pix_R8G8B8A8_bsz0_psz10_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/clusterfuzz-testcase-minimized-file-fuzzer-5752063708495872.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_pix_ABGR.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_comp_ABGR_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_row_RGB_tiled_row_tile_align.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_pix_M_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_comp_RGxB_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_row_R7+1G7+1B7+1_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_tile_B16R16G16_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/clusterfuzz-testcase-minimized-file-fuzzer-5686319331672064.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_mix_Y16U16V16_422.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_row_RGxB_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/rgb_generic_compressed_tile_deflate.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_comp_Y16U16V16_422.heic
+libheif-1.20.1/fuzzing/data/corpus/j2k-siz-segment-undersized.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_tile_RGxB_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_pix_YUV_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_comp_M_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/clusterfuzz-testcase-minimized-file-fuzzer-5671864958976000.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_pix_R5G6B5_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_pix_RGxB_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/clusterfuzz-testcase-minimized-file-fuzzer-5724458239655936.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_mix_Y16U16V16_420.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_comp_VUY_420.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_tile_R7G7B7_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_pix_RGB_tiled_row_tile_align.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_comp_YVU_422.heic
+libheif-1.20.1/fuzzing/data/corpus/github_20.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_comp_YUV_422.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_comp_R7G7+1B7_tiled.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_row_B16R16G16.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_pix_B16R16G16.heic
+libheif-1.20.1/fuzzing/data/corpus/uncompressed_comp_M.heic
+libheif-1.20.1/fuzzing/color_conversion_fuzzer.cc
+libheif-1.20.1/cmake/
+libheif-1.20.1/cmake/modules/
+libheif-1.20.1/cmake/modules/Findlibsharpyuv.cmake
+libheif-1.20.1/cmake/modules/FindDAV1D.cmake
+libheif-1.20.1/cmake/modules/FindAOM.cmake
+libheif-1.20.1/cmake/modules/FindX265.cmake
+libheif-1.20.1/cmake/modules/FindFFMPEG.cmake
+libheif-1.20.1/cmake/modules/FindRAV1E.cmake
+libheif-1.20.1/cmake/modules/LibFindMacros.cmake
+libheif-1.20.1/cmake/modules/FindOPENJPH.cmake
+libheif-1.20.1/cmake/modules/Findkvazaar.cmake
+libheif-1.20.1/cmake/modules/FindUVG266.cmake
+libheif-1.20.1/cmake/modules/FindSvtEnc.cmake
+libheif-1.20.1/cmake/modules/FindLIBDE265.cmake
+libheif-1.20.1/cmake/modules/FindOpenH264.cmake
+libheif-1.20.1/cmake/modules/FindBrotli.cmake
+libheif-1.20.1/gnome/
+libheif-1.20.1/gnome/CMakeLists.txt
+libheif-1.20.1/gnome/heif.thumbnailer
+libheif-1.20.1/appveyor.yml
+libheif-1.20.1/examples/
+libheif-1.20.1/examples/example.heic
+libheif-1.20.1/examples/heif-test.go
+libheif-1.20.1/examples/sdl.cc
+libheif-1.20.1/examples/test_c_api.c
+libheif-1.20.1/examples/heif_dec.cc
+libheif-1.20.1/examples/COPYING
+libheif-1.20.1/examples/sdl.hh
+libheif-1.20.1/examples/heif_thumbnailer.cc
+libheif-1.20.1/examples/heif-info.1
+libheif-1.20.1/examples/heif_enc.cc
+libheif-1.20.1/examples/CMakeLists.txt
+libheif-1.20.1/examples/common.cc
+libheif-1.20.1/examples/heif-thumbnailer.1
+libheif-1.20.1/examples/heif_test.cc
+libheif-1.20.1/examples/heif-dec.1
+libheif-1.20.1/examples/heif_info.cc
+libheif-1.20.1/examples/heif-enc.1
+libheif-1.20.1/examples/benchmark.cc
+libheif-1.20.1/examples/example.avif
+libheif-1.20.1/examples/heif_view.cc
+libheif-1.20.1/examples/common.h
+libheif-1.20.1/examples/demo.html
+libheif-1.20.1/examples/benchmark.h
+libheif-1.20.1/libheif.pc.in
+libheif-1.20.1/post.js
+libheif-1.20.1/go/
+libheif-1.20.1/go/heif/
+libheif-1.20.1/go/heif/heif_test.go
+libheif-1.20.1/go/heif/heif.go
+-- The C compiler identification is GNU 14.2.0
+-- The CXX compiler identification is GNU 14.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for unistd.h
+-- Looking for unistd.h - found
+-- Performing Test has_potentially_evaluated_expression
+-- Performing Test has_potentially_evaluated_expression - Failed
+-- Found LIBDE265 
+-- Found LIBDE265: /usr/include (found version "1.0.16")
+-- Found X265 
+-- Found X265: /usr/include (found version "215")
+CMake Warning at cmake/modules/LibFindMacros.cmake:267 (message):
+  WARNING: MISSING PACKAGE
+
+  We could not find development headers for OpenH264.  Do you have the
+  necessary dev package installed? This package is NOT REQUIRED and you may
+  ignore this warning but by doing so you may miss some functionality of
+  libheif.
+
+  Relevant CMake configuration variables:
+
+    OpenH264_INCLUDE_DIR=<not found>
+    OpenH264_LIBRARY=<not found>
+
+  You may use CMake GUI, cmake -D or ccmake to modify the values.  Delete
+  CMakeCache.txt to discard all values and force full re-detection if
+  necessary.
+
+Call Stack (most recent call first):
+  cmake/modules/FindOpenH264.cmake:19 (libfind_process)
+  CMakeLists.txt:188 (find_package)
+
+
+-- Could NOT find OpenH264 (missing: OpenH264_INCLUDE_DIR OpenH264_LIBRARIES) 
+-- Looking for AOM_USAGE_GOOD_QUALITY
+-- Looking for AOM_USAGE_GOOD_QUALITY - found
+-- Found AOM 
+-- Found AOM: /usr/include
+
+=== Summary of compiled codecs ===
+libde265 HEVC decoder           : + built-in
+FFMPEG HEVC decoder (HW acc)    : - disabled
+x265 HEVC encoder               : + built-in
+Kvazaar HEVC encoder            : - disabled
+AOM AV1 decoder                 : + built-in
+AOM AV1 encoder                 : + built-in
+Dav1d AV1 decoder               : - disabled
+SVT AV1 encoder                 : - disabled
+Rav1e AV1 encoder               : - disabled
+JPEG decoder                    : - disabled
+JPEG encoder                    : - disabled
+OpenH264 decoder                : - not found
+OpenJPEG J2K decoder            : - disabled
+OpenJPEG J2K encoder            : - disabled
+OpenJPH HT-J2K encoder          : - disabled
+uvg266 VVC enc. (experimental)  : - disabled
+vvenc VVC enc. (experimental)   : - disabled
+vvdec VVC dec. (experimental)   : - disabled
+
+=== Supported formats ===
+format        decoding   encoding
+AVC             NO         NO 
+AVIF            YES        YES
+HEIC            YES        YES
+JPEG            NO         NO 
+JPEG2000        NO         NO 
+JPEG2000-HT     NO         NO 
+Uncompressed    NO         NO 
+VVC             NO         NO 
+
+-- Found LIBSHARPYUV 
+-- Found libsharpyuv: /usr/include/webp
+libsharpyuv: found
+-- Looking for _LIBCPP_VERSION
+-- Looking for _LIBCPP_VERSION - not found
+-- Found TIFF: /usr/lib/cmake/tiff (found version "4.7.0")
+-- Found JPEG: /usr/lib/libjpeg.so (found version "62")
+-- Performing Test HAVE_JPEG_WRITE_ICC_PROFILE
+-- Performing Test HAVE_JPEG_WRITE_ICC_PROFILE - Success
+-- Found ZLIB: /usr/lib/libz.so (found version "1.3.1")
+-- Found PNG: /usr/lib/libpng.so (found version "1.6.48")
+
+=== Active input formats for heif-enc ===
+JPEG: active
+PNG:  active
+TIFF: active
+
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+Doxygen tool needs to be installed to generate the API documentation
+CMake Warning at tests/CMakeLists.txt:37 (message):
+  Several unit tests have been disabled because they can only be compiled
+  with full symbol visibility (WITH_REDUCED_VISIBILITY=OFF)
+
+
+INFODisabling HT-JPEG 2000 encoder tests because no HT-JPEG 2000 codec is enabled
+INFODisabling JPEG 2000 encoder tests because no JPEG 2000 codec is enabled
+CMake Warning at tests/CMakeLists.txt:100 (message):
+  Tests of the 'uncompressed codec' are not compiled because the uncompressed
+  codec is not enabled (WITH_UNCOMPRESSED_CODEC==OFF)
+
+
+Compiling 'x265' as built-in backend
+Compiling 'libde265' as built-in backend
+Not compiling 'dav1d' backend
+Compiling 'aomdec' as built-in backend
+Compiling 'aomenc' as built-in backend
+Not compiling 'svtenc' backend
+Not compiling 'rav1e' backend
+Not compiling 'jpegdec' backend
+Not compiling 'jpegenc' backend
+Not compiling 'j2kdec' backend
+Not compiling 'j2kenc' backend
+Not compiling 'kvazaar' backend
+Not compiling 'ffmpegdec' backend
+Not compiling 'jphenc' backend
+Not compiling 'uvg266' backend
+Not compiling 'vvdec' backend
+Not compiling 'vvenc' backend
+Not compiling 'openh264dec' backend
+Compiling in 'libsharpyuv'
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Found PkgConfig: /usr/bin/pkg-config (found version "2.5.1")
+-- Checking for module 'gdk-pixbuf-2.0'
+--   Found gdk-pixbuf-2.0, version 2.43.2
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /blfs/builds/libheif-1.20.1/build
+[  2%] Building CXX object libheif/CMakeFiles/heif.dir/box.cc.o
+[  2%] Building CXX object libheif/CMakeFiles/heif.dir/bitstream.cc.o
+[  3%] Building CXX object libheif/CMakeFiles/heif.dir/error.cc.o
+[  4%] Building CXX object libheif/CMakeFiles/heif.dir/plugin_registry.cc.o
+[  5%] Building CXX object libheif/CMakeFiles/heif.dir/pixelimage.cc.o
+[  5%] Building CXX object libheif/CMakeFiles/heif.dir/nclx.cc.o
+[  4%] Building CXX object libheif/CMakeFiles/heif.dir/context.cc.o
+[  6%] Building CXX object libheif/CMakeFiles/heif.dir/security_limits.cc.o
+[  7%] Building CXX object libheif/CMakeFiles/heif.dir/file.cc.o
+[  8%] Building CXX object libheif/CMakeFiles/heif.dir/file_layout.cc.o
+[  8%] Building CXX object libheif/CMakeFiles/heif.dir/init.cc.o
+[ 10%] Building CXX object libheif/CMakeFiles/heif.dir/logging.cc.o
+[ 10%] Building CXX object libheif/CMakeFiles/heif.dir/compression_brotli.cc.o
+[ 10%] Building CXX object libheif/CMakeFiles/heif.dir/compression_zlib.cc.o
+[ 12%] Building CXX object libheif/CMakeFiles/heif.dir/region.cc.o
+[ 12%] Building CXX object libheif/CMakeFiles/heif.dir/common_utils.cc.o
+[ 13%] Building CXX object libheif/CMakeFiles/heif.dir/brands.cc.o
+[ 13%] Building CXX object libheif/CMakeFiles/heif.dir/api/libheif/heif.cc.o
+[ 14%] Building CXX object libheif/CMakeFiles/heif.dir/api/libheif/heif_library.cc.o
+[ 15%] Building CXX object libheif/CMakeFiles/heif.dir/api/libheif/heif_image.cc.o
+[ 15%] Building CXX object libheif/CMakeFiles/heif.dir/api/libheif/heif_color.cc.o
+[ 16%] Building CXX object libheif/CMakeFiles/heif.dir/api/libheif/heif_regions.cc.o
+[ 17%] Building CXX object libheif/CMakeFiles/heif.dir/api/libheif/heif_plugin.cc.o
+[ 18%] Building CXX object libheif/CMakeFiles/heif.dir/api/libheif/heif_properties.cc.o
+[ 18%] Building CXX object libheif/CMakeFiles/heif.dir/api/libheif/heif_items.cc.o
+[ 19%] Building CXX object libheif/CMakeFiles/heif.dir/api/libheif/heif_sequences.cc.o
+[ 20%] Building CXX object libheif/CMakeFiles/heif.dir/api/libheif/heif_tai_timestamps.cc.o
+[ 20%] Building CXX object libheif/CMakeFiles/heif.dir/api/libheif/heif_brands.cc.o
+[ 21%] Building CXX object libheif/CMakeFiles/heif.dir/api/libheif/heif_metadata.cc.o
+[ 22%] Building CXX object libheif/CMakeFiles/heif.dir/api/libheif/heif_aux_images.cc.o
+[ 23%] Building CXX object libheif/CMakeFiles/heif.dir/api/libheif/heif_entity_groups.cc.o
+[ 23%] Building CXX object libheif/CMakeFiles/heif.dir/api/libheif/heif_security.cc.o
+[ 24%] Building CXX object libheif/CMakeFiles/heif.dir/api/libheif/heif_encoding.cc.o
+[ 25%] Building CXX object libheif/CMakeFiles/heif.dir/api/libheif/heif_decoding.cc.o
+[ 25%] Building CXX object libheif/CMakeFiles/heif.dir/api/libheif/heif_image_handle.cc.o
+[ 26%] Building CXX object libheif/CMakeFiles/heif.dir/api/libheif/heif_context.cc.o
+[ 27%] Building CXX object libheif/CMakeFiles/heif.dir/api/libheif/heif_tiling.cc.o
+[ 28%] Building CXX object libheif/CMakeFiles/heif.dir/api/libheif/heif_uncompressed.cc.o
+[ 28%] Building CXX object libheif/CMakeFiles/heif.dir/codecs/decoder.cc.o
+[ 29%] Building CXX object libheif/CMakeFiles/heif.dir/codecs/encoder.cc.o
+[ 30%] Building CXX object libheif/CMakeFiles/heif.dir/image-items/hevc.cc.o
+[ 30%] Building CXX object libheif/CMakeFiles/heif.dir/codecs/hevc_boxes.cc.o
+[ 31%] Building CXX object libheif/CMakeFiles/heif.dir/codecs/hevc_dec.cc.o
+[ 32%] Building CXX object libheif/CMakeFiles/heif.dir/codecs/hevc_enc.cc.o
+[ 33%] Building CXX object libheif/CMakeFiles/heif.dir/image-items/avif.cc.o
+[ 33%] Building CXX object libheif/CMakeFiles/heif.dir/codecs/avif_enc.cc.o
+[ 34%] Building CXX object libheif/CMakeFiles/heif.dir/codecs/avif_dec.cc.o
+[ 35%] Building CXX object libheif/CMakeFiles/heif.dir/codecs/avif_boxes.cc.o
+[ 35%] Building CXX object libheif/CMakeFiles/heif.dir/image-items/jpeg.cc.o
+[ 36%] Building CXX object libheif/CMakeFiles/heif.dir/codecs/jpeg_boxes.cc.o
+[ 37%] Building CXX object libheif/CMakeFiles/heif.dir/codecs/jpeg_dec.cc.o
+[ 38%] Building CXX object libheif/CMakeFiles/heif.dir/codecs/jpeg_enc.cc.o
+[ 39%] Building CXX object libheif/CMakeFiles/heif.dir/image-items/jpeg2000.cc.o
+[ 39%] Building CXX object libheif/CMakeFiles/heif.dir/codecs/jpeg2000_dec.cc.o
+[ 40%] Building CXX object libheif/CMakeFiles/heif.dir/codecs/jpeg2000_enc.cc.o
+[ 40%] Building CXX object libheif/CMakeFiles/heif.dir/codecs/jpeg2000_boxes.cc.o
+[ 41%] Building CXX object libheif/CMakeFiles/heif.dir/image-items/vvc.cc.o
+[ 42%] Building CXX object libheif/CMakeFiles/heif.dir/codecs/vvc_dec.cc.o
+[ 43%] Building CXX object libheif/CMakeFiles/heif.dir/codecs/vvc_enc.cc.o
+[ 43%] Building CXX object libheif/CMakeFiles/heif.dir/codecs/vvc_boxes.cc.o
+[ 44%] Building CXX object libheif/CMakeFiles/heif.dir/image-items/avc.cc.o
+[ 45%] Building CXX object libheif/CMakeFiles/heif.dir/codecs/avc_boxes.cc.o
+[ 45%] Building CXX object libheif/CMakeFiles/heif.dir/codecs/avc_dec.cc.o
+[ 46%] Building CXX object libheif/CMakeFiles/heif.dir/image-items/mask_image.cc.o
+[ 47%] Building CXX object libheif/CMakeFiles/heif.dir/image-items/image_item.cc.o
+[ 48%] Building CXX object libheif/CMakeFiles/heif.dir/image-items/grid.cc.o
+[ 48%] Building CXX object libheif/CMakeFiles/heif.dir/image-items/overlay.cc.o
+[ 49%] Building CXX object libheif/CMakeFiles/heif.dir/image-items/iden.cc.o
+[ 50%] Building CXX object libheif/CMakeFiles/heif.dir/image-items/tiled.cc.o
+[ 50%] Building CXX object libheif/CMakeFiles/heif.dir/color-conversion/colorconversion.cc.o
+[ 51%] Building CXX object libheif/CMakeFiles/heif.dir/color-conversion/rgb2yuv.cc.o
+[ 52%] Building CXX object libheif/CMakeFiles/heif.dir/color-conversion/rgb2yuv_sharp.cc.o
+[ 53%] Building CXX object libheif/CMakeFiles/heif.dir/color-conversion/yuv2rgb.cc.o
+[ 53%] Building CXX object libheif/CMakeFiles/heif.dir/color-conversion/rgb2rgb.cc.o
+[ 54%] Building CXX object libheif/CMakeFiles/heif.dir/color-conversion/monochrome.cc.o
+[ 55%] Building CXX object libheif/CMakeFiles/heif.dir/color-conversion/hdr_sdr.cc.o
+[ 55%] Building CXX object libheif/CMakeFiles/heif.dir/color-conversion/alpha.cc.o
+[ 56%] Building CXX object libheif/CMakeFiles/heif.dir/color-conversion/chroma_sampling.cc.o
+[ 57%] Building CXX object libheif/CMakeFiles/heif.dir/sequences/seq_boxes.cc.o
+[ 58%] Building CXX object libheif/CMakeFiles/heif.dir/sequences/chunk.cc.o
+[ 58%] Building CXX object libheif/CMakeFiles/heif.dir/sequences/track.cc.o
+[ 59%] Building CXX object libheif/CMakeFiles/heif.dir/sequences/track_visual.cc.o
+[ 60%] Building CXX object libheif/CMakeFiles/heif.dir/sequences/track_metadata.cc.o
+[ 60%] Building CXX object libheif/CMakeFiles/heif.dir/plugins_unix.cc.o
+[ 61%] Building CXX object libheif/CMakeFiles/heif.dir/plugins/encoder_x265.cc.o
+[ 62%] Building CXX object libheif/CMakeFiles/heif.dir/plugins/decoder_libde265.cc.o
+[ 63%] Building CXX object libheif/CMakeFiles/heif.dir/plugins/decoder_aom.cc.o
+[ 63%] Building CXX object libheif/CMakeFiles/heif.dir/plugins/encoder_aom.cc.o
+[ 64%] Building CXX object libheif/CMakeFiles/heif.dir/plugins/encoder_mask.cc.o
+[ 65%] Building CXX object libheif/CMakeFiles/heif.dir/plugins/nalu_utils.cc.o
+[ 65%] Linking CXX shared library libheif.so
+[ 65%] Built target heif
+[ 65%] Building CXX object examples/CMakeFiles/heif-test.dir/heif_test.cc.o
+[ 68%] Building CXX object heifio/CMakeFiles/heifio.dir/encoder_y4m.cc.o
+[ 68%] Building CXX object heifio/CMakeFiles/heifio.dir/encoder.cc.o
+[ 68%] Building CXX object examples/CMakeFiles/heif-info.dir/heif_info.cc.o
+[ 69%] Building CXX object examples/CMakeFiles/heif-view.dir/heif_view.cc.o
+[ 69%] Building CXX object heifio/CMakeFiles/heifio.dir/decoder_y4m.cc.o
+[ 71%] Building CXX object examples/CMakeFiles/heif-test.dir/common.cc.o
+[ 71%] Building CXX object examples/CMakeFiles/heif-info.dir/common.cc.o
+[ 72%] Building C object gdk-pixbuf/CMakeFiles/pixbufloader-heif.dir/pixbufloader-heif.c.o
+[ 72%] Building CXX object tests/CMakeFiles/testframework.dir/__/generated/test-config.cc.o
+[ 73%] Building CXX object tests/CMakeFiles/testframework.dir/test_utils.cc.o
+[ 73%] Building CXX object heifio/CMakeFiles/heifio.dir/stubs.cc.o
+[ 73%] Building CXX object examples/CMakeFiles/heif-view.dir/sdl.cc.o
+[ 76%] Building CXX object tests/CMakeFiles/testframework.dir/catch_amalgamated.cpp.o
+[ 76%] Building CXX object heifio/CMakeFiles/heifio.dir/exif.cc.o
+[ 76%] Building CXX object examples/CMakeFiles/heif-view.dir/common.cc.o
+[ 77%] Linking C shared module libpixbufloader-heif.so
+[ 78%] Building CXX object heifio/CMakeFiles/heifio.dir/decoder_tiff.cc.o
+[ 78%] Built target pixbufloader-heif
+[ 79%] Building CXX object heifio/CMakeFiles/heifio.dir/encoder_tiff.cc.o
+[ 79%] Building CXX object heifio/CMakeFiles/heifio.dir/encoder_jpeg.cc.o
+[ 80%] Building CXX object heifio/CMakeFiles/heifio.dir/decoder_jpeg.cc.o
+[ 81%] Building CXX object heifio/CMakeFiles/heifio.dir/encoder_png.cc.o
+[ 82%] Building CXX object heifio/CMakeFiles/heifio.dir/decoder_png.cc.o
+[ 83%] Linking CXX executable heif-test
+[ 83%] Built target heif-test
+[ 84%] Linking CXX executable heif-info
+[ 84%] Built target heif-info
+[ 84%] Linking CXX static library libheifio.a
+[ 84%] Built target heifio
+[ 87%] Building CXX object examples/CMakeFiles/heif-enc.dir/benchmark.cc.o
+[ 87%] Building CXX object examples/CMakeFiles/heif-dec.dir/common.cc.o
+[ 87%] Building CXX object examples/CMakeFiles/heif-enc.dir/heif_enc.cc.o
+[ 87%] Building CXX object examples/CMakeFiles/heif-dec.dir/heif_dec.cc.o
+[ 88%] Building CXX object examples/CMakeFiles/heif-thumbnailer.dir/heif_thumbnailer.cc.o
+[ 88%] Building CXX object examples/CMakeFiles/heif-thumbnailer.dir/common.cc.o
+[ 89%] Building CXX object examples/CMakeFiles/heif-enc.dir/common.cc.o
+[ 90%] Linking CXX executable heif-view
+[ 90%] Built target heif-view
+[ 91%] Linking CXX executable heif-thumbnailer
+[ 91%] Built target heif-thumbnailer
+[ 92%] Linking CXX executable heif-dec
+[ 92%] Built target heif-dec
+[ 92%] Linking CXX executable heif-enc
+[ 92%] Built target heif-enc
+[ 92%] Linking CXX static library libtestframework.a
+[ 92%] Built target testframework
+[ 94%] Building CXX object tests/CMakeFiles/extended_type.dir/extended_type.cc.o
+[ 94%] Building CXX object tests/CMakeFiles/region.dir/region.cc.o
+[ 94%] Building CXX object tests/CMakeFiles/encode.dir/encode.cc.o
+[ 94%] Building CXX object tests/CMakeFiles/tai.dir/tai.cc.o
+[ 95%] Building CXX object tests/CMakeFiles/tiffdecode.dir/main.cc.o
+[ 96%] Building CXX object tests/CMakeFiles/tiffdecode.dir/tiffdecode.cc.o
+[ 97%] Linking CXX executable tai
+[ 97%] Built target tai
+[ 98%] Linking CXX executable encode
+[ 98%] Built target encode
+[ 98%] Linking CXX executable extended_type
+[ 98%] Built target extended_type
+[ 99%] Linking CXX executable tiffdecode
+[ 99%] Built target tiffdecode
+[100%] Linking CXX executable region
+[100%] Built target region
+[ 65%] Built target heif
+[ 73%] Built target heifio
+[ 76%] Built target heif-info
+[ 79%] Built target heif-dec
+[ 81%] Built target heif-enc
+[ 83%] Built target heif-thumbnailer
+[ 86%] Built target heif-view
+[ 88%] Built target heif-test
+[ 90%] Built target testframework
+[ 91%] Built target encode
+[ 92%] Built target extended_type
+[ 93%] Built target region
+[ 95%] Built target tai
+[ 98%] Built target tiffdecode
+[100%] Built target pixbufloader-heif
+Install the project...
+-- Install configuration: ""
+-- Installing: /pkgs/libheif/usr/lib/libheif
+-- Installing: /pkgs/libheif/usr/lib/pkgconfig/libheif.pc
+-- Installing: /pkgs/libheif/usr/bin/heif-info
+-- Set non-toolchain portion of runtime path of "/pkgs/libheif/usr/bin/heif-info" to ""
+-- Installing: /pkgs/libheif/usr/share/man/man1/heif-info.1
+-- Installing: /pkgs/libheif/usr/bin/heif-dec
+-- Set non-toolchain portion of runtime path of "/pkgs/libheif/usr/bin/heif-dec" to ""
+-- Installing: /pkgs/libheif/usr/share/man/man1/heif-dec.1
+-- Installing: /pkgs/libheif/usr/bin/heif-enc
+-- Set non-toolchain portion of runtime path of "/pkgs/libheif/usr/bin/heif-enc" to ""
+-- Installing: /pkgs/libheif/usr/share/man/man1/heif-enc.1
+-- Installing: /pkgs/libheif/usr/bin/heif-thumbnailer
+-- Set non-toolchain portion of runtime path of "/pkgs/libheif/usr/bin/heif-thumbnailer" to ""
+-- Installing: /pkgs/libheif/usr/share/man/man1/heif-thumbnailer.1
+-- Installing: /pkgs/libheif/usr/bin/heif-view
+-- Set non-toolchain portion of runtime path of "/pkgs/libheif/usr/bin/heif-view" to ""
+-- Installing: /pkgs/libheif/usr/lib/libheif.so.1.20.1
+-- Installing: /pkgs/libheif/usr/lib/libheif.so.1
+-- Installing: /pkgs/libheif/usr/lib/libheif.so
+-- Installing: /pkgs/libheif/usr/include/libheif/heif.h
+-- Installing: /pkgs/libheif/usr/include/libheif/heif_library.h
+-- Installing: /pkgs/libheif/usr/include/libheif/heif_image.h
+-- Installing: /pkgs/libheif/usr/include/libheif/heif_color.h
+-- Installing: /pkgs/libheif/usr/include/libheif/heif_error.h
+-- Installing: /pkgs/libheif/usr/include/libheif/heif_plugin.h
+-- Installing: /pkgs/libheif/usr/include/libheif/heif_properties.h
+-- Installing: /pkgs/libheif/usr/include/libheif/heif_regions.h
+-- Installing: /pkgs/libheif/usr/include/libheif/heif_items.h
+-- Installing: /pkgs/libheif/usr/include/libheif/heif_sequences.h
+-- Installing: /pkgs/libheif/usr/include/libheif/heif_tai_timestamps.h
+-- Installing: /pkgs/libheif/usr/include/libheif/heif_brands.h
+-- Installing: /pkgs/libheif/usr/include/libheif/heif_metadata.h
+-- Installing: /pkgs/libheif/usr/include/libheif/heif_aux_images.h
+-- Installing: /pkgs/libheif/usr/include/libheif/heif_entity_groups.h
+-- Installing: /pkgs/libheif/usr/include/libheif/heif_security.h
+-- Installing: /pkgs/libheif/usr/include/libheif/heif_encoding.h
+-- Installing: /pkgs/libheif/usr/include/libheif/heif_decoding.h
+-- Installing: /pkgs/libheif/usr/include/libheif/heif_image_handle.h
+-- Installing: /pkgs/libheif/usr/include/libheif/heif_context.h
+-- Installing: /pkgs/libheif/usr/include/libheif/heif_tiling.h
+-- Installing: /pkgs/libheif/usr/include/libheif/heif_uncompressed.h
+-- Installing: /pkgs/libheif/usr/include/libheif/heif_cxx.h
+-- Installing: /pkgs/libheif/usr/include/libheif/heif_version.h
+-- Installing: /pkgs/libheif/usr/lib/cmake/libheif/libheif-config.cmake
+-- Installing: /pkgs/libheif/usr/lib/cmake/libheif/libheif-config-noconfig.cmake
+-- Installing: /pkgs/libheif/usr/lib/cmake/libheif/libheif-config-version.cmake
+-- Installing: /pkgs/libheif/usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-heif.so
+-- Set non-toolchain portion of runtime path of "/pkgs/libheif/usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-heif.so" to ""
+-- Installing: /pkgs/libheif/usr/share/thumbnailers/heif.thumbnailer
+[ 65%] Built target heif
+[ 73%] Built target heifio
+[ 76%] Built target heif-info
+[ 79%] Built target heif-dec
+[ 81%] Built target heif-enc
+[ 83%] Built target heif-thumbnailer
+[ 86%] Built target heif-view
+[ 88%] Built target heif-test
+[ 90%] Built target testframework
+[ 91%] Built target encode
+[ 92%] Built target extended_type
+[ 93%] Built target region
+[ 95%] Built target tai
+[ 98%] Built target tiffdecode
+[100%] Built target pixbufloader-heif
+Install the project...
+-- Install configuration: ""
+-- Up-to-date: /usr/lib/libheif
+-- Installing: /usr/lib/pkgconfig/libheif.pc
+-- Installing: /usr/bin/heif-info
+-- Set non-toolchain portion of runtime path of "/usr/bin/heif-info" to ""
+-- Installing: /usr/share/man/man1/heif-info.1
+-- Installing: /usr/bin/heif-dec
+-- Set non-toolchain portion of runtime path of "/usr/bin/heif-dec" to ""
+-- Installing: /usr/share/man/man1/heif-dec.1
+-- Installing: /usr/bin/heif-enc
+-- Set non-toolchain portion of runtime path of "/usr/bin/heif-enc" to ""
+-- Installing: /usr/share/man/man1/heif-enc.1
+-- Installing: /usr/bin/heif-thumbnailer
+-- Set non-toolchain portion of runtime path of "/usr/bin/heif-thumbnailer" to ""
+-- Installing: /usr/share/man/man1/heif-thumbnailer.1
+-- Installing: /usr/bin/heif-view
+-- Set non-toolchain portion of runtime path of "/usr/bin/heif-view" to ""
+-- Installing: /usr/lib/libheif.so.1.20.1
+-- Installing: /usr/lib/libheif.so.1
+-- Up-to-date: /usr/lib/libheif.so
+-- Installing: /usr/include/libheif/heif.h
+-- Installing: /usr/include/libheif/heif_library.h
+-- Installing: /usr/include/libheif/heif_image.h
+-- Installing: /usr/include/libheif/heif_color.h
+-- Installing: /usr/include/libheif/heif_error.h
+-- Installing: /usr/include/libheif/heif_plugin.h
+-- Installing: /usr/include/libheif/heif_properties.h
+-- Installing: /usr/include/libheif/heif_regions.h
+-- Installing: /usr/include/libheif/heif_items.h
+-- Installing: /usr/include/libheif/heif_sequences.h
+-- Installing: /usr/include/libheif/heif_tai_timestamps.h
+-- Installing: /usr/include/libheif/heif_brands.h
+-- Installing: /usr/include/libheif/heif_metadata.h
+-- Installing: /usr/include/libheif/heif_aux_images.h
+-- Installing: /usr/include/libheif/heif_entity_groups.h
+-- Installing: /usr/include/libheif/heif_security.h
+-- Installing: /usr/include/libheif/heif_encoding.h
+-- Installing: /usr/include/libheif/heif_decoding.h
+-- Installing: /usr/include/libheif/heif_image_handle.h
+-- Installing: /usr/include/libheif/heif_context.h
+-- Installing: /usr/include/libheif/heif_tiling.h
+-- Installing: /usr/include/libheif/heif_uncompressed.h
+-- Installing: /usr/include/libheif/heif_cxx.h
+-- Installing: /usr/include/libheif/heif_version.h
+-- Installing: /usr/lib/cmake/libheif/libheif-config.cmake
+-- Installing: /usr/lib/cmake/libheif/libheif-config-noconfig.cmake
+-- Installing: /usr/lib/cmake/libheif/libheif-config-version.cmake
+-- Installing: /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-heif.so
+-- Set non-toolchain portion of runtime path of "/usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-heif.so" to ""
+-- Installing: /usr/share/thumbnailers/heif.thumbnailer
+libheif/
+libheif/usr/
+libheif/usr/share/
+libheif/usr/share/thumbnailers/
+libheif/usr/share/thumbnailers/heif.thumbnailer
+libheif/usr/share/man/
+libheif/usr/share/man/man1/
+libheif/usr/share/man/man1/heif-info.1
+libheif/usr/share/man/man1/heif-enc.1
+libheif/usr/share/man/man1/heif-thumbnailer.1
+libheif/usr/share/man/man1/heif-dec.1
+libheif/usr/lib/
+libheif/usr/lib/libheif/
+libheif/usr/lib/libheif.so.1
+libheif/usr/lib/libheif.so
+libheif/usr/lib/libheif.so.1.20.1
+libheif/usr/lib/cmake/
+libheif/usr/lib/cmake/libheif/
+libheif/usr/lib/cmake/libheif/libheif-config-version.cmake
+libheif/usr/lib/cmake/libheif/libheif-config.cmake
+libheif/usr/lib/cmake/libheif/libheif-config-noconfig.cmake
+libheif/usr/lib/pkgconfig/
+libheif/usr/lib/pkgconfig/libheif.pc
+libheif/usr/lib/gdk-pixbuf-2.0/
+libheif/usr/lib/gdk-pixbuf-2.0/2.10.0/
+libheif/usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/
+libheif/usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-heif.so
+libheif/usr/include/
+libheif/usr/include/libheif/
+libheif/usr/include/libheif/heif_brands.h
+libheif/usr/include/libheif/heif_color.h
+libheif/usr/include/libheif/heif_entity_groups.h
+libheif/usr/include/libheif/heif_context.h
+libheif/usr/include/libheif/heif_regions.h
+libheif/usr/include/libheif/heif_encoding.h
+libheif/usr/include/libheif/heif_image_handle.h
+libheif/usr/include/libheif/heif_plugin.h
+libheif/usr/include/libheif/heif_library.h
+libheif/usr/include/libheif/heif_metadata.h
+libheif/usr/include/libheif/heif_uncompressed.h
+libheif/usr/include/libheif/heif_aux_images.h
+libheif/usr/include/libheif/heif.h
+libheif/usr/include/libheif/heif_decoding.h
+libheif/usr/include/libheif/heif_items.h
+libheif/usr/include/libheif/heif_image.h
+libheif/usr/include/libheif/heif_tiling.h
+libheif/usr/include/libheif/heif_tai_timestamps.h
+libheif/usr/include/libheif/heif_error.h
+libheif/usr/include/libheif/heif_sequences.h
+libheif/usr/include/libheif/heif_cxx.h
+libheif/usr/include/libheif/heif_properties.h
+libheif/usr/include/libheif/heif_security.h
+libheif/usr/include/libheif/heif_version.h
+libheif/usr/bin/
+libheif/usr/bin/heif-convert
+libheif/usr/bin/heif-enc
+libheif/usr/bin/heif-info
+libheif/usr/bin/heif-thumbnailer
+libheif/usr/bin/heif-dec
+libheif/usr/bin/heif-view
+libheif/version
+libheif/depends
+libheif/make-depends
