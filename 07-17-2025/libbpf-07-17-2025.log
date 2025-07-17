@@ -1,0 +1,261 @@
+--2025-07-17 08:08:03--  https://github.com/libbpf/libbpf/archive/refs/tags/v1.6.0.tar.gz
+Resolving github.com (github.com)... 140.82.114.3
+Connecting to github.com (github.com)|140.82.114.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://codeload.github.com/libbpf/libbpf/tar.gz/refs/tags/v1.6.0 [following]
+--2025-07-17 08:08:03--  https://codeload.github.com/libbpf/libbpf/tar.gz/refs/tags/v1.6.0
+Resolving codeload.github.com (codeload.github.com)... 140.82.113.9
+Connecting to codeload.github.com (codeload.github.com)|140.82.113.9|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/x-gzip]
+Saving to: 'v1.6.0.tar.gz'
+
+     0K .......... .......... .......... .......... .......... 2.09M
+    50K .......... .......... .......... .......... .......... 4.06M
+   100K .......... .......... .......... .......... ..........  121M
+   150K .......... .......... .......... .......... .......... 87.5M
+   200K .......... .......... .......... .......... .......... 4.23M
+   250K .......... .......... .......... .......... ..........  154M
+   300K .......... .......... .......... .......... ..........  102M
+   350K .......... .......... .......... .......... .......... 99.7M
+   400K .......... .......... .......... .......... .......... 4.58M
+   450K .......... .......... .......... .......... ..........  164M
+   500K .......... .......... .......... .......... .......... 4.83M
+   550K .......... .......... .......... .......... .......... 92.1M
+   600K .......... .......... .......... .......... ..........  102M
+   650K .......... .......... .......... .......... ..........  100M
+   700K .......... .......... .......... .......... ..........  151M
+   750K .......... .......... .......... .......... .......... 1.18M
+   800K .......... .......... .......... .......... .......... 87.4M
+   850K .......... .......... .......... .......... ..........  169M
+   900K .......... .......... .......... .......... .......... 98.8M
+   950K .......... .......... .......... .......... ..........  101M
+  1000K .......... ..........                                  36.7M=0.1s
+
+2025-07-17 08:08:04 (8.60 MB/s) - 'v1.6.0.tar.gz' saved [1045380]
+
+libbpf-1.6.0/
+libbpf-1.6.0/.gitattributes
+libbpf-1.6.0/.github/
+libbpf-1.6.0/.github/actions/
+libbpf-1.6.0/.github/actions/build-selftests/
+libbpf-1.6.0/.github/actions/build-selftests/vmlinux.h
+libbpf-1.6.0/.github/actions/debian/
+libbpf-1.6.0/.github/actions/debian/action.yml
+libbpf-1.6.0/.github/actions/setup/
+libbpf-1.6.0/.github/actions/setup/action.yml
+libbpf-1.6.0/.github/workflows/
+libbpf-1.6.0/.github/workflows/build.yml
+libbpf-1.6.0/.github/workflows/cifuzz.yml
+libbpf-1.6.0/.github/workflows/codeql.yml
+libbpf-1.6.0/.github/workflows/coverity.yml
+libbpf-1.6.0/.github/workflows/lint.yml
+libbpf-1.6.0/.github/workflows/ondemand.yml
+libbpf-1.6.0/.github/workflows/test.yml
+libbpf-1.6.0/.github/workflows/vmtest.yml
+libbpf-1.6.0/.mailmap
+libbpf-1.6.0/.readthedocs.yaml
+libbpf-1.6.0/BPF-CHECKPOINT-COMMIT
+libbpf-1.6.0/CHECKPOINT-COMMIT
+libbpf-1.6.0/LICENSE
+libbpf-1.6.0/LICENSE.BSD-2-Clause
+libbpf-1.6.0/LICENSE.LGPL-2.1
+libbpf-1.6.0/README.md
+libbpf-1.6.0/SYNC.md
+libbpf-1.6.0/assets/
+libbpf-1.6.0/ci/
+libbpf-1.6.0/ci/build-in-docker.sh
+libbpf-1.6.0/ci/diffs/
+libbpf-1.6.0/ci/diffs/.keep
+libbpf-1.6.0/ci/diffs/0001-selftests-bpf-set-test-path-for-token-obj_priv_impli.patch
+libbpf-1.6.0/ci/diffs/4000-selftests-bpf-Fix-tests-after-fields-reorder-in-stru.patch
+libbpf-1.6.0/ci/diffs/4001-selftests-bpf-Fix-verifier_bpf_fastcall-test.patch
+libbpf-1.6.0/ci/diffs/4002-selftests-bpf-Fix-verifier_private_stack-test-failur.patch
+libbpf-1.6.0/ci/managers/
+libbpf-1.6.0/ci/managers/debian.sh
+libbpf-1.6.0/ci/managers/test_compile.sh
+libbpf-1.6.0/ci/managers/travis_wait.bash
+libbpf-1.6.0/ci/managers/ubuntu.sh
+libbpf-1.6.0/ci/vmtest/
+libbpf-1.6.0/ci/vmtest/configs/
+libbpf-1.6.0/ci/vmtest/configs/DENYLIST
+libbpf-1.6.0/ci/vmtest/configs/DENYLIST-latest
+libbpf-1.6.0/ci/vmtest/configs/DENYLIST-latest.s390x
+libbpf-1.6.0/ci/vmtest/configs/run-vmtest.env
+libbpf-1.6.0/docs/
+libbpf-1.6.0/docs/.gitignore
+libbpf-1.6.0/docs/api.rst
+libbpf-1.6.0/docs/conf.py
+libbpf-1.6.0/docs/index.rst
+libbpf-1.6.0/docs/libbpf_build.rst
+libbpf-1.6.0/docs/libbpf_naming_convention.rst
+libbpf-1.6.0/docs/libbpf_overview.rst
+libbpf-1.6.0/docs/program_types.rst
+libbpf-1.6.0/docs/sphinx/
+libbpf-1.6.0/docs/sphinx/Makefile
+libbpf-1.6.0/docs/sphinx/doxygen/
+libbpf-1.6.0/docs/sphinx/doxygen/Doxyfile
+libbpf-1.6.0/docs/sphinx/requirements.txt
+libbpf-1.6.0/fuzz/
+libbpf-1.6.0/fuzz/bpf-object-fuzzer.c
+libbpf-1.6.0/fuzz/bpf-object-fuzzer_seed_corpus.zip
+libbpf-1.6.0/include/
+libbpf-1.6.0/include/asm/
+libbpf-1.6.0/include/asm/barrier.h
+libbpf-1.6.0/include/linux/
+libbpf-1.6.0/include/linux/compiler.h
+libbpf-1.6.0/include/linux/err.h
+libbpf-1.6.0/include/linux/filter.h
+libbpf-1.6.0/include/linux/kernel.h
+libbpf-1.6.0/include/linux/list.h
+libbpf-1.6.0/include/linux/overflow.h
+libbpf-1.6.0/include/linux/ring_buffer.h
+libbpf-1.6.0/include/linux/types.h
+libbpf-1.6.0/include/uapi/
+libbpf-1.6.0/include/uapi/linux/
+libbpf-1.6.0/include/uapi/linux/bpf.h
+libbpf-1.6.0/include/uapi/linux/bpf_common.h
+libbpf-1.6.0/include/uapi/linux/btf.h
+libbpf-1.6.0/include/uapi/linux/if_link.h
+libbpf-1.6.0/include/uapi/linux/if_xdp.h
+libbpf-1.6.0/include/uapi/linux/netdev.h
+libbpf-1.6.0/include/uapi/linux/netlink.h
+libbpf-1.6.0/include/uapi/linux/perf_event.h
+libbpf-1.6.0/include/uapi/linux/pkt_cls.h
+libbpf-1.6.0/include/uapi/linux/pkt_sched.h
+libbpf-1.6.0/scripts/
+libbpf-1.6.0/scripts/build-fuzzers.sh
+libbpf-1.6.0/scripts/coverity.sh
+libbpf-1.6.0/scripts/mailmap-update.sh
+libbpf-1.6.0/scripts/sync-kernel.sh
+libbpf-1.6.0/src/
+libbpf-1.6.0/src/.gitignore
+libbpf-1.6.0/src/Makefile
+libbpf-1.6.0/src/bpf.c
+libbpf-1.6.0/src/bpf.h
+libbpf-1.6.0/src/bpf_core_read.h
+libbpf-1.6.0/src/bpf_endian.h
+libbpf-1.6.0/src/bpf_gen_internal.h
+libbpf-1.6.0/src/bpf_helper_defs.h
+libbpf-1.6.0/src/bpf_helpers.h
+libbpf-1.6.0/src/bpf_prog_linfo.c
+libbpf-1.6.0/src/bpf_tracing.h
+libbpf-1.6.0/src/btf.c
+libbpf-1.6.0/src/btf.h
+libbpf-1.6.0/src/btf_dump.c
+libbpf-1.6.0/src/btf_iter.c
+libbpf-1.6.0/src/btf_relocate.c
+libbpf-1.6.0/src/elf.c
+libbpf-1.6.0/src/features.c
+libbpf-1.6.0/src/gen_loader.c
+libbpf-1.6.0/src/hashmap.c
+libbpf-1.6.0/src/hashmap.h
+libbpf-1.6.0/src/libbpf.c
+libbpf-1.6.0/src/libbpf.h
+libbpf-1.6.0/src/libbpf.map
+libbpf-1.6.0/src/libbpf.pc.template
+libbpf-1.6.0/src/libbpf_common.h
+libbpf-1.6.0/src/libbpf_errno.c
+libbpf-1.6.0/src/libbpf_internal.h
+libbpf-1.6.0/src/libbpf_legacy.h
+libbpf-1.6.0/src/libbpf_probes.c
+libbpf-1.6.0/src/libbpf_version.h
+libbpf-1.6.0/src/linker.c
+libbpf-1.6.0/src/netlink.c
+libbpf-1.6.0/src/nlattr.c
+libbpf-1.6.0/src/nlattr.h
+libbpf-1.6.0/src/relo_core.c
+libbpf-1.6.0/src/relo_core.h
+libbpf-1.6.0/src/ringbuf.c
+libbpf-1.6.0/src/skel_internal.h
+libbpf-1.6.0/src/str_error.c
+libbpf-1.6.0/src/str_error.h
+libbpf-1.6.0/src/strset.c
+libbpf-1.6.0/src/strset.h
+libbpf-1.6.0/src/usdt.bpf.h
+libbpf-1.6.0/src/usdt.c
+libbpf-1.6.0/src/zip.c
+libbpf-1.6.0/src/zip.h
+make: Entering directory '/blfs/builds/libbpf-1.6.0/src'
+  MKDIR    staticobjs
+  MKDIR    sharedobjs
+  CC       staticobjs/bpf.o
+  CC       staticobjs/btf.o
+  CC       staticobjs/libbpf.o
+  CC       staticobjs/libbpf_errno.o
+  CC       staticobjs/netlink.o
+  CC       staticobjs/nlattr.o
+  CC       staticobjs/str_error.o
+  CC       staticobjs/libbpf_probes.o
+  CC       staticobjs/bpf_prog_linfo.o
+  CC       staticobjs/btf_dump.o
+  CC       staticobjs/hashmap.o
+  CC       staticobjs/ringbuf.o
+  CC       staticobjs/linker.o
+  CC       staticobjs/strset.o
+  CC       staticobjs/gen_loader.o
+  CC       staticobjs/relo_core.o
+  CC       staticobjs/usdt.o
+  CC       staticobjs/zip.o
+  CC       staticobjs/elf.o
+  CC       staticobjs/btf_iter.o
+  CC       staticobjs/features.o
+  CC       staticobjs/btf_relocate.o
+  CC       sharedobjs/bpf.o
+  CC       sharedobjs/btf.o
+  CC       sharedobjs/libbpf.o
+  CC       sharedobjs/libbpf_errno.o
+  CC       sharedobjs/netlink.o
+  CC       sharedobjs/nlattr.o
+  CC       sharedobjs/str_error.o
+  CC       sharedobjs/libbpf_probes.o
+  CC       sharedobjs/bpf_prog_linfo.o
+  CC       sharedobjs/btf_dump.o
+  CC       sharedobjs/hashmap.o
+  CC       sharedobjs/ringbuf.o
+  CC       sharedobjs/strset.o
+  CC       sharedobjs/linker.o
+  CC       sharedobjs/gen_loader.o
+  CC       sharedobjs/relo_core.o
+  CC       sharedobjs/usdt.o
+  CC       sharedobjs/zip.o
+  CC       sharedobjs/elf.o
+  CC       sharedobjs/btf_iter.o
+  CC       sharedobjs/features.o
+  CC       sharedobjs/btf_relocate.o
+  AR       libbpf.a
+  CC       libbpf.so.1.6.0
+make: Leaving directory '/blfs/builds/libbpf-1.6.0/src'
+make: Entering directory '/blfs/builds/libbpf-1.6.0/src'
+  INSTALL  bpf.h libbpf.h btf.h libbpf_common.h libbpf_legacy.h bpf_helpers.h bpf_helper_defs.h bpf_tracing.h bpf_endian.h bpf_core_read.h skel_internal.h libbpf_version.h usdt.bpf.h
+  INSTALL  ./libbpf.pc
+  INSTALL  ./libbpf.a ./libbpf.so ./libbpf.so.1 ./libbpf.so.1.6.0
+make: 'install_headers' is up to date.
+make: Leaving directory '/blfs/builds/libbpf-1.6.0/src'
+libbpf/
+libbpf/usr/
+libbpf/usr/lib/
+libbpf/usr/lib/libbpf.a
+libbpf/usr/lib/pkgconfig/
+libbpf/usr/lib/pkgconfig/libbpf.pc
+libbpf/usr/lib/libbpf.so.1.6.0
+libbpf/usr/lib/libbpf.so
+libbpf/usr/lib/libbpf.so.1
+libbpf/usr/include/
+libbpf/usr/include/bpf/
+libbpf/usr/include/bpf/bpf_core_read.h
+libbpf/usr/include/bpf/usdt.bpf.h
+libbpf/usr/include/bpf/bpf_tracing.h
+libbpf/usr/include/bpf/bpf_helper_defs.h
+libbpf/usr/include/bpf/libbpf_legacy.h
+libbpf/usr/include/bpf/bpf.h
+libbpf/usr/include/bpf/btf.h
+libbpf/usr/include/bpf/libbpf_common.h
+libbpf/usr/include/bpf/skel_internal.h
+libbpf/usr/include/bpf/libbpf_version.h
+libbpf/usr/include/bpf/libbpf.h
+libbpf/usr/include/bpf/bpf_helpers.h
+libbpf/usr/include/bpf/bpf_endian.h
+libbpf/version
+libbpf/depends
+libbpf/make-depends
