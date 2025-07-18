@@ -1,0 +1,1142 @@
+--2025-07-18 07:11:20--  https://archive.mozilla.org/pub/nspr/releases/v4.37/src/nspr-4.37.tar.gz
+Resolving archive.mozilla.org (archive.mozilla.org)... 2a04:4e42::787, 2a04:4e42:200::787, 2a04:4e42:400::787, ...
+Connecting to archive.mozilla.org (archive.mozilla.org)|2a04:4e42::787|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1057241 (1.0M) [application/x-tar]
+Saving to: 'nspr-4.37.tar.gz'
+
+     0K .......... .......... .......... .......... ..........  4% 7.27M 0s
+    50K .......... .......... .......... .......... ..........  9% 12.8M 0s
+   100K .......... .......... .......... .......... .......... 14% 9.64M 0s
+   150K .......... .......... .......... .......... .......... 19% 41.1M 0s
+   200K .......... .......... .......... .......... .......... 24% 24.6M 0s
+   250K .......... .......... .......... .......... .......... 29% 11.5M 0s
+   300K .......... .......... .......... .......... .......... 33% 45.2M 0s
+   350K .......... .......... .......... .......... .......... 38% 81.1M 0s
+   400K .......... .......... .......... .......... .......... 43%  111M 0s
+   450K .......... .......... .......... .......... .......... 48% 31.4M 0s
+   500K .......... .......... .......... .......... .......... 53% 12.4M 0s
+   550K .......... .......... .......... .......... .......... 58%  131M 0s
+   600K .......... .......... .......... .......... .......... 62%  119M 0s
+   650K .......... .......... .......... .......... .......... 67% 92.6M 0s
+   700K .......... .......... .......... .......... .......... 72% 85.7M 0s
+   750K .......... .......... .......... .......... .......... 77%  117M 0s
+   800K .......... .......... .......... .......... .......... 82%  119M 0s
+   850K .......... .......... .......... .......... .......... 87%  118M 0s
+   900K .......... .......... .......... .......... .......... 92%  105M 0s
+   950K .......... .......... .......... .......... .......... 96%  118M 0s
+  1000K .......... .......... .......... ..                   100%  121M=0.03s
+
+2025-07-18 07:11:20 (28.9 MB/s) - 'nspr-4.37.tar.gz' saved [1057241/1057241]
+
+nspr-4.37/nspr/.hg_archival.txt
+nspr-4.37/nspr/.arcconfig
+nspr-4.37/nspr/.clang-format
+nspr-4.37/nspr/.cvsignore
+nspr-4.37/nspr/.hg-annotate-ignore-revs
+nspr-4.37/nspr/.hgignore
+nspr-4.37/nspr/.hgtags
+nspr-4.37/nspr/LICENSE
+nspr-4.37/nspr/Makefile.in
+nspr-4.37/nspr/admin/explode.pl
+nspr-4.37/nspr/admin/makeTargetDirs.sh
+nspr-4.37/nspr/admin/symlinks.sh
+nspr-4.37/nspr/automation/release/nspr-release-helper.py
+nspr-4.37/nspr/build/autoconf/README
+nspr-4.37/nspr/build/autoconf/config.guess
+nspr-4.37/nspr/build/autoconf/config.sub
+nspr-4.37/nspr/build/autoconf/install-sh
+nspr-4.37/nspr/build/cygwin-wrapper
+nspr-4.37/nspr/build/win32/pgomerge.py
+nspr-4.37/nspr/config/.cvsignore
+nspr-4.37/nspr/config/Makefile.in
+nspr-4.37/nspr/config/autoconf.mk.in
+nspr-4.37/nspr/config/config.mk
+nspr-4.37/nspr/config/gcc_hidden.h
+nspr-4.37/nspr/config/libc_r.h
+nspr-4.37/nspr/config/make-system-wrappers.pl
+nspr-4.37/nspr/config/nfspwd.pl
+nspr-4.37/nspr/config/now.c
+nspr-4.37/nspr/config/nsinstall.c
+nspr-4.37/nspr/config/nspr-config.in
+nspr-4.37/nspr/config/nspr.m4
+nspr-4.37/nspr/config/nspr.pc.in
+nspr-4.37/nspr/config/nsprincl.mk.in
+nspr-4.37/nspr/config/nsprincl.sh.in
+nspr-4.37/nspr/config/pathsub.h
+nspr-4.37/nspr/config/prdepend.h
+nspr-4.37/nspr/config/rules.mk
+nspr-4.37/nspr/config/system-headers
+nspr-4.37/nspr/configure
+nspr-4.37/nspr/configure.in
+nspr-4.37/nspr/lib/.cvsignore
+nspr-4.37/nspr/lib/Makefile.in
+nspr-4.37/nspr/lib/ds/.cvsignore
+nspr-4.37/nspr/lib/ds/Makefile.in
+nspr-4.37/nspr/lib/ds/plarena.c
+nspr-4.37/nspr/lib/ds/plarena.h
+nspr-4.37/nspr/lib/ds/plarenas.h
+nspr-4.37/nspr/lib/ds/plds.def
+nspr-4.37/nspr/lib/ds/plds.rc
+nspr-4.37/nspr/lib/ds/plhash.c
+nspr-4.37/nspr/lib/ds/plhash.h
+nspr-4.37/nspr/lib/ds/plvrsion.c
+nspr-4.37/nspr/lib/libc/.cvsignore
+nspr-4.37/nspr/lib/libc/Makefile.in
+nspr-4.37/nspr/lib/libc/README
+nspr-4.37/nspr/lib/libc/include/.cvsignore
+nspr-4.37/nspr/lib/libc/include/Makefile.in
+nspr-4.37/nspr/lib/libc/include/README
+nspr-4.37/nspr/lib/libc/include/plbase64.h
+nspr-4.37/nspr/lib/libc/include/plerror.h
+nspr-4.37/nspr/lib/libc/include/plgetopt.h
+nspr-4.37/nspr/lib/libc/include/plstr.h
+nspr-4.37/nspr/lib/libc/src/.cvsignore
+nspr-4.37/nspr/lib/libc/src/Makefile.in
+nspr-4.37/nspr/lib/libc/src/README
+nspr-4.37/nspr/lib/libc/src/base64.c
+nspr-4.37/nspr/lib/libc/src/plc.def
+nspr-4.37/nspr/lib/libc/src/plc.rc
+nspr-4.37/nspr/lib/libc/src/plerror.c
+nspr-4.37/nspr/lib/libc/src/plgetopt.c
+nspr-4.37/nspr/lib/libc/src/plvrsion.c
+nspr-4.37/nspr/lib/libc/src/strcase.c
+nspr-4.37/nspr/lib/libc/src/strcat.c
+nspr-4.37/nspr/lib/libc/src/strchr.c
+nspr-4.37/nspr/lib/libc/src/strcmp.c
+nspr-4.37/nspr/lib/libc/src/strcpy.c
+nspr-4.37/nspr/lib/libc/src/strdup.c
+nspr-4.37/nspr/lib/libc/src/strlen.c
+nspr-4.37/nspr/lib/libc/src/strpbrk.c
+nspr-4.37/nspr/lib/libc/src/strstr.c
+nspr-4.37/nspr/lib/libc/src/strtok.c
+nspr-4.37/nspr/lib/prstreams/.cvsignore
+nspr-4.37/nspr/lib/prstreams/Makefile.in
+nspr-4.37/nspr/lib/prstreams/plvrsion.c
+nspr-4.37/nspr/lib/prstreams/prstrms.cpp
+nspr-4.37/nspr/lib/prstreams/prstrms.h
+nspr-4.37/nspr/lib/prstreams/prstrms.rc
+nspr-4.37/nspr/lib/prstreams/tests/testprstrm/.cvsignore
+nspr-4.37/nspr/lib/prstreams/tests/testprstrm/Makefile.in
+nspr-4.37/nspr/lib/prstreams/tests/testprstrm/testprstrm.cpp
+nspr-4.37/nspr/lib/tests/.cvsignore
+nspr-4.37/nspr/lib/tests/Makefile.in
+nspr-4.37/nspr/lib/tests/arena.c
+nspr-4.37/nspr/lib/tests/base64t.c
+nspr-4.37/nspr/lib/tests/getopt.c
+nspr-4.37/nspr/lib/tests/string.c
+nspr-4.37/nspr/pkg/Makefile.in
+nspr-4.37/nspr/pkg/linux/Makefile.in
+nspr-4.37/nspr/pkg/linux/sun-nspr.spec
+nspr-4.37/nspr/pkg/solaris/Makefile-devl.com
+nspr-4.37/nspr/pkg/solaris/Makefile-devl.targ
+nspr-4.37/nspr/pkg/solaris/Makefile.com
+nspr-4.37/nspr/pkg/solaris/Makefile.in
+nspr-4.37/nspr/pkg/solaris/Makefile.targ
+nspr-4.37/nspr/pkg/solaris/SUNWpr/Makefile.in
+nspr-4.37/nspr/pkg/solaris/SUNWpr/depend
+nspr-4.37/nspr/pkg/solaris/SUNWpr/pkginfo.tmpl
+nspr-4.37/nspr/pkg/solaris/SUNWpr/prototype_com
+nspr-4.37/nspr/pkg/solaris/SUNWpr/prototype_i386
+nspr-4.37/nspr/pkg/solaris/SUNWpr/prototype_sparc
+nspr-4.37/nspr/pkg/solaris/SUNWprd/Makefile.in
+nspr-4.37/nspr/pkg/solaris/SUNWprd/depend
+nspr-4.37/nspr/pkg/solaris/SUNWprd/pkginfo.tmpl
+nspr-4.37/nspr/pkg/solaris/SUNWprd/prototype
+nspr-4.37/nspr/pkg/solaris/bld_awk_pkginfo.ksh
+nspr-4.37/nspr/pkg/solaris/common_files/copyright
+nspr-4.37/nspr/pkg/solaris/proto64.mk
+nspr-4.37/nspr/pr/.cvsignore
+nspr-4.37/nspr/pr/Makefile.in
+nspr-4.37/nspr/pr/include/.cvsignore
+nspr-4.37/nspr/pr/include/Makefile.in
+nspr-4.37/nspr/pr/include/gencfg.c
+nspr-4.37/nspr/pr/include/md/.cvsignore
+nspr-4.37/nspr/pr/include/md/Makefile.in
+nspr-4.37/nspr/pr/include/md/_aix.h
+nspr-4.37/nspr/pr/include/md/_aix32.cfg
+nspr-4.37/nspr/pr/include/md/_aix64.cfg
+nspr-4.37/nspr/pr/include/md/_darwin.cfg
+nspr-4.37/nspr/pr/include/md/_darwin.h
+nspr-4.37/nspr/pr/include/md/_freebsd.cfg
+nspr-4.37/nspr/pr/include/md/_freebsd.h
+nspr-4.37/nspr/pr/include/md/_hpux.h
+nspr-4.37/nspr/pr/include/md/_hpux32.cfg
+nspr-4.37/nspr/pr/include/md/_hpux64.cfg
+nspr-4.37/nspr/pr/include/md/_linux.cfg
+nspr-4.37/nspr/pr/include/md/_linux.h
+nspr-4.37/nspr/pr/include/md/_netbsd.cfg
+nspr-4.37/nspr/pr/include/md/_netbsd.h
+nspr-4.37/nspr/pr/include/md/_nspr_pthread.h
+nspr-4.37/nspr/pr/include/md/_nto.cfg
+nspr-4.37/nspr/pr/include/md/_nto.h
+nspr-4.37/nspr/pr/include/md/_openbsd.cfg
+nspr-4.37/nspr/pr/include/md/_openbsd.h
+nspr-4.37/nspr/pr/include/md/_pcos.h
+nspr-4.37/nspr/pr/include/md/_pth.h
+nspr-4.37/nspr/pr/include/md/_qnx.cfg
+nspr-4.37/nspr/pr/include/md/_qnx.h
+nspr-4.37/nspr/pr/include/md/_riscos.cfg
+nspr-4.37/nspr/pr/include/md/_riscos.h
+nspr-4.37/nspr/pr/include/md/_solaris.cfg
+nspr-4.37/nspr/pr/include/md/_solaris.h
+nspr-4.37/nspr/pr/include/md/_unix_errors.h
+nspr-4.37/nspr/pr/include/md/_unixos.h
+nspr-4.37/nspr/pr/include/md/_win32_errors.h
+nspr-4.37/nspr/pr/include/md/_win95.cfg
+nspr-4.37/nspr/pr/include/md/_win95.h
+nspr-4.37/nspr/pr/include/md/_winnt.cfg
+nspr-4.37/nspr/pr/include/md/_winnt.h
+nspr-4.37/nspr/pr/include/md/prosdep.h
+nspr-4.37/nspr/pr/include/nspr.h
+nspr-4.37/nspr/pr/include/obsolete/.cvsignore
+nspr-4.37/nspr/pr/include/obsolete/Makefile.in
+nspr-4.37/nspr/pr/include/obsolete/pralarm.h
+nspr-4.37/nspr/pr/include/obsolete/probslet.h
+nspr-4.37/nspr/pr/include/obsolete/protypes.h
+nspr-4.37/nspr/pr/include/obsolete/prsem.h
+nspr-4.37/nspr/pr/include/pratom.h
+nspr-4.37/nspr/pr/include/prbit.h
+nspr-4.37/nspr/pr/include/prclist.h
+nspr-4.37/nspr/pr/include/prcmon.h
+nspr-4.37/nspr/pr/include/prcountr.h
+nspr-4.37/nspr/pr/include/prcvar.h
+nspr-4.37/nspr/pr/include/prdtoa.h
+nspr-4.37/nspr/pr/include/prenv.h
+nspr-4.37/nspr/pr/include/prerr.h
+nspr-4.37/nspr/pr/include/prerror.h
+nspr-4.37/nspr/pr/include/prinet.h
+nspr-4.37/nspr/pr/include/prinit.h
+nspr-4.37/nspr/pr/include/prinrval.h
+nspr-4.37/nspr/pr/include/prio.h
+nspr-4.37/nspr/pr/include/pripcsem.h
+nspr-4.37/nspr/pr/include/private/.cvsignore
+nspr-4.37/nspr/pr/include/private/Makefile.in
+nspr-4.37/nspr/pr/include/private/pprio.h
+nspr-4.37/nspr/pr/include/private/pprmwait.h
+nspr-4.37/nspr/pr/include/private/pprthred.h
+nspr-4.37/nspr/pr/include/private/primpl.h
+nspr-4.37/nspr/pr/include/private/prpriv.h
+nspr-4.37/nspr/pr/include/prlink.h
+nspr-4.37/nspr/pr/include/prlock.h
+nspr-4.37/nspr/pr/include/prlog.h
+nspr-4.37/nspr/pr/include/prlong.h
+nspr-4.37/nspr/pr/include/prmem.h
+nspr-4.37/nspr/pr/include/prmon.h
+nspr-4.37/nspr/pr/include/prmwait.h
+nspr-4.37/nspr/pr/include/prnetdb.h
+nspr-4.37/nspr/pr/include/prolock.h
+nspr-4.37/nspr/pr/include/prpdce.h
+nspr-4.37/nspr/pr/include/prprf.h
+nspr-4.37/nspr/pr/include/prproces.h
+nspr-4.37/nspr/pr/include/prrng.h
+nspr-4.37/nspr/pr/include/prrwlock.h
+nspr-4.37/nspr/pr/include/prshm.h
+nspr-4.37/nspr/pr/include/prshma.h
+nspr-4.37/nspr/pr/include/prsystem.h
+nspr-4.37/nspr/pr/include/prthread.h
+nspr-4.37/nspr/pr/include/prtime.h
+nspr-4.37/nspr/pr/include/prtpool.h
+nspr-4.37/nspr/pr/include/prtrace.h
+nspr-4.37/nspr/pr/include/prtypes.h
+nspr-4.37/nspr/pr/include/prvrsion.h
+nspr-4.37/nspr/pr/src/.cvsignore
+nspr-4.37/nspr/pr/src/Makefile.in
+nspr-4.37/nspr/pr/src/cplus/.cvsignore
+nspr-4.37/nspr/pr/src/cplus/Makefile.in
+nspr-4.37/nspr/pr/src/cplus/rcascii.h
+nspr-4.37/nspr/pr/src/cplus/rcbase.cpp
+nspr-4.37/nspr/pr/src/cplus/rcbase.h
+nspr-4.37/nspr/pr/src/cplus/rccv.cpp
+nspr-4.37/nspr/pr/src/cplus/rccv.h
+nspr-4.37/nspr/pr/src/cplus/rcfileio.cpp
+nspr-4.37/nspr/pr/src/cplus/rcfileio.h
+nspr-4.37/nspr/pr/src/cplus/rcinrval.cpp
+nspr-4.37/nspr/pr/src/cplus/rcinrval.h
+nspr-4.37/nspr/pr/src/cplus/rcio.cpp
+nspr-4.37/nspr/pr/src/cplus/rcio.h
+nspr-4.37/nspr/pr/src/cplus/rclock.cpp
+nspr-4.37/nspr/pr/src/cplus/rclock.h
+nspr-4.37/nspr/pr/src/cplus/rcmon.h
+nspr-4.37/nspr/pr/src/cplus/rcnetdb.cpp
+nspr-4.37/nspr/pr/src/cplus/rcnetdb.h
+nspr-4.37/nspr/pr/src/cplus/rcnetio.cpp
+nspr-4.37/nspr/pr/src/cplus/rcnetio.h
+nspr-4.37/nspr/pr/src/cplus/rcthread.cpp
+nspr-4.37/nspr/pr/src/cplus/rcthread.h
+nspr-4.37/nspr/pr/src/cplus/rctime.cpp
+nspr-4.37/nspr/pr/src/cplus/rctime.h
+nspr-4.37/nspr/pr/src/cplus/tests/.cvsignore
+nspr-4.37/nspr/pr/src/cplus/tests/Makefile.in
+nspr-4.37/nspr/pr/src/cplus/tests/fileio.cpp
+nspr-4.37/nspr/pr/src/cplus/tests/interval.cpp
+nspr-4.37/nspr/pr/src/cplus/tests/ranfile.cpp
+nspr-4.37/nspr/pr/src/cplus/tests/switch.cpp
+nspr-4.37/nspr/pr/src/cplus/tests/thread.cpp
+nspr-4.37/nspr/pr/src/cplus/tests/time.cpp
+nspr-4.37/nspr/pr/src/cplus/tests/tpd.cpp
+nspr-4.37/nspr/pr/src/io/.cvsignore
+nspr-4.37/nspr/pr/src/io/Makefile.in
+nspr-4.37/nspr/pr/src/io/prdir.c
+nspr-4.37/nspr/pr/src/io/prfdcach.c
+nspr-4.37/nspr/pr/src/io/prfile.c
+nspr-4.37/nspr/pr/src/io/prio.c
+nspr-4.37/nspr/pr/src/io/priometh.c
+nspr-4.37/nspr/pr/src/io/pripv6.c
+nspr-4.37/nspr/pr/src/io/prlayer.c
+nspr-4.37/nspr/pr/src/io/prlog.c
+nspr-4.37/nspr/pr/src/io/prmapopt.c
+nspr-4.37/nspr/pr/src/io/prmmap.c
+nspr-4.37/nspr/pr/src/io/prmwait.c
+nspr-4.37/nspr/pr/src/io/prpolevt.c
+nspr-4.37/nspr/pr/src/io/prprf.c
+nspr-4.37/nspr/pr/src/io/prscanf.c
+nspr-4.37/nspr/pr/src/io/prsocket.c
+nspr-4.37/nspr/pr/src/io/prstdio.c
+nspr-4.37/nspr/pr/src/linking/.cvsignore
+nspr-4.37/nspr/pr/src/linking/Makefile.in
+nspr-4.37/nspr/pr/src/linking/prlink.c
+nspr-4.37/nspr/pr/src/malloc/.cvsignore
+nspr-4.37/nspr/pr/src/malloc/Makefile.in
+nspr-4.37/nspr/pr/src/malloc/prmalloc.c
+nspr-4.37/nspr/pr/src/malloc/prmem.c
+nspr-4.37/nspr/pr/src/md/.cvsignore
+nspr-4.37/nspr/pr/src/md/Makefile.in
+nspr-4.37/nspr/pr/src/md/prosdep.c
+nspr-4.37/nspr/pr/src/md/unix/.cvsignore
+nspr-4.37/nspr/pr/src/md/unix/Makefile.in
+nspr-4.37/nspr/pr/src/md/unix/aix.c
+nspr-4.37/nspr/pr/src/md/unix/aixwrap.c
+nspr-4.37/nspr/pr/src/md/unix/darwin.c
+nspr-4.37/nspr/pr/src/md/unix/dgux.c
+nspr-4.37/nspr/pr/src/md/unix/freebsd.c
+nspr-4.37/nspr/pr/src/md/unix/hpux.c
+nspr-4.37/nspr/pr/src/md/unix/linux.c
+nspr-4.37/nspr/pr/src/md/unix/netbsd.c
+nspr-4.37/nspr/pr/src/md/unix/nto.c
+nspr-4.37/nspr/pr/src/md/unix/objs.mk
+nspr-4.37/nspr/pr/src/md/unix/openbsd.c
+nspr-4.37/nspr/pr/src/md/unix/os_AIX.s
+nspr-4.37/nspr/pr/src/md/unix/os_BSD_386_2.s
+nspr-4.37/nspr/pr/src/md/unix/os_Darwin.s
+nspr-4.37/nspr/pr/src/md/unix/os_Darwin_ppc.s
+nspr-4.37/nspr/pr/src/md/unix/os_Darwin_x86.s
+nspr-4.37/nspr/pr/src/md/unix/os_Darwin_x86_64.s
+nspr-4.37/nspr/pr/src/md/unix/os_HPUX.s
+nspr-4.37/nspr/pr/src/md/unix/os_HPUX_ia64.s
+nspr-4.37/nspr/pr/src/md/unix/os_Linux_ia64.s
+nspr-4.37/nspr/pr/src/md/unix/os_Linux_ppc.s
+nspr-4.37/nspr/pr/src/md/unix/os_Linux_x86.s
+nspr-4.37/nspr/pr/src/md/unix/os_Linux_x86_64.s
+nspr-4.37/nspr/pr/src/md/unix/os_SunOS_sparcv9.s
+nspr-4.37/nspr/pr/src/md/unix/os_SunOS_ultrasparc.s
+nspr-4.37/nspr/pr/src/md/unix/os_SunOS_x86.s
+nspr-4.37/nspr/pr/src/md/unix/os_SunOS_x86_64.s
+nspr-4.37/nspr/pr/src/md/unix/pthreads_user.c
+nspr-4.37/nspr/pr/src/md/unix/qnx.c
+nspr-4.37/nspr/pr/src/md/unix/riscos.c
+nspr-4.37/nspr/pr/src/md/unix/solaris.c
+nspr-4.37/nspr/pr/src/md/unix/unix.c
+nspr-4.37/nspr/pr/src/md/unix/unix_errors.c
+nspr-4.37/nspr/pr/src/md/unix/uxpoll.c
+nspr-4.37/nspr/pr/src/md/unix/uxproces.c
+nspr-4.37/nspr/pr/src/md/unix/uxrng.c
+nspr-4.37/nspr/pr/src/md/unix/uxshm.c
+nspr-4.37/nspr/pr/src/md/unix/uxwrap.c
+nspr-4.37/nspr/pr/src/md/windows/.cvsignore
+nspr-4.37/nspr/pr/src/md/windows/Makefile.in
+nspr-4.37/nspr/pr/src/md/windows/ntdllmn.c
+nspr-4.37/nspr/pr/src/md/windows/ntgc.c
+nspr-4.37/nspr/pr/src/md/windows/ntinrval.c
+nspr-4.37/nspr/pr/src/md/windows/ntio.c
+nspr-4.37/nspr/pr/src/md/windows/ntmisc.c
+nspr-4.37/nspr/pr/src/md/windows/ntsec.c
+nspr-4.37/nspr/pr/src/md/windows/ntsem.c
+nspr-4.37/nspr/pr/src/md/windows/ntthread.c
+nspr-4.37/nspr/pr/src/md/windows/objs.mk
+nspr-4.37/nspr/pr/src/md/windows/w32ipcsem.c
+nspr-4.37/nspr/pr/src/md/windows/w32poll.c
+nspr-4.37/nspr/pr/src/md/windows/w32rng.c
+nspr-4.37/nspr/pr/src/md/windows/w32shm.c
+nspr-4.37/nspr/pr/src/md/windows/w95cv.c
+nspr-4.37/nspr/pr/src/md/windows/w95dllmain.c
+nspr-4.37/nspr/pr/src/md/windows/w95io.c
+nspr-4.37/nspr/pr/src/md/windows/w95sock.c
+nspr-4.37/nspr/pr/src/md/windows/w95thred.c
+nspr-4.37/nspr/pr/src/md/windows/win32_errors.c
+nspr-4.37/nspr/pr/src/memory/.cvsignore
+nspr-4.37/nspr/pr/src/memory/Makefile.in
+nspr-4.37/nspr/pr/src/memory/prseg.c
+nspr-4.37/nspr/pr/src/memory/prshm.c
+nspr-4.37/nspr/pr/src/memory/prshma.c
+nspr-4.37/nspr/pr/src/misc/.cvsignore
+nspr-4.37/nspr/pr/src/misc/Makefile.in
+nspr-4.37/nspr/pr/src/misc/compile-et.pl
+nspr-4.37/nspr/pr/src/misc/dtoa.c
+nspr-4.37/nspr/pr/src/misc/pralarm.c
+nspr-4.37/nspr/pr/src/misc/pratom.c
+nspr-4.37/nspr/pr/src/misc/praton.c
+nspr-4.37/nspr/pr/src/misc/prcountr.c
+nspr-4.37/nspr/pr/src/misc/prdtoa.c
+nspr-4.37/nspr/pr/src/misc/prenv.c
+nspr-4.37/nspr/pr/src/misc/prerr.c
+nspr-4.37/nspr/pr/src/misc/prerr.et
+nspr-4.37/nspr/pr/src/misc/prerr.properties
+nspr-4.37/nspr/pr/src/misc/prerror.c
+nspr-4.37/nspr/pr/src/misc/prerrortable.c
+nspr-4.37/nspr/pr/src/misc/prinit.c
+nspr-4.37/nspr/pr/src/misc/prinrval.c
+nspr-4.37/nspr/pr/src/misc/pripc.c
+nspr-4.37/nspr/pr/src/misc/pripcsem.c
+nspr-4.37/nspr/pr/src/misc/prlog2.c
+nspr-4.37/nspr/pr/src/misc/prlong.c
+nspr-4.37/nspr/pr/src/misc/prnetdb.c
+nspr-4.37/nspr/pr/src/misc/prolock.c
+nspr-4.37/nspr/pr/src/misc/prrng.c
+nspr-4.37/nspr/pr/src/misc/prsystem.c
+nspr-4.37/nspr/pr/src/misc/prthinfo.c
+nspr-4.37/nspr/pr/src/misc/prtime.c
+nspr-4.37/nspr/pr/src/misc/prtpool.c
+nspr-4.37/nspr/pr/src/misc/prtrace.c
+nspr-4.37/nspr/pr/src/nspr.def
+nspr-4.37/nspr/pr/src/nspr.rc
+nspr-4.37/nspr/pr/src/prvrsion.c
+nspr-4.37/nspr/pr/src/pthreads/.cvsignore
+nspr-4.37/nspr/pr/src/pthreads/Makefile.in
+nspr-4.37/nspr/pr/src/pthreads/ptio.c
+nspr-4.37/nspr/pr/src/pthreads/ptmisc.c
+nspr-4.37/nspr/pr/src/pthreads/ptsynch.c
+nspr-4.37/nspr/pr/src/pthreads/ptthread.c
+nspr-4.37/nspr/pr/src/threads/.cvsignore
+nspr-4.37/nspr/pr/src/threads/Makefile.in
+nspr-4.37/nspr/pr/src/threads/combined/.cvsignore
+nspr-4.37/nspr/pr/src/threads/combined/Makefile.in
+nspr-4.37/nspr/pr/src/threads/combined/README
+nspr-4.37/nspr/pr/src/threads/combined/prucpu.c
+nspr-4.37/nspr/pr/src/threads/combined/prucv.c
+nspr-4.37/nspr/pr/src/threads/combined/prulock.c
+nspr-4.37/nspr/pr/src/threads/combined/prustack.c
+nspr-4.37/nspr/pr/src/threads/combined/pruthr.c
+nspr-4.37/nspr/pr/src/threads/prcmon.c
+nspr-4.37/nspr/pr/src/threads/prcthr.c
+nspr-4.37/nspr/pr/src/threads/prdump.c
+nspr-4.37/nspr/pr/src/threads/prmon.c
+nspr-4.37/nspr/pr/src/threads/prrwlock.c
+nspr-4.37/nspr/pr/src/threads/prsem.c
+nspr-4.37/nspr/pr/src/threads/prtpd.c
+nspr-4.37/nspr/pr/tests/.cvsignore
+nspr-4.37/nspr/pr/tests/Makefile.in
+nspr-4.37/nspr/pr/tests/README.TXT
+nspr-4.37/nspr/pr/tests/abstract.c
+nspr-4.37/nspr/pr/tests/accept.c
+nspr-4.37/nspr/pr/tests/acceptread.c
+nspr-4.37/nspr/pr/tests/acceptreademu.c
+nspr-4.37/nspr/pr/tests/addrstr.c
+nspr-4.37/nspr/pr/tests/affinity.c
+nspr-4.37/nspr/pr/tests/alarm.c
+nspr-4.37/nspr/pr/tests/anonfm.c
+nspr-4.37/nspr/pr/tests/append.c
+nspr-4.37/nspr/pr/tests/atomic.c
+nspr-4.37/nspr/pr/tests/attach.c
+nspr-4.37/nspr/pr/tests/bigfile.c
+nspr-4.37/nspr/pr/tests/bigfile2.c
+nspr-4.37/nspr/pr/tests/bigfile3.c
+nspr-4.37/nspr/pr/tests/bug1test.c
+nspr-4.37/nspr/pr/tests/cleanup.c
+nspr-4.37/nspr/pr/tests/cltsrv.c
+nspr-4.37/nspr/pr/tests/concur.c
+nspr-4.37/nspr/pr/tests/cvar.c
+nspr-4.37/nspr/pr/tests/cvar2.c
+nspr-4.37/nspr/pr/tests/dbmalloc.c
+nspr-4.37/nspr/pr/tests/dbmalloc1.c
+nspr-4.37/nspr/pr/tests/dceemu.c
+nspr-4.37/nspr/pr/tests/depend.c
+nspr-4.37/nspr/pr/tests/dll/.cvsignore
+nspr-4.37/nspr/pr/tests/dll/Makefile.in
+nspr-4.37/nspr/pr/tests/dll/my.def
+nspr-4.37/nspr/pr/tests/dll/mygetval.c
+nspr-4.37/nspr/pr/tests/dll/mysetval.c
+nspr-4.37/nspr/pr/tests/dlltest.c
+nspr-4.37/nspr/pr/tests/dtoa.c
+nspr-4.37/nspr/pr/tests/env.c
+nspr-4.37/nspr/pr/tests/errcodes.c
+nspr-4.37/nspr/pr/tests/errset.c
+nspr-4.37/nspr/pr/tests/exit.c
+nspr-4.37/nspr/pr/tests/fdcach.c
+nspr-4.37/nspr/pr/tests/fileio.c
+nspr-4.37/nspr/pr/tests/foreign.c
+nspr-4.37/nspr/pr/tests/forktest.c
+nspr-4.37/nspr/pr/tests/formattm.c
+nspr-4.37/nspr/pr/tests/freeif.c
+nspr-4.37/nspr/pr/tests/fsync.c
+nspr-4.37/nspr/pr/tests/getai.c
+nspr-4.37/nspr/pr/tests/gethost.c
+nspr-4.37/nspr/pr/tests/getproto.c
+nspr-4.37/nspr/pr/tests/i2l.c
+nspr-4.37/nspr/pr/tests/initclk.c
+nspr-4.37/nspr/pr/tests/inrval.c
+nspr-4.37/nspr/pr/tests/instrumt.c
+nspr-4.37/nspr/pr/tests/intrio.c
+nspr-4.37/nspr/pr/tests/intrupt.c
+nspr-4.37/nspr/pr/tests/io_timeout.c
+nspr-4.37/nspr/pr/tests/io_timeoutk.c
+nspr-4.37/nspr/pr/tests/io_timeoutu.c
+nspr-4.37/nspr/pr/tests/ioconthr.c
+nspr-4.37/nspr/pr/tests/ipv6.c
+nspr-4.37/nspr/pr/tests/join.c
+nspr-4.37/nspr/pr/tests/joinkk.c
+nspr-4.37/nspr/pr/tests/joinku.c
+nspr-4.37/nspr/pr/tests/joinuk.c
+nspr-4.37/nspr/pr/tests/joinuu.c
+nspr-4.37/nspr/pr/tests/layer.c
+nspr-4.37/nspr/pr/tests/lazyinit.c
+nspr-4.37/nspr/pr/tests/libfilename.c
+nspr-4.37/nspr/pr/tests/lltest.c
+nspr-4.37/nspr/pr/tests/lock.c
+nspr-4.37/nspr/pr/tests/lockfile.c
+nspr-4.37/nspr/pr/tests/logfile.c
+nspr-4.37/nspr/pr/tests/logger.c
+nspr-4.37/nspr/pr/tests/makedir.c
+nspr-4.37/nspr/pr/tests/many_cv.c
+nspr-4.37/nspr/pr/tests/mbcs.c
+nspr-4.37/nspr/pr/tests/monref.c
+nspr-4.37/nspr/pr/tests/multiacc.c
+nspr-4.37/nspr/pr/tests/multiwait.c
+nspr-4.37/nspr/pr/tests/nameshm1.c
+nspr-4.37/nspr/pr/tests/nbconn.c
+nspr-4.37/nspr/pr/tests/nblayer.c
+nspr-4.37/nspr/pr/tests/nonblock.c
+nspr-4.37/nspr/pr/tests/ntioto.c
+nspr-4.37/nspr/pr/tests/ntoh.c
+nspr-4.37/nspr/pr/tests/obsints.c
+nspr-4.37/nspr/pr/tests/op_2long.c
+nspr-4.37/nspr/pr/tests/op_excl.c
+nspr-4.37/nspr/pr/tests/op_filnf.c
+nspr-4.37/nspr/pr/tests/op_filok.c
+nspr-4.37/nspr/pr/tests/op_noacc.c
+nspr-4.37/nspr/pr/tests/op_nofil.c
+nspr-4.37/nspr/pr/tests/openfile.c
+nspr-4.37/nspr/pr/tests/parent.c
+nspr-4.37/nspr/pr/tests/parsetm.c
+nspr-4.37/nspr/pr/tests/peek.c
+nspr-4.37/nspr/pr/tests/perf.c
+nspr-4.37/nspr/pr/tests/pipeping.c
+nspr-4.37/nspr/pr/tests/pipeping2.c
+nspr-4.37/nspr/pr/tests/pipepong.c
+nspr-4.37/nspr/pr/tests/pipepong2.c
+nspr-4.37/nspr/pr/tests/pipeself.c
+nspr-4.37/nspr/pr/tests/poll_er.c
+nspr-4.37/nspr/pr/tests/poll_nm.c
+nspr-4.37/nspr/pr/tests/poll_to.c
+nspr-4.37/nspr/pr/tests/pollable.c
+nspr-4.37/nspr/pr/tests/prfdbl.c
+nspr-4.37/nspr/pr/tests/prftest.c
+nspr-4.37/nspr/pr/tests/prftest1.c
+nspr-4.37/nspr/pr/tests/prftest2.c
+nspr-4.37/nspr/pr/tests/prfz.c
+nspr-4.37/nspr/pr/tests/primblok.c
+nspr-4.37/nspr/pr/tests/priotest.c
+nspr-4.37/nspr/pr/tests/provider.c
+nspr-4.37/nspr/pr/tests/prpoll.c
+nspr-4.37/nspr/pr/tests/prpollml.c
+nspr-4.37/nspr/pr/tests/prselect.c
+nspr-4.37/nspr/pr/tests/prttools.h
+nspr-4.37/nspr/pr/tests/pushtop.c
+nspr-4.37/nspr/pr/tests/randseed.c
+nspr-4.37/nspr/pr/tests/ranfile.c
+nspr-4.37/nspr/pr/tests/reinit.c
+nspr-4.37/nspr/pr/tests/rmdir.c
+nspr-4.37/nspr/pr/tests/runtests.pl
+nspr-4.37/nspr/pr/tests/runtests.sh
+nspr-4.37/nspr/pr/tests/runy2ktests.ksh
+nspr-4.37/nspr/pr/tests/rwlockrank.c
+nspr-4.37/nspr/pr/tests/rwlocktest.c
+nspr-4.37/nspr/pr/tests/sel_spd.c
+nspr-4.37/nspr/pr/tests/selct_er.c
+nspr-4.37/nspr/pr/tests/selct_nm.c
+nspr-4.37/nspr/pr/tests/selct_to.c
+nspr-4.37/nspr/pr/tests/select2.c
+nspr-4.37/nspr/pr/tests/selintr.c
+nspr-4.37/nspr/pr/tests/sem.c
+nspr-4.37/nspr/pr/tests/sema.c
+nspr-4.37/nspr/pr/tests/semaerr.c
+nspr-4.37/nspr/pr/tests/semaerr1.c
+nspr-4.37/nspr/pr/tests/semaping.c
+nspr-4.37/nspr/pr/tests/semapong.c
+nspr-4.37/nspr/pr/tests/sendzlf.c
+nspr-4.37/nspr/pr/tests/server_test.c
+nspr-4.37/nspr/pr/tests/servr_kk.c
+nspr-4.37/nspr/pr/tests/servr_ku.c
+nspr-4.37/nspr/pr/tests/servr_uk.c
+nspr-4.37/nspr/pr/tests/servr_uu.c
+nspr-4.37/nspr/pr/tests/short_thread.c
+nspr-4.37/nspr/pr/tests/sigpipe.c
+nspr-4.37/nspr/pr/tests/socket.c
+nspr-4.37/nspr/pr/tests/sockopt.c
+nspr-4.37/nspr/pr/tests/sockping.c
+nspr-4.37/nspr/pr/tests/sockpong.c
+nspr-4.37/nspr/pr/tests/sprintf.c
+nspr-4.37/nspr/pr/tests/stack.c
+nspr-4.37/nspr/pr/tests/stat.c
+nspr-4.37/nspr/pr/tests/stdio.c
+nspr-4.37/nspr/pr/tests/str2addr.c
+nspr-4.37/nspr/pr/tests/strod.c
+nspr-4.37/nspr/pr/tests/suspend.c
+nspr-4.37/nspr/pr/tests/switch.c
+nspr-4.37/nspr/pr/tests/system.c
+nspr-4.37/nspr/pr/tests/testbit.c
+nspr-4.37/nspr/pr/tests/testfile.c
+nspr-4.37/nspr/pr/tests/threads.c
+nspr-4.37/nspr/pr/tests/thrpool_client.c
+nspr-4.37/nspr/pr/tests/thrpool_server.c
+nspr-4.37/nspr/pr/tests/thruput.c
+nspr-4.37/nspr/pr/tests/time.c
+nspr-4.37/nspr/pr/tests/timemac.c
+nspr-4.37/nspr/pr/tests/timetest.c
+nspr-4.37/nspr/pr/tests/tmoacc.c
+nspr-4.37/nspr/pr/tests/tmocon.c
+nspr-4.37/nspr/pr/tests/tpd.c
+nspr-4.37/nspr/pr/tests/udpsrv.c
+nspr-4.37/nspr/pr/tests/ut_ttools.h
+nspr-4.37/nspr/pr/tests/vercheck.c
+nspr-4.37/nspr/pr/tests/version.c
+nspr-4.37/nspr/pr/tests/writev.c
+nspr-4.37/nspr/pr/tests/xnotify.c
+nspr-4.37/nspr/pr/tests/y2k.c
+nspr-4.37/nspr/pr/tests/y2ktmo.c
+nspr-4.37/nspr/pr/tests/zerolen.c
+nspr-4.37/nspr/tools/.cvsignore
+nspr-4.37/nspr/tools/Makefile.in
+nspr-4.37/nspr/tools/httpget.c
+nspr-4.37/nspr/tools/tail.c
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking target system type... x86_64-pc-linux-gnu
+checking for whoami... /usr/bin/whoami
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to enable C11 features... none needed
+checking for ranlib... ranlib
+checking for as... /usr/bin/as
+checking for ar... /usr/bin/ar
+checking for ld... /usr/bin/ld
+checking for strip... /usr/bin/strip
+checking for windres... no
+checking how to run the C preprocessor... gcc -E
+checking for gcc -pipe support... no
+checking for pragma diagnostic... no
+checking whether C compiler supports -fprofile-generate... yes
+checking for visibility(hidden) attribute... yes
+checking for visibility pragma support... yes
+checking for perl5... no
+checking for perl... /usr/bin/perl
+checking for dlopen in -ldl... yes
+checking for dlfcn.h... yes
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking whether gcc needs -traditional... no
+checking for dladdr... yes
+checking for gettid... yes
+checking for lchown... yes
+checking for setpriority... yes
+checking for strerror... yes
+checking for syscall... yes
+checking for secure_getenv... yes
+checking for __secure_getenv... no
+checking for pthread_create in -lpthreads... no
+checking for pthread_create in -lpthread... yes
+checking whether gcc accepts -pthread... egrep: warning: egrep is obsolescent; using grep -E
+egrep: warning: egrep is obsolescent; using grep -E
+yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating config/Makefile
+config.status: creating config/autoconf.mk
+config.status: creating config/nsprincl.mk
+config.status: creating config/nsprincl.sh
+config.status: creating config/nspr-config
+config.status: creating config/nspr.pc
+config.status: creating lib/Makefile
+config.status: creating lib/ds/Makefile
+config.status: creating lib/libc/Makefile
+config.status: creating lib/libc/include/Makefile
+config.status: creating lib/libc/src/Makefile
+config.status: creating lib/tests/Makefile
+config.status: creating pkg/Makefile
+config.status: creating pr/Makefile
+config.status: creating pr/include/Makefile
+config.status: creating pr/include/md/Makefile
+config.status: creating pr/include/obsolete/Makefile
+config.status: creating pr/include/private/Makefile
+config.status: creating pr/src/Makefile
+config.status: creating pr/src/io/Makefile
+config.status: creating pr/src/linking/Makefile
+config.status: creating pr/src/malloc/Makefile
+config.status: creating pr/src/md/Makefile
+config.status: creating pr/src/md/unix/Makefile
+config.status: creating pr/src/memory/Makefile
+config.status: creating pr/src/misc/Makefile
+config.status: creating pr/src/threads/Makefile
+config.status: creating pr/tests/Makefile
+config.status: creating pr/tests/dll/Makefile
+config.status: creating pkg/linux/Makefile
+config.status: creating pr/src/pthreads/Makefile
+config.status: executing default commands
+make -C config export
+make[1]: Entering directory '/blfs/builds/nspr-4.37/nspr/config'
+gcc -o now.o -c     -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM   now.c
+gcc  now.o   -o now
+gcc -o nsinstall.o -c     -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM   nsinstall.c
+gcc  nsinstall.o   -o nsinstall
+rm -f nfspwd; cp nfspwd.pl nfspwd; chmod +x nfspwd
+rm -f ../dist/bin/nspr-config
+make[1]: Leaving directory '/blfs/builds/nspr-4.37/nspr/config'
+make -C pr export
+make[1]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr'
+make -C include export
+make[2]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/include'
+make -C md export
+make[3]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/include/md'
+../../../config/./nsinstall -R -m 444 ./_aix32.cfg ./_aix64.cfg ./_darwin.cfg ./_freebsd.cfg ./_hpux32.cfg ./_hpux64.cfg ./_linux.cfg ./_netbsd.cfg ./_nto.cfg ./_openbsd.cfg ./_qnx.cfg ./_riscos.cfg ./_solaris.cfg ./_win95.cfg ./_winnt.cfg ../../../dist/include/nspr/md
+../../../config/./nsinstall -R -m 444 ./_linux.cfg ../../../dist/include/nspr
+mv -f ../../../dist/include/nspr/_linux.cfg ../../../dist/include/nspr/prcpucfg.h
+make[3]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/include/md'
+make -C private export
+make[3]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/include/private'
+../../../config/./nsinstall -R -m 444 ./pprio.h ./pprthred.h ./prpriv.h ../../../dist/include/nspr/private
+make[3]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/include/private'
+make -C obsolete export
+make[3]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/include/obsolete'
+../../../config/./nsinstall -R -m 444 ./pralarm.h ./probslet.h ./protypes.h ./prsem.h ../../../dist/include/nspr/obsolete
+make[3]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/include/obsolete'
+../../config/./nsinstall -R -m 444 ./nspr.h ./pratom.h ./prbit.h ./prclist.h ./prcmon.h ./prcountr.h ./prcvar.h ./prdtoa.h ./prenv.h ./prerr.h ./prerror.h ./prinet.h ./prinit.h ./prinrval.h ./prio.h ./pripcsem.h ./prlink.h ./prlock.h ./prlog.h ./prlong.h ./prmem.h ./prmon.h ./prmwait.h ./prnetdb.h ./prolock.h ./prpdce.h ./prprf.h ./prproces.h ./prrng.h ./prrwlock.h ./prshm.h ./prshma.h ./prsystem.h ./prthread.h ./prtime.h ./prtpool.h ./prtrace.h ./prtypes.h ./prvrsion.h ../../dist/include/nspr
+make[2]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/include'
+make -C src export
+make[2]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/src'
+make -C io export
+make[3]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/src/io'
+gcc -o prfdcach.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  prfdcach.c
+gcc -o prmwait.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  prmwait.c
+gcc -o priometh.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  priometh.c
+gcc -o pripv6.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  pripv6.c
+gcc -o prmapopt.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  prmapopt.c
+gcc -o prlayer.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  prlayer.c
+gcc -o prlog.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  prlog.c
+gcc -o prmmap.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  prmmap.c
+gcc -o prpolevt.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  prpolevt.c
+gcc -o prprf.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  prprf.c
+gcc -o prscanf.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  prscanf.c
+gcc -o prstdio.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  prstdio.c
+make[3]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/src/io'
+make -C linking export
+make[3]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/src/linking'
+gcc -o prlink.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  prlink.c
+make[3]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/src/linking'
+make -C malloc export
+make[3]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/src/malloc'
+gcc -o prmalloc.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  prmalloc.c
+gcc -o prmem.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  prmem.c
+make[3]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/src/malloc'
+make -C md export
+make[3]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/src/md'
+make -C unix export
+make[4]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/src/md/unix'
+gcc -o unix.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../../dist/include/nspr -I../../../../pr/include -I../../../../pr/include/private  unix.c
+gcc -o unix_errors.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../../dist/include/nspr -I../../../../pr/include -I../../../../pr/include/private  unix_errors.c
+gcc -o uxproces.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../../dist/include/nspr -I../../../../pr/include -I../../../../pr/include/private  uxproces.c
+gcc -o uxrng.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../../dist/include/nspr -I../../../../pr/include -I../../../../pr/include/private  uxrng.c
+gcc -o uxshm.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../../dist/include/nspr -I../../../../pr/include -I../../../../pr/include/private  uxshm.c
+gcc -o uxwrap.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../../dist/include/nspr -I../../../../pr/include -I../../../../pr/include/private  uxwrap.c
+gcc -o linux.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../../dist/include/nspr -I../../../../pr/include -I../../../../pr/include/private  linux.c
+gcc -o os_Linux_x86_64.o -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../../dist/include/nspr -I../../../../pr/include -I../../../../pr/include/private  -c os_Linux_x86_64.s
+make[4]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/src/md/unix'
+gcc -o prosdep.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include  prosdep.c
+make[3]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/src/md'
+make -C memory export
+make[3]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/src/memory'
+gcc -o prseg.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  prseg.c
+gcc -o prshm.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  prshm.c
+gcc -o prshma.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  prshma.c
+make[3]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/src/memory'
+make -C misc export
+make[3]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/src/misc'
+gcc -o pralarm.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  pralarm.c
+gcc -o pratom.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  pratom.c
+gcc -o prcountr.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  prcountr.c
+gcc -o prdtoa.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  prdtoa.c
+gcc -o prenv.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  prenv.c
+gcc -o prerr.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  prerr.c
+gcc -o prerror.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  prerror.c
+gcc -o prerrortable.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  prerrortable.c
+gcc -o prinit.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  prinit.c
+gcc -o prinrval.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  prinrval.c
+gcc -o pripc.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  pripc.c
+gcc -o prlog2.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  prlog2.c
+gcc -o prlong.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  prlong.c
+gcc -o prnetdb.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  prnetdb.c
+gcc -o praton.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  praton.c
+gcc -o prolock.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  prolock.c
+gcc -o prrng.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  prrng.c
+gcc -o prsystem.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  prsystem.c
+gcc -o prtime.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  prtime.c
+gcc -o prthinfo.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  prthinfo.c
+gcc -o prtpool.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  prtpool.c
+gcc -o prtrace.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  prtrace.c
+make[3]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/src/misc'
+make -C threads export
+make[3]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/src/threads'
+gcc -o prcmon.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  prcmon.c
+gcc -o prrwlock.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  prrwlock.c
+gcc -o prtpd.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  prtpd.c
+make[3]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/src/threads'
+make -C pthreads export
+make[3]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/src/pthreads'
+gcc -o ptio.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  ptio.c
+gcc -o ptsynch.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  ptsynch.c
+gcc -o ptthread.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  ptthread.c
+ptthread.c: In function '_PR_InitializeStack':
+ptthread.c:112:21: warning: storing the address of local variable 'ts' in '*ts.stackBottom' [-Wdangling-pointer=]
+  112 |     ts->stackBottom = ts->allocBase - ts->stackSize;
+      |     ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ptthread.c:99:48: note: 'ts' declared here
+   99 | static void _PR_InitializeStack(PRThreadStack* ts) {
+      |                                 ~~~~~~~~~~~~~~~^~
+ptthread.c:99:48: note: 'ts' declared here
+gcc -o ptmisc.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../../dist/include/nspr -I../../../pr/include -I../../../pr/include/private  ptmisc.c
+make[3]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/src/pthreads'
+make build
+make[3]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/src'
+gcc -o prvrsion.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -D_NSPR_BUILD_ -I../../dist/include/nspr -I../../pr/include -I../../pr/include/private  -I. prvrsion.c
+prvrsion.c: In function 'libVersionPoint':
+prvrsion.c:87:15: warning: variable 'dummy' set but not used [-Wunused-but-set-variable]
+   87 |   const char* dummy;
+      |               ^~~~~
+rm -f libnspr4.so
+gcc -shared -Wl,-soname -Wl,libnspr4.so -o libnspr4.so ./prvrsion.o io/./prfdcach.o io/./prmwait.o io/./prmapopt.o io/./priometh.o io/./pripv6.o io/./prlayer.o io/./prlog.o io/./prmmap.o io/./prpolevt.o io/./prprf.o io/./prscanf.o io/./prstdio.o threads/./prcmon.o threads/./prrwlock.o threads/./prtpd.o linking/./prlink.o malloc/./prmalloc.o malloc/./prmem.o md/./prosdep.o memory/./prshm.o memory/./prshma.o memory/./prseg.o misc/./pralarm.o misc/./pratom.o misc/./prcountr.o misc/./prdtoa.o misc/./prenv.o misc/./prerr.o misc/./prerror.o misc/./prerrortable.o misc/./prinit.o misc/./prinrval.o misc/./pripc.o misc/./prlog2.o misc/./prlong.o misc/./prnetdb.o misc/./praton.o misc/./prolock.o misc/./prrng.o misc/./prsystem.o misc/./prthinfo.o misc/./prtpool.o misc/./prtrace.o misc/./prtime.o pthreads/./ptsynch.o pthreads/./ptio.o pthreads/./ptthread.o pthreads/./ptmisc.o md/unix/./unix.o md/unix/./unix_errors.o md/unix/./uxproces.o md/unix/./uxrng.o md/unix/./uxshm.o md/unix/./uxwrap.o md/unix/./linux.o md/unix/./os_Linux_x86_64.o    -lpthread -ldl -lrt
+../../config/./nsinstall -R -m 444 ./libnspr4.so ../../dist/lib
+../../config/./nsinstall -R -m 444 ./libnspr4.so ../../dist/bin
+make[3]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/src'
+make[2]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/src'
+make[1]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr'
+make -C lib export
+make[1]: Entering directory '/blfs/builds/nspr-4.37/nspr/lib'
+make -C ds export
+make[2]: Entering directory '/blfs/builds/nspr-4.37/nspr/lib/ds'
+gcc -o plarena.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -I../../dist/include/nspr -I../../pr/include  plarena.c
+gcc -o plhash.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -I../../dist/include/nspr -I../../pr/include  plhash.c
+gcc -o plvrsion.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -I../../dist/include/nspr -I../../pr/include  -I. plvrsion.c
+plvrsion.c: In function 'libVersionPoint':
+plvrsion.c:87:15: warning: variable 'dummy' set but not used [-Wunused-but-set-variable]
+   87 |   const char* dummy;
+      |               ^~~~~
+rm -f libplds4.so
+gcc -shared -Wl,-soname -Wl,libplds4.so -o libplds4.so ./plarena.o ./plhash.o ./plvrsion.o     -L../../dist/lib -lnspr4
+../../config/./nsinstall -R -m 444 ./plarenas.h ./plarena.h ./plhash.h ../../dist/include/nspr
+../../config/./nsinstall -R -m 444 ./libplds4.so ../../dist/lib
+../../config/./nsinstall -R -m 444 ./libplds4.so ../../dist/bin
+make[2]: Leaving directory '/blfs/builds/nspr-4.37/nspr/lib/ds'
+make -C libc export
+make[2]: Entering directory '/blfs/builds/nspr-4.37/nspr/lib/libc'
+make -C include export
+make[3]: Entering directory '/blfs/builds/nspr-4.37/nspr/lib/libc/include'
+../../../config/./nsinstall -R -m 444 ./plbase64.h ./plerror.h ./plgetopt.h ./plstr.h ../../../dist/include/nspr
+make[3]: Leaving directory '/blfs/builds/nspr-4.37/nspr/lib/libc/include'
+make -C src export
+make[3]: Entering directory '/blfs/builds/nspr-4.37/nspr/lib/libc/src'
+gcc -o plvrsion.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -I../../../dist/include/nspr  -I. plvrsion.c
+plvrsion.c: In function 'libVersionPoint':
+plvrsion.c:87:15: warning: variable 'dummy' set but not used [-Wunused-but-set-variable]
+   87 |   const char* dummy;
+      |               ^~~~~
+gcc -o strlen.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -I../../../dist/include/nspr  strlen.c
+gcc -o strcpy.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -I../../../dist/include/nspr  strcpy.c
+gcc -o strdup.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -I../../../dist/include/nspr  strdup.c
+gcc -o strcase.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -I../../../dist/include/nspr  strcase.c
+gcc -o strcat.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -I../../../dist/include/nspr  strcat.c
+gcc -o strcmp.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -I../../../dist/include/nspr  strcmp.c
+gcc -o strchr.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -I../../../dist/include/nspr  strchr.c
+gcc -o strpbrk.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -I../../../dist/include/nspr  strpbrk.c
+gcc -o strstr.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -I../../../dist/include/nspr  strstr.c
+gcc -o strtok.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -I../../../dist/include/nspr  strtok.c
+gcc -o base64.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -I../../../dist/include/nspr  base64.c
+gcc -o plerror.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -I../../../dist/include/nspr  plerror.c
+gcc -o plgetopt.o -c -fvisibility=hidden    -O2 -Wall -pthread -g -fno-inline -fPIC  -UNDEBUG -DDEBUG_root -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DMOZILLA_CLIENT=1 -DDEBUG=1 -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_PRAGMA=1 -DXP_UNIX=1 -D_GNU_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_POINTER_LOCALTIME_R=1 -DLINUX=1 -DHAVE_DLADDR=1 -DHAVE_GETTID=1 -DHAVE_LCHOWN=1 -DHAVE_SETPRIORITY=1 -DHAVE_STRERROR=1 -DHAVE_SYSCALL=1 -DHAVE_SECURE_GETENV=1 -D_REENTRANT=1 -DFORCE_PR_LOG -D_PR_PTHREADS -UHAVE_CVAR_BUILT_ON_SEM -I../../../dist/include/nspr  plgetopt.c
+rm -f libplc4.so
+gcc -shared -Wl,-soname -Wl,libplc4.so -o libplc4.so ./plvrsion.o ./strlen.o ./strcpy.o ./strdup.o ./strcase.o ./strcat.o ./strcmp.o ./strchr.o ./strpbrk.o ./strstr.o ./strtok.o ./base64.o ./plerror.o ./plgetopt.o     -L../../../dist/lib -lnspr4
+../../../config/./nsinstall -R -m 444 ./libplc4.so ../../../dist/lib
+../../../config/./nsinstall -R -m 444 ./libplc4.so ../../../dist/bin
+make[3]: Leaving directory '/blfs/builds/nspr-4.37/nspr/lib/libc/src'
+make[2]: Leaving directory '/blfs/builds/nspr-4.37/nspr/lib/libc'
+make[1]: Leaving directory '/blfs/builds/nspr-4.37/nspr/lib'
+make -C config install
+make[1]: Entering directory '/blfs/builds/nspr-4.37/nspr/config'
+../config/./nsinstall -t -m 0755 nspr-config /pkgs/nspr/usr/bin
+../config/./nsinstall -D /pkgs/nspr/usr/share/aclocal
+../config/./nsinstall -t -m 0644 nspr.m4 /pkgs/nspr/usr/share/aclocal
+../config/./nsinstall -D /pkgs/nspr/usr/lib/pkgconfig
+../config/./nsinstall -t -m 0644 nspr.pc /pkgs/nspr/usr/lib/pkgconfig
+make[1]: Leaving directory '/blfs/builds/nspr-4.37/nspr/config'
+make -C pr install
+make[1]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr'
+make -C include install
+make[2]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/include'
+../../config/./nsinstall -t -m 0644 ./nspr.h ./pratom.h ./prbit.h ./prclist.h ./prcmon.h ./prcountr.h ./prcvar.h ./prdtoa.h ./prenv.h ./prerr.h ./prerror.h ./prinet.h ./prinit.h ./prinrval.h ./prio.h ./pripcsem.h ./prlink.h ./prlock.h ./prlog.h ./prlong.h ./prmem.h ./prmon.h ./prmwait.h ./prnetdb.h ./prolock.h ./prpdce.h ./prprf.h ./prproces.h ./prrng.h ./prrwlock.h ./prshm.h ./prshma.h ./prsystem.h ./prthread.h ./prtime.h ./prtpool.h ./prtrace.h ./prtypes.h ./prvrsion.h /pkgs/nspr/usr/include/nspr/
+make -C md install
+make[3]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/include/md'
+../../../config/./nsinstall -D /pkgs/nspr/usr/include/nspr/md
+../../../config/./nsinstall -t -m 644 ./_aix32.cfg ./_aix64.cfg ./_darwin.cfg ./_freebsd.cfg ./_hpux32.cfg ./_hpux64.cfg ./_linux.cfg ./_netbsd.cfg ./_nto.cfg ./_openbsd.cfg ./_qnx.cfg ./_riscos.cfg ./_solaris.cfg ./_win95.cfg ./_winnt.cfg /pkgs/nspr/usr/include/nspr/md
+../../../config/./nsinstall -t -m 644 ./_linux.cfg /pkgs/nspr/usr/include/nspr
+mv -f /pkgs/nspr/usr/include/nspr/_linux.cfg /pkgs/nspr/usr/include/nspr/prcpucfg.h
+make[3]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/include/md'
+make -C private install
+make[3]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/include/private'
+../../../config/./nsinstall -t -m 0644 ./pprio.h ./pprthred.h ./prpriv.h /pkgs/nspr/usr/include/nspr/private
+make[3]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/include/private'
+make -C obsolete install
+make[3]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/include/obsolete'
+../../../config/./nsinstall -t -m 0644 ./pralarm.h ./probslet.h ./protypes.h ./prsem.h /pkgs/nspr/usr/include/nspr/obsolete
+make[3]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/include/obsolete'
+make[2]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/include'
+make -C src install
+make[2]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/src'
+../../config/./nsinstall -t -m 0755 ./libnspr4.so /pkgs/nspr/usr/lib/
+make -C io install
+make[3]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/src/io'
+make[3]: Nothing to be done for 'install'.
+make[3]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/src/io'
+make -C linking install
+make[3]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/src/linking'
+make[3]: Nothing to be done for 'install'.
+make[3]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/src/linking'
+make -C malloc install
+make[3]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/src/malloc'
+make[3]: Nothing to be done for 'install'.
+make[3]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/src/malloc'
+make -C md install
+make[3]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/src/md'
+make -C unix install
+make[4]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/src/md/unix'
+make[4]: Nothing to be done for 'install'.
+make[4]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/src/md/unix'
+make[3]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/src/md'
+make -C memory install
+make[3]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/src/memory'
+make[3]: Nothing to be done for 'install'.
+make[3]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/src/memory'
+make -C misc install
+make[3]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/src/misc'
+make[3]: Nothing to be done for 'install'.
+make[3]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/src/misc'
+make -C threads install
+make[3]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/src/threads'
+make[3]: Nothing to be done for 'install'.
+make[3]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/src/threads'
+make -C pthreads install
+make[3]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/src/pthreads'
+make[3]: Nothing to be done for 'install'.
+make[3]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/src/pthreads'
+make[2]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/src'
+make[1]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr'
+make -C lib install
+make[1]: Entering directory '/blfs/builds/nspr-4.37/nspr/lib'
+make -C ds install
+make[2]: Entering directory '/blfs/builds/nspr-4.37/nspr/lib/ds'
+../../config/./nsinstall -t -m 0644 ./plarenas.h ./plarena.h ./plhash.h /pkgs/nspr/usr/include/nspr/
+../../config/./nsinstall -t -m 0755 ./libplds4.so /pkgs/nspr/usr/lib/
+make[2]: Leaving directory '/blfs/builds/nspr-4.37/nspr/lib/ds'
+make -C libc install
+make[2]: Entering directory '/blfs/builds/nspr-4.37/nspr/lib/libc'
+make -C include install
+make[3]: Entering directory '/blfs/builds/nspr-4.37/nspr/lib/libc/include'
+../../../config/./nsinstall -t -m 0644 ./plbase64.h ./plerror.h ./plgetopt.h ./plstr.h /pkgs/nspr/usr/include/nspr/
+make[3]: Leaving directory '/blfs/builds/nspr-4.37/nspr/lib/libc/include'
+make -C src install
+make[3]: Entering directory '/blfs/builds/nspr-4.37/nspr/lib/libc/src'
+../../../config/./nsinstall -t -m 0755 ./libplc4.so /pkgs/nspr/usr/lib/
+make[3]: Leaving directory '/blfs/builds/nspr-4.37/nspr/lib/libc/src'
+make[2]: Leaving directory '/blfs/builds/nspr-4.37/nspr/lib/libc'
+make[1]: Leaving directory '/blfs/builds/nspr-4.37/nspr/lib'
+make -C config install
+make[1]: Entering directory '/blfs/builds/nspr-4.37/nspr/config'
+../config/./nsinstall -t -m 0755 nspr-config /usr/bin
+../config/./nsinstall -D /usr/share/aclocal
+../config/./nsinstall -t -m 0644 nspr.m4 /usr/share/aclocal
+../config/./nsinstall -D /usr/lib/pkgconfig
+../config/./nsinstall -t -m 0644 nspr.pc /usr/lib/pkgconfig
+make[1]: Leaving directory '/blfs/builds/nspr-4.37/nspr/config'
+make -C pr install
+make[1]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr'
+make -C include install
+make[2]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/include'
+../../config/./nsinstall -t -m 0644 ./nspr.h ./pratom.h ./prbit.h ./prclist.h ./prcmon.h ./prcountr.h ./prcvar.h ./prdtoa.h ./prenv.h ./prerr.h ./prerror.h ./prinet.h ./prinit.h ./prinrval.h ./prio.h ./pripcsem.h ./prlink.h ./prlock.h ./prlog.h ./prlong.h ./prmem.h ./prmon.h ./prmwait.h ./prnetdb.h ./prolock.h ./prpdce.h ./prprf.h ./prproces.h ./prrng.h ./prrwlock.h ./prshm.h ./prshma.h ./prsystem.h ./prthread.h ./prtime.h ./prtpool.h ./prtrace.h ./prtypes.h ./prvrsion.h /usr/include/nspr/
+make -C md install
+make[3]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/include/md'
+../../../config/./nsinstall -D /usr/include/nspr/md
+../../../config/./nsinstall -t -m 644 ./_aix32.cfg ./_aix64.cfg ./_darwin.cfg ./_freebsd.cfg ./_hpux32.cfg ./_hpux64.cfg ./_linux.cfg ./_netbsd.cfg ./_nto.cfg ./_openbsd.cfg ./_qnx.cfg ./_riscos.cfg ./_solaris.cfg ./_win95.cfg ./_winnt.cfg /usr/include/nspr/md
+../../../config/./nsinstall -t -m 644 ./_linux.cfg /usr/include/nspr
+mv -f /usr/include/nspr/_linux.cfg /usr/include/nspr/prcpucfg.h
+make[3]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/include/md'
+make -C private install
+make[3]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/include/private'
+../../../config/./nsinstall -t -m 0644 ./pprio.h ./pprthred.h ./prpriv.h /usr/include/nspr/private
+make[3]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/include/private'
+make -C obsolete install
+make[3]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/include/obsolete'
+../../../config/./nsinstall -t -m 0644 ./pralarm.h ./probslet.h ./protypes.h ./prsem.h /usr/include/nspr/obsolete
+make[3]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/include/obsolete'
+make[2]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/include'
+make -C src install
+make[2]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/src'
+../../config/./nsinstall -t -m 0755 ./libnspr4.so /usr/lib/
+make -C io install
+make[3]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/src/io'
+make[3]: Nothing to be done for 'install'.
+make[3]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/src/io'
+make -C linking install
+make[3]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/src/linking'
+make[3]: Nothing to be done for 'install'.
+make[3]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/src/linking'
+make -C malloc install
+make[3]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/src/malloc'
+make[3]: Nothing to be done for 'install'.
+make[3]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/src/malloc'
+make -C md install
+make[3]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/src/md'
+make -C unix install
+make[4]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/src/md/unix'
+make[4]: Nothing to be done for 'install'.
+make[4]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/src/md/unix'
+make[3]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/src/md'
+make -C memory install
+make[3]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/src/memory'
+make[3]: Nothing to be done for 'install'.
+make[3]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/src/memory'
+make -C misc install
+make[3]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/src/misc'
+make[3]: Nothing to be done for 'install'.
+make[3]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/src/misc'
+make -C threads install
+make[3]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/src/threads'
+make[3]: Nothing to be done for 'install'.
+make[3]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/src/threads'
+make -C pthreads install
+make[3]: Entering directory '/blfs/builds/nspr-4.37/nspr/pr/src/pthreads'
+make[3]: Nothing to be done for 'install'.
+make[3]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/src/pthreads'
+make[2]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr/src'
+make[1]: Leaving directory '/blfs/builds/nspr-4.37/nspr/pr'
+make -C lib install
+make[1]: Entering directory '/blfs/builds/nspr-4.37/nspr/lib'
+make -C ds install
+make[2]: Entering directory '/blfs/builds/nspr-4.37/nspr/lib/ds'
+../../config/./nsinstall -t -m 0644 ./plarenas.h ./plarena.h ./plhash.h /usr/include/nspr/
+../../config/./nsinstall -t -m 0755 ./libplds4.so /usr/lib/
+make[2]: Leaving directory '/blfs/builds/nspr-4.37/nspr/lib/ds'
+make -C libc install
+make[2]: Entering directory '/blfs/builds/nspr-4.37/nspr/lib/libc'
+make -C include install
+make[3]: Entering directory '/blfs/builds/nspr-4.37/nspr/lib/libc/include'
+../../../config/./nsinstall -t -m 0644 ./plbase64.h ./plerror.h ./plgetopt.h ./plstr.h /usr/include/nspr/
+make[3]: Leaving directory '/blfs/builds/nspr-4.37/nspr/lib/libc/include'
+make -C src install
+make[3]: Entering directory '/blfs/builds/nspr-4.37/nspr/lib/libc/src'
+../../../config/./nsinstall -t -m 0755 ./libplc4.so /usr/lib/
+make[3]: Leaving directory '/blfs/builds/nspr-4.37/nspr/lib/libc/src'
+make[2]: Leaving directory '/blfs/builds/nspr-4.37/nspr/lib/libc'
+make[1]: Leaving directory '/blfs/builds/nspr-4.37/nspr/lib'
+nspr/
+nspr/usr/
+nspr/usr/share/
+nspr/usr/share/aclocal/
+nspr/usr/share/aclocal/nspr.m4
+nspr/usr/lib/
+nspr/usr/lib/libplds4.so
+nspr/usr/lib/libplc4.so
+nspr/usr/lib/libnspr4.so
+nspr/usr/lib/pkgconfig/
+nspr/usr/lib/pkgconfig/nspr.pc
+nspr/usr/include/
+nspr/usr/include/nspr/
+nspr/usr/include/nspr/prsystem.h
+nspr/usr/include/nspr/prlong.h
+nspr/usr/include/nspr/pripcsem.h
+nspr/usr/include/nspr/prcmon.h
+nspr/usr/include/nspr/obsolete/
+nspr/usr/include/nspr/obsolete/probslet.h
+nspr/usr/include/nspr/obsolete/prsem.h
+nspr/usr/include/nspr/obsolete/protypes.h
+nspr/usr/include/nspr/obsolete/pralarm.h
+nspr/usr/include/nspr/plbase64.h
+nspr/usr/include/nspr/prio.h
+nspr/usr/include/nspr/prbit.h
+nspr/usr/include/nspr/prmon.h
+nspr/usr/include/nspr/md/
+nspr/usr/include/nspr/md/_linux.cfg
+nspr/usr/include/nspr/md/_openbsd.cfg
+nspr/usr/include/nspr/md/_hpux32.cfg
+nspr/usr/include/nspr/md/_solaris.cfg
+nspr/usr/include/nspr/md/_aix64.cfg
+nspr/usr/include/nspr/md/_qnx.cfg
+nspr/usr/include/nspr/md/_winnt.cfg
+nspr/usr/include/nspr/md/_win95.cfg
+nspr/usr/include/nspr/md/_aix32.cfg
+nspr/usr/include/nspr/md/_freebsd.cfg
+nspr/usr/include/nspr/md/_hpux64.cfg
+nspr/usr/include/nspr/md/_nto.cfg
+nspr/usr/include/nspr/md/_darwin.cfg
+nspr/usr/include/nspr/md/_netbsd.cfg
+nspr/usr/include/nspr/md/_riscos.cfg
+nspr/usr/include/nspr/prrng.h
+nspr/usr/include/nspr/prinrval.h
+nspr/usr/include/nspr/plarena.h
+nspr/usr/include/nspr/prdtoa.h
+nspr/usr/include/nspr/plhash.h
+nspr/usr/include/nspr/plstr.h
+nspr/usr/include/nspr/prerror.h
+nspr/usr/include/nspr/prtpool.h
+nspr/usr/include/nspr/prproces.h
+nspr/usr/include/nspr/prlog.h
+nspr/usr/include/nspr/prpdce.h
+nspr/usr/include/nspr/prinet.h
+nspr/usr/include/nspr/plarenas.h
+nspr/usr/include/nspr/prthread.h
+nspr/usr/include/nspr/private/
+nspr/usr/include/nspr/private/pprthred.h
+nspr/usr/include/nspr/private/pprio.h
+nspr/usr/include/nspr/private/prpriv.h
+nspr/usr/include/nspr/nspr.h
+nspr/usr/include/nspr/prrwlock.h
+nspr/usr/include/nspr/prolock.h
+nspr/usr/include/nspr/prmem.h
+nspr/usr/include/nspr/prcpucfg.h
+nspr/usr/include/nspr/prprf.h
+nspr/usr/include/nspr/prshma.h
+nspr/usr/include/nspr/prtypes.h
+nspr/usr/include/nspr/prvrsion.h
+nspr/usr/include/nspr/prclist.h
+nspr/usr/include/nspr/prlink.h
+nspr/usr/include/nspr/prenv.h
+nspr/usr/include/nspr/prshm.h
+nspr/usr/include/nspr/prlock.h
+nspr/usr/include/nspr/prinit.h
+nspr/usr/include/nspr/prtime.h
+nspr/usr/include/nspr/prtrace.h
+nspr/usr/include/nspr/pratom.h
+nspr/usr/include/nspr/prcvar.h
+nspr/usr/include/nspr/prmwait.h
+nspr/usr/include/nspr/plerror.h
+nspr/usr/include/nspr/prerr.h
+nspr/usr/include/nspr/prnetdb.h
+nspr/usr/include/nspr/prcountr.h
+nspr/usr/include/nspr/plgetopt.h
+nspr/usr/bin/
+nspr/usr/bin/nspr-config
+nspr/version
+nspr/depends
+nspr/make-depends
