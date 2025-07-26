@@ -1,0 +1,1595 @@
+--2025-07-26 07:14:24--  https://github.com/linux-nvme/libnvme/archive/v1.15/libnvme-1.15.tar.gz
+Resolving github.com (github.com)... 140.82.114.3
+Connecting to github.com (github.com)|140.82.114.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://codeload.github.com/linux-nvme/libnvme/tar.gz/refs/tags/v1.15 [following]
+--2025-07-26 07:14:24--  https://codeload.github.com/linux-nvme/libnvme/tar.gz/refs/tags/v1.15
+Resolving codeload.github.com (codeload.github.com)... 140.82.114.9
+Connecting to codeload.github.com (codeload.github.com)|140.82.114.9|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 811291 (792K) [application/x-gzip]
+Saving to: 'libnvme-1.15.tar.gz'
+
+     0K .......... .......... .......... .......... ..........  6% 2.20M 0s
+    50K .......... .......... .......... .......... .......... 12% 4.02M 0s
+   100K .......... .......... .......... .......... .......... 18% 90.8M 0s
+   150K .......... .......... .......... .......... .......... 25% 4.32M 0s
+   200K .......... .......... .......... .......... .......... 31%  106M 0s
+   250K .......... .......... .......... .......... .......... 37%  114M 0s
+   300K .......... .......... .......... .......... .......... 44%  113M 0s
+   350K .......... .......... .......... .......... .......... 50% 4.61M 0s
+   400K .......... .......... .......... .......... .......... 56% 81.6M 0s
+   450K .......... .......... .......... .......... .......... 63%  123M 0s
+   500K .......... .......... .......... .......... .......... 69%  101M 0s
+   550K .......... .......... .......... .......... .......... 75%  111M 0s
+   600K .......... .......... .......... .......... .......... 82%  150M 0s
+   650K .......... .......... .......... .......... .......... 88%  102M 0s
+   700K .......... .......... .......... .......... .......... 94% 97.6M 0s
+   750K .......... .......... .......... .......... ..        100%  149M=0.06s
+
+2025-07-26 07:14:24 (12.6 MB/s) - 'libnvme-1.15.tar.gz' saved [811291/811291]
+
+libnvme-1.15/
+libnvme-1.15/.checkpatch.conf
+libnvme-1.15/.github/
+libnvme-1.15/.github/cross/
+libnvme-1.15/.github/cross/ubuntu-cross-armhf.txt
+libnvme-1.15/.github/cross/ubuntu-cross-ppc64le.txt
+libnvme-1.15/.github/cross/ubuntu-cross-s390x.txt
+libnvme-1.15/.github/dependabot.yml
+libnvme-1.15/.github/workflows/
+libnvme-1.15/.github/workflows/build.yml
+libnvme-1.15/.github/workflows/checkpatch.yml
+libnvme-1.15/.github/workflows/cleanup-python.yml
+libnvme-1.15/.github/workflows/coverage.yml
+libnvme-1.15/.github/workflows/docs.yaml
+libnvme-1.15/.github/workflows/release-python.yml
+libnvme-1.15/.github/workflows/release.yml
+libnvme-1.15/.gitignore
+libnvme-1.15/.readthedocs.yaml
+libnvme-1.15/COPYING
+libnvme-1.15/Makefile
+libnvme-1.15/README.md
+libnvme-1.15/ccan/
+libnvme-1.15/ccan/ccan/
+libnvme-1.15/ccan/ccan/array_size/
+libnvme-1.15/ccan/ccan/array_size/LICENSE
+libnvme-1.15/ccan/ccan/array_size/_info
+libnvme-1.15/ccan/ccan/array_size/array_size.h
+libnvme-1.15/ccan/ccan/build_assert/
+libnvme-1.15/ccan/ccan/build_assert/LICENSE
+libnvme-1.15/ccan/ccan/build_assert/_info
+libnvme-1.15/ccan/ccan/build_assert/build_assert.h
+libnvme-1.15/ccan/ccan/check_type/
+libnvme-1.15/ccan/ccan/check_type/LICENSE
+libnvme-1.15/ccan/ccan/check_type/_info
+libnvme-1.15/ccan/ccan/check_type/check_type.h
+libnvme-1.15/ccan/ccan/container_of/
+libnvme-1.15/ccan/ccan/container_of/LICENSE
+libnvme-1.15/ccan/ccan/container_of/_info
+libnvme-1.15/ccan/ccan/container_of/container_of.h
+libnvme-1.15/ccan/ccan/endian/
+libnvme-1.15/ccan/ccan/endian/LICENSE
+libnvme-1.15/ccan/ccan/endian/_info
+libnvme-1.15/ccan/ccan/endian/endian.h
+libnvme-1.15/ccan/ccan/list/
+libnvme-1.15/ccan/ccan/list/LICENSE
+libnvme-1.15/ccan/ccan/list/_info
+libnvme-1.15/ccan/ccan/list/list.c
+libnvme-1.15/ccan/ccan/list/list.h
+libnvme-1.15/ccan/ccan/minmax/
+libnvme-1.15/ccan/ccan/minmax/LICENSE
+libnvme-1.15/ccan/ccan/minmax/_info
+libnvme-1.15/ccan/ccan/minmax/minmax.h
+libnvme-1.15/ccan/ccan/short_types/
+libnvme-1.15/ccan/ccan/short_types/LICENSE
+libnvme-1.15/ccan/ccan/short_types/short_types.h
+libnvme-1.15/ccan/ccan/str/
+libnvme-1.15/ccan/ccan/str/LICENSE
+libnvme-1.15/ccan/ccan/str/_info
+libnvme-1.15/ccan/ccan/str/debug.c
+libnvme-1.15/ccan/ccan/str/str.c
+libnvme-1.15/ccan/ccan/str/str.h
+libnvme-1.15/ccan/ccan/str/str_debug.h
+libnvme-1.15/ccan/licenses/
+libnvme-1.15/ccan/licenses/BSD-MIT
+libnvme-1.15/ccan/licenses/CC0
+libnvme-1.15/ccan/meson.build
+libnvme-1.15/codecov.yml
+libnvme-1.15/doc/
+libnvme-1.15/doc/api.rst.in
+libnvme-1.15/doc/conf.py
+libnvme-1.15/doc/conf.py.in
+libnvme-1.15/doc/config-schema.json
+libnvme-1.15/doc/config-schema.json.in
+libnvme-1.15/doc/index.rst
+libnvme-1.15/doc/index.rst.in
+libnvme-1.15/doc/installation.rst.in
+libnvme-1.15/doc/man/
+libnvme-1.15/doc/man/nbft_control.2
+libnvme-1.15/doc/man/nbft_control_flags.2
+libnvme-1.15/doc/man/nbft_desc_type.2
+libnvme-1.15/doc/man/nbft_discovery.2
+libnvme-1.15/doc/man/nbft_discovery_flags.2
+libnvme-1.15/doc/man/nbft_header.2
+libnvme-1.15/doc/man/nbft_heap_obj.2
+libnvme-1.15/doc/man/nbft_hfi.2
+libnvme-1.15/doc/man/nbft_hfi_flags.2
+libnvme-1.15/doc/man/nbft_hfi_info_tcp.2
+libnvme-1.15/doc/man/nbft_hfi_info_tcp_flags.2
+libnvme-1.15/doc/man/nbft_host.2
+libnvme-1.15/doc/man/nbft_host_flags.2
+libnvme-1.15/doc/man/nbft_info.2
+libnvme-1.15/doc/man/nbft_info_discovery.2
+libnvme-1.15/doc/man/nbft_info_hfi.2
+libnvme-1.15/doc/man/nbft_info_hfi_info_tcp.2
+libnvme-1.15/doc/man/nbft_info_host.2
+libnvme-1.15/doc/man/nbft_info_nid_type.2
+libnvme-1.15/doc/man/nbft_info_primary_admin_host_flag.2
+libnvme-1.15/doc/man/nbft_info_security.2
+libnvme-1.15/doc/man/nbft_info_subsystem_ns.2
+libnvme-1.15/doc/man/nbft_security.2
+libnvme-1.15/doc/man/nbft_security_flags.2
+libnvme-1.15/doc/man/nbft_security_secret_type.2
+libnvme-1.15/doc/man/nbft_ssns.2
+libnvme-1.15/doc/man/nbft_ssns_ext_info.2
+libnvme-1.15/doc/man/nbft_ssns_ext_info_flags.2
+libnvme-1.15/doc/man/nbft_ssns_flags.2
+libnvme-1.15/doc/man/nbft_ssns_trflags.2
+libnvme-1.15/doc/man/nbft_trtype.2
+libnvme-1.15/doc/man/nvme_acq.2
+libnvme-1.15/doc/man/nvme_admin_opcode.2
+libnvme-1.15/doc/man/nvme_admin_passthru.2
+libnvme-1.15/doc/man/nvme_admin_passthru64.2
+libnvme-1.15/doc/man/nvme_ae_info_css_nvm.2
+libnvme-1.15/doc/man/nvme_ae_info_error.2
+libnvme-1.15/doc/man/nvme_ae_info_notice.2
+libnvme-1.15/doc/man/nvme_ae_info_smart.2
+libnvme-1.15/doc/man/nvme_ae_type.2
+libnvme-1.15/doc/man/nvme_aggregate_endurance_group_event.2
+libnvme-1.15/doc/man/nvme_aggregate_predictable_lat_event.2
+libnvme-1.15/doc/man/nvme_ana_group_desc.2
+libnvme-1.15/doc/man/nvme_ana_log.2
+libnvme-1.15/doc/man/nvme_ana_state.2
+libnvme-1.15/doc/man/nvme_apst_entry.2
+libnvme-1.15/doc/man/nvme_aqa.2
+libnvme-1.15/doc/man/nvme_asq.2
+libnvme-1.15/doc/man/nvme_ave_discover_log.2
+libnvme-1.15/doc/man/nvme_ave_discover_log_entry.2
+libnvme-1.15/doc/man/nvme_ave_tr_record.2
+libnvme-1.15/doc/man/nvme_boot_partition.2
+libnvme-1.15/doc/man/nvme_boot_partition_info.2
+libnvme-1.15/doc/man/nvme_bpinfo.2
+libnvme-1.15/doc/man/nvme_bpmbl.2
+libnvme-1.15/doc/man/nvme_bprsel.2
+libnvme-1.15/doc/man/nvme_cap.2
+libnvme-1.15/doc/man/nvme_capacity_config_desc.2
+libnvme-1.15/doc/man/nvme_capacity_mgmt.2
+libnvme-1.15/doc/man/nvme_cc.2
+libnvme-1.15/doc/man/nvme_change_ns_event.2
+libnvme-1.15/doc/man/nvme_channel_config_desc.2
+libnvme-1.15/doc/man/nvme_cmb_size.2
+libnvme-1.15/doc/man/nvme_cmbebs.2
+libnvme-1.15/doc/man/nvme_cmbloc.2
+libnvme-1.15/doc/man/nvme_cmbmsc.2
+libnvme-1.15/doc/man/nvme_cmbsts.2
+libnvme-1.15/doc/man/nvme_cmbswtp.2
+libnvme-1.15/doc/man/nvme_cmbsz.2
+libnvme-1.15/doc/man/nvme_cmd_effects.2
+libnvme-1.15/doc/man/nvme_cmd_effects_log.2
+libnvme-1.15/doc/man/nvme_cmd_format_mset.2
+libnvme-1.15/doc/man/nvme_cmd_format_pi.2
+libnvme-1.15/doc/man/nvme_cmd_format_pil.2
+libnvme-1.15/doc/man/nvme_cmd_format_ses.2
+libnvme-1.15/doc/man/nvme_cmd_get_log_lid.2
+libnvme-1.15/doc/man/nvme_cmd_get_log_telemetry_host_lsp.2
+libnvme-1.15/doc/man/nvme_cmic.2
+libnvme-1.15/doc/man/nvme_compare.2
+libnvme-1.15/doc/man/nvme_connect_err.2
+libnvme-1.15/doc/man/nvme_constants.2
+libnvme-1.15/doc/man/nvme_copy.2
+libnvme-1.15/doc/man/nvme_copy_range.2
+libnvme-1.15/doc/man/nvme_copy_range_f1.2
+libnvme-1.15/doc/man/nvme_copy_range_f2.2
+libnvme-1.15/doc/man/nvme_copy_range_f3.2
+libnvme-1.15/doc/man/nvme_copy_range_sopt.2
+libnvme-1.15/doc/man/nvme_create_ctrl.2
+libnvme-1.15/doc/man/nvme_create_root.2
+libnvme-1.15/doc/man/nvme_crto.2
+libnvme-1.15/doc/man/nvme_csi.2
+libnvme-1.15/doc/man/nvme_csts.2
+libnvme-1.15/doc/man/nvme_ctrl_config_match.2
+libnvme-1.15/doc/man/nvme_ctrl_find.2
+libnvme-1.15/doc/man/nvme_ctrl_first_ns.2
+libnvme-1.15/doc/man/nvme_ctrl_first_path.2
+libnvme-1.15/doc/man/nvme_ctrl_for_each_ns.2
+libnvme-1.15/doc/man/nvme_ctrl_for_each_ns_safe.2
+libnvme-1.15/doc/man/nvme_ctrl_for_each_path.2
+libnvme-1.15/doc/man/nvme_ctrl_for_each_path_safe.2
+libnvme-1.15/doc/man/nvme_ctrl_get_address.2
+libnvme-1.15/doc/man/nvme_ctrl_get_config.2
+libnvme-1.15/doc/man/nvme_ctrl_get_dhchap_host_key.2
+libnvme-1.15/doc/man/nvme_ctrl_get_dhchap_key.2
+libnvme-1.15/doc/man/nvme_ctrl_get_fd.2
+libnvme-1.15/doc/man/nvme_ctrl_get_firmware.2
+libnvme-1.15/doc/man/nvme_ctrl_get_host_iface.2
+libnvme-1.15/doc/man/nvme_ctrl_get_host_traddr.2
+libnvme-1.15/doc/man/nvme_ctrl_get_keyring.2
+libnvme-1.15/doc/man/nvme_ctrl_get_model.2
+libnvme-1.15/doc/man/nvme_ctrl_get_name.2
+libnvme-1.15/doc/man/nvme_ctrl_get_numa_node.2
+libnvme-1.15/doc/man/nvme_ctrl_get_phy_slot.2
+libnvme-1.15/doc/man/nvme_ctrl_get_queue_count.2
+libnvme-1.15/doc/man/nvme_ctrl_get_serial.2
+libnvme-1.15/doc/man/nvme_ctrl_get_sqsize.2
+libnvme-1.15/doc/man/nvme_ctrl_get_src_addr.2
+libnvme-1.15/doc/man/nvme_ctrl_get_state.2
+libnvme-1.15/doc/man/nvme_ctrl_get_subsysnqn.2
+libnvme-1.15/doc/man/nvme_ctrl_get_subsystem.2
+libnvme-1.15/doc/man/nvme_ctrl_get_sysfs_dir.2
+libnvme-1.15/doc/man/nvme_ctrl_get_tls_key.2
+libnvme-1.15/doc/man/nvme_ctrl_get_tls_key_identity.2
+libnvme-1.15/doc/man/nvme_ctrl_get_traddr.2
+libnvme-1.15/doc/man/nvme_ctrl_get_transport.2
+libnvme-1.15/doc/man/nvme_ctrl_get_trsvcid.2
+libnvme-1.15/doc/man/nvme_ctrl_identify.2
+libnvme-1.15/doc/man/nvme_ctrl_is_discovered.2
+libnvme-1.15/doc/man/nvme_ctrl_is_discovery_ctrl.2
+libnvme-1.15/doc/man/nvme_ctrl_is_persistent.2
+libnvme-1.15/doc/man/nvme_ctrl_is_unique_discovery_ctrl.2
+libnvme-1.15/doc/man/nvme_ctrl_list.2
+libnvme-1.15/doc/man/nvme_ctrl_metadata_type.2
+libnvme-1.15/doc/man/nvme_ctrl_next_ns.2
+libnvme-1.15/doc/man/nvme_ctrl_next_path.2
+libnvme-1.15/doc/man/nvme_ctrl_release_fd.2
+libnvme-1.15/doc/man/nvme_ctrl_reset.2
+libnvme-1.15/doc/man/nvme_ctrl_set_dhchap_host_key.2
+libnvme-1.15/doc/man/nvme_ctrl_set_dhchap_key.2
+libnvme-1.15/doc/man/nvme_ctrl_set_discovered.2
+libnvme-1.15/doc/man/nvme_ctrl_set_discovery_ctrl.2
+libnvme-1.15/doc/man/nvme_ctrl_set_keyring.2
+libnvme-1.15/doc/man/nvme_ctrl_set_persistent.2
+libnvme-1.15/doc/man/nvme_ctrl_set_tls_key.2
+libnvme-1.15/doc/man/nvme_ctrl_set_tls_key_identity.2
+libnvme-1.15/doc/man/nvme_ctrl_set_unique_discovery_ctrl.2
+libnvme-1.15/doc/man/nvme_ctrls_filter.2
+libnvme-1.15/doc/man/nvme_data_tfr.2
+libnvme-1.15/doc/man/nvme_default_host.2
+libnvme-1.15/doc/man/nvme_describe_key_serial.2
+libnvme-1.15/doc/man/nvme_dev_self_test.2
+libnvme-1.15/doc/man/nvme_directive_dtype.2
+libnvme-1.15/doc/man/nvme_directive_receive_doper.2
+libnvme-1.15/doc/man/nvme_directive_recv.2
+libnvme-1.15/doc/man/nvme_directive_recv_identify_parameters.2
+libnvme-1.15/doc/man/nvme_directive_recv_stream_allocate.2
+libnvme-1.15/doc/man/nvme_directive_recv_stream_parameters.2
+libnvme-1.15/doc/man/nvme_directive_recv_stream_status.2
+libnvme-1.15/doc/man/nvme_directive_send.2
+libnvme-1.15/doc/man/nvme_directive_send_doper.2
+libnvme-1.15/doc/man/nvme_directive_send_id_endir.2
+libnvme-1.15/doc/man/nvme_directive_send_identify_endir.2
+libnvme-1.15/doc/man/nvme_directive_send_stream_release_identifier.2
+libnvme-1.15/doc/man/nvme_directive_send_stream_release_resource.2
+libnvme-1.15/doc/man/nvme_directive_types.2
+libnvme-1.15/doc/man/nvme_disconnect_ctrl.2
+libnvme-1.15/doc/man/nvme_dispersed_ns_participating_nss_log.2
+libnvme-1.15/doc/man/nvme_dsm.2
+libnvme-1.15/doc/man/nvme_dsm_attributes.2
+libnvme-1.15/doc/man/nvme_dsm_range.2
+libnvme-1.15/doc/man/nvme_dst_stc.2
+libnvme-1.15/doc/man/nvme_dump_config.2
+libnvme-1.15/doc/man/nvme_dump_tree.2
+libnvme-1.15/doc/man/nvme_eg_critical_warning_flags.2
+libnvme-1.15/doc/man/nvme_eg_event_aggregate_log.2
+libnvme-1.15/doc/man/nvme_end_grp_chan_desc.2
+libnvme-1.15/doc/man/nvme_end_grp_config_desc.2
+libnvme-1.15/doc/man/nvme_endurance_group_log.2
+libnvme-1.15/doc/man/nvme_eom_lane_desc.2
+libnvme-1.15/doc/man/nvme_eom_optional_data.2
+libnvme-1.15/doc/man/nvme_eom_optional_data_present.2
+libnvme-1.15/doc/man/nvme_err_status_field.2
+libnvme-1.15/doc/man/nvme_errno_to_string.2
+libnvme-1.15/doc/man/nvme_error_log_page.2
+libnvme-1.15/doc/man/nvme_export_tls_key.2
+libnvme-1.15/doc/man/nvme_export_tls_key_versioned.2
+libnvme-1.15/doc/man/nvme_fabrics_config.2
+libnvme-1.15/doc/man/nvme_fabrics_uri.2
+libnvme-1.15/doc/man/nvme_fctype.2
+libnvme-1.15/doc/man/nvme_fdp_config_desc.2
+libnvme-1.15/doc/man/nvme_fdp_config_fdpa.2
+libnvme-1.15/doc/man/nvme_fdp_config_log.2
+libnvme-1.15/doc/man/nvme_fdp_event.2
+libnvme-1.15/doc/man/nvme_fdp_event_flags.2
+libnvme-1.15/doc/man/nvme_fdp_event_realloc.2
+libnvme-1.15/doc/man/nvme_fdp_event_realloc_flags.2
+libnvme-1.15/doc/man/nvme_fdp_event_type.2
+libnvme-1.15/doc/man/nvme_fdp_events_log.2
+libnvme-1.15/doc/man/nvme_fdp_reclaim_unit_handle_status.2
+libnvme-1.15/doc/man/nvme_fdp_reclaim_unit_handle_update.2
+libnvme-1.15/doc/man/nvme_fdp_ruh_desc.2
+libnvme-1.15/doc/man/nvme_fdp_ruh_status.2
+libnvme-1.15/doc/man/nvme_fdp_ruh_status_desc.2
+libnvme-1.15/doc/man/nvme_fdp_ruh_type.2
+libnvme-1.15/doc/man/nvme_fdp_ruha.2
+libnvme-1.15/doc/man/nvme_fdp_ruhu_desc.2
+libnvme-1.15/doc/man/nvme_fdp_ruhu_log.2
+libnvme-1.15/doc/man/nvme_fdp_stats_log.2
+libnvme-1.15/doc/man/nvme_fdp_supported_event_attributes.2
+libnvme-1.15/doc/man/nvme_fdp_supported_event_desc.2
+libnvme-1.15/doc/man/nvme_feat.2
+libnvme-1.15/doc/man/nvme_feat_auto_pst.2
+libnvme-1.15/doc/man/nvme_feat_bpwp_state.2
+libnvme-1.15/doc/man/nvme_feat_fdp_events_cdw11.2
+libnvme-1.15/doc/man/nvme_feat_host_behavior.2
+libnvme-1.15/doc/man/nvme_feat_nswpcfg_state.2
+libnvme-1.15/doc/man/nvme_feat_perfc_attri.2
+libnvme-1.15/doc/man/nvme_feat_perfc_r4karl.2
+libnvme-1.15/doc/man/nvme_feat_plm_window_select.2
+libnvme-1.15/doc/man/nvme_feat_resv_notify_flags.2
+libnvme-1.15/doc/man/nvme_feat_tmpthresh_thsel.2
+libnvme-1.15/doc/man/nvme_features_async_event_config_flags.2
+libnvme-1.15/doc/man/nvme_features_id.2
+libnvme-1.15/doc/man/nvme_fid_supported_effects.2
+libnvme-1.15/doc/man/nvme_fid_supported_effects_log.2
+libnvme-1.15/doc/man/nvme_firmware_slot.2
+libnvme-1.15/doc/man/nvme_first_host.2
+libnvme-1.15/doc/man/nvme_first_subsystem.2
+libnvme-1.15/doc/man/nvme_flbas.2
+libnvme-1.15/doc/man/nvme_flush.2
+libnvme-1.15/doc/man/nvme_for_each_host.2
+libnvme-1.15/doc/man/nvme_for_each_host_safe.2
+libnvme-1.15/doc/man/nvme_for_each_subsystem.2
+libnvme-1.15/doc/man/nvme_for_each_subsystem_safe.2
+libnvme-1.15/doc/man/nvme_format_nvm.2
+libnvme-1.15/doc/man/nvme_format_nvm_compln_event.2
+libnvme-1.15/doc/man/nvme_format_nvm_start_event.2
+libnvme-1.15/doc/man/nvme_free_ctrl.2
+libnvme-1.15/doc/man/nvme_free_host.2
+libnvme-1.15/doc/man/nvme_free_ns.2
+libnvme-1.15/doc/man/nvme_free_subsystem.2
+libnvme-1.15/doc/man/nvme_free_tree.2
+libnvme-1.15/doc/man/nvme_free_uri.2
+libnvme-1.15/doc/man/nvme_fw_commit.2
+libnvme-1.15/doc/man/nvme_fw_commit_ca.2
+libnvme-1.15/doc/man/nvme_fw_commit_event.2
+libnvme-1.15/doc/man/nvme_fw_download.2
+libnvme-1.15/doc/man/nvme_fw_download_seq.2
+libnvme-1.15/doc/man/nvme_gen_dhchap_key.2
+libnvme-1.15/doc/man/nvme_generate_tls_key_identity.2
+libnvme-1.15/doc/man/nvme_get_ana_log_atomic.2
+libnvme-1.15/doc/man/nvme_get_ana_log_len.2
+libnvme-1.15/doc/man/nvme_get_ana_log_len_from_id_ctrl.2
+libnvme-1.15/doc/man/nvme_get_attr.2
+libnvme-1.15/doc/man/nvme_get_ctrl_attr.2
+libnvme-1.15/doc/man/nvme_get_ctrl_telemetry.2
+libnvme-1.15/doc/man/nvme_get_directive_receive_length.2
+libnvme-1.15/doc/man/nvme_get_discovery_args.2
+libnvme-1.15/doc/man/nvme_get_feature_length.2
+libnvme-1.15/doc/man/nvme_get_feature_length2.2
+libnvme-1.15/doc/man/nvme_get_features.2
+libnvme-1.15/doc/man/nvme_get_features_arbitration.2
+libnvme-1.15/doc/man/nvme_get_features_async_event.2
+libnvme-1.15/doc/man/nvme_get_features_auto_pst.2
+libnvme-1.15/doc/man/nvme_get_features_data.2
+libnvme-1.15/doc/man/nvme_get_features_endurance_event_cfg.2
+libnvme-1.15/doc/man/nvme_get_features_err_recovery.2
+libnvme-1.15/doc/man/nvme_get_features_err_recovery2.2
+libnvme-1.15/doc/man/nvme_get_features_hctm.2
+libnvme-1.15/doc/man/nvme_get_features_host_behavior.2
+libnvme-1.15/doc/man/nvme_get_features_host_id.2
+libnvme-1.15/doc/man/nvme_get_features_host_mem_buf.2
+libnvme-1.15/doc/man/nvme_get_features_host_mem_buf2.2
+libnvme-1.15/doc/man/nvme_get_features_iocs_profile.2
+libnvme-1.15/doc/man/nvme_get_features_irq_coalesce.2
+libnvme-1.15/doc/man/nvme_get_features_irq_config.2
+libnvme-1.15/doc/man/nvme_get_features_kato.2
+libnvme-1.15/doc/man/nvme_get_features_lba_range.2
+libnvme-1.15/doc/man/nvme_get_features_lba_range2.2
+libnvme-1.15/doc/man/nvme_get_features_lba_sts_interval.2
+libnvme-1.15/doc/man/nvme_get_features_nopsc.2
+libnvme-1.15/doc/man/nvme_get_features_num_queues.2
+libnvme-1.15/doc/man/nvme_get_features_plm_config.2
+libnvme-1.15/doc/man/nvme_get_features_plm_window.2
+libnvme-1.15/doc/man/nvme_get_features_power_mgmt.2
+libnvme-1.15/doc/man/nvme_get_features_resv_mask.2
+libnvme-1.15/doc/man/nvme_get_features_resv_mask2.2
+libnvme-1.15/doc/man/nvme_get_features_resv_persist.2
+libnvme-1.15/doc/man/nvme_get_features_resv_persist2.2
+libnvme-1.15/doc/man/nvme_get_features_rrl.2
+libnvme-1.15/doc/man/nvme_get_features_sanitize.2
+libnvme-1.15/doc/man/nvme_get_features_sel.2
+libnvme-1.15/doc/man/nvme_get_features_simple.2
+libnvme-1.15/doc/man/nvme_get_features_sw_progress.2
+libnvme-1.15/doc/man/nvme_get_features_temp_thresh.2
+libnvme-1.15/doc/man/nvme_get_features_temp_thresh2.2
+libnvme-1.15/doc/man/nvme_get_features_timestamp.2
+libnvme-1.15/doc/man/nvme_get_features_volatile_wc.2
+libnvme-1.15/doc/man/nvme_get_features_write_atomic.2
+libnvme-1.15/doc/man/nvme_get_features_write_protect.2
+libnvme-1.15/doc/man/nvme_get_host_telemetry.2
+libnvme-1.15/doc/man/nvme_get_lba_status.2
+libnvme-1.15/doc/man/nvme_get_lba_status_log.2
+libnvme-1.15/doc/man/nvme_get_log.2
+libnvme-1.15/doc/man/nvme_get_log_ana.2
+libnvme-1.15/doc/man/nvme_get_log_ana_groups.2
+libnvme-1.15/doc/man/nvme_get_log_ave_discover.2
+libnvme-1.15/doc/man/nvme_get_log_boot_partition.2
+libnvme-1.15/doc/man/nvme_get_log_changed_alloc_ns_list.2
+libnvme-1.15/doc/man/nvme_get_log_changed_ns_list.2
+libnvme-1.15/doc/man/nvme_get_log_cmd_effects.2
+libnvme-1.15/doc/man/nvme_get_log_create_telemetry_host.2
+libnvme-1.15/doc/man/nvme_get_log_create_telemetry_host_mcda.2
+libnvme-1.15/doc/man/nvme_get_log_device_self_test.2
+libnvme-1.15/doc/man/nvme_get_log_discovery.2
+libnvme-1.15/doc/man/nvme_get_log_dispersed_ns_participating_nss.2
+libnvme-1.15/doc/man/nvme_get_log_endurance_group.2
+libnvme-1.15/doc/man/nvme_get_log_endurance_grp_evt.2
+libnvme-1.15/doc/man/nvme_get_log_error.2
+libnvme-1.15/doc/man/nvme_get_log_fdp_configurations.2
+libnvme-1.15/doc/man/nvme_get_log_fdp_events.2
+libnvme-1.15/doc/man/nvme_get_log_fdp_stats.2
+libnvme-1.15/doc/man/nvme_get_log_fid_supported_effects.2
+libnvme-1.15/doc/man/nvme_get_log_fw_slot.2
+libnvme-1.15/doc/man/nvme_get_log_host_discover.2
+libnvme-1.15/doc/man/nvme_get_log_lba_status.2
+libnvme-1.15/doc/man/nvme_get_log_lockdown.2
+libnvme-1.15/doc/man/nvme_get_log_media_unit_stat.2
+libnvme-1.15/doc/man/nvme_get_log_mgmt_addr_list.2
+libnvme-1.15/doc/man/nvme_get_log_mi_cmd_supported_effects.2
+libnvme-1.15/doc/man/nvme_get_log_page.2
+libnvme-1.15/doc/man/nvme_get_log_persistent_event.2
+libnvme-1.15/doc/man/nvme_get_log_phy_rx_eom.2
+libnvme-1.15/doc/man/nvme_get_log_predictable_lat_event.2
+libnvme-1.15/doc/man/nvme_get_log_predictable_lat_nvmset.2
+libnvme-1.15/doc/man/nvme_get_log_pull_model_ddc_req.2
+libnvme-1.15/doc/man/nvme_get_log_reachability_associations.2
+libnvme-1.15/doc/man/nvme_get_log_reachability_groups.2
+libnvme-1.15/doc/man/nvme_get_log_reclaim_unit_handle_usage.2
+libnvme-1.15/doc/man/nvme_get_log_reservation.2
+libnvme-1.15/doc/man/nvme_get_log_rotational_media_info.2
+libnvme-1.15/doc/man/nvme_get_log_sanitize.2
+libnvme-1.15/doc/man/nvme_get_log_smart.2
+libnvme-1.15/doc/man/nvme_get_log_support_cap_config_list.2
+libnvme-1.15/doc/man/nvme_get_log_supported_log_pages.2
+libnvme-1.15/doc/man/nvme_get_log_telemetry_ctrl.2
+libnvme-1.15/doc/man/nvme_get_log_telemetry_host.2
+libnvme-1.15/doc/man/nvme_get_log_zns_changed_zones.2
+libnvme-1.15/doc/man/nvme_get_logging_level.2
+libnvme-1.15/doc/man/nvme_get_logical_block_size.2
+libnvme-1.15/doc/man/nvme_get_new_host_telemetry.2
+libnvme-1.15/doc/man/nvme_get_ns_attr.2
+libnvme-1.15/doc/man/nvme_get_nsid.2
+libnvme-1.15/doc/man/nvme_get_path_attr.2
+libnvme-1.15/doc/man/nvme_get_property.2
+libnvme-1.15/doc/man/nvme_get_subsys_attr.2
+libnvme-1.15/doc/man/nvme_get_telemetry_log.2
+libnvme-1.15/doc/man/nvme_get_telemetry_max.2
+libnvme-1.15/doc/man/nvme_hmac_alg.2
+libnvme-1.15/doc/man/nvme_host_behavior_support.2
+libnvme-1.15/doc/man/nvme_host_discover_log.2
+libnvme-1.15/doc/man/nvme_host_ext_discover_log.2
+libnvme-1.15/doc/man/nvme_host_get_dhchap_key.2
+libnvme-1.15/doc/man/nvme_host_get_hostid.2
+libnvme-1.15/doc/man/nvme_host_get_hostnqn.2
+libnvme-1.15/doc/man/nvme_host_get_hostsymname.2
+libnvme-1.15/doc/man/nvme_host_get_root.2
+libnvme-1.15/doc/man/nvme_host_is_pdc_enabled.2
+libnvme-1.15/doc/man/nvme_host_mem_buf_attrs.2
+libnvme-1.15/doc/man/nvme_host_metadata.2
+libnvme-1.15/doc/man/nvme_host_release_fds.2
+libnvme-1.15/doc/man/nvme_host_set_dhchap_key.2
+libnvme-1.15/doc/man/nvme_host_set_hostsymname.2
+libnvme-1.15/doc/man/nvme_host_set_pdc_enabled.2
+libnvme-1.15/doc/man/nvme_id_ctrl.2
+libnvme-1.15/doc/man/nvme_id_ctrl_anacap.2
+libnvme-1.15/doc/man/nvme_id_ctrl_apsta.2
+libnvme-1.15/doc/man/nvme_id_ctrl_avscc.2
+libnvme-1.15/doc/man/nvme_id_ctrl_bpcap.2
+libnvme-1.15/doc/man/nvme_id_ctrl_cmic.2
+libnvme-1.15/doc/man/nvme_id_ctrl_cntrltype.2
+libnvme-1.15/doc/man/nvme_id_ctrl_cqes.2
+libnvme-1.15/doc/man/nvme_id_ctrl_crcap.2
+libnvme-1.15/doc/man/nvme_id_ctrl_ctratt.2
+libnvme-1.15/doc/man/nvme_id_ctrl_dctype.2
+libnvme-1.15/doc/man/nvme_id_ctrl_dsto.2
+libnvme-1.15/doc/man/nvme_id_ctrl_fcatt.2
+libnvme-1.15/doc/man/nvme_id_ctrl_fna.2
+libnvme-1.15/doc/man/nvme_id_ctrl_frmw.2
+libnvme-1.15/doc/man/nvme_id_ctrl_fuses.2
+libnvme-1.15/doc/man/nvme_id_ctrl_hctm.2
+libnvme-1.15/doc/man/nvme_id_ctrl_kpioc.2
+libnvme-1.15/doc/man/nvme_id_ctrl_lpa.2
+libnvme-1.15/doc/man/nvme_id_ctrl_mec.2
+libnvme-1.15/doc/man/nvme_id_ctrl_nvm.2
+libnvme-1.15/doc/man/nvme_id_ctrl_nvm_lbamqf.2
+libnvme-1.15/doc/man/nvme_id_ctrl_nvmsr.2
+libnvme-1.15/doc/man/nvme_id_ctrl_nvscc.2
+libnvme-1.15/doc/man/nvme_id_ctrl_nwpc.2
+libnvme-1.15/doc/man/nvme_id_ctrl_oacs.2
+libnvme-1.15/doc/man/nvme_id_ctrl_oaes.2
+libnvme-1.15/doc/man/nvme_id_ctrl_ofcs.2
+libnvme-1.15/doc/man/nvme_id_ctrl_oncs.2
+libnvme-1.15/doc/man/nvme_id_ctrl_plsi.2
+libnvme-1.15/doc/man/nvme_id_ctrl_rpmbs.2
+libnvme-1.15/doc/man/nvme_id_ctrl_sanicap.2
+libnvme-1.15/doc/man/nvme_id_ctrl_sgls.2
+libnvme-1.15/doc/man/nvme_id_ctrl_sqes.2
+libnvme-1.15/doc/man/nvme_id_ctrl_trattr.2
+libnvme-1.15/doc/man/nvme_id_ctrl_vwc.2
+libnvme-1.15/doc/man/nvme_id_ctrl_vwci.2
+libnvme-1.15/doc/man/nvme_id_directives.2
+libnvme-1.15/doc/man/nvme_id_domain_attr.2
+libnvme-1.15/doc/man/nvme_id_domain_list.2
+libnvme-1.15/doc/man/nvme_id_endurance_group_list.2
+libnvme-1.15/doc/man/nvme_id_independent_id_ns.2
+libnvme-1.15/doc/man/nvme_id_iocs.2
+libnvme-1.15/doc/man/nvme_id_iocs_iocsc.2
+libnvme-1.15/doc/man/nvme_id_ns.2
+libnvme-1.15/doc/man/nvme_id_ns_attr.2
+libnvme-1.15/doc/man/nvme_id_ns_dlfeat.2
+libnvme-1.15/doc/man/nvme_id_ns_dpc.2
+libnvme-1.15/doc/man/nvme_id_ns_dps.2
+libnvme-1.15/doc/man/nvme_id_ns_flbas.2
+libnvme-1.15/doc/man/nvme_id_ns_granularity_desc.2
+libnvme-1.15/doc/man/nvme_id_ns_granularity_list.2
+libnvme-1.15/doc/man/nvme_id_ns_mc.2
+libnvme-1.15/doc/man/nvme_id_ns_nmic.2
+libnvme-1.15/doc/man/nvme_id_ns_rescap.2
+libnvme-1.15/doc/man/nvme_id_nsfeat.2
+libnvme-1.15/doc/man/nvme_id_nvmset_list.2
+libnvme-1.15/doc/man/nvme_id_psd.2
+libnvme-1.15/doc/man/nvme_id_uuid.2
+libnvme-1.15/doc/man/nvme_id_uuid_list.2
+libnvme-1.15/doc/man/nvme_id_uuid_list_entry.2
+libnvme-1.15/doc/man/nvme_identify.2
+libnvme-1.15/doc/man/nvme_identify_active_ns_list.2
+libnvme-1.15/doc/man/nvme_identify_active_ns_list_csi.2
+libnvme-1.15/doc/man/nvme_identify_allocated_ns.2
+libnvme-1.15/doc/man/nvme_identify_allocated_ns_list.2
+libnvme-1.15/doc/man/nvme_identify_allocated_ns_list_csi.2
+libnvme-1.15/doc/man/nvme_identify_cns.2
+libnvme-1.15/doc/man/nvme_identify_ctrl.2
+libnvme-1.15/doc/man/nvme_identify_ctrl_csi.2
+libnvme-1.15/doc/man/nvme_identify_ctrl_list.2
+libnvme-1.15/doc/man/nvme_identify_domain_list.2
+libnvme-1.15/doc/man/nvme_identify_endurance_group_list.2
+libnvme-1.15/doc/man/nvme_identify_independent_identify_ns.2
+libnvme-1.15/doc/man/nvme_identify_iocs.2
+libnvme-1.15/doc/man/nvme_identify_iocs_ns_csi_user_data_format.2
+libnvme-1.15/doc/man/nvme_identify_ns.2
+libnvme-1.15/doc/man/nvme_identify_ns_csi.2
+libnvme-1.15/doc/man/nvme_identify_ns_csi_user_data_format.2
+libnvme-1.15/doc/man/nvme_identify_ns_descs.2
+libnvme-1.15/doc/man/nvme_identify_ns_granularity.2
+libnvme-1.15/doc/man/nvme_identify_nsid_ctrl_list.2
+libnvme-1.15/doc/man/nvme_identify_nvmset_list.2
+libnvme-1.15/doc/man/nvme_identify_primary_ctrl.2
+libnvme-1.15/doc/man/nvme_identify_secondary_ctrl_list.2
+libnvme-1.15/doc/man/nvme_identify_uuid.2
+libnvme-1.15/doc/man/nvme_import_tls_key.2
+libnvme-1.15/doc/man/nvme_import_tls_key_versioned.2
+libnvme-1.15/doc/man/nvme_init_copy_range.2
+libnvme-1.15/doc/man/nvme_init_copy_range_f1.2
+libnvme-1.15/doc/man/nvme_init_copy_range_f2.2
+libnvme-1.15/doc/man/nvme_init_copy_range_f3.2
+libnvme-1.15/doc/man/nvme_init_ctrl.2
+libnvme-1.15/doc/man/nvme_init_ctrl_list.2
+libnvme-1.15/doc/man/nvme_init_default_logging.2
+libnvme-1.15/doc/man/nvme_init_dsm_range.2
+libnvme-1.15/doc/man/nvme_init_logging.2
+libnvme-1.15/doc/man/nvme_insert_tls_key.2
+libnvme-1.15/doc/man/nvme_insert_tls_key_versioned.2
+libnvme-1.15/doc/man/nvme_io.2
+libnvme-1.15/doc/man/nvme_io_control_flags.2
+libnvme-1.15/doc/man/nvme_io_dsm_flags.2
+libnvme-1.15/doc/man/nvme_io_mgmt_recv.2
+libnvme-1.15/doc/man/nvme_io_mgmt_recv_mo.2
+libnvme-1.15/doc/man/nvme_io_mgmt_send.2
+libnvme-1.15/doc/man/nvme_io_mgmt_send_mo.2
+libnvme-1.15/doc/man/nvme_io_opcode.2
+libnvme-1.15/doc/man/nvme_io_passthru.2
+libnvme-1.15/doc/man/nvme_io_passthru64.2
+libnvme-1.15/doc/man/nvme_is_64bit_reg.2
+libnvme-1.15/doc/man/nvme_kv_opcode.2
+libnvme-1.15/doc/man/nvme_lba_range_type.2
+libnvme-1.15/doc/man/nvme_lba_range_type_entry.2
+libnvme-1.15/doc/man/nvme_lba_rd.2
+libnvme-1.15/doc/man/nvme_lba_status.2
+libnvme-1.15/doc/man/nvme_lba_status_atype.2
+libnvme-1.15/doc/man/nvme_lba_status_cmpc.2
+libnvme-1.15/doc/man/nvme_lba_status_desc.2
+libnvme-1.15/doc/man/nvme_lba_status_log.2
+libnvme-1.15/doc/man/nvme_lbaf.2
+libnvme-1.15/doc/man/nvme_lbaf_rp.2
+libnvme-1.15/doc/man/nvme_lbart.2
+libnvme-1.15/doc/man/nvme_lbas_ns_element.2
+libnvme-1.15/doc/man/nvme_lm_cdq.2
+libnvme-1.15/doc/man/nvme_lm_cdq_fields.2
+libnvme-1.15/doc/man/nvme_lm_controller_state_data.2
+libnvme-1.15/doc/man/nvme_lm_controller_state_data_header.2
+libnvme-1.15/doc/man/nvme_lm_ctrl_data_queue_fid.2
+libnvme-1.15/doc/man/nvme_lm_ctrl_data_queue_fid_data.2
+libnvme-1.15/doc/man/nvme_lm_io_completion_queue_data.2
+libnvme-1.15/doc/man/nvme_lm_io_submission_queue_data.2
+libnvme-1.15/doc/man/nvme_lm_migration_recv_fields.2
+libnvme-1.15/doc/man/nvme_lm_migration_send.2
+libnvme-1.15/doc/man/nvme_lm_migration_send_fields.2
+libnvme-1.15/doc/man/nvme_lm_nvme_controller_state_data.2
+libnvme-1.15/doc/man/nvme_lm_nvme_controller_state_data_header.2
+libnvme-1.15/doc/man/nvme_lm_queue_attributes.2
+libnvme-1.15/doc/man/nvme_lm_track_send.2
+libnvme-1.15/doc/man/nvme_lm_track_send_fields.2
+libnvme-1.15/doc/man/nvme_lockdown.2
+libnvme-1.15/doc/man/nvme_lockdown_log.2
+libnvme-1.15/doc/man/nvme_lockdown_log_contents.2
+libnvme-1.15/doc/man/nvme_lockdown_log_scope.2
+libnvme-1.15/doc/man/nvme_lockdown_scope_contents.2
+libnvme-1.15/doc/man/nvme_log_ana_lsp.2
+libnvme-1.15/doc/man/nvme_log_phy_rx_eom_action.2
+libnvme-1.15/doc/man/nvme_log_phy_rx_eom_quality.2
+libnvme-1.15/doc/man/nvme_lookup_ctrl.2
+libnvme-1.15/doc/man/nvme_lookup_host.2
+libnvme-1.15/doc/man/nvme_lookup_key.2
+libnvme-1.15/doc/man/nvme_lookup_keyring.2
+libnvme-1.15/doc/man/nvme_lookup_subsystem.2
+libnvme-1.15/doc/man/nvme_media_unit_config_desc.2
+libnvme-1.15/doc/man/nvme_media_unit_stat_desc.2
+libnvme-1.15/doc/man/nvme_media_unit_stat_log.2
+libnvme-1.15/doc/man/nvme_metadata_element_desc.2
+libnvme-1.15/doc/man/nvme_mgmt_addr_desc.2
+libnvme-1.15/doc/man/nvme_mgmt_addr_list_log.2
+libnvme-1.15/doc/man/nvme_mi_admin_admin_passthru.2
+libnvme-1.15/doc/man/nvme_mi_admin_format_nvm.2
+libnvme-1.15/doc/man/nvme_mi_admin_fw_commit.2
+libnvme-1.15/doc/man/nvme_mi_admin_fw_download.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_ana_log_atomic.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_endgid_log.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_features_arbitration.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_features_data.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_features_power_mgmt.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log_ana.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log_ana_groups.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log_ave_discover.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log_boot_partition.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log_changed_alloc_ns_list.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log_changed_ns_list.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log_cmd_effects.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log_create_telemetry_host.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log_create_telemetry_host_mcda.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log_device_self_test.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log_discovery.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log_dispersed_ns_participating_nss.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log_endurance_group.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log_endurance_grp_evt.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log_error.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log_fid_supported_effects.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log_fw_slot.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log_host_discover.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log_lba_status.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log_lockdown.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log_media_unit_stat.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log_mgmt_addr_list.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log_mi_cmd_supported_effects.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log_page.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log_persistent_event.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log_phy_rx_eom.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log_predictable_lat_event.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log_predictable_lat_nvmset.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log_pull_model_ddc_req.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log_reachability_associations.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log_reachability_groups.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log_reservation.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log_rotational_media_info.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log_sanitize.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log_simple.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log_smart.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log_support_cap_config_list.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log_supported_log_pages.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log_telemetry_ctrl.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log_telemetry_host.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_log_zns_changed_zones.2
+libnvme-1.15/doc/man/nvme_mi_admin_get_nsid_log.2
+libnvme-1.15/doc/man/nvme_mi_admin_identify.2
+libnvme-1.15/doc/man/nvme_mi_admin_identify_active_ns_list.2
+libnvme-1.15/doc/man/nvme_mi_admin_identify_allocated_ns.2
+libnvme-1.15/doc/man/nvme_mi_admin_identify_allocated_ns_list.2
+libnvme-1.15/doc/man/nvme_mi_admin_identify_cns_nsid.2
+libnvme-1.15/doc/man/nvme_mi_admin_identify_ctrl.2
+libnvme-1.15/doc/man/nvme_mi_admin_identify_ctrl_list.2
+libnvme-1.15/doc/man/nvme_mi_admin_identify_ns.2
+libnvme-1.15/doc/man/nvme_mi_admin_identify_ns_descs.2
+libnvme-1.15/doc/man/nvme_mi_admin_identify_nsid_ctrl_list.2
+libnvme-1.15/doc/man/nvme_mi_admin_identify_partial.2
+libnvme-1.15/doc/man/nvme_mi_admin_identify_primary_ctrl.2
+libnvme-1.15/doc/man/nvme_mi_admin_identify_secondary_ctrl_list.2
+libnvme-1.15/doc/man/nvme_mi_admin_ns_attach.2
+libnvme-1.15/doc/man/nvme_mi_admin_ns_attach_ctrls.2
+libnvme-1.15/doc/man/nvme_mi_admin_ns_detach_ctrls.2
+libnvme-1.15/doc/man/nvme_mi_admin_req_hdr.2
+libnvme-1.15/doc/man/nvme_mi_admin_resp_hdr.2
+libnvme-1.15/doc/man/nvme_mi_admin_sanitize_nvm.2
+libnvme-1.15/doc/man/nvme_mi_admin_security_recv.2
+libnvme-1.15/doc/man/nvme_mi_admin_security_send.2
+libnvme-1.15/doc/man/nvme_mi_admin_set_features_power_mgmt.2
+libnvme-1.15/doc/man/nvme_mi_admin_xfer.2
+libnvme-1.15/doc/man/nvme_mi_aem_aeei_get_aee.2
+libnvme-1.15/doc/man/nvme_mi_aem_aeei_get_aeeid.2
+libnvme-1.15/doc/man/nvme_mi_aem_aeei_set_aee.2
+libnvme-1.15/doc/man/nvme_mi_aem_aeei_set_aeeid.2
+libnvme-1.15/doc/man/nvme_mi_aem_aemti_get_aemgn.2
+libnvme-1.15/doc/man/nvme_mi_aem_aeolli_get_aeoltl.2
+libnvme-1.15/doc/man/nvme_mi_aem_aeolli_set_aeoltl.2
+libnvme-1.15/doc/man/nvme_mi_aem_aesi_get_aese.2
+libnvme-1.15/doc/man/nvme_mi_aem_aesi_get_aesid.2
+libnvme-1.15/doc/man/nvme_mi_aem_aesi_set_aee.2
+libnvme-1.15/doc/man/nvme_mi_aem_aesi_set_aesid.2
+libnvme-1.15/doc/man/nvme_mi_aem_config.2
+libnvme-1.15/doc/man/nvme_mi_aem_disable.2
+libnvme-1.15/doc/man/nvme_mi_aem_enable.2
+libnvme-1.15/doc/man/nvme_mi_aem_enable_item.2
+libnvme-1.15/doc/man/nvme_mi_aem_enable_list.2
+libnvme-1.15/doc/man/nvme_mi_aem_enable_list_header.2
+libnvme-1.15/doc/man/nvme_mi_aem_get_enabled.2
+libnvme-1.15/doc/man/nvme_mi_aem_get_fd.2
+libnvme-1.15/doc/man/nvme_mi_aem_get_next_event.2
+libnvme-1.15/doc/man/nvme_mi_aem_handler_next_action.2
+libnvme-1.15/doc/man/nvme_mi_aem_msg.2
+libnvme-1.15/doc/man/nvme_mi_aem_occ_data.2
+libnvme-1.15/doc/man/nvme_mi_aem_occ_list_hdr.2
+libnvme-1.15/doc/man/nvme_mi_aem_open.2
+libnvme-1.15/doc/man/nvme_mi_aem_process.2
+libnvme-1.15/doc/man/nvme_mi_aem_supported_item.2
+libnvme-1.15/doc/man/nvme_mi_aem_supported_list.2
+libnvme-1.15/doc/man/nvme_mi_aem_supported_list_header.2
+libnvme-1.15/doc/man/nvme_mi_ccs.2
+libnvme-1.15/doc/man/nvme_mi_close.2
+libnvme-1.15/doc/man/nvme_mi_close_ctrl.2
+libnvme-1.15/doc/man/nvme_mi_cmd_supported_effects.2
+libnvme-1.15/doc/man/nvme_mi_cmd_supported_effects_log.2
+libnvme-1.15/doc/man/nvme_mi_config_id.2
+libnvme-1.15/doc/man/nvme_mi_config_smbus_freq.2
+libnvme-1.15/doc/man/nvme_mi_control.2
+libnvme-1.15/doc/man/nvme_mi_control_opcode.2
+libnvme-1.15/doc/man/nvme_mi_control_req.2
+libnvme-1.15/doc/man/nvme_mi_create_root.2
+libnvme-1.15/doc/man/nvme_mi_csts.2
+libnvme-1.15/doc/man/nvme_mi_ctrl_health_status.2
+libnvme-1.15/doc/man/nvme_mi_ctrl_id.2
+libnvme-1.15/doc/man/nvme_mi_cwarn.2
+libnvme-1.15/doc/man/nvme_mi_dtyp.2
+libnvme-1.15/doc/man/nvme_mi_elem.2
+libnvme-1.15/doc/man/nvme_mi_event.2
+libnvme-1.15/doc/man/nvme_mi_free_root.2
+libnvme-1.15/doc/man/nvme_mi_init_ctrl.2
+libnvme-1.15/doc/man/nvme_mi_message_type.2
+libnvme-1.15/doc/man/nvme_mi_mi_opcode.2
+libnvme-1.15/doc/man/nvme_mi_mi_read_mi_data_ctrl.2
+libnvme-1.15/doc/man/nvme_mi_mi_read_mi_data_ctrl_list.2
+libnvme-1.15/doc/man/nvme_mi_mi_read_mi_data_port.2
+libnvme-1.15/doc/man/nvme_mi_mi_read_mi_data_subsys.2
+libnvme-1.15/doc/man/nvme_mi_mi_req_hdr.2
+libnvme-1.15/doc/man/nvme_mi_mi_resp_hdr.2
+libnvme-1.15/doc/man/nvme_mi_mi_subsystem_health_status_poll.2
+libnvme-1.15/doc/man/nvme_mi_mi_xfer.2
+libnvme-1.15/doc/man/nvme_mi_msg_hdr.2
+libnvme-1.15/doc/man/nvme_mi_msg_resp.2
+libnvme-1.15/doc/man/nvme_mi_nvm_ss_health_status.2
+libnvme-1.15/doc/man/nvme_mi_open_mctp.2
+libnvme-1.15/doc/man/nvme_mi_osc.2
+libnvme-1.15/doc/man/nvme_mi_port_pcie.2
+libnvme-1.15/doc/man/nvme_mi_port_smb.2
+libnvme-1.15/doc/man/nvme_mi_read_ctrl_info.2
+libnvme-1.15/doc/man/nvme_mi_read_nvm_ss_info.2
+libnvme-1.15/doc/man/nvme_mi_read_port_info.2
+libnvme-1.15/doc/man/nvme_mi_read_sc_list.2
+libnvme-1.15/doc/man/nvme_mi_resp_status.2
+libnvme-1.15/doc/man/nvme_mi_set_probe_enabled.2
+libnvme-1.15/doc/man/nvme_mi_status_to_string.2
+libnvme-1.15/doc/man/nvme_mi_vpd_hdr.2
+libnvme-1.15/doc/man/nvme_mi_vpd_mr_common.2
+libnvme-1.15/doc/man/nvme_mi_vpd_mra.2
+libnvme-1.15/doc/man/nvme_mi_vpd_ppmra.2
+libnvme-1.15/doc/man/nvme_mi_vpd_telem.2
+libnvme-1.15/doc/man/nvme_mi_vpd_tra.2
+libnvme-1.15/doc/man/nvme_namespace_attach_ctrls.2
+libnvme-1.15/doc/man/nvme_namespace_detach_ctrls.2
+libnvme-1.15/doc/man/nvme_namespace_filter.2
+libnvme-1.15/doc/man/nvme_namespace_first_path.2
+libnvme-1.15/doc/man/nvme_namespace_for_each_path.2
+libnvme-1.15/doc/man/nvme_namespace_for_each_path_safe.2
+libnvme-1.15/doc/man/nvme_namespace_next_path.2
+libnvme-1.15/doc/man/nvme_nbft_free.2
+libnvme-1.15/doc/man/nvme_nbft_read.2
+libnvme-1.15/doc/man/nvme_nd_ns_fpi.2
+libnvme-1.15/doc/man/nvme_next_host.2
+libnvme-1.15/doc/man/nvme_next_subsystem.2
+libnvme-1.15/doc/man/nvme_ns_attach.2
+libnvme-1.15/doc/man/nvme_ns_attach_ctrls.2
+libnvme-1.15/doc/man/nvme_ns_attach_sel.2
+libnvme-1.15/doc/man/nvme_ns_compare.2
+libnvme-1.15/doc/man/nvme_ns_detach_ctrls.2
+libnvme-1.15/doc/man/nvme_ns_flush.2
+libnvme-1.15/doc/man/nvme_ns_get_csi.2
+libnvme-1.15/doc/man/nvme_ns_get_ctrl.2
+libnvme-1.15/doc/man/nvme_ns_get_eui64.2
+libnvme-1.15/doc/man/nvme_ns_get_fd.2
+libnvme-1.15/doc/man/nvme_ns_get_firmware.2
+libnvme-1.15/doc/man/nvme_ns_get_generic_name.2
+libnvme-1.15/doc/man/nvme_ns_get_lba_count.2
+libnvme-1.15/doc/man/nvme_ns_get_lba_size.2
+libnvme-1.15/doc/man/nvme_ns_get_lba_util.2
+libnvme-1.15/doc/man/nvme_ns_get_meta_size.2
+libnvme-1.15/doc/man/nvme_ns_get_model.2
+libnvme-1.15/doc/man/nvme_ns_get_name.2
+libnvme-1.15/doc/man/nvme_ns_get_nguid.2
+libnvme-1.15/doc/man/nvme_ns_get_nsid.2
+libnvme-1.15/doc/man/nvme_ns_get_serial.2
+libnvme-1.15/doc/man/nvme_ns_get_subsystem.2
+libnvme-1.15/doc/man/nvme_ns_get_sysfs_dir.2
+libnvme-1.15/doc/man/nvme_ns_get_uuid.2
+libnvme-1.15/doc/man/nvme_ns_head_get_sysfs_dir.2
+libnvme-1.15/doc/man/nvme_ns_id_desc.2
+libnvme-1.15/doc/man/nvme_ns_id_desc_nidt.2
+libnvme-1.15/doc/man/nvme_ns_identify.2
+libnvme-1.15/doc/man/nvme_ns_identify_descs.2
+libnvme-1.15/doc/man/nvme_ns_list.2
+libnvme-1.15/doc/man/nvme_ns_metadata_type.2
+libnvme-1.15/doc/man/nvme_ns_mgmt.2
+libnvme-1.15/doc/man/nvme_ns_mgmt_create.2
+libnvme-1.15/doc/man/nvme_ns_mgmt_delete.2
+libnvme-1.15/doc/man/nvme_ns_mgmt_delete_timeout.2
+libnvme-1.15/doc/man/nvme_ns_mgmt_host_sw_specified.2
+libnvme-1.15/doc/man/nvme_ns_mgmt_sel.2
+libnvme-1.15/doc/man/nvme_ns_read.2
+libnvme-1.15/doc/man/nvme_ns_release_fd.2
+libnvme-1.15/doc/man/nvme_ns_rescan.2
+libnvme-1.15/doc/man/nvme_ns_verify.2
+libnvme-1.15/doc/man/nvme_ns_write.2
+libnvme-1.15/doc/man/nvme_ns_write_protect_cfg.2
+libnvme-1.15/doc/man/nvme_ns_write_uncorrectable.2
+libnvme-1.15/doc/man/nvme_ns_write_zeros.2
+libnvme-1.15/doc/man/nvme_nss_hw_err_event.2
+libnvme-1.15/doc/man/nvme_nvm_id_ns.2
+libnvme-1.15/doc/man/nvme_nvm_id_ns_elbaf.2
+libnvme-1.15/doc/man/nvme_nvm_id_ns_pif.2
+libnvme-1.15/doc/man/nvme_nvm_identify_ctrl.2
+libnvme-1.15/doc/man/nvme_nvmeset_pl_status.2
+libnvme-1.15/doc/man/nvme_nvmset_attr.2
+libnvme-1.15/doc/man/nvme_nvmset_pl_events.2
+libnvme-1.15/doc/man/nvme_nvmset_predictable_lat_log.2
+libnvme-1.15/doc/man/nvme_open.2
+libnvme-1.15/doc/man/nvme_parse_uri.2
+libnvme-1.15/doc/man/nvme_passthru_cmd.2
+libnvme-1.15/doc/man/nvme_passthru_cmd64.2
+libnvme-1.15/doc/man/nvme_path_get_ana_state.2
+libnvme-1.15/doc/man/nvme_path_get_ctrl.2
+libnvme-1.15/doc/man/nvme_path_get_name.2
+libnvme-1.15/doc/man/nvme_path_get_ns.2
+libnvme-1.15/doc/man/nvme_path_get_numa_nodes.2
+libnvme-1.15/doc/man/nvme_path_get_queue_depth.2
+libnvme-1.15/doc/man/nvme_path_get_sysfs_dir.2
+libnvme-1.15/doc/man/nvme_paths_filter.2
+libnvme-1.15/doc/man/nvme_pel_ehai.2
+libnvme-1.15/doc/man/nvme_pel_ehai_pit.2
+libnvme-1.15/doc/man/nvme_pel_rci.2
+libnvme-1.15/doc/man/nvme_pel_rci_rcpit.2
+libnvme-1.15/doc/man/nvme_perf_attr_id.2
+libnvme-1.15/doc/man/nvme_perf_attr_id_list.2
+libnvme-1.15/doc/man/nvme_perf_characteristics.2
+libnvme-1.15/doc/man/nvme_persistent_event_entry.2
+libnvme-1.15/doc/man/nvme_persistent_event_log.2
+libnvme-1.15/doc/man/nvme_persistent_event_types.2
+libnvme-1.15/doc/man/nvme_pevent_log_action.2
+libnvme-1.15/doc/man/nvme_phy_rx_eom_log.2
+libnvme-1.15/doc/man/nvme_phy_rx_eom_progress.2
+libnvme-1.15/doc/man/nvme_plm_config.2
+libnvme-1.15/doc/man/nvme_pmr_size.2
+libnvme-1.15/doc/man/nvme_pmr_throughput.2
+libnvme-1.15/doc/man/nvme_pmrcap.2
+libnvme-1.15/doc/man/nvme_pmrctl.2
+libnvme-1.15/doc/man/nvme_pmrebs.2
+libnvme-1.15/doc/man/nvme_pmrmsc.2
+libnvme-1.15/doc/man/nvme_pmrsts.2
+libnvme-1.15/doc/man/nvme_pmrswtp.2
+libnvme-1.15/doc/man/nvme_power_on_reset_info_list.2
+libnvme-1.15/doc/man/nvme_primary_ctrl_cap.2
+libnvme-1.15/doc/man/nvme_psd_flags.2
+libnvme-1.15/doc/man/nvme_psd_power_scale.2
+libnvme-1.15/doc/man/nvme_psd_ps.2
+libnvme-1.15/doc/man/nvme_psd_workload.2
+libnvme-1.15/doc/man/nvme_pull_model_ddc_req_log.2
+libnvme-1.15/doc/man/nvme_reachability_association_desc.2
+libnvme-1.15/doc/man/nvme_reachability_associations_log.2
+libnvme-1.15/doc/man/nvme_reachability_group_desc.2
+libnvme-1.15/doc/man/nvme_reachability_groups_log.2
+libnvme-1.15/doc/man/nvme_read.2
+libnvme-1.15/doc/man/nvme_read_config.2
+libnvme-1.15/doc/man/nvme_read_key.2
+libnvme-1.15/doc/man/nvme_refresh_topology.2
+libnvme-1.15/doc/man/nvme_register_offsets.2
+libnvme-1.15/doc/man/nvme_registered_ctrl.2
+libnvme-1.15/doc/man/nvme_registered_ctrl_ext.2
+libnvme-1.15/doc/man/nvme_rescan_ctrl.2
+libnvme-1.15/doc/man/nvme_resv_acquire.2
+libnvme-1.15/doc/man/nvme_resv_cptpl.2
+libnvme-1.15/doc/man/nvme_resv_notification_log.2
+libnvme-1.15/doc/man/nvme_resv_notify_rnlpt.2
+libnvme-1.15/doc/man/nvme_resv_racqa.2
+libnvme-1.15/doc/man/nvme_resv_register.2
+libnvme-1.15/doc/man/nvme_resv_release.2
+libnvme-1.15/doc/man/nvme_resv_report.2
+libnvme-1.15/doc/man/nvme_resv_rrega.2
+libnvme-1.15/doc/man/nvme_resv_rrela.2
+libnvme-1.15/doc/man/nvme_resv_rtype.2
+libnvme-1.15/doc/man/nvme_resv_status.2
+libnvme-1.15/doc/man/nvme_revoke_tls_key.2
+libnvme-1.15/doc/man/nvme_rotational_media_info_log.2
+libnvme-1.15/doc/man/nvme_sanitize_compln_event.2
+libnvme-1.15/doc/man/nvme_sanitize_log_page.2
+libnvme-1.15/doc/man/nvme_sanitize_nvm.2
+libnvme-1.15/doc/man/nvme_sanitize_sanact.2
+libnvme-1.15/doc/man/nvme_sanitize_ssi.2
+libnvme-1.15/doc/man/nvme_sanitize_sstat.2
+libnvme-1.15/doc/man/nvme_sanitize_start_event.2
+libnvme-1.15/doc/man/nvme_scan.2
+libnvme-1.15/doc/man/nvme_scan_ctrl.2
+libnvme-1.15/doc/man/nvme_scan_ctrl_namespace_paths.2
+libnvme-1.15/doc/man/nvme_scan_ctrl_namespaces.2
+libnvme-1.15/doc/man/nvme_scan_ctrls.2
+libnvme-1.15/doc/man/nvme_scan_namespace.2
+libnvme-1.15/doc/man/nvme_scan_ns_head_paths.2
+libnvme-1.15/doc/man/nvme_scan_subsystem_namespaces.2
+libnvme-1.15/doc/man/nvme_scan_subsystems.2
+libnvme-1.15/doc/man/nvme_scan_tls_keys.2
+libnvme-1.15/doc/man/nvme_scan_topology.2
+libnvme-1.15/doc/man/nvme_secondary_ctrl.2
+libnvme-1.15/doc/man/nvme_secondary_ctrl_list.2
+libnvme-1.15/doc/man/nvme_security_receive.2
+libnvme-1.15/doc/man/nvme_security_send.2
+libnvme-1.15/doc/man/nvme_self_test_log.2
+libnvme-1.15/doc/man/nvme_set_feat_event_layout.2
+libnvme-1.15/doc/man/nvme_set_feature_event.2
+libnvme-1.15/doc/man/nvme_set_features.2
+libnvme-1.15/doc/man/nvme_set_features_arbitration.2
+libnvme-1.15/doc/man/nvme_set_features_async_event.2
+libnvme-1.15/doc/man/nvme_set_features_auto_pst.2
+libnvme-1.15/doc/man/nvme_set_features_data.2
+libnvme-1.15/doc/man/nvme_set_features_endurance_evt_cfg.2
+libnvme-1.15/doc/man/nvme_set_features_err_recovery.2
+libnvme-1.15/doc/man/nvme_set_features_hctm.2
+libnvme-1.15/doc/man/nvme_set_features_host_behavior.2
+libnvme-1.15/doc/man/nvme_set_features_host_id.2
+libnvme-1.15/doc/man/nvme_set_features_iocs_profile.2
+libnvme-1.15/doc/man/nvme_set_features_irq_coalesce.2
+libnvme-1.15/doc/man/nvme_set_features_irq_config.2
+libnvme-1.15/doc/man/nvme_set_features_lba_range.2
+libnvme-1.15/doc/man/nvme_set_features_lba_sts_interval.2
+libnvme-1.15/doc/man/nvme_set_features_nopsc.2
+libnvme-1.15/doc/man/nvme_set_features_plm_config.2
+libnvme-1.15/doc/man/nvme_set_features_plm_window.2
+libnvme-1.15/doc/man/nvme_set_features_power_mgmt.2
+libnvme-1.15/doc/man/nvme_set_features_resv_mask.2
+libnvme-1.15/doc/man/nvme_set_features_resv_mask2.2
+libnvme-1.15/doc/man/nvme_set_features_resv_persist.2
+libnvme-1.15/doc/man/nvme_set_features_resv_persist2.2
+libnvme-1.15/doc/man/nvme_set_features_rrl.2
+libnvme-1.15/doc/man/nvme_set_features_sanitize.2
+libnvme-1.15/doc/man/nvme_set_features_simple.2
+libnvme-1.15/doc/man/nvme_set_features_sw_progress.2
+libnvme-1.15/doc/man/nvme_set_features_temp_thresh.2
+libnvme-1.15/doc/man/nvme_set_features_temp_thresh2.2
+libnvme-1.15/doc/man/nvme_set_features_timestamp.2
+libnvme-1.15/doc/man/nvme_set_features_volatile_wc.2
+libnvme-1.15/doc/man/nvme_set_features_write_atomic.2
+libnvme-1.15/doc/man/nvme_set_features_write_protect.2
+libnvme-1.15/doc/man/nvme_set_features_write_protect2.2
+libnvme-1.15/doc/man/nvme_set_keyring.2
+libnvme-1.15/doc/man/nvme_set_property.2
+libnvme-1.15/doc/man/nvme_set_root.2
+libnvme-1.15/doc/man/nvme_smart_crit.2
+libnvme-1.15/doc/man/nvme_smart_egcw.2
+libnvme-1.15/doc/man/nvme_smart_log.2
+libnvme-1.15/doc/man/nvme_st_code.2
+libnvme-1.15/doc/man/nvme_st_curr_op.2
+libnvme-1.15/doc/man/nvme_st_result.2
+libnvme-1.15/doc/man/nvme_st_valid_diag_info.2
+libnvme-1.15/doc/man/nvme_status_code.2
+libnvme-1.15/doc/man/nvme_status_code_type.2
+libnvme-1.15/doc/man/nvme_status_equals.2
+libnvme-1.15/doc/man/nvme_status_field.2
+libnvme-1.15/doc/man/nvme_status_get_type.2
+libnvme-1.15/doc/man/nvme_status_get_value.2
+libnvme-1.15/doc/man/nvme_status_result.2
+libnvme-1.15/doc/man/nvme_status_to_errno.2
+libnvme-1.15/doc/man/nvme_status_to_string.2
+libnvme-1.15/doc/man/nvme_status_type.2
+libnvme-1.15/doc/man/nvme_std_perf_attr.2
+libnvme-1.15/doc/man/nvme_streams_directive_params.2
+libnvme-1.15/doc/man/nvme_streams_directive_status.2
+libnvme-1.15/doc/man/nvme_submit_admin_passthru.2
+libnvme-1.15/doc/man/nvme_submit_admin_passthru64.2
+libnvme-1.15/doc/man/nvme_submit_io_passthru.2
+libnvme-1.15/doc/man/nvme_submit_io_passthru64.2
+libnvme-1.15/doc/man/nvme_subsys_filter.2
+libnvme-1.15/doc/man/nvme_subsys_type.2
+libnvme-1.15/doc/man/nvme_subsystem_first_ctrl.2
+libnvme-1.15/doc/man/nvme_subsystem_first_ns.2
+libnvme-1.15/doc/man/nvme_subsystem_for_each_ctrl.2
+libnvme-1.15/doc/man/nvme_subsystem_for_each_ctrl_safe.2
+libnvme-1.15/doc/man/nvme_subsystem_for_each_ns.2
+libnvme-1.15/doc/man/nvme_subsystem_for_each_ns_safe.2
+libnvme-1.15/doc/man/nvme_subsystem_get_application.2
+libnvme-1.15/doc/man/nvme_subsystem_get_fw_rev.2
+libnvme-1.15/doc/man/nvme_subsystem_get_host.2
+libnvme-1.15/doc/man/nvme_subsystem_get_iopolicy.2
+libnvme-1.15/doc/man/nvme_subsystem_get_model.2
+libnvme-1.15/doc/man/nvme_subsystem_get_name.2
+libnvme-1.15/doc/man/nvme_subsystem_get_nqn.2
+libnvme-1.15/doc/man/nvme_subsystem_get_serial.2
+libnvme-1.15/doc/man/nvme_subsystem_get_sysfs_dir.2
+libnvme-1.15/doc/man/nvme_subsystem_get_type.2
+libnvme-1.15/doc/man/nvme_subsystem_lookup_namespace.2
+libnvme-1.15/doc/man/nvme_subsystem_next_ctrl.2
+libnvme-1.15/doc/man/nvme_subsystem_next_ns.2
+libnvme-1.15/doc/man/nvme_subsystem_release_fds.2
+libnvme-1.15/doc/man/nvme_subsystem_reset.2
+libnvme-1.15/doc/man/nvme_subsystem_set_application.2
+libnvme-1.15/doc/man/nvme_supported_cap_config_list_log.2
+libnvme-1.15/doc/man/nvme_supported_log_pages.2
+libnvme-1.15/doc/man/nvme_telemetry_da.2
+libnvme-1.15/doc/man/nvme_telemetry_log.2
+libnvme-1.15/doc/man/nvme_thermal_exc_event.2
+libnvme-1.15/doc/man/nvme_time_stamp_change_event.2
+libnvme-1.15/doc/man/nvme_timestamp.2
+libnvme-1.15/doc/man/nvme_unit.2
+libnvme-1.15/doc/man/nvme_unlink_ctrl.2
+libnvme-1.15/doc/man/nvme_update_config.2
+libnvme-1.15/doc/man/nvme_update_key.2
+libnvme-1.15/doc/man/nvme_uring_cmd.2
+libnvme-1.15/doc/man/nvme_verify.2
+libnvme-1.15/doc/man/nvme_version.2
+libnvme-1.15/doc/man/nvme_virt_mgmt_act.2
+libnvme-1.15/doc/man/nvme_virt_mgmt_rt.2
+libnvme-1.15/doc/man/nvme_virtual_mgmt.2
+libnvme-1.15/doc/man/nvme_vs.2
+libnvme-1.15/doc/man/nvme_vs_perf_attr.2
+libnvme-1.15/doc/man/nvme_write.2
+libnvme-1.15/doc/man/nvme_write_uncorrectable.2
+libnvme-1.15/doc/man/nvme_write_zeros.2
+libnvme-1.15/doc/man/nvme_zns_append.2
+libnvme-1.15/doc/man/nvme_zns_changed_zone_log.2
+libnvme-1.15/doc/man/nvme_zns_desc.2
+libnvme-1.15/doc/man/nvme_zns_id_ctrl.2
+libnvme-1.15/doc/man/nvme_zns_id_ns.2
+libnvme-1.15/doc/man/nvme_zns_identify_ctrl.2
+libnvme-1.15/doc/man/nvme_zns_identify_ns.2
+libnvme-1.15/doc/man/nvme_zns_lbafe.2
+libnvme-1.15/doc/man/nvme_zns_mgmt_recv.2
+libnvme-1.15/doc/man/nvme_zns_mgmt_send.2
+libnvme-1.15/doc/man/nvme_zns_recv_action.2
+libnvme-1.15/doc/man/nvme_zns_report_options.2
+libnvme-1.15/doc/man/nvme_zns_report_zones.2
+libnvme-1.15/doc/man/nvme_zns_send_action.2
+libnvme-1.15/doc/man/nvme_zns_za.2
+libnvme-1.15/doc/man/nvme_zns_zs.2
+libnvme-1.15/doc/man/nvme_zns_zt.2
+libnvme-1.15/doc/man/nvme_zone_report.2
+libnvme-1.15/doc/man/nvmf_add_ctrl.2
+libnvme-1.15/doc/man/nvmf_addr_family.2
+libnvme-1.15/doc/man/nvmf_adrfam_str.2
+libnvme-1.15/doc/man/nvmf_cms_str.2
+libnvme-1.15/doc/man/nvmf_connect_ctrl.2
+libnvme-1.15/doc/man/nvmf_connect_data.2
+libnvme-1.15/doc/man/nvmf_connect_disc_entry.2
+libnvme-1.15/doc/man/nvmf_default_config.2
+libnvme-1.15/doc/man/nvmf_dim_data.2
+libnvme-1.15/doc/man/nvmf_dim_entfmt.2
+libnvme-1.15/doc/man/nvmf_dim_etype.2
+libnvme-1.15/doc/man/nvmf_dim_tas.2
+libnvme-1.15/doc/man/nvmf_disc_eflags.2
+libnvme-1.15/doc/man/nvmf_disc_log_entry.2
+libnvme-1.15/doc/man/nvmf_discovery_log.2
+libnvme-1.15/doc/man/nvmf_eflags_str.2
+libnvme-1.15/doc/man/nvmf_exat_len.2
+libnvme-1.15/doc/man/nvmf_exattype.2
+libnvme-1.15/doc/man/nvmf_ext_attr.2
+libnvme-1.15/doc/man/nvmf_ext_die.2
+libnvme-1.15/doc/man/nvmf_get_discovery_log.2
+libnvme-1.15/doc/man/nvmf_get_discovery_wargs.2
+libnvme-1.15/doc/man/nvmf_hostid_from_file.2
+libnvme-1.15/doc/man/nvmf_hostid_generate.2
+libnvme-1.15/doc/man/nvmf_hostnqn_from_file.2
+libnvme-1.15/doc/man/nvmf_hostnqn_generate.2
+libnvme-1.15/doc/man/nvmf_hostnqn_generate_from_hostid.2
+libnvme-1.15/doc/man/nvmf_log_discovery_lid_support.2
+libnvme-1.15/doc/man/nvmf_log_discovery_lsp.2
+libnvme-1.15/doc/man/nvmf_prtype_str.2
+libnvme-1.15/doc/man/nvmf_qptype_str.2
+libnvme-1.15/doc/man/nvmf_rdma_cms.2
+libnvme-1.15/doc/man/nvmf_rdma_prtype.2
+libnvme-1.15/doc/man/nvmf_rdma_qptype.2
+libnvme-1.15/doc/man/nvmf_register_ctrl.2
+libnvme-1.15/doc/man/nvmf_sectype_str.2
+libnvme-1.15/doc/man/nvmf_subtype_str.2
+libnvme-1.15/doc/man/nvmf_tcp_sectype.2
+libnvme-1.15/doc/man/nvmf_treq.2
+libnvme-1.15/doc/man/nvmf_treq_str.2
+libnvme-1.15/doc/man/nvmf_trtype.2
+libnvme-1.15/doc/man/nvmf_trtype_str.2
+libnvme-1.15/doc/man/nvmf_update_config.2
+libnvme-1.15/doc/meson.build
+libnvme-1.15/doc/mi.rst.in
+libnvme-1.15/doc/quickstart.rst.in
+libnvme-1.15/doc/rst/
+libnvme-1.15/doc/rst/fabrics.rst
+libnvme-1.15/doc/rst/filters.rst
+libnvme-1.15/doc/rst/ioctl.rst
+libnvme-1.15/doc/rst/linux.rst
+libnvme-1.15/doc/rst/log.rst
+libnvme-1.15/doc/rst/meson.build
+libnvme-1.15/doc/rst/mi.rst
+libnvme-1.15/doc/rst/nbft.rst
+libnvme-1.15/doc/rst/tree.rst
+libnvme-1.15/doc/rst/types.rst
+libnvme-1.15/doc/rst/util.rst
+libnvme-1.15/examples/
+libnvme-1.15/examples/discover-loop.c
+libnvme-1.15/examples/discover-loop.py
+libnvme-1.15/examples/display-columnar.c
+libnvme-1.15/examples/display-tree.c
+libnvme-1.15/examples/meson.build
+libnvme-1.15/examples/mi-conf.c
+libnvme-1.15/examples/mi-mctp-ae.c
+libnvme-1.15/examples/mi-mctp-csi-test.c
+libnvme-1.15/examples/mi-mctp.c
+libnvme-1.15/examples/telemetry-listen.c
+libnvme-1.15/internal/
+libnvme-1.15/internal/meson.build
+libnvme-1.15/libnvme.spec.in
+libnvme-1.15/libnvme/
+libnvme-1.15/libnvme/.gitignore
+libnvme-1.15/libnvme/README.md
+libnvme-1.15/libnvme/__init__.py
+libnvme-1.15/libnvme/meson.build
+libnvme-1.15/libnvme/nvme.i
+libnvme-1.15/libnvme/tests/
+libnvme-1.15/libnvme/tests/NBFT
+libnvme-1.15/libnvme/tests/create-ctrl-obj.py
+libnvme-1.15/libnvme/tests/gc.py
+libnvme-1.15/libnvme/tests/test-nbft.py
+libnvme-1.15/meson.build
+libnvme-1.15/meson_options.txt
+libnvme-1.15/pyproject.toml
+libnvme-1.15/scripts/
+libnvme-1.15/scripts/build.sh
+libnvme-1.15/scripts/collect-sysfs.sh
+libnvme-1.15/scripts/kernel-doc
+libnvme-1.15/scripts/kernel-doc-check
+libnvme-1.15/scripts/list-man-pages.sh
+libnvme-1.15/scripts/list-pre-compiled.sh
+libnvme-1.15/scripts/meson-vcs-tag.sh
+libnvme-1.15/scripts/release.sh
+libnvme-1.15/scripts/update-docs.sh
+libnvme-1.15/src/
+libnvme-1.15/src/libnvme-mi.h
+libnvme-1.15/src/libnvme-mi.map
+libnvme-1.15/src/libnvme.h
+libnvme-1.15/src/libnvme.map
+libnvme-1.15/src/meson.build
+libnvme-1.15/src/nvme/
+libnvme-1.15/src/nvme/api-types.h
+libnvme-1.15/src/nvme/base64.c
+libnvme-1.15/src/nvme/base64.h
+libnvme-1.15/src/nvme/cleanup.h
+libnvme-1.15/src/nvme/crc32.c
+libnvme-1.15/src/nvme/crc32.h
+libnvme-1.15/src/nvme/fabrics.c
+libnvme-1.15/src/nvme/fabrics.h
+libnvme-1.15/src/nvme/filters.c
+libnvme-1.15/src/nvme/filters.h
+libnvme-1.15/src/nvme/ioctl.c
+libnvme-1.15/src/nvme/ioctl.h
+libnvme-1.15/src/nvme/json.c
+libnvme-1.15/src/nvme/linux.c
+libnvme-1.15/src/nvme/linux.h
+libnvme-1.15/src/nvme/log.c
+libnvme-1.15/src/nvme/log.h
+libnvme-1.15/src/nvme/mi-mctp.c
+libnvme-1.15/src/nvme/mi.c
+libnvme-1.15/src/nvme/mi.h
+libnvme-1.15/src/nvme/nbft.c
+libnvme-1.15/src/nvme/nbft.h
+libnvme-1.15/src/nvme/no-json.c
+libnvme-1.15/src/nvme/private.h
+libnvme-1.15/src/nvme/sysfs.c
+libnvme-1.15/src/nvme/tree.c
+libnvme-1.15/src/nvme/tree.h
+libnvme-1.15/src/nvme/types.h
+libnvme-1.15/src/nvme/util.c
+libnvme-1.15/src/nvme/util.h
+libnvme-1.15/subprojects/
+libnvme-1.15/subprojects/dbus.wrap
+libnvme-1.15/subprojects/json-c.wrap
+libnvme-1.15/subprojects/openssl.wrap
+libnvme-1.15/test/
+libnvme-1.15/test/config/
+libnvme-1.15/test/config/config-diff.sh
+libnvme-1.15/test/config/config-dump.c
+libnvme-1.15/test/config/data/
+libnvme-1.15/test/config/data/config-pcie-with-tcp-config.json
+libnvme-1.15/test/config/data/config-pcie-with-tcp-config.out
+libnvme-1.15/test/config/data/config-pcie-with-tcp-config.tar.xz
+libnvme-1.15/test/config/data/config-pcie.json
+libnvme-1.15/test/config/data/config-pcie.out
+libnvme-1.15/test/config/data/config-pcie.tar.xz
+libnvme-1.15/test/config/data/hostnqn-order.json
+libnvme-1.15/test/config/data/hostnqn-order.out
+libnvme-1.15/test/config/data/hostnqn-order.tar.xz
+libnvme-1.15/test/config/data/tls_key-1.json
+libnvme-1.15/test/config/data/tls_key-1.out
+libnvme-1.15/test/config/data/tls_key-2.json
+libnvme-1.15/test/config/data/tls_key-2.out
+libnvme-1.15/test/config/hostnqn-order.c
+libnvme-1.15/test/config/meson.build
+libnvme-1.15/test/config/psk-json.c
+libnvme-1.15/test/cpp.cc
+libnvme-1.15/test/ioctl/
+libnvme-1.15/test/ioctl/ana.c
+libnvme-1.15/test/ioctl/discovery.c
+libnvme-1.15/test/ioctl/features.c
+libnvme-1.15/test/ioctl/identify.c
+libnvme-1.15/test/ioctl/logs.c
+libnvme-1.15/test/ioctl/meson.build
+libnvme-1.15/test/ioctl/misc.c
+libnvme-1.15/test/ioctl/mock.c
+libnvme-1.15/test/ioctl/mock.h
+libnvme-1.15/test/ioctl/util.c
+libnvme-1.15/test/ioctl/util.h
+libnvme-1.15/test/ioctl/zns.c
+libnvme-1.15/test/meson.build
+libnvme-1.15/test/mi-mctp.c
+libnvme-1.15/test/mi.c
+libnvme-1.15/test/misc.cc
+libnvme-1.15/test/mock-ifaddrs.c
+libnvme-1.15/test/nbft/
+libnvme-1.15/test/nbft/README
+libnvme-1.15/test/nbft/diffs/
+libnvme-1.15/test/nbft/diffs/NBFT-Dell.PowerEdge.R660-fw1.5.5-mpath+discovery
+libnvme-1.15/test/nbft/diffs/NBFT-Dell.PowerEdge.R660-fw1.5.5-single
+libnvme-1.15/test/nbft/diffs/NBFT-Dell.PowerEdge.R760
+libnvme-1.15/test/nbft/diffs/NBFT-auto-ipv6
+libnvme-1.15/test/nbft/diffs/NBFT-dhcp-ipv4
+libnvme-1.15/test/nbft/diffs/NBFT-dhcp-ipv6
+libnvme-1.15/test/nbft/diffs/NBFT-empty
+libnvme-1.15/test/nbft/diffs/NBFT-ipv6-noip+disc
+libnvme-1.15/test/nbft/diffs/NBFT-mpath+disc-ipv4+6_half
+libnvme-1.15/test/nbft/diffs/NBFT-rhpoc
+libnvme-1.15/test/nbft/diffs/NBFT-static-ipv4
+libnvme-1.15/test/nbft/diffs/NBFT-static-ipv4-discovery
+libnvme-1.15/test/nbft/diffs/NBFT-static-ipv6
+libnvme-1.15/test/nbft/gen-nbft-diffs.sh.in
+libnvme-1.15/test/nbft/meson.build
+libnvme-1.15/test/nbft/nbft-dump-diff.sh.in
+libnvme-1.15/test/nbft/nbft-dump.c
+libnvme-1.15/test/nbft/tables/
+libnvme-1.15/test/nbft/tables/NBFT-Dell.PowerEdge.R660-fw1.5.5-mpath+discovery
+libnvme-1.15/test/nbft/tables/NBFT-Dell.PowerEdge.R660-fw1.5.5-single
+libnvme-1.15/test/nbft/tables/NBFT-Dell.PowerEdge.R760
+libnvme-1.15/test/nbft/tables/NBFT-auto-ipv6
+libnvme-1.15/test/nbft/tables/NBFT-dhcp-ipv4
+libnvme-1.15/test/nbft/tables/NBFT-dhcp-ipv6
+libnvme-1.15/test/nbft/tables/NBFT-empty
+libnvme-1.15/test/nbft/tables/NBFT-ipv6-noip+disc
+libnvme-1.15/test/nbft/tables/NBFT-mpath+disc-ipv4+6_half
+libnvme-1.15/test/nbft/tables/NBFT-rhpoc
+libnvme-1.15/test/nbft/tables/NBFT-static-ipv4
+libnvme-1.15/test/nbft/tables/NBFT-static-ipv4-discovery
+libnvme-1.15/test/nbft/tables/NBFT-static-ipv6
+libnvme-1.15/test/nbft/tables_bad/
+libnvme-1.15/test/nbft/tables_bad/NBFT-bad-oldspec
+libnvme-1.15/test/nbft/tables_bad/NBFT-random-noise
+libnvme-1.15/test/psk.c
+libnvme-1.15/test/register.c
+libnvme-1.15/test/sysfs/
+libnvme-1.15/test/sysfs/data/
+libnvme-1.15/test/sysfs/data/tree-pcie.out
+libnvme-1.15/test/sysfs/data/tree-pcie.tar.xz
+libnvme-1.15/test/sysfs/meson.build
+libnvme-1.15/test/sysfs/tree-diff.sh
+libnvme-1.15/test/sysfs/tree-dump.c
+libnvme-1.15/test/test-util.c
+libnvme-1.15/test/test.c
+libnvme-1.15/test/tree.c
+libnvme-1.15/test/tree.py
+libnvme-1.15/test/uriparser.c
+libnvme-1.15/test/utils.c
+libnvme-1.15/test/utils.h
+libnvme-1.15/test/uuid.c
+libnvme-1.15/test/zns.c
+The Meson build system
+Version: 1.7.0
+Source dir: /blfs/builds/libnvme-1.15
+Build dir: /blfs/builds/libnvme-1.15/build
+Build type: native build
+Project name: libnvme
+Project version: 1.15
+C compiler for the host machine: cc (gcc 14.2.0 "cc (GCC) 14.2.0")
+C linker for the host machine: cc ld.bfd 2.44
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+C++ compiler for the host machine: c++ (gcc 14.2.0 "c++ (GCC) 14.2.0")
+C++ linker for the host machine: c++ ld.bfd 2.44
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Run-time dependency json-c found: YES 0.18
+Run-time dependency openssl found: YES 3.5.1
+Header "openssl/opensslv.h" has symbol "LIBRESSL_VERSION_NUMBER" with dependency openssl: NO 
+Has header "openssl/core_names.h" with dependency openssl: YES 
+Run-time dependency libkeyutils found: YES 1.6.3
+Run-time dependency dbus-1 found: YES 1.16.2
+Checking if "__builtin_type_compatible_p" compiles: YES 
+Checking if "typeof" compiles: YES 
+Checking if "byteswap.h" compiles: YES 
+Checking if "bswap64" links: YES 
+Checking if "statement-expr" compiles: YES 
+Checking if "isblank" links: YES 
+Checking if "linux/mctp.h" compiles: YES 
+Checking if "netdb" links: YES 
+Run-time dependency threads found: YES
+Run-time dependency dl found: YES
+Checking for function "dlsym" with dependency dl: YES 
+Compiler for C supports function attribute fallthrough: YES 
+Configuring libnvme.spec using configuration
+Configuring config.h using configuration
+Program python3 found: YES (/usr/bin/python3)
+Run-time dependency python found: YES 3.13
+Program swig found: YES (/usr/bin/swig)
+Has header "Python.h" with dependency python-3.13: YES 
+Configuring __init__.py using configuration
+Checking if "ioctl has glibc-style prototype" compiles: YES 
+Configuring nbft-dump-diff.sh using configuration
+Configuring gen-nbft-diffs.sh using configuration
+Program diff found: YES (/usr/bin/diff)
+Program diff found: YES (/usr/bin/diff)
+Program tree-diff.sh found: YES (/bin/bash -e /blfs/builds/libnvme-1.15/test/sysfs/tree-diff.sh)
+Program diff found: YES (/usr/bin/diff)
+Program config-diff.sh found: YES (/blfs/builds/libnvme-1.15/test/config/config-diff.sh)
+Configuring conf.py using configuration
+Configuring api.rst using configuration
+Configuring index.rst using configuration
+Configuring quickstart.rst using configuration
+Configuring installation.rst using configuration
+Configuring mi.rst using configuration
+Configuring config-schema.json using configuration
+Program /blfs/builds/libnvme-1.15/doc/../scripts/kernel-doc found: YES (/blfs/builds/libnvme-1.15/doc/../scripts/kernel-doc)
+Program /blfs/builds/libnvme-1.15/doc/../scripts/kernel-doc-check found: YES (/blfs/builds/libnvme-1.15/doc/../scripts/kernel-doc-check)
+Build targets in project: 41
+
+libnvme 1.15
+
+  Paths
+    prefixdir     : /usr
+    sysconfdir    : /usr/etc
+    bindir        : /usr/bin
+    includedir    : /usr/include
+    datadir       : /usr/share
+    mandir        : /usr/share/man
+    libdir        : /usr/lib
+    build location: /blfs/builds/libnvme-1.15/build
+
+  Dependencies
+    json-c        : true
+    OpenSSL       : true
+    keyutitls     : true
+    libdbus       : true
+    Python 3      : true
+    liburing      : false
+
+  Configuration
+    git version   : "1.15"
+
+  User defined options
+    buildtype     : release
+    libdbus       : auto
+    prefix        : /usr
+
+Found ninja-1.13.1 at /usr/bin/ninja
+[1/104] Compiling C object ccan/libccan.a.p/ccan_str_debug.c.o
+[2/104] Compiling C object src/libnvme.so.1.15.0.p/nvme_crc32.c.o
+[3/104] Compiling C object ccan/libccan.a.p/ccan_str_str.c.o
+[4/104] Compiling C object ccan/libccan.a.p/ccan_list_list.c.o
+[5/104] Linking static target ccan/libccan.a
+[6/104] Compiling C object src/libnvme.so.1.15.0.p/nvme_base64.c.o
+[7/104] Compiling C object test/libmock-ifaddrs.so.p/mock-ifaddrs.c.o
+[8/104] Compiling C object test/ioctl/libmock-ioctl.so.p/util.c.o
+[9/104] Compiling C object src/libnvme.so.1.15.0.p/nvme_sysfs.c.o
+[10/104] Linking target test/libmock-ifaddrs.so
+[11/104] Compiling C object src/libnvme.so.1.15.0.p/nvme_filters.c.o
+[12/104] Compiling C object src/libnvme.so.1.15.0.p/nvme_log.c.o
+[13/104] Compiling C object src/libnvme-mi.so.1.15.0.p/nvme_log.c.o
+[14/104] Compiling C object src/libnvme-mi-test.so.p/nvme_log.c.o
+[15/104] Compiling C object test/ioctl/libmock-ioctl.so.p/mock.c.o
+[16/104] Compiling C object test/test-mi-mctp.p/utils.c.o
+[17/104] Linking target test/ioctl/libmock-ioctl.so
+[18/104] Compiling C object test/test-mi.p/utils.c.o
+[19/104] Compiling C object test/test-zns.p/zns.c.o
+[20/104] Compiling C object test/test-register.p/register.c.o
+[21/104] Compiling C object src/libnvme-mi.so.1.15.0.p/nvme_mi-mctp.c.o
+[22/104] Compiling C object test/test-uuid.p/uuid.c.o
+[23/104] Compiling C object src/libnvme-mi-test.so.p/nvme_mi-mctp.c.o
+[24/104] Compiling C object src/libnvme.so.1.15.0.p/nvme_json.c.o
+[25/104] Compiling C++ object test/test-misc.p/misc.cc.o
+[26/104] Compiling C object src/libnvme.so.1.15.0.p/nvme_util.c.o
+[27/104] Compiling C object test/main-test.p/test.c.o
+[28/104] Compiling C object src/libnvme.so.1.15.0.p/nvme_nbft.c.o
+[29/104] Compiling C object test/test-uriparser.p/uriparser.c.o
+[30/104] Generating symbol file test/libmock-ifaddrs.so.p/libmock-ifaddrs.so.symbols
+[31/104] Generating symbol file test/ioctl/libmock-ioctl.so.p/libmock-ioctl.so.symbols
+[32/104] Compiling C object test/ioctl/test-zns.p/zns.c.o
+[33/104] Compiling C object src/libnvme.so.1.15.0.p/nvme_linux.c.o
+[34/104] Compiling C object test/test-psk.p/psk.c.o
+[35/104] Compiling C object test/ioctl/test-ana.p/ana.c.o
+[36/104] Compiling C object test/ioctl/test-discovery.p/discovery.c.o
+[37/104] Compiling C object test/nbft/nbft-dump.p/nbft-dump.c.o
+[38/104] Compiling C object test/sysfs/test-tree-dump.p/tree-dump.c.o
+[39/104] Compiling C object test/config/test-config-dump.p/config-dump.c.o
+[40/104] Compiling C object test/ioctl/test-identify.p/identify.c.o
+[41/104] Compiling C object test/config/test-psk-json.p/psk-json.c.o
+[42/104] Compiling C object test/test-mi-mctp.p/mi-mctp.c.o
+[43/104] Compiling C object test/config/test-hostnqn-order.p/hostnqn-order.c.o
+[44/104] Compiling C object examples/telemetry-listen.p/telemetry-listen.c.o
+[45/104] Compiling C object examples/display-tree.p/display-tree.c.o
+[46/104] Compiling C object examples/discover-loop.p/discover-loop.c.o
+[47/104] Compiling C object src/libnvme.so.1.15.0.p/nvme_fabrics.c.o
+[48/104] Compiling C object examples/display-columnar.p/display-columnar.c.o
+[49/104] Compiling C object test/test-util.p/test-util.c.o
+[50/104] Compiling C object src/libnvme-mi.so.1.15.0.p/nvme_mi.c.o
+[51/104] Compiling C++ object test/test-cpp.p/cpp.cc.o
+[52/104] Compiling C object examples/mi-mctp-ae.p/mi-mctp-ae.c.o
+[53/104] Linking target test/test-util
+[54/104] Compiling C object examples/mi-conf.p/mi-conf.c.o
+[55/104] Linking target src/libnvme-mi.so.1.15.0
+[56/104] Compiling C object examples/mi-mctp-csi-test.p/mi-mctp-csi-test.c.o
+[57/104] Compiling C object test/tree.p/tree.c.o
+[58/104] Compiling C object src/libnvme.so.1.15.0.p/nvme_ioctl.c.o
+[59/104] Compiling C object test/ioctl/test-features.p/features.c.o
+[60/104] Compiling C object test/ioctl/test-logs.p/logs.c.o
+[61/104] Compiling C object test/test-mi.p/mi.c.o
+[62/104] Generating symbol file src/libnvme-mi.so.1.15.0.p/libnvme-mi.so.1.15.0.symbols
+[63/104] Compiling C object test/ioctl/test-misc.p/misc.c.o
+[64/104] Generating libnvme/nvme.py with a custom command
+[65/104] Linking target examples/mi-mctp-csi-test
+[66/104] Linking target examples/mi-mctp-ae
+[67/104] Linking target examples/mi-conf
+[68/104] Compiling C object src/libnvme-mi-test.so.p/nvme_mi.c.o
+[69/104] Linking target src/libnvme-mi-test.so
+[70/104] Compiling C object examples/mi-mctp.p/mi-mctp.c.o
+[71/104] Compiling C object src/libnvme.so.1.15.0.p/nvme_tree.c.o
+[72/104] Linking target examples/mi-mctp
+[73/104] Linking target src/libnvme.so.1.15.0
+[74/104] Generating symbol file src/libnvme-mi-test.so.p/libnvme-mi-test.so.symbols
+[75/104] Linking target test/test-mi-mctp
+[76/104] Linking target test/test-mi
+[77/104] Generating symbol file src/libnvme.so.1.15.0.p/libnvme.so.1.15.0.symbols
+[78/104] Linking target test/test-register
+[79/104] Linking target test/test-misc
+[80/104] Linking target test/test-zns
+[81/104] Linking target test/test-uriparser
+[82/104] Linking target test/config/test-config-dump
+[83/104] Linking target test/main-test
+[84/104] Linking target test/ioctl/test-identify
+[85/104] Linking target test/test-uuid
+[86/104] Linking target test/ioctl/test-misc
+[87/104] Linking target test/ioctl/test-features
+[88/104] Linking target test/ioctl/test-zns
+[89/104] Linking target test/config/test-hostnqn-order
+[90/104] Linking target test/tree
+[91/104] Linking target test/nbft/nbft-dump
+[92/104] Linking target test/test-psk
+[93/104] Linking target test/ioctl/test-discovery
+[94/104] Linking target examples/telemetry-listen
+[95/104] Linking target test/ioctl/test-logs
+[96/104] Linking target test/sysfs/test-tree-dump
+[97/104] Linking target examples/display-columnar
+[98/104] Linking target test/ioctl/test-ana
+[99/104] Linking target test/config/test-psk-json
+[100/104] Linking target examples/discover-loop
+[101/104] Linking target examples/display-tree
+[102/104] Linking target test/test-cpp
+[103/104] Compiling C object libnvme/_nvme.cpython-313-x86_64-linux-gnu.so.p/meson-generated_.._nvme_wrap.c.o
+[104/104] Linking target libnvme/_nvme.cpython-313-x86_64-linux-gnu.so
+[0/1] Installing files
+Compiling '/pkgs/libnvme/usr/lib/python3.13/site-packages/libnvme/nvme.py'...
+Compiling '/pkgs/libnvme/usr/lib/python3.13/site-packages/libnvme/__init__.py'...
+Installing src/libnvme.so.1.15.0 to /pkgs/libnvme/usr/lib
+Installing src/libnvme-mi.so.1.15.0 to /pkgs/libnvme/usr/lib
+Installing libnvme/nvme.py to /pkgs/libnvme/usr/lib/python3.13/site-packages/libnvme
+Installing libnvme/_nvme.cpython-313-x86_64-linux-gnu.so to /pkgs/libnvme/usr/lib/python3.13/site-packages/libnvme
+Installing /blfs/builds/libnvme-1.15/src/libnvme.h to /pkgs/libnvme/usr/include
+Installing /blfs/builds/libnvme-1.15/src/libnvme-mi.h to /pkgs/libnvme/usr/include
+Installing /blfs/builds/libnvme-1.15/src/nvme/api-types.h to /pkgs/libnvme/usr/include/nvme
+Installing /blfs/builds/libnvme-1.15/src/nvme/fabrics.h to /pkgs/libnvme/usr/include/nvme
+Installing /blfs/builds/libnvme-1.15/src/nvme/filters.h to /pkgs/libnvme/usr/include/nvme
+Installing /blfs/builds/libnvme-1.15/src/nvme/ioctl.h to /pkgs/libnvme/usr/include/nvme
+Installing /blfs/builds/libnvme-1.15/src/nvme/linux.h to /pkgs/libnvme/usr/include/nvme
+Installing /blfs/builds/libnvme-1.15/src/nvme/log.h to /pkgs/libnvme/usr/include/nvme
+Installing /blfs/builds/libnvme-1.15/src/nvme/nbft.h to /pkgs/libnvme/usr/include/nvme
+Installing /blfs/builds/libnvme-1.15/src/nvme/tree.h to /pkgs/libnvme/usr/include/nvme
+Installing /blfs/builds/libnvme-1.15/src/nvme/types.h to /pkgs/libnvme/usr/include/nvme
+Installing /blfs/builds/libnvme-1.15/src/nvme/util.h to /pkgs/libnvme/usr/include/nvme
+Installing /blfs/builds/libnvme-1.15/src/nvme/mi.h to /pkgs/libnvme/usr/include/nvme
+Installing /blfs/builds/libnvme-1.15/build/meson-private/libnvme.pc to /pkgs/libnvme/usr/lib/pkgconfig
+Installing /blfs/builds/libnvme-1.15/build/meson-private/libnvme-mi.pc to /pkgs/libnvme/usr/lib/pkgconfig
+Installing /blfs/builds/libnvme-1.15/build/libnvme/__init__.py to /pkgs/libnvme/usr/lib/python3.13/site-packages/libnvme
+Installing symlink pointing to libnvme.so.1.15.0 to /pkgs/libnvme/usr/lib/libnvme.so.1
+Installing symlink pointing to libnvme.so.1 to /pkgs/libnvme/usr/lib/libnvme.so
+Installing symlink pointing to libnvme-mi.so.1.15.0 to /pkgs/libnvme/usr/lib/libnvme-mi.so.1
+Installing symlink pointing to libnvme-mi.so.1 to /pkgs/libnvme/usr/lib/libnvme-mi.so
+Running custom install script '/usr/bin/python3 /blfs/builds/libnvme-1.15/build/meson-private/pycompile.py python-3.13-installed.json 0'
+[0/1] Installing files
+Compiling '/usr/lib/python3.13/site-packages/libnvme/nvme.py'...
+Compiling '/usr/lib/python3.13/site-packages/libnvme/__init__.py'...
+Installing src/libnvme.so.1.15.0 to /usr/lib
+Installing src/libnvme-mi.so.1.15.0 to /usr/lib
+Installing libnvme/nvme.py to /usr/lib/python3.13/site-packages/libnvme
+Installing libnvme/_nvme.cpython-313-x86_64-linux-gnu.so to /usr/lib/python3.13/site-packages/libnvme
+Installing /blfs/builds/libnvme-1.15/src/libnvme.h to /usr/include
+Installing /blfs/builds/libnvme-1.15/src/libnvme-mi.h to /usr/include
+Installing /blfs/builds/libnvme-1.15/src/nvme/api-types.h to /usr/include/nvme
+Installing /blfs/builds/libnvme-1.15/src/nvme/fabrics.h to /usr/include/nvme
+Installing /blfs/builds/libnvme-1.15/src/nvme/filters.h to /usr/include/nvme
+Installing /blfs/builds/libnvme-1.15/src/nvme/ioctl.h to /usr/include/nvme
+Installing /blfs/builds/libnvme-1.15/src/nvme/linux.h to /usr/include/nvme
+Installing /blfs/builds/libnvme-1.15/src/nvme/log.h to /usr/include/nvme
+Installing /blfs/builds/libnvme-1.15/src/nvme/nbft.h to /usr/include/nvme
+Installing /blfs/builds/libnvme-1.15/src/nvme/tree.h to /usr/include/nvme
+Installing /blfs/builds/libnvme-1.15/src/nvme/types.h to /usr/include/nvme
+Installing /blfs/builds/libnvme-1.15/src/nvme/util.h to /usr/include/nvme
+Installing /blfs/builds/libnvme-1.15/src/nvme/mi.h to /usr/include/nvme
+Installing /blfs/builds/libnvme-1.15/build/meson-private/libnvme.pc to /usr/lib/pkgconfig
+Installing /blfs/builds/libnvme-1.15/build/meson-private/libnvme-mi.pc to /usr/lib/pkgconfig
+Installing /blfs/builds/libnvme-1.15/build/libnvme/__init__.py to /usr/lib/python3.13/site-packages/libnvme
+Installing symlink pointing to libnvme.so.1.15.0 to /usr/lib/libnvme.so.1
+Installing symlink pointing to libnvme.so.1 to /usr/lib/libnvme.so
+Installing symlink pointing to libnvme-mi.so.1.15.0 to /usr/lib/libnvme-mi.so.1
+Installing symlink pointing to libnvme-mi.so.1 to /usr/lib/libnvme-mi.so
+Running custom install script '/usr/bin/python3 /blfs/builds/libnvme-1.15/build/meson-private/pycompile.py python-3.13-installed.json 0'
+libnvme/
+libnvme/usr/
+libnvme/usr/lib/
+libnvme/usr/lib/libnvme.so.1
+libnvme/usr/lib/libnvme.so
+libnvme/usr/lib/python3.13/
+libnvme/usr/lib/python3.13/site-packages/
+libnvme/usr/lib/python3.13/site-packages/libnvme/
+libnvme/usr/lib/python3.13/site-packages/libnvme/_nvme.cpython-313-x86_64-linux-gnu.so
+libnvme/usr/lib/python3.13/site-packages/libnvme/__init__.py
+libnvme/usr/lib/python3.13/site-packages/libnvme/nvme.py
+libnvme/usr/lib/python3.13/site-packages/libnvme/__pycache__/
+libnvme/usr/lib/python3.13/site-packages/libnvme/__pycache__/nvme.cpython-313.pyc
+libnvme/usr/lib/python3.13/site-packages/libnvme/__pycache__/__init__.cpython-313.pyc
+libnvme/usr/lib/pkgconfig/
+libnvme/usr/lib/pkgconfig/libnvme.pc
+libnvme/usr/lib/pkgconfig/libnvme-mi.pc
+libnvme/usr/lib/libnvme.so.1.15.0
+libnvme/usr/lib/libnvme-mi.so.1.15.0
+libnvme/usr/lib/libnvme-mi.so.1
+libnvme/usr/lib/libnvme-mi.so
+libnvme/usr/include/
+libnvme/usr/include/libnvme.h
+libnvme/usr/include/libnvme-mi.h
+libnvme/usr/include/nvme/
+libnvme/usr/include/nvme/ioctl.h
+libnvme/usr/include/nvme/nbft.h
+libnvme/usr/include/nvme/log.h
+libnvme/usr/include/nvme/filters.h
+libnvme/usr/include/nvme/tree.h
+libnvme/usr/include/nvme/linux.h
+libnvme/usr/include/nvme/mi.h
+libnvme/usr/include/nvme/util.h
+libnvme/usr/include/nvme/types.h
+libnvme/usr/include/nvme/api-types.h
+libnvme/usr/include/nvme/fabrics.h
+libnvme/version
+libnvme/depends
+libnvme/make-depends
