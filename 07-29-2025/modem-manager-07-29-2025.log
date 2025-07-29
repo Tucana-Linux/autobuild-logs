@@ -1,0 +1,2571 @@
+--2025-07-29 07:12:40--  https://gitlab.freedesktop.org/mobile-broadband/ModemManager/-/archive/1.24.2/ModemManager-1.24.2.tar.gz
+Resolving gitlab.freedesktop.org (gitlab.freedesktop.org)... 2a04:4e42:600::820, 2a04:4e42:400::820, 2a04:4e42:200::820, ...
+Connecting to gitlab.freedesktop.org (gitlab.freedesktop.org)|2a04:4e42:600::820|:443... connected.
+HTTP request sent, awaiting response... 200 
+Length: unspecified [application/octet-stream]
+Saving to: 'ModemManager-1.24.2.tar.gz'
+
+     0K .......... .......... .......... .......... ..........  242K
+    50K .......... .......... .......... .......... ..........  483K
+   100K .......... .......... .......... .......... .......... 33.5M
+   150K .......... .......... .......... .......... ..........  492K
+   200K .......... .......... .......... .......... .......... 32.2M
+   250K .......... .......... .......... .......... .......... 34.6M
+   300K .......... .......... .......... .......... .......... 12.1M
+   350K .......... .......... .......... .......... ..........  523K
+   400K .......... .......... .......... .......... .......... 17.5M
+   450K .......... .......... .......... .......... .......... 98.4M
+   500K .......... .......... .......... .......... ..........  103M
+   550K .......... .......... .......... .......... ..........  144M
+   600K .......... .......... .......... .......... .......... 90.6M
+   650K .......... .......... .......... .......... ..........  132M
+   700K .......... .......... .......... .......... ..........  101M
+   750K .......... .......... .......... .......... .......... 98.3M
+   800K .......... .......... .......... .......... ..........  509K
+   850K .......... .......... .......... .......... .......... 90.8M
+   900K .......... .......... .......... .......... .......... 25.7M
+   950K .......... .......... .......... .......... ..........  110M
+  1000K .......... .......... .......... .......... ..........  104M
+  1050K .......... .......... .......... .......... ..........  101M
+  1100K .......... .......... .......... .......... ..........  113M
+  1150K .......... .......... .......... .......... ..........  104M
+  1200K .......... .......... .......... .......... .......... 97.4M
+  1250K .......... .......... .......... .......... ..........  115M
+  1300K .......... .......... .......... .......... ..........  101M
+  1350K .......... .......... .......... .......... ..........  114M
+  1400K .......... .......... .......... .......... ..........  103M
+  1450K .......... .......... .......... .......... .......... 9.65M
+  1500K .......... .......... .......... .......... ..........  251M
+  1550K .......... .......... .......... .......... ..........  810M
+  1600K .......... .......... .......... .......... ..........  553K
+  1650K .......... .......... .......... .......... .......... 79.2M
+  1700K .......... .......... .......... .......... .......... 97.6M
+  1750K .......... .......... .......... .......... ..........  115M
+  1800K .......... .......... .......... .......... .......... 57.7M
+  1850K .......... .......... .......... .......... .......... 81.8M
+  1900K .......... .......... .......... .......... .......... 93.1M
+  1950K .......... .......... .......... .......... ..........  110M
+  2000K .......... .......... .......... .......... ..........  101M
+  2050K .......... .......... .                                 120M=0.7s
+
+2025-07-29 07:12:41 (2.78 MB/s) - 'ModemManager-1.24.2.tar.gz' saved [2120956]
+
+ModemManager-1.24.2/
+ModemManager-1.24.2/.editorconfig
+ModemManager-1.24.2/.gitignore
+ModemManager-1.24.2/.gitlab-ci.yml
+ModemManager-1.24.2/AUTHORS
+ModemManager-1.24.2/COPYING
+ModemManager-1.24.2/COPYING.LIB
+ModemManager-1.24.2/NEWS
+ModemManager-1.24.2/README.md
+ModemManager-1.24.2/RELEASING
+ModemManager-1.24.2/build-aux/
+ModemManager-1.24.2/build-aux/header-generator.xsl
+ModemManager-1.24.2/build-aux/mm-mkenums
+ModemManager-1.24.2/build-aux/templates/
+ModemManager-1.24.2/build-aux/templates/mm-daemon-enums-types.c.template
+ModemManager-1.24.2/build-aux/templates/mm-daemon-enums-types.h.template
+ModemManager-1.24.2/build-aux/templates/mm-enumflags-types.c.template
+ModemManager-1.24.2/build-aux/templates/mm-enumflags-types.h.template
+ModemManager-1.24.2/build-aux/templates/mm-enums-types.c.template
+ModemManager-1.24.2/build-aux/templates/mm-enums-types.h.template
+ModemManager-1.24.2/build-aux/templates/mm-errors-quarks.c.template
+ModemManager-1.24.2/build-aux/templates/mm-errors-types.c.template
+ModemManager-1.24.2/build-aux/templates/mm-errors-types.h.template
+ModemManager-1.24.2/build-aux/templates/mm-flags-types.c.template
+ModemManager-1.24.2/build-aux/templates/mm-flags-types.h.template
+ModemManager-1.24.2/build-aux/templates/mm-helper-enums-types.c.template
+ModemManager-1.24.2/build-aux/templates/mm-helper-enums-types.h.template
+ModemManager-1.24.2/build-aux/templates/mm-huawei-enums-types.c.template
+ModemManager-1.24.2/build-aux/templates/mm-huawei-enums-types.h.template
+ModemManager-1.24.2/build-aux/templates/mm-port-enums-types.c.template
+ModemManager-1.24.2/build-aux/templates/mm-port-enums-types.h.template
+ModemManager-1.24.2/build-aux/templates/mm-telit-enums-types.c.template
+ModemManager-1.24.2/build-aux/templates/mm-telit-enums-types.h.template
+ModemManager-1.24.2/build-aux/templates/mm-ublox-enums-types.c.template
+ModemManager-1.24.2/build-aux/templates/mm-ublox-enums-types.h.template
+ModemManager-1.24.2/cli/
+ModemManager-1.24.2/cli/meson.build
+ModemManager-1.24.2/cli/mmcli-bearer.c
+ModemManager-1.24.2/cli/mmcli-call.c
+ModemManager-1.24.2/cli/mmcli-cbm.c
+ModemManager-1.24.2/cli/mmcli-common.c
+ModemManager-1.24.2/cli/mmcli-common.h
+ModemManager-1.24.2/cli/mmcli-completion
+ModemManager-1.24.2/cli/mmcli-manager.c
+ModemManager-1.24.2/cli/mmcli-modem-3gpp-profile-manager.c
+ModemManager-1.24.2/cli/mmcli-modem-3gpp-ussd.c
+ModemManager-1.24.2/cli/mmcli-modem-3gpp.c
+ModemManager-1.24.2/cli/mmcli-modem-cdma.c
+ModemManager-1.24.2/cli/mmcli-modem-cell-broadcast.c
+ModemManager-1.24.2/cli/mmcli-modem-firmware.c
+ModemManager-1.24.2/cli/mmcli-modem-location.c
+ModemManager-1.24.2/cli/mmcli-modem-messaging.c
+ModemManager-1.24.2/cli/mmcli-modem-oma.c
+ModemManager-1.24.2/cli/mmcli-modem-sar.c
+ModemManager-1.24.2/cli/mmcli-modem-signal.c
+ModemManager-1.24.2/cli/mmcli-modem-simple.c
+ModemManager-1.24.2/cli/mmcli-modem-time.c
+ModemManager-1.24.2/cli/mmcli-modem-voice.c
+ModemManager-1.24.2/cli/mmcli-modem.c
+ModemManager-1.24.2/cli/mmcli-output.c
+ModemManager-1.24.2/cli/mmcli-output.h
+ModemManager-1.24.2/cli/mmcli-sim.c
+ModemManager-1.24.2/cli/mmcli-sms.c
+ModemManager-1.24.2/cli/mmcli.c
+ModemManager-1.24.2/cli/mmcli.h
+ModemManager-1.24.2/data/
+ModemManager-1.24.2/data/ModemManager-icon.svg
+ModemManager-1.24.2/data/ModemManager-interface-initialization-sequence-subclassed.dia
+ModemManager-1.24.2/data/ModemManager-interface-initialization-sequence-subclassed.png
+ModemManager-1.24.2/data/ModemManager-interface-initialization-sequence.dia
+ModemManager-1.24.2/data/ModemManager-interface-initialization-sequence.png
+ModemManager-1.24.2/data/ModemManager-logo-square.png
+ModemManager-1.24.2/data/ModemManager-logo-square.svg
+ModemManager-1.24.2/data/ModemManager-logo-wide-text.png
+ModemManager-1.24.2/data/ModemManager-logo-wide-text.svg
+ModemManager-1.24.2/data/ModemManager-logo-wide.png
+ModemManager-1.24.2/data/ModemManager-logo-wide.svg
+ModemManager-1.24.2/data/ModemManager-states.dia
+ModemManager-1.24.2/data/ModemManager-states.png
+ModemManager-1.24.2/data/ModemManager.pc.in
+ModemManager-1.24.2/data/ModemManager.png
+ModemManager-1.24.2/data/ModemManager.service.in
+ModemManager-1.24.2/data/dispatcher-connection/
+ModemManager-1.24.2/data/dispatcher-connection/99-log-event
+ModemManager-1.24.2/data/dispatcher-connection/meson.build
+ModemManager-1.24.2/data/dispatcher-fcc-unlock/
+ModemManager-1.24.2/data/dispatcher-fcc-unlock/105b
+ModemManager-1.24.2/data/dispatcher-fcc-unlock/1199
+ModemManager-1.24.2/data/dispatcher-fcc-unlock/14c3
+ModemManager-1.24.2/data/dispatcher-fcc-unlock/2c7c
+ModemManager-1.24.2/data/dispatcher-fcc-unlock/meson.build
+ModemManager-1.24.2/data/dispatcher-modem-setup/
+ModemManager-1.24.2/data/dispatcher-modem-setup/0000:0000
+ModemManager-1.24.2/data/dispatcher-modem-setup/meson.build
+ModemManager-1.24.2/data/its/
+ModemManager-1.24.2/data/its/polkit.its
+ModemManager-1.24.2/data/its/polkit.loc
+ModemManager-1.24.2/data/meson.build
+ModemManager-1.24.2/data/mm-glib.pc.in
+ModemManager-1.24.2/data/org.freedesktop.ModemManager1.conf.nopolkit
+ModemManager-1.24.2/data/org.freedesktop.ModemManager1.conf.polkit
+ModemManager-1.24.2/data/org.freedesktop.ModemManager1.policy.in.in
+ModemManager-1.24.2/data/org.freedesktop.ModemManager1.service.in
+ModemManager-1.24.2/data/tests/
+ModemManager-1.24.2/data/tests/meson.build
+ModemManager-1.24.2/data/tests/org.freedesktop.ModemManager1.service.in
+ModemManager-1.24.2/data/valgrind.suppressions
+ModemManager-1.24.2/docs/
+ModemManager-1.24.2/docs/man/
+ModemManager-1.24.2/docs/man/ModemManager.8
+ModemManager-1.24.2/docs/man/meson.build
+ModemManager-1.24.2/docs/man/mmcli.1
+ModemManager-1.24.2/docs/reference/
+ModemManager-1.24.2/docs/reference/api/
+ModemManager-1.24.2/docs/reference/api/ModemManager-dbus-reference.xml
+ModemManager-1.24.2/docs/reference/api/ModemManager-docs.xml
+ModemManager-1.24.2/docs/reference/api/ModemManager-migration-reference.xml
+ModemManager-1.24.2/docs/reference/api/ModemManager-overview.xml
+ModemManager-1.24.2/docs/reference/api/ModemManager-sections.txt
+ModemManager-1.24.2/docs/reference/api/ModemManager.types
+ModemManager-1.24.2/docs/reference/api/meson.build
+ModemManager-1.24.2/docs/reference/api/version.xml.in
+ModemManager-1.24.2/docs/reference/libmm-glib/
+ModemManager-1.24.2/docs/reference/libmm-glib/libmm-glib-docs.xml
+ModemManager-1.24.2/docs/reference/libmm-glib/libmm-glib-sections.txt
+ModemManager-1.24.2/docs/reference/libmm-glib/meson.build
+ModemManager-1.24.2/docs/reference/libmm-glib/version.xml.in
+ModemManager-1.24.2/examples/
+ModemManager-1.24.2/examples/modem-watcher-javascript/
+ModemManager-1.24.2/examples/modem-watcher-javascript/README
+ModemManager-1.24.2/examples/modem-watcher-javascript/main.js
+ModemManager-1.24.2/examples/modem-watcher-javascript/modem-watcher-javascript
+ModemManager-1.24.2/examples/modem-watcher-javascript/modemWatcher.js
+ModemManager-1.24.2/examples/modem-watcher-python/
+ModemManager-1.24.2/examples/modem-watcher-python/ModemWatcher.py
+ModemManager-1.24.2/examples/modem-watcher-python/README
+ModemManager-1.24.2/examples/modem-watcher-python/modem-watcher-python
+ModemManager-1.24.2/examples/network-scan-python/
+ModemManager-1.24.2/examples/network-scan-python/README
+ModemManager-1.24.2/examples/network-scan-python/network-scan-python
+ModemManager-1.24.2/examples/sms-c/
+ModemManager-1.24.2/examples/sms-c/meson.build
+ModemManager-1.24.2/examples/sms-c/sms-c-async.c
+ModemManager-1.24.2/examples/sms-c/sms-c-sync.c
+ModemManager-1.24.2/examples/sms-send-python/
+ModemManager-1.24.2/examples/sms-send-python/README
+ModemManager-1.24.2/examples/sms-send-python/sms-send-python
+ModemManager-1.24.2/examples/sms-watch-python/
+ModemManager-1.24.2/examples/sms-watch-python/README
+ModemManager-1.24.2/examples/sms-watch-python/sms-watch-python
+ModemManager-1.24.2/include/
+ModemManager-1.24.2/include/ModemManager-compat.h
+ModemManager-1.24.2/include/ModemManager-enums.h
+ModemManager-1.24.2/include/ModemManager-errors.h
+ModemManager-1.24.2/include/ModemManager-tags.h
+ModemManager-1.24.2/include/ModemManager-version.h.in
+ModemManager-1.24.2/include/ModemManager.h
+ModemManager-1.24.2/include/meson.build
+ModemManager-1.24.2/introspection/
+ModemManager-1.24.2/introspection/all.xml
+ModemManager-1.24.2/introspection/meson.build
+ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Bearer.xml
+ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Call.xml
+ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Cbm.xml
+ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.CellBroadcast.xml
+ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.Firmware.xml
+ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.Location.xml
+ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.Messaging.xml
+ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.Modem3gpp.ProfileManager.xml
+ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.Modem3gpp.Ussd.xml
+ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.Modem3gpp.xml
+ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.ModemCdma.xml
+ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.Oma.xml
+ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.Sar.xml
+ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.Signal.xml
+ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.Simple.xml
+ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.Time.xml
+ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.Voice.xml
+ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.xml
+ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Sim.xml
+ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Sms.xml
+ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.xml
+ModemManager-1.24.2/introspection/tests/
+ModemManager-1.24.2/introspection/tests/org.freedesktop.ModemManager1.Test.xml
+ModemManager-1.24.2/introspection/wip-org.freedesktop.ModemManager1.Modem.Contacts.xml
+ModemManager-1.24.2/libmm-glib/
+ModemManager-1.24.2/libmm-glib/generated/
+ModemManager-1.24.2/libmm-glib/generated/meson.build
+ModemManager-1.24.2/libmm-glib/generated/tests/
+ModemManager-1.24.2/libmm-glib/generated/tests/meson.build
+ModemManager-1.24.2/libmm-glib/libmm-glib.h
+ModemManager-1.24.2/libmm-glib/meson.build
+ModemManager-1.24.2/libmm-glib/mm-3gpp-profile.c
+ModemManager-1.24.2/libmm-glib/mm-3gpp-profile.h
+ModemManager-1.24.2/libmm-glib/mm-bearer-ip-config.c
+ModemManager-1.24.2/libmm-glib/mm-bearer-ip-config.h
+ModemManager-1.24.2/libmm-glib/mm-bearer-properties.c
+ModemManager-1.24.2/libmm-glib/mm-bearer-properties.h
+ModemManager-1.24.2/libmm-glib/mm-bearer-stats.c
+ModemManager-1.24.2/libmm-glib/mm-bearer-stats.h
+ModemManager-1.24.2/libmm-glib/mm-bearer.c
+ModemManager-1.24.2/libmm-glib/mm-bearer.h
+ModemManager-1.24.2/libmm-glib/mm-call-audio-format.c
+ModemManager-1.24.2/libmm-glib/mm-call-audio-format.h
+ModemManager-1.24.2/libmm-glib/mm-call-properties.c
+ModemManager-1.24.2/libmm-glib/mm-call-properties.h
+ModemManager-1.24.2/libmm-glib/mm-call.c
+ModemManager-1.24.2/libmm-glib/mm-call.h
+ModemManager-1.24.2/libmm-glib/mm-cbm.c
+ModemManager-1.24.2/libmm-glib/mm-cbm.h
+ModemManager-1.24.2/libmm-glib/mm-cdma-manual-activation-properties.c
+ModemManager-1.24.2/libmm-glib/mm-cdma-manual-activation-properties.h
+ModemManager-1.24.2/libmm-glib/mm-cell-info-cdma.c
+ModemManager-1.24.2/libmm-glib/mm-cell-info-cdma.h
+ModemManager-1.24.2/libmm-glib/mm-cell-info-gsm.c
+ModemManager-1.24.2/libmm-glib/mm-cell-info-gsm.h
+ModemManager-1.24.2/libmm-glib/mm-cell-info-lte.c
+ModemManager-1.24.2/libmm-glib/mm-cell-info-lte.h
+ModemManager-1.24.2/libmm-glib/mm-cell-info-nr5g.c
+ModemManager-1.24.2/libmm-glib/mm-cell-info-nr5g.h
+ModemManager-1.24.2/libmm-glib/mm-cell-info-tdscdma.c
+ModemManager-1.24.2/libmm-glib/mm-cell-info-tdscdma.h
+ModemManager-1.24.2/libmm-glib/mm-cell-info-umts.c
+ModemManager-1.24.2/libmm-glib/mm-cell-info-umts.h
+ModemManager-1.24.2/libmm-glib/mm-cell-info.c
+ModemManager-1.24.2/libmm-glib/mm-cell-info.h
+ModemManager-1.24.2/libmm-glib/mm-common-helpers.c
+ModemManager-1.24.2/libmm-glib/mm-common-helpers.h
+ModemManager-1.24.2/libmm-glib/mm-compat.c
+ModemManager-1.24.2/libmm-glib/mm-compat.h
+ModemManager-1.24.2/libmm-glib/mm-firmware-properties.c
+ModemManager-1.24.2/libmm-glib/mm-firmware-properties.h
+ModemManager-1.24.2/libmm-glib/mm-firmware-update-settings.c
+ModemManager-1.24.2/libmm-glib/mm-firmware-update-settings.h
+ModemManager-1.24.2/libmm-glib/mm-helper-types.c
+ModemManager-1.24.2/libmm-glib/mm-helper-types.h
+ModemManager-1.24.2/libmm-glib/mm-helpers.h
+ModemManager-1.24.2/libmm-glib/mm-kernel-event-properties.c
+ModemManager-1.24.2/libmm-glib/mm-kernel-event-properties.h
+ModemManager-1.24.2/libmm-glib/mm-location-3gpp.c
+ModemManager-1.24.2/libmm-glib/mm-location-3gpp.h
+ModemManager-1.24.2/libmm-glib/mm-location-cdma-bs.c
+ModemManager-1.24.2/libmm-glib/mm-location-cdma-bs.h
+ModemManager-1.24.2/libmm-glib/mm-location-common.h
+ModemManager-1.24.2/libmm-glib/mm-location-gps-nmea.c
+ModemManager-1.24.2/libmm-glib/mm-location-gps-nmea.h
+ModemManager-1.24.2/libmm-glib/mm-location-gps-raw.c
+ModemManager-1.24.2/libmm-glib/mm-location-gps-raw.h
+ModemManager-1.24.2/libmm-glib/mm-manager.c
+ModemManager-1.24.2/libmm-glib/mm-manager.h
+ModemManager-1.24.2/libmm-glib/mm-modem-3gpp-profile-manager.c
+ModemManager-1.24.2/libmm-glib/mm-modem-3gpp-profile-manager.h
+ModemManager-1.24.2/libmm-glib/mm-modem-3gpp-ussd.c
+ModemManager-1.24.2/libmm-glib/mm-modem-3gpp-ussd.h
+ModemManager-1.24.2/libmm-glib/mm-modem-3gpp.c
+ModemManager-1.24.2/libmm-glib/mm-modem-3gpp.h
+ModemManager-1.24.2/libmm-glib/mm-modem-cdma.c
+ModemManager-1.24.2/libmm-glib/mm-modem-cdma.h
+ModemManager-1.24.2/libmm-glib/mm-modem-cell-broadcast.c
+ModemManager-1.24.2/libmm-glib/mm-modem-cell-broadcast.h
+ModemManager-1.24.2/libmm-glib/mm-modem-firmware.c
+ModemManager-1.24.2/libmm-glib/mm-modem-firmware.h
+ModemManager-1.24.2/libmm-glib/mm-modem-location.c
+ModemManager-1.24.2/libmm-glib/mm-modem-location.h
+ModemManager-1.24.2/libmm-glib/mm-modem-messaging.c
+ModemManager-1.24.2/libmm-glib/mm-modem-messaging.h
+ModemManager-1.24.2/libmm-glib/mm-modem-oma.c
+ModemManager-1.24.2/libmm-glib/mm-modem-oma.h
+ModemManager-1.24.2/libmm-glib/mm-modem-sar.c
+ModemManager-1.24.2/libmm-glib/mm-modem-sar.h
+ModemManager-1.24.2/libmm-glib/mm-modem-signal.c
+ModemManager-1.24.2/libmm-glib/mm-modem-signal.h
+ModemManager-1.24.2/libmm-glib/mm-modem-simple.c
+ModemManager-1.24.2/libmm-glib/mm-modem-simple.h
+ModemManager-1.24.2/libmm-glib/mm-modem-time.c
+ModemManager-1.24.2/libmm-glib/mm-modem-time.h
+ModemManager-1.24.2/libmm-glib/mm-modem-voice.c
+ModemManager-1.24.2/libmm-glib/mm-modem-voice.h
+ModemManager-1.24.2/libmm-glib/mm-modem.c
+ModemManager-1.24.2/libmm-glib/mm-modem.h
+ModemManager-1.24.2/libmm-glib/mm-network-rejection.c
+ModemManager-1.24.2/libmm-glib/mm-network-rejection.h
+ModemManager-1.24.2/libmm-glib/mm-network-timezone.c
+ModemManager-1.24.2/libmm-glib/mm-network-timezone.h
+ModemManager-1.24.2/libmm-glib/mm-nr5g-registration-settings.c
+ModemManager-1.24.2/libmm-glib/mm-nr5g-registration-settings.h
+ModemManager-1.24.2/libmm-glib/mm-object.c
+ModemManager-1.24.2/libmm-glib/mm-object.h
+ModemManager-1.24.2/libmm-glib/mm-pco.c
+ModemManager-1.24.2/libmm-glib/mm-pco.h
+ModemManager-1.24.2/libmm-glib/mm-signal-threshold-properties.c
+ModemManager-1.24.2/libmm-glib/mm-signal-threshold-properties.h
+ModemManager-1.24.2/libmm-glib/mm-signal.c
+ModemManager-1.24.2/libmm-glib/mm-signal.h
+ModemManager-1.24.2/libmm-glib/mm-sim-preferred-network.c
+ModemManager-1.24.2/libmm-glib/mm-sim-preferred-network.h
+ModemManager-1.24.2/libmm-glib/mm-sim.c
+ModemManager-1.24.2/libmm-glib/mm-sim.h
+ModemManager-1.24.2/libmm-glib/mm-simple-connect-properties.c
+ModemManager-1.24.2/libmm-glib/mm-simple-connect-properties.h
+ModemManager-1.24.2/libmm-glib/mm-simple-status.c
+ModemManager-1.24.2/libmm-glib/mm-simple-status.h
+ModemManager-1.24.2/libmm-glib/mm-sms-properties.c
+ModemManager-1.24.2/libmm-glib/mm-sms-properties.h
+ModemManager-1.24.2/libmm-glib/mm-sms.c
+ModemManager-1.24.2/libmm-glib/mm-sms.h
+ModemManager-1.24.2/libmm-glib/mm-unlock-retries.c
+ModemManager-1.24.2/libmm-glib/mm-unlock-retries.h
+ModemManager-1.24.2/libmm-glib/tests/
+ModemManager-1.24.2/libmm-glib/tests/meson.build
+ModemManager-1.24.2/libmm-glib/tests/test-common-helpers.c
+ModemManager-1.24.2/libmm-glib/tests/test-pco.c
+ModemManager-1.24.2/libqcdm/
+ModemManager-1.24.2/libqcdm/src/
+ModemManager-1.24.2/libqcdm/src/com.c
+ModemManager-1.24.2/libqcdm/src/com.h
+ModemManager-1.24.2/libqcdm/src/commands.c
+ModemManager-1.24.2/libqcdm/src/commands.h
+ModemManager-1.24.2/libqcdm/src/dm-commands.h
+ModemManager-1.24.2/libqcdm/src/errors.c
+ModemManager-1.24.2/libqcdm/src/errors.h
+ModemManager-1.24.2/libqcdm/src/log-items.h
+ModemManager-1.24.2/libqcdm/src/logs.c
+ModemManager-1.24.2/libqcdm/src/logs.h
+ModemManager-1.24.2/libqcdm/src/meson.build
+ModemManager-1.24.2/libqcdm/src/nv-items.h
+ModemManager-1.24.2/libqcdm/src/result-private.h
+ModemManager-1.24.2/libqcdm/src/result.c
+ModemManager-1.24.2/libqcdm/src/result.h
+ModemManager-1.24.2/libqcdm/src/utils.c
+ModemManager-1.24.2/libqcdm/src/utils.h
+ModemManager-1.24.2/libqcdm/tests/
+ModemManager-1.24.2/libqcdm/tests/ipv6pref.c
+ModemManager-1.24.2/libqcdm/tests/meson.build
+ModemManager-1.24.2/libqcdm/tests/modepref.c
+ModemManager-1.24.2/libqcdm/tests/reset.c
+ModemManager-1.24.2/libqcdm/tests/test-qcdm-com.c
+ModemManager-1.24.2/libqcdm/tests/test-qcdm-com.h
+ModemManager-1.24.2/libqcdm/tests/test-qcdm-crc.c
+ModemManager-1.24.2/libqcdm/tests/test-qcdm-crc.h
+ModemManager-1.24.2/libqcdm/tests/test-qcdm-escaping.c
+ModemManager-1.24.2/libqcdm/tests/test-qcdm-escaping.h
+ModemManager-1.24.2/libqcdm/tests/test-qcdm-result.c
+ModemManager-1.24.2/libqcdm/tests/test-qcdm-result.h
+ModemManager-1.24.2/libqcdm/tests/test-qcdm-utils.c
+ModemManager-1.24.2/libqcdm/tests/test-qcdm-utils.h
+ModemManager-1.24.2/libqcdm/tests/test-qcdm.c
+ModemManager-1.24.2/meson.build
+ModemManager-1.24.2/meson_options.txt
+ModemManager-1.24.2/po/
+ModemManager-1.24.2/po/LINGUAS
+ModemManager-1.24.2/po/POTFILES.in
+ModemManager-1.24.2/po/POTFILES.skip
+ModemManager-1.24.2/po/ca.po
+ModemManager-1.24.2/po/cs.po
+ModemManager-1.24.2/po/da.po
+ModemManager-1.24.2/po/de.po
+ModemManager-1.24.2/po/fi.po
+ModemManager-1.24.2/po/fr.po
+ModemManager-1.24.2/po/fur.po
+ModemManager-1.24.2/po/gl.po
+ModemManager-1.24.2/po/he.po
+ModemManager-1.24.2/po/hu.po
+ModemManager-1.24.2/po/id.po
+ModemManager-1.24.2/po/it.po
+ModemManager-1.24.2/po/ka.po
+ModemManager-1.24.2/po/lt.po
+ModemManager-1.24.2/po/meson.build
+ModemManager-1.24.2/po/nl.po
+ModemManager-1.24.2/po/pl.po
+ModemManager-1.24.2/po/pt_BR.po
+ModemManager-1.24.2/po/ru.po
+ModemManager-1.24.2/po/sk.po
+ModemManager-1.24.2/po/sv.po
+ModemManager-1.24.2/po/tr.po
+ModemManager-1.24.2/po/uk.po
+ModemManager-1.24.2/po/zh_CN.po
+ModemManager-1.24.2/src/
+ModemManager-1.24.2/src/80-mm-candidate.rules
+ModemManager-1.24.2/src/kerneldevice/
+ModemManager-1.24.2/src/kerneldevice/mm-kernel-device-generic-rules.c
+ModemManager-1.24.2/src/kerneldevice/mm-kernel-device-generic-rules.h
+ModemManager-1.24.2/src/kerneldevice/mm-kernel-device-generic.c
+ModemManager-1.24.2/src/kerneldevice/mm-kernel-device-generic.h
+ModemManager-1.24.2/src/kerneldevice/mm-kernel-device-helpers.c
+ModemManager-1.24.2/src/kerneldevice/mm-kernel-device-helpers.h
+ModemManager-1.24.2/src/kerneldevice/mm-kernel-device-qrtr.c
+ModemManager-1.24.2/src/kerneldevice/mm-kernel-device-qrtr.h
+ModemManager-1.24.2/src/kerneldevice/mm-kernel-device-udev.c
+ModemManager-1.24.2/src/kerneldevice/mm-kernel-device-udev.h
+ModemManager-1.24.2/src/kerneldevice/mm-kernel-device.c
+ModemManager-1.24.2/src/kerneldevice/mm-kernel-device.h
+ModemManager-1.24.2/src/main.c
+ModemManager-1.24.2/src/meson.build
+ModemManager-1.24.2/src/mm-auth-provider.c
+ModemManager-1.24.2/src/mm-auth-provider.h
+ModemManager-1.24.2/src/mm-base-bearer.c
+ModemManager-1.24.2/src/mm-base-bearer.h
+ModemManager-1.24.2/src/mm-base-call.c
+ModemManager-1.24.2/src/mm-base-call.h
+ModemManager-1.24.2/src/mm-base-cbm.c
+ModemManager-1.24.2/src/mm-base-cbm.h
+ModemManager-1.24.2/src/mm-base-manager.c
+ModemManager-1.24.2/src/mm-base-manager.h
+ModemManager-1.24.2/src/mm-base-modem-at.c
+ModemManager-1.24.2/src/mm-base-modem-at.h
+ModemManager-1.24.2/src/mm-base-modem.c
+ModemManager-1.24.2/src/mm-base-modem.h
+ModemManager-1.24.2/src/mm-base-sim.c
+ModemManager-1.24.2/src/mm-base-sim.h
+ModemManager-1.24.2/src/mm-base-sms.c
+ModemManager-1.24.2/src/mm-base-sms.h
+ModemManager-1.24.2/src/mm-bearer-list.c
+ModemManager-1.24.2/src/mm-bearer-list.h
+ModemManager-1.24.2/src/mm-bearer-mbim.c
+ModemManager-1.24.2/src/mm-bearer-mbim.h
+ModemManager-1.24.2/src/mm-bearer-qmi.c
+ModemManager-1.24.2/src/mm-bearer-qmi.h
+ModemManager-1.24.2/src/mm-broadband-bearer.c
+ModemManager-1.24.2/src/mm-broadband-bearer.h
+ModemManager-1.24.2/src/mm-broadband-modem-mbim.c
+ModemManager-1.24.2/src/mm-broadband-modem-mbim.h
+ModemManager-1.24.2/src/mm-broadband-modem-qmi.c
+ModemManager-1.24.2/src/mm-broadband-modem-qmi.h
+ModemManager-1.24.2/src/mm-broadband-modem.c
+ModemManager-1.24.2/src/mm-broadband-modem.h
+ModemManager-1.24.2/src/mm-call-list.c
+ModemManager-1.24.2/src/mm-call-list.h
+ModemManager-1.24.2/src/mm-call-qmi.c
+ModemManager-1.24.2/src/mm-call-qmi.h
+ModemManager-1.24.2/src/mm-cbm-list.c
+ModemManager-1.24.2/src/mm-cbm-list.h
+ModemManager-1.24.2/src/mm-cbm-part.c
+ModemManager-1.24.2/src/mm-cbm-part.h
+ModemManager-1.24.2/src/mm-charsets.c
+ModemManager-1.24.2/src/mm-charsets.h
+ModemManager-1.24.2/src/mm-context.c
+ModemManager-1.24.2/src/mm-context.h
+ModemManager-1.24.2/src/mm-device.c
+ModemManager-1.24.2/src/mm-device.h
+ModemManager-1.24.2/src/mm-dispatcher-connection.c
+ModemManager-1.24.2/src/mm-dispatcher-connection.h
+ModemManager-1.24.2/src/mm-dispatcher-fcc-unlock.c
+ModemManager-1.24.2/src/mm-dispatcher-fcc-unlock.h
+ModemManager-1.24.2/src/mm-dispatcher-modem-setup.c
+ModemManager-1.24.2/src/mm-dispatcher-modem-setup.h
+ModemManager-1.24.2/src/mm-dispatcher.c
+ModemManager-1.24.2/src/mm-dispatcher.h
+ModemManager-1.24.2/src/mm-error-helpers.c
+ModemManager-1.24.2/src/mm-error-helpers.h
+ModemManager-1.24.2/src/mm-filter.c
+ModemManager-1.24.2/src/mm-filter.h
+ModemManager-1.24.2/src/mm-iface-modem-3gpp-profile-manager.c
+ModemManager-1.24.2/src/mm-iface-modem-3gpp-profile-manager.h
+ModemManager-1.24.2/src/mm-iface-modem-3gpp-ussd.c
+ModemManager-1.24.2/src/mm-iface-modem-3gpp-ussd.h
+ModemManager-1.24.2/src/mm-iface-modem-3gpp.c
+ModemManager-1.24.2/src/mm-iface-modem-3gpp.h
+ModemManager-1.24.2/src/mm-iface-modem-cdma.c
+ModemManager-1.24.2/src/mm-iface-modem-cdma.h
+ModemManager-1.24.2/src/mm-iface-modem-cell-broadcast.c
+ModemManager-1.24.2/src/mm-iface-modem-cell-broadcast.h
+ModemManager-1.24.2/src/mm-iface-modem-firmware.c
+ModemManager-1.24.2/src/mm-iface-modem-firmware.h
+ModemManager-1.24.2/src/mm-iface-modem-location.c
+ModemManager-1.24.2/src/mm-iface-modem-location.h
+ModemManager-1.24.2/src/mm-iface-modem-messaging.c
+ModemManager-1.24.2/src/mm-iface-modem-messaging.h
+ModemManager-1.24.2/src/mm-iface-modem-oma.c
+ModemManager-1.24.2/src/mm-iface-modem-oma.h
+ModemManager-1.24.2/src/mm-iface-modem-sar.c
+ModemManager-1.24.2/src/mm-iface-modem-sar.h
+ModemManager-1.24.2/src/mm-iface-modem-signal.c
+ModemManager-1.24.2/src/mm-iface-modem-signal.h
+ModemManager-1.24.2/src/mm-iface-modem-simple.c
+ModemManager-1.24.2/src/mm-iface-modem-simple.h
+ModemManager-1.24.2/src/mm-iface-modem-time.c
+ModemManager-1.24.2/src/mm-iface-modem-time.h
+ModemManager-1.24.2/src/mm-iface-modem-voice.c
+ModemManager-1.24.2/src/mm-iface-modem-voice.h
+ModemManager-1.24.2/src/mm-iface-modem.c
+ModemManager-1.24.2/src/mm-iface-modem.h
+ModemManager-1.24.2/src/mm-iface-port-at.c
+ModemManager-1.24.2/src/mm-iface-port-at.h
+ModemManager-1.24.2/src/mm-log-helpers.c
+ModemManager-1.24.2/src/mm-log-helpers.h
+ModemManager-1.24.2/src/mm-log-object.c
+ModemManager-1.24.2/src/mm-log-object.h
+ModemManager-1.24.2/src/mm-log-test.h
+ModemManager-1.24.2/src/mm-log.c
+ModemManager-1.24.2/src/mm-log.h
+ModemManager-1.24.2/src/mm-modem-helpers-mbim.c
+ModemManager-1.24.2/src/mm-modem-helpers-mbim.h
+ModemManager-1.24.2/src/mm-modem-helpers-qmi.c
+ModemManager-1.24.2/src/mm-modem-helpers-qmi.h
+ModemManager-1.24.2/src/mm-modem-helpers.c
+ModemManager-1.24.2/src/mm-modem-helpers.h
+ModemManager-1.24.2/src/mm-netlink.c
+ModemManager-1.24.2/src/mm-netlink.h
+ModemManager-1.24.2/src/mm-plugin-manager.c
+ModemManager-1.24.2/src/mm-plugin-manager.h
+ModemManager-1.24.2/src/mm-plugin.c
+ModemManager-1.24.2/src/mm-plugin.h
+ModemManager-1.24.2/src/mm-port-mbim.c
+ModemManager-1.24.2/src/mm-port-mbim.h
+ModemManager-1.24.2/src/mm-port-net.c
+ModemManager-1.24.2/src/mm-port-net.h
+ModemManager-1.24.2/src/mm-port-probe-at.c
+ModemManager-1.24.2/src/mm-port-probe-at.h
+ModemManager-1.24.2/src/mm-port-probe.c
+ModemManager-1.24.2/src/mm-port-probe.h
+ModemManager-1.24.2/src/mm-port-qmi.c
+ModemManager-1.24.2/src/mm-port-qmi.h
+ModemManager-1.24.2/src/mm-port-serial-at.c
+ModemManager-1.24.2/src/mm-port-serial-at.h
+ModemManager-1.24.2/src/mm-port-serial-gps.c
+ModemManager-1.24.2/src/mm-port-serial-gps.h
+ModemManager-1.24.2/src/mm-port-serial-qcdm.c
+ModemManager-1.24.2/src/mm-port-serial-qcdm.h
+ModemManager-1.24.2/src/mm-port-serial.c
+ModemManager-1.24.2/src/mm-port-serial.h
+ModemManager-1.24.2/src/mm-port.c
+ModemManager-1.24.2/src/mm-port.h
+ModemManager-1.24.2/src/mm-private-boxed-types.c
+ModemManager-1.24.2/src/mm-private-boxed-types.h
+ModemManager-1.24.2/src/mm-qrtr-bus-watcher.c
+ModemManager-1.24.2/src/mm-qrtr-bus-watcher.h
+ModemManager-1.24.2/src/mm-serial-parsers.c
+ModemManager-1.24.2/src/mm-serial-parsers.h
+ModemManager-1.24.2/src/mm-shared-qmi.c
+ModemManager-1.24.2/src/mm-shared-qmi.h
+ModemManager-1.24.2/src/mm-shared.h
+ModemManager-1.24.2/src/mm-sim-mbim.c
+ModemManager-1.24.2/src/mm-sim-mbim.h
+ModemManager-1.24.2/src/mm-sim-qmi.c
+ModemManager-1.24.2/src/mm-sim-qmi.h
+ModemManager-1.24.2/src/mm-sleep-context.c
+ModemManager-1.24.2/src/mm-sleep-context.h
+ModemManager-1.24.2/src/mm-sleep-monitor-powerd.c
+ModemManager-1.24.2/src/mm-sleep-monitor-systemd.c
+ModemManager-1.24.2/src/mm-sleep-monitor.h
+ModemManager-1.24.2/src/mm-sms-list.c
+ModemManager-1.24.2/src/mm-sms-list.h
+ModemManager-1.24.2/src/mm-sms-mbim.c
+ModemManager-1.24.2/src/mm-sms-mbim.h
+ModemManager-1.24.2/src/mm-sms-part-3gpp.c
+ModemManager-1.24.2/src/mm-sms-part-3gpp.h
+ModemManager-1.24.2/src/mm-sms-part-cdma.c
+ModemManager-1.24.2/src/mm-sms-part-cdma.h
+ModemManager-1.24.2/src/mm-sms-part.c
+ModemManager-1.24.2/src/mm-sms-part.h
+ModemManager-1.24.2/src/mm-sms-qmi.c
+ModemManager-1.24.2/src/mm-sms-qmi.h
+ModemManager-1.24.2/src/mm-utils.h
+ModemManager-1.24.2/src/plugins/
+ModemManager-1.24.2/src/plugins/README.txt
+ModemManager-1.24.2/src/plugins/altair/
+ModemManager-1.24.2/src/plugins/altair/mm-broadband-bearer-altair-lte.c
+ModemManager-1.24.2/src/plugins/altair/mm-broadband-bearer-altair-lte.h
+ModemManager-1.24.2/src/plugins/altair/mm-broadband-modem-altair-lte.c
+ModemManager-1.24.2/src/plugins/altair/mm-broadband-modem-altair-lte.h
+ModemManager-1.24.2/src/plugins/altair/mm-modem-helpers-altair-lte.c
+ModemManager-1.24.2/src/plugins/altair/mm-modem-helpers-altair-lte.h
+ModemManager-1.24.2/src/plugins/altair/mm-plugin-altair-lte.c
+ModemManager-1.24.2/src/plugins/altair/tests/
+ModemManager-1.24.2/src/plugins/altair/tests/test-modem-helpers-altair-lte.c
+ModemManager-1.24.2/src/plugins/anydata/
+ModemManager-1.24.2/src/plugins/anydata/mm-broadband-modem-anydata.c
+ModemManager-1.24.2/src/plugins/anydata/mm-broadband-modem-anydata.h
+ModemManager-1.24.2/src/plugins/anydata/mm-plugin-anydata.c
+ModemManager-1.24.2/src/plugins/broadmobi/
+ModemManager-1.24.2/src/plugins/broadmobi/77-mm-broadmobi-port-types.rules
+ModemManager-1.24.2/src/plugins/broadmobi/mm-plugin-broadmobi.c
+ModemManager-1.24.2/src/plugins/cellient/
+ModemManager-1.24.2/src/plugins/cellient/77-mm-cellient.rules
+ModemManager-1.24.2/src/plugins/cellient/mm-plugin-cellient.c
+ModemManager-1.24.2/src/plugins/cinterion/
+ModemManager-1.24.2/src/plugins/cinterion/77-mm-cinterion-port-types.rules
+ModemManager-1.24.2/src/plugins/cinterion/mm-broadband-bearer-cinterion.c
+ModemManager-1.24.2/src/plugins/cinterion/mm-broadband-bearer-cinterion.h
+ModemManager-1.24.2/src/plugins/cinterion/mm-broadband-modem-cinterion.c
+ModemManager-1.24.2/src/plugins/cinterion/mm-broadband-modem-cinterion.h
+ModemManager-1.24.2/src/plugins/cinterion/mm-broadband-modem-mbim-cinterion.c
+ModemManager-1.24.2/src/plugins/cinterion/mm-broadband-modem-mbim-cinterion.h
+ModemManager-1.24.2/src/plugins/cinterion/mm-broadband-modem-qmi-cinterion.c
+ModemManager-1.24.2/src/plugins/cinterion/mm-broadband-modem-qmi-cinterion.h
+ModemManager-1.24.2/src/plugins/cinterion/mm-modem-helpers-cinterion.c
+ModemManager-1.24.2/src/plugins/cinterion/mm-modem-helpers-cinterion.h
+ModemManager-1.24.2/src/plugins/cinterion/mm-plugin-cinterion.c
+ModemManager-1.24.2/src/plugins/cinterion/mm-shared-cinterion.c
+ModemManager-1.24.2/src/plugins/cinterion/mm-shared-cinterion.h
+ModemManager-1.24.2/src/plugins/cinterion/tests/
+ModemManager-1.24.2/src/plugins/cinterion/tests/test-modem-helpers-cinterion.c
+ModemManager-1.24.2/src/plugins/dell/
+ModemManager-1.24.2/src/plugins/dell/77-mm-dell-port-types.rules
+ModemManager-1.24.2/src/plugins/dell/mm-plugin-dell.c
+ModemManager-1.24.2/src/plugins/dlink/
+ModemManager-1.24.2/src/plugins/dlink/77-mm-dlink-port-types.rules
+ModemManager-1.24.2/src/plugins/dlink/mm-plugin-dlink.c
+ModemManager-1.24.2/src/plugins/fibocom/
+ModemManager-1.24.2/src/plugins/fibocom/77-mm-fibocom-port-types.rules
+ModemManager-1.24.2/src/plugins/fibocom/mm-broadband-bearer-fibocom-ecm.c
+ModemManager-1.24.2/src/plugins/fibocom/mm-broadband-bearer-fibocom-ecm.h
+ModemManager-1.24.2/src/plugins/fibocom/mm-broadband-modem-fibocom.c
+ModemManager-1.24.2/src/plugins/fibocom/mm-broadband-modem-fibocom.h
+ModemManager-1.24.2/src/plugins/fibocom/mm-broadband-modem-mbim-fibocom.c
+ModemManager-1.24.2/src/plugins/fibocom/mm-broadband-modem-mbim-fibocom.h
+ModemManager-1.24.2/src/plugins/fibocom/mm-broadband-modem-mbim-xmm-fibocom.c
+ModemManager-1.24.2/src/plugins/fibocom/mm-broadband-modem-mbim-xmm-fibocom.h
+ModemManager-1.24.2/src/plugins/fibocom/mm-plugin-fibocom.c
+ModemManager-1.24.2/src/plugins/fibocom/mm-port-mbim-fibocom.c
+ModemManager-1.24.2/src/plugins/fibocom/mm-port-mbim-fibocom.h
+ModemManager-1.24.2/src/plugins/fibocom/mm-shared-fibocom.c
+ModemManager-1.24.2/src/plugins/fibocom/mm-shared-fibocom.h
+ModemManager-1.24.2/src/plugins/fibocom/mm-shared.c
+ModemManager-1.24.2/src/plugins/foxconn/
+ModemManager-1.24.2/src/plugins/foxconn/77-mm-foxconn-port-types.rules
+ModemManager-1.24.2/src/plugins/foxconn/mm-broadband-modem-mbim-foxconn.c
+ModemManager-1.24.2/src/plugins/foxconn/mm-broadband-modem-mbim-foxconn.h
+ModemManager-1.24.2/src/plugins/foxconn/mm-foxconn-t77w968-carrier-mapping.conf
+ModemManager-1.24.2/src/plugins/foxconn/mm-plugin-foxconn.c
+ModemManager-1.24.2/src/plugins/foxconn/mm-shared.c
+ModemManager-1.24.2/src/plugins/generic/
+ModemManager-1.24.2/src/plugins/generic/mm-plugin-generic.c
+ModemManager-1.24.2/src/plugins/generic/tests/
+ModemManager-1.24.2/src/plugins/generic/tests/test-service-generic.c
+ModemManager-1.24.2/src/plugins/gosuncn/
+ModemManager-1.24.2/src/plugins/gosuncn/77-mm-gosuncn-port-types.rules
+ModemManager-1.24.2/src/plugins/gosuncn/mm-plugin-gosuncn.c
+ModemManager-1.24.2/src/plugins/haier/
+ModemManager-1.24.2/src/plugins/haier/77-mm-haier-port-types.rules
+ModemManager-1.24.2/src/plugins/haier/mm-plugin-haier.c
+ModemManager-1.24.2/src/plugins/huawei/
+ModemManager-1.24.2/src/plugins/huawei/77-mm-huawei-net-port-types.rules
+ModemManager-1.24.2/src/plugins/huawei/mm-broadband-bearer-huawei.c
+ModemManager-1.24.2/src/plugins/huawei/mm-broadband-bearer-huawei.h
+ModemManager-1.24.2/src/plugins/huawei/mm-broadband-modem-huawei.c
+ModemManager-1.24.2/src/plugins/huawei/mm-broadband-modem-huawei.h
+ModemManager-1.24.2/src/plugins/huawei/mm-modem-helpers-huawei.c
+ModemManager-1.24.2/src/plugins/huawei/mm-modem-helpers-huawei.h
+ModemManager-1.24.2/src/plugins/huawei/mm-plugin-huawei.c
+ModemManager-1.24.2/src/plugins/huawei/mm-sim-huawei.c
+ModemManager-1.24.2/src/plugins/huawei/mm-sim-huawei.h
+ModemManager-1.24.2/src/plugins/huawei/tests/
+ModemManager-1.24.2/src/plugins/huawei/tests/test-modem-helpers-huawei.c
+ModemManager-1.24.2/src/plugins/icera/
+ModemManager-1.24.2/src/plugins/icera/mm-broadband-bearer-icera.c
+ModemManager-1.24.2/src/plugins/icera/mm-broadband-bearer-icera.h
+ModemManager-1.24.2/src/plugins/icera/mm-broadband-modem-icera.c
+ModemManager-1.24.2/src/plugins/icera/mm-broadband-modem-icera.h
+ModemManager-1.24.2/src/plugins/icera/mm-modem-helpers-icera.c
+ModemManager-1.24.2/src/plugins/icera/mm-modem-helpers-icera.h
+ModemManager-1.24.2/src/plugins/icera/mm-shared.c
+ModemManager-1.24.2/src/plugins/icera/tests/
+ModemManager-1.24.2/src/plugins/icera/tests/test-modem-helpers-icera.c
+ModemManager-1.24.2/src/plugins/intel/
+ModemManager-1.24.2/src/plugins/intel/mm-broadband-modem-mbim-intel.c
+ModemManager-1.24.2/src/plugins/intel/mm-broadband-modem-mbim-intel.h
+ModemManager-1.24.2/src/plugins/intel/mm-plugin-intel.c
+ModemManager-1.24.2/src/plugins/iridium/
+ModemManager-1.24.2/src/plugins/iridium/mm-bearer-iridium.c
+ModemManager-1.24.2/src/plugins/iridium/mm-bearer-iridium.h
+ModemManager-1.24.2/src/plugins/iridium/mm-broadband-modem-iridium.c
+ModemManager-1.24.2/src/plugins/iridium/mm-broadband-modem-iridium.h
+ModemManager-1.24.2/src/plugins/iridium/mm-plugin-iridium.c
+ModemManager-1.24.2/src/plugins/iridium/mm-sim-iridium.c
+ModemManager-1.24.2/src/plugins/iridium/mm-sim-iridium.h
+ModemManager-1.24.2/src/plugins/linktop/
+ModemManager-1.24.2/src/plugins/linktop/77-mm-linktop-port-types.rules
+ModemManager-1.24.2/src/plugins/linktop/mm-broadband-modem-linktop.c
+ModemManager-1.24.2/src/plugins/linktop/mm-broadband-modem-linktop.h
+ModemManager-1.24.2/src/plugins/linktop/mm-modem-helpers-linktop.c
+ModemManager-1.24.2/src/plugins/linktop/mm-modem-helpers-linktop.h
+ModemManager-1.24.2/src/plugins/linktop/mm-plugin-linktop.c
+ModemManager-1.24.2/src/plugins/linktop/tests/
+ModemManager-1.24.2/src/plugins/linktop/tests/test-modem-helpers-linktop.c
+ModemManager-1.24.2/src/plugins/longcheer/
+ModemManager-1.24.2/src/plugins/longcheer/77-mm-longcheer-port-types.rules
+ModemManager-1.24.2/src/plugins/longcheer/mm-broadband-modem-longcheer.c
+ModemManager-1.24.2/src/plugins/longcheer/mm-broadband-modem-longcheer.h
+ModemManager-1.24.2/src/plugins/longcheer/mm-plugin-longcheer.c
+ModemManager-1.24.2/src/plugins/mbm/
+ModemManager-1.24.2/src/plugins/mbm/77-mm-ericsson-mbm.rules
+ModemManager-1.24.2/src/plugins/mbm/mm-broadband-bearer-mbm.c
+ModemManager-1.24.2/src/plugins/mbm/mm-broadband-bearer-mbm.h
+ModemManager-1.24.2/src/plugins/mbm/mm-broadband-modem-mbm.c
+ModemManager-1.24.2/src/plugins/mbm/mm-broadband-modem-mbm.h
+ModemManager-1.24.2/src/plugins/mbm/mm-modem-helpers-mbm.c
+ModemManager-1.24.2/src/plugins/mbm/mm-modem-helpers-mbm.h
+ModemManager-1.24.2/src/plugins/mbm/mm-plugin-mbm.c
+ModemManager-1.24.2/src/plugins/mbm/mm-sim-mbm.c
+ModemManager-1.24.2/src/plugins/mbm/mm-sim-mbm.h
+ModemManager-1.24.2/src/plugins/mbm/tests/
+ModemManager-1.24.2/src/plugins/mbm/tests/test-modem-helpers-mbm.c
+ModemManager-1.24.2/src/plugins/meson.build
+ModemManager-1.24.2/src/plugins/mm-builtin-plugins.c
+ModemManager-1.24.2/src/plugins/mm-builtin-plugins.h
+ModemManager-1.24.2/src/plugins/mm-plugin-common.h
+ModemManager-1.24.2/src/plugins/mm-shared-common.h
+ModemManager-1.24.2/src/plugins/motorola/
+ModemManager-1.24.2/src/plugins/motorola/mm-broadband-modem-motorola.c
+ModemManager-1.24.2/src/plugins/motorola/mm-broadband-modem-motorola.h
+ModemManager-1.24.2/src/plugins/motorola/mm-plugin-motorola.c
+ModemManager-1.24.2/src/plugins/mtk/
+ModemManager-1.24.2/src/plugins/mtk/77-mm-mtk-legacy-port-types.rules
+ModemManager-1.24.2/src/plugins/mtk/mm-bearer-mbim-mtk-fibocom.c
+ModemManager-1.24.2/src/plugins/mtk/mm-bearer-mbim-mtk-fibocom.h
+ModemManager-1.24.2/src/plugins/mtk/mm-broadband-modem-mbim-mtk-fibocom.c
+ModemManager-1.24.2/src/plugins/mtk/mm-broadband-modem-mbim-mtk-fibocom.h
+ModemManager-1.24.2/src/plugins/mtk/mm-broadband-modem-mbim-mtk.c
+ModemManager-1.24.2/src/plugins/mtk/mm-broadband-modem-mbim-mtk.h
+ModemManager-1.24.2/src/plugins/mtk/mm-broadband-modem-mtk-legacy.c
+ModemManager-1.24.2/src/plugins/mtk/mm-broadband-modem-mtk-legacy.h
+ModemManager-1.24.2/src/plugins/mtk/mm-plugin-mtk-legacy.c
+ModemManager-1.24.2/src/plugins/mtk/mm-plugin-mtk.c
+ModemManager-1.24.2/src/plugins/mtk/mm-shared-mtk.c
+ModemManager-1.24.2/src/plugins/mtk/mm-shared-mtk.h
+ModemManager-1.24.2/src/plugins/mtk/mm-shared.c
+ModemManager-1.24.2/src/plugins/netprisma/
+ModemManager-1.24.2/src/plugins/netprisma/77-mm-netprisma-port-types.rules
+ModemManager-1.24.2/src/plugins/netprisma/mm-plugin-netprisma.c
+ModemManager-1.24.2/src/plugins/nokia/
+ModemManager-1.24.2/src/plugins/nokia/77-mm-nokia-port-types.rules
+ModemManager-1.24.2/src/plugins/nokia/mm-broadband-modem-nokia.c
+ModemManager-1.24.2/src/plugins/nokia/mm-broadband-modem-nokia.h
+ModemManager-1.24.2/src/plugins/nokia/mm-plugin-nokia-icera.c
+ModemManager-1.24.2/src/plugins/nokia/mm-plugin-nokia.c
+ModemManager-1.24.2/src/plugins/nokia/mm-sim-nokia.c
+ModemManager-1.24.2/src/plugins/nokia/mm-sim-nokia.h
+ModemManager-1.24.2/src/plugins/novatel/
+ModemManager-1.24.2/src/plugins/novatel/mm-broadband-bearer-novatel-lte.c
+ModemManager-1.24.2/src/plugins/novatel/mm-broadband-bearer-novatel-lte.h
+ModemManager-1.24.2/src/plugins/novatel/mm-broadband-modem-novatel-lte.c
+ModemManager-1.24.2/src/plugins/novatel/mm-broadband-modem-novatel-lte.h
+ModemManager-1.24.2/src/plugins/novatel/mm-broadband-modem-novatel.c
+ModemManager-1.24.2/src/plugins/novatel/mm-broadband-modem-novatel.h
+ModemManager-1.24.2/src/plugins/novatel/mm-common-novatel.c
+ModemManager-1.24.2/src/plugins/novatel/mm-common-novatel.h
+ModemManager-1.24.2/src/plugins/novatel/mm-plugin-novatel-lte.c
+ModemManager-1.24.2/src/plugins/novatel/mm-plugin-novatel.c
+ModemManager-1.24.2/src/plugins/novatel/mm-shared.c
+ModemManager-1.24.2/src/plugins/novatel/mm-sim-novatel-lte.c
+ModemManager-1.24.2/src/plugins/novatel/mm-sim-novatel-lte.h
+ModemManager-1.24.2/src/plugins/option/
+ModemManager-1.24.2/src/plugins/option/mm-broadband-bearer-hso.c
+ModemManager-1.24.2/src/plugins/option/mm-broadband-bearer-hso.h
+ModemManager-1.24.2/src/plugins/option/mm-broadband-modem-hso.c
+ModemManager-1.24.2/src/plugins/option/mm-broadband-modem-hso.h
+ModemManager-1.24.2/src/plugins/option/mm-broadband-modem-option.c
+ModemManager-1.24.2/src/plugins/option/mm-broadband-modem-option.h
+ModemManager-1.24.2/src/plugins/option/mm-plugin-hso.c
+ModemManager-1.24.2/src/plugins/option/mm-plugin-option.c
+ModemManager-1.24.2/src/plugins/option/mm-shared-option.c
+ModemManager-1.24.2/src/plugins/option/mm-shared-option.h
+ModemManager-1.24.2/src/plugins/option/mm-shared.c
+ModemManager-1.24.2/src/plugins/option/mm-sim-option.c
+ModemManager-1.24.2/src/plugins/option/mm-sim-option.h
+ModemManager-1.24.2/src/plugins/pantech/
+ModemManager-1.24.2/src/plugins/pantech/mm-broadband-modem-pantech.c
+ModemManager-1.24.2/src/plugins/pantech/mm-broadband-modem-pantech.h
+ModemManager-1.24.2/src/plugins/pantech/mm-plugin-pantech.c
+ModemManager-1.24.2/src/plugins/pantech/mm-sim-pantech.c
+ModemManager-1.24.2/src/plugins/pantech/mm-sim-pantech.h
+ModemManager-1.24.2/src/plugins/qcom-soc/
+ModemManager-1.24.2/src/plugins/qcom-soc/77-mm-qcom-soc.rules
+ModemManager-1.24.2/src/plugins/qcom-soc/mm-broadband-modem-qmi-qcom-soc.c
+ModemManager-1.24.2/src/plugins/qcom-soc/mm-broadband-modem-qmi-qcom-soc.h
+ModemManager-1.24.2/src/plugins/qcom-soc/mm-plugin-qcom-soc.c
+ModemManager-1.24.2/src/plugins/quectel/
+ModemManager-1.24.2/src/plugins/quectel/77-mm-quectel-port-types.rules
+ModemManager-1.24.2/src/plugins/quectel/mm-broadband-modem-mbim-quectel.c
+ModemManager-1.24.2/src/plugins/quectel/mm-broadband-modem-mbim-quectel.h
+ModemManager-1.24.2/src/plugins/quectel/mm-broadband-modem-qmi-quectel.c
+ModemManager-1.24.2/src/plugins/quectel/mm-broadband-modem-qmi-quectel.h
+ModemManager-1.24.2/src/plugins/quectel/mm-broadband-modem-quectel.c
+ModemManager-1.24.2/src/plugins/quectel/mm-broadband-modem-quectel.h
+ModemManager-1.24.2/src/plugins/quectel/mm-modem-helpers-quectel.c
+ModemManager-1.24.2/src/plugins/quectel/mm-modem-helpers-quectel.h
+ModemManager-1.24.2/src/plugins/quectel/mm-plugin-quectel.c
+ModemManager-1.24.2/src/plugins/quectel/mm-port-mbim-quectel.c
+ModemManager-1.24.2/src/plugins/quectel/mm-port-mbim-quectel.h
+ModemManager-1.24.2/src/plugins/quectel/mm-shared-quectel.c
+ModemManager-1.24.2/src/plugins/quectel/mm-shared-quectel.h
+ModemManager-1.24.2/src/plugins/quectel/mm-shared.c
+ModemManager-1.24.2/src/plugins/quectel/tests/
+ModemManager-1.24.2/src/plugins/quectel/tests/test-modem-helpers-quectel.c
+ModemManager-1.24.2/src/plugins/rolling/
+ModemManager-1.24.2/src/plugins/rolling/77-mm-rolling-port-types.rules
+ModemManager-1.24.2/src/plugins/rolling/mm-plugin-rolling.c
+ModemManager-1.24.2/src/plugins/samsung/
+ModemManager-1.24.2/src/plugins/samsung/mm-broadband-modem-samsung.c
+ModemManager-1.24.2/src/plugins/samsung/mm-broadband-modem-samsung.h
+ModemManager-1.24.2/src/plugins/samsung/mm-plugin-samsung.c
+ModemManager-1.24.2/src/plugins/sierra/
+ModemManager-1.24.2/src/plugins/sierra/77-mm-sierra.rules
+ModemManager-1.24.2/src/plugins/sierra/mm-broadband-bearer-sierra.c
+ModemManager-1.24.2/src/plugins/sierra/mm-broadband-bearer-sierra.h
+ModemManager-1.24.2/src/plugins/sierra/mm-broadband-modem-sierra-icera.c
+ModemManager-1.24.2/src/plugins/sierra/mm-broadband-modem-sierra-icera.h
+ModemManager-1.24.2/src/plugins/sierra/mm-broadband-modem-sierra.c
+ModemManager-1.24.2/src/plugins/sierra/mm-broadband-modem-sierra.h
+ModemManager-1.24.2/src/plugins/sierra/mm-common-sierra.c
+ModemManager-1.24.2/src/plugins/sierra/mm-common-sierra.h
+ModemManager-1.24.2/src/plugins/sierra/mm-modem-helpers-sierra.c
+ModemManager-1.24.2/src/plugins/sierra/mm-modem-helpers-sierra.h
+ModemManager-1.24.2/src/plugins/sierra/mm-plugin-sierra-legacy.c
+ModemManager-1.24.2/src/plugins/sierra/mm-plugin-sierra.c
+ModemManager-1.24.2/src/plugins/sierra/mm-shared.c
+ModemManager-1.24.2/src/plugins/sierra/mm-sim-sierra.c
+ModemManager-1.24.2/src/plugins/sierra/mm-sim-sierra.h
+ModemManager-1.24.2/src/plugins/sierra/tests/
+ModemManager-1.24.2/src/plugins/sierra/tests/test-modem-helpers-sierra.c
+ModemManager-1.24.2/src/plugins/simtech/
+ModemManager-1.24.2/src/plugins/simtech/77-mm-simtech-port-types.rules
+ModemManager-1.24.2/src/plugins/simtech/mm-broadband-modem-qmi-simtech.c
+ModemManager-1.24.2/src/plugins/simtech/mm-broadband-modem-qmi-simtech.h
+ModemManager-1.24.2/src/plugins/simtech/mm-broadband-modem-simtech.c
+ModemManager-1.24.2/src/plugins/simtech/mm-broadband-modem-simtech.h
+ModemManager-1.24.2/src/plugins/simtech/mm-modem-helpers-simtech.c
+ModemManager-1.24.2/src/plugins/simtech/mm-modem-helpers-simtech.h
+ModemManager-1.24.2/src/plugins/simtech/mm-plugin-simtech.c
+ModemManager-1.24.2/src/plugins/simtech/mm-shared-simtech.c
+ModemManager-1.24.2/src/plugins/simtech/mm-shared-simtech.h
+ModemManager-1.24.2/src/plugins/simtech/tests/
+ModemManager-1.24.2/src/plugins/simtech/tests/test-modem-helpers-simtech.c
+ModemManager-1.24.2/src/plugins/symbol.map
+ModemManager-1.24.2/src/plugins/telit/
+ModemManager-1.24.2/src/plugins/telit/77-mm-telit-port-types.rules
+ModemManager-1.24.2/src/plugins/telit/mm-broadband-modem-mbim-telit.c
+ModemManager-1.24.2/src/plugins/telit/mm-broadband-modem-mbim-telit.h
+ModemManager-1.24.2/src/plugins/telit/mm-broadband-modem-telit.c
+ModemManager-1.24.2/src/plugins/telit/mm-broadband-modem-telit.h
+ModemManager-1.24.2/src/plugins/telit/mm-common-telit.c
+ModemManager-1.24.2/src/plugins/telit/mm-common-telit.h
+ModemManager-1.24.2/src/plugins/telit/mm-modem-helpers-telit.c
+ModemManager-1.24.2/src/plugins/telit/mm-modem-helpers-telit.h
+ModemManager-1.24.2/src/plugins/telit/mm-plugin-telit.c
+ModemManager-1.24.2/src/plugins/telit/mm-shared-telit.c
+ModemManager-1.24.2/src/plugins/telit/mm-shared-telit.h
+ModemManager-1.24.2/src/plugins/telit/mm-shared.c
+ModemManager-1.24.2/src/plugins/telit/tests/
+ModemManager-1.24.2/src/plugins/telit/tests/test-mm-modem-helpers-telit.c
+ModemManager-1.24.2/src/plugins/tests/
+ModemManager-1.24.2/src/plugins/tests/gsm-port.conf
+ModemManager-1.24.2/src/plugins/tests/test-fixture.c
+ModemManager-1.24.2/src/plugins/tests/test-fixture.h
+ModemManager-1.24.2/src/plugins/tests/test-helpers.c
+ModemManager-1.24.2/src/plugins/tests/test-helpers.h
+ModemManager-1.24.2/src/plugins/tests/test-keyfiles.c
+ModemManager-1.24.2/src/plugins/tests/test-port-context.c
+ModemManager-1.24.2/src/plugins/tests/test-port-context.h
+ModemManager-1.24.2/src/plugins/tests/test-udev-rules.c
+ModemManager-1.24.2/src/plugins/thuraya/
+ModemManager-1.24.2/src/plugins/thuraya/mm-broadband-modem-thuraya.c
+ModemManager-1.24.2/src/plugins/thuraya/mm-broadband-modem-thuraya.h
+ModemManager-1.24.2/src/plugins/thuraya/mm-modem-helpers-thuraya.c
+ModemManager-1.24.2/src/plugins/thuraya/mm-modem-helpers-thuraya.h
+ModemManager-1.24.2/src/plugins/thuraya/mm-plugin-thuraya.c
+ModemManager-1.24.2/src/plugins/thuraya/tests/
+ModemManager-1.24.2/src/plugins/thuraya/tests/test-mm-modem-helpers-thuraya.c
+ModemManager-1.24.2/src/plugins/tplink/
+ModemManager-1.24.2/src/plugins/tplink/77-mm-tplink-port-types.rules
+ModemManager-1.24.2/src/plugins/tplink/mm-plugin-tplink.c
+ModemManager-1.24.2/src/plugins/ublox/
+ModemManager-1.24.2/src/plugins/ublox/77-mm-ublox-port-types.rules
+ModemManager-1.24.2/src/plugins/ublox/README
+ModemManager-1.24.2/src/plugins/ublox/mm-broadband-bearer-ublox.c
+ModemManager-1.24.2/src/plugins/ublox/mm-broadband-bearer-ublox.h
+ModemManager-1.24.2/src/plugins/ublox/mm-broadband-modem-ublox.c
+ModemManager-1.24.2/src/plugins/ublox/mm-broadband-modem-ublox.h
+ModemManager-1.24.2/src/plugins/ublox/mm-modem-helpers-ublox.c
+ModemManager-1.24.2/src/plugins/ublox/mm-modem-helpers-ublox.h
+ModemManager-1.24.2/src/plugins/ublox/mm-plugin-ublox.c
+ModemManager-1.24.2/src/plugins/ublox/mm-sim-ublox.c
+ModemManager-1.24.2/src/plugins/ublox/mm-sim-ublox.h
+ModemManager-1.24.2/src/plugins/ublox/tests/
+ModemManager-1.24.2/src/plugins/ublox/tests/test-modem-helpers-ublox.c
+ModemManager-1.24.2/src/plugins/via/
+ModemManager-1.24.2/src/plugins/via/mm-broadband-modem-via.c
+ModemManager-1.24.2/src/plugins/via/mm-broadband-modem-via.h
+ModemManager-1.24.2/src/plugins/via/mm-plugin-via.c
+ModemManager-1.24.2/src/plugins/wavecom/
+ModemManager-1.24.2/src/plugins/wavecom/mm-broadband-modem-wavecom.c
+ModemManager-1.24.2/src/plugins/wavecom/mm-broadband-modem-wavecom.h
+ModemManager-1.24.2/src/plugins/wavecom/mm-plugin-wavecom.c
+ModemManager-1.24.2/src/plugins/x22x/
+ModemManager-1.24.2/src/plugins/x22x/77-mm-x22x-port-types.rules
+ModemManager-1.24.2/src/plugins/x22x/mm-broadband-modem-x22x.c
+ModemManager-1.24.2/src/plugins/x22x/mm-broadband-modem-x22x.h
+ModemManager-1.24.2/src/plugins/x22x/mm-plugin-x22x.c
+ModemManager-1.24.2/src/plugins/xmm/
+ModemManager-1.24.2/src/plugins/xmm/mm-broadband-modem-mbim-xmm.c
+ModemManager-1.24.2/src/plugins/xmm/mm-broadband-modem-mbim-xmm.h
+ModemManager-1.24.2/src/plugins/xmm/mm-broadband-modem-xmm.c
+ModemManager-1.24.2/src/plugins/xmm/mm-broadband-modem-xmm.h
+ModemManager-1.24.2/src/plugins/xmm/mm-modem-helpers-xmm.c
+ModemManager-1.24.2/src/plugins/xmm/mm-modem-helpers-xmm.h
+ModemManager-1.24.2/src/plugins/xmm/mm-shared-xmm.c
+ModemManager-1.24.2/src/plugins/xmm/mm-shared-xmm.h
+ModemManager-1.24.2/src/plugins/xmm/mm-shared.c
+ModemManager-1.24.2/src/plugins/xmm/tests/
+ModemManager-1.24.2/src/plugins/xmm/tests/test-modem-helpers-xmm.c
+ModemManager-1.24.2/src/plugins/zte/
+ModemManager-1.24.2/src/plugins/zte/77-mm-zte-port-types.rules
+ModemManager-1.24.2/src/plugins/zte/mm-broadband-modem-zte-icera.c
+ModemManager-1.24.2/src/plugins/zte/mm-broadband-modem-zte-icera.h
+ModemManager-1.24.2/src/plugins/zte/mm-broadband-modem-zte.c
+ModemManager-1.24.2/src/plugins/zte/mm-broadband-modem-zte.h
+ModemManager-1.24.2/src/plugins/zte/mm-common-zte.c
+ModemManager-1.24.2/src/plugins/zte/mm-common-zte.h
+ModemManager-1.24.2/src/plugins/zte/mm-plugin-zte.c
+ModemManager-1.24.2/src/tests/
+ModemManager-1.24.2/src/tests/meson.build
+ModemManager-1.24.2/src/tests/test-at-serial-port.c
+ModemManager-1.24.2/src/tests/test-cbm-part.c
+ModemManager-1.24.2/src/tests/test-charsets.c
+ModemManager-1.24.2/src/tests/test-error-helpers.c
+ModemManager-1.24.2/src/tests/test-kernel-device-helpers.c
+ModemManager-1.24.2/src/tests/test-modem-helpers-mbim.c
+ModemManager-1.24.2/src/tests/test-modem-helpers-qmi.c
+ModemManager-1.24.2/src/tests/test-modem-helpers.c
+ModemManager-1.24.2/src/tests/test-qcdm-serial-port.c
+ModemManager-1.24.2/src/tests/test-sms-part-3gpp-fuzzer.c
+ModemManager-1.24.2/src/tests/test-sms-part-3gpp-tr-fuzzer.c
+ModemManager-1.24.2/src/tests/test-sms-part-3gpp.c
+ModemManager-1.24.2/src/tests/test-sms-part-cdma-fuzzer.c
+ModemManager-1.24.2/src/tests/test-sms-part-cdma.c
+ModemManager-1.24.2/src/tests/test-udev-rules.c
+ModemManager-1.24.2/test/
+ModemManager-1.24.2/test/lsudev.c
+ModemManager-1.24.2/test/meson.build
+ModemManager-1.24.2/test/mmcbmmonitor.c
+ModemManager-1.24.2/test/mmcli-test-sms
+ModemManager-1.24.2/test/mmrules.c
+ModemManager-1.24.2/test/mmsmsmonitor.c
+ModemManager-1.24.2/test/mmsmspdu.c
+ModemManager-1.24.2/test/mmtty.c
+ModemManager-1.24.2/tools/
+ModemManager-1.24.2/tools/test-modemmanager-service.py
+ModemManager-1.24.2/tools/tests/
+ModemManager-1.24.2/tools/tests/meson.build
+ModemManager-1.24.2/tools/tests/services/
+ModemManager-1.24.2/tools/tests/services/meson.build
+ModemManager-1.24.2/tools/tests/services/org.freedesktop.ModemManager1.service.in
+ModemManager-1.24.2/tools/tests/test-stub.c
+ModemManager-1.24.2/tools/tests/test-wrapper.sh.in
+ModemManager-1.24.2/vapi/
+ModemManager-1.24.2/vapi/ModemManager-1.0.metadata
+ModemManager-1.24.2/vapi/libmm-glib.deps
+The Meson build system
+Version: 1.7.0
+Source dir: /blfs/builds/ModemManager-1.24.2
+Build dir: /blfs/builds/ModemManager-1.24.2/build
+Build type: native build
+Project name: ModemManager
+Project version: 1.24.2
+C compiler for the host machine: cc (gcc 14.2.0 "cc (GCC) 14.2.0")
+C linker for the host machine: cc ld.bfd 2.44
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Program python3 found: YES (/usr/bin/python3)
+Program /blfs/builds/ModemManager-1.24.2/build-aux/mm-mkenums found: YES (/blfs/builds/ModemManager-1.24.2/build-aux/mm-mkenums)
+Compiler for C supports arguments -Wno-unused-parameter: YES 
+Compiler for C supports arguments -Wno-cast-function-type: YES 
+Compiler for C supports arguments -Wno-packed: YES 
+Compiler for C supports arguments -Wno-float-equal: YES 
+Compiler for C supports arguments -Wno-missing-field-initializers: YES 
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Run-time dependency gio-unix-2.0 found: YES 2.84.3
+Run-time dependency glib-2.0 found: YES 2.84.3
+Run-time dependency gmodule-2.0 found: YES 2.84.3
+Run-time dependency gio-2.0 found: YES 2.84.3
+Run-time dependency gobject-2.0 found: YES 2.84.3
+Run-time dependency dbus-1 found: YES 1.16.2
+Run-time dependency gudev-1.0 found: YES 238
+Run-time dependency udev found: YES 257
+Run-time dependency systemd found: YES 257
+Run-time dependency libsystemd found: YES 257
+Run-time dependency polkit-gobject-1 found: YES 126
+Run-time dependency mbim-glib found: YES 1.32.0
+Run-time dependency qmi-glib found: YES 1.36.0
+Library util found: YES
+Run-time dependency gobject-introspection-1.0 found: YES 1.84.0
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Program msginit found: YES (/usr/bin/msginit)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program xgettext found: YES (/usr/bin/xgettext)
+Configuring org.freedesktop.ModemManager1.service using configuration
+Configuring org.freedesktop.ModemManager1.service using configuration
+Configuring ModemManager.service using configuration
+Configuring org.freedesktop.ModemManager1.policy.in using configuration
+Program xsltproc found: YES (/usr/bin/xsltproc)
+Configuring ModemManager-names.h with command
+Configuring ModemManager-version.h using configuration
+Compiler for C supports arguments -Wno-float-equal: YES (cached)
+Compiler for C supports arguments -Wno-shadow: YES 
+Compiler for C supports arguments -Wno-unused-function: YES 
+Dependency gio-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Dependency gio-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Dependency gio-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Dependency gio-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Dependency gio-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Dependency gio-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Dependency gio-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Dependency gio-2.0 found: YES 2.84.3 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Dependency gobject-introspection-1.0 found: YES 1.84.0 (cached)
+Dependency gobject-introspection-1.0 found: YES 1.84.0 (cached)
+Program /usr/bin/g-ir-scanner found: YES (/usr/bin/g-ir-scanner)
+Dependency gobject-introspection-1.0 found: YES 1.84.0 (cached)
+Program /usr/bin/g-ir-compiler found: YES (/usr/bin/g-ir-compiler)
+Compiler for C supports link arguments -Wl,--version-script,/blfs/builds/ModemManager-1.24.2/src/plugins/symbol.map: YES 
+Configuring org.freedesktop.ModemManager1.service using configuration
+Configuring test-wrapper.sh using configuration
+Configuring config.h using configuration
+Build targets in project: 193
+NOTICE: Future-deprecated features used:
+ * 0.56.0: {'dependency.get_pkgconfig_variable'}
+
+ModemManager 1.24.2
+
+  Build
+    compiler                   : gcc
+    cflags                     : -Wno-unused-parameter
+                                 -Wno-cast-function-type
+                                 -Wno-packed
+                                 -Wno-float-equal
+                                 -Wno-missing-field-initializers
+
+  System paths
+    prefix                     : /usr
+    configuration directory    : /etc/ModemManager
+    D-Bus policy directory     : /etc/dbus-1/system.d
+    udev base directory        : /usr/lib/udev
+    systemd user unit directory: /usr/lib/systemd/system
+
+  Features
+    udev                       : true
+    policykit                  : strict
+    mbim                       : true
+    qmi                        : true
+    qrtr                       : false
+    systemd suspend/resume     : true
+    powerd suspend/resume      : false
+    systemd journal            : true
+    at command via dbus        : false
+    builtin plugins            : false
+
+  Shared utils
+    fibocom                    : true
+    foxconn                    : true
+    icera                      : true
+    mtk                        : true
+    novatel                    : true
+    option                     : true
+    sierra                     : true
+    telit                      : true
+    xmm                        : true
+    quectel                    : true
+
+  Plugins
+    altair-lte                 : true
+    anydata                    : true
+    broadmobi                  : true
+    cellient                   : true
+    cinterion                  : true
+    dell                       : true
+    dlink                      : true
+    fibocom                    : true
+    foxconn                    : true
+    generic                    : true
+    gosuncn                    : true
+    haier                      : true
+    huawei                     : true
+    intel                      : true
+    iridium                    : true
+    linktop                    : true
+    longcheer                  : true
+    mbm                        : true
+    motorola                   : true
+    mtk-legacy                 : true
+    mtk                        : true
+    netprisma                  : true
+    nokia                      : true
+    nokia-icera                : true
+    novatel                    : true
+    novatel-lte                : true
+    option                     : true
+    option-hso                 : true
+    pantech                    : true
+    qcom-soc                   : true
+    quectel                    : true
+    rolling                    : true
+    samsung                    : true
+    sierra-legacy              : true
+    sierra                     : true
+    simtech                    : true
+    telit                      : true
+    thuraya                    : true
+    tplink                     : true
+    ublox                      : true
+    via                        : true
+    wavecom                    : true
+    x22x                       : true
+    zte                        : true
+
+  Miscellaneous
+    gobject introspection      : true
+    Man                        : false
+    Documentation              : false
+    bash completion            : false
+    vala bindings              : false
+    code coverage              : false
+    fuzzer                     : false
+
+  User defined options
+    bash_completion            : false
+    buildtype                  : release
+    man                        : false
+    prefix                     : /usr
+    qrtr                       : false
+
+Found ninja-1.13.1 at /usr/bin/ninja
+[1/581] Generating gdbus source libmm-glib/generated/mm-gdbus-cbm.c
+[2/581] Generating gdbus header libmm-glib/generated/mm-gdbus-cbm.h
+[3/581] Generating gdbus header libmm-glib/generated/mm-gdbus-bearer.h
+[4/581] Generating gdbus header libmm-glib/generated/mm-gdbus-sms.h
+[5/581] Generating gdbus source libmm-glib/generated/mm-gdbus-call.c
+[6/581] Generating gdbus header libmm-glib/generated/mm-gdbus-call.h
+[7/581] Generating gdbus source libmm-glib/generated/mm-gdbus-manager.c
+[8/581] Generating gdbus header libmm-glib/generated/mm-gdbus-sim.h
+[9/581] Generating gdbus source libmm-glib/generated/tests/mm-gdbus-test.c
+[10/581] Generating gdbus source libmm-glib/generated/mm-gdbus-bearer.c
+[11/581] Generating gdbus header libmm-glib/generated/mm-gdbus-modem.h
+[12/581] Generating gdbus header libmm-glib/generated/mm-gdbus-manager.h
+[13/581] Generating gdbus source libmm-glib/generated/mm-gdbus-sms.c
+[14/581] Generating gdbus source libmm-glib/generated/mm-gdbus-sim.c
+[15/581] Compiling C object libqcdm/src/libqcdm.a.p/com.c.o
+[16/581] Compiling C object libqcdm/src/libqcdm.a.p/errors.c.o
+[17/581] Compiling C object libqcdm/src/libqcdm.a.p/logs.c.o
+[18/581] Generating gdbus header libmm-glib/generated/tests/mm-gdbus-test.h
+[19/581] Generating gdbus source libmm-glib/generated/mm-gdbus-modem.c
+[20/581] Generating libmm-glib/generated/mm-errors-types.h with a custom command (wrapped by meson because command contains newlines, to capture output)
+[21/581] Compiling C object libqcdm/src/libqcdm.a.p/utils.c.o
+[22/581] Compiling C object libqcdm/src/libqcdm.a.p/result.c.o
+[23/581] Generating libmm-glib/generated/mm-errors-types.c with a custom command (wrapped by meson because command contains newlines, to capture output)
+[24/581] Generating libmm-glib/generated/mm-flags-types.h with a custom command (wrapped by meson because command contains newlines, to capture output)
+[25/581] Generating libmm-glib/generated/mm-errors-quarks.c with a custom command (wrapped by meson because command contains newlines, to capture output)
+[26/581] Generating libmm-glib/generated/mm-flags-types.c with a custom command (wrapped by meson because command contains newlines, to capture output)
+[27/581] Generating src/mm-helper-enums-types.h with a custom command (wrapped by meson because command contains newlines, to capture output)
+[28/581] Generating src/mm-port-enums-types.c with a custom command (wrapped by meson because command contains newlines, to capture output)
+[29/581] Generating src/mm-helper-enums-types.c with a custom command (wrapped by meson because command contains newlines, to capture output)
+[30/581] Generating src/plugins/mm-huawei-enums-types.c with a custom command (wrapped by meson because command contains newlines, to capture output)
+[31/581] Generating src/mm-daemon-enums-types.h with a custom command (wrapped by meson because command contains newlines, to capture output)
+[32/581] Generating libmm-glib/generated/mm-enums-types.h with a custom command (wrapped by meson because command contains newlines, to capture output)
+[33/581] Generating libmm-glib/generated/mm-enums-types.c with a custom command (wrapped by meson because command contains newlines, to capture output)
+[34/581] Generating src/plugins/mm-huawei-enums-types.h with a custom command (wrapped by meson because command contains newlines, to capture output)
+[35/581] Generating src/plugins/mm-ublox-enums-types.c with a custom command (wrapped by meson because command contains newlines, to capture output)
+[36/581] Generating src/mm-daemon-enums-types.c with a custom command (wrapped by meson because command contains newlines, to capture output)
+[37/581] Generating src/mm-port-enums-types.h with a custom command (wrapped by meson because command contains newlines, to capture output)
+[38/581] Compiling C object libqcdm/src/libqcdm-test.a.p/utils.c.o
+[39/581] Compiling C object libqcdm/tests/test-qcdm.p/test-qcdm-crc.c.o
+[40/581] Compiling C object libqcdm/tests/test-qcdm.p/test-qcdm-escaping.c.o
+[41/581] Compiling C object libqcdm/tests/ipv6pref.p/ipv6pref.c.o
+[42/581] Compiling C object libqcdm/tests/reset.p/reset.c.o
+[43/581] Generating src/plugins/mm-telit-enums-types.h with a custom command (wrapped by meson because command contains newlines, to capture output)
+[44/581] Compiling C object libqcdm/tests/test-qcdm.p/test-qcdm-utils.c.o
+[45/581] Compiling C object libqcdm/tests/test-qcdm.p/test-qcdm.c.o
+[46/581] Compiling C object libqcdm/tests/test-qcdm.p/test-qcdm-result.c.o
+[47/581] Generating src/plugins/mm-telit-enums-types.c with a custom command (wrapped by meson because command contains newlines, to capture output)
+[48/581] Compiling C object libqcdm/tests/modepref.p/modepref.c.o
+[49/581] Compiling C object libmm-glib/generated/libmm-generated.a.p/meson-generated_.._mm-errors-types.c.o
+[50/581] Generating src/plugins/mm-ublox-enums-types.h with a custom command (wrapped by meson because command contains newlines, to capture output)
+[51/581] Compiling C object test/lsudev.p/lsudev.c.o
+[52/581] Compiling C object libmm-glib/generated/tests/libmm-test-generated.a.p/meson-generated_.._mm-gdbus-test.c.o
+[53/581] Compiling C object libmm-glib/generated/libmm-generated.a.p/meson-generated_.._mm-errors-quarks.c.o
+[54/581] Compiling C object libmm-glib/generated/libmm-generated.a.p/meson-generated_.._mm-flags-types.c.o
+[55/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-call-audio-format.c.o
+[56/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-bearer-ip-config.c.o
+[57/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-bearer-stats.c.o
+[58/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-call-properties.c.o
+[59/581] Compiling C object libqcdm/src/libqcdm.a.p/commands.c.o
+[60/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-3gpp-profile.c.o
+[61/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-cell-info-cdma.c.o
+[62/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-bearer.c.o
+[63/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-cell-info.c.o
+[64/581] Compiling C object libmm-glib/generated/libmm-generated.a.p/meson-generated_.._mm-enums-types.c.o
+[65/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-bearer-properties.c.o
+[66/581] Compiling C object libqcdm/tests/test-qcdm.p/test-qcdm-com.c.o
+[67/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-cdma-manual-activation-properties.c.o
+[68/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-cbm.c.o
+[69/581] Compiling C object libmm-glib/generated/libmm-generated.a.p/meson-generated_.._mm-gdbus-manager.c.o
+[70/581] Compiling C object libmm-glib/generated/libmm-generated.a.p/meson-generated_.._mm-gdbus-cbm.c.o
+[71/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-cell-info-lte.c.o
+[72/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-helper-types.c.o
+[73/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-cell-info-gsm.c.o
+[74/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-cell-info-tdscdma.c.o
+[75/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-location-cdma-bs.c.o
+[76/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-cell-info-nr5g.c.o
+[77/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-firmware-update-settings.c.o
+[78/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-cell-info-umts.c.o
+[79/581] Compiling C object libmm-glib/generated/libmm-generated.a.p/meson-generated_.._mm-gdbus-bearer.c.o
+[80/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-kernel-event-properties.c.o
+[81/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-location-gps-nmea.c.o
+[82/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-call.c.o
+[83/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-location-3gpp.c.o
+[84/581] Compiling C object libmm-glib/generated/libmm-generated.a.p/meson-generated_.._mm-gdbus-sim.c.o
+[85/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-location-gps-raw.c.o
+[86/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-compat.c.o
+[87/581] Compiling C object libmm-glib/generated/libmm-generated.a.p/meson-generated_.._mm-gdbus-call.c.o
+[88/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-firmware-properties.c.o
+[89/581] Compiling C object libmm-glib/generated/libmm-generated.a.p/meson-generated_.._mm-gdbus-sms.c.o
+[90/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-modem-3gpp-profile-manager.c.o
+[91/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-modem-3gpp-ussd.c.o
+[92/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-network-timezone.c.o
+[93/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-nr5g-registration-settings.c.o
+[94/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-modem-cdma.c.o
+[95/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-manager.c.o
+[96/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-modem-cell-broadcast.c.o
+[97/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-modem-firmware.c.o
+[98/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-modem-oma.c.o
+[99/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-modem-simple.c.o
+[100/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-pco.c.o
+[101/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-modem-time.c.o
+[102/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-signal-threshold-properties.c.o
+[103/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-modem-sar.c.o
+[104/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-modem-messaging.c.o
+[105/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-sim-preferred-network.c.o
+[106/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-unlock-retries.c.o
+[107/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-modem-3gpp.c.o
+[108/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-modem-voice.c.o
+[109/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-modem-location.c.o
+[110/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-network-rejection.c.o
+[111/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-object.c.o
+[112/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-signal.c.o
+[113/581] Linking static target libmm-glib/generated/tests/libmm-test-generated.a
+[114/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-modem-signal.c.o
+[115/581] Compiling C object src/libhelpers.a.p/mm-log-object.c.o
+[116/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-simple-status.c.o
+[117/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-common-helpers.c.o
+[118/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-simple-connect-properties.c.o
+[119/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-sms.c.o
+[120/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-sim.c.o
+[121/581] Compiling C object src/libhelpers.a.p/meson-generated_.._mm-helper-enums-types.c.o
+[122/581] Compiling C object src/libhelpers.a.p/mm-cbm-part.c.o
+[123/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-sms-properties.c.o
+[124/581] Compiling C object src/plugins/libmm-test-common.so.p/tests_test-helpers.c.o
+[125/581] Compiling C object src/libhelpers.a.p/mm-sms-part.c.o
+[126/581] Compiling C object src/plugins/libmm-test-common.so.p/tests_test-fixture.c.o
+[127/581] Compiling C object libmm-glib/libmm-glib.so.0.11.0.p/mm-modem.c.o
+[128/581] Compiling C object src/libkerneldevice.a.p/kerneldevice_mm-kernel-device-helpers.c.o
+[129/581] Compiling C object src/libhelpers.a.p/mm-charsets.c.o
+[130/581] Compiling C object src/libport.a.p/mm-iface-port-at.c.o
+[131/581] Compiling C object src/plugins/libmm-test-common.so.p/tests_test-port-context.c.o
+[132/581] Compiling C object src/libkerneldevice.a.p/kerneldevice_mm-kernel-device.c.o
+[133/581] Compiling C object src/libhelpers.a.p/mm-sms-part-3gpp.c.o
+[134/581] Compiling C object src/libhelpers.a.p/mm-log.c.o
+[135/581] Compiling C object src/libhelpers.a.p/mm-error-helpers.c.o
+[136/581] Compiling C object src/libport.a.p/mm-port-net.c.o
+[137/581] Compiling C object src/libkerneldevice.a.p/kerneldevice_mm-kernel-device-generic-rules.c.o
+[138/581] Compiling C object src/libport.a.p/mm-netlink.c.o
+[139/581] Compiling C object src/libkerneldevice.a.p/kerneldevice_mm-kernel-device-udev.c.o
+[140/581] Compiling C object src/libhelpers.a.p/mm-sms-part-cdma.c.o
+[141/581] Compiling C object src/libport.a.p/mm-port-serial-gps.c.o
+[142/581] Compiling C object src/libport.a.p/mm-port-serial-qcdm.c.o
+[143/581] Compiling C object src/libport.a.p/meson-generated_.._mm-port-enums-types.c.o
+[144/581] Compiling C object src/libhelpers.a.p/mm-modem-helpers-mbim.c.o
+[145/581] Compiling C object src/plugins/libhelpers-shared-sierra.a.p/sierra_mm-modem-helpers-sierra.c.o
+[146/581] Compiling C object src/libport.a.p/mm-port.c.o
+[147/581] Compiling C object src/libport.a.p/mm-serial-parsers.c.o
+[148/581] Linking static target libqcdm/src/libqcdm.a
+[149/581] Compiling C object src/plugins/libhelpers-shared-icera.a.p/icera_mm-modem-helpers-icera.c.o
+[150/581] Compiling C object src/libkerneldevice.a.p/kerneldevice_mm-kernel-device-generic.c.o
+[151/581] Linking static target src/libkerneldevice.a
+[152/581] Compiling C object src/plugins/libhelpers-plugin-altair-lte.a.p/altair_mm-modem-helpers-altair-lte.c.o
+[153/581] Compiling C object src/plugins/libhelpers-shared-quectel.a.p/quectel_mm-modem-helpers-quectel.c.o
+[154/581] Compiling C object src/plugins/libhelpers-plugin-linktop.a.p/linktop_mm-modem-helpers-linktop.c.o
+[155/581] Compiling C object src/plugins/libhelpers-plugin-huawei.a.p/meson-generated_.._mm-huawei-enums-types.c.o
+[156/581] Compiling C object src/libport.a.p/mm-port-serial-at.c.o
+[157/581] Compiling C object src/plugins/libhelpers-plugin-thuraya.a.p/thuraya_mm-modem-helpers-thuraya.c.o
+[158/581] Compiling C object src/plugins/libhelpers-shared-telit.a.p/telit_mm-modem-helpers-telit.c.o
+[159/581] Compiling C object src/plugins/libhelpers-plugin-ericsson-mbm.a.p/mbm_mm-modem-helpers-mbm.c.o
+[160/581] Linking static target src/plugins/libhelpers-shared-icera.a
+[161/581] Compiling C object src/libport.a.p/mm-port-mbim.c.o
+[162/581] Compiling C object src/libport.a.p/mm-port-serial.c.o
+[163/581] Compiling C object libmm-glib/tests/test-pco.p/test-pco.c.o
+[164/581] Compiling C object src/plugins/libhelpers-shared-xmm.a.p/xmm_mm-modem-helpers-xmm.c.o
+[165/581] Compiling C object src/plugins/libhelpers-plugin-simtech.a.p/simtech_mm-modem-helpers-simtech.c.o
+[166/581] Compiling C object src/libhelpers.a.p/mm-modem-helpers-qmi.c.o
+[167/581] Compiling C object src/plugins/libhelpers-plugin-huawei.a.p/huawei_mm-modem-helpers-huawei.c.o
+[168/581] Compiling C object src/plugins/libmm-shared-fibocom.so.p/fibocom_mm-shared.c.o
+[169/581] Compiling C object src/plugins/libmm-shared-fibocom.so.p/fibocom_mm-broadband-bearer-fibocom-ecm.c.o
+[170/581] Compiling C object src/plugins/test-shared-icera.p/icera_tests_test-modem-helpers-icera.c.o
+[171/581] Compiling C object src/plugins/libhelpers-plugin-ublox.a.p/ublox_mm-modem-helpers-ublox.c.o
+[172/581] Compiling C object src/plugins/libmm-shared-fibocom.so.p/fibocom_mm-broadband-modem-fibocom.c.o
+[173/581] Compiling C object src/plugins/libmm-shared-fibocom.so.p/fibocom_mm-broadband-modem-mbim-fibocom.c.o
+[174/581] Linking static target src/plugins/libhelpers-shared-sierra.a
+[175/581] Compiling C object src/plugins/libmm-shared-foxconn.so.p/foxconn_mm-broadband-modem-mbim-foxconn.c.o
+[176/581] Compiling C object src/plugins/libmm-shared-foxconn.so.p/foxconn_mm-shared.c.o
+[177/581] Compiling C object src/plugins/libmm-shared-fibocom.so.p/fibocom_mm-shared-fibocom.c.o
+[178/581] Compiling C object src/libport.a.p/mm-port-qmi.c.o
+[179/581] Compiling C object libmm-glib/tests/test-common-helpers.p/test-common-helpers.c.o
+[180/581] Linking static target src/libport.a
+[181/581] Compiling C object src/plugins/libmm-shared-fibocom.so.p/fibocom_mm-port-mbim-fibocom.c.o
+[182/581] Linking static target src/plugins/libhelpers-shared-telit.a
+[183/581] Compiling C object src/plugins/libmm-shared-mtk.so.p/mtk_mm-shared-mtk.c.o
+[184/581] Compiling C object src/plugins/libmm-shared-icera.so.p/icera_mm-shared.c.o
+[185/581] Compiling C object src/plugins/libmm-shared-mtk.so.p/mtk_mm-shared.c.o
+[186/581] Compiling C object src/libhelpers.a.p/mm-modem-helpers.c.o
+[187/581] Linking static target src/libhelpers.a
+[188/581] Compiling C object src/plugins/libhelpers-plugin-cinterion.a.p/cinterion_mm-modem-helpers-cinterion.c.o
+[189/581] Compiling C object src/plugins/libmm-shared-icera.so.p/icera_mm-broadband-bearer-icera.c.o
+[190/581] Compiling C object src/plugins/libmm-shared-telit.so.p/meson-generated_.._mm-telit-enums-types.c.o
+[191/581] Linking static target src/plugins/libhelpers-shared-xmm.a
+[192/581] Compiling C object src/plugins/libmm-shared-novatel.so.p/novatel_mm-common-novatel.c.o
+[193/581] Compiling C object src/plugins/libmm-shared-option.so.p/option_mm-shared.c.o
+[194/581] Compiling C object src/plugins/test-shared-sierra.p/sierra_tests_test-modem-helpers-sierra.c.o
+[195/581] Compiling C object src/plugins/libmm-shared-novatel.so.p/novatel_mm-broadband-modem-novatel.c.o
+[196/581] Compiling C object src/plugins/libmm-shared-novatel.so.p/novatel_mm-shared.c.o
+[197/581] Compiling C object src/plugins/libmm-shared-option.so.p/option_mm-sim-option.c.o
+[198/581] Linking static target src/plugins/libhelpers-shared-quectel.a
+[199/581] Compiling C object src/plugins/libmm-shared-option.so.p/option_mm-shared-option.c.o
+[200/581] Compiling C object src/plugins/libmm-shared-icera.so.p/icera_mm-broadband-modem-icera.c.o
+[201/581] Compiling C object src/plugins/libmm-shared-option.so.p/option_mm-broadband-modem-option.c.o
+[202/581] Compiling C object src/plugins/libmm-shared-sierra.so.p/sierra_mm-shared.c.o
+[203/581] Compiling C object src/plugins/libmm-shared-sierra.so.p/sierra_mm-common-sierra.c.o
+[204/581] Compiling C object src/plugins/test-shared-telit.p/telit_tests_test-mm-modem-helpers-telit.c.o
+[205/581] Linking static target src/plugins/libhelpers-plugin-altair-lte.a
+[206/581] Compiling C object src/plugins/libmm-shared-telit.so.p/telit_mm-common-telit.c.o
+[207/581] Compiling C object src/plugins/libmm-shared-telit.so.p/telit_mm-broadband-modem-mbim-telit.c.o
+[208/581] Compiling C object src/plugins/libmm-shared-telit.so.p/telit_mm-shared.c.o
+[209/581] Compiling C object src/plugins/libmm-shared-xmm.so.p/xmm_mm-broadband-modem-xmm.c.o
+[210/581] Compiling C object src/plugins/libmm-shared-xmm.so.p/xmm_mm-shared.c.o
+[211/581] Compiling C object src/plugins/libmm-shared-telit.so.p/telit_mm-shared-telit.c.o
+[212/581] Compiling C object src/plugins/libmm-shared-sierra.so.p/sierra_mm-broadband-bearer-sierra.c.o
+[213/581] Compiling C object src/plugins/libmm-shared-sierra.so.p/sierra_mm-sim-sierra.c.o
+[214/581] Linking static target src/plugins/libhelpers-plugin-cinterion.a
+[215/581] Compiling C object src/plugins/test-shared-quectel.p/quectel_tests_test-modem-helpers-quectel.c.o
+[216/581] Compiling C object src/plugins/test-shared-xmm.p/xmm_tests_test-modem-helpers-xmm.c.o
+[217/581] Compiling C object src/plugins/libmm-shared-sierra.so.p/sierra_mm-broadband-modem-sierra.c.o
+[218/581] Compiling C object src/plugins/libmm-shared-xmm.so.p/xmm_mm-broadband-modem-mbim-xmm.c.o
+[219/581] Compiling C object src/plugins/libmm-shared-telit.so.p/telit_mm-broadband-modem-telit.c.o
+[220/581] Compiling C object src/plugins/test-plugin-altair-lte.p/altair_tests_test-modem-helpers-altair-lte.c.o
+[221/581] Compiling C object src/plugins/libmm-shared-quectel.so.p/quectel_mm-broadband-modem-quectel.c.o
+[222/581] Compiling C object src/plugins/libmm-shared-quectel.so.p/quectel_mm-shared.c.o
+[223/581] Compiling C object src/plugins/libmm-shared-quectel.so.p/quectel_mm-broadband-modem-mbim-quectel.c.o
+[224/581] Compiling C object src/plugins/libmm-shared-quectel.so.p/quectel_mm-port-mbim-quectel.c.o
+[225/581] Compiling C object src/plugins/libmm-shared-quectel.so.p/quectel_mm-broadband-modem-qmi-quectel.c.o
+[226/581] Compiling C object src/plugins/libmm-plugin-altair-lte.so.p/altair_mm-broadband-bearer-altair-lte.c.o
+[227/581] Compiling C object src/plugins/libmm-shared-xmm.so.p/xmm_mm-shared-xmm.c.o
+[228/581] Compiling C object src/plugins/libmm-plugin-altair-lte.so.p/altair_mm-plugin-altair-lte.c.o
+[229/581] Compiling C object src/plugins/libmm-shared-quectel.so.p/quectel_mm-shared-quectel.c.o
+[230/581] Compiling C object src/plugins/libmm-plugin-anydata.so.p/anydata_mm-broadband-modem-anydata.c.o
+[231/581] Compiling C object src/plugins/libmm-plugin-cellient.so.p/cellient_mm-plugin-cellient.c.o
+[232/581] Linking static target src/plugins/libhelpers-plugin-huawei.a
+[233/581] Compiling C object src/plugins/libmm-plugin-cinterion.so.p/cinterion_mm-broadband-modem-mbim-cinterion.c.o
+[234/581] Compiling C object src/plugins/libmm-plugin-cinterion.so.p/cinterion_mm-plugin-cinterion.c.o
+[235/581] Compiling C object src/plugins/libmm-plugin-altair-lte.so.p/altair_mm-broadband-modem-altair-lte.c.o
+[236/581] Compiling C object src/plugins/libmm-plugin-anydata.so.p/anydata_mm-plugin-anydata.c.o
+[237/581] Compiling C object src/plugins/libmm-plugin-cinterion.so.p/cinterion_mm-broadband-modem-qmi-cinterion.c.o
+[238/581] Compiling C object src/plugins/test-plugin-generic.p/generic_tests_test-service-generic.c.o
+[239/581] Compiling C object src/plugins/libmm-plugin-cinterion.so.p/cinterion_mm-broadband-bearer-cinterion.c.o
+[240/581] Compiling C object src/plugins/libmm-plugin-dlink.so.p/dlink_mm-plugin-dlink.c.o
+[241/581] Compiling C object src/plugins/libmm-plugin-huawei.so.p/meson-generated_.._mm-huawei-enums-types.c.o
+[242/581] Compiling C object src/plugins/libmm-plugin-dell.so.p/dell_mm-plugin-dell.c.o
+[243/581] Compiling C object src/plugins/libmm-plugin-broadmobi.so.p/broadmobi_mm-plugin-broadmobi.c.o
+[244/581] Compiling C object src/plugins/libmm-plugin-foxconn.so.p/foxconn_mm-plugin-foxconn.c.o
+[245/581] Linking static target src/plugins/libhelpers-plugin-linktop.a
+[246/581] Compiling C object src/plugins/libmm-plugin-fibocom.so.p/fibocom_mm-plugin-fibocom.c.o
+[247/581] Compiling C object src/plugins/libmm-plugin-generic.so.p/generic_mm-plugin-generic.c.o
+[248/581] Compiling C object src/plugins/libmm-plugin-fibocom.so.p/fibocom_mm-broadband-modem-mbim-xmm-fibocom.c.o
+[249/581] Compiling C object src/plugins/libmm-plugin-haier.so.p/haier_mm-plugin-haier.c.o
+[250/581] Compiling C object src/plugins/libmm-plugin-cinterion.so.p/cinterion_mm-shared-cinterion.c.o
+[251/581] Linking static target src/plugins/libhelpers-plugin-ericsson-mbm.a
+[252/581] Compiling C object src/plugins/libmm-plugin-gosuncn.so.p/gosuncn_mm-plugin-gosuncn.c.o
+[253/581] Compiling C object src/plugins/libmm-plugin-huawei.so.p/huawei_mm-sim-huawei.c.o
+[254/581] Compiling C object src/plugins/test-plugin-huawei.p/huawei_tests_test-modem-helpers-huawei.c.o
+[255/581] Compiling C object src/plugins/test-plugin-linktop.p/linktop_tests_test-modem-helpers-linktop.c.o
+[256/581] Compiling C object src/plugins/libmm-plugin-huawei.so.p/huawei_mm-plugin-huawei.c.o
+[257/581] Compiling C object src/plugins/libmm-plugin-intel.so.p/intel_mm-broadband-modem-mbim-intel.c.o
+[258/581] Compiling C object src/plugins/libmm-plugin-intel.so.p/intel_mm-plugin-intel.c.o
+[259/581] Compiling C object src/plugins/test-plugin-cinterion.p/cinterion_tests_test-modem-helpers-cinterion.c.o
+[260/581] Compiling C object src/plugins/libmm-plugin-iridium.so.p/iridium_mm-bearer-iridium.c.o
+[261/581] Compiling C object src/plugins/libmm-plugin-iridium.so.p/iridium_mm-plugin-iridium.c.o
+[262/581] Compiling C object src/plugins/libmm-plugin-iridium.so.p/iridium_mm-broadband-modem-iridium.c.o
+[263/581] Compiling C object src/plugins/libmm-plugin-huawei.so.p/huawei_mm-broadband-bearer-huawei.c.o
+[264/581] Compiling C object src/plugins/libmm-plugin-iridium.so.p/iridium_mm-sim-iridium.c.o
+[265/581] Compiling C object src/plugins/libmm-plugin-linktop.so.p/linktop_mm-broadband-modem-linktop.c.o
+[266/581] Compiling C object src/plugins/test-plugin-ericsson-mbm.p/mbm_tests_test-modem-helpers-mbm.c.o
+[267/581] Compiling C object src/plugins/libmm-plugin-longcheer.so.p/longcheer_mm-plugin-longcheer.c.o
+[268/581] Compiling C object src/plugins/libmm-plugin-linktop.so.p/linktop_mm-plugin-linktop.c.o
+[269/581] Compiling C object src/plugins/libmm-plugin-cinterion.so.p/cinterion_mm-broadband-modem-cinterion.c.o
+[270/581] Compiling C object src/plugins/libmm-plugin-longcheer.so.p/longcheer_mm-broadband-modem-longcheer.c.o
+[271/581] Compiling C object src/plugins/libmm-plugin-ericsson-mbm.so.p/mbm_mm-plugin-mbm.c.o
+[272/581] Compiling C object src/plugins/libmm-plugin-motorola.so.p/motorola_mm-broadband-modem-motorola.c.o
+[273/581] Compiling C object src/plugins/libmm-plugin-motorola.so.p/motorola_mm-plugin-motorola.c.o
+[274/581] Compiling C object src/plugins/libmm-plugin-ericsson-mbm.so.p/mbm_mm-sim-mbm.c.o
+[275/581] Compiling C object src/plugins/libmm-plugin-mtk-legacy.so.p/mtk_mm-plugin-mtk-legacy.c.o
+[276/581] Compiling C object src/plugins/libmm-plugin-mtk.so.p/mtk_mm-bearer-mbim-mtk-fibocom.c.o
+[277/581] Compiling C object src/plugins/libmm-plugin-mtk.so.p/mtk_mm-plugin-mtk.c.o
+[278/581] Compiling C object src/plugins/libmm-plugin-mtk.so.p/mtk_mm-broadband-modem-mbim-mtk.c.o
+[279/581] Compiling C object src/plugins/libmm-plugin-ericsson-mbm.so.p/mbm_mm-broadband-bearer-mbm.c.o
+[280/581] Compiling C object src/plugins/libmm-plugin-mtk-legacy.so.p/mtk_mm-broadband-modem-mtk-legacy.c.o
+[281/581] Compiling C object src/plugins/libmm-plugin-nokia.so.p/nokia_mm-broadband-modem-nokia.c.o
+[282/581] Compiling C object src/plugins/libmm-plugin-nokia.so.p/nokia_mm-plugin-nokia.c.o
+[283/581] Compiling C object src/plugins/libmm-plugin-nokia-icera.so.p/nokia_mm-plugin-nokia-icera.c.o
+[284/581] Compiling C object src/plugins/libmm-plugin-mtk.so.p/mtk_mm-broadband-modem-mbim-mtk-fibocom.c.o
+[285/581] Compiling C object src/plugins/libmm-plugin-novatel.so.p/novatel_mm-plugin-novatel.c.o
+[286/581] Compiling C object src/plugins/libmm-plugin-ericsson-mbm.so.p/mbm_mm-broadband-modem-mbm.c.o
+[287/581] Compiling C object src/plugins/libmm-plugin-nokia.so.p/nokia_mm-sim-nokia.c.o
+[288/581] Compiling C object src/plugins/libmm-plugin-novatel-lte.so.p/novatel_mm-plugin-novatel-lte.c.o
+[289/581] Linking static target src/plugins/libhelpers-plugin-simtech.a
+[290/581] Compiling C object src/plugins/libmm-plugin-novatel-lte.so.p/novatel_mm-broadband-modem-novatel-lte.c.o
+[291/581] Compiling C object src/plugins/libmm-plugin-novatel-lte.so.p/novatel_mm-broadband-bearer-novatel-lte.c.o
+[292/581] Compiling C object src/plugins/libmm-plugin-option.so.p/option_mm-plugin-option.c.o
+[293/581] Compiling C object src/plugins/libmm-plugin-novatel-lte.so.p/novatel_mm-sim-novatel-lte.c.o
+[294/581] Compiling C object src/plugins/libmm-plugin-huawei.so.p/huawei_mm-broadband-modem-huawei.c.o
+[295/581] Compiling C object src/plugins/libmm-plugin-pantech.so.p/pantech_mm-plugin-pantech.c.o
+[296/581] Compiling C object src/plugins/libmm-plugin-pantech.so.p/pantech_mm-broadband-modem-pantech.c.o
+[297/581] Linking static target src/plugins/libhelpers-plugin-thuraya.a
+[298/581] Compiling C object src/plugins/libmm-plugin-option-hso.so.p/option_mm-plugin-hso.c.o
+[299/581] Compiling C object src/plugins/libmm-plugin-qcom-soc.so.p/qcom-soc_mm-broadband-modem-qmi-qcom-soc.c.o
+[300/581] Compiling C object src/plugins/libmm-plugin-option-hso.so.p/option_mm-broadband-modem-hso.c.o
+[301/581] Compiling C object src/plugins/libmm-plugin-pantech.so.p/pantech_mm-sim-pantech.c.o
+[302/581] Linking static target src/plugins/libhelpers-plugin-ublox.a
+[303/581] Compiling C object src/plugins/libmm-plugin-option-hso.so.p/option_mm-broadband-bearer-hso.c.o
+[304/581] Compiling C object src/plugins/libmm-plugin-quectel.so.p/quectel_mm-plugin-quectel.c.o
+[305/581] Compiling C object src/plugins/libmm-plugin-rolling.so.p/rolling_mm-plugin-rolling.c.o
+[306/581] Compiling C object src/plugins/libmm-plugin-sierra-legacy.so.p/sierra_mm-plugin-sierra-legacy.c.o
+[307/581] Compiling C object src/plugins/libmm-plugin-samsung.so.p/samsung_mm-broadband-modem-samsung.c.o
+[308/581] Compiling C object src/plugins/libmm-plugin-sierra-legacy.so.p/sierra_mm-broadband-modem-sierra-icera.c.o
+[309/581] Compiling C object src/plugins/libmm-plugin-qcom-soc.so.p/qcom-soc_mm-plugin-qcom-soc.c.o
+[310/581] Compiling C object src/plugins/libmm-plugin-samsung.so.p/samsung_mm-plugin-samsung.c.o
+[311/581] Compiling C object src/plugins/libmm-plugin-simtech.so.p/simtech_mm-plugin-simtech.c.o
+[312/581] Compiling C object src/plugins/libmm-plugin-ublox.so.p/meson-generated_.._mm-ublox-enums-types.c.o
+[313/581] Compiling C object src/plugins/libmm-plugin-sierra.so.p/sierra_mm-plugin-sierra.c.o
+[314/581] Compiling C object src/plugins/test-plugin-thuraya.p/thuraya_tests_test-mm-modem-helpers-thuraya.c.o
+[315/581] Compiling C object src/plugins/libmm-plugin-thuraya.so.p/thuraya_mm-plugin-thuraya.c.o
+[316/581] Compiling C object src/plugins/libmm-plugin-simtech.so.p/simtech_mm-broadband-modem-qmi-simtech.c.o
+[317/581] Compiling C object src/plugins/libmm-plugin-thuraya.so.p/thuraya_mm-broadband-modem-thuraya.c.o
+[318/581] Compiling C object src/plugins/libmm-plugin-simtech.so.p/simtech_mm-broadband-modem-simtech.c.o
+[319/581] Compiling C object src/plugins/test-plugin-simtech.p/simtech_tests_test-modem-helpers-simtech.c.o
+[320/581] Compiling C object src/plugins/libmm-plugin-telit.so.p/telit_mm-plugin-telit.c.o
+[321/581] Compiling C object src/plugins/libmm-plugin-tplink.so.p/tplink_mm-plugin-tplink.c.o
+[322/581] Compiling C object src/plugins/libmm-plugin-ublox.so.p/ublox_mm-plugin-ublox.c.o
+[323/581] Compiling C object src/plugins/libmm-plugin-simtech.so.p/simtech_mm-shared-simtech.c.o
+[324/581] Compiling C object src/plugins/libmm-plugin-ublox.so.p/ublox_mm-sim-ublox.c.o
+[325/581] Compiling C object src/plugins/libmm-plugin-via.so.p/via_mm-broadband-modem-via.c.o
+[326/581] Compiling C object src/plugins/test-keyfiles.p/tests_test-keyfiles.c.o
+[327/581] Compiling C object src/plugins/libmm-plugin-wavecom.so.p/wavecom_mm-plugin-wavecom.c.o
+[328/581] Compiling C object src/plugins/libmm-plugin-via.so.p/via_mm-plugin-via.c.o
+[329/581] Compiling C object src/plugins/libmm-plugin-x22x.so.p/x22x_mm-broadband-modem-x22x.c.o
+[330/581] Compiling C object src/plugins/test-plugin-ublox.p/ublox_tests_test-modem-helpers-ublox.c.o
+[331/581] Compiling C object src/plugins/test-udev-rules.p/tests_test-udev-rules.c.o
+[332/581] Compiling C object src/plugins/libmm-plugin-x22x.so.p/x22x_mm-plugin-x22x.c.o
+[333/581] Compiling C object libmm-glib/generated/libmm-generated.a.p/meson-generated_.._mm-gdbus-modem.c.o
+[334/581] Linking static target libmm-glib/generated/libmm-generated.a
+[335/581] Compiling C object src/ModemManager.p/mm-auth-provider.c.o
+[336/581] Compiling C object src/plugins/libmm-plugin-ublox.so.p/ublox_mm-broadband-bearer-ublox.c.o
+[337/581] Compiling C object src/plugins/libmm-plugin-ublox.so.p/ublox_mm-broadband-modem-ublox.c.o
+[338/581] Linking target libmm-glib/libmm-glib.so.0.11.0
+[339/581] Compiling C object src/plugins/libmm-plugin-zte.so.p/zte_mm-common-zte.c.o
+[340/581] Compiling C object src/plugins/libmm-plugin-netprisma.so.p/netprisma_mm-plugin-netprisma.c.o
+[341/581] Compiling C object src/plugins/libmm-plugin-zte.so.p/zte_mm-plugin-zte.c.o
+[342/581] Compiling C object src/plugins/libmm-plugin-wavecom.so.p/wavecom_mm-broadband-modem-wavecom.c.o
+[343/581] Compiling C object src/plugins/libmm-plugin-zte.so.p/zte_mm-broadband-modem-zte.c.o
+[344/581] Compiling C object src/ModemManager.p/meson-generated_.._mm-daemon-enums-types.c.o
+[345/581] Compiling C object src/plugins/libmm-plugin-zte.so.p/zte_mm-broadband-modem-zte-icera.c.o
+[346/581] Compiling C object src/ModemManager.p/main.c.o
+[347/581] Generating symbol file libmm-glib/libmm-glib.so.0.11.0.p/libmm-glib.so.0.11.0.symbols
+[348/581] Compiling C object src/ModemManager.p/mm-dispatcher.c.o
+[349/581] Linking target src/plugins/libmm-test-common.so
+[350/581] Compiling C object src/ModemManager.p/mm-base-cbm.c.o
+[351/581] Compiling C object src/ModemManager.p/mm-dispatcher-connection.c.o
+[352/581] Compiling C object src/ModemManager.p/mm-call-list.c.o
+[353/581] Compiling C object src/ModemManager.p/mm-dispatcher-modem-setup.c.o
+[354/581] Compiling C object src/ModemManager.p/mm-dispatcher-fcc-unlock.c.o
+[355/581] Compiling C object src/ModemManager.p/mm-base-call.c.o
+[356/581] Compiling C object src/ModemManager.p/mm-cbm-list.c.o
+[357/581] Compiling C object src/ModemManager.p/mm-base-bearer.c.o
+[358/581] Compiling C object src/ModemManager.p/mm-base-modem-at.c.o
+[359/581] Compiling C object src/ModemManager.p/mm-bearer-list.c.o
+[360/581] Compiling C object src/ModemManager.p/mm-context.c.o
+[361/581] Generating symbol file src/plugins/libmm-test-common.so.p/libmm-test-common.so.symbols
+[362/581] Compiling C object src/ModemManager.p/mm-base-manager.c.o
+[363/581] Compiling C object src/ModemManager.p/mm-device.c.o
+[364/581] Compiling C object src/ModemManager.p/mm-filter.c.o
+[365/581] Compiling C object src/ModemManager.p/mm-base-sms.c.o
+[366/581] Compiling C object src/ModemManager.p/mm-broadband-bearer.c.o
+[367/581] Compiling C object src/ModemManager.p/mm-base-sim.c.o
+[368/581] Compiling C object src/ModemManager.p/mm-iface-modem-firmware.c.o
+[369/581] Compiling C object src/ModemManager.p/mm-base-modem.c.o
+[370/581] Compiling C object src/ModemManager.p/mm-iface-modem-cell-broadcast.c.o
+[371/581] Compiling C object src/ModemManager.p/mm-log-helpers.c.o
+[372/581] Compiling C object src/ModemManager.p/mm-iface-modem-3gpp-ussd.c.o
+[373/581] Compiling C object src/ModemManager.p/mm-iface-modem-signal.c.o
+[374/581] Compiling C object src/ModemManager.p/mm-iface-modem-simple.c.o
+[375/581] Compiling C object src/ModemManager.p/mm-iface-modem-3gpp-profile-manager.c.o
+[376/581] Compiling C object src/ModemManager.p/mm-iface-modem-sar.c.o
+[377/581] Compiling C object src/ModemManager.p/mm-private-boxed-types.c.o
+[378/581] Compiling C object src/ModemManager.p/mm-iface-modem-oma.c.o
+[379/581] Compiling C object src/ModemManager.p/mm-iface-modem-cdma.c.o
+[380/581] Compiling C object src/ModemManager.p/mm-sleep-context.c.o
+[381/581] Compiling C object src/ModemManager.p/mm-sleep-monitor-systemd.c.o
+[382/581] Compiling C object src/ModemManager.p/mm-iface-modem-location.c.o
+[383/581] Compiling C object src/ModemManager.p/mm-iface-modem-messaging.c.o
+[384/581] Compiling C object src/ModemManager.p/mm-iface-modem-time.c.o
+[385/581] Compiling C object src/ModemManager.p/mm-port-probe-at.c.o
+[386/581] Compiling C object src/ModemManager.p/mm-plugin.c.o
+[387/581] Compiling C object src/tests/test-at-serial-port.p/test-at-serial-port.c.o
+[388/581] Compiling C object src/ModemManager.p/mm-sms-qmi.c.o
+[389/581] Compiling C object src/ModemManager.p/mm-plugin-manager.c.o
+[390/581] Compiling C object src/ModemManager.p/mm-iface-modem-3gpp.c.o
+[391/581] Compiling C object src/ModemManager.p/mm-iface-modem-voice.c.o
+[392/581] Compiling C object src/tests/test-cbm-part.p/test-cbm-part.c.o
+[393/581] Compiling C object src/tests/test-charsets.p/test-charsets.c.o
+[394/581] Compiling C object src/ModemManager.p/mm-sms-mbim.c.o
+[395/581] Compiling C object src/tests/test-kernel-device-helpers.p/test-kernel-device-helpers.c.o
+[396/581] Compiling C object src/ModemManager.p/mm-sms-list.c.o
+[397/581] Compiling C object src/ModemManager.p/mm-call-qmi.c.o
+[398/581] Compiling C object src/tests/test-udev-rules.p/test-udev-rules.c.o
+[399/581] Compiling C object src/ModemManager.p/mm-port-probe.c.o
+[400/581] Compiling C object src/tests/test-sms-part-3gpp.p/test-sms-part-3gpp.c.o
+[401/581] Compiling C object src/ModemManager.p/mm-sim-mbim.c.o
+[402/581] Compiling C object src/tests/test-sms-part-cdma.p/test-sms-part-cdma.c.o
+[403/581] Compiling C object src/tests/test-error-helpers.p/test-error-helpers.c.o
+[404/581] Compiling C object src/ModemManager.p/mm-bearer-mbim.c.o
+[405/581] Compiling C object src/tests/test-qcdm-serial-port.p/test-qcdm-serial-port.c.o
+[406/581] Compiling C object cli/mmcli.p/mmcli.c.o
+[407/581] Compiling C object src/ModemManager.p/mm-sim-qmi.c.o
+[408/581] Compiling C object cli/mmcli.p/mmcli-cbm.c.o
+[409/581] Compiling C object cli/mmcli.p/mmcli-bearer.c.o
+[410/581] Compiling C object src/tests/test-modem-helpers-mbim.p/test-modem-helpers-mbim.c.o
+[411/581] Compiling C object src/ModemManager.p/mm-bearer-qmi.c.o
+[412/581] Compiling C object cli/mmcli.p/mmcli-call.c.o
+[413/581] Compiling C object cli/mmcli.p/mmcli-manager.c.o
+[414/581] Compiling C object cli/mmcli.p/mmcli-modem-3gpp-profile-manager.c.o
+[415/581] Compiling C object cli/mmcli.p/mmcli-modem-3gpp-ussd.c.o
+[416/581] Compiling C object cli/mmcli.p/mmcli-modem-cdma.c.o
+[417/581] Compiling C object cli/mmcli.p/mmcli-modem-3gpp.c.o
+[418/581] Compiling C object cli/mmcli.p/mmcli-modem-cell-broadcast.c.o
+[419/581] Compiling C object src/ModemManager.p/mm-iface-modem.c.o
+[420/581] Compiling C object cli/mmcli.p/mmcli-modem-oma.c.o
+[421/581] Compiling C object cli/mmcli.p/mmcli-modem-sar.c.o
+[422/581] Compiling C object cli/mmcli.p/mmcli-modem-firmware.c.o
+[423/581] Compiling C object cli/mmcli.p/mmcli-modem-location.c.o
+[424/581] Compiling C object src/tests/test-modem-helpers-qmi.p/test-modem-helpers-qmi.c.o
+[425/581] Compiling C object cli/mmcli.p/mmcli-common.c.o
+[426/581] Compiling C object cli/mmcli.p/mmcli-modem-messaging.c.o
+[427/581] Compiling C object cli/mmcli.p/mmcli-modem.c.o
+[428/581] Building translation po/cs/LC_MESSAGES/ModemManager-cs.mo
+[429/581] Compiling C object cli/mmcli.p/mmcli-modem-simple.c.o
+[430/581] Building translation po/ca/LC_MESSAGES/ModemManager-ca.mo
+[431/581] Building translation po/da/LC_MESSAGES/ModemManager-da.mo
+[432/581] Building translation po/de/LC_MESSAGES/ModemManager-de.mo
+[433/581] Compiling C object cli/mmcli.p/mmcli-modem-signal.c.o
+[434/581] Building translation po/fi/LC_MESSAGES/ModemManager-fi.mo
+[435/581] Compiling C object cli/mmcli.p/mmcli-modem-time.c.o
+[436/581] Building translation po/fr/LC_MESSAGES/ModemManager-fr.mo
+[437/581] Building translation po/fur/LC_MESSAGES/ModemManager-fur.mo
+[438/581] Building translation po/gl/LC_MESSAGES/ModemManager-gl.mo
+[439/581] Building translation po/he/LC_MESSAGES/ModemManager-he.mo
+[440/581] Building translation po/hu/LC_MESSAGES/ModemManager-hu.mo
+[441/581] Building translation po/id/LC_MESSAGES/ModemManager-id.mo
+[442/581] Building translation po/it/LC_MESSAGES/ModemManager-it.mo
+[443/581] Building translation po/lt/LC_MESSAGES/ModemManager-lt.mo
+[444/581] Building translation po/ka/LC_MESSAGES/ModemManager-ka.mo
+[445/581] Building translation po/pl/LC_MESSAGES/ModemManager-pl.mo
+[446/581] Building translation po/nl/LC_MESSAGES/ModemManager-nl.mo
+[447/581] Building translation po/ru/LC_MESSAGES/ModemManager-ru.mo
+[448/581] Building translation po/pt_BR/LC_MESSAGES/ModemManager-pt_BR.mo
+[449/581] Building translation po/sv/LC_MESSAGES/ModemManager-sv.mo
+[450/581] Building translation po/sk/LC_MESSAGES/ModemManager-sk.mo
+[451/581] Building translation po/tr/LC_MESSAGES/ModemManager-tr.mo
+[452/581] Building translation po/uk/LC_MESSAGES/ModemManager-uk.mo
+[453/581] Building translation po/zh_CN/LC_MESSAGES/ModemManager-zh_CN.mo
+[454/581] Linking static target libqcdm/src/libqcdm-test.a
+[455/581] Compiling C object test/mmrules.p/mmrules.c.o
+[456/581] Compiling C object cli/mmcli.p/mmcli-sms.c.o
+[457/581] Linking target libqcdm/tests/modepref
+[458/581] Linking target libqcdm/tests/reset
+[459/581] Linking target libqcdm/tests/test-qcdm
+[460/581] Compiling C object test/mmcbmmonitor.p/mmcbmmonitor.c.o
+[461/581] Compiling C object test/mmsmsmonitor.p/mmsmsmonitor.c.o
+[462/581] Linking target libqcdm/tests/ipv6pref
+[463/581] Compiling C object test/mmsmspdu.p/mmsmspdu.c.o
+[464/581] Compiling C object cli/mmcli.p/mmcli-modem-voice.c.o
+[465/581] Compiling C object cli/mmcli.p/mmcli-sim.c.o
+[466/581] Generating gdbus docbook libmm-glib/generated/mm-gdbus-bearer-docbook
+[467/581] Generating gdbus docbook libmm-glib/generated/mm-gdbus-manager-docbook
+[468/581] Generating gdbus docbook libmm-glib/generated/mm-gdbus-cbm-docbook
+[469/581] Generating gdbus docbook libmm-glib/generated/mm-gdbus-call-docbook
+[470/581] Compiling C object test/mmtty.p/mmtty.c.o
+[471/581] Copying file data/@BASENAME@
+[472/581] Compiling C object examples/sms-c/sms-c-sync.p/sms-c-sync.c.o
+[473/581] Linking target libmm-glib/tests/test-common-helpers
+[474/581] Merging translations for data/org.freedesktop.ModemManager1.policy
+[475/581] Generating gdbus docbook libmm-glib/generated/mm-gdbus-sim-docbook
+[476/581] Compiling C object examples/sms-c/sms-c-async.p/sms-c-async.c.o
+[477/581] Compiling C object tools/tests/test-stub.p/test-stub.c.o
+[478/581] Linking target src/plugins/libmm-shared-fibocom.so
+[479/581] Generating gdbus docbook libmm-glib/generated/mm-gdbus-sms-docbook
+[480/581] Linking target libmm-glib/tests/test-pco
+[481/581] Linking target src/plugins/libmm-shared-icera.so
+[482/581] Generating gdbus docbook libmm-glib/generated/mm-gdbus-modem-docbook
+[483/581] Linking target src/plugins/test-shared-icera
+[484/581] Linking target src/plugins/libmm-shared-option.so
+[485/581] Linking target src/plugins/libmm-shared-novatel.so
+[486/581] Linking target src/plugins/libmm-shared-foxconn.so
+[487/581] Linking target src/plugins/libmm-shared-mtk.so
+[488/581] Linking target src/plugins/test-shared-sierra
+[489/581] Linking target src/plugins/libmm-plugin-broadmobi.so
+[490/581] Linking target src/plugins/libmm-plugin-cellient.so
+[491/581] Linking target src/plugins/test-shared-xmm
+[492/581] Linking target src/plugins/libmm-shared-sierra.so
+[493/581] Linking target src/plugins/libmm-shared-quectel.so
+[494/581] Linking target src/plugins/libmm-plugin-altair-lte.so
+[495/581] Linking target src/plugins/test-shared-quectel
+[496/581] Linking target src/plugins/libmm-shared-telit.so
+[497/581] Linking target src/plugins/test-shared-telit
+[498/581] Linking target src/plugins/libmm-shared-xmm.so
+[499/581] Linking target src/plugins/libmm-plugin-foxconn.so
+[500/581] Linking target src/plugins/test-plugin-altair-lte
+[501/581] Linking target src/plugins/libmm-plugin-anydata.so
+[502/581] Linking target src/plugins/libmm-plugin-dlink.so
+[503/581] Linking target src/plugins/libmm-plugin-generic.so
+[504/581] Linking target src/plugins/libmm-plugin-gosuncn.so
+[505/581] Linking target src/plugins/libmm-plugin-cinterion.so
+[506/581] Linking target src/plugins/libmm-plugin-fibocom.so
+[507/581] Linking target src/plugins/libmm-plugin-haier.so
+[508/581] Compiling C object src/ModemManager.p/mm-shared-qmi.c.o
+[509/581] Linking target src/plugins/libmm-plugin-intel.so
+[510/581] Linking target src/plugins/test-plugin-huawei
+[511/581] Linking target src/plugins/test-plugin-cinterion
+[512/581] Linking target src/plugins/test-plugin-generic
+[513/581] Linking target src/plugins/libmm-plugin-dell.so
+[514/581] Linking target src/plugins/libmm-plugin-iridium.so
+[515/581] Linking target src/plugins/libmm-plugin-linktop.so
+[516/581] Linking target src/plugins/libmm-plugin-ericsson-mbm.so
+[517/581] Linking target src/plugins/libmm-plugin-motorola.so
+[518/581] Linking target src/plugins/test-plugin-ericsson-mbm
+[519/581] Linking target src/plugins/libmm-plugin-mtk.so
+[520/581] Linking target src/plugins/libmm-plugin-nokia-icera.so
+[521/581] Linking target src/plugins/libmm-plugin-novatel.so
+[522/581] Linking target src/plugins/libmm-plugin-huawei.so
+[523/581] Linking target src/plugins/libmm-plugin-qcom-soc.so
+[524/581] Linking target src/plugins/libmm-plugin-longcheer.so
+[525/581] Linking target src/plugins/libmm-plugin-option.so
+[526/581] Linking target src/plugins/test-plugin-linktop
+[527/581] Linking target src/plugins/libmm-plugin-mtk-legacy.so
+[528/581] Linking target src/plugins/libmm-plugin-quectel.so
+[529/581] Linking target src/plugins/libmm-plugin-samsung.so
+[530/581] Linking target src/plugins/libmm-plugin-rolling.so
+[531/581] Linking target src/plugins/libmm-plugin-option-hso.so
+[532/581] Linking target src/plugins/libmm-plugin-tplink.so
+[533/581] Linking target src/plugins/libmm-plugin-nokia.so
+[534/581] Compiling C object cli/mmcli.p/mmcli-output.c.o
+[535/581] Linking target src/plugins/libmm-plugin-novatel-lte.so
+[536/581] Linking target src/plugins/libmm-plugin-pantech.so
+[537/581] Linking target src/plugins/libmm-plugin-sierra-legacy.so
+[538/581] Linking target src/plugins/libmm-plugin-sierra.so
+[539/581] Linking target src/plugins/libmm-plugin-telit.so
+[540/581] Linking target src/plugins/libmm-plugin-simtech.so
+[541/581] Linking target src/plugins/test-plugin-simtech
+[542/581] Linking target src/plugins/libmm-plugin-ublox.so
+[543/581] Linking target src/plugins/libmm-plugin-via.so
+[544/581] Linking target src/plugins/libmm-plugin-wavecom.so
+[545/581] Linking target src/plugins/test-keyfiles
+[546/581] Linking target src/plugins/libmm-plugin-thuraya.so
+[547/581] Linking target src/plugins/libmm-plugin-x22x.so
+[548/581] Linking target src/plugins/libmm-plugin-netprisma.so
+[549/581] Linking target src/plugins/test-plugin-thuraya
+[550/581] Linking target src/plugins/test-plugin-ublox
+[551/581] Linking target src/plugins/test-udev-rules
+[552/581] Linking target src/plugins/libmm-plugin-zte.so
+[553/581] Linking target src/tests/test-sms-part-cdma
+[554/581] Linking target src/tests/test-sms-part-3gpp
+[555/581] Linking target src/tests/test-at-serial-port
+[556/581] Linking target src/tests/test-qcdm-serial-port
+[557/581] Linking target src/tests/test-charsets
+[558/581] Linking target test/lsudev
+[559/581] Linking target test/mmcbmmonitor
+[560/581] Linking target src/tests/test-error-helpers
+[561/581] Linking target src/tests/test-kernel-device-helpers
+[562/581] Linking target src/tests/test-cbm-part
+[563/581] Linking target test/mmrules
+[564/581] Linking target cli/mmcli
+[565/581] Linking target tools/tests/test-stub
+[566/581] Linking target test/mmsmsmonitor
+[567/581] Linking target src/tests/test-modem-helpers-qmi
+[568/581] Linking target src/tests/test-udev-rules
+[569/581] Linking target src/tests/test-modem-helpers-mbim
+[570/581] Linking target examples/sms-c/sms-c-sync
+[571/581] Linking target examples/sms-c/sms-c-async
+[572/581] Linking target test/mmsmspdu
+[573/581] Linking target test/mmtty
+[574/581] Compiling C object src/tests/test-modem-helpers.p/test-modem-helpers.c.o
+[575/581] Linking target src/tests/test-modem-helpers
+[576/581] Generating libmm-glib/ModemManager-1.0.gir with a custom command (wrapped by meson to set env)
+[577/581] Compiling C object src/ModemManager.p/mm-broadband-modem.c.o
+[578/581] Generating libmm-glib/ModemManager-1.0.typelib with a custom command
+[579/581] Compiling C object src/ModemManager.p/mm-broadband-modem-mbim.c.o
+[580/581] Compiling C object src/ModemManager.p/mm-broadband-modem-qmi.c.o
+[581/581] Linking target src/ModemManager
+[0/1] Installing files
+Installing po/cs/LC_MESSAGES/ModemManager.mo to /pkgs/modem-manager/usr/share/locale/cs/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/ModemManager.mo to /pkgs/modem-manager/usr/share/locale/ca/LC_MESSAGES
+Installing po/da/LC_MESSAGES/ModemManager.mo to /pkgs/modem-manager/usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/ModemManager.mo to /pkgs/modem-manager/usr/share/locale/de/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/ModemManager.mo to /pkgs/modem-manager/usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/ModemManager.mo to /pkgs/modem-manager/usr/share/locale/fr/LC_MESSAGES
+Installing po/fur/LC_MESSAGES/ModemManager.mo to /pkgs/modem-manager/usr/share/locale/fur/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/ModemManager.mo to /pkgs/modem-manager/usr/share/locale/gl/LC_MESSAGES
+Installing po/he/LC_MESSAGES/ModemManager.mo to /pkgs/modem-manager/usr/share/locale/he/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/ModemManager.mo to /pkgs/modem-manager/usr/share/locale/hu/LC_MESSAGES
+Installing po/id/LC_MESSAGES/ModemManager.mo to /pkgs/modem-manager/usr/share/locale/id/LC_MESSAGES
+Installing po/it/LC_MESSAGES/ModemManager.mo to /pkgs/modem-manager/usr/share/locale/it/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/ModemManager.mo to /pkgs/modem-manager/usr/share/locale/ka/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/ModemManager.mo to /pkgs/modem-manager/usr/share/locale/lt/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/ModemManager.mo to /pkgs/modem-manager/usr/share/locale/nl/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/ModemManager.mo to /pkgs/modem-manager/usr/share/locale/pl/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/ModemManager.mo to /pkgs/modem-manager/usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/ModemManager.mo to /pkgs/modem-manager/usr/share/locale/ru/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/ModemManager.mo to /pkgs/modem-manager/usr/share/locale/sk/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/ModemManager.mo to /pkgs/modem-manager/usr/share/locale/sv/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/ModemManager.mo to /pkgs/modem-manager/usr/share/locale/tr/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/ModemManager.mo to /pkgs/modem-manager/usr/share/locale/uk/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/ModemManager.mo to /pkgs/modem-manager/usr/share/locale/zh_CN/LC_MESSAGES
+Installing data/org.freedesktop.ModemManager1.conf to /pkgs/modem-manager/etc/dbus-1/system.d
+Installing data/org.freedesktop.ModemManager1.policy to /pkgs/modem-manager/usr/share/polkit-1/actions
+Installing libmm-glib/generated/mm-enums-types.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing libmm-glib/generated/mm-flags-types.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing libmm-glib/generated/mm-errors-types.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing libmm-glib/generated/mm-gdbus-bearer.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing libmm-glib/generated/mm-gdbus-call.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing libmm-glib/generated/mm-gdbus-cbm.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing libmm-glib/generated/mm-gdbus-manager.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing libmm-glib/generated/mm-gdbus-sim.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing libmm-glib/generated/mm-gdbus-modem.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing libmm-glib/generated/mm-gdbus-sms.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing libmm-glib/libmm-glib.so.0.11.0 to /pkgs/modem-manager/usr/lib
+Installing libmm-glib/ModemManager-1.0.gir to /pkgs/modem-manager/usr/share/gir-1.0
+Installing libmm-glib/ModemManager-1.0.typelib to /pkgs/modem-manager/usr/lib/girepository-1.0
+Installing src/plugins/libmm-shared-fibocom.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-shared-foxconn.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-shared-icera.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-shared-mtk.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-shared-novatel.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-shared-option.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-shared-sierra.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-shared-telit.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-shared-xmm.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-shared-quectel.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-altair-lte.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-anydata.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-broadmobi.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-cellient.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-cinterion.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-dell.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-dlink.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-fibocom.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-foxconn.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-generic.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-gosuncn.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-haier.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-huawei.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-intel.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-iridium.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-linktop.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-longcheer.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-ericsson-mbm.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-motorola.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-mtk-legacy.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-mtk.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-nokia.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-nokia-icera.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-novatel.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-novatel-lte.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-option.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-option-hso.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-pantech.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-qcom-soc.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-quectel.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-rolling.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-samsung.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-sierra-legacy.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-sierra.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-simtech.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-telit.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-thuraya.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-tplink.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-ublox.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-via.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-wavecom.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-x22x.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-zte.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-netprisma.so to /pkgs/modem-manager/usr/lib/ModemManager
+Installing src/ModemManager to /pkgs/modem-manager/usr/sbin
+Installing cli/mmcli to /pkgs/modem-manager/usr/bin
+Installing /blfs/builds/ModemManager-1.24.2/include/ModemManager-compat.h to /pkgs/modem-manager/usr/include/ModemManager
+Installing /blfs/builds/ModemManager-1.24.2/include/ModemManager.h to /pkgs/modem-manager/usr/include/ModemManager
+Installing /blfs/builds/ModemManager-1.24.2/include/ModemManager-enums.h to /pkgs/modem-manager/usr/include/ModemManager
+Installing /blfs/builds/ModemManager-1.24.2/include/ModemManager-errors.h to /pkgs/modem-manager/usr/include/ModemManager
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/libmm-glib.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-3gpp-profile.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-bearer.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-bearer-ip-config.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-bearer-properties.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-bearer-stats.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-call-audio-format.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-call.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-call-properties.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-cbm.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-cdma-manual-activation-properties.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-cell-info.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-cell-info-cdma.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-cell-info-gsm.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-cell-info-lte.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-cell-info-nr5g.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-cell-info-tdscdma.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-cell-info-umts.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-compat.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-firmware-properties.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-firmware-update-settings.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-helper-types.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-kernel-event-properties.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-location-3gpp.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-location-cdma-bs.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-location-common.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-location-gps-nmea.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-location-gps-raw.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-manager.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-modem-3gpp.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-modem-3gpp-profile-manager.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-modem-3gpp-ussd.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-modem-cdma.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-modem-cell-broadcast.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-modem-firmware.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-modem.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-modem-cell-broadcast.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-modem-location.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-modem-messaging.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-modem-oma.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-modem-sar.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-modem-signal.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-modem-simple.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-modem-time.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-modem-voice.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-network-timezone.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-nr5g-registration-settings.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-object.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-pco.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-signal.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-signal-threshold-properties.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-sim.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-simple-connect-properties.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-simple-status.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-sim-preferred-network.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-sms.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-sms-properties.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-unlock-retries.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-network-rejection.h to /pkgs/modem-manager/usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/build/data/org.freedesktop.ModemManager1.service to /pkgs/modem-manager/usr/share/dbus-1/system-services
+Installing /blfs/builds/ModemManager-1.24.2/build/data/ModemManager.service to /pkgs/modem-manager/usr/lib/systemd/system
+Installing /blfs/builds/ModemManager-1.24.2/data/ModemManager.png to /pkgs/modem-manager/usr/share/icons/hicolor/22x22/apps
+Installing /blfs/builds/ModemManager-1.24.2/data/dispatcher-connection/99-log-event to /pkgs/modem-manager/usr/share/ModemManager/connection.available.d
+Installing /blfs/builds/ModemManager-1.24.2/data/dispatcher-fcc-unlock/105b to /pkgs/modem-manager/usr/share/ModemManager/fcc-unlock.available.d
+Installing /blfs/builds/ModemManager-1.24.2/data/dispatcher-fcc-unlock/1199 to /pkgs/modem-manager/usr/share/ModemManager/fcc-unlock.available.d
+Installing /blfs/builds/ModemManager-1.24.2/data/dispatcher-fcc-unlock/14c3 to /pkgs/modem-manager/usr/share/ModemManager/fcc-unlock.available.d
+Installing /blfs/builds/ModemManager-1.24.2/data/dispatcher-fcc-unlock/2c7c to /pkgs/modem-manager/usr/share/ModemManager/fcc-unlock.available.d
+Installing /blfs/builds/ModemManager-1.24.2/data/dispatcher-modem-setup/0000:0000 to /pkgs/modem-manager/usr/share/ModemManager/modem-setup.available.d
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.xml to /pkgs/modem-manager/usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Bearer.xml to /pkgs/modem-manager/usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Call.xml to /pkgs/modem-manager/usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Cbm.xml to /pkgs/modem-manager/usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.CellBroadcast.xml to /pkgs/modem-manager/usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.Firmware.xml to /pkgs/modem-manager/usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.Location.xml to /pkgs/modem-manager/usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.Messaging.xml to /pkgs/modem-manager/usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.Modem3gpp.ProfileManager.xml to /pkgs/modem-manager/usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.Modem3gpp.Ussd.xml to /pkgs/modem-manager/usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.Modem3gpp.xml to /pkgs/modem-manager/usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.ModemCdma.xml to /pkgs/modem-manager/usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.Oma.xml to /pkgs/modem-manager/usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.Sar.xml to /pkgs/modem-manager/usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.Signal.xml to /pkgs/modem-manager/usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.Simple.xml to /pkgs/modem-manager/usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.Time.xml to /pkgs/modem-manager/usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.Voice.xml to /pkgs/modem-manager/usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.xml to /pkgs/modem-manager/usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Sim.xml to /pkgs/modem-manager/usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Sms.xml to /pkgs/modem-manager/usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/build/include/ModemManager-names.h to /pkgs/modem-manager/usr/include/ModemManager
+Installing /blfs/builds/ModemManager-1.24.2/build/include/ModemManager-version.h to /pkgs/modem-manager/usr/include/ModemManager
+Installing /blfs/builds/ModemManager-1.24.2/build/meson-private/mm-glib.pc to /pkgs/modem-manager/usr/lib/pkgconfig
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/foxconn/mm-foxconn-t77w968-carrier-mapping.conf to /pkgs/modem-manager/usr/share/ModemManager
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/broadmobi/77-mm-broadmobi-port-types.rules to /pkgs/modem-manager/usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/cellient/77-mm-cellient.rules to /pkgs/modem-manager/usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/cinterion/77-mm-cinterion-port-types.rules to /pkgs/modem-manager/usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/dell/77-mm-dell-port-types.rules to /pkgs/modem-manager/usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/dlink/77-mm-dlink-port-types.rules to /pkgs/modem-manager/usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/fibocom/77-mm-fibocom-port-types.rules to /pkgs/modem-manager/usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/foxconn/77-mm-foxconn-port-types.rules to /pkgs/modem-manager/usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/gosuncn/77-mm-gosuncn-port-types.rules to /pkgs/modem-manager/usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/haier/77-mm-haier-port-types.rules to /pkgs/modem-manager/usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/huawei/77-mm-huawei-net-port-types.rules to /pkgs/modem-manager/usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/linktop/77-mm-linktop-port-types.rules to /pkgs/modem-manager/usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/longcheer/77-mm-longcheer-port-types.rules to /pkgs/modem-manager/usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/mbm/77-mm-ericsson-mbm.rules to /pkgs/modem-manager/usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/mtk/77-mm-mtk-legacy-port-types.rules to /pkgs/modem-manager/usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/nokia/77-mm-nokia-port-types.rules to /pkgs/modem-manager/usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/qcom-soc/77-mm-qcom-soc.rules to /pkgs/modem-manager/usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/quectel/77-mm-quectel-port-types.rules to /pkgs/modem-manager/usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/rolling/77-mm-rolling-port-types.rules to /pkgs/modem-manager/usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/sierra/77-mm-sierra.rules to /pkgs/modem-manager/usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/simtech/77-mm-simtech-port-types.rules to /pkgs/modem-manager/usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/telit/77-mm-telit-port-types.rules to /pkgs/modem-manager/usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/tplink/77-mm-tplink-port-types.rules to /pkgs/modem-manager/usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/ublox/77-mm-ublox-port-types.rules to /pkgs/modem-manager/usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/x22x/77-mm-x22x-port-types.rules to /pkgs/modem-manager/usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/zte/77-mm-zte-port-types.rules to /pkgs/modem-manager/usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/netprisma/77-mm-netprisma-port-types.rules to /pkgs/modem-manager/usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/build/meson-private/ModemManager.pc to /pkgs/modem-manager/usr/lib/pkgconfig
+Installing /blfs/builds/ModemManager-1.24.2/src/80-mm-candidate.rules to /pkgs/modem-manager/usr/lib/udev/rules.d
+Installing symlink pointing to libmm-glib.so.0.11.0 to /pkgs/modem-manager/usr/lib/libmm-glib.so.0
+Installing symlink pointing to libmm-glib.so.0 to /pkgs/modem-manager/usr/lib/libmm-glib.so
+Running custom install script '/usr/bin/sh -c mkdir -p ${DESTDIR}/etc/ModemManager/connection.d'
+Running custom install script '/usr/bin/sh -c mkdir -p ${DESTDIR}/usr/lib/ModemManager/connection.d'
+Running custom install script '/usr/bin/sh -c ln -fs 105b ${DESTDIR}/usr/share/ModemManager/fcc-unlock.available.d/105b:e0ab'
+Running custom install script '/usr/bin/sh -c ln -fs 105b ${DESTDIR}/usr/share/ModemManager/fcc-unlock.available.d/105b:e0c3'
+Running custom install script '/usr/bin/sh -c ln -fs 1199 ${DESTDIR}/usr/share/ModemManager/fcc-unlock.available.d/03f0:4e1d'
+Running custom install script '/usr/bin/sh -c ln -fs 1199 ${DESTDIR}/usr/share/ModemManager/fcc-unlock.available.d/1199:9079'
+Running custom install script '/usr/bin/sh -c ln -fs 1199 ${DESTDIR}/usr/share/ModemManager/fcc-unlock.available.d/413c:81a3'
+Running custom install script '/usr/bin/sh -c ln -fs 1199 ${DESTDIR}/usr/share/ModemManager/fcc-unlock.available.d/413c:81a8'
+Running custom install script '/usr/bin/sh -c ln -fs 14c3 ${DESTDIR}/usr/share/ModemManager/fcc-unlock.available.d/14c3:4d75'
+Running custom install script '/usr/bin/sh -c ln -fs 2c7c ${DESTDIR}/usr/share/ModemManager/fcc-unlock.available.d/1eac:1001'
+Running custom install script '/usr/bin/sh -c ln -fs 2c7c ${DESTDIR}/usr/share/ModemManager/fcc-unlock.available.d/1eac:1004'
+Running custom install script '/usr/bin/sh -c ln -fs 2c7c ${DESTDIR}/usr/share/ModemManager/fcc-unlock.available.d/1eac:1007'
+Running custom install script '/usr/bin/sh -c ln -fs 2c7c ${DESTDIR}/usr/share/ModemManager/fcc-unlock.available.d/2c7c:030a'
+Running custom install script '/usr/bin/sh -c ln -fs 2c7c ${DESTDIR}/usr/share/ModemManager/fcc-unlock.available.d/2c7c:0313'
+Running custom install script '/usr/bin/sh -c ln -fs 2c7c ${DESTDIR}/usr/share/ModemManager/fcc-unlock.available.d/2c7c:0314'
+Running custom install script '/usr/bin/sh -c ln -fs 2c7c ${DESTDIR}/usr/share/ModemManager/fcc-unlock.available.d/2c7c:0801'
+Running custom install script '/usr/bin/sh -c mkdir -p ${DESTDIR}/etc/ModemManager/fcc-unlock.d'
+Running custom install script '/usr/bin/sh -c mkdir -p ${DESTDIR}/usr/lib/ModemManager/fcc-unlock.d'
+Running custom install script '/usr/bin/sh -c mkdir -p ${DESTDIR}/etc/ModemManager/modem-setup.d'
+Running custom install script '/usr/bin/sh -c mkdir -p ${DESTDIR}/usr/lib/ModemManager/modem-setup.d'
+[0/1] Installing files
+Installing po/cs/LC_MESSAGES/ModemManager.mo to /usr/share/locale/cs/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/ModemManager.mo to /usr/share/locale/ca/LC_MESSAGES
+Installing po/da/LC_MESSAGES/ModemManager.mo to /usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/ModemManager.mo to /usr/share/locale/de/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/ModemManager.mo to /usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/ModemManager.mo to /usr/share/locale/fr/LC_MESSAGES
+Installing po/fur/LC_MESSAGES/ModemManager.mo to /usr/share/locale/fur/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/ModemManager.mo to /usr/share/locale/gl/LC_MESSAGES
+Installing po/he/LC_MESSAGES/ModemManager.mo to /usr/share/locale/he/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/ModemManager.mo to /usr/share/locale/hu/LC_MESSAGES
+Installing po/id/LC_MESSAGES/ModemManager.mo to /usr/share/locale/id/LC_MESSAGES
+Installing po/it/LC_MESSAGES/ModemManager.mo to /usr/share/locale/it/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/ModemManager.mo to /usr/share/locale/ka/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/ModemManager.mo to /usr/share/locale/lt/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/ModemManager.mo to /usr/share/locale/nl/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/ModemManager.mo to /usr/share/locale/pl/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/ModemManager.mo to /usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/ModemManager.mo to /usr/share/locale/ru/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/ModemManager.mo to /usr/share/locale/sk/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/ModemManager.mo to /usr/share/locale/sv/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/ModemManager.mo to /usr/share/locale/tr/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/ModemManager.mo to /usr/share/locale/uk/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/ModemManager.mo to /usr/share/locale/zh_CN/LC_MESSAGES
+Installing data/org.freedesktop.ModemManager1.conf to /etc/dbus-1/system.d
+Installing data/org.freedesktop.ModemManager1.policy to /usr/share/polkit-1/actions
+Installing libmm-glib/generated/mm-enums-types.h to /usr/include/libmm-glib
+Installing libmm-glib/generated/mm-flags-types.h to /usr/include/libmm-glib
+Installing libmm-glib/generated/mm-errors-types.h to /usr/include/libmm-glib
+Installing libmm-glib/generated/mm-gdbus-bearer.h to /usr/include/libmm-glib
+Installing libmm-glib/generated/mm-gdbus-call.h to /usr/include/libmm-glib
+Installing libmm-glib/generated/mm-gdbus-cbm.h to /usr/include/libmm-glib
+Installing libmm-glib/generated/mm-gdbus-manager.h to /usr/include/libmm-glib
+Installing libmm-glib/generated/mm-gdbus-sim.h to /usr/include/libmm-glib
+Installing libmm-glib/generated/mm-gdbus-modem.h to /usr/include/libmm-glib
+Installing libmm-glib/generated/mm-gdbus-sms.h to /usr/include/libmm-glib
+Installing libmm-glib/libmm-glib.so.0.11.0 to /usr/lib
+Installing libmm-glib/ModemManager-1.0.gir to /usr/share/gir-1.0
+Installing libmm-glib/ModemManager-1.0.typelib to /usr/lib/girepository-1.0
+Installing src/plugins/libmm-shared-fibocom.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-shared-foxconn.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-shared-icera.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-shared-mtk.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-shared-novatel.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-shared-option.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-shared-sierra.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-shared-telit.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-shared-xmm.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-shared-quectel.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-altair-lte.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-anydata.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-broadmobi.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-cellient.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-cinterion.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-dell.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-dlink.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-fibocom.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-foxconn.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-generic.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-gosuncn.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-haier.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-huawei.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-intel.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-iridium.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-linktop.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-longcheer.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-ericsson-mbm.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-motorola.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-mtk-legacy.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-mtk.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-nokia.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-nokia-icera.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-novatel.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-novatel-lte.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-option.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-option-hso.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-pantech.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-qcom-soc.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-quectel.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-rolling.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-samsung.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-sierra-legacy.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-sierra.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-simtech.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-telit.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-thuraya.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-tplink.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-ublox.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-via.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-wavecom.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-x22x.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-zte.so to /usr/lib/ModemManager
+Installing src/plugins/libmm-plugin-netprisma.so to /usr/lib/ModemManager
+Installing src/ModemManager to /usr/sbin
+Installing cli/mmcli to /usr/bin
+Installing /blfs/builds/ModemManager-1.24.2/include/ModemManager-compat.h to /usr/include/ModemManager
+Installing /blfs/builds/ModemManager-1.24.2/include/ModemManager.h to /usr/include/ModemManager
+Installing /blfs/builds/ModemManager-1.24.2/include/ModemManager-enums.h to /usr/include/ModemManager
+Installing /blfs/builds/ModemManager-1.24.2/include/ModemManager-errors.h to /usr/include/ModemManager
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/libmm-glib.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-3gpp-profile.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-bearer.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-bearer-ip-config.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-bearer-properties.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-bearer-stats.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-call-audio-format.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-call.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-call-properties.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-cbm.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-cdma-manual-activation-properties.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-cell-info.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-cell-info-cdma.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-cell-info-gsm.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-cell-info-lte.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-cell-info-nr5g.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-cell-info-tdscdma.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-cell-info-umts.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-compat.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-firmware-properties.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-firmware-update-settings.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-helper-types.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-kernel-event-properties.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-location-3gpp.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-location-cdma-bs.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-location-common.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-location-gps-nmea.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-location-gps-raw.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-manager.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-modem-3gpp.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-modem-3gpp-profile-manager.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-modem-3gpp-ussd.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-modem-cdma.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-modem-cell-broadcast.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-modem-firmware.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-modem.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-modem-cell-broadcast.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-modem-location.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-modem-messaging.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-modem-oma.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-modem-sar.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-modem-signal.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-modem-simple.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-modem-time.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-modem-voice.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-network-timezone.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-nr5g-registration-settings.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-object.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-pco.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-signal.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-signal-threshold-properties.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-sim.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-simple-connect-properties.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-simple-status.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-sim-preferred-network.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-sms.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-sms-properties.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-unlock-retries.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/libmm-glib/mm-network-rejection.h to /usr/include/libmm-glib
+Installing /blfs/builds/ModemManager-1.24.2/build/data/org.freedesktop.ModemManager1.service to /usr/share/dbus-1/system-services
+Installing /blfs/builds/ModemManager-1.24.2/build/data/ModemManager.service to /usr/lib/systemd/system
+Installing /blfs/builds/ModemManager-1.24.2/data/ModemManager.png to /usr/share/icons/hicolor/22x22/apps
+Installing /blfs/builds/ModemManager-1.24.2/data/dispatcher-connection/99-log-event to /usr/share/ModemManager/connection.available.d
+Installing /blfs/builds/ModemManager-1.24.2/data/dispatcher-fcc-unlock/105b to /usr/share/ModemManager/fcc-unlock.available.d
+Installing /blfs/builds/ModemManager-1.24.2/data/dispatcher-fcc-unlock/1199 to /usr/share/ModemManager/fcc-unlock.available.d
+Installing /blfs/builds/ModemManager-1.24.2/data/dispatcher-fcc-unlock/14c3 to /usr/share/ModemManager/fcc-unlock.available.d
+Installing /blfs/builds/ModemManager-1.24.2/data/dispatcher-fcc-unlock/2c7c to /usr/share/ModemManager/fcc-unlock.available.d
+Installing /blfs/builds/ModemManager-1.24.2/data/dispatcher-modem-setup/0000:0000 to /usr/share/ModemManager/modem-setup.available.d
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.xml to /usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Bearer.xml to /usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Call.xml to /usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Cbm.xml to /usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.CellBroadcast.xml to /usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.Firmware.xml to /usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.Location.xml to /usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.Messaging.xml to /usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.Modem3gpp.ProfileManager.xml to /usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.Modem3gpp.Ussd.xml to /usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.Modem3gpp.xml to /usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.ModemCdma.xml to /usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.Oma.xml to /usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.Sar.xml to /usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.Signal.xml to /usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.Simple.xml to /usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.Time.xml to /usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.Voice.xml to /usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Modem.xml to /usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Sim.xml to /usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/introspection/org.freedesktop.ModemManager1.Sms.xml to /usr/share/dbus-1/interfaces
+Installing /blfs/builds/ModemManager-1.24.2/build/include/ModemManager-names.h to /usr/include/ModemManager
+Installing /blfs/builds/ModemManager-1.24.2/build/include/ModemManager-version.h to /usr/include/ModemManager
+Installing /blfs/builds/ModemManager-1.24.2/build/meson-private/mm-glib.pc to /usr/lib/pkgconfig
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/foxconn/mm-foxconn-t77w968-carrier-mapping.conf to /usr/share/ModemManager
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/broadmobi/77-mm-broadmobi-port-types.rules to /usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/cellient/77-mm-cellient.rules to /usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/cinterion/77-mm-cinterion-port-types.rules to /usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/dell/77-mm-dell-port-types.rules to /usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/dlink/77-mm-dlink-port-types.rules to /usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/fibocom/77-mm-fibocom-port-types.rules to /usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/foxconn/77-mm-foxconn-port-types.rules to /usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/gosuncn/77-mm-gosuncn-port-types.rules to /usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/haier/77-mm-haier-port-types.rules to /usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/huawei/77-mm-huawei-net-port-types.rules to /usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/linktop/77-mm-linktop-port-types.rules to /usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/longcheer/77-mm-longcheer-port-types.rules to /usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/mbm/77-mm-ericsson-mbm.rules to /usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/mtk/77-mm-mtk-legacy-port-types.rules to /usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/nokia/77-mm-nokia-port-types.rules to /usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/qcom-soc/77-mm-qcom-soc.rules to /usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/quectel/77-mm-quectel-port-types.rules to /usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/rolling/77-mm-rolling-port-types.rules to /usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/sierra/77-mm-sierra.rules to /usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/simtech/77-mm-simtech-port-types.rules to /usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/telit/77-mm-telit-port-types.rules to /usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/tplink/77-mm-tplink-port-types.rules to /usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/ublox/77-mm-ublox-port-types.rules to /usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/x22x/77-mm-x22x-port-types.rules to /usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/zte/77-mm-zte-port-types.rules to /usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/src/plugins/netprisma/77-mm-netprisma-port-types.rules to /usr/lib/udev/rules.d
+Installing /blfs/builds/ModemManager-1.24.2/build/meson-private/ModemManager.pc to /usr/lib/pkgconfig
+Installing /blfs/builds/ModemManager-1.24.2/src/80-mm-candidate.rules to /usr/lib/udev/rules.d
+Installing symlink pointing to libmm-glib.so.0.11.0 to /usr/lib/libmm-glib.so.0
+Installing symlink pointing to libmm-glib.so.0 to /usr/lib/libmm-glib.so
+Running custom install script '/usr/bin/sh -c mkdir -p ${DESTDIR}/etc/ModemManager/connection.d'
+Running custom install script '/usr/bin/sh -c mkdir -p ${DESTDIR}/usr/lib/ModemManager/connection.d'
+Running custom install script '/usr/bin/sh -c ln -fs 105b ${DESTDIR}/usr/share/ModemManager/fcc-unlock.available.d/105b:e0ab'
+Running custom install script '/usr/bin/sh -c ln -fs 105b ${DESTDIR}/usr/share/ModemManager/fcc-unlock.available.d/105b:e0c3'
+Running custom install script '/usr/bin/sh -c ln -fs 1199 ${DESTDIR}/usr/share/ModemManager/fcc-unlock.available.d/03f0:4e1d'
+Running custom install script '/usr/bin/sh -c ln -fs 1199 ${DESTDIR}/usr/share/ModemManager/fcc-unlock.available.d/1199:9079'
+Running custom install script '/usr/bin/sh -c ln -fs 1199 ${DESTDIR}/usr/share/ModemManager/fcc-unlock.available.d/413c:81a3'
+Running custom install script '/usr/bin/sh -c ln -fs 1199 ${DESTDIR}/usr/share/ModemManager/fcc-unlock.available.d/413c:81a8'
+Running custom install script '/usr/bin/sh -c ln -fs 14c3 ${DESTDIR}/usr/share/ModemManager/fcc-unlock.available.d/14c3:4d75'
+Running custom install script '/usr/bin/sh -c ln -fs 2c7c ${DESTDIR}/usr/share/ModemManager/fcc-unlock.available.d/1eac:1001'
+Running custom install script '/usr/bin/sh -c ln -fs 2c7c ${DESTDIR}/usr/share/ModemManager/fcc-unlock.available.d/1eac:1004'
+Running custom install script '/usr/bin/sh -c ln -fs 2c7c ${DESTDIR}/usr/share/ModemManager/fcc-unlock.available.d/1eac:1007'
+Running custom install script '/usr/bin/sh -c ln -fs 2c7c ${DESTDIR}/usr/share/ModemManager/fcc-unlock.available.d/2c7c:030a'
+Running custom install script '/usr/bin/sh -c ln -fs 2c7c ${DESTDIR}/usr/share/ModemManager/fcc-unlock.available.d/2c7c:0313'
+Running custom install script '/usr/bin/sh -c ln -fs 2c7c ${DESTDIR}/usr/share/ModemManager/fcc-unlock.available.d/2c7c:0314'
+Running custom install script '/usr/bin/sh -c ln -fs 2c7c ${DESTDIR}/usr/share/ModemManager/fcc-unlock.available.d/2c7c:0801'
+Running custom install script '/usr/bin/sh -c mkdir -p ${DESTDIR}/etc/ModemManager/fcc-unlock.d'
+Running custom install script '/usr/bin/sh -c mkdir -p ${DESTDIR}/usr/lib/ModemManager/fcc-unlock.d'
+Running custom install script '/usr/bin/sh -c mkdir -p ${DESTDIR}/etc/ModemManager/modem-setup.d'
+Running custom install script '/usr/bin/sh -c mkdir -p ${DESTDIR}/usr/lib/ModemManager/modem-setup.d'
+modem-manager/
+modem-manager/usr/
+modem-manager/usr/share/
+modem-manager/usr/share/locale/
+modem-manager/usr/share/locale/ca/
+modem-manager/usr/share/locale/ca/LC_MESSAGES/
+modem-manager/usr/share/locale/ca/LC_MESSAGES/ModemManager.mo
+modem-manager/usr/share/locale/uk/
+modem-manager/usr/share/locale/uk/LC_MESSAGES/
+modem-manager/usr/share/locale/uk/LC_MESSAGES/ModemManager.mo
+modem-manager/usr/share/locale/it/
+modem-manager/usr/share/locale/it/LC_MESSAGES/
+modem-manager/usr/share/locale/it/LC_MESSAGES/ModemManager.mo
+modem-manager/usr/share/locale/he/
+modem-manager/usr/share/locale/he/LC_MESSAGES/
+modem-manager/usr/share/locale/he/LC_MESSAGES/ModemManager.mo
+modem-manager/usr/share/locale/de/
+modem-manager/usr/share/locale/de/LC_MESSAGES/
+modem-manager/usr/share/locale/de/LC_MESSAGES/ModemManager.mo
+modem-manager/usr/share/locale/fur/
+modem-manager/usr/share/locale/fur/LC_MESSAGES/
+modem-manager/usr/share/locale/fur/LC_MESSAGES/ModemManager.mo
+modem-manager/usr/share/locale/da/
+modem-manager/usr/share/locale/da/LC_MESSAGES/
+modem-manager/usr/share/locale/da/LC_MESSAGES/ModemManager.mo
+modem-manager/usr/share/locale/zh_CN/
+modem-manager/usr/share/locale/zh_CN/LC_MESSAGES/
+modem-manager/usr/share/locale/zh_CN/LC_MESSAGES/ModemManager.mo
+modem-manager/usr/share/locale/pt_BR/
+modem-manager/usr/share/locale/pt_BR/LC_MESSAGES/
+modem-manager/usr/share/locale/pt_BR/LC_MESSAGES/ModemManager.mo
+modem-manager/usr/share/locale/tr/
+modem-manager/usr/share/locale/tr/LC_MESSAGES/
+modem-manager/usr/share/locale/tr/LC_MESSAGES/ModemManager.mo
+modem-manager/usr/share/locale/sk/
+modem-manager/usr/share/locale/sk/LC_MESSAGES/
+modem-manager/usr/share/locale/sk/LC_MESSAGES/ModemManager.mo
+modem-manager/usr/share/locale/gl/
+modem-manager/usr/share/locale/gl/LC_MESSAGES/
+modem-manager/usr/share/locale/gl/LC_MESSAGES/ModemManager.mo
+modem-manager/usr/share/locale/pl/
+modem-manager/usr/share/locale/pl/LC_MESSAGES/
+modem-manager/usr/share/locale/pl/LC_MESSAGES/ModemManager.mo
+modem-manager/usr/share/locale/fi/
+modem-manager/usr/share/locale/fi/LC_MESSAGES/
+modem-manager/usr/share/locale/fi/LC_MESSAGES/ModemManager.mo
+modem-manager/usr/share/locale/nl/
+modem-manager/usr/share/locale/nl/LC_MESSAGES/
+modem-manager/usr/share/locale/nl/LC_MESSAGES/ModemManager.mo
+modem-manager/usr/share/locale/ka/
+modem-manager/usr/share/locale/ka/LC_MESSAGES/
+modem-manager/usr/share/locale/ka/LC_MESSAGES/ModemManager.mo
+modem-manager/usr/share/locale/fr/
+modem-manager/usr/share/locale/fr/LC_MESSAGES/
+modem-manager/usr/share/locale/fr/LC_MESSAGES/ModemManager.mo
+modem-manager/usr/share/locale/lt/
+modem-manager/usr/share/locale/lt/LC_MESSAGES/
+modem-manager/usr/share/locale/lt/LC_MESSAGES/ModemManager.mo
+modem-manager/usr/share/locale/cs/
+modem-manager/usr/share/locale/cs/LC_MESSAGES/
+modem-manager/usr/share/locale/cs/LC_MESSAGES/ModemManager.mo
+modem-manager/usr/share/locale/sv/
+modem-manager/usr/share/locale/sv/LC_MESSAGES/
+modem-manager/usr/share/locale/sv/LC_MESSAGES/ModemManager.mo
+modem-manager/usr/share/locale/id/
+modem-manager/usr/share/locale/id/LC_MESSAGES/
+modem-manager/usr/share/locale/id/LC_MESSAGES/ModemManager.mo
+modem-manager/usr/share/locale/hu/
+modem-manager/usr/share/locale/hu/LC_MESSAGES/
+modem-manager/usr/share/locale/hu/LC_MESSAGES/ModemManager.mo
+modem-manager/usr/share/locale/ru/
+modem-manager/usr/share/locale/ru/LC_MESSAGES/
+modem-manager/usr/share/locale/ru/LC_MESSAGES/ModemManager.mo
+modem-manager/usr/share/ModemManager/
+modem-manager/usr/share/ModemManager/modem-setup.available.d/
+modem-manager/usr/share/ModemManager/modem-setup.available.d/0000:0000
+modem-manager/usr/share/ModemManager/connection.available.d/
+modem-manager/usr/share/ModemManager/connection.available.d/99-log-event
+modem-manager/usr/share/ModemManager/mm-foxconn-t77w968-carrier-mapping.conf
+modem-manager/usr/share/ModemManager/fcc-unlock.available.d/
+modem-manager/usr/share/ModemManager/fcc-unlock.available.d/1199:9079
+modem-manager/usr/share/ModemManager/fcc-unlock.available.d/2c7c:0314
+modem-manager/usr/share/ModemManager/fcc-unlock.available.d/105b:e0c3
+modem-manager/usr/share/ModemManager/fcc-unlock.available.d/14c3
+modem-manager/usr/share/ModemManager/fcc-unlock.available.d/1eac:1007
+modem-manager/usr/share/ModemManager/fcc-unlock.available.d/2c7c:030a
+modem-manager/usr/share/ModemManager/fcc-unlock.available.d/105b
+modem-manager/usr/share/ModemManager/fcc-unlock.available.d/413c:81a8
+modem-manager/usr/share/ModemManager/fcc-unlock.available.d/1199
+modem-manager/usr/share/ModemManager/fcc-unlock.available.d/413c:81a3
+modem-manager/usr/share/ModemManager/fcc-unlock.available.d/2c7c:0801
+modem-manager/usr/share/ModemManager/fcc-unlock.available.d/2c7c
+modem-manager/usr/share/ModemManager/fcc-unlock.available.d/1eac:1004
+modem-manager/usr/share/ModemManager/fcc-unlock.available.d/14c3:4d75
+modem-manager/usr/share/ModemManager/fcc-unlock.available.d/2c7c:0313
+modem-manager/usr/share/ModemManager/fcc-unlock.available.d/1eac:1001
+modem-manager/usr/share/ModemManager/fcc-unlock.available.d/03f0:4e1d
+modem-manager/usr/share/ModemManager/fcc-unlock.available.d/105b:e0ab
+modem-manager/usr/share/polkit-1/
+modem-manager/usr/share/polkit-1/actions/
+modem-manager/usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy
+modem-manager/usr/share/dbus-1/
+modem-manager/usr/share/dbus-1/interfaces/
+modem-manager/usr/share/dbus-1/interfaces/org.freedesktop.ModemManager1.Modem.Firmware.xml
+modem-manager/usr/share/dbus-1/interfaces/org.freedesktop.ModemManager1.Modem.Modem3gpp.ProfileManager.xml
+modem-manager/usr/share/dbus-1/interfaces/org.freedesktop.ModemManager1.Sms.xml
+modem-manager/usr/share/dbus-1/interfaces/org.freedesktop.ModemManager1.Modem.Signal.xml
+modem-manager/usr/share/dbus-1/interfaces/org.freedesktop.ModemManager1.Modem.ModemCdma.xml
+modem-manager/usr/share/dbus-1/interfaces/org.freedesktop.ModemManager1.xml
+modem-manager/usr/share/dbus-1/interfaces/org.freedesktop.ModemManager1.Cbm.xml
+modem-manager/usr/share/dbus-1/interfaces/org.freedesktop.ModemManager1.Modem.Oma.xml
+modem-manager/usr/share/dbus-1/interfaces/org.freedesktop.ModemManager1.Modem.Location.xml
+modem-manager/usr/share/dbus-1/interfaces/org.freedesktop.ModemManager1.Modem.Modem3gpp.Ussd.xml
+modem-manager/usr/share/dbus-1/interfaces/org.freedesktop.ModemManager1.Sim.xml
+modem-manager/usr/share/dbus-1/interfaces/org.freedesktop.ModemManager1.Modem.Sar.xml
+modem-manager/usr/share/dbus-1/interfaces/org.freedesktop.ModemManager1.Modem.Voice.xml
+modem-manager/usr/share/dbus-1/interfaces/org.freedesktop.ModemManager1.Modem.CellBroadcast.xml
+modem-manager/usr/share/dbus-1/interfaces/org.freedesktop.ModemManager1.Modem.Messaging.xml
+modem-manager/usr/share/dbus-1/interfaces/org.freedesktop.ModemManager1.Modem.Modem3gpp.xml
+modem-manager/usr/share/dbus-1/interfaces/org.freedesktop.ModemManager1.Call.xml
+modem-manager/usr/share/dbus-1/interfaces/org.freedesktop.ModemManager1.Modem.Simple.xml
+modem-manager/usr/share/dbus-1/interfaces/org.freedesktop.ModemManager1.Bearer.xml
+modem-manager/usr/share/dbus-1/interfaces/org.freedesktop.ModemManager1.Modem.Time.xml
+modem-manager/usr/share/dbus-1/interfaces/org.freedesktop.ModemManager1.Modem.xml
+modem-manager/usr/share/dbus-1/system-services/
+modem-manager/usr/share/dbus-1/system-services/org.freedesktop.ModemManager1.service
+modem-manager/usr/share/icons/
+modem-manager/usr/share/icons/hicolor/
+modem-manager/usr/share/icons/hicolor/22x22/
+modem-manager/usr/share/icons/hicolor/22x22/apps/
+modem-manager/usr/share/icons/hicolor/22x22/apps/ModemManager.png
+modem-manager/usr/share/gir-1.0/
+modem-manager/usr/share/gir-1.0/ModemManager-1.0.gir
+modem-manager/usr/sbin/
+modem-manager/usr/sbin/ModemManager
+modem-manager/usr/lib/
+modem-manager/usr/lib/libmm-glib.so
+modem-manager/usr/lib/ModemManager/
+modem-manager/usr/lib/ModemManager/libmm-plugin-motorola.so
+modem-manager/usr/lib/ModemManager/libmm-shared-xmm.so
+modem-manager/usr/lib/ModemManager/libmm-plugin-intel.so
+modem-manager/usr/lib/ModemManager/libmm-plugin-gosuncn.so
+modem-manager/usr/lib/ModemManager/libmm-plugin-haier.so
+modem-manager/usr/lib/ModemManager/libmm-plugin-netprisma.so
+modem-manager/usr/lib/ModemManager/libmm-plugin-simtech.so
+modem-manager/usr/lib/ModemManager/libmm-shared-telit.so
+modem-manager/usr/lib/ModemManager/libmm-plugin-zte.so
+modem-manager/usr/lib/ModemManager/libmm-plugin-huawei.so
+modem-manager/usr/lib/ModemManager/libmm-shared-icera.so
+modem-manager/usr/lib/ModemManager/libmm-plugin-tplink.so
+modem-manager/usr/lib/ModemManager/libmm-plugin-qcom-soc.so
+modem-manager/usr/lib/ModemManager/libmm-plugin-option.so
+modem-manager/usr/lib/ModemManager/libmm-plugin-pantech.so
+modem-manager/usr/lib/ModemManager/libmm-plugin-cinterion.so
+modem-manager/usr/lib/ModemManager/libmm-plugin-sierra.so
+modem-manager/usr/lib/ModemManager/libmm-plugin-ublox.so
+modem-manager/usr/lib/ModemManager/libmm-plugin-ericsson-mbm.so
+modem-manager/usr/lib/ModemManager/libmm-plugin-linktop.so
+modem-manager/usr/lib/ModemManager/libmm-plugin-anydata.so
+modem-manager/usr/lib/ModemManager/libmm-plugin-mtk-legacy.so
+modem-manager/usr/lib/ModemManager/libmm-shared-mtk.so
+modem-manager/usr/lib/ModemManager/libmm-plugin-longcheer.so
+modem-manager/usr/lib/ModemManager/libmm-plugin-iridium.so
+modem-manager/usr/lib/ModemManager/libmm-plugin-cellient.so
+modem-manager/usr/lib/ModemManager/libmm-plugin-sierra-legacy.so
+modem-manager/usr/lib/ModemManager/libmm-shared-option.so
+modem-manager/usr/lib/ModemManager/libmm-plugin-foxconn.so
+modem-manager/usr/lib/ModemManager/libmm-plugin-x22x.so
+modem-manager/usr/lib/ModemManager/modem-setup.d/
+modem-manager/usr/lib/ModemManager/libmm-plugin-nokia.so
+modem-manager/usr/lib/ModemManager/libmm-plugin-broadmobi.so
+modem-manager/usr/lib/ModemManager/fcc-unlock.d/
+modem-manager/usr/lib/ModemManager/libmm-plugin-novatel.so
+modem-manager/usr/lib/ModemManager/libmm-shared-foxconn.so
+modem-manager/usr/lib/ModemManager/libmm-plugin-mtk.so
+modem-manager/usr/lib/ModemManager/libmm-plugin-altair-lte.so
+modem-manager/usr/lib/ModemManager/libmm-plugin-novatel-lte.so
+modem-manager/usr/lib/ModemManager/libmm-plugin-dlink.so
+modem-manager/usr/lib/ModemManager/libmm-plugin-generic.so
+modem-manager/usr/lib/ModemManager/libmm-plugin-telit.so
+modem-manager/usr/lib/ModemManager/libmm-plugin-thuraya.so
+modem-manager/usr/lib/ModemManager/libmm-plugin-via.so
+modem-manager/usr/lib/ModemManager/connection.d/
+modem-manager/usr/lib/ModemManager/libmm-shared-sierra.so
+modem-manager/usr/lib/ModemManager/libmm-plugin-fibocom.so
+modem-manager/usr/lib/ModemManager/libmm-plugin-option-hso.so
+modem-manager/usr/lib/ModemManager/libmm-shared-fibocom.so
+modem-manager/usr/lib/ModemManager/libmm-plugin-dell.so
+modem-manager/usr/lib/ModemManager/libmm-plugin-rolling.so
+modem-manager/usr/lib/ModemManager/libmm-shared-novatel.so
+modem-manager/usr/lib/ModemManager/libmm-plugin-nokia-icera.so
+modem-manager/usr/lib/ModemManager/libmm-shared-quectel.so
+modem-manager/usr/lib/ModemManager/libmm-plugin-wavecom.so
+modem-manager/usr/lib/ModemManager/libmm-plugin-samsung.so
+modem-manager/usr/lib/ModemManager/libmm-plugin-quectel.so
+modem-manager/usr/lib/systemd/
+modem-manager/usr/lib/systemd/system/
+modem-manager/usr/lib/systemd/system/ModemManager.service
+modem-manager/usr/lib/girepository-1.0/
+modem-manager/usr/lib/girepository-1.0/ModemManager-1.0.typelib
+modem-manager/usr/lib/libmm-glib.so.0
+modem-manager/usr/lib/pkgconfig/
+modem-manager/usr/lib/pkgconfig/mm-glib.pc
+modem-manager/usr/lib/pkgconfig/ModemManager.pc
+modem-manager/usr/lib/udev/
+modem-manager/usr/lib/udev/rules.d/
+modem-manager/usr/lib/udev/rules.d/77-mm-nokia-port-types.rules
+modem-manager/usr/lib/udev/rules.d/77-mm-haier-port-types.rules
+modem-manager/usr/lib/udev/rules.d/77-mm-dlink-port-types.rules
+modem-manager/usr/lib/udev/rules.d/80-mm-candidate.rules
+modem-manager/usr/lib/udev/rules.d/77-mm-qcom-soc.rules
+modem-manager/usr/lib/udev/rules.d/77-mm-simtech-port-types.rules
+modem-manager/usr/lib/udev/rules.d/77-mm-gosuncn-port-types.rules
+modem-manager/usr/lib/udev/rules.d/77-mm-foxconn-port-types.rules
+modem-manager/usr/lib/udev/rules.d/77-mm-fibocom-port-types.rules
+modem-manager/usr/lib/udev/rules.d/77-mm-mtk-legacy-port-types.rules
+modem-manager/usr/lib/udev/rules.d/77-mm-tplink-port-types.rules
+modem-manager/usr/lib/udev/rules.d/77-mm-x22x-port-types.rules
+modem-manager/usr/lib/udev/rules.d/77-mm-rolling-port-types.rules
+modem-manager/usr/lib/udev/rules.d/77-mm-ericsson-mbm.rules
+modem-manager/usr/lib/udev/rules.d/77-mm-telit-port-types.rules
+modem-manager/usr/lib/udev/rules.d/77-mm-linktop-port-types.rules
+modem-manager/usr/lib/udev/rules.d/77-mm-zte-port-types.rules
+modem-manager/usr/lib/udev/rules.d/77-mm-netprisma-port-types.rules
+modem-manager/usr/lib/udev/rules.d/77-mm-sierra.rules
+modem-manager/usr/lib/udev/rules.d/77-mm-broadmobi-port-types.rules
+modem-manager/usr/lib/udev/rules.d/77-mm-dell-port-types.rules
+modem-manager/usr/lib/udev/rules.d/77-mm-longcheer-port-types.rules
+modem-manager/usr/lib/udev/rules.d/77-mm-huawei-net-port-types.rules
+modem-manager/usr/lib/udev/rules.d/77-mm-ublox-port-types.rules
+modem-manager/usr/lib/udev/rules.d/77-mm-cinterion-port-types.rules
+modem-manager/usr/lib/udev/rules.d/77-mm-quectel-port-types.rules
+modem-manager/usr/lib/udev/rules.d/77-mm-cellient.rules
+modem-manager/usr/lib/libmm-glib.so.0.11.0
+modem-manager/usr/include/
+modem-manager/usr/include/libmm-glib/
+modem-manager/usr/include/libmm-glib/mm-modem-simple.h
+modem-manager/usr/include/libmm-glib/mm-gdbus-sms.h
+modem-manager/usr/include/libmm-glib/mm-call.h
+modem-manager/usr/include/libmm-glib/mm-call-properties.h
+modem-manager/usr/include/libmm-glib/mm-gdbus-manager.h
+modem-manager/usr/include/libmm-glib/mm-pco.h
+modem-manager/usr/include/libmm-glib/mm-sim-preferred-network.h
+modem-manager/usr/include/libmm-glib/mm-cdma-manual-activation-properties.h
+modem-manager/usr/include/libmm-glib/mm-simple-status.h
+modem-manager/usr/include/libmm-glib/mm-modem-sar.h
+modem-manager/usr/include/libmm-glib/mm-unlock-retries.h
+modem-manager/usr/include/libmm-glib/mm-location-gps-nmea.h
+modem-manager/usr/include/libmm-glib/mm-helper-types.h
+modem-manager/usr/include/libmm-glib/mm-3gpp-profile.h
+modem-manager/usr/include/libmm-glib/mm-bearer-properties.h
+modem-manager/usr/include/libmm-glib/libmm-glib.h
+modem-manager/usr/include/libmm-glib/mm-modem-3gpp.h
+modem-manager/usr/include/libmm-glib/mm-gdbus-bearer.h
+modem-manager/usr/include/libmm-glib/mm-location-common.h
+modem-manager/usr/include/libmm-glib/mm-kernel-event-properties.h
+modem-manager/usr/include/libmm-glib/mm-location-3gpp.h
+modem-manager/usr/include/libmm-glib/mm-modem-3gpp-ussd.h
+modem-manager/usr/include/libmm-glib/mm-cell-info-umts.h
+modem-manager/usr/include/libmm-glib/mm-location-cdma-bs.h
+modem-manager/usr/include/libmm-glib/mm-network-timezone.h
+modem-manager/usr/include/libmm-glib/mm-modem-cell-broadcast.h
+modem-manager/usr/include/libmm-glib/mm-compat.h
+modem-manager/usr/include/libmm-glib/mm-enums-types.h
+modem-manager/usr/include/libmm-glib/mm-cell-info-tdscdma.h
+modem-manager/usr/include/libmm-glib/mm-firmware-properties.h
+modem-manager/usr/include/libmm-glib/mm-signal.h
+modem-manager/usr/include/libmm-glib/mm-location-gps-raw.h
+modem-manager/usr/include/libmm-glib/mm-modem-messaging.h
+modem-manager/usr/include/libmm-glib/mm-gdbus-cbm.h
+modem-manager/usr/include/libmm-glib/mm-firmware-update-settings.h
+modem-manager/usr/include/libmm-glib/mm-gdbus-modem.h
+modem-manager/usr/include/libmm-glib/mm-sms-properties.h
+modem-manager/usr/include/libmm-glib/mm-signal-threshold-properties.h
+modem-manager/usr/include/libmm-glib/mm-cell-info-nr5g.h
+modem-manager/usr/include/libmm-glib/mm-manager.h
+modem-manager/usr/include/libmm-glib/mm-cell-info-cdma.h
+modem-manager/usr/include/libmm-glib/mm-modem.h
+modem-manager/usr/include/libmm-glib/mm-modem-signal.h
+modem-manager/usr/include/libmm-glib/mm-cell-info-lte.h
+modem-manager/usr/include/libmm-glib/mm-cbm.h
+modem-manager/usr/include/libmm-glib/mm-simple-connect-properties.h
+modem-manager/usr/include/libmm-glib/mm-modem-voice.h
+modem-manager/usr/include/libmm-glib/mm-gdbus-sim.h
+modem-manager/usr/include/libmm-glib/mm-sms.h
+modem-manager/usr/include/libmm-glib/mm-cell-info.h
+modem-manager/usr/include/libmm-glib/mm-nr5g-registration-settings.h
+modem-manager/usr/include/libmm-glib/mm-modem-firmware.h
+modem-manager/usr/include/libmm-glib/mm-errors-types.h
+modem-manager/usr/include/libmm-glib/mm-flags-types.h
+modem-manager/usr/include/libmm-glib/mm-modem-time.h
+modem-manager/usr/include/libmm-glib/mm-sim.h
+modem-manager/usr/include/libmm-glib/mm-bearer-ip-config.h
+modem-manager/usr/include/libmm-glib/mm-call-audio-format.h
+modem-manager/usr/include/libmm-glib/mm-network-rejection.h
+modem-manager/usr/include/libmm-glib/mm-modem-3gpp-profile-manager.h
+modem-manager/usr/include/libmm-glib/mm-bearer-stats.h
+modem-manager/usr/include/libmm-glib/mm-modem-oma.h
+modem-manager/usr/include/libmm-glib/mm-object.h
+modem-manager/usr/include/libmm-glib/mm-bearer.h
+modem-manager/usr/include/libmm-glib/mm-modem-cdma.h
+modem-manager/usr/include/libmm-glib/mm-gdbus-call.h
+modem-manager/usr/include/libmm-glib/mm-cell-info-gsm.h
+modem-manager/usr/include/libmm-glib/mm-modem-location.h
+modem-manager/usr/include/ModemManager/
+modem-manager/usr/include/ModemManager/ModemManager-enums.h
+modem-manager/usr/include/ModemManager/ModemManager-version.h
+modem-manager/usr/include/ModemManager/ModemManager.h
+modem-manager/usr/include/ModemManager/ModemManager-compat.h
+modem-manager/usr/include/ModemManager/ModemManager-errors.h
+modem-manager/usr/include/ModemManager/ModemManager-names.h
+modem-manager/usr/bin/
+modem-manager/usr/bin/mmcli
+modem-manager/version
+modem-manager/depends
+modem-manager/etc/
+modem-manager/etc/ModemManager/
+modem-manager/etc/ModemManager/modem-setup.d/
+modem-manager/etc/ModemManager/fcc-unlock.d/
+modem-manager/etc/ModemManager/connection.d/
+modem-manager/etc/dbus-1/
+modem-manager/etc/dbus-1/system.d/
+modem-manager/etc/dbus-1/system.d/org.freedesktop.ModemManager1.conf
+modem-manager/make-depends
