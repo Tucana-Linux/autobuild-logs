@@ -1,0 +1,919 @@
+--2025-07-31 08:03:22--  https://ftp.gnu.org/gnu/gdbm/gdbm-1.26.tar.gz
+Resolving ftp.gnu.org (ftp.gnu.org)... 2001:470:142:3::b, 209.51.188.20
+Connecting to ftp.gnu.org (ftp.gnu.org)|2001:470:142:3::b|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1226591 (1.2M) [application/x-gzip]
+Saving to: 'gdbm-1.26.tar.gz'
+
+     0K .......... .......... .......... .......... ..........  4% 1.41M 1s
+    50K .......... .......... .......... .......... ..........  8% 3.65M 1s
+   100K .......... .......... .......... .......... .......... 12% 28.8M 0s
+   150K .......... .......... .......... .......... .......... 16% 3.72M 0s
+   200K .......... .......... .......... .......... .......... 20% 40.1M 0s
+   250K .......... .......... .......... .......... .......... 25% 37.3M 0s
+   300K .......... .......... .......... .......... .......... 29%  123M 0s
+   350K .......... .......... .......... .......... .......... 33% 4.98M 0s
+   400K .......... .......... .......... .......... .......... 37% 58.2M 0s
+   450K .......... .......... .......... .......... .......... 41% 41.7M 0s
+   500K .......... .......... .......... .......... .......... 45% 53.0M 0s
+   550K .......... .......... .......... .......... .......... 50% 9.21M 0s
+   600K .......... .......... .......... .......... .......... 54% 59.3M 0s
+   650K .......... .......... .......... .......... .......... 58%  104M 0s
+   700K .......... .......... .......... .......... .......... 62% 84.0M 0s
+   750K .......... .......... .......... .......... .......... 66% 83.7M 0s
+   800K .......... .......... .......... .......... .......... 70% 5.74M 0s
+   850K .......... .......... .......... .......... .......... 75% 40.3M 0s
+   900K .......... .......... .......... .......... .......... 79%  205M 0s
+   950K .......... .......... .......... .......... .......... 83% 1.76M 0s
+  1000K .......... .......... .......... .......... .......... 87%  601M 0s
+  1050K .......... .......... .......... .......... .......... 91%  726M 0s
+  1100K .......... .......... .......... .......... .......... 96%  632M 0s
+  1150K .......... .......... .......... .......... .......   100%  617M=0.1s
+
+2025-07-31 08:03:22 (9.41 MB/s) - 'gdbm-1.26.tar.gz' saved [1226591/1226591]
+
+gdbm-1.26/
+gdbm-1.26/NOTE-WARNING
+gdbm-1.26/doc/
+gdbm-1.26/doc/gdbm.3
+gdbm-1.26/doc/fdl.texi
+gdbm-1.26/doc/stamp-vti
+gdbm-1.26/doc/Makefile.in
+gdbm-1.26/doc/gdbm.texi
+gdbm-1.26/doc/gendocs.pl
+gdbm-1.26/doc/Makefile.am
+gdbm-1.26/doc/gdbmtool.1
+gdbm-1.26/doc/gdbm_dump.1
+gdbm-1.26/doc/version.texi
+gdbm-1.26/doc/htmlxref.cnf
+gdbm-1.26/doc/webdoc.init
+gdbm-1.26/doc/gdbm.info
+gdbm-1.26/doc/gdbm_load.1
+gdbm-1.26/po/
+gdbm-1.26/po/da.gmo
+gdbm-1.26/po/sr.gmo
+gdbm-1.26/po/uk.gmo
+gdbm-1.26/po/es.po
+gdbm-1.26/po/da.po
+gdbm-1.26/po/es.gmo
+gdbm-1.26/po/fr.gmo
+gdbm-1.26/po/de.gmo
+gdbm-1.26/po/de.po
+gdbm-1.26/po/ro.gmo
+gdbm-1.26/po/ka.po
+gdbm-1.26/po/fr.po
+gdbm-1.26/po/stamp-po
+gdbm-1.26/po/insert-header.sin
+gdbm-1.26/po/fi.po
+gdbm-1.26/po/ro.po
+gdbm-1.26/po/Makefile.in.in
+gdbm-1.26/po/vi.gmo
+gdbm-1.26/po/eo.po
+gdbm-1.26/po/ka.gmo
+gdbm-1.26/po/vi.po
+gdbm-1.26/po/pl.po
+gdbm-1.26/po/quot.sed
+gdbm-1.26/po/pl.gmo
+gdbm-1.26/po/ru.po
+gdbm-1.26/po/sv.gmo
+gdbm-1.26/po/fi.gmo
+gdbm-1.26/po/en@quot.header
+gdbm-1.26/po/pt_BR.po
+gdbm-1.26/po/Makevars
+gdbm-1.26/po/ja.po
+gdbm-1.26/po/uk.po
+gdbm-1.26/po/ja.gmo
+gdbm-1.26/po/pt_BR.gmo
+gdbm-1.26/po/gdbm.pot
+gdbm-1.26/po/boldquot.sed
+gdbm-1.26/po/sr.po
+gdbm-1.26/po/sv.po
+gdbm-1.26/po/en@boldquot.header
+gdbm-1.26/po/eo.gmo
+gdbm-1.26/po/ru.gmo
+gdbm-1.26/po/remove-potcdate.sin
+gdbm-1.26/po/LINGUAS
+gdbm-1.26/po/POTFILES.in
+gdbm-1.26/po/Rules-quot
+gdbm-1.26/AUTHORS
+gdbm-1.26/ABOUT-NLS
+gdbm-1.26/m4/
+gdbm-1.26/m4/libtool.m4
+gdbm-1.26/m4/nls.m4
+gdbm-1.26/m4/longlong.m4
+gdbm-1.26/m4/ltsugar.m4
+gdbm-1.26/m4/ltoptions.m4
+gdbm-1.26/m4/lt~obsolete.m4
+gdbm-1.26/m4/lib-ld.m4
+gdbm-1.26/m4/lib-prefix.m4
+gdbm-1.26/m4/iconv.m4
+gdbm-1.26/m4/ltversion.m4
+gdbm-1.26/m4/progtest.m4
+gdbm-1.26/m4/intlmacosx.m4
+gdbm-1.26/m4/gettext.m4
+gdbm-1.26/m4/lib-link.m4
+gdbm-1.26/m4/host-cpu-c-abi.m4
+gdbm-1.26/m4/po.m4
+gdbm-1.26/autoconf.h.in
+gdbm-1.26/tools/
+gdbm-1.26/tools/gdbmshell.c
+gdbm-1.26/tools/util.c
+gdbm-1.26/tools/input-null.c
+gdbm-1.26/tools/gdbmtool.c
+gdbm-1.26/tools/gram.y
+gdbm-1.26/tools/gdbmapp.h
+gdbm-1.26/tools/parseopt.c
+gdbm-1.26/tools/input-std.c
+gdbm-1.26/tools/gram.c
+gdbm-1.26/tools/gdbm_load.c
+gdbm-1.26/tools/gdbmtool.h
+gdbm-1.26/tools/progname.c
+gdbm-1.26/tools/Makefile.in
+gdbm-1.26/tools/mem.c
+gdbm-1.26/tools/gdbm_dump.c
+gdbm-1.26/tools/Makefile.am
+gdbm-1.26/tools/gram.h
+gdbm-1.26/tools/lex.c
+gdbm-1.26/tools/var.c
+gdbm-1.26/tools/input-rl.c
+gdbm-1.26/tools/wordwrap.c
+gdbm-1.26/tools/input-file.c
+gdbm-1.26/tools/input-argv.c
+gdbm-1.26/tools/err.c
+gdbm-1.26/tools/pagerfile.c
+gdbm-1.26/tools/datconv.c
+gdbm-1.26/tools/lex.l
+gdbm-1.26/Makefile.in
+gdbm-1.26/build-aux/
+gdbm-1.26/build-aux/missing
+gdbm-1.26/build-aux/compile
+gdbm-1.26/build-aux/depcomp
+gdbm-1.26/build-aux/config.sub
+gdbm-1.26/build-aux/ltmain.sh
+gdbm-1.26/build-aux/install-sh
+gdbm-1.26/build-aux/config.rpath
+gdbm-1.26/build-aux/mdate-sh
+gdbm-1.26/build-aux/config.guess
+gdbm-1.26/build-aux/texinfo.tex
+gdbm-1.26/src/
+gdbm-1.26/src/gdbm.h.in
+gdbm-1.26/src/gdbmexp.c
+gdbm-1.26/src/gdbmdelete.c
+gdbm-1.26/src/gdbmexists.c
+gdbm-1.26/src/version.c
+gdbm-1.26/src/gdbmload.c
+gdbm-1.26/src/debug.c
+gdbm-1.26/src/gdbmerrno.c
+gdbm-1.26/src/gdbmclose.c
+gdbm-1.26/src/gdbmconst.h
+gdbm-1.26/src/gdbmsync.c
+gdbm-1.26/src/proto.h
+gdbm-1.26/src/falloc.c
+gdbm-1.26/src/avail.c
+gdbm-1.26/src/gdbmreorg.c
+gdbm-1.26/src/Makefile.in
+gdbm-1.26/src/gdbmstore.c
+gdbm-1.26/src/findkey.c
+gdbm-1.26/src/gdbmfetch.c
+gdbm-1.26/src/mmap.c
+gdbm-1.26/src/gdbmopen.c
+gdbm-1.26/src/gdbmsetopt.c
+gdbm-1.26/src/hash.c
+gdbm-1.26/src/Makefile.am
+gdbm-1.26/src/gdbmimp.c
+gdbm-1.26/src/update.c
+gdbm-1.26/src/gdbmcount.c
+gdbm-1.26/src/base64.c
+gdbm-1.26/src/gdbmdump.c
+gdbm-1.26/src/fullio.c
+gdbm-1.26/src/systems.h
+gdbm-1.26/src/gdbmseq.c
+gdbm-1.26/src/bucket.c
+gdbm-1.26/src/gettext.h
+gdbm-1.26/src/gdbmfdesc.c
+gdbm-1.26/src/gdbmdefs.h
+gdbm-1.26/src/gdbm.magic
+gdbm-1.26/src/recover.c
+gdbm-1.26/src/lock.c
+gdbm-1.26/COPYING
+gdbm-1.26/configure.ac
+gdbm-1.26/aclocal.m4
+gdbm-1.26/INSTALL
+gdbm-1.26/Makefile.am
+gdbm-1.26/compat/
+gdbm-1.26/compat/fetch.c
+gdbm-1.26/compat/ndbm.h
+gdbm-1.26/compat/dbmdirfno.c
+gdbm-1.26/compat/dbmopen.c
+gdbm-1.26/compat/dbmdelete.c
+gdbm-1.26/compat/dbminit.c
+gdbm-1.26/compat/dbmstore.c
+gdbm-1.26/compat/dbmrdonly.c
+gdbm-1.26/compat/Makefile.in
+gdbm-1.26/compat/dbmseq.c
+gdbm-1.26/compat/dbmerr.c
+gdbm-1.26/compat/dbmfetch.c
+gdbm-1.26/compat/Makefile.am
+gdbm-1.26/compat/delete.c
+gdbm-1.26/compat/dbm-priv.h
+gdbm-1.26/compat/seq.c
+gdbm-1.26/compat/close.c
+gdbm-1.26/compat/dbm.h
+gdbm-1.26/compat/store.c
+gdbm-1.26/compat/dbmpagfno.c
+gdbm-1.26/compat/dbmclose.c
+gdbm-1.26/README
+gdbm-1.26/NEWS
+gdbm-1.26/ChangeLog
+gdbm-1.26/tests/
+gdbm-1.26/tests/gtdump.c
+gdbm-1.26/tests/fetch00.at
+gdbm-1.26/tests/closerr.at
+gdbm-1.26/tests/gtcacheopt.c
+gdbm-1.26/tests/dtdump.c
+gdbm-1.26/tests/dbmfetch01.at
+gdbm-1.26/tests/create00.at
+gdbm-1.26/tests/progname.h
+gdbm-1.26/tests/cloexec01.at
+gdbm-1.26/tests/dbmfetch03.at
+gdbm-1.26/tests/setopt01.at
+gdbm-1.26/tests/dbmdel02.at
+gdbm-1.26/tests/lockwait_ret.at
+gdbm-1.26/tests/gtconv.c
+gdbm-1.26/tests/num2word.c
+gdbm-1.26/tests/setopt00.at
+gdbm-1.26/tests/dtload.c
+gdbm-1.26/tests/gdbmtool04.at
+gdbm-1.26/tests/blocksize02.at
+gdbm-1.26/tests/dbmdel00.at
+gdbm-1.26/tests/g_reorg_ce.c
+gdbm-1.26/tests/gtopt.c
+gdbm-1.26/tests/gtdel.c
+gdbm-1.26/tests/delete00.at
+gdbm-1.26/tests/wordwrap.at
+gdbm-1.26/tests/d_creat_ce.c
+gdbm-1.26/tests/Makefile.in
+gdbm-1.26/tests/delete02.at
+gdbm-1.26/tests/version.at
+gdbm-1.26/tests/dbmdel01.at
+gdbm-1.26/tests/dtfetch.c
+gdbm-1.26/tests/t_lockwait.c
+gdbm-1.26/tests/t_dumpload.c
+gdbm-1.26/tests/setopt02.at
+gdbm-1.26/tests/coalesce.at
+gdbm-1.26/tests/dumpload.at
+gdbm-1.26/tests/cloexec03.at
+gdbm-1.26/tests/fetch01.at
+gdbm-1.26/tests/dejagnu/
+gdbm-1.26/tests/dejagnu/config/
+gdbm-1.26/tests/dejagnu/config/default.exp
+gdbm-1.26/tests/dejagnu/Makefile.in
+gdbm-1.26/tests/dejagnu/Makefile.am
+gdbm-1.26/tests/dejagnu/testsuite/
+gdbm-1.26/tests/dejagnu/testsuite/gdbmtool/
+gdbm-1.26/tests/dejagnu/testsuite/gdbmtool/base.exp
+gdbm-1.26/tests/gdbmtool02.at
+gdbm-1.26/tests/Makefile.am
+gdbm-1.26/tests/dbmcreate00.at
+gdbm-1.26/tests/testsuite.at
+gdbm-1.26/tests/gdbmtool03.at
+gdbm-1.26/tests/delete01.at
+gdbm-1.26/tests/gtrecover.c
+gdbm-1.26/tests/blocksize00.at
+gdbm-1.26/tests/cloexec00.at
+gdbm-1.26/tests/gtfetch.c
+gdbm-1.26/tests/gdbmtool01.at
+gdbm-1.26/tests/blocksize01.at
+gdbm-1.26/tests/cloexec02.at
+gdbm-1.26/tests/closerr.c
+gdbm-1.26/tests/g_open_ce.c
+gdbm-1.26/tests/gtver.c
+gdbm-1.26/tests/testsuite
+gdbm-1.26/tests/dbmfetch02.at
+gdbm-1.26/tests/dtdel.c
+gdbm-1.26/tests/gtload.c
+gdbm-1.26/tests/t_wordwrap.c
+gdbm-1.26/tests/conv.at
+gdbm-1.26/tests/dbmfetch00.at
+gdbm-1.26/tests/lockwait_sig.at
+gdbm-1.26/tests/fdop.c
+gdbm-1.26/tests/dbmcvt.at
+gdbm-1.26/tests/gdbmtool00.at
+gdbm-1.26/tests/package.m4
+gdbm-1.26/tests/atlocal.in
+gdbm-1.26/configure
+gdbm-1.26/THANKS
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a race-free mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to enable C11 features... none needed
+checking whether gcc understands -c and -o together... yes
+checking whether make supports the include directive... yes (GNU style)
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for file... file
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ranlib... ranlib
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for sys/param.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for bison... /usr/bin/bison
+checking for flex... /usr/bin/flex
+checking for gzip... /usr/bin/gzip
+checking for base64... /usr/bin/base64
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for an ANSI C-conforming const... yes
+checking for unsigned long long int... yes
+checking for TLS qualifier... __thread
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for ld... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking for shared library run path origin... done
+checking 32-bit host C ABI... no
+checking for ELF binary format... yes
+checking for the common suffixes of directories in the library search path... lib,lib,lib
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyPreferredLanguages... no
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for sys/file.h... yes
+checking for string.h... (cached) yes
+checking for strings.h... (cached) yes
+checking for locale.h... yes
+checking for getopt.h... yes
+checking for ftruncate... yes
+checking for flock... yes
+checking for lockf... yes
+checking for fsync... yes
+checking for setlocale... yes
+checking for getopt_long... yes
+checking for getline... yes
+checking for timer_settime... yes
+checking for timer_settime in -lrt... yes
+checking for getpagesize... yes
+checking for working mmap... yes
+checking for msync... yes
+checking for off_t... yes
+checking size of off_t... 8
+checking for struct stat.st_blksize... yes
+checking for struct stat.st_mtim... yes
+checking for struct stat.st_mtimespec... no
+checking for tputs in -lncurses... yes
+checking for readline in -lreadline... yes
+checking for readline/readline.h... yes
+checking for rl_completion_matches... yes
+checking for linux/fs.h... yes
+checking for FICLONE ioctl support... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating tests/Makefile
+config.status: creating tests/atlocal
+config.status: creating po/Makefile.in
+config.status: creating tests/dejagnu/Makefile
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating src/gdbm.h
+config.status: creating tools/Makefile
+config.status: creating doc/Makefile
+config.status: creating compat/Makefile
+config.status: creating autoconf.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing po-directories commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+config.status: executing tests/atconfig commands
+config.status: executing status commands
+
+*******************************************************************
+GDBM settings summary:
+
+Compatibility library ......................... yes
+Memory mapped I/O ............................. yes
+GNU Readline .................................. yes
+Debugging support ............................. no
+Reflink crash tolerance ....................... yes
+*******************************************************************
+
+make  all-recursive
+make[1]: Entering directory '/blfs/builds/gdbm-1.26'
+Making all in po
+make[2]: Entering directory '/blfs/builds/gdbm-1.26/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/blfs/builds/gdbm-1.26/po'
+Making all in src
+make[2]: Entering directory '/blfs/builds/gdbm-1.26/src'
+make  all-am
+make[3]: Entering directory '/blfs/builds/gdbm-1.26/src'
+  CC       gdbmclose.lo
+  CC       gdbmcount.lo
+  CC       gdbmdelete.lo
+  CC       gdbmdump.lo
+  CC       gdbmerrno.lo
+  CC       gdbmexists.lo
+  CC       gdbmexp.lo
+  CC       gdbmfdesc.lo
+  CC       gdbmfetch.lo
+  CC       gdbmload.lo
+  CC       gdbmopen.lo
+  CC       gdbmimp.lo
+  CC       gdbmreorg.lo
+  CC       gdbmseq.lo
+  CC       gdbmsetopt.lo
+  CC       gdbmstore.lo
+  CC       gdbmsync.lo
+  CC       avail.lo
+  CC       base64.lo
+  CC       bucket.lo
+  CC       falloc.lo
+  CC       findkey.lo
+  CC       fullio.lo
+  CC       hash.lo
+  CC       lock.lo
+  CC       mmap.lo
+  CC       recover.lo
+  CC       update.lo
+  CC       version.lo
+  CCLD     libgdbm.la
+make[3]: Leaving directory '/blfs/builds/gdbm-1.26/src'
+make[2]: Leaving directory '/blfs/builds/gdbm-1.26/src'
+Making all in tools
+make[2]: Entering directory '/blfs/builds/gdbm-1.26/tools'
+make  all-am
+make[3]: Entering directory '/blfs/builds/gdbm-1.26/tools'
+  CC       gdbmtool.o
+  CC       err.o
+  CC       mem.o
+  CC       pagerfile.o
+  CC       parseopt.o
+  CC       progname.o
+  CC       datconv.o
+  CC       gram.o
+  CC       input-argv.o
+  CC       input-file.o
+  CC       input-null.o
+  CC       input-std.o
+  CC       lex.o
+  CC       gdbmshell.o
+  CC       var.o
+  CC       util.o
+  CC       wordwrap.o
+  CC       input-rl.o
+  CC       gdbm_load.o
+  CC       gdbm_dump.o
+  AR       libgdbmapp.a
+  CCLD     gdbmtool
+  CCLD     gdbm_load
+  CCLD     gdbm_dump
+make[3]: Leaving directory '/blfs/builds/gdbm-1.26/tools'
+make[2]: Leaving directory '/blfs/builds/gdbm-1.26/tools'
+Making all in doc
+make[2]: Entering directory '/blfs/builds/gdbm-1.26/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/blfs/builds/gdbm-1.26/doc'
+Making all in compat
+make[2]: Entering directory '/blfs/builds/gdbm-1.26/compat'
+  CC       dbminit.lo
+  CC       delete.lo
+  CC       fetch.lo
+  CC       store.lo
+  CC       seq.lo
+  CC       close.lo
+  CC       dbmopen.lo
+  CC       dbmdelete.lo
+  CC       dbmerr.lo
+  CC       dbmfetch.lo
+  CC       dbmstore.lo
+  CC       dbmseq.lo
+  CC       dbmclose.lo
+  CC       dbmdirfno.lo
+  CC       dbmpagfno.lo
+  CC       dbmrdonly.lo
+  CCLD     libgdbm_compat.la
+make[2]: Leaving directory '/blfs/builds/gdbm-1.26/compat'
+Making all in tests
+make[2]: Entering directory '/blfs/builds/gdbm-1.26/tests'
+Making all in dejagnu
+make[3]: Entering directory '/blfs/builds/gdbm-1.26/tests/dejagnu'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/blfs/builds/gdbm-1.26/tests/dejagnu'
+make[3]: Entering directory '/blfs/builds/gdbm-1.26/tests'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/blfs/builds/gdbm-1.26/tests'
+make[2]: Leaving directory '/blfs/builds/gdbm-1.26/tests'
+make[2]: Entering directory '/blfs/builds/gdbm-1.26'
+make[2]: Leaving directory '/blfs/builds/gdbm-1.26'
+make[1]: Leaving directory '/blfs/builds/gdbm-1.26'
+Making install in po
+make[1]: Entering directory '/blfs/builds/gdbm-1.26/po'
+installing da.gmo as /pkgs/gdbm/usr/share/locale/da/LC_MESSAGES/gdbm.mo
+installing de.gmo as /pkgs/gdbm/usr/share/locale/de/LC_MESSAGES/gdbm.mo
+installing eo.gmo as /pkgs/gdbm/usr/share/locale/eo/LC_MESSAGES/gdbm.mo
+installing es.gmo as /pkgs/gdbm/usr/share/locale/es/LC_MESSAGES/gdbm.mo
+installing fi.gmo as /pkgs/gdbm/usr/share/locale/fi/LC_MESSAGES/gdbm.mo
+installing fr.gmo as /pkgs/gdbm/usr/share/locale/fr/LC_MESSAGES/gdbm.mo
+installing ja.gmo as /pkgs/gdbm/usr/share/locale/ja/LC_MESSAGES/gdbm.mo
+installing ka.gmo as /pkgs/gdbm/usr/share/locale/ka/LC_MESSAGES/gdbm.mo
+installing pl.gmo as /pkgs/gdbm/usr/share/locale/pl/LC_MESSAGES/gdbm.mo
+installing pt_BR.gmo as /pkgs/gdbm/usr/share/locale/pt_BR/LC_MESSAGES/gdbm.mo
+installing ro.gmo as /pkgs/gdbm/usr/share/locale/ro/LC_MESSAGES/gdbm.mo
+installing ru.gmo as /pkgs/gdbm/usr/share/locale/ru/LC_MESSAGES/gdbm.mo
+installing sr.gmo as /pkgs/gdbm/usr/share/locale/sr/LC_MESSAGES/gdbm.mo
+installing sv.gmo as /pkgs/gdbm/usr/share/locale/sv/LC_MESSAGES/gdbm.mo
+installing uk.gmo as /pkgs/gdbm/usr/share/locale/uk/LC_MESSAGES/gdbm.mo
+installing vi.gmo as /pkgs/gdbm/usr/share/locale/vi/LC_MESSAGES/gdbm.mo
+if test "gdbm" = "gettext-tools"; then \
+  /usr/bin/mkdir -p /pkgs/gdbm/usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /pkgs/gdbm/usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /pkgs/gdbm/usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/blfs/builds/gdbm-1.26/po'
+Making install in src
+make[1]: Entering directory '/blfs/builds/gdbm-1.26/src'
+make  install-am
+make[2]: Entering directory '/blfs/builds/gdbm-1.26/src'
+make[3]: Entering directory '/blfs/builds/gdbm-1.26/src'
+ /usr/bin/mkdir -p '/pkgs/gdbm/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libgdbm.la '/pkgs/gdbm/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libgdbm.so.6.0.0 /pkgs/gdbm/usr/lib/libgdbm.so.6.0.0
+libtool: install: (cd /pkgs/gdbm/usr/lib && { ln -s -f libgdbm.so.6.0.0 libgdbm.so.6 || { rm -f libgdbm.so.6 && ln -s libgdbm.so.6.0.0 libgdbm.so.6; }; })
+libtool: install: (cd /pkgs/gdbm/usr/lib && { ln -s -f libgdbm.so.6.0.0 libgdbm.so || { rm -f libgdbm.so && ln -s libgdbm.so.6.0.0 libgdbm.so; }; })
+libtool: install: /usr/bin/install -c .libs/libgdbm.lai /pkgs/gdbm/usr/lib/libgdbm.la
+libtool: warning: remember to run 'libtool --finish /usr/lib'
+ /usr/bin/mkdir -p '/pkgs/gdbm/usr/include'
+ /usr/bin/install -c -m 644 gdbm.h '/pkgs/gdbm/usr/include'
+make[3]: Leaving directory '/blfs/builds/gdbm-1.26/src'
+make[2]: Leaving directory '/blfs/builds/gdbm-1.26/src'
+make[1]: Leaving directory '/blfs/builds/gdbm-1.26/src'
+Making install in tools
+make[1]: Entering directory '/blfs/builds/gdbm-1.26/tools'
+make  install-am
+make[2]: Entering directory '/blfs/builds/gdbm-1.26/tools'
+make[3]: Entering directory '/blfs/builds/gdbm-1.26/tools'
+ /usr/bin/mkdir -p '/pkgs/gdbm/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c gdbmtool gdbm_load gdbm_dump '/pkgs/gdbm/usr/bin'
+libtool: install: /usr/bin/install -c .libs/gdbmtool /pkgs/gdbm/usr/bin/gdbmtool
+libtool: install: /usr/bin/install -c .libs/gdbm_load /pkgs/gdbm/usr/bin/gdbm_load
+libtool: install: /usr/bin/install -c .libs/gdbm_dump /pkgs/gdbm/usr/bin/gdbm_dump
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/blfs/builds/gdbm-1.26/tools'
+make[2]: Leaving directory '/blfs/builds/gdbm-1.26/tools'
+make[1]: Leaving directory '/blfs/builds/gdbm-1.26/tools'
+Making install in doc
+make[1]: Entering directory '/blfs/builds/gdbm-1.26/doc'
+make[2]: Entering directory '/blfs/builds/gdbm-1.26/doc'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/pkgs/gdbm/usr/share/info'
+ /usr/bin/install -c -m 644 ./gdbm.info '/pkgs/gdbm/usr/share/info'
+ install-info --info-dir='/pkgs/gdbm/usr/share/info' '/pkgs/gdbm/usr/share/info/gdbm.info'
+ /usr/bin/mkdir -p '/pkgs/gdbm/usr/share/man/man1'
+ /usr/bin/install -c -m 644 gdbm_dump.1 gdbm_load.1 gdbmtool.1 '/pkgs/gdbm/usr/share/man/man1'
+ /usr/bin/mkdir -p '/pkgs/gdbm/usr/share/man/man3'
+ /usr/bin/install -c -m 644 gdbm.3 '/pkgs/gdbm/usr/share/man/man3'
+make[2]: Leaving directory '/blfs/builds/gdbm-1.26/doc'
+make[1]: Leaving directory '/blfs/builds/gdbm-1.26/doc'
+Making install in compat
+make[1]: Entering directory '/blfs/builds/gdbm-1.26/compat'
+make[2]: Entering directory '/blfs/builds/gdbm-1.26/compat'
+ /usr/bin/mkdir -p '/pkgs/gdbm/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libgdbm_compat.la '/pkgs/gdbm/usr/lib'
+libtool: warning: relinking 'libgdbm_compat.la'
+libtool: install: (cd /blfs/builds/gdbm-1.26/compat; /bin/sh "/blfs/builds/gdbm-1.26/libtool"  --silent --tag CC --mode=relink gcc -O2 -version-info 4:0:0 -o libgdbm_compat.la -rpath /usr/lib dbminit.lo delete.lo fetch.lo store.lo seq.lo close.lo dbmopen.lo dbmdelete.lo dbmerr.lo dbmfetch.lo dbmstore.lo dbmseq.lo dbmclose.lo dbmdirfno.lo dbmpagfno.lo dbmrdonly.lo ../src/libgdbm.la -inst-prefix-dir /pkgs/gdbm)
+libtool: install: /usr/bin/install -c .libs/libgdbm_compat.so.4.0.0T /pkgs/gdbm/usr/lib/libgdbm_compat.so.4.0.0
+libtool: install: (cd /pkgs/gdbm/usr/lib && { ln -s -f libgdbm_compat.so.4.0.0 libgdbm_compat.so.4 || { rm -f libgdbm_compat.so.4 && ln -s libgdbm_compat.so.4.0.0 libgdbm_compat.so.4; }; })
+libtool: install: (cd /pkgs/gdbm/usr/lib && { ln -s -f libgdbm_compat.so.4.0.0 libgdbm_compat.so || { rm -f libgdbm_compat.so && ln -s libgdbm_compat.so.4.0.0 libgdbm_compat.so; }; })
+libtool: install: /usr/bin/install -c .libs/libgdbm_compat.lai /pkgs/gdbm/usr/lib/libgdbm_compat.la
+libtool: warning: remember to run 'libtool --finish /usr/lib'
+ /usr/bin/mkdir -p '/pkgs/gdbm/usr/include'
+ /usr/bin/install -c -m 644 dbm.h ndbm.h '/pkgs/gdbm/usr/include'
+make[2]: Leaving directory '/blfs/builds/gdbm-1.26/compat'
+make[1]: Leaving directory '/blfs/builds/gdbm-1.26/compat'
+Making install in tests
+make[1]: Entering directory '/blfs/builds/gdbm-1.26/tests'
+Making install in dejagnu
+make[2]: Entering directory '/blfs/builds/gdbm-1.26/tests/dejagnu'
+make[3]: Entering directory '/blfs/builds/gdbm-1.26/tests/dejagnu'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/blfs/builds/gdbm-1.26/tests/dejagnu'
+make[2]: Leaving directory '/blfs/builds/gdbm-1.26/tests/dejagnu'
+make[2]: Entering directory '/blfs/builds/gdbm-1.26/tests'
+make[3]: Entering directory '/blfs/builds/gdbm-1.26/tests'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/blfs/builds/gdbm-1.26/tests'
+make[2]: Leaving directory '/blfs/builds/gdbm-1.26/tests'
+make[1]: Leaving directory '/blfs/builds/gdbm-1.26/tests'
+make[1]: Entering directory '/blfs/builds/gdbm-1.26'
+make[2]: Entering directory '/blfs/builds/gdbm-1.26'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/blfs/builds/gdbm-1.26'
+make[1]: Leaving directory '/blfs/builds/gdbm-1.26'
+Making install in po
+make[1]: Entering directory '/blfs/builds/gdbm-1.26/po'
+installing da.gmo as /usr/share/locale/da/LC_MESSAGES/gdbm.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/gdbm.mo
+installing eo.gmo as /usr/share/locale/eo/LC_MESSAGES/gdbm.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/gdbm.mo
+installing fi.gmo as /usr/share/locale/fi/LC_MESSAGES/gdbm.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/gdbm.mo
+installing ja.gmo as /usr/share/locale/ja/LC_MESSAGES/gdbm.mo
+installing ka.gmo as /usr/share/locale/ka/LC_MESSAGES/gdbm.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/gdbm.mo
+installing pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/gdbm.mo
+installing ro.gmo as /usr/share/locale/ro/LC_MESSAGES/gdbm.mo
+installing ru.gmo as /usr/share/locale/ru/LC_MESSAGES/gdbm.mo
+installing sr.gmo as /usr/share/locale/sr/LC_MESSAGES/gdbm.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/gdbm.mo
+installing uk.gmo as /usr/share/locale/uk/LC_MESSAGES/gdbm.mo
+installing vi.gmo as /usr/share/locale/vi/LC_MESSAGES/gdbm.mo
+if test "gdbm" = "gettext-tools"; then \
+  /usr/bin/mkdir -p /usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/blfs/builds/gdbm-1.26/po'
+Making install in src
+make[1]: Entering directory '/blfs/builds/gdbm-1.26/src'
+make  install-am
+make[2]: Entering directory '/blfs/builds/gdbm-1.26/src'
+make[3]: Entering directory '/blfs/builds/gdbm-1.26/src'
+ /usr/bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libgdbm.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libgdbm.so.6.0.0 /usr/lib/libgdbm.so.6.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libgdbm.so.6.0.0 libgdbm.so.6 || { rm -f libgdbm.so.6 && ln -s libgdbm.so.6.0.0 libgdbm.so.6; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libgdbm.so.6.0.0 libgdbm.so || { rm -f libgdbm.so && ln -s libgdbm.so.6.0.0 libgdbm.so; }; })
+libtool: install: /usr/bin/install -c .libs/libgdbm.lai /usr/lib/libgdbm.la
+libtool: finish: PATH="/usr/sbin:/usr/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /usr/bin/mkdir -p '/usr/include'
+ /usr/bin/install -c -m 644 gdbm.h '/usr/include'
+make[3]: Leaving directory '/blfs/builds/gdbm-1.26/src'
+make[2]: Leaving directory '/blfs/builds/gdbm-1.26/src'
+make[1]: Leaving directory '/blfs/builds/gdbm-1.26/src'
+Making install in tools
+make[1]: Entering directory '/blfs/builds/gdbm-1.26/tools'
+make  install-am
+make[2]: Entering directory '/blfs/builds/gdbm-1.26/tools'
+make[3]: Entering directory '/blfs/builds/gdbm-1.26/tools'
+ /usr/bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c gdbmtool gdbm_load gdbm_dump '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/gdbmtool /usr/bin/gdbmtool
+libtool: install: /usr/bin/install -c .libs/gdbm_load /usr/bin/gdbm_load
+libtool: install: /usr/bin/install -c .libs/gdbm_dump /usr/bin/gdbm_dump
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/blfs/builds/gdbm-1.26/tools'
+make[2]: Leaving directory '/blfs/builds/gdbm-1.26/tools'
+make[1]: Leaving directory '/blfs/builds/gdbm-1.26/tools'
+Making install in doc
+make[1]: Entering directory '/blfs/builds/gdbm-1.26/doc'
+make[2]: Entering directory '/blfs/builds/gdbm-1.26/doc'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/share/info'
+ /usr/bin/install -c -m 644 ./gdbm.info '/usr/share/info'
+ install-info --info-dir='/usr/share/info' '/usr/share/info/gdbm.info'
+ /usr/bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 gdbm_dump.1 gdbm_load.1 gdbmtool.1 '/usr/share/man/man1'
+ /usr/bin/mkdir -p '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 gdbm.3 '/usr/share/man/man3'
+make[2]: Leaving directory '/blfs/builds/gdbm-1.26/doc'
+make[1]: Leaving directory '/blfs/builds/gdbm-1.26/doc'
+Making install in compat
+make[1]: Entering directory '/blfs/builds/gdbm-1.26/compat'
+make[2]: Entering directory '/blfs/builds/gdbm-1.26/compat'
+ /usr/bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libgdbm_compat.la '/usr/lib'
+libtool: warning: relinking 'libgdbm_compat.la'
+libtool: install: (cd /blfs/builds/gdbm-1.26/compat; /bin/sh "/blfs/builds/gdbm-1.26/libtool"  --silent --tag CC --mode=relink gcc -O2 -version-info 4:0:0 -o libgdbm_compat.la -rpath /usr/lib dbminit.lo delete.lo fetch.lo store.lo seq.lo close.lo dbmopen.lo dbmdelete.lo dbmerr.lo dbmfetch.lo dbmstore.lo dbmseq.lo dbmclose.lo dbmdirfno.lo dbmpagfno.lo dbmrdonly.lo ../src/libgdbm.la )
+libtool: install: /usr/bin/install -c .libs/libgdbm_compat.so.4.0.0T /usr/lib/libgdbm_compat.so.4.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libgdbm_compat.so.4.0.0 libgdbm_compat.so.4 || { rm -f libgdbm_compat.so.4 && ln -s libgdbm_compat.so.4.0.0 libgdbm_compat.so.4; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libgdbm_compat.so.4.0.0 libgdbm_compat.so || { rm -f libgdbm_compat.so && ln -s libgdbm_compat.so.4.0.0 libgdbm_compat.so; }; })
+libtool: install: /usr/bin/install -c .libs/libgdbm_compat.lai /usr/lib/libgdbm_compat.la
+libtool: finish: PATH="/usr/sbin:/usr/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /usr/bin/mkdir -p '/usr/include'
+ /usr/bin/install -c -m 644 dbm.h ndbm.h '/usr/include'
+make[2]: Leaving directory '/blfs/builds/gdbm-1.26/compat'
+make[1]: Leaving directory '/blfs/builds/gdbm-1.26/compat'
+Making install in tests
+make[1]: Entering directory '/blfs/builds/gdbm-1.26/tests'
+Making install in dejagnu
+make[2]: Entering directory '/blfs/builds/gdbm-1.26/tests/dejagnu'
+make[3]: Entering directory '/blfs/builds/gdbm-1.26/tests/dejagnu'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/blfs/builds/gdbm-1.26/tests/dejagnu'
+make[2]: Leaving directory '/blfs/builds/gdbm-1.26/tests/dejagnu'
+make[2]: Entering directory '/blfs/builds/gdbm-1.26/tests'
+make[3]: Entering directory '/blfs/builds/gdbm-1.26/tests'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/blfs/builds/gdbm-1.26/tests'
+make[2]: Leaving directory '/blfs/builds/gdbm-1.26/tests'
+make[1]: Leaving directory '/blfs/builds/gdbm-1.26/tests'
+make[1]: Entering directory '/blfs/builds/gdbm-1.26'
+make[2]: Entering directory '/blfs/builds/gdbm-1.26'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/blfs/builds/gdbm-1.26'
+make[1]: Leaving directory '/blfs/builds/gdbm-1.26'
+gdbm/
+gdbm/usr/
+gdbm/usr/share/
+gdbm/usr/share/info/
+gdbm/usr/share/info/gdbm.info
+gdbm/usr/share/info/dir
+gdbm/usr/share/locale/
+gdbm/usr/share/locale/uk/
+gdbm/usr/share/locale/uk/LC_MESSAGES/
+gdbm/usr/share/locale/uk/LC_MESSAGES/gdbm.mo
+gdbm/usr/share/locale/de/
+gdbm/usr/share/locale/de/LC_MESSAGES/
+gdbm/usr/share/locale/de/LC_MESSAGES/gdbm.mo
+gdbm/usr/share/locale/es/
+gdbm/usr/share/locale/es/LC_MESSAGES/
+gdbm/usr/share/locale/es/LC_MESSAGES/gdbm.mo
+gdbm/usr/share/locale/vi/
+gdbm/usr/share/locale/vi/LC_MESSAGES/
+gdbm/usr/share/locale/vi/LC_MESSAGES/gdbm.mo
+gdbm/usr/share/locale/da/
+gdbm/usr/share/locale/da/LC_MESSAGES/
+gdbm/usr/share/locale/da/LC_MESSAGES/gdbm.mo
+gdbm/usr/share/locale/sr/
+gdbm/usr/share/locale/sr/LC_MESSAGES/
+gdbm/usr/share/locale/sr/LC_MESSAGES/gdbm.mo
+gdbm/usr/share/locale/pt_BR/
+gdbm/usr/share/locale/pt_BR/LC_MESSAGES/
+gdbm/usr/share/locale/pt_BR/LC_MESSAGES/gdbm.mo
+gdbm/usr/share/locale/pl/
+gdbm/usr/share/locale/pl/LC_MESSAGES/
+gdbm/usr/share/locale/pl/LC_MESSAGES/gdbm.mo
+gdbm/usr/share/locale/fi/
+gdbm/usr/share/locale/fi/LC_MESSAGES/
+gdbm/usr/share/locale/fi/LC_MESSAGES/gdbm.mo
+gdbm/usr/share/locale/ka/
+gdbm/usr/share/locale/ka/LC_MESSAGES/
+gdbm/usr/share/locale/ka/LC_MESSAGES/gdbm.mo
+gdbm/usr/share/locale/fr/
+gdbm/usr/share/locale/fr/LC_MESSAGES/
+gdbm/usr/share/locale/fr/LC_MESSAGES/gdbm.mo
+gdbm/usr/share/locale/eo/
+gdbm/usr/share/locale/eo/LC_MESSAGES/
+gdbm/usr/share/locale/eo/LC_MESSAGES/gdbm.mo
+gdbm/usr/share/locale/ro/
+gdbm/usr/share/locale/ro/LC_MESSAGES/
+gdbm/usr/share/locale/ro/LC_MESSAGES/gdbm.mo
+gdbm/usr/share/locale/sv/
+gdbm/usr/share/locale/sv/LC_MESSAGES/
+gdbm/usr/share/locale/sv/LC_MESSAGES/gdbm.mo
+gdbm/usr/share/locale/ja/
+gdbm/usr/share/locale/ja/LC_MESSAGES/
+gdbm/usr/share/locale/ja/LC_MESSAGES/gdbm.mo
+gdbm/usr/share/locale/ru/
+gdbm/usr/share/locale/ru/LC_MESSAGES/
+gdbm/usr/share/locale/ru/LC_MESSAGES/gdbm.mo
+gdbm/usr/share/man/
+gdbm/usr/share/man/man1/
+gdbm/usr/share/man/man1/gdbm_load.1
+gdbm/usr/share/man/man1/gdbm_dump.1
+gdbm/usr/share/man/man1/gdbmtool.1
+gdbm/usr/share/man/man3/
+gdbm/usr/share/man/man3/gdbm.3
+gdbm/usr/lib/
+gdbm/usr/lib/libgdbm_compat.so.4.0.0
+gdbm/usr/lib/libgdbm.so.6
+gdbm/usr/lib/libgdbm_compat.so
+gdbm/usr/lib/libgdbm.so.6.0.0
+gdbm/usr/lib/libgdbm.la
+gdbm/usr/lib/libgdbm.so
+gdbm/usr/lib/libgdbm_compat.la
+gdbm/usr/lib/libgdbm_compat.so.4
+gdbm/usr/include/
+gdbm/usr/include/ndbm.h
+gdbm/usr/include/dbm.h
+gdbm/usr/include/gdbm.h
+gdbm/usr/bin/
+gdbm/usr/bin/gdbm_load
+gdbm/usr/bin/gdbm_dump
+gdbm/usr/bin/gdbmtool
+gdbm/version
+gdbm/depends
+gdbm/make-depends
