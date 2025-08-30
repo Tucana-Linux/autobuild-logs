@@ -1,0 +1,873 @@
+--2025-08-30 07:30:20--  https://github.com/axboe/liburing/archive/refs/tags/liburing-2.12.tar.gz
+Resolving github.com (github.com)... 140.82.113.4
+Connecting to github.com (github.com)|140.82.113.4|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://codeload.github.com/axboe/liburing/tar.gz/refs/tags/liburing-2.12 [following]
+--2025-08-30 07:30:20--  https://codeload.github.com/axboe/liburing/tar.gz/refs/tags/liburing-2.12
+Resolving codeload.github.com (codeload.github.com)... 140.82.114.9
+Connecting to codeload.github.com (codeload.github.com)|140.82.114.9|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/x-gzip]
+Saving to: 'liburing-2.12.tar.gz'
+
+     0K .......... .......... .......... .......... .......... 2.38M
+    50K .......... .......... .......... .......... .......... 4.09M
+   100K .......... .......... .......... .......... .......... 76.5M
+   150K .......... .......... .......... .......... .......... 4.14M
+   200K .......... .......... .......... .......... ..........  108M
+   250K .......... .......... .......... .......... ..........  156M
+   300K .......... .......... .......... .......... .......... 4.43M
+   350K .......... .......... .......... .......... ..........  117M
+   400K .......... .......... .......... .                      106M=0.06s
+
+2025-08-30 07:30:21 (7.34 MB/s) - 'liburing-2.12.tar.gz' saved [441865]
+
+liburing-liburing-2.12/
+liburing-liburing-2.12/.github/
+liburing-liburing-2.12/.github/actions/
+liburing-liburing-2.12/.github/actions/codespell/
+liburing-liburing-2.12/.github/actions/codespell/stopwords
+liburing-liburing-2.12/.github/pull_request_template.md
+liburing-liburing-2.12/.github/workflows/
+liburing-liburing-2.12/.github/workflows/ci.yml
+liburing-liburing-2.12/.gitignore
+liburing-liburing-2.12/CHANGELOG
+liburing-liburing-2.12/CITATION.cff
+liburing-liburing-2.12/CONTRIBUTING.md
+liburing-liburing-2.12/COPYING
+liburing-liburing-2.12/COPYING.GPL
+liburing-liburing-2.12/LICENSE
+liburing-liburing-2.12/Makefile
+liburing-liburing-2.12/Makefile.common
+liburing-liburing-2.12/Makefile.quiet
+liburing-liburing-2.12/README
+liburing-liburing-2.12/SECURITY.md
+liburing-liburing-2.12/configure
+liburing-liburing-2.12/debian/
+liburing-liburing-2.12/debian/README.Debian
+liburing-liburing-2.12/debian/changelog
+liburing-liburing-2.12/debian/control
+liburing-liburing-2.12/debian/copyright
+liburing-liburing-2.12/debian/liburing-dev.install
+liburing-liburing-2.12/debian/liburing-dev.manpages
+liburing-liburing-2.12/debian/liburing2.install
+liburing-liburing-2.12/debian/liburing2.symbols
+liburing-liburing-2.12/debian/patches/
+liburing-liburing-2.12/debian/patches/series
+liburing-liburing-2.12/debian/rules
+liburing-liburing-2.12/debian/source/
+liburing-liburing-2.12/debian/source/format
+liburing-liburing-2.12/debian/source/local-options
+liburing-liburing-2.12/debian/source/options
+liburing-liburing-2.12/debian/watch
+liburing-liburing-2.12/examples/
+liburing-liburing-2.12/examples/Makefile
+liburing-liburing-2.12/examples/helpers.c
+liburing-liburing-2.12/examples/helpers.h
+liburing-liburing-2.12/examples/io_uring-close-test.c
+liburing-liburing-2.12/examples/io_uring-cp.c
+liburing-liburing-2.12/examples/io_uring-test.c
+liburing-liburing-2.12/examples/io_uring-udp.c
+liburing-liburing-2.12/examples/kdigest.c
+liburing-liburing-2.12/examples/link-cp.c
+liburing-liburing-2.12/examples/napi-busy-poll-client.c
+liburing-liburing-2.12/examples/napi-busy-poll-server.c
+liburing-liburing-2.12/examples/poll-bench.c
+liburing-liburing-2.12/examples/proxy.c
+liburing-liburing-2.12/examples/proxy.h
+liburing-liburing-2.12/examples/reg-wait.c
+liburing-liburing-2.12/examples/rsrc-update-bench.c
+liburing-liburing-2.12/examples/send-zerocopy.c
+liburing-liburing-2.12/examples/ucontext-cp.c
+liburing-liburing-2.12/examples/zcrx.c
+liburing-liburing-2.12/liburing-ffi.pc.in
+liburing-liburing-2.12/liburing.pc.in
+liburing-liburing-2.12/liburing.spec
+liburing-liburing-2.12/make-debs.sh
+liburing-liburing-2.12/man/
+liburing-liburing-2.12/man/IO_URING_CHECK_VERSION.3
+liburing-liburing-2.12/man/IO_URING_VERSION_MAJOR.3
+liburing-liburing-2.12/man/IO_URING_VERSION_MINOR.3
+liburing-liburing-2.12/man/__io_uring_buf_ring_cq_advance.3
+liburing-liburing-2.12/man/io_uring.7
+liburing-liburing-2.12/man/io_uring_buf_ring_add.3
+liburing-liburing-2.12/man/io_uring_buf_ring_advance.3
+liburing-liburing-2.12/man/io_uring_buf_ring_available.3
+liburing-liburing-2.12/man/io_uring_buf_ring_cq_advance.3
+liburing-liburing-2.12/man/io_uring_buf_ring_init.3
+liburing-liburing-2.12/man/io_uring_buf_ring_mask.3
+liburing-liburing-2.12/man/io_uring_check_version.3
+liburing-liburing-2.12/man/io_uring_clone_buffers.3
+liburing-liburing-2.12/man/io_uring_clone_buffers_offset.3
+liburing-liburing-2.12/man/io_uring_close_ring_fd.3
+liburing-liburing-2.12/man/io_uring_cq_advance.3
+liburing-liburing-2.12/man/io_uring_cq_has_overflow.3
+liburing-liburing-2.12/man/io_uring_cq_ready.3
+liburing-liburing-2.12/man/io_uring_cqe_get_data.3
+liburing-liburing-2.12/man/io_uring_cqe_get_data64.3
+liburing-liburing-2.12/man/io_uring_cqe_seen.3
+liburing-liburing-2.12/man/io_uring_enable_rings.3
+liburing-liburing-2.12/man/io_uring_enter.2
+liburing-liburing-2.12/man/io_uring_enter2.2
+liburing-liburing-2.12/man/io_uring_for_each_cqe.3
+liburing-liburing-2.12/man/io_uring_free_buf_ring.3
+liburing-liburing-2.12/man/io_uring_free_probe.3
+liburing-liburing-2.12/man/io_uring_free_reg_wait.3
+liburing-liburing-2.12/man/io_uring_get_events.3
+liburing-liburing-2.12/man/io_uring_get_probe.3
+liburing-liburing-2.12/man/io_uring_get_sqe.3
+liburing-liburing-2.12/man/io_uring_major_version.3
+liburing-liburing-2.12/man/io_uring_minor_version.3
+liburing-liburing-2.12/man/io_uring_opcode_supported.3
+liburing-liburing-2.12/man/io_uring_peek_batch_cqe.3
+liburing-liburing-2.12/man/io_uring_peek_cqe.3
+liburing-liburing-2.12/man/io_uring_prep_accept.3
+liburing-liburing-2.12/man/io_uring_prep_accept_direct.3
+liburing-liburing-2.12/man/io_uring_prep_bind.3
+liburing-liburing-2.12/man/io_uring_prep_cancel.3
+liburing-liburing-2.12/man/io_uring_prep_cancel64.3
+liburing-liburing-2.12/man/io_uring_prep_cancel_fd.3
+liburing-liburing-2.12/man/io_uring_prep_close.3
+liburing-liburing-2.12/man/io_uring_prep_close_direct.3
+liburing-liburing-2.12/man/io_uring_prep_cmd.3
+liburing-liburing-2.12/man/io_uring_prep_cmd_discard.3
+liburing-liburing-2.12/man/io_uring_prep_connect.3
+liburing-liburing-2.12/man/io_uring_prep_epoll_wait.3
+liburing-liburing-2.12/man/io_uring_prep_fadvise.3
+liburing-liburing-2.12/man/io_uring_prep_fadvise64.3
+liburing-liburing-2.12/man/io_uring_prep_fallocate.3
+liburing-liburing-2.12/man/io_uring_prep_fgetxattr.3
+liburing-liburing-2.12/man/io_uring_prep_files_update.3
+liburing-liburing-2.12/man/io_uring_prep_fixed_fd_install.3
+liburing-liburing-2.12/man/io_uring_prep_fsetxattr.3
+liburing-liburing-2.12/man/io_uring_prep_fsync.3
+liburing-liburing-2.12/man/io_uring_prep_ftruncate.3
+liburing-liburing-2.12/man/io_uring_prep_futex_wait.3
+liburing-liburing-2.12/man/io_uring_prep_futex_waitv.3
+liburing-liburing-2.12/man/io_uring_prep_futex_wake.3
+liburing-liburing-2.12/man/io_uring_prep_getxattr.3
+liburing-liburing-2.12/man/io_uring_prep_link.3
+liburing-liburing-2.12/man/io_uring_prep_link_timeout.3
+liburing-liburing-2.12/man/io_uring_prep_linkat.3
+liburing-liburing-2.12/man/io_uring_prep_listen.3
+liburing-liburing-2.12/man/io_uring_prep_madvise.3
+liburing-liburing-2.12/man/io_uring_prep_madvise64.3
+liburing-liburing-2.12/man/io_uring_prep_mkdir.3
+liburing-liburing-2.12/man/io_uring_prep_mkdirat.3
+liburing-liburing-2.12/man/io_uring_prep_msg_ring.3
+liburing-liburing-2.12/man/io_uring_prep_msg_ring_cqe_flags.3
+liburing-liburing-2.12/man/io_uring_prep_msg_ring_fd.3
+liburing-liburing-2.12/man/io_uring_prep_msg_ring_fd_alloc.3
+liburing-liburing-2.12/man/io_uring_prep_multishot_accept.3
+liburing-liburing-2.12/man/io_uring_prep_multishot_accept_direct.3
+liburing-liburing-2.12/man/io_uring_prep_nop.3
+liburing-liburing-2.12/man/io_uring_prep_open.3
+liburing-liburing-2.12/man/io_uring_prep_open_direct.3
+liburing-liburing-2.12/man/io_uring_prep_openat.3
+liburing-liburing-2.12/man/io_uring_prep_openat2.3
+liburing-liburing-2.12/man/io_uring_prep_openat2_direct.3
+liburing-liburing-2.12/man/io_uring_prep_openat_direct.3
+liburing-liburing-2.12/man/io_uring_prep_pipe.3
+liburing-liburing-2.12/man/io_uring_prep_poll_add.3
+liburing-liburing-2.12/man/io_uring_prep_poll_multishot.3
+liburing-liburing-2.12/man/io_uring_prep_poll_remove.3
+liburing-liburing-2.12/man/io_uring_prep_poll_update.3
+liburing-liburing-2.12/man/io_uring_prep_provide_buffers.3
+liburing-liburing-2.12/man/io_uring_prep_read.3
+liburing-liburing-2.12/man/io_uring_prep_read_fixed.3
+liburing-liburing-2.12/man/io_uring_prep_read_multishot.3
+liburing-liburing-2.12/man/io_uring_prep_readv.3
+liburing-liburing-2.12/man/io_uring_prep_readv2.3
+liburing-liburing-2.12/man/io_uring_prep_recv.3
+liburing-liburing-2.12/man/io_uring_prep_recv_multishot.3
+liburing-liburing-2.12/man/io_uring_prep_recvmsg.3
+liburing-liburing-2.12/man/io_uring_prep_recvmsg_multishot.3
+liburing-liburing-2.12/man/io_uring_prep_remove_buffers.3
+liburing-liburing-2.12/man/io_uring_prep_rename.3
+liburing-liburing-2.12/man/io_uring_prep_renameat.3
+liburing-liburing-2.12/man/io_uring_prep_send.3
+liburing-liburing-2.12/man/io_uring_prep_send_bundle.3
+liburing-liburing-2.12/man/io_uring_prep_send_set_addr.3
+liburing-liburing-2.12/man/io_uring_prep_send_zc.3
+liburing-liburing-2.12/man/io_uring_prep_send_zc_fixed.3
+liburing-liburing-2.12/man/io_uring_prep_sendmsg.3
+liburing-liburing-2.12/man/io_uring_prep_sendmsg_zc.3
+liburing-liburing-2.12/man/io_uring_prep_sendto.3
+liburing-liburing-2.12/man/io_uring_prep_setxattr.3
+liburing-liburing-2.12/man/io_uring_prep_shutdown.3
+liburing-liburing-2.12/man/io_uring_prep_socket.3
+liburing-liburing-2.12/man/io_uring_prep_socket_direct.3
+liburing-liburing-2.12/man/io_uring_prep_socket_direct_alloc.3
+liburing-liburing-2.12/man/io_uring_prep_splice.3
+liburing-liburing-2.12/man/io_uring_prep_statx.3
+liburing-liburing-2.12/man/io_uring_prep_symlink.3
+liburing-liburing-2.12/man/io_uring_prep_symlinkat.3
+liburing-liburing-2.12/man/io_uring_prep_sync_file_range.3
+liburing-liburing-2.12/man/io_uring_prep_tee.3
+liburing-liburing-2.12/man/io_uring_prep_timeout.3
+liburing-liburing-2.12/man/io_uring_prep_timeout_remove.3
+liburing-liburing-2.12/man/io_uring_prep_timeout_update.3
+liburing-liburing-2.12/man/io_uring_prep_unlink.3
+liburing-liburing-2.12/man/io_uring_prep_unlinkat.3
+liburing-liburing-2.12/man/io_uring_prep_waitid.3
+liburing-liburing-2.12/man/io_uring_prep_write.3
+liburing-liburing-2.12/man/io_uring_prep_write_fixed.3
+liburing-liburing-2.12/man/io_uring_prep_writev.3
+liburing-liburing-2.12/man/io_uring_prep_writev2.3
+liburing-liburing-2.12/man/io_uring_queue_exit.3
+liburing-liburing-2.12/man/io_uring_queue_init.3
+liburing-liburing-2.12/man/io_uring_queue_init_mem.3
+liburing-liburing-2.12/man/io_uring_queue_init_params.3
+liburing-liburing-2.12/man/io_uring_recvmsg_cmsg_firsthdr.3
+liburing-liburing-2.12/man/io_uring_recvmsg_cmsg_nexthdr.3
+liburing-liburing-2.12/man/io_uring_recvmsg_name.3
+liburing-liburing-2.12/man/io_uring_recvmsg_out.3
+liburing-liburing-2.12/man/io_uring_recvmsg_payload.3
+liburing-liburing-2.12/man/io_uring_recvmsg_payload_length.3
+liburing-liburing-2.12/man/io_uring_recvmsg_validate.3
+liburing-liburing-2.12/man/io_uring_register.2
+liburing-liburing-2.12/man/io_uring_register_buf_ring.3
+liburing-liburing-2.12/man/io_uring_register_buffers.3
+liburing-liburing-2.12/man/io_uring_register_buffers_sparse.3
+liburing-liburing-2.12/man/io_uring_register_buffers_tags.3
+liburing-liburing-2.12/man/io_uring_register_buffers_update_tag.3
+liburing-liburing-2.12/man/io_uring_register_clock.3
+liburing-liburing-2.12/man/io_uring_register_eventfd.3
+liburing-liburing-2.12/man/io_uring_register_eventfd_async.3
+liburing-liburing-2.12/man/io_uring_register_file_alloc_range.3
+liburing-liburing-2.12/man/io_uring_register_files.3
+liburing-liburing-2.12/man/io_uring_register_files_sparse.3
+liburing-liburing-2.12/man/io_uring_register_files_tags.3
+liburing-liburing-2.12/man/io_uring_register_files_update.3
+liburing-liburing-2.12/man/io_uring_register_files_update_tag.3
+liburing-liburing-2.12/man/io_uring_register_iowq_aff.3
+liburing-liburing-2.12/man/io_uring_register_iowq_max_workers.3
+liburing-liburing-2.12/man/io_uring_register_napi.3
+liburing-liburing-2.12/man/io_uring_register_reg_wait.3
+liburing-liburing-2.12/man/io_uring_register_ring_fd.3
+liburing-liburing-2.12/man/io_uring_register_sync_cancel.3
+liburing-liburing-2.12/man/io_uring_register_sync_msg.3
+liburing-liburing-2.12/man/io_uring_resize_rings.3
+liburing-liburing-2.12/man/io_uring_set_iowait.3
+liburing-liburing-2.12/man/io_uring_setup.2
+liburing-liburing-2.12/man/io_uring_setup_buf_ring.3
+liburing-liburing-2.12/man/io_uring_setup_reg_wait.3
+liburing-liburing-2.12/man/io_uring_sq_ready.3
+liburing-liburing-2.12/man/io_uring_sq_space_left.3
+liburing-liburing-2.12/man/io_uring_sqe_set_buf_group.3
+liburing-liburing-2.12/man/io_uring_sqe_set_data.3
+liburing-liburing-2.12/man/io_uring_sqe_set_data64.3
+liburing-liburing-2.12/man/io_uring_sqe_set_flags.3
+liburing-liburing-2.12/man/io_uring_sqring_wait.3
+liburing-liburing-2.12/man/io_uring_submit.3
+liburing-liburing-2.12/man/io_uring_submit_and_get_events.3
+liburing-liburing-2.12/man/io_uring_submit_and_wait.3
+liburing-liburing-2.12/man/io_uring_submit_and_wait_min_timeout.3
+liburing-liburing-2.12/man/io_uring_submit_and_wait_reg.3
+liburing-liburing-2.12/man/io_uring_submit_and_wait_timeout.3
+liburing-liburing-2.12/man/io_uring_unregister_buf_ring.3
+liburing-liburing-2.12/man/io_uring_unregister_buffers.3
+liburing-liburing-2.12/man/io_uring_unregister_eventfd.3
+liburing-liburing-2.12/man/io_uring_unregister_files.3
+liburing-liburing-2.12/man/io_uring_unregister_iowq_aff.3
+liburing-liburing-2.12/man/io_uring_unregister_napi.3
+liburing-liburing-2.12/man/io_uring_unregister_ring_fd.3
+liburing-liburing-2.12/man/io_uring_wait_cqe.3
+liburing-liburing-2.12/man/io_uring_wait_cqe_nr.3
+liburing-liburing-2.12/man/io_uring_wait_cqe_timeout.3
+liburing-liburing-2.12/man/io_uring_wait_cqes.3
+liburing-liburing-2.12/man/io_uring_wait_cqes_min_timeout.3
+liburing-liburing-2.12/src/
+liburing-liburing-2.12/src/Makefile
+liburing-liburing-2.12/src/arch/
+liburing-liburing-2.12/src/arch/aarch64/
+liburing-liburing-2.12/src/arch/aarch64/lib.h
+liburing-liburing-2.12/src/arch/aarch64/syscall.h
+liburing-liburing-2.12/src/arch/generic/
+liburing-liburing-2.12/src/arch/generic/lib.h
+liburing-liburing-2.12/src/arch/generic/syscall.h
+liburing-liburing-2.12/src/arch/riscv64/
+liburing-liburing-2.12/src/arch/riscv64/lib.h
+liburing-liburing-2.12/src/arch/riscv64/syscall.h
+liburing-liburing-2.12/src/arch/syscall-defs.h
+liburing-liburing-2.12/src/arch/x86/
+liburing-liburing-2.12/src/arch/x86/lib.h
+liburing-liburing-2.12/src/arch/x86/syscall.h
+liburing-liburing-2.12/src/ffi.c
+liburing-liburing-2.12/src/include/
+liburing-liburing-2.12/src/include/liburing.h
+liburing-liburing-2.12/src/include/liburing/
+liburing-liburing-2.12/src/include/liburing/barrier.h
+liburing-liburing-2.12/src/include/liburing/io_uring.h
+liburing-liburing-2.12/src/include/liburing/sanitize.h
+liburing-liburing-2.12/src/int_flags.h
+liburing-liburing-2.12/src/lib.h
+liburing-liburing-2.12/src/liburing-ffi.map
+liburing-liburing-2.12/src/liburing.map
+liburing-liburing-2.12/src/nolibc.c
+liburing-liburing-2.12/src/queue.c
+liburing-liburing-2.12/src/register.c
+liburing-liburing-2.12/src/sanitize.c
+liburing-liburing-2.12/src/setup.c
+liburing-liburing-2.12/src/setup.h
+liburing-liburing-2.12/src/syscall.c
+liburing-liburing-2.12/src/syscall.h
+liburing-liburing-2.12/src/version.c
+liburing-liburing-2.12/test/
+liburing-liburing-2.12/test/232c93d07b74.c
+liburing-liburing-2.12/test/35fa71a030ca.c
+liburing-liburing-2.12/test/500f9fbadef8.c
+liburing-liburing-2.12/test/7ad0e4b2f83c.c
+liburing-liburing-2.12/test/8a9973408177.c
+liburing-liburing-2.12/test/917257daa0fe.c
+liburing-liburing-2.12/test/Makefile
+liburing-liburing-2.12/test/a0908ae19763.c
+liburing-liburing-2.12/test/a4c0b3decb33.c
+liburing-liburing-2.12/test/accept-link.c
+liburing-liburing-2.12/test/accept-non-empty.c
+liburing-liburing-2.12/test/accept-reuse.c
+liburing-liburing-2.12/test/accept-test.c
+liburing-liburing-2.12/test/accept.c
+liburing-liburing-2.12/test/across-fork.c
+liburing-liburing-2.12/test/b19062a56726.c
+liburing-liburing-2.12/test/b5837bd5311d.c
+liburing-liburing-2.12/test/bind-listen.c
+liburing-liburing-2.12/test/buf-ring-nommap.c
+liburing-liburing-2.12/test/buf-ring-put.c
+liburing-liburing-2.12/test/buf-ring.c
+liburing-liburing-2.12/test/ce593a6c480a.c
+liburing-liburing-2.12/test/close-opath.c
+liburing-liburing-2.12/test/cmd-discard.c
+liburing-liburing-2.12/test/config
+liburing-liburing-2.12/test/conn-unreach.c
+liburing-liburing-2.12/test/connect-rep.c
+liburing-liburing-2.12/test/connect.c
+liburing-liburing-2.12/test/coredump.c
+liburing-liburing-2.12/test/cq-full.c
+liburing-liburing-2.12/test/cq-overflow.c
+liburing-liburing-2.12/test/cq-peek-batch.c
+liburing-liburing-2.12/test/cq-ready.c
+liburing-liburing-2.12/test/cq-size.c
+liburing-liburing-2.12/test/d4ae271dfaae.c
+liburing-liburing-2.12/test/d77a67ed5f27.c
+liburing-liburing-2.12/test/defer-taskrun.c
+liburing-liburing-2.12/test/defer-tw-timeout.c
+liburing-liburing-2.12/test/defer.c
+liburing-liburing-2.12/test/double-poll-crash.c
+liburing-liburing-2.12/test/drop-submit.c
+liburing-liburing-2.12/test/eeed8b54e0df.c
+liburing-liburing-2.12/test/empty-eownerdead.c
+liburing-liburing-2.12/test/eploop.c
+liburing-liburing-2.12/test/epwait.c
+liburing-liburing-2.12/test/eventfd-disable.c
+liburing-liburing-2.12/test/eventfd-reg.c
+liburing-liburing-2.12/test/eventfd-ring.c
+liburing-liburing-2.12/test/eventfd.c
+liburing-liburing-2.12/test/evfd-short-read.c
+liburing-liburing-2.12/test/evloop.c
+liburing-liburing-2.12/test/exec-target.c
+liburing-liburing-2.12/test/exit-no-cleanup.c
+liburing-liburing-2.12/test/fadvise.c
+liburing-liburing-2.12/test/fallocate.c
+liburing-liburing-2.12/test/fc2a85cb02ef.c
+liburing-liburing-2.12/test/fd-install.c
+liburing-liburing-2.12/test/fd-pass.c
+liburing-liburing-2.12/test/fdinfo-sqpoll.c
+liburing-liburing-2.12/test/fdinfo.c
+liburing-liburing-2.12/test/fifo-nonblock-read.c
+liburing-liburing-2.12/test/file-exit-unreg.c
+liburing-liburing-2.12/test/file-register.c
+liburing-liburing-2.12/test/file-update.c
+liburing-liburing-2.12/test/file-verify.c
+liburing-liburing-2.12/test/files-exit-hang-poll.c
+liburing-liburing-2.12/test/files-exit-hang-timeout.c
+liburing-liburing-2.12/test/fixed-buf-iter.c
+liburing-liburing-2.12/test/fixed-buf-merge.c
+liburing-liburing-2.12/test/fixed-hugepage.c
+liburing-liburing-2.12/test/fixed-link.c
+liburing-liburing-2.12/test/fixed-reuse.c
+liburing-liburing-2.12/test/fixed-seg.c
+liburing-liburing-2.12/test/fpos.c
+liburing-liburing-2.12/test/fsnotify.c
+liburing-liburing-2.12/test/fsync.c
+liburing-liburing-2.12/test/futex-kill.c
+liburing-liburing-2.12/test/futex.c
+liburing-liburing-2.12/test/hardlink.c
+liburing-liburing-2.12/test/helpers.c
+liburing-liburing-2.12/test/helpers.h
+liburing-liburing-2.12/test/ignore-single-mmap.c
+liburing-liburing-2.12/test/init-mem.c
+liburing-liburing-2.12/test/io-cancel.c
+liburing-liburing-2.12/test/io_uring_enter.c
+liburing-liburing-2.12/test/io_uring_passthrough.c
+liburing-liburing-2.12/test/io_uring_register.c
+liburing-liburing-2.12/test/io_uring_setup.c
+liburing-liburing-2.12/test/iopoll-leak.c
+liburing-liburing-2.12/test/iopoll-overflow.c
+liburing-liburing-2.12/test/iopoll.c
+liburing-liburing-2.12/test/iowait.c
+liburing-liburing-2.12/test/kallsyms.c
+liburing-liburing-2.12/test/lfs-openat-write.c
+liburing-liburing-2.12/test/lfs-openat.c
+liburing-liburing-2.12/test/link-timeout.c
+liburing-liburing-2.12/test/link.c
+liburing-liburing-2.12/test/link_drain.c
+liburing-liburing-2.12/test/linked-defer-close.c
+liburing-liburing-2.12/test/madvise.c
+liburing-liburing-2.12/test/min-timeout-wait.c
+liburing-liburing-2.12/test/min-timeout.c
+liburing-liburing-2.12/test/mkdir.c
+liburing-liburing-2.12/test/msg-ring-fd.c
+liburing-liburing-2.12/test/msg-ring-flags.c
+liburing-liburing-2.12/test/msg-ring-overflow.c
+liburing-liburing-2.12/test/msg-ring.c
+liburing-liburing-2.12/test/multicqes_drain.c
+liburing-liburing-2.12/test/napi-test.c
+liburing-liburing-2.12/test/napi-test.sh
+liburing-liburing-2.12/test/no-mmap-inval.c
+liburing-liburing-2.12/test/nolibc.c
+liburing-liburing-2.12/test/nop-all-sizes.c
+liburing-liburing-2.12/test/nop.c
+liburing-liburing-2.12/test/nvme.h
+liburing-liburing-2.12/test/ooo-file-unreg.c
+liburing-liburing-2.12/test/open-close.c
+liburing-liburing-2.12/test/open-direct-link.c
+liburing-liburing-2.12/test/open-direct-pick.c
+liburing-liburing-2.12/test/openat2.c
+liburing-liburing-2.12/test/personality.c
+liburing-liburing-2.12/test/pipe-bug.c
+liburing-liburing-2.12/test/pipe-eof.c
+liburing-liburing-2.12/test/pipe-reuse.c
+liburing-liburing-2.12/test/pipe.c
+liburing-liburing-2.12/test/poll-cancel-all.c
+liburing-liburing-2.12/test/poll-cancel-ton.c
+liburing-liburing-2.12/test/poll-cancel.c
+liburing-liburing-2.12/test/poll-link.c
+liburing-liburing-2.12/test/poll-many.c
+liburing-liburing-2.12/test/poll-mshot-overflow.c
+liburing-liburing-2.12/test/poll-mshot-update.c
+liburing-liburing-2.12/test/poll-race-mshot.c
+liburing-liburing-2.12/test/poll-race.c
+liburing-liburing-2.12/test/poll-ring.c
+liburing-liburing-2.12/test/poll-v-poll.c
+liburing-liburing-2.12/test/poll.c
+liburing-liburing-2.12/test/pollfree.c
+liburing-liburing-2.12/test/probe.c
+liburing-liburing-2.12/test/read-before-exit.c
+liburing-liburing-2.12/test/read-inc-file.c
+liburing-liburing-2.12/test/read-mshot-empty.c
+liburing-liburing-2.12/test/read-mshot-stdin.c
+liburing-liburing-2.12/test/read-mshot.c
+liburing-liburing-2.12/test/read-write.c
+liburing-liburing-2.12/test/recv-bundle-short-ooo.c
+liburing-liburing-2.12/test/recv-inc-ooo.c
+liburing-liburing-2.12/test/recv-msgall-stream.c
+liburing-liburing-2.12/test/recv-msgall.c
+liburing-liburing-2.12/test/recv-mshot-fair.c
+liburing-liburing-2.12/test/recv-multishot.c
+liburing-liburing-2.12/test/recvsend_bundle-inc.c
+liburing-liburing-2.12/test/recvsend_bundle.c
+liburing-liburing-2.12/test/reg-fd-only.c
+liburing-liburing-2.12/test/reg-hint.c
+liburing-liburing-2.12/test/reg-reg-ring.c
+liburing-liburing-2.12/test/reg-wait.c
+liburing-liburing-2.12/test/regbuf-clone.c
+liburing-liburing-2.12/test/regbuf-merge.c
+liburing-liburing-2.12/test/register-restrictions.c
+liburing-liburing-2.12/test/rename.c
+liburing-liburing-2.12/test/resize-rings.c
+liburing-liburing-2.12/test/ring-leak.c
+liburing-liburing-2.12/test/ring-leak2.c
+liburing-liburing-2.12/test/ringbuf-read.c
+liburing-liburing-2.12/test/ringbuf-status.c
+liburing-liburing-2.12/test/rsrc_tags.c
+liburing-liburing-2.12/test/runtests-loop.sh
+liburing-liburing-2.12/test/runtests-quiet.sh
+liburing-liburing-2.12/test/runtests.sh
+liburing-liburing-2.12/test/rw_merge_test.c
+liburing-liburing-2.12/test/self.c
+liburing-liburing-2.12/test/send-zerocopy.c
+liburing-liburing-2.12/test/send_recv.c
+liburing-liburing-2.12/test/send_recvmsg.c
+liburing-liburing-2.12/test/sendmsg_iov_clean.c
+liburing-liburing-2.12/test/shared-wq.c
+liburing-liburing-2.12/test/short-read.c
+liburing-liburing-2.12/test/shutdown.c
+liburing-liburing-2.12/test/sigfd-deadlock.c
+liburing-liburing-2.12/test/single-issuer.c
+liburing-liburing-2.12/test/skip-cqe.c
+liburing-liburing-2.12/test/socket-getsetsock-cmd.c
+liburing-liburing-2.12/test/socket-io-cmd.c
+liburing-liburing-2.12/test/socket-nb.c
+liburing-liburing-2.12/test/socket-rw-eagain.c
+liburing-liburing-2.12/test/socket-rw-offset.c
+liburing-liburing-2.12/test/socket-rw.c
+liburing-liburing-2.12/test/socket.c
+liburing-liburing-2.12/test/splice.c
+liburing-liburing-2.12/test/sq-full-cpp.cc
+liburing-liburing-2.12/test/sq-full.c
+liburing-liburing-2.12/test/sq-poll-dup.c
+liburing-liburing-2.12/test/sq-poll-kthread.c
+liburing-liburing-2.12/test/sq-poll-share.c
+liburing-liburing-2.12/test/sq-space_left.c
+liburing-liburing-2.12/test/sqpoll-disable-exit.c
+liburing-liburing-2.12/test/sqpoll-exec.c
+liburing-liburing-2.12/test/sqpoll-exit-hang.c
+liburing-liburing-2.12/test/sqpoll-sleep.c
+liburing-liburing-2.12/test/sqwait.c
+liburing-liburing-2.12/test/statx.c
+liburing-liburing-2.12/test/stdout.c
+liburing-liburing-2.12/test/submit-and-wait.c
+liburing-liburing-2.12/test/submit-link-fail.c
+liburing-liburing-2.12/test/submit-reuse.c
+liburing-liburing-2.12/test/symlink.c
+liburing-liburing-2.12/test/sync-cancel.c
+liburing-liburing-2.12/test/teardowns.c
+liburing-liburing-2.12/test/test.h
+liburing-liburing-2.12/test/thread-exit.c
+liburing-liburing-2.12/test/timeout-new.c
+liburing-liburing-2.12/test/timeout.c
+liburing-liburing-2.12/test/timerfd-short-read.c
+liburing-liburing-2.12/test/timestamp.c
+liburing-liburing-2.12/test/truncate.c
+liburing-liburing-2.12/test/tty-write-dpoll.c
+liburing-liburing-2.12/test/unlink.c
+liburing-liburing-2.12/test/uring_cmd_ublk.c
+liburing-liburing-2.12/test/vec-regbuf.c
+liburing-liburing-2.12/test/version.c
+liburing-liburing-2.12/test/wait-timeout.c
+liburing-liburing-2.12/test/waitid.c
+liburing-liburing-2.12/test/wakeup-hang.c
+liburing-liburing-2.12/test/wq-aff.c
+liburing-liburing-2.12/test/xattr.c
+liburing-liburing-2.12/test/xfail_prep_link_timeout_out_of_scope.c
+liburing-liburing-2.12/test/xfail_register_buffers_out_of_scope.c
+liburing-liburing-2.12/test/zcrx.c
+prefix                             /usr
+includedir                         /usr/include
+libdir                             /usr/lib
+libdevdir                          /usr/lib
+relativelibdir                     
+mandir                             /usr/man
+datadir                            /usr/share
+libgcc_link_flag                   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.0/libgcc.a
+stringop_overflow                  yes
+array_bounds                       yes
+__kernel_rwf_t                     yes
+__kernel_timespec                  yes
+open_how                           yes
+statx                              yes
+glibc_statx                        yes
+C++                                yes
+has_ucontext                       yes
+has_memfd_create                   yes
+NVMe uring command support         yes
+futex waitv support                yes
+io_uring discard command support   yes
+has_idtype_t                       yes
+nolibc                             yes
+has_fanotify                       yes
+ublk_header                        yes
+use sanitizer                      no
+CC                                 gcc
+CXX                                g++
+sed -e "s%@prefix@%/usr%g" \
+    -e "s%@libdir@%/usr/lib%g" \
+    -e "s%@includedir@%/usr/include%g" \
+    -e "s%@NAME@%liburing%g" \
+    -e "s%@VERSION@%2.12%g" \
+    liburing.pc.in >liburing.pc
+sed -e "s%@prefix@%/usr%g" \
+    -e "s%@libdir@%/usr/lib%g" \
+    -e "s%@includedir@%/usr/include%g" \
+    -e "s%@NAME@%liburing%g" \
+    -e "s%@VERSION@%2.12%g" \
+    liburing-ffi.pc.in >liburing-ffi.pc
+make[1]: Entering directory '/blfs/builds/liburing-liburing-2.12/src'
+     CC setup.ol
+     CC queue.ol
+     CC register.ol
+     CC syscall.ol
+     CC version.ol
+     CC nolibc.ol
+     AR liburing.a
+ar: creating liburing.a
+ RANLIB liburing.a
+     CC ffi.ol
+     AR liburing-ffi.a
+ar: creating liburing-ffi.a
+ RANLIB liburing-ffi.a
+     CC setup.os
+     CC queue.os
+     CC register.os
+     CC syscall.os
+     CC version.os
+     CC nolibc.os
+     CC liburing.so.2.12
+     CC ffi.os
+     CC liburing-ffi.so.2.12
+install -D -m 644 include/liburing/io_uring.h /pkgs/liburing/usr/include/liburing/io_uring.h
+install -D -m 644 include/liburing.h /pkgs/liburing/usr/include/liburing.h
+install -D -m 644 include/liburing/compat.h /pkgs/liburing/usr/include/liburing/compat.h
+install -D -m 644 include/liburing/barrier.h /pkgs/liburing/usr/include/liburing/barrier.h
+install -D -m 644 include/liburing/io_uring_version.h /pkgs/liburing/usr/include/liburing/io_uring_version.h
+install -D -m 644 liburing.a /pkgs/liburing/usr/lib/liburing.a
+install -D -m 644 liburing-ffi.a /pkgs/liburing/usr/lib/liburing-ffi.a
+install -D -m 755 liburing.so.2.12 /pkgs/liburing/usr/lib/liburing.so.2.12
+install -D -m 755 liburing-ffi.so.2.12 /pkgs/liburing/usr/lib/liburing-ffi.so.2.12
+ln -sf liburing.so.2.12 /pkgs/liburing/usr/lib/liburing.so.2
+ln -sf liburing.so.2.12 /pkgs/liburing/usr/lib/liburing.so
+ln -sf liburing-ffi.so.2.12 /pkgs/liburing/usr/lib/liburing-ffi.so.2
+ln -sf liburing-ffi.so.2.12 /pkgs/liburing/usr/lib/liburing-ffi.so
+make[1]: Leaving directory '/blfs/builds/liburing-liburing-2.12/src'
+install -D -m 644 liburing.pc /pkgs/liburing/usr/lib/pkgconfig/liburing.pc
+install -D -m 644 liburing-ffi.pc /pkgs/liburing/usr/lib/pkgconfig/liburing-ffi.pc
+install -m 755 -d /pkgs/liburing/usr/man/man2
+install -m 644 man/*.2 /pkgs/liburing/usr/man/man2
+install -m 755 -d /pkgs/liburing/usr/man/man3
+install -m 644 man/*.3 /pkgs/liburing/usr/man/man3
+install -m 755 -d /pkgs/liburing/usr/man/man7
+install -m 644 man/*.7 /pkgs/liburing/usr/man/man7
+make[1]: Entering directory '/blfs/builds/liburing-liburing-2.12/src'
+install -D -m 644 include/liburing/io_uring.h /usr/include/liburing/io_uring.h
+install -D -m 644 include/liburing.h /usr/include/liburing.h
+install -D -m 644 include/liburing/compat.h /usr/include/liburing/compat.h
+install -D -m 644 include/liburing/barrier.h /usr/include/liburing/barrier.h
+install -D -m 644 include/liburing/io_uring_version.h /usr/include/liburing/io_uring_version.h
+install -D -m 644 liburing.a /usr/lib/liburing.a
+install -D -m 644 liburing-ffi.a /usr/lib/liburing-ffi.a
+install -D -m 755 liburing.so.2.12 /usr/lib/liburing.so.2.12
+install -D -m 755 liburing-ffi.so.2.12 /usr/lib/liburing-ffi.so.2.12
+ln -sf liburing.so.2.12 /usr/lib/liburing.so.2
+ln -sf liburing.so.2.12 /usr/lib/liburing.so
+ln -sf liburing-ffi.so.2.12 /usr/lib/liburing-ffi.so.2
+ln -sf liburing-ffi.so.2.12 /usr/lib/liburing-ffi.so
+make[1]: Leaving directory '/blfs/builds/liburing-liburing-2.12/src'
+install -D -m 644 liburing.pc /usr/lib/pkgconfig/liburing.pc
+install -D -m 644 liburing-ffi.pc /usr/lib/pkgconfig/liburing-ffi.pc
+install -m 755 -d /usr/man/man2
+install -m 644 man/*.2 /usr/man/man2
+install -m 755 -d /usr/man/man3
+install -m 644 man/*.3 /usr/man/man3
+install -m 755 -d /usr/man/man7
+install -m 644 man/*.7 /usr/man/man7
+liburing/
+liburing/usr/
+liburing/usr/lib/
+liburing/usr/lib/liburing.a
+liburing/usr/lib/liburing-ffi.so
+liburing/usr/lib/liburing-ffi.a
+liburing/usr/lib/liburing.so
+liburing/usr/lib/liburing-ffi.so.2
+liburing/usr/lib/pkgconfig/
+liburing/usr/lib/pkgconfig/liburing.pc
+liburing/usr/lib/pkgconfig/liburing-ffi.pc
+liburing/usr/lib/liburing.so.2.12
+liburing/usr/lib/liburing-ffi.so.2.12
+liburing/usr/lib/liburing.so.2
+liburing/usr/include/
+liburing/usr/include/liburing/
+liburing/usr/include/liburing/io_uring.h
+liburing/usr/include/liburing/barrier.h
+liburing/usr/include/liburing/compat.h
+liburing/usr/include/liburing/io_uring_version.h
+liburing/usr/include/liburing.h
+liburing/usr/man/
+liburing/usr/man/man2/
+liburing/usr/man/man2/io_uring_enter2.2
+liburing/usr/man/man2/io_uring_register.2
+liburing/usr/man/man2/io_uring_enter.2
+liburing/usr/man/man2/io_uring_setup.2
+liburing/usr/man/man7/
+liburing/usr/man/man7/io_uring.7
+liburing/usr/man/man3/
+liburing/usr/man/man3/io_uring_recvmsg_out.3
+liburing/usr/man/man3/io_uring_cq_ready.3
+liburing/usr/man/man3/io_uring_sqring_wait.3
+liburing/usr/man/man3/io_uring_prep_fsync.3
+liburing/usr/man/man3/io_uring_queue_init_params.3
+liburing/usr/man/man3/io_uring_prep_writev.3
+liburing/usr/man/man3/io_uring_prep_socket_direct.3
+liburing/usr/man/man3/io_uring_register_buf_ring.3
+liburing/usr/man/man3/io_uring_prep_link.3
+liburing/usr/man/man3/io_uring_queue_init.3
+liburing/usr/man/man3/io_uring_opcode_supported.3
+liburing/usr/man/man3/io_uring_prep_splice.3
+liburing/usr/man/man3/io_uring_unregister_iowq_aff.3
+liburing/usr/man/man3/io_uring_set_iowait.3
+liburing/usr/man/man3/io_uring_prep_fgetxattr.3
+liburing/usr/man/man3/io_uring_prep_linkat.3
+liburing/usr/man/man3/io_uring_prep_fsetxattr.3
+liburing/usr/man/man3/io_uring_prep_renameat.3
+liburing/usr/man/man3/IO_URING_VERSION_MINOR.3
+liburing/usr/man/man3/io_uring_prep_openat2.3
+liburing/usr/man/man3/io_uring_register_files_update_tag.3
+liburing/usr/man/man3/io_uring_buf_ring_advance.3
+liburing/usr/man/man3/io_uring_buf_ring_available.3
+liburing/usr/man/man3/io_uring_submit_and_wait.3
+liburing/usr/man/man3/io_uring_sqe_set_data64.3
+liburing/usr/man/man3/io_uring_prep_timeout_update.3
+liburing/usr/man/man3/io_uring_prep_fadvise64.3
+liburing/usr/man/man3/io_uring_close_ring_fd.3
+liburing/usr/man/man3/io_uring_prep_send_bundle.3
+liburing/usr/man/man3/io_uring_prep_rename.3
+liburing/usr/man/man3/io_uring_submit.3
+liburing/usr/man/man3/io_uring_sqe_set_flags.3
+liburing/usr/man/man3/io_uring_prep_statx.3
+liburing/usr/man/man3/io_uring_prep_link_timeout.3
+liburing/usr/man/man3/io_uring_prep_tee.3
+liburing/usr/man/man3/io_uring_prep_unlinkat.3
+liburing/usr/man/man3/io_uring_register_clock.3
+liburing/usr/man/man3/io_uring_prep_madvise64.3
+liburing/usr/man/man3/io_uring_prep_poll_add.3
+liburing/usr/man/man3/io_uring_prep_accept.3
+liburing/usr/man/man3/io_uring_prep_recvmsg_multishot.3
+liburing/usr/man/man3/io_uring_prep_recv.3
+liburing/usr/man/man3/io_uring_prep_writev2.3
+liburing/usr/man/man3/io_uring_register_files_update.3
+liburing/usr/man/man3/io_uring_prep_ftruncate.3
+liburing/usr/man/man3/io_uring_prep_send_zc.3
+liburing/usr/man/man3/io_uring_prep_files_update.3
+liburing/usr/man/man3/io_uring_register_reg_wait.3
+liburing/usr/man/man3/io_uring_prep_write_fixed.3
+liburing/usr/man/man3/io_uring_minor_version.3
+liburing/usr/man/man3/io_uring_sqe_set_buf_group.3
+liburing/usr/man/man3/io_uring_prep_pipe.3
+liburing/usr/man/man3/io_uring_cqe_seen.3
+liburing/usr/man/man3/io_uring_wait_cqe.3
+liburing/usr/man/man3/IO_URING_VERSION_MAJOR.3
+liburing/usr/man/man3/io_uring_setup_buf_ring.3
+liburing/usr/man/man3/io_uring_prep_symlinkat.3
+liburing/usr/man/man3/io_uring_prep_multishot_accept_direct.3
+liburing/usr/man/man3/io_uring_prep_unlink.3
+liburing/usr/man/man3/io_uring_prep_futex_waitv.3
+liburing/usr/man/man3/io_uring_prep_openat.3
+liburing/usr/man/man3/io_uring_recvmsg_cmsg_firsthdr.3
+liburing/usr/man/man3/io_uring_prep_sendmsg.3
+liburing/usr/man/man3/io_uring_unregister_buf_ring.3
+liburing/usr/man/man3/io_uring_free_reg_wait.3
+liburing/usr/man/man3/io_uring_prep_poll_remove.3
+liburing/usr/man/man3/io_uring_prep_epoll_wait.3
+liburing/usr/man/man3/io_uring_submit_and_wait_reg.3
+liburing/usr/man/man3/io_uring_prep_shutdown.3
+liburing/usr/man/man3/io_uring_recvmsg_name.3
+liburing/usr/man/man3/io_uring_prep_accept_direct.3
+liburing/usr/man/man3/io_uring_cqe_get_data64.3
+liburing/usr/man/man3/io_uring_register_buffers_update_tag.3
+liburing/usr/man/man3/io_uring_recvmsg_payload_length.3
+liburing/usr/man/man3/io_uring_prep_cmd.3
+liburing/usr/man/man3/io_uring_prep_remove_buffers.3
+liburing/usr/man/man3/io_uring_register_files_tags.3
+liburing/usr/man/man3/io_uring_unregister_eventfd.3
+liburing/usr/man/man3/io_uring_register_eventfd.3
+liburing/usr/man/man3/io_uring_prep_send.3
+liburing/usr/man/man3/io_uring_wait_cqe_nr.3
+liburing/usr/man/man3/io_uring_get_probe.3
+liburing/usr/man/man3/io_uring_register_iowq_aff.3
+liburing/usr/man/man3/io_uring_sq_ready.3
+liburing/usr/man/man3/io_uring_queue_exit.3
+liburing/usr/man/man3/io_uring_register_files.3
+liburing/usr/man/man3/io_uring_prep_waitid.3
+liburing/usr/man/man3/io_uring_major_version.3
+liburing/usr/man/man3/io_uring_unregister_buffers.3
+liburing/usr/man/man3/io_uring_cq_advance.3
+liburing/usr/man/man3/io_uring_prep_socket.3
+liburing/usr/man/man3/io_uring_enable_rings.3
+liburing/usr/man/man3/io_uring_prep_setxattr.3
+liburing/usr/man/man3/io_uring_prep_bind.3
+liburing/usr/man/man3/io_uring_prep_futex_wait.3
+liburing/usr/man/man3/io_uring_register_files_sparse.3
+liburing/usr/man/man3/io_uring_for_each_cqe.3
+liburing/usr/man/man3/io_uring_buf_ring_cq_advance.3
+liburing/usr/man/man3/io_uring_prep_msg_ring.3
+liburing/usr/man/man3/io_uring_prep_send_set_addr.3
+liburing/usr/man/man3/io_uring_recvmsg_validate.3
+liburing/usr/man/man3/io_uring_prep_fadvise.3
+liburing/usr/man/man3/io_uring_submit_and_get_events.3
+liburing/usr/man/man3/io_uring_submit_and_wait_timeout.3
+liburing/usr/man/man3/io_uring_prep_provide_buffers.3
+liburing/usr/man/man3/io_uring_prep_close.3
+liburing/usr/man/man3/io_uring_clone_buffers.3
+liburing/usr/man/man3/io_uring_prep_send_zc_fixed.3
+liburing/usr/man/man3/io_uring_prep_read.3
+liburing/usr/man/man3/io_uring_register_iowq_max_workers.3
+liburing/usr/man/man3/io_uring_cqe_get_data.3
+liburing/usr/man/man3/io_uring_prep_timeout_remove.3
+liburing/usr/man/man3/io_uring_setup_reg_wait.3
+liburing/usr/man/man3/IO_URING_CHECK_VERSION.3
+liburing/usr/man/man3/io_uring_register_buffers_sparse.3
+liburing/usr/man/man3/io_uring_get_sqe.3
+liburing/usr/man/man3/io_uring_prep_openat2_direct.3
+liburing/usr/man/man3/io_uring_prep_symlink.3
+liburing/usr/man/man3/io_uring_buf_ring_init.3
+liburing/usr/man/man3/io_uring_prep_sendmsg_zc.3
+liburing/usr/man/man3/io_uring_prep_madvise.3
+liburing/usr/man/man3/io_uring_prep_poll_update.3
+liburing/usr/man/man3/io_uring_cq_has_overflow.3
+liburing/usr/man/man3/io_uring_unregister_ring_fd.3
+liburing/usr/man/man3/io_uring_prep_readv2.3
+liburing/usr/man/man3/io_uring_prep_readv.3
+liburing/usr/man/man3/io_uring_submit_and_wait_min_timeout.3
+liburing/usr/man/man3/io_uring_register_sync_cancel.3
+liburing/usr/man/man3/io_uring_prep_futex_wake.3
+liburing/usr/man/man3/io_uring_prep_openat_direct.3
+liburing/usr/man/man3/io_uring_register_file_alloc_range.3
+liburing/usr/man/man3/__io_uring_buf_ring_cq_advance.3
+liburing/usr/man/man3/io_uring_wait_cqes_min_timeout.3
+liburing/usr/man/man3/io_uring_sq_space_left.3
+liburing/usr/man/man3/io_uring_check_version.3
+liburing/usr/man/man3/io_uring_prep_close_direct.3
+liburing/usr/man/man3/io_uring_prep_read_multishot.3
+liburing/usr/man/man3/io_uring_unregister_napi.3
+liburing/usr/man/man3/io_uring_wait_cqe_timeout.3
+liburing/usr/man/man3/io_uring_prep_socket_direct_alloc.3
+liburing/usr/man/man3/io_uring_register_sync_msg.3
+liburing/usr/man/man3/io_uring_queue_init_mem.3
+liburing/usr/man/man3/io_uring_prep_cancel.3
+liburing/usr/man/man3/io_uring_prep_msg_ring_cqe_flags.3
+liburing/usr/man/man3/io_uring_recvmsg_payload.3
+liburing/usr/man/man3/io_uring_get_events.3
+liburing/usr/man/man3/io_uring_register_napi.3
+liburing/usr/man/man3/io_uring_unregister_files.3
+liburing/usr/man/man3/io_uring_peek_cqe.3
+liburing/usr/man/man3/io_uring_prep_recvmsg.3
+liburing/usr/man/man3/io_uring_buf_ring_add.3
+liburing/usr/man/man3/io_uring_register_buffers_tags.3
+liburing/usr/man/man3/io_uring_recvmsg_cmsg_nexthdr.3
+liburing/usr/man/man3/io_uring_prep_read_fixed.3
+liburing/usr/man/man3/io_uring_prep_cancel64.3
+liburing/usr/man/man3/io_uring_free_probe.3
+liburing/usr/man/man3/io_uring_register_eventfd_async.3
+liburing/usr/man/man3/io_uring_prep_msg_ring_fd_alloc.3
+liburing/usr/man/man3/io_uring_prep_sendto.3
+liburing/usr/man/man3/io_uring_sqe_set_data.3
+liburing/usr/man/man3/io_uring_prep_connect.3
+liburing/usr/man/man3/io_uring_buf_ring_mask.3
+liburing/usr/man/man3/io_uring_prep_mkdir.3
+liburing/usr/man/man3/io_uring_prep_cancel_fd.3
+liburing/usr/man/man3/io_uring_prep_write.3
+liburing/usr/man/man3/io_uring_prep_multishot_accept.3
+liburing/usr/man/man3/io_uring_register_buffers.3
+liburing/usr/man/man3/io_uring_prep_timeout.3
+liburing/usr/man/man3/io_uring_prep_getxattr.3
+liburing/usr/man/man3/io_uring_prep_nop.3
+liburing/usr/man/man3/io_uring_prep_msg_ring_fd.3
+liburing/usr/man/man3/io_uring_prep_open_direct.3
+liburing/usr/man/man3/io_uring_clone_buffers_offset.3
+liburing/usr/man/man3/io_uring_prep_mkdirat.3
+liburing/usr/man/man3/io_uring_prep_fixed_fd_install.3
+liburing/usr/man/man3/io_uring_peek_batch_cqe.3
+liburing/usr/man/man3/io_uring_prep_recv_multishot.3
+liburing/usr/man/man3/io_uring_prep_cmd_discard.3
+liburing/usr/man/man3/io_uring_prep_open.3
+liburing/usr/man/man3/io_uring_prep_sync_file_range.3
+liburing/usr/man/man3/io_uring_prep_listen.3
+liburing/usr/man/man3/io_uring_wait_cqes.3
+liburing/usr/man/man3/io_uring_prep_fallocate.3
+liburing/usr/man/man3/io_uring_register_ring_fd.3
+liburing/usr/man/man3/io_uring_prep_poll_multishot.3
+liburing/usr/man/man3/io_uring_free_buf_ring.3
+liburing/usr/man/man3/io_uring_resize_rings.3
+liburing/version
+liburing/depends
+liburing/make-depends
