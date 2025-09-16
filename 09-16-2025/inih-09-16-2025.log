@@ -1,0 +1,196 @@
+--2025-09-16 08:49:10--  https://github.com/benhoyt/inih/archive/r62/inih-r62.tar.gz
+Resolving github.com (github.com)... 140.82.112.4
+Connecting to github.com (github.com)|140.82.112.4|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://codeload.github.com/benhoyt/inih/tar.gz/refs/tags/r62 [following]
+--2025-09-16 08:49:10--  https://codeload.github.com/benhoyt/inih/tar.gz/refs/tags/r62
+Resolving codeload.github.com (codeload.github.com)... 140.82.113.9
+Connecting to codeload.github.com (codeload.github.com)|140.82.113.9|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/x-gzip]
+Saving to: 'inih-r62.tar.gz'
+
+     0K .......... .......... .                                1.92M=0.01s
+
+2025-09-16 08:49:10 (1.92 MB/s) - 'inih-r62.tar.gz' saved [22145]
+
+inih-r62/
+inih-r62/.gitattributes
+inih-r62/.github/
+inih-r62/.github/FUNDING.yml
+inih-r62/.github/workflows/
+inih-r62/.github/workflows/tests.yml
+inih-r62/.gitignore
+inih-r62/LICENSE.txt
+inih-r62/README.md
+inih-r62/cpp/
+inih-r62/cpp/INIReader.cpp
+inih-r62/cpp/INIReader.h
+inih-r62/examples/
+inih-r62/examples/INIReaderExample.cpp
+inih-r62/examples/INIReaderExampleErrors.cpp
+inih-r62/examples/config.def
+inih-r62/examples/cpptest.sh
+inih-r62/examples/cpptest.txt
+inih-r62/examples/cpptesterrors.txt
+inih-r62/examples/ini_dump.c
+inih-r62/examples/ini_example.c
+inih-r62/examples/ini_xmacros.c
+inih-r62/examples/meson.build
+inih-r62/examples/test.ini
+inih-r62/fuzzing/
+inih-r62/fuzzing/build.sh
+inih-r62/fuzzing/fuzz.sh
+inih-r62/fuzzing/inihfuzz.c
+inih-r62/fuzzing/testcases/
+inih-r62/fuzzing/testcases/case1.ini
+inih-r62/ini.c
+inih-r62/ini.h
+inih-r62/meson.build
+inih-r62/meson_options.txt
+inih-r62/tests/
+inih-r62/tests/bad_comment.ini
+inih-r62/tests/bad_multi.ini
+inih-r62/tests/bad_section.ini
+inih-r62/tests/baseline_alloc.txt
+inih-r62/tests/baseline_allow_no_value.txt
+inih-r62/tests/baseline_call_handler_on_new_section.txt
+inih-r62/tests/baseline_disallow_inline_comments.txt
+inih-r62/tests/baseline_handler_lineno.txt
+inih-r62/tests/baseline_heap.txt
+inih-r62/tests/baseline_heap_max_line.txt
+inih-r62/tests/baseline_heap_realloc.txt
+inih-r62/tests/baseline_heap_realloc_max_line.txt
+inih-r62/tests/baseline_heap_string.txt
+inih-r62/tests/baseline_multi.txt
+inih-r62/tests/baseline_multi_max_line.txt
+inih-r62/tests/baseline_single.txt
+inih-r62/tests/baseline_stop_on_first_error.txt
+inih-r62/tests/baseline_string.txt
+inih-r62/tests/bom.ini
+inih-r62/tests/duplicate_sections.ini
+inih-r62/tests/long_line.ini
+inih-r62/tests/long_section.ini
+inih-r62/tests/meson.build
+inih-r62/tests/multi_line.ini
+inih-r62/tests/name_only_after_error.ini
+inih-r62/tests/no_value.ini
+inih-r62/tests/normal.ini
+inih-r62/tests/runtest.sh
+inih-r62/tests/unittest.bat
+inih-r62/tests/unittest.c
+inih-r62/tests/unittest.sh
+inih-r62/tests/unittest_alloc.c
+inih-r62/tests/unittest_string.c
+inih-r62/tests/user_error.ini
+The Meson build system
+Version: 1.7.0
+Source dir: /blfs/builds/inih-r62
+Build dir: /blfs/builds/inih-r62/build
+Build type: native build
+Project name: inih
+Project version: 62
+C compiler for the host machine: cc (gcc 15.2.0 "cc (GCC) 15.2.0")
+C linker for the host machine: cc ld.bfd 2.45
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Program runtest.sh found: YES (/blfs/builds/inih-r62/tests/runtest.sh)
+C++ compiler for the host machine: c++ (gcc 15.2.0 "c++ (GCC) 15.2.0")
+C++ linker for the host machine: c++ ld.bfd 2.45
+Build targets in project: 18
+
+inih 62
+
+  User defined options
+    buildtype: release
+    prefix   : /usr
+
+Found ninja-1.13.1 at /usr/bin/ninja
+[1/54] Compiling C object tests/unittest_string.p/unittest_string.c.o
+[2/54] Compiling C object tests/unittest_disallow_inline_comments.p/unittest.c.o
+[3/54] Compiling C object tests/unittest_single.p/unittest.c.o
+[4/54] Compiling C object tests/unittest_stop_on_first_error.p/unittest.c.o
+[5/54] Compiling C object tests/unittest_multi.p/unittest.c.o
+[6/54] Compiling C object tests/unittest_heap.p/unittest.c.o
+[7/54] Compiling C object tests/unittest_heap_max_line.p/unittest.c.o
+[8/54] Compiling C object tests/unittest_multi_max_line.p/unittest.c.o
+[9/54] Compiling C object tests/unittest_handler_lineno.p/unittest.c.o
+[10/54] Compiling C object tests/unittest_heap_realloc.p/unittest.c.o
+[11/54] Compiling C object tests/unittest_heap_string.p/unittest_string.c.o
+[12/54] Compiling C object tests/unittest_call_handler_on_new_section.p/unittest.c.o
+[13/54] Compiling C object tests/unittest_disallow_inline_comments.p/.._ini.c.o
+[14/54] Compiling C object tests/unittest_handler_lineno.p/.._ini.c.o
+[15/54] Compiling C object libinih.so.0.p/ini.c.o
+[16/54] Compiling C object tests/unittest_heap_realloc_max_line.p/unittest.c.o
+[17/54] Compiling C object tests/unittest_multi.p/.._ini.c.o
+[18/54] Compiling C object tests/unittest_multi_max_line.p/.._ini.c.o
+[19/54] Compiling C object tests/unittest_single.p/.._ini.c.o
+[20/54] Compiling C object tests/unittest_string.p/.._ini.c.o
+[21/54] Compiling C object tests/unittest_stop_on_first_error.p/.._ini.c.o
+[22/54] Compiling C object tests/unittest_allow_no_value.p/unittest.c.o
+[23/54] Compiling C object tests/unittest_heap_max_line.p/.._ini.c.o
+[24/54] Compiling C object tests/unittest_heap.p/.._ini.c.o
+[25/54] Linking target tests/unittest_disallow_inline_comments
+[26/54] Compiling C object tests/unittest_heap_realloc.p/.._ini.c.o
+[27/54] Linking target libinih.so.0
+[28/54] Linking target tests/unittest_handler_lineno
+[29/54] Linking target tests/unittest_multi
+[30/54] Linking target tests/unittest_multi_max_line
+[31/54] Compiling C object tests/unittest_alloc.p/unittest_alloc.c.o
+[32/54] Linking target tests/unittest_single
+[33/54] Compiling C object tests/unittest_heap_realloc_max_line.p/.._ini.c.o
+[34/54] Linking target tests/unittest_stop_on_first_error
+[35/54] Linking target tests/unittest_heap
+[36/54] Linking target tests/unittest_heap_max_line
+[37/54] Linking target tests/unittest_string
+[38/54] Linking target tests/unittest_heap_realloc
+[39/54] Linking target tests/unittest_heap_realloc_max_line
+[40/54] Compiling C object tests/unittest_heap_string.p/.._ini.c.o
+[41/54] Compiling C object tests/unittest_allow_no_value.p/.._ini.c.o
+[42/54] Linking target tests/unittest_heap_string
+[43/54] Linking target tests/unittest_allow_no_value
+[44/54] Compiling C object tests/unittest_alloc.p/.._ini.c.o
+[45/54] Compiling C object tests/unittest_call_handler_on_new_section.p/.._ini.c.o
+[46/54] Linking target tests/unittest_alloc
+[47/54] Linking target tests/unittest_call_handler_on_new_section
+[48/54] Compiling C object examples/unittest_INIReaderExample.p/.._ini.c.o
+[49/54] Generating symbol file libinih.so.0.p/libinih.so.0.symbols
+[50/54] Compiling C++ object examples/unittest_INIReaderExample.p/INIReaderExample.cpp.o
+[51/54] Compiling C++ object examples/unittest_INIReaderExample.p/.._cpp_INIReader.cpp.o
+[52/54] Compiling C++ object libINIReader.so.0.p/cpp_INIReader.cpp.o
+[53/54] Linking target examples/unittest_INIReaderExample
+[54/54] Linking target libINIReader.so.0
+[0/1] Installing files
+Installing libinih.so.0 to /pkgs/inih/usr/lib
+Installing libINIReader.so.0 to /pkgs/inih/usr/lib
+Installing /blfs/builds/inih-r62/ini.h to /pkgs/inih/usr/include
+Installing /blfs/builds/inih-r62/cpp/INIReader.h to /pkgs/inih/usr/include
+Installing /blfs/builds/inih-r62/build/meson-private/inih.pc to /pkgs/inih/usr/lib/pkgconfig
+Installing /blfs/builds/inih-r62/build/meson-private/INIReader.pc to /pkgs/inih/usr/lib/pkgconfig
+Installing symlink pointing to libinih.so.0 to /pkgs/inih/usr/lib/libinih.so
+Installing symlink pointing to libINIReader.so.0 to /pkgs/inih/usr/lib/libINIReader.so
+[0/1] Installing files
+Installing libinih.so.0 to /usr/lib
+Installing libINIReader.so.0 to /usr/lib
+Installing /blfs/builds/inih-r62/ini.h to /usr/include
+Installing /blfs/builds/inih-r62/cpp/INIReader.h to /usr/include
+Installing /blfs/builds/inih-r62/build/meson-private/inih.pc to /usr/lib/pkgconfig
+Installing /blfs/builds/inih-r62/build/meson-private/INIReader.pc to /usr/lib/pkgconfig
+Installing symlink pointing to libinih.so.0 to /usr/lib/libinih.so
+Installing symlink pointing to libINIReader.so.0 to /usr/lib/libINIReader.so
+inih/
+inih/usr/
+inih/usr/lib/
+inih/usr/lib/libINIReader.so.0
+inih/usr/lib/libinih.so
+inih/usr/lib/libINIReader.so
+inih/usr/lib/pkgconfig/
+inih/usr/lib/pkgconfig/INIReader.pc
+inih/usr/lib/pkgconfig/inih.pc
+inih/usr/lib/libinih.so.0
+inih/usr/include/
+inih/usr/include/ini.h
+inih/usr/include/INIReader.h
+inih/version
+inih/depends
