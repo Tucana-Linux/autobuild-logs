@@ -1,0 +1,531 @@
+--2025-09-17 07:27:17--  https://github.com/libproxy/libproxy/archive/refs/tags/0.5.11.tar.gz
+Resolving github.com (github.com)... 140.82.114.4
+Connecting to github.com (github.com)|140.82.114.4|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://codeload.github.com/libproxy/libproxy/tar.gz/refs/tags/0.5.11 [following]
+--2025-09-17 07:27:17--  https://codeload.github.com/libproxy/libproxy/tar.gz/refs/tags/0.5.11
+Resolving codeload.github.com (codeload.github.com)... 140.82.112.10
+Connecting to codeload.github.com (codeload.github.com)|140.82.112.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/x-gzip]
+Saving to: '0.5.11.tar.gz'
+
+     0K .......... .......... .......... .......... .......... 1.98M
+    50K .........                                              70.9M=0.02s
+
+2025-09-17 07:27:17 (2.33 MB/s) - '0.5.11.tar.gz' saved [60507]
+
+libproxy-0.5.11/
+libproxy-0.5.11/.github/
+libproxy-0.5.11/.github/coverity.sh
+libproxy-0.5.11/.github/workflows/
+libproxy-0.5.11/.github/workflows/build.yml
+libproxy-0.5.11/.github/workflows/codeql.yml
+libproxy-0.5.11/.github/workflows/coverity.yml
+libproxy-0.5.11/.github/workflows/release.yml
+libproxy-0.5.11/.gitignore
+libproxy-0.5.11/COPYING
+libproxy-0.5.11/README.md
+libproxy-0.5.11/SECURITY.md
+libproxy-0.5.11/codecov.yml
+libproxy-0.5.11/data/
+libproxy-0.5.11/data/canonicalize_filename.sh
+libproxy-0.5.11/data/check-code-style
+libproxy-0.5.11/data/install-git-hook.sh
+libproxy-0.5.11/data/lineup-parameters
+libproxy-0.5.11/data/pre-commit-hook
+libproxy-0.5.11/data/uncrustify.cfg
+libproxy-0.5.11/docs/
+libproxy-0.5.11/docs/applications.md
+libproxy-0.5.11/docs/architecture.md
+libproxy-0.5.11/docs/build-steps.md
+libproxy-0.5.11/docs/configuration-logic.md
+libproxy-0.5.11/docs/libproxy.svg
+libproxy-0.5.11/docs/meson.build
+libproxy-0.5.11/docs/perl.md
+libproxy-0.5.11/docs/proxy-authentication.md
+libproxy-0.5.11/docs/px.toml.in
+libproxy-0.5.11/docs/python.md
+libproxy-0.5.11/docs/ruby.md
+libproxy-0.5.11/docs/samples.md
+libproxy-0.5.11/docs/samples/
+libproxy-0.5.11/docs/samples/dotnet/
+libproxy-0.5.11/docs/samples/dotnet/Makefile
+libproxy-0.5.11/docs/samples/dotnet/proxy.cs
+libproxy-0.5.11/docs/samples/libcurl/
+libproxy-0.5.11/docs/samples/libcurl/Makefile
+libproxy-0.5.11/docs/samples/libcurl/curlget.c
+libproxy-0.5.11/docs/samples/perl/
+libproxy-0.5.11/docs/samples/perl/sample.pl
+libproxy-0.5.11/docs/samples/vala/
+libproxy-0.5.11/docs/samples/vala/Makefile
+libproxy-0.5.11/docs/samples/vala/sample.vala
+libproxy-0.5.11/docs/vala.md
+libproxy-0.5.11/docs/version.xml.in
+libproxy-0.5.11/libproxy.doap
+libproxy-0.5.11/meson.build
+libproxy-0.5.11/meson_options.txt
+libproxy-0.5.11/src/
+libproxy-0.5.11/src/backend/
+libproxy-0.5.11/src/backend/meson.build
+libproxy-0.5.11/src/backend/pacutils.h
+libproxy-0.5.11/src/backend/plugins/
+libproxy-0.5.11/src/backend/plugins/config-env/
+libproxy-0.5.11/src/backend/plugins/config-env/config-env.c
+libproxy-0.5.11/src/backend/plugins/config-env/config-env.h
+libproxy-0.5.11/src/backend/plugins/config-env/meson.build
+libproxy-0.5.11/src/backend/plugins/config-gnome/
+libproxy-0.5.11/src/backend/plugins/config-gnome/config-gnome.c
+libproxy-0.5.11/src/backend/plugins/config-gnome/config-gnome.h
+libproxy-0.5.11/src/backend/plugins/config-gnome/meson.build
+libproxy-0.5.11/src/backend/plugins/config-kde/
+libproxy-0.5.11/src/backend/plugins/config-kde/config-kde.c
+libproxy-0.5.11/src/backend/plugins/config-kde/config-kde.h
+libproxy-0.5.11/src/backend/plugins/config-kde/meson.build
+libproxy-0.5.11/src/backend/plugins/config-osx/
+libproxy-0.5.11/src/backend/plugins/config-osx/config-osx.c
+libproxy-0.5.11/src/backend/plugins/config-osx/config-osx.h
+libproxy-0.5.11/src/backend/plugins/config-osx/meson.build
+libproxy-0.5.11/src/backend/plugins/config-sysconfig/
+libproxy-0.5.11/src/backend/plugins/config-sysconfig/config-sysconfig.c
+libproxy-0.5.11/src/backend/plugins/config-sysconfig/config-sysconfig.h
+libproxy-0.5.11/src/backend/plugins/config-sysconfig/meson.build
+libproxy-0.5.11/src/backend/plugins/config-windows/
+libproxy-0.5.11/src/backend/plugins/config-windows/config-windows.c
+libproxy-0.5.11/src/backend/plugins/config-windows/config-windows.h
+libproxy-0.5.11/src/backend/plugins/config-windows/meson.build
+libproxy-0.5.11/src/backend/plugins/config-xdp/
+libproxy-0.5.11/src/backend/plugins/config-xdp/config-xdp.c
+libproxy-0.5.11/src/backend/plugins/config-xdp/config-xdp.h
+libproxy-0.5.11/src/backend/plugins/config-xdp/meson.build
+libproxy-0.5.11/src/backend/plugins/meson.build
+libproxy-0.5.11/src/backend/plugins/pacrunner-duktape/
+libproxy-0.5.11/src/backend/plugins/pacrunner-duktape/meson.build
+libproxy-0.5.11/src/backend/plugins/pacrunner-duktape/pacrunner-duktape.c
+libproxy-0.5.11/src/backend/plugins/pacrunner-duktape/pacrunner-duktape.h
+libproxy-0.5.11/src/backend/px-manager.c
+libproxy-0.5.11/src/backend/px-manager.h
+libproxy-0.5.11/src/backend/px-plugin-config.c
+libproxy-0.5.11/src/backend/px-plugin-config.h
+libproxy-0.5.11/src/backend/px-plugin-pacrunner.c
+libproxy-0.5.11/src/backend/px-plugin-pacrunner.h
+libproxy-0.5.11/src/libproxy/
+libproxy-0.5.11/src/libproxy/libproxy.map
+libproxy-0.5.11/src/libproxy/meson.build
+libproxy-0.5.11/src/libproxy/proxy.c
+libproxy-0.5.11/src/libproxy/proxy.h
+libproxy-0.5.11/src/libproxy/test.map
+libproxy-0.5.11/src/meson.build
+libproxy-0.5.11/src/tools/
+libproxy-0.5.11/src/tools/meson.build
+libproxy-0.5.11/src/tools/proxy.8
+libproxy-0.5.11/src/tools/proxy.c
+libproxy-0.5.11/subprojects/
+libproxy-0.5.11/subprojects/gi-docgen.wrap
+libproxy-0.5.11/tests/
+libproxy-0.5.11/tests/config-env-test.c
+libproxy-0.5.11/tests/config-gnome-test.c
+libproxy-0.5.11/tests/config-kde-test.c
+libproxy-0.5.11/tests/config-osx-test.c
+libproxy-0.5.11/tests/config-sysconfig-test.c
+libproxy-0.5.11/tests/config-windows-test.c
+libproxy-0.5.11/tests/data/
+libproxy-0.5.11/tests/data/px-manager-direct
+libproxy-0.5.11/tests/data/px-manager-nonpac
+libproxy-0.5.11/tests/data/px-manager-pac
+libproxy-0.5.11/tests/data/px-manager-sample.pac
+libproxy-0.5.11/tests/data/px-manager-wpad
+libproxy-0.5.11/tests/data/sample-kde-proxy-disabled
+libproxy-0.5.11/tests/data/sample-kde-proxy-manual
+libproxy-0.5.11/tests/data/sample-kde-proxy-pac
+libproxy-0.5.11/tests/data/sample-kde-proxy-pac-without-scheme
+libproxy-0.5.11/tests/data/sample-kde-proxy-wpad
+libproxy-0.5.11/tests/data/sample-sysconfig-proxy
+libproxy-0.5.11/tests/data/sample-sysconfig-proxy-invalid
+libproxy-0.5.11/tests/libproxy-test.c
+libproxy-0.5.11/tests/meson.build
+libproxy-0.5.11/tests/px-manager-helper.c
+libproxy-0.5.11/tests/px-manager-helper.h
+libproxy-0.5.11/tests/px-manager-test.c
+The Meson build system
+Version: 1.7.0
+Source dir: /blfs/builds/libproxy-0.5.11
+Build dir: /blfs/builds/libproxy-0.5.11/build
+Build type: native build
+Project name: libproxy
+Project version: 0.5.11
+C compiler for the host machine: cc (gcc 15.2.0 "cc (GCC) 15.2.0")
+C linker for the host machine: cc ld.bfd 2.45
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Compiler for C supports arguments -Wcast-align: YES 
+Compiler for C supports arguments -Wdeclaration-after-statement: YES 
+Compiler for C supports arguments -Werror=address: YES 
+Compiler for C supports arguments -Werror=array-bounds: YES 
+Compiler for C supports arguments -Werror=empty-body: YES 
+Compiler for C supports arguments -Werror=implicit: YES 
+Compiler for C supports arguments -Werror=implicit-function-declaration: YES 
+Compiler for C supports arguments -Werror=incompatible-pointer-types: YES 
+Compiler for C supports arguments -Werror=init-self: YES 
+Compiler for C supports arguments -Werror=int-conversion: YES 
+Compiler for C supports arguments -Werror=int-to-pointer-cast: YES 
+Compiler for C supports arguments -Werror=main: YES 
+Compiler for C supports arguments -Werror=misleading-indentation: YES 
+Compiler for C supports arguments -Werror=missing-braces: YES 
+Compiler for C supports arguments -Werror=missing-include-dirs: YES 
+Compiler for C supports arguments -Werror=nonnull: YES 
+Compiler for C supports arguments -Werror=overflow: YES 
+Compiler for C supports arguments -Werror=parenthesis: NO 
+Compiler for C supports arguments -Werror=pointer-arith: YES 
+Compiler for C supports arguments -Werror=pointer-to-int-cast: YES 
+Compiler for C supports arguments -Werror=redundant-decls: YES 
+Compiler for C supports arguments -Werror=return-type: YES 
+Compiler for C supports arguments -Werror=sequence-point: YES 
+Compiler for C supports arguments -Werror=shadow: YES 
+Compiler for C supports arguments -Werror=strict-prototypes: YES 
+Compiler for C supports arguments -Werror=trigraphs: YES 
+Compiler for C supports arguments -Werror=undef: YES 
+Compiler for C supports arguments -Werror=write-strings: YES 
+Compiler for C supports arguments -Wformat-nonliteral: YES 
+Compiler for C supports arguments -Wignored-qualifiers: YES 
+Compiler for C supports arguments -Wimplicit-function-declaration: YES 
+Compiler for C supports arguments -Wlogical-op: YES 
+Compiler for C supports arguments -Wmissing-declarations: YES 
+Compiler for C supports arguments -Wmissing-format-attribute: YES 
+Compiler for C supports arguments -Wmissing-include-dirs: YES 
+Compiler for C supports arguments -Wmissing-noreturn: YES 
+Compiler for C supports arguments -Wnested-externs: YES 
+Compiler for C supports arguments -Wno-cast-function-type: YES 
+Compiler for C supports arguments -Wno-dangling-pointer: YES 
+Compiler for C supports arguments -Wno-missing-field-initializers: YES 
+Compiler for C supports arguments -Wno-sign-compare: YES 
+Compiler for C supports arguments -Wno-unused-parameter: YES 
+Compiler for C supports arguments -Wold-style-definition: YES 
+Compiler for C supports arguments -Wpointer-arith: YES 
+Compiler for C supports arguments -Wredundant-decls: YES 
+Compiler for C supports arguments -Wstrict-prototypes: YES 
+Compiler for C supports arguments -Wswitch-default: YES 
+Compiler for C supports arguments -Wswitch-enum: YES 
+Compiler for C supports arguments -Wundef: YES 
+Compiler for C supports arguments -Wuninitialized: YES 
+Compiler for C supports arguments -Wunused: YES 
+Compiler for C supports arguments -fno-strict-aliasing: YES 
+Compiler for C supports arguments -Werror=format-security -Werror=format=2: YES 
+Compiler for C supports link arguments -Wl,-z,nodelete: YES 
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Run-time dependency glib-2.0 found: YES 2.84.4
+Run-time dependency gio-2.0 found: YES 2.84.4
+Run-time dependency libcurl found: YES 8.16.0
+Library ws2_32 found: NO
+Run-time dependency gsettings-desktop-schemas found: YES 49.0
+Configuring px-backend-config.h using configuration
+Run-time dependency duktape found: YES 2.7.0
+Library m found: YES
+Library socket found: NO
+Compiler for C supports link arguments -Wl,--version-script=/blfs/builds/libproxy-0.5.11/src/libproxy/test.map: YES 
+Run-time dependency gobject-introspection-1.0 found: YES 1.86.0
+Dependency gobject-introspection-1.0 found: YES 1.86.0 (cached)
+Program /usr/bin/g-ir-scanner found: YES (/usr/bin/g-ir-scanner)
+Dependency gobject-introspection-1.0 found: YES 1.86.0 (cached)
+Program /usr/bin/g-ir-compiler found: YES (/usr/bin/g-ir-compiler)
+Program vapigen found: YES (/usr/bin/vapigen)
+Configuring px.toml using configuration
+Program gi-docgen found: YES (/usr/bin/gi-docgen)
+Build targets in project: 13
+
+libproxy 0.5.11
+
+  Plugins
+    Configuration Environment: true
+    Configuration GNOME      : true
+    Configuration KDE        : true
+    Configuration Windows    : true
+    Configuration sysconfig  : true
+    Configuration OS X       : true
+    Configuration XDP        : true
+    PAC Runner Duktape       : true
+
+  Build environment
+    host cpu                 : x86_64
+    host endian              : little
+    host system              : linux
+    C Compiler               : gcc
+    Release                  : false
+
+  Options
+    Vapi                     : true
+
+  User defined options
+    buildtype                : release
+    prefix                   : /usr
+
+Found ninja-1.13.1 at /usr/bin/ninja
+[1/37] Compiling C object tests/test-px-manager.p/px-manager-helper.c.o
+[2/37] Compiling C object tests/test-config-sysconfig.p/px-manager-helper.c.o
+[3/37] Compiling C object tests/test-config-env.p/px-manager-helper.c.o
+[4/37] Compiling C object tests/test-config-kde.p/px-manager-helper.c.o
+[5/37] Compiling C object src/backend/libpxbackend-1.0.so.p/px-plugin-config.c.o
+[6/37] Compiling C object src/tools/proxy.p/proxy.c.o
+[7/37] Compiling C object tests/test-config-env.p/config-env-test.c.o
+[8/37] Compiling C object tests/test-config-sysconfig.p/config-sysconfig-test.c.o
+[9/37] Compiling C object src/libproxy/libproxy.so.0.5.11.p/proxy.c.o
+[10/37] Compiling C object tests/test-config-gnome.p/px-manager-helper.c.o
+[11/37] Compiling C object src/backend/libpxbackend-1.0.so.p/px-plugin-pacrunner.c.o
+[12/37] Compiling C object tests/test-libproxy.p/libproxy-test.c.o
+[13/37] Compiling C object src/backend/libpxbackend-1.0.so.p/plugins_config-xdp_config-xdp.c.o
+[14/37] Compiling C object src/backend/libpxbackend-1.0.so.p/plugins_config-env_config-env.c.o
+[15/37] Compiling C object src/backend/libpxbackend-1.0.so.p/plugins_config-gnome_config-gnome.c.o
+[16/37] Compiling C object src/backend/libpxbackend-1.0.so.p/plugins_config-kde_config-kde.c.o
+[17/37] Compiling C object tests/test-config-gnome.p/config-gnome-test.c.o
+[18/37] Compiling C object src/backend/libpxbackend-1.0.so.p/plugins_pacrunner-duktape_pacrunner-duktape.c.o
+[19/37] Compiling C object src/backend/libpxbackend-1.0.so.p/plugins_config-sysconfig_config-sysconfig.c.o
+[20/37] Compiling C object tests/test-config-kde.p/config-kde-test.c.o
+[21/37] Compiling C object tests/test-px-manager.p/px-manager-test.c.o
+[22/37] Compiling C object src/backend/libpxbackend-1.0.so.p/px-manager.c.o
+[23/37] Linking target src/backend/libpxbackend-1.0.so
+[24/37] Generating symbol file src/backend/libpxbackend-1.0.so.p/libpxbackend-1.0.so.symbols
+[25/37] Linking target src/libproxy/libproxy.so.0.5.11
+[26/37] Linking target tests/test-px-manager
+[27/37] Linking target tests/test-config-gnome
+[28/37] Linking target tests/test-config-kde
+[29/37] Linking target tests/test-config-sysconfig
+[30/37] Linking target tests/test-config-env
+[31/37] Generating symbol file src/libproxy/libproxy.so.0.5.11.p/libproxy.so.0.5.11.symbols
+[32/37] Linking target src/tools/proxy
+[33/37] Linking target tests/test-libproxy
+[34/37] Generating src/libproxy/Libproxy-1.0.gir with a custom command (wrapped by meson to set env)
+[35/37] Generating src/libproxy/libproxy-1.0.vapi with a custom command
+[36/37] Generating src/libproxy/Libproxy-1.0.typelib with a custom command
+[37/37] Generating docs/px-doc with a custom command
+[0/1] Installing files
+Installing src/backend/libpxbackend-1.0.so to /pkgs/libproxy/usr/lib/libproxy
+Installing src/libproxy/libproxy.so.0.5.11 to /pkgs/libproxy/usr/lib
+Installing src/libproxy/Libproxy-1.0.gir to /pkgs/libproxy/usr/share/gir-1.0
+Installing src/libproxy/Libproxy-1.0.typelib to /pkgs/libproxy/usr/lib/girepository-1.0
+Installing src/libproxy/libproxy-1.0.vapi to /pkgs/libproxy/usr/share/vala/vapi
+Installing src/tools/proxy to /pkgs/libproxy/usr/bin
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/proxy-authentication.html to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/perl.html to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/SourceCodePro-Semibold.ttf.woff to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatText-Medium.woff2 to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatText-Medium.woff to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatText-Regular.woff2 to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatText-Regular.woff to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/method.ProxyFactory.get_proxies.html to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/search.js to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/method.ProxyFactory.free.html to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/index.html to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/SourceCodePro-It.ttf.woff to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/struct.ProxyFactory.html to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatDisplay-Regular.woff2 to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatDisplay-Italic.woff2 to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/style.css to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/libproxy.svg to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatDisplay-BlackItalic.woff2 to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/ruby.html to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/vala.html to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/python.html to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/architecture.html to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/main.js to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/applications.html to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/type_func.ProxyFactory.free_proxies.html to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/solarized-light.css to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatText-Bold.woff to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatText-Bold.woff2 to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatText-BoldItalic.woff2 to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/fzy.js to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/SourceCodePro-Regular.ttf.woff to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatText-BoldItalic.woff to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatDisplay-Italic.woff to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatText-MediumItalic.woff2 to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatDisplay-Medium.woff to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/classes_hierarchy.html to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatDisplay-Black.woff2 to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatDisplay-BoldItalic.woff2 to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/libproxy-1.0.devhelp2 to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/build-steps.html to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatDisplay-MediumItalic.woff to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatDisplay-BlackItalic.woff to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatDisplay-Medium.woff2 to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatText-Italic.woff to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatDisplay-Black.woff to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/go-up-symbolic.png to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/index.json to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/configuration-logic.html to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatDisplay-Regular.woff to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/solarized-dark.css to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatDisplay-MediumItalic.woff2 to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatDisplay-BoldItalic.woff to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatText-MediumItalic.woff to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/ctor.ProxyFactory.new.html to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatDisplay-Bold.woff2 to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/fonts.css to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatDisplay-Bold.woff to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatText-Italic.woff2 to /pkgs/libproxy/usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/src/libproxy/proxy.h to /pkgs/libproxy/usr/include/libproxy
+Installing /blfs/builds/libproxy-0.5.11/src/tools/proxy.8 to /pkgs/libproxy/usr/share/man/man8
+Installing /blfs/builds/libproxy-0.5.11/build/meson-private/libproxy-1.0.pc to /pkgs/libproxy/usr/lib/pkgconfig
+Installing /blfs/builds/libproxy-0.5.11/build/meson-private/libproxy-1.0.deps to /pkgs/libproxy/usr/share/vala/vapi
+Installing symlink pointing to libproxy.so.0.5.11 to /pkgs/libproxy/usr/lib/libproxy.so.1
+Installing symlink pointing to libproxy.so.1 to /pkgs/libproxy/usr/lib/libproxy.so
+[0/1] Installing files
+Installing src/backend/libpxbackend-1.0.so to /usr/lib/libproxy
+Installing src/libproxy/libproxy.so.0.5.11 to /usr/lib
+Installing src/libproxy/Libproxy-1.0.gir to /usr/share/gir-1.0
+Installing src/libproxy/Libproxy-1.0.typelib to /usr/lib/girepository-1.0
+Installing src/libproxy/libproxy-1.0.vapi to /usr/share/vala/vapi
+Installing src/tools/proxy to /usr/bin
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/proxy-authentication.html to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/perl.html to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/SourceCodePro-Semibold.ttf.woff to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatText-Medium.woff2 to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatText-Medium.woff to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatText-Regular.woff2 to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatText-Regular.woff to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/method.ProxyFactory.get_proxies.html to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/search.js to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/method.ProxyFactory.free.html to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/index.html to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/SourceCodePro-It.ttf.woff to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/struct.ProxyFactory.html to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatDisplay-Regular.woff2 to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatDisplay-Italic.woff2 to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/style.css to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/libproxy.svg to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatDisplay-BlackItalic.woff2 to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/ruby.html to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/vala.html to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/python.html to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/architecture.html to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/main.js to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/applications.html to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/type_func.ProxyFactory.free_proxies.html to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/solarized-light.css to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatText-Bold.woff to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatText-Bold.woff2 to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatText-BoldItalic.woff2 to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/fzy.js to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/SourceCodePro-Regular.ttf.woff to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatText-BoldItalic.woff to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatDisplay-Italic.woff to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatText-MediumItalic.woff2 to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatDisplay-Medium.woff to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/classes_hierarchy.html to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatDisplay-Black.woff2 to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatDisplay-BoldItalic.woff2 to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/libproxy-1.0.devhelp2 to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/build-steps.html to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatDisplay-MediumItalic.woff to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatDisplay-BlackItalic.woff to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatDisplay-Medium.woff2 to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatText-Italic.woff to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatDisplay-Black.woff to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/go-up-symbolic.png to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/index.json to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/configuration-logic.html to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatDisplay-Regular.woff to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/solarized-dark.css to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatDisplay-MediumItalic.woff2 to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatDisplay-BoldItalic.woff to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatText-MediumItalic.woff to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/ctor.ProxyFactory.new.html to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatDisplay-Bold.woff2 to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/fonts.css to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatDisplay-Bold.woff to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/build/docs/libproxy-1.0/RedHatText-Italic.woff2 to /usr/share/doc/libproxy-1.0
+Installing /blfs/builds/libproxy-0.5.11/src/libproxy/proxy.h to /usr/include/libproxy
+Installing /blfs/builds/libproxy-0.5.11/src/tools/proxy.8 to /usr/share/man/man8
+Installing /blfs/builds/libproxy-0.5.11/build/meson-private/libproxy-1.0.pc to /usr/lib/pkgconfig
+Installing /blfs/builds/libproxy-0.5.11/build/meson-private/libproxy-1.0.deps to /usr/share/vala/vapi
+Installing symlink pointing to libproxy.so.0.5.11 to /usr/lib/libproxy.so.1
+Installing symlink pointing to libproxy.so.1 to /usr/lib/libproxy.so
+libproxy/
+libproxy/usr/
+libproxy/usr/share/
+libproxy/usr/share/vala/
+libproxy/usr/share/vala/vapi/
+libproxy/usr/share/vala/vapi/libproxy-1.0.deps
+libproxy/usr/share/vala/vapi/libproxy-1.0.vapi
+libproxy/usr/share/gir-1.0/
+libproxy/usr/share/gir-1.0/Libproxy-1.0.gir
+libproxy/usr/share/man/
+libproxy/usr/share/man/man8/
+libproxy/usr/share/man/man8/proxy.8
+libproxy/usr/share/doc/
+libproxy/usr/share/doc/libproxy-1.0/
+libproxy/usr/share/doc/libproxy-1.0/proxy-authentication.html
+libproxy/usr/share/doc/libproxy-1.0/perl.html
+libproxy/usr/share/doc/libproxy-1.0/SourceCodePro-Semibold.ttf.woff
+libproxy/usr/share/doc/libproxy-1.0/RedHatText-Medium.woff2
+libproxy/usr/share/doc/libproxy-1.0/RedHatText-Medium.woff
+libproxy/usr/share/doc/libproxy-1.0/RedHatText-Regular.woff2
+libproxy/usr/share/doc/libproxy-1.0/RedHatText-Regular.woff
+libproxy/usr/share/doc/libproxy-1.0/method.ProxyFactory.get_proxies.html
+libproxy/usr/share/doc/libproxy-1.0/search.js
+libproxy/usr/share/doc/libproxy-1.0/method.ProxyFactory.free.html
+libproxy/usr/share/doc/libproxy-1.0/index.html
+libproxy/usr/share/doc/libproxy-1.0/SourceCodePro-It.ttf.woff
+libproxy/usr/share/doc/libproxy-1.0/struct.ProxyFactory.html
+libproxy/usr/share/doc/libproxy-1.0/RedHatDisplay-Regular.woff2
+libproxy/usr/share/doc/libproxy-1.0/RedHatDisplay-Italic.woff2
+libproxy/usr/share/doc/libproxy-1.0/style.css
+libproxy/usr/share/doc/libproxy-1.0/libproxy.svg
+libproxy/usr/share/doc/libproxy-1.0/RedHatDisplay-BlackItalic.woff2
+libproxy/usr/share/doc/libproxy-1.0/ruby.html
+libproxy/usr/share/doc/libproxy-1.0/vala.html
+libproxy/usr/share/doc/libproxy-1.0/python.html
+libproxy/usr/share/doc/libproxy-1.0/architecture.html
+libproxy/usr/share/doc/libproxy-1.0/main.js
+libproxy/usr/share/doc/libproxy-1.0/applications.html
+libproxy/usr/share/doc/libproxy-1.0/type_func.ProxyFactory.free_proxies.html
+libproxy/usr/share/doc/libproxy-1.0/solarized-light.css
+libproxy/usr/share/doc/libproxy-1.0/RedHatText-Bold.woff
+libproxy/usr/share/doc/libproxy-1.0/RedHatText-Bold.woff2
+libproxy/usr/share/doc/libproxy-1.0/RedHatText-BoldItalic.woff2
+libproxy/usr/share/doc/libproxy-1.0/fzy.js
+libproxy/usr/share/doc/libproxy-1.0/SourceCodePro-Regular.ttf.woff
+libproxy/usr/share/doc/libproxy-1.0/RedHatText-BoldItalic.woff
+libproxy/usr/share/doc/libproxy-1.0/RedHatDisplay-Italic.woff
+libproxy/usr/share/doc/libproxy-1.0/RedHatText-MediumItalic.woff2
+libproxy/usr/share/doc/libproxy-1.0/RedHatDisplay-Medium.woff
+libproxy/usr/share/doc/libproxy-1.0/classes_hierarchy.html
+libproxy/usr/share/doc/libproxy-1.0/RedHatDisplay-Black.woff2
+libproxy/usr/share/doc/libproxy-1.0/RedHatDisplay-BoldItalic.woff2
+libproxy/usr/share/doc/libproxy-1.0/libproxy-1.0.devhelp2
+libproxy/usr/share/doc/libproxy-1.0/build-steps.html
+libproxy/usr/share/doc/libproxy-1.0/RedHatDisplay-MediumItalic.woff
+libproxy/usr/share/doc/libproxy-1.0/RedHatDisplay-BlackItalic.woff
+libproxy/usr/share/doc/libproxy-1.0/RedHatDisplay-Medium.woff2
+libproxy/usr/share/doc/libproxy-1.0/RedHatText-Italic.woff
+libproxy/usr/share/doc/libproxy-1.0/RedHatDisplay-Black.woff
+libproxy/usr/share/doc/libproxy-1.0/go-up-symbolic.png
+libproxy/usr/share/doc/libproxy-1.0/index.json
+libproxy/usr/share/doc/libproxy-1.0/configuration-logic.html
+libproxy/usr/share/doc/libproxy-1.0/RedHatDisplay-Regular.woff
+libproxy/usr/share/doc/libproxy-1.0/solarized-dark.css
+libproxy/usr/share/doc/libproxy-1.0/RedHatDisplay-MediumItalic.woff2
+libproxy/usr/share/doc/libproxy-1.0/RedHatDisplay-BoldItalic.woff
+libproxy/usr/share/doc/libproxy-1.0/RedHatText-MediumItalic.woff
+libproxy/usr/share/doc/libproxy-1.0/ctor.ProxyFactory.new.html
+libproxy/usr/share/doc/libproxy-1.0/RedHatDisplay-Bold.woff2
+libproxy/usr/share/doc/libproxy-1.0/fonts.css
+libproxy/usr/share/doc/libproxy-1.0/RedHatDisplay-Bold.woff
+libproxy/usr/share/doc/libproxy-1.0/RedHatText-Italic.woff2
+libproxy/usr/lib/
+libproxy/usr/lib/libproxy/
+libproxy/usr/lib/libproxy/libpxbackend-1.0.so
+libproxy/usr/lib/libproxy.so
+libproxy/usr/lib/libproxy.so.1
+libproxy/usr/lib/girepository-1.0/
+libproxy/usr/lib/girepository-1.0/Libproxy-1.0.typelib
+libproxy/usr/lib/pkgconfig/
+libproxy/usr/lib/pkgconfig/libproxy-1.0.pc
+libproxy/usr/lib/libproxy.so.0.5.11
+libproxy/usr/include/
+libproxy/usr/include/libproxy/
+libproxy/usr/include/libproxy/proxy.h
+libproxy/usr/bin/
+libproxy/usr/bin/proxy
+libproxy/version
+libproxy/depends
+libproxy/make-depends

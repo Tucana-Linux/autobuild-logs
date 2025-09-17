@@ -1,0 +1,1038 @@
+--2025-09-17 07:27:26--  https://download.gnome.org/sources/loupe/49/loupe-49.0.tar.xz
+Resolving download.gnome.org (download.gnome.org)... 2a02:6ea0:c400::53, 2a02:6ea0:c400::54, 79.127.206.235, ...
+Connecting to download.gnome.org (download.gnome.org)|2a02:6ea0:c400::53|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 350476 (342K) [application/octet-stream]
+Saving to: 'loupe-49.0.tar.xz'
+
+     0K .......... .......... .......... .......... .......... 14% 5.80M 0s
+    50K .......... .......... .......... .......... .......... 29% 10.5M 0s
+   100K .......... .......... .......... .......... .......... 43% 33.1M 0s
+   150K .......... .......... .......... .......... .......... 58% 9.90M 0s
+   200K .......... .......... .......... .......... .......... 73% 50.6M 0s
+   250K .......... .......... .......... .......... .......... 87%  101M 0s
+   300K .......... .......... .......... .......... ..        100%  122M=0.02s
+
+2025-09-17 07:27:26 (15.7 MB/s) - 'loupe-49.0.tar.xz' saved [350476/350476]
+
+loupe-49.0/
+loupe-49.0/.editorconfig
+loupe-49.0/.gitignore
+loupe-49.0/.gitlab/
+loupe-49.0/.gitlab/issue_templates/
+loupe-49.0/.gitlab/issue_templates/Change.md
+loupe-49.0/.gitlab/issue_templates/Default.md
+loupe-49.0/.gitlab/issue_templates/Feature.md
+loupe-49.0/.gitlab/issue_templates/Issue.md
+loupe-49.0/.gitlab-ci.yml
+loupe-49.0/.rustfmt.toml
+loupe-49.0/CONTRIBUTING.md
+loupe-49.0/COPYING.md
+loupe-49.0/Cargo.lock
+loupe-49.0/Cargo.toml
+loupe-49.0/NEWS
+loupe-49.0/README.md
+loupe-49.0/build-aux/
+loupe-49.0/build-aux/flatpak/
+loupe-49.0/build-aux/flatpak/org.gnome.Loupe.Devel.json
+loupe-49.0/build-aux/generate-news.py
+loupe-49.0/data/
+loupe-49.0/data/icons/
+loupe-49.0/data/icons/hicolor/
+loupe-49.0/data/icons/hicolor/scalable/
+loupe-49.0/data/icons/hicolor/scalable/apps/
+loupe-49.0/data/icons/hicolor/scalable/apps/org.gnome.Loupe.Devel.svg
+loupe-49.0/data/icons/hicolor/scalable/apps/org.gnome.Loupe.svg
+loupe-49.0/data/icons/hicolor/symbolic/
+loupe-49.0/data/icons/hicolor/symbolic/apps/
+loupe-49.0/data/icons/hicolor/symbolic/apps/org.gnome.Loupe-symbolic.svg
+loupe-49.0/data/icons/meson.build
+loupe-49.0/data/icons/org.gnome.Loupe.Source.svg
+loupe-49.0/data/meson.build
+loupe-49.0/data/org.gnome.Loupe.desktop.in.in
+loupe-49.0/data/org.gnome.Loupe.gschema.xml.in
+loupe-49.0/data/org.gnome.Loupe.metainfo.xml.in.in
+loupe-49.0/data/org.gnome.Loupe.service.in
+loupe-49.0/data/resources/
+loupe-49.0/data/resources/edit.css
+loupe-49.0/data/resources/edit_crop.css
+loupe-49.0/data/resources/gtk/
+loupe-49.0/data/resources/gtk/help-overlay.ui
+loupe-49.0/data/resources/icons/
+loupe-49.0/data/resources/icons/scalable/
+loupe-49.0/data/resources/icons/scalable/actions/
+loupe-49.0/data/resources/icons/scalable/actions/apply-crop-symbolic.svg
+loupe-49.0/data/resources/icons/scalable/actions/aspect-ratio-16to9-symbolic.svg
+loupe-49.0/data/resources/icons/scalable/actions/aspect-ratio-3to2-symbolic.svg
+loupe-49.0/data/resources/icons/scalable/actions/aspect-ratio-4to3-symbolic.svg
+loupe-49.0/data/resources/icons/scalable/actions/aspect-ratio-5to4-symbolic.svg
+loupe-49.0/data/resources/icons/scalable/actions/aspect-ratio-free-symbolic.svg
+loupe-49.0/data/resources/icons/scalable/actions/aspect-ratio-original-symbolic.svg
+loupe-49.0/data/resources/icons/scalable/actions/aspect-ratio-square-symbolic.svg
+loupe-49.0/data/resources/icons/scalable/actions/aspect-ratio-symbolic.svg
+loupe-49.0/data/resources/icons/scalable/actions/check-plain-symbolic.svg
+loupe-49.0/data/resources/icons/scalable/actions/crop-symbolic.svg
+loupe-49.0/data/resources/icons/scalable/actions/edit-mirror-horizontally-symbolic.svg
+loupe-49.0/data/resources/icons/scalable/actions/edit-mirror-vertically-symbolic.svg
+loupe-49.0/data/resources/icons/scalable/actions/external-link-symbolic.svg
+loupe-49.0/data/resources/icons/scalable/actions/image-round-symbolic.svg
+loupe-49.0/data/resources/icons/scalable/actions/info-outline-symbolic.svg
+loupe-49.0/data/resources/icons/scalable/actions/minus-large-symbolic.svg
+loupe-49.0/data/resources/icons/scalable/actions/page-orientation-landscape-symbolic.svg
+loupe-49.0/data/resources/icons/scalable/actions/page-orientation-portrait-symbolic.svg
+loupe-49.0/data/resources/icons/scalable/actions/plus-large-symbolic.svg
+loupe-49.0/data/resources/icons/scalable/actions/zoom-toggle-symbolic.svg
+loupe-49.0/data/resources/style-dark.css
+loupe-49.0/data/resources/style-hc.css
+loupe-49.0/data/resources/style.css
+loupe-49.0/deny.toml
+loupe-49.0/help/
+loupe-49.0/help/C/
+loupe-49.0/help/C/Makefile
+loupe-49.0/help/C/duck/
+loupe-49.0/help/C/duck/image-properties.duck
+loupe-49.0/help/C/duck/index.duck
+loupe-49.0/help/C/duck/opening-images.duck
+loupe-49.0/help/C/duck/sending-to-other-apps.duck
+loupe-49.0/help/C/duck/supported-formats.duck
+loupe-49.0/help/C/duck/trashing-images.duck
+loupe-49.0/help/C/duck/viewing-images.duck
+loupe-49.0/help/C/figures/
+loupe-49.0/help/C/figures/edit-copy-symbolic.svg
+loupe-49.0/help/C/figures/go-next-symbolic.svg
+loupe-49.0/help/C/figures/go-previous-symbolic.svg
+loupe-49.0/help/C/figures/help-about-symbolic.svg
+loupe-49.0/help/C/figures/object-rotate-left-symbolic.svg
+loupe-49.0/help/C/figures/object-rotate-right-symbolic.svg
+loupe-49.0/help/C/figures/org.gnome.Loupe.svg
+loupe-49.0/help/C/figures/user-trash-symbolic.svg
+loupe-49.0/help/C/figures/view-fullscreen-symbolic.svg
+loupe-49.0/help/C/figures/view-restore-symbolic.svg
+loupe-49.0/help/C/figures/zoom-in-symbolic.svg
+loupe-49.0/help/C/figures/zoom-out-symbolic.svg
+loupe-49.0/help/C/image-properties.page
+loupe-49.0/help/C/index.page
+loupe-49.0/help/C/opening-images.page
+loupe-49.0/help/C/sending-to-other-apps.page
+loupe-49.0/help/C/supported-formats.page
+loupe-49.0/help/C/trashing-images.page
+loupe-49.0/help/C/viewing-images.page
+loupe-49.0/help/LINGUAS
+loupe-49.0/help/README.md
+loupe-49.0/help/cs/
+loupe-49.0/help/cs/cs.po
+loupe-49.0/help/de/
+loupe-49.0/help/de/de.po
+loupe-49.0/help/eu/
+loupe-49.0/help/eu/eu.po
+loupe-49.0/help/fa/
+loupe-49.0/help/fa/fa.po
+loupe-49.0/help/fr/
+loupe-49.0/help/fr/fr.po
+loupe-49.0/help/gl/
+loupe-49.0/help/gl/gl.po
+loupe-49.0/help/hu/
+loupe-49.0/help/hu/hu.po
+loupe-49.0/help/id/
+loupe-49.0/help/id/id.po
+loupe-49.0/help/it/
+loupe-49.0/help/it/it.po
+loupe-49.0/help/ko/
+loupe-49.0/help/ko/ko.po
+loupe-49.0/help/meson.build
+loupe-49.0/help/pl/
+loupe-49.0/help/pl/pl.po
+loupe-49.0/help/pt_BR/
+loupe-49.0/help/pt_BR/pt_BR.po
+loupe-49.0/help/ru/
+loupe-49.0/help/ru/ru.po
+loupe-49.0/help/sv/
+loupe-49.0/help/sv/sv.po
+loupe-49.0/help/tr/
+loupe-49.0/help/tr/tr.po
+loupe-49.0/help/uk/
+loupe-49.0/help/uk/uk.po
+loupe-49.0/help/zh_CN/
+loupe-49.0/help/zh_CN/zh_CN.po
+loupe-49.0/loupe.doap
+loupe-49.0/meson.build
+loupe-49.0/meson_options.txt
+loupe-49.0/news.d/
+loupe-49.0/news.d/47.0/
+loupe-49.0/news.d/47.0/fixed-avoid-flickering-when-reloading-image
+loupe-49.0/news.d/47.0/fixed-wrong-image-shown-with-animations-disabled
+loupe-49.0/news.d/47.0/fixed-zoom-center
+loupe-49.0/news.d/47.0/released
+loupe-49.0/news.d/47.1/
+loupe-49.0/news.d/47.1/added-branding-colors
+loupe-49.0/news.d/47.1/fixed-make-string-translatable
+loupe-49.0/news.d/47.1/fixed-require-glycin-2.0.1-to-fix-svgz
+loupe-49.0/news.d/47.1/released
+loupe-49.0/news.d/47.2/
+loupe-49.0/news.d/47.2/fixed-call-style-manager-too-early
+loupe-49.0/news.d/47.2/released
+loupe-49.0/news.d/47.4/
+loupe-49.0/news.d/47.4/fixed-svg-print-preview-missing
+loupe-49.0/news.d/47.4/released
+loupe-49.0/news.d/47.alpha/
+loupe-49.0/news.d/47.alpha/added-error-detail-dialog
+loupe-49.0/news.d/47.alpha/added-save-rotation
+loupe-49.0/news.d/47.alpha/changed-error-messages-nicer
+loupe-49.0/news.d/47.alpha/changed-follow-style-guide
+loupe-49.0/news.d/47.alpha/changed-print-api
+loupe-49.0/news.d/47.alpha/changed-rework-shortcuts
+loupe-49.0/news.d/47.alpha/changed-use-adw-about-dialog
+loupe-49.0/news.d/47.alpha/changed-use-adw-alert-dialog
+loupe-49.0/news.d/47.alpha/fixed-markup-in-properties
+loupe-49.0/news.d/47.alpha/released
+loupe-49.0/news.d/47.beta/
+loupe-49.0/news.d/47.beta/added-reload-action
+loupe-49.0/news.d/47.beta/changed-accent-colors-drag-and-drop
+loupe-49.0/news.d/47.beta/changed-make-unicode-escape-translatable
+loupe-49.0/news.d/47.beta/changed-no-longer-default-to-gl-renderer
+loupe-49.0/news.d/47.beta/changed-properties-widgets
+loupe-49.0/news.d/47.beta/changed-show-spinner-after-delay
+loupe-49.0/news.d/47.beta/changed-use-adw-spinner
+loupe-49.0/news.d/47.beta/changed-use-glycin-devel-detection
+loupe-49.0/news.d/47.beta/fixed-actions-available-on-error-page
+loupe-49.0/news.d/47.beta/fixed-dont-empty-animation-buffer
+loupe-49.0/news.d/47.beta/fixed-svg-dont-fail-on-additional-tails
+loupe-49.0/news.d/47.beta/fixed-zoom-into-image-center
+loupe-49.0/news.d/47.beta/released
+loupe-49.0/news.d/47.beta.1/
+loupe-49.0/news.d/47.beta.1/fixed-dont-rewrite-image-for-0deg-rotation
+loupe-49.0/news.d/47.beta.1/fixed-hands-and-crashes-when-loading-large-images
+loupe-49.0/news.d/47.beta.1/fixed-opening-svgs-fails-outside-flatpak
+loupe-49.0/news.d/47.beta.1/fixed-rotating-image-might-not-follow-best-fit
+loupe-49.0/news.d/47.beta.1/fixed-window-can-open-with-overlaying-bottom-sheet
+loupe-49.0/news.d/47.beta.1/released
+loupe-49.0/news.d/48.0/
+loupe-49.0/news.d/48.0/fixed-edit-crop-pre-select-portrait-orientation
+loupe-49.0/news.d/48.0/released
+loupe-49.0/news.d/48.1/
+loupe-49.0/news.d/48.1/fixed-dont-crash-on-window-close
+loupe-49.0/news.d/48.1/fixed-editing-pre-rotated-images
+loupe-49.0/news.d/48.1/fixed-print-empty-page
+loupe-49.0/news.d/48.1/released
+loupe-49.0/news.d/48.alpha/
+loupe-49.0/news.d/48.alpha/added-exif-user-comment
+loupe-49.0/news.d/48.alpha/added-get-correct-folder-name-via-portal
+loupe-49.0/news.d/48.alpha/added-image-editing-crop
+loupe-49.0/news.d/48.alpha/added-xmp-support
+loupe-49.0/news.d/48.alpha/changed-zoom-overlay-buttons
+loupe-49.0/news.d/48.alpha/fixed-sort-order-not-following-nautilus
+loupe-49.0/news.d/48.alpha/released
+loupe-49.0/news.d/48.beta/
+loupe-49.0/news.d/48.beta/added-edit-allow-to-cancel-saving
+loupe-49.0/news.d/48.beta/added-edit-crop-allow-dragging-selection-from-edges
+loupe-49.0/news.d/48.beta/added-edit-crop-apply-crop
+loupe-49.0/news.d/48.beta/added-edit-crop-keyboard-shortcuts
+loupe-49.0/news.d/48.beta/added-edit-crop-re-add-aspect-ratio-orientation
+loupe-49.0/news.d/48.beta/added-edit-crop-save-menu
+loupe-49.0/news.d/48.beta/added-edit-return-to-image-after-save
+loupe-49.0/news.d/48.beta/added-edit-save-and-cancel-shortcuts
+loupe-49.0/news.d/48.beta/added-edit-visual-feedback-saving
+loupe-49.0/news.d/48.beta/changed-edit-crop-allow-reset-on-selection-change
+loupe-49.0/news.d/48.beta/changed-edit-crop-redesign-apply-button
+loupe-49.0/news.d/48.beta/changed-edit-crop-refactor
+loupe-49.0/news.d/48.beta/changed-edit-details
+loupe-49.0/news.d/48.beta/changed-edit-use-edited-suffix-for-save-as
+loupe-49.0/news.d/48.beta/changed-zoom-allow-levels-smaller-best-fit
+loupe-49.0/news.d/48.beta/fixed-allocate-warning
+loupe-49.0/news.d/48.beta/fixed-edit-crop-reset-aspect-ratio-on-reset
+loupe-49.0/news.d/48.beta/fixed-edit-crop-work-arround-gesture-bug
+loupe-49.0/news.d/48.beta/fixed-edit-disable-save-actions
+loupe-49.0/news.d/48.beta/fixed-error-disable-more-buttons
+loupe-49.0/news.d/48.beta/released
+loupe-49.0/news.d/48.rc/
+loupe-49.0/news.d/48.rc/changed-crop-aspect-ratio-icons
+loupe-49.0/news.d/48.rc/changed-crop-orientation
+loupe-49.0/news.d/48.rc/fixed-crop-selection-edge
+loupe-49.0/news.d/48.rc/fixed-dont-show-canceled-error
+loupe-49.0/news.d/48.rc/fixed-editable-based-on-reliable-mime-type
+loupe-49.0/news.d/48.rc/fixed-error-detail-window
+loupe-49.0/news.d/48.rc/fixed-internal-rotation-convention
+loupe-49.0/news.d/48.rc/released
+loupe-49.0/news.d/49.0/
+loupe-49.0/news.d/49.0/fixed-accel
+loupe-49.0/news.d/49.0/released
+loupe-49.0/news.d/49.alpha/
+loupe-49.0/news.d/49.alpha/changed-use-glycin-2
+loupe-49.0/news.d/49.alpha/released
+loupe-49.0/news.d/49.beta/
+loupe-49.0/news.d/49.beta/changed-update-deps
+loupe-49.0/news.d/49.beta/released
+loupe-49.0/news.d/49.rc/
+loupe-49.0/news.d/49.rc/released
+loupe-49.0/news.d/README.md
+loupe-49.0/news.d/previous
+loupe-49.0/po/
+loupe-49.0/po/LINGUAS
+loupe-49.0/po/POTFILES.in
+loupe-49.0/po/ar.po
+loupe-49.0/po/be.po
+loupe-49.0/po/bg.po
+loupe-49.0/po/ca.po
+loupe-49.0/po/cs.po
+loupe-49.0/po/da.po
+loupe-49.0/po/de.po
+loupe-49.0/po/el.po
+loupe-49.0/po/en_GB.po
+loupe-49.0/po/eo.po
+loupe-49.0/po/es.po
+loupe-49.0/po/eu.po
+loupe-49.0/po/fa.po
+loupe-49.0/po/fi.po
+loupe-49.0/po/fil.po
+loupe-49.0/po/fr.po
+loupe-49.0/po/fur.po
+loupe-49.0/po/gl.po
+loupe-49.0/po/he.po
+loupe-49.0/po/hi.po
+loupe-49.0/po/hu.po
+loupe-49.0/po/ia.po
+loupe-49.0/po/id.po
+loupe-49.0/po/ie.po
+loupe-49.0/po/it.po
+loupe-49.0/po/ja.po
+loupe-49.0/po/ka.po
+loupe-49.0/po/kab.po
+loupe-49.0/po/kk.po
+loupe-49.0/po/ko.po
+loupe-49.0/po/lt.po
+loupe-49.0/po/lv.po
+loupe-49.0/po/meson.build
+loupe-49.0/po/nb.po
+loupe-49.0/po/ne.po
+loupe-49.0/po/nl.po
+loupe-49.0/po/oc.po
+loupe-49.0/po/pa.po
+loupe-49.0/po/pl.po
+loupe-49.0/po/pt.po
+loupe-49.0/po/pt_BR.po
+loupe-49.0/po/ro.po
+loupe-49.0/po/ru.po
+loupe-49.0/po/rw.po
+loupe-49.0/po/sk.po
+loupe-49.0/po/sl.po
+loupe-49.0/po/sr.po
+loupe-49.0/po/sv.po
+loupe-49.0/po/th.po
+loupe-49.0/po/tr.po
+loupe-49.0/po/uk.po
+loupe-49.0/po/uz.po
+loupe-49.0/po/vi.po
+loupe-49.0/po/zh_CN.po
+loupe-49.0/po/zh_TW.po
+loupe-49.0/src/
+loupe-49.0/src/about.rs
+loupe-49.0/src/application.rs
+loupe-49.0/src/config.rs
+loupe-49.0/src/decoder/
+loupe-49.0/src/decoder/formats/
+loupe-49.0/src/decoder/formats/glycin_proxy.rs
+loupe-49.0/src/decoder/formats/svg.rs
+loupe-49.0/src/decoder/formats.rs
+loupe-49.0/src/decoder/tiling.rs
+loupe-49.0/src/decoder.rs
+loupe-49.0/src/editing/
+loupe-49.0/src/editing/preview.rs
+loupe-49.0/src/editing.rs
+loupe-49.0/src/file_model.rs
+loupe-49.0/src/lib.rs
+loupe-49.0/src/main.rs
+loupe-49.0/src/meson.build
+loupe-49.0/src/metadata/
+loupe-49.0/src/metadata/file.rs
+loupe-49.0/src/metadata.rs
+loupe-49.0/src/util/
+loupe-49.0/src/util/gettext.rs
+loupe-49.0/src/util/root.rs
+loupe-49.0/src/util.rs
+loupe-49.0/src/widgets/
+loupe-49.0/src/widgets/drag_overlay.rs
+loupe-49.0/src/widgets/drag_overlay.ui
+loupe-49.0/src/widgets/edit/
+loupe-49.0/src/widgets/edit/crop.rs
+loupe-49.0/src/widgets/edit/crop.ui
+loupe-49.0/src/widgets/edit/crop_selection.rs
+loupe-49.0/src/widgets/edit/crop_selection.ui
+loupe-49.0/src/widgets/edit.rs
+loupe-49.0/src/widgets/edit_window.rs
+loupe-49.0/src/widgets/edit_window.ui
+loupe-49.0/src/widgets/error_details.rs
+loupe-49.0/src/widgets/error_details.ui
+loupe-49.0/src/widgets/image/
+loupe-49.0/src/widgets/image/background_color.rs
+loupe-49.0/src/widgets/image/drag.rs
+loupe-49.0/src/widgets/image/editing.rs
+loupe-49.0/src/widgets/image/input_handling.rs
+loupe-49.0/src/widgets/image/loading.rs
+loupe-49.0/src/widgets/image/metadata.rs
+loupe-49.0/src/widgets/image/pan.rs
+loupe-49.0/src/widgets/image/printing.rs
+loupe-49.0/src/widgets/image/rendering.rs
+loupe-49.0/src/widgets/image/rotation.rs
+loupe-49.0/src/widgets/image/scrollable.rs
+loupe-49.0/src/widgets/image/zoom.rs
+loupe-49.0/src/widgets/image.rs
+loupe-49.0/src/widgets/image_page.rs
+loupe-49.0/src/widgets/image_page.ui
+loupe-49.0/src/widgets/image_view.rs
+loupe-49.0/src/widgets/image_view.ui
+loupe-49.0/src/widgets/image_window/
+loupe-49.0/src/widgets/image_window/actions.rs
+loupe-49.0/src/widgets/image_window/controls.rs
+loupe-49.0/src/widgets/image_window.rs
+loupe-49.0/src/widgets/image_window.ui
+loupe-49.0/src/widgets/print.rs
+loupe-49.0/src/widgets/print.ui
+loupe-49.0/src/widgets/print_preview.rs
+loupe-49.0/src/widgets/properties_view.rs
+loupe-49.0/src/widgets/properties_view.ui
+loupe-49.0/src/widgets/shy_bin.rs
+loupe-49.0/src/widgets/sliding_view.rs
+loupe-49.0/src/widgets/window.rs
+loupe-49.0/src/widgets/window.ui
+loupe-49.0/src/widgets.rs
+loupe-49.0/supply-chain/
+loupe-49.0/supply-chain/audits.toml
+loupe-49.0/supply-chain/config.toml
+loupe-49.0/supply-chain/imports.lock
+The Meson build system
+Version: 1.7.0
+Source dir: /blfs/builds/loupe-49.0
+Build dir: /blfs/builds/loupe-49.0/build
+Build type: native build
+Project name: loupe
+Project version: 49.0
+Rust compiler for the host machine: rustc -C linker=cc (rustc 1.89.0)
+Rust linker for the host machine: rustc -C linker=cc ld.bfd 2.45
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Run-time dependency gtk4 found: YES 4.20.1
+Run-time dependency libadwaita-1 found: YES 1.8.0
+Run-time dependency gweather4 found: YES 4.4.4
+Run-time dependency lcms2 found: YES 2.16
+Run-time dependency libseccomp found: YES 2.6.0
+Run-time dependency gtk4-x11 found: YES 4.20.1
+Program cargo found: YES (/usr/bin/cargo)
+Program glib-compile-schemas found: YES (/usr/bin/glib-compile-schemas)
+Configuring org.gnome.Loupe.desktop.in using configuration
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Configuring org.gnome.Loupe.service using configuration
+Program desktop-file-validate found: YES (/usr/bin/desktop-file-validate)
+Configuring org.gnome.Loupe.metainfo.xml.in using configuration
+Program appstreamcli found: YES (/usr/bin/appstreamcli)
+Configuring org.gnome.Loupe.gschema.xml using configuration
+Program itstool found: YES (/usr/bin/itstool)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Program msginit found: YES (/usr/bin/msginit)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program xgettext found: YES (/usr/bin/xgettext)
+Build-time dependency gio-2.0 found: YES 2.84.4
+Program /usr/bin/glib-compile-schemas found: YES (/usr/bin/glib-compile-schemas)
+Program gtk4-update-icon-cache found: YES (/usr/bin/gtk4-update-icon-cache)
+Program update-desktop-database found: YES (/usr/bin/update-desktop-database)
+Build targets in project: 115
+
+loupe 49.0
+
+  User defined options
+    buildtype: release
+    prefix   : /usr
+
+Found ninja-1.13.1 at /usr/bin/ninja
+[0/92] Generating src/cargo-build with a custom command (wrapped by meson to set env)
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded async-signal v0.2.12
+  Downloaded atomic-waker v1.1.2
+  Downloaded blocking v1.6.2
+  Downloaded async-broadcast v0.7.2
+  Downloaded async-lock v3.4.1
+  Downloaded cairo-sys-rs v0.21.1
+  Downloaded hex v0.4.3
+  Downloaded bitflags v2.9.4
+  Downloaded cfg_aliases v0.2.1
+  Downloaded async-executor v1.13.3
+  Downloaded async-io v2.5.0
+  Downloaded lazy_static v1.5.0
+  Downloaded matchers v0.2.0
+  Downloaded cfg-expr v0.20.2
+  Downloaded temp-dir v0.1.16
+  Downloaded itoa v1.0.15
+  Downloaded libgweather v4.6.0
+  Downloaded rand_chacha v0.9.0
+  Downloaded heck v0.5.0
+  Downloaded gweather-sys v4.6.0
+  Downloaded gobject-sys v0.21.1
+  Downloaded cairo-rs v0.21.1
+  Downloaded bytemuck v1.23.2
+  Downloaded async-net v2.0.0
+  Downloaded lcms2 v6.1.1
+  Downloaded async-fs v2.1.3
+  Downloaded anyhow v1.0.99
+  Downloaded adler2 v2.0.1
+  Downloaded cfg-if v1.0.3
+  Downloaded idna_adapter v1.2.1
+  Downloaded autocfg v1.5.0
+  Downloaded tinystr v0.8.1
+  Downloaded ppv-lite86 v0.2.21
+  Downloaded percent-encoding v2.3.2
+  Downloaded ordered-stream v0.2.0
+  Downloaded icu_provider v2.0.0
+  Downloaded potential_utf v0.1.3
+  Downloaded synstructure v0.13.2
+  Downloaded thread_local v1.1.9
+  Downloaded piper v0.2.4
+  Downloaded gtk4-macros v0.10.0
+  Downloaded futures-task v0.3.31
+  Downloaded stable_deref_trait v1.2.0
+  Downloaded pin-utils v0.1.0
+  Downloaded graphene-sys v0.21.1
+  Downloaded thiserror v2.0.16
+  Downloaded system-deps v7.0.5
+  Downloaded yeslogic-fontconfig-sys v6.0.0
+  Downloaded litrs v0.5.1
+  Downloaded half v2.6.0
+  Downloaded litemap v0.8.0
+  Downloaded target-lexicon v0.13.2
+  Downloaded pango v0.21.1
+  Downloaded yoke v0.8.0
+  Downloaded polling v3.10.0
+  Downloaded zerofrom v0.1.6
+  Downloaded gdk4-wayland v0.10.0
+  Downloaded graphene-rs v0.21.1
+  Downloaded once_cell v1.21.3
+  Downloaded gufo-common v1.0.1
+  Downloaded sharded-slab v0.1.7
+  Downloaded rayon-core v1.13.0
+  Downloaded zbus_names v4.2.0
+  Downloaded toml_datetime v0.6.11
+  Downloaded miniz_oxide v0.8.9
+  Downloaded xml-rs v0.8.27
+  Downloaded zvariant_utils v3.2.1
+  Downloaded zvariant_derive v5.7.0
+  Downloaded zerovec-derive v0.11.1
+  Downloaded zerofrom-derive v0.1.6
+  Downloaded serde v1.0.219
+  Downloaded gufo-exif v0.3.0
+  Downloaded toml v0.8.23
+  Downloaded gio-sys v0.21.1
+  Downloaded futures-lite v2.6.1
+  Downloaded getrandom v0.3.3
+  Downloaded tracing-log v0.2.0
+  Downloaded ashpd v0.12.0
+  Downloaded zbus_macros v5.11.0
+  Downloaded serde_json v1.0.143
+  Downloaded icu_properties_data v2.0.1
+  Downloaded zerocopy-derive v0.8.27
+  Downloaded regex v1.11.2
+  Downloaded walkdir v2.5.0
+  Downloaded rayon v1.11.0
+  Downloaded x11 v2.21.0
+  Downloaded zerotrie v0.2.2
+  Downloaded glib-macros v0.21.0
+  Downloaded tracing-subscriber v0.3.20
+  Downloaded zbus v5.11.0
+  Downloaded zvariant v5.7.0
+  Downloaded lcms2-sys v4.0.6
+  Downloaded gdk4 v0.10.0
+  Downloaded zerovec v0.11.4
+  Downloaded zerocopy v0.8.27
+  Downloaded futures-util v0.3.31
+  Downloaded winnow v0.7.13
+  Downloaded regex-syntax v0.8.6
+  Downloaded rustix v1.1.2
+  Downloaded gio v0.21.1
+  Downloaded chrono v0.4.42
+  Downloaded nix v0.30.1
+  Downloaded glib v0.21.1
+  Downloaded syn v2.0.106
+  Downloaded tracing v0.1.41
+  Downloaded url v2.5.7
+  Downloaded toml_edit v0.22.27
+  Downloaded gtk4-sys v0.10.0
+  Downloaded glycin v3.0.0
+  Downloaded tracing-core v0.1.34
+  Downloaded regex-automata v0.4.10
+  Downloaded gtk4 v0.10.0
+  Downloaded quick-xml v0.38.3
+  Downloaded flate2 v1.1.2
+  Downloaded jiff v0.2.15
+  Downloaded gdk4-sys v0.10.0
+  Downloaded unicode-ident v1.0.19
+  Downloaded libc v0.2.175
+  Downloaded idna v1.1.0
+  Downloaded glycin-utils v4.0.0
+  Downloaded glib-sys v0.21.1
+  Downloaded event-listener v5.4.1
+  Downloaded tracing-attributes v0.1.30
+  Downloaded libadwaita v0.8.0
+  Downloaded hashbrown v0.15.5
+  Downloaded crossbeam-utils v0.8.21
+  Downloaded crossbeam-epoch v0.9.18
+  Downloaded writeable v0.6.1
+  Downloaded version-compare v0.2.0
+  Downloaded utf8_iter v1.0.4
+  Downloaded rand v0.9.2
+  Downloaded memchr v2.7.5
+  Downloaded indexmap v2.11.1
+  Downloaded glycin-common v1.0.0
+  Downloaded env_logger v0.11.8
+  Downloaded futures-channel v0.3.31
+  Downloaded find-msvc-tools v0.1.1
+  Downloaded crc32fast v1.5.0
+  Downloaded yoke-derive v0.8.0
+  Downloaded smallvec v1.15.1
+  Downloaded serde_derive v1.0.219
+  Downloaded gufo-xmp v0.3.0
+  Downloaded foreign-types v0.5.0
+  Downloaded errno v0.3.14
+  Downloaded icu_properties v2.0.1
+  Downloaded icu_collections v2.0.0
+  Downloaded gufo-webp v0.3.0
+  Downloaded gsk4-sys v0.10.0
+  Downloaded num-traits v0.2.19
+  Downloaded icu_locale_core v2.0.0
+  Downloaded strum_macros v0.27.2
+  Downloaded paste v1.0.15
+  Downloaded nu-ansi-term v0.50.1
+  Downloaded libseccomp v0.4.0
+  Downloaded enumflags2 v0.7.12
+  Downloaded rand_core v0.9.3
+  Downloaded proc-macro2 v1.0.101
+  Downloaded pin-project-lite v0.2.16
+  Downloaded pango-sys v0.21.1
+  Downloaded icu_normalizer_data v2.0.0
+  Downloaded icu_normalizer v2.0.0
+  Downloaded gufo v0.3.0
+  Downloaded futures-macro v0.3.31
+  Downloaded field-offset v0.3.6
+  Downloaded encoding_rs v0.8.35
+  Downloaded event-listener-strategy v0.5.4
+  Downloaded either v1.15.0
+  Downloaded dunce v1.0.5
+  Downloaded crossbeam-deque v0.8.6
+  Downloaded concurrent-queue v2.5.0
+  Downloaded signal-hook-registry v1.4.6
+  Downloaded serde_repr v0.1.20
+  Downloaded semver v1.0.26
+  Downloaded same-file v1.0.6
+  Downloaded ryu v1.0.20
+  Downloaded rmp-serde v1.3.0
+  Downloaded parking v2.2.1
+  Downloaded log v0.4.28
+  Downloaded libloading v0.8.8
+  Downloaded libadwaita-sys v0.8.0
+  Downloaded gufo-tiff v0.3.0
+  Downloaded gufo-png v0.3.0
+  Downloaded gufo-jpeg v0.3.0
+  Downloaded gdk4-x11-sys v0.10.0
+  Downloaded gdk4-wayland-sys v0.10.0
+  Downloaded gdk-pixbuf-sys v0.21.1
+  Downloaded gdk-pixbuf v0.21.1
+  Downloaded futures-timer v3.0.3
+  Downloaded futures-io v0.3.31
+  Downloaded futures-executor v0.3.31
+  Downloaded foreign-types-macros v0.2.3
+  Downloaded fastrand v2.3.0
+  Downloaded env_filter v0.1.3
+  Downloaded displaydoc v0.2.5
+  Downloaded memoffset v0.9.1
+  Downloaded memmap2 v0.9.8
+  Downloaded locale_config v0.3.0
+  Downloaded gvdb-macros v0.1.15
+  Downloaded gvdb v0.9.0
+  Downloaded foreign-types-shared v0.3.1
+  Downloaded equivalent v1.0.2
+  Downloaded enumflags2_derive v0.7.12
+  Downloaded endi v1.1.0
+  Downloaded dlib v0.5.2
+  Downloaded cc v1.2.36
+  Downloaded aho-corasick v1.1.3
+  Downloaded thiserror-impl v2.0.16
+  Downloaded strum v0.27.2
+  Downloaded static_assertions v1.1.0
+  Downloaded slab v0.4.11
+  Downloaded shlex v1.3.0
+  Downloaded serde_spanned v0.6.9
+  Downloaded rustc_version v0.4.1
+  Downloaded rmp v0.8.14
+  Downloaded quote v1.0.40
+  Downloaded proc-macro-crate v3.3.0
+  Downloaded pkg-config v0.3.32
+  Downloaded memfd v0.6.5
+  Downloaded libseccomp-sys v0.3.0
+  Downloaded jobserver v0.1.34
+  Downloaded gsk4 v0.10.0
+  Downloaded gettext-rs v0.7.2
+  Downloaded gdk4-x11 v0.10.0
+  Downloaded futures-core v0.3.31
+  Downloaded linux-raw-sys v0.11.0
+  Downloaded form_urlencoded v1.2.2
+  Downloaded async-channel v2.5.0
+  Downloaded arc-swap v1.7.1
+  Downloaded async-trait v0.1.89
+  Downloaded async-task v4.7.1
+  Downloaded async-process v2.4.0
+  Downloaded byteorder v1.5.0
+  Downloaded gettext-sys v0.22.5
+   Compiling proc-macro2 v1.0.101
+   Compiling unicode-ident v1.0.19
+   Compiling serde v1.0.219
+   Compiling equivalent v1.0.2
+   Compiling winnow v0.7.13
+   Compiling hashbrown v0.15.5
+   Compiling pkg-config v0.3.32
+   Compiling target-lexicon v0.13.2
+   Compiling heck v0.5.0
+   Compiling smallvec v1.15.1
+   Compiling version-compare v0.2.0
+   Compiling libc v0.2.175
+   Compiling pin-project-lite v0.2.16
+   Compiling futures-core v0.3.31
+   Compiling futures-io v0.3.31
+   Compiling stable_deref_trait v1.2.0
+   Compiling bitflags v2.9.4
+   Compiling autocfg v1.5.0
+   Compiling cfg-if v1.0.3
+   Compiling memchr v2.7.5
+   Compiling slab v0.4.11
+   Compiling crossbeam-utils v0.8.21
+   Compiling litemap v0.8.0
+   Compiling writeable v0.6.1
+   Compiling icu_normalizer_data v2.0.0
+   Compiling icu_properties_data v2.0.1
+   Compiling futures-task v0.3.31
+   Compiling pin-utils v0.1.0
+   Compiling parking v2.2.1
+   Compiling utf8_iter v1.0.4
+   Compiling percent-encoding v2.3.2
+   Compiling futures-channel v0.3.31
+   Compiling paste v1.0.15
+   Compiling endi v1.1.0
+   Compiling gio v0.21.1
+   Compiling form_urlencoded v1.2.2
+   Compiling thiserror v2.0.16
+   Compiling fastrand v2.3.0
+   Compiling rustix v1.1.2
+   Compiling num-traits v0.2.19
+   Compiling once_cell v1.21.3
+   Compiling memoffset v0.9.1
+   Compiling linux-raw-sys v0.11.0
+   Compiling zerocopy v0.8.27
+   Compiling shlex v1.3.0
+   Compiling indexmap v2.11.1
+   Compiling futures-lite v2.6.1
+   Compiling tracing-core v0.1.34
+   Compiling find-msvc-tools v0.1.1
+   Compiling getrandom v0.3.3
+   Compiling async-task v4.7.1
+   Compiling cfg-expr v0.20.2
+   Compiling concurrent-queue v2.5.0
+   Compiling quote v1.0.40
+   Compiling crc32fast v1.5.0
+   Compiling semver v1.0.26
+   Compiling event-listener v5.4.1
+   Compiling syn v2.0.106
+   Compiling atomic-waker v1.1.2
+   Compiling cfg_aliases v0.2.1
+   Compiling piper v0.2.4
+   Compiling aho-corasick v1.1.3
+   Compiling nix v0.30.1
+   Compiling event-listener-strategy v0.5.4
+   Compiling regex-syntax v0.8.6
+   Compiling async-lock v3.4.1
+   Compiling async-channel v2.5.0
+   Compiling rustc_version v0.4.1
+   Compiling static_assertions v1.1.0
+   Compiling hex v0.4.3
+   Compiling log v0.4.28
+   Compiling crossbeam-epoch v0.9.18
+   Compiling dunce v1.0.5
+   Compiling chrono v0.4.42
+   Compiling jobserver v0.1.34
+   Compiling libseccomp-sys v0.3.0
+   Compiling blocking v1.6.2
+   Compiling field-offset v0.3.6
+   Compiling byteorder v1.5.0
+   Compiling rayon-core v1.13.0
+   Compiling async-executor v1.13.3
+   Compiling async-broadcast v0.7.2
+   Compiling crossbeam-deque v0.8.6
+   Compiling cc v1.2.36
+   Compiling x11 v2.21.0
+   Compiling rmp v0.8.14
+   Compiling libseccomp v0.4.0
+   Compiling ordered-stream v0.2.0
+   Compiling adler2 v2.0.1
+   Compiling temp-dir v0.1.16
+   Compiling serde_json v1.0.143
+   Compiling lazy_static v1.5.0
+   Compiling miniz_oxide v0.8.9
+   Compiling env_filter v0.1.3
+   Compiling yeslogic-fontconfig-sys v6.0.0
+   Compiling libloading v0.8.8
+   Compiling jiff v0.2.15
+   Compiling itoa v1.0.15
+   Compiling ryu v1.0.20
+   Compiling same-file v1.0.6
+   Compiling signal-hook-registry v1.4.6
+   Compiling memmap2 v0.9.8
+   Compiling either v1.15.0
+   Compiling foreign-types-shared v0.3.1
+   Compiling walkdir v2.5.0
+   Compiling rand_core v0.9.3
+   Compiling flate2 v1.1.2
+   Compiling rayon v1.11.0
+   Compiling dlib v0.5.2
+   Compiling async-fs v2.1.3
+   Compiling encoding_rs v0.8.35
+   Compiling xml-rs v0.8.27
+   Compiling anyhow v1.0.99
+   Compiling bytemuck v1.23.2
+   Compiling sharded-slab v0.1.7
+   Compiling tracing-log v0.2.0
+   Compiling litrs v0.5.1
+   Compiling thread_local v1.1.9
+   Compiling nu-ansi-term v0.50.1
+   Compiling futures-timer v3.0.3
+   Compiling regex-automata v0.4.10
+   Compiling lcms2-sys v4.0.6
+   Compiling gettext-sys v0.22.5
+   Compiling arc-swap v1.7.1
+   Compiling synstructure v0.13.2
+   Compiling serde_derive v1.0.219
+   Compiling zerofrom-derive v0.1.6
+   Compiling yoke-derive v0.8.0
+   Compiling zerovec-derive v0.11.1
+   Compiling displaydoc v0.2.5
+   Compiling enumflags2_derive v0.7.12
+   Compiling futures-macro v0.3.31
+   Compiling zerocopy-derive v0.8.27
+   Compiling thiserror-impl v2.0.16
+   Compiling tracing-attributes v0.1.30
+   Compiling serde_repr v0.1.20
+   Compiling async-trait v0.1.89
+   Compiling foreign-types-macros v0.2.3
+   Compiling strum_macros v0.27.2
+   Compiling foreign-types v0.5.0
+   Compiling lcms2 v6.1.1
+   Compiling futures-util v0.3.31
+   Compiling env_logger v0.11.8
+   Compiling tracing v0.1.41
+   Compiling zerofrom v0.1.6
+   Compiling yoke v0.8.0
+   Compiling polling v3.10.0
+   Compiling memfd v0.6.5
+   Compiling zerovec v0.11.4
+   Compiling zerotrie v0.2.2
+   Compiling async-io v2.5.0
+   Compiling async-signal v0.2.12
+   Compiling async-net v2.0.0
+   Compiling strum v0.27.2
+   Compiling async-process v2.4.0
+   Compiling regex v1.11.2
+   Compiling matchers v0.2.0
+   Compiling tracing-subscriber v0.3.20
+   Compiling tinystr v0.8.1
+   Compiling potential_utf v0.1.3
+   Compiling icu_collections v2.0.0
+   Compiling icu_locale_core v2.0.0
+   Compiling locale_config v0.3.0
+   Compiling gettext-rs v0.7.2
+   Compiling futures-executor v0.3.31
+   Compiling icu_provider v2.0.0
+   Compiling icu_properties v2.0.1
+   Compiling icu_normalizer v2.0.0
+   Compiling ppv-lite86 v0.2.21
+   Compiling half v2.6.0
+   Compiling rand_chacha v0.9.0
+   Compiling rand v0.9.2
+   Compiling idna_adapter v1.2.1
+   Compiling idna v1.1.0
+   Compiling serde_spanned v0.6.9
+   Compiling toml_datetime v0.6.11
+   Compiling zvariant_utils v3.2.1
+   Compiling enumflags2 v0.7.12
+   Compiling quick-xml v0.38.3
+   Compiling toml_edit v0.22.27
+   Compiling url v2.5.7
+   Compiling rmp-serde v1.3.0
+   Compiling toml v0.8.23
+   Compiling proc-macro-crate v3.3.0
+   Compiling system-deps v7.0.5
+   Compiling zvariant_derive v5.7.0
+   Compiling glib-macros v0.21.0
+   Compiling gtk4-macros v0.10.0
+   Compiling glib-sys v0.21.1
+   Compiling gobject-sys v0.21.1
+   Compiling gio-sys v0.21.1
+   Compiling cairo-sys-rs v0.21.1
+   Compiling pango-sys v0.21.1
+   Compiling gdk-pixbuf-sys v0.21.1
+   Compiling gdk4-sys v0.10.0
+   Compiling graphene-sys v0.21.1
+   Compiling gsk4-sys v0.10.0
+   Compiling gtk4-sys v0.10.0
+   Compiling gdk4-wayland-sys v0.10.0
+   Compiling gdk4-x11-sys v0.10.0
+   Compiling gweather-sys v4.6.0
+   Compiling libadwaita-sys v0.8.0
+   Compiling zvariant v5.7.0
+   Compiling glib v0.21.1
+   Compiling gufo-common v1.0.1
+   Compiling zbus_names v4.2.0
+   Compiling gvdb v0.9.0
+   Compiling glycin-common v1.0.0
+   Compiling gufo-exif v0.3.0
+   Compiling gufo-jpeg v0.3.0
+   Compiling gufo-tiff v0.3.0
+   Compiling gufo-xmp v0.3.0
+   Compiling gufo-webp v0.3.0
+   Compiling gufo-png v0.3.0
+   Compiling zbus_macros v5.11.0
+   Compiling gufo v0.3.0
+   Compiling gvdb-macros v0.1.15
+   Compiling zbus v5.11.0
+   Compiling cairo-rs v0.21.1
+   Compiling graphene-rs v0.21.1
+   Compiling glycin-utils v4.0.0
+   Compiling gdk-pixbuf v0.21.1
+   Compiling pango v0.21.1
+   Compiling libgweather v4.6.0
+   Compiling gdk4 v0.10.0
+   Compiling gsk4 v0.10.0
+   Compiling gdk4-wayland v0.10.0
+   Compiling gdk4-x11 v0.10.0
+   Compiling glycin v3.0.0
+   Compiling gtk4 v0.10.0
+   Compiling ashpd v0.12.0
+   Compiling libadwaita v0.8.0
+   Compiling loupe v49.0.0 (/blfs/builds/loupe-49.0)
+    Finished `release` profile [optimized] target(s) in 2m 26s
+[31/92] Generating yelp doc help/de/help-loupe-de
+FAILED: [code=1] help/de/image-properties.page help/de/index.page help/de/opening-images.page help/de/sending-to-other-apps.page help/de/supported-formats.page help/de/trashing-images.page help/de/viewing-images.page 
+/usr/bin/itstool -m help/de/loupe-de.gmo --lang de -o help/de ../help/C/image-properties.page ../help/C/index.page ../help/C/opening-images.page ../help/C/sending-to-other-apps.page ../help/C/supported-formats.page ../help/C/trashing-images.page ../help/C/viewing-images.page
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[32/92] Generating yelp doc help/fr/help-loupe-fr
+FAILED: [code=1] help/fr/image-properties.page help/fr/index.page help/fr/opening-images.page help/fr/sending-to-other-apps.page help/fr/supported-formats.page help/fr/trashing-images.page help/fr/viewing-images.page 
+/usr/bin/itstool -m help/fr/loupe-fr.gmo --lang fr -o help/fr ../help/C/image-properties.page ../help/C/index.page ../help/C/opening-images.page ../help/C/sending-to-other-apps.page ../help/C/supported-formats.page ../help/C/trashing-images.page ../help/C/viewing-images.page
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[33/92] Generating yelp doc help/hu/help-loupe-hu
+FAILED: [code=1] help/hu/image-properties.page help/hu/index.page help/hu/opening-images.page help/hu/sending-to-other-apps.page help/hu/supported-formats.page help/hu/trashing-images.page help/hu/viewing-images.page 
+/usr/bin/itstool -m help/hu/loupe-hu.gmo --lang hu -o help/hu ../help/C/image-properties.page ../help/C/index.page ../help/C/opening-images.page ../help/C/sending-to-other-apps.page ../help/C/supported-formats.page ../help/C/trashing-images.page ../help/C/viewing-images.page
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[34/92] Generating yelp doc help/fa/help-loupe-fa
+FAILED: [code=1] help/fa/image-properties.page help/fa/index.page help/fa/opening-images.page help/fa/sending-to-other-apps.page help/fa/supported-formats.page help/fa/trashing-images.page help/fa/viewing-images.page 
+/usr/bin/itstool -m help/fa/loupe-fa.gmo --lang fa -o help/fa ../help/C/image-properties.page ../help/C/index.page ../help/C/opening-images.page ../help/C/sending-to-other-apps.page ../help/C/supported-formats.page ../help/C/trashing-images.page ../help/C/viewing-images.page
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[35/92] Generating yelp doc help/cs/help-loupe-cs
+FAILED: [code=1] help/cs/image-properties.page help/cs/index.page help/cs/opening-images.page help/cs/sending-to-other-apps.page help/cs/supported-formats.page help/cs/trashing-images.page help/cs/viewing-images.page 
+/usr/bin/itstool -m help/cs/loupe-cs.gmo --lang cs -o help/cs ../help/C/image-properties.page ../help/C/index.page ../help/C/opening-images.page ../help/C/sending-to-other-apps.page ../help/C/supported-formats.page ../help/C/trashing-images.page ../help/C/viewing-images.page
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[36/92] Generating yelp doc help/gl/help-loupe-gl
+FAILED: [code=1] help/gl/image-properties.page help/gl/index.page help/gl/opening-images.page help/gl/sending-to-other-apps.page help/gl/supported-formats.page help/gl/trashing-images.page help/gl/viewing-images.page 
+/usr/bin/itstool -m help/gl/loupe-gl.gmo --lang gl -o help/gl ../help/C/image-properties.page ../help/C/index.page ../help/C/opening-images.page ../help/C/sending-to-other-apps.page ../help/C/supported-formats.page ../help/C/trashing-images.page ../help/C/viewing-images.page
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[37/92] Generating yelp doc help/ko/help-loupe-ko
+FAILED: [code=1] help/ko/image-properties.page help/ko/index.page help/ko/opening-images.page help/ko/sending-to-other-apps.page help/ko/supported-formats.page help/ko/trashing-images.page help/ko/viewing-images.page 
+/usr/bin/itstool -m help/ko/loupe-ko.gmo --lang ko -o help/ko ../help/C/image-properties.page ../help/C/index.page ../help/C/opening-images.page ../help/C/sending-to-other-apps.page ../help/C/supported-formats.page ../help/C/trashing-images.page ../help/C/viewing-images.page
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[38/92] Generating yelp doc help/id/help-loupe-id
+FAILED: [code=1] help/id/image-properties.page help/id/index.page help/id/opening-images.page help/id/sending-to-other-apps.page help/id/supported-formats.page help/id/trashing-images.page help/id/viewing-images.page 
+/usr/bin/itstool -m help/id/loupe-id.gmo --lang id -o help/id ../help/C/image-properties.page ../help/C/index.page ../help/C/opening-images.page ../help/C/sending-to-other-apps.page ../help/C/supported-formats.page ../help/C/trashing-images.page ../help/C/viewing-images.page
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[39/92] Generating yelp doc help/tr/help-loupe-tr
+FAILED: [code=1] help/tr/image-properties.page help/tr/index.page help/tr/opening-images.page help/tr/sending-to-other-apps.page help/tr/supported-formats.page help/tr/trashing-images.page help/tr/viewing-images.page 
+/usr/bin/itstool -m help/tr/loupe-tr.gmo --lang tr -o help/tr ../help/C/image-properties.page ../help/C/index.page ../help/C/opening-images.page ../help/C/sending-to-other-apps.page ../help/C/supported-formats.page ../help/C/trashing-images.page ../help/C/viewing-images.page
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[40/92] Generating yelp doc help/pt_BR/help-loupe-pt_BR
+FAILED: [code=1] help/pt_BR/image-properties.page help/pt_BR/index.page help/pt_BR/opening-images.page help/pt_BR/sending-to-other-apps.page help/pt_BR/supported-formats.page help/pt_BR/trashing-images.page help/pt_BR/viewing-images.page 
+/usr/bin/itstool -m help/pt_BR/loupe-pt_BR.gmo --lang pt_BR -o help/pt_BR ../help/C/image-properties.page ../help/C/index.page ../help/C/opening-images.page ../help/C/sending-to-other-apps.page ../help/C/supported-formats.page ../help/C/trashing-images.page ../help/C/viewing-images.page
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[41/92] Generating yelp doc help/it/help-loupe-it
+FAILED: [code=1] help/it/image-properties.page help/it/index.page help/it/opening-images.page help/it/sending-to-other-apps.page help/it/supported-formats.page help/it/trashing-images.page help/it/viewing-images.page 
+/usr/bin/itstool -m help/it/loupe-it.gmo --lang it -o help/it ../help/C/image-properties.page ../help/C/index.page ../help/C/opening-images.page ../help/C/sending-to-other-apps.page ../help/C/supported-formats.page ../help/C/trashing-images.page ../help/C/viewing-images.page
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[42/92] Generating yelp doc help/eu/help-loupe-eu
+FAILED: [code=1] help/eu/image-properties.page help/eu/index.page help/eu/opening-images.page help/eu/sending-to-other-apps.page help/eu/supported-formats.page help/eu/trashing-images.page help/eu/viewing-images.page 
+/usr/bin/itstool -m help/eu/loupe-eu.gmo --lang eu -o help/eu ../help/C/image-properties.page ../help/C/index.page ../help/C/opening-images.page ../help/C/sending-to-other-apps.page ../help/C/supported-formats.page ../help/C/trashing-images.page ../help/C/viewing-images.page
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[43/92] Generating yelp doc help/sv/help-loupe-sv
+FAILED: [code=1] help/sv/image-properties.page help/sv/index.page help/sv/opening-images.page help/sv/sending-to-other-apps.page help/sv/supported-formats.page help/sv/trashing-images.page help/sv/viewing-images.page 
+/usr/bin/itstool -m help/sv/loupe-sv.gmo --lang sv -o help/sv ../help/C/image-properties.page ../help/C/index.page ../help/C/opening-images.page ../help/C/sending-to-other-apps.page ../help/C/supported-formats.page ../help/C/trashing-images.page ../help/C/viewing-images.page
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[44/92] Generating yelp doc help/pl/help-loupe-pl
+FAILED: [code=1] help/pl/image-properties.page help/pl/index.page help/pl/opening-images.page help/pl/sending-to-other-apps.page help/pl/supported-formats.page help/pl/trashing-images.page help/pl/viewing-images.page 
+/usr/bin/itstool -m help/pl/loupe-pl.gmo --lang pl -o help/pl ../help/C/image-properties.page ../help/C/index.page ../help/C/opening-images.page ../help/C/sending-to-other-apps.page ../help/C/supported-formats.page ../help/C/trashing-images.page ../help/C/viewing-images.page
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[47/92] Generating yelp doc help/uk/help-loupe-uk
+FAILED: [code=1] help/uk/image-properties.page help/uk/index.page help/uk/opening-images.page help/uk/sending-to-other-apps.page help/uk/supported-formats.page help/uk/trashing-images.page help/uk/viewing-images.page 
+/usr/bin/itstool -m help/uk/loupe-uk.gmo --lang uk -o help/uk ../help/C/image-properties.page ../help/C/index.page ../help/C/opening-images.page ../help/C/sending-to-other-apps.page ../help/C/supported-formats.page ../help/C/trashing-images.page ../help/C/viewing-images.page
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[48/92] Generating yelp doc help/ru/help-loupe-ru
+FAILED: [code=1] help/ru/image-properties.page help/ru/index.page help/ru/opening-images.page help/ru/sending-to-other-apps.page help/ru/supported-formats.page help/ru/trashing-images.page help/ru/viewing-images.page 
+/usr/bin/itstool -m help/ru/loupe-ru.gmo --lang ru -o help/ru ../help/C/image-properties.page ../help/C/index.page ../help/C/opening-images.page ../help/C/sending-to-other-apps.page ../help/C/supported-formats.page ../help/C/trashing-images.page ../help/C/viewing-images.page
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[49/92] Generating yelp doc help/zh_CN/help-loupe-zh_CN
+FAILED: [code=1] help/zh_CN/image-properties.page help/zh_CN/index.page help/zh_CN/opening-images.page help/zh_CN/sending-to-other-apps.page help/zh_CN/supported-formats.page help/zh_CN/trashing-images.page help/zh_CN/viewing-images.page 
+/usr/bin/itstool -m help/zh_CN/loupe-zh_CN.gmo --lang zh_CN -o help/zh_CN ../help/C/image-properties.page ../help/C/index.page ../help/C/opening-images.page ../help/C/sending-to-other-apps.page ../help/C/supported-formats.page ../help/C/trashing-images.page ../help/C/viewing-images.page
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[51/92] Merging translations for data/org.gnome.Loupe.metainfo.xml
+ninja: build stopped: subcommand failed.

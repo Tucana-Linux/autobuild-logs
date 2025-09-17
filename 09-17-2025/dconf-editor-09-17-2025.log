@@ -1,0 +1,835 @@
+--2025-09-17 07:26:19--  https://download.gnome.org/sources/dconf-editor/49/dconf-editor-49.0.tar.xz
+Resolving download.gnome.org (download.gnome.org)... 2a02:6ea0:c400::53, 2a02:6ea0:c400::54, 79.127.206.234, ...
+Connecting to download.gnome.org (download.gnome.org)|2a02:6ea0:c400::53|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 652952 (638K) [application/octet-stream]
+Saving to: 'dconf-editor-49.0.tar.xz'
+
+     0K .......... .......... .......... .......... ..........  7% 4.04M 0s
+    50K .......... .......... .......... .......... .......... 15% 10.0M 0s
+   100K .......... .......... .......... .......... .......... 23% 13.4M 0s
+   150K .......... .......... .......... .......... .......... 31% 20.1M 0s
+   200K .......... .......... .......... .......... .......... 39% 25.9M 0s
+   250K .......... .......... .......... .......... .......... 47% 28.9M 0s
+   300K .......... .......... .......... .......... .......... 54% 23.5M 0s
+   350K .......... .......... .......... .......... .......... 62% 25.6M 0s
+   400K .......... .......... .......... .......... .......... 70% 50.2M 0s
+   450K .......... .......... .......... .......... .......... 78% 57.0M 0s
+   500K .......... .......... .......... .......... .......... 86% 46.9M 0s
+   550K .......... .......... .......... .......... .......... 94% 67.7M 0s
+   600K .......... .......... .......... .......              100%  138M=0.03s
+
+2025-09-17 07:26:19 (18.1 MB/s) - 'dconf-editor-49.0.tar.xz' saved [652952/652952]
+
+dconf-editor-49.0/
+dconf-editor-49.0/.gitignore
+dconf-editor-49.0/.gitlab-ci.yml
+dconf-editor-49.0/COPYING
+dconf-editor-49.0/NEWS
+dconf-editor-49.0/README.md
+dconf-editor-49.0/build-aux/
+dconf-editor-49.0/build-aux/ca.desrt.dconf-editor.json
+dconf-editor-49.0/build-aux/dconf-override.patch
+dconf-editor-49.0/build-aux/start-dconf-editor.sh
+dconf-editor-49.0/code-of-conduct.md
+dconf-editor-49.0/dconf-editor.doap
+dconf-editor-49.0/editor/
+dconf-editor-49.0/editor/about-list.vala
+dconf-editor-49.0/editor/adaptative-pathbar.vala
+dconf-editor-49.0/editor/adaptative-window.ui
+dconf-editor-49.0/editor/adaptative-window.vala
+dconf-editor-49.0/editor/base-headerbar.ui
+dconf-editor-49.0/editor/base-headerbar.vala
+dconf-editor-49.0/editor/base-view.ui
+dconf-editor-49.0/editor/base-view.vala
+dconf-editor-49.0/editor/base-window.css
+dconf-editor-49.0/editor/base-window.ui
+dconf-editor-49.0/editor/base-window.vala
+dconf-editor-49.0/editor/bookmark.ui
+dconf-editor-49.0/editor/bookmarks-controller.ui
+dconf-editor-49.0/editor/bookmarks-controller.vala
+dconf-editor-49.0/editor/bookmarks-headerbar.vala
+dconf-editor-49.0/editor/bookmarks-list.vala
+dconf-editor-49.0/editor/bookmarks-view.vala
+dconf-editor-49.0/editor/bookmarks-window.vala
+dconf-editor-49.0/editor/bookmarks.ui
+dconf-editor-49.0/editor/bookmarks.vala
+dconf-editor-49.0/editor/browser-content.vala
+dconf-editor-49.0/editor/browser-headerbar.vala
+dconf-editor-49.0/editor/browser-infobar.ui
+dconf-editor-49.0/editor/browser-infobar.vala
+dconf-editor-49.0/editor/browser-stack.ui
+dconf-editor-49.0/editor/browser-stack.vala
+dconf-editor-49.0/editor/browser-view.vala
+dconf-editor-49.0/editor/browser-window.vala
+dconf-editor-49.0/editor/ca.desrt.dconf-editor.desktop.in
+dconf-editor-49.0/editor/ca.desrt.dconf-editor.gschema.xml
+dconf-editor-49.0/editor/ca.desrt.dconf-editor.metainfo.xml.in
+dconf-editor-49.0/editor/ca.desrt.dconf-editor.service.in
+dconf-editor-49.0/editor/completion/
+dconf-editor-49.0/editor/completion/dconf-editor
+dconf-editor-49.0/editor/config.vapi
+dconf-editor-49.0/editor/dconf-editor.1
+dconf-editor-49.0/editor/dconf-editor.css
+dconf-editor-49.0/editor/dconf-editor.gresource.xml
+dconf-editor-49.0/editor/dconf-editor.vala
+dconf-editor-49.0/editor/dconf-headerbar.vala
+dconf-editor-49.0/editor/dconf-model.vala
+dconf-editor-49.0/editor/dconf-view.vala
+dconf-editor-49.0/editor/dconf-window.vala
+dconf-editor-49.0/editor/delayed-setting-view.ui
+dconf-editor-49.0/editor/delayed-setting-view.vala
+dconf-editor-49.0/editor/filter-list-box-row.ui
+dconf-editor-49.0/editor/folder-list-box-row.ui
+dconf-editor-49.0/editor/help-overlay.ui
+dconf-editor-49.0/editor/icons/
+dconf-editor-49.0/editor/icons/hicolor/
+dconf-editor-49.0/editor/icons/hicolor/scalable/
+dconf-editor-49.0/editor/icons/hicolor/scalable/actions/
+dconf-editor-49.0/editor/icons/hicolor/scalable/actions/ca.desrt.dconf-editor.big-rows-symbolic.svg
+dconf-editor-49.0/editor/icons/hicolor/scalable/actions/ca.desrt.dconf-editor.small-rows-symbolic.svg
+dconf-editor-49.0/editor/icons/hicolor/scalable/apps/
+dconf-editor-49.0/editor/icons/hicolor/scalable/apps/ca.desrt.dconf-editor.Devel.svg
+dconf-editor-49.0/editor/icons/hicolor/scalable/apps/ca.desrt.dconf-editor.svg
+dconf-editor-49.0/editor/icons/hicolor/symbolic/
+dconf-editor-49.0/editor/icons/hicolor/symbolic/apps/
+dconf-editor-49.0/editor/icons/hicolor/symbolic/apps/ca.desrt.dconf-editor-symbolic.svg
+dconf-editor-49.0/editor/key-editor-child.vala
+dconf-editor-49.0/editor/key-list-box-row.ui
+dconf-editor-49.0/editor/key-list-box-row.vala
+dconf-editor-49.0/editor/large-pathbar-item.ui
+dconf-editor-49.0/editor/large-pathbar.css
+dconf-editor-49.0/editor/large-pathbar.ui
+dconf-editor-49.0/editor/large-pathbar.vala
+dconf-editor-49.0/editor/meson.build
+dconf-editor-49.0/editor/model-utils.vala
+dconf-editor-49.0/editor/modifications-handler.vala
+dconf-editor-49.0/editor/modifications-list.vala
+dconf-editor-49.0/editor/modifications-revealer.ui
+dconf-editor-49.0/editor/modifications-revealer.vala
+dconf-editor-49.0/editor/notifications-revealer.ui
+dconf-editor-49.0/editor/notifications-revealer.vala
+dconf-editor-49.0/editor/overlayed-list.ui
+dconf-editor-49.0/editor/overlayed-list.vala
+dconf-editor-49.0/editor/pathentry.ui
+dconf-editor-49.0/editor/pathentry.vala
+dconf-editor-49.0/editor/pathwidget.ui
+dconf-editor-49.0/editor/pathwidget.vala
+dconf-editor-49.0/editor/property-row.ui
+dconf-editor-49.0/editor/registry-info.ui
+dconf-editor-49.0/editor/registry-info.vala
+dconf-editor-49.0/editor/registry-list.ui
+dconf-editor-49.0/editor/registry-list.vala
+dconf-editor-49.0/editor/registry-placeholder.ui
+dconf-editor-49.0/editor/registry-placeholder.vala
+dconf-editor-49.0/editor/registry-search.vala
+dconf-editor-49.0/editor/registry-view.vala
+dconf-editor-49.0/editor/return-list-box-row.ui
+dconf-editor-49.0/editor/schemas-utility.vala
+dconf-editor-49.0/editor/screenshot1.png
+dconf-editor-49.0/editor/screenshot2.png
+dconf-editor-49.0/editor/search-list-box-row.ui
+dconf-editor-49.0/editor/setting-object.vala
+dconf-editor-49.0/editor/short-pathbar.ui
+dconf-editor-49.0/editor/short-pathbar.vala
+dconf-editor-49.0/editor/source-manager.vala
+dconf-editor-49.0/meson.build
+dconf-editor-49.0/po/
+dconf-editor-49.0/po/LINGUAS
+dconf-editor-49.0/po/POTFILES.in
+dconf-editor-49.0/po/POTFILES.skip
+dconf-editor-49.0/po/ab.po
+dconf-editor-49.0/po/af.po
+dconf-editor-49.0/po/an.po
+dconf-editor-49.0/po/ar.po
+dconf-editor-49.0/po/as.po
+dconf-editor-49.0/po/be.po
+dconf-editor-49.0/po/bg.po
+dconf-editor-49.0/po/bn_IN.po
+dconf-editor-49.0/po/bs.po
+dconf-editor-49.0/po/ca.po
+dconf-editor-49.0/po/ca@valencia.po
+dconf-editor-49.0/po/cs.po
+dconf-editor-49.0/po/da.po
+dconf-editor-49.0/po/de.po
+dconf-editor-49.0/po/el.po
+dconf-editor-49.0/po/en_GB.po
+dconf-editor-49.0/po/eo.po
+dconf-editor-49.0/po/es.po
+dconf-editor-49.0/po/et.po
+dconf-editor-49.0/po/eu.po
+dconf-editor-49.0/po/fa.po
+dconf-editor-49.0/po/fi.po
+dconf-editor-49.0/po/fr.po
+dconf-editor-49.0/po/fur.po
+dconf-editor-49.0/po/gl.po
+dconf-editor-49.0/po/he.po
+dconf-editor-49.0/po/hi.po
+dconf-editor-49.0/po/hr.po
+dconf-editor-49.0/po/hu.po
+dconf-editor-49.0/po/id.po
+dconf-editor-49.0/po/is.po
+dconf-editor-49.0/po/it.po
+dconf-editor-49.0/po/ja.po
+dconf-editor-49.0/po/ka.po
+dconf-editor-49.0/po/kab.po
+dconf-editor-49.0/po/kk.po
+dconf-editor-49.0/po/ko.po
+dconf-editor-49.0/po/lt.po
+dconf-editor-49.0/po/lv.po
+dconf-editor-49.0/po/meson.build
+dconf-editor-49.0/po/ml.po
+dconf-editor-49.0/po/mr.po
+dconf-editor-49.0/po/ms.po
+dconf-editor-49.0/po/nb.po
+dconf-editor-49.0/po/ne.po
+dconf-editor-49.0/po/nl.po
+dconf-editor-49.0/po/oc.po
+dconf-editor-49.0/po/pa.po
+dconf-editor-49.0/po/pl.po
+dconf-editor-49.0/po/pt.po
+dconf-editor-49.0/po/pt_BR.po
+dconf-editor-49.0/po/ro.po
+dconf-editor-49.0/po/ru.po
+dconf-editor-49.0/po/sk.po
+dconf-editor-49.0/po/sl.po
+dconf-editor-49.0/po/sr.po
+dconf-editor-49.0/po/sr@latin.po
+dconf-editor-49.0/po/sv.po
+dconf-editor-49.0/po/ta.po
+dconf-editor-49.0/po/te.po
+dconf-editor-49.0/po/tg.po
+dconf-editor-49.0/po/th.po
+dconf-editor-49.0/po/tr.po
+dconf-editor-49.0/po/ug.po
+dconf-editor-49.0/po/uk.po
+dconf-editor-49.0/po/uz.po
+dconf-editor-49.0/po/vi.po
+dconf-editor-49.0/po/zh_CN.po
+dconf-editor-49.0/po/zh_HK.po
+dconf-editor-49.0/po/zh_TW.po
+The Meson build system
+Version: 1.7.0
+Source dir: /blfs/builds/dconf-editor-49.0
+Build dir: /blfs/builds/dconf-editor-49.0/build
+Build type: native build
+Project name: dconf-editor
+Project version: 49.0
+C compiler for the host machine: cc (gcc 15.2.0 "cc (GCC) 15.2.0")
+C linker for the host machine: cc ld.bfd 2.45
+Vala compiler for the host machine: valac (valac 0.56.18)
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Has header "dlfcn.h" : YES 
+Has header "float.h" : YES 
+Has header "inttypes.h" : YES 
+Has header "memory.h" : YES 
+Has header "stdint.h" : YES 
+Has header "stdlib.h" : YES 
+Has header "strings.h" : YES 
+Has header "string.h" : YES 
+Has header "sys/stat.h" : YES 
+Has header "unistd.h" : YES 
+Has header "locale.h" : YES 
+Has header "sys/types.h" : YES 
+Checking for function "memset" : YES 
+Checking for function "strstr" : YES 
+Checking for function "dcgettext" : YES 
+Checking for function "gettext" : YES 
+Checking for function "iconv" : YES 
+Checking for function "setlocale" : YES 
+../meson.build:112: WARNING: Project targets '>= 0.59.0' but uses feature deprecated since '0.56.0': meson.source_root. use meson.project_source_root() or meson.global_source_root() instead.
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Configuring ca.desrt.dconf-editor.service using configuration
+Program appstreamcli found: YES (/usr/bin/appstreamcli)
+Program xmllint found: YES (/usr/bin/xmllint)
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Build-time dependency gio-2.0 found: YES 2.84.4
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Run-time dependency dconf found: YES 0.49.0
+Run-time dependency glib-2.0 found: YES 2.84.4
+Run-time dependency gmodule-2.0 found: YES 2.84.4
+Run-time dependency gtk+-3.0 found: YES 3.24.50
+Run-time dependency libhandy-1 found: YES 1.8.3
+Library config found: YES
+Library posix found: YES
+Program msginit found: YES (/usr/bin/msginit)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program xgettext found: YES (/usr/bin/xgettext)
+Configuring config.h using configuration
+Dependency gio-2.0 found: YES 2.84.4 (cached)
+Program /usr/bin/glib-compile-schemas found: YES (/usr/bin/glib-compile-schemas)
+Program gtk4-update-icon-cache found: YES (/usr/bin/gtk4-update-icon-cache)
+Program update-desktop-database found: YES (/usr/bin/update-desktop-database)
+Build targets in project: 77
+WARNING: Deprecated features used:
+ * 0.56.0: {'meson.source_root'}
+
+dconf-editor 49.0
+
+  User defined options
+    buildtype: release
+    prefix   : /usr
+
+Found ninja-1.13.1 at /usr/bin/ninja
+[1/120] Building translation po/af/LC_MESSAGES/dconf-editor-af.mo
+[2/120] Building translation po/an/LC_MESSAGES/dconf-editor-an.mo
+[3/120] Building translation po/ar/LC_MESSAGES/dconf-editor-ar.mo
+[4/120] Building translation po/as/LC_MESSAGES/dconf-editor-as.mo
+[5/120] Building translation po/bn_IN/LC_MESSAGES/dconf-editor-bn_IN.mo
+[6/120] Building translation po/bs/LC_MESSAGES/dconf-editor-bs.mo
+[7/120] Building translation po/ca@valencia/LC_MESSAGES/dconf-editor-ca@valencia.mo
+[8/120] Building translation po/ab/LC_MESSAGES/dconf-editor-ab.mo
+[9/120] Building translation po/ca/LC_MESSAGES/dconf-editor-ca.mo
+[10/120] Building translation po/et/LC_MESSAGES/dconf-editor-et.mo
+[11/120] Building translation po/be/LC_MESSAGES/dconf-editor-be.mo
+[12/120] Building translation po/bg/LC_MESSAGES/dconf-editor-bg.mo
+[13/120] Building translation po/cs/LC_MESSAGES/dconf-editor-cs.mo
+[14/120] Building translation po/da/LC_MESSAGES/dconf-editor-da.mo
+[15/120] Building translation po/de/LC_MESSAGES/dconf-editor-de.mo
+[16/120] Building translation po/en_GB/LC_MESSAGES/dconf-editor-en_GB.mo
+[17/120] Building translation po/el/LC_MESSAGES/dconf-editor-el.mo
+[18/120] Building translation po/eo/LC_MESSAGES/dconf-editor-eo.mo
+[19/120] Building translation po/es/LC_MESSAGES/dconf-editor-es.mo
+[20/120] Building translation po/eu/LC_MESSAGES/dconf-editor-eu.mo
+[21/120] Building translation po/fa/LC_MESSAGES/dconf-editor-fa.mo
+[22/120] Building translation po/fi/LC_MESSAGES/dconf-editor-fi.mo
+[23/120] Building translation po/fr/LC_MESSAGES/dconf-editor-fr.mo
+[24/120] Building translation po/is/LC_MESSAGES/dconf-editor-is.mo
+[25/120] Building translation po/he/LC_MESSAGES/dconf-editor-he.mo
+[26/120] Building translation po/fur/LC_MESSAGES/dconf-editor-fur.mo
+[27/120] Building translation po/hr/LC_MESSAGES/dconf-editor-hr.mo
+[28/120] Building translation po/gl/LC_MESSAGES/dconf-editor-gl.mo
+[29/120] Building translation po/hi/LC_MESSAGES/dconf-editor-hi.mo
+[30/120] Building translation po/hu/LC_MESSAGES/dconf-editor-hu.mo
+[31/120] Building translation po/id/LC_MESSAGES/dconf-editor-id.mo
+[32/120] Building translation po/it/LC_MESSAGES/dconf-editor-it.mo
+[33/120] Building translation po/ja/LC_MESSAGES/dconf-editor-ja.mo
+[34/120] Building translation po/mr/LC_MESSAGES/dconf-editor-mr.mo
+[35/120] Building translation po/ka/LC_MESSAGES/dconf-editor-ka.mo
+[36/120] Building translation po/ml/LC_MESSAGES/dconf-editor-ml.mo
+[37/120] Building translation po/kab/LC_MESSAGES/dconf-editor-kab.mo
+[38/120] Building translation po/kk/LC_MESSAGES/dconf-editor-kk.mo
+[39/120] Building translation po/ko/LC_MESSAGES/dconf-editor-ko.mo
+[40/120] Building translation po/lt/LC_MESSAGES/dconf-editor-lt.mo
+[41/120] Building translation po/lv/LC_MESSAGES/dconf-editor-lv.mo
+[42/120] Building translation po/ms/LC_MESSAGES/dconf-editor-ms.mo
+[43/120] Building translation po/nb/LC_MESSAGES/dconf-editor-nb.mo
+[44/120] Building translation po/ne/LC_MESSAGES/dconf-editor-ne.mo
+[45/120] Building translation po/pa/LC_MESSAGES/dconf-editor-pa.mo
+[46/120] Building translation po/oc/LC_MESSAGES/dconf-editor-oc.mo
+[47/120] Building translation po/pl/LC_MESSAGES/dconf-editor-pl.mo
+[48/120] Building translation po/ro/LC_MESSAGES/dconf-editor-ro.mo
+[49/120] Building translation po/pt_BR/LC_MESSAGES/dconf-editor-pt_BR.mo
+[50/120] Building translation po/te/LC_MESSAGES/dconf-editor-te.mo
+[51/120] Building translation po/nl/LC_MESSAGES/dconf-editor-nl.mo
+[52/120] Building translation po/ru/LC_MESSAGES/dconf-editor-ru.mo
+[53/120] Building translation po/tg/LC_MESSAGES/dconf-editor-tg.mo
+[54/120] Building translation po/sl/LC_MESSAGES/dconf-editor-sl.mo
+[55/120] Building translation po/sk/LC_MESSAGES/dconf-editor-sk.mo
+[56/120] Building translation po/sv/LC_MESSAGES/dconf-editor-sv.mo
+[57/120] Building translation po/ta/LC_MESSAGES/dconf-editor-ta.mo
+[58/120] Building translation po/vi/LC_MESSAGES/dconf-editor-vi.mo
+[59/120] Building translation po/sr@latin/LC_MESSAGES/dconf-editor-sr@latin.mo
+[60/120] Building translation po/pt/LC_MESSAGES/dconf-editor-pt.mo
+[61/120] Building translation po/sr/LC_MESSAGES/dconf-editor-sr.mo
+[62/120] Building translation po/zh_HK/LC_MESSAGES/dconf-editor-zh_HK.mo
+[63/120] Building translation po/uz/LC_MESSAGES/dconf-editor-uz.mo
+[64/120] Building translation po/ug/LC_MESSAGES/dconf-editor-ug.mo
+[65/120] Generating editor/resources_h with a custom command
+[66/120] Building translation po/th/LC_MESSAGES/dconf-editor-th.mo
+[67/120] Building translation po/uk/LC_MESSAGES/dconf-editor-uk.mo
+[68/120] Building translation po/zh_TW/LC_MESSAGES/dconf-editor-zh_TW.mo
+[69/120] Building translation po/zh_CN/LC_MESSAGES/dconf-editor-zh_CN.mo
+[70/120] Building translation po/tr/LC_MESSAGES/dconf-editor-tr.mo
+[71/120] Generating editor/resources_c with a custom command
+[72/120] Compiling C object editor/dconf-editor.p/meson-generated_.._resources.c.o
+[73/120] Merging translations for editor/ca.desrt.dconf-editor.desktop
+[74/120] Merging translations for editor/ca.desrt.dconf-editor.metainfo.xml
+[75/120] Compiling Vala source ../editor/about-list.vala ../editor/adaptative-pathbar.vala ../editor/adaptative-window.vala ../editor/base-headerbar.vala ../editor/base-view.vala ../editor/base-window.vala ../editor/bookmarks.vala ../editor/bookmarks-controller.vala ../editor/bookmarks-headerbar.vala ../editor/bookmarks-list.vala ../editor/bookmarks-view.vala ../editor/bookmarks-window.vala ../editor/browser-content.vala ../editor/browser-headerbar.vala ../editor/browser-infobar.vala ../editor/browser-stack.vala ../editor/browser-view.vala ../editor/browser-window.vala ../editor/dconf-editor.vala ../editor/dconf-headerbar.vala ../editor/dconf-model.vala ../editor/dconf-view.vala ../editor/dconf-window.vala ../editor/delayed-setting-view.vala ../editor/key-editor-child.vala ../editor/key-list-box-row.vala ../editor/large-pathbar.vala ../editor/model-utils.vala ../editor/modifications-handler.vala ../editor/modifications-list.vala ../editor/modifications-revealer.vala ../editor/notifications-revealer.vala ../editor/overlayed-list.vala ../editor/pathentry.vala ../editor/pathwidget.vala ../editor/registry-info.vala ../editor/registry-list.vala ../editor/registry-placeholder.vala ../editor/registry-search.vala ../editor/registry-view.vala ../editor/schemas-utility.vala ../editor/setting-object.vala ../editor/short-pathbar.vala ../editor/source-manager.vala
+../editor/about-list.vala:159.20-159.37: warning: Local variable `documenters_string' declared but never used
+  159 |             string documenters_string = get_multiline_string_from_string_array (documenters);
+      |                    ^~~~~~~~~~~~~~~~~~                                                        
+../editor/about-list.vala:170.20-170.33: warning: Local variable `artists_string' declared but never used
+  170 |             string artists_string = get_multiline_string_from_string_array (artists);
+      |                    ^~~~~~~~~~~~~~                                                    
+../editor/adaptative-pathbar.vala:262.9-262.44: warning: unreachable code detected
+  262 |         GLib.Menu section = new GLib.Menu ();
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+../editor/bookmarks-window.vala:316.14-316.38: warning: Local variable `give_focus_to_info_button' declared but never used
+  316 |         bool give_focus_to_info_button = main_view.leave_bookmarks_edit_mode ();
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~                                          
+../editor/model-utils.vala:103.5-103.34: warning: Method `RegistryVariantDict.lookup_value' never used
+  103 |     internal Variant? lookup_value (uint16 key, VariantType expected_type)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                        
+../editor/model-utils.vala:111.5-111.26: warning: Method `RegistryVariantDict.contains' never used
+  111 |     internal bool contains (uint16 key)
+      |     ^~~~~~~~~~~~~~~~~~~~~~             
+../editor/model-utils.vala:122.5-122.24: warning: Method `RegistryVariantDict.remove' never used
+  122 |     internal bool remove (uint16 key)
+      |     ^~~~~~~~~~~~~~~~~~~~             
+../editor/modifications-list.vala:115.50-115.75: warning: copying delegates is not supported
+  115 |         main_list_box.bind_model (modifications, delayed_setting_row_create);
+      |                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~  
+Compilation succeeded - 8 warning(s)
+[76/120] Compiling C object editor/dconf-editor.p/meson-generated_browser-infobar.c.o
+[77/120] Compiling C object editor/dconf-editor.p/meson-generated_bookmarks-controller.c.o
+[78/120] Compiling C object editor/dconf-editor.p/meson-generated_browser-content.c.o
+[79/120] Compiling C object editor/dconf-editor.p/meson-generated_bookmarks-view.c.o
+[80/120] Compiling C object editor/dconf-editor.p/meson-generated_adaptative-pathbar.c.o
+[81/120] Compiling C object editor/dconf-editor.p/meson-generated_bookmarks-headerbar.c.o
+[82/120] Compiling C object editor/dconf-editor.p/meson-generated_bookmarks-window.c.o
+[83/120] Compiling C object editor/dconf-editor.p/meson-generated_adaptative-window.c.o
+[84/120] Compiling C object editor/dconf-editor.p/meson-generated_browser-stack.c.o
+[85/120] Compiling C object editor/dconf-editor.p/meson-generated_dconf-view.c.o
+[86/120] Compiling C object editor/dconf-editor.p/meson-generated_bookmarks.c.o
+[87/120] Compiling C object editor/dconf-editor.p/meson-generated_dconf-headerbar.c.o
+[88/120] Compiling C object editor/dconf-editor.p/meson-generated_base-view.c.o
+[89/120] Compiling C object editor/dconf-editor.p/meson-generated_browser-view.c.o
+[90/120] Compiling C object editor/dconf-editor.p/meson-generated_base-headerbar.c.o
+[91/120] Compiling C object editor/dconf-editor.p/meson-generated_browser-headerbar.c.o
+[92/120] Compiling C object editor/dconf-editor.p/meson-generated_base-window.c.o
+[93/120] Compiling C object editor/dconf-editor.p/meson-generated_about-list.c.o
+[94/120] Compiling C object editor/dconf-editor.p/meson-generated_browser-window.c.o
+[95/120] Compiling C object editor/dconf-editor.p/meson-generated_delayed-setting-view.c.o
+[96/120] Compiling C object editor/dconf-editor.p/meson-generated_notifications-revealer.c.o
+[97/120] Compiling C object editor/dconf-editor.p/meson-generated_modifications-handler.c.o
+[98/120] Compiling C object editor/dconf-editor.p/meson-generated_model-utils.c.o
+[99/120] Compiling C object editor/dconf-editor.p/meson-generated_modifications-revealer.c.o
+[100/120] Compiling C object editor/dconf-editor.p/meson-generated_bookmarks-list.c.o
+[101/120] Compiling C object editor/dconf-editor.p/meson-generated_dconf-model.c.o
+[102/120] Compiling C object editor/dconf-editor.p/meson-generated_modifications-list.c.o
+[103/120] Compiling C object editor/dconf-editor.p/meson-generated_pathentry.c.o
+[104/120] Compiling C object editor/dconf-editor.p/meson-generated_schemas-utility.c.o
+[105/120] Compiling C object editor/dconf-editor.p/meson-generated_dconf-editor.c.o
+[106/120] Compiling C object editor/dconf-editor.p/meson-generated_pathwidget.c.o
+[107/120] Compiling C object editor/dconf-editor.p/meson-generated_dconf-window.c.o
+[108/120] Compiling C object editor/dconf-editor.p/meson-generated_registry-placeholder.c.o
+[109/120] Compiling C object editor/dconf-editor.p/meson-generated_large-pathbar.c.o
+[110/120] Compiling C object editor/dconf-editor.p/meson-generated_overlayed-list.c.o
+[111/120] Compiling C object editor/dconf-editor.p/meson-generated_registry-view.c.o
+[112/120] Compiling C object editor/dconf-editor.p/meson-generated_key-list-box-row.c.o
+[113/120] Compiling C object editor/dconf-editor.p/meson-generated_registry-search.c.o
+[114/120] Compiling C object editor/dconf-editor.p/meson-generated_short-pathbar.c.o
+[115/120] Compiling C object editor/dconf-editor.p/meson-generated_key-editor-child.c.o
+[116/120] Compiling C object editor/dconf-editor.p/meson-generated_registry-info.c.o
+[117/120] Compiling C object editor/dconf-editor.p/meson-generated_setting-object.c.o
+[118/120] Compiling C object editor/dconf-editor.p/meson-generated_source-manager.c.o
+[119/120] Compiling C object editor/dconf-editor.p/meson-generated_registry-list.c.o
+[120/120] Linking target editor/dconf-editor
+[0/1] Installing files
+Installing subdir /blfs/builds/dconf-editor-49.0/editor/icons to /usr/share/icons
+Installing /blfs/builds/dconf-editor-49.0/editor/icons/hicolor/symbolic/apps/ca.desrt.dconf-editor-symbolic.svg to /usr/share/icons/hicolor/symbolic/apps
+Installing /blfs/builds/dconf-editor-49.0/editor/icons/hicolor/scalable/apps/ca.desrt.dconf-editor.svg to /usr/share/icons/hicolor/scalable/apps
+Installing /blfs/builds/dconf-editor-49.0/editor/icons/hicolor/scalable/apps/ca.desrt.dconf-editor.Devel.svg to /usr/share/icons/hicolor/scalable/apps
+Installing /blfs/builds/dconf-editor-49.0/editor/icons/hicolor/scalable/actions/ca.desrt.dconf-editor.small-rows-symbolic.svg to /usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/dconf-editor-49.0/editor/icons/hicolor/scalable/actions/ca.desrt.dconf-editor.big-rows-symbolic.svg to /usr/share/icons/hicolor/scalable/actions
+Installing editor/ca.desrt.dconf-editor.desktop to /usr/share/applications
+Installing editor/ca.desrt.dconf-editor.metainfo.xml to /usr/share/metainfo
+Installing editor/dconf-editor to /usr/bin
+Installing po/ab/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/ab/LC_MESSAGES
+Installing po/af/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/af/LC_MESSAGES
+Installing po/an/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/an/LC_MESSAGES
+Installing po/ar/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/ar/LC_MESSAGES
+Installing po/as/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/as/LC_MESSAGES
+Installing po/be/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/be/LC_MESSAGES
+Installing po/bg/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/bg/LC_MESSAGES
+Installing po/bn_IN/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/bn_IN/LC_MESSAGES
+Installing po/bs/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/bs/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/ca/LC_MESSAGES
+Installing po/ca@valencia/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/ca@valencia/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/cs/LC_MESSAGES
+Installing po/da/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/de/LC_MESSAGES
+Installing po/el/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/el/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/en_GB/LC_MESSAGES
+Installing po/eo/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/eo/LC_MESSAGES
+Installing po/es/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/es/LC_MESSAGES
+Installing po/et/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/et/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/eu/LC_MESSAGES
+Installing po/fa/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/fa/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/fr/LC_MESSAGES
+Installing po/fur/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/fur/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/gl/LC_MESSAGES
+Installing po/he/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/he/LC_MESSAGES
+Installing po/hi/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/hi/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/hu/LC_MESSAGES
+Installing po/id/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/id/LC_MESSAGES
+Installing po/is/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/is/LC_MESSAGES
+Installing po/it/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/it/LC_MESSAGES
+Installing po/ja/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/ja/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/ka/LC_MESSAGES
+Installing po/kab/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/kab/LC_MESSAGES
+Installing po/kk/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/kk/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/ko/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/lt/LC_MESSAGES
+Installing po/lv/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/lv/LC_MESSAGES
+Installing po/ml/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/ml/LC_MESSAGES
+Installing po/mr/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/mr/LC_MESSAGES
+Installing po/ms/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/ms/LC_MESSAGES
+Installing po/nb/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/nb/LC_MESSAGES
+Installing po/ne/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/ne/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/nl/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/oc/LC_MESSAGES
+Installing po/pa/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/pa/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/pl/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/pt/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/ru/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/sl/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/sr/LC_MESSAGES
+Installing po/sr@latin/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/sr@latin/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/sv/LC_MESSAGES
+Installing po/ta/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/ta/LC_MESSAGES
+Installing po/te/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/te/LC_MESSAGES
+Installing po/tg/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/tg/LC_MESSAGES
+Installing po/th/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/th/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/tr/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/uk/LC_MESSAGES
+Installing po/uz/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/uz/LC_MESSAGES
+Installing po/vi/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/vi/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_HK/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/zh_HK/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/zh_TW/LC_MESSAGES
+Installing po/ug/LC_MESSAGES/dconf-editor.mo to /usr/share/locale/ug/LC_MESSAGES
+Installing /blfs/builds/dconf-editor-49.0/build/editor/ca.desrt.dconf-editor.service to /usr/share/dbus-1/services
+Installing /blfs/builds/dconf-editor-49.0/editor/ca.desrt.dconf-editor.gschema.xml to /usr/share/glib-2.0/schemas
+Installing /blfs/builds/dconf-editor-49.0/editor/dconf-editor.1 to /usr/share/man/man1
+Installing /blfs/builds/dconf-editor-49.0/editor/completion/dconf-editor to /usr/share/bash-completion/completions
+Running custom install script '/usr/bin/glib-compile-schemas /usr/share/glib-2.0/schemas'
+Running custom install script '/usr/bin/gtk4-update-icon-cache -q -t -f /usr/share/icons/hicolor'
+Running custom install script '/usr/bin/update-desktop-database -q /usr/share/applications'
+[0/1] Installing files
+Installing subdir /blfs/builds/dconf-editor-49.0/editor/icons to /pkgs/dconf-editor/usr/share/icons
+Installing /blfs/builds/dconf-editor-49.0/editor/icons/hicolor/symbolic/apps/ca.desrt.dconf-editor-symbolic.svg to /pkgs/dconf-editor/usr/share/icons/hicolor/symbolic/apps
+Installing /blfs/builds/dconf-editor-49.0/editor/icons/hicolor/scalable/apps/ca.desrt.dconf-editor.svg to /pkgs/dconf-editor/usr/share/icons/hicolor/scalable/apps
+Installing /blfs/builds/dconf-editor-49.0/editor/icons/hicolor/scalable/apps/ca.desrt.dconf-editor.Devel.svg to /pkgs/dconf-editor/usr/share/icons/hicolor/scalable/apps
+Installing /blfs/builds/dconf-editor-49.0/editor/icons/hicolor/scalable/actions/ca.desrt.dconf-editor.small-rows-symbolic.svg to /pkgs/dconf-editor/usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/dconf-editor-49.0/editor/icons/hicolor/scalable/actions/ca.desrt.dconf-editor.big-rows-symbolic.svg to /pkgs/dconf-editor/usr/share/icons/hicolor/scalable/actions
+Installing editor/ca.desrt.dconf-editor.desktop to /pkgs/dconf-editor/usr/share/applications
+Installing editor/ca.desrt.dconf-editor.metainfo.xml to /pkgs/dconf-editor/usr/share/metainfo
+Installing editor/dconf-editor to /pkgs/dconf-editor/usr/bin
+Installing po/ab/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/ab/LC_MESSAGES
+Installing po/af/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/af/LC_MESSAGES
+Installing po/an/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/an/LC_MESSAGES
+Installing po/ar/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/ar/LC_MESSAGES
+Installing po/as/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/as/LC_MESSAGES
+Installing po/be/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/be/LC_MESSAGES
+Installing po/bg/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/bg/LC_MESSAGES
+Installing po/bn_IN/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/bn_IN/LC_MESSAGES
+Installing po/bs/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/bs/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/ca/LC_MESSAGES
+Installing po/ca@valencia/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/ca@valencia/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/cs/LC_MESSAGES
+Installing po/da/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/de/LC_MESSAGES
+Installing po/el/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/el/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/en_GB/LC_MESSAGES
+Installing po/eo/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/eo/LC_MESSAGES
+Installing po/es/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/es/LC_MESSAGES
+Installing po/et/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/et/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/eu/LC_MESSAGES
+Installing po/fa/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/fa/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/fr/LC_MESSAGES
+Installing po/fur/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/fur/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/gl/LC_MESSAGES
+Installing po/he/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/he/LC_MESSAGES
+Installing po/hi/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/hi/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/hu/LC_MESSAGES
+Installing po/id/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/id/LC_MESSAGES
+Installing po/is/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/is/LC_MESSAGES
+Installing po/it/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/it/LC_MESSAGES
+Installing po/ja/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/ja/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/ka/LC_MESSAGES
+Installing po/kab/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/kab/LC_MESSAGES
+Installing po/kk/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/kk/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/ko/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/lt/LC_MESSAGES
+Installing po/lv/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/lv/LC_MESSAGES
+Installing po/ml/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/ml/LC_MESSAGES
+Installing po/mr/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/mr/LC_MESSAGES
+Installing po/ms/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/ms/LC_MESSAGES
+Installing po/nb/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/nb/LC_MESSAGES
+Installing po/ne/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/ne/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/nl/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/oc/LC_MESSAGES
+Installing po/pa/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/pa/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/pl/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/pt/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/ru/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/sl/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/sr/LC_MESSAGES
+Installing po/sr@latin/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/sr@latin/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/sv/LC_MESSAGES
+Installing po/ta/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/ta/LC_MESSAGES
+Installing po/te/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/te/LC_MESSAGES
+Installing po/tg/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/tg/LC_MESSAGES
+Installing po/th/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/th/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/tr/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/uk/LC_MESSAGES
+Installing po/uz/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/uz/LC_MESSAGES
+Installing po/vi/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/vi/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_HK/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/zh_HK/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/zh_TW/LC_MESSAGES
+Installing po/ug/LC_MESSAGES/dconf-editor.mo to /pkgs/dconf-editor/usr/share/locale/ug/LC_MESSAGES
+Installing /blfs/builds/dconf-editor-49.0/build/editor/ca.desrt.dconf-editor.service to /pkgs/dconf-editor/usr/share/dbus-1/services
+Installing /blfs/builds/dconf-editor-49.0/editor/ca.desrt.dconf-editor.gschema.xml to /pkgs/dconf-editor/usr/share/glib-2.0/schemas
+Installing /blfs/builds/dconf-editor-49.0/editor/dconf-editor.1 to /pkgs/dconf-editor/usr/share/man/man1
+Installing /blfs/builds/dconf-editor-49.0/editor/completion/dconf-editor to /pkgs/dconf-editor/usr/share/bash-completion/completions
+Skipping custom install script because DESTDIR is set '/usr/bin/glib-compile-schemas /usr/share/glib-2.0/schemas'
+Skipping custom install script because DESTDIR is set '/usr/bin/gtk4-update-icon-cache -q -t -f /usr/share/icons/hicolor'
+Skipping custom install script because DESTDIR is set '/usr/bin/update-desktop-database -q /usr/share/applications'
+dconf-editor/
+dconf-editor/usr/
+dconf-editor/usr/share/
+dconf-editor/usr/share/metainfo/
+dconf-editor/usr/share/metainfo/ca.desrt.dconf-editor.metainfo.xml
+dconf-editor/usr/share/glib-2.0/
+dconf-editor/usr/share/glib-2.0/schemas/
+dconf-editor/usr/share/glib-2.0/schemas/ca.desrt.dconf-editor.gschema.xml
+dconf-editor/usr/share/locale/
+dconf-editor/usr/share/locale/zh_HK/
+dconf-editor/usr/share/locale/zh_HK/LC_MESSAGES/
+dconf-editor/usr/share/locale/zh_HK/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/be/
+dconf-editor/usr/share/locale/be/LC_MESSAGES/
+dconf-editor/usr/share/locale/be/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/af/
+dconf-editor/usr/share/locale/af/LC_MESSAGES/
+dconf-editor/usr/share/locale/af/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/ca/
+dconf-editor/usr/share/locale/ca/LC_MESSAGES/
+dconf-editor/usr/share/locale/ca/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/eu/
+dconf-editor/usr/share/locale/eu/LC_MESSAGES/
+dconf-editor/usr/share/locale/eu/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/en_GB/
+dconf-editor/usr/share/locale/en_GB/LC_MESSAGES/
+dconf-editor/usr/share/locale/en_GB/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/uk/
+dconf-editor/usr/share/locale/uk/LC_MESSAGES/
+dconf-editor/usr/share/locale/uk/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/it/
+dconf-editor/usr/share/locale/it/LC_MESSAGES/
+dconf-editor/usr/share/locale/it/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/ug/
+dconf-editor/usr/share/locale/ug/LC_MESSAGES/
+dconf-editor/usr/share/locale/ug/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/he/
+dconf-editor/usr/share/locale/he/LC_MESSAGES/
+dconf-editor/usr/share/locale/he/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/de/
+dconf-editor/usr/share/locale/de/LC_MESSAGES/
+dconf-editor/usr/share/locale/de/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/pt/
+dconf-editor/usr/share/locale/pt/LC_MESSAGES/
+dconf-editor/usr/share/locale/pt/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/kk/
+dconf-editor/usr/share/locale/kk/LC_MESSAGES/
+dconf-editor/usr/share/locale/kk/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/es/
+dconf-editor/usr/share/locale/es/LC_MESSAGES/
+dconf-editor/usr/share/locale/es/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/vi/
+dconf-editor/usr/share/locale/vi/LC_MESSAGES/
+dconf-editor/usr/share/locale/vi/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/fur/
+dconf-editor/usr/share/locale/fur/LC_MESSAGES/
+dconf-editor/usr/share/locale/fur/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/ne/
+dconf-editor/usr/share/locale/ne/LC_MESSAGES/
+dconf-editor/usr/share/locale/ne/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/bs/
+dconf-editor/usr/share/locale/bs/LC_MESSAGES/
+dconf-editor/usr/share/locale/bs/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/da/
+dconf-editor/usr/share/locale/da/LC_MESSAGES/
+dconf-editor/usr/share/locale/da/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/zh_CN/
+dconf-editor/usr/share/locale/zh_CN/LC_MESSAGES/
+dconf-editor/usr/share/locale/zh_CN/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/ml/
+dconf-editor/usr/share/locale/ml/LC_MESSAGES/
+dconf-editor/usr/share/locale/ml/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/ko/
+dconf-editor/usr/share/locale/ko/LC_MESSAGES/
+dconf-editor/usr/share/locale/ko/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/pa/
+dconf-editor/usr/share/locale/pa/LC_MESSAGES/
+dconf-editor/usr/share/locale/pa/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/ta/
+dconf-editor/usr/share/locale/ta/LC_MESSAGES/
+dconf-editor/usr/share/locale/ta/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/kab/
+dconf-editor/usr/share/locale/kab/LC_MESSAGES/
+dconf-editor/usr/share/locale/kab/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/nb/
+dconf-editor/usr/share/locale/nb/LC_MESSAGES/
+dconf-editor/usr/share/locale/nb/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/hr/
+dconf-editor/usr/share/locale/hr/LC_MESSAGES/
+dconf-editor/usr/share/locale/hr/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/sr/
+dconf-editor/usr/share/locale/sr/LC_MESSAGES/
+dconf-editor/usr/share/locale/sr/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/uz/
+dconf-editor/usr/share/locale/uz/LC_MESSAGES/
+dconf-editor/usr/share/locale/uz/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/pt_BR/
+dconf-editor/usr/share/locale/pt_BR/LC_MESSAGES/
+dconf-editor/usr/share/locale/pt_BR/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/tr/
+dconf-editor/usr/share/locale/tr/LC_MESSAGES/
+dconf-editor/usr/share/locale/tr/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/ca@valencia/
+dconf-editor/usr/share/locale/ca@valencia/LC_MESSAGES/
+dconf-editor/usr/share/locale/ca@valencia/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/fa/
+dconf-editor/usr/share/locale/fa/LC_MESSAGES/
+dconf-editor/usr/share/locale/fa/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/bn_IN/
+dconf-editor/usr/share/locale/bn_IN/LC_MESSAGES/
+dconf-editor/usr/share/locale/bn_IN/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/sk/
+dconf-editor/usr/share/locale/sk/LC_MESSAGES/
+dconf-editor/usr/share/locale/sk/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/hi/
+dconf-editor/usr/share/locale/hi/LC_MESSAGES/
+dconf-editor/usr/share/locale/hi/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/et/
+dconf-editor/usr/share/locale/et/LC_MESSAGES/
+dconf-editor/usr/share/locale/et/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/ms/
+dconf-editor/usr/share/locale/ms/LC_MESSAGES/
+dconf-editor/usr/share/locale/ms/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/te/
+dconf-editor/usr/share/locale/te/LC_MESSAGES/
+dconf-editor/usr/share/locale/te/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/gl/
+dconf-editor/usr/share/locale/gl/LC_MESSAGES/
+dconf-editor/usr/share/locale/gl/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/pl/
+dconf-editor/usr/share/locale/pl/LC_MESSAGES/
+dconf-editor/usr/share/locale/pl/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/sl/
+dconf-editor/usr/share/locale/sl/LC_MESSAGES/
+dconf-editor/usr/share/locale/sl/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/fi/
+dconf-editor/usr/share/locale/fi/LC_MESSAGES/
+dconf-editor/usr/share/locale/fi/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/is/
+dconf-editor/usr/share/locale/is/LC_MESSAGES/
+dconf-editor/usr/share/locale/is/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/ar/
+dconf-editor/usr/share/locale/ar/LC_MESSAGES/
+dconf-editor/usr/share/locale/ar/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/zh_TW/
+dconf-editor/usr/share/locale/zh_TW/LC_MESSAGES/
+dconf-editor/usr/share/locale/zh_TW/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/nl/
+dconf-editor/usr/share/locale/nl/LC_MESSAGES/
+dconf-editor/usr/share/locale/nl/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/oc/
+dconf-editor/usr/share/locale/oc/LC_MESSAGES/
+dconf-editor/usr/share/locale/oc/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/ka/
+dconf-editor/usr/share/locale/ka/LC_MESSAGES/
+dconf-editor/usr/share/locale/ka/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/tg/
+dconf-editor/usr/share/locale/tg/LC_MESSAGES/
+dconf-editor/usr/share/locale/tg/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/as/
+dconf-editor/usr/share/locale/as/LC_MESSAGES/
+dconf-editor/usr/share/locale/as/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/fr/
+dconf-editor/usr/share/locale/fr/LC_MESSAGES/
+dconf-editor/usr/share/locale/fr/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/sr@latin/
+dconf-editor/usr/share/locale/sr@latin/LC_MESSAGES/
+dconf-editor/usr/share/locale/sr@latin/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/mr/
+dconf-editor/usr/share/locale/mr/LC_MESSAGES/
+dconf-editor/usr/share/locale/mr/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/eo/
+dconf-editor/usr/share/locale/eo/LC_MESSAGES/
+dconf-editor/usr/share/locale/eo/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/ro/
+dconf-editor/usr/share/locale/ro/LC_MESSAGES/
+dconf-editor/usr/share/locale/ro/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/lt/
+dconf-editor/usr/share/locale/lt/LC_MESSAGES/
+dconf-editor/usr/share/locale/lt/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/cs/
+dconf-editor/usr/share/locale/cs/LC_MESSAGES/
+dconf-editor/usr/share/locale/cs/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/sv/
+dconf-editor/usr/share/locale/sv/LC_MESSAGES/
+dconf-editor/usr/share/locale/sv/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/el/
+dconf-editor/usr/share/locale/el/LC_MESSAGES/
+dconf-editor/usr/share/locale/el/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/ja/
+dconf-editor/usr/share/locale/ja/LC_MESSAGES/
+dconf-editor/usr/share/locale/ja/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/id/
+dconf-editor/usr/share/locale/id/LC_MESSAGES/
+dconf-editor/usr/share/locale/id/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/hu/
+dconf-editor/usr/share/locale/hu/LC_MESSAGES/
+dconf-editor/usr/share/locale/hu/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/an/
+dconf-editor/usr/share/locale/an/LC_MESSAGES/
+dconf-editor/usr/share/locale/an/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/bg/
+dconf-editor/usr/share/locale/bg/LC_MESSAGES/
+dconf-editor/usr/share/locale/bg/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/ru/
+dconf-editor/usr/share/locale/ru/LC_MESSAGES/
+dconf-editor/usr/share/locale/ru/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/lv/
+dconf-editor/usr/share/locale/lv/LC_MESSAGES/
+dconf-editor/usr/share/locale/lv/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/ab/
+dconf-editor/usr/share/locale/ab/LC_MESSAGES/
+dconf-editor/usr/share/locale/ab/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/locale/th/
+dconf-editor/usr/share/locale/th/LC_MESSAGES/
+dconf-editor/usr/share/locale/th/LC_MESSAGES/dconf-editor.mo
+dconf-editor/usr/share/applications/
+dconf-editor/usr/share/applications/ca.desrt.dconf-editor.desktop
+dconf-editor/usr/share/dbus-1/
+dconf-editor/usr/share/dbus-1/services/
+dconf-editor/usr/share/dbus-1/services/ca.desrt.dconf-editor.service
+dconf-editor/usr/share/icons/
+dconf-editor/usr/share/icons/hicolor/
+dconf-editor/usr/share/icons/hicolor/symbolic/
+dconf-editor/usr/share/icons/hicolor/symbolic/apps/
+dconf-editor/usr/share/icons/hicolor/symbolic/apps/ca.desrt.dconf-editor-symbolic.svg
+dconf-editor/usr/share/icons/hicolor/scalable/
+dconf-editor/usr/share/icons/hicolor/scalable/apps/
+dconf-editor/usr/share/icons/hicolor/scalable/apps/ca.desrt.dconf-editor.svg
+dconf-editor/usr/share/icons/hicolor/scalable/apps/ca.desrt.dconf-editor.Devel.svg
+dconf-editor/usr/share/icons/hicolor/scalable/actions/
+dconf-editor/usr/share/icons/hicolor/scalable/actions/ca.desrt.dconf-editor.small-rows-symbolic.svg
+dconf-editor/usr/share/icons/hicolor/scalable/actions/ca.desrt.dconf-editor.big-rows-symbolic.svg
+dconf-editor/usr/share/bash-completion/
+dconf-editor/usr/share/bash-completion/completions/
+dconf-editor/usr/share/bash-completion/completions/dconf-editor
+dconf-editor/usr/share/man/
+dconf-editor/usr/share/man/man1/
+dconf-editor/usr/share/man/man1/dconf-editor.1
+dconf-editor/usr/bin/
+dconf-editor/usr/bin/dconf-editor
+dconf-editor/version
+dconf-editor/depends
+dconf-editor/postinst

@@ -1,0 +1,567 @@
+--2025-09-17 07:23:58--  https://download.gnome.org/sources/baobab/49/baobab-49.0.tar.xz
+Resolving download.gnome.org (download.gnome.org)... 2a02:6ea0:c400::54, 2a02:6ea0:c400::53, 79.127.206.207, ...
+Connecting to download.gnome.org (download.gnome.org)|2a02:6ea0:c400::54|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 611044 (597K) [application/octet-stream]
+Saving to: 'baobab-49.0.tar.xz'
+
+     0K .......... .......... .......... .......... ..........  8% 4.76M 0s
+    50K .......... .......... .......... .......... .......... 16% 6.21M 0s
+   100K .......... .......... .......... .......... .......... 25% 18.0M 0s
+   150K .......... .......... .......... .......... .......... 33% 24.5M 0s
+   200K .......... .......... .......... .......... .......... 41% 16.3M 0s
+   250K .......... .......... .......... .......... .......... 50% 25.1M 0s
+   300K .......... .......... .......... .......... .......... 58% 25.7M 0s
+   350K .......... .......... .......... .......... .......... 67% 20.8M 0s
+   400K .......... .......... .......... .......... .......... 75% 33.5M 0s
+   450K .......... .......... .......... .......... .......... 83% 97.7M 0s
+   500K .......... .......... .......... .......... .......... 92% 79.4M 0s
+   550K .......... .......... .......... .......... ......    100% 85.2M=0.04s
+
+2025-09-17 07:23:58 (16.6 MB/s) - 'baobab-49.0.tar.xz' saved [611044/611044]
+
+baobab-49.0/
+baobab-49.0/.gitignore
+baobab-49.0/.gitlab-ci.yml
+baobab-49.0/AUTHORS
+baobab-49.0/COPYING
+baobab-49.0/NEWS
+baobab-49.0/README.md
+baobab-49.0/baobab.doap
+baobab-49.0/build-aux/
+baobab-49.0/build-aux/flatpak/
+baobab-49.0/build-aux/flatpak/org.gnome.baobab.json
+baobab-49.0/data/
+baobab-49.0/data/baobab.1
+baobab-49.0/data/baobab.gresource.xml
+baobab-49.0/data/default.png
+baobab-49.0/data/devicesandlocations.png
+baobab-49.0/data/gtk/
+baobab-49.0/data/gtk/help-overlay.ui
+baobab-49.0/data/gtk/menus.ui
+baobab-49.0/data/icons/
+baobab-49.0/data/icons/hicolor/
+baobab-49.0/data/icons/hicolor/scalable/
+baobab-49.0/data/icons/hicolor/scalable/apps/
+baobab-49.0/data/icons/hicolor/scalable/apps/org.gnome.baobab.Devel.svg
+baobab-49.0/data/icons/hicolor/scalable/apps/org.gnome.baobab.svg
+baobab-49.0/data/icons/hicolor/symbolic/
+baobab-49.0/data/icons/hicolor/symbolic/apps/
+baobab-49.0/data/icons/hicolor/symbolic/apps/org.gnome.baobab-symbolic.svg
+baobab-49.0/data/icons/scalable/
+baobab-49.0/data/icons/scalable/actions/
+baobab-49.0/data/icons/scalable/actions/view-ringschart-symbolic.svg
+baobab-49.0/data/icons/scalable/actions/view-treemap-symbolic.svg
+baobab-49.0/data/meson.build
+baobab-49.0/data/org.gnome.baobab.desktop.in
+baobab-49.0/data/org.gnome.baobab.gschema.xml
+baobab-49.0/data/org.gnome.baobab.metainfo.xml.in
+baobab-49.0/data/org.gnome.baobab.service.in
+baobab-49.0/data/style.css
+baobab-49.0/data/ui/
+baobab-49.0/data/ui/baobab-contents-cell.ui
+baobab-49.0/data/ui/baobab-excluded-row.ui
+baobab-49.0/data/ui/baobab-file-cell.ui
+baobab-49.0/data/ui/baobab-folder-cell.ui
+baobab-49.0/data/ui/baobab-folder-display.ui
+baobab-49.0/data/ui/baobab-location-list.ui
+baobab-49.0/data/ui/baobab-location-row.ui
+baobab-49.0/data/ui/baobab-main-window.ui
+baobab-49.0/data/ui/baobab-name-cell.ui
+baobab-49.0/data/ui/baobab-pathbar.ui
+baobab-49.0/data/ui/baobab-pathbutton.ui
+baobab-49.0/data/ui/baobab-preferences-dialog.ui
+baobab-49.0/data/ui/baobab-size-cell.ui
+baobab-49.0/data/ui/baobab-time-modified-cell.ui
+baobab-49.0/data/ui/baobab-treeview-menu.ui
+baobab-49.0/help/
+baobab-49.0/help/C/
+baobab-49.0/help/C/index.page
+baobab-49.0/help/C/introduction.page
+baobab-49.0/help/C/legal.xml
+baobab-49.0/help/C/media/
+baobab-49.0/help/C/media/org.gnome.baobab.svg
+baobab-49.0/help/C/pref-view-chart.page
+baobab-49.0/help/C/problem-permissions.page
+baobab-49.0/help/C/problem-slow-scan.page
+baobab-49.0/help/C/question-open-folder.page
+baobab-49.0/help/C/question-trash.page
+baobab-49.0/help/C/scan-file-system.page
+baobab-49.0/help/C/scan-folder.page
+baobab-49.0/help/C/scan-home.page
+baobab-49.0/help/C/scan-remote.page
+baobab-49.0/help/LINGUAS
+baobab-49.0/help/ca/
+baobab-49.0/help/ca/ca.po
+baobab-49.0/help/cs/
+baobab-49.0/help/cs/cs.po
+baobab-49.0/help/da/
+baobab-49.0/help/da/da.po
+baobab-49.0/help/de/
+baobab-49.0/help/de/de.po
+baobab-49.0/help/el/
+baobab-49.0/help/el/el.po
+baobab-49.0/help/es/
+baobab-49.0/help/es/es.po
+baobab-49.0/help/eu/
+baobab-49.0/help/eu/eu.po
+baobab-49.0/help/fi/
+baobab-49.0/help/fi/fi.po
+baobab-49.0/help/fr/
+baobab-49.0/help/fr/fr.po
+baobab-49.0/help/gl/
+baobab-49.0/help/gl/gl.po
+baobab-49.0/help/hr/
+baobab-49.0/help/hr/hr.po
+baobab-49.0/help/hu/
+baobab-49.0/help/hu/hu.po
+baobab-49.0/help/id/
+baobab-49.0/help/id/id.po
+baobab-49.0/help/it/
+baobab-49.0/help/it/it.po
+baobab-49.0/help/ko/
+baobab-49.0/help/ko/ko.po
+baobab-49.0/help/meson.build
+baobab-49.0/help/nl/
+baobab-49.0/help/nl/nl.po
+baobab-49.0/help/pl/
+baobab-49.0/help/pl/pl.po
+baobab-49.0/help/pt/
+baobab-49.0/help/pt/pt.po
+baobab-49.0/help/pt_BR/
+baobab-49.0/help/pt_BR/pt_BR.po
+baobab-49.0/help/ru/
+baobab-49.0/help/ru/ru.po
+baobab-49.0/help/sl/
+baobab-49.0/help/sl/sl.po
+baobab-49.0/help/sv/
+baobab-49.0/help/sv/sv.po
+baobab-49.0/help/tr/
+baobab-49.0/help/tr/tr.po
+baobab-49.0/help/uk/
+baobab-49.0/help/uk/uk.po
+baobab-49.0/help/zh_CN/
+baobab-49.0/help/zh_CN/zh_CN.po
+baobab-49.0/logo.png
+baobab-49.0/meson.build
+baobab-49.0/po/
+baobab-49.0/po/LINGUAS
+baobab-49.0/po/POTFILES.in
+baobab-49.0/po/POTFILES.skip
+baobab-49.0/po/ab.po
+baobab-49.0/po/af.po
+baobab-49.0/po/am.po
+baobab-49.0/po/an.po
+baobab-49.0/po/ar.po
+baobab-49.0/po/as.po
+baobab-49.0/po/ast.po
+baobab-49.0/po/az.po
+baobab-49.0/po/be.po
+baobab-49.0/po/be@latin.po
+baobab-49.0/po/bg.po
+baobab-49.0/po/bn.po
+baobab-49.0/po/bn_IN.po
+baobab-49.0/po/br.po
+baobab-49.0/po/bs.po
+baobab-49.0/po/ca.po
+baobab-49.0/po/ca@valencia.po
+baobab-49.0/po/ckb.po
+baobab-49.0/po/crh.po
+baobab-49.0/po/cs.po
+baobab-49.0/po/cy.po
+baobab-49.0/po/da.po
+baobab-49.0/po/de.po
+baobab-49.0/po/dz.po
+baobab-49.0/po/el.po
+baobab-49.0/po/en@shaw.po
+baobab-49.0/po/en_CA.po
+baobab-49.0/po/en_GB.po
+baobab-49.0/po/eo.po
+baobab-49.0/po/es.po
+baobab-49.0/po/et.po
+baobab-49.0/po/eu.po
+baobab-49.0/po/fa.po
+baobab-49.0/po/fi.po
+baobab-49.0/po/fo.po
+baobab-49.0/po/fr.po
+baobab-49.0/po/fur.po
+baobab-49.0/po/fy.po
+baobab-49.0/po/ga.po
+baobab-49.0/po/gd.po
+baobab-49.0/po/gl.po
+baobab-49.0/po/gu.po
+baobab-49.0/po/he.po
+baobab-49.0/po/hi.po
+baobab-49.0/po/hr.po
+baobab-49.0/po/hu.po
+baobab-49.0/po/ia.po
+baobab-49.0/po/id.po
+baobab-49.0/po/ie.po
+baobab-49.0/po/is.po
+baobab-49.0/po/it.po
+baobab-49.0/po/ja.po
+baobab-49.0/po/ka.po
+baobab-49.0/po/kab.po
+baobab-49.0/po/kk.po
+baobab-49.0/po/km.po
+baobab-49.0/po/kn.po
+baobab-49.0/po/ko.po
+baobab-49.0/po/ku.po
+baobab-49.0/po/lt.po
+baobab-49.0/po/lv.po
+baobab-49.0/po/mai.po
+baobab-49.0/po/meson.build
+baobab-49.0/po/mg.po
+baobab-49.0/po/mjw.po
+baobab-49.0/po/mk.po
+baobab-49.0/po/ml.po
+baobab-49.0/po/mn.po
+baobab-49.0/po/mr.po
+baobab-49.0/po/ms.po
+baobab-49.0/po/nb.po
+baobab-49.0/po/nds.po
+baobab-49.0/po/ne.po
+baobab-49.0/po/nl.po
+baobab-49.0/po/nn.po
+baobab-49.0/po/oc.po
+baobab-49.0/po/or.po
+baobab-49.0/po/pa.po
+baobab-49.0/po/pl.po
+baobab-49.0/po/ps.po
+baobab-49.0/po/pt.po
+baobab-49.0/po/pt_BR.po
+baobab-49.0/po/ro.po
+baobab-49.0/po/ru.po
+baobab-49.0/po/rw.po
+baobab-49.0/po/si.po
+baobab-49.0/po/sk.po
+baobab-49.0/po/sl.po
+baobab-49.0/po/sq.po
+baobab-49.0/po/sr.po
+baobab-49.0/po/sr@latin.po
+baobab-49.0/po/sv.po
+baobab-49.0/po/ta.po
+baobab-49.0/po/te.po
+baobab-49.0/po/tg.po
+baobab-49.0/po/th.po
+baobab-49.0/po/tr.po
+baobab-49.0/po/ug.po
+baobab-49.0/po/uk.po
+baobab-49.0/po/uz.po
+baobab-49.0/po/vi.po
+baobab-49.0/po/wa.po
+baobab-49.0/po/xh.po
+baobab-49.0/po/zh_CN.po
+baobab-49.0/po/zh_HK.po
+baobab-49.0/po/zh_TW.po
+baobab-49.0/src/
+baobab-49.0/src/baobab-application.vala
+baobab-49.0/src/baobab-cellrenderers.vala
+baobab-49.0/src/baobab-chart.vala
+baobab-49.0/src/baobab-contents-cell.vala
+baobab-49.0/src/baobab-file-cell.vala
+baobab-49.0/src/baobab-folder-cell.vala
+baobab-49.0/src/baobab-folder-display.vala
+baobab-49.0/src/baobab-location-list.vala
+baobab-49.0/src/baobab-location.vala
+baobab-49.0/src/baobab-name-cell.vala
+baobab-49.0/src/baobab-pathbar.vala
+baobab-49.0/src/baobab-preferences-dialog.vala
+baobab-49.0/src/baobab-progress-cell.vala
+baobab-49.0/src/baobab-ringschart.vala
+baobab-49.0/src/baobab-scanner.vala
+baobab-49.0/src/baobab-size-cell.vala
+baobab-49.0/src/baobab-time-modified-cell.vala
+baobab-49.0/src/baobab-tree-list-row-sorter.vala
+baobab-49.0/src/baobab-treemap.vala
+baobab-49.0/src/baobab-window.vala
+baobab-49.0/src/config.vapi
+baobab-49.0/src/main.vala
+baobab-49.0/src/meson.build
+The Meson build system
+Version: 1.7.0
+Source dir: /blfs/builds/baobab-49.0
+Build dir: /blfs/builds/baobab-49.0/build
+Build type: native build
+Project name: baobab
+Project version: 49.0
+C compiler for the host machine: cc (gcc 15.2.0 "cc (GCC) 15.2.0")
+C linker for the host machine: cc ld.bfd 2.45
+Vala compiler for the host machine: valac (valac 0.56.18)
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Run-time dependency glib-2.0 found: YES 2.84.4
+Run-time dependency gio-2.0 found: YES 2.84.4
+Run-time dependency gobject-2.0 found: YES 2.84.4
+Run-time dependency gtk4 found: YES 4.20.1
+Run-time dependency libadwaita-1 found: YES 1.8.0
+Library m found: YES
+Configuring config.h using configuration
+Dependency gio-2.0 found: YES 2.84.4 (cached)
+Program /usr/bin/glib-compile-schemas found: YES (/usr/bin/glib-compile-schemas)
+Program gtk4-update-icon-cache found: YES (/usr/bin/gtk4-update-icon-cache)
+Program update-desktop-database found: YES (/usr/bin/update-desktop-database)
+Dependency gio-2.0 found: YES 2.84.4 (cached)
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Program appstreamcli found: YES (/usr/bin/appstreamcli)
+Configuring org.gnome.baobab.service using configuration
+Program itstool found: YES (/usr/bin/itstool)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Program msginit found: YES (/usr/bin/msginit)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program xgettext found: YES (/usr/bin/xgettext)
+Build targets in project: 190
+
+baobab 49.0
+
+  User defined options
+    buildtype: release
+    prefix   : /usr
+
+Found ninja-1.13.1 at /usr/bin/ninja
+[1/183] Generating data/org.gnome.baobab_c with a custom command
+[2/183] Generating data/org.gnome.baobab_h with a custom command
+[3/183] Generating yelp doc help/ca/help-baobab-ca-gmo
+[4/183] Generating yelp doc help/cs/help-baobab-cs-gmo
+[5/183] Generating yelp doc help/da/help-baobab-da-gmo
+[6/183] Generating yelp doc help/eu/help-baobab-eu-gmo
+[7/183] Generating yelp doc help/fi/help-baobab-fi-gmo
+[8/183] Generating yelp doc help/id/help-baobab-id-gmo
+[9/183] Generating yelp doc help/de/help-baobab-de-gmo
+[10/183] Generating yelp doc help/fr/help-baobab-fr-gmo
+[11/183] Generating yelp doc help/gl/help-baobab-gl-gmo
+[12/183] Generating yelp doc help/hr/help-baobab-hr-gmo
+[13/183] Generating yelp doc help/hu/help-baobab-hu-gmo
+[14/183] Generating yelp doc help/ko/help-baobab-ko-gmo
+[15/183] Generating yelp doc help/nl/help-baobab-nl-gmo
+[16/183] Generating yelp doc help/pl/help-baobab-pl-gmo
+[17/183] Generating yelp doc help/el/help-baobab-el-gmo
+[18/183] Generating yelp doc help/es/help-baobab-es-gmo
+[19/183] Generating yelp doc help/it/help-baobab-it-gmo
+[20/183] Generating yelp doc help/pt/help-baobab-pt-gmo
+[21/183] Generating yelp doc help/pt_BR/help-baobab-pt_BR-gmo
+[22/183] Generating yelp doc help/ru/help-baobab-ru-gmo
+[23/183] Generating yelp doc help/sl/help-baobab-sl-gmo
+[24/183] Generating yelp doc help/sv/help-baobab-sv-gmo
+[25/183] Generating yelp doc help/tr/help-baobab-tr-gmo
+[26/183] Generating yelp doc help/uk/help-baobab-uk-gmo
+[27/183] Generating yelp doc help/zh_CN/help-baobab-zh_CN-gmo
+[28/183] Generating yelp doc help/ca/help-baobab-ca
+FAILED: [code=1] help/ca/index.page help/ca/introduction.page help/ca/pref-view-chart.page help/ca/problem-permissions.page help/ca/problem-slow-scan.page help/ca/question-open-folder.page help/ca/question-trash.page help/ca/scan-file-system.page help/ca/scan-folder.page help/ca/scan-home.page help/ca/scan-remote.page help/ca/legal.xml 
+/usr/bin/itstool -m help/ca/baobab-ca.gmo --lang ca -o help/ca ../help/C/index.page ../help/C/introduction.page ../help/C/pref-view-chart.page ../help/C/problem-permissions.page ../help/C/problem-slow-scan.page ../help/C/question-open-folder.page ../help/C/question-trash.page ../help/C/scan-file-system.page ../help/C/scan-folder.page ../help/C/scan-home.page ../help/C/scan-remote.page ../help/C/legal.xml
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[29/183] Generating yelp doc help/cs/help-baobab-cs
+FAILED: [code=1] help/cs/index.page help/cs/introduction.page help/cs/pref-view-chart.page help/cs/problem-permissions.page help/cs/problem-slow-scan.page help/cs/question-open-folder.page help/cs/question-trash.page help/cs/scan-file-system.page help/cs/scan-folder.page help/cs/scan-home.page help/cs/scan-remote.page help/cs/legal.xml 
+/usr/bin/itstool -m help/cs/baobab-cs.gmo --lang cs -o help/cs ../help/C/index.page ../help/C/introduction.page ../help/C/pref-view-chart.page ../help/C/problem-permissions.page ../help/C/problem-slow-scan.page ../help/C/question-open-folder.page ../help/C/question-trash.page ../help/C/scan-file-system.page ../help/C/scan-folder.page ../help/C/scan-home.page ../help/C/scan-remote.page ../help/C/legal.xml
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[30/183] Generating yelp doc help/da/help-baobab-da
+FAILED: [code=1] help/da/index.page help/da/introduction.page help/da/pref-view-chart.page help/da/problem-permissions.page help/da/problem-slow-scan.page help/da/question-open-folder.page help/da/question-trash.page help/da/scan-file-system.page help/da/scan-folder.page help/da/scan-home.page help/da/scan-remote.page help/da/legal.xml 
+/usr/bin/itstool -m help/da/baobab-da.gmo --lang da -o help/da ../help/C/index.page ../help/C/introduction.page ../help/C/pref-view-chart.page ../help/C/problem-permissions.page ../help/C/problem-slow-scan.page ../help/C/question-open-folder.page ../help/C/question-trash.page ../help/C/scan-file-system.page ../help/C/scan-folder.page ../help/C/scan-home.page ../help/C/scan-remote.page ../help/C/legal.xml
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[31/183] Generating yelp doc help/eu/help-baobab-eu
+FAILED: [code=1] help/eu/index.page help/eu/introduction.page help/eu/pref-view-chart.page help/eu/problem-permissions.page help/eu/problem-slow-scan.page help/eu/question-open-folder.page help/eu/question-trash.page help/eu/scan-file-system.page help/eu/scan-folder.page help/eu/scan-home.page help/eu/scan-remote.page help/eu/legal.xml 
+/usr/bin/itstool -m help/eu/baobab-eu.gmo --lang eu -o help/eu ../help/C/index.page ../help/C/introduction.page ../help/C/pref-view-chart.page ../help/C/problem-permissions.page ../help/C/problem-slow-scan.page ../help/C/question-open-folder.page ../help/C/question-trash.page ../help/C/scan-file-system.page ../help/C/scan-folder.page ../help/C/scan-home.page ../help/C/scan-remote.page ../help/C/legal.xml
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[32/183] Generating yelp doc help/fr/help-baobab-fr
+FAILED: [code=1] help/fr/index.page help/fr/introduction.page help/fr/pref-view-chart.page help/fr/problem-permissions.page help/fr/problem-slow-scan.page help/fr/question-open-folder.page help/fr/question-trash.page help/fr/scan-file-system.page help/fr/scan-folder.page help/fr/scan-home.page help/fr/scan-remote.page help/fr/legal.xml 
+/usr/bin/itstool -m help/fr/baobab-fr.gmo --lang fr -o help/fr ../help/C/index.page ../help/C/introduction.page ../help/C/pref-view-chart.page ../help/C/problem-permissions.page ../help/C/problem-slow-scan.page ../help/C/question-open-folder.page ../help/C/question-trash.page ../help/C/scan-file-system.page ../help/C/scan-folder.page ../help/C/scan-home.page ../help/C/scan-remote.page ../help/C/legal.xml
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[33/183] Generating yelp doc help/el/help-baobab-el
+FAILED: [code=1] help/el/index.page help/el/introduction.page help/el/pref-view-chart.page help/el/problem-permissions.page help/el/problem-slow-scan.page help/el/question-open-folder.page help/el/question-trash.page help/el/scan-file-system.page help/el/scan-folder.page help/el/scan-home.page help/el/scan-remote.page help/el/legal.xml 
+/usr/bin/itstool -m help/el/baobab-el.gmo --lang el -o help/el ../help/C/index.page ../help/C/introduction.page ../help/C/pref-view-chart.page ../help/C/problem-permissions.page ../help/C/problem-slow-scan.page ../help/C/question-open-folder.page ../help/C/question-trash.page ../help/C/scan-file-system.page ../help/C/scan-folder.page ../help/C/scan-home.page ../help/C/scan-remote.page ../help/C/legal.xml
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[34/183] Generating yelp doc help/es/help-baobab-es
+FAILED: [code=1] help/es/index.page help/es/introduction.page help/es/pref-view-chart.page help/es/problem-permissions.page help/es/problem-slow-scan.page help/es/question-open-folder.page help/es/question-trash.page help/es/scan-file-system.page help/es/scan-folder.page help/es/scan-home.page help/es/scan-remote.page help/es/legal.xml 
+/usr/bin/itstool -m help/es/baobab-es.gmo --lang es -o help/es ../help/C/index.page ../help/C/introduction.page ../help/C/pref-view-chart.page ../help/C/problem-permissions.page ../help/C/problem-slow-scan.page ../help/C/question-open-folder.page ../help/C/question-trash.page ../help/C/scan-file-system.page ../help/C/scan-folder.page ../help/C/scan-home.page ../help/C/scan-remote.page ../help/C/legal.xml
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[35/183] Generating yelp doc help/gl/help-baobab-gl
+FAILED: [code=1] help/gl/index.page help/gl/introduction.page help/gl/pref-view-chart.page help/gl/problem-permissions.page help/gl/problem-slow-scan.page help/gl/question-open-folder.page help/gl/question-trash.page help/gl/scan-file-system.page help/gl/scan-folder.page help/gl/scan-home.page help/gl/scan-remote.page help/gl/legal.xml 
+/usr/bin/itstool -m help/gl/baobab-gl.gmo --lang gl -o help/gl ../help/C/index.page ../help/C/introduction.page ../help/C/pref-view-chart.page ../help/C/problem-permissions.page ../help/C/problem-slow-scan.page ../help/C/question-open-folder.page ../help/C/question-trash.page ../help/C/scan-file-system.page ../help/C/scan-folder.page ../help/C/scan-home.page ../help/C/scan-remote.page ../help/C/legal.xml
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[36/183] Generating yelp doc help/fi/help-baobab-fi
+FAILED: [code=1] help/fi/index.page help/fi/introduction.page help/fi/pref-view-chart.page help/fi/problem-permissions.page help/fi/problem-slow-scan.page help/fi/question-open-folder.page help/fi/question-trash.page help/fi/scan-file-system.page help/fi/scan-folder.page help/fi/scan-home.page help/fi/scan-remote.page help/fi/legal.xml 
+/usr/bin/itstool -m help/fi/baobab-fi.gmo --lang fi -o help/fi ../help/C/index.page ../help/C/introduction.page ../help/C/pref-view-chart.page ../help/C/problem-permissions.page ../help/C/problem-slow-scan.page ../help/C/question-open-folder.page ../help/C/question-trash.page ../help/C/scan-file-system.page ../help/C/scan-folder.page ../help/C/scan-home.page ../help/C/scan-remote.page ../help/C/legal.xml
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[37/183] Generating yelp doc help/hu/help-baobab-hu
+FAILED: [code=1] help/hu/index.page help/hu/introduction.page help/hu/pref-view-chart.page help/hu/problem-permissions.page help/hu/problem-slow-scan.page help/hu/question-open-folder.page help/hu/question-trash.page help/hu/scan-file-system.page help/hu/scan-folder.page help/hu/scan-home.page help/hu/scan-remote.page help/hu/legal.xml 
+/usr/bin/itstool -m help/hu/baobab-hu.gmo --lang hu -o help/hu ../help/C/index.page ../help/C/introduction.page ../help/C/pref-view-chart.page ../help/C/problem-permissions.page ../help/C/problem-slow-scan.page ../help/C/question-open-folder.page ../help/C/question-trash.page ../help/C/scan-file-system.page ../help/C/scan-folder.page ../help/C/scan-home.page ../help/C/scan-remote.page ../help/C/legal.xml
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[38/183] Generating yelp doc help/pl/help-baobab-pl
+FAILED: [code=1] help/pl/index.page help/pl/introduction.page help/pl/pref-view-chart.page help/pl/problem-permissions.page help/pl/problem-slow-scan.page help/pl/question-open-folder.page help/pl/question-trash.page help/pl/scan-file-system.page help/pl/scan-folder.page help/pl/scan-home.page help/pl/scan-remote.page help/pl/legal.xml 
+/usr/bin/itstool -m help/pl/baobab-pl.gmo --lang pl -o help/pl ../help/C/index.page ../help/C/introduction.page ../help/C/pref-view-chart.page ../help/C/problem-permissions.page ../help/C/problem-slow-scan.page ../help/C/question-open-folder.page ../help/C/question-trash.page ../help/C/scan-file-system.page ../help/C/scan-folder.page ../help/C/scan-home.page ../help/C/scan-remote.page ../help/C/legal.xml
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[39/183] Generating yelp doc help/it/help-baobab-it
+FAILED: [code=1] help/it/index.page help/it/introduction.page help/it/pref-view-chart.page help/it/problem-permissions.page help/it/problem-slow-scan.page help/it/question-open-folder.page help/it/question-trash.page help/it/scan-file-system.page help/it/scan-folder.page help/it/scan-home.page help/it/scan-remote.page help/it/legal.xml 
+/usr/bin/itstool -m help/it/baobab-it.gmo --lang it -o help/it ../help/C/index.page ../help/C/introduction.page ../help/C/pref-view-chart.page ../help/C/problem-permissions.page ../help/C/problem-slow-scan.page ../help/C/question-open-folder.page ../help/C/question-trash.page ../help/C/scan-file-system.page ../help/C/scan-folder.page ../help/C/scan-home.page ../help/C/scan-remote.page ../help/C/legal.xml
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[40/183] Generating yelp doc help/id/help-baobab-id
+FAILED: [code=1] help/id/index.page help/id/introduction.page help/id/pref-view-chart.page help/id/problem-permissions.page help/id/problem-slow-scan.page help/id/question-open-folder.page help/id/question-trash.page help/id/scan-file-system.page help/id/scan-folder.page help/id/scan-home.page help/id/scan-remote.page help/id/legal.xml 
+/usr/bin/itstool -m help/id/baobab-id.gmo --lang id -o help/id ../help/C/index.page ../help/C/introduction.page ../help/C/pref-view-chart.page ../help/C/problem-permissions.page ../help/C/problem-slow-scan.page ../help/C/question-open-folder.page ../help/C/question-trash.page ../help/C/scan-file-system.page ../help/C/scan-folder.page ../help/C/scan-home.page ../help/C/scan-remote.page ../help/C/legal.xml
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[41/183] Generating yelp doc help/ko/help-baobab-ko
+FAILED: [code=1] help/ko/index.page help/ko/introduction.page help/ko/pref-view-chart.page help/ko/problem-permissions.page help/ko/problem-slow-scan.page help/ko/question-open-folder.page help/ko/question-trash.page help/ko/scan-file-system.page help/ko/scan-folder.page help/ko/scan-home.page help/ko/scan-remote.page help/ko/legal.xml 
+/usr/bin/itstool -m help/ko/baobab-ko.gmo --lang ko -o help/ko ../help/C/index.page ../help/C/introduction.page ../help/C/pref-view-chart.page ../help/C/problem-permissions.page ../help/C/problem-slow-scan.page ../help/C/question-open-folder.page ../help/C/question-trash.page ../help/C/scan-file-system.page ../help/C/scan-folder.page ../help/C/scan-home.page ../help/C/scan-remote.page ../help/C/legal.xml
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[42/183] Generating yelp doc help/de/help-baobab-de
+FAILED: [code=1] help/de/index.page help/de/introduction.page help/de/pref-view-chart.page help/de/problem-permissions.page help/de/problem-slow-scan.page help/de/question-open-folder.page help/de/question-trash.page help/de/scan-file-system.page help/de/scan-folder.page help/de/scan-home.page help/de/scan-remote.page help/de/legal.xml 
+/usr/bin/itstool -m help/de/baobab-de.gmo --lang de -o help/de ../help/C/index.page ../help/C/introduction.page ../help/C/pref-view-chart.page ../help/C/problem-permissions.page ../help/C/problem-slow-scan.page ../help/C/question-open-folder.page ../help/C/question-trash.page ../help/C/scan-file-system.page ../help/C/scan-folder.page ../help/C/scan-home.page ../help/C/scan-remote.page ../help/C/legal.xml
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[43/183] Generating yelp doc help/hr/help-baobab-hr
+FAILED: [code=1] help/hr/index.page help/hr/introduction.page help/hr/pref-view-chart.page help/hr/problem-permissions.page help/hr/problem-slow-scan.page help/hr/question-open-folder.page help/hr/question-trash.page help/hr/scan-file-system.page help/hr/scan-folder.page help/hr/scan-home.page help/hr/scan-remote.page help/hr/legal.xml 
+/usr/bin/itstool -m help/hr/baobab-hr.gmo --lang hr -o help/hr ../help/C/index.page ../help/C/introduction.page ../help/C/pref-view-chart.page ../help/C/problem-permissions.page ../help/C/problem-slow-scan.page ../help/C/question-open-folder.page ../help/C/question-trash.page ../help/C/scan-file-system.page ../help/C/scan-folder.page ../help/C/scan-home.page ../help/C/scan-remote.page ../help/C/legal.xml
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[44/183] Generating yelp doc help/nl/help-baobab-nl
+FAILED: [code=1] help/nl/index.page help/nl/introduction.page help/nl/pref-view-chart.page help/nl/problem-permissions.page help/nl/problem-slow-scan.page help/nl/question-open-folder.page help/nl/question-trash.page help/nl/scan-file-system.page help/nl/scan-folder.page help/nl/scan-home.page help/nl/scan-remote.page help/nl/legal.xml 
+/usr/bin/itstool -m help/nl/baobab-nl.gmo --lang nl -o help/nl ../help/C/index.page ../help/C/introduction.page ../help/C/pref-view-chart.page ../help/C/problem-permissions.page ../help/C/problem-slow-scan.page ../help/C/question-open-folder.page ../help/C/question-trash.page ../help/C/scan-file-system.page ../help/C/scan-folder.page ../help/C/scan-home.page ../help/C/scan-remote.page ../help/C/legal.xml
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[45/183] Generating yelp doc help/pt/help-baobab-pt
+FAILED: [code=1] help/pt/index.page help/pt/introduction.page help/pt/pref-view-chart.page help/pt/problem-permissions.page help/pt/problem-slow-scan.page help/pt/question-open-folder.page help/pt/question-trash.page help/pt/scan-file-system.page help/pt/scan-folder.page help/pt/scan-home.page help/pt/scan-remote.page help/pt/legal.xml 
+/usr/bin/itstool -m help/pt/baobab-pt.gmo --lang pt -o help/pt ../help/C/index.page ../help/C/introduction.page ../help/C/pref-view-chart.page ../help/C/problem-permissions.page ../help/C/problem-slow-scan.page ../help/C/question-open-folder.page ../help/C/question-trash.page ../help/C/scan-file-system.page ../help/C/scan-folder.page ../help/C/scan-home.page ../help/C/scan-remote.page ../help/C/legal.xml
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[46/183] Compiling C object src/baobab.p/meson-generated_.._.._data_org.gnome.baobab.c.o
+[47/183] Merging translations for data/org.gnome.baobab.desktop
+[48/183] Merging translations for data/org.gnome.baobab.metainfo.xml
+[49/183] Compiling Vala source ../src/config.vapi ../src/baobab-application.vala ../src/baobab-cellrenderers.vala ../src/baobab-chart.vala ../src/baobab-contents-cell.vala ../src/baobab-file-cell.vala ../src/baobab-folder-cell.vala ../src/baobab-folder-display.vala ../src/baobab-location-list.vala ../src/baobab-location.vala ../src/baobab-name-cell.vala ../src/baobab-pathbar.vala ../src/baobab-preferences-dialog.vala ../src/baobab-progress-cell.vala ../src/baobab-ringschart.vala ../src/baobab-scanner.vala ../src/baobab-size-cell.vala ../src/baobab-time-modified-cell.vala ../src/baobab-tree-list-row-sorter.vala ../src/baobab-treemap.vala ../src/baobab-window.vala ../src/main.vala
+../src/baobab-window.vala:179.36-179.56: warning: `Gtk.FileChooserNative' has been deprecated since 4.10
+  179 |             var file_chooser = new Gtk.FileChooserNative (_("Select Folder"), this,
+      |                                    ^~~~~~~~~~~~~~~~~~~~~                           
+../src/baobab-window.vala:179.17-179.28: warning: `Gtk.FileChooserNative' has been deprecated since 4.10
+  179 |             var file_chooser = new Gtk.FileChooserNative (_("Select Folder"), this,
+      |                 ^~~~~~~~~~~~                                                       
+../src/baobab-preferences-dialog.vala:51.40-51.60: warning: `Gtk.FileChooserNative' has been deprecated since 4.10
+   51 |                 var file_chooser = new Gtk.FileChooserNative (_("Select Location to Ignore"),
+      |                                        ^~~~~~~~~~~~~~~~~~~~~                                 
+../src/baobab-preferences-dialog.vala:51.21-51.32: warning: `Gtk.FileChooserNative' has been deprecated since 4.10
+   51 |                 var file_chooser = new Gtk.FileChooserNative (_("Select Location to Ignore"),
+      |                     ^~~~~~~~~~~~                                                             
+../src/baobab-window.vala:242.13-242.24: warning: `Gtk.show_uri' has been deprecated since 4.10
+  242 |             Gtk.show_uri (this, "help:baobab", Gdk.CURRENT_TIME);
+      |             ^~~~~~~~~~~~                                         
+../src/baobab-window.vala:411.36-411.65: warning: `Gtk.Widget.get_allocated_width' has been deprecated since 4.12
+  411 |                                    columnview.get_allocated_width () / 2,
+      |                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~        
+../src/baobab-window.vala:412.36-412.66: warning: `Gtk.Widget.get_allocated_height' has been deprecated since 4.12
+  412 |                                    columnview.get_allocated_height () / 2);
+      |                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~         
+../src/baobab-window.vala:133.13-133.31: warning: `Gtk.DropTarget.on_drop' has been deprecated since vala-0.58. Use DropTarget.drop
+  133 |             drop_target.on_drop.connect (on_drop);
+      |             ^~~~~~~~~~~~~~~~~~~                   
+../src/baobab-ringschart.vala:100.27-100.43: warning: `Gtk.Widget.get_style_context' has been deprecated since 4.10
+  100 |             var context = get_style_context ();
+      |                           ^~~~~~~~~~~~~~~~~    
+../src/baobab-ringschart.vala:100.17-100.23: warning: `Gtk.StyleContext' has been deprecated since 4.10
+  100 |             var context = get_style_context ();
+      |                 ^~~~~~~                        
+../src/baobab-ringschart.vala:105.13-105.26: warning: `Gtk.Widget.get_allocation' has been deprecated since 4.12
+  105 |             get_allocation (out allocation);
+      |             ^~~~~~~~~~~~~~                  
+../src/baobab-ringschart.vala:238.13-238.26: warning: `Gtk.Widget.get_allocation' has been deprecated since 4.12
+  238 |             get_allocation (out allocation);
+      |             ^~~~~~~~~~~~~~                  
+../src/baobab-ringschart.vala:240.27-240.43: warning: `Gtk.Widget.get_style_context' has been deprecated since 4.10
+  240 |             var context = get_style_context ();
+      |                           ^~~~~~~~~~~~~~~~~    
+../src/baobab-ringschart.vala:240.17-240.23: warning: `Gtk.StyleContext' has been deprecated since 4.10
+  240 |             var context = get_style_context ();
+      |                 ^~~~~~~                        
+../src/baobab-ringschart.vala:302.13-302.26: warning: `Gtk.Widget.get_allocation' has been deprecated since 4.12
+  302 |             get_allocation (out allocation);
+      |             ^~~~~~~~~~~~~~                  
+../src/baobab-ringschart.vala:304.27-304.43: warning: `Gtk.Widget.get_style_context' has been deprecated since 4.10
+  304 |             var context = get_style_context ();
+      |                           ^~~~~~~~~~~~~~~~~    
+../src/baobab-ringschart.vala:304.17-304.23: warning: `Gtk.StyleContext' has been deprecated since 4.10
+  304 |             var context = get_style_context ();
+      |                 ^~~~~~~                        
+../src/baobab-ringschart.vala:354.13-354.26: warning: `Gtk.Widget.get_allocation' has been deprecated since 4.12
+  354 |             get_allocation (out allocation);
+      |             ^~~~~~~~~~~~~~                  
+../src/baobab-ringschart.vala:398.13-398.26: warning: `Gtk.Widget.get_allocation' has been deprecated since 4.12
+  398 |             get_allocation (out allocation);
+      |             ^~~~~~~~~~~~~~                  
+../src/baobab-treemap.vala:65.27-65.43: warning: `Gtk.Widget.get_style_context' has been deprecated since 4.10
+   65 |             var context = get_style_context ();
+      |                           ^~~~~~~~~~~~~~~~~    
+../src/baobab-treemap.vala:65.17-65.23: warning: `Gtk.StyleContext' has been deprecated since 4.10
+   65 |             var context = get_style_context ();
+      |                 ^~~~~~~                        
+../src/baobab-treemap.vala:95.13-95.26: warning: `Gtk.Widget.get_allocation' has been deprecated since 4.12
+   95 |             get_allocation (out allocation);
+      |             ^~~~~~~~~~~~~~                  
+../src/baobab-treemap.vala:124.17-124.30: warning: `Gtk.Widget.get_allocation' has been deprecated since 4.12
+  124 |                 get_allocation (out allocation);
+      |                 ^~~~~~~~~~~~~~                  
+../src/baobab-scanner.vala:370.27-370.31: warning: Local variable `state' declared but never used
+  370 |                     State state;
+      |                           ^~~~~ 
+../src/baobab-window.vala:351.17-351.22: warning: Local variable `parent' declared but never used
+  351 |             var parent = results.parent;
+      |                 ^~~~~~                  
+../src/baobab-window.vala:358.73-358.89: warning: Use of possibly unassigned parameter `position'
+  358 |         bool columnview_selection_find (Object? item, bool passthrough, out uint position) {
+      |                                                                         ^~~~~~~~~~~~~~~~~   
+../src/baobab-window.vala:358.73-358.89: warning: Use of possibly unassigned parameter `position'
+  358 |         bool columnview_selection_find (Object? item, bool passthrough, out uint position) {
+      |                                                                         ^~~~~~~~~~~~~~~~~   
+../src/baobab-chart.vala:332.56-332.71: warning: copying delegates is not supported
+  332 |                     var sorter = new Gtk.CustomSorter (reverse_size_cmp);
+      |                                                        ^~~~~~~~~~~~~~~~  
+Compilation succeeded - 28 warning(s)
+ninja: build stopped: subcommand failed.

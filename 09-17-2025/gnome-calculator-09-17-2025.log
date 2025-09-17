@@ -1,0 +1,733 @@
+--2025-09-17 07:23:07--  https://download.gnome.org/sources/gnome-calculator/49/gnome-calculator-49.0.tar.xz
+Resolving download.gnome.org (download.gnome.org)... 2a02:6ea0:c400::54, 2a02:6ea0:c400::53, 79.127.206.207, ...
+Connecting to download.gnome.org (download.gnome.org)|2a02:6ea0:c400::54|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1230376 (1.2M) [application/octet-stream]
+Saving to: 'gnome-calculator-49.0.tar.xz'
+
+     0K .......... .......... .......... .......... ..........  4% 3.74M 0s
+    50K .......... .......... .......... .......... ..........  8% 11.8M 0s
+   100K .......... .......... .......... .......... .......... 12% 16.3M 0s
+   150K .......... .......... .......... .......... .......... 16% 28.5M 0s
+   200K .......... .......... .......... .......... .......... 20% 15.9M 0s
+   250K .......... .......... .......... .......... .......... 24% 26.7M 0s
+   300K .......... .......... .......... .......... .......... 29% 38.4M 0s
+   350K .......... .......... .......... .......... .......... 33% 41.7M 0s
+   400K .......... .......... .......... .......... .......... 37% 57.3M 0s
+   450K .......... .......... .......... .......... .......... 41% 52.2M 0s
+   500K .......... .......... .......... .......... .......... 45% 22.5M 0s
+   550K .......... .......... .......... .......... .......... 49% 54.0M 0s
+   600K .......... .......... .......... .......... .......... 54%  127M 0s
+   650K .......... .......... .......... .......... .......... 58% 96.7M 0s
+   700K .......... .......... .......... .......... .......... 62%  138M 0s
+   750K .......... .......... .......... .......... .......... 66% 84.6M 0s
+   800K .......... .......... .......... .......... .......... 70% 14.2M 0s
+   850K .......... .......... .......... .......... .......... 74%  114M 0s
+   900K .......... .......... .......... .......... .......... 79%  114M 0s
+   950K .......... .......... .......... .......... .......... 83% 12.5M 0s
+  1000K .......... .......... .......... .......... .......... 87%  115M 0s
+  1050K .......... .......... .......... .......... .......... 91%  111M 0s
+  1100K .......... .......... .......... .......... .......... 95% 12.8M 0s
+  1150K .......... .......... .......... .......... .......... 99%  106M 0s
+  1200K .                                                     100% 2.87T=0.05s
+
+2025-09-17 07:23:07 (23.8 MB/s) - 'gnome-calculator-49.0.tar.xz' saved [1230376/1230376]
+
+gnome-calculator-49.0/
+gnome-calculator-49.0/.gitignore
+gnome-calculator-49.0/.gitlab-ci.yml
+gnome-calculator-49.0/COPYING
+gnome-calculator-49.0/NEWS
+gnome-calculator-49.0/README.md
+gnome-calculator-49.0/data/
+gnome-calculator-49.0/data/gcalccmd.1
+gnome-calculator-49.0/data/gnome-calculator.1
+gnome-calculator-49.0/data/icons/
+gnome-calculator-49.0/data/icons/hicolor/
+gnome-calculator-49.0/data/icons/hicolor/scalable/
+gnome-calculator-49.0/data/icons/hicolor/scalable/apps/
+gnome-calculator-49.0/data/icons/hicolor/scalable/apps/org.gnome.Calculator.Devel.svg
+gnome-calculator-49.0/data/icons/hicolor/scalable/apps/org.gnome.Calculator.svg
+gnome-calculator-49.0/data/icons/hicolor/symbolic/
+gnome-calculator-49.0/data/icons/hicolor/symbolic/apps/
+gnome-calculator-49.0/data/icons/hicolor/symbolic/apps/org.gnome.Calculator-symbolic.svg
+gnome-calculator-49.0/data/meson.build
+gnome-calculator-49.0/data/org.gnome.Calculator.Source.svg
+gnome-calculator-49.0/data/org.gnome.Calculator.desktop.in
+gnome-calculator-49.0/data/org.gnome.Calculator.metainfo.xml.in
+gnome-calculator-49.0/data/org.gnome.calculator.gschema.xml
+gnome-calculator-49.0/doc/
+gnome-calculator-49.0/doc/meson.build
+gnome-calculator-49.0/gcalc/
+gnome-calculator-49.0/gcalc/gcalc-assign.vala
+gnome-calculator-49.0/gcalc/gcalc-calculator.vala
+gnome-calculator-49.0/gcalc/gcalc-constant.vala
+gnome-calculator-49.0/gcalc/gcalc-division.vala
+gnome-calculator-49.0/gcalc/gcalc-equation-manager.vala
+gnome-calculator-49.0/gcalc/gcalc-equation.vala
+gnome-calculator-49.0/gcalc/gcalc-error-result.vala
+gnome-calculator-49.0/gcalc/gcalc-expression-container.vala
+gnome-calculator-49.0/gcalc/gcalc-expression-hash-map.vala
+gnome-calculator-49.0/gcalc/gcalc-expression.vala
+gnome-calculator-49.0/gcalc/gcalc-function-acos.vala
+gnome-calculator-49.0/gcalc/gcalc-function-acosh.vala
+gnome-calculator-49.0/gcalc/gcalc-function-asin.vala
+gnome-calculator-49.0/gcalc/gcalc-function-asinh.vala
+gnome-calculator-49.0/gcalc/gcalc-function-atan.vala
+gnome-calculator-49.0/gcalc/gcalc-function-atanh.vala
+gnome-calculator-49.0/gcalc/gcalc-function-cos.vala
+gnome-calculator-49.0/gcalc/gcalc-function-cosh.vala
+gnome-calculator-49.0/gcalc/gcalc-function-exp.vala
+gnome-calculator-49.0/gcalc/gcalc-function-log.vala
+gnome-calculator-49.0/gcalc/gcalc-function-sin.vala
+gnome-calculator-49.0/gcalc/gcalc-function-sinh.vala
+gnome-calculator-49.0/gcalc/gcalc-function-sqrt.vala
+gnome-calculator-49.0/gcalc/gcalc-function-tan.vala
+gnome-calculator-49.0/gcalc/gcalc-function-tanh.vala
+gnome-calculator-49.0/gcalc/gcalc-function.vala
+gnome-calculator-49.0/gcalc/gcalc-group.vala
+gnome-calculator-49.0/gcalc/gcalc-hashable.vala
+gnome-calculator-49.0/gcalc/gcalc-math-assign.vala
+gnome-calculator-49.0/gcalc/gcalc-math-binary-operator.vala
+gnome-calculator-49.0/gcalc/gcalc-math-constant-complex.vala
+gnome-calculator-49.0/gcalc/gcalc-math-constant-number.vala
+gnome-calculator-49.0/gcalc/gcalc-math-constant-vector.vala
+gnome-calculator-49.0/gcalc/gcalc-math-constant.vala
+gnome-calculator-49.0/gcalc/gcalc-math-division.vala
+gnome-calculator-49.0/gcalc/gcalc-math-equation-manager.vala
+gnome-calculator-49.0/gcalc/gcalc-math-equation.vala
+gnome-calculator-49.0/gcalc/gcalc-math-error-result.vala
+gnome-calculator-49.0/gcalc/gcalc-math-expression.vala
+gnome-calculator-49.0/gcalc/gcalc-math-function.vala
+gnome-calculator-49.0/gcalc/gcalc-math-group.vala
+gnome-calculator-49.0/gcalc/gcalc-math-minus.vala
+gnome-calculator-49.0/gcalc/gcalc-math-multiply.vala
+gnome-calculator-49.0/gcalc/gcalc-math-operator.vala
+gnome-calculator-49.0/gcalc/gcalc-math-parameter.vala
+gnome-calculator-49.0/gcalc/gcalc-math-plus.vala
+gnome-calculator-49.0/gcalc/gcalc-math-polynomial.vala
+gnome-calculator-49.0/gcalc/gcalc-math-pow.vala
+gnome-calculator-49.0/gcalc/gcalc-math-result.vala
+gnome-calculator-49.0/gcalc/gcalc-math-term.vala
+gnome-calculator-49.0/gcalc/gcalc-math-variable.vala
+gnome-calculator-49.0/gcalc/gcalc-minus.vala
+gnome-calculator-49.0/gcalc/gcalc-multiply.vala
+gnome-calculator-49.0/gcalc/gcalc-parameter.vala
+gnome-calculator-49.0/gcalc/gcalc-parser.vala
+gnome-calculator-49.0/gcalc/gcalc-plus.vala
+gnome-calculator-49.0/gcalc/gcalc-polynomial.vala
+gnome-calculator-49.0/gcalc/gcalc-pow.vala
+gnome-calculator-49.0/gcalc/gcalc-result.vala
+gnome-calculator-49.0/gcalc/gcalc-solver.vala
+gnome-calculator-49.0/gcalc/gcalc-term.vala
+gnome-calculator-49.0/gcalc/gcalc-units.vala
+gnome-calculator-49.0/gcalc/gcalc-variable.vala
+gnome-calculator-49.0/gcalc/gcalc.deps.in
+gnome-calculator-49.0/gcalc/gcalc.pc.in
+gnome-calculator-49.0/gcalc/meson.build
+gnome-calculator-49.0/gcalc/namespace-info.vala.in
+gnome-calculator-49.0/gci/
+gnome-calculator-49.0/gci/gci-entry-controller.vala
+gnome-calculator-49.0/gci/gci.deps.in
+gnome-calculator-49.0/gci/gci.pc.in
+gnome-calculator-49.0/gci/meson.build
+gnome-calculator-49.0/gci/namespace-info.vala.in
+gnome-calculator-49.0/gnome-calculator.doap
+gnome-calculator-49.0/help/
+gnome-calculator-49.0/help/C/
+gnome-calculator-49.0/help/C/absolute.page
+gnome-calculator-49.0/help/C/base.page
+gnome-calculator-49.0/help/C/boolean.page
+gnome-calculator-49.0/help/C/complex.page
+gnome-calculator-49.0/help/C/conv-base.page
+gnome-calculator-49.0/help/C/conv-character.page
+gnome-calculator-49.0/help/C/conv-currency.page
+gnome-calculator-49.0/help/C/conv-length.page
+gnome-calculator-49.0/help/C/conv-time.page
+gnome-calculator-49.0/help/C/conv-weight.page
+gnome-calculator-49.0/help/C/equation.page
+gnome-calculator-49.0/help/C/factorial.page
+gnome-calculator-49.0/help/C/factorize.page
+gnome-calculator-49.0/help/C/figures/
+gnome-calculator-49.0/help/C/figures/org.gnome.Calculator.svg
+gnome-calculator-49.0/help/C/financial.page
+gnome-calculator-49.0/help/C/functions.page
+gnome-calculator-49.0/help/C/history.page
+gnome-calculator-49.0/help/C/index.page
+gnome-calculator-49.0/help/C/keyboard.page
+gnome-calculator-49.0/help/C/legal.xml
+gnome-calculator-49.0/help/C/logarithm.page
+gnome-calculator-49.0/help/C/mode-programming.page
+gnome-calculator-49.0/help/C/modulus.page
+gnome-calculator-49.0/help/C/mouse.page
+gnome-calculator-49.0/help/C/number-display.page
+gnome-calculator-49.0/help/C/percentage.page
+gnome-calculator-49.0/help/C/power.page
+gnome-calculator-49.0/help/C/rounding.page
+gnome-calculator-49.0/help/C/scientific.page
+gnome-calculator-49.0/help/C/superscript.page
+gnome-calculator-49.0/help/C/trigonometry.page
+gnome-calculator-49.0/help/C/variables.page
+gnome-calculator-49.0/help/LINGUAS
+gnome-calculator-49.0/help/ca/
+gnome-calculator-49.0/help/ca/ca.po
+gnome-calculator-49.0/help/cs/
+gnome-calculator-49.0/help/cs/cs.po
+gnome-calculator-49.0/help/da/
+gnome-calculator-49.0/help/da/da.po
+gnome-calculator-49.0/help/de/
+gnome-calculator-49.0/help/de/de.po
+gnome-calculator-49.0/help/el/
+gnome-calculator-49.0/help/el/el.po
+gnome-calculator-49.0/help/es/
+gnome-calculator-49.0/help/es/es.po
+gnome-calculator-49.0/help/eu/
+gnome-calculator-49.0/help/eu/eu.po
+gnome-calculator-49.0/help/fi/
+gnome-calculator-49.0/help/fi/fi.po
+gnome-calculator-49.0/help/fr/
+gnome-calculator-49.0/help/fr/fr.po
+gnome-calculator-49.0/help/gl/
+gnome-calculator-49.0/help/gl/gl.po
+gnome-calculator-49.0/help/hu/
+gnome-calculator-49.0/help/hu/hu.po
+gnome-calculator-49.0/help/id/
+gnome-calculator-49.0/help/id/id.po
+gnome-calculator-49.0/help/it/
+gnome-calculator-49.0/help/it/it.po
+gnome-calculator-49.0/help/ja/
+gnome-calculator-49.0/help/ja/ja.po
+gnome-calculator-49.0/help/ko/
+gnome-calculator-49.0/help/ko/ko.po
+gnome-calculator-49.0/help/lv/
+gnome-calculator-49.0/help/lv/lv.po
+gnome-calculator-49.0/help/meson.build
+gnome-calculator-49.0/help/nl/
+gnome-calculator-49.0/help/nl/nl.po
+gnome-calculator-49.0/help/oc/
+gnome-calculator-49.0/help/oc/oc.po
+gnome-calculator-49.0/help/pl/
+gnome-calculator-49.0/help/pl/pl.po
+gnome-calculator-49.0/help/pt/
+gnome-calculator-49.0/help/pt/pt.po
+gnome-calculator-49.0/help/pt_BR/
+gnome-calculator-49.0/help/pt_BR/pt_BR.po
+gnome-calculator-49.0/help/ro/
+gnome-calculator-49.0/help/ro/ro.po
+gnome-calculator-49.0/help/ru/
+gnome-calculator-49.0/help/ru/ru.po
+gnome-calculator-49.0/help/sl/
+gnome-calculator-49.0/help/sl/sl.po
+gnome-calculator-49.0/help/sv/
+gnome-calculator-49.0/help/sv/sv.po
+gnome-calculator-49.0/help/te/
+gnome-calculator-49.0/help/te/te.po
+gnome-calculator-49.0/help/tr/
+gnome-calculator-49.0/help/tr/tr.po
+gnome-calculator-49.0/help/uk/
+gnome-calculator-49.0/help/uk/uk.po
+gnome-calculator-49.0/help/zh_CN/
+gnome-calculator-49.0/help/zh_CN/zh_CN.po
+gnome-calculator-49.0/help/zh_HK/
+gnome-calculator-49.0/help/zh_HK/zh_HK.po
+gnome-calculator-49.0/help/zh_TW/
+gnome-calculator-49.0/help/zh_TW/zh_TW.po
+gnome-calculator-49.0/lib/
+gnome-calculator-49.0/lib/currency-provider.vala
+gnome-calculator-49.0/lib/currency.vala
+gnome-calculator-49.0/lib/equation-lexer.vala
+gnome-calculator-49.0/lib/equation-parser.vala
+gnome-calculator-49.0/lib/equation.vala
+gnome-calculator-49.0/lib/financial.vala
+gnome-calculator-49.0/lib/function-manager.vala
+gnome-calculator-49.0/lib/math-equation.vala
+gnome-calculator-49.0/lib/math-function.vala
+gnome-calculator-49.0/lib/math-variables.vala
+gnome-calculator-49.0/lib/meson.build
+gnome-calculator-49.0/lib/mpfr-glue.vala
+gnome-calculator-49.0/lib/number.vala
+gnome-calculator-49.0/lib/providers/
+gnome-calculator-49.0/lib/providers/boc-provider.vala
+gnome-calculator-49.0/lib/providers/ecb-provider.vala
+gnome-calculator-49.0/lib/providers/imf-provider.vala
+gnome-calculator-49.0/lib/providers/unt-provider.vala
+gnome-calculator-49.0/lib/serializer.vala
+gnome-calculator-49.0/lib/unit.vala
+gnome-calculator-49.0/libmpfr/
+gnome-calculator-49.0/libmpfr/meson.build
+gnome-calculator-49.0/libmpfr/mpfr-glue.vala
+gnome-calculator-49.0/m4/
+gnome-calculator-49.0/m4/behave-installed-tests.m4
+gnome-calculator-49.0/meson.build
+gnome-calculator-49.0/meson_options.txt
+gnome-calculator-49.0/org.gnome.Calculator.Devel.json
+gnome-calculator-49.0/po/
+gnome-calculator-49.0/po/LINGUAS
+gnome-calculator-49.0/po/POTFILES.in
+gnome-calculator-49.0/po/POTFILES.skip
+gnome-calculator-49.0/po/ab.po
+gnome-calculator-49.0/po/af.po
+gnome-calculator-49.0/po/am.po
+gnome-calculator-49.0/po/ar.po
+gnome-calculator-49.0/po/as.po
+gnome-calculator-49.0/po/ast.po
+gnome-calculator-49.0/po/az.po
+gnome-calculator-49.0/po/be.po
+gnome-calculator-49.0/po/be@latin.po
+gnome-calculator-49.0/po/bg.po
+gnome-calculator-49.0/po/bn.po
+gnome-calculator-49.0/po/bn_IN.po
+gnome-calculator-49.0/po/bs.po
+gnome-calculator-49.0/po/ca.po
+gnome-calculator-49.0/po/ca@valencia.po
+gnome-calculator-49.0/po/cs.po
+gnome-calculator-49.0/po/cy.po
+gnome-calculator-49.0/po/da.po
+gnome-calculator-49.0/po/de.po
+gnome-calculator-49.0/po/dz.po
+gnome-calculator-49.0/po/el.po
+gnome-calculator-49.0/po/en@shaw.po
+gnome-calculator-49.0/po/en_CA.po
+gnome-calculator-49.0/po/en_GB.po
+gnome-calculator-49.0/po/eo.po
+gnome-calculator-49.0/po/es.po
+gnome-calculator-49.0/po/et.po
+gnome-calculator-49.0/po/eu.po
+gnome-calculator-49.0/po/fa.po
+gnome-calculator-49.0/po/fi.po
+gnome-calculator-49.0/po/fil.po
+gnome-calculator-49.0/po/fo.po
+gnome-calculator-49.0/po/fr.po
+gnome-calculator-49.0/po/fur.po
+gnome-calculator-49.0/po/ga.po
+gnome-calculator-49.0/po/gd.po
+gnome-calculator-49.0/po/gl.po
+gnome-calculator-49.0/po/gu.po
+gnome-calculator-49.0/po/he.po
+gnome-calculator-49.0/po/hi.po
+gnome-calculator-49.0/po/hr.po
+gnome-calculator-49.0/po/hu.po
+gnome-calculator-49.0/po/hy.po
+gnome-calculator-49.0/po/id.po
+gnome-calculator-49.0/po/it.po
+gnome-calculator-49.0/po/ja.po
+gnome-calculator-49.0/po/ka.po
+gnome-calculator-49.0/po/kab.po
+gnome-calculator-49.0/po/kk.po
+gnome-calculator-49.0/po/km.po
+gnome-calculator-49.0/po/kn.po
+gnome-calculator-49.0/po/ko.po
+gnome-calculator-49.0/po/ku.po
+gnome-calculator-49.0/po/lt.po
+gnome-calculator-49.0/po/lv.po
+gnome-calculator-49.0/po/mai.po
+gnome-calculator-49.0/po/meson.build
+gnome-calculator-49.0/po/mg.po
+gnome-calculator-49.0/po/mjw.po
+gnome-calculator-49.0/po/mk.po
+gnome-calculator-49.0/po/ml.po
+gnome-calculator-49.0/po/mn.po
+gnome-calculator-49.0/po/mr.po
+gnome-calculator-49.0/po/ms.po
+gnome-calculator-49.0/po/my.po
+gnome-calculator-49.0/po/nb.po
+gnome-calculator-49.0/po/ne.po
+gnome-calculator-49.0/po/nl.po
+gnome-calculator-49.0/po/nn.po
+gnome-calculator-49.0/po/oc.po
+gnome-calculator-49.0/po/or.po
+gnome-calculator-49.0/po/pa.po
+gnome-calculator-49.0/po/pl.po
+gnome-calculator-49.0/po/pt.po
+gnome-calculator-49.0/po/pt_BR.po
+gnome-calculator-49.0/po/ro.po
+gnome-calculator-49.0/po/ru.po
+gnome-calculator-49.0/po/rw.po
+gnome-calculator-49.0/po/si.po
+gnome-calculator-49.0/po/sk.po
+gnome-calculator-49.0/po/sl.po
+gnome-calculator-49.0/po/sq.po
+gnome-calculator-49.0/po/sr.po
+gnome-calculator-49.0/po/sr@latin.po
+gnome-calculator-49.0/po/sv.po
+gnome-calculator-49.0/po/ta.po
+gnome-calculator-49.0/po/te.po
+gnome-calculator-49.0/po/tg.po
+gnome-calculator-49.0/po/th.po
+gnome-calculator-49.0/po/tk.po
+gnome-calculator-49.0/po/tr.po
+gnome-calculator-49.0/po/ug.po
+gnome-calculator-49.0/po/uk.po
+gnome-calculator-49.0/po/vi.po
+gnome-calculator-49.0/po/xh.po
+gnome-calculator-49.0/po/zh_CN.po
+gnome-calculator-49.0/po/zh_HK.po
+gnome-calculator-49.0/po/zh_TW.po
+gnome-calculator-49.0/search-provider/
+gnome-calculator-49.0/search-provider/meson.build
+gnome-calculator-49.0/search-provider/org.gnome.Calculator-search-provider.ini
+gnome-calculator-49.0/search-provider/org.gnome.Calculator.SearchProvider.service.in
+gnome-calculator-49.0/search-provider/search-provider.vala
+gnome-calculator-49.0/snap/
+gnome-calculator-49.0/snap/snapcraft.yaml
+gnome-calculator-49.0/src/
+gnome-calculator-49.0/src/buttons-advanced.vala
+gnome-calculator-49.0/src/buttons-basic.vala
+gnome-calculator-49.0/src/buttons-conversion.vala
+gnome-calculator-49.0/src/buttons-financial.vala
+gnome-calculator-49.0/src/buttons-programming.vala
+gnome-calculator-49.0/src/gcalccmd.vala
+gnome-calculator-49.0/src/gnome-calculator.vala
+gnome-calculator-49.0/src/math-buttons.vala
+gnome-calculator-49.0/src/math-converter.vala
+gnome-calculator-49.0/src/math-display.vala
+gnome-calculator-49.0/src/math-function-popover.vala
+gnome-calculator-49.0/src/math-history.vala
+gnome-calculator-49.0/src/math-popover.vala
+gnome-calculator-49.0/src/math-preferences.vala
+gnome-calculator-49.0/src/math-variable-popover.vala
+gnome-calculator-49.0/src/math-window.vala
+gnome-calculator-49.0/src/meson.build
+gnome-calculator-49.0/src/ui/
+gnome-calculator-49.0/src/ui/buttons-advanced.blp
+gnome-calculator-49.0/src/ui/buttons-basic.blp
+gnome-calculator-49.0/src/ui/buttons-conversion.blp
+gnome-calculator-49.0/src/ui/buttons-financial.blp
+gnome-calculator-49.0/src/ui/buttons-programming.blp
+gnome-calculator-49.0/src/ui/gnome-calculator.gresource.xml
+gnome-calculator-49.0/src/ui/history-entry.blp
+gnome-calculator-49.0/src/ui/history-view.blp
+gnome-calculator-49.0/src/ui/math-converter.blp
+gnome-calculator-49.0/src/ui/math-display.blp
+gnome-calculator-49.0/src/ui/math-function-popover.blp
+gnome-calculator-49.0/src/ui/math-preferences.blp
+gnome-calculator-49.0/src/ui/math-shortcuts.blp
+gnome-calculator-49.0/src/ui/math-variable-popover.blp
+gnome-calculator-49.0/src/ui/math-window.blp
+gnome-calculator-49.0/src/ui/style-dark.css
+gnome-calculator-49.0/src/ui/style-hc.css
+gnome-calculator-49.0/src/ui/style.css
+gnome-calculator-49.0/subprojects/
+gnome-calculator-49.0/subprojects/blueprint-compiler.wrap
+gnome-calculator-49.0/tests/
+gnome-calculator-49.0/tests/advanced_mode.feature
+gnome-calculator-49.0/tests/basic_mode.feature
+gnome-calculator-49.0/tests/common_steps.py
+gnome-calculator-49.0/tests/environment.py
+gnome-calculator-49.0/tests/financial_mode.feature
+gnome-calculator-49.0/tests/gcalc-parsing.vala
+gnome-calculator-49.0/tests/gcalc-solving-basic.vala
+gnome-calculator-49.0/tests/gci-test-entry-controller.blp
+gnome-calculator-49.0/tests/meson.build
+gnome-calculator-49.0/tests/programming_mode.feature
+gnome-calculator-49.0/tests/rms_five.xls
+gnome-calculator-49.0/tests/steps/
+gnome-calculator-49.0/tests/steps/steps.py
+gnome-calculator-49.0/tests/test-currency-providers.vala
+gnome-calculator-49.0/tests/test-entry-controller.gresource.xml
+gnome-calculator-49.0/tests/test-equation.vala
+gnome-calculator-49.0/tests/test-gci-entry-controller.vala
+gnome-calculator-49.0/tests/test-number.vala
+gnome-calculator-49.0/tests/test-serializer.vala
+gnome-calculator-49.0/vapi/
+gnome-calculator-49.0/vapi/config.vapi
+gnome-calculator-49.0/vapi/meson.build
+gnome-calculator-49.0/vapi/mpc.vapi
+gnome-calculator-49.0/vapi/mpfr.vapi
+Cloning into 'blueprint-compiler'...
+The Meson build system
+Version: 1.7.0
+Source dir: /blfs/builds/gnome-calculator-49.0
+Build dir: /blfs/builds/gnome-calculator-49.0/build
+Build type: native build
+Project name: gnome-calculator
+Project version: 49.0
+C compiler for the host machine: cc (gcc 15.2.0 "cc (GCC) 15.2.0")
+C linker for the host machine: cc ld.bfd 2.45
+Vala compiler for the host machine: valac (valac 0.56.18)
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Run-time dependency gio-2.0 found: YES 2.84.4
+Run-time dependency glib-2.0 found: YES 2.84.4
+Run-time dependency gmodule-export-2.0 found: YES 2.84.4
+Run-time dependency gobject-2.0 found: YES 2.84.4
+Run-time dependency libxml-2.0 found: YES 2.15.0
+Run-time dependency libsoup-3.0 found: YES 3.6.5
+Run-time dependency gee-0.8 found: YES 0.20.8
+Run-time dependency gobject-introspection-1.0 found: YES 1.86.0
+Library m found: YES
+Library mpc found: YES
+Library mpc found: YES
+Library mpfr found: YES
+Library mpfr found: YES
+Library posix found: YES
+Configuring config.h using configuration
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Program msginit found: YES (/usr/bin/msginit)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program xgettext found: YES (/usr/bin/xgettext)
+Configuring gcalc-2.pc using configuration
+Configuring gcalc-2.deps using configuration
+Configuring namespace-info.vala using configuration
+Configuring config.h using configuration
+Program g-ir-compiler found: YES (/usr/bin/g-ir-compiler)
+Run-time dependency gtk4 found: YES 4.20.1
+Configuring gci-1.pc using configuration
+Configuring gci-1.deps using configuration
+Configuring namespace-info.vala using configuration
+Configuring config.h using configuration
+Dependency gio-2.0 found: YES 2.84.4 (cached)
+Program /usr/bin/glib-compile-schemas found: YES (/usr/bin/glib-compile-schemas)
+Program gtk4-update-icon-cache found: YES (/usr/bin/gtk4-update-icon-cache)
+Run-time dependency libadwaita-1 found: YES 1.8.0
+Run-time dependency gtksourceview-5 found: YES 5.8.0
+Configuring org.gnome.Calculator.desktop.in using configuration
+Configuring org.gnome.Calculator.metainfo.xml.in using configuration
+Program appstreamcli found: YES (/usr/bin/appstreamcli)
+Program blueprint-compiler found: NO
+Fallback to subproject blueprint-compiler which provides program blueprint-compiler
+
+Executing subproject blueprint-compiler 
+
+blueprint-compiler| Project name: blueprint-compiler
+blueprint-compiler| Project version: 0.18.0
+blueprint-compiler| Program python3 found: YES (/usr/bin/python3)
+blueprint-compiler| Configuring blueprint-compiler.pc using configuration
+blueprint-compiler| Configuring blueprint-compiler using configuration
+blueprint-compiler| Program blueprint-compiler found: YES (/blfs/builds/gnome-calculator-49.0/build/subprojects/blueprint-compiler/blueprint-compiler)
+blueprint-compiler| Build targets in project: 109
+blueprint-compiler| Subproject blueprint-compiler finished.
+
+Program blueprint-compiler found: YES (overridden)
+Dependency gio-2.0 found: YES 2.84.4 (cached)
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Configuring org.gnome.Calculator.SearchProvider.service using configuration
+Program itstool found: YES (/usr/bin/itstool)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Program valadoc found: YES (/usr/bin/valadoc)
+Build targets in project: 218
+
+gnome-calculator 49.0
+
+  Subprojects
+    blueprint-compiler: YES
+
+  User defined options
+    buildtype         : release
+    prefix            : /usr
+
+Found ninja-1.13.1 at /usr/bin/ninja
+[1/304] Generating yelp doc help/ca/help-gnome-calculator-ca-gmo
+[2/304] Generating yelp doc help/fi/help-gnome-calculator-fi-gmo
+[3/304] Generating yelp doc help/cs/help-gnome-calculator-cs-gmo
+[4/304] Generating yelp doc help/da/help-gnome-calculator-da-gmo
+[5/304] Generating yelp doc help/de/help-gnome-calculator-de-gmo
+[6/304] Generating yelp doc help/el/help-gnome-calculator-el-gmo
+[7/304] Generating yelp doc help/es/help-gnome-calculator-es-gmo
+[8/304] Generating yelp doc help/fr/help-gnome-calculator-fr-gmo
+[9/304] Generating yelp doc help/gl/help-gnome-calculator-gl-gmo
+[10/304] Generating yelp doc help/id/help-gnome-calculator-id-gmo
+[11/304] Generating yelp doc help/ja/help-gnome-calculator-ja-gmo
+[12/304] Generating yelp doc help/lv/help-gnome-calculator-lv-gmo
+[13/304] Generating yelp doc help/ko/help-gnome-calculator-ko-gmo
+[14/304] Generating yelp doc help/hu/help-gnome-calculator-hu-gmo
+[15/304] Generating yelp doc help/it/help-gnome-calculator-it-gmo
+[16/304] Generating yelp doc help/nl/help-gnome-calculator-nl-gmo
+[17/304] Generating yelp doc help/te/help-gnome-calculator-te-gmo
+[18/304] Generating yelp doc help/sl/help-gnome-calculator-sl-gmo
+[19/304] Generating yelp doc help/pt/help-gnome-calculator-pt-gmo
+[20/304] Generating yelp doc help/eu/help-gnome-calculator-eu-gmo
+[21/304] Generating yelp doc help/ro/help-gnome-calculator-ro-gmo
+[22/304] Generating yelp doc help/pt_BR/help-gnome-calculator-pt_BR-gmo
+[23/304] Generating yelp doc help/pl/help-gnome-calculator-pl-gmo
+[24/304] Generating yelp doc help/sv/help-gnome-calculator-sv-gmo
+[25/304] Generating yelp doc help/uk/help-gnome-calculator-uk-gmo
+[26/304] Generating yelp doc help/ru/help-gnome-calculator-ru-gmo
+[27/304] Generating yelp doc help/oc/help-gnome-calculator-oc-gmo
+[28/304] Generating yelp doc help/tr/help-gnome-calculator-tr-gmo
+[29/304] Generating yelp doc help/zh_TW/help-gnome-calculator-zh_TW-gmo
+[30/304] Generating yelp doc help/zh_HK/help-gnome-calculator-zh_HK-gmo
+[31/304] Building translation po/am/LC_MESSAGES/gnome-calculator-am.mo
+[32/304] Building translation po/ab/LC_MESSAGES/gnome-calculator-ab.mo
+[33/304] Building translation po/af/LC_MESSAGES/gnome-calculator-af.mo
+[34/304] Generating yelp doc help/zh_CN/help-gnome-calculator-zh_CN-gmo
+[35/304] Building translation po/az/LC_MESSAGES/gnome-calculator-az.mo
+[36/304] Building translation po/be@latin/LC_MESSAGES/gnome-calculator-be@latin.mo
+[37/304] Building translation po/ast/LC_MESSAGES/gnome-calculator-ast.mo
+[38/304] Building translation po/bn_IN/LC_MESSAGES/gnome-calculator-bn_IN.mo
+[39/304] Building translation po/as/LC_MESSAGES/gnome-calculator-as.mo
+[40/304] Building translation po/bn/LC_MESSAGES/gnome-calculator-bn.mo
+[41/304] Building translation po/ar/LC_MESSAGES/gnome-calculator-ar.mo
+[42/304] Building translation po/bg/LC_MESSAGES/gnome-calculator-bg.mo
+[43/304] Building translation po/be/LC_MESSAGES/gnome-calculator-be.mo
+[44/304] Building translation po/cy/LC_MESSAGES/gnome-calculator-cy.mo
+[45/304] Building translation po/cs/LC_MESSAGES/gnome-calculator-cs.mo
+[46/304] Building translation po/bs/LC_MESSAGES/gnome-calculator-bs.mo
+[47/304] Building translation po/en@shaw/LC_MESSAGES/gnome-calculator-en@shaw.mo
+[48/304] Building translation po/ca@valencia/LC_MESSAGES/gnome-calculator-ca@valencia.mo
+[49/304] Building translation po/dz/LC_MESSAGES/gnome-calculator-dz.mo
+[50/304] Building translation po/ca/LC_MESSAGES/gnome-calculator-ca.mo
+[51/304] Building translation po/en_CA/LC_MESSAGES/gnome-calculator-en_CA.mo
+[52/304] Building translation po/et/LC_MESSAGES/gnome-calculator-et.mo
+[53/304] Building translation po/da/LC_MESSAGES/gnome-calculator-da.mo
+[54/304] Building translation po/de/LC_MESSAGES/gnome-calculator-de.mo
+[55/304] Building translation po/en_GB/LC_MESSAGES/gnome-calculator-en_GB.mo
+[56/304] Building translation po/eu/LC_MESSAGES/gnome-calculator-eu.mo
+[57/304] Building translation po/el/LC_MESSAGES/gnome-calculator-el.mo
+[58/304] Building translation po/eo/LC_MESSAGES/gnome-calculator-eo.mo
+[59/304] Building translation po/fil/LC_MESSAGES/gnome-calculator-fil.mo
+[60/304] Building translation po/es/LC_MESSAGES/gnome-calculator-es.mo
+[61/304] Building translation po/ga/LC_MESSAGES/gnome-calculator-ga.mo
+[62/304] Building translation po/fo/LC_MESSAGES/gnome-calculator-fo.mo
+[63/304] Building translation po/fa/LC_MESSAGES/gnome-calculator-fa.mo
+[64/304] Building translation po/fi/LC_MESSAGES/gnome-calculator-fi.mo
+[65/304] Building translation po/fr/LC_MESSAGES/gnome-calculator-fr.mo
+[66/304] Building translation po/he/LC_MESSAGES/gnome-calculator-he.mo
+[67/304] Building translation po/fur/LC_MESSAGES/gnome-calculator-fur.mo
+[68/304] Building translation po/gd/LC_MESSAGES/gnome-calculator-gd.mo
+[69/304] Building translation po/gu/LC_MESSAGES/gnome-calculator-gu.mo
+[70/304] Building translation po/hy/LC_MESSAGES/gnome-calculator-hy.mo
+[71/304] Building translation po/gl/LC_MESSAGES/gnome-calculator-gl.mo
+[72/304] Building translation po/hi/LC_MESSAGES/gnome-calculator-hi.mo
+[73/304] Building translation po/hr/LC_MESSAGES/gnome-calculator-hr.mo
+[74/304] Building translation po/it/LC_MESSAGES/gnome-calculator-it.mo
+[75/304] Building translation po/km/LC_MESSAGES/gnome-calculator-km.mo
+[76/304] Building translation po/hu/LC_MESSAGES/gnome-calculator-hu.mo
+[77/304] Building translation po/id/LC_MESSAGES/gnome-calculator-id.mo
+[78/304] Building translation po/kk/LC_MESSAGES/gnome-calculator-kk.mo
+[79/304] Building translation po/ku/LC_MESSAGES/gnome-calculator-ku.mo
+[80/304] Building translation po/kn/LC_MESSAGES/gnome-calculator-kn.mo
+[81/304] Building translation po/kab/LC_MESSAGES/gnome-calculator-kab.mo
+[82/304] Building translation po/ko/LC_MESSAGES/gnome-calculator-ko.mo
+[83/304] Building translation po/lv/LC_MESSAGES/gnome-calculator-lv.mo
+[84/304] Building translation po/ja/LC_MESSAGES/gnome-calculator-ja.mo
+[85/304] Building translation po/mg/LC_MESSAGES/gnome-calculator-mg.mo
+[86/304] Building translation po/mai/LC_MESSAGES/gnome-calculator-mai.mo
+[87/304] Building translation po/ka/LC_MESSAGES/gnome-calculator-ka.mo
+[88/304] Building translation po/mn/LC_MESSAGES/gnome-calculator-mn.mo
+[89/304] Building translation po/lt/LC_MESSAGES/gnome-calculator-lt.mo
+[90/304] Building translation po/mjw/LC_MESSAGES/gnome-calculator-mjw.mo
+[91/304] Building translation po/my/LC_MESSAGES/gnome-calculator-my.mo
+[92/304] Building translation po/nb/LC_MESSAGES/gnome-calculator-nb.mo
+[93/304] Building translation po/ms/LC_MESSAGES/gnome-calculator-ms.mo
+[94/304] Building translation po/mk/LC_MESSAGES/gnome-calculator-mk.mo
+[95/304] Building translation po/ml/LC_MESSAGES/gnome-calculator-ml.mo
+[96/304] Building translation po/mr/LC_MESSAGES/gnome-calculator-mr.mo
+[97/304] Building translation po/nn/LC_MESSAGES/gnome-calculator-nn.mo
+[98/304] Building translation po/or/LC_MESSAGES/gnome-calculator-or.mo
+[99/304] Building translation po/oc/LC_MESSAGES/gnome-calculator-oc.mo
+[100/304] Building translation po/ne/LC_MESSAGES/gnome-calculator-ne.mo
+[101/304] Building translation po/nl/LC_MESSAGES/gnome-calculator-nl.mo
+[102/304] Building translation po/sr@latin/LC_MESSAGES/gnome-calculator-sr@latin.mo
+[103/304] Building translation po/rw/LC_MESSAGES/gnome-calculator-rw.mo
+[104/304] Building translation po/sq/LC_MESSAGES/gnome-calculator-sq.mo
+[105/304] Building translation po/pl/LC_MESSAGES/gnome-calculator-pl.mo
+[106/304] Building translation po/pa/LC_MESSAGES/gnome-calculator-pa.mo
+[107/304] Building translation po/pt/LC_MESSAGES/gnome-calculator-pt.mo
+[108/304] Building translation po/si/LC_MESSAGES/gnome-calculator-si.mo
+[109/304] Building translation po/pt_BR/LC_MESSAGES/gnome-calculator-pt_BR.mo
+[110/304] Building translation po/ro/LC_MESSAGES/gnome-calculator-ro.mo
+[111/304] Building translation po/sk/LC_MESSAGES/gnome-calculator-sk.mo
+[112/304] Building translation po/ru/LC_MESSAGES/gnome-calculator-ru.mo
+[113/304] Building translation po/sl/LC_MESSAGES/gnome-calculator-sl.mo
+[114/304] Building translation po/xh/LC_MESSAGES/gnome-calculator-xh.mo
+[115/304] Building translation po/tk/LC_MESSAGES/gnome-calculator-tk.mo
+[116/304] Building translation po/sr/LC_MESSAGES/gnome-calculator-sr.mo
+[117/304] Building translation po/tr/LC_MESSAGES/gnome-calculator-tr.mo
+[118/304] Building translation po/ta/LC_MESSAGES/gnome-calculator-ta.mo
+[119/304] Building translation po/te/LC_MESSAGES/gnome-calculator-te.mo
+[120/304] Building translation po/tg/LC_MESSAGES/gnome-calculator-tg.mo
+[121/304] Building translation po/ug/LC_MESSAGES/gnome-calculator-ug.mo
+[122/304] Building translation po/sv/LC_MESSAGES/gnome-calculator-sv.mo
+[123/304] Building translation po/vi/LC_MESSAGES/gnome-calculator-vi.mo
+[124/304] Building translation po/zh_HK/LC_MESSAGES/gnome-calculator-zh_HK.mo
+[125/304] Building translation po/th/LC_MESSAGES/gnome-calculator-th.mo
+[126/304] Building translation po/uk/LC_MESSAGES/gnome-calculator-uk.mo
+[127/304] Building translation po/zh_CN/LC_MESSAGES/gnome-calculator-zh_CN.mo
+[128/304] Building translation po/zh_TW/LC_MESSAGES/gnome-calculator-zh_TW.mo
+[129/304] Compiling Vala source ../libmpfr/mpfr-glue.vala
+[130/304] Generating yelp doc help/gl/help-gnome-calculator-gl
+FAILED: [code=1] help/gl/absolute.page help/gl/base.page help/gl/boolean.page help/gl/complex.page help/gl/conv-base.page help/gl/conv-character.page help/gl/conv-currency.page help/gl/conv-length.page help/gl/conv-time.page help/gl/conv-weight.page help/gl/equation.page help/gl/factorial.page help/gl/factorize.page help/gl/financial.page help/gl/functions.page help/gl/history.page help/gl/index.page help/gl/keyboard.page help/gl/legal.xml help/gl/logarithm.page help/gl/mode-programming.page help/gl/modulus.page help/gl/mouse.page help/gl/number-display.page help/gl/percentage.page help/gl/power.page help/gl/rounding.page help/gl/scientific.page help/gl/superscript.page help/gl/trigonometry.page help/gl/variables.page 
+/usr/bin/itstool -m help/gl/gnome-calculator-gl.gmo --lang gl -o help/gl ../help/C/absolute.page ../help/C/base.page ../help/C/boolean.page ../help/C/complex.page ../help/C/conv-base.page ../help/C/conv-character.page ../help/C/conv-currency.page ../help/C/conv-length.page ../help/C/conv-time.page ../help/C/conv-weight.page ../help/C/equation.page ../help/C/factorial.page ../help/C/factorize.page ../help/C/financial.page ../help/C/functions.page ../help/C/history.page ../help/C/index.page ../help/C/keyboard.page ../help/C/legal.xml ../help/C/logarithm.page ../help/C/mode-programming.page ../help/C/modulus.page ../help/C/mouse.page ../help/C/number-display.page ../help/C/percentage.page ../help/C/power.page ../help/C/rounding.page ../help/C/scientific.page ../help/C/superscript.page ../help/C/trigonometry.page ../help/C/variables.page
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[131/304] Generating subprojects/blueprint-compiler/docs/reference_docs.json with a custom command
+[132/304] Generating yelp doc help/ca/help-gnome-calculator-ca
+FAILED: [code=1] help/ca/absolute.page help/ca/base.page help/ca/boolean.page help/ca/complex.page help/ca/conv-base.page help/ca/conv-character.page help/ca/conv-currency.page help/ca/conv-length.page help/ca/conv-time.page help/ca/conv-weight.page help/ca/equation.page help/ca/factorial.page help/ca/factorize.page help/ca/financial.page help/ca/functions.page help/ca/history.page help/ca/index.page help/ca/keyboard.page help/ca/legal.xml help/ca/logarithm.page help/ca/mode-programming.page help/ca/modulus.page help/ca/mouse.page help/ca/number-display.page help/ca/percentage.page help/ca/power.page help/ca/rounding.page help/ca/scientific.page help/ca/superscript.page help/ca/trigonometry.page help/ca/variables.page 
+/usr/bin/itstool -m help/ca/gnome-calculator-ca.gmo --lang ca -o help/ca ../help/C/absolute.page ../help/C/base.page ../help/C/boolean.page ../help/C/complex.page ../help/C/conv-base.page ../help/C/conv-character.page ../help/C/conv-currency.page ../help/C/conv-length.page ../help/C/conv-time.page ../help/C/conv-weight.page ../help/C/equation.page ../help/C/factorial.page ../help/C/factorize.page ../help/C/financial.page ../help/C/functions.page ../help/C/history.page ../help/C/index.page ../help/C/keyboard.page ../help/C/legal.xml ../help/C/logarithm.page ../help/C/mode-programming.page ../help/C/modulus.page ../help/C/mouse.page ../help/C/number-display.page ../help/C/percentage.page ../help/C/power.page ../help/C/rounding.page ../help/C/scientific.page ../help/C/superscript.page ../help/C/trigonometry.page ../help/C/variables.page
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[133/304] Generating yelp doc help/da/help-gnome-calculator-da
+FAILED: [code=1] help/da/absolute.page help/da/base.page help/da/boolean.page help/da/complex.page help/da/conv-base.page help/da/conv-character.page help/da/conv-currency.page help/da/conv-length.page help/da/conv-time.page help/da/conv-weight.page help/da/equation.page help/da/factorial.page help/da/factorize.page help/da/financial.page help/da/functions.page help/da/history.page help/da/index.page help/da/keyboard.page help/da/legal.xml help/da/logarithm.page help/da/mode-programming.page help/da/modulus.page help/da/mouse.page help/da/number-display.page help/da/percentage.page help/da/power.page help/da/rounding.page help/da/scientific.page help/da/superscript.page help/da/trigonometry.page help/da/variables.page 
+/usr/bin/itstool -m help/da/gnome-calculator-da.gmo --lang da -o help/da ../help/C/absolute.page ../help/C/base.page ../help/C/boolean.page ../help/C/complex.page ../help/C/conv-base.page ../help/C/conv-character.page ../help/C/conv-currency.page ../help/C/conv-length.page ../help/C/conv-time.page ../help/C/conv-weight.page ../help/C/equation.page ../help/C/factorial.page ../help/C/factorize.page ../help/C/financial.page ../help/C/functions.page ../help/C/history.page ../help/C/index.page ../help/C/keyboard.page ../help/C/legal.xml ../help/C/logarithm.page ../help/C/mode-programming.page ../help/C/modulus.page ../help/C/mouse.page ../help/C/number-display.page ../help/C/percentage.page ../help/C/power.page ../help/C/rounding.page ../help/C/scientific.page ../help/C/superscript.page ../help/C/trigonometry.page ../help/C/variables.page
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[134/304] Generating yelp doc help/el/help-gnome-calculator-el
+FAILED: [code=1] help/el/absolute.page help/el/base.page help/el/boolean.page help/el/complex.page help/el/conv-base.page help/el/conv-character.page help/el/conv-currency.page help/el/conv-length.page help/el/conv-time.page help/el/conv-weight.page help/el/equation.page help/el/factorial.page help/el/factorize.page help/el/financial.page help/el/functions.page help/el/history.page help/el/index.page help/el/keyboard.page help/el/legal.xml help/el/logarithm.page help/el/mode-programming.page help/el/modulus.page help/el/mouse.page help/el/number-display.page help/el/percentage.page help/el/power.page help/el/rounding.page help/el/scientific.page help/el/superscript.page help/el/trigonometry.page help/el/variables.page 
+/usr/bin/itstool -m help/el/gnome-calculator-el.gmo --lang el -o help/el ../help/C/absolute.page ../help/C/base.page ../help/C/boolean.page ../help/C/complex.page ../help/C/conv-base.page ../help/C/conv-character.page ../help/C/conv-currency.page ../help/C/conv-length.page ../help/C/conv-time.page ../help/C/conv-weight.page ../help/C/equation.page ../help/C/factorial.page ../help/C/factorize.page ../help/C/financial.page ../help/C/functions.page ../help/C/history.page ../help/C/index.page ../help/C/keyboard.page ../help/C/legal.xml ../help/C/logarithm.page ../help/C/mode-programming.page ../help/C/modulus.page ../help/C/mouse.page ../help/C/number-display.page ../help/C/percentage.page ../help/C/power.page ../help/C/rounding.page ../help/C/scientific.page ../help/C/superscript.page ../help/C/trigonometry.page ../help/C/variables.page
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[135/304] Generating yelp doc help/de/help-gnome-calculator-de
+FAILED: [code=1] help/de/absolute.page help/de/base.page help/de/boolean.page help/de/complex.page help/de/conv-base.page help/de/conv-character.page help/de/conv-currency.page help/de/conv-length.page help/de/conv-time.page help/de/conv-weight.page help/de/equation.page help/de/factorial.page help/de/factorize.page help/de/financial.page help/de/functions.page help/de/history.page help/de/index.page help/de/keyboard.page help/de/legal.xml help/de/logarithm.page help/de/mode-programming.page help/de/modulus.page help/de/mouse.page help/de/number-display.page help/de/percentage.page help/de/power.page help/de/rounding.page help/de/scientific.page help/de/superscript.page help/de/trigonometry.page help/de/variables.page 
+/usr/bin/itstool -m help/de/gnome-calculator-de.gmo --lang de -o help/de ../help/C/absolute.page ../help/C/base.page ../help/C/boolean.page ../help/C/complex.page ../help/C/conv-base.page ../help/C/conv-character.page ../help/C/conv-currency.page ../help/C/conv-length.page ../help/C/conv-time.page ../help/C/conv-weight.page ../help/C/equation.page ../help/C/factorial.page ../help/C/factorize.page ../help/C/financial.page ../help/C/functions.page ../help/C/history.page ../help/C/index.page ../help/C/keyboard.page ../help/C/legal.xml ../help/C/logarithm.page ../help/C/mode-programming.page ../help/C/modulus.page ../help/C/mouse.page ../help/C/number-display.page ../help/C/percentage.page ../help/C/power.page ../help/C/rounding.page ../help/C/scientific.page ../help/C/superscript.page ../help/C/trigonometry.page ../help/C/variables.page
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[136/304] Generating yelp doc help/cs/help-gnome-calculator-cs
+FAILED: [code=1] help/cs/absolute.page help/cs/base.page help/cs/boolean.page help/cs/complex.page help/cs/conv-base.page help/cs/conv-character.page help/cs/conv-currency.page help/cs/conv-length.page help/cs/conv-time.page help/cs/conv-weight.page help/cs/equation.page help/cs/factorial.page help/cs/factorize.page help/cs/financial.page help/cs/functions.page help/cs/history.page help/cs/index.page help/cs/keyboard.page help/cs/legal.xml help/cs/logarithm.page help/cs/mode-programming.page help/cs/modulus.page help/cs/mouse.page help/cs/number-display.page help/cs/percentage.page help/cs/power.page help/cs/rounding.page help/cs/scientific.page help/cs/superscript.page help/cs/trigonometry.page help/cs/variables.page 
+/usr/bin/itstool -m help/cs/gnome-calculator-cs.gmo --lang cs -o help/cs ../help/C/absolute.page ../help/C/base.page ../help/C/boolean.page ../help/C/complex.page ../help/C/conv-base.page ../help/C/conv-character.page ../help/C/conv-currency.page ../help/C/conv-length.page ../help/C/conv-time.page ../help/C/conv-weight.page ../help/C/equation.page ../help/C/factorial.page ../help/C/factorize.page ../help/C/financial.page ../help/C/functions.page ../help/C/history.page ../help/C/index.page ../help/C/keyboard.page ../help/C/legal.xml ../help/C/logarithm.page ../help/C/mode-programming.page ../help/C/modulus.page ../help/C/mouse.page ../help/C/number-display.page ../help/C/percentage.page ../help/C/power.page ../help/C/rounding.page ../help/C/scientific.page ../help/C/superscript.page ../help/C/trigonometry.page ../help/C/variables.page
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[137/304] Generating yelp doc help/es/help-gnome-calculator-es
+FAILED: [code=1] help/es/absolute.page help/es/base.page help/es/boolean.page help/es/complex.page help/es/conv-base.page help/es/conv-character.page help/es/conv-currency.page help/es/conv-length.page help/es/conv-time.page help/es/conv-weight.page help/es/equation.page help/es/factorial.page help/es/factorize.page help/es/financial.page help/es/functions.page help/es/history.page help/es/index.page help/es/keyboard.page help/es/legal.xml help/es/logarithm.page help/es/mode-programming.page help/es/modulus.page help/es/mouse.page help/es/number-display.page help/es/percentage.page help/es/power.page help/es/rounding.page help/es/scientific.page help/es/superscript.page help/es/trigonometry.page help/es/variables.page 
+/usr/bin/itstool -m help/es/gnome-calculator-es.gmo --lang es -o help/es ../help/C/absolute.page ../help/C/base.page ../help/C/boolean.page ../help/C/complex.page ../help/C/conv-base.page ../help/C/conv-character.page ../help/C/conv-currency.page ../help/C/conv-length.page ../help/C/conv-time.page ../help/C/conv-weight.page ../help/C/equation.page ../help/C/factorial.page ../help/C/factorize.page ../help/C/financial.page ../help/C/functions.page ../help/C/history.page ../help/C/index.page ../help/C/keyboard.page ../help/C/legal.xml ../help/C/logarithm.page ../help/C/mode-programming.page ../help/C/modulus.page ../help/C/mouse.page ../help/C/number-display.page ../help/C/percentage.page ../help/C/power.page ../help/C/rounding.page ../help/C/scientific.page ../help/C/superscript.page ../help/C/trigonometry.page ../help/C/variables.page
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[138/304] Generating yelp doc help/fr/help-gnome-calculator-fr
+FAILED: [code=1] help/fr/absolute.page help/fr/base.page help/fr/boolean.page help/fr/complex.page help/fr/conv-base.page help/fr/conv-character.page help/fr/conv-currency.page help/fr/conv-length.page help/fr/conv-time.page help/fr/conv-weight.page help/fr/equation.page help/fr/factorial.page help/fr/factorize.page help/fr/financial.page help/fr/functions.page help/fr/history.page help/fr/index.page help/fr/keyboard.page help/fr/legal.xml help/fr/logarithm.page help/fr/mode-programming.page help/fr/modulus.page help/fr/mouse.page help/fr/number-display.page help/fr/percentage.page help/fr/power.page help/fr/rounding.page help/fr/scientific.page help/fr/superscript.page help/fr/trigonometry.page help/fr/variables.page 
+/usr/bin/itstool -m help/fr/gnome-calculator-fr.gmo --lang fr -o help/fr ../help/C/absolute.page ../help/C/base.page ../help/C/boolean.page ../help/C/complex.page ../help/C/conv-base.page ../help/C/conv-character.page ../help/C/conv-currency.page ../help/C/conv-length.page ../help/C/conv-time.page ../help/C/conv-weight.page ../help/C/equation.page ../help/C/factorial.page ../help/C/factorize.page ../help/C/financial.page ../help/C/functions.page ../help/C/history.page ../help/C/index.page ../help/C/keyboard.page ../help/C/legal.xml ../help/C/logarithm.page ../help/C/mode-programming.page ../help/C/modulus.page ../help/C/mouse.page ../help/C/number-display.page ../help/C/percentage.page ../help/C/power.page ../help/C/rounding.page ../help/C/scientific.page ../help/C/superscript.page ../help/C/trigonometry.page ../help/C/variables.page
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[139/304] Generating yelp doc help/eu/help-gnome-calculator-eu
+FAILED: [code=1] help/eu/absolute.page help/eu/base.page help/eu/boolean.page help/eu/complex.page help/eu/conv-base.page help/eu/conv-character.page help/eu/conv-currency.page help/eu/conv-length.page help/eu/conv-time.page help/eu/conv-weight.page help/eu/equation.page help/eu/factorial.page help/eu/factorize.page help/eu/financial.page help/eu/functions.page help/eu/history.page help/eu/index.page help/eu/keyboard.page help/eu/legal.xml help/eu/logarithm.page help/eu/mode-programming.page help/eu/modulus.page help/eu/mouse.page help/eu/number-display.page help/eu/percentage.page help/eu/power.page help/eu/rounding.page help/eu/scientific.page help/eu/superscript.page help/eu/trigonometry.page help/eu/variables.page 
+/usr/bin/itstool -m help/eu/gnome-calculator-eu.gmo --lang eu -o help/eu ../help/C/absolute.page ../help/C/base.page ../help/C/boolean.page ../help/C/complex.page ../help/C/conv-base.page ../help/C/conv-character.page ../help/C/conv-currency.page ../help/C/conv-length.page ../help/C/conv-time.page ../help/C/conv-weight.page ../help/C/equation.page ../help/C/factorial.page ../help/C/factorize.page ../help/C/financial.page ../help/C/functions.page ../help/C/history.page ../help/C/index.page ../help/C/keyboard.page ../help/C/legal.xml ../help/C/logarithm.page ../help/C/mode-programming.page ../help/C/modulus.page ../help/C/mouse.page ../help/C/number-display.page ../help/C/percentage.page ../help/C/power.page ../help/C/rounding.page ../help/C/scientific.page ../help/C/superscript.page ../help/C/trigonometry.page ../help/C/variables.page
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[140/304] Generating yelp doc help/fi/help-gnome-calculator-fi
+FAILED: [code=1] help/fi/absolute.page help/fi/base.page help/fi/boolean.page help/fi/complex.page help/fi/conv-base.page help/fi/conv-character.page help/fi/conv-currency.page help/fi/conv-length.page help/fi/conv-time.page help/fi/conv-weight.page help/fi/equation.page help/fi/factorial.page help/fi/factorize.page help/fi/financial.page help/fi/functions.page help/fi/history.page help/fi/index.page help/fi/keyboard.page help/fi/legal.xml help/fi/logarithm.page help/fi/mode-programming.page help/fi/modulus.page help/fi/mouse.page help/fi/number-display.page help/fi/percentage.page help/fi/power.page help/fi/rounding.page help/fi/scientific.page help/fi/superscript.page help/fi/trigonometry.page help/fi/variables.page 
+/usr/bin/itstool -m help/fi/gnome-calculator-fi.gmo --lang fi -o help/fi ../help/C/absolute.page ../help/C/base.page ../help/C/boolean.page ../help/C/complex.page ../help/C/conv-base.page ../help/C/conv-character.page ../help/C/conv-currency.page ../help/C/conv-length.page ../help/C/conv-time.page ../help/C/conv-weight.page ../help/C/equation.page ../help/C/factorial.page ../help/C/factorize.page ../help/C/financial.page ../help/C/functions.page ../help/C/history.page ../help/C/index.page ../help/C/keyboard.page ../help/C/legal.xml ../help/C/logarithm.page ../help/C/mode-programming.page ../help/C/modulus.page ../help/C/mouse.page ../help/C/number-display.page ../help/C/percentage.page ../help/C/power.page ../help/C/rounding.page ../help/C/scientific.page ../help/C/superscript.page ../help/C/trigonometry.page ../help/C/variables.page
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[141/304] Generating yelp doc help/hu/help-gnome-calculator-hu
+FAILED: [code=1] help/hu/absolute.page help/hu/base.page help/hu/boolean.page help/hu/complex.page help/hu/conv-base.page help/hu/conv-character.page help/hu/conv-currency.page help/hu/conv-length.page help/hu/conv-time.page help/hu/conv-weight.page help/hu/equation.page help/hu/factorial.page help/hu/factorize.page help/hu/financial.page help/hu/functions.page help/hu/history.page help/hu/index.page help/hu/keyboard.page help/hu/legal.xml help/hu/logarithm.page help/hu/mode-programming.page help/hu/modulus.page help/hu/mouse.page help/hu/number-display.page help/hu/percentage.page help/hu/power.page help/hu/rounding.page help/hu/scientific.page help/hu/superscript.page help/hu/trigonometry.page help/hu/variables.page 
+/usr/bin/itstool -m help/hu/gnome-calculator-hu.gmo --lang hu -o help/hu ../help/C/absolute.page ../help/C/base.page ../help/C/boolean.page ../help/C/complex.page ../help/C/conv-base.page ../help/C/conv-character.page ../help/C/conv-currency.page ../help/C/conv-length.page ../help/C/conv-time.page ../help/C/conv-weight.page ../help/C/equation.page ../help/C/factorial.page ../help/C/factorize.page ../help/C/financial.page ../help/C/functions.page ../help/C/history.page ../help/C/index.page ../help/C/keyboard.page ../help/C/legal.xml ../help/C/logarithm.page ../help/C/mode-programming.page ../help/C/modulus.page ../help/C/mouse.page ../help/C/number-display.page ../help/C/percentage.page ../help/C/power.page ../help/C/rounding.page ../help/C/scientific.page ../help/C/superscript.page ../help/C/trigonometry.page ../help/C/variables.page
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[142/304] Compiling C object libmpfr/libmpfrg.a.p/meson-generated_mpfr-glue.c.o
+[143/304] Merging translations for data/org.gnome.Calculator.desktop
+[144/304] Merging translations for data/org.gnome.Calculator.metainfo.xml
+[145/304] Generating src/blueprints with a custom command
+ninja: build stopped: subcommand failed.
