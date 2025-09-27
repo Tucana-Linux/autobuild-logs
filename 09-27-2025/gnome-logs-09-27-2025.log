@@ -1,0 +1,666 @@
+--2025-09-27 07:23:12--  https://download.gnome.org/sources/gnome-logs/49/gnome-logs-49.0.tar.xz
+Resolving download.gnome.org (download.gnome.org)... 2a02:6ea0:c400::53, 2a02:6ea0:c400::54, 79.127.206.234, ...
+Connecting to download.gnome.org (download.gnome.org)|2a02:6ea0:c400::53|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 641108 (626K) [application/octet-stream]
+Saving to: ‘gnome-logs-49.0.tar.xz’
+
+     0K .......... .......... .......... .......... ..........  7% 3.64M 0s
+    50K .......... .......... .......... .......... .......... 15% 11.7M 0s
+   100K .......... .......... .......... .......... .......... 23% 7.17M 0s
+   150K .......... .......... .......... .......... .......... 31% 30.2M 0s
+   200K .......... .......... .......... .......... .......... 39% 7.47M 0s
+   250K .......... .......... .......... .......... .......... 47% 15.7M 0s
+   300K .......... .......... .......... .......... .......... 55% 10.3M 0s
+   350K .......... .......... .......... .......... .......... 63% 25.7M 0s
+   400K .......... .......... .......... .......... .......... 71% 8.56M 0s
+   450K .......... .......... .......... .......... .......... 79% 39.2M 0s
+   500K .......... .......... .......... .......... .......... 87% 50.1M 0s
+   550K .......... .......... .......... .......... .......... 95% 9.21M 0s
+   600K .......... .......... ......                          100% 67.4M=0.06s
+
+2025-09-27 07:23:12 (10.9 MB/s) - ‘gnome-logs-49.0.tar.xz’ saved [641108/641108]
+
+gnome-logs-49.0/
+gnome-logs-49.0/.gitignore
+gnome-logs-49.0/.gitlab-ci.yml
+gnome-logs-49.0/AUTHORS
+gnome-logs-49.0/COPYING
+gnome-logs-49.0/NEWS
+gnome-logs-49.0/README
+gnome-logs-49.0/data/
+gnome-logs-49.0/data/gl-categorylist.ui
+gnome-logs-49.0/data/gl-eventtoolbar.ui
+gnome-logs-49.0/data/gl-eventviewdetail.ui
+gnome-logs-49.0/data/gl-eventviewlist.ui
+gnome-logs-49.0/data/gl-searchpopover.ui
+gnome-logs-49.0/data/gl-window.ui
+gnome-logs-49.0/data/gnome-logs.xml
+gnome-logs-49.0/data/help-overlay.ui
+gnome-logs-49.0/data/icons/
+gnome-logs-49.0/data/icons/meson.build
+gnome-logs-49.0/data/icons/scalable/
+gnome-logs-49.0/data/icons/scalable/org.gnome.Logs.Devel.svg
+gnome-logs-49.0/data/icons/scalable/org.gnome.Logs.svg
+gnome-logs-49.0/data/icons/symbolic/
+gnome-logs-49.0/data/icons/symbolic/org.gnome.Logs-symbolic.svg
+gnome-logs-49.0/data/meson.build
+gnome-logs-49.0/data/org.gnome.Logs.appdata.xml.in
+gnome-logs-49.0/data/org.gnome.Logs.desktop.in
+gnome-logs-49.0/data/org.gnome.Logs.gresource.xml
+gnome-logs-49.0/data/org.gnome.Logs.gschema.xml
+gnome-logs-49.0/data/org.gnome.Logs.service.in
+gnome-logs-49.0/data/style-hc.css
+gnome-logs-49.0/data/style.css
+gnome-logs-49.0/data/version.xml.in
+gnome-logs-49.0/gnome-logs.doap
+gnome-logs-49.0/help/
+gnome-logs-49.0/help/C/
+gnome-logs-49.0/help/C/index.page
+gnome-logs-49.0/help/C/introduction.page
+gnome-logs-49.0/help/C/legal.xml
+gnome-logs-49.0/help/C/media/
+gnome-logs-49.0/help/C/media/gnome-logs-3-34.png
+gnome-logs-49.0/help/C/media/org.gnome.Logs.svg
+gnome-logs-49.0/help/C/permissions.page
+gnome-logs-49.0/help/LINGUAS
+gnome-logs-49.0/help/ca/
+gnome-logs-49.0/help/ca/ca.po
+gnome-logs-49.0/help/cs/
+gnome-logs-49.0/help/cs/cs.po
+gnome-logs-49.0/help/da/
+gnome-logs-49.0/help/da/da.po
+gnome-logs-49.0/help/de/
+gnome-logs-49.0/help/de/de.po
+gnome-logs-49.0/help/de/media/
+gnome-logs-49.0/help/de/media/gnome-logs-3-34.png
+gnome-logs-49.0/help/el/
+gnome-logs-49.0/help/el/el.po
+gnome-logs-49.0/help/en_GB/
+gnome-logs-49.0/help/en_GB/en_GB.po
+gnome-logs-49.0/help/es/
+gnome-logs-49.0/help/es/es.po
+gnome-logs-49.0/help/eu/
+gnome-logs-49.0/help/eu/eu.po
+gnome-logs-49.0/help/fr/
+gnome-logs-49.0/help/fr/fr.po
+gnome-logs-49.0/help/fr/media/
+gnome-logs-49.0/help/fr/media/gnome-logs-3-34.png
+gnome-logs-49.0/help/gl/
+gnome-logs-49.0/help/gl/gl.po
+gnome-logs-49.0/help/hu/
+gnome-logs-49.0/help/hu/hu.po
+gnome-logs-49.0/help/id/
+gnome-logs-49.0/help/id/id.po
+gnome-logs-49.0/help/it/
+gnome-logs-49.0/help/it/it.po
+gnome-logs-49.0/help/it/media/
+gnome-logs-49.0/help/it/media/gnome-logs-3-34.png
+gnome-logs-49.0/help/ko/
+gnome-logs-49.0/help/ko/ko.po
+gnome-logs-49.0/help/ko/media/
+gnome-logs-49.0/help/ko/media/gnome-logs-3-34.png
+gnome-logs-49.0/help/meson.build
+gnome-logs-49.0/help/nl/
+gnome-logs-49.0/help/nl/nl.po
+gnome-logs-49.0/help/pl/
+gnome-logs-49.0/help/pl/media/
+gnome-logs-49.0/help/pl/media/gnome-logs-3-34.png
+gnome-logs-49.0/help/pl/pl.po
+gnome-logs-49.0/help/pt/
+gnome-logs-49.0/help/pt/pt.po
+gnome-logs-49.0/help/pt_BR/
+gnome-logs-49.0/help/pt_BR/pt_BR.po
+gnome-logs-49.0/help/ru/
+gnome-logs-49.0/help/ru/ru.po
+gnome-logs-49.0/help/sv/
+gnome-logs-49.0/help/sv/media/
+gnome-logs-49.0/help/sv/media/gnome-logs-3-34.png
+gnome-logs-49.0/help/sv/sv.po
+gnome-logs-49.0/help/tr/
+gnome-logs-49.0/help/tr/tr.po
+gnome-logs-49.0/help/uk/
+gnome-logs-49.0/help/uk/uk.po
+gnome-logs-49.0/help/zh_CN/
+gnome-logs-49.0/help/zh_CN/zh_CN.po
+gnome-logs-49.0/meson.build
+gnome-logs-49.0/meson_options.txt
+gnome-logs-49.0/org.gnome.Logs.json
+gnome-logs-49.0/po/
+gnome-logs-49.0/po/LINGUAS
+gnome-logs-49.0/po/POTFILES.in
+gnome-logs-49.0/po/ab.po
+gnome-logs-49.0/po/an.po
+gnome-logs-49.0/po/ar.po
+gnome-logs-49.0/po/as.po
+gnome-logs-49.0/po/be.po
+gnome-logs-49.0/po/bg.po
+gnome-logs-49.0/po/bs.po
+gnome-logs-49.0/po/ca.po
+gnome-logs-49.0/po/ca@valencia.po
+gnome-logs-49.0/po/cs.po
+gnome-logs-49.0/po/da.po
+gnome-logs-49.0/po/de.po
+gnome-logs-49.0/po/el.po
+gnome-logs-49.0/po/en_GB.po
+gnome-logs-49.0/po/eo.po
+gnome-logs-49.0/po/es.po
+gnome-logs-49.0/po/eu.po
+gnome-logs-49.0/po/fa.po
+gnome-logs-49.0/po/fi.po
+gnome-logs-49.0/po/fo.po
+gnome-logs-49.0/po/fr.po
+gnome-logs-49.0/po/fur.po
+gnome-logs-49.0/po/ga.po
+gnome-logs-49.0/po/gd.po
+gnome-logs-49.0/po/gl.po
+gnome-logs-49.0/po/he.po
+gnome-logs-49.0/po/hi.po
+gnome-logs-49.0/po/hr.po
+gnome-logs-49.0/po/hu.po
+gnome-logs-49.0/po/ia.po
+gnome-logs-49.0/po/id.po
+gnome-logs-49.0/po/is.po
+gnome-logs-49.0/po/it.po
+gnome-logs-49.0/po/ja.po
+gnome-logs-49.0/po/ka.po
+gnome-logs-49.0/po/kab.po
+gnome-logs-49.0/po/kk.po
+gnome-logs-49.0/po/ko.po
+gnome-logs-49.0/po/lt.po
+gnome-logs-49.0/po/lv.po
+gnome-logs-49.0/po/meson.build
+gnome-logs-49.0/po/ml.po
+gnome-logs-49.0/po/ms.po
+gnome-logs-49.0/po/nb.po
+gnome-logs-49.0/po/ne.po
+gnome-logs-49.0/po/nl.po
+gnome-logs-49.0/po/oc.po
+gnome-logs-49.0/po/pa.po
+gnome-logs-49.0/po/pl.po
+gnome-logs-49.0/po/pt.po
+gnome-logs-49.0/po/pt_BR.po
+gnome-logs-49.0/po/ro.po
+gnome-logs-49.0/po/ru.po
+gnome-logs-49.0/po/sk.po
+gnome-logs-49.0/po/sl.po
+gnome-logs-49.0/po/sr.po
+gnome-logs-49.0/po/sr@latin.po
+gnome-logs-49.0/po/sv.po
+gnome-logs-49.0/po/ta.po
+gnome-logs-49.0/po/te.po
+gnome-logs-49.0/po/tg.po
+gnome-logs-49.0/po/th.po
+gnome-logs-49.0/po/tr.po
+gnome-logs-49.0/po/uk.po
+gnome-logs-49.0/po/uz.po
+gnome-logs-49.0/po/vi.po
+gnome-logs-49.0/po/zh_CN.po
+gnome-logs-49.0/po/zh_HK.po
+gnome-logs-49.0/po/zh_TW.po
+gnome-logs-49.0/src/
+gnome-logs-49.0/src/gl-application.c
+gnome-logs-49.0/src/gl-application.h
+gnome-logs-49.0/src/gl-categorylist.c
+gnome-logs-49.0/src/gl-categorylist.h
+gnome-logs-49.0/src/gl-eventtoolbar.c
+gnome-logs-49.0/src/gl-eventtoolbar.h
+gnome-logs-49.0/src/gl-eventviewdetail.c
+gnome-logs-49.0/src/gl-eventviewdetail.h
+gnome-logs-49.0/src/gl-eventviewlist.c
+gnome-logs-49.0/src/gl-eventviewlist.h
+gnome-logs-49.0/src/gl-eventviewrow.c
+gnome-logs-49.0/src/gl-eventviewrow.h
+gnome-logs-49.0/src/gl-journal-model.c
+gnome-logs-49.0/src/gl-journal-model.h
+gnome-logs-49.0/src/gl-journal.c
+gnome-logs-49.0/src/gl-journal.h
+gnome-logs-49.0/src/gl-main.c
+gnome-logs-49.0/src/gl-searchpopover.c
+gnome-logs-49.0/src/gl-searchpopover.h
+gnome-logs-49.0/src/gl-util.c
+gnome-logs-49.0/src/gl-util.h
+gnome-logs-49.0/src/gl-window.c
+gnome-logs-49.0/src/gl-window.h
+gnome-logs-49.0/src/meson.build
+gnome-logs-49.0/tests/
+gnome-logs-49.0/tests/meson.build
+gnome-logs-49.0/tests/test-gl-util.c
+The Meson build system
+Version: 1.7.0
+Source dir: /blfs/builds/gnome-logs-49.0
+Build dir: /blfs/builds/gnome-logs-49.0/build
+Build type: native build
+Project name: gnome-logs
+Project version: 49.0
+C compiler for the host machine: cc (gcc 15.2.0 "cc (GCC) 15.2.0")
+C linker for the host machine: cc ld.bfd 2.45
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Compiler for C supports arguments -Wstrict-prototypes: YES 
+Compiler for C supports arguments -Wnested-externs: YES 
+Compiler for C supports arguments -Werror=missing-prototypes: YES 
+Compiler for C supports arguments -Werror=implicit-function-declaration: YES 
+Compiler for C supports arguments -Werror=pointer-arith: YES 
+Compiler for C supports arguments -Werror=init-self: YES 
+Compiler for C supports arguments -Werror=format-security: NO 
+Compiler for C supports arguments -Werror=format=2: YES 
+Compiler for C supports arguments -Werror=missing-include-dirs: YES 
+Compiler for C supports arguments -Werror=return-type: YES 
+Configuring config.h using configuration
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Run-time dependency gsettings-desktop-schemas found: YES 49.0
+Run-time dependency gio-unix-2.0 found: YES 2.86.0
+Run-time dependency gtk4 found: YES 4.20.1
+Run-time dependency libadwaita-1 found: YES 1.8.0
+Run-time dependency libsystemd found: YES 258
+../meson.build:100: WARNING: Project targets '>= 0.59.0' but uses feature deprecated since '0.56.0': meson.source_root. use meson.project_source_root() or meson.global_source_root() instead.
+../meson.build:101: WARNING: Project targets '>= 0.59.0' but uses feature deprecated since '0.56.0': meson.source_root. use meson.project_source_root() or meson.global_source_root() instead.
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Program desktop-file-validate found: YES (/usr/bin/desktop-file-validate)
+Program appstreamcli found: YES (/usr/bin/appstreamcli)
+Configuring org.gnome.Logs.service using configuration
+Program glib-compile-schemas found: YES (/usr/bin/glib-compile-schemas)
+Configuring version.xml using configuration
+Build-time dependency gio-2.0 found: YES 2.86.0
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Build-time dependency glib-2.0 found: YES 2.86.0
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Dependency glib-2.0 found: YES 2.86.0 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Program msginit found: YES (/usr/bin/msginit)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program xgettext found: YES (/usr/bin/xgettext)
+Program itstool found: YES (/usr/bin/itstool)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Dependency gio-2.0 found: YES 2.86.0 (cached)
+Program /usr/bin/glib-compile-schemas found: YES (/usr/bin/glib-compile-schemas)
+Program gtk4-update-icon-cache found: YES (/usr/bin/gtk4-update-icon-cache)
+Program update-desktop-database found: YES (/usr/bin/update-desktop-database)
+Build targets in project: 151
+WARNING: Deprecated features used:
+ * 0.56.0: {'meson.source_root'}
+
+gnome-logs 49.0
+
+  User defined options
+    buildtype: release
+    prefix   : /usr
+
+Found ninja-1.13.1 at /usr/bin/ninja
+[1/139] Generating yelp doc help/ca/help-gnome-logs-ca-gmo
+[2/139] Generating yelp doc help/cs/help-gnome-logs-cs-gmo
+[3/139] Generating yelp doc help/de/help-gnome-logs-de-gmo
+[4/139] Generating yelp doc help/el/help-gnome-logs-el-gmo
+[5/139] Generating yelp doc help/en_GB/help-gnome-logs-en_GB-gmo
+[6/139] Generating yelp doc help/fr/help-gnome-logs-fr-gmo
+[7/139] Generating yelp doc help/da/help-gnome-logs-da-gmo
+[8/139] Generating yelp doc help/gl/help-gnome-logs-gl-gmo
+[9/139] Generating yelp doc help/hu/help-gnome-logs-hu-gmo
+[10/139] Generating yelp doc help/eu/help-gnome-logs-eu-gmo
+[11/139] Generating yelp doc help/it/help-gnome-logs-it-gmo
+[12/139] Generating yelp doc help/es/help-gnome-logs-es-gmo
+[13/139] Generating yelp doc help/id/help-gnome-logs-id-gmo
+[14/139] Generating yelp doc help/ko/help-gnome-logs-ko-gmo
+[15/139] Generating yelp doc help/pt/help-gnome-logs-pt-gmo
+[16/139] Generating yelp doc help/nl/help-gnome-logs-nl-gmo
+[17/139] Generating yelp doc help/pl/help-gnome-logs-pl-gmo
+[18/139] Generating yelp doc help/ru/help-gnome-logs-ru-gmo
+[19/139] Generating yelp doc help/tr/help-gnome-logs-tr-gmo
+[20/139] Generating yelp doc help/zh_CN/help-gnome-logs-zh_CN-gmo
+[21/139] Generating yelp doc help/sv/help-gnome-logs-sv-gmo
+[22/139] Generating yelp doc help/uk/help-gnome-logs-uk-gmo
+[23/139] Generating yelp doc help/pt_BR/help-gnome-logs-pt_BR-gmo
+[24/139] Generating src/gl-resources_c with a custom command
+[25/139] Building translation po/ab/LC_MESSAGES/gnome-logs-ab.mo
+[26/139] Generating src/gl-resources_h with a custom command
+[27/139] Building translation po/an/LC_MESSAGES/gnome-logs-an.mo
+[28/139] Building translation po/ar/LC_MESSAGES/gnome-logs-ar.mo
+[29/139] Building translation po/as/LC_MESSAGES/gnome-logs-as.mo
+[30/139] Building translation po/bs/LC_MESSAGES/gnome-logs-bs.mo
+[31/139] Building translation po/be/LC_MESSAGES/gnome-logs-be.mo
+[32/139] Building translation po/bg/LC_MESSAGES/gnome-logs-bg.mo
+[33/139] Building translation po/ca/LC_MESSAGES/gnome-logs-ca.mo
+[34/139] Building translation po/ca@valencia/LC_MESSAGES/gnome-logs-ca@valencia.mo
+[35/139] Building translation po/cs/LC_MESSAGES/gnome-logs-cs.mo
+[36/139] Building translation po/de/LC_MESSAGES/gnome-logs-de.mo
+[37/139] Building translation po/el/LC_MESSAGES/gnome-logs-el.mo
+[38/139] Building translation po/da/LC_MESSAGES/gnome-logs-da.mo
+[39/139] Building translation po/eu/LC_MESSAGES/gnome-logs-eu.mo
+[40/139] Building translation po/en_GB/LC_MESSAGES/gnome-logs-en_GB.mo
+[41/139] Building translation po/es/LC_MESSAGES/gnome-logs-es.mo
+[42/139] Building translation po/eo/LC_MESSAGES/gnome-logs-eo.mo
+[43/139] Building translation po/fi/LC_MESSAGES/gnome-logs-fi.mo
+[44/139] Building translation po/fa/LC_MESSAGES/gnome-logs-fa.mo
+[45/139] Building translation po/ga/LC_MESSAGES/gnome-logs-ga.mo
+[46/139] Building translation po/fo/LC_MESSAGES/gnome-logs-fo.mo
+[47/139] Building translation po/gl/LC_MESSAGES/gnome-logs-gl.mo
+[48/139] Building translation po/he/LC_MESSAGES/gnome-logs-he.mo
+[49/139] Building translation po/fr/LC_MESSAGES/gnome-logs-fr.mo
+[50/139] Building translation po/fur/LC_MESSAGES/gnome-logs-fur.mo
+[51/139] Building translation po/gd/LC_MESSAGES/gnome-logs-gd.mo
+[52/139] Building translation po/hi/LC_MESSAGES/gnome-logs-hi.mo
+[53/139] Building translation po/hu/LC_MESSAGES/gnome-logs-hu.mo
+[54/139] Building translation po/id/LC_MESSAGES/gnome-logs-id.mo
+[55/139] Building translation po/is/LC_MESSAGES/gnome-logs-is.mo
+[56/139] Building translation po/hr/LC_MESSAGES/gnome-logs-hr.mo
+[57/139] Building translation po/ia/LC_MESSAGES/gnome-logs-ia.mo
+[58/139] Building translation po/it/LC_MESSAGES/gnome-logs-it.mo
+[59/139] Building translation po/ka/LC_MESSAGES/gnome-logs-ka.mo
+[60/139] Building translation po/lt/LC_MESSAGES/gnome-logs-lt.mo
+[61/139] Building translation po/ko/LC_MESSAGES/gnome-logs-ko.mo
+[62/139] Building translation po/ja/LC_MESSAGES/gnome-logs-ja.mo
+[63/139] Building translation po/kab/LC_MESSAGES/gnome-logs-kab.mo
+[64/139] Building translation po/kk/LC_MESSAGES/gnome-logs-kk.mo
+[65/139] Generating data/gsettings-enums with a custom command (wrapped by meson to capture output)
+[66/139] Building translation po/nl/LC_MESSAGES/gnome-logs-nl.mo
+[67/139] Building translation po/ms/LC_MESSAGES/gnome-logs-ms.mo
+[68/139] Building translation po/oc/LC_MESSAGES/gnome-logs-oc.mo
+[69/139] Building translation po/lv/LC_MESSAGES/gnome-logs-lv.mo
+[70/139] Building translation po/ml/LC_MESSAGES/gnome-logs-ml.mo
+[71/139] Building translation po/nb/LC_MESSAGES/gnome-logs-nb.mo
+[72/139] Building translation po/ne/LC_MESSAGES/gnome-logs-ne.mo
+[73/139] Building translation po/pa/LC_MESSAGES/gnome-logs-pa.mo
+[74/139] Merging translations for data/org.gnome.Logs.desktop
+[75/139] Generating GObject enum file src/gl-enums.h (wrapped by meson because command contains newlines, to capture output)
+[76/139] Building translation po/pl/LC_MESSAGES/gnome-logs-pl.mo
+[77/139] Building translation po/pt/LC_MESSAGES/gnome-logs-pt.mo
+[78/139] Building translation po/pt_BR/LC_MESSAGES/gnome-logs-pt_BR.mo
+[79/139] Building translation po/ro/LC_MESSAGES/gnome-logs-ro.mo
+[80/139] Building translation po/sk/LC_MESSAGES/gnome-logs-sk.mo
+[81/139] Building translation po/ru/LC_MESSAGES/gnome-logs-ru.mo
+[82/139] Building translation po/sl/LC_MESSAGES/gnome-logs-sl.mo
+[83/139] Generating GObject enum file src/gl-enums.c (wrapped by meson because command contains newlines, to capture output)
+[84/139] Merging translations for data/org.gnome.Logs.appdata.xml
+[85/139] Compiling C object tests/test-gl-util.p/test-gl-util.c.o
+[86/139] Compiling C object src/gnome-logs.p/meson-generated_.._gl-resources.c.o
+[87/139] Compiling C object src/gnome-logs.p/gl-categorylist.c.o
+[88/139] Compiling C object src/gnome-logs.p/gl-application.c.o
+../src/gl-application.c: In function ‘on_help_launch_cb’:
+../src/gl-application.c:81:5: warning: ‘adw_message_dialog_new’ is deprecated: Use 'adw_alert_dialog_new' instead [-Wdeprecated-declarations]
+   81 |     error_dialog = adw_message_dialog_new (active_window,
+      |     ^~~~~~~~~~~~
+In file included from /usr/include/libadwaita-1/adwaita.h:63,
+                 from ../src/gl-application.h:22,
+                 from ../src/gl-application.c:20:
+/usr/include/libadwaita-1/adw-message-dialog.h:40:12: note: declared here
+   40 | GtkWidget *adw_message_dialog_new (GtkWindow  *parent,
+      |            ^~~~~~~~~~~~~~~~~~~~~~
+../src/gl-application.c:84:5: warning: ‘adw_message_dialog_format_body’ is deprecated: Use 'adw_alert_dialog_format_body' instead [-Wdeprecated-declarations]
+   84 |     adw_message_dialog_format_body (ADW_MESSAGE_DIALOG (error_dialog),
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/libadwaita-1/adw-message-dialog.h:79:6: note: declared here
+   79 | void adw_message_dialog_format_body (AdwMessageDialog *self,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/gl-application.c:87:5: warning: ‘adw_message_dialog_add_response’ is deprecated: Use 'adw_alert_dialog_add_response' instead [-Wdeprecated-declarations]
+   87 |     adw_message_dialog_add_response (ADW_MESSAGE_DIALOG (error_dialog),
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/libadwaita-1/adw-message-dialog.h:95:6: note: declared here
+   95 | void adw_message_dialog_add_response (AdwMessageDialog *self,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/gl-application.c:89:5: warning: ‘adw_message_dialog_choose’ is deprecated: Use 'adw_alert_dialog_choose' instead [-Wdeprecated-declarations]
+   89 |     adw_message_dialog_choose (ADW_MESSAGE_DIALOG (error_dialog),
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/libadwaita-1/adw-message-dialog.h:153:13: note: declared here
+  153 | void        adw_message_dialog_choose        (AdwMessageDialog    *self,
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+../src/gl-application.c: In function ‘on_about’:
+../src/gl-application.c:131:5: warning: ‘adw_show_about_window’ is deprecated: Use 'adw_show_about_dialog' instead [-Wdeprecated-declarations]
+  131 |     adw_show_about_window (parent,
+      |     ^~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/libadwaita-1/adwaita.h:25:
+/usr/include/libadwaita-1/adw-about-window.h:175:6: note: declared here
+  175 | void adw_show_about_window (GtkWindow  *parent,
+      |      ^~~~~~~~~~~~~~~~~~~~~
+../src/gl-application.c: In function ‘on_monospace_font_name_changed’:
+../src/gl-application.c:189:9: warning: ‘gtk_css_provider_load_from_data’ is deprecated: Use 'gtk_css_provider_load_from_string' instead [-Wdeprecated-declarations]
+  189 |         gtk_css_provider_load_from_data (provider, css_fragment, -1);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/gtk-4.0/gtk/gtk.h:99,
+                 from /usr/include/libadwaita-1/adwaita.h:9:
+/usr/include/gtk-4.0/gtk/gtkcssprovider.h:49:18: note: declared here
+   49 | void             gtk_css_provider_load_from_data (GtkCssProvider  *css_provider,
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[89/139] Compiling C object src/gnome-logs.p/gl-searchpopover.c.o
+../src/gl-searchpopover.c: In function ‘select_parameter_button_clicked’:
+../src/gl-searchpopover.c:160:5: warning: ‘gtk_tree_model_get_iter_first’ is deprecated: Use 'GListModel' instead [-Wdeprecated-declarations]
+  160 |     valid = gtk_tree_model_get_iter_first (model, &iter);
+      |     ^~~~~
+In file included from /usr/include/gtk-4.0/gtk/deprecated/gtkcellarea.h:30,
+                 from /usr/include/gtk-4.0/gtk/gtk.h:64,
+                 from ../src/gl-searchpopover.h:22,
+                 from ../src/gl-searchpopover.c:19:
+/usr/include/gtk-4.0/gtk/deprecated/gtktreemodel.h:328:19: note: declared here
+  328 | gboolean          gtk_tree_model_get_iter_first  (GtkTreeModel *tree_model,
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/gl-searchpopover.c:166:9: warning: ‘gtk_tree_model_get’ is deprecated: Use 'GListModel' instead [-Wdeprecated-declarations]
+  166 |         gtk_tree_model_get (GTK_TREE_MODEL (priv->parameter_liststore), &iter,
+      |         ^~~~~~~~~~~~~~~~~~
+/usr/include/gtk-4.0/gtk/deprecated/gtktreemodel.h:370:19: note: declared here
+  370 | void              gtk_tree_model_get             (GtkTreeModel *tree_model,
+      |                   ^~~~~~~~~~~~~~~~~~
+../src/gl-searchpopover.c:175:9: warning: ‘gtk_tree_model_iter_next’ is deprecated: Use 'GListModel' instead [-Wdeprecated-declarations]
+  175 |         valid = gtk_tree_model_iter_next (model, &iter);
+      |         ^~~~~
+/usr/include/gtk-4.0/gtk/deprecated/gtktreemodel.h:342:19: note: declared here
+  342 | gboolean          gtk_tree_model_iter_next       (GtkTreeModel *tree_model,
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~
+../src/gl-searchpopover.c:178:5: warning: ‘gtk_tree_view_get_selection’ is deprecated: Use 'GtkListView' instead [-Wdeprecated-declarations]
+  178 |     selection = gtk_tree_view_get_selection (GTK_TREE_VIEW (priv->parameter_treeview));
+      |     ^~~~~~~~~
+In file included from /usr/include/gtk-4.0/gtk/deprecated/gtkcombobox.h:26,
+                 from /usr/include/gtk-4.0/gtk/gtk.h:94:
+/usr/include/gtk-4.0/gtk/deprecated/gtktreeview.h:214:24: note: declared here
+  214 | GtkTreeSelection      *gtk_tree_view_get_selection                 (GtkTreeView               *tree_view);
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/gl-searchpopover.c:180:5: warning: ‘gtk_tree_selection_select_iter’ is deprecated [-Wdeprecated-declarations]
+  180 |     gtk_tree_selection_select_iter (selection, &iter);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/gtk-4.0/gtk/gtk.h:291:
+/usr/include/gtk-4.0/gtk/deprecated/gtktreeselection.h:119:18: note: declared here
+  119 | void             gtk_tree_selection_select_iter         (GtkTreeSelection            *selection,
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/gl-searchpopover.c: In function ‘parameter_treeview_row_seperator’:
+../src/gl-searchpopover.c:196:5: warning: ‘gtk_tree_model_get’ is deprecated: Use 'GListModel' instead [-Wdeprecated-declarations]
+  196 |     gtk_tree_model_get (GTK_TREE_MODEL (priv->parameter_liststore), iter,
+      |     ^~~~~~~~~~~~~~~~~~
+/usr/include/gtk-4.0/gtk/deprecated/gtktreemodel.h:370:19: note: declared here
+  370 | void              gtk_tree_model_get             (GtkTreeModel *tree_model,
+      |                   ^~~~~~~~~~~~~~~~~~
+../src/gl-searchpopover.c: In function ‘on_parameter_treeview_row_activated’:
+../src/gl-searchpopover.c:219:5: warning: ‘gtk_tree_model_get_iter’ is deprecated: Use 'GListModel' instead [-Wdeprecated-declarations]
+  219 |     gtk_tree_model_get_iter (GTK_TREE_MODEL (priv->parameter_liststore), &iter, path);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/gtk-4.0/gtk/deprecated/gtktreemodel.h:317:19: note: declared here
+  317 | gboolean          gtk_tree_model_get_iter        (GtkTreeModel *tree_model,
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~
+../src/gl-searchpopover.c:221:5: warning: ‘gtk_tree_model_get’ is deprecated: Use 'GListModel' instead [-Wdeprecated-declarations]
+  221 |     gtk_tree_model_get (GTK_TREE_MODEL (priv->parameter_liststore), &iter,
+      |     ^~~~~~~~~~~~~~~~~~
+/usr/include/gtk-4.0/gtk/deprecated/gtktreemodel.h:370:19: note: declared here
+  370 | void              gtk_tree_model_get             (GtkTreeModel *tree_model,
+      |                   ^~~~~~~~~~~~~~~~~~
+../src/gl-searchpopover.c: In function ‘select_range_button_clicked’:
+../src/gl-searchpopover.c:379:5: warning: ‘gtk_tree_model_get_iter_first’ is deprecated: Use 'GListModel' instead [-Wdeprecated-declarations]
+  379 |     valid = gtk_tree_model_get_iter_first (model, &iter);
+      |     ^~~~~
+/usr/include/gtk-4.0/gtk/deprecated/gtktreemodel.h:328:19: note: declared here
+  328 | gboolean          gtk_tree_model_get_iter_first  (GtkTreeModel *tree_model,
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/gl-searchpopover.c:385:9: warning: ‘gtk_tree_model_get’ is deprecated: Use 'GListModel' instead [-Wdeprecated-declarations]
+  385 |         gtk_tree_model_get (GTK_TREE_MODEL (priv->range_liststore), &iter,
+      |         ^~~~~~~~~~~~~~~~~~
+/usr/include/gtk-4.0/gtk/deprecated/gtktreemodel.h:370:19: note: declared here
+  370 | void              gtk_tree_model_get             (GtkTreeModel *tree_model,
+      |                   ^~~~~~~~~~~~~~~~~~
+../src/gl-searchpopover.c:394:9: warning: ‘gtk_tree_model_iter_next’ is deprecated: Use 'GListModel' instead [-Wdeprecated-declarations]
+  394 |         valid = gtk_tree_model_iter_next (model, &iter);
+      |         ^~~~~
+/usr/include/gtk-4.0/gtk/deprecated/gtktreemodel.h:342:19: note: declared here
+  342 | gboolean          gtk_tree_model_iter_next       (GtkTreeModel *tree_model,
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~
+../src/gl-searchpopover.c:397:5: warning: ‘gtk_tree_view_get_selection’ is deprecated: Use 'GtkListView' instead [-Wdeprecated-declarations]
+  397 |     selection = gtk_tree_view_get_selection (GTK_TREE_VIEW (priv->range_treeview));
+      |     ^~~~~~~~~
+/usr/include/gtk-4.0/gtk/deprecated/gtktreeview.h:214:24: note: declared here
+  214 | GtkTreeSelection      *gtk_tree_view_get_selection                 (GtkTreeView               *tree_view);
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/gl-searchpopover.c:399:5: warning: ‘gtk_tree_selection_select_iter’ is deprecated [-Wdeprecated-declarations]
+  399 |     gtk_tree_selection_select_iter (selection, &iter);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/gtk-4.0/gtk/deprecated/gtktreeselection.h:119:18: note: declared here
+  119 | void             gtk_tree_selection_select_iter         (GtkTreeSelection            *selection,
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/gl-searchpopover.c: In function ‘range_treeview_row_seperator’:
+../src/gl-searchpopover.c:415:5: warning: ‘gtk_tree_model_get’ is deprecated: Use 'GListModel' instead [-Wdeprecated-declarations]
+  415 |     gtk_tree_model_get (GTK_TREE_MODEL (priv->range_liststore), iter,
+      |     ^~~~~~~~~~~~~~~~~~
+/usr/include/gtk-4.0/gtk/deprecated/gtktreemodel.h:370:19: note: declared here
+  370 | void              gtk_tree_model_get             (GtkTreeModel *tree_model,
+      |                   ^~~~~~~~~~~~~~~~~~
+../src/gl-searchpopover.c: In function ‘on_range_treeview_row_activated’:
+../src/gl-searchpopover.c:541:5: warning: ‘gtk_tree_model_get_iter’ is deprecated: Use 'GListModel' instead [-Wdeprecated-declarations]
+  541 |     gtk_tree_model_get_iter (GTK_TREE_MODEL (priv->range_liststore), &iter, path);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/gtk-4.0/gtk/deprecated/gtktreemodel.h:317:19: note: declared here
+  317 | gboolean          gtk_tree_model_get_iter        (GtkTreeModel *tree_model,
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~
+../src/gl-searchpopover.c:543:5: warning: ‘gtk_tree_model_get’ is deprecated: Use 'GListModel' instead [-Wdeprecated-declarations]
+  543 |     gtk_tree_model_get (GTK_TREE_MODEL (priv->range_liststore), &iter,
+      |     ^~~~~~~~~~~~~~~~~~
+/usr/include/gtk-4.0/gtk/deprecated/gtktreemodel.h:370:19: note: declared here
+  370 | void              gtk_tree_model_get             (GtkTreeModel *tree_model,
+      |                   ^~~~~~~~~~~~~~~~~~
+../src/gl-searchpopover.c: In function ‘gl_search_popover_init’:
+../src/gl-searchpopover.c:1470:5: warning: ‘gtk_tree_view_set_row_separator_func’ is deprecated: Use 'GtkListView' instead [-Wdeprecated-declarations]
+ 1470 |     gtk_tree_view_set_row_separator_func (GTK_TREE_VIEW (priv->parameter_treeview),
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/gtk-4.0/gtk/deprecated/gtktreeview.h:501:29: note: declared here
+  501 | void                        gtk_tree_view_set_row_separator_func (GtkTreeView                *tree_view,
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/gl-searchpopover.c:1475:5: warning: ‘gtk_tree_view_set_row_separator_func’ is deprecated: Use 'GtkListView' instead [-Wdeprecated-declarations]
+ 1475 |     gtk_tree_view_set_row_separator_func (GTK_TREE_VIEW (priv->range_treeview),
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/gtk-4.0/gtk/deprecated/gtktreeview.h:501:29: note: declared here
+  501 | void                        gtk_tree_view_set_row_separator_func (GtkTreeView                *tree_view,
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[90/139] Building translation po/sr/LC_MESSAGES/gnome-logs-sr.mo
+[91/139] Building translation po/sr@latin/LC_MESSAGES/gnome-logs-sr@latin.mo
+[92/139] Building translation po/sv/LC_MESSAGES/gnome-logs-sv.mo
+[93/139] Building translation po/ta/LC_MESSAGES/gnome-logs-ta.mo
+[94/139] Building translation po/te/LC_MESSAGES/gnome-logs-te.mo
+[95/139] Building translation po/tg/LC_MESSAGES/gnome-logs-tg.mo
+[96/139] Compiling C object src/gnome-logs.p/gl-eventtoolbar.c.o
+[97/139] Compiling C object tests/test-gl-util.p/.._src_gl-util.c.o
+[98/139] Building translation po/th/LC_MESSAGES/gnome-logs-th.mo
+[99/139] Building translation po/tr/LC_MESSAGES/gnome-logs-tr.mo
+[100/139] Building translation po/uk/LC_MESSAGES/gnome-logs-uk.mo
+[101/139] Building translation po/uz/LC_MESSAGES/gnome-logs-uz.mo
+[102/139] Building translation po/zh_HK/LC_MESSAGES/gnome-logs-zh_HK.mo
+[103/139] Building translation po/vi/LC_MESSAGES/gnome-logs-vi.mo
+[104/139] Building translation po/zh_CN/LC_MESSAGES/gnome-logs-zh_CN.mo
+[105/139] Building translation po/zh_TW/LC_MESSAGES/gnome-logs-zh_TW.mo
+[106/139] Compiling C object src/gnome-logs.p/meson-generated_.._gl-enums.c.o
+[107/139] Compiling C object src/gnome-logs.p/gl-main.c.o
+[108/139] Compiling C object src/gnome-logs.p/gl-eventviewdetail.c.o
+[109/139] Generating yelp doc help/cs/help-gnome-logs-cs
+FAILED: [code=1] help/cs/index.page help/cs/introduction.page help/cs/legal.xml help/cs/permissions.page 
+/usr/bin/itstool -m help/cs/gnome-logs-cs.gmo --lang cs -o help/cs ../help/C/index.page ../help/C/introduction.page ../help/C/legal.xml ../help/C/permissions.page
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[110/139] Generating yelp doc help/de/help-gnome-logs-de
+FAILED: [code=1] help/de/index.page help/de/introduction.page help/de/legal.xml help/de/permissions.page 
+/usr/bin/itstool -m help/de/gnome-logs-de.gmo --lang de -o help/de ../help/C/index.page ../help/C/introduction.page ../help/C/legal.xml ../help/C/permissions.page
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[111/139] Generating yelp doc help/da/help-gnome-logs-da
+FAILED: [code=1] help/da/index.page help/da/introduction.page help/da/legal.xml help/da/permissions.page 
+/usr/bin/itstool -m help/da/gnome-logs-da.gmo --lang da -o help/da ../help/C/index.page ../help/C/introduction.page ../help/C/legal.xml ../help/C/permissions.page
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[112/139] Compiling C object src/gnome-logs.p/gl-journal-model.c.o
+[113/139] Generating yelp doc help/ca/help-gnome-logs-ca
+FAILED: [code=1] help/ca/index.page help/ca/introduction.page help/ca/legal.xml help/ca/permissions.page 
+/usr/bin/itstool -m help/ca/gnome-logs-ca.gmo --lang ca -o help/ca ../help/C/index.page ../help/C/introduction.page ../help/C/legal.xml ../help/C/permissions.page
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[114/139] Generating yelp doc help/el/help-gnome-logs-el
+FAILED: [code=1] help/el/index.page help/el/introduction.page help/el/legal.xml help/el/permissions.page 
+/usr/bin/itstool -m help/el/gnome-logs-el.gmo --lang el -o help/el ../help/C/index.page ../help/C/introduction.page ../help/C/legal.xml ../help/C/permissions.page
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[115/139] Generating yelp doc help/en_GB/help-gnome-logs-en_GB
+FAILED: [code=1] help/en_GB/index.page help/en_GB/introduction.page help/en_GB/legal.xml help/en_GB/permissions.page 
+/usr/bin/itstool -m help/en_GB/gnome-logs-en_GB.gmo --lang en_GB -o help/en_GB ../help/C/index.page ../help/C/introduction.page ../help/C/legal.xml ../help/C/permissions.page
+Traceback (most recent call last):
+  File "/usr/bin/itstool", line 27, in <module>
+    import libxml2
+ModuleNotFoundError: No module named 'libxml2'
+[116/139] Compiling C object src/gnome-logs.p/gl-eventviewrow.c.o
+[117/139] Compiling C object src/gnome-logs.p/gl-eventviewlist.c.o
+[118/139] Compiling C object src/gnome-logs.p/gl-journal.c.o
+[119/139] Compiling C object src/gnome-logs.p/gl-window.c.o
+../src/gl-window.c: In function ‘on_save_finish’:
+../src/gl-window.c:171:9: warning: ‘adw_message_dialog_new’ is deprecated: Use 'adw_alert_dialog_new' instead [-Wdeprecated-declarations]
+  171 |         error_dialog = adw_message_dialog_new (GTK_WINDOW (user_data),
+      |         ^~~~~~~~~~~~
+In file included from /usr/include/libadwaita-1/adwaita.h:63,
+                 from ../src/gl-window.h:23,
+                 from ../src/gl-window.c:19:
+/usr/include/libadwaita-1/adw-message-dialog.h:40:12: note: declared here
+   40 | GtkWidget *adw_message_dialog_new (GtkWindow  *parent,
+      |            ^~~~~~~~~~~~~~~~~~~~~~
+../src/gl-window.c:174:9: warning: ‘adw_message_dialog_add_response’ is deprecated: Use 'adw_alert_dialog_add_response' instead [-Wdeprecated-declarations]
+  174 |         adw_message_dialog_add_response (ADW_MESSAGE_DIALOG (error_dialog),
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/libadwaita-1/adw-message-dialog.h:95:6: note: declared here
+   95 | void adw_message_dialog_add_response (AdwMessageDialog *self,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/gl-window.c:176:9: warning: ‘adw_message_dialog_choose’ is deprecated: Use 'adw_alert_dialog_choose' instead [-Wdeprecated-declarations]
+  176 |         adw_message_dialog_choose (ADW_MESSAGE_DIALOG (error_dialog),
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/libadwaita-1/adw-message-dialog.h:153:13: note: declared here
+  153 | void        adw_message_dialog_choose        (AdwMessageDialog    *self,
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+../src/gl-window.c: In function ‘on_help_button_clicked’:
+../src/gl-window.c:284:7: warning: ‘adw_message_dialog_new’ is deprecated: Use 'adw_alert_dialog_new' instead [-Wdeprecated-declarations]
+  284 |       error_dialog = adw_message_dialog_new (GTK_WINDOW (window),
+      |       ^~~~~~~~~~~~
+/usr/include/libadwaita-1/adw-message-dialog.h:40:12: note: declared here
+   40 | GtkWidget *adw_message_dialog_new (GtkWindow  *parent,
+      |            ^~~~~~~~~~~~~~~~~~~~~~
+../src/gl-window.c:287:7: warning: ‘adw_message_dialog_format_body’ is deprecated: Use 'adw_alert_dialog_format_body' instead [-Wdeprecated-declarations]
+  287 |       adw_message_dialog_format_body (ADW_MESSAGE_DIALOG (error_dialog),
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/libadwaita-1/adw-message-dialog.h:79:6: note: declared here
+   79 | void adw_message_dialog_format_body (AdwMessageDialog *self,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/gl-window.c:290:7: warning: ‘adw_message_dialog_add_response’ is deprecated: Use 'adw_alert_dialog_add_response' instead [-Wdeprecated-declarations]
+  290 |       adw_message_dialog_add_response (ADW_MESSAGE_DIALOG (error_dialog),
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/libadwaita-1/adw-message-dialog.h:95:6: note: declared here
+   95 | void adw_message_dialog_add_response (AdwMessageDialog *self,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/gl-window.c:292:7: warning: ‘adw_message_dialog_choose’ is deprecated: Use 'adw_alert_dialog_choose' instead [-Wdeprecated-declarations]
+  292 |       adw_message_dialog_choose (ADW_MESSAGE_DIALOG (error_dialog),
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/libadwaita-1/adw-message-dialog.h:153:13: note: declared here
+  153 | void        adw_message_dialog_choose        (AdwMessageDialog    *self,
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+../src/gl-window.c: In function ‘gl_window_init’:
+../src/gl-window.c:419:17: warning: unused variable ‘display’ [-Wunused-variable]
+  419 |     GdkDisplay *display;
+      |                 ^~~~~~~
+[120/139] Compiling C object src/gnome-logs.p/gl-util.c.o
+ninja: build stopped: subcommand failed.
