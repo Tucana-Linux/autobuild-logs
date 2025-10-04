@@ -1,0 +1,593 @@
+--2025-10-04 11:30:50--  https://github.com/inotify-tools/inotify-tools/archive/refs/tags/4.25.9.0.tar.gz
+Resolving github.com (github.com)... 140.82.114.4
+Connecting to github.com (github.com)|140.82.114.4|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://codeload.github.com/inotify-tools/inotify-tools/tar.gz/refs/tags/4.25.9.0 [following]
+--2025-10-04 11:30:50--  https://codeload.github.com/inotify-tools/inotify-tools/tar.gz/refs/tags/4.25.9.0
+Resolving codeload.github.com (codeload.github.com)... 140.82.114.10
+Connecting to codeload.github.com (codeload.github.com)|140.82.114.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/x-gzip]
+Saving to: ‘4.25.9.0.tar.gz’
+
+     0K .......... .......... .......... .......... .......... 2.13M
+    50K .......... .......... .......... .......... .           100M=0.02s
+
+2025-10-04 11:30:50 (3.85 MB/s) - ‘4.25.9.0.tar.gz’ saved [94099]
+
+inotify-tools-4.25.9.0/
+inotify-tools-4.25.9.0/.cirrus.yml
+inotify-tools-4.25.9.0/.clang-format
+inotify-tools-4.25.9.0/.github/
+inotify-tools-4.25.9.0/.github/FUNDING.yml
+inotify-tools-4.25.9.0/.github/workflows/
+inotify-tools-4.25.9.0/.github/workflows/build.yml
+inotify-tools-4.25.9.0/.github/workflows/codeql.yml
+inotify-tools-4.25.9.0/.github/workflows/issues.yml
+inotify-tools-4.25.9.0/.gitignore
+inotify-tools-4.25.9.0/.travis.yml
+inotify-tools-4.25.9.0/AUTHORS
+inotify-tools-4.25.9.0/COPYING
+inotify-tools-4.25.9.0/ChangeLog
+inotify-tools-4.25.9.0/INSTALL
+inotify-tools-4.25.9.0/Makefile.am
+inotify-tools-4.25.9.0/NEWS
+inotify-tools-4.25.9.0/README.md
+inotify-tools-4.25.9.0/autogen.sh
+inotify-tools-4.25.9.0/build_and_test.sh
+inotify-tools-4.25.9.0/build_and_test_multi.sh
+inotify-tools-4.25.9.0/configure.ac
+inotify-tools-4.25.9.0/libinotifytools/
+inotify-tools-4.25.9.0/libinotifytools/Makefile.am
+inotify-tools-4.25.9.0/libinotifytools/src/
+inotify-tools-4.25.9.0/libinotifytools/src/Doxyfile
+inotify-tools-4.25.9.0/libinotifytools/src/Makefile.am
+inotify-tools-4.25.9.0/libinotifytools/src/example.cpp
+inotify-tools-4.25.9.0/libinotifytools/src/inotifytools.cpp
+inotify-tools-4.25.9.0/libinotifytools/src/inotifytools/
+inotify-tools-4.25.9.0/libinotifytools/src/inotifytools/Makefile.am
+inotify-tools-4.25.9.0/libinotifytools/src/inotifytools/fanotify-dfid-name.h
+inotify-tools-4.25.9.0/libinotifytools/src/inotifytools/fanotify.h.in
+inotify-tools-4.25.9.0/libinotifytools/src/inotifytools/inotify-nosys.h
+inotify-tools-4.25.9.0/libinotifytools/src/inotifytools/inotify.h.in
+inotify-tools-4.25.9.0/libinotifytools/src/inotifytools/inotifytools.h
+inotify-tools-4.25.9.0/libinotifytools/src/inotifytools_p.h
+inotify-tools-4.25.9.0/libinotifytools/src/redblack.cpp
+inotify-tools-4.25.9.0/libinotifytools/src/redblack.h
+inotify-tools-4.25.9.0/libinotifytools/src/stats.cpp
+inotify-tools-4.25.9.0/libinotifytools/src/stats.h
+inotify-tools-4.25.9.0/libinotifytools/src/test.cpp
+inotify-tools-4.25.9.0/m4/
+inotify-tools-4.25.9.0/m4/.gitignore
+inotify-tools-4.25.9.0/man/
+inotify-tools-4.25.9.0/man/Makefile.am
+inotify-tools-4.25.9.0/man/fsnotifywait.1.in
+inotify-tools-4.25.9.0/man/fsnotifywatch.1.in
+inotify-tools-4.25.9.0/man/inotifywait.1.in
+inotify-tools-4.25.9.0/man/inotifywatch.1.in
+inotify-tools-4.25.9.0/rh_build.sh
+inotify-tools-4.25.9.0/src/
+inotify-tools-4.25.9.0/src/Makefile.am
+inotify-tools-4.25.9.0/src/common.cpp
+inotify-tools-4.25.9.0/src/common.h
+inotify-tools-4.25.9.0/src/inotifywait.cpp
+inotify-tools-4.25.9.0/src/inotifywatch.cpp
+inotify-tools-4.25.9.0/t/
+inotify-tools-4.25.9.0/t/Makefile
+inotify-tools-4.25.9.0/t/aggregate-results.sh
+inotify-tools-4.25.9.0/t/fanotify-common.sh
+inotify-tools-4.25.9.0/t/fsnotifywait-subtree.t
+inotify-tools-4.25.9.0/t/inotifywait-csv-watched-dir.t
+inotify-tools-4.25.9.0/t/inotifywait-csv-watched-file.t
+inotify-tools-4.25.9.0/t/inotifywait-daemon-logs-chown.t
+inotify-tools-4.25.9.0/t/inotifywait-daemon-logs-to-relative-paths.t
+inotify-tools-4.25.9.0/t/inotifywait-format-option-cookie.t
+inotify-tools-4.25.9.0/t/inotifywait-format-option-null.t
+inotify-tools-4.25.9.0/t/inotifywait-format-watched-dir.t
+inotify-tools-4.25.9.0/t/inotifywait-format-watched-file.t
+inotify-tools-4.25.9.0/t/inotifywait-no-dereference-ignore-symlinked-file.t
+inotify-tools-4.25.9.0/t/inotifywait-no-dereference-respond-to-symlink-event.t
+inotify-tools-4.25.9.0/t/inotifywait-no-event-occured.t
+inotify-tools-4.25.9.0/t/inotifywait-recursive-include.t
+inotify-tools-4.25.9.0/t/inotifywait-recursive-multiple-includes.t
+inotify-tools-4.25.9.0/t/sharness.sh
+inotify-tools-4.25.9.0/upload_api_docs
+libtoolize: putting auxiliary files in AC_CONFIG_AUX_DIR, 'config'.
+libtoolize: copying file 'config/ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+libtoolize: copying file 'm4/libtool.m4'
+libtoolize: copying file 'm4/ltoptions.m4'
+libtoolize: copying file 'm4/ltsugar.m4'
+libtoolize: copying file 'm4/ltversion.m4'
+libtoolize: copying file 'm4/lt~obsolete.m4'
+configure.ac:18: installing 'config/compile'
+configure.ac:18: installing 'config/config.guess'
+configure.ac:18: installing 'config/config.sub'
+configure.ac:17: installing 'config/install-sh'
+configure.ac:17: installing 'config/missing'
+libinotifytools/src/Makefile.am: installing 'config/depcomp'
+parallel-tests: installing 'config/test-driver'
+configure: WARNING: unrecognized options: --enable-fanotify
+checking whether make sets $(MAKE)... yes
+checking for g++... g++
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C++... yes
+checking whether g++ accepts -g... yes
+checking for g++ option to enable C++11 features... none needed
+checking whether ln -s works... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether sleep supports fractional seconds... yes
+checking filesystem timestamp resolution... 0.01
+checking whether build environment is sane... yes
+checking for a race-free mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make supports the include directive... yes (GNU style)
+checking whether make supports nested variables... yes
+checking xargs -n works... yes
+checking whether UID '0' is supported by ustar format... yes
+checking whether GID '0' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking dependency style of g++... gcc3
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking how to print strings... printf
+checking for gcc... gcc
+checking whether the compiler supports GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to enable C11 features... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for file... file
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ranlib... ranlib
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for gcc option to enable large file support... none needed
+checking for doxygen... /usr/bin/doxygen
+checking for sys/inotify.h... yes
+checking for sys/fanotify.h... yes
+checking for mcheck.h... yes
+checking whether sys/inotify.h actually works... yup
+checking whether sys/fanotify.h actually works... yup
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for daemon... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating man/Makefile
+config.status: creating man/inotifywait.1
+config.status: creating man/inotifywatch.1
+config.status: creating man/fsnotifywait.1
+config.status: creating man/fsnotifywatch.1
+config.status: creating libinotifytools/Makefile
+config.status: creating libinotifytools/src/Makefile
+config.status: creating libinotifytools/src/inotifytools/Makefile
+config.status: creating config.h
+config.status: creating libinotifytools/src/inotifytools/inotify.h
+config.status: creating libinotifytools/src/inotifytools/fanotify.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+configure: WARNING: unrecognized options: --enable-fanotify
+make  all-recursive
+make[1]: Entering directory '/blfs/builds/inotify-tools-4.25.9.0'
+Making all in libinotifytools
+make[2]: Entering directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools'
+Making all in src
+make[3]: Entering directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src'
+Making all in inotifytools
+make[4]: Entering directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools'
+make  all-am
+make[5]: Entering directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools'
+make[5]: Leaving directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools'
+make[4]: Leaving directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools'
+make[4]: Entering directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src'
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../.. -I../../libinotifytools/src/inotifytools    -I./inotifytools -O2  -MT libinotifytools_la-inotifytools.lo -MD -MP -MF .deps/libinotifytools_la-inotifytools.Tpo -c -o libinotifytools_la-inotifytools.lo `test -f 'inotifytools.cpp' || echo './'`inotifytools.cpp
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../.. -I../../libinotifytools/src/inotifytools    -I./inotifytools -O2  -MT libinotifytools_la-redblack.lo -MD -MP -MF .deps/libinotifytools_la-redblack.Tpo -c -o libinotifytools_la-redblack.lo `test -f 'redblack.cpp' || echo './'`redblack.cpp
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../.. -I../../libinotifytools/src/inotifytools    -I./inotifytools -O2  -MT libinotifytools_la-stats.lo -MD -MP -MF .deps/libinotifytools_la-stats.Tpo -c -o libinotifytools_la-stats.lo `test -f 'stats.cpp' || echo './'`stats.cpp
+/usr/bin/doxygen
+warning: Tag 'USE_WINDOWS_ENCODING' at line 64 of file 'Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'DETAILS_AT_TOP' at line 156 of file 'Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'SHOW_DIRECTORIES' at line 390 of file 'Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'COLS_IN_ALPHA_INDEX' at line 619 of file 'Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'HTML_ALIGN_MEMBERS' at line 674 of file 'Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'XML_SCHEMA' at line 906 of file 'Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'XML_DTD' at line 912 of file 'Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'PERL_PATH' at line 1073 of file 'Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'CLASS_DIAGRAMS' at line 1086 of file 'Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'MAX_DOT_GRAPH_WIDTH' at line 1196 of file 'Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'MAX_DOT_GRAPH_HEIGHT' at line 1204 of file 'Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'DOT_TRANSPARENT' at line 1224 of file 'Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: argument 'a4wide' for option PAPER_TYPE is not a valid enum value
+Using the default: a4!
+/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools.cpp:516: warning: multiple use of section label 'example' while adding section, (first occurrence: /blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools.cpp, line 89)
+/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools.cpp:594: warning: multiple use of section label 'example' while adding section, (first occurrence: /blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools.cpp, line 89)
+/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools.cpp:681: warning: multiple use of section label 'example' while adding section, (first occurrence: /blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools.cpp, line 89)
+/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools.cpp:709: warning: multiple use of section label 'example' while adding section, (first occurrence: /blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools.cpp, line 89)
+/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools.cpp:1114: warning: multiple use of section label 'example' while adding section, (first occurrence: /blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools.cpp, line 89)
+/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools.cpp:1981: warning: multiple use of section label 'example' while adding section, (first occurrence: /blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools.cpp, line 89)
+/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools.cpp:2011: warning: multiple use of section label 'syntax' while adding section, (first occurrence: /blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools.cpp, line 1962)
+/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools.cpp:2030: warning: multiple use of section label 'example' while adding section, (first occurrence: /blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools.cpp, line 89)
+/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools.cpp:2072: warning: multiple use of section label 'syntax' while adding section, (first occurrence: /blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools.cpp, line 1962)
+/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools.cpp:2091: warning: multiple use of section label 'example' while adding section, (first occurrence: /blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools.cpp, line 89)
+/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools.cpp:2127: warning: multiple use of section label 'syntax' while adding section, (first occurrence: /blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools.cpp, line 1962)
+/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools.cpp:2146: warning: multiple use of section label 'example' while adding section, (first occurrence: /blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools.cpp, line 89)
+/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools.cpp:92: warning: included file 'example.c' is not found. Check your EXAMPLE_PATH
+/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools.cpp:337: warning: Found unknown command '@fanotify'
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../.. -I../../libinotifytools/src/inotifytools -I./inotifytools -O2 -MT libinotifytools_la-inotifytools.lo -MD -MP -MF .deps/libinotifytools_la-inotifytools.Tpo -c inotifytools.cpp  -fPIC -DPIC -o .libs/libinotifytools_la-inotifytools.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../.. -I../../libinotifytools/src/inotifytools -I./inotifytools -O2 -MT libinotifytools_la-redblack.lo -MD -MP -MF .deps/libinotifytools_la-redblack.Tpo -c redblack.cpp  -fPIC -DPIC -o .libs/libinotifytools_la-redblack.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../.. -I../../libinotifytools/src/inotifytools -I./inotifytools -O2 -MT libinotifytools_la-stats.lo -MD -MP -MF .deps/libinotifytools_la-stats.Tpo -c stats.cpp  -fPIC -DPIC -o .libs/libinotifytools_la-stats.o
+Doxygen version used: 1.10.0 (GIT-NOTFOUND)
+Notice: Output directory 'doc' does not exist. I have created it for you.
+Searching for include files...
+Searching for example files...
+Searching for files in directory /blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/
+Searching for images...
+Searching for dot files...
+Searching for msc files...
+Searching for dia files...
+Searching for files to exclude
+Searching INPUT for files to process...
+Reading and parsing tag files
+Parsing files
+Preprocessing /blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools/inotifytools.h...
+Parsing file /blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools/inotifytools.h...
+Preprocessing /blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools.cpp...
+Parsing file /blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools.cpp...
+Building macro definition list...
+Building group list...
+Building directory list...
+Building namespace list...
+Building file list...
+Building class list...
+Building concept list...
+Computing nesting relations for classes...
+Associating documentation with classes...
+Associating documentation with concepts...
+Associating documentation with modules...
+Building example list...
+Searching for enumerations...
+Searching for documented typedefs...
+Searching for members imported via using declarations...
+Searching for included using directives...
+Searching for documented variables...
+Building interface member list...
+Building member list...
+Searching for friends...
+Searching for documented defines...
+Computing class inheritance relations...
+Computing class usage relations...
+Flushing cached template relations that have become invalid...
+Computing class relations...
+Add enum values to enums...
+Searching for member function documentation...
+Creating members for template instances...
+Building page list...
+Search for main page...
+Computing page relations...
+Determining the scope of groups...
+Computing module relations...
+Sorting lists...
+Determining which enums are documented
+Computing member relations...
+Building full member lists recursively...
+Adding members to member groups.
+Computing member references...
+Inheriting documentation...
+Generating disk names...
+Adding source references...
+Adding xrefitems...
+Sorting member lists...
+Setting anonymous enum type...
+Computing dependencies between directories...
+Generating citations page...
+Counting members...
+Counting data structures...
+Resolving user defined references...
+Finding anchors and sections in the documentation...
+Transferring function references...
+Combining using relations...
+Adding members to index pages...
+Correcting members for VHDL...
+Computing tooltip texts...
+Generating style sheet...
+Generating search indices...
+Generating example documentation...
+Generating file sources...
+Generating code for file inotifytools.cpp...
+Generating code for file inotifytools/inotifytools.h...
+Generating file documentation...
+Generating docs for file inotifytools/inotifytools.h...
+Generating page documentation...
+Generating docs for page todo...
+Generating group documentation...
+Generating class documentation...
+Generating docs for compound nstring...
+Generating concept documentation...
+Generating module documentation...
+Generating namespace documentation...
+Generating graph info page...
+Generating directory documentation...
+Generating index page...
+Generating main page...
+Generating page index...
+Generating topic index...
+Generating module index...
+Generating module member index...
+Generating namespace index...
+Generating namespace member index...
+Generating concept index...
+Generating annotated compound index...
+Generating alphabetical compound index...
+Generating hierarchical class index...
+Generating member index...
+Generating file index...
+Generating file member index...
+Generating example index...
+finalizing index lists...
+writing tag file...
+Running plantuml with JAVA...
+type lookup cache used 113/65536 hits=400 misses=116
+symbol lookup cache used 309/65536 hits=1757 misses=309
+finished...
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../.. -I../../libinotifytools/src/inotifytools -I./inotifytools -O2 -MT libinotifytools_la-stats.lo -MD -MP -MF .deps/libinotifytools_la-stats.Tpo -c stats.cpp -o libinotifytools_la-stats.o >/dev/null 2>&1
+mv -f .deps/libinotifytools_la-stats.Tpo .deps/libinotifytools_la-stats.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../.. -I../../libinotifytools/src/inotifytools -I./inotifytools -O2 -MT libinotifytools_la-redblack.lo -MD -MP -MF .deps/libinotifytools_la-redblack.Tpo -c redblack.cpp -o libinotifytools_la-redblack.o >/dev/null 2>&1
+mv -f .deps/libinotifytools_la-redblack.Tpo .deps/libinotifytools_la-redblack.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../.. -I../../libinotifytools/src/inotifytools -I./inotifytools -O2 -MT libinotifytools_la-inotifytools.lo -MD -MP -MF .deps/libinotifytools_la-inotifytools.Tpo -c inotifytools.cpp -o libinotifytools_la-inotifytools.o >/dev/null 2>&1
+mv -f .deps/libinotifytools_la-inotifytools.Tpo .deps/libinotifytools_la-inotifytools.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=link g++ -I./inotifytools -O2  -version-info 4:1:4  -o libinotifytools.la -rpath /usr/lib libinotifytools_la-inotifytools.lo libinotifytools_la-redblack.lo libinotifytools_la-stats.lo  
+libtool: link: g++  -fPIC -DPIC -shared -nostdlib /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.0/crtbeginS.o  .libs/libinotifytools_la-inotifytools.o .libs/libinotifytools_la-redblack.o .libs/libinotifytools_la-stats.o   -Wl,-rpath -Wl,/usr/lib/../lib -Wl,-rpath -Wl,/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.0/../../.. -L/lib -L/usr/lib /usr/lib/../lib/libstdc++.so -lm -lc -lgcc_s /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.0/../../../../lib/crtn.o  -O2   -Wl,-soname -Wl,libinotifytools.so.0 -o .libs/libinotifytools.so.0.4.1
+libtool: link: (cd ".libs" && rm -f "libinotifytools.so.0" && ln -s "libinotifytools.so.0.4.1" "libinotifytools.so.0")
+libtool: link: (cd ".libs" && rm -f "libinotifytools.so" && ln -s "libinotifytools.so.0.4.1" "libinotifytools.so")
+libtool: link: ar cr .libs/libinotifytools.a  libinotifytools_la-inotifytools.o libinotifytools_la-redblack.o libinotifytools_la-stats.o
+libtool: link: ranlib .libs/libinotifytools.a
+libtool: link: ( cd ".libs" && rm -f "libinotifytools.la" && ln -s "../libinotifytools.la" "libinotifytools.la" )
+make[4]: Leaving directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src'
+make[3]: Leaving directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src'
+make[3]: Entering directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools'
+make[2]: Leaving directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools'
+Making all in src
+make[2]: Entering directory '/blfs/builds/inotify-tools-4.25.9.0/src'
+g++ -DHAVE_CONFIG_H -I. -I.. -I../libinotifytools/src/inotifytools  -std=c++17 -fno-exceptions -Wall -Wextra -Wshadow -Werror -I../libinotifytools/src -I./../libinotifytools/src   -O2  -MT inotifywait.o -MD -MP -MF .deps/inotifywait.Tpo -c -o inotifywait.o inotifywait.cpp
+g++ -DHAVE_CONFIG_H -I. -I.. -I../libinotifytools/src/inotifytools  -std=c++17 -fno-exceptions -Wall -Wextra -Wshadow -Werror -I../libinotifytools/src -I./../libinotifytools/src   -O2  -MT common.o -MD -MP -MF .deps/common.Tpo -c -o common.o common.cpp
+g++ -DHAVE_CONFIG_H -I. -I.. -I../libinotifytools/src/inotifytools  -std=c++17 -fno-exceptions -Wall -Wextra -Wshadow -Werror -I../libinotifytools/src -I./../libinotifytools/src   -O2  -MT inotifywatch.o -MD -MP -MF .deps/inotifywatch.Tpo -c -o inotifywatch.o inotifywatch.cpp
+mv -f .deps/common.Tpo .deps/common.Po
+mv -f .deps/inotifywatch.Tpo .deps/inotifywatch.Po
+mv -f .deps/inotifywait.Tpo .deps/inotifywait.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++  -O2    -o inotifywatch inotifywatch.o common.o ../libinotifytools/src/libinotifytools.la 
+/bin/sh ../libtool  --tag=CXX   --mode=link g++  -O2    -o inotifywait inotifywait.o common.o ../libinotifytools/src/libinotifytools.la 
+libtool: link: g++ -O2 -o .libs/inotifywatch inotifywatch.o common.o  ../libinotifytools/src/.libs/libinotifytools.so /usr/lib/../lib/libstdc++.so -lm -Wl,-rpath -Wl,/usr/lib/../lib
+libtool: link: g++ -O2 -o .libs/inotifywait inotifywait.o common.o  ../libinotifytools/src/.libs/libinotifytools.so /usr/lib/../lib/libstdc++.so -lm -Wl,-rpath -Wl,/usr/lib/../lib
+make[2]: Leaving directory '/blfs/builds/inotify-tools-4.25.9.0/src'
+Making all in man
+make[2]: Entering directory '/blfs/builds/inotify-tools-4.25.9.0/man'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/blfs/builds/inotify-tools-4.25.9.0/man'
+make[2]: Entering directory '/blfs/builds/inotify-tools-4.25.9.0'
+make[2]: Leaving directory '/blfs/builds/inotify-tools-4.25.9.0'
+make[1]: Leaving directory '/blfs/builds/inotify-tools-4.25.9.0'
+Making install in libinotifytools
+make[1]: Entering directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools'
+Making install in src
+make[2]: Entering directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src'
+Making install in inotifytools
+make[3]: Entering directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools'
+make[4]: Entering directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools'
+make[3]: Leaving directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools'
+make[3]: Entering directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src'
+make[4]: Entering directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src'
+ /usr/bin/mkdir -p '/pkgs/inotify-tools/usr/lib'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libinotifytools.la '/pkgs/inotify-tools/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libinotifytools.so.0.4.1 /pkgs/inotify-tools/usr/lib/libinotifytools.so.0.4.1
+libtool: install: (cd /pkgs/inotify-tools/usr/lib && { ln -s -f libinotifytools.so.0.4.1 libinotifytools.so.0 || { rm -f libinotifytools.so.0 && ln -s libinotifytools.so.0.4.1 libinotifytools.so.0; }; })
+libtool: install: (cd /pkgs/inotify-tools/usr/lib && { ln -s -f libinotifytools.so.0.4.1 libinotifytools.so || { rm -f libinotifytools.so && ln -s libinotifytools.so.0.4.1 libinotifytools.so; }; })
+libtool: install: /usr/bin/install -c .libs/libinotifytools.lai /pkgs/inotify-tools/usr/lib/libinotifytools.la
+libtool: install: /usr/bin/install -c .libs/libinotifytools.a /pkgs/inotify-tools/usr/lib/libinotifytools.a
+libtool: install: chmod 644 /pkgs/inotify-tools/usr/lib/libinotifytools.a
+libtool: install: ranlib /pkgs/inotify-tools/usr/lib/libinotifytools.a
+libtool: warning: remember to run 'libtool --finish /usr/lib'
+ /usr/bin/mkdir -p '/pkgs/inotify-tools/usr/share/doc/inotify-tools'
+ /usr/bin/install -c -m 644 doc/html/annotated.html doc/html/bc_sd.png doc/html/bc_s.png doc/html/classes.html doc/html/clipboard.js doc/html/closed.png doc/html/dir_6f9162800bb6dbbe5c86171e8602f383.html doc/html/docd.svg doc/html/doc.svg doc/html/doxygen_crawl.html doc/html/doxygen.css doc/html/doxygen.svg doc/html/dynsections.js doc/html/files.html doc/html/folderclosedd.svg doc/html/folderclosed.svg doc/html/folderopend.svg doc/html/folderopen.svg doc/html/functions.html doc/html/functions_vars.html doc/html/globals_func.html doc/html/globals.html doc/html/index.html doc/html/inotifytools_8cpp_source.html doc/html/inotifytools_8h.html doc/html/inotifytools_8h_source.html doc/html/jquery.js doc/html/menudata.js doc/html/menu.js doc/html/minusd.svg doc/html/minus.svg doc/html/nav_fd.png doc/html/nav_f.png doc/html/nav_g.png doc/html/nav_hd.png doc/html/nav_h.png doc/html/open.png doc/html/pages.html doc/html/plusd.svg doc/html/plus.svg '/pkgs/inotify-tools/usr/share/doc/inotify-tools'
+ /usr/bin/install -c -m 644 doc/html/splitbard.png doc/html/splitbar.png doc/html/structnstring.html doc/html/structnstring-members.html doc/html/sync_off.png doc/html/sync_on.png doc/html/tab_ad.png doc/html/tab_a.png doc/html/tab_bd.png doc/html/tab_b.png doc/html/tab_hd.png doc/html/tab_h.png doc/html/tabs.css doc/html/tab_sd.png doc/html/tab_s.png doc/html/todo.html '/pkgs/inotify-tools/usr/share/doc/inotify-tools'
+ /usr/bin/mkdir -p '/pkgs/inotify-tools/usr/include'
+ /usr/bin/mkdir -p '/pkgs/inotify-tools/usr/include/inotifytools'
+ /usr/bin/install -c -m 644  inotifytools/inotifytools.h inotifytools/inotify-nosys.h inotifytools/inotify.h inotifytools/fanotify-dfid-name.h inotifytools/fanotify.h '/pkgs/inotify-tools/usr/include/inotifytools'
+make[4]: Leaving directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src'
+make[3]: Leaving directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src'
+make[2]: Leaving directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src'
+make[2]: Entering directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools'
+make[3]: Entering directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools'
+make[2]: Leaving directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools'
+make[1]: Leaving directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools'
+Making install in src
+make[1]: Entering directory '/blfs/builds/inotify-tools-4.25.9.0/src'
+make[2]: Entering directory '/blfs/builds/inotify-tools-4.25.9.0/src'
+ /usr/bin/mkdir -p '/pkgs/inotify-tools/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c inotifywait inotifywatch '/pkgs/inotify-tools/usr/bin'
+libtool: install: /usr/bin/install -c .libs/inotifywait /pkgs/inotify-tools/usr/bin/inotifywait
+libtool: install: /usr/bin/install -c .libs/inotifywatch /pkgs/inotify-tools/usr/bin/inotifywatch
+make  install-exec-hook
+make[3]: Entering directory '/blfs/builds/inotify-tools-4.25.9.0/src'
+cd /pkgs/inotify-tools/usr/bin && \
+ln -s inotifywait fsnotifywait && \
+ln -s inotifywatch fsnotifywatch
+make[3]: Leaving directory '/blfs/builds/inotify-tools-4.25.9.0/src'
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/blfs/builds/inotify-tools-4.25.9.0/src'
+make[1]: Leaving directory '/blfs/builds/inotify-tools-4.25.9.0/src'
+Making install in man
+make[1]: Entering directory '/blfs/builds/inotify-tools-4.25.9.0/man'
+make[2]: Entering directory '/blfs/builds/inotify-tools-4.25.9.0/man'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/pkgs/inotify-tools/usr/share/man/man1'
+ /usr/bin/install -c -m 644 inotifywait.1 inotifywatch.1 fsnotifywait.1 fsnotifywatch.1 '/pkgs/inotify-tools/usr/share/man/man1'
+make[2]: Leaving directory '/blfs/builds/inotify-tools-4.25.9.0/man'
+make[1]: Leaving directory '/blfs/builds/inotify-tools-4.25.9.0/man'
+make[1]: Entering directory '/blfs/builds/inotify-tools-4.25.9.0'
+make[2]: Entering directory '/blfs/builds/inotify-tools-4.25.9.0'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/blfs/builds/inotify-tools-4.25.9.0'
+make[1]: Leaving directory '/blfs/builds/inotify-tools-4.25.9.0'
+Making install in libinotifytools
+make[1]: Entering directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools'
+Making install in src
+make[2]: Entering directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src'
+Making install in inotifytools
+make[3]: Entering directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools'
+make[4]: Entering directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools'
+make[3]: Leaving directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src/inotifytools'
+make[3]: Entering directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src'
+make[4]: Entering directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src'
+ /usr/bin/mkdir -p '/usr/lib'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libinotifytools.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libinotifytools.so.0.4.1 /usr/lib/libinotifytools.so.0.4.1
+libtool: install: (cd /usr/lib && { ln -s -f libinotifytools.so.0.4.1 libinotifytools.so.0 || { rm -f libinotifytools.so.0 && ln -s libinotifytools.so.0.4.1 libinotifytools.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libinotifytools.so.0.4.1 libinotifytools.so || { rm -f libinotifytools.so && ln -s libinotifytools.so.0.4.1 libinotifytools.so; }; })
+libtool: install: /usr/bin/install -c .libs/libinotifytools.lai /usr/lib/libinotifytools.la
+libtool: install: /usr/bin/install -c .libs/libinotifytools.a /usr/lib/libinotifytools.a
+libtool: install: chmod 644 /usr/lib/libinotifytools.a
+libtool: install: ranlib /usr/lib/libinotifytools.a
+libtool: finish: PATH="/usr/sbin:/usr/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /usr/bin/mkdir -p '/usr/share/doc/inotify-tools'
+ /usr/bin/install -c -m 644 doc/html/annotated.html doc/html/bc_sd.png doc/html/bc_s.png doc/html/classes.html doc/html/clipboard.js doc/html/closed.png doc/html/dir_6f9162800bb6dbbe5c86171e8602f383.html doc/html/docd.svg doc/html/doc.svg doc/html/doxygen_crawl.html doc/html/doxygen.css doc/html/doxygen.svg doc/html/dynsections.js doc/html/files.html doc/html/folderclosedd.svg doc/html/folderclosed.svg doc/html/folderopend.svg doc/html/folderopen.svg doc/html/functions.html doc/html/functions_vars.html doc/html/globals_func.html doc/html/globals.html doc/html/index.html doc/html/inotifytools_8cpp_source.html doc/html/inotifytools_8h.html doc/html/inotifytools_8h_source.html doc/html/jquery.js doc/html/menudata.js doc/html/menu.js doc/html/minusd.svg doc/html/minus.svg doc/html/nav_fd.png doc/html/nav_f.png doc/html/nav_g.png doc/html/nav_hd.png doc/html/nav_h.png doc/html/open.png doc/html/pages.html doc/html/plusd.svg doc/html/plus.svg '/usr/share/doc/inotify-tools'
+ /usr/bin/install -c -m 644 doc/html/splitbard.png doc/html/splitbar.png doc/html/structnstring.html doc/html/structnstring-members.html doc/html/sync_off.png doc/html/sync_on.png doc/html/tab_ad.png doc/html/tab_a.png doc/html/tab_bd.png doc/html/tab_b.png doc/html/tab_hd.png doc/html/tab_h.png doc/html/tabs.css doc/html/tab_sd.png doc/html/tab_s.png doc/html/todo.html '/usr/share/doc/inotify-tools'
+ /usr/bin/mkdir -p '/usr/include'
+ /usr/bin/mkdir -p '/usr/include/inotifytools'
+ /usr/bin/install -c -m 644  inotifytools/inotifytools.h inotifytools/inotify-nosys.h inotifytools/inotify.h inotifytools/fanotify-dfid-name.h inotifytools/fanotify.h '/usr/include/inotifytools'
+make[4]: Leaving directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src'
+make[3]: Leaving directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src'
+make[2]: Leaving directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools/src'
+make[2]: Entering directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools'
+make[3]: Entering directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools'
+make[2]: Leaving directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools'
+make[1]: Leaving directory '/blfs/builds/inotify-tools-4.25.9.0/libinotifytools'
+Making install in src
+make[1]: Entering directory '/blfs/builds/inotify-tools-4.25.9.0/src'
+make[2]: Entering directory '/blfs/builds/inotify-tools-4.25.9.0/src'
+ /usr/bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c inotifywait inotifywatch '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/inotifywait /usr/bin/inotifywait
+libtool: install: /usr/bin/install -c .libs/inotifywatch /usr/bin/inotifywatch
+make  install-exec-hook
+make[3]: Entering directory '/blfs/builds/inotify-tools-4.25.9.0/src'
+cd /usr/bin && \
+ln -s inotifywait fsnotifywait && \
+ln -s inotifywatch fsnotifywatch
+ln: failed to create symbolic link 'fsnotifywait': File exists
+make[3]: *** [Makefile:689: install-exec-hook] Error 1
+make[3]: Leaving directory '/blfs/builds/inotify-tools-4.25.9.0/src'
+make[2]: *** [Makefile:624: install-exec-am] Error 2
+make[2]: Leaving directory '/blfs/builds/inotify-tools-4.25.9.0/src'
+make[1]: *** [Makefile:568: install-am] Error 2
+make[1]: Leaving directory '/blfs/builds/inotify-tools-4.25.9.0/src'
+make: *** [Makefile:418: install-recursive] Error 1
