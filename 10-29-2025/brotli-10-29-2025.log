@@ -1,0 +1,378 @@
+--2025-10-29 11:42:06--  https://github.com/google/brotli/archive/v1.2.0/brotli-1.2.0.tar.gz
+Resolving github.com (github.com)... 140.82.114.3
+Connecting to github.com (github.com)|140.82.114.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://codeload.github.com/google/brotli/tar.gz/refs/tags/v1.2.0 [following]
+--2025-10-29 11:42:06--  https://codeload.github.com/google/brotli/tar.gz/refs/tags/v1.2.0
+Resolving codeload.github.com (codeload.github.com)... 140.82.113.10
+Connecting to codeload.github.com (codeload.github.com)|140.82.113.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 646315 (631K) [application/x-gzip]
+Saving to: ‘brotli-1.2.0.tar.gz’
+
+     0K .......... .......... .......... .......... ..........  7% 1.94M 0s
+    50K .......... .......... .......... .......... .......... 15% 4.12M 0s
+   100K .......... .......... .......... .......... .......... 23% 64.2M 0s
+   150K .......... .......... .......... .......... .......... 31% 4.16M 0s
+   200K .......... .......... .......... .......... .......... 39% 85.3M 0s
+   250K .......... .......... .......... .......... .......... 47% 4.24M 0s
+   300K .......... .......... .......... .......... .......... 55% 4.18M 0s
+   350K .......... .......... .......... .......... .......... 63% 96.9M 0s
+   400K .......... .......... .......... .......... .......... 71% 4.17M 0s
+   450K .......... .......... .......... .......... .......... 79% 4.20M 0s
+   500K .......... .......... .......... .......... .......... 87% 54.1M 0s
+   550K .......... .......... .......... .......... .......... 95%  116M 0s
+   600K .......... .......... .......... .                    100% 2.91M=0.1s
+
+2025-10-29 11:42:06 (5.66 MB/s) - ‘brotli-1.2.0.tar.gz’ saved [646315/646315]
+
+brotli-1.2.0/
+brotli-1.2.0/.bazelignore
+brotli-1.2.0/BUILD.bazel
+brotli-1.2.0/CHANGELOG.md
+brotli-1.2.0/CMakeLists.txt
+brotli-1.2.0/CONTRIBUTING.md
+brotli-1.2.0/LICENSE
+brotli-1.2.0/MANIFEST.in
+brotli-1.2.0/README
+brotli-1.2.0/README.md
+brotli-1.2.0/SECURITY.md
+brotli-1.2.0/c/
+brotli-1.2.0/c/common/
+brotli-1.2.0/c/common/constants.c
+brotli-1.2.0/c/common/constants.h
+brotli-1.2.0/c/common/context.c
+brotli-1.2.0/c/common/context.h
+brotli-1.2.0/c/common/dictionary.c
+brotli-1.2.0/c/common/dictionary.h
+brotli-1.2.0/c/common/dictionary_inc.h
+brotli-1.2.0/c/common/platform.c
+brotli-1.2.0/c/common/platform.h
+brotli-1.2.0/c/common/shared_dictionary.c
+brotli-1.2.0/c/common/shared_dictionary_internal.h
+brotli-1.2.0/c/common/static_init.h
+brotli-1.2.0/c/common/transform.c
+brotli-1.2.0/c/common/transform.h
+brotli-1.2.0/c/common/version.h
+brotli-1.2.0/c/dec/
+brotli-1.2.0/c/dec/bit_reader.c
+brotli-1.2.0/c/dec/bit_reader.h
+brotli-1.2.0/c/dec/decode.c
+brotli-1.2.0/c/dec/huffman.c
+brotli-1.2.0/c/dec/huffman.h
+brotli-1.2.0/c/dec/prefix.c
+brotli-1.2.0/c/dec/prefix.h
+brotli-1.2.0/c/dec/prefix_inc.h
+brotli-1.2.0/c/dec/state.c
+brotli-1.2.0/c/dec/state.h
+brotli-1.2.0/c/dec/static_init.c
+brotli-1.2.0/c/dec/static_init.h
+brotli-1.2.0/c/enc/
+brotli-1.2.0/c/enc/backward_references.c
+brotli-1.2.0/c/enc/backward_references.h
+brotli-1.2.0/c/enc/backward_references_hq.c
+brotli-1.2.0/c/enc/backward_references_hq.h
+brotli-1.2.0/c/enc/backward_references_inc.h
+brotli-1.2.0/c/enc/bit_cost.c
+brotli-1.2.0/c/enc/bit_cost.h
+brotli-1.2.0/c/enc/bit_cost_inc.h
+brotli-1.2.0/c/enc/block_encoder_inc.h
+brotli-1.2.0/c/enc/block_splitter.c
+brotli-1.2.0/c/enc/block_splitter.h
+brotli-1.2.0/c/enc/block_splitter_inc.h
+brotli-1.2.0/c/enc/brotli_bit_stream.c
+brotli-1.2.0/c/enc/brotli_bit_stream.h
+brotli-1.2.0/c/enc/cluster.c
+brotli-1.2.0/c/enc/cluster.h
+brotli-1.2.0/c/enc/cluster_inc.h
+brotli-1.2.0/c/enc/command.c
+brotli-1.2.0/c/enc/command.h
+brotli-1.2.0/c/enc/compound_dictionary.c
+brotli-1.2.0/c/enc/compound_dictionary.h
+brotli-1.2.0/c/enc/compress_fragment.c
+brotli-1.2.0/c/enc/compress_fragment.h
+brotli-1.2.0/c/enc/compress_fragment_two_pass.c
+brotli-1.2.0/c/enc/compress_fragment_two_pass.h
+brotli-1.2.0/c/enc/dictionary_hash.c
+brotli-1.2.0/c/enc/dictionary_hash.h
+brotli-1.2.0/c/enc/dictionary_hash_inc.h
+brotli-1.2.0/c/enc/encode.c
+brotli-1.2.0/c/enc/encoder_dict.c
+brotli-1.2.0/c/enc/encoder_dict.h
+brotli-1.2.0/c/enc/entropy_encode.c
+brotli-1.2.0/c/enc/entropy_encode.h
+brotli-1.2.0/c/enc/entropy_encode_static.h
+brotli-1.2.0/c/enc/fast_log.c
+brotli-1.2.0/c/enc/fast_log.h
+brotli-1.2.0/c/enc/find_match_length.h
+brotli-1.2.0/c/enc/hash.h
+brotli-1.2.0/c/enc/hash_base.h
+brotli-1.2.0/c/enc/hash_composite_inc.h
+brotli-1.2.0/c/enc/hash_forgetful_chain_inc.h
+brotli-1.2.0/c/enc/hash_longest_match64_inc.h
+brotli-1.2.0/c/enc/hash_longest_match64_simd_inc.h
+brotli-1.2.0/c/enc/hash_longest_match_inc.h
+brotli-1.2.0/c/enc/hash_longest_match_quickly_inc.h
+brotli-1.2.0/c/enc/hash_longest_match_simd_inc.h
+brotli-1.2.0/c/enc/hash_rolling_inc.h
+brotli-1.2.0/c/enc/hash_to_binary_tree_inc.h
+brotli-1.2.0/c/enc/histogram.c
+brotli-1.2.0/c/enc/histogram.h
+brotli-1.2.0/c/enc/histogram_inc.h
+brotli-1.2.0/c/enc/literal_cost.c
+brotli-1.2.0/c/enc/literal_cost.h
+brotli-1.2.0/c/enc/matching_tag_mask.h
+brotli-1.2.0/c/enc/memory.c
+brotli-1.2.0/c/enc/memory.h
+brotli-1.2.0/c/enc/metablock.c
+brotli-1.2.0/c/enc/metablock.h
+brotli-1.2.0/c/enc/metablock_inc.h
+brotli-1.2.0/c/enc/params.h
+brotli-1.2.0/c/enc/prefix.h
+brotli-1.2.0/c/enc/quality.h
+brotli-1.2.0/c/enc/ringbuffer.h
+brotli-1.2.0/c/enc/state.h
+brotli-1.2.0/c/enc/static_dict.c
+brotli-1.2.0/c/enc/static_dict.h
+brotli-1.2.0/c/enc/static_dict_lut.c
+brotli-1.2.0/c/enc/static_dict_lut.h
+brotli-1.2.0/c/enc/static_dict_lut_inc.h
+brotli-1.2.0/c/enc/static_init.c
+brotli-1.2.0/c/enc/static_init.h
+brotli-1.2.0/c/enc/static_init_lazy.cc
+brotli-1.2.0/c/enc/utf8_util.c
+brotli-1.2.0/c/enc/utf8_util.h
+brotli-1.2.0/c/enc/write_bits.h
+brotli-1.2.0/c/include/
+brotli-1.2.0/c/include/brotli/
+brotli-1.2.0/c/include/brotli/decode.h
+brotli-1.2.0/c/include/brotli/encode.h
+brotli-1.2.0/c/include/brotli/port.h
+brotli-1.2.0/c/include/brotli/shared_dictionary.h
+brotli-1.2.0/c/include/brotli/types.h
+brotli-1.2.0/c/tools/
+brotli-1.2.0/c/tools/brotli.c
+brotli-1.2.0/c/tools/brotli.md
+brotli-1.2.0/docs/
+brotli-1.2.0/docs/brotli.1
+brotli-1.2.0/docs/brotli.svg
+brotli-1.2.0/docs/constants.h.3
+brotli-1.2.0/docs/decode.h.3
+brotli-1.2.0/docs/encode.h.3
+brotli-1.2.0/docs/types.h.3
+brotli-1.2.0/go/
+brotli-1.2.0/go/BUILD.bazel
+brotli-1.2.0/go/MODULE.bazel
+brotli-1.2.0/go/MODULE.bazel.lock
+brotli-1.2.0/go/brotli/
+brotli-1.2.0/go/brotli/BUILD.bazel
+brotli-1.2.0/go/brotli/brotli_test.go
+brotli-1.2.0/go/brotli/decode.go
+brotli-1.2.0/go/brotli/go.mod
+brotli-1.2.0/go/brotli/reader.go
+brotli-1.2.0/go/brotli/synth_test.go
+brotli-1.2.0/go/cbrotli/
+brotli-1.2.0/go/cbrotli/BUILD.bazel
+brotli-1.2.0/go/cbrotli/cbrotli_test.go
+brotli-1.2.0/go/cbrotli/cgo.go
+brotli-1.2.0/go/cbrotli/go.mod
+brotli-1.2.0/go/cbrotli/reader.go
+brotli-1.2.0/go/cbrotli/synth_test.go
+brotli-1.2.0/go/cbrotli/writer.go
+brotli-1.2.0/python/
+brotli-1.2.0/python/Makefile
+brotli-1.2.0/python/README.md
+brotli-1.2.0/python/_brotli.c
+brotli-1.2.0/python/bro.py
+brotli-1.2.0/python/brotli.py
+brotli-1.2.0/python/tests/
+brotli-1.2.0/python/tests/__init__.py
+brotli-1.2.0/python/tests/_test_utils.py
+brotli-1.2.0/python/tests/bro_test.py
+brotli-1.2.0/python/tests/compress_test.py
+brotli-1.2.0/python/tests/compressor_test.py
+brotli-1.2.0/python/tests/decompress_test.py
+brotli-1.2.0/python/tests/decompressor_test.py
+brotli-1.2.0/scripts/
+brotli-1.2.0/scripts/download_testdata.sh
+brotli-1.2.0/scripts/libbrotlicommon.pc.in
+brotli-1.2.0/scripts/libbrotlidec.pc.in
+brotli-1.2.0/scripts/libbrotlienc.pc.in
+brotli-1.2.0/setup.cfg
+brotli-1.2.0/setup.py
+brotli-1.2.0/tests/
+brotli-1.2.0/tests/cli_test.sh
+brotli-1.2.0/tests/run-compatibility-test.cmake
+brotli-1.2.0/tests/run-roundtrip-test.cmake
+brotli-1.2.0/tests/testdata/
+brotli-1.2.0/tests/testdata/empty
+brotli-1.2.0/tests/testdata/empty.compressed
+brotli-1.2.0/tests/testdata/ukkonooa
+brotli-1.2.0/tests/testdata/ukkonooa.compressed
+brotli-1.2.0/tests/testdata/zerosukkanooa.compressed
+-- The C compiler identification is GNU 15.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Build type is 'Release'
+-- Performing Test BROTLI_EMSCRIPTEN
+-- Performing Test BROTLI_EMSCRIPTEN - Failed
+-- Compiler is not EMSCRIPTEN
+-- Looking for log2 in m
+-- Looking for log2 in m - found
+Test file tests/testdata/alice29.txt does not exist; OK on tarball builds; consider running scripts/download_testdata.sh before configuring.
+Test file tests/testdata/asyoulik.txt does not exist; OK on tarball builds; consider running scripts/download_testdata.sh before configuring.
+Test file tests/testdata/lcet10.txt does not exist; OK on tarball builds; consider running scripts/download_testdata.sh before configuring.
+Test file tests/testdata/plrabn12.txt does not exist; OK on tarball builds; consider running scripts/download_testdata.sh before configuring.
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /blfs/builds/brotli-1.2.0/out
+[  2%] Building C object CMakeFiles/brotlicommon.dir/c/common/context.c.o
+[  5%] Building C object CMakeFiles/brotlicommon.dir/c/common/platform.c.o
+[  7%] Building C object CMakeFiles/brotlicommon.dir/c/common/shared_dictionary.c.o
+[ 10%] Building C object CMakeFiles/brotlicommon.dir/c/common/transform.c.o
+[ 12%] Building C object CMakeFiles/brotlicommon.dir/c/common/constants.c.o
+[ 15%] Building C object CMakeFiles/brotlicommon.dir/c/common/dictionary.c.o
+[ 17%] Linking C shared library libbrotlicommon.so
+[ 17%] Built target brotlicommon
+[ 25%] Building C object CMakeFiles/brotlidec.dir/c/dec/bit_reader.c.o
+[ 25%] Building C object CMakeFiles/brotlidec.dir/c/dec/huffman.c.o
+[ 25%] Building C object CMakeFiles/brotlidec.dir/c/dec/decode.c.o
+[ 32%] Building C object CMakeFiles/brotlidec.dir/c/dec/state.c.o
+[ 32%] Building C object CMakeFiles/brotlidec.dir/c/dec/static_init.c.o
+[ 32%] Building C object CMakeFiles/brotlienc.dir/c/enc/bit_cost.c.o
+[ 40%] Building C object CMakeFiles/brotlienc.dir/c/enc/backward_references.c.o
+[ 40%] Building C object CMakeFiles/brotlienc.dir/c/enc/backward_references_hq.c.o
+[ 40%] Building C object CMakeFiles/brotlidec.dir/c/dec/prefix.c.o
+[ 42%] Building C object CMakeFiles/brotlienc.dir/c/enc/block_splitter.c.o
+[ 50%] Building C object CMakeFiles/brotlienc.dir/c/enc/brotli_bit_stream.c.o
+[ 50%] Building C object CMakeFiles/brotlienc.dir/c/enc/command.c.o
+[ 52%] Building C object CMakeFiles/brotlienc.dir/c/enc/compound_dictionary.c.o
+[ 52%] Building C object CMakeFiles/brotlienc.dir/c/enc/cluster.c.o
+[ 55%] Building C object CMakeFiles/brotlienc.dir/c/enc/compress_fragment.c.o
+[ 57%] Building C object CMakeFiles/brotlienc.dir/c/enc/compress_fragment_two_pass.c.o
+[ 60%] Building C object CMakeFiles/brotlienc.dir/c/enc/dictionary_hash.c.o
+[ 62%] Building C object CMakeFiles/brotlienc.dir/c/enc/encode.c.o
+[ 65%] Building C object CMakeFiles/brotlienc.dir/c/enc/encoder_dict.c.o
+[ 67%] Building C object CMakeFiles/brotlienc.dir/c/enc/entropy_encode.c.o
+[ 70%] Building C object CMakeFiles/brotlienc.dir/c/enc/fast_log.c.o
+[ 72%] Building C object CMakeFiles/brotlienc.dir/c/enc/histogram.c.o
+[ 75%] Building C object CMakeFiles/brotlienc.dir/c/enc/literal_cost.c.o
+[ 77%] Building C object CMakeFiles/brotlienc.dir/c/enc/memory.c.o
+[ 80%] Building C object CMakeFiles/brotlienc.dir/c/enc/metablock.c.o
+[ 82%] Building C object CMakeFiles/brotlienc.dir/c/enc/static_dict.c.o
+[ 85%] Building C object CMakeFiles/brotlienc.dir/c/enc/static_dict_lut.c.o
+[ 87%] Building C object CMakeFiles/brotlienc.dir/c/enc/static_init.c.o
+[ 90%] Building C object CMakeFiles/brotlienc.dir/c/enc/utf8_util.c.o
+[ 92%] Linking C shared library libbrotlidec.so
+[ 92%] Built target brotlidec
+[ 95%] Linking C shared library libbrotlienc.so
+[ 95%] Built target brotlienc
+[ 97%] Building C object CMakeFiles/brotli.dir/c/tools/brotli.c.o
+[100%] Linking C executable brotli
+[100%] Built target brotli
+[ 17%] Built target brotlicommon
+[ 35%] Built target brotlidec
+[ 95%] Built target brotlienc
+[100%] Built target brotli
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /pkgs/brotli/usr/bin/brotli
+-- Set non-toolchain portion of runtime path of "/pkgs/brotli/usr/bin/brotli" to ""
+-- Installing: /pkgs/brotli/usr/lib/libbrotlienc.so.1.2.0
+-- Installing: /pkgs/brotli/usr/lib/libbrotlienc.so.1
+-- Set non-toolchain portion of runtime path of "/pkgs/brotli/usr/lib/libbrotlienc.so.1.2.0" to ""
+-- Installing: /pkgs/brotli/usr/lib/libbrotlienc.so
+-- Installing: /pkgs/brotli/usr/lib/libbrotlidec.so.1.2.0
+-- Installing: /pkgs/brotli/usr/lib/libbrotlidec.so.1
+-- Set non-toolchain portion of runtime path of "/pkgs/brotli/usr/lib/libbrotlidec.so.1.2.0" to ""
+-- Installing: /pkgs/brotli/usr/lib/libbrotlidec.so
+-- Installing: /pkgs/brotli/usr/lib/libbrotlicommon.so.1.2.0
+-- Installing: /pkgs/brotli/usr/lib/libbrotlicommon.so.1
+-- Installing: /pkgs/brotli/usr/lib/libbrotlicommon.so
+-- Installing: /pkgs/brotli/usr/include/brotli
+-- Installing: /pkgs/brotli/usr/include/brotli/port.h
+-- Installing: /pkgs/brotli/usr/include/brotli/types.h
+-- Installing: /pkgs/brotli/usr/include/brotli/encode.h
+-- Installing: /pkgs/brotli/usr/include/brotli/shared_dictionary.h
+-- Installing: /pkgs/brotli/usr/include/brotli/decode.h
+-- Installing: /pkgs/brotli/usr/lib/pkgconfig/libbrotlicommon.pc
+-- Installing: /pkgs/brotli/usr/lib/pkgconfig/libbrotlidec.pc
+-- Installing: /pkgs/brotli/usr/lib/pkgconfig/libbrotlienc.pc
+-- Installing: /pkgs/brotli/usr/share/man/man1/brotli.1
+-- Installing: /pkgs/brotli/usr/share/man/man3/constants.h.3
+-- Installing: /pkgs/brotli/usr/share/man/man3/decode.h.3
+-- Installing: /pkgs/brotli/usr/share/man/man3/encode.h.3
+-- Installing: /pkgs/brotli/usr/share/man/man3/types.h.3
+[ 17%] Built target brotlicommon
+[ 35%] Built target brotlidec
+[ 95%] Built target brotlienc
+[100%] Built target brotli
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /usr/bin/brotli
+-- Set non-toolchain portion of runtime path of "/usr/bin/brotli" to ""
+-- Installing: /usr/lib/libbrotlienc.so.1.2.0
+-- Installing: /usr/lib/libbrotlienc.so.1
+-- Set non-toolchain portion of runtime path of "/usr/lib/libbrotlienc.so.1.2.0" to ""
+-- Up-to-date: /usr/lib/libbrotlienc.so
+-- Installing: /usr/lib/libbrotlidec.so.1.2.0
+-- Installing: /usr/lib/libbrotlidec.so.1
+-- Set non-toolchain portion of runtime path of "/usr/lib/libbrotlidec.so.1.2.0" to ""
+-- Up-to-date: /usr/lib/libbrotlidec.so
+-- Installing: /usr/lib/libbrotlicommon.so.1.2.0
+-- Installing: /usr/lib/libbrotlicommon.so.1
+-- Up-to-date: /usr/lib/libbrotlicommon.so
+-- Up-to-date: /usr/include/brotli
+-- Installing: /usr/include/brotli/port.h
+-- Installing: /usr/include/brotli/types.h
+-- Installing: /usr/include/brotli/encode.h
+-- Installing: /usr/include/brotli/shared_dictionary.h
+-- Installing: /usr/include/brotli/decode.h
+-- Installing: /usr/lib/pkgconfig/libbrotlicommon.pc
+-- Installing: /usr/lib/pkgconfig/libbrotlidec.pc
+-- Installing: /usr/lib/pkgconfig/libbrotlienc.pc
+-- Installing: /usr/share/man/man1/brotli.1
+-- Installing: /usr/share/man/man3/constants.h.3
+-- Installing: /usr/share/man/man3/decode.h.3
+-- Installing: /usr/share/man/man3/encode.h.3
+-- Installing: /usr/share/man/man3/types.h.3
+brotli/
+brotli/usr/
+brotli/usr/include/
+brotli/usr/include/brotli/
+brotli/usr/include/brotli/port.h
+brotli/usr/include/brotli/types.h
+brotli/usr/include/brotli/encode.h
+brotli/usr/include/brotli/shared_dictionary.h
+brotli/usr/include/brotli/decode.h
+brotli/usr/share/
+brotli/usr/share/man/
+brotli/usr/share/man/man1/
+brotli/usr/share/man/man1/brotli.1
+brotli/usr/share/man/man3/
+brotli/usr/share/man/man3/constants.h.3
+brotli/usr/share/man/man3/decode.h.3
+brotli/usr/share/man/man3/types.h.3
+brotli/usr/share/man/man3/encode.h.3
+brotli/usr/bin/
+brotli/usr/bin/brotli
+brotli/usr/lib/
+brotli/usr/lib/libbrotlienc.so
+brotli/usr/lib/libbrotlienc.so.1
+brotli/usr/lib/libbrotlidec.so
+brotli/usr/lib/libbrotlicommon.so.1.2.0
+brotli/usr/lib/libbrotlicommon.so
+brotli/usr/lib/libbrotlienc.so.1.2.0
+brotli/usr/lib/libbrotlicommon.so.1
+brotli/usr/lib/pkgconfig/
+brotli/usr/lib/pkgconfig/libbrotlidec.pc
+brotli/usr/lib/pkgconfig/libbrotlienc.pc
+brotli/usr/lib/pkgconfig/libbrotlicommon.pc
+brotli/usr/lib/libbrotlidec.so.1
+brotli/usr/lib/libbrotlidec.so.1.2.0
+brotli/version
+brotli/depends
+brotli/make-depends

@@ -1,0 +1,1007 @@
+--2025-10-29 12:46:17--  https://download.gnome.org/sources/pygobject/3.54/pygobject-3.54.5.tar.gz
+Resolving download.gnome.org (download.gnome.org)... 2a02:6ea0:c400::54, 2a02:6ea0:c400::53, 79.127.206.207, ...
+Connecting to download.gnome.org (download.gnome.org)|2a02:6ea0:c400::54|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1274658 (1.2M) [application/octet-stream]
+Saving to: ‘pygobject-3.54.5.tar.gz’
+
+     0K .......... .......... .......... .......... ..........  4% 3.11M 0s
+    50K .......... .......... .......... .......... ..........  8% 10.1M 0s
+   100K .......... .......... .......... .......... .......... 12% 8.42M 0s
+   150K .......... .......... .......... .......... .......... 16% 14.3M 0s
+   200K .......... .......... .......... .......... .......... 20% 13.4M 0s
+   250K .......... .......... .......... .......... .......... 24% 16.0M 0s
+   300K .......... .......... .......... .......... .......... 28% 12.0M 0s
+   350K .......... .......... .......... .......... .......... 32% 39.0M 0s
+   400K .......... .......... .......... .......... .......... 36% 15.9M 0s
+   450K .......... .......... .......... .......... .......... 40% 13.8M 0s
+   500K .......... .......... .......... .......... .......... 44% 87.4M 0s
+   550K .......... .......... .......... .......... .......... 48% 59.6M 0s
+   600K .......... .......... .......... .......... .......... 52% 54.1M 0s
+   650K .......... .......... .......... .......... .......... 56% 26.1M 0s
+   700K .......... .......... .......... .......... .......... 60% 12.5M 0s
+   750K .......... .......... .......... .......... .......... 64% 83.1M 0s
+   800K .......... .......... .......... .......... .......... 68% 83.2M 0s
+   850K .......... .......... .......... .......... .......... 72% 17.6M 0s
+   900K .......... .......... .......... .......... .......... 76% 81.9M 0s
+   950K .......... .......... .......... .......... .......... 80%  171M 0s
+  1000K .......... .......... .......... .......... .......... 84% 61.8M 0s
+  1050K .......... .......... .......... .......... .......... 88% 68.5M 0s
+  1100K .......... .......... .......... .......... .......... 92% 24.1M 0s
+  1150K .......... .......... .......... .......... .......... 96%  110M 0s
+  1200K .......... .......... .......... .......... ....      100%  225M=0.07s
+
+2025-10-29 12:46:17 (18.6 MB/s) - ‘pygobject-3.54.5.tar.gz’ saved [1274658/1274658]
+
+pygobject-3.54.5/.clang-format
+pygobject-3.54.5/.coveragerc
+pygobject-3.54.5/.git-blame-ignore-revs
+pygobject-3.54.5/.gitignore
+pygobject-3.54.5/.gitlab-ci/Dockerfile
+pygobject-3.54.5/.gitlab-ci/README.rst
+pygobject-3.54.5/.gitlab-ci/build-sdists.sh
+pygobject-3.54.5/.gitlab-ci/coverage-docker.sh
+pygobject-3.54.5/.gitlab-ci/fixup-lcov-paths.py
+pygobject-3.54.5/.gitlab-ci/lcovrc
+pygobject-3.54.5/.gitlab-ci/org.gnome.PyGObject.Devel.yaml
+pygobject-3.54.5/.gitlab-ci/run-docker-runtime.sh
+pygobject-3.54.5/.gitlab-ci/run-docker.sh
+pygobject-3.54.5/.gitlab-ci/test-docker.sh
+pygobject-3.54.5/.gitlab-ci/test-flatpak.sh
+pygobject-3.54.5/.gitlab-ci/test-msys2.sh
+pygobject-3.54.5/.gitlab-ci.yml
+pygobject-3.54.5/.pre-commit-config.yaml
+pygobject-3.54.5/COPYING
+pygobject-3.54.5/METADATA.in
+pygobject-3.54.5/NEWS
+pygobject-3.54.5/README.rst
+pygobject-3.54.5/docs/Makefile
+pygobject-3.54.5/docs/bugs_repo.rst
+pygobject-3.54.5/docs/changelog.rst
+pygobject-3.54.5/docs/conf.py
+pygobject-3.54.5/docs/contact.rst
+pygobject-3.54.5/docs/devguide/analysis/classes_without_constructor.rst
+pygobject-3.54.5/docs/devguide/analysis/index.rst
+pygobject-3.54.5/docs/devguide/analysis/object_ref_counting_for_vfuncs_and_closures.rst
+pygobject-3.54.5/docs/devguide/analysis/property_object_transfer.rst
+pygobject-3.54.5/docs/devguide/analysis/signal_transfer.rst
+pygobject-3.54.5/docs/devguide/dev_environ.rst
+pygobject-3.54.5/docs/devguide/gbytes_marshaller_tutorial.rst
+pygobject-3.54.5/docs/devguide/index.rst
+pygobject-3.54.5/docs/devguide/initializer_deprecations.rst
+pygobject-3.54.5/docs/devguide/introspection_porting.rst
+pygobject-3.54.5/docs/devguide/maintguide.rst
+pygobject-3.54.5/docs/devguide/override_guidelines.rst
+pygobject-3.54.5/docs/devguide/overview.rst
+pygobject-3.54.5/docs/devguide/packagingguide.rst
+pygobject-3.54.5/docs/devguide/profiling.rst
+pygobject-3.54.5/docs/devguide/style_guide.rst
+pygobject-3.54.5/docs/extra.css
+pygobject-3.54.5/docs/getting_started.rst
+pygobject-3.54.5/docs/guide/api/api.rst
+pygobject-3.54.5/docs/guide/api/basic_types.rst
+pygobject-3.54.5/docs/guide/api/error_handling.rst
+pygobject-3.54.5/docs/guide/api/flags_enums.rst
+pygobject-3.54.5/docs/guide/api/gobject.rst
+pygobject-3.54.5/docs/guide/api/index.rst
+pygobject-3.54.5/docs/guide/api/properties.rst
+pygobject-3.54.5/docs/guide/api/signals.rst
+pygobject-3.54.5/docs/guide/api/weakrefs.rst
+pygobject-3.54.5/docs/guide/asynchronous.rst
+pygobject-3.54.5/docs/guide/cairo_integration.rst
+pygobject-3.54.5/docs/guide/code/cairo-demo.py
+pygobject-3.54.5/docs/guide/debug_profile.rst
+pygobject-3.54.5/docs/guide/deploy.rst
+pygobject-3.54.5/docs/guide/download_asyncio.py
+pygobject-3.54.5/docs/guide/download_callback.py
+pygobject-3.54.5/docs/guide/faq.rst
+pygobject-3.54.5/docs/guide/flatpak.rst
+pygobject-3.54.5/docs/guide/gtk_template.rst
+pygobject-3.54.5/docs/guide/images/cairo_integration.png
+pygobject-3.54.5/docs/guide/imports.rst
+pygobject-3.54.5/docs/guide/index.rst
+pygobject-3.54.5/docs/guide/porting.rst
+pygobject-3.54.5/docs/guide/sysdeps.rst
+pygobject-3.54.5/docs/guide/testing.rst
+pygobject-3.54.5/docs/guide/threading.rst
+pygobject-3.54.5/docs/icons.rst
+pygobject-3.54.5/docs/images/LICENSE
+pygobject-3.54.5/docs/images/arch-dark.svg
+pygobject-3.54.5/docs/images/arch.svg
+pygobject-3.54.5/docs/images/favicon.ico
+pygobject-3.54.5/docs/images/logo.svg
+pygobject-3.54.5/docs/images/overview-dark.svg
+pygobject-3.54.5/docs/images/overview.dia
+pygobject-3.54.5/docs/images/overview.svg
+pygobject-3.54.5/docs/images/pygobject-dark.svg
+pygobject-3.54.5/docs/images/pygobject-small.svg
+pygobject-3.54.5/docs/images/pygobject.svg
+pygobject-3.54.5/docs/images/start_linux.png
+pygobject-3.54.5/docs/images/start_macos.png
+pygobject-3.54.5/docs/images/start_windows.png
+pygobject-3.54.5/docs/index.rst
+pygobject-3.54.5/docs/tutorials/_static/custom.css
+pygobject-3.54.5/docs/tutorials/gobject/basics.rst
+pygobject-3.54.5/docs/tutorials/gobject/examples/listmodel.py
+pygobject-3.54.5/docs/tutorials/gobject/interfaces.rst
+pygobject-3.54.5/docs/tutorials/gobject/subclassing.rst
+pygobject-3.54.5/docs/tutorials/gobject.rst
+pygobject-3.54.5/docs/tutorials/gtk3.rst
+pygobject-3.54.5/docs/tutorials/gtk4/application.rst
+pygobject-3.54.5/docs/tutorials/gtk4/basics.rst
+pygobject-3.54.5/docs/tutorials/gtk4/clipboard.rst
+pygobject-3.54.5/docs/tutorials/gtk4/controls/buttons.rst
+pygobject-3.54.5/docs/tutorials/gtk4/controls/check-radio-buttons.rst
+pygobject-3.54.5/docs/tutorials/gtk4/controls/dropdown.rst
+pygobject-3.54.5/docs/tutorials/gtk4/controls/entries.rst
+pygobject-3.54.5/docs/tutorials/gtk4/controls/examples/button.py
+pygobject-3.54.5/docs/tutorials/gtk4/controls/examples/check_radio_buttons.py
+pygobject-3.54.5/docs/tutorials/gtk4/controls/examples/dropdown.py
+pygobject-3.54.5/docs/tutorials/gtk4/controls/examples/entries.py
+pygobject-3.54.5/docs/tutorials/gtk4/controls/examples/linkbutton.py
+pygobject-3.54.5/docs/tutorials/gtk4/controls/examples/spinbutton.py
+pygobject-3.54.5/docs/tutorials/gtk4/controls/examples/switch.py
+pygobject-3.54.5/docs/tutorials/gtk4/controls/examples/togglebutton.py
+pygobject-3.54.5/docs/tutorials/gtk4/controls/images/button.png
+pygobject-3.54.5/docs/tutorials/gtk4/controls/images/check_radio_buttons.png
+pygobject-3.54.5/docs/tutorials/gtk4/controls/images/dropdown.png
+pygobject-3.54.5/docs/tutorials/gtk4/controls/images/entries.png
+pygobject-3.54.5/docs/tutorials/gtk4/controls/images/linkbutton.png
+pygobject-3.54.5/docs/tutorials/gtk4/controls/images/spinbutton.png
+pygobject-3.54.5/docs/tutorials/gtk4/controls/images/switch.png
+pygobject-3.54.5/docs/tutorials/gtk4/controls/images/togglebutton.png
+pygobject-3.54.5/docs/tutorials/gtk4/controls/scale.rst
+pygobject-3.54.5/docs/tutorials/gtk4/controls/spinbutton.rst
+pygobject-3.54.5/docs/tutorials/gtk4/controls/switch.rst
+pygobject-3.54.5/docs/tutorials/gtk4/controls.rst
+pygobject-3.54.5/docs/tutorials/gtk4/display-widgets/examples/label.py
+pygobject-3.54.5/docs/tutorials/gtk4/display-widgets/examples/picture.py
+pygobject-3.54.5/docs/tutorials/gtk4/display-widgets/examples/progressbar.py
+pygobject-3.54.5/docs/tutorials/gtk4/display-widgets/examples/spinner.py
+pygobject-3.54.5/docs/tutorials/gtk4/display-widgets/examples/spinner_ext.py
+pygobject-3.54.5/docs/tutorials/gtk4/display-widgets/image.rst
+pygobject-3.54.5/docs/tutorials/gtk4/display-widgets/images/label.png
+pygobject-3.54.5/docs/tutorials/gtk4/display-widgets/images/picture.png
+pygobject-3.54.5/docs/tutorials/gtk4/display-widgets/images/progressbar.png
+pygobject-3.54.5/docs/tutorials/gtk4/display-widgets/images/spinner.png
+pygobject-3.54.5/docs/tutorials/gtk4/display-widgets/images/spinner_ext.png
+pygobject-3.54.5/docs/tutorials/gtk4/display-widgets/label.rst
+pygobject-3.54.5/docs/tutorials/gtk4/display-widgets/picture.rst
+pygobject-3.54.5/docs/tutorials/gtk4/display-widgets/progressbar.rst
+pygobject-3.54.5/docs/tutorials/gtk4/display-widgets/spinner.rst
+pygobject-3.54.5/docs/tutorials/gtk4/display-widgets.rst
+pygobject-3.54.5/docs/tutorials/gtk4/drag-and-drop.rst
+pygobject-3.54.5/docs/tutorials/gtk4/examples/application.py
+pygobject-3.54.5/docs/tutorials/gtk4/examples/clipboard.py
+pygobject-3.54.5/docs/tutorials/gtk4/examples/drag_and_drop.py
+pygobject-3.54.5/docs/tutorials/gtk4/examples/extended_example.py
+pygobject-3.54.5/docs/tutorials/gtk4/examples/layout_box.py
+pygobject-3.54.5/docs/tutorials/gtk4/examples/layout_center.py
+pygobject-3.54.5/docs/tutorials/gtk4/examples/layout_flowbox.py
+pygobject-3.54.5/docs/tutorials/gtk4/examples/layout_grid.py
+pygobject-3.54.5/docs/tutorials/gtk4/examples/layout_headerbar.py
+pygobject-3.54.5/docs/tutorials/gtk4/examples/layout_listbox.py
+pygobject-3.54.5/docs/tutorials/gtk4/examples/layout_notebook.py
+pygobject-3.54.5/docs/tutorials/gtk4/examples/layout_stack.py
+pygobject-3.54.5/docs/tutorials/gtk4/examples/popover.py
+pygobject-3.54.5/docs/tutorials/gtk4/examples/popover_menu.py
+pygobject-3.54.5/docs/tutorials/gtk4/examples/simple_example.py
+pygobject-3.54.5/docs/tutorials/gtk4/examples/textview.py
+pygobject-3.54.5/docs/tutorials/gtk4/images/application.png
+pygobject-3.54.5/docs/tutorials/gtk4/images/basic_example.png
+pygobject-3.54.5/docs/tutorials/gtk4/images/clipboard.png
+pygobject-3.54.5/docs/tutorials/gtk4/images/drag_and_drop.png
+pygobject-3.54.5/docs/tutorials/gtk4/images/extended_example.png
+pygobject-3.54.5/docs/tutorials/gtk4/images/layout_box.png
+pygobject-3.54.5/docs/tutorials/gtk4/images/layout_center.png
+pygobject-3.54.5/docs/tutorials/gtk4/images/layout_flowbox.png
+pygobject-3.54.5/docs/tutorials/gtk4/images/layout_grid.png
+pygobject-3.54.5/docs/tutorials/gtk4/images/layout_headerbar.png
+pygobject-3.54.5/docs/tutorials/gtk4/images/layout_listbox.png
+pygobject-3.54.5/docs/tutorials/gtk4/images/layout_notebook.png
+pygobject-3.54.5/docs/tutorials/gtk4/images/layout_stack.png
+pygobject-3.54.5/docs/tutorials/gtk4/images/popover.png
+pygobject-3.54.5/docs/tutorials/gtk4/images/popover_menu.png
+pygobject-3.54.5/docs/tutorials/gtk4/images/textview.png
+pygobject-3.54.5/docs/tutorials/gtk4/introduction.rst
+pygobject-3.54.5/docs/tutorials/gtk4/layout-widgets.rst
+pygobject-3.54.5/docs/tutorials/gtk4/popovers.rst
+pygobject-3.54.5/docs/tutorials/gtk4/textview.rst
+pygobject-3.54.5/docs/tutorials/gtk4.rst
+pygobject-3.54.5/docs/tutorials/index.rst
+pygobject-3.54.5/docs/tutorials/libadwaita/application.rst
+pygobject-3.54.5/docs/tutorials/libadwaita.rst
+pygobject-3.54.5/gi/__init__.py
+pygobject-3.54.5/gi/_constants.py
+pygobject-3.54.5/gi/_enum.py
+pygobject-3.54.5/gi/_error.py
+pygobject-3.54.5/gi/_gtktemplate.py
+pygobject-3.54.5/gi/_option.py
+pygobject-3.54.5/gi/_ossighelper.py
+pygobject-3.54.5/gi/_propertyhelper.py
+pygobject-3.54.5/gi/_signalhelper.py
+pygobject-3.54.5/gi/_signature.py
+pygobject-3.54.5/gi/docstring.py
+pygobject-3.54.5/gi/events.py
+pygobject-3.54.5/gi/gimodule.c
+pygobject-3.54.5/gi/gimodule.h
+pygobject-3.54.5/gi/importer.py
+pygobject-3.54.5/gi/meson.build
+pygobject-3.54.5/gi/module.py
+pygobject-3.54.5/gi/overrides/GIMarshallingTests.py
+pygobject-3.54.5/gi/overrides/GLib.py
+pygobject-3.54.5/gi/overrides/GObject.py
+pygobject-3.54.5/gi/overrides/Gdk.py
+pygobject-3.54.5/gi/overrides/GdkPixbuf.py
+pygobject-3.54.5/gi/overrides/Gio.py
+pygobject-3.54.5/gi/overrides/GioUnix.py
+pygobject-3.54.5/gi/overrides/Gtk.py
+pygobject-3.54.5/gi/overrides/Pango.py
+pygobject-3.54.5/gi/overrides/__init__.py
+pygobject-3.54.5/gi/overrides/meson.build
+pygobject-3.54.5/gi/pygboxed.c
+pygobject-3.54.5/gi/pygboxed.h
+pygobject-3.54.5/gi/pygenum.c
+pygobject-3.54.5/gi/pygenum.h
+pygobject-3.54.5/gi/pygflags.c
+pygobject-3.54.5/gi/pygflags.h
+pygobject-3.54.5/gi/pygi-argument.c
+pygobject-3.54.5/gi/pygi-argument.h
+pygobject-3.54.5/gi/pygi-array.c
+pygobject-3.54.5/gi/pygi-array.h
+pygobject-3.54.5/gi/pygi-async.c
+pygobject-3.54.5/gi/pygi-async.h
+pygobject-3.54.5/gi/pygi-basictype.c
+pygobject-3.54.5/gi/pygi-basictype.h
+pygobject-3.54.5/gi/pygi-boxed.c
+pygobject-3.54.5/gi/pygi-boxed.h
+pygobject-3.54.5/gi/pygi-cache.c
+pygobject-3.54.5/gi/pygi-cache.h
+pygobject-3.54.5/gi/pygi-ccallback.c
+pygobject-3.54.5/gi/pygi-ccallback.h
+pygobject-3.54.5/gi/pygi-closure.c
+pygobject-3.54.5/gi/pygi-closure.h
+pygobject-3.54.5/gi/pygi-enum-marshal.c
+pygobject-3.54.5/gi/pygi-enum-marshal.h
+pygobject-3.54.5/gi/pygi-error.c
+pygobject-3.54.5/gi/pygi-error.h
+pygobject-3.54.5/gi/pygi-foreign-api.h
+pygobject-3.54.5/gi/pygi-foreign-cairo.c
+pygobject-3.54.5/gi/pygi-foreign.c
+pygobject-3.54.5/gi/pygi-foreign.h
+pygobject-3.54.5/gi/pygi-fundamental.c
+pygobject-3.54.5/gi/pygi-fundamental.h
+pygobject-3.54.5/gi/pygi-hashtable.c
+pygobject-3.54.5/gi/pygi-hashtable.h
+pygobject-3.54.5/gi/pygi-info.c
+pygobject-3.54.5/gi/pygi-info.h
+pygobject-3.54.5/gi/pygi-invoke-state-struct.h
+pygobject-3.54.5/gi/pygi-invoke.c
+pygobject-3.54.5/gi/pygi-invoke.h
+pygobject-3.54.5/gi/pygi-list.c
+pygobject-3.54.5/gi/pygi-list.h
+pygobject-3.54.5/gi/pygi-marshal-cleanup.c
+pygobject-3.54.5/gi/pygi-marshal-cleanup.h
+pygobject-3.54.5/gi/pygi-object.c
+pygobject-3.54.5/gi/pygi-object.h
+pygobject-3.54.5/gi/pygi-property.c
+pygobject-3.54.5/gi/pygi-property.h
+pygobject-3.54.5/gi/pygi-repository.c
+pygobject-3.54.5/gi/pygi-repository.h
+pygobject-3.54.5/gi/pygi-resulttuple.c
+pygobject-3.54.5/gi/pygi-resulttuple.h
+pygobject-3.54.5/gi/pygi-signal-closure.c
+pygobject-3.54.5/gi/pygi-signal-closure.h
+pygobject-3.54.5/gi/pygi-source.c
+pygobject-3.54.5/gi/pygi-source.h
+pygobject-3.54.5/gi/pygi-struct-marshal.c
+pygobject-3.54.5/gi/pygi-struct-marshal.h
+pygobject-3.54.5/gi/pygi-struct.c
+pygobject-3.54.5/gi/pygi-struct.h
+pygobject-3.54.5/gi/pygi-type.c
+pygobject-3.54.5/gi/pygi-type.h
+pygobject-3.54.5/gi/pygi-util.c
+pygobject-3.54.5/gi/pygi-util.h
+pygobject-3.54.5/gi/pygi-value.c
+pygobject-3.54.5/gi/pygi-value.h
+pygobject-3.54.5/gi/pyginterface.c
+pygobject-3.54.5/gi/pyginterface.h
+pygobject-3.54.5/gi/pygobject-internal.h
+pygobject-3.54.5/gi/pygobject-object.c
+pygobject-3.54.5/gi/pygobject-object.h
+pygobject-3.54.5/gi/pygobject.h
+pygobject-3.54.5/gi/pygoptioncontext.c
+pygobject-3.54.5/gi/pygoptioncontext.h
+pygobject-3.54.5/gi/pygoptiongroup.c
+pygobject-3.54.5/gi/pygoptiongroup.h
+pygobject-3.54.5/gi/pygpointer.c
+pygobject-3.54.5/gi/pygpointer.h
+pygobject-3.54.5/gi/pygspawn.c
+pygobject-3.54.5/gi/pygspawn.h
+pygobject-3.54.5/gi/pygtkcompat.py
+pygobject-3.54.5/gi/repository/__init__.py
+pygobject-3.54.5/gi/repository/meson.build
+pygobject-3.54.5/gi/types.py
+pygobject-3.54.5/meson.build
+pygobject-3.54.5/meson_options.txt
+pygobject-3.54.5/pygobject-3.0.pc.in
+pygobject-3.54.5/pygobject.doap
+pygobject-3.54.5/pygtkcompat/__init__.py
+pygobject-3.54.5/pygtkcompat/meson.build
+pygobject-3.54.5/pygtkcompat/pygtkcompat.py
+pygobject-3.54.5/pyproject.toml
+pygobject-3.54.5/subprojects/glib.wrap
+pygobject-3.54.5/subprojects/gobject-introspection-tests/.clang-format
+pygobject-3.54.5/subprojects/gobject-introspection-tests/.editorconfig
+pygobject-3.54.5/subprojects/gobject-introspection-tests/.gitlab-ci.yml
+pygobject-3.54.5/subprojects/gobject-introspection-tests/.reuse/dep5
+pygobject-3.54.5/subprojects/gobject-introspection-tests/LICENSES/CC0-1.0.txt
+pygobject-3.54.5/subprojects/gobject-introspection-tests/LICENSES/GPL-2.0-or-later.txt
+pygobject-3.54.5/subprojects/gobject-introspection-tests/LICENSES/LGPL-2.0-or-later.txt
+pygobject-3.54.5/subprojects/gobject-introspection-tests/LICENSES/LGPL-2.1-or-later.txt
+pygobject-3.54.5/subprojects/gobject-introspection-tests/LICENSES/MIT.txt
+pygobject-3.54.5/subprojects/gobject-introspection-tests/README.md
+pygobject-3.54.5/subprojects/gobject-introspection-tests/annotation.c
+pygobject-3.54.5/subprojects/gobject-introspection-tests/annotation.h
+pygobject-3.54.5/subprojects/gobject-introspection-tests/docs/provenance.txt
+pygobject-3.54.5/subprojects/gobject-introspection-tests/drawable.c
+pygobject-3.54.5/subprojects/gobject-introspection-tests/drawable.h
+pygobject-3.54.5/subprojects/gobject-introspection-tests/foo.c
+pygobject-3.54.5/subprojects/gobject-introspection-tests/foo.h
+pygobject-3.54.5/subprojects/gobject-introspection-tests/gimarshallingtests.c
+pygobject-3.54.5/subprojects/gobject-introspection-tests/gimarshallingtests.h
+pygobject-3.54.5/subprojects/gobject-introspection-tests/gimarshallingtestsextra.c
+pygobject-3.54.5/subprojects/gobject-introspection-tests/gimarshallingtestsextra.h
+pygobject-3.54.5/subprojects/gobject-introspection-tests/gitestmacros.h
+pygobject-3.54.5/subprojects/gobject-introspection-tests/gobject-introspection-tests.doap
+pygobject-3.54.5/subprojects/gobject-introspection-tests/meson.build
+pygobject-3.54.5/subprojects/gobject-introspection-tests/meson_options.txt
+pygobject-3.54.5/subprojects/gobject-introspection-tests/regress-unix.c
+pygobject-3.54.5/subprojects/gobject-introspection-tests/regress-unix.h
+pygobject-3.54.5/subprojects/gobject-introspection-tests/regress.c
+pygobject-3.54.5/subprojects/gobject-introspection-tests/regress.h
+pygobject-3.54.5/subprojects/gobject-introspection-tests/regressextra.c
+pygobject-3.54.5/subprojects/gobject-introspection-tests/regressextra.h
+pygobject-3.54.5/subprojects/gobject-introspection-tests/tools/iwyu.imp
+pygobject-3.54.5/subprojects/gobject-introspection-tests/tools/run_clang_format.sh
+pygobject-3.54.5/subprojects/gobject-introspection-tests/tools/run_iwyu.sh
+pygobject-3.54.5/subprojects/gobject-introspection-tests/utility.c
+pygobject-3.54.5/subprojects/gobject-introspection-tests/utility.h
+pygobject-3.54.5/subprojects/gobject-introspection-tests/warnlib.c
+pygobject-3.54.5/subprojects/gobject-introspection-tests/warnlib.h
+pygobject-3.54.5/subprojects/gobject-introspection-tests.wrap
+pygobject-3.54.5/subprojects/gobject-introspection.wrap
+pygobject-3.54.5/subprojects/libffi.wrap
+pygobject-3.54.5/subprojects/packagefiles/pythoncapi-compat-dist.py
+pygobject-3.54.5/subprojects/packagefiles/pythoncapi-compat-meson.diff
+pygobject-3.54.5/subprojects/pycairo.wrap
+pygobject-3.54.5/subprojects/pythoncapi-compat/.github/workflows/build.yml
+pygobject-3.54.5/subprojects/pythoncapi-compat/.gitignore
+pygobject-3.54.5/subprojects/pythoncapi-compat/.meson-subproject-wrap-hash.txt
+pygobject-3.54.5/subprojects/pythoncapi-compat/.readthedocs.yaml
+pygobject-3.54.5/subprojects/pythoncapi-compat/CODE_OF_CONDUCT.md
+pygobject-3.54.5/subprojects/pythoncapi-compat/COPYING
+pygobject-3.54.5/subprojects/pythoncapi-compat/README.rst
+pygobject-3.54.5/subprojects/pythoncapi-compat/docs/Makefile
+pygobject-3.54.5/subprojects/pythoncapi-compat/docs/api.rst
+pygobject-3.54.5/subprojects/pythoncapi-compat/docs/changelog.rst
+pygobject-3.54.5/subprojects/pythoncapi-compat/docs/conf.py
+pygobject-3.54.5/subprojects/pythoncapi-compat/docs/index.rst
+pygobject-3.54.5/subprojects/pythoncapi-compat/docs/links.rst
+pygobject-3.54.5/subprojects/pythoncapi-compat/docs/make.bat
+pygobject-3.54.5/subprojects/pythoncapi-compat/docs/tests.rst
+pygobject-3.54.5/subprojects/pythoncapi-compat/docs/upgrade.rst
+pygobject-3.54.5/subprojects/pythoncapi-compat/docs/users.rst
+pygobject-3.54.5/subprojects/pythoncapi-compat/meson.build
+pygobject-3.54.5/subprojects/pythoncapi-compat/pythoncapi_compat.h
+pygobject-3.54.5/subprojects/pythoncapi-compat/runtests.py
+pygobject-3.54.5/subprojects/pythoncapi-compat/tests/__init__.py
+pygobject-3.54.5/subprojects/pythoncapi-compat/tests/setup.py
+pygobject-3.54.5/subprojects/pythoncapi-compat/tests/test_pythoncapi_compat.py
+pygobject-3.54.5/subprojects/pythoncapi-compat/tests/test_pythoncapi_compat_cext.c
+pygobject-3.54.5/subprojects/pythoncapi-compat/tests/test_pythoncapi_compat_cppext.cpp
+pygobject-3.54.5/subprojects/pythoncapi-compat/tests/test_upgrade_pythoncapi.py
+pygobject-3.54.5/subprojects/pythoncapi-compat/tests/utils.py
+pygobject-3.54.5/subprojects/pythoncapi-compat/upgrade_pythoncapi.py
+pygobject-3.54.5/subprojects/pythoncapi-compat.wrap
+pygobject-3.54.5/tests/conftest.py
+pygobject-3.54.5/tests/gi/overrides/Regress.py
+pygobject-3.54.5/tests/gi/overrides/__init__.py
+pygobject-3.54.5/tests/helper.py
+pygobject-3.54.5/tests/meson.build
+pygobject-3.54.5/tests/org.gnome.test.gschema.xml
+pygobject-3.54.5/tests/test-floating.c
+pygobject-3.54.5/tests/test-floating.h
+pygobject-3.54.5/tests/test-thread.c
+pygobject-3.54.5/tests/test-thread.h
+pygobject-3.54.5/tests/test-unknown.c
+pygobject-3.54.5/tests/test-unknown.h
+pygobject-3.54.5/tests/test_async.py
+pygobject-3.54.5/tests/test_atoms.py
+pygobject-3.54.5/tests/test_cairo.py
+pygobject-3.54.5/tests/test_callback.py
+pygobject-3.54.5/tests/test_docstring.py
+pygobject-3.54.5/tests/test_enum.py
+pygobject-3.54.5/tests/test_error.py
+pygobject-3.54.5/tests/test_events.py
+pygobject-3.54.5/tests/test_everything.py
+pygobject-3.54.5/tests/test_fields.py
+pygobject-3.54.5/tests/test_fundamental.py
+pygobject-3.54.5/tests/test_gdbus.py
+pygobject-3.54.5/tests/test_gi.py
+pygobject-3.54.5/tests/test_gio.py
+pygobject-3.54.5/tests/test_glib.py
+pygobject-3.54.5/tests/test_gobject.py
+pygobject-3.54.5/tests/test_gtk_template.py
+pygobject-3.54.5/tests/test_gtype.py
+pygobject-3.54.5/tests/test_import_machinery.py
+pygobject-3.54.5/tests/test_interface.py
+pygobject-3.54.5/tests/test_internal_api.py
+pygobject-3.54.5/tests/test_iochannel.py
+pygobject-3.54.5/tests/test_mainloop.py
+pygobject-3.54.5/tests/test_object_marshaling.py
+pygobject-3.54.5/tests/test_option.py
+pygobject-3.54.5/tests/test_ossig.py
+pygobject-3.54.5/tests/test_overrides_gdk.py
+pygobject-3.54.5/tests/test_overrides_gdkpixbuf.py
+pygobject-3.54.5/tests/test_overrides_gio.py
+pygobject-3.54.5/tests/test_overrides_glib.py
+pygobject-3.54.5/tests/test_overrides_gobject.py
+pygobject-3.54.5/tests/test_overrides_gtk.py
+pygobject-3.54.5/tests/test_overrides_pango.py
+pygobject-3.54.5/tests/test_properties.py
+pygobject-3.54.5/tests/test_pycapi.py
+pygobject-3.54.5/tests/test_pygtkcompat.py
+pygobject-3.54.5/tests/test_repository.py
+pygobject-3.54.5/tests/test_resulttuple.py
+pygobject-3.54.5/tests/test_signal.py
+pygobject-3.54.5/tests/test_signature.py
+pygobject-3.54.5/tests/test_source.py
+pygobject-3.54.5/tests/test_subprocess.py
+pygobject-3.54.5/tests/test_thread.py
+pygobject-3.54.5/tests/test_typeclass.py
+pygobject-3.54.5/tests/test_unknown.py
+pygobject-3.54.5/tests/testhelpermodule.c
+pygobject-3.54.5/tests/valgrind.supp
+pygobject-3.54.5/tools/mkmetadata.py
+pygobject-3.54.5/tools/pygi-convert.sh
+pygobject-3.54.5/PKG-INFO
+Cloning into 'pycairo'...
+The Meson build system
+Version: 1.7.0
+Source dir: /blfs/builds/pygobject-3.54.5
+Build dir: /blfs/builds/pygobject-3.54.5/build
+Build type: native build
+Project name: pygobject
+Project version: 3.54.5
+C compiler for the host machine: cc (gcc 15.2.0 "cc (GCC) 15.2.0")
+C linker for the host machine: cc ld.bfd 2.45
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Program python3 found: YES (/usr/bin/python3)
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Run-time dependency python found: YES 3.13
+Run-time dependency girepository-2.0 found: YES 2.86.1
+Run-time dependency glib-2.0 found: YES 2.86.1
+Run-time dependency gobject-2.0 found: YES 2.86.1
+Run-time dependency gio-2.0 found: YES 2.86.1
+Run-time dependency libffi found: YES 3.5.2
+
+Executing subproject pythoncapi-compat 
+
+pythoncapi-compat| Project name: pythoncapi-compat
+pythoncapi-compat| Project version: undefined
+pythoncapi-compat| C compiler for the host machine: cc (gcc 15.2.0 "cc (GCC) 15.2.0")
+pythoncapi-compat| C linker for the host machine: cc ld.bfd 2.45
+pythoncapi-compat| Build targets in project: 0
+pythoncapi-compat| Subproject pythoncapi-compat finished.
+
+Run-time dependency cairo found: YES 1.18.4
+Run-time dependency cairo-gobject found: YES 1.18.4
+Message: pycairo not found via target Python, falling back to pkg-config (cairo module spec not found)
+Found CMake: /usr/bin/cmake (4.1.2)
+Run-time dependency py3cairo found: NO (tried pkgconfig and cmake)
+Looking for a fallback subproject for the dependency py3cairo
+
+Executing subproject pycairo 
+
+pycairo| Project name: pycairo
+pycairo| Project version: 1.28.1
+pycairo| C compiler for the host machine: cc (gcc 15.2.0 "cc (GCC) 15.2.0")
+pycairo| C linker for the host machine: cc ld.bfd 2.45
+pycairo| Program python3 found: YES (/usr/bin/python3)
+pycairo| Compiler for C supports arguments -Wall: YES
+pycairo| Compiler for C supports arguments -Warray-bounds: YES
+pycairo| Compiler for C supports arguments -Wcast-align: YES
+pycairo| Compiler for C supports arguments -Wconversion: YES
+pycairo| Compiler for C supports arguments -Wextra: YES
+pycairo| Compiler for C supports arguments -Wformat=2: YES
+pycairo| Compiler for C supports arguments -Wformat-nonliteral: YES
+pycairo| Compiler for C supports arguments -Wformat-security: YES
+pycairo| Compiler for C supports arguments -Wimplicit-function-declaration: YES
+pycairo| Compiler for C supports arguments -Winit-self: YES
+pycairo| Compiler for C supports arguments -Wmissing-format-attribute: YES
+pycairo| Compiler for C supports arguments -Wmissing-noreturn: YES
+pycairo| Compiler for C supports arguments -Wnested-externs: YES
+pycairo| Compiler for C supports arguments -Wold-style-definition: YES
+pycairo| Compiler for C supports arguments -Wpacked: YES
+pycairo| Compiler for C supports arguments -Wpointer-arith: YES
+pycairo| Compiler for C supports arguments -Wreturn-type: YES
+pycairo| Compiler for C supports arguments -Wshadow: YES
+pycairo| Compiler for C supports arguments -Wsign-compare: YES
+pycairo| Compiler for C supports arguments -Wstrict-aliasing: YES
+pycairo| Compiler for C supports arguments -Wundef: YES
+pycairo| Compiler for C supports arguments -Wunused-but-set-variable: YES
+pycairo| Compiler for C supports arguments -Wswitch-default: YES
+pycairo| Compiler for C supports arguments -Wno-missing-field-initializers: YES
+pycairo| Compiler for C supports arguments -Wno-unused-parameter: YES
+pycairo| Compiler for C supports arguments -fno-strict-aliasing: YES
+pycairo| Compiler for C supports arguments -fvisibility=hidden: YES
+pycairo| Configuring METADATA using configuration
+pycairo| Dependency cairo found: YES 1.18.4 (cached)
+pycairo| Build targets in project: 27
+pycairo| Subproject pycairo finished.
+
+Dependency py3cairo from subproject subprojects/pycairo found: YES 1.28.1
+Compiler for C supports arguments -Wall: YES (cached)
+Compiler for C supports arguments -Warray-bounds: YES (cached)
+Compiler for C supports arguments -Wcast-align: YES (cached)
+Compiler for C supports arguments -Wduplicated-branches: YES 
+Compiler for C supports arguments -Wextra: YES (cached)
+Compiler for C supports arguments -Wformat=2: YES (cached)
+Compiler for C supports arguments -Wformat-nonliteral: YES (cached)
+Compiler for C supports arguments -Wformat-security: YES (cached)
+Compiler for C supports arguments -Wimplicit-function-declaration: YES (cached)
+Compiler for C supports arguments -Winit-self: YES (cached)
+Compiler for C supports arguments -Wjump-misses-init: YES 
+Compiler for C supports arguments -Wlogical-op: YES 
+Compiler for C supports arguments -Wmissing-declarations: YES 
+Compiler for C supports arguments -Wmissing-format-attribute: YES (cached)
+Compiler for C supports arguments -Wmissing-include-dirs: YES 
+Compiler for C supports arguments -Wmissing-noreturn: YES (cached)
+Compiler for C supports arguments -Wmissing-prototypes: YES 
+Compiler for C supports arguments -Wnull-dereference: YES 
+Compiler for C supports arguments -Wold-style-definition: YES (cached)
+Compiler for C supports arguments -Wpacked: YES (cached)
+Compiler for C supports arguments -Wpointer-arith: YES (cached)
+Compiler for C supports arguments -Wrestrict: YES 
+Compiler for C supports arguments -Wreturn-type: YES (cached)
+Compiler for C supports arguments -Wshadow: YES (cached)
+Compiler for C supports arguments -Wsign-compare: YES (cached)
+Compiler for C supports arguments -Wstrict-aliasing: YES (cached)
+Compiler for C supports arguments -Wstrict-prototypes: YES 
+Compiler for C supports arguments -Wswitch-default: YES (cached)
+Compiler for C supports arguments -Wundef: YES (cached)
+Compiler for C supports arguments -Wunused-but-set-variable: YES (cached)
+Compiler for C supports arguments -Wwrite-strings: YES 
+Compiler for C supports arguments -Wno-incompatible-pointer-types-discards-qualifiers: NO 
+Compiler for C supports arguments -Wno-missing-field-initializers: YES (cached)
+Compiler for C supports arguments -Wno-unused-parameter: YES (cached)
+Compiler for C supports arguments -Wno-discarded-qualifiers: YES 
+Compiler for C supports arguments -Wno-sign-conversion: YES 
+Compiler for C supports arguments -Wno-cast-function-type: YES 
+Compiler for C supports arguments -Wno-int-conversion: YES 
+Compiler for C supports arguments -fno-strict-aliasing: YES (cached)
+Compiler for C supports arguments -fvisibility=hidden: YES (cached)
+Configuring config.h using configuration
+Configuring pygobject-3.0.pc using configuration
+Configuring METADATA using configuration
+Configuring config.h using configuration
+
+Executing subproject gobject-introspection-tests 
+
+gobject-introspection-tests| Project name: gobject-introspection-tests
+gobject-introspection-tests| Project version: unversioned
+gobject-introspection-tests| C compiler for the host machine: cc (gcc 15.2.0 "cc (GCC) 15.2.0")
+gobject-introspection-tests| C linker for the host machine: cc ld.bfd 2.45
+gobject-introspection-tests| Dependency glib-2.0 found: YES 2.86.1 (cached)
+gobject-introspection-tests| Dependency gobject-2.0 found: YES 2.86.1 (cached)
+gobject-introspection-tests| Dependency gio-2.0 found: YES 2.86.1 (cached)
+gobject-introspection-tests| Dependency cairo found: YES 1.18.4 (cached)
+gobject-introspection-tests| Dependency cairo-gobject found: YES 1.18.4 (cached)
+gobject-introspection-tests| Run-time dependency gobject-introspection-1.0 found: YES 1.86.0
+gobject-introspection-tests| Dependency gobject-introspection-1.0 found: YES 1.86.0 (cached)
+gobject-introspection-tests| Program /usr/bin/g-ir-scanner found: YES (/usr/bin/g-ir-scanner)
+gobject-introspection-tests| Dependency gobject-introspection-1.0 found: YES 1.86.0 (cached)
+gobject-introspection-tests| Program /usr/bin/g-ir-compiler found: YES (/usr/bin/g-ir-compiler)
+gobject-introspection-tests| Build targets in project: 43
+gobject-introspection-tests| Subproject gobject-introspection-tests finished.
+
+Dependency gobject-introspection-1.0 found: YES 1.86.0 (cached)
+Dependency gio-2.0 found: YES 2.86.1 (cached)
+Program /usr/bin/glib-compile-schemas found: YES (/usr/bin/glib-compile-schemas)
+Build targets in project: 45
+
+gobject-introspection-tests unversioned
+
+    Build type            : release
+    Install test libraries: NO
+    GLib                  : 2.86.1 (in /usr)
+    Cairo support         : YES
+    Cairo                 : 1.18.4 (in /usr)
+    Cairo-gobject         : 1.18.4 (in /usr)
+
+pygobject 3.54.5
+
+  Subprojects
+    gobject-introspection-tests: YES
+    pycairo                    : YES
+    pythoncapi-compat          : YES
+
+  User defined options
+    buildtype                  : release
+    prefix                     : /usr
+
+Found ninja-1.13.1 at /usr/bin/ninja
+[1/117] Compiling C object subprojects/gobject-introspection-tests/libwarnlib.so.p/warnlib.c.o
+[2/117] Linking target subprojects/gobject-introspection-tests/libwarnlib.so
+[3/117] Compiling C object subprojects/gobject-introspection-tests/libregress.so.p/regress-unix.c.o
+[4/117] Compiling C object subprojects/gobject-introspection-tests/libutility.so.p/utility.c.o
+[5/117] Compiling C object subprojects/gobject-introspection-tests/libregress.so.p/annotation.c.o
+[6/117] Linking target subprojects/gobject-introspection-tests/libutility.so
+[7/117] Compiling C object subprojects/gobject-introspection-tests/libgimarshallingtests.so.p/gimarshallingtestsextra.c.o
+[8/117] Compiling C object subprojects/pycairo/cairo/_cairo.cpython-313-x86_64-linux-gnu.so.p/bufferproxy.c.o
+[9/117] Compiling C object subprojects/gobject-introspection-tests/libregress.so.p/drawable.c.o
+[10/117] Compiling C object subprojects/pycairo/cairo/_cairo.cpython-313-x86_64-linux-gnu.so.p/cairomodule.c.o
+[11/117] Compiling C object subprojects/gobject-introspection-tests/libregress.so.p/foo.c.o
+[12/117] Compiling C object subprojects/gobject-introspection-tests/libregress.so.p/regressextra.c.o
+[13/117] Compiling C object subprojects/pycairo/cairo/_cairo.cpython-313-x86_64-linux-gnu.so.p/device.c.o
+[14/117] Compiling C object subprojects/pycairo/cairo/_cairo.cpython-313-x86_64-linux-gnu.so.p/error.c.o
+[15/117] Compiling C object subprojects/pycairo/cairo/_cairo.cpython-313-x86_64-linux-gnu.so.p/font.c.o
+[16/117] Compiling C object subprojects/pycairo/cairo/_cairo.cpython-313-x86_64-linux-gnu.so.p/glyph.c.o
+[17/117] Compiling C object subprojects/pycairo/cairo/_cairo.cpython-313-x86_64-linux-gnu.so.p/misc.c.o
+[18/117] Compiling C object subprojects/pycairo/cairo/_cairo.cpython-313-x86_64-linux-gnu.so.p/enums.c.o
+[19/117] Compiling C object subprojects/pycairo/cairo/_cairo.cpython-313-x86_64-linux-gnu.so.p/matrix.c.o
+[20/117] Compiling C object subprojects/pycairo/cairo/_cairo.cpython-313-x86_64-linux-gnu.so.p/region.c.o
+[21/117] Compiling C object subprojects/pycairo/cairo/_cairo.cpython-313-x86_64-linux-gnu.so.p/rectangle.c.o
+[22/117] Compiling C object subprojects/pycairo/cairo/_cairo.cpython-313-x86_64-linux-gnu.so.p/pattern.c.o
+[23/117] Compiling C object subprojects/pycairo/cairo/_cairo.cpython-313-x86_64-linux-gnu.so.p/textextents.c.o
+[24/117] Compiling C object subprojects/pycairo/cairo/_cairo.cpython-313-x86_64-linux-gnu.so.p/context.c.o
+[25/117] Compiling C object subprojects/pycairo/tests/cmod.cpython-313-x86_64-linux-gnu.so.p/cmodule_cmodule.c.o
+[26/117] Compiling C object subprojects/pycairo/cairo/_cairo.cpython-313-x86_64-linux-gnu.so.p/textcluster.c.o
+[27/117] Compiling C object subprojects/pycairo/cairo/_cairo.cpython-313-x86_64-linux-gnu.so.p/path.c.o
+[28/117] Compiling C object subprojects/gobject-introspection-tests/libregress.so.p/regress.c.o
+[29/117] Compiling C object subprojects/pycairo/tests/cmod.cpython-313-x86_64-linux-gnu.so.p/cmodule_cmodulelib.c.o
+[30/117] Compiling C object subprojects/pycairo/cairo/_cairo.cpython-313-x86_64-linux-gnu.so.p/surface.c.o
+[31/117] Compiling C object gi/_gi.cpython-313-x86_64-linux-gnu.so.p/pygboxed.c.o
+[32/117] Linking target subprojects/gobject-introspection-tests/libregress.so
+[33/117] Compiling C object gi/_gi.cpython-313-x86_64-linux-gnu.so.p/pyginterface.c.o
+[34/117] Generating subprojects/gobject-introspection-tests/Utility-1.0.gir with a custom command (wrapped by meson to set env)
+[35/117] Compiling C object gi/_gi.cpython-313-x86_64-linux-gnu.so.p/pygenum.c.o
+[36/117] Compiling C object gi/_gi.cpython-313-x86_64-linux-gnu.so.p/pygflags.c.o
+[37/117] Compiling C object gi/_gi.cpython-313-x86_64-linux-gnu.so.p/pygpointer.c.o
+[38/117] Compiling C object gi/_gi.cpython-313-x86_64-linux-gnu.so.p/pygoptioncontext.c.o
+[39/117] Compiling C object gi/_gi.cpython-313-x86_64-linux-gnu.so.p/pygspawn.c.o
+[40/117] Compiling C object gi/_gi.cpython-313-x86_64-linux-gnu.so.p/pygi-struct.c.o
+[41/117] Compiling C object gi/_gi.cpython-313-x86_64-linux-gnu.so.p/pygi-foreign.c.o
+[42/117] Compiling C object gi/_gi.cpython-313-x86_64-linux-gnu.so.p/pygi-source.c.o
+[43/117] Compiling C object gi/_gi.cpython-313-x86_64-linux-gnu.so.p/gimodule.c.o
+[44/117] Compiling C object gi/_gi.cpython-313-x86_64-linux-gnu.so.p/pygoptiongroup.c.o
+[45/117] Compiling C object gi/_gi.cpython-313-x86_64-linux-gnu.so.p/pygobject-object.c.o
+[46/117] Compiling C object gi/_gi.cpython-313-x86_64-linux-gnu.so.p/pygi-resulttuple.c.o
+[47/117] Compiling C object gi/_gi.cpython-313-x86_64-linux-gnu.so.p/pygi-repository.c.o
+[48/117] Compiling C object subprojects/gobject-introspection-tests/libgimarshallingtests.so.p/gimarshallingtests.c.o
+[49/117] Compiling C object gi/_gi.cpython-313-x86_64-linux-gnu.so.p/pygi-boxed.c.o
+[50/117] Compiling C object gi/_gi.cpython-313-x86_64-linux-gnu.so.p/pygi-ccallback.c.o
+[51/117] Linking target subprojects/gobject-introspection-tests/libgimarshallingtests.so
+[52/117] Compiling C object gi/_gi.cpython-313-x86_64-linux-gnu.so.p/pygi-util.c.o
+[53/117] Compiling C object gi/_gi.cpython-313-x86_64-linux-gnu.so.p/pygi-async.c.o
+[54/117] Compiling C object gi/_gi.cpython-313-x86_64-linux-gnu.so.p/pygi-argument.c.o
+[55/117] Compiling C object gi/_gi.cpython-313-x86_64-linux-gnu.so.p/pygi-type.c.o
+[56/117] Compiling C object gi/_gi.cpython-313-x86_64-linux-gnu.so.p/pygi-property.c.o
+[57/117] Compiling C object gi/_gi.cpython-313-x86_64-linux-gnu.so.p/pygi-closure.c.o
+[58/117] Compiling C object gi/_gi.cpython-313-x86_64-linux-gnu.so.p/pygi-info.c.o
+[59/117] Compiling C object gi/_gi.cpython-313-x86_64-linux-gnu.so.p/pygi-marshal-cleanup.c.o
+[60/117] Compiling C object gi/_gi.cpython-313-x86_64-linux-gnu.so.p/pygi-list.c.o
+[61/117] Compiling C object gi/_gi.cpython-313-x86_64-linux-gnu.so.p/pygi-signal-closure.c.o
+[62/117] Compiling C object gi/_gi.cpython-313-x86_64-linux-gnu.so.p/pygi-cache.c.o
+[63/117] Compiling C object gi/_gi.cpython-313-x86_64-linux-gnu.so.p/pygi-object.c.o
+[64/117] Compiling C object gi/_gi.cpython-313-x86_64-linux-gnu.so.p/pygi-fundamental.c.o
+[65/117] Compiling C object gi/_gi.cpython-313-x86_64-linux-gnu.so.p/pygi-error.c.o
+[66/117] Compiling C object gi/_gi.cpython-313-x86_64-linux-gnu.so.p/pygi-basictype.c.o
+[67/117] Compiling C object gi/_gi.cpython-313-x86_64-linux-gnu.so.p/pygi-invoke.c.o
+[68/117] Compiling C object gi/_gi.cpython-313-x86_64-linux-gnu.so.p/pygi-enum-marshal.c.o
+[69/117] Compiling C object gi/_gi.cpython-313-x86_64-linux-gnu.so.p/pygi-struct-marshal.c.o
+[70/117] Compiling C object tests/testhelper.cpython-313-x86_64-linux-gnu.so.p/test-thread.c.o
+[71/117] Compiling C object gi/_gi_cairo.cpython-313-x86_64-linux-gnu.so.p/pygi-foreign-cairo.c.o
+[72/117] Compiling C object gi/_gi.cpython-313-x86_64-linux-gnu.so.p/pygi-hashtable.c.o
+[73/117] Compiling C object gi/_gi.cpython-313-x86_64-linux-gnu.so.p/pygi-array.c.o
+[74/117] Compiling C object gi/_gi.cpython-313-x86_64-linux-gnu.so.p/pygi-value.c.o
+[75/117] Compiling C object tests/testhelper.cpython-313-x86_64-linux-gnu.so.p/test-floating.c.o
+[76/117] Linking target subprojects/pycairo/tests/cmod.cpython-313-x86_64-linux-gnu.so
+[77/117] Linking target subprojects/pycairo/cairo/_cairo.cpython-313-x86_64-linux-gnu.so
+[78/117] Compiling C object tests/testhelper.cpython-313-x86_64-linux-gnu.so.p/test-unknown.c.o
+[79/117] Copying file subprojects/pycairo/cairo/__init__.py
+[80/117] Copying file subprojects/pycairo/cairo/__init__.pyi
+[81/117] Copying file subprojects/pycairo/cairo/py.typed
+[82/117] Copying file subprojects/pycairo/tests/__init__.py
+[83/117] Copying file subprojects/pycairo/tests/test_context.py
+[84/117] Compiling C object tests/testhelper.cpython-313-x86_64-linux-gnu.so.p/testhelpermodule.c.o
+[85/117] Copying file subprojects/pycairo/tests/test_api.py
+[86/117] Copying file subprojects/pycairo/tests/test_device.py
+[87/117] Copying file subprojects/pycairo/tests/cmod.pyi
+[88/117] Copying file subprojects/pycairo/tests/test_cmod.py
+[89/117] Copying file subprojects/pycairo/tests/test_error.py
+[90/117] Copying file subprojects/pycairo/tests/test_enums.py
+[91/117] Copying file subprojects/pycairo/tests/test_font.py
+[92/117] Copying file subprojects/pycairo/tests/test_fspaths.py
+[93/117] Copying file subprojects/pycairo/tests/test_rectangle.py
+[94/117] Copying file subprojects/pycairo/tests/test_path.py
+[95/117] Copying file subprojects/pycairo/tests/test_pattern.py
+[96/117] Copying file subprojects/pycairo/tests/test_glyph.py
+[97/117] Generating subprojects/gobject-introspection-tests/WarnLib-1.0.gir with a custom command (wrapped by meson to set env)
+../subprojects/gobject-introspection-tests/warnlib.h:37: Warning: WarnLib: symbol='do_moo': missing parameter name; undocumentable
+../subprojects/gobject-introspection-tests/warnlib.h:37: Warning: WarnLib: symbol='do_moo': missing parameter name; undocumentable
+../subprojects/gobject-introspection-tests/warnlib.h:43: Warning: WarnLib: symbol='warnlib_whatever_do_moo': missing parameter name; undocumentable
+../subprojects/gobject-introspection-tests/warnlib.h:43: Warning: WarnLib: symbol='warnlib_whatever_do_moo': missing parameter name; undocumentable
+../subprojects/gobject-introspection-tests/warnlib.h:45: Warning: WarnLib: symbol='warnlib_whatever_do_boo': missing parameter name; undocumentable
+../subprojects/gobject-introspection-tests/warnlib.h:45: Warning: WarnLib: symbol='warnlib_whatever_do_boo': missing parameter name; undocumentable
+../subprojects/gobject-introspection-tests/warnlib.c:41: Warning: WarnLib: warnlib_whatever_do_boo: unknown parameter 'y' in documentation comment, should be one of 'arg1', 'arg2'
+../subprojects/gobject-introspection-tests/warnlib.c:40: Warning: WarnLib: warnlib_whatever_do_boo: unknown parameter 'x' in documentation comment, should be one of 'arg1', 'arg2'
+<unknown>:: Warning: WarnLib: (ErrorQuarkFunction)unpaired_error_quark: warnlib_unpaired_error_quark: Couldn't find corresponding enumeration
+[98/117] Copying file subprojects/pycairo/tests/test_matrix.py
+[99/117] Copying file subprojects/pycairo/tests/test_region.py
+[100/117] Copying file subprojects/pycairo/tests/test_surface_numpy.py
+[101/117] Linking target gi/_gi_cairo.cpython-313-x86_64-linux-gnu.so
+[102/117] Copying file subprojects/pycairo/tests/test_surface_pygame.py
+[103/117] Linking target gi/_gi.cpython-313-x86_64-linux-gnu.so
+[104/117] Compiling gschemas tests/gsettings-compile-tests
+[105/117] Linking target tests/testhelper.cpython-313-x86_64-linux-gnu.so
+[106/117] Copying file subprojects/pycairo/tests/test_surface.py
+[107/117] Copying file subprojects/pycairo/tests/test_textcluster.py
+[108/117] Copying file subprojects/pycairo/tests/test_textextents.py
+[109/117] Copying file subprojects/pycairo/tests/test_typing.py
+[110/117] Generating subprojects/gobject-introspection-tests/Utility-1.0.typelib with a custom command
+[111/117] Generating subprojects/gobject-introspection-tests/WarnLib-1.0.typelib with a custom command
+[112/117] Generating subprojects/gobject-introspection-tests/Regress-1.0.gir with a custom command (wrapped by meson to set env)
+[113/117] Generating subprojects/gobject-introspection-tests/RegressUnix-1.0.gir with a custom command (wrapped by meson to set env)
+[114/117] Generating subprojects/gobject-introspection-tests/GIMarshallingTests-1.0.gir with a custom command (wrapped by meson to set env)
+[115/117] Generating subprojects/gobject-introspection-tests/RegressUnix-1.0.typelib with a custom command
+[116/117] Generating subprojects/gobject-introspection-tests/Regress-1.0.typelib with a custom command
+[117/117] Generating subprojects/gobject-introspection-tests/GIMarshallingTests-1.0.typelib with a custom command
+[0/1] Installing files
+Compiling '/usr/lib/python3.13/site-packages/cairo/__init__.py'...
+Compiling '/usr/lib/python3.13/site-packages/gi/events.py'...
+Compiling '/usr/lib/python3.13/site-packages/gi/_constants.py'...
+Compiling '/usr/lib/python3.13/site-packages/gi/docstring.py'...
+Compiling '/usr/lib/python3.13/site-packages/gi/_enum.py'...
+Compiling '/usr/lib/python3.13/site-packages/gi/_error.py'...
+Compiling '/usr/lib/python3.13/site-packages/gi/_gtktemplate.py'...
+Compiling '/usr/lib/python3.13/site-packages/gi/importer.py'...
+Compiling '/usr/lib/python3.13/site-packages/gi/__init__.py'...
+Compiling '/usr/lib/python3.13/site-packages/gi/module.py'...
+Compiling '/usr/lib/python3.13/site-packages/gi/_option.py'...
+Compiling '/usr/lib/python3.13/site-packages/gi/_ossighelper.py'...
+Compiling '/usr/lib/python3.13/site-packages/gi/_propertyhelper.py'...
+Compiling '/usr/lib/python3.13/site-packages/gi/pygtkcompat.py'...
+Compiling '/usr/lib/python3.13/site-packages/gi/_signalhelper.py'...
+Compiling '/usr/lib/python3.13/site-packages/gi/_signature.py'...
+Compiling '/usr/lib/python3.13/site-packages/gi/types.py'...
+Compiling '/usr/lib/python3.13/site-packages/gi/overrides/GLib.py'...
+Compiling '/usr/lib/python3.13/site-packages/gi/overrides/Gtk.py'...
+Compiling '/usr/lib/python3.13/site-packages/gi/overrides/Gdk.py'...
+Compiling '/usr/lib/python3.13/site-packages/gi/overrides/GdkPixbuf.py'...
+Compiling '/usr/lib/python3.13/site-packages/gi/overrides/GObject.py'...
+Compiling '/usr/lib/python3.13/site-packages/gi/overrides/Gio.py'...
+Compiling '/usr/lib/python3.13/site-packages/gi/overrides/GioUnix.py'...
+Compiling '/usr/lib/python3.13/site-packages/gi/overrides/GIMarshallingTests.py'...
+Compiling '/usr/lib/python3.13/site-packages/gi/overrides/Pango.py'...
+Compiling '/usr/lib/python3.13/site-packages/gi/overrides/__init__.py'...
+Compiling '/usr/lib/python3.13/site-packages/gi/repository/__init__.py'...
+Compiling '/usr/lib/python3.13/site-packages/pygtkcompat/__init__.py'...
+Compiling '/usr/lib/python3.13/site-packages/pygtkcompat/pygtkcompat.py'...
+Installing subprojects/pycairo/cairo/_cairo.cpython-313-x86_64-linux-gnu.so to /usr/lib/python3.13/site-packages/cairo
+Installing gi/_gi.cpython-313-x86_64-linux-gnu.so to /usr/lib/python3.13/site-packages/gi
+Installing gi/_gi_cairo.cpython-313-x86_64-linux-gnu.so to /usr/lib/python3.13/site-packages/gi
+Installing /blfs/builds/pygobject-3.54.5/subprojects/pycairo/cairo/py3cairo.h to /usr/include/pycairo
+Installing /blfs/builds/pygobject-3.54.5/gi/pygobject.h to /usr/include/pygobject-3.0
+Installing /blfs/builds/pygobject-3.54.5/build/subprojects/pycairo/METADATA to /usr/lib/python3.13/site-packages/pycairo-1.28.1.dist-info
+Installing /blfs/builds/pygobject-3.54.5/subprojects/pycairo/cairo/__init__.py to /usr/lib/python3.13/site-packages/cairo
+Installing /blfs/builds/pygobject-3.54.5/subprojects/pycairo/cairo/__init__.pyi to /usr/lib/python3.13/site-packages/cairo
+Installing /blfs/builds/pygobject-3.54.5/subprojects/pycairo/cairo/py.typed to /usr/lib/python3.13/site-packages/cairo
+Installing /blfs/builds/pygobject-3.54.5/subprojects/pycairo/cairo/py3cairo.h to /usr/lib/python3.13/site-packages/cairo/include
+Installing /blfs/builds/pygobject-3.54.5/build/meson-private/py3cairo.pc to /usr/lib/pkgconfig
+Installing /blfs/builds/pygobject-3.54.5/build/pygobject-3.0.pc to /usr/lib/pkgconfig
+Installing /blfs/builds/pygobject-3.54.5/build/METADATA to /usr/lib/python3.13/site-packages/PyGObject-3.54.5.dist-info
+Installing /blfs/builds/pygobject-3.54.5/gi/events.py to /usr/lib/python3.13/site-packages/gi
+Installing /blfs/builds/pygobject-3.54.5/gi/_constants.py to /usr/lib/python3.13/site-packages/gi
+Installing /blfs/builds/pygobject-3.54.5/gi/docstring.py to /usr/lib/python3.13/site-packages/gi
+Installing /blfs/builds/pygobject-3.54.5/gi/_enum.py to /usr/lib/python3.13/site-packages/gi
+Installing /blfs/builds/pygobject-3.54.5/gi/_error.py to /usr/lib/python3.13/site-packages/gi
+Installing /blfs/builds/pygobject-3.54.5/gi/_gtktemplate.py to /usr/lib/python3.13/site-packages/gi
+Installing /blfs/builds/pygobject-3.54.5/gi/importer.py to /usr/lib/python3.13/site-packages/gi
+Installing /blfs/builds/pygobject-3.54.5/gi/__init__.py to /usr/lib/python3.13/site-packages/gi
+Installing /blfs/builds/pygobject-3.54.5/gi/module.py to /usr/lib/python3.13/site-packages/gi
+Installing /blfs/builds/pygobject-3.54.5/gi/_option.py to /usr/lib/python3.13/site-packages/gi
+Installing /blfs/builds/pygobject-3.54.5/gi/_ossighelper.py to /usr/lib/python3.13/site-packages/gi
+Installing /blfs/builds/pygobject-3.54.5/gi/_propertyhelper.py to /usr/lib/python3.13/site-packages/gi
+Installing /blfs/builds/pygobject-3.54.5/gi/pygtkcompat.py to /usr/lib/python3.13/site-packages/gi
+Installing /blfs/builds/pygobject-3.54.5/gi/_signalhelper.py to /usr/lib/python3.13/site-packages/gi
+Installing /blfs/builds/pygobject-3.54.5/gi/_signature.py to /usr/lib/python3.13/site-packages/gi
+Installing /blfs/builds/pygobject-3.54.5/gi/types.py to /usr/lib/python3.13/site-packages/gi
+Installing /blfs/builds/pygobject-3.54.5/gi/overrides/GLib.py to /usr/lib/python3.13/site-packages/gi/overrides
+Installing /blfs/builds/pygobject-3.54.5/gi/overrides/Gtk.py to /usr/lib/python3.13/site-packages/gi/overrides
+Installing /blfs/builds/pygobject-3.54.5/gi/overrides/Gdk.py to /usr/lib/python3.13/site-packages/gi/overrides
+Installing /blfs/builds/pygobject-3.54.5/gi/overrides/GdkPixbuf.py to /usr/lib/python3.13/site-packages/gi/overrides
+Installing /blfs/builds/pygobject-3.54.5/gi/overrides/GObject.py to /usr/lib/python3.13/site-packages/gi/overrides
+Installing /blfs/builds/pygobject-3.54.5/gi/overrides/Gio.py to /usr/lib/python3.13/site-packages/gi/overrides
+Installing /blfs/builds/pygobject-3.54.5/gi/overrides/GioUnix.py to /usr/lib/python3.13/site-packages/gi/overrides
+Installing /blfs/builds/pygobject-3.54.5/gi/overrides/GIMarshallingTests.py to /usr/lib/python3.13/site-packages/gi/overrides
+Installing /blfs/builds/pygobject-3.54.5/gi/overrides/Pango.py to /usr/lib/python3.13/site-packages/gi/overrides
+Installing /blfs/builds/pygobject-3.54.5/gi/overrides/__init__.py to /usr/lib/python3.13/site-packages/gi/overrides
+Installing /blfs/builds/pygobject-3.54.5/gi/repository/__init__.py to /usr/lib/python3.13/site-packages/gi/repository
+Installing /blfs/builds/pygobject-3.54.5/pygtkcompat/__init__.py to /usr/lib/python3.13/site-packages/pygtkcompat
+Installing /blfs/builds/pygobject-3.54.5/pygtkcompat/pygtkcompat.py to /usr/lib/python3.13/site-packages/pygtkcompat
+Running custom install script '/usr/bin/python3 /blfs/builds/pygobject-3.54.5/build/meson-private/pycompile.py python-3.13-installed.json 0'
+[0/1] Installing files
+Compiling '/pkgs/pygobject3/usr/lib/python3.13/site-packages/cairo/__init__.py'...
+Compiling '/pkgs/pygobject3/usr/lib/python3.13/site-packages/gi/events.py'...
+Compiling '/pkgs/pygobject3/usr/lib/python3.13/site-packages/gi/_constants.py'...
+Compiling '/pkgs/pygobject3/usr/lib/python3.13/site-packages/gi/docstring.py'...
+Compiling '/pkgs/pygobject3/usr/lib/python3.13/site-packages/gi/_enum.py'...
+Compiling '/pkgs/pygobject3/usr/lib/python3.13/site-packages/gi/_error.py'...
+Compiling '/pkgs/pygobject3/usr/lib/python3.13/site-packages/gi/_gtktemplate.py'...
+Compiling '/pkgs/pygobject3/usr/lib/python3.13/site-packages/gi/importer.py'...
+Compiling '/pkgs/pygobject3/usr/lib/python3.13/site-packages/gi/__init__.py'...
+Compiling '/pkgs/pygobject3/usr/lib/python3.13/site-packages/gi/module.py'...
+Compiling '/pkgs/pygobject3/usr/lib/python3.13/site-packages/gi/_option.py'...
+Compiling '/pkgs/pygobject3/usr/lib/python3.13/site-packages/gi/_ossighelper.py'...
+Compiling '/pkgs/pygobject3/usr/lib/python3.13/site-packages/gi/_propertyhelper.py'...
+Compiling '/pkgs/pygobject3/usr/lib/python3.13/site-packages/gi/pygtkcompat.py'...
+Compiling '/pkgs/pygobject3/usr/lib/python3.13/site-packages/gi/_signalhelper.py'...
+Compiling '/pkgs/pygobject3/usr/lib/python3.13/site-packages/gi/_signature.py'...
+Compiling '/pkgs/pygobject3/usr/lib/python3.13/site-packages/gi/types.py'...
+Compiling '/pkgs/pygobject3/usr/lib/python3.13/site-packages/gi/overrides/GLib.py'...
+Compiling '/pkgs/pygobject3/usr/lib/python3.13/site-packages/gi/overrides/Gtk.py'...
+Compiling '/pkgs/pygobject3/usr/lib/python3.13/site-packages/gi/overrides/Gdk.py'...
+Compiling '/pkgs/pygobject3/usr/lib/python3.13/site-packages/gi/overrides/GdkPixbuf.py'...
+Compiling '/pkgs/pygobject3/usr/lib/python3.13/site-packages/gi/overrides/GObject.py'...
+Compiling '/pkgs/pygobject3/usr/lib/python3.13/site-packages/gi/overrides/Gio.py'...
+Compiling '/pkgs/pygobject3/usr/lib/python3.13/site-packages/gi/overrides/GioUnix.py'...
+Compiling '/pkgs/pygobject3/usr/lib/python3.13/site-packages/gi/overrides/GIMarshallingTests.py'...
+Compiling '/pkgs/pygobject3/usr/lib/python3.13/site-packages/gi/overrides/Pango.py'...
+Compiling '/pkgs/pygobject3/usr/lib/python3.13/site-packages/gi/overrides/__init__.py'...
+Compiling '/pkgs/pygobject3/usr/lib/python3.13/site-packages/gi/repository/__init__.py'...
+Compiling '/pkgs/pygobject3/usr/lib/python3.13/site-packages/pygtkcompat/__init__.py'...
+Compiling '/pkgs/pygobject3/usr/lib/python3.13/site-packages/pygtkcompat/pygtkcompat.py'...
+Installing subprojects/pycairo/cairo/_cairo.cpython-313-x86_64-linux-gnu.so to /pkgs/pygobject3/usr/lib/python3.13/site-packages/cairo
+Installing gi/_gi.cpython-313-x86_64-linux-gnu.so to /pkgs/pygobject3/usr/lib/python3.13/site-packages/gi
+Installing gi/_gi_cairo.cpython-313-x86_64-linux-gnu.so to /pkgs/pygobject3/usr/lib/python3.13/site-packages/gi
+Installing /blfs/builds/pygobject-3.54.5/subprojects/pycairo/cairo/py3cairo.h to /pkgs/pygobject3/usr/include/pycairo
+Installing /blfs/builds/pygobject-3.54.5/gi/pygobject.h to /pkgs/pygobject3/usr/include/pygobject-3.0
+Installing /blfs/builds/pygobject-3.54.5/build/subprojects/pycairo/METADATA to /pkgs/pygobject3/usr/lib/python3.13/site-packages/pycairo-1.28.1.dist-info
+Installing /blfs/builds/pygobject-3.54.5/subprojects/pycairo/cairo/__init__.py to /pkgs/pygobject3/usr/lib/python3.13/site-packages/cairo
+Installing /blfs/builds/pygobject-3.54.5/subprojects/pycairo/cairo/__init__.pyi to /pkgs/pygobject3/usr/lib/python3.13/site-packages/cairo
+Installing /blfs/builds/pygobject-3.54.5/subprojects/pycairo/cairo/py.typed to /pkgs/pygobject3/usr/lib/python3.13/site-packages/cairo
+Installing /blfs/builds/pygobject-3.54.5/subprojects/pycairo/cairo/py3cairo.h to /pkgs/pygobject3/usr/lib/python3.13/site-packages/cairo/include
+Installing /blfs/builds/pygobject-3.54.5/build/meson-private/py3cairo.pc to /pkgs/pygobject3/usr/lib/pkgconfig
+Installing /blfs/builds/pygobject-3.54.5/build/pygobject-3.0.pc to /pkgs/pygobject3/usr/lib/pkgconfig
+Installing /blfs/builds/pygobject-3.54.5/build/METADATA to /pkgs/pygobject3/usr/lib/python3.13/site-packages/PyGObject-3.54.5.dist-info
+Installing /blfs/builds/pygobject-3.54.5/gi/events.py to /pkgs/pygobject3/usr/lib/python3.13/site-packages/gi
+Installing /blfs/builds/pygobject-3.54.5/gi/_constants.py to /pkgs/pygobject3/usr/lib/python3.13/site-packages/gi
+Installing /blfs/builds/pygobject-3.54.5/gi/docstring.py to /pkgs/pygobject3/usr/lib/python3.13/site-packages/gi
+Installing /blfs/builds/pygobject-3.54.5/gi/_enum.py to /pkgs/pygobject3/usr/lib/python3.13/site-packages/gi
+Installing /blfs/builds/pygobject-3.54.5/gi/_error.py to /pkgs/pygobject3/usr/lib/python3.13/site-packages/gi
+Installing /blfs/builds/pygobject-3.54.5/gi/_gtktemplate.py to /pkgs/pygobject3/usr/lib/python3.13/site-packages/gi
+Installing /blfs/builds/pygobject-3.54.5/gi/importer.py to /pkgs/pygobject3/usr/lib/python3.13/site-packages/gi
+Installing /blfs/builds/pygobject-3.54.5/gi/__init__.py to /pkgs/pygobject3/usr/lib/python3.13/site-packages/gi
+Installing /blfs/builds/pygobject-3.54.5/gi/module.py to /pkgs/pygobject3/usr/lib/python3.13/site-packages/gi
+Installing /blfs/builds/pygobject-3.54.5/gi/_option.py to /pkgs/pygobject3/usr/lib/python3.13/site-packages/gi
+Installing /blfs/builds/pygobject-3.54.5/gi/_ossighelper.py to /pkgs/pygobject3/usr/lib/python3.13/site-packages/gi
+Installing /blfs/builds/pygobject-3.54.5/gi/_propertyhelper.py to /pkgs/pygobject3/usr/lib/python3.13/site-packages/gi
+Installing /blfs/builds/pygobject-3.54.5/gi/pygtkcompat.py to /pkgs/pygobject3/usr/lib/python3.13/site-packages/gi
+Installing /blfs/builds/pygobject-3.54.5/gi/_signalhelper.py to /pkgs/pygobject3/usr/lib/python3.13/site-packages/gi
+Installing /blfs/builds/pygobject-3.54.5/gi/_signature.py to /pkgs/pygobject3/usr/lib/python3.13/site-packages/gi
+Installing /blfs/builds/pygobject-3.54.5/gi/types.py to /pkgs/pygobject3/usr/lib/python3.13/site-packages/gi
+Installing /blfs/builds/pygobject-3.54.5/gi/overrides/GLib.py to /pkgs/pygobject3/usr/lib/python3.13/site-packages/gi/overrides
+Installing /blfs/builds/pygobject-3.54.5/gi/overrides/Gtk.py to /pkgs/pygobject3/usr/lib/python3.13/site-packages/gi/overrides
+Installing /blfs/builds/pygobject-3.54.5/gi/overrides/Gdk.py to /pkgs/pygobject3/usr/lib/python3.13/site-packages/gi/overrides
+Installing /blfs/builds/pygobject-3.54.5/gi/overrides/GdkPixbuf.py to /pkgs/pygobject3/usr/lib/python3.13/site-packages/gi/overrides
+Installing /blfs/builds/pygobject-3.54.5/gi/overrides/GObject.py to /pkgs/pygobject3/usr/lib/python3.13/site-packages/gi/overrides
+Installing /blfs/builds/pygobject-3.54.5/gi/overrides/Gio.py to /pkgs/pygobject3/usr/lib/python3.13/site-packages/gi/overrides
+Installing /blfs/builds/pygobject-3.54.5/gi/overrides/GioUnix.py to /pkgs/pygobject3/usr/lib/python3.13/site-packages/gi/overrides
+Installing /blfs/builds/pygobject-3.54.5/gi/overrides/GIMarshallingTests.py to /pkgs/pygobject3/usr/lib/python3.13/site-packages/gi/overrides
+Installing /blfs/builds/pygobject-3.54.5/gi/overrides/Pango.py to /pkgs/pygobject3/usr/lib/python3.13/site-packages/gi/overrides
+Installing /blfs/builds/pygobject-3.54.5/gi/overrides/__init__.py to /pkgs/pygobject3/usr/lib/python3.13/site-packages/gi/overrides
+Installing /blfs/builds/pygobject-3.54.5/gi/repository/__init__.py to /pkgs/pygobject3/usr/lib/python3.13/site-packages/gi/repository
+Installing /blfs/builds/pygobject-3.54.5/pygtkcompat/__init__.py to /pkgs/pygobject3/usr/lib/python3.13/site-packages/pygtkcompat
+Installing /blfs/builds/pygobject-3.54.5/pygtkcompat/pygtkcompat.py to /pkgs/pygobject3/usr/lib/python3.13/site-packages/pygtkcompat
+Running custom install script '/usr/bin/python3 /blfs/builds/pygobject-3.54.5/build/meson-private/pycompile.py python-3.13-installed.json 0'
+pygobject3/
+pygobject3/usr/
+pygobject3/usr/include/
+pygobject3/usr/include/pycairo/
+pygobject3/usr/include/pycairo/py3cairo.h
+pygobject3/usr/include/pygobject-3.0/
+pygobject3/usr/include/pygobject-3.0/pygobject.h
+pygobject3/usr/lib/
+pygobject3/usr/lib/python3.13/
+pygobject3/usr/lib/python3.13/site-packages/
+pygobject3/usr/lib/python3.13/site-packages/pycairo-1.28.1.dist-info/
+pygobject3/usr/lib/python3.13/site-packages/pycairo-1.28.1.dist-info/METADATA
+pygobject3/usr/lib/python3.13/site-packages/pygtkcompat/
+pygobject3/usr/lib/python3.13/site-packages/pygtkcompat/__pycache__/
+pygobject3/usr/lib/python3.13/site-packages/pygtkcompat/__pycache__/pygtkcompat.cpython-313.pyc
+pygobject3/usr/lib/python3.13/site-packages/pygtkcompat/__pycache__/__init__.cpython-313.pyc
+pygobject3/usr/lib/python3.13/site-packages/pygtkcompat/__init__.py
+pygobject3/usr/lib/python3.13/site-packages/pygtkcompat/pygtkcompat.py
+pygobject3/usr/lib/python3.13/site-packages/PyGObject-3.54.5.dist-info/
+pygobject3/usr/lib/python3.13/site-packages/PyGObject-3.54.5.dist-info/METADATA
+pygobject3/usr/lib/python3.13/site-packages/cairo/
+pygobject3/usr/lib/python3.13/site-packages/cairo/__pycache__/
+pygobject3/usr/lib/python3.13/site-packages/cairo/__pycache__/__init__.cpython-313.pyc
+pygobject3/usr/lib/python3.13/site-packages/cairo/include/
+pygobject3/usr/lib/python3.13/site-packages/cairo/include/py3cairo.h
+pygobject3/usr/lib/python3.13/site-packages/cairo/__init__.py
+pygobject3/usr/lib/python3.13/site-packages/cairo/__init__.pyi
+pygobject3/usr/lib/python3.13/site-packages/cairo/_cairo.cpython-313-x86_64-linux-gnu.so
+pygobject3/usr/lib/python3.13/site-packages/cairo/py.typed
+pygobject3/usr/lib/python3.13/site-packages/gi/
+pygobject3/usr/lib/python3.13/site-packages/gi/module.py
+pygobject3/usr/lib/python3.13/site-packages/gi/_gi_cairo.cpython-313-x86_64-linux-gnu.so
+pygobject3/usr/lib/python3.13/site-packages/gi/__pycache__/
+pygobject3/usr/lib/python3.13/site-packages/gi/__pycache__/_propertyhelper.cpython-313.pyc
+pygobject3/usr/lib/python3.13/site-packages/gi/__pycache__/pygtkcompat.cpython-313.pyc
+pygobject3/usr/lib/python3.13/site-packages/gi/__pycache__/module.cpython-313.pyc
+pygobject3/usr/lib/python3.13/site-packages/gi/__pycache__/_option.cpython-313.pyc
+pygobject3/usr/lib/python3.13/site-packages/gi/__pycache__/_ossighelper.cpython-313.pyc
+pygobject3/usr/lib/python3.13/site-packages/gi/__pycache__/_error.cpython-313.pyc
+pygobject3/usr/lib/python3.13/site-packages/gi/__pycache__/events.cpython-313.pyc
+pygobject3/usr/lib/python3.13/site-packages/gi/__pycache__/importer.cpython-313.pyc
+pygobject3/usr/lib/python3.13/site-packages/gi/__pycache__/__init__.cpython-313.pyc
+pygobject3/usr/lib/python3.13/site-packages/gi/__pycache__/_enum.cpython-313.pyc
+pygobject3/usr/lib/python3.13/site-packages/gi/__pycache__/docstring.cpython-313.pyc
+pygobject3/usr/lib/python3.13/site-packages/gi/__pycache__/_gtktemplate.cpython-313.pyc
+pygobject3/usr/lib/python3.13/site-packages/gi/__pycache__/_constants.cpython-313.pyc
+pygobject3/usr/lib/python3.13/site-packages/gi/__pycache__/_signature.cpython-313.pyc
+pygobject3/usr/lib/python3.13/site-packages/gi/__pycache__/_signalhelper.cpython-313.pyc
+pygobject3/usr/lib/python3.13/site-packages/gi/__pycache__/types.cpython-313.pyc
+pygobject3/usr/lib/python3.13/site-packages/gi/_constants.py
+pygobject3/usr/lib/python3.13/site-packages/gi/events.py
+pygobject3/usr/lib/python3.13/site-packages/gi/_ossighelper.py
+pygobject3/usr/lib/python3.13/site-packages/gi/_option.py
+pygobject3/usr/lib/python3.13/site-packages/gi/__init__.py
+pygobject3/usr/lib/python3.13/site-packages/gi/_enum.py
+pygobject3/usr/lib/python3.13/site-packages/gi/overrides/
+pygobject3/usr/lib/python3.13/site-packages/gi/overrides/Gtk.py
+pygobject3/usr/lib/python3.13/site-packages/gi/overrides/Gdk.py
+pygobject3/usr/lib/python3.13/site-packages/gi/overrides/GdkPixbuf.py
+pygobject3/usr/lib/python3.13/site-packages/gi/overrides/GioUnix.py
+pygobject3/usr/lib/python3.13/site-packages/gi/overrides/__pycache__/
+pygobject3/usr/lib/python3.13/site-packages/gi/overrides/__pycache__/Gio.cpython-313.pyc
+pygobject3/usr/lib/python3.13/site-packages/gi/overrides/__pycache__/Gdk.cpython-313.pyc
+pygobject3/usr/lib/python3.13/site-packages/gi/overrides/__pycache__/GdkPixbuf.cpython-313.pyc
+pygobject3/usr/lib/python3.13/site-packages/gi/overrides/__pycache__/GLib.cpython-313.pyc
+pygobject3/usr/lib/python3.13/site-packages/gi/overrides/__pycache__/Gtk.cpython-313.pyc
+pygobject3/usr/lib/python3.13/site-packages/gi/overrides/__pycache__/GObject.cpython-313.pyc
+pygobject3/usr/lib/python3.13/site-packages/gi/overrides/__pycache__/__init__.cpython-313.pyc
+pygobject3/usr/lib/python3.13/site-packages/gi/overrides/__pycache__/GIMarshallingTests.cpython-313.pyc
+pygobject3/usr/lib/python3.13/site-packages/gi/overrides/__pycache__/Pango.cpython-313.pyc
+pygobject3/usr/lib/python3.13/site-packages/gi/overrides/__pycache__/GioUnix.cpython-313.pyc
+pygobject3/usr/lib/python3.13/site-packages/gi/overrides/Pango.py
+pygobject3/usr/lib/python3.13/site-packages/gi/overrides/GLib.py
+pygobject3/usr/lib/python3.13/site-packages/gi/overrides/GIMarshallingTests.py
+pygobject3/usr/lib/python3.13/site-packages/gi/overrides/__init__.py
+pygobject3/usr/lib/python3.13/site-packages/gi/overrides/GObject.py
+pygobject3/usr/lib/python3.13/site-packages/gi/overrides/Gio.py
+pygobject3/usr/lib/python3.13/site-packages/gi/_propertyhelper.py
+pygobject3/usr/lib/python3.13/site-packages/gi/_signalhelper.py
+pygobject3/usr/lib/python3.13/site-packages/gi/_gtktemplate.py
+pygobject3/usr/lib/python3.13/site-packages/gi/importer.py
+pygobject3/usr/lib/python3.13/site-packages/gi/pygtkcompat.py
+pygobject3/usr/lib/python3.13/site-packages/gi/docstring.py
+pygobject3/usr/lib/python3.13/site-packages/gi/repository/
+pygobject3/usr/lib/python3.13/site-packages/gi/repository/__pycache__/
+pygobject3/usr/lib/python3.13/site-packages/gi/repository/__pycache__/__init__.cpython-313.pyc
+pygobject3/usr/lib/python3.13/site-packages/gi/repository/__init__.py
+pygobject3/usr/lib/python3.13/site-packages/gi/types.py
+pygobject3/usr/lib/python3.13/site-packages/gi/_signature.py
+pygobject3/usr/lib/python3.13/site-packages/gi/_gi.cpython-313-x86_64-linux-gnu.so
+pygobject3/usr/lib/python3.13/site-packages/gi/_error.py
+pygobject3/usr/lib/pkgconfig/
+pygobject3/usr/lib/pkgconfig/pygobject-3.0.pc
+pygobject3/usr/lib/pkgconfig/py3cairo.pc
+pygobject3/version
+pygobject3/postinst
+pygobject3/depends
+pygobject3/make-depends
