@@ -1,0 +1,436 @@
+--2025-10-31 11:17:38--  https://github.com/fmtlib/fmt/archive/refs/tags/12.1.0.tar.gz
+Resolving github.com (github.com)... 140.82.113.3
+Connecting to github.com (github.com)|140.82.113.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://codeload.github.com/fmtlib/fmt/tar.gz/refs/tags/12.1.0 [following]
+--2025-10-31 11:17:43--  https://codeload.github.com/fmtlib/fmt/tar.gz/refs/tags/12.1.0
+Resolving codeload.github.com (codeload.github.com)... 140.82.113.9
+Connecting to codeload.github.com (codeload.github.com)|140.82.113.9|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/x-gzip]
+Saving to: ‘12.1.0.tar.gz’
+
+     0K .......... .......... .......... .......... .......... 2.13M
+    50K .......... .......... .......... .......... .......... 4.14M
+   100K .......... .......... .......... .......... ..........  100M
+   150K .......... .......... .......... .......... .......... 4.19M
+   200K .......... .......... .......... .......... .......... 81.1M
+   250K .......... .......... .......... .......... .......... 2.11M
+   300K .......... .......... .......... .......... .......... 95.8M
+   350K .......... .......... .......... .......... .......... 4.03M
+   400K .......... .......... .......... .......... .......... 74.6M
+   450K .......... .......... .......... .......... .......... 4.37M
+   500K .......... .......... .......... .......... .......... 81.3M
+   550K .......... .......... .......... .......... .......... 4.49M
+   600K .......... .......... .......... .......... .......... 77.9M
+   650K .......... .......... .......... .......... ....       87.4M=0.1s
+
+2025-10-31 11:17:44 (6.30 MB/s) - ‘12.1.0.tar.gz’ saved [711419]
+
+fmt-12.1.0/
+fmt-12.1.0/.clang-format
+fmt-12.1.0/.clang-tidy
+fmt-12.1.0/.github/
+fmt-12.1.0/.github/dependabot.yml
+fmt-12.1.0/.github/issue_template.md
+fmt-12.1.0/.github/pull_request_template.md
+fmt-12.1.0/.github/workflows/
+fmt-12.1.0/.github/workflows/cifuzz.yml
+fmt-12.1.0/.github/workflows/doc.yml
+fmt-12.1.0/.github/workflows/lint.yml
+fmt-12.1.0/.github/workflows/linux.yml
+fmt-12.1.0/.github/workflows/macos.yml
+fmt-12.1.0/.github/workflows/scorecard.yml
+fmt-12.1.0/.github/workflows/windows.yml
+fmt-12.1.0/.gitignore
+fmt-12.1.0/CMakeLists.txt
+fmt-12.1.0/CONTRIBUTING.md
+fmt-12.1.0/ChangeLog.md
+fmt-12.1.0/LICENSE
+fmt-12.1.0/README.md
+fmt-12.1.0/doc/
+fmt-12.1.0/doc/ChangeLog-old.md
+fmt-12.1.0/doc/api.md
+fmt-12.1.0/doc/fmt.css
+fmt-12.1.0/doc/fmt.js
+fmt-12.1.0/doc/get-started.md
+fmt-12.1.0/doc/index.md
+fmt-12.1.0/doc/perf.svg
+fmt-12.1.0/doc/python-license.txt
+fmt-12.1.0/doc/syntax.md
+fmt-12.1.0/include/
+fmt-12.1.0/include/fmt/
+fmt-12.1.0/include/fmt/args.h
+fmt-12.1.0/include/fmt/base.h
+fmt-12.1.0/include/fmt/chrono.h
+fmt-12.1.0/include/fmt/color.h
+fmt-12.1.0/include/fmt/compile.h
+fmt-12.1.0/include/fmt/core.h
+fmt-12.1.0/include/fmt/format-inl.h
+fmt-12.1.0/include/fmt/format.h
+fmt-12.1.0/include/fmt/os.h
+fmt-12.1.0/include/fmt/ostream.h
+fmt-12.1.0/include/fmt/printf.h
+fmt-12.1.0/include/fmt/ranges.h
+fmt-12.1.0/include/fmt/std.h
+fmt-12.1.0/include/fmt/xchar.h
+fmt-12.1.0/src/
+fmt-12.1.0/src/fmt.cc
+fmt-12.1.0/src/format.cc
+fmt-12.1.0/src/os.cc
+fmt-12.1.0/support/
+fmt-12.1.0/support/Android.mk
+fmt-12.1.0/support/AndroidManifest.xml
+fmt-12.1.0/support/C++.sublime-syntax
+fmt-12.1.0/support/README
+fmt-12.1.0/support/Vagrantfile
+fmt-12.1.0/support/build.gradle
+fmt-12.1.0/support/check-commits
+fmt-12.1.0/support/cmake/
+fmt-12.1.0/support/cmake/FindSetEnv.cmake
+fmt-12.1.0/support/cmake/JoinPaths.cmake
+fmt-12.1.0/support/cmake/fmt-config.cmake.in
+fmt-12.1.0/support/cmake/fmt.pc.in
+fmt-12.1.0/support/docopt.py
+fmt-12.1.0/support/mkdocs
+fmt-12.1.0/support/mkdocs.yml
+fmt-12.1.0/support/printable.py
+fmt-12.1.0/support/python/
+fmt-12.1.0/support/python/mkdocstrings_handlers/
+fmt-12.1.0/support/python/mkdocstrings_handlers/cxx/
+fmt-12.1.0/support/python/mkdocstrings_handlers/cxx/__init__.py
+fmt-12.1.0/support/python/mkdocstrings_handlers/cxx/templates/
+fmt-12.1.0/support/python/mkdocstrings_handlers/cxx/templates/README
+fmt-12.1.0/support/release.py
+fmt-12.1.0/test/
+fmt-12.1.0/test/CMakeLists.txt
+fmt-12.1.0/test/add-subdirectory-test/
+fmt-12.1.0/test/add-subdirectory-test/CMakeLists.txt
+fmt-12.1.0/test/add-subdirectory-test/main.cc
+fmt-12.1.0/test/args-test.cc
+fmt-12.1.0/test/assert-test.cc
+fmt-12.1.0/test/base-test.cc
+fmt-12.1.0/test/chrono-test.cc
+fmt-12.1.0/test/color-test.cc
+fmt-12.1.0/test/compile-error-test/
+fmt-12.1.0/test/compile-error-test/CMakeLists.txt
+fmt-12.1.0/test/compile-fp-test.cc
+fmt-12.1.0/test/compile-test.cc
+fmt-12.1.0/test/cuda-test/
+fmt-12.1.0/test/cuda-test/CMakeLists.txt
+fmt-12.1.0/test/cuda-test/cpp14.cc
+fmt-12.1.0/test/cuda-test/cuda-cpp14.cu
+fmt-12.1.0/test/detect-stdfs.cc
+fmt-12.1.0/test/enforce-checks-test.cc
+fmt-12.1.0/test/find-package-test/
+fmt-12.1.0/test/find-package-test/CMakeLists.txt
+fmt-12.1.0/test/find-package-test/main.cc
+fmt-12.1.0/test/format-impl-test.cc
+fmt-12.1.0/test/format-test.cc
+fmt-12.1.0/test/fuzzing/
+fmt-12.1.0/test/fuzzing/.gitignore
+fmt-12.1.0/test/fuzzing/CMakeLists.txt
+fmt-12.1.0/test/fuzzing/README.md
+fmt-12.1.0/test/fuzzing/build.sh
+fmt-12.1.0/test/fuzzing/chrono-duration.cc
+fmt-12.1.0/test/fuzzing/chrono-timepoint.cc
+fmt-12.1.0/test/fuzzing/float.cc
+fmt-12.1.0/test/fuzzing/fuzzer-common.h
+fmt-12.1.0/test/fuzzing/main.cc
+fmt-12.1.0/test/fuzzing/named-arg.cc
+fmt-12.1.0/test/fuzzing/one-arg.cc
+fmt-12.1.0/test/fuzzing/two-args.cc
+fmt-12.1.0/test/gtest-extra-test.cc
+fmt-12.1.0/test/gtest-extra.cc
+fmt-12.1.0/test/gtest-extra.h
+fmt-12.1.0/test/gtest/
+fmt-12.1.0/test/gtest/.clang-format
+fmt-12.1.0/test/gtest/CMakeLists.txt
+fmt-12.1.0/test/gtest/gmock-gtest-all.cc
+fmt-12.1.0/test/gtest/gmock/
+fmt-12.1.0/test/gtest/gmock/gmock.h
+fmt-12.1.0/test/gtest/gtest/
+fmt-12.1.0/test/gtest/gtest/gtest-spi.h
+fmt-12.1.0/test/gtest/gtest/gtest.h
+fmt-12.1.0/test/header-only-test.cc
+fmt-12.1.0/test/mock-allocator.h
+fmt-12.1.0/test/module-test.cc
+fmt-12.1.0/test/no-builtin-types-test.cc
+fmt-12.1.0/test/noexception-test.cc
+fmt-12.1.0/test/os-test.cc
+fmt-12.1.0/test/ostream-test.cc
+fmt-12.1.0/test/perf-sanity.cc
+fmt-12.1.0/test/posix-mock-test.cc
+fmt-12.1.0/test/posix-mock.h
+fmt-12.1.0/test/printf-test.cc
+fmt-12.1.0/test/ranges-odr-test.cc
+fmt-12.1.0/test/ranges-test.cc
+fmt-12.1.0/test/scan-test.cc
+fmt-12.1.0/test/scan.h
+fmt-12.1.0/test/static-export-test/
+fmt-12.1.0/test/static-export-test/CMakeLists.txt
+fmt-12.1.0/test/static-export-test/library.cc
+fmt-12.1.0/test/static-export-test/main.cc
+fmt-12.1.0/test/std-test.cc
+fmt-12.1.0/test/test-assert.h
+fmt-12.1.0/test/test-main.cc
+fmt-12.1.0/test/unicode-test.cc
+fmt-12.1.0/test/util.cc
+fmt-12.1.0/test/util.h
+fmt-12.1.0/test/xchar-test.cc
+-- CMake version: 4.1.2
+-- The CXX compiler identification is GNU 15.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- {fmt} version: 12.1.0
+-- Build type: Release
+-- Target 'doc' disabled because doxygen not found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Looking for strptime
+-- Looking for strptime - found
+-- FMT_PEDANTIC: OFF
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    INSTALL_LIBDIR
+
+
+-- Build files have been written to: /blfs/builds/fmt-12.1.0/build
+[  2%] Building CXX object test/gtest/CMakeFiles/gtest.dir/gmock-gtest-all.cc.o
+[  2%] Building CXX object CMakeFiles/fmt.dir/src/format.cc.o
+[  4%] Building CXX object CMakeFiles/fmt.dir/src/os.cc.o
+[  5%] Linking CXX shared library libfmt.so
+[  5%] Built target fmt
+[  6%] Building CXX object test/CMakeFiles/perf-sanity.dir/perf-sanity.cc.o
+[  8%] Linking CXX executable ../bin/perf-sanity
+[  8%] Built target perf-sanity
+[  9%] Linking CXX static library libgtest.a
+[  9%] Built target gtest
+[ 14%] Building CXX object test/CMakeFiles/no-builtin-types-test.dir/no-builtin-types-test.cc.o
+[ 14%] Building CXX object test/CMakeFiles/scan-test.dir/scan-test.cc.o
+[ 14%] Building CXX object test/CMakeFiles/unicode-test.dir/unicode-test.cc.o
+[ 14%] Building CXX object test/CMakeFiles/test-main.dir/test-main.cc.o
+[ 18%] Building CXX object test/CMakeFiles/format-impl-test.dir/header-only-test.cc.o
+[ 18%] Building CXX object test/CMakeFiles/test-main.dir/gtest-extra.cc.o
+[ 18%] Building CXX object test/CMakeFiles/format-impl-test.dir/format-impl-test.cc.o
+[ 20%] Building CXX object test/CMakeFiles/no-builtin-types-test.dir/test-main.cc.o
+[ 21%] Building CXX object test/CMakeFiles/test-main.dir/util.cc.o
+[ 22%] Building CXX object test/CMakeFiles/posix-mock-test.dir/posix-mock-test.cc.o
+[ 24%] Building CXX object test/CMakeFiles/no-builtin-types-test.dir/gtest-extra.cc.o
+[ 25%] Building CXX object test/CMakeFiles/format-impl-test.dir/test-main.cc.o
+[ 26%] Building CXX object test/CMakeFiles/unicode-test.dir/test-main.cc.o
+[ 28%] Building CXX object test/CMakeFiles/scan-test.dir/test-main.cc.o
+[ 29%] Linking CXX static library libtest-main.a
+[ 29%] Built target test-main
+[ 30%] Building CXX object test/CMakeFiles/posix-mock-test.dir/__/src/format.cc.o
+[ 32%] Building CXX object test/CMakeFiles/unicode-test.dir/gtest-extra.cc.o
+[ 33%] Building CXX object test/CMakeFiles/no-builtin-types-test.dir/util.cc.o
+[ 34%] Building CXX object test/CMakeFiles/format-impl-test.dir/gtest-extra.cc.o
+[ 36%] Building CXX object test/CMakeFiles/scan-test.dir/gtest-extra.cc.o
+[ 37%] Building CXX object test/CMakeFiles/args-test.dir/args-test.cc.o
+[ 38%] Building CXX object test/CMakeFiles/no-builtin-types-test.dir/__/src/os.cc.o
+[ 40%] Building CXX object test/CMakeFiles/format-impl-test.dir/util.cc.o
+[ 41%] Building CXX object test/CMakeFiles/posix-mock-test.dir/test-main.cc.o
+[ 42%] Building CXX object test/CMakeFiles/unicode-test.dir/util.cc.o
+[ 44%] Building CXX object test/CMakeFiles/base-test.dir/base-test.cc.o
+[ 45%] Linking CXX executable ../bin/args-test
+[ 46%] Building CXX object test/CMakeFiles/format-impl-test.dir/__/src/os.cc.o
+[ 48%] Building CXX object test/CMakeFiles/assert-test.dir/assert-test.cc.o
+[ 49%] Building CXX object test/CMakeFiles/scan-test.dir/util.cc.o
+[ 49%] Built target args-test
+[ 50%] Building CXX object test/CMakeFiles/posix-mock-test.dir/gtest-extra.cc.o
+[ 52%] Building CXX object test/CMakeFiles/chrono-test.dir/chrono-test.cc.o
+[ 53%] Building CXX object test/CMakeFiles/scan-test.dir/__/src/os.cc.o
+[ 54%] Linking CXX executable ../bin/assert-test
+[ 54%] Built target assert-test
+[ 56%] Building CXX object test/CMakeFiles/unicode-test.dir/__/src/os.cc.o
+[ 57%] Linking CXX executable ../bin/no-builtin-types-test
+[ 58%] Building CXX object test/CMakeFiles/posix-mock-test.dir/util.cc.o
+[ 58%] Built target no-builtin-types-test
+[ 60%] Building CXX object test/CMakeFiles/color-test.dir/color-test.cc.o
+[ 61%] Linking CXX executable ../bin/posix-mock-test
+[ 61%] Built target posix-mock-test
+[ 62%] Building CXX object test/CMakeFiles/gtest-extra-test.dir/gtest-extra-test.cc.o
+[ 64%] Building CXX object test/CMakeFiles/format-test.dir/format-test.cc.o
+[ 65%] Building CXX object test/CMakeFiles/ostream-test.dir/ostream-test.cc.o
+[ 66%] Linking CXX executable ../bin/format-impl-test
+[ 66%] Built target format-impl-test
+[ 68%] Building CXX object test/CMakeFiles/compile-test.dir/compile-test.cc.o
+[ 69%] Building CXX object test/CMakeFiles/compile-fp-test.dir/compile-fp-test.cc.o
+[ 70%] Linking CXX executable ../bin/color-test
+[ 70%] Built target color-test
+[ 72%] Building CXX object test/CMakeFiles/printf-test.dir/printf-test.cc.o
+[ 73%] Linking CXX executable ../bin/unicode-test
+[ 73%] Built target unicode-test
+[ 74%] Building CXX object test/CMakeFiles/ranges-test.dir/ranges-test.cc.o
+[ 76%] Linking CXX executable ../bin/compile-fp-test
+[ 76%] Built target compile-fp-test
+[ 77%] Building CXX object test/CMakeFiles/ranges-test.dir/ranges-odr-test.cc.o
+[ 78%] Linking CXX executable ../bin/gtest-extra-test
+[ 78%] Built target gtest-extra-test
+[ 80%] Building CXX object test/CMakeFiles/std-test.dir/std-test.cc.o
+[ 81%] Linking CXX executable ../bin/scan-test
+[ 81%] Built target scan-test
+[ 82%] Building CXX object test/CMakeFiles/xchar-test.dir/xchar-test.cc.o
+[ 84%] Linking CXX executable ../bin/ostream-test
+[ 84%] Built target ostream-test
+[ 85%] Building CXX object test/CMakeFiles/enforce-checks-test.dir/enforce-checks-test.cc.o
+[ 86%] Building CXX object test/CMakeFiles/os-test.dir/os-test.cc.o
+[ 88%] Linking CXX executable ../bin/compile-test
+[ 88%] Built target compile-test
+[ 89%] Linking CXX executable ../bin/base-test
+[ 89%] Built target base-test
+[ 90%] Linking CXX executable ../bin/enforce-checks-test
+[ 90%] Built target enforce-checks-test
+[ 92%] Linking CXX executable ../bin/os-test
+[ 92%] Built target os-test
+[ 93%] Linking CXX executable ../bin/std-test
+[ 93%] Built target std-test
+[ 94%] Linking CXX executable ../bin/ranges-test
+[ 94%] Built target ranges-test
+[ 96%] Linking CXX executable ../bin/xchar-test
+[ 96%] Built target xchar-test
+[ 97%] Linking CXX executable ../bin/chrono-test
+[ 98%] Linking CXX executable ../bin/format-test
+[ 98%] Built target chrono-test
+[ 98%] Built target format-test
+[100%] Linking CXX executable ../bin/printf-test
+[100%] Built target printf-test
+[  4%] Built target fmt
+[  6%] Built target gtest
+[ 12%] Built target test-main
+[ 14%] Built target args-test
+[ 17%] Built target base-test
+[ 20%] Built target assert-test
+[ 22%] Built target chrono-test
+[ 25%] Built target color-test
+[ 28%] Built target gtest-extra-test
+[ 30%] Built target format-test
+[ 40%] Built target format-impl-test
+[ 42%] Built target ostream-test
+[ 45%] Built target compile-test
+[ 48%] Built target compile-fp-test
+[ 50%] Built target printf-test
+[ 54%] Built target ranges-test
+[ 62%] Built target no-builtin-types-test
+[ 70%] Built target scan-test
+[ 73%] Built target std-test
+[ 81%] Built target unicode-test
+[ 84%] Built target xchar-test
+[ 86%] Built target enforce-checks-test
+[ 89%] Built target perf-sanity
+[ 97%] Built target posix-mock-test
+[100%] Built target os-test
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /pkgs/fmt/usr/lib/libfmt.so.12.1.0
+-- Installing: /pkgs/fmt/usr/lib/libfmt.so.12
+-- Installing: /pkgs/fmt/usr/lib/libfmt.so
+-- Installing: /pkgs/fmt/usr/include/fmt/args.h
+-- Installing: /pkgs/fmt/usr/include/fmt/base.h
+-- Installing: /pkgs/fmt/usr/include/fmt/chrono.h
+-- Installing: /pkgs/fmt/usr/include/fmt/color.h
+-- Installing: /pkgs/fmt/usr/include/fmt/compile.h
+-- Installing: /pkgs/fmt/usr/include/fmt/core.h
+-- Installing: /pkgs/fmt/usr/include/fmt/format.h
+-- Installing: /pkgs/fmt/usr/include/fmt/format-inl.h
+-- Installing: /pkgs/fmt/usr/include/fmt/os.h
+-- Installing: /pkgs/fmt/usr/include/fmt/ostream.h
+-- Installing: /pkgs/fmt/usr/include/fmt/printf.h
+-- Installing: /pkgs/fmt/usr/include/fmt/ranges.h
+-- Installing: /pkgs/fmt/usr/include/fmt/std.h
+-- Installing: /pkgs/fmt/usr/include/fmt/xchar.h
+-- Installing: /pkgs/fmt/usr/lib/cmake/fmt/fmt-config.cmake
+-- Installing: /pkgs/fmt/usr/lib/cmake/fmt/fmt-config-version.cmake
+-- Installing: /pkgs/fmt/usr/lib/cmake/fmt/fmt-targets.cmake
+-- Installing: /pkgs/fmt/usr/lib/cmake/fmt/fmt-targets-release.cmake
+-- Installing: /pkgs/fmt/usr/lib/pkgconfig/fmt.pc
+[  4%] Built target fmt
+[  6%] Built target gtest
+[ 12%] Built target test-main
+[ 14%] Built target args-test
+[ 17%] Built target base-test
+[ 20%] Built target assert-test
+[ 22%] Built target chrono-test
+[ 25%] Built target color-test
+[ 28%] Built target gtest-extra-test
+[ 30%] Built target format-test
+[ 40%] Built target format-impl-test
+[ 42%] Built target ostream-test
+[ 45%] Built target compile-test
+[ 48%] Built target compile-fp-test
+[ 50%] Built target printf-test
+[ 54%] Built target ranges-test
+[ 62%] Built target no-builtin-types-test
+[ 70%] Built target scan-test
+[ 73%] Built target std-test
+[ 81%] Built target unicode-test
+[ 84%] Built target xchar-test
+[ 86%] Built target enforce-checks-test
+[ 89%] Built target perf-sanity
+[ 97%] Built target posix-mock-test
+[100%] Built target os-test
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /usr/lib/libfmt.so.12.1.0
+-- Installing: /usr/lib/libfmt.so.12
+-- Up-to-date: /usr/lib/libfmt.so
+-- Installing: /usr/include/fmt/args.h
+-- Installing: /usr/include/fmt/base.h
+-- Installing: /usr/include/fmt/chrono.h
+-- Installing: /usr/include/fmt/color.h
+-- Installing: /usr/include/fmt/compile.h
+-- Installing: /usr/include/fmt/core.h
+-- Installing: /usr/include/fmt/format.h
+-- Installing: /usr/include/fmt/format-inl.h
+-- Installing: /usr/include/fmt/os.h
+-- Installing: /usr/include/fmt/ostream.h
+-- Installing: /usr/include/fmt/printf.h
+-- Installing: /usr/include/fmt/ranges.h
+-- Installing: /usr/include/fmt/std.h
+-- Installing: /usr/include/fmt/xchar.h
+-- Installing: /usr/lib/cmake/fmt/fmt-config.cmake
+-- Installing: /usr/lib/cmake/fmt/fmt-config-version.cmake
+-- Installing: /usr/lib/cmake/fmt/fmt-targets.cmake
+-- Installing: /usr/lib/cmake/fmt/fmt-targets-release.cmake
+-- Installing: /usr/lib/pkgconfig/fmt.pc
+fmt/
+fmt/usr/
+fmt/usr/include/
+fmt/usr/include/fmt/
+fmt/usr/include/fmt/os.h
+fmt/usr/include/fmt/args.h
+fmt/usr/include/fmt/xchar.h
+fmt/usr/include/fmt/std.h
+fmt/usr/include/fmt/base.h
+fmt/usr/include/fmt/compile.h
+fmt/usr/include/fmt/ranges.h
+fmt/usr/include/fmt/ostream.h
+fmt/usr/include/fmt/format.h
+fmt/usr/include/fmt/color.h
+fmt/usr/include/fmt/core.h
+fmt/usr/include/fmt/chrono.h
+fmt/usr/include/fmt/printf.h
+fmt/usr/include/fmt/format-inl.h
+fmt/usr/lib/
+fmt/usr/lib/libfmt.so
+fmt/usr/lib/libfmt.so.12.1.0
+fmt/usr/lib/libfmt.so.12
+fmt/usr/lib/pkgconfig/
+fmt/usr/lib/pkgconfig/fmt.pc
+fmt/usr/lib/cmake/
+fmt/usr/lib/cmake/fmt/
+fmt/usr/lib/cmake/fmt/fmt-targets-release.cmake
+fmt/usr/lib/cmake/fmt/fmt-targets.cmake
+fmt/usr/lib/cmake/fmt/fmt-config.cmake
+fmt/usr/lib/cmake/fmt/fmt-config-version.cmake
+fmt/version
+fmt/depends
+fmt/make-depends
