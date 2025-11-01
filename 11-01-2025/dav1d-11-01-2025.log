@@ -1,0 +1,683 @@
+--2025-11-01 12:12:53--  http://downloads.videolan.org/videolan/dav1d/1.5.2/dav1d-1.5.2.tar.xz
+Resolving downloads.videolan.org (downloads.videolan.org)... 2a01:e0d:1:3:58bf:fa02:c0de:5, 213.36.253.2
+Connecting to downloads.videolan.org (downloads.videolan.org)|2a01:e0d:1:3:58bf:fa02:c0de:5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1020812 (997K) [application/octet-stream]
+Saving to: ‘dav1d-1.5.2.tar.xz’
+
+     0K .......... .......... .......... .......... ..........  5%  299K 3s
+    50K .......... .......... .......... .......... .......... 10%  591K 2s
+   100K .......... .......... .......... .......... .......... 15% 70.9M 1s
+   150K .......... .......... .......... .......... .......... 20%  602K 1s
+   200K .......... .......... .......... .......... .......... 25% 13.6M 1s
+   250K .......... .......... .......... .......... .......... 30%  621K 1s
+   300K .......... .......... .......... .......... .......... 35% 80.2M 1s
+   350K .......... .......... .......... .......... .......... 40%  604K 1s
+   400K .......... .......... .......... .......... .......... 45% 88.0M 1s
+   450K .......... .......... .......... .......... .......... 50% 75.0M 1s
+   500K .......... .......... .......... .......... .......... 55%  604K 0s
+   550K .......... .......... .......... .......... .......... 60%  150M 0s
+   600K .......... .......... .......... .......... .......... 65% 84.9M 0s
+   650K .......... .......... .......... .......... .......... 70% 87.2M 0s
+   700K .......... .......... .......... .......... .......... 75%  154M 0s
+   750K .......... .......... .......... .......... .......... 80% 89.6M 0s
+   800K .......... .......... .......... .......... .......... 85% 26.3M 0s
+   850K .......... .......... .......... .......... .......... 90%  623K 0s
+   900K .......... .......... .......... .......... .......... 95% 95.5M 0s
+   950K .......... .......... .......... .......... ......    100%  148M=0.7s
+
+2025-11-01 12:12:54 (1.45 MB/s) - ‘dav1d-1.5.2.tar.xz’ saved [1020812/1020812]
+
+dav1d-1.5.2/
+dav1d-1.5.2/.gitignore
+dav1d-1.5.2/.gitlab-ci.yml
+dav1d-1.5.2/CONTRIBUTING.md
+dav1d-1.5.2/COPYING
+dav1d-1.5.2/NEWS
+dav1d-1.5.2/README.md
+dav1d-1.5.2/THANKS.md
+dav1d-1.5.2/doc/
+dav1d-1.5.2/doc/Doxyfile.in.in
+dav1d-1.5.2/doc/PATENTS
+dav1d-1.5.2/doc/dav1d_logo.png
+dav1d-1.5.2/doc/dav1d_logo.svg
+dav1d-1.5.2/doc/meson.build
+dav1d-1.5.2/examples/
+dav1d-1.5.2/examples/dav1dplay.c
+dav1d-1.5.2/examples/dp_fifo.c
+dav1d-1.5.2/examples/dp_fifo.h
+dav1d-1.5.2/examples/dp_renderer.h
+dav1d-1.5.2/examples/dp_renderer_placebo.c
+dav1d-1.5.2/examples/dp_renderer_sdl.c
+dav1d-1.5.2/examples/meson.build
+dav1d-1.5.2/gcovr.cfg
+dav1d-1.5.2/include/
+dav1d-1.5.2/include/common/
+dav1d-1.5.2/include/common/attributes.h
+dav1d-1.5.2/include/common/bitdepth.h
+dav1d-1.5.2/include/common/dump.h
+dav1d-1.5.2/include/common/frame.h
+dav1d-1.5.2/include/common/intops.h
+dav1d-1.5.2/include/common/validate.h
+dav1d-1.5.2/include/compat/
+dav1d-1.5.2/include/compat/gcc/
+dav1d-1.5.2/include/compat/gcc/stdatomic.h
+dav1d-1.5.2/include/compat/getopt.h
+dav1d-1.5.2/include/compat/msvc/
+dav1d-1.5.2/include/compat/msvc/stdatomic.h
+dav1d-1.5.2/include/dav1d/
+dav1d-1.5.2/include/dav1d/common.h
+dav1d-1.5.2/include/dav1d/data.h
+dav1d-1.5.2/include/dav1d/dav1d.h
+dav1d-1.5.2/include/dav1d/headers.h
+dav1d-1.5.2/include/dav1d/meson.build
+dav1d-1.5.2/include/dav1d/picture.h
+dav1d-1.5.2/include/dav1d/version.h
+dav1d-1.5.2/include/meson.build
+dav1d-1.5.2/include/vcs_version.h.in
+dav1d-1.5.2/meson.build
+dav1d-1.5.2/meson_options.txt
+dav1d-1.5.2/package/
+dav1d-1.5.2/package/crossfiles/
+dav1d-1.5.2/package/crossfiles/aarch64-android.meson
+dav1d-1.5.2/package/crossfiles/aarch64-linux-clang.meson
+dav1d-1.5.2/package/crossfiles/aarch64-linux.meson
+dav1d-1.5.2/package/crossfiles/aarch64-w64-mingw32.meson
+dav1d-1.5.2/package/crossfiles/arm-android.meson
+dav1d-1.5.2/package/crossfiles/arm64-iPhoneOS.meson
+dav1d-1.5.2/package/crossfiles/armv7-w64-mingw32.meson
+dav1d-1.5.2/package/crossfiles/i686-linux32.meson
+dav1d-1.5.2/package/crossfiles/i686-w64-mingw32.meson
+dav1d-1.5.2/package/crossfiles/loongarch64-linux.meson
+dav1d-1.5.2/package/crossfiles/riscv64-linux-clang.meson
+dav1d-1.5.2/package/crossfiles/riscv64-linux.meson
+dav1d-1.5.2/package/crossfiles/wasm32.meson
+dav1d-1.5.2/package/crossfiles/wasm64.meson
+dav1d-1.5.2/package/crossfiles/x86-android.meson
+dav1d-1.5.2/package/crossfiles/x86_64-android.meson
+dav1d-1.5.2/package/crossfiles/x86_64-iPhoneSimulator.meson
+dav1d-1.5.2/package/crossfiles/x86_64-w64-mingw32.meson
+dav1d-1.5.2/package/snap/
+dav1d-1.5.2/package/snap/snapcraft.yaml
+dav1d-1.5.2/src/
+dav1d-1.5.2/src/arm/
+dav1d-1.5.2/src/arm/32/
+dav1d-1.5.2/src/arm/32/cdef.S
+dav1d-1.5.2/src/arm/32/cdef16.S
+dav1d-1.5.2/src/arm/32/cdef_tmpl.S
+dav1d-1.5.2/src/arm/32/filmgrain.S
+dav1d-1.5.2/src/arm/32/filmgrain16.S
+dav1d-1.5.2/src/arm/32/ipred.S
+dav1d-1.5.2/src/arm/32/ipred16.S
+dav1d-1.5.2/src/arm/32/itx.S
+dav1d-1.5.2/src/arm/32/itx16.S
+dav1d-1.5.2/src/arm/32/loopfilter.S
+dav1d-1.5.2/src/arm/32/loopfilter16.S
+dav1d-1.5.2/src/arm/32/looprestoration.S
+dav1d-1.5.2/src/arm/32/looprestoration16.S
+dav1d-1.5.2/src/arm/32/looprestoration_common.S
+dav1d-1.5.2/src/arm/32/looprestoration_tmpl.S
+dav1d-1.5.2/src/arm/32/mc.S
+dav1d-1.5.2/src/arm/32/mc16.S
+dav1d-1.5.2/src/arm/32/msac.S
+dav1d-1.5.2/src/arm/32/refmvs.S
+dav1d-1.5.2/src/arm/32/util.S
+dav1d-1.5.2/src/arm/64/
+dav1d-1.5.2/src/arm/64/cdef.S
+dav1d-1.5.2/src/arm/64/cdef16.S
+dav1d-1.5.2/src/arm/64/cdef_tmpl.S
+dav1d-1.5.2/src/arm/64/filmgrain.S
+dav1d-1.5.2/src/arm/64/filmgrain16.S
+dav1d-1.5.2/src/arm/64/ipred.S
+dav1d-1.5.2/src/arm/64/ipred16.S
+dav1d-1.5.2/src/arm/64/itx.S
+dav1d-1.5.2/src/arm/64/itx16.S
+dav1d-1.5.2/src/arm/64/loopfilter.S
+dav1d-1.5.2/src/arm/64/loopfilter16.S
+dav1d-1.5.2/src/arm/64/looprestoration.S
+dav1d-1.5.2/src/arm/64/looprestoration16.S
+dav1d-1.5.2/src/arm/64/looprestoration_common.S
+dav1d-1.5.2/src/arm/64/looprestoration_tmpl.S
+dav1d-1.5.2/src/arm/64/mc.S
+dav1d-1.5.2/src/arm/64/mc16.S
+dav1d-1.5.2/src/arm/64/mc16_sve.S
+dav1d-1.5.2/src/arm/64/mc_dotprod.S
+dav1d-1.5.2/src/arm/64/msac.S
+dav1d-1.5.2/src/arm/64/refmvs.S
+dav1d-1.5.2/src/arm/64/util.S
+dav1d-1.5.2/src/arm/arm-arch.h
+dav1d-1.5.2/src/arm/asm-offsets.h
+dav1d-1.5.2/src/arm/asm.S
+dav1d-1.5.2/src/arm/cdef.h
+dav1d-1.5.2/src/arm/cpu.c
+dav1d-1.5.2/src/arm/cpu.h
+dav1d-1.5.2/src/arm/filmgrain.h
+dav1d-1.5.2/src/arm/ipred.h
+dav1d-1.5.2/src/arm/itx.h
+dav1d-1.5.2/src/arm/loopfilter.h
+dav1d-1.5.2/src/arm/looprestoration.h
+dav1d-1.5.2/src/arm/mc.h
+dav1d-1.5.2/src/arm/msac.h
+dav1d-1.5.2/src/arm/refmvs.h
+dav1d-1.5.2/src/cdef.h
+dav1d-1.5.2/src/cdef_apply.h
+dav1d-1.5.2/src/cdef_apply_tmpl.c
+dav1d-1.5.2/src/cdef_tmpl.c
+dav1d-1.5.2/src/cdf.c
+dav1d-1.5.2/src/cdf.h
+dav1d-1.5.2/src/cpu.c
+dav1d-1.5.2/src/cpu.h
+dav1d-1.5.2/src/ctx.c
+dav1d-1.5.2/src/ctx.h
+dav1d-1.5.2/src/data.c
+dav1d-1.5.2/src/data.h
+dav1d-1.5.2/src/dav1d.rc.in
+dav1d-1.5.2/src/decode.c
+dav1d-1.5.2/src/decode.h
+dav1d-1.5.2/src/dequant_tables.c
+dav1d-1.5.2/src/dequant_tables.h
+dav1d-1.5.2/src/env.h
+dav1d-1.5.2/src/ext/
+dav1d-1.5.2/src/ext/x86/
+dav1d-1.5.2/src/ext/x86/x86inc.asm
+dav1d-1.5.2/src/fg_apply.h
+dav1d-1.5.2/src/fg_apply_tmpl.c
+dav1d-1.5.2/src/filmgrain.h
+dav1d-1.5.2/src/filmgrain_tmpl.c
+dav1d-1.5.2/src/getbits.c
+dav1d-1.5.2/src/getbits.h
+dav1d-1.5.2/src/internal.h
+dav1d-1.5.2/src/intra_edge.c
+dav1d-1.5.2/src/intra_edge.h
+dav1d-1.5.2/src/ipred.h
+dav1d-1.5.2/src/ipred_prepare.h
+dav1d-1.5.2/src/ipred_prepare_tmpl.c
+dav1d-1.5.2/src/ipred_tmpl.c
+dav1d-1.5.2/src/itx.h
+dav1d-1.5.2/src/itx_1d.c
+dav1d-1.5.2/src/itx_1d.h
+dav1d-1.5.2/src/itx_tmpl.c
+dav1d-1.5.2/src/levels.h
+dav1d-1.5.2/src/lf_apply.h
+dav1d-1.5.2/src/lf_apply_tmpl.c
+dav1d-1.5.2/src/lf_mask.c
+dav1d-1.5.2/src/lf_mask.h
+dav1d-1.5.2/src/lib.c
+dav1d-1.5.2/src/log.c
+dav1d-1.5.2/src/log.h
+dav1d-1.5.2/src/loongarch/
+dav1d-1.5.2/src/loongarch/cdef.S
+dav1d-1.5.2/src/loongarch/cdef.h
+dav1d-1.5.2/src/loongarch/cpu.c
+dav1d-1.5.2/src/loongarch/cpu.h
+dav1d-1.5.2/src/loongarch/ipred.S
+dav1d-1.5.2/src/loongarch/ipred.h
+dav1d-1.5.2/src/loongarch/itx.S
+dav1d-1.5.2/src/loongarch/itx.h
+dav1d-1.5.2/src/loongarch/loongson_asm.S
+dav1d-1.5.2/src/loongarch/loongson_util.S
+dav1d-1.5.2/src/loongarch/loopfilter.S
+dav1d-1.5.2/src/loongarch/loopfilter.h
+dav1d-1.5.2/src/loongarch/looprestoration.S
+dav1d-1.5.2/src/loongarch/looprestoration.h
+dav1d-1.5.2/src/loongarch/looprestoration_inner.c
+dav1d-1.5.2/src/loongarch/mc.S
+dav1d-1.5.2/src/loongarch/mc.h
+dav1d-1.5.2/src/loongarch/msac.S
+dav1d-1.5.2/src/loongarch/msac.h
+dav1d-1.5.2/src/loongarch/refmvs.S
+dav1d-1.5.2/src/loongarch/refmvs.h
+dav1d-1.5.2/src/loopfilter.h
+dav1d-1.5.2/src/loopfilter_tmpl.c
+dav1d-1.5.2/src/looprestoration.h
+dav1d-1.5.2/src/looprestoration_tmpl.c
+dav1d-1.5.2/src/lr_apply.h
+dav1d-1.5.2/src/lr_apply_tmpl.c
+dav1d-1.5.2/src/mc.h
+dav1d-1.5.2/src/mc_tmpl.c
+dav1d-1.5.2/src/mem.c
+dav1d-1.5.2/src/mem.h
+dav1d-1.5.2/src/meson.build
+dav1d-1.5.2/src/msac.c
+dav1d-1.5.2/src/msac.h
+dav1d-1.5.2/src/obu.c
+dav1d-1.5.2/src/obu.h
+dav1d-1.5.2/src/pal.c
+dav1d-1.5.2/src/pal.h
+dav1d-1.5.2/src/picture.c
+dav1d-1.5.2/src/picture.h
+dav1d-1.5.2/src/ppc/
+dav1d-1.5.2/src/ppc/cdef.h
+dav1d-1.5.2/src/ppc/cdef_tmpl.c
+dav1d-1.5.2/src/ppc/cpu.c
+dav1d-1.5.2/src/ppc/cpu.h
+dav1d-1.5.2/src/ppc/dav1d_types.h
+dav1d-1.5.2/src/ppc/itx.h
+dav1d-1.5.2/src/ppc/itx_tmpl.c
+dav1d-1.5.2/src/ppc/loopfilter.h
+dav1d-1.5.2/src/ppc/loopfilter_tmpl.c
+dav1d-1.5.2/src/ppc/looprestoration.h
+dav1d-1.5.2/src/ppc/looprestoration_tmpl.c
+dav1d-1.5.2/src/ppc/mc.h
+dav1d-1.5.2/src/ppc/mc_tmpl.c
+dav1d-1.5.2/src/ppc/utils.h
+dav1d-1.5.2/src/qm.c
+dav1d-1.5.2/src/qm.h
+dav1d-1.5.2/src/recon.h
+dav1d-1.5.2/src/recon_tmpl.c
+dav1d-1.5.2/src/ref.c
+dav1d-1.5.2/src/ref.h
+dav1d-1.5.2/src/refmvs.c
+dav1d-1.5.2/src/refmvs.h
+dav1d-1.5.2/src/riscv/
+dav1d-1.5.2/src/riscv/64/
+dav1d-1.5.2/src/riscv/64/cdef.S
+dav1d-1.5.2/src/riscv/64/cdef16.S
+dav1d-1.5.2/src/riscv/64/cpu.S
+dav1d-1.5.2/src/riscv/64/ipred.S
+dav1d-1.5.2/src/riscv/64/ipred16.S
+dav1d-1.5.2/src/riscv/64/itx.S
+dav1d-1.5.2/src/riscv/64/mc.S
+dav1d-1.5.2/src/riscv/64/mc16.S
+dav1d-1.5.2/src/riscv/64/pal.S
+dav1d-1.5.2/src/riscv/asm.S
+dav1d-1.5.2/src/riscv/cdef.h
+dav1d-1.5.2/src/riscv/cpu.c
+dav1d-1.5.2/src/riscv/cpu.h
+dav1d-1.5.2/src/riscv/ipred.h
+dav1d-1.5.2/src/riscv/itx.h
+dav1d-1.5.2/src/riscv/mc.h
+dav1d-1.5.2/src/riscv/pal.h
+dav1d-1.5.2/src/scan.c
+dav1d-1.5.2/src/scan.h
+dav1d-1.5.2/src/tables.c
+dav1d-1.5.2/src/tables.h
+dav1d-1.5.2/src/thread.h
+dav1d-1.5.2/src/thread_data.h
+dav1d-1.5.2/src/thread_task.c
+dav1d-1.5.2/src/thread_task.h
+dav1d-1.5.2/src/warpmv.c
+dav1d-1.5.2/src/warpmv.h
+dav1d-1.5.2/src/wedge.c
+dav1d-1.5.2/src/wedge.h
+dav1d-1.5.2/src/win32/
+dav1d-1.5.2/src/win32/thread.c
+dav1d-1.5.2/src/x86/
+dav1d-1.5.2/src/x86/cdef.h
+dav1d-1.5.2/src/x86/cdef16_avx2.asm
+dav1d-1.5.2/src/x86/cdef16_avx512.asm
+dav1d-1.5.2/src/x86/cdef16_sse.asm
+dav1d-1.5.2/src/x86/cdef_avx2.asm
+dav1d-1.5.2/src/x86/cdef_avx512.asm
+dav1d-1.5.2/src/x86/cdef_sse.asm
+dav1d-1.5.2/src/x86/cpu.c
+dav1d-1.5.2/src/x86/cpu.h
+dav1d-1.5.2/src/x86/cpuid.asm
+dav1d-1.5.2/src/x86/filmgrain.h
+dav1d-1.5.2/src/x86/filmgrain16_avx2.asm
+dav1d-1.5.2/src/x86/filmgrain16_avx512.asm
+dav1d-1.5.2/src/x86/filmgrain16_sse.asm
+dav1d-1.5.2/src/x86/filmgrain_avx2.asm
+dav1d-1.5.2/src/x86/filmgrain_avx512.asm
+dav1d-1.5.2/src/x86/filmgrain_common.asm
+dav1d-1.5.2/src/x86/filmgrain_sse.asm
+dav1d-1.5.2/src/x86/ipred.h
+dav1d-1.5.2/src/x86/ipred16_avx2.asm
+dav1d-1.5.2/src/x86/ipred16_avx512.asm
+dav1d-1.5.2/src/x86/ipred16_sse.asm
+dav1d-1.5.2/src/x86/ipred_avx2.asm
+dav1d-1.5.2/src/x86/ipred_avx512.asm
+dav1d-1.5.2/src/x86/ipred_sse.asm
+dav1d-1.5.2/src/x86/itx.h
+dav1d-1.5.2/src/x86/itx16_avx2.asm
+dav1d-1.5.2/src/x86/itx16_avx512.asm
+dav1d-1.5.2/src/x86/itx16_sse.asm
+dav1d-1.5.2/src/x86/itx_avx2.asm
+dav1d-1.5.2/src/x86/itx_avx512.asm
+dav1d-1.5.2/src/x86/itx_sse.asm
+dav1d-1.5.2/src/x86/loopfilter.h
+dav1d-1.5.2/src/x86/loopfilter16_avx2.asm
+dav1d-1.5.2/src/x86/loopfilter16_avx512.asm
+dav1d-1.5.2/src/x86/loopfilter16_sse.asm
+dav1d-1.5.2/src/x86/loopfilter_avx2.asm
+dav1d-1.5.2/src/x86/loopfilter_avx512.asm
+dav1d-1.5.2/src/x86/loopfilter_sse.asm
+dav1d-1.5.2/src/x86/looprestoration.h
+dav1d-1.5.2/src/x86/looprestoration16_avx2.asm
+dav1d-1.5.2/src/x86/looprestoration16_avx512.asm
+dav1d-1.5.2/src/x86/looprestoration16_sse.asm
+dav1d-1.5.2/src/x86/looprestoration_avx2.asm
+dav1d-1.5.2/src/x86/looprestoration_avx512.asm
+dav1d-1.5.2/src/x86/looprestoration_sse.asm
+dav1d-1.5.2/src/x86/mc.h
+dav1d-1.5.2/src/x86/mc16_avx2.asm
+dav1d-1.5.2/src/x86/mc16_avx512.asm
+dav1d-1.5.2/src/x86/mc16_sse.asm
+dav1d-1.5.2/src/x86/mc_avx2.asm
+dav1d-1.5.2/src/x86/mc_avx512.asm
+dav1d-1.5.2/src/x86/mc_sse.asm
+dav1d-1.5.2/src/x86/msac.asm
+dav1d-1.5.2/src/x86/msac.h
+dav1d-1.5.2/src/x86/pal.asm
+dav1d-1.5.2/src/x86/pal.h
+dav1d-1.5.2/src/x86/refmvs.asm
+dav1d-1.5.2/src/x86/refmvs.h
+dav1d-1.5.2/tests/
+dav1d-1.5.2/tests/checkasm/
+dav1d-1.5.2/tests/checkasm/arm/
+dav1d-1.5.2/tests/checkasm/arm/checkasm_32.S
+dav1d-1.5.2/tests/checkasm/arm/checkasm_64.S
+dav1d-1.5.2/tests/checkasm/cdef.c
+dav1d-1.5.2/tests/checkasm/checkasm.c
+dav1d-1.5.2/tests/checkasm/checkasm.h
+dav1d-1.5.2/tests/checkasm/filmgrain.c
+dav1d-1.5.2/tests/checkasm/ipred.c
+dav1d-1.5.2/tests/checkasm/itx.c
+dav1d-1.5.2/tests/checkasm/loongarch/
+dav1d-1.5.2/tests/checkasm/loongarch/checkasm.S
+dav1d-1.5.2/tests/checkasm/loopfilter.c
+dav1d-1.5.2/tests/checkasm/looprestoration.c
+dav1d-1.5.2/tests/checkasm/mc.c
+dav1d-1.5.2/tests/checkasm/msac.c
+dav1d-1.5.2/tests/checkasm/pal.c
+dav1d-1.5.2/tests/checkasm/refmvs.c
+dav1d-1.5.2/tests/checkasm/riscv/
+dav1d-1.5.2/tests/checkasm/riscv/checkasm_64.S
+dav1d-1.5.2/tests/checkasm/x86/
+dav1d-1.5.2/tests/checkasm/x86/checkasm.asm
+dav1d-1.5.2/tests/dav1d_argon.bash
+dav1d-1.5.2/tests/header_test.c
+dav1d-1.5.2/tests/libfuzzer/
+dav1d-1.5.2/tests/libfuzzer/alloc_fail.c
+dav1d-1.5.2/tests/libfuzzer/alloc_fail.h
+dav1d-1.5.2/tests/libfuzzer/dav1d_fuzzer.c
+dav1d-1.5.2/tests/libfuzzer/dav1d_fuzzer.h
+dav1d-1.5.2/tests/libfuzzer/main.c
+dav1d-1.5.2/tests/libfuzzer/meson.build
+dav1d-1.5.2/tests/meson.build
+dav1d-1.5.2/tests/seek_stress.c
+dav1d-1.5.2/tools/
+dav1d-1.5.2/tools/compat/
+dav1d-1.5.2/tools/compat/getopt.c
+dav1d-1.5.2/tools/dav1d.c
+dav1d-1.5.2/tools/dav1d.manifest
+dav1d-1.5.2/tools/dav1d.rc.in
+dav1d-1.5.2/tools/dav1d_cli_parse.c
+dav1d-1.5.2/tools/dav1d_cli_parse.h
+dav1d-1.5.2/tools/input/
+dav1d-1.5.2/tools/input/annexb.c
+dav1d-1.5.2/tools/input/demuxer.h
+dav1d-1.5.2/tools/input/input.c
+dav1d-1.5.2/tools/input/input.h
+dav1d-1.5.2/tools/input/ivf.c
+dav1d-1.5.2/tools/input/parse.h
+dav1d-1.5.2/tools/input/section5.c
+dav1d-1.5.2/tools/meson.build
+dav1d-1.5.2/tools/output/
+dav1d-1.5.2/tools/output/md5.c
+dav1d-1.5.2/tools/output/muxer.h
+dav1d-1.5.2/tools/output/null.c
+dav1d-1.5.2/tools/output/output.c
+dav1d-1.5.2/tools/output/output.h
+dav1d-1.5.2/tools/output/xxhash.c
+dav1d-1.5.2/tools/output/y4m2.c
+dav1d-1.5.2/tools/output/yuv.c
+The Meson build system
+Version: 1.7.0
+Source dir: /blfs/builds/dav1d-1.5.2
+Build dir: /blfs/builds/dav1d-1.5.2/build
+Build type: native build
+Project name: dav1d
+Project version: 1.5.2
+C compiler for the host machine: cc (gcc 15.2.0 "cc (GCC) 15.2.0")
+C linker for the host machine: cc ld.bfd 2.45
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Fetching value of define "DAV1D_API_VERSION_MAJOR" : 7 
+Fetching value of define "DAV1D_API_VERSION_MINOR" : 0 
+Fetching value of define "DAV1D_API_VERSION_PATCH" : 0 
+Fetching value of define "__ILP32__" : (undefined) 
+Run-time dependency threads found: YES
+Checking for function "clock_gettime" : YES 
+Checking for function "posix_memalign" : YES 
+Checking for function "memalign" : YES 
+Checking for function "aligned_alloc" : YES 
+Library dl found: YES
+Checking for function "dlsym" with dependency -ldl: YES 
+Library m found: YES
+Check usable header "stdatomic.h" : YES 
+Check usable header "sys/types.h" : YES 
+Check usable header "unistd.h" : YES 
+Check usable header "io.h" : NO 
+Check usable header "pthread_np.h" : NO 
+Checking for function "getopt_long" : YES 
+Checking for function "pthread_getaffinity_np" with dependency threads: YES 
+Checking for function "pthread_setaffinity_np" with dependency threads: YES 
+Checking for function "pthread_setname_np" with dependency threads: YES 
+Checking for function "pthread_set_name_np" with dependency threads: NO 
+Checking if "_Generic" compiles: YES 
+Compiler for C supports arguments -fvisibility=hidden: YES 
+Compiler for C supports arguments -Wundef: YES 
+Compiler for C supports arguments -Werror=vla: YES 
+Compiler for C supports arguments -Wno-maybe-uninitialized: YES 
+Compiler for C supports arguments -Wno-missing-field-initializers: YES 
+Compiler for C supports arguments -Wno-unused-parameter: YES 
+Compiler for C supports arguments -Wstrict-prototypes: YES 
+Compiler for C supports arguments -Werror=missing-prototypes: YES 
+Compiler for C supports arguments -Wshorten-64-to-32: NO 
+Compiler for C supports arguments -fomit-frame-pointer: YES 
+Compiler for C supports arguments -ffast-math: YES 
+Fetching value of define "__AVX__" : (undefined) 
+Program nasm found: YES (/usr/bin/nasm)
+Configuring config.asm using configuration
+Configuring config.h using configuration
+Program doxygen found: YES (/usr/bin/doxygen)
+Program dot found: YES (/usr/bin/dot)
+Configuring Doxyfile.in using configuration
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Header "xxhash.h" has symbol "XXH3_createState" : YES 
+Configuring cli_config.h using configuration
+Compiler for C supports arguments -Werror=c11-extensions: NO 
+Compiler for C supports arguments -Werror=c99-c11-compat: YES 
+First supported argument: -Werror=c99-c11-compat
+Program objcopy found: YES (/usr/bin/objcopy)
+Build targets in project: 20
+
+dav1d 1.5.2
+
+  User defined options
+    buildtype  : release
+    enable_docs: true
+    prefix     : /usr
+
+Found ninja-1.13.1 at /usr/bin/ninja
+[1/135] Compiling C object src/libdav1d_bitdepth_8.a.p/ipred_prepare_tmpl.c.o
+[2/135] Compiling C object src/libdav1d_bitdepth_8.a.p/cdef_tmpl.c.o
+[3/135] Compiling C object src/libdav1d_bitdepth_8.a.p/fg_apply_tmpl.c.o
+[4/135] Generating include/vcs_version.h with a custom command
+fatal: not a git repository: '/blfs/builds/dav1d-1.5.2/.git'
+[5/135] Compiling C object src/libdav1d_bitdepth_8.a.p/lr_apply_tmpl.c.o
+[6/135] Compiling C object src/libdav1d_bitdepth_8.a.p/cdef_apply_tmpl.c.o
+[7/135] Compiling C object src/libdav1d_bitdepth_8.a.p/lf_apply_tmpl.c.o
+[8/135] Compiling C object src/libdav1d_bitdepth_8.a.p/loopfilter_tmpl.c.o
+[9/135] Compiling C object src/libdav1d_bitdepth_16.a.p/fg_apply_tmpl.c.o
+[10/135] Compiling C object src/libdav1d_bitdepth_8.a.p/filmgrain_tmpl.c.o
+[11/135] Compiling C object src/libdav1d_bitdepth_16.a.p/cdef_apply_tmpl.c.o
+[12/135] Compiling C object src/libdav1d_bitdepth_16.a.p/cdef_tmpl.c.o
+[13/135] Compiling C object src/libdav1d_bitdepth_8.a.p/looprestoration_tmpl.c.o
+[14/135] Compiling C object src/libdav1d_bitdepth_8.a.p/itx_tmpl.c.o
+[15/135] Compiling C object src/libdav1d_bitdepth_16.a.p/ipred_prepare_tmpl.c.o
+[16/135] Compiling C object src/libdav1d_bitdepth_8.a.p/ipred_tmpl.c.o
+[17/135] Compiling C object src/libdav1d_bitdepth_16.a.p/filmgrain_tmpl.c.o
+[18/135] Compiling C object src/libdav1d_bitdepth_16.a.p/lr_apply_tmpl.c.o
+[19/135] Generating 'src/libdav1d.so.7.0.0.p/cpuid.obj'
+[20/135] Compiling C object src/libdav1d_bitdepth_16.a.p/loopfilter_tmpl.c.o
+[21/135] Compiling C object src/libdav1d_bitdepth_16.a.p/lf_apply_tmpl.c.o
+[22/135] Compiling C object src/libdav1d_bitdepth_8.a.p/mc_tmpl.c.o
+[23/135] Compiling C object src/libdav1d_bitdepth_16.a.p/ipred_tmpl.c.o
+[24/135] Compiling C object src/libdav1d_bitdepth_16.a.p/looprestoration_tmpl.c.o
+[25/135] Generating 'src/libdav1d.so.7.0.0.p/msac.obj'
+[26/135] Generating 'src/libdav1d.so.7.0.0.p/pal.obj'
+[27/135] Generating 'src/libdav1d.so.7.0.0.p/refmvs.obj'
+[28/135] Compiling C object src/libdav1d_bitdepth_16.a.p/itx_tmpl.c.o
+[29/135] Compiling C object src/libdav1d_bitdepth_8.a.p/recon_tmpl.c.o
+[30/135] Compiling C object src/libdav1d_bitdepth_16.a.p/mc_tmpl.c.o
+[31/135] Generating 'src/libdav1d.so.7.0.0.p/cdef_avx512.obj'
+[32/135] Generating 'src/libdav1d.so.7.0.0.p/filmgrain_avx512.obj'
+[33/135] Generating 'src/libdav1d.so.7.0.0.p/looprestoration_avx512.obj'
+[34/135] Compiling C object src/libdav1d_bitdepth_16.a.p/recon_tmpl.c.o
+[35/135] Generating 'src/libdav1d.so.7.0.0.p/ipred_avx512.obj'
+[36/135] Generating 'src/libdav1d.so.7.0.0.p/cdef_avx2.obj'
+[37/135] Generating 'src/libdav1d.so.7.0.0.p/loopfilter_avx512.obj'
+[38/135] Generating 'src/libdav1d.so.7.0.0.p/looprestoration_avx2.obj'
+[39/135] Generating 'src/libdav1d.so.7.0.0.p/mc_avx512.obj'
+[40/135] Generating 'src/libdav1d.so.7.0.0.p/filmgrain_avx2.obj'
+[41/135] Generating 'src/libdav1d.so.7.0.0.p/cdef_sse.obj'
+[42/135] Generating 'src/libdav1d.so.7.0.0.p/loopfilter_avx2.obj'
+[43/135] Generating 'src/libdav1d.so.7.0.0.p/cdef16_avx512.obj'
+[44/135] Generating 'src/libdav1d.so.7.0.0.p/ipred_avx2.obj'
+[45/135] Generating 'src/libdav1d.so.7.0.0.p/ipred16_avx512.obj'
+[46/135] Generating 'src/libdav1d.so.7.0.0.p/loopfilter_sse.obj'
+[47/135] Generating 'src/libdav1d.so.7.0.0.p/loopfilter16_avx512.obj'
+[48/135] Generating 'src/libdav1d.so.7.0.0.p/looprestoration_sse.obj'
+[49/135] Generating 'src/libdav1d.so.7.0.0.p/filmgrain16_avx512.obj'
+[50/135] Generating 'src/libdav1d.so.7.0.0.p/cdef16_avx2.obj'
+[51/135] Generating 'src/libdav1d.so.7.0.0.p/filmgrain_sse.obj'
+[52/135] Generating 'src/libdav1d.so.7.0.0.p/looprestoration16_avx512.obj'
+[53/135] Generating 'src/libdav1d.so.7.0.0.p/ipred_sse.obj'
+[54/135] Generating 'src/libdav1d.so.7.0.0.p/loopfilter16_avx2.obj'
+[55/135] Generating 'src/libdav1d.so.7.0.0.p/itx_sse.obj'
+[56/135] Generating 'src/libdav1d.so.7.0.0.p/filmgrain16_avx2.obj'
+[57/135] Generating 'src/libdav1d.so.7.0.0.p/mc_sse.obj'
+[58/135] Generating 'src/libdav1d.so.7.0.0.p/cdef16_sse.obj'
+[59/135] Generating 'src/libdav1d.so.7.0.0.p/mc_avx2.obj'
+[60/135] Generating 'src/libdav1d.so.7.0.0.p/itx_avx2.obj'
+[61/135] Generating 'src/libdav1d.so.7.0.0.p/mc16_avx512.obj'
+[62/135] Generating 'src/libdav1d.so.7.0.0.p/itx_avx512.obj'
+[63/135] Compiling C object src/libdav1d.so.7.0.0.p/cdf.c.o
+[64/135] Generating 'src/libdav1d.so.7.0.0.p/looprestoration16_avx2.obj'
+[65/135] Compiling C object src/libdav1d.so.7.0.0.p/ctx.c.o
+[66/135] Compiling C object src/libdav1d.so.7.0.0.p/cpu.c.o
+[67/135] Compiling C object src/libdav1d.so.7.0.0.p/data.c.o
+[68/135] Compiling C object src/libdav1d.so.7.0.0.p/dequant_tables.c.o
+[69/135] Compiling C object src/libdav1d.so.7.0.0.p/getbits.c.o
+[70/135] Generating 'src/libdav1d.so.7.0.0.p/ipred16_avx2.obj'
+[71/135] Compiling C object src/libdav1d.so.7.0.0.p/intra_edge.c.o
+[72/135] Generating 'src/libdav1d.so.7.0.0.p/loopfilter16_sse.obj'
+[73/135] Generating 'src/libdav1d.so.7.0.0.p/itx16_avx512.obj'
+[74/135] Compiling C object src/libdav1d.so.7.0.0.p/lib.c.o
+[75/135] Compiling C object src/libdav1d.so.7.0.0.p/lf_mask.c.o
+[76/135] Compiling C object src/libdav1d.so.7.0.0.p/log.c.o
+[77/135] Compiling C object src/libdav1d.so.7.0.0.p/mem.c.o
+[78/135] Compiling C object src/libdav1d.so.7.0.0.p/pal.c.o
+[79/135] Compiling C object src/libdav1d.so.7.0.0.p/msac.c.o
+[80/135] Compiling C object src/libdav1d.so.7.0.0.p/qm.c.o
+[81/135] Compiling C object src/libdav1d.so.7.0.0.p/picture.c.o
+[82/135] Compiling C object src/libdav1d.so.7.0.0.p/ref.c.o
+[83/135] Generating 'src/libdav1d.so.7.0.0.p/ipred16_sse.obj'
+[84/135] Compiling C object src/libdav1d.so.7.0.0.p/tables.c.o
+[85/135] Compiling C object src/libdav1d.so.7.0.0.p/scan.c.o
+[86/135] Compiling C object src/libdav1d.so.7.0.0.p/warpmv.c.o
+[87/135] Compiling C object src/libdav1d.so.7.0.0.p/itx_1d.c.o
+[88/135] Generating 'src/libdav1d.so.7.0.0.p/looprestoration16_sse.obj'
+[89/135] Compiling C object src/libdav1d.so.7.0.0.p/x86_cpu.c.o
+[90/135] Compiling C object src/libdav1d.so.7.0.0.p/wedge.c.o
+[91/135] Compiling C object src/libdav1d.so.7.0.0.p/thread_task.c.o
+[92/135] Compiling C object tools/libdav1d_input.a.p/input_input.c.o
+[93/135] Compiling C object tools/libdav1d_input.a.p/input_annexb.c.o
+[94/135] Compiling C object src/libdav1d.so.7.0.0.p/refmvs.c.o
+[95/135] Compiling C object tools/libdav1d_output.a.p/output_null.c.o
+[96/135] Compiling C object tools/libdav1d_input.a.p/input_ivf.c.o
+[97/135] Compiling C object tools/libdav1d_input.a.p/input_section5.c.o
+[98/135] Compiling C object tools/libdav1d_output.a.p/output_md5.c.o
+[99/135] Linking static target tools/libdav1d_input.a
+[100/135] Compiling C object src/libdav1d.so.7.0.0.p/obu.c.o
+[101/135] Compiling C object tools/libdav1d_output.a.p/output_y4m2.c.o
+[102/135] Compiling C object tools/libdav1d_output.a.p/output_yuv.c.o
+[103/135] Compiling C object tests/common.h_test.p/header_test.c.o
+[104/135] Compiling C object tools/libdav1d_output.a.p/output_output.c.o
+[105/135] Compiling C object tests/dav1d.h_test.p/header_test.c.o
+[106/135] Compiling C object tests/headers.h_test.p/header_test.c.o
+[107/135] Compiling C object tests/data.h_test.p/header_test.c.o
+[108/135] Compiling C object tests/version.h_test.p/header_test.c.o
+[109/135] Compiling C object tests/picture.h_test.p/header_test.c.o
+[110/135] Compiling C object tools/dav1d.p/dav1d.c.o
+[111/135] Compiling C object tools/dav1d.p/dav1d_cli_parse.c.o
+[112/135] Compiling C object tests/libfuzzer/dav1d_fuzzer.p/dav1d_fuzzer.c.o
+[113/135] Compiling C object tests/libfuzzer/dav1d_fuzzer.p/main.c.o
+[114/135] Linking target tests/common.h_test
+[115/135] Linking target tests/data.h_test
+[116/135] Compiling C object tests/libfuzzer/dav1d_fuzzer_mt.p/dav1d_fuzzer.c.o
+[117/135] Compiling C object tests/libfuzzer/dav1d_fuzzer_mt.p/main.c.o
+[118/135] Linking target tests/dav1d.h_test
+[119/135] Linking target tests/headers.h_test
+[120/135] Linking target tests/picture.h_test
+[121/135] Linking target tests/version.h_test
+[122/135] Generating doc/Doxyfile with a custom command
+fatal: not a git repository: '/blfs/builds/dav1d-1.5.2/.git'
+[123/135] Compiling C object tools/libdav1d_output.a.p/output_xxhash.c.o
+[124/135] Linking static target tools/libdav1d_output.a
+[125/135] Compiling C object src/libdav1d.so.7.0.0.p/decode.c.o
+[126/135] Generating 'src/libdav1d.so.7.0.0.p/filmgrain16_sse.obj'
+[127/135] Generating 'src/libdav1d.so.7.0.0.p/mc16_avx2.obj'
+[128/135] Generating 'src/libdav1d.so.7.0.0.p/itx16_sse.obj'
+[129/135] Generating 'src/libdav1d.so.7.0.0.p/mc16_sse.obj'
+[130/135] Generating 'src/libdav1d.so.7.0.0.p/itx16_avx2.obj'
+[131/135] Linking target src/libdav1d.so.7.0.0
+[132/135] Generating symbol file src/libdav1d.so.7.0.0.p/libdav1d.so.7.0.0.symbols
+[133/135] Linking target tests/libfuzzer/dav1d_fuzzer
+[134/135] Linking target tests/libfuzzer/dav1d_fuzzer_mt
+[135/135] Linking target tools/dav1d
+[1/10] Generating doc/Doxyfile with a custom command
+fatal: not a git repository: '/blfs/builds/dav1d-1.5.2/.git'
+[2/10] Generating include/vcs_version.h with a custom command
+fatal: not a git repository: '/blfs/builds/dav1d-1.5.2/.git'
+[2/3] Installing files
+Installing src/libdav1d.so.7.0.0 to /pkgs/dav1d/usr/lib
+Installing tools/dav1d to /pkgs/dav1d/usr/bin
+Installing /blfs/builds/dav1d-1.5.2/include/dav1d/common.h to /pkgs/dav1d/usr/include/dav1d
+Installing /blfs/builds/dav1d-1.5.2/include/dav1d/data.h to /pkgs/dav1d/usr/include/dav1d
+Installing /blfs/builds/dav1d-1.5.2/include/dav1d/dav1d.h to /pkgs/dav1d/usr/include/dav1d
+Installing /blfs/builds/dav1d-1.5.2/include/dav1d/headers.h to /pkgs/dav1d/usr/include/dav1d
+Installing /blfs/builds/dav1d-1.5.2/include/dav1d/picture.h to /pkgs/dav1d/usr/include/dav1d
+Installing /blfs/builds/dav1d-1.5.2/include/dav1d/version.h to /pkgs/dav1d/usr/include/dav1d
+Installing /blfs/builds/dav1d-1.5.2/build/meson-private/dav1d.pc to /pkgs/dav1d/usr/lib/pkgconfig
+Installing symlink pointing to libdav1d.so.7.0.0 to /pkgs/dav1d/usr/lib/libdav1d.so.7
+Installing symlink pointing to libdav1d.so.7 to /pkgs/dav1d/usr/lib/libdav1d.so
+[1/10] Generating include/vcs_version.h with a custom command
+fatal: not a git repository: '/blfs/builds/dav1d-1.5.2/.git'
+[2/3] Generating doc/Doxyfile with a custom command
+fatal: not a git repository: '/blfs/builds/dav1d-1.5.2/.git'
+[2/3] Installing files
+Installing src/libdav1d.so.7.0.0 to /usr/lib
+Installing tools/dav1d to /usr/bin
+Installing /blfs/builds/dav1d-1.5.2/include/dav1d/common.h to /usr/include/dav1d
+Installing /blfs/builds/dav1d-1.5.2/include/dav1d/data.h to /usr/include/dav1d
+Installing /blfs/builds/dav1d-1.5.2/include/dav1d/dav1d.h to /usr/include/dav1d
+Installing /blfs/builds/dav1d-1.5.2/include/dav1d/headers.h to /usr/include/dav1d
+Installing /blfs/builds/dav1d-1.5.2/include/dav1d/picture.h to /usr/include/dav1d
+Installing /blfs/builds/dav1d-1.5.2/include/dav1d/version.h to /usr/include/dav1d
+Installing /blfs/builds/dav1d-1.5.2/build/meson-private/dav1d.pc to /usr/lib/pkgconfig
+Installing symlink pointing to libdav1d.so.7.0.0 to /usr/lib/libdav1d.so.7
+Installing symlink pointing to libdav1d.so.7 to /usr/lib/libdav1d.so
+dav1d/
+dav1d/usr/
+dav1d/usr/include/
+dav1d/usr/include/dav1d/
+dav1d/usr/include/dav1d/version.h
+dav1d/usr/include/dav1d/picture.h
+dav1d/usr/include/dav1d/dav1d.h
+dav1d/usr/include/dav1d/headers.h
+dav1d/usr/include/dav1d/common.h
+dav1d/usr/include/dav1d/data.h
+dav1d/usr/bin/
+dav1d/usr/bin/dav1d
+dav1d/usr/lib/
+dav1d/usr/lib/libdav1d.so.7.0.0
+dav1d/usr/lib/libdav1d.so.7
+dav1d/usr/lib/pkgconfig/
+dav1d/usr/lib/pkgconfig/dav1d.pc
+dav1d/usr/lib/libdav1d.so
+dav1d/version
+dav1d/depends
+dav1d/make-depends
