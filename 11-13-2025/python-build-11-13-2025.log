@@ -1,0 +1,201 @@
+--2025-11-13 12:09:51--  https://pypi.org/packages/source/b/build/build-1.3.0.tar.gz
+Resolving pypi.org (pypi.org)... 2a04:4e42:600::223, 2a04:4e42:200::223, 2a04:4e42:400::223, ...
+Connecting to pypi.org (pypi.org)|2a04:4e42:600::223|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://files.pythonhosted.org/packages/source/b/build/build-1.3.0.tar.gz [following]
+--2025-11-13 12:09:51--  https://files.pythonhosted.org/packages/source/b/build/build-1.3.0.tar.gz
+Resolving files.pythonhosted.org (files.pythonhosted.org)... 2a04:4e42:600::223, 2a04:4e42::223, 2a04:4e42:400::223, ...
+Connecting to files.pythonhosted.org (files.pythonhosted.org)|2a04:4e42:600::223|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://files.pythonhosted.org/packages/25/1c/23e33405a7c9eac261dff640926b8b5adaed6a6eb3e1767d441ed611d0c0/build-1.3.0.tar.gz [following]
+--2025-11-13 12:09:51--  https://files.pythonhosted.org/packages/25/1c/23e33405a7c9eac261dff640926b8b5adaed6a6eb3e1767d441ed611d0c0/build-1.3.0.tar.gz
+Reusing existing connection to [files.pythonhosted.org]:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 48544 (47K) [application/octet-stream]
+Saving to: ‘build-1.3.0.tar.gz’
+
+     0K .......... .......... .......... .......... .......   100% 8.77M=0.005s
+
+2025-11-13 12:09:51 (8.77 MB/s) - ‘build-1.3.0.tar.gz’ saved [48544/48544]
+
+build-1.3.0/.dockerignore
+build-1.3.0/.gitignore
+build-1.3.0/CHANGELOG.rst
+build-1.3.0/LICENSE
+build-1.3.0/README.md
+build-1.3.0/docs/api.rst
+build-1.3.0/docs/changelog.rst
+build-1.3.0/docs/conf.py
+build-1.3.0/docs/differences.rst
+build-1.3.0/docs/index.rst
+build-1.3.0/docs/installation.rst
+build-1.3.0/docs/mission.rst
+build-1.3.0/docs/release.rst
+build-1.3.0/docs/test_suite.rst
+build-1.3.0/pyproject.toml
+build-1.3.0/src/build/__init__.py
+build-1.3.0/src/build/__main__.py
+build-1.3.0/src/build/_builder.py
+build-1.3.0/src/build/_compat/__init__.py
+build-1.3.0/src/build/_compat/importlib.py
+build-1.3.0/src/build/_compat/tarfile.py
+build-1.3.0/src/build/_compat/tomllib.py
+build-1.3.0/src/build/_ctx.py
+build-1.3.0/src/build/_exceptions.py
+build-1.3.0/src/build/_types.py
+build-1.3.0/src/build/_util.py
+build-1.3.0/src/build/env.py
+build-1.3.0/src/build/py.typed
+build-1.3.0/src/build/util.py
+build-1.3.0/tests/conftest.py
+build-1.3.0/tests/constraints.txt
+build-1.3.0/tests/packages/inline/build.py
+build-1.3.0/tests/packages/inline/pyproject.toml
+build-1.3.0/tests/packages/legacy/legacy/__init__.py
+build-1.3.0/tests/packages/legacy/setup.py
+build-1.3.0/tests/packages/test-bad-backend/pyproject.toml
+build-1.3.0/tests/packages/test-bad-syntax/pyproject.toml
+build-1.3.0/tests/packages/test-bad-wheel/backend_bad_wheel.py
+build-1.3.0/tests/packages/test-bad-wheel/pyproject.toml
+build-1.3.0/tests/packages/test-bad-wheel/setup.cfg
+build-1.3.0/tests/packages/test-cant-build-via-sdist/backend_bad_sdist.py
+build-1.3.0/tests/packages/test-cant-build-via-sdist/pyproject.toml
+build-1.3.0/tests/packages/test-cant-build-via-sdist/some-file-that-is-needed-for-build.txt
+build-1.3.0/tests/packages/test-flit/pyproject.toml
+build-1.3.0/tests/packages/test-flit/test_flit/__init__.py
+build-1.3.0/tests/packages/test-invalid-requirements/pyproject.toml
+build-1.3.0/tests/packages/test-invalid-requirements/setup.cfg
+build-1.3.0/tests/packages/test-metadata/backend.py
+build-1.3.0/tests/packages/test-metadata/pyproject.toml
+build-1.3.0/tests/packages/test-no-backend/pyproject.toml
+build-1.3.0/tests/packages/test-no-permission/pyproject.toml
+build-1.3.0/tests/packages/test-no-prepare/backend_no_prepare.py
+build-1.3.0/tests/packages/test-no-prepare/pyproject.toml
+build-1.3.0/tests/packages/test-no-project/empty.txt
+build-1.3.0/tests/packages/test-no-requires/pyproject.toml
+build-1.3.0/tests/packages/test-optional-hooks/hookless_backend.py
+build-1.3.0/tests/packages/test-optional-hooks/pyproject.toml
+build-1.3.0/tests/packages/test-setuptools/MANIFEST.in
+build-1.3.0/tests/packages/test-setuptools/pyproject.toml
+build-1.3.0/tests/packages/test-setuptools/setup.cfg
+build-1.3.0/tests/packages/test-typo/pyproject.toml
+build-1.3.0/tests/test_ctx_logger.py
+build-1.3.0/tests/test_env.py
+build-1.3.0/tests/test_integration.py
+build-1.3.0/tests/test_main.py
+build-1.3.0/tests/test_main_helpers.py
+build-1.3.0/tests/test_module.py
+build-1.3.0/tests/test_projectbuilder.py
+build-1.3.0/tests/test_self_packaging.py
+build-1.3.0/tests/test_util.py
+build-1.3.0/tox.ini
+build-1.3.0/PKG-INFO
+* Building wheel...
+Successfully built build-1.3.0-py3-none-any.whl
+'/pkgs/python-build/usr/bin/pyproject-build' -> '/usr/bin/pyproject-build'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build/__init__.py' -> '/usr/lib/python3.14/site-packages/build/__init__.py'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build/__main__.py' -> '/usr/lib/python3.14/site-packages/build/__main__.py'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build/_builder.py' -> '/usr/lib/python3.14/site-packages/build/_builder.py'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build/_ctx.py' -> '/usr/lib/python3.14/site-packages/build/_ctx.py'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build/_exceptions.py' -> '/usr/lib/python3.14/site-packages/build/_exceptions.py'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build/_types.py' -> '/usr/lib/python3.14/site-packages/build/_types.py'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build/_util.py' -> '/usr/lib/python3.14/site-packages/build/_util.py'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build/env.py' -> '/usr/lib/python3.14/site-packages/build/env.py'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build/py.typed' -> '/usr/lib/python3.14/site-packages/build/py.typed'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build/util.py' -> '/usr/lib/python3.14/site-packages/build/util.py'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build/_compat/__init__.py' -> '/usr/lib/python3.14/site-packages/build/_compat/__init__.py'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build/_compat/importlib.py' -> '/usr/lib/python3.14/site-packages/build/_compat/importlib.py'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build/_compat/tarfile.py' -> '/usr/lib/python3.14/site-packages/build/_compat/tarfile.py'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build/_compat/tomllib.py' -> '/usr/lib/python3.14/site-packages/build/_compat/tomllib.py'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build/_compat/__pycache__/__init__.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/build/_compat/__pycache__/__init__.cpython-314.pyc'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build/_compat/__pycache__/__init__.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/build/_compat/__pycache__/__init__.cpython-314.opt-1.pyc'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build/_compat/__pycache__/importlib.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/build/_compat/__pycache__/importlib.cpython-314.pyc'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build/_compat/__pycache__/importlib.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/build/_compat/__pycache__/importlib.cpython-314.opt-1.pyc'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build/_compat/__pycache__/tarfile.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/build/_compat/__pycache__/tarfile.cpython-314.pyc'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build/_compat/__pycache__/tarfile.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/build/_compat/__pycache__/tarfile.cpython-314.opt-1.pyc'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build/_compat/__pycache__/tomllib.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/build/_compat/__pycache__/tomllib.cpython-314.pyc'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build/_compat/__pycache__/tomllib.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/build/_compat/__pycache__/tomllib.cpython-314.opt-1.pyc'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build/__pycache__/__init__.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/build/__pycache__/__init__.cpython-314.pyc'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build/__pycache__/__init__.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/build/__pycache__/__init__.cpython-314.opt-1.pyc'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build/__pycache__/__main__.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/build/__pycache__/__main__.cpython-314.pyc'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build/__pycache__/__main__.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/build/__pycache__/__main__.cpython-314.opt-1.pyc'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build/__pycache__/_builder.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/build/__pycache__/_builder.cpython-314.pyc'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build/__pycache__/_builder.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/build/__pycache__/_builder.cpython-314.opt-1.pyc'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build/__pycache__/_ctx.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/build/__pycache__/_ctx.cpython-314.pyc'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build/__pycache__/_ctx.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/build/__pycache__/_ctx.cpython-314.opt-1.pyc'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build/__pycache__/_exceptions.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/build/__pycache__/_exceptions.cpython-314.pyc'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build/__pycache__/_exceptions.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/build/__pycache__/_exceptions.cpython-314.opt-1.pyc'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build/__pycache__/_types.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/build/__pycache__/_types.cpython-314.pyc'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build/__pycache__/_types.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/build/__pycache__/_types.cpython-314.opt-1.pyc'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build/__pycache__/_util.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/build/__pycache__/_util.cpython-314.pyc'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build/__pycache__/_util.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/build/__pycache__/_util.cpython-314.opt-1.pyc'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build/__pycache__/env.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/build/__pycache__/env.cpython-314.pyc'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build/__pycache__/env.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/build/__pycache__/env.cpython-314.opt-1.pyc'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build/__pycache__/util.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/build/__pycache__/util.cpython-314.pyc'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build/__pycache__/util.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/build/__pycache__/util.cpython-314.opt-1.pyc'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build-1.3.0.dist-info/entry_points.txt' -> '/usr/lib/python3.14/site-packages/build-1.3.0.dist-info/entry_points.txt'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build-1.3.0.dist-info/licenses/LICENSE' -> '/usr/lib/python3.14/site-packages/build-1.3.0.dist-info/licenses/LICENSE'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build-1.3.0.dist-info/WHEEL' -> '/usr/lib/python3.14/site-packages/build-1.3.0.dist-info/WHEEL'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build-1.3.0.dist-info/METADATA' -> '/usr/lib/python3.14/site-packages/build-1.3.0.dist-info/METADATA'
+'/pkgs/python-build/usr/lib/python3.14/site-packages/build-1.3.0.dist-info/RECORD' -> '/usr/lib/python3.14/site-packages/build-1.3.0.dist-info/RECORD'
+python-build/
+python-build/usr/
+python-build/usr/bin/
+python-build/usr/bin/pyproject-build
+python-build/usr/lib/
+python-build/usr/lib/python3.14/
+python-build/usr/lib/python3.14/site-packages/
+python-build/usr/lib/python3.14/site-packages/build-1.3.0.dist-info/
+python-build/usr/lib/python3.14/site-packages/build-1.3.0.dist-info/RECORD
+python-build/usr/lib/python3.14/site-packages/build-1.3.0.dist-info/METADATA
+python-build/usr/lib/python3.14/site-packages/build-1.3.0.dist-info/WHEEL
+python-build/usr/lib/python3.14/site-packages/build-1.3.0.dist-info/licenses/
+python-build/usr/lib/python3.14/site-packages/build-1.3.0.dist-info/licenses/LICENSE
+python-build/usr/lib/python3.14/site-packages/build-1.3.0.dist-info/entry_points.txt
+python-build/usr/lib/python3.14/site-packages/build/
+python-build/usr/lib/python3.14/site-packages/build/env.py
+python-build/usr/lib/python3.14/site-packages/build/__pycache__/
+python-build/usr/lib/python3.14/site-packages/build/__pycache__/_ctx.cpython-314.opt-1.pyc
+python-build/usr/lib/python3.14/site-packages/build/__pycache__/_util.cpython-314.pyc
+python-build/usr/lib/python3.14/site-packages/build/__pycache__/_exceptions.cpython-314.pyc
+python-build/usr/lib/python3.14/site-packages/build/__pycache__/_builder.cpython-314.opt-1.pyc
+python-build/usr/lib/python3.14/site-packages/build/__pycache__/env.cpython-314.opt-1.pyc
+python-build/usr/lib/python3.14/site-packages/build/__pycache__/__init__.cpython-314.opt-1.pyc
+python-build/usr/lib/python3.14/site-packages/build/__pycache__/_util.cpython-314.opt-1.pyc
+python-build/usr/lib/python3.14/site-packages/build/__pycache__/_builder.cpython-314.pyc
+python-build/usr/lib/python3.14/site-packages/build/__pycache__/__main__.cpython-314.opt-1.pyc
+python-build/usr/lib/python3.14/site-packages/build/__pycache__/_types.cpython-314.pyc
+python-build/usr/lib/python3.14/site-packages/build/__pycache__/util.cpython-314.pyc
+python-build/usr/lib/python3.14/site-packages/build/__pycache__/_ctx.cpython-314.pyc
+python-build/usr/lib/python3.14/site-packages/build/__pycache__/_exceptions.cpython-314.opt-1.pyc
+python-build/usr/lib/python3.14/site-packages/build/__pycache__/__main__.cpython-314.pyc
+python-build/usr/lib/python3.14/site-packages/build/__pycache__/__init__.cpython-314.pyc
+python-build/usr/lib/python3.14/site-packages/build/__pycache__/env.cpython-314.pyc
+python-build/usr/lib/python3.14/site-packages/build/__pycache__/_types.cpython-314.opt-1.pyc
+python-build/usr/lib/python3.14/site-packages/build/__pycache__/util.cpython-314.opt-1.pyc
+python-build/usr/lib/python3.14/site-packages/build/_ctx.py
+python-build/usr/lib/python3.14/site-packages/build/_util.py
+python-build/usr/lib/python3.14/site-packages/build/_compat/
+python-build/usr/lib/python3.14/site-packages/build/_compat/tomllib.py
+python-build/usr/lib/python3.14/site-packages/build/_compat/importlib.py
+python-build/usr/lib/python3.14/site-packages/build/_compat/__pycache__/
+python-build/usr/lib/python3.14/site-packages/build/_compat/__pycache__/tomllib.cpython-314.pyc
+python-build/usr/lib/python3.14/site-packages/build/_compat/__pycache__/__init__.cpython-314.opt-1.pyc
+python-build/usr/lib/python3.14/site-packages/build/_compat/__pycache__/importlib.cpython-314.pyc
+python-build/usr/lib/python3.14/site-packages/build/_compat/__pycache__/__init__.cpython-314.pyc
+python-build/usr/lib/python3.14/site-packages/build/_compat/__pycache__/importlib.cpython-314.opt-1.pyc
+python-build/usr/lib/python3.14/site-packages/build/_compat/__pycache__/tomllib.cpython-314.opt-1.pyc
+python-build/usr/lib/python3.14/site-packages/build/_compat/__pycache__/tarfile.cpython-314.pyc
+python-build/usr/lib/python3.14/site-packages/build/_compat/__pycache__/tarfile.cpython-314.opt-1.pyc
+python-build/usr/lib/python3.14/site-packages/build/_compat/__init__.py
+python-build/usr/lib/python3.14/site-packages/build/_compat/tarfile.py
+python-build/usr/lib/python3.14/site-packages/build/util.py
+python-build/usr/lib/python3.14/site-packages/build/__main__.py
+python-build/usr/lib/python3.14/site-packages/build/_types.py
+python-build/usr/lib/python3.14/site-packages/build/__init__.py
+python-build/usr/lib/python3.14/site-packages/build/_exceptions.py
+python-build/usr/lib/python3.14/site-packages/build/py.typed
+python-build/usr/lib/python3.14/site-packages/build/_builder.py
+python-build/version
+python-build/depends
+python-build/make-depends
