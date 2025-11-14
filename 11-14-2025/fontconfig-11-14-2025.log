@@ -1,0 +1,1938 @@
+--2025-11-14 11:13:52--  https://gitlab.freedesktop.org/fontconfig/fontconfig/-/archive/2.17.1/fontconfig-2.17.1.tar.gz
+Resolving gitlab.freedesktop.org (gitlab.freedesktop.org)... 2a04:4e42:600::820, 2a04:4e42:200::820, 2a04:4e42::820, ...
+Connecting to gitlab.freedesktop.org (gitlab.freedesktop.org)|2a04:4e42:600::820|:443... connected.
+HTTP request sent, awaiting response... 200 
+Length: unspecified [application/octet-stream]
+Saving to: ‘fontconfig-2.17.1.tar.gz’
+
+     0K .......... .......... .......... .......... ..........  270K
+    50K .......... .......... .......... .......... ..........  543K
+   100K .......... .......... .......... .......... .......... 8.72M
+   150K .......... .......... .......... .......... ..........  578K
+   200K .......... .......... .......... .......... .......... 9.74M
+   250K .......... .......... .......... .......... .......... 62.3M
+   300K .......... .......... .......... .......... .......... 6.23M
+   350K .......... .......... .......... .......... ..........  635K
+   400K .......... .......... .......... .......... .......... 72.4M
+   450K .......... .......... .......... .......... .......... 12.5M
+   500K .......... .......... .......... .......... .......... 9.75M
+   550K .......... .......... .......... .......... .......... 16.4M
+   600K ......                                                  147M=0.5s
+
+2025-11-14 11:13:53 (1.25 MB/s) - ‘fontconfig-2.17.1.tar.gz’ saved [621429]
+
+fontconfig-2.17.1/
+fontconfig-2.17.1/.clang-format
+fontconfig-2.17.1/.clang-format-ignore
+fontconfig-2.17.1/.gitlab-ci.yml
+fontconfig-2.17.1/.gitlab-ci/
+fontconfig-2.17.1/.gitlab-ci/.gitignore
+fontconfig-2.17.1/.gitlab-ci/aarch64-linux-android.txt
+fontconfig-2.17.1/.gitlab-ci/build.sh
+fontconfig-2.17.1/.gitlab-ci/check-style.sh
+fontconfig-2.17.1/.gitlab-ci/ci.template
+fontconfig-2.17.1/.gitlab-ci/config.yml
+fontconfig-2.17.1/.gitlab-ci/fedora-cross.sh
+fontconfig-2.17.1/.gitlab-ci/fedora-install.sh
+fontconfig-2.17.1/.gitlab-ci/freebsd-cross.sh
+fontconfig-2.17.1/.gitlab-ci/freebsd-install.sh
+fontconfig-2.17.1/.gitlab-ci/linux-mingw-w64-64bit.txt
+fontconfig-2.17.1/.gitlab-ci/other.yml
+fontconfig-2.17.1/.gitlab-ci/test-meson-install-shared.sh
+fontconfig-2.17.1/.gitlab-ci/test-meson-install-static.sh
+fontconfig-2.17.1/AUTHORS
+fontconfig-2.17.1/COPYING
+fontconfig-2.17.1/Cargo.lock
+fontconfig-2.17.1/Cargo.toml
+fontconfig-2.17.1/INSTALL
+fontconfig-2.17.1/Makefile.am
+fontconfig-2.17.1/NEWS
+fontconfig-2.17.1/README.md
+fontconfig-2.17.1/Tools.mk
+fontconfig-2.17.1/autogen.sh
+fontconfig-2.17.1/build-aux/
+fontconfig-2.17.1/build-aux/fetch-testfonts.py
+fontconfig-2.17.1/build-aux/meson-dist-autotools.py
+fontconfig-2.17.1/build-aux/meson-dist-docs.py
+fontconfig-2.17.1/conf.d/
+fontconfig-2.17.1/conf.d/05-reset-dirs-sample.conf
+fontconfig-2.17.1/conf.d/09-autohint-if-no-hinting.conf
+fontconfig-2.17.1/conf.d/10-autohint.conf
+fontconfig-2.17.1/conf.d/10-hinting-full.conf
+fontconfig-2.17.1/conf.d/10-hinting-medium.conf
+fontconfig-2.17.1/conf.d/10-hinting-none.conf
+fontconfig-2.17.1/conf.d/10-hinting-slight.conf
+fontconfig-2.17.1/conf.d/10-no-antialias.conf
+fontconfig-2.17.1/conf.d/10-scale-bitmap-fonts.conf
+fontconfig-2.17.1/conf.d/10-sub-pixel-bgr.conf
+fontconfig-2.17.1/conf.d/10-sub-pixel-none.conf
+fontconfig-2.17.1/conf.d/10-sub-pixel-rgb.conf
+fontconfig-2.17.1/conf.d/10-sub-pixel-vbgr.conf
+fontconfig-2.17.1/conf.d/10-sub-pixel-vrgb.conf
+fontconfig-2.17.1/conf.d/10-unhinted.conf
+fontconfig-2.17.1/conf.d/10-yes-antialias.conf
+fontconfig-2.17.1/conf.d/11-lcdfilter-default.conf
+fontconfig-2.17.1/conf.d/11-lcdfilter-legacy.conf
+fontconfig-2.17.1/conf.d/11-lcdfilter-light.conf
+fontconfig-2.17.1/conf.d/11-lcdfilter-none.conf
+fontconfig-2.17.1/conf.d/20-unhint-small-vera.conf
+fontconfig-2.17.1/conf.d/25-unhint-nonlatin.conf
+fontconfig-2.17.1/conf.d/30-metric-aliases.conf
+fontconfig-2.17.1/conf.d/40-nonlatin.conf
+fontconfig-2.17.1/conf.d/45-generic.conf
+fontconfig-2.17.1/conf.d/45-latin.conf
+fontconfig-2.17.1/conf.d/48-guessfamily.conf
+fontconfig-2.17.1/conf.d/48-spacing.conf
+fontconfig-2.17.1/conf.d/49-sansserif.conf
+fontconfig-2.17.1/conf.d/50-user.conf
+fontconfig-2.17.1/conf.d/51-local.conf
+fontconfig-2.17.1/conf.d/60-generic.conf
+fontconfig-2.17.1/conf.d/60-latin.conf
+fontconfig-2.17.1/conf.d/65-fonts-persian.conf
+fontconfig-2.17.1/conf.d/65-khmer.conf
+fontconfig-2.17.1/conf.d/65-nonlatin.conf
+fontconfig-2.17.1/conf.d/69-unifont.conf
+fontconfig-2.17.1/conf.d/70-no-bitmaps-and-emoji.conf
+fontconfig-2.17.1/conf.d/70-no-bitmaps-except-emoji.conf
+fontconfig-2.17.1/conf.d/70-no-bitmaps.conf
+fontconfig-2.17.1/conf.d/70-yes-bitmaps.conf
+fontconfig-2.17.1/conf.d/80-delicious.conf
+fontconfig-2.17.1/conf.d/90-synthetic.conf
+fontconfig-2.17.1/conf.d/Makefile.am
+fontconfig-2.17.1/conf.d/README.in
+fontconfig-2.17.1/conf.d/link_confs.py
+fontconfig-2.17.1/conf.d/meson.build
+fontconfig-2.17.1/conf.d/write-35-lang-normalize-conf.py
+fontconfig-2.17.1/config-fixups.h
+fontconfig-2.17.1/configure.ac
+fontconfig-2.17.1/doc/
+fontconfig-2.17.1/doc/Makefile.am
+fontconfig-2.17.1/doc/cache-version.sgml.in
+fontconfig-2.17.1/doc/check-missing-doc
+fontconfig-2.17.1/doc/check-missing-doc.py
+fontconfig-2.17.1/doc/check-whitespace-in-args
+fontconfig-2.17.1/doc/check-whitespace-in-args.py
+fontconfig-2.17.1/doc/confdir.sgml.in
+fontconfig-2.17.1/doc/edit-sgml.py
+fontconfig-2.17.1/doc/extract-man-list.py
+fontconfig-2.17.1/doc/fcatomic.fncs
+fontconfig-2.17.1/doc/fcblanks.fncs
+fontconfig-2.17.1/doc/fccache.fncs
+fontconfig-2.17.1/doc/fccharset.fncs
+fontconfig-2.17.1/doc/fcconfig.fncs
+fontconfig-2.17.1/doc/fcconstant.fncs
+fontconfig-2.17.1/doc/fcdircache.fncs
+fontconfig-2.17.1/doc/fcfile.fncs
+fontconfig-2.17.1/doc/fcfontations.fncs
+fontconfig-2.17.1/doc/fcfontset.fncs
+fontconfig-2.17.1/doc/fcformat.fncs
+fontconfig-2.17.1/doc/fcfreetype.fncs
+fontconfig-2.17.1/doc/fcinit.fncs
+fontconfig-2.17.1/doc/fclangset.fncs
+fontconfig-2.17.1/doc/fcmatrix.fncs
+fontconfig-2.17.1/doc/fcobjectset.fncs
+fontconfig-2.17.1/doc/fcobjecttype.fncs
+fontconfig-2.17.1/doc/fcpattern.fncs
+fontconfig-2.17.1/doc/fcrange.fncs
+fontconfig-2.17.1/doc/fcstring.fncs
+fontconfig-2.17.1/doc/fcstrset.fncs
+fontconfig-2.17.1/doc/fcvalue.fncs
+fontconfig-2.17.1/doc/fcweight.fncs
+fontconfig-2.17.1/doc/fontconfig-devel.sgml
+fontconfig-2.17.1/doc/fontconfig-user.sgml
+fontconfig-2.17.1/doc/func.sgml
+fontconfig-2.17.1/doc/meson.build
+fontconfig-2.17.1/doc/run-quiet.py
+fontconfig-2.17.1/doc/version.sgml.in
+fontconfig-2.17.1/fc-cache/
+fontconfig-2.17.1/fc-cache/Makefile.am
+fontconfig-2.17.1/fc-cache/fc-cache.c
+fontconfig-2.17.1/fc-cache/fc-cache.sgml
+fontconfig-2.17.1/fc-cache/meson.build
+fontconfig-2.17.1/fc-case/
+fontconfig-2.17.1/fc-case/CaseFolding.txt
+fontconfig-2.17.1/fc-case/Makefile.am
+fontconfig-2.17.1/fc-case/fc-case.py
+fontconfig-2.17.1/fc-case/fccase.tmpl.h
+fontconfig-2.17.1/fc-case/meson.build
+fontconfig-2.17.1/fc-cat/
+fontconfig-2.17.1/fc-cat/Makefile.am
+fontconfig-2.17.1/fc-cat/fc-cat.c
+fontconfig-2.17.1/fc-cat/fc-cat.sgml
+fontconfig-2.17.1/fc-cat/meson.build
+fontconfig-2.17.1/fc-conflist/
+fontconfig-2.17.1/fc-conflist/Makefile.am
+fontconfig-2.17.1/fc-conflist/fc-conflist.c
+fontconfig-2.17.1/fc-conflist/fc-conflist.sgml
+fontconfig-2.17.1/fc-conflist/meson.build
+fontconfig-2.17.1/fc-fontations/
+fontconfig-2.17.1/fc-fontations/attributes.rs
+fontconfig-2.17.1/fc-fontations/bitmap.rs
+fontconfig-2.17.1/fc-fontations/capabilities.rs
+fontconfig-2.17.1/fc-fontations/charset.rs
+fontconfig-2.17.1/fc-fontations/fcint-bindings/
+fontconfig-2.17.1/fc-fontations/fcint-bindings/Cargo.toml
+fontconfig-2.17.1/fc-fontations/fcint-bindings/build.rs
+fontconfig-2.17.1/fc-fontations/fontconfig-bindings/
+fontconfig-2.17.1/fc-fontations/fontconfig-bindings/Cargo.toml
+fontconfig-2.17.1/fc-fontations/fontconfig-bindings/build.rs
+fontconfig-2.17.1/fc-fontations/foundries.rs
+fontconfig-2.17.1/fc-fontations/instance_enumerate.rs
+fontconfig-2.17.1/fc-fontations/lang.rs
+fontconfig-2.17.1/fc-fontations/meson.build
+fontconfig-2.17.1/fc-fontations/mod.rs
+fontconfig-2.17.1/fc-fontations/name_records.rs
+fontconfig-2.17.1/fc-fontations/names.rs
+fontconfig-2.17.1/fc-fontations/pattern_bindings/
+fontconfig-2.17.1/fc-fontations/pattern_bindings/fc_wrapper.rs
+fontconfig-2.17.1/fc-fontations/pattern_bindings/mod.rs
+fontconfig-2.17.1/fc-lang/
+fontconfig-2.17.1/fc-lang/Makefile.am
+fontconfig-2.17.1/fc-lang/README
+fontconfig-2.17.1/fc-lang/aa.orth
+fontconfig-2.17.1/fc-lang/ab.orth
+fontconfig-2.17.1/fc-lang/af.orth
+fontconfig-2.17.1/fc-lang/agr.orth
+fontconfig-2.17.1/fc-lang/ak.orth
+fontconfig-2.17.1/fc-lang/am.orth
+fontconfig-2.17.1/fc-lang/an.orth
+fontconfig-2.17.1/fc-lang/anp.orth
+fontconfig-2.17.1/fc-lang/ar.orth
+fontconfig-2.17.1/fc-lang/as.orth
+fontconfig-2.17.1/fc-lang/ast.orth
+fontconfig-2.17.1/fc-lang/av.orth
+fontconfig-2.17.1/fc-lang/ay.orth
+fontconfig-2.17.1/fc-lang/ayc.orth
+fontconfig-2.17.1/fc-lang/az_az.orth
+fontconfig-2.17.1/fc-lang/az_ir.orth
+fontconfig-2.17.1/fc-lang/ba.orth
+fontconfig-2.17.1/fc-lang/be.orth
+fontconfig-2.17.1/fc-lang/bem.orth
+fontconfig-2.17.1/fc-lang/ber_dz.orth
+fontconfig-2.17.1/fc-lang/ber_ma.orth
+fontconfig-2.17.1/fc-lang/bg.orth
+fontconfig-2.17.1/fc-lang/bh.orth
+fontconfig-2.17.1/fc-lang/bhb.orth
+fontconfig-2.17.1/fc-lang/bho.orth
+fontconfig-2.17.1/fc-lang/bi.orth
+fontconfig-2.17.1/fc-lang/bin.orth
+fontconfig-2.17.1/fc-lang/bm.orth
+fontconfig-2.17.1/fc-lang/bn.orth
+fontconfig-2.17.1/fc-lang/bo.orth
+fontconfig-2.17.1/fc-lang/br.orth
+fontconfig-2.17.1/fc-lang/brx.orth
+fontconfig-2.17.1/fc-lang/bs.orth
+fontconfig-2.17.1/fc-lang/bua.orth
+fontconfig-2.17.1/fc-lang/byn.orth
+fontconfig-2.17.1/fc-lang/ca.orth
+fontconfig-2.17.1/fc-lang/ce.orth
+fontconfig-2.17.1/fc-lang/ch.orth
+fontconfig-2.17.1/fc-lang/chm.orth
+fontconfig-2.17.1/fc-lang/chr.orth
+fontconfig-2.17.1/fc-lang/ckb.orth
+fontconfig-2.17.1/fc-lang/cmn.orth
+fontconfig-2.17.1/fc-lang/co.orth
+fontconfig-2.17.1/fc-lang/cop.orth
+fontconfig-2.17.1/fc-lang/crh.orth
+fontconfig-2.17.1/fc-lang/cs.orth
+fontconfig-2.17.1/fc-lang/csb.orth
+fontconfig-2.17.1/fc-lang/cu.orth
+fontconfig-2.17.1/fc-lang/cv.orth
+fontconfig-2.17.1/fc-lang/cy.orth
+fontconfig-2.17.1/fc-lang/da.orth
+fontconfig-2.17.1/fc-lang/de.orth
+fontconfig-2.17.1/fc-lang/doi.orth
+fontconfig-2.17.1/fc-lang/dsb.orth
+fontconfig-2.17.1/fc-lang/dv.orth
+fontconfig-2.17.1/fc-lang/dz.orth
+fontconfig-2.17.1/fc-lang/ee.orth
+fontconfig-2.17.1/fc-lang/el.orth
+fontconfig-2.17.1/fc-lang/en.orth
+fontconfig-2.17.1/fc-lang/eo.orth
+fontconfig-2.17.1/fc-lang/es.orth
+fontconfig-2.17.1/fc-lang/et.orth
+fontconfig-2.17.1/fc-lang/eu.orth
+fontconfig-2.17.1/fc-lang/fa.orth
+fontconfig-2.17.1/fc-lang/fat.orth
+fontconfig-2.17.1/fc-lang/fc-lang.man
+fontconfig-2.17.1/fc-lang/fc-lang.py
+fontconfig-2.17.1/fc-lang/fclang.tmpl.h
+fontconfig-2.17.1/fc-lang/ff.orth
+fontconfig-2.17.1/fc-lang/fi.orth
+fontconfig-2.17.1/fc-lang/fil.orth
+fontconfig-2.17.1/fc-lang/fj.orth
+fontconfig-2.17.1/fc-lang/fo.orth
+fontconfig-2.17.1/fc-lang/fr.orth
+fontconfig-2.17.1/fc-lang/fur.orth
+fontconfig-2.17.1/fc-lang/fy.orth
+fontconfig-2.17.1/fc-lang/ga.orth
+fontconfig-2.17.1/fc-lang/gd.orth
+fontconfig-2.17.1/fc-lang/gez.orth
+fontconfig-2.17.1/fc-lang/gl.orth
+fontconfig-2.17.1/fc-lang/gn.orth
+fontconfig-2.17.1/fc-lang/got.orth
+fontconfig-2.17.1/fc-lang/gu.orth
+fontconfig-2.17.1/fc-lang/gv.orth
+fontconfig-2.17.1/fc-lang/ha.orth
+fontconfig-2.17.1/fc-lang/hak.orth
+fontconfig-2.17.1/fc-lang/haw.orth
+fontconfig-2.17.1/fc-lang/he.orth
+fontconfig-2.17.1/fc-lang/hi.orth
+fontconfig-2.17.1/fc-lang/hif.orth
+fontconfig-2.17.1/fc-lang/hne.orth
+fontconfig-2.17.1/fc-lang/ho.orth
+fontconfig-2.17.1/fc-lang/hr.orth
+fontconfig-2.17.1/fc-lang/hsb.orth
+fontconfig-2.17.1/fc-lang/ht.orth
+fontconfig-2.17.1/fc-lang/hu.orth
+fontconfig-2.17.1/fc-lang/hy.orth
+fontconfig-2.17.1/fc-lang/hz.orth
+fontconfig-2.17.1/fc-lang/ia.orth
+fontconfig-2.17.1/fc-lang/id.orth
+fontconfig-2.17.1/fc-lang/ie.orth
+fontconfig-2.17.1/fc-lang/ig.orth
+fontconfig-2.17.1/fc-lang/ii.orth
+fontconfig-2.17.1/fc-lang/ik.orth
+fontconfig-2.17.1/fc-lang/io.orth
+fontconfig-2.17.1/fc-lang/is.orth
+fontconfig-2.17.1/fc-lang/iso-3166.txt
+fontconfig-2.17.1/fc-lang/iso639-1
+fontconfig-2.17.1/fc-lang/iso639-2
+fontconfig-2.17.1/fc-lang/it.orth
+fontconfig-2.17.1/fc-lang/iu.orth
+fontconfig-2.17.1/fc-lang/ja.orth
+fontconfig-2.17.1/fc-lang/jv.orth
+fontconfig-2.17.1/fc-lang/ka.orth
+fontconfig-2.17.1/fc-lang/kaa.orth
+fontconfig-2.17.1/fc-lang/kab.orth
+fontconfig-2.17.1/fc-lang/ki.orth
+fontconfig-2.17.1/fc-lang/kj.orth
+fontconfig-2.17.1/fc-lang/kk.orth
+fontconfig-2.17.1/fc-lang/kl.orth
+fontconfig-2.17.1/fc-lang/km.orth
+fontconfig-2.17.1/fc-lang/kn.orth
+fontconfig-2.17.1/fc-lang/ko.orth
+fontconfig-2.17.1/fc-lang/kok.orth
+fontconfig-2.17.1/fc-lang/kr.orth
+fontconfig-2.17.1/fc-lang/ks.orth
+fontconfig-2.17.1/fc-lang/ku_am.orth
+fontconfig-2.17.1/fc-lang/ku_iq.orth
+fontconfig-2.17.1/fc-lang/ku_ir.orth
+fontconfig-2.17.1/fc-lang/ku_tr.orth
+fontconfig-2.17.1/fc-lang/kum.orth
+fontconfig-2.17.1/fc-lang/kv.orth
+fontconfig-2.17.1/fc-lang/kw.orth
+fontconfig-2.17.1/fc-lang/kwm.orth
+fontconfig-2.17.1/fc-lang/ky.orth
+fontconfig-2.17.1/fc-lang/la.orth
+fontconfig-2.17.1/fc-lang/lah.orth
+fontconfig-2.17.1/fc-lang/lb.orth
+fontconfig-2.17.1/fc-lang/lez.orth
+fontconfig-2.17.1/fc-lang/lg.orth
+fontconfig-2.17.1/fc-lang/li.orth
+fontconfig-2.17.1/fc-lang/lij.orth
+fontconfig-2.17.1/fc-lang/ln.orth
+fontconfig-2.17.1/fc-lang/lo.orth
+fontconfig-2.17.1/fc-lang/lt.orth
+fontconfig-2.17.1/fc-lang/lv.orth
+fontconfig-2.17.1/fc-lang/lzh.orth
+fontconfig-2.17.1/fc-lang/mag.orth
+fontconfig-2.17.1/fc-lang/mai.orth
+fontconfig-2.17.1/fc-lang/meson.build
+fontconfig-2.17.1/fc-lang/mfe.orth
+fontconfig-2.17.1/fc-lang/mg.orth
+fontconfig-2.17.1/fc-lang/mh.orth
+fontconfig-2.17.1/fc-lang/mhr.orth
+fontconfig-2.17.1/fc-lang/mi.orth
+fontconfig-2.17.1/fc-lang/miq.orth
+fontconfig-2.17.1/fc-lang/mjw.orth
+fontconfig-2.17.1/fc-lang/mk.orth
+fontconfig-2.17.1/fc-lang/ml.orth
+fontconfig-2.17.1/fc-lang/mn_cn.orth
+fontconfig-2.17.1/fc-lang/mn_mn.orth
+fontconfig-2.17.1/fc-lang/mni.orth
+fontconfig-2.17.1/fc-lang/mnw.orth
+fontconfig-2.17.1/fc-lang/mo.orth
+fontconfig-2.17.1/fc-lang/mr.orth
+fontconfig-2.17.1/fc-lang/ms.orth
+fontconfig-2.17.1/fc-lang/mt.orth
+fontconfig-2.17.1/fc-lang/my.orth
+fontconfig-2.17.1/fc-lang/na.orth
+fontconfig-2.17.1/fc-lang/nan.orth
+fontconfig-2.17.1/fc-lang/nb.orth
+fontconfig-2.17.1/fc-lang/nds.orth
+fontconfig-2.17.1/fc-lang/ne.orth
+fontconfig-2.17.1/fc-lang/ng.orth
+fontconfig-2.17.1/fc-lang/nhn.orth
+fontconfig-2.17.1/fc-lang/niu.orth
+fontconfig-2.17.1/fc-lang/nl.orth
+fontconfig-2.17.1/fc-lang/nn.orth
+fontconfig-2.17.1/fc-lang/no.orth
+fontconfig-2.17.1/fc-lang/nqo.orth
+fontconfig-2.17.1/fc-lang/nr.orth
+fontconfig-2.17.1/fc-lang/nso.orth
+fontconfig-2.17.1/fc-lang/nv.orth
+fontconfig-2.17.1/fc-lang/ny.orth
+fontconfig-2.17.1/fc-lang/oc.orth
+fontconfig-2.17.1/fc-lang/om.orth
+fontconfig-2.17.1/fc-lang/or.orth
+fontconfig-2.17.1/fc-lang/os.orth
+fontconfig-2.17.1/fc-lang/ota.orth
+fontconfig-2.17.1/fc-lang/pa.orth
+fontconfig-2.17.1/fc-lang/pa_pk.orth
+fontconfig-2.17.1/fc-lang/pap_an.orth
+fontconfig-2.17.1/fc-lang/pap_aw.orth
+fontconfig-2.17.1/fc-lang/pes.orth
+fontconfig-2.17.1/fc-lang/pl.orth
+fontconfig-2.17.1/fc-lang/prs.orth
+fontconfig-2.17.1/fc-lang/ps_af.orth
+fontconfig-2.17.1/fc-lang/ps_pk.orth
+fontconfig-2.17.1/fc-lang/pt.orth
+fontconfig-2.17.1/fc-lang/qu.orth
+fontconfig-2.17.1/fc-lang/quz.orth
+fontconfig-2.17.1/fc-lang/raj.orth
+fontconfig-2.17.1/fc-lang/rif.orth
+fontconfig-2.17.1/fc-lang/rm.orth
+fontconfig-2.17.1/fc-lang/rn.orth
+fontconfig-2.17.1/fc-lang/ro.orth
+fontconfig-2.17.1/fc-lang/ru.orth
+fontconfig-2.17.1/fc-lang/rw.orth
+fontconfig-2.17.1/fc-lang/sa.orth
+fontconfig-2.17.1/fc-lang/sah.orth
+fontconfig-2.17.1/fc-lang/sat.orth
+fontconfig-2.17.1/fc-lang/sc.orth
+fontconfig-2.17.1/fc-lang/sco.orth
+fontconfig-2.17.1/fc-lang/sd.orth
+fontconfig-2.17.1/fc-lang/se.orth
+fontconfig-2.17.1/fc-lang/sel.orth
+fontconfig-2.17.1/fc-lang/sg.orth
+fontconfig-2.17.1/fc-lang/sgs.orth
+fontconfig-2.17.1/fc-lang/sh.orth
+fontconfig-2.17.1/fc-lang/shn.orth
+fontconfig-2.17.1/fc-lang/shs.orth
+fontconfig-2.17.1/fc-lang/si.orth
+fontconfig-2.17.1/fc-lang/sid.orth
+fontconfig-2.17.1/fc-lang/sk.orth
+fontconfig-2.17.1/fc-lang/sl.orth
+fontconfig-2.17.1/fc-lang/sm.orth
+fontconfig-2.17.1/fc-lang/sma.orth
+fontconfig-2.17.1/fc-lang/smj.orth
+fontconfig-2.17.1/fc-lang/smn.orth
+fontconfig-2.17.1/fc-lang/sms.orth
+fontconfig-2.17.1/fc-lang/sn.orth
+fontconfig-2.17.1/fc-lang/so.orth
+fontconfig-2.17.1/fc-lang/sq.orth
+fontconfig-2.17.1/fc-lang/sr.orth
+fontconfig-2.17.1/fc-lang/ss.orth
+fontconfig-2.17.1/fc-lang/st.orth
+fontconfig-2.17.1/fc-lang/su.orth
+fontconfig-2.17.1/fc-lang/sv.orth
+fontconfig-2.17.1/fc-lang/sw.orth
+fontconfig-2.17.1/fc-lang/syr.orth
+fontconfig-2.17.1/fc-lang/szl.orth
+fontconfig-2.17.1/fc-lang/ta.orth
+fontconfig-2.17.1/fc-lang/tcy.orth
+fontconfig-2.17.1/fc-lang/te.orth
+fontconfig-2.17.1/fc-lang/tg.orth
+fontconfig-2.17.1/fc-lang/th.orth
+fontconfig-2.17.1/fc-lang/the.orth
+fontconfig-2.17.1/fc-lang/ti_er.orth
+fontconfig-2.17.1/fc-lang/ti_et.orth
+fontconfig-2.17.1/fc-lang/tig.orth
+fontconfig-2.17.1/fc-lang/tk.orth
+fontconfig-2.17.1/fc-lang/tl.orth
+fontconfig-2.17.1/fc-lang/tn.orth
+fontconfig-2.17.1/fc-lang/to.orth
+fontconfig-2.17.1/fc-lang/tpi.orth
+fontconfig-2.17.1/fc-lang/tr.orth
+fontconfig-2.17.1/fc-lang/ts.orth
+fontconfig-2.17.1/fc-lang/tt.orth
+fontconfig-2.17.1/fc-lang/tw.orth
+fontconfig-2.17.1/fc-lang/ty.orth
+fontconfig-2.17.1/fc-lang/tyv.orth
+fontconfig-2.17.1/fc-lang/ug.orth
+fontconfig-2.17.1/fc-lang/uk.orth
+fontconfig-2.17.1/fc-lang/und_zmth.orth
+fontconfig-2.17.1/fc-lang/und_zsye.orth
+fontconfig-2.17.1/fc-lang/unm.orth
+fontconfig-2.17.1/fc-lang/ur.orth
+fontconfig-2.17.1/fc-lang/uz.orth
+fontconfig-2.17.1/fc-lang/ve.orth
+fontconfig-2.17.1/fc-lang/vi.orth
+fontconfig-2.17.1/fc-lang/vo.orth
+fontconfig-2.17.1/fc-lang/vot.orth
+fontconfig-2.17.1/fc-lang/wa.orth
+fontconfig-2.17.1/fc-lang/wae.orth
+fontconfig-2.17.1/fc-lang/wal.orth
+fontconfig-2.17.1/fc-lang/wen.orth
+fontconfig-2.17.1/fc-lang/wo.orth
+fontconfig-2.17.1/fc-lang/xh.orth
+fontconfig-2.17.1/fc-lang/yap.orth
+fontconfig-2.17.1/fc-lang/yi.orth
+fontconfig-2.17.1/fc-lang/yo.orth
+fontconfig-2.17.1/fc-lang/yue.orth
+fontconfig-2.17.1/fc-lang/yuw.orth
+fontconfig-2.17.1/fc-lang/za.orth
+fontconfig-2.17.1/fc-lang/zh_cn.orth
+fontconfig-2.17.1/fc-lang/zh_hk.orth
+fontconfig-2.17.1/fc-lang/zh_mo.orth
+fontconfig-2.17.1/fc-lang/zh_sg.orth
+fontconfig-2.17.1/fc-lang/zh_tw.orth
+fontconfig-2.17.1/fc-lang/zu.orth
+fontconfig-2.17.1/fc-list/
+fontconfig-2.17.1/fc-list/Makefile.am
+fontconfig-2.17.1/fc-list/fc-list.c
+fontconfig-2.17.1/fc-list/fc-list.sgml
+fontconfig-2.17.1/fc-list/meson.build
+fontconfig-2.17.1/fc-match/
+fontconfig-2.17.1/fc-match/Makefile.am
+fontconfig-2.17.1/fc-match/fc-match.c
+fontconfig-2.17.1/fc-match/fc-match.sgml
+fontconfig-2.17.1/fc-match/meson.build
+fontconfig-2.17.1/fc-pattern/
+fontconfig-2.17.1/fc-pattern/Makefile.am
+fontconfig-2.17.1/fc-pattern/fc-pattern.c
+fontconfig-2.17.1/fc-pattern/fc-pattern.sgml
+fontconfig-2.17.1/fc-pattern/meson.build
+fontconfig-2.17.1/fc-query/
+fontconfig-2.17.1/fc-query/Makefile.am
+fontconfig-2.17.1/fc-query/fc-query.c
+fontconfig-2.17.1/fc-query/fc-query.sgml
+fontconfig-2.17.1/fc-query/meson.build
+fontconfig-2.17.1/fc-scan/
+fontconfig-2.17.1/fc-scan/Makefile.am
+fontconfig-2.17.1/fc-scan/fc-scan.c
+fontconfig-2.17.1/fc-scan/fc-scan.sgml
+fontconfig-2.17.1/fc-scan/meson.build
+fontconfig-2.17.1/fc-validate/
+fontconfig-2.17.1/fc-validate/Makefile.am
+fontconfig-2.17.1/fc-validate/fc-validate.c
+fontconfig-2.17.1/fc-validate/fc-validate.sgml
+fontconfig-2.17.1/fc-validate/meson.build
+fontconfig-2.17.1/fontconfig-zip.in
+fontconfig-2.17.1/fontconfig.pc.in
+fontconfig-2.17.1/fontconfig/
+fontconfig-2.17.1/fontconfig/Makefile.am
+fontconfig-2.17.1/fontconfig/fcfontations.h
+fontconfig-2.17.1/fontconfig/fcfreetype.h
+fontconfig-2.17.1/fontconfig/fcprivate.h
+fontconfig-2.17.1/fontconfig/fontconfig.h.in
+fontconfig-2.17.1/fontconfig/meson.build
+fontconfig-2.17.1/fonts.conf.in
+fontconfig-2.17.1/fonts.dtd
+fontconfig-2.17.1/git.mk
+fontconfig-2.17.1/its/
+fontconfig-2.17.1/its/Makefile.am
+fontconfig-2.17.1/its/fontconfig.its
+fontconfig-2.17.1/its/fontconfig.loc
+fontconfig-2.17.1/its/meson.build
+fontconfig-2.17.1/local.conf
+fontconfig-2.17.1/m4/
+fontconfig-2.17.1/m4/.gitkeep
+fontconfig-2.17.1/m4/ac_check_symbol.m4
+fontconfig-2.17.1/m4/ax_cc_for_build.m4
+fontconfig-2.17.1/m4/ax_create_stdint_h.m4
+fontconfig-2.17.1/m4/ax_pthread.m4
+fontconfig-2.17.1/m4/pkg.m4
+fontconfig-2.17.1/meson-cc-tests/
+fontconfig-2.17.1/meson-cc-tests/flexible-array-member-test.c
+fontconfig-2.17.1/meson-cc-tests/freetype-pcf-long-family-names.c
+fontconfig-2.17.1/meson-cc-tests/gperf.txt
+fontconfig-2.17.1/meson-cc-tests/intel-atomic-primitives-test.c
+fontconfig-2.17.1/meson-cc-tests/pthread-prio-inherit-test.c
+fontconfig-2.17.1/meson-cc-tests/solaris-atomic-operations.c
+fontconfig-2.17.1/meson-cc-tests/stdatomic-primitives-test.c
+fontconfig-2.17.1/meson-config.h.in
+fontconfig-2.17.1/meson.build
+fontconfig-2.17.1/meson.options
+fontconfig-2.17.1/new-version.sh
+fontconfig-2.17.1/po-conf/
+fontconfig-2.17.1/po-conf/ChangeLog
+fontconfig-2.17.1/po-conf/LINGUAS
+fontconfig-2.17.1/po-conf/Makevars
+fontconfig-2.17.1/po-conf/POTFILES.in
+fontconfig-2.17.1/po-conf/ka.po
+fontconfig-2.17.1/po-conf/meson.build
+fontconfig-2.17.1/po-conf/zh_CN.po
+fontconfig-2.17.1/po/
+fontconfig-2.17.1/po/ChangeLog
+fontconfig-2.17.1/po/LINGUAS
+fontconfig-2.17.1/po/Makevars
+fontconfig-2.17.1/po/POTFILES.in
+fontconfig-2.17.1/po/ka.po
+fontconfig-2.17.1/po/meson.build
+fontconfig-2.17.1/po/zh_CN.po
+fontconfig-2.17.1/src/
+fontconfig-2.17.1/src/Makefile.am
+fontconfig-2.17.1/src/cutout.py
+fontconfig-2.17.1/src/fcarch.c
+fontconfig-2.17.1/src/fcarch.h
+fontconfig-2.17.1/src/fcatomic.c
+fontconfig-2.17.1/src/fcatomic.h
+fontconfig-2.17.1/src/fccache.c
+fontconfig-2.17.1/src/fccfg.c
+fontconfig-2.17.1/src/fccharset.c
+fontconfig-2.17.1/src/fccompat.c
+fontconfig-2.17.1/src/fcdbg.c
+fontconfig-2.17.1/src/fcdefault.c
+fontconfig-2.17.1/src/fcdeprecate.h
+fontconfig-2.17.1/src/fcdir.c
+fontconfig-2.17.1/src/fcfontations.c
+fontconfig-2.17.1/src/fcformat.c
+fontconfig-2.17.1/src/fcfoundry.h
+fontconfig-2.17.1/src/fcfreetype.c
+fontconfig-2.17.1/src/fcfs.c
+fontconfig-2.17.1/src/fcftint.h
+fontconfig-2.17.1/src/fchash.c
+fontconfig-2.17.1/src/fcinit.c
+fontconfig-2.17.1/src/fcint.h
+fontconfig-2.17.1/src/fclang.c
+fontconfig-2.17.1/src/fclist.c
+fontconfig-2.17.1/src/fcmatch.c
+fontconfig-2.17.1/src/fcmatrix.c
+fontconfig-2.17.1/src/fcmd5.h
+fontconfig-2.17.1/src/fcmutex.h
+fontconfig-2.17.1/src/fcname.c
+fontconfig-2.17.1/src/fcobjs.c
+fontconfig-2.17.1/src/fcobjs.h
+fontconfig-2.17.1/src/fcobjshash.gperf.h
+fontconfig-2.17.1/src/fcpat.c
+fontconfig-2.17.1/src/fcptrlist.c
+fontconfig-2.17.1/src/fcrange.c
+fontconfig-2.17.1/src/fcserialize.c
+fontconfig-2.17.1/src/fcstat.c
+fontconfig-2.17.1/src/fcstdint.h.in
+fontconfig-2.17.1/src/fcstr.c
+fontconfig-2.17.1/src/fcweight.c
+fontconfig-2.17.1/src/fcwindows.h
+fontconfig-2.17.1/src/fcxml.c
+fontconfig-2.17.1/src/fontconfig.def.in
+fontconfig-2.17.1/src/ftglue.c
+fontconfig-2.17.1/src/ftglue.h
+fontconfig-2.17.1/src/makealias
+fontconfig-2.17.1/src/makealias.py
+fontconfig-2.17.1/src/meson.build
+fontconfig-2.17.1/subprojects/
+fontconfig-2.17.1/subprojects/.gitignore
+fontconfig-2.17.1/subprojects/expat.wrap
+fontconfig-2.17.1/subprojects/freetype2.wrap
+fontconfig-2.17.1/subprojects/gperf.wrap
+fontconfig-2.17.1/subprojects/libintl/
+fontconfig-2.17.1/subprojects/libintl/meson.build
+fontconfig-2.17.1/subprojects/libpng.wrap
+fontconfig-2.17.1/subprojects/libxml2.wrap
+fontconfig-2.17.1/subprojects/zlib.wrap
+fontconfig-2.17.1/test/
+fontconfig-2.17.1/test/4x6.pcf
+fontconfig-2.17.1/test/8x16.pcf
+fontconfig-2.17.1/test/Makefile.am
+fontconfig-2.17.1/test/check-consist-nlang.c
+fontconfig-2.17.1/test/fonts.conf.in
+fontconfig-2.17.1/test/meson.build
+fontconfig-2.17.1/test/out.expected-long-family-names
+fontconfig-2.17.1/test/out.expected-no-long-family-names
+fontconfig-2.17.1/test/run-test-conf.sh
+fontconfig-2.17.1/test/run-test-map.sh
+fontconfig-2.17.1/test/run-test.d/
+fontconfig-2.17.1/test/run-test.d/functions
+fontconfig-2.17.1/test/run-test.d/remap-flatpak.sh
+fontconfig-2.17.1/test/run-test.sh
+fontconfig-2.17.1/test/test-45-generic.json
+fontconfig-2.17.1/test/test-48-guessfamily.json
+fontconfig-2.17.1/test/test-60-generic.json
+fontconfig-2.17.1/test/test-70-no-bitmaps-and-emoji.json
+fontconfig-2.17.1/test/test-70-no-bitmaps-except-emoji.json
+fontconfig-2.17.1/test/test-90-synthetic.json
+fontconfig-2.17.1/test/test-appfont.json
+fontconfig-2.17.1/test/test-bz106618.c
+fontconfig-2.17.1/test/test-bz106632.c
+fontconfig-2.17.1/test/test-bz131804.c
+fontconfig-2.17.1/test/test-bz1744377.c
+fontconfig-2.17.1/test/test-bz89617.c
+fontconfig-2.17.1/test/test-bz96676.c
+fontconfig-2.17.1/test/test-conf.c
+fontconfig-2.17.1/test/test-crbug1004254.c
+fontconfig-2.17.1/test/test-d1f48f11.c
+fontconfig-2.17.1/test/test-family-matching.c
+fontconfig-2.17.1/test/test-filter.c
+fontconfig-2.17.1/test/test-filter.json
+fontconfig-2.17.1/test/test-issue-286.json
+fontconfig-2.17.1/test/test-issue107.c
+fontconfig-2.17.1/test/test-issue110.c
+fontconfig-2.17.1/test/test-issue180.c
+fontconfig-2.17.1/test/test-migration.c
+fontconfig-2.17.1/test/test-mt-fccfg.c
+fontconfig-2.17.1/test/test-name-parse.c
+fontconfig-2.17.1/test/test-namedinstance.json
+fontconfig-2.17.1/test/test-pthread.c
+fontconfig-2.17.1/test/test-ptrlist.c
+fontconfig-2.17.1/test/test-style-match.json
+fontconfig-2.17.1/test/test_fontations_ft_query.py
+fontconfig-2.17.1/test/test_issue431.py
+fontconfig-2.17.1/test/wrapper-script.sh
+Copying file ABOUT-NLS
+Copying file config.rpath
+Copying file m4/codeset.m4
+Copying file m4/extern-inline.m4
+Copying file m4/fcntl-o.m4
+Copying file m4/gettext.m4
+Copying file m4/glibc2.m4
+Copying file m4/glibc21.m4
+Copying file m4/iconv.m4
+Copying file m4/intdiv0.m4
+Copying file m4/intl.m4
+Copying file m4/intldir.m4
+Copying file m4/intlmacosx.m4
+Copying file m4/intmax.m4
+Copying file m4/inttypes-pri.m4
+Copying file m4/inttypes_h.m4
+Copying file m4/lcmessage.m4
+Copying file m4/lib-ld.m4
+Copying file m4/lib-link.m4
+Copying file m4/lib-prefix.m4
+Copying file m4/lock.m4
+Copying file m4/longlong.m4
+Copying file m4/nls.m4
+Copying file m4/po.m4
+Copying file m4/printf-posix.m4
+Copying file m4/progtest.m4
+Copying file m4/size_max.m4
+Copying file m4/stdint_h.m4
+Copying file m4/threadlib.m4
+Copying file m4/uintmax_t.m4
+Copying file m4/visibility.m4
+Copying file m4/wchar_t.m4
+Copying file m4/wint_t.m4
+Copying file m4/xsize.m4
+Copying file po/Makefile.in.in
+Copying file po-conf/Makefile.in.in
+Copying file po/Makevars.template
+Copying file po-conf/Makevars.template
+Copying file po/Rules-quot
+Copying file po-conf/Rules-quot
+Copying file po/boldquot.sed
+Copying file po-conf/boldquot.sed
+Copying file po/en@boldquot.header
+Copying file po-conf/en@boldquot.header
+Copying file po/en@quot.header
+Copying file po-conf/en@quot.header
+Copying file po/insert-header.sin
+Copying file po-conf/insert-header.sin
+Copying file po/quot.sed
+Copying file po-conf/quot.sed
+Copying file po/remove-potcdate.sin
+Copying file po-conf/remove-potcdate.sin
+libtoolize: putting auxiliary files in '.'.
+libtoolize: copying file './ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+libtoolize: copying file 'm4/libtool.m4'
+libtoolize: copying file 'm4/ltoptions.m4'
+libtoolize: copying file 'm4/ltsugar.m4'
+libtoolize: copying file 'm4/ltversion.m4'
+libtoolize: copying file 'm4/lt~obsolete.m4'
+configure.ac:178: warning: The macro 'AC_TRY_COMPILE' is obsolete.
+configure.ac:178: You should run autoupdate.
+./lib/autoconf/general.m4:2845: AC_TRY_COMPILE is expanded from...
+lib/m4sugar/m4sh.m4:690: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:697: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+m4/ax_create_stdint_h.m4:134: AX_CREATE_STDINT_H is expanded from...
+configure.ac:178: the top level
+configure.ac:45: installing './compile'
+configure.ac:69: installing './config.guess'
+configure.ac:69: installing './config.sub'
+configure.ac:37: installing './install-sh'
+configure.ac:37: installing './missing'
+parallel-tests: installing './test-driver'
+fc-cache/Makefile.am: installing './depcomp'
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether sleep supports fractional seconds... yes
+checking filesystem timestamp resolution... 0.01
+checking whether build environment is sane... yes
+checking for a race-free mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking xargs -n works... yes
+checking whether UID '0' is supported by ustar format... yes
+checking whether GID '0' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to enable C11 features... none needed
+checking whether gcc understands -c and -o together... yes
+checking whether make supports the include directive... yes (GNU style)
+checking dependency style of gcc... gcc3
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for wchar.h... yes
+checking for minix/config.h... no
+checking for sys/param.h... yes
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether _XOPEN_SOURCE should be defined... no
+checking for gcc option to enable large file support... none needed
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for a Python interpreter with version >= 3... python
+checking for python... /usr/bin/python
+checking for python version... 3.14
+checking for python platform... linux
+checking for GNU default python prefix... ${prefix}
+checking for GNU default python exec_prefix... ${exec_prefix}
+checking for python script directory (pythondir)... ${PYTHON_PREFIX}/lib/python3.14/site-packages
+checking for python extension module directory (pyexecdir)... ${PYTHON_EXEC_PREFIX}/lib/python3.14/site-packages
+checking for RM macro... rm -f
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for file... file
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ranlib... ranlib
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for ld used by gcc... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking for shared library run path origin... done
+checking how to run the C preprocessor... gcc -E
+checking for egrep -e... (cached) /usr/bin/grep -E
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for gcc options needed to detect all undeclared functions... none needed
+checking whether __SUNPRO_C is declared... no
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking for egrep... (cached) /usr/bin/grep -E
+checking for dirent.h... yes
+checking for fcntl.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for sys/statvfs.h... yes
+checking for sys/vfs.h... yes
+checking for sys/statfs.h... yes
+checking for sys/param.h... (cached) yes
+checking for sys/mount.h... yes
+checking for stdint types... stdint.h (shortcircuit)
+make use of stdint.h in src/fcstdint.h (assuming C99 compatible system)
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for flexible array members... yes
+checking for pid_t... yes
+checking for vprintf... yes
+checking for getpagesize... yes
+checking for working mmap... yes
+checking for link... yes
+checking for mkstemp... yes
+checking for mkostemp... yes
+checking for _mktemp_s... no
+checking for mkdtemp... yes
+checking for getopt... yes
+checking for getopt_long... yes
+checking for getprogname... no
+checking for getexecname... no
+checking for rand... yes
+checking for random... yes
+checking for lrand48... yes
+checking for random_r... yes
+checking for rand_r... yes
+checking for readlink... yes
+checking for fstatvfs... yes
+checking for fstatfs... yes
+checking for lstat... yes
+checking for strerror... yes
+checking for strerror_r... yes
+checking for library containing fabs... -lm
+checking for posix_fadvise in fcntl.h... fcntl.h
+checking for struct stat.st_mtim... yes
+checking for struct statvfs.f_basetype... no
+checking for struct statvfs.f_fstypename... no
+checking for struct statfs.f_flags... yes
+checking for struct statfs.f_fstypename... no
+checking for struct dirent.d_type... yes
+checking The type of len parameter of gperf hash/lookup function... size_t
+checking for FREETYPE... yes
+checking for FT_Get_BDF_Property... yes
+checking for FT_Get_PS_Font_Info... yes
+checking for FT_Has_PS_Glyph_Names... yes
+checking for FT_Get_X11_Font_Format... yes
+checking for FT_Done_MM_Var... yes
+checking for EXPAT... yes
+checking for expat.h... yes
+checking for XML_SetDoctypeDeclHandler... yes
+checking for JSONC... yes
+checking stdatomic.h atomic primitives... true
+checking for Intel atomic primitives... true
+checking for Solaris atomic operations... false
+checking if compiler needs -Werror to reject unknown flags... no
+checking for the pthreads library -lpthreads... no
+checking whether pthreads work without any flags... yes
+checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+checking if more special flags are required for pthreads... no
+checking for PTHREAD_PRIO_INHERIT... yes
+checking for docbook2html... no
+checking whether byte ordering is bigendian... no
+checking size of void *... 8
+checking alignment of double... 8
+checking alignment of void *... 8
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating fontconfig/Makefile
+config.status: creating fc-lang/Makefile
+config.status: creating fc-case/Makefile
+config.status: creating src/Makefile
+config.status: creating conf.d/Makefile
+config.status: creating fc-cache/Makefile
+config.status: creating fc-cat/Makefile
+config.status: creating fc-conflist/Makefile
+config.status: creating fc-list/Makefile
+config.status: creating fc-match/Makefile
+config.status: creating fc-pattern/Makefile
+config.status: creating fc-query/Makefile
+config.status: creating fc-scan/Makefile
+config.status: creating fc-validate/Makefile
+config.status: creating fontconfig/fontconfig.h
+config.status: creating doc/Makefile
+config.status: creating doc/cache-version.sgml
+config.status: creating doc/version.sgml
+config.status: creating its/Makefile
+config.status: creating po/Makefile.in
+config.status: creating po-conf/Makefile.in
+config.status: creating test/Makefile
+config.status: creating fontconfig.pc
+config.status: creating fontconfig-zip
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing po-directories commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+config.status: creating po-conf/POTFILES
+config.status: creating po-conf/Makefile
+config.status: executing src/fcstdint.h commands
+config.status: creating src/fcstdint.h : _FONTCONFIG_SRC_FCSTDINT_H
+  GEN      .gitignore
+make[1]: Entering directory '/blfs/builds/fontconfig-2.17.1/doc'
+  GEN      .gitignore
+make[1]: Leaving directory '/blfs/builds/fontconfig-2.17.1/doc'
+make  all-recursive
+make[1]: Entering directory '/blfs/builds/fontconfig-2.17.1'
+Making all in fontconfig
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/fontconfig'
+  GEN      .gitignore
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fontconfig'
+Making all in fc-case
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-case'
+  GEN      fcaliastail.h
+  GEN      fcalias.h
+  GEN      .gitignore
+make  all-am
+make[3]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-case'
+  GEN      fccase.h
+make[3]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-case'
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-case'
+Making all in fc-lang
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-lang'
+  GEN      fcalias.h
+  GEN      fcaliastail.h
+  GEN      .gitignore
+  GEN      ../conf.d/35-lang-normalize.conf
+make  all-am
+make[3]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-lang'
+  GEN      fclang.h
+make[3]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-lang'
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-lang'
+Making all in src
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/src'
+  GEN      fcalias.h
+  GEN      fcftalias.h
+  GEN      stamp-fcstdint
+  GEN      .gitignore
+  GEN      stamp-fcobjshash.gperf
+make[3]: Entering directory '/blfs/builds/fontconfig-2.17.1/src'
+  GEN      stamp-fcobjshash.gperf
+make[3]: Leaving directory '/blfs/builds/fontconfig-2.17.1/src'
+  GEN      fcobjshash.h
+config.status: executing src/fcstdint.h commands
+config.status: creating src/fcstdint.h : _FONTCONFIG_SRC_FCSTDINT_H
+config.status: src/fcstdint.h is unchanged
+make  all-am
+make[3]: Entering directory '/blfs/builds/fontconfig-2.17.1/src'
+  CC       fcarch.o
+  CC       fcatomic.lo
+  CC       fccfg.lo
+  CC       fccache.lo
+  CC       fccharset.lo
+  CC       fcdbg.lo
+  CC       fcformat.lo
+  CC       fccompat.lo
+  CC       fcdefault.lo
+  CC       fcdir.lo
+  CC       fcfreetype.lo
+  CC       fcfs.lo
+  CC       fcptrlist.lo
+  CC       fchash.lo
+In file included from fccharset.c:25:
+fccharset.c: In function 'FcCharSetPutLeaf':
+fcint.h:172:47: warning: pointer 'leaves' may be used after 'realloc' [-Wuse-after-free]
+  172 | #define FcOffsetToPtr(b, o, t)         ((t *)((intptr_t)(b) + (ptrdiff_t)(o)))
+      |                                               ^~~~~~~~~~~~~
+fccharset.c:193:36: note: in expansion of macro 'FcOffsetToPtr'
+  193 |                 FcCharLeaf *leaf = FcOffsetToPtr (leaves, new_leaves[i], FcCharLeaf);
+      |                                    ^~~~~~~~~~~~~
+fccharset.c:177:26: note: call to 'realloc' here
+  177 |             new_leaves = realloc (leaves, alloced * sizeof (*leaves));
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+fcfreetype.c: In function 'FcSfntNameTranscode':
+fcfreetype.c:687:14: warning: unused variable 'redecoded' [-Wunused-variable]
+  687 |     FcBool   redecoded = FcFalse;
+      |              ^~~~~~~~~
+  CC       fcinit.lo
+  CC       fclang.lo
+  CC       fclist.lo
+  CC       fcmatch.lo
+  CC       fcmatrix.lo
+  CC       fcname.lo
+  CC       fcobjs.lo
+  CC       fcpat.lo
+  CC       fcrange.lo
+  CC       fcserialize.lo
+  CC       fcstat.lo
+  CC       fcstr.lo
+  CC       fcweight.lo
+  CC       fcxml.lo
+  CC       ftglue.lo
+  CCLD     fcarch
+  CCLD     libfontconfig.la
+make[3]: Leaving directory '/blfs/builds/fontconfig-2.17.1/src'
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/src'
+Making all in fc-cache
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-cache'
+  CC       fc-cache.o
+  GEN      .gitignore
+  CCLD     fc-cache
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-cache'
+Making all in fc-cat
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-cat'
+  CC       fc-cat.o
+  GEN      .gitignore
+  CCLD     fc-cat
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-cat'
+Making all in fc-conflist
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-conflist'
+  CC       fc-conflist.o
+  GEN      .gitignore
+  CCLD     fc-conflist
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-conflist'
+Making all in fc-list
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-list'
+  CC       fc-list.o
+  GEN      .gitignore
+  CCLD     fc-list
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-list'
+Making all in fc-match
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-match'
+  CC       fc-match.o
+  GEN      .gitignore
+  CCLD     fc-match
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-match'
+Making all in fc-pattern
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-pattern'
+  CC       fc-pattern.o
+  GEN      .gitignore
+  CCLD     fc-pattern
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-pattern'
+Making all in fc-query
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-query'
+  CC       fc-query.o
+  GEN      .gitignore
+  CCLD     fc-query
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-query'
+Making all in fc-scan
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-scan'
+  CC       fc-scan.o
+  GEN      .gitignore
+  CCLD     fc-scan
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-scan'
+Making all in fc-validate
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-validate'
+  CC       fc-validate.o
+  GEN      .gitignore
+  CCLD     fc-validate
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-validate'
+Making all in conf.d
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/conf.d'
+sed "s|\@TEMPLATEDIR\@|/usr/share/fontconfig/conf.avail|" README.in > README
+  GEN      .gitignore
+make  all-am
+make[3]: Entering directory '/blfs/builds/fontconfig-2.17.1/conf.d'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/blfs/builds/fontconfig-2.17.1/conf.d'
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/conf.d'
+Making all in its
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/its'
+  GEN      .gitignore
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/its'
+Making all in po
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/po'
+make fontconfig.pot-update
+make[3]: Entering directory '/blfs/builds/fontconfig-2.17.1/po'
+sed -e '/^#/d' remove-potcdate.sin > t-remove-potcdate.sed
+mv t-remove-potcdate.sed remove-potcdate.sed
+package_gnu="no"; \
+test -n "$package_gnu" || { \
+  if { if (LC_ALL=C find --version) 2>/dev/null | grep GNU >/dev/null; then \
+	 LC_ALL=C find -L .. -maxdepth 1 -type f \
+		       -size -10000000c -exec grep 'GNU fontconfig' \
+		       /dev/null '{}' ';' 2>/dev/null; \
+       else \
+	 LC_ALL=C grep 'GNU fontconfig' ../* 2>/dev/null; \
+       fi; \
+     } | grep -v 'libtool:' >/dev/null; then \
+     package_gnu=yes; \
+   else \
+     package_gnu=no; \
+   fi; \
+}; \
+if test "$package_gnu" = "yes"; then \
+  package_prefix='GNU '; \
+else \
+  package_prefix=''; \
+fi; \
+if test -n 'https://gitlab.freedesktop.org/fontconfig/fontconfig/issues/new' || test 'https://gitlab.freedesktop.org/fontconfig/fontconfig/issues/new' = '@'PACKAGE_BUGREPORT'@'; then \
+  msgid_bugs_address='https://gitlab.freedesktop.org/fontconfig/fontconfig/issues/new'; \
+else \
+  msgid_bugs_address='https://gitlab.freedesktop.org/fontconfig/fontconfig/issues/new'; \
+fi; \
+case `/usr/bin/xgettext --version | sed 1q | sed -e 's,^[^0-9]*,,'` in \
+  '' | 0.[0-9] | 0.[0-9].* | 0.1[0-5] | 0.1[0-5].* | 0.16 | 0.16.[0-1]*) \
+    /usr/bin/xgettext --default-domain=fontconfig --directory=.. \
+      --add-comments=TRANSLATORS: --keyword=_ --keyword=N_  \
+      --files-from=./POTFILES.in \
+      --copyright-holder='Fontconfig Author(s)' \
+      --msgid-bugs-address="$msgid_bugs_address" \
+    ;; \
+  *) \
+    /usr/bin/xgettext --default-domain=fontconfig --directory=.. \
+      --add-comments=TRANSLATORS: --keyword=_ --keyword=N_  \
+      --files-from=./POTFILES.in \
+      --copyright-holder='Fontconfig Author(s)' \
+      --package-name="${package_prefix}fontconfig" \
+      --package-version='2.17.1' \
+      --msgid-bugs-address="$msgid_bugs_address" \
+    ;; \
+esac
+test ! -f fontconfig.po || { \
+  if test -f ./fontconfig.pot-header; then \
+    sed -e '1,/^#$/d' < fontconfig.po > fontconfig.1po && \
+    cat ./fontconfig.pot-header fontconfig.1po > fontconfig.po; \
+    rm -f fontconfig.1po; \
+  fi; \
+  if test -f ./fontconfig.pot; then \
+    sed -f remove-potcdate.sed < ./fontconfig.pot > fontconfig.1po && \
+    sed -f remove-potcdate.sed < fontconfig.po > fontconfig.2po && \
+    if cmp fontconfig.1po fontconfig.2po >/dev/null 2>&1; then \
+      rm -f fontconfig.1po fontconfig.2po fontconfig.po; \
+    else \
+      rm -f fontconfig.1po fontconfig.2po ./fontconfig.pot && \
+      mv fontconfig.po ./fontconfig.pot; \
+    fi; \
+  else \
+    mv fontconfig.po ./fontconfig.pot; \
+  fi; \
+}
+make[3]: Leaving directory '/blfs/builds/fontconfig-2.17.1/po'
+test ! -f ./fontconfig.pot || \
+  test -z "ka.gmo zh_CN.gmo" || make ka.gmo zh_CN.gmo
+make[3]: Entering directory '/blfs/builds/fontconfig-2.17.1/po'
+/usr/bin/msgmerge --update  --lang=ka ka.po fontconfig.pot
+/usr/bin/msgmerge --update  --lang=zh_CN zh_CN.po fontconfig.pot
+........................................... done.
+......... done.
+rm -f ka.gmo && /usr/bin/msgfmt -c --statistics --verbose -o ka.gmo ka.po
+rm -f zh_CN.gmo && /usr/bin/msgfmt -c --statistics --verbose -o zh_CN.gmo zh_CN.po
+zh_CN.po: 103 translated messages, 9 fuzzy translations.
+ka.po: 112 translated messages.
+make[3]: Leaving directory '/blfs/builds/fontconfig-2.17.1/po'
+touch stamp-po
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/po'
+Making all in po-conf
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/po-conf'
+make fontconfig-conf.pot-update
+make[3]: Entering directory '/blfs/builds/fontconfig-2.17.1/po-conf'
+sed -e '/^#/d' remove-potcdate.sin > t-remove-potcdate.sed
+mv t-remove-potcdate.sed remove-potcdate.sed
+package_gnu="no"; \
+test -n "$package_gnu" || { \
+  if { if (LC_ALL=C find --version) 2>/dev/null | grep GNU >/dev/null; then \
+	 LC_ALL=C find -L .. -maxdepth 1 -type f \
+		       -size -10000000c -exec grep 'GNU fontconfig' \
+		       /dev/null '{}' ';' 2>/dev/null; \
+       else \
+	 LC_ALL=C grep 'GNU fontconfig' ../* 2>/dev/null; \
+       fi; \
+     } | grep -v 'libtool:' >/dev/null; then \
+     package_gnu=yes; \
+   else \
+     package_gnu=no; \
+   fi; \
+}; \
+if test "$package_gnu" = "yes"; then \
+  package_prefix='GNU '; \
+else \
+  package_prefix=''; \
+fi; \
+if test -n 'https://gitlab.freedesktop.org/fontconfig/fontconfig/issues/new' || test 'https://gitlab.freedesktop.org/fontconfig/fontconfig/issues/new' = '@'PACKAGE_BUGREPORT'@'; then \
+  msgid_bugs_address='https://gitlab.freedesktop.org/fontconfig/fontconfig/issues/new'; \
+else \
+  msgid_bugs_address='https://gitlab.freedesktop.org/fontconfig/fontconfig/issues/new'; \
+fi; \
+case `/usr/bin/xgettext --version | sed 1q | sed -e 's,^[^0-9]*,,'` in \
+  '' | 0.[0-9] | 0.[0-9].* | 0.1[0-5] | 0.1[0-5].* | 0.16 | 0.16.[0-1]*) \
+    /usr/bin/xgettext --default-domain=fontconfig-conf --directory=.. \
+      --add-comments=TRANSLATORS: --keyword=_ --keyword=N_  \
+      --files-from=./POTFILES.in \
+      --copyright-holder='Fontconfig Author(s)' \
+      --msgid-bugs-address="$msgid_bugs_address" \
+    ;; \
+  *) \
+    /usr/bin/xgettext --default-domain=fontconfig-conf --directory=.. \
+      --add-comments=TRANSLATORS: --keyword=_ --keyword=N_  \
+      --files-from=./POTFILES.in \
+      --copyright-holder='Fontconfig Author(s)' \
+      --package-name="${package_prefix}fontconfig" \
+      --package-version='2.17.1' \
+      --msgid-bugs-address="$msgid_bugs_address" \
+    ;; \
+esac
+test ! -f fontconfig-conf.po || { \
+  if test -f ./fontconfig-conf.pot-header; then \
+    sed -e '1,/^#$/d' < fontconfig-conf.po > fontconfig-conf.1po && \
+    cat ./fontconfig-conf.pot-header fontconfig-conf.1po > fontconfig-conf.po; \
+    rm -f fontconfig-conf.1po; \
+  fi; \
+  if test -f ./fontconfig-conf.pot; then \
+    sed -f remove-potcdate.sed < ./fontconfig-conf.pot > fontconfig-conf.1po && \
+    sed -f remove-potcdate.sed < fontconfig-conf.po > fontconfig-conf.2po && \
+    if cmp fontconfig-conf.1po fontconfig-conf.2po >/dev/null 2>&1; then \
+      rm -f fontconfig-conf.1po fontconfig-conf.2po fontconfig-conf.po; \
+    else \
+      rm -f fontconfig-conf.1po fontconfig-conf.2po ./fontconfig-conf.pot && \
+      mv fontconfig-conf.po ./fontconfig-conf.pot; \
+    fi; \
+  else \
+    mv fontconfig-conf.po ./fontconfig-conf.pot; \
+  fi; \
+}
+make[3]: Leaving directory '/blfs/builds/fontconfig-2.17.1/po-conf'
+test ! -f ./fontconfig-conf.pot || \
+  test -z "ka.gmo zh_CN.gmo" || make ka.gmo zh_CN.gmo
+make[3]: Entering directory '/blfs/builds/fontconfig-2.17.1/po-conf'
+/usr/bin/msgmerge --update  --lang=ka ka.po fontconfig-conf.pot
+/usr/bin/msgmerge --update  --lang=zh_CN zh_CN.po fontconfig-conf.pot
+............... done.
+........... done.
+rm -f zh_CN.gmo && /usr/bin/msgfmt -c --statistics --verbose -o zh_CN.gmo zh_CN.po
+rm -f ka.gmo && /usr/bin/msgfmt -c --statistics --verbose -o ka.gmo ka.po
+zh_CN.po: 28 translated messages, 3 fuzzy translations, 2 untranslated messages.
+ka.po: 28 translated messages, 3 fuzzy translations, 2 untranslated messages.
+make[3]: Leaving directory '/blfs/builds/fontconfig-2.17.1/po-conf'
+touch stamp-po
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/po-conf'
+Making all in test
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/test'
+cp ./out.expected-no-long-family-names ./out.expected
+  GEN      .gitignore
+make  all-am
+make[3]: Entering directory '/blfs/builds/fontconfig-2.17.1/test'
+  CC       test-bz131804.o
+  CC       test-pthread.o
+  CC       test-migration.o
+  CC       test-crbug1004254.o
+  CC       test_bz89617-test-bz89617.o
+  CC       test-name-parse.o
+  CC       test_conf-test-conf.o
+  CC       test-bz106618.o
+  CC       test_bz106632-test-bz106632.o
+  CC       test-bz96676.o
+  CC       test-issue107.o
+  CC       test-bz1744377.o
+  CC       test-issue180.o
+  CC       test-family-matching.o
+  CC       test-filter.o
+  CCLD     test-bz89617
+  CCLD     test-bz131804
+  CCLD     test-migration
+  CCLD     test-name-parse
+  CCLD     test-bz96676
+  CCLD     test-bz106618
+  CCLD     test-bz106632
+  CCLD     test-bz1744377
+  CCLD     test-issue180
+  CCLD     test-family-matching
+  CCLD     test-filter
+  CCLD     test-pthread
+  CCLD     test-crbug1004254
+  CCLD     test-conf
+  CCLD     test-issue107
+make[3]: Leaving directory '/blfs/builds/fontconfig-2.17.1/test'
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/test'
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1'
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1'
+make[1]: Leaving directory '/blfs/builds/fontconfig-2.17.1'
+Making install in fontconfig
+make[1]: Entering directory '/blfs/builds/fontconfig-2.17.1/fontconfig'
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/fontconfig'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/pkgs/fontconfig/usr/include/fontconfig'
+ /usr/bin/install -c -m 644 fontconfig.h fcfreetype.h fcprivate.h '/pkgs/fontconfig/usr/include/fontconfig'
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fontconfig'
+make[1]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fontconfig'
+Making install in fc-case
+make[1]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-case'
+make  install-am
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-case'
+make[3]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-case'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-case'
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-case'
+make[1]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-case'
+Making install in fc-lang
+make[1]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-lang'
+make  install-am
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-lang'
+make[3]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-lang'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-lang'
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-lang'
+make[1]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-lang'
+Making install in src
+make[1]: Entering directory '/blfs/builds/fontconfig-2.17.1/src'
+make  install-am
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/src'
+make[3]: Entering directory '/blfs/builds/fontconfig-2.17.1/src'
+ /usr/bin/mkdir -p '/pkgs/fontconfig/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libfontconfig.la '/pkgs/fontconfig/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libfontconfig.so.1.16.1 /pkgs/fontconfig/usr/lib/libfontconfig.so.1.16.1
+libtool: install: (cd /pkgs/fontconfig/usr/lib && { ln -s -f libfontconfig.so.1.16.1 libfontconfig.so.1 || { rm -f libfontconfig.so.1 && ln -s libfontconfig.so.1.16.1 libfontconfig.so.1; }; })
+libtool: install: (cd /pkgs/fontconfig/usr/lib && { ln -s -f libfontconfig.so.1.16.1 libfontconfig.so || { rm -f libfontconfig.so && ln -s libfontconfig.so.1.16.1 libfontconfig.so; }; })
+libtool: install: /usr/bin/install -c .libs/libfontconfig.lai /pkgs/fontconfig/usr/lib/libfontconfig.la
+libtool: warning: remember to run 'libtool --finish /usr/lib'
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/blfs/builds/fontconfig-2.17.1/src'
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/src'
+make[1]: Leaving directory '/blfs/builds/fontconfig-2.17.1/src'
+Making install in fc-cache
+make[1]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-cache'
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-cache'
+ /usr/bin/mkdir -p '/pkgs/fontconfig/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c fc-cache '/pkgs/fontconfig/usr/bin'
+libtool: install: /usr/bin/install -c .libs/fc-cache /pkgs/fontconfig/usr/bin/fc-cache
+/bin/sh /blfs/builds/fontconfig-2.17.1/install-sh -d "/pkgs/fontconfig/var/cache/fontconfig"
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-cache'
+make[1]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-cache'
+Making install in fc-cat
+make[1]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-cat'
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-cat'
+ /usr/bin/mkdir -p '/pkgs/fontconfig/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c fc-cat '/pkgs/fontconfig/usr/bin'
+libtool: install: /usr/bin/install -c .libs/fc-cat /pkgs/fontconfig/usr/bin/fc-cat
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-cat'
+make[1]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-cat'
+Making install in fc-conflist
+make[1]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-conflist'
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-conflist'
+ /usr/bin/mkdir -p '/pkgs/fontconfig/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c fc-conflist '/pkgs/fontconfig/usr/bin'
+libtool: install: /usr/bin/install -c .libs/fc-conflist /pkgs/fontconfig/usr/bin/fc-conflist
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-conflist'
+make[1]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-conflist'
+Making install in fc-list
+make[1]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-list'
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-list'
+ /usr/bin/mkdir -p '/pkgs/fontconfig/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c fc-list '/pkgs/fontconfig/usr/bin'
+libtool: install: /usr/bin/install -c .libs/fc-list /pkgs/fontconfig/usr/bin/fc-list
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-list'
+make[1]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-list'
+Making install in fc-match
+make[1]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-match'
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-match'
+ /usr/bin/mkdir -p '/pkgs/fontconfig/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c fc-match '/pkgs/fontconfig/usr/bin'
+libtool: install: /usr/bin/install -c .libs/fc-match /pkgs/fontconfig/usr/bin/fc-match
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-match'
+make[1]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-match'
+Making install in fc-pattern
+make[1]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-pattern'
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-pattern'
+ /usr/bin/mkdir -p '/pkgs/fontconfig/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c fc-pattern '/pkgs/fontconfig/usr/bin'
+libtool: install: /usr/bin/install -c .libs/fc-pattern /pkgs/fontconfig/usr/bin/fc-pattern
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-pattern'
+make[1]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-pattern'
+Making install in fc-query
+make[1]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-query'
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-query'
+ /usr/bin/mkdir -p '/pkgs/fontconfig/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c fc-query '/pkgs/fontconfig/usr/bin'
+libtool: install: /usr/bin/install -c .libs/fc-query /pkgs/fontconfig/usr/bin/fc-query
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-query'
+make[1]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-query'
+Making install in fc-scan
+make[1]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-scan'
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-scan'
+ /usr/bin/mkdir -p '/pkgs/fontconfig/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c fc-scan '/pkgs/fontconfig/usr/bin'
+libtool: install: /usr/bin/install -c .libs/fc-scan /pkgs/fontconfig/usr/bin/fc-scan
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-scan'
+make[1]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-scan'
+Making install in fc-validate
+make[1]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-validate'
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-validate'
+ /usr/bin/mkdir -p '/pkgs/fontconfig/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c fc-validate '/pkgs/fontconfig/usr/bin'
+libtool: install: /usr/bin/install -c .libs/fc-validate /pkgs/fontconfig/usr/bin/fc-validate
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-validate'
+make[1]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-validate'
+Making install in conf.d
+make[1]: Entering directory '/blfs/builds/fontconfig-2.17.1/conf.d'
+make  install-am
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/conf.d'
+make[3]: Entering directory '/blfs/builds/fontconfig-2.17.1/conf.d'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/pkgs/fontconfig/etc/fonts/conf.d'
+ /usr/bin/install -c -m 644 README '/pkgs/fontconfig/etc/fonts/conf.d'
+ /usr/bin/mkdir -p '/pkgs/fontconfig/usr/share/fontconfig/conf.avail'
+ /usr/bin/install -c -m 644 05-reset-dirs-sample.conf 09-autohint-if-no-hinting.conf 10-autohint.conf 10-hinting-full.conf 10-hinting-medium.conf 10-hinting-none.conf 10-hinting-slight.conf 10-no-antialias.conf 10-scale-bitmap-fonts.conf 10-sub-pixel-bgr.conf 10-sub-pixel-none.conf 10-sub-pixel-rgb.conf 10-sub-pixel-vbgr.conf 10-sub-pixel-vrgb.conf 10-unhinted.conf 10-yes-antialias.conf 11-lcdfilter-default.conf 11-lcdfilter-legacy.conf 11-lcdfilter-light.conf 11-lcdfilter-none.conf 20-unhint-small-vera.conf 25-unhint-nonlatin.conf 30-metric-aliases.conf 35-lang-normalize.conf 40-nonlatin.conf 45-generic.conf 45-latin.conf 48-guessfamily.conf 48-spacing.conf 49-sansserif.conf 50-user.conf 51-local.conf 60-generic.conf 60-latin.conf 65-fonts-persian.conf 65-khmer.conf 65-nonlatin.conf 69-unifont.conf 70-no-bitmaps.conf 70-no-bitmaps-and-emoji.conf '/pkgs/fontconfig/usr/share/fontconfig/conf.avail'
+ /usr/bin/install -c -m 644 70-no-bitmaps-except-emoji.conf 70-yes-bitmaps.conf 80-delicious.conf 90-synthetic.conf '/pkgs/fontconfig/usr/share/fontconfig/conf.avail'
+make  install-data-hook
+make[4]: Entering directory '/blfs/builds/fontconfig-2.17.1/conf.d'
+/usr/bin/python ./link_confs.py /usr/share/fontconfig/conf.avail /etc/fonts/conf.d 10-hinting-slight.conf 10-scale-bitmap-fonts.conf 10-yes-antialias.conf 10-sub-pixel-none.conf 11-lcdfilter-default.conf 20-unhint-small-vera.conf 30-metric-aliases.conf 40-nonlatin.conf 45-generic.conf 45-latin.conf 48-spacing.conf 49-sansserif.conf 50-user.conf 51-local.conf 60-generic.conf 60-latin.conf 65-fonts-persian.conf 65-nonlatin.conf 69-unifont.conf 80-delicious.conf 90-synthetic.conf 70-no-bitmaps-except-emoji.conf
+make[4]: Leaving directory '/blfs/builds/fontconfig-2.17.1/conf.d'
+make[3]: Leaving directory '/blfs/builds/fontconfig-2.17.1/conf.d'
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/conf.d'
+make[1]: Leaving directory '/blfs/builds/fontconfig-2.17.1/conf.d'
+Making install in its
+make[1]: Entering directory '/blfs/builds/fontconfig-2.17.1/its'
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/its'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/pkgs/fontconfig/usr/share/gettext/its'
+ /usr/bin/install -c -m 644 fontconfig.its fontconfig.loc '/pkgs/fontconfig/usr/share/gettext/its'
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/its'
+make[1]: Leaving directory '/blfs/builds/fontconfig-2.17.1/its'
+Making install in po
+make[1]: Entering directory '/blfs/builds/fontconfig-2.17.1/po'
+installing ka.gmo as /pkgs/fontconfig/usr/share/locale/ka/LC_MESSAGES/fontconfig.mo
+installing zh_CN.gmo as /pkgs/fontconfig/usr/share/locale/zh_CN/LC_MESSAGES/fontconfig.mo
+if test "fontconfig" = "gettext-tools"; then \
+  /usr/bin/mkdir -p /pkgs/fontconfig/usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /pkgs/fontconfig/usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /pkgs/fontconfig/usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/blfs/builds/fontconfig-2.17.1/po'
+Making install in po-conf
+make[1]: Entering directory '/blfs/builds/fontconfig-2.17.1/po-conf'
+installing ka.gmo as /pkgs/fontconfig/usr/share/locale/ka/LC_MESSAGES/fontconfig-conf.mo
+installing zh_CN.gmo as /pkgs/fontconfig/usr/share/locale/zh_CN/LC_MESSAGES/fontconfig-conf.mo
+if test "fontconfig" = "gettext-tools"; then \
+  /usr/bin/mkdir -p /pkgs/fontconfig/usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /pkgs/fontconfig/usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /pkgs/fontconfig/usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/blfs/builds/fontconfig-2.17.1/po-conf'
+Making install in test
+make[1]: Entering directory '/blfs/builds/fontconfig-2.17.1/test'
+make  install-am
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/test'
+make[3]: Entering directory '/blfs/builds/fontconfig-2.17.1/test'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/blfs/builds/fontconfig-2.17.1/test'
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/test'
+make[1]: Leaving directory '/blfs/builds/fontconfig-2.17.1/test'
+make[1]: Entering directory '/blfs/builds/fontconfig-2.17.1'
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1'
+make[2]: Nothing to be done for 'install-exec-am'.
+sed \
+	-e 's,@FC_CACHEDIR\@,/var/cache/fontconfig,g' \
+	-e 's,@FC_DEFAULT_FONTS\@,	<dir>/usr/share/fonts</dir>,g' \
+	-e 's,@FC_FONTPATH\@,,g' \
+	-e 's,@CONFIGDIR\@,conf.d,g' \
+	-e 's,@PACKAGE\@,fontconfig,g' \
+	-e 's,@VERSION\@,2.17.1,g' \
+	./fonts.conf.in > fonts.conf.tmp && \
+mv fonts.conf.tmp fonts.conf
+/bin/sh /blfs/builds/fontconfig-2.17.1/install-sh -d /pkgs/fontconfig/etc/fonts /pkgs/fontconfig/var/cache/fontconfig
+if [ -f /pkgs/fontconfig/etc/fonts/fonts.conf ]; then \
+  echo "backing up existing /pkgs/fontconfig/etc/fonts/fonts.conf"; \
+  mv /pkgs/fontconfig/etc/fonts/fonts.conf /pkgs/fontconfig/etc/fonts/fonts.conf.bak; \
+fi
+if [ -f ./fonts.conf ]; then \
+  echo " /usr/bin/install -c -m 644 ./fonts.conf /pkgs/fontconfig/etc/fonts/fonts.conf"; \
+  /usr/bin/install -c -m 644 ./fonts.conf /pkgs/fontconfig/etc/fonts/fonts.conf; \
+else if [ -f fonts.conf ]; then \
+  echo " /usr/bin/install -c -m 644 fonts.conf /pkgs/fontconfig/etc/fonts/fonts.conf"; \
+  /usr/bin/install -c -m 644 fonts.conf /pkgs/fontconfig/etc/fonts/fonts.conf; \
+fi; fi
+ /usr/bin/install -c -m 644 ./fonts.conf /pkgs/fontconfig/etc/fonts/fonts.conf
+***
+*** Warning: fonts.cache not built
+***
+*** Generate this file manually on host system using fc-cache
+***
+ /usr/bin/mkdir -p '/pkgs/fontconfig/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 fontconfig.pc '/pkgs/fontconfig/usr/lib/pkgconfig'
+ /usr/bin/mkdir -p '/pkgs/fontconfig/usr/share/xml/fontconfig'
+ /usr/bin/install -c -m 644 fonts.dtd '/pkgs/fontconfig/usr/share/xml/fontconfig'
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1'
+make[1]: Leaving directory '/blfs/builds/fontconfig-2.17.1'
+install: creating directory '/pkgs/fontconfig/usr/share/man'
+install: creating directory '/pkgs/fontconfig/usr/share/man/man1'
+install: creating directory '/pkgs/fontconfig/usr/share/man/man3'
+install: creating directory '/pkgs/fontconfig/usr/share/man/man5'
+install: creating directory '/pkgs/fontconfig/usr/share/doc'
+install: creating directory '/pkgs/fontconfig/usr/share/doc/fontconfig'
+install: creating directory '/pkgs/fontconfig/usr/share/doc/fontconfig/fontconfig-devel'
+install: cannot stat 'fc-*/*.1': No such file or directory
+Making install in fontconfig
+make[1]: Entering directory '/blfs/builds/fontconfig-2.17.1/fontconfig'
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/fontconfig'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/include/fontconfig'
+ /usr/bin/install -c -m 644 fontconfig.h fcfreetype.h fcprivate.h '/usr/include/fontconfig'
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fontconfig'
+make[1]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fontconfig'
+Making install in fc-case
+make[1]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-case'
+make  install-am
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-case'
+make[3]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-case'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-case'
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-case'
+make[1]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-case'
+Making install in fc-lang
+make[1]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-lang'
+make  install-am
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-lang'
+make[3]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-lang'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-lang'
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-lang'
+make[1]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-lang'
+Making install in src
+make[1]: Entering directory '/blfs/builds/fontconfig-2.17.1/src'
+make  install-am
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/src'
+make[3]: Entering directory '/blfs/builds/fontconfig-2.17.1/src'
+ /usr/bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libfontconfig.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libfontconfig.so.1.16.1 /usr/lib/libfontconfig.so.1.16.1
+libtool: install: (cd /usr/lib && { ln -s -f libfontconfig.so.1.16.1 libfontconfig.so.1 || { rm -f libfontconfig.so.1 && ln -s libfontconfig.so.1.16.1 libfontconfig.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libfontconfig.so.1.16.1 libfontconfig.so || { rm -f libfontconfig.so && ln -s libfontconfig.so.1.16.1 libfontconfig.so; }; })
+libtool: install: /usr/bin/install -c .libs/libfontconfig.lai /usr/lib/libfontconfig.la
+libtool: finish: PATH="/usr/sbin:/usr/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/blfs/builds/fontconfig-2.17.1/src'
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/src'
+make[1]: Leaving directory '/blfs/builds/fontconfig-2.17.1/src'
+Making install in fc-cache
+make[1]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-cache'
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-cache'
+ /usr/bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c fc-cache '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/fc-cache /usr/bin/fc-cache
+/bin/sh /blfs/builds/fontconfig-2.17.1/install-sh -d "/var/cache/fontconfig"
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-cache'
+make[1]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-cache'
+Making install in fc-cat
+make[1]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-cat'
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-cat'
+ /usr/bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c fc-cat '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/fc-cat /usr/bin/fc-cat
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-cat'
+make[1]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-cat'
+Making install in fc-conflist
+make[1]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-conflist'
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-conflist'
+ /usr/bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c fc-conflist '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/fc-conflist /usr/bin/fc-conflist
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-conflist'
+make[1]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-conflist'
+Making install in fc-list
+make[1]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-list'
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-list'
+ /usr/bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c fc-list '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/fc-list /usr/bin/fc-list
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-list'
+make[1]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-list'
+Making install in fc-match
+make[1]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-match'
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-match'
+ /usr/bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c fc-match '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/fc-match /usr/bin/fc-match
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-match'
+make[1]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-match'
+Making install in fc-pattern
+make[1]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-pattern'
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-pattern'
+ /usr/bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c fc-pattern '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/fc-pattern /usr/bin/fc-pattern
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-pattern'
+make[1]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-pattern'
+Making install in fc-query
+make[1]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-query'
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-query'
+ /usr/bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c fc-query '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/fc-query /usr/bin/fc-query
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-query'
+make[1]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-query'
+Making install in fc-scan
+make[1]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-scan'
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-scan'
+ /usr/bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c fc-scan '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/fc-scan /usr/bin/fc-scan
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-scan'
+make[1]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-scan'
+Making install in fc-validate
+make[1]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-validate'
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/fc-validate'
+ /usr/bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c fc-validate '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/fc-validate /usr/bin/fc-validate
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-validate'
+make[1]: Leaving directory '/blfs/builds/fontconfig-2.17.1/fc-validate'
+Making install in conf.d
+make[1]: Entering directory '/blfs/builds/fontconfig-2.17.1/conf.d'
+make  install-am
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/conf.d'
+make[3]: Entering directory '/blfs/builds/fontconfig-2.17.1/conf.d'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/etc/fonts/conf.d'
+ /usr/bin/install -c -m 644 README '/etc/fonts/conf.d'
+ /usr/bin/mkdir -p '/usr/share/fontconfig/conf.avail'
+ /usr/bin/install -c -m 644 05-reset-dirs-sample.conf 09-autohint-if-no-hinting.conf 10-autohint.conf 10-hinting-full.conf 10-hinting-medium.conf 10-hinting-none.conf 10-hinting-slight.conf 10-no-antialias.conf 10-scale-bitmap-fonts.conf 10-sub-pixel-bgr.conf 10-sub-pixel-none.conf 10-sub-pixel-rgb.conf 10-sub-pixel-vbgr.conf 10-sub-pixel-vrgb.conf 10-unhinted.conf 10-yes-antialias.conf 11-lcdfilter-default.conf 11-lcdfilter-legacy.conf 11-lcdfilter-light.conf 11-lcdfilter-none.conf 20-unhint-small-vera.conf 25-unhint-nonlatin.conf 30-metric-aliases.conf 35-lang-normalize.conf 40-nonlatin.conf 45-generic.conf 45-latin.conf 48-guessfamily.conf 48-spacing.conf 49-sansserif.conf 50-user.conf 51-local.conf 60-generic.conf 60-latin.conf 65-fonts-persian.conf 65-khmer.conf 65-nonlatin.conf 69-unifont.conf 70-no-bitmaps.conf 70-no-bitmaps-and-emoji.conf '/usr/share/fontconfig/conf.avail'
+ /usr/bin/install -c -m 644 70-no-bitmaps-except-emoji.conf 70-yes-bitmaps.conf 80-delicious.conf 90-synthetic.conf '/usr/share/fontconfig/conf.avail'
+make  install-data-hook
+make[4]: Entering directory '/blfs/builds/fontconfig-2.17.1/conf.d'
+/usr/bin/python ./link_confs.py /usr/share/fontconfig/conf.avail /etc/fonts/conf.d 10-hinting-slight.conf 10-scale-bitmap-fonts.conf 10-yes-antialias.conf 10-sub-pixel-none.conf 11-lcdfilter-default.conf 20-unhint-small-vera.conf 30-metric-aliases.conf 40-nonlatin.conf 45-generic.conf 45-latin.conf 48-spacing.conf 49-sansserif.conf 50-user.conf 51-local.conf 60-generic.conf 60-latin.conf 65-fonts-persian.conf 65-nonlatin.conf 69-unifont.conf 80-delicious.conf 90-synthetic.conf 70-no-bitmaps-except-emoji.conf
+make[4]: Leaving directory '/blfs/builds/fontconfig-2.17.1/conf.d'
+make[3]: Leaving directory '/blfs/builds/fontconfig-2.17.1/conf.d'
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/conf.d'
+make[1]: Leaving directory '/blfs/builds/fontconfig-2.17.1/conf.d'
+Making install in its
+make[1]: Entering directory '/blfs/builds/fontconfig-2.17.1/its'
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/its'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/share/gettext/its'
+ /usr/bin/install -c -m 644 fontconfig.its fontconfig.loc '/usr/share/gettext/its'
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/its'
+make[1]: Leaving directory '/blfs/builds/fontconfig-2.17.1/its'
+Making install in po
+make[1]: Entering directory '/blfs/builds/fontconfig-2.17.1/po'
+installing ka.gmo as /usr/share/locale/ka/LC_MESSAGES/fontconfig.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/fontconfig.mo
+if test "fontconfig" = "gettext-tools"; then \
+  /usr/bin/mkdir -p /usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/blfs/builds/fontconfig-2.17.1/po'
+Making install in po-conf
+make[1]: Entering directory '/blfs/builds/fontconfig-2.17.1/po-conf'
+installing ka.gmo as /usr/share/locale/ka/LC_MESSAGES/fontconfig-conf.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/fontconfig-conf.mo
+if test "fontconfig" = "gettext-tools"; then \
+  /usr/bin/mkdir -p /usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/blfs/builds/fontconfig-2.17.1/po-conf'
+Making install in test
+make[1]: Entering directory '/blfs/builds/fontconfig-2.17.1/test'
+make  install-am
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1/test'
+make[3]: Entering directory '/blfs/builds/fontconfig-2.17.1/test'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/blfs/builds/fontconfig-2.17.1/test'
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1/test'
+make[1]: Leaving directory '/blfs/builds/fontconfig-2.17.1/test'
+make[1]: Entering directory '/blfs/builds/fontconfig-2.17.1'
+make[2]: Entering directory '/blfs/builds/fontconfig-2.17.1'
+make[2]: Nothing to be done for 'install-exec-am'.
+/bin/sh /blfs/builds/fontconfig-2.17.1/install-sh -d /etc/fonts /var/cache/fontconfig
+if [ -f /etc/fonts/fonts.conf ]; then \
+  echo "backing up existing /etc/fonts/fonts.conf"; \
+  mv /etc/fonts/fonts.conf /etc/fonts/fonts.conf.bak; \
+fi
+backing up existing /etc/fonts/fonts.conf
+if [ -f ./fonts.conf ]; then \
+  echo " /usr/bin/install -c -m 644 ./fonts.conf /etc/fonts/fonts.conf"; \
+  /usr/bin/install -c -m 644 ./fonts.conf /etc/fonts/fonts.conf; \
+else if [ -f fonts.conf ]; then \
+  echo " /usr/bin/install -c -m 644 fonts.conf /etc/fonts/fonts.conf"; \
+  /usr/bin/install -c -m 644 fonts.conf /etc/fonts/fonts.conf; \
+fi; fi
+ /usr/bin/install -c -m 644 ./fonts.conf /etc/fonts/fonts.conf
+fc-cache -s -f -v
+Font directories:
+	/usr/share/fonts
+	/usr/share/fonts/unifont
+/usr/share/fonts: caching, new cache contents: 0 fonts, 1 dirs
+/usr/share/fonts/unifont: caching, new cache contents: 1 fonts, 0 dirs
+/usr/share/fonts/unifont: skipping, looped directory detected
+/var/cache/fontconfig: cleaning cache directory
+/blfs/builds/fontconfig-2.17.1/fc-cache/.libs/lt-fc-cache: succeeded
+ /usr/bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 fontconfig.pc '/usr/lib/pkgconfig'
+ /usr/bin/mkdir -p '/usr/share/xml/fontconfig'
+ /usr/bin/install -c -m 644 fonts.dtd '/usr/share/xml/fontconfig'
+make[2]: Leaving directory '/blfs/builds/fontconfig-2.17.1'
+make[1]: Leaving directory '/blfs/builds/fontconfig-2.17.1'
+fontconfig/
+fontconfig/usr/
+fontconfig/usr/include/
+fontconfig/usr/include/fontconfig/
+fontconfig/usr/include/fontconfig/fontconfig.h
+fontconfig/usr/include/fontconfig/fcprivate.h
+fontconfig/usr/include/fontconfig/fcfreetype.h
+fontconfig/usr/share/
+fontconfig/usr/share/gettext/
+fontconfig/usr/share/gettext/its/
+fontconfig/usr/share/gettext/its/fontconfig.loc
+fontconfig/usr/share/gettext/its/fontconfig.its
+fontconfig/usr/share/locale/
+fontconfig/usr/share/locale/zh_CN/
+fontconfig/usr/share/locale/zh_CN/LC_MESSAGES/
+fontconfig/usr/share/locale/zh_CN/LC_MESSAGES/fontconfig.mo
+fontconfig/usr/share/locale/zh_CN/LC_MESSAGES/fontconfig-conf.mo
+fontconfig/usr/share/locale/ka/
+fontconfig/usr/share/locale/ka/LC_MESSAGES/
+fontconfig/usr/share/locale/ka/LC_MESSAGES/fontconfig.mo
+fontconfig/usr/share/locale/ka/LC_MESSAGES/fontconfig-conf.mo
+fontconfig/usr/share/xml/
+fontconfig/usr/share/xml/fontconfig/
+fontconfig/usr/share/xml/fontconfig/fonts.dtd
+fontconfig/usr/share/doc/
+fontconfig/usr/share/doc/fontconfig/
+fontconfig/usr/share/doc/fontconfig/fontconfig-devel/
+fontconfig/usr/share/fontconfig/
+fontconfig/usr/share/fontconfig/conf.avail/
+fontconfig/usr/share/fontconfig/conf.avail/10-hinting-medium.conf
+fontconfig/usr/share/fontconfig/conf.avail/20-unhint-small-vera.conf
+fontconfig/usr/share/fontconfig/conf.avail/69-unifont.conf
+fontconfig/usr/share/fontconfig/conf.avail/10-autohint.conf
+fontconfig/usr/share/fontconfig/conf.avail/11-lcdfilter-legacy.conf
+fontconfig/usr/share/fontconfig/conf.avail/05-reset-dirs-sample.conf
+fontconfig/usr/share/fontconfig/conf.avail/70-no-bitmaps-except-emoji.conf
+fontconfig/usr/share/fontconfig/conf.avail/90-synthetic.conf
+fontconfig/usr/share/fontconfig/conf.avail/10-scale-bitmap-fonts.conf
+fontconfig/usr/share/fontconfig/conf.avail/10-hinting-none.conf
+fontconfig/usr/share/fontconfig/conf.avail/49-sansserif.conf
+fontconfig/usr/share/fontconfig/conf.avail/25-unhint-nonlatin.conf
+fontconfig/usr/share/fontconfig/conf.avail/60-latin.conf
+fontconfig/usr/share/fontconfig/conf.avail/60-generic.conf
+fontconfig/usr/share/fontconfig/conf.avail/65-fonts-persian.conf
+fontconfig/usr/share/fontconfig/conf.avail/10-no-antialias.conf
+fontconfig/usr/share/fontconfig/conf.avail/10-sub-pixel-rgb.conf
+fontconfig/usr/share/fontconfig/conf.avail/70-yes-bitmaps.conf
+fontconfig/usr/share/fontconfig/conf.avail/80-delicious.conf
+fontconfig/usr/share/fontconfig/conf.avail/10-sub-pixel-none.conf
+fontconfig/usr/share/fontconfig/conf.avail/10-sub-pixel-vbgr.conf
+fontconfig/usr/share/fontconfig/conf.avail/70-no-bitmaps-and-emoji.conf
+fontconfig/usr/share/fontconfig/conf.avail/10-sub-pixel-vrgb.conf
+fontconfig/usr/share/fontconfig/conf.avail/35-lang-normalize.conf
+fontconfig/usr/share/fontconfig/conf.avail/70-no-bitmaps.conf
+fontconfig/usr/share/fontconfig/conf.avail/40-nonlatin.conf
+fontconfig/usr/share/fontconfig/conf.avail/65-nonlatin.conf
+fontconfig/usr/share/fontconfig/conf.avail/11-lcdfilter-light.conf
+fontconfig/usr/share/fontconfig/conf.avail/51-local.conf
+fontconfig/usr/share/fontconfig/conf.avail/65-khmer.conf
+fontconfig/usr/share/fontconfig/conf.avail/10-sub-pixel-bgr.conf
+fontconfig/usr/share/fontconfig/conf.avail/11-lcdfilter-default.conf
+fontconfig/usr/share/fontconfig/conf.avail/45-latin.conf
+fontconfig/usr/share/fontconfig/conf.avail/30-metric-aliases.conf
+fontconfig/usr/share/fontconfig/conf.avail/10-hinting-slight.conf
+fontconfig/usr/share/fontconfig/conf.avail/10-yes-antialias.conf
+fontconfig/usr/share/fontconfig/conf.avail/10-unhinted.conf
+fontconfig/usr/share/fontconfig/conf.avail/09-autohint-if-no-hinting.conf
+fontconfig/usr/share/fontconfig/conf.avail/48-spacing.conf
+fontconfig/usr/share/fontconfig/conf.avail/45-generic.conf
+fontconfig/usr/share/fontconfig/conf.avail/50-user.conf
+fontconfig/usr/share/fontconfig/conf.avail/11-lcdfilter-none.conf
+fontconfig/usr/share/fontconfig/conf.avail/10-hinting-full.conf
+fontconfig/usr/share/fontconfig/conf.avail/48-guessfamily.conf
+fontconfig/usr/share/man/
+fontconfig/usr/share/man/man5/
+fontconfig/usr/share/man/man1/
+fontconfig/usr/share/man/man3/
+fontconfig/usr/bin/
+fontconfig/usr/bin/fc-conflist
+fontconfig/usr/bin/fc-cache
+fontconfig/usr/bin/fc-pattern
+fontconfig/usr/bin/fc-list
+fontconfig/usr/bin/fc-cat
+fontconfig/usr/bin/fc-query
+fontconfig/usr/bin/fc-match
+fontconfig/usr/bin/fc-scan
+fontconfig/usr/bin/fc-validate
+fontconfig/usr/lib/
+fontconfig/usr/lib/libfontconfig.so.1.16.1
+fontconfig/usr/lib/libfontconfig.so.1
+fontconfig/usr/lib/pkgconfig/
+fontconfig/usr/lib/pkgconfig/fontconfig.pc
+fontconfig/usr/lib/libfontconfig.so
+fontconfig/usr/lib/libfontconfig.la
+fontconfig/etc/
+fontconfig/etc/fonts/
+fontconfig/etc/fonts/conf.d/
+fontconfig/etc/fonts/conf.d/20-unhint-small-vera.conf
+fontconfig/etc/fonts/conf.d/69-unifont.conf
+fontconfig/etc/fonts/conf.d/70-no-bitmaps-except-emoji.conf
+fontconfig/etc/fonts/conf.d/90-synthetic.conf
+fontconfig/etc/fonts/conf.d/10-scale-bitmap-fonts.conf
+fontconfig/etc/fonts/conf.d/49-sansserif.conf
+fontconfig/etc/fonts/conf.d/60-latin.conf
+fontconfig/etc/fonts/conf.d/60-generic.conf
+fontconfig/etc/fonts/conf.d/65-fonts-persian.conf
+fontconfig/etc/fonts/conf.d/80-delicious.conf
+fontconfig/etc/fonts/conf.d/10-sub-pixel-none.conf
+fontconfig/etc/fonts/conf.d/40-nonlatin.conf
+fontconfig/etc/fonts/conf.d/README
+fontconfig/etc/fonts/conf.d/65-nonlatin.conf
+fontconfig/etc/fonts/conf.d/51-local.conf
+fontconfig/etc/fonts/conf.d/11-lcdfilter-default.conf
+fontconfig/etc/fonts/conf.d/45-latin.conf
+fontconfig/etc/fonts/conf.d/30-metric-aliases.conf
+fontconfig/etc/fonts/conf.d/10-hinting-slight.conf
+fontconfig/etc/fonts/conf.d/10-yes-antialias.conf
+fontconfig/etc/fonts/conf.d/48-spacing.conf
+fontconfig/etc/fonts/conf.d/45-generic.conf
+fontconfig/etc/fonts/conf.d/50-user.conf
+fontconfig/etc/fonts/fonts.conf
+fontconfig/version
+fontconfig/depends
+fontconfig/make-depends
+fontconfig/var/
+fontconfig/var/cache/
+fontconfig/var/cache/fontconfig/
