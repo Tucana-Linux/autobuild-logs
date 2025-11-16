@@ -1,0 +1,203 @@
+--2025-11-16 11:13:48--  https://xcb.freedesktop.org/dist/xcb-util-cursor-0.1.6.tar.xz
+Resolving xcb.freedesktop.org (xcb.freedesktop.org)... 131.252.210.176
+Connecting to xcb.freedesktop.org (xcb.freedesktop.org)|131.252.210.176|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 273084 (267K) [application/x-xz]
+Saving to: ‘xcb-util-cursor-0.1.6.tar.xz’
+
+     0K .......... .......... .......... .......... .......... 18%  371K 1s
+    50K .......... .......... .......... .......... .......... 37%  729K 0s
+   100K .......... .......... .......... .......... .......... 56%  715K 0s
+   150K .......... .......... .......... .......... .......... 74% 52.9M 0s
+   200K .......... .......... .......... .......... .......... 93%  722K 0s
+   250K .......... ......                                     100%  239M=0.3s
+
+2025-11-16 11:13:49 (776 KB/s) - ‘xcb-util-cursor-0.1.6.tar.xz’ saved [273084/273084]
+
+xcb-util-cursor-0.1.6/
+xcb-util-cursor-0.1.6/configure.ac
+xcb-util-cursor-0.1.6/compile
+xcb-util-cursor-0.1.6/ltmain.sh
+xcb-util-cursor-0.1.6/autogen.sh
+xcb-util-cursor-0.1.6/COPYING
+xcb-util-cursor-0.1.6/NEWS
+xcb-util-cursor-0.1.6/config.sub
+xcb-util-cursor-0.1.6/missing
+xcb-util-cursor-0.1.6/depcomp
+xcb-util-cursor-0.1.6/cursor/
+xcb-util-cursor-0.1.6/cursor/Makefile.in
+xcb-util-cursor-0.1.6/cursor/cursor.c
+xcb-util-cursor-0.1.6/cursor/shape_to_id.c
+xcb-util-cursor-0.1.6/cursor/Makefile.am
+xcb-util-cursor-0.1.6/cursor/load_cursor.c
+xcb-util-cursor-0.1.6/cursor/xcb-cursor.pc.in
+xcb-util-cursor-0.1.6/cursor/xcb_cursor.h
+xcb-util-cursor-0.1.6/cursor/cursor.h
+xcb-util-cursor-0.1.6/cursor/shape_to_id.gperf
+xcb-util-cursor-0.1.6/cursor/parse_cursor_file.c
+xcb-util-cursor-0.1.6/ChangeLog
+xcb-util-cursor-0.1.6/xcb_util_intro.in
+xcb-util-cursor-0.1.6/Makefile.in
+xcb-util-cursor-0.1.6/INSTALL
+xcb-util-cursor-0.1.6/README.md
+xcb-util-cursor-0.1.6/configure
+xcb-util-cursor-0.1.6/Makefile.am
+xcb-util-cursor-0.1.6/m4/
+xcb-util-cursor-0.1.6/m4/ax_compare_version.m4
+xcb-util-cursor-0.1.6/m4/libtool.m4
+xcb-util-cursor-0.1.6/m4/xcb_util_common.m4
+xcb-util-cursor-0.1.6/m4/xcb_util_m4_with_include_path.m4
+xcb-util-cursor-0.1.6/m4/ltsugar.m4
+xcb-util-cursor-0.1.6/m4/lt~obsolete.m4
+xcb-util-cursor-0.1.6/m4/ltversion.m4
+xcb-util-cursor-0.1.6/m4/ltoptions.m4
+xcb-util-cursor-0.1.6/aclocal.m4
+xcb-util-cursor-0.1.6/config.guess
+xcb-util-cursor-0.1.6/install-sh
+configure: WARNING: unrecognized options: --with-appdefaultdir
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to enable C11 features... none needed
+checking whether gcc understands -c and -o together... yes
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for wchar.h... yes
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether _XOPEN_SOURCE should be defined... no
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether sleep supports fractional seconds... yes
+checking filesystem timestamp resolution... 0.01
+checking whether build environment is sane... yes
+checking for a race-free mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports the include directive... yes (GNU style)
+checking whether make supports nested variables... yes
+checking xargs -n works... yes
+checking whether UID '0' is supported by ustar format... yes
+checking whether GID '0' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking dependency style of gcc... gcc3
+checking for ssize_t... yes
+checking for m4 that supports -I option... /usr/bin/m4
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for file... file
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ranlib... ranlib
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gcc options needed to detect all undeclared functions... none needed
+checking whether __clang__ is declared... no
+checking whether __INTEL_COMPILER is declared... no
+checking whether __SUNPRO_C is declared... no
+checking for XCB... yes
+checking whether libxcb was compiled against xcb-proto >= 1.6... checking for gawk... (cached) gawk
+yes
+checking if gcc supports -Werror=unknown-warning-option... no
+checking if gcc supports -Werror=unused-command-line-argument... no
+checking if gcc supports -Wall... yes
+checking if gcc supports -Wpointer-arith... yes
+checking if gcc supports -Wmissing-declarations... yes
+checking if gcc supports -Wformat=2... yes
+checking if gcc supports -Wstrict-prototypes... yes
+checking if gcc supports -Wmissing-prototypes... yes
+checking if gcc supports -Wnested-externs... yes
+checking if gcc supports -Wbad-function-cast... yes
+checking if gcc supports -Wold-style-definition... yes
+checking if gcc supports -Wunused... yes
+checking if gcc supports -Wuninitialized... yes
+checking if gcc supports -Wshadow... yes
+checking if gcc supports -Wmissing-noreturn... yes
+checking if gcc supports -Wmissing-format-attribute... yes
+checking if gcc supports -Wredundant-decls... yes
+checking if gcc supports -Wlogical-op... yes
+checking if gcc supports -Werror=implicit... yes
+checking if gcc supports -Werror=nonnull... yes
+checking if gcc supports -Werror=init-self... yes
+checking if gcc supports -Werror=main... yes
+checking if gcc supports -Werror=missing-braces... yes
+checking if gcc supports -Werror=sequence-point... yes
+checking if gcc supports -Werror=return-type... yes
+checking if gcc supports -Werror=trigraphs... yes
+checking if gcc supports -Werror=array-bounds... yes
+checking if gcc supports -Werror=write-strings... yes
+checking if gcc supports -Werror=address... yes
+checking if gcc supports -Werror=int-to-pointer-cast... yes
+checking if gcc supports -Werror=pointer-to-int-cast... yes
+checking if gcc supports -pedantic... yes
+checking if gcc supports -Werror... yes
+checking if gcc supports -Werror=attributes... yes
+checking whether to build developer documentation... yes
+checking for doxygen... no
+configure: WARNING: doxygen not found - documentation targets will be skipped
+checking for endian.h... yes
+checking for le32toh... no
+checking for XCB_RENDER... yes
+checking for XCB_RENDERUTIL... no
+configure: error: Package requirements (xcb-renderutil) were not met:
+
+Package 'xcb-renderutil' not found
+
+Consider adjusting the PKG_CONFIG_PATH environment variable if you
+installed software in a non-standard prefix.
+
+Alternatively, you may set the environment variables XCB_RENDERUTIL_CFLAGS
+and XCB_RENDERUTIL_LIBS to avoid the need to call pkg-config.
+See the pkg-config man page for more details.
