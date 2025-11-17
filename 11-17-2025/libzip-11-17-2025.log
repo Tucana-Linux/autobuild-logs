@@ -1,0 +1,1902 @@
+--2025-11-17 08:42:15--  https://libzip.org/download/libzip-1.11.4.tar.xz
+Resolving libzip.org (libzip.org)... 2a04:52c0:101:2e6::de6c, 5.2.73.210
+Connecting to libzip.org (libzip.org)|2a04:52c0:101:2e6::de6c|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 793340 (775K) [application/x-xz]
+Saving to: ‘libzip-1.11.4.tar.xz’
+
+     0K .......... .......... .......... .......... ..........  6%  298K 2s
+    50K .......... .......... .......... .......... .......... 12%  592K 2s
+   100K .......... .......... .......... .......... .......... 19%  596K 1s
+   150K .......... .......... .......... .......... .......... 25% 37.4M 1s
+   200K .......... .......... .......... .......... .......... 32%  603K 1s
+   250K .......... .......... .......... .......... .......... 38% 40.5M 1s
+   300K .......... .......... .......... .......... .......... 45%  607K 1s
+   350K .......... .......... .......... .......... .......... 51% 28.5M 0s
+   400K .......... .......... .......... .......... .......... 58% 32.2M 0s
+   450K .......... .......... .......... .......... .......... 64% 1.34M 0s
+   500K .......... .......... .......... .......... .......... 70% 1.11M 0s
+   550K .......... .......... .......... .......... .......... 77% 11.8M 0s
+   600K .......... .......... .......... .......... .......... 83% 49.6M 0s
+   650K .......... .......... .......... .......... .......... 90% 1.41M 0s
+   700K .......... .......... .......... .......... .......... 96% 1.00M 0s
+   750K .......... .......... ....                            100% 32.6M=0.7s
+
+2025-11-17 08:42:16 (1.12 MB/s) - ‘libzip-1.11.4.tar.xz’ saved [793340/793340]
+
+libzip-1.11.4/
+libzip-1.11.4/.clang-format
+libzip-1.11.4/.github/
+libzip-1.11.4/.github/ISSUE_TEMPLATE/
+libzip-1.11.4/.github/ISSUE_TEMPLATE/bug-report.md
+libzip-1.11.4/.github/ISSUE_TEMPLATE/compile-error.md
+libzip-1.11.4/.github/ISSUE_TEMPLATE/feature-request.md
+libzip-1.11.4/.github/ISSUE_TEMPLATE/other.md
+libzip-1.11.4/.github/workflows/
+libzip-1.11.4/.github/workflows/CIFuzz.yml
+libzip-1.11.4/.github/workflows/bsd.yml
+libzip-1.11.4/.github/workflows/build.yml
+libzip-1.11.4/.github/workflows/codeql-analysis.yml
+libzip-1.11.4/.github/workflows/coverity.yml
+libzip-1.11.4/API-CHANGES.md
+libzip-1.11.4/AUTHORS
+libzip-1.11.4/CMakeLists.txt
+libzip-1.11.4/INSTALL.md
+libzip-1.11.4/LICENSE
+libzip-1.11.4/NEWS.md
+libzip-1.11.4/README.md
+libzip-1.11.4/SECURITY.md
+libzip-1.11.4/THANKS
+libzip-1.11.4/TODO.md
+libzip-1.11.4/android/
+libzip-1.11.4/android/do.sh
+libzip-1.11.4/android/docker/
+libzip-1.11.4/android/docker/Dockerfile
+libzip-1.11.4/android/readme.txt
+libzip-1.11.4/appveyor.yml
+libzip-1.11.4/cmake-compat/
+libzip-1.11.4/cmake-compat/CMakePushCheckState.cmake
+libzip-1.11.4/cmake-compat/CheckLibraryExists.cmake
+libzip-1.11.4/cmake-compat/CheckSymbolExists.cmake
+libzip-1.11.4/cmake-compat/FindBZip2.cmake
+libzip-1.11.4/cmake-compat/FindGnuTLS.cmake
+libzip-1.11.4/cmake-compat/FindLibLZMA.cmake
+libzip-1.11.4/cmake-compat/FindPackageHandleStandardArgs.cmake
+libzip-1.11.4/cmake-compat/FindPackageMessage.cmake
+libzip-1.11.4/cmake-compat/SelectLibraryConfigurations.cmake
+libzip-1.11.4/cmake/
+libzip-1.11.4/cmake/Dist.cmake
+libzip-1.11.4/cmake/FindMbedTLS.cmake
+libzip-1.11.4/cmake/FindNettle.cmake
+libzip-1.11.4/cmake/Findzstd.cmake
+libzip-1.11.4/cmake/GenerateZipErrorStrings.cmake
+libzip-1.11.4/config.h.in
+libzip-1.11.4/examples/
+libzip-1.11.4/examples/CMakeLists.txt
+libzip-1.11.4/examples/add-compressed-data.c
+libzip-1.11.4/examples/autoclose-archive.c
+libzip-1.11.4/examples/cmake-project/
+libzip-1.11.4/examples/cmake-project/CMakeLists.txt
+libzip-1.11.4/examples/cmake-project/cmake-example.c
+libzip-1.11.4/examples/in-memory.c
+libzip-1.11.4/examples/windows-open.c
+libzip-1.11.4/lib/
+libzip-1.11.4/lib/CMakeLists.txt
+libzip-1.11.4/lib/compat.h
+libzip-1.11.4/lib/zip.h
+libzip-1.11.4/lib/zip_add.c
+libzip-1.11.4/lib/zip_add_dir.c
+libzip-1.11.4/lib/zip_add_entry.c
+libzip-1.11.4/lib/zip_algorithm_bzip2.c
+libzip-1.11.4/lib/zip_algorithm_deflate.c
+libzip-1.11.4/lib/zip_algorithm_xz.c
+libzip-1.11.4/lib/zip_algorithm_zstd.c
+libzip-1.11.4/lib/zip_buffer.c
+libzip-1.11.4/lib/zip_close.c
+libzip-1.11.4/lib/zip_crypto.h
+libzip-1.11.4/lib/zip_crypto_commoncrypto.c
+libzip-1.11.4/lib/zip_crypto_commoncrypto.h
+libzip-1.11.4/lib/zip_crypto_gnutls.c
+libzip-1.11.4/lib/zip_crypto_gnutls.h
+libzip-1.11.4/lib/zip_crypto_mbedtls.c
+libzip-1.11.4/lib/zip_crypto_mbedtls.h
+libzip-1.11.4/lib/zip_crypto_openssl.c
+libzip-1.11.4/lib/zip_crypto_openssl.h
+libzip-1.11.4/lib/zip_crypto_win.c
+libzip-1.11.4/lib/zip_crypto_win.h
+libzip-1.11.4/lib/zip_delete.c
+libzip-1.11.4/lib/zip_dir_add.c
+libzip-1.11.4/lib/zip_dirent.c
+libzip-1.11.4/lib/zip_discard.c
+libzip-1.11.4/lib/zip_entry.c
+libzip-1.11.4/lib/zip_error.c
+libzip-1.11.4/lib/zip_error_clear.c
+libzip-1.11.4/lib/zip_error_get.c
+libzip-1.11.4/lib/zip_error_get_sys_type.c
+libzip-1.11.4/lib/zip_error_strerror.c
+libzip-1.11.4/lib/zip_error_to_str.c
+libzip-1.11.4/lib/zip_extra_field.c
+libzip-1.11.4/lib/zip_extra_field_api.c
+libzip-1.11.4/lib/zip_fclose.c
+libzip-1.11.4/lib/zip_fdopen.c
+libzip-1.11.4/lib/zip_file_add.c
+libzip-1.11.4/lib/zip_file_error_clear.c
+libzip-1.11.4/lib/zip_file_error_get.c
+libzip-1.11.4/lib/zip_file_get_comment.c
+libzip-1.11.4/lib/zip_file_get_external_attributes.c
+libzip-1.11.4/lib/zip_file_get_offset.c
+libzip-1.11.4/lib/zip_file_rename.c
+libzip-1.11.4/lib/zip_file_replace.c
+libzip-1.11.4/lib/zip_file_set_comment.c
+libzip-1.11.4/lib/zip_file_set_encryption.c
+libzip-1.11.4/lib/zip_file_set_external_attributes.c
+libzip-1.11.4/lib/zip_file_set_mtime.c
+libzip-1.11.4/lib/zip_file_strerror.c
+libzip-1.11.4/lib/zip_fopen.c
+libzip-1.11.4/lib/zip_fopen_encrypted.c
+libzip-1.11.4/lib/zip_fopen_index.c
+libzip-1.11.4/lib/zip_fopen_index_encrypted.c
+libzip-1.11.4/lib/zip_fread.c
+libzip-1.11.4/lib/zip_fseek.c
+libzip-1.11.4/lib/zip_ftell.c
+libzip-1.11.4/lib/zip_get_archive_comment.c
+libzip-1.11.4/lib/zip_get_archive_flag.c
+libzip-1.11.4/lib/zip_get_encryption_implementation.c
+libzip-1.11.4/lib/zip_get_file_comment.c
+libzip-1.11.4/lib/zip_get_name.c
+libzip-1.11.4/lib/zip_get_num_entries.c
+libzip-1.11.4/lib/zip_get_num_files.c
+libzip-1.11.4/lib/zip_hash.c
+libzip-1.11.4/lib/zip_io_util.c
+libzip-1.11.4/lib/zip_libzip_version.c
+libzip-1.11.4/lib/zip_memdup.c
+libzip-1.11.4/lib/zip_name_locate.c
+libzip-1.11.4/lib/zip_new.c
+libzip-1.11.4/lib/zip_open.c
+libzip-1.11.4/lib/zip_pkware.c
+libzip-1.11.4/lib/zip_progress.c
+libzip-1.11.4/lib/zip_random_unix.c
+libzip-1.11.4/lib/zip_random_uwp.c
+libzip-1.11.4/lib/zip_random_win32.c
+libzip-1.11.4/lib/zip_realloc.c
+libzip-1.11.4/lib/zip_rename.c
+libzip-1.11.4/lib/zip_replace.c
+libzip-1.11.4/lib/zip_set_archive_comment.c
+libzip-1.11.4/lib/zip_set_archive_flag.c
+libzip-1.11.4/lib/zip_set_default_password.c
+libzip-1.11.4/lib/zip_set_file_comment.c
+libzip-1.11.4/lib/zip_set_file_compression.c
+libzip-1.11.4/lib/zip_set_name.c
+libzip-1.11.4/lib/zip_source_accept_empty.c
+libzip-1.11.4/lib/zip_source_begin_write.c
+libzip-1.11.4/lib/zip_source_begin_write_cloning.c
+libzip-1.11.4/lib/zip_source_buffer.c
+libzip-1.11.4/lib/zip_source_call.c
+libzip-1.11.4/lib/zip_source_close.c
+libzip-1.11.4/lib/zip_source_commit_write.c
+libzip-1.11.4/lib/zip_source_compress.c
+libzip-1.11.4/lib/zip_source_crc.c
+libzip-1.11.4/lib/zip_source_error.c
+libzip-1.11.4/lib/zip_source_file.h
+libzip-1.11.4/lib/zip_source_file_common.c
+libzip-1.11.4/lib/zip_source_file_stdio.c
+libzip-1.11.4/lib/zip_source_file_stdio.h
+libzip-1.11.4/lib/zip_source_file_stdio_named.c
+libzip-1.11.4/lib/zip_source_file_win32.c
+libzip-1.11.4/lib/zip_source_file_win32.h
+libzip-1.11.4/lib/zip_source_file_win32_ansi.c
+libzip-1.11.4/lib/zip_source_file_win32_named.c
+libzip-1.11.4/lib/zip_source_file_win32_utf16.c
+libzip-1.11.4/lib/zip_source_file_win32_utf8.c
+libzip-1.11.4/lib/zip_source_free.c
+libzip-1.11.4/lib/zip_source_function.c
+libzip-1.11.4/lib/zip_source_get_dostime.c
+libzip-1.11.4/lib/zip_source_get_file_attributes.c
+libzip-1.11.4/lib/zip_source_is_deleted.c
+libzip-1.11.4/lib/zip_source_layered.c
+libzip-1.11.4/lib/zip_source_open.c
+libzip-1.11.4/lib/zip_source_pass_to_lower_layer.c
+libzip-1.11.4/lib/zip_source_pkware_decode.c
+libzip-1.11.4/lib/zip_source_pkware_encode.c
+libzip-1.11.4/lib/zip_source_read.c
+libzip-1.11.4/lib/zip_source_remove.c
+libzip-1.11.4/lib/zip_source_rollback_write.c
+libzip-1.11.4/lib/zip_source_seek.c
+libzip-1.11.4/lib/zip_source_seek_write.c
+libzip-1.11.4/lib/zip_source_stat.c
+libzip-1.11.4/lib/zip_source_supports.c
+libzip-1.11.4/lib/zip_source_tell.c
+libzip-1.11.4/lib/zip_source_tell_write.c
+libzip-1.11.4/lib/zip_source_window.c
+libzip-1.11.4/lib/zip_source_winzip_aes_decode.c
+libzip-1.11.4/lib/zip_source_winzip_aes_encode.c
+libzip-1.11.4/lib/zip_source_write.c
+libzip-1.11.4/lib/zip_source_zip.c
+libzip-1.11.4/lib/zip_source_zip_new.c
+libzip-1.11.4/lib/zip_stat.c
+libzip-1.11.4/lib/zip_stat_index.c
+libzip-1.11.4/lib/zip_stat_init.c
+libzip-1.11.4/lib/zip_strerror.c
+libzip-1.11.4/lib/zip_string.c
+libzip-1.11.4/lib/zip_unchange.c
+libzip-1.11.4/lib/zip_unchange_all.c
+libzip-1.11.4/lib/zip_unchange_archive.c
+libzip-1.11.4/lib/zip_unchange_data.c
+libzip-1.11.4/lib/zip_utf-8.c
+libzip-1.11.4/lib/zip_winzip_aes.c
+libzip-1.11.4/lib/zipint.h
+libzip-1.11.4/libzip-config.cmake.in
+libzip-1.11.4/libzip.pc.in
+libzip-1.11.4/man/
+libzip-1.11.4/man/CMakeLists.txt
+libzip-1.11.4/man/ZIP_SOURCE_GET_ARGS.html
+libzip-1.11.4/man/ZIP_SOURCE_GET_ARGS.man
+libzip-1.11.4/man/ZIP_SOURCE_GET_ARGS.mdoc
+libzip-1.11.4/man/handle_links
+libzip-1.11.4/man/libzip.html
+libzip-1.11.4/man/libzip.man
+libzip-1.11.4/man/libzip.mdoc
+libzip-1.11.4/man/links
+libzip-1.11.4/man/update-html.cmake
+libzip-1.11.4/man/update-man.cmake
+libzip-1.11.4/man/zip.html
+libzip-1.11.4/man/zip.man
+libzip-1.11.4/man/zip.mdoc
+libzip-1.11.4/man/zip_add.html
+libzip-1.11.4/man/zip_add.man
+libzip-1.11.4/man/zip_add.mdoc
+libzip-1.11.4/man/zip_add_dir.html
+libzip-1.11.4/man/zip_add_dir.man
+libzip-1.11.4/man/zip_add_dir.mdoc
+libzip-1.11.4/man/zip_close.html
+libzip-1.11.4/man/zip_close.man
+libzip-1.11.4/man/zip_close.mdoc
+libzip-1.11.4/man/zip_compression_method_supported.html
+libzip-1.11.4/man/zip_compression_method_supported.man
+libzip-1.11.4/man/zip_compression_method_supported.mdoc
+libzip-1.11.4/man/zip_delete.html
+libzip-1.11.4/man/zip_delete.man
+libzip-1.11.4/man/zip_delete.mdoc
+libzip-1.11.4/man/zip_dir_add.html
+libzip-1.11.4/man/zip_dir_add.man
+libzip-1.11.4/man/zip_dir_add.mdoc
+libzip-1.11.4/man/zip_discard.html
+libzip-1.11.4/man/zip_discard.man
+libzip-1.11.4/man/zip_discard.mdoc
+libzip-1.11.4/man/zip_encryption_method_supported.html
+libzip-1.11.4/man/zip_encryption_method_supported.man
+libzip-1.11.4/man/zip_encryption_method_supported.mdoc
+libzip-1.11.4/man/zip_error.html
+libzip-1.11.4/man/zip_error.man
+libzip-1.11.4/man/zip_error.mdoc
+libzip-1.11.4/man/zip_error_clear.html
+libzip-1.11.4/man/zip_error_clear.man
+libzip-1.11.4/man/zip_error_clear.mdoc
+libzip-1.11.4/man/zip_error_code_system.html
+libzip-1.11.4/man/zip_error_code_system.man
+libzip-1.11.4/man/zip_error_code_system.mdoc
+libzip-1.11.4/man/zip_error_code_zip.html
+libzip-1.11.4/man/zip_error_code_zip.man
+libzip-1.11.4/man/zip_error_code_zip.mdoc
+libzip-1.11.4/man/zip_error_fini.html
+libzip-1.11.4/man/zip_error_fini.man
+libzip-1.11.4/man/zip_error_fini.mdoc
+libzip-1.11.4/man/zip_error_get.html
+libzip-1.11.4/man/zip_error_get.man
+libzip-1.11.4/man/zip_error_get.mdoc
+libzip-1.11.4/man/zip_error_get_sys_type.html
+libzip-1.11.4/man/zip_error_get_sys_type.man
+libzip-1.11.4/man/zip_error_get_sys_type.mdoc
+libzip-1.11.4/man/zip_error_init.html
+libzip-1.11.4/man/zip_error_init.man
+libzip-1.11.4/man/zip_error_init.mdoc
+libzip-1.11.4/man/zip_error_set.html
+libzip-1.11.4/man/zip_error_set.man
+libzip-1.11.4/man/zip_error_set.mdoc
+libzip-1.11.4/man/zip_error_set_from_source.html
+libzip-1.11.4/man/zip_error_set_from_source.man
+libzip-1.11.4/man/zip_error_set_from_source.mdoc
+libzip-1.11.4/man/zip_error_strerror.html
+libzip-1.11.4/man/zip_error_strerror.man
+libzip-1.11.4/man/zip_error_strerror.mdoc
+libzip-1.11.4/man/zip_error_system_type.html
+libzip-1.11.4/man/zip_error_system_type.man
+libzip-1.11.4/man/zip_error_system_type.mdoc
+libzip-1.11.4/man/zip_error_to_data.html
+libzip-1.11.4/man/zip_error_to_data.man
+libzip-1.11.4/man/zip_error_to_data.mdoc
+libzip-1.11.4/man/zip_error_to_str.html
+libzip-1.11.4/man/zip_error_to_str.man
+libzip-1.11.4/man/zip_error_to_str.mdoc
+libzip-1.11.4/man/zip_errors.html
+libzip-1.11.4/man/zip_errors.man
+libzip-1.11.4/man/zip_errors.mdoc
+libzip-1.11.4/man/zip_fclose.html
+libzip-1.11.4/man/zip_fclose.man
+libzip-1.11.4/man/zip_fclose.mdoc
+libzip-1.11.4/man/zip_fdopen.html
+libzip-1.11.4/man/zip_fdopen.man
+libzip-1.11.4/man/zip_fdopen.mdoc
+libzip-1.11.4/man/zip_file.html
+libzip-1.11.4/man/zip_file.man
+libzip-1.11.4/man/zip_file.mdoc
+libzip-1.11.4/man/zip_file_add.html
+libzip-1.11.4/man/zip_file_add.man
+libzip-1.11.4/man/zip_file_add.mdoc
+libzip-1.11.4/man/zip_file_attributes_init.html
+libzip-1.11.4/man/zip_file_attributes_init.man
+libzip-1.11.4/man/zip_file_attributes_init.mdoc
+libzip-1.11.4/man/zip_file_extra_field_delete.html
+libzip-1.11.4/man/zip_file_extra_field_delete.man
+libzip-1.11.4/man/zip_file_extra_field_delete.mdoc
+libzip-1.11.4/man/zip_file_extra_field_get.html
+libzip-1.11.4/man/zip_file_extra_field_get.man
+libzip-1.11.4/man/zip_file_extra_field_get.mdoc
+libzip-1.11.4/man/zip_file_extra_field_set.html
+libzip-1.11.4/man/zip_file_extra_field_set.man
+libzip-1.11.4/man/zip_file_extra_field_set.mdoc
+libzip-1.11.4/man/zip_file_extra_fields_count.html
+libzip-1.11.4/man/zip_file_extra_fields_count.man
+libzip-1.11.4/man/zip_file_extra_fields_count.mdoc
+libzip-1.11.4/man/zip_file_get_comment.html
+libzip-1.11.4/man/zip_file_get_comment.man
+libzip-1.11.4/man/zip_file_get_comment.mdoc
+libzip-1.11.4/man/zip_file_get_error.html
+libzip-1.11.4/man/zip_file_get_error.man
+libzip-1.11.4/man/zip_file_get_error.mdoc
+libzip-1.11.4/man/zip_file_get_external_attributes.html
+libzip-1.11.4/man/zip_file_get_external_attributes.man
+libzip-1.11.4/man/zip_file_get_external_attributes.mdoc
+libzip-1.11.4/man/zip_file_rename.html
+libzip-1.11.4/man/zip_file_rename.man
+libzip-1.11.4/man/zip_file_rename.mdoc
+libzip-1.11.4/man/zip_file_set_comment.html
+libzip-1.11.4/man/zip_file_set_comment.man
+libzip-1.11.4/man/zip_file_set_comment.mdoc
+libzip-1.11.4/man/zip_file_set_encryption.html
+libzip-1.11.4/man/zip_file_set_encryption.man
+libzip-1.11.4/man/zip_file_set_encryption.mdoc
+libzip-1.11.4/man/zip_file_set_external_attributes.html
+libzip-1.11.4/man/zip_file_set_external_attributes.man
+libzip-1.11.4/man/zip_file_set_external_attributes.mdoc
+libzip-1.11.4/man/zip_file_set_mtime.html
+libzip-1.11.4/man/zip_file_set_mtime.man
+libzip-1.11.4/man/zip_file_set_mtime.mdoc
+libzip-1.11.4/man/zip_file_strerror.html
+libzip-1.11.4/man/zip_file_strerror.man
+libzip-1.11.4/man/zip_file_strerror.mdoc
+libzip-1.11.4/man/zip_fopen.html
+libzip-1.11.4/man/zip_fopen.man
+libzip-1.11.4/man/zip_fopen.mdoc
+libzip-1.11.4/man/zip_fopen_encrypted.html
+libzip-1.11.4/man/zip_fopen_encrypted.man
+libzip-1.11.4/man/zip_fopen_encrypted.mdoc
+libzip-1.11.4/man/zip_fread.html
+libzip-1.11.4/man/zip_fread.man
+libzip-1.11.4/man/zip_fread.mdoc
+libzip-1.11.4/man/zip_fseek.html
+libzip-1.11.4/man/zip_fseek.man
+libzip-1.11.4/man/zip_fseek.mdoc
+libzip-1.11.4/man/zip_ftell.html
+libzip-1.11.4/man/zip_ftell.man
+libzip-1.11.4/man/zip_ftell.mdoc
+libzip-1.11.4/man/zip_get_archive_comment.html
+libzip-1.11.4/man/zip_get_archive_comment.man
+libzip-1.11.4/man/zip_get_archive_comment.mdoc
+libzip-1.11.4/man/zip_get_archive_flag.html
+libzip-1.11.4/man/zip_get_archive_flag.man
+libzip-1.11.4/man/zip_get_archive_flag.mdoc
+libzip-1.11.4/man/zip_get_error.html
+libzip-1.11.4/man/zip_get_error.man
+libzip-1.11.4/man/zip_get_error.mdoc
+libzip-1.11.4/man/zip_get_file_comment.html
+libzip-1.11.4/man/zip_get_file_comment.man
+libzip-1.11.4/man/zip_get_file_comment.mdoc
+libzip-1.11.4/man/zip_get_name.html
+libzip-1.11.4/man/zip_get_name.man
+libzip-1.11.4/man/zip_get_name.mdoc
+libzip-1.11.4/man/zip_get_num_entries.html
+libzip-1.11.4/man/zip_get_num_entries.man
+libzip-1.11.4/man/zip_get_num_entries.mdoc
+libzip-1.11.4/man/zip_get_num_files.html
+libzip-1.11.4/man/zip_get_num_files.man
+libzip-1.11.4/man/zip_get_num_files.mdoc
+libzip-1.11.4/man/zip_libzip_version.html
+libzip-1.11.4/man/zip_libzip_version.man
+libzip-1.11.4/man/zip_libzip_version.mdoc
+libzip-1.11.4/man/zip_name_locate.html
+libzip-1.11.4/man/zip_name_locate.man
+libzip-1.11.4/man/zip_name_locate.mdoc
+libzip-1.11.4/man/zip_open.html
+libzip-1.11.4/man/zip_open.man
+libzip-1.11.4/man/zip_open.mdoc
+libzip-1.11.4/man/zip_register_cancel_callback_with_state.html
+libzip-1.11.4/man/zip_register_cancel_callback_with_state.man
+libzip-1.11.4/man/zip_register_cancel_callback_with_state.mdoc
+libzip-1.11.4/man/zip_register_progress_callback.html
+libzip-1.11.4/man/zip_register_progress_callback.man
+libzip-1.11.4/man/zip_register_progress_callback.mdoc
+libzip-1.11.4/man/zip_register_progress_callback_with_state.html
+libzip-1.11.4/man/zip_register_progress_callback_with_state.man
+libzip-1.11.4/man/zip_register_progress_callback_with_state.mdoc
+libzip-1.11.4/man/zip_rename.html
+libzip-1.11.4/man/zip_rename.man
+libzip-1.11.4/man/zip_rename.mdoc
+libzip-1.11.4/man/zip_set_archive_comment.html
+libzip-1.11.4/man/zip_set_archive_comment.man
+libzip-1.11.4/man/zip_set_archive_comment.mdoc
+libzip-1.11.4/man/zip_set_archive_flag.html
+libzip-1.11.4/man/zip_set_archive_flag.man
+libzip-1.11.4/man/zip_set_archive_flag.mdoc
+libzip-1.11.4/man/zip_set_default_password.html
+libzip-1.11.4/man/zip_set_default_password.man
+libzip-1.11.4/man/zip_set_default_password.mdoc
+libzip-1.11.4/man/zip_set_file_comment.html
+libzip-1.11.4/man/zip_set_file_comment.man
+libzip-1.11.4/man/zip_set_file_comment.mdoc
+libzip-1.11.4/man/zip_set_file_compression.html
+libzip-1.11.4/man/zip_set_file_compression.man
+libzip-1.11.4/man/zip_set_file_compression.mdoc
+libzip-1.11.4/man/zip_source.html
+libzip-1.11.4/man/zip_source.man
+libzip-1.11.4/man/zip_source.mdoc
+libzip-1.11.4/man/zip_source_begin_write.html
+libzip-1.11.4/man/zip_source_begin_write.man
+libzip-1.11.4/man/zip_source_begin_write.mdoc
+libzip-1.11.4/man/zip_source_buffer.html
+libzip-1.11.4/man/zip_source_buffer.man
+libzip-1.11.4/man/zip_source_buffer.mdoc
+libzip-1.11.4/man/zip_source_buffer_fragment.html
+libzip-1.11.4/man/zip_source_buffer_fragment.man
+libzip-1.11.4/man/zip_source_buffer_fragment.mdoc
+libzip-1.11.4/man/zip_source_close.html
+libzip-1.11.4/man/zip_source_close.man
+libzip-1.11.4/man/zip_source_close.mdoc
+libzip-1.11.4/man/zip_source_commit_write.html
+libzip-1.11.4/man/zip_source_commit_write.man
+libzip-1.11.4/man/zip_source_commit_write.mdoc
+libzip-1.11.4/man/zip_source_error.html
+libzip-1.11.4/man/zip_source_error.man
+libzip-1.11.4/man/zip_source_error.mdoc
+libzip-1.11.4/man/zip_source_file.html
+libzip-1.11.4/man/zip_source_file.man
+libzip-1.11.4/man/zip_source_file.mdoc
+libzip-1.11.4/man/zip_source_filep.html
+libzip-1.11.4/man/zip_source_filep.man
+libzip-1.11.4/man/zip_source_filep.mdoc
+libzip-1.11.4/man/zip_source_free.html
+libzip-1.11.4/man/zip_source_free.man
+libzip-1.11.4/man/zip_source_free.mdoc
+libzip-1.11.4/man/zip_source_function.html
+libzip-1.11.4/man/zip_source_function.man
+libzip-1.11.4/man/zip_source_function.mdoc
+libzip-1.11.4/man/zip_source_is_deleted.html
+libzip-1.11.4/man/zip_source_is_deleted.man
+libzip-1.11.4/man/zip_source_is_deleted.mdoc
+libzip-1.11.4/man/zip_source_is_seekable.html
+libzip-1.11.4/man/zip_source_is_seekable.man
+libzip-1.11.4/man/zip_source_is_seekable.mdoc
+libzip-1.11.4/man/zip_source_keep.html
+libzip-1.11.4/man/zip_source_keep.man
+libzip-1.11.4/man/zip_source_keep.mdoc
+libzip-1.11.4/man/zip_source_layered.html
+libzip-1.11.4/man/zip_source_layered.man
+libzip-1.11.4/man/zip_source_layered.mdoc
+libzip-1.11.4/man/zip_source_make_command_bitmap.html
+libzip-1.11.4/man/zip_source_make_command_bitmap.man
+libzip-1.11.4/man/zip_source_make_command_bitmap.mdoc
+libzip-1.11.4/man/zip_source_open.html
+libzip-1.11.4/man/zip_source_open.man
+libzip-1.11.4/man/zip_source_open.mdoc
+libzip-1.11.4/man/zip_source_pass_to_lower_layer.mdoc
+libzip-1.11.4/man/zip_source_read.html
+libzip-1.11.4/man/zip_source_read.man
+libzip-1.11.4/man/zip_source_read.mdoc
+libzip-1.11.4/man/zip_source_rollback_write.html
+libzip-1.11.4/man/zip_source_rollback_write.man
+libzip-1.11.4/man/zip_source_rollback_write.mdoc
+libzip-1.11.4/man/zip_source_seek.html
+libzip-1.11.4/man/zip_source_seek.man
+libzip-1.11.4/man/zip_source_seek.mdoc
+libzip-1.11.4/man/zip_source_seek_compute_offset.html
+libzip-1.11.4/man/zip_source_seek_compute_offset.man
+libzip-1.11.4/man/zip_source_seek_compute_offset.mdoc
+libzip-1.11.4/man/zip_source_seek_write.html
+libzip-1.11.4/man/zip_source_seek_write.man
+libzip-1.11.4/man/zip_source_seek_write.mdoc
+libzip-1.11.4/man/zip_source_stat.html
+libzip-1.11.4/man/zip_source_stat.man
+libzip-1.11.4/man/zip_source_stat.mdoc
+libzip-1.11.4/man/zip_source_tell.html
+libzip-1.11.4/man/zip_source_tell.man
+libzip-1.11.4/man/zip_source_tell.mdoc
+libzip-1.11.4/man/zip_source_tell_write.html
+libzip-1.11.4/man/zip_source_tell_write.man
+libzip-1.11.4/man/zip_source_tell_write.mdoc
+libzip-1.11.4/man/zip_source_win32a.html
+libzip-1.11.4/man/zip_source_win32a.man
+libzip-1.11.4/man/zip_source_win32a.mdoc
+libzip-1.11.4/man/zip_source_win32handle.html
+libzip-1.11.4/man/zip_source_win32handle.man
+libzip-1.11.4/man/zip_source_win32handle.mdoc
+libzip-1.11.4/man/zip_source_win32w.html
+libzip-1.11.4/man/zip_source_win32w.man
+libzip-1.11.4/man/zip_source_win32w.mdoc
+libzip-1.11.4/man/zip_source_window_create.html
+libzip-1.11.4/man/zip_source_window_create.man
+libzip-1.11.4/man/zip_source_window_create.mdoc
+libzip-1.11.4/man/zip_source_write.html
+libzip-1.11.4/man/zip_source_write.man
+libzip-1.11.4/man/zip_source_write.mdoc
+libzip-1.11.4/man/zip_source_zip.html
+libzip-1.11.4/man/zip_source_zip.man
+libzip-1.11.4/man/zip_source_zip.mdoc
+libzip-1.11.4/man/zip_source_zip_file.html
+libzip-1.11.4/man/zip_source_zip_file.man
+libzip-1.11.4/man/zip_source_zip_file.mdoc
+libzip-1.11.4/man/zip_stat.html
+libzip-1.11.4/man/zip_stat.man
+libzip-1.11.4/man/zip_stat.mdoc
+libzip-1.11.4/man/zip_stat_init.html
+libzip-1.11.4/man/zip_stat_init.man
+libzip-1.11.4/man/zip_stat_init.mdoc
+libzip-1.11.4/man/zip_unchange.html
+libzip-1.11.4/man/zip_unchange.man
+libzip-1.11.4/man/zip_unchange.mdoc
+libzip-1.11.4/man/zip_unchange_all.html
+libzip-1.11.4/man/zip_unchange_all.man
+libzip-1.11.4/man/zip_unchange_all.mdoc
+libzip-1.11.4/man/zip_unchange_archive.html
+libzip-1.11.4/man/zip_unchange_archive.man
+libzip-1.11.4/man/zip_unchange_archive.mdoc
+libzip-1.11.4/man/zipcmp.html
+libzip-1.11.4/man/zipcmp.man
+libzip-1.11.4/man/zipcmp.mdoc
+libzip-1.11.4/man/zipmerge.html
+libzip-1.11.4/man/zipmerge.man
+libzip-1.11.4/man/zipmerge.mdoc
+libzip-1.11.4/man/ziptool.html
+libzip-1.11.4/man/ziptool.man
+libzip-1.11.4/man/ziptool.mdoc
+libzip-1.11.4/ossfuzz/
+libzip-1.11.4/ossfuzz/CMakeLists.txt
+libzip-1.11.4/ossfuzz/fuzz_main.c
+libzip-1.11.4/ossfuzz/ossfuzz.sh
+libzip-1.11.4/ossfuzz/zip_read_file_fuzzer.c
+libzip-1.11.4/ossfuzz/zip_read_fuzzer.c
+libzip-1.11.4/ossfuzz/zip_read_fuzzer.dict
+libzip-1.11.4/ossfuzz/zip_read_fuzzer_common.h
+libzip-1.11.4/ossfuzz/zip_write_encrypt_aes256_file_fuzzer.c
+libzip-1.11.4/ossfuzz/zip_write_encrypt_aes256_file_fuzzer_seed_corpus.zip
+libzip-1.11.4/ossfuzz/zip_write_encrypt_pkware_file_fuzzer.c
+libzip-1.11.4/regress/
+libzip-1.11.4/regress/CMakeLists.txt
+libzip-1.11.4/regress/aaaaaaaa-stored.zip
+libzip-1.11.4/regress/add_dir.test
+libzip-1.11.4/regress/add_from_buffer.test
+libzip-1.11.4/regress/add_from_file.test
+libzip-1.11.4/regress/add_from_file_duplicate.test
+libzip-1.11.4/regress/add_from_file_twice_duplicate.test
+libzip-1.11.4/regress/add_from_file_unchange.test
+libzip-1.11.4/regress/add_from_filep.c
+libzip-1.11.4/regress/add_from_filep.test
+libzip-1.11.4/regress/add_from_stdin.test
+libzip-1.11.4/regress/add_from_zip_closed.test
+libzip-1.11.4/regress/add_from_zip_deflated.test
+libzip-1.11.4/regress/add_from_zip_deflated2.test
+libzip-1.11.4/regress/add_from_zip_partial_deflated.test
+libzip-1.11.4/regress/add_from_zip_partial_stored.test
+libzip-1.11.4/regress/add_from_zip_stored.test
+libzip-1.11.4/regress/add_stored.test
+libzip-1.11.4/regress/add_stored_in_memory.test
+libzip-1.11.4/regress/bigstored.zh
+libzip-1.11.4/regress/bigzero-zip.zip
+libzip-1.11.4/regress/bogus.zip
+libzip-1.11.4/regress/broken.zip
+libzip-1.11.4/regress/buffer-fragment-read.test
+libzip-1.11.4/regress/buffer-fragment-write.test
+libzip-1.11.4/regress/can_clone_file.c
+libzip-1.11.4/regress/cancel_45.test
+libzip-1.11.4/regress/cancel_90.test
+libzip-1.11.4/regress/changing-size-decreases-fixed.test
+libzip-1.11.4/regress/changing-size-decreases.test
+libzip-1.11.4/regress/changing-size-increases-fixed.test
+libzip-1.11.4/regress/changing-size-increases-unchecked.test
+libzip-1.11.4/regress/changing-size-increases.test
+libzip-1.11.4/regress/changing-size-muchl.zip
+libzip-1.11.4/regress/changing-size-muchlo.zip
+libzip-1.11.4/regress/changing-size-muchlonger.zip
+libzip-1.11.4/regress/changing-size.zip
+libzip-1.11.4/regress/check_torrentzip_fail.test
+libzip-1.11.4/regress/check_torrentzip_modified.test
+libzip-1.11.4/regress/check_torrentzip_success.test
+libzip-1.11.4/regress/cleanup.cmake
+libzip-1.11.4/regress/clone-buffer-add.test
+libzip-1.11.4/regress/clone-buffer-delete.test
+libzip-1.11.4/regress/clone-buffer-replace.test
+libzip-1.11.4/regress/clone-fs-add.test
+libzip-1.11.4/regress/clone-fs-delete.test
+libzip-1.11.4/regress/clone-fs-replace.test
+libzip-1.11.4/regress/cm-default.test
+libzip-1.11.4/regress/cm-default.zip
+libzip-1.11.4/regress/convert_to_torrentzip.test
+libzip-1.11.4/regress/convert_to_torrentzip_ef.test
+libzip-1.11.4/regress/count_entries.test
+libzip-1.11.4/regress/create_empty_keep.test
+libzip-1.11.4/regress/decrypt-correct-password-aes128.test
+libzip-1.11.4/regress/decrypt-correct-password-aes192.test
+libzip-1.11.4/regress/decrypt-correct-password-aes256.test
+libzip-1.11.4/regress/decrypt-correct-password-pkware-2.test
+libzip-1.11.4/regress/decrypt-correct-password-pkware.test
+libzip-1.11.4/regress/decrypt-empty-file-pkware.test
+libzip-1.11.4/regress/decrypt-no-password-aes256.test
+libzip-1.11.4/regress/decrypt-wrong-password-aes128.test
+libzip-1.11.4/regress/decrypt-wrong-password-aes192.test
+libzip-1.11.4/regress/decrypt-wrong-password-aes256.test
+libzip-1.11.4/regress/decrypt-wrong-password-pkware-2.test
+libzip-1.11.4/regress/decrypt-wrong-password-pkware.test
+libzip-1.11.4/regress/delete_add_same.test
+libzip-1.11.4/regress/delete_invalid.test
+libzip-1.11.4/regress/delete_last.test
+libzip-1.11.4/regress/delete_last_keep.test
+libzip-1.11.4/regress/delete_multiple_last.test
+libzip-1.11.4/regress/delete_multiple_partial.test
+libzip-1.11.4/regress/delete_renamed_rename.test
+libzip-1.11.4/regress/empty-pkware.zip
+libzip-1.11.4/regress/encrypt-1234.zip
+libzip-1.11.4/regress/encrypt-aes128-noentropy.zip
+libzip-1.11.4/regress/encrypt-aes128.zip
+libzip-1.11.4/regress/encrypt-aes192-noentropy.zip
+libzip-1.11.4/regress/encrypt-aes192.zip
+libzip-1.11.4/regress/encrypt-aes256-noentropy.zip
+libzip-1.11.4/regress/encrypt-aes256.zip
+libzip-1.11.4/regress/encrypt-none.zip
+libzip-1.11.4/regress/encrypt-pkware-noentropy-2.zip
+libzip-1.11.4/regress/encrypt-pkware-noentropy.zip
+libzip-1.11.4/regress/encrypt.test
+libzip-1.11.4/regress/encrypt.zip
+libzip-1.11.4/regress/encrypt_plus_extra.zip
+libzip-1.11.4/regress/encrypt_plus_extra_modified_c.zip
+libzip-1.11.4/regress/encrypt_plus_extra_modified_l.zip
+libzip-1.11.4/regress/encryption-nonrandom-aes128.test
+libzip-1.11.4/regress/encryption-nonrandom-aes192.test
+libzip-1.11.4/regress/encryption-nonrandom-aes256.test
+libzip-1.11.4/regress/encryption-nonrandom-pkware-2.test
+libzip-1.11.4/regress/encryption-nonrandom-pkware.test
+libzip-1.11.4/regress/encryption-remove.test
+libzip-1.11.4/regress/encryption-stat.test
+libzip-1.11.4/regress/extra_add.test
+libzip-1.11.4/regress/extra_add_multiple.test
+libzip-1.11.4/regress/extra_count.test
+libzip-1.11.4/regress/extra_count_by_id.test
+libzip-1.11.4/regress/extra_count_ignore_zip64.test
+libzip-1.11.4/regress/extra_delete.test
+libzip-1.11.4/regress/extra_delete_by_id.test
+libzip-1.11.4/regress/extra_field_align.test
+libzip-1.11.4/regress/extra_field_align_1-0.zip
+libzip-1.11.4/regress/extra_field_align_1-ef_00.zip
+libzip-1.11.4/regress/extra_field_align_1-ef_ff.zip
+libzip-1.11.4/regress/extra_field_align_1-ff.zip
+libzip-1.11.4/regress/extra_field_align_2-0.zip
+libzip-1.11.4/regress/extra_field_align_2-ef_00.zip
+libzip-1.11.4/regress/extra_field_align_2-ef_ff.zip
+libzip-1.11.4/regress/extra_field_align_2-ff.zip
+libzip-1.11.4/regress/extra_field_align_3-0.zip
+libzip-1.11.4/regress/extra_field_align_3-ef_00.zip
+libzip-1.11.4/regress/extra_field_align_3-ef_ff.zip
+libzip-1.11.4/regress/extra_field_align_3-ff.zip
+libzip-1.11.4/regress/extra_field_align_4-ff.zip
+libzip-1.11.4/regress/extra_get.test
+libzip-1.11.4/regress/extra_get_by_id.test
+libzip-1.11.4/regress/extra_set.test
+libzip-1.11.4/regress/extra_set_modify_c.test
+libzip-1.11.4/regress/extra_set_modify_l.test
+libzip-1.11.4/regress/fdopen_ok.test
+libzip-1.11.4/regress/file_comment_encmismatch.test
+libzip-1.11.4/regress/filename_duplicate.zip
+libzip-1.11.4/regress/filename_duplicate_empty.zip
+libzip-1.11.4/regress/filename_empty.zip
+libzip-1.11.4/regress/fileorder.zip
+libzip-1.11.4/regress/firstsecond-split-deflated.zip
+libzip-1.11.4/regress/firstsecond-split-stored.zip
+libzip-1.11.4/regress/firstsecond.zip
+libzip-1.11.4/regress/foo-stored.zip
+libzip-1.11.4/regress/fopen_multiple.test
+libzip-1.11.4/regress/fopen_multiple_reopen.test
+libzip-1.11.4/regress/fopen_unchanged.c
+libzip-1.11.4/regress/fopen_unchanged.test
+libzip-1.11.4/regress/fread.c
+libzip-1.11.4/regress/fread.test
+libzip-1.11.4/regress/fseek.c
+libzip-1.11.4/regress/fseek_deflated.test
+libzip-1.11.4/regress/fseek_fail.test
+libzip-1.11.4/regress/fseek_ok.test
+libzip-1.11.4/regress/gap-add.zip
+libzip-1.11.4/regress/gap-delete.zip
+libzip-1.11.4/regress/gap-replace.zip
+libzip-1.11.4/regress/gap.zip
+libzip-1.11.4/regress/get_comment.test
+libzip-1.11.4/regress/get_comment_long.test
+libzip-1.11.4/regress/hmac-error.test
+libzip-1.11.4/regress/hmac-error.zip
+libzip-1.11.4/regress/hole.c
+libzip-1.11.4/regress/incons-archive-comment-longer.zip
+libzip-1.11.4/regress/incons-archive-comment-shorter.zip
+libzip-1.11.4/regress/incons-cdoffset.zip
+libzip-1.11.4/regress/incons-cdsize-large.zip
+libzip-1.11.4/regress/incons-cdsize-small.zip
+libzip-1.11.4/regress/incons-central-compression-method.zip
+libzip-1.11.4/regress/incons-central-compsize-larger-toolarge.zip
+libzip-1.11.4/regress/incons-central-compsize-larger.zip
+libzip-1.11.4/regress/incons-central-compsize-smaller.zip
+libzip-1.11.4/regress/incons-central-crc.zip
+libzip-1.11.4/regress/incons-central-date.zip
+libzip-1.11.4/regress/incons-central-file-comment-longer.zip
+libzip-1.11.4/regress/incons-central-file-comment-shorter.zip
+libzip-1.11.4/regress/incons-central-file-comment-utf8-ascii.zip
+libzip-1.11.4/regress/incons-central-magic-bad.zip
+libzip-1.11.4/regress/incons-central-magic-bad2.zip
+libzip-1.11.4/regress/incons-central-size-larger.zip
+libzip-1.11.4/regress/incons-data.zip
+libzip-1.11.4/regress/incons-ef-central-size-wrong.zip
+libzip-1.11.4/regress/incons-ef-local-dupe-utf8comment.zip
+libzip-1.11.4/regress/incons-ef-local-dupe-utf8name.zip
+libzip-1.11.4/regress/incons-ef-local-dupe-zip64-v1.zip
+libzip-1.11.4/regress/incons-ef-local-dupe-zip64-v2.zip
+libzip-1.11.4/regress/incons-ef-local-id-size.zip
+libzip-1.11.4/regress/incons-ef-local-id.zip
+libzip-1.11.4/regress/incons-ef-local-size.zip
+libzip-1.11.4/regress/incons-ef-local-utf8name-ascii.zip
+libzip-1.11.4/regress/incons-eocd-magic-bad.zip
+libzip-1.11.4/regress/incons-eocd64.zip
+libzip-1.11.4/regress/incons-file-count-high.zip
+libzip-1.11.4/regress/incons-file-count-low.zip
+libzip-1.11.4/regress/incons-file-count-overflow.zip
+libzip-1.11.4/regress/incons-gap-before-cd.zip
+libzip-1.11.4/regress/incons-gap-before-eocd.zip
+libzip-1.11.4/regress/incons-gap-before-local.zip
+libzip-1.11.4/regress/incons-local-compression-method.zip
+libzip-1.11.4/regress/incons-local-compsize-larger.zip
+libzip-1.11.4/regress/incons-local-compsize-smaller.zip
+libzip-1.11.4/regress/incons-local-crc.zip
+libzip-1.11.4/regress/incons-local-filename-long.zip
+libzip-1.11.4/regress/incons-local-filename-missing.zip
+libzip-1.11.4/regress/incons-local-filename-nil-byte.zip
+libzip-1.11.4/regress/incons-local-filename-short.zip
+libzip-1.11.4/regress/incons-local-filename.zip
+libzip-1.11.4/regress/incons-local-magic-bad.zip
+libzip-1.11.4/regress/incons-local-size-larger.zip
+libzip-1.11.4/regress/incons-stored-size.zip
+libzip-1.11.4/regress/incons-streamed-2.zip
+libzip-1.11.4/regress/incons-streamed.zip
+libzip-1.11.4/regress/incons-trailing-garbage.zip
+libzip-1.11.4/regress/junk-at-end.zip
+libzip-1.11.4/regress/junk-at-start.zip
+libzip-1.11.4/regress/junk_at_end.test
+libzip-1.11.4/regress/junk_at_start.test
+libzip-1.11.4/regress/large-uncompressible
+libzip-1.11.4/regress/liboverride-test.c
+libzip-1.11.4/regress/liboverride.c
+libzip-1.11.4/regress/lzma-no-eos.zip
+libzip-1.11.4/regress/malloc.c
+libzip-1.11.4/regress/manyfiles-zip.zip
+libzip-1.11.4/regress/mtime-default.zip
+libzip-1.11.4/regress/mtime-dstpoint-deflated.zip
+libzip-1.11.4/regress/mtime-dstpoint.test
+libzip-1.11.4/regress/mtime-dstpoint.zip
+libzip-1.11.4/regress/mtime-post-dstpoint-deflated.zip
+libzip-1.11.4/regress/mtime-post-dstpoint.test
+libzip-1.11.4/regress/mtime-post-dstpoint.zip
+libzip-1.11.4/regress/mtime-pre-dstpoint-deflated.zip
+libzip-1.11.4/regress/mtime-pre-dstpoint.test
+libzip-1.11.4/regress/mtime-pre-dstpoint.zip
+libzip-1.11.4/regress/multidisk.zip
+libzip-1.11.4/regress/name_locate-cp437.test
+libzip-1.11.4/regress/name_locate-utf8.test
+libzip-1.11.4/regress/name_locate.test
+libzip-1.11.4/regress/nihtest.conf.in
+libzip-1.11.4/regress/nonrandomopen.c
+libzip-1.11.4/regress/nonrandomopentest.c
+libzip-1.11.4/regress/open_archive_comment_wrong.test
+libzip-1.11.4/regress/open_cons_extrabytes.test
+libzip-1.11.4/regress/open_empty.test
+libzip-1.11.4/regress/open_empty_2.test
+libzip-1.11.4/regress/open_extrabytes.test
+libzip-1.11.4/regress/open_file_count.test
+libzip-1.11.4/regress/open_filename_duplicate.test
+libzip-1.11.4/regress/open_filename_duplicate_consistency.test
+libzip-1.11.4/regress/open_filename_duplicate_empty.test
+libzip-1.11.4/regress/open_filename_duplicate_empty_consistency.test
+libzip-1.11.4/regress/open_filename_empty.test
+libzip-1.11.4/regress/open_incons.test
+libzip-1.11.4/regress/open_many_fail.test
+libzip-1.11.4/regress/open_many_ok.test
+libzip-1.11.4/regress/open_multidisk.test
+libzip-1.11.4/regress/open_new_but_exists.test
+libzip-1.11.4/regress/open_new_ok.test
+libzip-1.11.4/regress/open_nonarchive.test
+libzip-1.11.4/regress/open_nosuchfile.test
+libzip-1.11.4/regress/open_ok.test
+libzip-1.11.4/regress/open_too_short.test
+libzip-1.11.4/regress/open_truncate.test
+libzip-1.11.4/regress/open_truncated.test
+libzip-1.11.4/regress/open_zip64_3mf.test
+libzip-1.11.4/regress/open_zip64_ok.test
+libzip-1.11.4/regress/preload.test
+libzip-1.11.4/regress/progress.test
+libzip-1.11.4/regress/read_incons.test
+libzip-1.11.4/regress/read_seek_read.test
+libzip-1.11.4/regress/rename_ascii.test
+libzip-1.11.4/regress/rename_cp437.test
+libzip-1.11.4/regress/rename_deleted.test
+libzip-1.11.4/regress/rename_fail.test
+libzip-1.11.4/regress/rename_ok.test
+libzip-1.11.4/regress/rename_ok.zip
+libzip-1.11.4/regress/rename_utf8.test
+libzip-1.11.4/regress/rename_utf8_encmismatch.test
+libzip-1.11.4/regress/reopen.test
+libzip-1.11.4/regress/reopen_partial.test
+libzip-1.11.4/regress/reopen_partial_rest.test
+libzip-1.11.4/regress/replace_set_stored.test
+libzip-1.11.4/regress/set_comment_all.test
+libzip-1.11.4/regress/set_comment_localonly.test
+libzip-1.11.4/regress/set_comment_removeglobal.test
+libzip-1.11.4/regress/set_comment_revert.test
+libzip-1.11.4/regress/set_compression_bzip2_to_deflate.test
+libzip-1.11.4/regress/set_compression_deflate_to_bzip2.test
+libzip-1.11.4/regress/set_compression_deflate_to_deflate.test
+libzip-1.11.4/regress/set_compression_deflate_to_store.test
+libzip-1.11.4/regress/set_compression_lzma_no_eos_to_store.test
+libzip-1.11.4/regress/set_compression_lzma_to_store.test
+libzip-1.11.4/regress/set_compression_store_to_bzip2.test
+libzip-1.11.4/regress/set_compression_store_to_deflate.test
+libzip-1.11.4/regress/set_compression_store_to_lzma.test
+libzip-1.11.4/regress/set_compression_store_to_store.test
+libzip-1.11.4/regress/set_compression_store_to_xz.test
+libzip-1.11.4/regress/set_compression_store_to_zstd.test
+libzip-1.11.4/regress/set_compression_unknown.test
+libzip-1.11.4/regress/set_compression_xz_to_store.test
+libzip-1.11.4/regress/set_compression_zstd_to_store.test
+libzip-1.11.4/regress/set_file_dostime.test
+libzip-1.11.4/regress/set_file_mtime.test
+libzip-1.11.4/regress/set_file_mtime_pkware.test
+libzip-1.11.4/regress/short
+libzip-1.11.4/regress/source_hole.c
+libzip-1.11.4/regress/stat_index_cp437_guess.test
+libzip-1.11.4/regress/stat_index_cp437_raw.test
+libzip-1.11.4/regress/stat_index_cp437_strict.test
+libzip-1.11.4/regress/stat_index_fileorder.test
+libzip-1.11.4/regress/stat_index_streamed.test
+libzip-1.11.4/regress/stat_index_streamed_zip64.test
+libzip-1.11.4/regress/stat_index_utf8_guess.test
+libzip-1.11.4/regress/stat_index_utf8_raw.test
+libzip-1.11.4/regress/stat_index_utf8_strict.test
+libzip-1.11.4/regress/stat_index_utf8_unmarked_strict.test
+libzip-1.11.4/regress/stat_index_zip64.test
+libzip-1.11.4/regress/stored-no-eos.zip
+libzip-1.11.4/regress/streamed-zip64.zip
+libzip-1.11.4/regress/streamed.zip
+libzip-1.11.4/regress/test-cp437-comment-utf-8.zip
+libzip-1.11.4/regress/test-cp437-fc-utf-8-filename.zip
+libzip-1.11.4/regress/test-cp437-fc.zip
+libzip-1.11.4/regress/test-cp437.zip
+libzip-1.11.4/regress/test-utf8-unmarked.zip
+libzip-1.11.4/regress/test-utf8.zip
+libzip-1.11.4/regress/test.zip
+libzip-1.11.4/regress/test2.zip
+libzip-1.11.4/regress/test_open_multiple.zip
+libzip-1.11.4/regress/testbuffer.zip
+libzip-1.11.4/regress/testbuffer_reopen.zip
+libzip-1.11.4/regress/testbzip2.zip
+libzip-1.11.4/regress/testchanged.zip
+libzip-1.11.4/regress/testchangedlocal.zip
+libzip-1.11.4/regress/testcomment.zip
+libzip-1.11.4/regress/testcomment13.zip
+libzip-1.11.4/regress/testcommentremoved.zip
+libzip-1.11.4/regress/testdeflated.zip
+libzip-1.11.4/regress/testdeflated2.zip
+libzip-1.11.4/regress/testdir.zip
+libzip-1.11.4/regress/testempty.zip
+libzip-1.11.4/regress/testextrabytes.zip
+libzip-1.11.4/regress/testfile-UTF8.zip
+libzip-1.11.4/regress/testfile-cp437.zip
+libzip-1.11.4/regress/testfile-ef.zip
+libzip-1.11.4/regress/testfile-long-comment.zip
+libzip-1.11.4/regress/testfile-lzma.zip
+libzip-1.11.4/regress/testfile-plus-extra.zip
+libzip-1.11.4/regress/testfile-stored-dos.zip
+libzip-1.11.4/regress/testfile-torrentzip-modified.zip
+libzip-1.11.4/regress/testfile-torrentzip.zip
+libzip-1.11.4/regress/testfile-truncated.zip
+libzip-1.11.4/regress/testfile-xz.zip
+libzip-1.11.4/regress/testfile-zstd.zip
+libzip-1.11.4/regress/testfile.txt
+libzip-1.11.4/regress/testfile.zip
+libzip-1.11.4/regress/testfile0.zip
+libzip-1.11.4/regress/testfile2014.zip
+libzip-1.11.4/regress/teststdin.zip
+libzip-1.11.4/regress/teststored.zip
+libzip-1.11.4/regress/truncate_empty_keep.test
+libzip-1.11.4/regress/tryopen.c
+libzip-1.11.4/regress/unchange-delete-namelocate.test
+libzip-1.11.4/regress/utf-8-standardization-input.zip
+libzip-1.11.4/regress/utf-8-standardization-output.zip
+libzip-1.11.4/regress/utf-8-standardization.test
+libzip-1.11.4/regress/want_torrentzip_stat.test
+libzip-1.11.4/regress/zip-in-archive-comment.test
+libzip-1.11.4/regress/zip-in-archive-comment.zip
+libzip-1.11.4/regress/zip64-3mf.zip
+libzip-1.11.4/regress/zip64-in-archive-comment.test
+libzip-1.11.4/regress/zip64-in-archive-comment.zip
+libzip-1.11.4/regress/zip64.zip
+libzip-1.11.4/regress/zip64_creation.test
+libzip-1.11.4/regress/zip64_stored_creation.test
+libzip-1.11.4/regress/zipcmp_zip_dir.test
+libzip-1.11.4/regress/zipcmp_zip_dir.zip
+libzip-1.11.4/regress/zipcmp_zip_dir_slash.test
+libzip-1.11.4/regress/ziptool_regress.c
+libzip-1.11.4/src/
+libzip-1.11.4/src/CMakeLists.txt
+libzip-1.11.4/src/diff_output.c
+libzip-1.11.4/src/diff_output.h
+libzip-1.11.4/src/getopt.c
+libzip-1.11.4/src/getopt.h
+libzip-1.11.4/src/zipcmp.c
+libzip-1.11.4/src/zipmerge.c
+libzip-1.11.4/src/ziptool.c
+libzip-1.11.4/vcpkg.json
+libzip-1.11.4/zipconf.h.in
+-- The C compiler identification is GNU 15.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Looking for include file CommonCrypto/CommonCrypto.h
+-- Looking for include file CommonCrypto/CommonCrypto.h - not found
+-- Found PkgConfig: /usr/bin/pkg-config (found version "2.5.1")
+-- Found Nettle: /usr/lib/libnettle.so (found suitable version "3.10.2", minimum required is "3.0")
+-- Found GnuTLS: /usr/lib/libgnutls.so (found version "3.8.10")
+-- Could NOT find MbedTLS (missing: MbedTLS_INCLUDE_DIR) (Required is at least version "1.0")
+-- Found OpenSSL: /usr/lib/libcrypto.so (found version "3.6.0")
+-- Looking for _close
+-- Looking for _close - not found
+-- Looking for _dup
+-- Looking for _dup - not found
+-- Looking for _fdopen
+-- Looking for _fdopen - not found
+-- Looking for _fileno
+-- Looking for _fileno - not found
+-- Looking for _fseeki64
+-- Looking for _fseeki64 - not found
+-- Looking for _fstat64
+-- Looking for _fstat64 - not found
+-- Looking for _setmode
+-- Looking for _setmode - not found
+-- Looking for _stat64
+-- Looking for _stat64 - not found
+-- Looking for _snprintf
+-- Looking for _snprintf - not found
+-- Looking for _snprintf_s
+-- Looking for _snprintf_s - not found
+-- Looking for _snwprintf_s
+-- Looking for _snwprintf_s - not found
+-- Looking for _strdup
+-- Looking for _strdup - not found
+-- Looking for _stricmp
+-- Looking for _stricmp - not found
+-- Looking for _strtoi64
+-- Looking for _strtoi64 - not found
+-- Looking for _strtoui64
+-- Looking for _strtoui64 - not found
+-- Looking for _unlink
+-- Looking for _unlink - not found
+-- Looking for arc4random
+-- Looking for arc4random - found
+-- Looking for clonefile
+-- Looking for clonefile - not found
+-- Looking for explicit_bzero
+-- Looking for explicit_bzero - found
+-- Looking for explicit_memset
+-- Looking for explicit_memset - not found
+-- Looking for fchmod
+-- Looking for fchmod - found
+-- Looking for fileno
+-- Looking for fileno - found
+-- Looking for fseeko
+-- Looking for fseeko - found
+-- Looking for ftello
+-- Looking for ftello - found
+-- Looking for getprogname
+-- Looking for getprogname - not found
+-- Looking for GetSecurityInfo
+-- Looking for GetSecurityInfo - not found
+-- Looking for localtime_r
+-- Looking for localtime_r - found
+-- Looking for localtime_s
+-- Looking for localtime_s - not found
+-- Looking for memcpy_s
+-- Looking for memcpy_s - not found
+-- Looking for random
+-- Looking for random - found
+-- Looking for setmode
+-- Looking for setmode - not found
+-- Looking for snprintf
+-- Looking for snprintf - found
+-- Looking for snprintf_s
+-- Looking for snprintf_s - not found
+-- Looking for strcasecmp
+-- Looking for strcasecmp - found
+-- Looking for strdup
+-- Looking for strdup - found
+-- Looking for strerror_s
+-- Looking for strerror_s - not found
+-- Looking for strerrorlen_s
+-- Looking for strerrorlen_s - not found
+-- Looking for stricmp
+-- Looking for stricmp - not found
+-- Looking for strncpy_s
+-- Looking for strncpy_s - not found
+-- Looking for strtoll
+-- Looking for strtoll - found
+-- Looking for strtoull
+-- Looking for strtoull - found
+-- Looking for 3 include files sys/types.h, ..., fts.h
+-- Looking for 3 include files sys/types.h, ..., fts.h - found
+-- Looking for fts_open
+-- Looking for fts_open - found
+-- Looking for include file stdbool.h
+-- Looking for include file stdbool.h - found
+-- Looking for include file strings.h
+-- Looking for include file strings.h - found
+-- Looking for include file unistd.h
+-- Looking for include file unistd.h - found
+-- Looking for include file inttypes.h
+-- Looking for include file inttypes.h - found
+-- Looking for include file stdint.h
+-- Looking for include file stdint.h - found
+-- Looking for include file sys/types.h
+-- Looking for include file sys/types.h - found
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of __int8
+-- Check size of __int8 - failed
+-- Check size of int8_t
+-- Check size of int8_t - done
+-- Check size of uint8_t
+-- Check size of uint8_t - done
+-- Check size of __int16
+-- Check size of __int16 - failed
+-- Check size of int16_t
+-- Check size of int16_t - done
+-- Check size of uint16_t
+-- Check size of uint16_t - done
+-- Check size of __int32
+-- Check size of __int32 - failed
+-- Check size of int32_t
+-- Check size of int32_t - done
+-- Check size of uint32_t
+-- Check size of uint32_t - done
+-- Check size of __int64
+-- Check size of __int64 - failed
+-- Check size of int64_t
+-- Check size of int64_t - done
+-- Check size of uint64_t
+-- Check size of uint64_t - done
+-- Check size of short
+-- Check size of short - done
+-- Check size of int
+-- Check size of int - done
+-- Check size of long
+-- Check size of long - done
+-- Check size of long long
+-- Check size of long long - done
+-- Check size of off_t
+-- Check size of off_t - done
+-- Check size of size_t
+-- Check size of size_t - done
+-- Performing Test HAVE_FICLONERANGE
+-- Performing Test HAVE_FICLONERANGE - Success
+-- Found ZLIB: /usr/lib/libz.so (found suitable version "1.3.1", minimum required is "1.1.2")
+-- Found BZip2: /usr/lib/libbz2.so (found version "1.0.8")
+-- Looking for BZ2_bzCompressInit
+-- Looking for BZ2_bzCompressInit - found
+-- Looking for lzma_auto_decoder in /usr/lib/liblzma.so
+-- Looking for lzma_auto_decoder in /usr/lib/liblzma.so - found
+-- Looking for lzma_easy_encoder in /usr/lib/liblzma.so
+-- Looking for lzma_easy_encoder in /usr/lib/liblzma.so - found
+-- Looking for lzma_lzma_preset in /usr/lib/liblzma.so
+-- Looking for lzma_lzma_preset in /usr/lib/liblzma.so - found
+-- Found LibLZMA: /usr/lib/liblzma.so (found suitable version "5.8.1", minimum required is "5.2")
+-- Found zstd: /usr/lib/libzstd.so (Required is at least version "1.4.0")
+-- Looking for getopt
+-- Looking for getopt - found
+CMake Warning at CMakeLists.txt:323 (message):
+  -- nihtest not found, regression testing disabled
+
+
+-- Configuring done (6.2s)
+-- Generating done (0.1s)
+-- Build files have been written to: /blfs/builds/libzip-1.11.4/build
+[  1%] Generating zip_err_str.c
+[  1%] Preparing ZIP_SOURCE_GET_ARGS.3
+[  1%] Preparing zip.5
+[  1%] Preparing zip_close.3
+[  1%] Preparing libzip.3
+[  3%] Preparing zip_add.3
+[  3%] Preparing zip_add_dir.3
+[  3%] Preparing zip_compression_method_supported.3
+[  3%] Preparing zip_delete.3
+[  5%] Preparing zip_dir_add.3
+[  5%] Preparing zip_discard.3
+[  5%] Preparing zip_encryption_method_supported.3
+[  5%] Preparing zip_error.5
+[  5%] Building C object lib/CMakeFiles/zip.dir/zip_add.c.o
+[  5%] Building C object lib/CMakeFiles/zip.dir/zip_add_entry.c.o
+[  5%] Building C object lib/CMakeFiles/zip.dir/zip_algorithm_deflate.c.o
+[  7%] Preparing zip_error_clear.3
+[  7%] Building C object lib/CMakeFiles/zip.dir/zip_add_dir.c.o
+[  7%] Preparing zip_error_code_system.3
+[  9%] Building C object lib/CMakeFiles/zip.dir/zip_buffer.c.o
+[  9%] Preparing zip_error_code_zip.3
+[  9%] Building C object lib/CMakeFiles/zip.dir/zip_close.c.o
+[  9%] Preparing zip_error_fini.3
+[ 10%] Preparing zip_error_get_sys_type.3
+[ 10%] Preparing zip_error_get.3
+[ 10%] Preparing zip_error_init.3
+[ 10%] Building C object lib/CMakeFiles/zip.dir/zip_delete.c.o
+[ 10%] Building C object lib/CMakeFiles/zip.dir/zip_dir_add.c.o
+[ 10%] Preparing zip_error_set.3
+[ 10%] Preparing zip_error_set_from_source.3
+[ 12%] Building C object lib/CMakeFiles/zip.dir/zip_dirent.c.o
+[ 12%] Preparing zip_error_strerror.3
+[ 12%] Building C object lib/CMakeFiles/zip.dir/zip_discard.c.o
+[ 12%] Building C object lib/CMakeFiles/zip.dir/zip_entry.c.o
+[ 14%] Preparing zip_error_system_type.3
+[ 14%] Preparing zip_error_to_data.3
+[ 14%] Preparing zip_error_to_str.3
+[ 14%] Preparing zip_errors.3
+[ 14%] Preparing zip_fclose.3
+[ 14%] Building C object lib/CMakeFiles/zip.dir/zip_error.c.o
+[ 14%] Preparing zip_file.5
+[ 16%] Preparing zip_fdopen.3
+[ 16%] Preparing zip_file_add.3
+[ 16%] Preparing zip_file_attributes_init.3
+[ 16%] Building C object lib/CMakeFiles/zip.dir/zip_error_clear.c.o
+[ 18%] Building C object lib/CMakeFiles/zip.dir/zip_error_get.c.o
+[ 20%] Preparing zip_file_extra_field_delete.3
+[ 20%] Preparing zip_file_extra_field_get.3
+[ 20%] Building C object lib/CMakeFiles/zip.dir/zip_error_get_sys_type.c.o
+[ 20%] Preparing zip_file_extra_fields_count.3
+[ 20%] Preparing zip_file_get_comment.3
+[ 20%] Preparing zip_file_extra_field_set.3
+[ 21%] Preparing zip_file_get_error.3
+[ 21%] Building C object lib/CMakeFiles/zip.dir/zip_error_strerror.c.o
+[ 21%] Building C object lib/CMakeFiles/zip.dir/zip_extra_field.c.o
+[ 21%] Building C object lib/CMakeFiles/zip.dir/zip_error_to_str.c.o
+[ 21%] Preparing zip_file_get_external_attributes.3
+[ 21%] Preparing zip_file_rename.3
+[ 21%] Preparing zip_file_set_comment.3
+[ 23%] Preparing zip_file_set_external_attributes.3
+[ 23%] Preparing zip_file_set_mtime.3
+[ 23%] Preparing zip_file_set_encryption.3
+[ 25%] Building C object lib/CMakeFiles/zip.dir/zip_extra_field_api.c.o
+[ 25%] Preparing zip_file_strerror.3
+[ 25%] Preparing zip_fopen.3
+[ 25%] Building C object lib/CMakeFiles/zip.dir/zip_fclose.c.o
+[ 25%] Building C object lib/CMakeFiles/zip.dir/zip_fdopen.c.o
+[ 25%] Building C object lib/CMakeFiles/zip.dir/zip_file_add.c.o
+[ 27%] Preparing zip_fopen_encrypted.3
+[ 29%] Building C object lib/CMakeFiles/zip.dir/zip_file_error_clear.c.o
+[ 29%] Preparing zip_fread.3
+[ 29%] Building C object lib/CMakeFiles/zip.dir/zip_file_error_get.c.o
+[ 29%] Preparing zip_fseek.3
+[ 29%] Preparing zip_ftell.3
+[ 29%] Preparing zip_get_archive_comment.3
+[ 30%] Building C object lib/CMakeFiles/zip.dir/zip_file_get_comment.c.o
+[ 30%] Preparing zip_get_archive_flag.3
+[ 30%] Preparing zip_get_error.3
+[ 30%] Preparing zip_get_file_comment.3
+[ 30%] Preparing zip_get_name.3
+[ 30%] Preparing zip_get_num_entries.3
+[ 32%] Preparing zip_get_num_files.3
+[ 32%] Building C object lib/CMakeFiles/zip.dir/zip_file_get_external_attributes.c.o
+[ 32%] Preparing zip_libzip_version.3
+[ 32%] Building C object lib/CMakeFiles/zip.dir/zip_file_get_offset.c.o
+[ 34%] Building C object lib/CMakeFiles/zip.dir/zip_file_rename.c.o
+[ 34%] Building C object lib/CMakeFiles/zip.dir/zip_file_replace.c.o
+[ 34%] Preparing zip_name_locate.3
+[ 34%] Preparing zip_open.3
+[ 34%] Preparing zip_register_cancel_callback_with_state.3
+[ 36%] Preparing zip_register_progress_callback.3
+[ 36%] Preparing zip_register_progress_callback_with_state.3
+[ 36%] Building C object lib/CMakeFiles/zip.dir/zip_file_set_comment.c.o
+[ 36%] Preparing zip_rename.3
+[ 36%] Building C object lib/CMakeFiles/zip.dir/zip_file_set_encryption.c.o
+[ 36%] Preparing zip_set_archive_comment.3
+[ 36%] Building C object lib/CMakeFiles/zip.dir/zip_file_set_external_attributes.c.o
+[ 38%] Preparing zip_set_archive_flag.3
+[ 38%] Building C object lib/CMakeFiles/zip.dir/zip_file_strerror.c.o
+[ 40%] Building C object lib/CMakeFiles/zip.dir/zip_file_set_mtime.c.o
+[ 40%] Preparing zip_set_default_password.3
+[ 40%] Building C object lib/CMakeFiles/zip.dir/zip_fopen.c.o
+[ 40%] Building C object lib/CMakeFiles/zip.dir/zip_fopen_encrypted.c.o
+[ 40%] Preparing zip_set_file_comment.3
+[ 40%] Preparing zip_set_file_compression.3
+[ 40%] Preparing zip_source.5
+[ 41%] Preparing zip_source_begin_write.3
+[ 41%] Preparing zip_source_buffer.3
+[ 41%] Preparing zip_source_buffer_fragment.3
+[ 41%] Preparing zip_source_close.3
+[ 41%] Building C object lib/CMakeFiles/zip.dir/zip_fopen_index.c.o
+[ 43%] Building C object lib/CMakeFiles/zip.dir/zip_fopen_index_encrypted.c.o
+[ 43%] Preparing zip_source_commit_write.3
+[ 45%] Preparing zip_source_error.3
+[ 45%] Building C object lib/CMakeFiles/zip.dir/zip_fread.c.o
+[ 45%] Building C object lib/CMakeFiles/zip.dir/zip_fseek.c.o
+[ 45%] Preparing zip_source_file.3
+[ 45%] Building C object lib/CMakeFiles/zip.dir/zip_ftell.c.o
+[ 45%] Preparing zip_source_filep.3
+[ 47%] Preparing zip_source_free.3
+[ 47%] Preparing zip_source_function.3
+[ 49%] Building C object lib/CMakeFiles/zip.dir/zip_get_archive_comment.c.o
+[ 49%] Building C object lib/CMakeFiles/zip.dir/zip_get_archive_flag.c.o
+[ 49%] Building C object lib/CMakeFiles/zip.dir/zip_get_encryption_implementation.c.o
+[ 49%] Preparing zip_source_is_deleted.3
+[ 49%] Building C object lib/CMakeFiles/zip.dir/zip_get_file_comment.c.o
+[ 49%] Preparing zip_source_layered.3
+[ 49%] Preparing zip_source_is_seekable.3
+[ 49%] Building C object lib/CMakeFiles/zip.dir/zip_get_name.c.o
+[ 49%] Preparing zip_source_keep.3
+[ 50%] Building C object lib/CMakeFiles/zip.dir/zip_get_num_entries.c.o
+[ 50%] Building C object lib/CMakeFiles/zip.dir/zip_get_num_files.c.o
+[ 52%] Preparing zip_source_make_command_bitmap.3
+[ 52%] Building C object lib/CMakeFiles/zip.dir/zip_hash.c.o
+[ 52%] Preparing zip_source_open.3
+[ 52%] Building C object lib/CMakeFiles/zip.dir/zip_io_util.c.o
+[ 52%] Building C object lib/CMakeFiles/zip.dir/zip_libzip_version.c.o
+[ 52%] Preparing zip_source_read.3
+[ 52%] Preparing zip_source_rollback_write.3
+[ 54%] Building C object lib/CMakeFiles/zip.dir/zip_memdup.c.o
+[ 54%] Preparing zip_source_seek.3
+[ 56%] Preparing zip_source_seek_compute_offset.3
+[ 56%] Preparing zip_source_stat.3
+[ 56%] Preparing zip_source_seek_write.3
+[ 56%] Building C object lib/CMakeFiles/zip.dir/zip_name_locate.c.o
+[ 56%] Building C object lib/CMakeFiles/zip.dir/zip_new.c.o
+[ 56%] Preparing zip_source_tell.3
+[ 56%] Preparing zip_source_tell_write.3
+[ 56%] Building C object lib/CMakeFiles/zip.dir/zip_open.c.o
+[ 58%] Preparing zip_source_win32a.3
+[ 58%] Building C object lib/CMakeFiles/zip.dir/zip_pkware.c.o
+[ 58%] Preparing zip_source_win32handle.3
+[ 58%] Preparing zip_source_win32w.3
+[ 60%] Preparing zip_source_write.3
+[ 60%] Preparing zip_source_window_create.3
+[ 60%] Preparing zip_source_zip.3
+[ 60%] Preparing zip_source_zip_file.3
+[ 60%] Preparing zip_stat.3
+[ 60%] Preparing zip_stat_init.3
+[ 61%] Building C object lib/CMakeFiles/zip.dir/zip_progress.c.o
+[ 63%] Preparing zip_unchange.3
+[ 63%] Building C object lib/CMakeFiles/zip.dir/zip_realloc.c.o
+[ 63%] Preparing zip_unchange_all.3
+[ 63%] Preparing zip_unchange_archive.3
+[ 63%] Building C object lib/CMakeFiles/zip.dir/zip_rename.c.o
+[ 63%] Preparing zipcmp.1
+[ 63%] Preparing zipmerge.1
+[ 65%] Preparing ziptool.1
+[ 65%] Building C object lib/CMakeFiles/zip.dir/zip_replace.c.o
+[ 67%] Building C object lib/CMakeFiles/zip.dir/zip_set_archive_comment.c.o
+[ 67%] Building C object lib/CMakeFiles/zip.dir/zip_set_archive_flag.c.o
+[ 67%] Built target man
+[ 67%] Building C object lib/CMakeFiles/zip.dir/zip_set_default_password.c.o
+[ 67%] Building C object lib/CMakeFiles/zip.dir/zip_set_file_comment.c.o
+[ 67%] Building C object lib/CMakeFiles/zip.dir/zip_set_file_compression.c.o
+[ 69%] Building C object lib/CMakeFiles/zip.dir/zip_set_name.c.o
+[ 69%] Building C object lib/CMakeFiles/zip.dir/zip_source_accept_empty.c.o
+[ 69%] Building C object lib/CMakeFiles/zip.dir/zip_source_begin_write.c.o
+[ 69%] Building C object lib/CMakeFiles/zip.dir/zip_source_begin_write_cloning.c.o
+[ 69%] Building C object lib/CMakeFiles/zip.dir/zip_source_buffer.c.o
+[ 70%] Building C object lib/CMakeFiles/zip.dir/zip_source_call.c.o
+[ 70%] Building C object lib/CMakeFiles/zip.dir/zip_source_close.c.o
+[ 70%] Building C object lib/CMakeFiles/zip.dir/zip_source_commit_write.c.o
+[ 70%] Building C object lib/CMakeFiles/zip.dir/zip_source_compress.c.o
+[ 72%] Building C object lib/CMakeFiles/zip.dir/zip_source_crc.c.o
+[ 72%] Building C object lib/CMakeFiles/zip.dir/zip_source_error.c.o
+[ 72%] Building C object lib/CMakeFiles/zip.dir/zip_source_file_common.c.o
+[ 72%] Building C object lib/CMakeFiles/zip.dir/zip_source_file_stdio.c.o
+[ 72%] Building C object lib/CMakeFiles/zip.dir/zip_source_free.c.o
+[ 74%] Building C object lib/CMakeFiles/zip.dir/zip_source_function.c.o
+[ 74%] Building C object lib/CMakeFiles/zip.dir/zip_source_get_dostime.c.o
+[ 74%] Building C object lib/CMakeFiles/zip.dir/zip_source_get_file_attributes.c.o
+[ 74%] Building C object lib/CMakeFiles/zip.dir/zip_source_is_deleted.c.o
+[ 74%] Building C object lib/CMakeFiles/zip.dir/zip_source_layered.c.o
+[ 76%] Building C object lib/CMakeFiles/zip.dir/zip_source_pass_to_lower_layer.c.o
+[ 76%] Building C object lib/CMakeFiles/zip.dir/zip_source_open.c.o
+[ 76%] Building C object lib/CMakeFiles/zip.dir/zip_source_pkware_decode.c.o
+[ 76%] Building C object lib/CMakeFiles/zip.dir/zip_source_pkware_encode.c.o
+[ 76%] Building C object lib/CMakeFiles/zip.dir/zip_source_read.c.o
+[ 78%] Building C object lib/CMakeFiles/zip.dir/zip_source_remove.c.o
+[ 78%] Building C object lib/CMakeFiles/zip.dir/zip_source_rollback_write.c.o
+[ 78%] Building C object lib/CMakeFiles/zip.dir/zip_source_seek.c.o
+[ 78%] Building C object lib/CMakeFiles/zip.dir/zip_source_seek_write.c.o
+[ 80%] Building C object lib/CMakeFiles/zip.dir/zip_source_stat.c.o
+[ 80%] Building C object lib/CMakeFiles/zip.dir/zip_source_supports.c.o
+[ 80%] Building C object lib/CMakeFiles/zip.dir/zip_source_tell.c.o
+[ 80%] Building C object lib/CMakeFiles/zip.dir/zip_source_tell_write.c.o
+[ 81%] Building C object lib/CMakeFiles/zip.dir/zip_source_write.c.o
+[ 81%] Building C object lib/CMakeFiles/zip.dir/zip_source_window.c.o
+[ 81%] Building C object lib/CMakeFiles/zip.dir/zip_source_zip.c.o
+[ 81%] Building C object lib/CMakeFiles/zip.dir/zip_stat.c.o
+[ 81%] Building C object lib/CMakeFiles/zip.dir/zip_source_zip_new.c.o
+[ 81%] Building C object lib/CMakeFiles/zip.dir/zip_stat_index.c.o
+[ 83%] Building C object lib/CMakeFiles/zip.dir/zip_stat_init.c.o
+[ 83%] Building C object lib/CMakeFiles/zip.dir/zip_strerror.c.o
+[ 83%] Building C object lib/CMakeFiles/zip.dir/zip_string.c.o
+[ 83%] Building C object lib/CMakeFiles/zip.dir/zip_unchange.c.o
+[ 85%] Building C object lib/CMakeFiles/zip.dir/zip_unchange_all.c.o
+[ 85%] Building C object lib/CMakeFiles/zip.dir/zip_unchange_data.c.o
+[ 85%] Building C object lib/CMakeFiles/zip.dir/zip_unchange_archive.c.o
+[ 85%] Building C object lib/CMakeFiles/zip.dir/zip_utf-8.c.o
+[ 85%] Building C object lib/CMakeFiles/zip.dir/zip_err_str.c.o
+[ 87%] Building C object lib/CMakeFiles/zip.dir/zip_source_file_stdio_named.c.o
+[ 87%] Building C object lib/CMakeFiles/zip.dir/zip_random_unix.c.o
+[ 87%] Building C object lib/CMakeFiles/zip.dir/zip_algorithm_bzip2.c.o
+[ 87%] Building C object lib/CMakeFiles/zip.dir/zip_algorithm_zstd.c.o
+[ 89%] Building C object lib/CMakeFiles/zip.dir/zip_crypto_openssl.c.o
+[ 89%] Building C object lib/CMakeFiles/zip.dir/zip_algorithm_xz.c.o
+[ 89%] Building C object lib/CMakeFiles/zip.dir/zip_winzip_aes.c.o
+[ 89%] Building C object lib/CMakeFiles/zip.dir/zip_source_winzip_aes_decode.c.o
+[ 89%] Building C object lib/CMakeFiles/zip.dir/zip_source_winzip_aes_encode.c.o
+[ 89%] Linking C shared library libzip.so
+[ 89%] Built target zip
+[ 90%] Building C object examples/CMakeFiles/add-compressed-data.dir/add-compressed-data.c.o
+[ 90%] Building C object ossfuzz/CMakeFiles/zip_read_file_fuzzer.dir/zip_read_file_fuzzer.c.o
+[ 90%] Building C object src/CMakeFiles/ziptool.dir/ziptool.c.o
+[ 90%] Building C object ossfuzz/CMakeFiles/zip_write_encrypt_aes256_file_fuzzer.dir/zip_write_encrypt_aes256_file_fuzzer.c.o
+[ 90%] Building C object ossfuzz/CMakeFiles/zip_read_fuzzer.dir/zip_read_fuzzer.c.o
+[ 90%] Building C object src/CMakeFiles/zipcmp.dir/zipcmp.c.o
+[ 92%] Building C object examples/CMakeFiles/in-memory.dir/in-memory.c.o
+[ 94%] Building C object ossfuzz/CMakeFiles/zip_write_encrypt_pkware_file_fuzzer.dir/zip_write_encrypt_pkware_file_fuzzer.c.o
+[ 94%] Building C object src/CMakeFiles/zipmerge.dir/zipmerge.c.o
+[ 94%] Building C object examples/CMakeFiles/autoclose-archive.dir/autoclose-archive.c.o
+[ 94%] Building C object ossfuzz/CMakeFiles/zip_write_encrypt_aes256_file_fuzzer.dir/fuzz_main.c.o
+[ 96%] Building C object ossfuzz/CMakeFiles/zip_read_fuzzer.dir/fuzz_main.c.o
+[ 96%] Linking C executable add-compressed-data
+[ 96%] Building C object ossfuzz/CMakeFiles/zip_write_encrypt_pkware_file_fuzzer.dir/fuzz_main.c.o
+[ 96%] Linking C executable in-memory
+[ 96%] Building C object ossfuzz/CMakeFiles/zip_read_file_fuzzer.dir/fuzz_main.c.o
+[ 96%] Linking C executable zip_write_encrypt_aes256_file_fuzzer
+[ 96%] Linking C executable zip_read_fuzzer
+[ 96%] Linking C executable autoclose-archive
+[ 96%] Built target add-compressed-data
+[ 96%] Building C object src/CMakeFiles/zipcmp.dir/diff_output.c.o
+[ 96%] Linking C executable zip_write_encrypt_pkware_file_fuzzer
+[ 96%] Built target in-memory
+[ 96%] Linking C executable zip_read_file_fuzzer
+[ 96%] Linking C executable zipmerge
+[ 96%] Built target zip_write_encrypt_aes256_file_fuzzer
+[ 96%] Built target autoclose-archive
+[ 96%] Built target zip_read_fuzzer
+[ 96%] Built target zip_write_encrypt_pkware_file_fuzzer
+[ 96%] Built target zip_read_file_fuzzer
+[ 96%] Built target zipmerge
+[ 98%] Linking C executable zipcmp
+[100%] Linking C executable ziptool
+[100%] Built target zipcmp
+[100%] Built target ziptool
+[ 47%] Built target zip
+[ 89%] Built target man
+[ 90%] Built target zipcmp
+[ 90%] Built target zipmerge
+[ 92%] Built target ziptool
+[ 94%] Built target zip_read_file_fuzzer
+[ 96%] Built target zip_read_fuzzer
+[ 96%] Built target zip_write_encrypt_aes256_file_fuzzer
+[ 98%] Built target zip_write_encrypt_pkware_file_fuzzer
+[ 98%] Built target add-compressed-data
+[ 98%] Built target autoclose-archive
+[100%] Built target in-memory
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /pkgs/libzip/usr/lib/pkgconfig/libzip.pc
+-- Installing: /pkgs/libzip/usr/lib/cmake/libzip/modules/FindNettle.cmake
+-- Installing: /pkgs/libzip/usr/lib/cmake/libzip/modules/Findzstd.cmake
+-- Installing: /pkgs/libzip/usr/lib/cmake/libzip/modules/FindMbedTLS.cmake
+-- Installing: /pkgs/libzip/usr/include/zipconf.h
+-- Installing: /pkgs/libzip/usr/lib/cmake/libzip/libzip-config.cmake
+-- Installing: /pkgs/libzip/usr/lib/cmake/libzip/libzip-config-version.cmake
+-- Installing: /pkgs/libzip/usr/lib/cmake/libzip/libzip-targets.cmake
+-- Installing: /pkgs/libzip/usr/lib/cmake/libzip/libzip-targets-release.cmake
+-- Installing: /pkgs/libzip/usr/lib/cmake/libzip/libzip-bin-targets.cmake
+-- Installing: /pkgs/libzip/usr/lib/cmake/libzip/libzip-bin-targets-release.cmake
+-- Installing: /pkgs/libzip/usr/lib/libzip.so.5.5
+-- Installing: /pkgs/libzip/usr/lib/libzip.so.5
+-- Installing: /pkgs/libzip/usr/lib/libzip.so
+-- Installing: /pkgs/libzip/usr/include/zip.h
+-- Installing: /pkgs/libzip/usr/share/man/man3/ZIP_SOURCE_GET_ARGS.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/libzip.3
+-- Installing: /pkgs/libzip/usr/share/man/man5/zip.5
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_add.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_add_dir.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_close.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_compression_method_supported.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_delete.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_dir_add.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_discard.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_encryption_method_supported.3
+-- Installing: /pkgs/libzip/usr/share/man/man5/zip_error.5
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_error_clear.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_error_code_system.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_error_code_zip.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_error_fini.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_error_get.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_error_get_sys_type.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_error_init.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_error_set.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_error_set_from_source.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_error_strerror.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_error_system_type.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_error_to_data.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_error_to_str.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_errors.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_fclose.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_fdopen.3
+-- Installing: /pkgs/libzip/usr/share/man/man5/zip_file.5
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_file_add.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_file_attributes_init.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_file_extra_field_delete.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_file_extra_field_get.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_file_extra_field_set.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_file_extra_fields_count.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_file_get_comment.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_file_get_error.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_file_get_external_attributes.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_file_rename.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_file_set_comment.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_file_set_encryption.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_file_set_external_attributes.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_file_set_mtime.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_file_strerror.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_fopen.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_fopen_encrypted.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_fread.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_fseek.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_ftell.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_get_archive_comment.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_get_archive_flag.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_get_error.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_get_file_comment.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_get_name.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_get_num_entries.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_get_num_files.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_libzip_version.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_name_locate.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_open.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_register_cancel_callback_with_state.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_register_progress_callback.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_register_progress_callback_with_state.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_rename.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_set_archive_comment.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_set_archive_flag.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_set_default_password.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_set_file_comment.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_set_file_compression.3
+-- Installing: /pkgs/libzip/usr/share/man/man5/zip_source.5
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_begin_write.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_buffer.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_buffer_fragment.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_close.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_commit_write.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_error.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_file.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_filep.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_free.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_function.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_is_deleted.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_is_seekable.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_layered.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_keep.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_make_command_bitmap.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_open.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_read.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_rollback_write.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_seek.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_seek_compute_offset.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_seek_write.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_stat.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_tell.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_tell_write.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_win32a.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_win32handle.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_win32w.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_window_create.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_write.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_zip.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_zip_file.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_stat.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_stat_init.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_unchange.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_unchange_all.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_unchange_archive.3
+-- Installing: /pkgs/libzip/usr/share/man/man1/zipcmp.1
+-- Installing: /pkgs/libzip/usr/share/man/man1/zipmerge.1
+-- Installing: /pkgs/libzip/usr/share/man/man1/ziptool.1
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_replace.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_file_error_clear.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_file_error_get.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_error_init_with_code.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_file_replace.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_file_extra_field_delete_by_id.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_file_extra_field_get_by_id.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_file_extra_fields_count_by_id.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_file_set_dostime.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_strerror.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_fopen_index.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_fopen_index_encrypted.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_file_is_seekable.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_open_from_source.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_begin_write_cloning.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_buffer_create.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_buffer_fragment_create.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_file_create.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_filep_create.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_function_create.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_layered_create.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_win32a_create.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_win32handle_create.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_win32w_create.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_zip_create.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_source_zip_file_create.3
+-- Installing: /pkgs/libzip/usr/share/man/man3/zip_stat_index.3
+-- Installing: /pkgs/libzip/usr/bin/zipcmp
+-- Set non-toolchain portion of runtime path of "/pkgs/libzip/usr/bin/zipcmp" to ""
+-- Installing: /pkgs/libzip/usr/bin/zipmerge
+-- Set non-toolchain portion of runtime path of "/pkgs/libzip/usr/bin/zipmerge" to ""
+-- Installing: /pkgs/libzip/usr/bin/ziptool
+-- Set non-toolchain portion of runtime path of "/pkgs/libzip/usr/bin/ziptool" to ""
+[ 47%] Built target zip
+[ 89%] Built target man
+[ 90%] Built target zipcmp
+[ 90%] Built target zipmerge
+[ 92%] Built target ziptool
+[ 94%] Built target zip_read_file_fuzzer
+[ 96%] Built target zip_read_fuzzer
+[ 96%] Built target zip_write_encrypt_aes256_file_fuzzer
+[ 98%] Built target zip_write_encrypt_pkware_file_fuzzer
+[ 98%] Built target add-compressed-data
+[ 98%] Built target autoclose-archive
+[100%] Built target in-memory
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /usr/lib/pkgconfig/libzip.pc
+-- Installing: /usr/lib/cmake/libzip/modules/FindNettle.cmake
+-- Installing: /usr/lib/cmake/libzip/modules/Findzstd.cmake
+-- Installing: /usr/lib/cmake/libzip/modules/FindMbedTLS.cmake
+-- Installing: /usr/include/zipconf.h
+-- Installing: /usr/lib/cmake/libzip/libzip-config.cmake
+-- Installing: /usr/lib/cmake/libzip/libzip-config-version.cmake
+-- Installing: /usr/lib/cmake/libzip/libzip-targets.cmake
+-- Installing: /usr/lib/cmake/libzip/libzip-targets-release.cmake
+-- Installing: /usr/lib/cmake/libzip/libzip-bin-targets.cmake
+-- Installing: /usr/lib/cmake/libzip/libzip-bin-targets-release.cmake
+-- Installing: /usr/lib/libzip.so.5.5
+-- Installing: /usr/lib/libzip.so.5
+-- Installing: /usr/lib/libzip.so
+-- Installing: /usr/include/zip.h
+-- Installing: /usr/share/man/man3/ZIP_SOURCE_GET_ARGS.3
+-- Installing: /usr/share/man/man3/libzip.3
+-- Installing: /usr/share/man/man5/zip.5
+-- Installing: /usr/share/man/man3/zip_add.3
+-- Installing: /usr/share/man/man3/zip_add_dir.3
+-- Installing: /usr/share/man/man3/zip_close.3
+-- Installing: /usr/share/man/man3/zip_compression_method_supported.3
+-- Installing: /usr/share/man/man3/zip_delete.3
+-- Installing: /usr/share/man/man3/zip_dir_add.3
+-- Installing: /usr/share/man/man3/zip_discard.3
+-- Installing: /usr/share/man/man3/zip_encryption_method_supported.3
+-- Installing: /usr/share/man/man5/zip_error.5
+-- Installing: /usr/share/man/man3/zip_error_clear.3
+-- Installing: /usr/share/man/man3/zip_error_code_system.3
+-- Installing: /usr/share/man/man3/zip_error_code_zip.3
+-- Installing: /usr/share/man/man3/zip_error_fini.3
+-- Installing: /usr/share/man/man3/zip_error_get.3
+-- Installing: /usr/share/man/man3/zip_error_get_sys_type.3
+-- Installing: /usr/share/man/man3/zip_error_init.3
+-- Installing: /usr/share/man/man3/zip_error_set.3
+-- Installing: /usr/share/man/man3/zip_error_set_from_source.3
+-- Installing: /usr/share/man/man3/zip_error_strerror.3
+-- Installing: /usr/share/man/man3/zip_error_system_type.3
+-- Installing: /usr/share/man/man3/zip_error_to_data.3
+-- Installing: /usr/share/man/man3/zip_error_to_str.3
+-- Installing: /usr/share/man/man3/zip_errors.3
+-- Installing: /usr/share/man/man3/zip_fclose.3
+-- Installing: /usr/share/man/man3/zip_fdopen.3
+-- Installing: /usr/share/man/man5/zip_file.5
+-- Installing: /usr/share/man/man3/zip_file_add.3
+-- Installing: /usr/share/man/man3/zip_file_attributes_init.3
+-- Installing: /usr/share/man/man3/zip_file_extra_field_delete.3
+-- Installing: /usr/share/man/man3/zip_file_extra_field_get.3
+-- Installing: /usr/share/man/man3/zip_file_extra_field_set.3
+-- Installing: /usr/share/man/man3/zip_file_extra_fields_count.3
+-- Installing: /usr/share/man/man3/zip_file_get_comment.3
+-- Installing: /usr/share/man/man3/zip_file_get_error.3
+-- Installing: /usr/share/man/man3/zip_file_get_external_attributes.3
+-- Installing: /usr/share/man/man3/zip_file_rename.3
+-- Installing: /usr/share/man/man3/zip_file_set_comment.3
+-- Installing: /usr/share/man/man3/zip_file_set_encryption.3
+-- Installing: /usr/share/man/man3/zip_file_set_external_attributes.3
+-- Installing: /usr/share/man/man3/zip_file_set_mtime.3
+-- Installing: /usr/share/man/man3/zip_file_strerror.3
+-- Installing: /usr/share/man/man3/zip_fopen.3
+-- Installing: /usr/share/man/man3/zip_fopen_encrypted.3
+-- Installing: /usr/share/man/man3/zip_fread.3
+-- Installing: /usr/share/man/man3/zip_fseek.3
+-- Installing: /usr/share/man/man3/zip_ftell.3
+-- Installing: /usr/share/man/man3/zip_get_archive_comment.3
+-- Installing: /usr/share/man/man3/zip_get_archive_flag.3
+-- Installing: /usr/share/man/man3/zip_get_error.3
+-- Installing: /usr/share/man/man3/zip_get_file_comment.3
+-- Installing: /usr/share/man/man3/zip_get_name.3
+-- Installing: /usr/share/man/man3/zip_get_num_entries.3
+-- Installing: /usr/share/man/man3/zip_get_num_files.3
+-- Installing: /usr/share/man/man3/zip_libzip_version.3
+-- Installing: /usr/share/man/man3/zip_name_locate.3
+-- Installing: /usr/share/man/man3/zip_open.3
+-- Installing: /usr/share/man/man3/zip_register_cancel_callback_with_state.3
+-- Installing: /usr/share/man/man3/zip_register_progress_callback.3
+-- Installing: /usr/share/man/man3/zip_register_progress_callback_with_state.3
+-- Installing: /usr/share/man/man3/zip_rename.3
+-- Installing: /usr/share/man/man3/zip_set_archive_comment.3
+-- Installing: /usr/share/man/man3/zip_set_archive_flag.3
+-- Installing: /usr/share/man/man3/zip_set_default_password.3
+-- Installing: /usr/share/man/man3/zip_set_file_comment.3
+-- Installing: /usr/share/man/man3/zip_set_file_compression.3
+-- Installing: /usr/share/man/man5/zip_source.5
+-- Installing: /usr/share/man/man3/zip_source_begin_write.3
+-- Installing: /usr/share/man/man3/zip_source_buffer.3
+-- Installing: /usr/share/man/man3/zip_source_buffer_fragment.3
+-- Installing: /usr/share/man/man3/zip_source_close.3
+-- Installing: /usr/share/man/man3/zip_source_commit_write.3
+-- Installing: /usr/share/man/man3/zip_source_error.3
+-- Installing: /usr/share/man/man3/zip_source_file.3
+-- Installing: /usr/share/man/man3/zip_source_filep.3
+-- Installing: /usr/share/man/man3/zip_source_free.3
+-- Installing: /usr/share/man/man3/zip_source_function.3
+-- Installing: /usr/share/man/man3/zip_source_is_deleted.3
+-- Installing: /usr/share/man/man3/zip_source_is_seekable.3
+-- Installing: /usr/share/man/man3/zip_source_layered.3
+-- Installing: /usr/share/man/man3/zip_source_keep.3
+-- Installing: /usr/share/man/man3/zip_source_make_command_bitmap.3
+-- Installing: /usr/share/man/man3/zip_source_open.3
+-- Installing: /usr/share/man/man3/zip_source_read.3
+-- Installing: /usr/share/man/man3/zip_source_rollback_write.3
+-- Installing: /usr/share/man/man3/zip_source_seek.3
+-- Installing: /usr/share/man/man3/zip_source_seek_compute_offset.3
+-- Installing: /usr/share/man/man3/zip_source_seek_write.3
+-- Installing: /usr/share/man/man3/zip_source_stat.3
+-- Installing: /usr/share/man/man3/zip_source_tell.3
+-- Installing: /usr/share/man/man3/zip_source_tell_write.3
+-- Installing: /usr/share/man/man3/zip_source_win32a.3
+-- Installing: /usr/share/man/man3/zip_source_win32handle.3
+-- Installing: /usr/share/man/man3/zip_source_win32w.3
+-- Installing: /usr/share/man/man3/zip_source_window_create.3
+-- Installing: /usr/share/man/man3/zip_source_write.3
+-- Installing: /usr/share/man/man3/zip_source_zip.3
+-- Installing: /usr/share/man/man3/zip_source_zip_file.3
+-- Installing: /usr/share/man/man3/zip_stat.3
+-- Installing: /usr/share/man/man3/zip_stat_init.3
+-- Installing: /usr/share/man/man3/zip_unchange.3
+-- Installing: /usr/share/man/man3/zip_unchange_all.3
+-- Installing: /usr/share/man/man3/zip_unchange_archive.3
+-- Installing: /usr/share/man/man1/zipcmp.1
+-- Installing: /usr/share/man/man1/zipmerge.1
+-- Installing: /usr/share/man/man1/ziptool.1
+-- Installing: /usr/share/man/man3/zip_replace.3
+-- Installing: /usr/share/man/man3/zip_file_error_clear.3
+-- Installing: /usr/share/man/man3/zip_file_error_get.3
+-- Installing: /usr/share/man/man3/zip_error_init_with_code.3
+-- Installing: /usr/share/man/man3/zip_file_replace.3
+-- Installing: /usr/share/man/man3/zip_file_extra_field_delete_by_id.3
+-- Installing: /usr/share/man/man3/zip_file_extra_field_get_by_id.3
+-- Installing: /usr/share/man/man3/zip_file_extra_fields_count_by_id.3
+-- Installing: /usr/share/man/man3/zip_file_set_dostime.3
+-- Installing: /usr/share/man/man3/zip_strerror.3
+-- Installing: /usr/share/man/man3/zip_fopen_index.3
+-- Installing: /usr/share/man/man3/zip_fopen_index_encrypted.3
+-- Installing: /usr/share/man/man3/zip_file_is_seekable.3
+-- Installing: /usr/share/man/man3/zip_open_from_source.3
+-- Installing: /usr/share/man/man3/zip_source_begin_write_cloning.3
+-- Installing: /usr/share/man/man3/zip_source_buffer_create.3
+-- Installing: /usr/share/man/man3/zip_source_buffer_fragment_create.3
+-- Installing: /usr/share/man/man3/zip_source_file_create.3
+-- Installing: /usr/share/man/man3/zip_source_filep_create.3
+-- Installing: /usr/share/man/man3/zip_source_function_create.3
+-- Installing: /usr/share/man/man3/zip_source_layered_create.3
+-- Installing: /usr/share/man/man3/zip_source_win32a_create.3
+-- Installing: /usr/share/man/man3/zip_source_win32handle_create.3
+-- Installing: /usr/share/man/man3/zip_source_win32w_create.3
+-- Installing: /usr/share/man/man3/zip_source_zip_create.3
+-- Installing: /usr/share/man/man3/zip_source_zip_file_create.3
+-- Installing: /usr/share/man/man3/zip_stat_index.3
+-- Installing: /usr/bin/zipcmp
+-- Set non-toolchain portion of runtime path of "/usr/bin/zipcmp" to ""
+-- Installing: /usr/bin/zipmerge
+-- Set non-toolchain portion of runtime path of "/usr/bin/zipmerge" to ""
+-- Installing: /usr/bin/ziptool
+-- Set non-toolchain portion of runtime path of "/usr/bin/ziptool" to ""
+libzip/
+libzip/usr/
+libzip/usr/include/
+libzip/usr/include/zip.h
+libzip/usr/include/zipconf.h
+libzip/usr/share/
+libzip/usr/share/man/
+libzip/usr/share/man/man5/
+libzip/usr/share/man/man5/zip_source.5
+libzip/usr/share/man/man5/zip_error.5
+libzip/usr/share/man/man5/zip_file.5
+libzip/usr/share/man/man5/zip.5
+libzip/usr/share/man/man1/
+libzip/usr/share/man/man1/zipmerge.1
+libzip/usr/share/man/man1/ziptool.1
+libzip/usr/share/man/man1/zipcmp.1
+libzip/usr/share/man/man3/
+libzip/usr/share/man/man3/zip_rename.3
+libzip/usr/share/man/man3/zip_get_num_files.3
+libzip/usr/share/man/man3/zip_source_layered.3
+libzip/usr/share/man/man3/zip_source_function_create.3
+libzip/usr/share/man/man3/zip_dir_add.3
+libzip/usr/share/man/man3/zip_error_to_str.3
+libzip/usr/share/man/man3/zip_source_is_deleted.3
+libzip/usr/share/man/man3/zip_get_file_comment.3
+libzip/usr/share/man/man3/zip_errors.3
+libzip/usr/share/man/man3/zip_file_set_dostime.3
+libzip/usr/share/man/man3/zip_error_code_system.3
+libzip/usr/share/man/man3/zip_set_archive_flag.3
+libzip/usr/share/man/man3/zip_fopen_encrypted.3
+libzip/usr/share/man/man3/zip_file_get_external_attributes.3
+libzip/usr/share/man/man3/zip_unchange_archive.3
+libzip/usr/share/man/man3/ZIP_SOURCE_GET_ARGS.3
+libzip/usr/share/man/man3/zip_file_rename.3
+libzip/usr/share/man/man3/zip_error_fini.3
+libzip/usr/share/man/man3/zip_source_begin_write.3
+libzip/usr/share/man/man3/zip_file_add.3
+libzip/usr/share/man/man3/zip_add_dir.3
+libzip/usr/share/man/man3/zip_source_zip_file_create.3
+libzip/usr/share/man/man3/zip_source_close.3
+libzip/usr/share/man/man3/zip_discard.3
+libzip/usr/share/man/man3/zip_file_set_encryption.3
+libzip/usr/share/man/man3/zip_source_win32handle_create.3
+libzip/usr/share/man/man3/zip_error_system_type.3
+libzip/usr/share/man/man3/zip_source_rollback_write.3
+libzip/usr/share/man/man3/zip_source_buffer.3
+libzip/usr/share/man/man3/zip_fopen.3
+libzip/usr/share/man/man3/zip_error_code_zip.3
+libzip/usr/share/man/man3/zip_source_seek_write.3
+libzip/usr/share/man/man3/zip_source_layered_create.3
+libzip/usr/share/man/man3/zip_source_filep.3
+libzip/usr/share/man/man3/zip_source_window_create.3
+libzip/usr/share/man/man3/zip_source_tell_write.3
+libzip/usr/share/man/man3/zip_file_strerror.3
+libzip/usr/share/man/man3/zip_source_commit_write.3
+libzip/usr/share/man/man3/zip_open.3
+libzip/usr/share/man/man3/zip_source_zip_create.3
+libzip/usr/share/man/man3/zip_source_keep.3
+libzip/usr/share/man/man3/zip_error_init.3
+libzip/usr/share/man/man3/zip_file_get_error.3
+libzip/usr/share/man/man3/zip_register_progress_callback.3
+libzip/usr/share/man/man3/zip_fopen_index.3
+libzip/usr/share/man/man3/zip_source_read.3
+libzip/usr/share/man/man3/zip_source_seek.3
+libzip/usr/share/man/man3/zip_source_zip.3
+libzip/usr/share/man/man3/zip_source_win32w.3
+libzip/usr/share/man/man3/zip_register_cancel_callback_with_state.3
+libzip/usr/share/man/man3/zip_source_write.3
+libzip/usr/share/man/man3/zip_fseek.3
+libzip/usr/share/man/man3/zip_source_win32a_create.3
+libzip/usr/share/man/man3/zip_source_buffer_create.3
+libzip/usr/share/man/man3/zip_file_error_clear.3
+libzip/usr/share/man/man3/zip_file_extra_field_get_by_id.3
+libzip/usr/share/man/man3/zip_fclose.3
+libzip/usr/share/man/man3/zip_file_extra_fields_count_by_id.3
+libzip/usr/share/man/man3/zip_source_file_create.3
+libzip/usr/share/man/man3/zip_error_get.3
+libzip/usr/share/man/man3/zip_file_error_get.3
+libzip/usr/share/man/man3/zip_file_set_external_attributes.3
+libzip/usr/share/man/man3/zip_get_name.3
+libzip/usr/share/man/man3/zip_file_replace.3
+libzip/usr/share/man/man3/zip_source_filep_create.3
+libzip/usr/share/man/man3/zip_source_make_command_bitmap.3
+libzip/usr/share/man/man3/zip_fread.3
+libzip/usr/share/man/man3/zip_file_extra_field_get.3
+libzip/usr/share/man/man3/zip_error_set.3
+libzip/usr/share/man/man3/zip_encryption_method_supported.3
+libzip/usr/share/man/man3/zip_get_num_entries.3
+libzip/usr/share/man/man3/zip_source_buffer_fragment_create.3
+libzip/usr/share/man/man3/zip_source_tell.3
+libzip/usr/share/man/man3/zip_source_win32w_create.3
+libzip/usr/share/man/man3/zip_open_from_source.3
+libzip/usr/share/man/man3/zip_stat.3
+libzip/usr/share/man/man3/zip_unchange_all.3
+libzip/usr/share/man/man3/zip_ftell.3
+libzip/usr/share/man/man3/zip_get_archive_comment.3
+libzip/usr/share/man/man3/zip_name_locate.3
+libzip/usr/share/man/man3/zip_source_stat.3
+libzip/usr/share/man/man3/zip_error_to_data.3
+libzip/usr/share/man/man3/zip_strerror.3
+libzip/usr/share/man/man3/zip_add.3
+libzip/usr/share/man/man3/libzip.3
+libzip/usr/share/man/man3/zip_error_strerror.3
+libzip/usr/share/man/man3/zip_source_zip_file.3
+libzip/usr/share/man/man3/zip_set_archive_comment.3
+libzip/usr/share/man/man3/zip_source_error.3
+libzip/usr/share/man/man3/zip_close.3
+libzip/usr/share/man/man3/zip_get_error.3
+libzip/usr/share/man/man3/zip_register_progress_callback_with_state.3
+libzip/usr/share/man/man3/zip_fopen_index_encrypted.3
+libzip/usr/share/man/man3/zip_file_set_comment.3
+libzip/usr/share/man/man3/zip_source_win32a.3
+libzip/usr/share/man/man3/zip_file_set_mtime.3
+libzip/usr/share/man/man3/zip_error_set_from_source.3
+libzip/usr/share/man/man3/zip_error_get_sys_type.3
+libzip/usr/share/man/man3/zip_file_get_comment.3
+libzip/usr/share/man/man3/zip_compression_method_supported.3
+libzip/usr/share/man/man3/zip_source_free.3
+libzip/usr/share/man/man3/zip_source_buffer_fragment.3
+libzip/usr/share/man/man3/zip_source_seek_compute_offset.3
+libzip/usr/share/man/man3/zip_unchange.3
+libzip/usr/share/man/man3/zip_delete.3
+libzip/usr/share/man/man3/zip_file_extra_field_set.3
+libzip/usr/share/man/man3/zip_file_extra_field_delete_by_id.3
+libzip/usr/share/man/man3/zip_get_archive_flag.3
+libzip/usr/share/man/man3/zip_file_extra_fields_count.3
+libzip/usr/share/man/man3/zip_source_function.3
+libzip/usr/share/man/man3/zip_file_extra_field_delete.3
+libzip/usr/share/man/man3/zip_source_win32handle.3
+libzip/usr/share/man/man3/zip_set_default_password.3
+libzip/usr/share/man/man3/zip_file_attributes_init.3
+libzip/usr/share/man/man3/zip_file_is_seekable.3
+libzip/usr/share/man/man3/zip_set_file_compression.3
+libzip/usr/share/man/man3/zip_source_is_seekable.3
+libzip/usr/share/man/man3/zip_stat_index.3
+libzip/usr/share/man/man3/zip_libzip_version.3
+libzip/usr/share/man/man3/zip_error_clear.3
+libzip/usr/share/man/man3/zip_source_open.3
+libzip/usr/share/man/man3/zip_stat_init.3
+libzip/usr/share/man/man3/zip_error_init_with_code.3
+libzip/usr/share/man/man3/zip_set_file_comment.3
+libzip/usr/share/man/man3/zip_source_file.3
+libzip/usr/share/man/man3/zip_source_begin_write_cloning.3
+libzip/usr/share/man/man3/zip_fdopen.3
+libzip/usr/share/man/man3/zip_replace.3
+libzip/usr/bin/
+libzip/usr/bin/ziptool
+libzip/usr/bin/zipcmp
+libzip/usr/bin/zipmerge
+libzip/usr/lib/
+libzip/usr/lib/libzip.so.5
+libzip/usr/lib/libzip.so
+libzip/usr/lib/libzip.so.5.5
+libzip/usr/lib/pkgconfig/
+libzip/usr/lib/pkgconfig/libzip.pc
+libzip/usr/lib/cmake/
+libzip/usr/lib/cmake/libzip/
+libzip/usr/lib/cmake/libzip/libzip-targets.cmake
+libzip/usr/lib/cmake/libzip/libzip-config.cmake
+libzip/usr/lib/cmake/libzip/libzip-config-version.cmake
+libzip/usr/lib/cmake/libzip/modules/
+libzip/usr/lib/cmake/libzip/modules/Findzstd.cmake
+libzip/usr/lib/cmake/libzip/modules/FindNettle.cmake
+libzip/usr/lib/cmake/libzip/modules/FindMbedTLS.cmake
+libzip/usr/lib/cmake/libzip/libzip-bin-targets.cmake
+libzip/usr/lib/cmake/libzip/libzip-targets-release.cmake
+libzip/usr/lib/cmake/libzip/libzip-bin-targets-release.cmake
+libzip/version
+libzip/depends
+libzip/make-depends

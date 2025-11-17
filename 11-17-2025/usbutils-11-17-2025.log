@@ -1,0 +1,238 @@
+--2025-11-17 08:27:28--  https://github.com/gregkh/usbutils/archive/v019/usbutils-019.tar.gz
+Resolving github.com (github.com)... 140.82.114.4
+Connecting to github.com (github.com)|140.82.114.4|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://codeload.github.com/gregkh/usbutils/tar.gz/refs/tags/v019 [following]
+--2025-11-17 08:27:29--  https://codeload.github.com/gregkh/usbutils/tar.gz/refs/tags/v019
+Resolving codeload.github.com (codeload.github.com)... 140.82.114.9
+Connecting to codeload.github.com (codeload.github.com)|140.82.114.9|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/x-gzip]
+Saving to: ‘usbutils-019.tar.gz’
+
+     0K .......... .......... .......... .......... .......... 2.21M
+    50K .......... .......... .......... .......... .......... 4.15M
+   100K .......... .......... .......... .......... ......     10.9M=0.04s
+
+2025-11-17 08:27:29 (3.75 MB/s) - ‘usbutils-019.tar.gz’ saved [149685]
+
+usbutils-019/
+usbutils-019/.clang-format
+usbutils-019/.codespellignore
+usbutils-019/.editorconfig
+usbutils-019/.github/
+usbutils-019/.github/actions/
+usbutils-019/.github/actions/setup-alpine/
+usbutils-019/.github/actions/setup-alpine/action.yml
+usbutils-019/.github/actions/setup-archlinux/
+usbutils-019/.github/actions/setup-archlinux/action.yml
+usbutils-019/.github/actions/setup-debian/
+usbutils-019/.github/actions/setup-debian/action.yml
+usbutils-019/.github/actions/setup-fedora/
+usbutils-019/.github/actions/setup-fedora/action.yml
+usbutils-019/.github/actions/setup-ubuntu/
+usbutils-019/.github/actions/setup-ubuntu/action.yml
+usbutils-019/.github/cross-files/
+usbutils-019/.github/cross-files/arch-cross.ini
+usbutils-019/.github/cross-files/debian-cross.ini
+usbutils-019/.github/cross-files/ubuntu-cross.ini
+usbutils-019/.github/dependabot.yml
+usbutils-019/.github/workflows/
+usbutils-019/.github/workflows/clang-format.yml
+usbutils-019/.github/workflows/codeql.yml
+usbutils-019/.github/workflows/codespell.yml
+usbutils-019/.github/workflows/main.yml
+usbutils-019/.github/workflows/reuse.yml
+usbutils-019/.gitignore
+usbutils-019/LICENSES/
+usbutils-019/LICENSES/CC0-1.0.txt
+usbutils-019/LICENSES/GPL-2.0-only.txt
+usbutils-019/LICENSES/GPL-2.0-or-later.txt
+usbutils-019/LICENSES/GPL-3.0-only.txt
+usbutils-019/LICENSES/LGPL-2.1-or-later.txt
+usbutils-019/LICENSES/MIT.txt
+usbutils-019/NEWS
+usbutils-019/README.md
+usbutils-019/autogen.sh
+usbutils-019/build-dev.ini
+usbutils-019/ccan/
+usbutils-019/ccan/check_type/
+usbutils-019/ccan/check_type/check_type.h
+usbutils-019/ccan/config.h
+usbutils-019/ccan/container_of/
+usbutils-019/ccan/container_of/container_of.h
+usbutils-019/ccan/list/
+usbutils-019/ccan/list/list.h
+usbutils-019/ccan/str/
+usbutils-019/ccan/str/str.h
+usbutils-019/ccan/str/str_debug.h
+usbutils-019/desc-defs.c
+usbutils-019/desc-defs.h
+usbutils-019/desc-dump.c
+usbutils-019/desc-dump.h
+usbutils-019/justfile
+usbutils-019/lsusb-t.c
+usbutils-019/lsusb.c
+usbutils-019/lsusb.h
+usbutils-019/lsusb.py
+usbutils-019/man/
+usbutils-019/man/lsusb.8
+usbutils-019/man/lsusb.py.1
+usbutils-019/man/usb-devices.1
+usbutils-019/man/usbhid-dump.8
+usbutils-019/man/usbreset.1
+usbutils-019/meson.build
+usbutils-019/names.c
+usbutils-019/names.h
+usbutils-019/sysfs.c
+usbutils-019/sysfs.h
+usbutils-019/usb-devices
+usbutils-019/usb-spec.h
+usbutils-019/usbhid-dump/
+usbutils-019/usbhid-dump/NEWS
+usbutils-019/usbhid-dump/README.md
+usbutils-019/usbhid-dump/dev.c
+usbutils-019/usbhid-dump/dev.h
+usbutils-019/usbhid-dump/dev_list.c
+usbutils-019/usbhid-dump/dev_list.h
+usbutils-019/usbhid-dump/iface.c
+usbutils-019/usbhid-dump/iface.h
+usbutils-019/usbhid-dump/iface_list.c
+usbutils-019/usbhid-dump/iface_list.h
+usbutils-019/usbhid-dump/misc.h
+usbutils-019/usbhid-dump/usbhid-dump.c
+usbutils-019/usbmisc.c
+usbutils-019/usbmisc.h
+usbutils-019/usbreset.c
+usbutils-019/usbutils.spdx
+The Meson build system
+Version: 1.9.1
+Source dir: /blfs/builds/usbutils-019
+Build dir: /blfs/builds/usbutils-019/build
+Build type: native build
+Project name: usbutils
+Project version: 019
+C compiler for the host machine: cc (gcc 15.2.0 "cc (GCC) 15.2.0")
+C linker for the host machine: cc ld.bfd 2.45
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Compiler for C supports arguments -Wbad-function-cast: YES 
+Compiler for C supports arguments -Wno-cast-align: YES 
+Compiler for C supports arguments -Wchar-subscripts: YES 
+Compiler for C supports arguments -Wempty-body: YES 
+Compiler for C supports arguments -Wformat: YES 
+Compiler for C supports arguments -Wformat=2: YES 
+Compiler for C supports arguments -Wformat-nonliteral: YES 
+Compiler for C supports arguments -Wformat-security: YES 
+Compiler for C supports arguments -Wformat-y2k: YES 
+Compiler for C supports arguments -Winit-self: YES 
+Compiler for C supports arguments -Winline: YES 
+Compiler for C supports arguments -Wint-conversion: YES 
+Compiler for C supports arguments -Wmissing-declarations: YES 
+Compiler for C supports arguments -Wmissing-format-attribute: YES 
+Compiler for C supports arguments -Wmissing-include-dirs: YES 
+Compiler for C supports arguments -Wmissing-prototypes: YES 
+Compiler for C supports arguments -Wmissing-noreturn: YES 
+Compiler for C supports arguments -Wnested-externs: YES 
+Compiler for C supports arguments -Wold-style-definition: YES 
+Compiler for C supports arguments -Wold-style-declaration: YES 
+Compiler for C supports arguments -Wpointer-arith: YES 
+Compiler for C supports arguments -Wredundant-decls: YES 
+Compiler for C supports arguments -Wshadow: YES 
+Compiler for C supports arguments -Wsign-compare: YES 
+Compiler for C supports arguments -Wstrict-prototypes: YES 
+Compiler for C supports arguments -Wswitch: YES 
+Compiler for C supports arguments -Wtype-limits: YES 
+Compiler for C supports arguments -Wundef: YES 
+Compiler for C supports arguments -Wuninitialized: YES 
+Compiler for C supports arguments -Wunused: YES 
+Compiler for C supports arguments -Wunused-variable: YES 
+Compiler for C supports arguments -Wvla: YES 
+Compiler for C supports arguments -Wwrite-strings: YES 
+Compiler for C supports arguments -fdiagnostics-color=auto: YES 
+Compiler for C supports arguments -Wno-unused-parameter: YES 
+Compiler for C supports arguments -Wno-unused-function: YES 
+Compiler for C supports arguments -Wno-deprecated-declarations: YES 
+Configuring config.h using configuration
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Run-time dependency libudev found: YES 258
+Run-time dependency libusb-1.0 found: YES 1.0.29
+Build targets in project: 3
+
+usbutils 019
+
+  User defined options
+    buildtype: release
+    prefix   : /usr
+
+Found ninja-1.13.1 at /usr/bin/ninja
+[1/16] Compiling C object lsusb.p/sysfs.c.o
+[2/16] Compiling C object lsusb.p/desc-defs.c.o
+[3/16] Compiling C object usbhid-dump.p/usbhid-dump_dev.c.o
+[4/16] Compiling C object usbhid-dump.p/usbhid-dump_iface_list.c.o
+[5/16] Compiling C object usbhid-dump.p/usbhid-dump_dev_list.c.o
+[6/16] Compiling C object usbhid-dump.p/usbhid-dump_iface.c.o
+[7/16] Compiling C object lsusb.p/usbmisc.c.o
+[8/16] Compiling C object usbreset.p/usbreset.c.o
+[9/16] Compiling C object lsusb.p/names.c.o
+[10/16] Compiling C object lsusb.p/desc-dump.c.o
+[11/16] Compiling C object lsusb.p/lsusb-t.c.o
+[12/16] Linking target usbreset
+[13/16] Compiling C object usbhid-dump.p/usbhid-dump_usbhid-dump.c.o
+[14/16] Linking target usbhid-dump
+[15/16] Compiling C object lsusb.p/lsusb.c.o
+[16/16] Linking target lsusb
+[0/1] Installing files
+Installing lsusb to /pkgs/usbutils/usr/bin
+Installing usbhid-dump to /pkgs/usbutils/usr/bin
+Installing /blfs/builds/usbutils-019/man/lsusb.8 to /pkgs/usbutils/usr/share/man/man8
+Installing /blfs/builds/usbutils-019/man/lsusb.py.1 to /pkgs/usbutils/usr/share/man/man1
+Installing /blfs/builds/usbutils-019/man/usb-devices.1 to /pkgs/usbutils/usr/share/man/man1
+Installing /blfs/builds/usbutils-019/man/usbhid-dump.8 to /pkgs/usbutils/usr/share/man/man8
+Installing /blfs/builds/usbutils-019/usb-devices to /pkgs/usbutils/usr/bin
+Installing /blfs/builds/usbutils-019/lsusb.py to /pkgs/usbutils/usr/bin
+--2025-11-17 08:27:33--  http://www.linux-usb.org/usb.ids
+Resolving www.linux-usb.org (www.linux-usb.org)... 204.68.111.100
+Connecting to www.linux-usb.org (www.linux-usb.org)|204.68.111.100|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 730519 (713K) [text/plain]
+Saving to: ‘/pkgs/usbutils/usr/share/hwdata/usb.ids’
+
+     0K .......... .......... .......... .......... ..........  7%  331K 2s
+    50K .......... .......... .......... .......... .......... 14%  651K 1s
+   100K .......... .......... .......... .......... .......... 21%  203M 1s
+   150K .......... .......... .......... .......... .......... 28%  678K 1s
+   200K .......... .......... .......... .......... .......... 35%  103M 1s
+   250K .......... .......... .......... .......... .......... 42% 95.5M 0s
+   300K .......... .......... .......... .......... .......... 49%  675K 0s
+   350K .......... .......... .......... .......... .......... 56%  129M 0s
+   400K .......... .......... .......... .......... .......... 63%  116M 0s
+   450K .......... .......... .......... .......... .......... 70%  671K 0s
+   500K .......... .......... .......... .......... .......... 77%  144M 0s
+   550K .......... .......... .......... .......... .......... 84%  124M 0s
+   600K .......... .......... .......... .......... .......... 91%  122M 0s
+   650K .......... .......... .......... .......... .......... 98%  116M 0s
+   700K .......... ...                                        100%  185K=0.5s
+
+2025-11-17 08:27:34 (1.32 MB/s) - ‘/pkgs/usbutils/usr/share/hwdata/usb.ids’ saved [730519/730519]
+
+usbutils/
+usbutils/usr/
+usbutils/usr/share/
+usbutils/usr/share/hwdata/
+usbutils/usr/share/hwdata/usb.ids
+usbutils/usr/share/man/
+usbutils/usr/share/man/man8/
+usbutils/usr/share/man/man8/lsusb.8
+usbutils/usr/share/man/man8/usbhid-dump.8
+usbutils/usr/share/man/man1/
+usbutils/usr/share/man/man1/lsusb.py.1
+usbutils/usr/share/man/man1/usb-devices.1
+usbutils/usr/bin/
+usbutils/usr/bin/lsusb.py
+usbutils/usr/bin/lsusb
+usbutils/usr/bin/usbhid-dump
+usbutils/usr/bin/usb-devices
+usbutils/version
+usbutils/depends
+usbutils/make-depends
