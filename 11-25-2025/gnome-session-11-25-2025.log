@@ -1,0 +1,1205 @@
+--2025-11-25 08:51:22--  https://download.gnome.org/sources/gnome-session/49/gnome-session-49.2.tar.xz
+Resolving download.gnome.org (download.gnome.org)... 2a02:6ea0:c400::54, 2a02:6ea0:c400::53, 79.127.206.235, ...
+Connecting to download.gnome.org (download.gnome.org)|2a02:6ea0:c400::54|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 394784 (386K) [application/octet-stream]
+Saving to: ‘gnome-session-49.2.tar.xz’
+
+     0K .......... .......... .......... .......... .......... 12% 4.20M 0s
+    50K .......... .......... .......... .......... .......... 25% 10.5M 0s
+   100K .......... .......... .......... .......... .......... 38% 11.4M 0s
+   150K .......... .......... .......... .......... .......... 51% 11.3M 0s
+   200K .......... .......... .......... .......... .......... 64% 12.6M 0s
+   250K .......... .......... .......... .......... .......... 77% 45.8M 0s
+   300K .......... .......... .......... .......... .......... 90% 8.21M 0s
+   350K .......... .......... .......... .....                100% 45.2M=0.04s
+
+2025-11-25 08:51:22 (10.3 MB/s) - ‘gnome-session-49.2.tar.xz’ saved [394784/394784]
+
+gnome-session-49.2/
+gnome-session-49.2/.gitlab-ci.yml
+gnome-session-49.2/COPYING
+gnome-session-49.2/NEWS
+gnome-session-49.2/README.md
+gnome-session-49.2/data/
+gnome-session-49.2/data/app-override.scope.conf
+gnome-session-49.2/data/gnome-mimeapps.list
+gnome-session-49.2/data/gnome-portals.conf
+gnome-session-49.2/data/gnome-session-basic-services.target
+gnome-session-49.2/data/gnome-session-initialized.target
+gnome-session-49.2/data/gnome-session-manager.target
+gnome-session-49.2/data/gnome-session-manager@.service.in
+gnome-session-49.2/data/gnome-session-monitor.service.in
+gnome-session-49.2/data/gnome-session-pre.target
+gnome-session-49.2/data/gnome-session-restart-dbus.service.in
+gnome-session-49.2/data/gnome-session-shutdown.target
+gnome-session-49.2/data/gnome-session-signal-init.service.in
+gnome-session-49.2/data/gnome-session-wayland.target
+gnome-session-49.2/data/gnome-session-wayland@.target
+gnome-session-49.2/data/gnome-session-x11-services-ready.target
+gnome-session-49.2/data/gnome-session-x11-services.target
+gnome-session-49.2/data/gnome-session-x11.target
+gnome-session-49.2/data/gnome-session-x11@.target
+gnome-session-49.2/data/gnome-session.target
+gnome-session-49.2/data/gnome-session@.target
+gnome-session-49.2/data/gnome-wayland.desktop.in.in
+gnome-session-49.2/data/gnome-xorg.desktop.in.in
+gnome-session-49.2/data/gnome.desktop.in.in
+gnome-session-49.2/data/gnome.session.conf
+gnome-session-49.2/data/gnome.session.desktop
+gnome-session-49.2/data/meson.build
+gnome-session-49.2/data/org.gnome.SessionManager.gschema.xml
+gnome-session-49.2/doc/
+gnome-session-49.2/doc/config.xsl
+gnome-session-49.2/doc/docbook.css
+gnome-session-49.2/doc/gnome-session.xml
+gnome-session-49.2/doc/man/
+gnome-session-49.2/doc/man/gnome-session-inhibit.xml
+gnome-session-49.2/doc/man/gnome-session-quit.xml
+gnome-session-49.2/doc/man/gnome-session.xml
+gnome-session-49.2/doc/man/meson.build
+gnome-session-49.2/doc/meson.build
+gnome-session-49.2/doc/version.xml.in
+gnome-session-49.2/gnome-session/
+gnome-session-49.2/gnome-session/gsm-app.c
+gnome-session-49.2/gnome-session/gsm-app.h
+gnome-session-49.2/gnome-session/gsm-client.c
+gnome-session-49.2/gnome-session/gsm-client.h
+gnome-session-49.2/gnome-session/gsm-inhibitor-flag.h
+gnome-session-49.2/gnome-session/gsm-inhibitor.c
+gnome-session-49.2/gnome-session/gsm-inhibitor.h
+gnome-session-49.2/gnome-session/gsm-manager-logout-mode.h
+gnome-session-49.2/gnome-session/gsm-manager.c
+gnome-session-49.2/gnome-session/gsm-manager.h
+gnome-session-49.2/gnome-session/gsm-presence-flag.h
+gnome-session-49.2/gnome-session/gsm-presence.c
+gnome-session-49.2/gnome-session/gsm-presence.h
+gnome-session-49.2/gnome-session/gsm-session-fill.c
+gnome-session-49.2/gnome-session/gsm-session-fill.h
+gnome-session-49.2/gnome-session/gsm-shell.c
+gnome-session-49.2/gnome-session/gsm-shell.h
+gnome-session-49.2/gnome-session/gsm-store.c
+gnome-session-49.2/gnome-session/gsm-store.h
+gnome-session-49.2/gnome-session/gsm-system.c
+gnome-session-49.2/gnome-session/gsm-system.h
+gnome-session-49.2/gnome-session/gsm-systemd.c
+gnome-session-49.2/gnome-session/gsm-systemd.h
+gnome-session-49.2/gnome-session/gsm-util.c
+gnome-session-49.2/gnome-session/gsm-util.h
+gnome-session-49.2/gnome-session/leader-main.c
+gnome-session-49.2/gnome-session/leader-systemd.c
+gnome-session-49.2/gnome-session/meson.build
+gnome-session-49.2/gnome-session/org.gnome.SessionManager.ClientPrivate.xml
+gnome-session-49.2/gnome-session/org.gnome.SessionManager.Inhibitor.xml
+gnome-session-49.2/gnome-session/org.gnome.SessionManager.Presence.xml
+gnome-session-49.2/gnome-session/org.gnome.SessionManager.xml
+gnome-session-49.2/gnome-session/service-main.c
+gnome-session-49.2/gnome-session/test-client-dbus.c
+gnome-session-49.2/gnome-session.doap
+gnome-session-49.2/meson.build
+gnome-session-49.2/meson_options.txt
+gnome-session-49.2/meson_post_install.py
+gnome-session-49.2/po/
+gnome-session-49.2/po/LINGUAS
+gnome-session-49.2/po/POTFILES.in
+gnome-session-49.2/po/POTFILES.skip
+gnome-session-49.2/po/ab.po
+gnome-session-49.2/po/af.po
+gnome-session-49.2/po/am.po
+gnome-session-49.2/po/an.po
+gnome-session-49.2/po/ar.po
+gnome-session-49.2/po/as.po
+gnome-session-49.2/po/ast.po
+gnome-session-49.2/po/az.po
+gnome-session-49.2/po/be.po
+gnome-session-49.2/po/be@latin.po
+gnome-session-49.2/po/bg.po
+gnome-session-49.2/po/bn.po
+gnome-session-49.2/po/bn_IN.po
+gnome-session-49.2/po/br.po
+gnome-session-49.2/po/bs.po
+gnome-session-49.2/po/ca.po
+gnome-session-49.2/po/ca@valencia.po
+gnome-session-49.2/po/ckb.po
+gnome-session-49.2/po/crh.po
+gnome-session-49.2/po/cs.po
+gnome-session-49.2/po/csb.po
+gnome-session-49.2/po/cy.po
+gnome-session-49.2/po/da.po
+gnome-session-49.2/po/de.po
+gnome-session-49.2/po/dz.po
+gnome-session-49.2/po/el.po
+gnome-session-49.2/po/en@shaw.po
+gnome-session-49.2/po/en_CA.po
+gnome-session-49.2/po/en_GB.po
+gnome-session-49.2/po/eo.po
+gnome-session-49.2/po/es.po
+gnome-session-49.2/po/et.po
+gnome-session-49.2/po/eu.po
+gnome-session-49.2/po/fa.po
+gnome-session-49.2/po/fi.po
+gnome-session-49.2/po/fr.po
+gnome-session-49.2/po/fur.po
+gnome-session-49.2/po/fy.po
+gnome-session-49.2/po/ga.po
+gnome-session-49.2/po/gd.po
+gnome-session-49.2/po/gl.po
+gnome-session-49.2/po/gu.po
+gnome-session-49.2/po/ha.po
+gnome-session-49.2/po/he.po
+gnome-session-49.2/po/hi.po
+gnome-session-49.2/po/hr.po
+gnome-session-49.2/po/hu.po
+gnome-session-49.2/po/hy.po
+gnome-session-49.2/po/ia.po
+gnome-session-49.2/po/id.po
+gnome-session-49.2/po/ie.po
+gnome-session-49.2/po/ig.po
+gnome-session-49.2/po/is.po
+gnome-session-49.2/po/it.po
+gnome-session-49.2/po/ja.po
+gnome-session-49.2/po/ka.po
+gnome-session-49.2/po/kab.po
+gnome-session-49.2/po/kk.po
+gnome-session-49.2/po/km.po
+gnome-session-49.2/po/kn.po
+gnome-session-49.2/po/ko.po
+gnome-session-49.2/po/ku.po
+gnome-session-49.2/po/lt.po
+gnome-session-49.2/po/lv.po
+gnome-session-49.2/po/mai.po
+gnome-session-49.2/po/meson.build
+gnome-session-49.2/po/mg.po
+gnome-session-49.2/po/mi.po
+gnome-session-49.2/po/mjw.po
+gnome-session-49.2/po/mk.po
+gnome-session-49.2/po/ml.po
+gnome-session-49.2/po/mn.po
+gnome-session-49.2/po/mr.po
+gnome-session-49.2/po/ms.po
+gnome-session-49.2/po/nb.po
+gnome-session-49.2/po/nds.po
+gnome-session-49.2/po/ne.po
+gnome-session-49.2/po/nl.po
+gnome-session-49.2/po/nn.po
+gnome-session-49.2/po/nso.po
+gnome-session-49.2/po/oc.po
+gnome-session-49.2/po/or.po
+gnome-session-49.2/po/pa.po
+gnome-session-49.2/po/pl.po
+gnome-session-49.2/po/ps.po
+gnome-session-49.2/po/pt.po
+gnome-session-49.2/po/pt_BR.po
+gnome-session-49.2/po/ro.po
+gnome-session-49.2/po/ru.po
+gnome-session-49.2/po/rw.po
+gnome-session-49.2/po/si.po
+gnome-session-49.2/po/sk.po
+gnome-session-49.2/po/sl.po
+gnome-session-49.2/po/sq.po
+gnome-session-49.2/po/sr.po
+gnome-session-49.2/po/sr@latin.po
+gnome-session-49.2/po/sv.po
+gnome-session-49.2/po/ta.po
+gnome-session-49.2/po/te.po
+gnome-session-49.2/po/tg.po
+gnome-session-49.2/po/th.po
+gnome-session-49.2/po/tk.po
+gnome-session-49.2/po/tr.po
+gnome-session-49.2/po/ug.po
+gnome-session-49.2/po/uk.po
+gnome-session-49.2/po/uz.po
+gnome-session-49.2/po/uz@cyrillic.po
+gnome-session-49.2/po/vi.po
+gnome-session-49.2/po/wa.po
+gnome-session-49.2/po/xh.po
+gnome-session-49.2/po/yo.po
+gnome-session-49.2/po/zh_CN.po
+gnome-session-49.2/po/zh_HK.po
+gnome-session-49.2/po/zh_TW.po
+gnome-session-49.2/po/zu.po
+gnome-session-49.2/tools/
+gnome-session-49.2/tools/gnome-session-ctl.c
+gnome-session-49.2/tools/gnome-session-inhibit.c
+gnome-session-49.2/tools/gnome-session-quit.c
+gnome-session-49.2/tools/meson.build
+The Meson build system
+Version: 1.9.1
+Source dir: /blfs/builds/gnome-session-49.2
+Build dir: /blfs/builds/gnome-session-49.2/build
+Build type: native build
+Project name: gnome-session
+Project version: 49.2
+C compiler for the host machine: cc (gcc 15.2.0 "cc (GCC) 15.2.0")
+C linker for the host machine: cc ld.bfd 2.45
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Run-time dependency gio-2.0 found: YES 2.86.2
+Run-time dependency gtk4 found: YES 4.20.3
+Run-time dependency glib-2.0 found: YES 2.86.2
+Run-time dependency gnome-desktop-4 found: YES 44.4
+Run-time dependency json-glib-1.0 found: YES 1.10.8
+Run-time dependency libsystemd found: YES 258
+Run-time dependency gio-unix-2.0 found: YES 2.86.2
+Run-time dependency systemd found: YES 258
+Configuring config.h using configuration
+Dependency gio-2.0 found: YES 2.86.2 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Dependency gio-2.0 found: YES 2.86.2 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Dependency gio-2.0 found: YES 2.86.2 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Dependency gio-2.0 found: YES 2.86.2 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Configuring gnome.desktop.in using configuration
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Configuring gnome-wayland.desktop.in using configuration
+Configuring gnome-session-manager@.service using configuration
+Configuring gnome-session-signal-init.service using configuration
+Configuring gnome-session-restart-dbus.service using configuration
+Configuring gnome-session-monitor.service using configuration
+Program xsltproc found: YES (/usr/bin/xsltproc)
+Program xmlto found: YES (/usr/bin/xmlto)
+Configuring version.xml using configuration
+Program msginit found: YES (/usr/bin/msginit)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program xgettext found: YES (/usr/bin/xgettext)
+Dependency gio-2.0 found: YES 2.86.2 (cached)
+Program /usr/bin/glib-compile-schemas found: YES (/usr/bin/glib-compile-schemas)
+Build targets in project: 143
+
+gnome-session 49.2
+
+  Directories
+    prefix                  : /usr
+    datadir                 : /usr/share
+    bindir                  : /usr/bin
+    libexecdir              : /usr/libexec
+    localedir               : /usr/share/locale
+    mandir                  : share/man
+    sysconfdir              : /etc
+    pkgdatadir              : /usr/share/gnome-session
+
+  Build Options
+    Debug mode              : false
+    Use *_DISABLE_DEPRECATED: false
+    Build Docbook           : true
+    Build manpages          : true
+    Systemd Units Directory : /usr/lib/systemd/user
+
+  User defined options
+    buildtype               : release
+    prefix                  : /usr
+
+Found ninja-1.13.2 at /usr/bin/ninja
+[1/164] Generating gdbus source gnome-session/org.gnome.SessionManager.ClientPrivate.c
+[2/164] Generating gdbus source gnome-session/org.gnome.SessionManager.Presence.c
+[3/164] Generating gdbus header gnome-session/org.gnome.SessionManager.h
+[4/164] Generating gdbus source gnome-session/org.gnome.SessionManager.c
+[5/164] Generating gdbus header gnome-session/org.gnome.SessionManager.Presence.h
+[6/164] Generating gdbus header gnome-session/org.gnome.SessionManager.ClientPrivate.h
+[7/164] Generating gdbus source gnome-session/org.gnome.SessionManager.Inhibitor.c
+[8/164] Generating gdbus header gnome-session/org.gnome.SessionManager.Inhibitor.h
+[9/164] Generating gdbus docbook gnome-session/org.gnome.SessionManager.ClientPrivate-docbook
+[10/164] Compiling C object gnome-session/gnome-session-init-worker.p/gsm-util.c.o
+[11/164] Generating gdbus docbook gnome-session/org.gnome.SessionManager.Presence-docbook
+[12/164] Compiling C object gnome-session/gnome-session.p/leader-main.c.o
+[13/164] Generating gdbus docbook gnome-session/org.gnome.SessionManager-docbook
+[14/164] Compiling C object gnome-session/test-client-dbus.p/test-client-dbus.c.o
+[15/164] Compiling C object gnome-session/gnome-session-init-worker.p/leader-systemd.c.o
+[16/164] Generating gdbus docbook gnome-session/org.gnome.SessionManager.Inhibitor-docbook
+[17/164] Compiling C object gnome-session/gnome-session.p/gsm-util.c.o
+[18/164] Compiling C object tools/gnome-session-ctl.p/gnome-session-ctl.c.o
+[19/164] Compiling C object gnome-session/gnome-session-service.p/gsm-app.c.o
+[20/164] Compiling C object tools/gnome-session-inhibit.p/gnome-session-inhibit.c.o
+[21/164] Compiling C object gnome-session/gnome-session-service.p/meson-generated_.._org.gnome.SessionManager.ClientPrivate.c.o
+[22/164] Compiling C object gnome-session/gnome-session-service.p/gsm-client.c.o
+[23/164] Compiling C object gnome-session/gnome-session-service.p/meson-generated_.._org.gnome.SessionManager.Inhibitor.c.o
+[24/164] Compiling C object gnome-session/gnome-session-service.p/gsm-session-fill.c.o
+[25/164] Compiling C object gnome-session/gnome-session-service.p/gsm-presence.c.o
+[26/164] Compiling C object gnome-session/gnome-session-service.p/gsm-inhibitor.c.o
+[27/164] Linking target gnome-session/gnome-session
+[28/164] Compiling C object gnome-session/gnome-session-service.p/gsm-store.c.o
+[29/164] Compiling C object gnome-session/gnome-session-service.p/gsm-system.c.o
+[30/164] Linking target gnome-session/gnome-session-init-worker
+[31/164] Compiling C object gnome-session/gnome-session-service.p/gsm-shell.c.o
+[32/164] Compiling C object gnome-session/gnome-session-service.p/meson-generated_.._org.gnome.SessionManager.c.o
+[33/164] Linking target gnome-session/test-client-dbus
+[34/164] Linking target tools/gnome-session-inhibit
+[35/164] Linking target tools/gnome-session-ctl
+[36/164] Compiling C object gnome-session/gnome-session-service.p/meson-generated_.._org.gnome.SessionManager.Presence.c.o
+[37/164] Compiling C object gnome-session/gnome-session-service.p/gsm-util.c.o
+[38/164] Building translation po/ab/LC_MESSAGES/gnome-session-49-ab.mo
+[39/164] Building translation po/af/LC_MESSAGES/gnome-session-49-af.mo
+[40/164] Building translation po/am/LC_MESSAGES/gnome-session-49-am.mo
+[41/164] Building translation po/an/LC_MESSAGES/gnome-session-49-an.mo
+[42/164] Building translation po/ar/LC_MESSAGES/gnome-session-49-ar.mo
+[43/164] Compiling C object tools/gnome-session-quit.p/gnome-session-quit.c.o
+[44/164] Compiling C object gnome-session/gnome-session-service.p/service-main.c.o
+[45/164] Building translation po/as/LC_MESSAGES/gnome-session-49-as.mo
+[46/164] Building translation po/ast/LC_MESSAGES/gnome-session-49-ast.mo
+[47/164] Building translation po/az/LC_MESSAGES/gnome-session-49-az.mo
+[48/164] Building translation po/be/LC_MESSAGES/gnome-session-49-be.mo
+[49/164] Building translation po/be@latin/LC_MESSAGES/gnome-session-49-be@latin.mo
+[50/164] Compiling C object gnome-session/gnome-session-service.p/gsm-manager.c.o
+[51/164] Building translation po/bn/LC_MESSAGES/gnome-session-49-bn.mo
+[52/164] Building translation po/bg/LC_MESSAGES/gnome-session-49-bg.mo
+[53/164] Building translation po/br/LC_MESSAGES/gnome-session-49-br.mo
+[54/164] Building translation po/bn_IN/LC_MESSAGES/gnome-session-49-bn_IN.mo
+[55/164] Building translation po/bs/LC_MESSAGES/gnome-session-49-bs.mo
+[56/164] Building translation po/ckb/LC_MESSAGES/gnome-session-49-ckb.mo
+[57/164] Building translation po/ca/LC_MESSAGES/gnome-session-49-ca.mo
+[58/164] Building translation po/ca@valencia/LC_MESSAGES/gnome-session-49-ca@valencia.mo
+[59/164] Linking target tools/gnome-session-quit
+[60/164] Building translation po/csb/LC_MESSAGES/gnome-session-49-csb.mo
+[61/164] Building translation po/cs/LC_MESSAGES/gnome-session-49-cs.mo
+[62/164] Building translation po/cy/LC_MESSAGES/gnome-session-49-cy.mo
+[63/164] Building translation po/crh/LC_MESSAGES/gnome-session-49-crh.mo
+[64/164] Building translation po/da/LC_MESSAGES/gnome-session-49-da.mo
+[65/164] Building translation po/de/LC_MESSAGES/gnome-session-49-de.mo
+[66/164] Building translation po/dz/LC_MESSAGES/gnome-session-49-dz.mo
+[67/164] Building translation po/el/LC_MESSAGES/gnome-session-49-el.mo
+[68/164] Building translation po/en_CA/LC_MESSAGES/gnome-session-49-en_CA.mo
+[69/164] Building translation po/en@shaw/LC_MESSAGES/gnome-session-49-en@shaw.mo
+[70/164] Building translation po/en_GB/LC_MESSAGES/gnome-session-49-en_GB.mo
+[71/164] Building translation po/eo/LC_MESSAGES/gnome-session-49-eo.mo
+[72/164] Building translation po/es/LC_MESSAGES/gnome-session-49-es.mo
+[73/164] Building translation po/et/LC_MESSAGES/gnome-session-49-et.mo
+[74/164] Building translation po/fi/LC_MESSAGES/gnome-session-49-fi.mo
+[75/164] Building translation po/eu/LC_MESSAGES/gnome-session-49-eu.mo
+[76/164] Building translation po/fa/LC_MESSAGES/gnome-session-49-fa.mo
+[77/164] Building translation po/fr/LC_MESSAGES/gnome-session-49-fr.mo
+[78/164] Compiling C object gnome-session/gnome-session-service.p/gsm-systemd.c.o
+[79/164] Building translation po/fy/LC_MESSAGES/gnome-session-49-fy.mo
+[80/164] Building translation po/fur/LC_MESSAGES/gnome-session-49-fur.mo
+[81/164] Building translation po/ga/LC_MESSAGES/gnome-session-49-ga.mo
+[82/164] Building translation po/gl/LC_MESSAGES/gnome-session-49-gl.mo
+[83/164] Building translation po/gd/LC_MESSAGES/gnome-session-49-gd.mo
+[84/164] Building translation po/gu/LC_MESSAGES/gnome-session-49-gu.mo
+[85/164] Building translation po/he/LC_MESSAGES/gnome-session-49-he.mo
+[86/164] Building translation po/ha/LC_MESSAGES/gnome-session-49-ha.mo
+[87/164] Building translation po/hr/LC_MESSAGES/gnome-session-49-hr.mo
+[88/164] Building translation po/hi/LC_MESSAGES/gnome-session-49-hi.mo
+[89/164] Building translation po/hu/LC_MESSAGES/gnome-session-49-hu.mo
+[90/164] Building translation po/hy/LC_MESSAGES/gnome-session-49-hy.mo
+[91/164] Merging translations for data/gnome.desktop
+[92/164] Building translation po/ia/LC_MESSAGES/gnome-session-49-ia.mo
+[93/164] Building translation po/id/LC_MESSAGES/gnome-session-49-id.mo
+[94/164] Building translation po/is/LC_MESSAGES/gnome-session-49-is.mo
+[95/164] Building translation po/ie/LC_MESSAGES/gnome-session-49-ie.mo
+[96/164] Building translation po/ig/LC_MESSAGES/gnome-session-49-ig.mo
+[97/164] Building translation po/it/LC_MESSAGES/gnome-session-49-it.mo
+[98/164] Building translation po/ja/LC_MESSAGES/gnome-session-49-ja.mo
+[99/164] Building translation po/kab/LC_MESSAGES/gnome-session-49-kab.mo
+[100/164] Building translation po/ka/LC_MESSAGES/gnome-session-49-ka.mo
+[101/164] Building translation po/kk/LC_MESSAGES/gnome-session-49-kk.mo
+[102/164] Building translation po/km/LC_MESSAGES/gnome-session-49-km.mo
+[103/164] Building translation po/kn/LC_MESSAGES/gnome-session-49-kn.mo
+[104/164] Building translation po/ko/LC_MESSAGES/gnome-session-49-ko.mo
+[105/164] Building translation po/lt/LC_MESSAGES/gnome-session-49-lt.mo
+[106/164] Building translation po/ku/LC_MESSAGES/gnome-session-49-ku.mo
+[107/164] Building translation po/lv/LC_MESSAGES/gnome-session-49-lv.mo
+[108/164] Building translation po/mg/LC_MESSAGES/gnome-session-49-mg.mo
+[109/164] Building translation po/mai/LC_MESSAGES/gnome-session-49-mai.mo
+[110/164] Building translation po/mjw/LC_MESSAGES/gnome-session-49-mjw.mo
+[111/164] Building translation po/mi/LC_MESSAGES/gnome-session-49-mi.mo
+[112/164] Merging translations for data/gnome.session
+[113/164] Building translation po/mn/LC_MESSAGES/gnome-session-49-mn.mo
+[114/164] Merging translations for data/gnome-wayland.desktop
+[115/164] Building translation po/mk/LC_MESSAGES/gnome-session-49-mk.mo
+[116/164] Building translation po/ml/LC_MESSAGES/gnome-session-49-ml.mo
+[117/164] Building translation po/mr/LC_MESSAGES/gnome-session-49-mr.mo
+[118/164] Building translation po/nb/LC_MESSAGES/gnome-session-49-nb.mo
+[119/164] Building translation po/nds/LC_MESSAGES/gnome-session-49-nds.mo
+[120/164] Building translation po/ms/LC_MESSAGES/gnome-session-49-ms.mo
+[121/164] Building translation po/nl/LC_MESSAGES/gnome-session-49-nl.mo
+[122/164] Building translation po/nso/LC_MESSAGES/gnome-session-49-nso.mo
+[123/164] Building translation po/nn/LC_MESSAGES/gnome-session-49-nn.mo
+[124/164] Building translation po/ne/LC_MESSAGES/gnome-session-49-ne.mo
+[125/164] Building translation po/oc/LC_MESSAGES/gnome-session-49-oc.mo
+[126/164] Building translation po/pl/LC_MESSAGES/gnome-session-49-pl.mo
+[127/164] Building translation po/ps/LC_MESSAGES/gnome-session-49-ps.mo
+[128/164] Building translation po/or/LC_MESSAGES/gnome-session-49-or.mo
+[129/164] Building translation po/pa/LC_MESSAGES/gnome-session-49-pa.mo
+[130/164] Building translation po/ro/LC_MESSAGES/gnome-session-49-ro.mo
+[131/164] Building translation po/ru/LC_MESSAGES/gnome-session-49-ru.mo
+[132/164] Building translation po/pt_BR/LC_MESSAGES/gnome-session-49-pt_BR.mo
+[133/164] Building translation po/pt/LC_MESSAGES/gnome-session-49-pt.mo
+[134/164] Building translation po/si/LC_MESSAGES/gnome-session-49-si.mo
+[135/164] Building translation po/rw/LC_MESSAGES/gnome-session-49-rw.mo
+[136/164] Building translation po/sq/LC_MESSAGES/gnome-session-49-sq.mo
+[137/164] Building translation po/sk/LC_MESSAGES/gnome-session-49-sk.mo
+[138/164] Building translation po/sl/LC_MESSAGES/gnome-session-49-sl.mo
+[139/164] Building translation po/sr/LC_MESSAGES/gnome-session-49-sr.mo
+[140/164] Building translation po/sr@latin/LC_MESSAGES/gnome-session-49-sr@latin.mo
+[141/164] Building translation po/sv/LC_MESSAGES/gnome-session-49-sv.mo
+[142/164] Building translation po/ta/LC_MESSAGES/gnome-session-49-ta.mo
+[143/164] Building translation po/te/LC_MESSAGES/gnome-session-49-te.mo
+[144/164] Building translation po/tg/LC_MESSAGES/gnome-session-49-tg.mo
+[145/164] Building translation po/uk/LC_MESSAGES/gnome-session-49-uk.mo
+[146/164] Building translation po/tk/LC_MESSAGES/gnome-session-49-tk.mo
+[147/164] Building translation po/tr/LC_MESSAGES/gnome-session-49-tr.mo
+[148/164] Building translation po/uz/LC_MESSAGES/gnome-session-49-uz.mo
+[149/164] Building translation po/th/LC_MESSAGES/gnome-session-49-th.mo
+[150/164] Building translation po/ug/LC_MESSAGES/gnome-session-49-ug.mo
+[151/164] Building translation po/uz@cyrillic/LC_MESSAGES/gnome-session-49-uz@cyrillic.mo
+[152/164] Building translation po/wa/LC_MESSAGES/gnome-session-49-wa.mo
+[153/164] Building translation po/yo/LC_MESSAGES/gnome-session-49-yo.mo
+[154/164] Building translation po/xh/LC_MESSAGES/gnome-session-49-xh.mo
+[155/164] Building translation po/vi/LC_MESSAGES/gnome-session-49-vi.mo
+[156/164] Building translation po/zh_CN/LC_MESSAGES/gnome-session-49-zh_CN.mo
+[157/164] Building translation po/zh_TW/LC_MESSAGES/gnome-session-49-zh_TW.mo
+[158/164] Building translation po/zh_HK/LC_MESSAGES/gnome-session-49-zh_HK.mo
+[159/164] Building translation po/zu/LC_MESSAGES/gnome-session-49-zu.mo
+[160/164] Linking target gnome-session/gnome-session-service
+[161/164] Generating doc/man/gnome-session-inhibit.1 with a custom command
+[162/164] Generating doc/man/gnome-session-quit.1 with a custom command
+[163/164] Generating doc/man/gnome-session.1 with a custom command
+[164/164] Generating doc/gnome-session-docs with a custom command
+Writing re01.html for refentry(gnome-session)
+Writing re02.html for refentry(gnome-session-inhibit)
+Writing re03.html for refentry(gnome-session-quit)
+Writing pt01.html for part(commands)
+Writing re04.html for refentry(gdbus-org.gnome.SessionManager)
+Writing re05.html for refentry(gdbus-org.gnome.SessionManager.ClientPrivate)
+Writing re06.html for refentry(gdbus-org.gnome.SessionManager.Inhibitor)
+Writing re07.html for refentry(gdbus-org.gnome.SessionManager.Presence)
+Writing pt02.html for part(dbus)
+Writing ix01.html for index
+Writing index.html for book(index)
+[0/1] Installing files
+Installing gnome-session/gnome-session to /usr/bin
+Installing gnome-session/gnome-session-init-worker to /usr/libexec
+Installing gnome-session/gnome-session-service to /usr/libexec
+Installing tools/gnome-session-ctl to /usr/libexec
+Installing tools/gnome-session-inhibit to /usr/bin
+Installing tools/gnome-session-quit to /usr/bin
+Installing data/gnome.desktop to /usr/share/wayland-sessions
+Installing data/gnome-wayland.desktop to /usr/share/wayland-sessions
+Installing data/gnome.session to /usr/share/gnome-session/sessions
+Installing doc/man/gnome-session.1 to /usr/share/man/man1
+Installing doc/man/gnome-session-inhibit.1 to /usr/share/man/man1
+Installing doc/man/gnome-session-quit.1 to /usr/share/man/man1
+Installing /blfs/builds/gnome-session-49.2/build/doc/html/re06.html to /usr/share/doc/gnome-session/html
+Installing /blfs/builds/gnome-session-49.2/build/doc/html/re02.html to /usr/share/doc/gnome-session/html
+Installing /blfs/builds/gnome-session-49.2/build/doc/html/re04.html to /usr/share/doc/gnome-session/html
+Installing /blfs/builds/gnome-session-49.2/build/doc/html/re07.html to /usr/share/doc/gnome-session/html
+Installing /blfs/builds/gnome-session-49.2/build/doc/html/re03.html to /usr/share/doc/gnome-session/html
+Installing /blfs/builds/gnome-session-49.2/build/doc/html/gnome-session.proc to /usr/share/doc/gnome-session/html
+Installing /blfs/builds/gnome-session-49.2/build/doc/html/ix01.html to /usr/share/doc/gnome-session/html
+Installing /blfs/builds/gnome-session-49.2/build/doc/html/pt02.html to /usr/share/doc/gnome-session/html
+Installing /blfs/builds/gnome-session-49.2/build/doc/html/pt01.html to /usr/share/doc/gnome-session/html
+Installing /blfs/builds/gnome-session-49.2/build/doc/html/re01.html to /usr/share/doc/gnome-session/html
+Installing /blfs/builds/gnome-session-49.2/build/doc/html/index.html to /usr/share/doc/gnome-session/html
+Installing /blfs/builds/gnome-session-49.2/build/doc/html/re05.html to /usr/share/doc/gnome-session/html
+Installing po/ab/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/ab/LC_MESSAGES
+Installing po/af/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/af/LC_MESSAGES
+Installing po/am/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/am/LC_MESSAGES
+Installing po/an/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/an/LC_MESSAGES
+Installing po/ar/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/ar/LC_MESSAGES
+Installing po/as/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/as/LC_MESSAGES
+Installing po/ast/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/ast/LC_MESSAGES
+Installing po/az/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/az/LC_MESSAGES
+Installing po/be/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/be/LC_MESSAGES
+Installing po/be@latin/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/be@latin/LC_MESSAGES
+Installing po/bg/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/bg/LC_MESSAGES
+Installing po/bn/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/bn/LC_MESSAGES
+Installing po/bn_IN/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/bn_IN/LC_MESSAGES
+Installing po/br/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/br/LC_MESSAGES
+Installing po/bs/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/bs/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/ca/LC_MESSAGES
+Installing po/ca@valencia/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/ca@valencia/LC_MESSAGES
+Installing po/ckb/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/ckb/LC_MESSAGES
+Installing po/crh/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/crh/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/cs/LC_MESSAGES
+Installing po/csb/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/csb/LC_MESSAGES
+Installing po/cy/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/cy/LC_MESSAGES
+Installing po/da/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/de/LC_MESSAGES
+Installing po/dz/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/dz/LC_MESSAGES
+Installing po/el/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/el/LC_MESSAGES
+Installing po/en_CA/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/en_CA/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/en_GB/LC_MESSAGES
+Installing po/en@shaw/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/en@shaw/LC_MESSAGES
+Installing po/eo/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/eo/LC_MESSAGES
+Installing po/es/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/es/LC_MESSAGES
+Installing po/et/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/et/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/eu/LC_MESSAGES
+Installing po/fa/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/fa/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/fr/LC_MESSAGES
+Installing po/fur/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/fur/LC_MESSAGES
+Installing po/fy/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/fy/LC_MESSAGES
+Installing po/ga/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/ga/LC_MESSAGES
+Installing po/gd/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/gd/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/gl/LC_MESSAGES
+Installing po/gu/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/gu/LC_MESSAGES
+Installing po/ha/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/ha/LC_MESSAGES
+Installing po/he/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/he/LC_MESSAGES
+Installing po/hi/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/hi/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/hu/LC_MESSAGES
+Installing po/hy/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/hy/LC_MESSAGES
+Installing po/ia/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/ia/LC_MESSAGES
+Installing po/id/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/id/LC_MESSAGES
+Installing po/ie/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/ie/LC_MESSAGES
+Installing po/ig/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/ig/LC_MESSAGES
+Installing po/is/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/is/LC_MESSAGES
+Installing po/it/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/it/LC_MESSAGES
+Installing po/ja/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/ja/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/ka/LC_MESSAGES
+Installing po/kab/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/kab/LC_MESSAGES
+Installing po/kk/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/kk/LC_MESSAGES
+Installing po/km/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/km/LC_MESSAGES
+Installing po/kn/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/kn/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/ko/LC_MESSAGES
+Installing po/ku/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/ku/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/lt/LC_MESSAGES
+Installing po/lv/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/lv/LC_MESSAGES
+Installing po/mai/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/mai/LC_MESSAGES
+Installing po/mg/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/mg/LC_MESSAGES
+Installing po/mi/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/mi/LC_MESSAGES
+Installing po/mjw/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/mjw/LC_MESSAGES
+Installing po/mk/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/mk/LC_MESSAGES
+Installing po/ml/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/ml/LC_MESSAGES
+Installing po/mn/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/mn/LC_MESSAGES
+Installing po/mr/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/mr/LC_MESSAGES
+Installing po/ms/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/ms/LC_MESSAGES
+Installing po/nb/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/nb/LC_MESSAGES
+Installing po/nds/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/nds/LC_MESSAGES
+Installing po/ne/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/ne/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/nl/LC_MESSAGES
+Installing po/nn/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/nn/LC_MESSAGES
+Installing po/nso/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/nso/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/oc/LC_MESSAGES
+Installing po/or/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/or/LC_MESSAGES
+Installing po/pa/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/pa/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/pl/LC_MESSAGES
+Installing po/ps/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/ps/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/pt/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/ru/LC_MESSAGES
+Installing po/rw/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/rw/LC_MESSAGES
+Installing po/si/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/si/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/sl/LC_MESSAGES
+Installing po/sq/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/sq/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/sr/LC_MESSAGES
+Installing po/sr@latin/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/sr@latin/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/sv/LC_MESSAGES
+Installing po/ta/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/ta/LC_MESSAGES
+Installing po/te/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/te/LC_MESSAGES
+Installing po/tg/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/tg/LC_MESSAGES
+Installing po/th/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/th/LC_MESSAGES
+Installing po/tk/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/tk/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/tr/LC_MESSAGES
+Installing po/ug/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/ug/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/uk/LC_MESSAGES
+Installing po/uz/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/uz/LC_MESSAGES
+Installing po/uz@cyrillic/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/uz@cyrillic/LC_MESSAGES
+Installing po/vi/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/vi/LC_MESSAGES
+Installing po/wa/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/wa/LC_MESSAGES
+Installing po/xh/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/xh/LC_MESSAGES
+Installing po/yo/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/yo/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_HK/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/zh_HK/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/zh_TW/LC_MESSAGES
+Installing po/zu/LC_MESSAGES/gnome-session-49.mo to /usr/share/locale/zu/LC_MESSAGES
+Installing /blfs/builds/gnome-session-49.2/data/gnome.session.conf to /usr/lib/systemd/user/gnome-session@gnome.target.d
+Installing /blfs/builds/gnome-session-49.2/build/data/gnome-session-manager@.service to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-session-49.2/build/data/gnome-session-signal-init.service to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-session-49.2/build/data/gnome-session-restart-dbus.service to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-session-49.2/build/data/gnome-session-monitor.service to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-session-49.2/data/gnome-session-wayland@.target to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-session-49.2/data/gnome-session-wayland.target to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-session-49.2/data/gnome-session@.target to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-session-49.2/data/gnome-session.target to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-session-49.2/data/gnome-session-basic-services.target to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-session-49.2/data/gnome-session-pre.target to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-session-49.2/data/gnome-session-manager.target to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-session-49.2/data/gnome-session-initialized.target to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-session-49.2/data/gnome-session-shutdown.target to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-session-49.2/data/gnome-session-x11-services.target to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-session-49.2/data/gnome-session-x11-services-ready.target to /usr/lib/systemd/user
+Installing /blfs/builds/gnome-session-49.2/data/app-override.scope.conf to /usr/lib/systemd/user/app-gnome-.scope.d
+Installing /blfs/builds/gnome-session-49.2/data/app-override.scope.conf to /usr/lib/systemd/user/app-flatpak-.scope.d
+Installing /blfs/builds/gnome-session-49.2/data/org.gnome.SessionManager.gschema.xml to /usr/share/glib-2.0/schemas
+Installing /blfs/builds/gnome-session-49.2/data/gnome-portals.conf to /usr/share/xdg-desktop-portal
+Installing /blfs/builds/gnome-session-49.2/data/gnome-mimeapps.list to /usr/share/applications
+Running custom install script '/usr/bin/glib-compile-schemas /usr/share/glib-2.0/schemas'
+[0/1] Installing files
+Installing gnome-session/gnome-session to /pkgs/gnome-session/usr/bin
+Installing gnome-session/gnome-session-init-worker to /pkgs/gnome-session/usr/libexec
+Installing gnome-session/gnome-session-service to /pkgs/gnome-session/usr/libexec
+Installing tools/gnome-session-ctl to /pkgs/gnome-session/usr/libexec
+Installing tools/gnome-session-inhibit to /pkgs/gnome-session/usr/bin
+Installing tools/gnome-session-quit to /pkgs/gnome-session/usr/bin
+Installing data/gnome.desktop to /pkgs/gnome-session/usr/share/wayland-sessions
+Installing data/gnome-wayland.desktop to /pkgs/gnome-session/usr/share/wayland-sessions
+Installing data/gnome.session to /pkgs/gnome-session/usr/share/gnome-session/sessions
+Installing doc/man/gnome-session.1 to /pkgs/gnome-session/usr/share/man/man1
+Installing doc/man/gnome-session-inhibit.1 to /pkgs/gnome-session/usr/share/man/man1
+Installing doc/man/gnome-session-quit.1 to /pkgs/gnome-session/usr/share/man/man1
+Installing /blfs/builds/gnome-session-49.2/build/doc/html/re06.html to /pkgs/gnome-session/usr/share/doc/gnome-session/html
+Installing /blfs/builds/gnome-session-49.2/build/doc/html/re02.html to /pkgs/gnome-session/usr/share/doc/gnome-session/html
+Installing /blfs/builds/gnome-session-49.2/build/doc/html/re04.html to /pkgs/gnome-session/usr/share/doc/gnome-session/html
+Installing /blfs/builds/gnome-session-49.2/build/doc/html/re07.html to /pkgs/gnome-session/usr/share/doc/gnome-session/html
+Installing /blfs/builds/gnome-session-49.2/build/doc/html/re03.html to /pkgs/gnome-session/usr/share/doc/gnome-session/html
+Installing /blfs/builds/gnome-session-49.2/build/doc/html/gnome-session.proc to /pkgs/gnome-session/usr/share/doc/gnome-session/html
+Installing /blfs/builds/gnome-session-49.2/build/doc/html/ix01.html to /pkgs/gnome-session/usr/share/doc/gnome-session/html
+Installing /blfs/builds/gnome-session-49.2/build/doc/html/pt02.html to /pkgs/gnome-session/usr/share/doc/gnome-session/html
+Installing /blfs/builds/gnome-session-49.2/build/doc/html/pt01.html to /pkgs/gnome-session/usr/share/doc/gnome-session/html
+Installing /blfs/builds/gnome-session-49.2/build/doc/html/re01.html to /pkgs/gnome-session/usr/share/doc/gnome-session/html
+Installing /blfs/builds/gnome-session-49.2/build/doc/html/index.html to /pkgs/gnome-session/usr/share/doc/gnome-session/html
+Installing /blfs/builds/gnome-session-49.2/build/doc/html/re05.html to /pkgs/gnome-session/usr/share/doc/gnome-session/html
+Installing po/ab/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/ab/LC_MESSAGES
+Installing po/af/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/af/LC_MESSAGES
+Installing po/am/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/am/LC_MESSAGES
+Installing po/an/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/an/LC_MESSAGES
+Installing po/ar/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/ar/LC_MESSAGES
+Installing po/as/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/as/LC_MESSAGES
+Installing po/ast/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/ast/LC_MESSAGES
+Installing po/az/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/az/LC_MESSAGES
+Installing po/be/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/be/LC_MESSAGES
+Installing po/be@latin/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/be@latin/LC_MESSAGES
+Installing po/bg/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/bg/LC_MESSAGES
+Installing po/bn/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/bn/LC_MESSAGES
+Installing po/bn_IN/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/bn_IN/LC_MESSAGES
+Installing po/br/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/br/LC_MESSAGES
+Installing po/bs/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/bs/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/ca/LC_MESSAGES
+Installing po/ca@valencia/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/ca@valencia/LC_MESSAGES
+Installing po/ckb/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/ckb/LC_MESSAGES
+Installing po/crh/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/crh/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/cs/LC_MESSAGES
+Installing po/csb/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/csb/LC_MESSAGES
+Installing po/cy/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/cy/LC_MESSAGES
+Installing po/da/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/de/LC_MESSAGES
+Installing po/dz/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/dz/LC_MESSAGES
+Installing po/el/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/el/LC_MESSAGES
+Installing po/en_CA/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/en_CA/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/en_GB/LC_MESSAGES
+Installing po/en@shaw/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/en@shaw/LC_MESSAGES
+Installing po/eo/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/eo/LC_MESSAGES
+Installing po/es/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/es/LC_MESSAGES
+Installing po/et/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/et/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/eu/LC_MESSAGES
+Installing po/fa/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/fa/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/fr/LC_MESSAGES
+Installing po/fur/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/fur/LC_MESSAGES
+Installing po/fy/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/fy/LC_MESSAGES
+Installing po/ga/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/ga/LC_MESSAGES
+Installing po/gd/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/gd/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/gl/LC_MESSAGES
+Installing po/gu/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/gu/LC_MESSAGES
+Installing po/ha/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/ha/LC_MESSAGES
+Installing po/he/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/he/LC_MESSAGES
+Installing po/hi/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/hi/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/hu/LC_MESSAGES
+Installing po/hy/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/hy/LC_MESSAGES
+Installing po/ia/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/ia/LC_MESSAGES
+Installing po/id/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/id/LC_MESSAGES
+Installing po/ie/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/ie/LC_MESSAGES
+Installing po/ig/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/ig/LC_MESSAGES
+Installing po/is/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/is/LC_MESSAGES
+Installing po/it/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/it/LC_MESSAGES
+Installing po/ja/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/ja/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/ka/LC_MESSAGES
+Installing po/kab/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/kab/LC_MESSAGES
+Installing po/kk/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/kk/LC_MESSAGES
+Installing po/km/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/km/LC_MESSAGES
+Installing po/kn/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/kn/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/ko/LC_MESSAGES
+Installing po/ku/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/ku/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/lt/LC_MESSAGES
+Installing po/lv/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/lv/LC_MESSAGES
+Installing po/mai/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/mai/LC_MESSAGES
+Installing po/mg/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/mg/LC_MESSAGES
+Installing po/mi/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/mi/LC_MESSAGES
+Installing po/mjw/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/mjw/LC_MESSAGES
+Installing po/mk/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/mk/LC_MESSAGES
+Installing po/ml/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/ml/LC_MESSAGES
+Installing po/mn/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/mn/LC_MESSAGES
+Installing po/mr/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/mr/LC_MESSAGES
+Installing po/ms/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/ms/LC_MESSAGES
+Installing po/nb/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/nb/LC_MESSAGES
+Installing po/nds/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/nds/LC_MESSAGES
+Installing po/ne/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/ne/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/nl/LC_MESSAGES
+Installing po/nn/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/nn/LC_MESSAGES
+Installing po/nso/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/nso/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/oc/LC_MESSAGES
+Installing po/or/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/or/LC_MESSAGES
+Installing po/pa/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/pa/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/pl/LC_MESSAGES
+Installing po/ps/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/ps/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/pt/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/ru/LC_MESSAGES
+Installing po/rw/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/rw/LC_MESSAGES
+Installing po/si/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/si/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/sl/LC_MESSAGES
+Installing po/sq/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/sq/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/sr/LC_MESSAGES
+Installing po/sr@latin/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/sr@latin/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/sv/LC_MESSAGES
+Installing po/ta/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/ta/LC_MESSAGES
+Installing po/te/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/te/LC_MESSAGES
+Installing po/tg/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/tg/LC_MESSAGES
+Installing po/th/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/th/LC_MESSAGES
+Installing po/tk/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/tk/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/tr/LC_MESSAGES
+Installing po/ug/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/ug/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/uk/LC_MESSAGES
+Installing po/uz/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/uz/LC_MESSAGES
+Installing po/uz@cyrillic/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/uz@cyrillic/LC_MESSAGES
+Installing po/vi/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/vi/LC_MESSAGES
+Installing po/wa/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/wa/LC_MESSAGES
+Installing po/xh/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/xh/LC_MESSAGES
+Installing po/yo/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/yo/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_HK/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/zh_HK/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/zh_TW/LC_MESSAGES
+Installing po/zu/LC_MESSAGES/gnome-session-49.mo to /pkgs/gnome-session/usr/share/locale/zu/LC_MESSAGES
+Installing /blfs/builds/gnome-session-49.2/data/gnome.session.conf to /pkgs/gnome-session/usr/lib/systemd/user/gnome-session@gnome.target.d
+Installing /blfs/builds/gnome-session-49.2/build/data/gnome-session-manager@.service to /pkgs/gnome-session/usr/lib/systemd/user
+Installing /blfs/builds/gnome-session-49.2/build/data/gnome-session-signal-init.service to /pkgs/gnome-session/usr/lib/systemd/user
+Installing /blfs/builds/gnome-session-49.2/build/data/gnome-session-restart-dbus.service to /pkgs/gnome-session/usr/lib/systemd/user
+Installing /blfs/builds/gnome-session-49.2/build/data/gnome-session-monitor.service to /pkgs/gnome-session/usr/lib/systemd/user
+Installing /blfs/builds/gnome-session-49.2/data/gnome-session-wayland@.target to /pkgs/gnome-session/usr/lib/systemd/user
+Installing /blfs/builds/gnome-session-49.2/data/gnome-session-wayland.target to /pkgs/gnome-session/usr/lib/systemd/user
+Installing /blfs/builds/gnome-session-49.2/data/gnome-session@.target to /pkgs/gnome-session/usr/lib/systemd/user
+Installing /blfs/builds/gnome-session-49.2/data/gnome-session.target to /pkgs/gnome-session/usr/lib/systemd/user
+Installing /blfs/builds/gnome-session-49.2/data/gnome-session-basic-services.target to /pkgs/gnome-session/usr/lib/systemd/user
+Installing /blfs/builds/gnome-session-49.2/data/gnome-session-pre.target to /pkgs/gnome-session/usr/lib/systemd/user
+Installing /blfs/builds/gnome-session-49.2/data/gnome-session-manager.target to /pkgs/gnome-session/usr/lib/systemd/user
+Installing /blfs/builds/gnome-session-49.2/data/gnome-session-initialized.target to /pkgs/gnome-session/usr/lib/systemd/user
+Installing /blfs/builds/gnome-session-49.2/data/gnome-session-shutdown.target to /pkgs/gnome-session/usr/lib/systemd/user
+Installing /blfs/builds/gnome-session-49.2/data/gnome-session-x11-services.target to /pkgs/gnome-session/usr/lib/systemd/user
+Installing /blfs/builds/gnome-session-49.2/data/gnome-session-x11-services-ready.target to /pkgs/gnome-session/usr/lib/systemd/user
+Installing /blfs/builds/gnome-session-49.2/data/app-override.scope.conf to /pkgs/gnome-session/usr/lib/systemd/user/app-gnome-.scope.d
+Installing /blfs/builds/gnome-session-49.2/data/app-override.scope.conf to /pkgs/gnome-session/usr/lib/systemd/user/app-flatpak-.scope.d
+Installing /blfs/builds/gnome-session-49.2/data/org.gnome.SessionManager.gschema.xml to /pkgs/gnome-session/usr/share/glib-2.0/schemas
+Installing /blfs/builds/gnome-session-49.2/data/gnome-portals.conf to /pkgs/gnome-session/usr/share/xdg-desktop-portal
+Installing /blfs/builds/gnome-session-49.2/data/gnome-mimeapps.list to /pkgs/gnome-session/usr/share/applications
+Skipping custom install script because DESTDIR is set '/usr/bin/glib-compile-schemas /usr/share/glib-2.0/schemas'
+gnome-session/
+gnome-session/usr/
+gnome-session/usr/share/
+gnome-session/usr/share/xdg-desktop-portal/
+gnome-session/usr/share/xdg-desktop-portal/gnome-portals.conf
+gnome-session/usr/share/locale/
+gnome-session/usr/share/locale/sr/
+gnome-session/usr/share/locale/sr/LC_MESSAGES/
+gnome-session/usr/share/locale/sr/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/zu/
+gnome-session/usr/share/locale/zu/LC_MESSAGES/
+gnome-session/usr/share/locale/zu/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/nl/
+gnome-session/usr/share/locale/nl/LC_MESSAGES/
+gnome-session/usr/share/locale/nl/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/an/
+gnome-session/usr/share/locale/an/LC_MESSAGES/
+gnome-session/usr/share/locale/an/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/en@shaw/
+gnome-session/usr/share/locale/en@shaw/LC_MESSAGES/
+gnome-session/usr/share/locale/en@shaw/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/ab/
+gnome-session/usr/share/locale/ab/LC_MESSAGES/
+gnome-session/usr/share/locale/ab/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/tg/
+gnome-session/usr/share/locale/tg/LC_MESSAGES/
+gnome-session/usr/share/locale/tg/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/mai/
+gnome-session/usr/share/locale/mai/LC_MESSAGES/
+gnome-session/usr/share/locale/mai/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/ku/
+gnome-session/usr/share/locale/ku/LC_MESSAGES/
+gnome-session/usr/share/locale/ku/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/fi/
+gnome-session/usr/share/locale/fi/LC_MESSAGES/
+gnome-session/usr/share/locale/fi/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/crh/
+gnome-session/usr/share/locale/crh/LC_MESSAGES/
+gnome-session/usr/share/locale/crh/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/kn/
+gnome-session/usr/share/locale/kn/LC_MESSAGES/
+gnome-session/usr/share/locale/kn/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/id/
+gnome-session/usr/share/locale/id/LC_MESSAGES/
+gnome-session/usr/share/locale/id/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/hy/
+gnome-session/usr/share/locale/hy/LC_MESSAGES/
+gnome-session/usr/share/locale/hy/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/ga/
+gnome-session/usr/share/locale/ga/LC_MESSAGES/
+gnome-session/usr/share/locale/ga/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/gu/
+gnome-session/usr/share/locale/gu/LC_MESSAGES/
+gnome-session/usr/share/locale/gu/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/ro/
+gnome-session/usr/share/locale/ro/LC_MESSAGES/
+gnome-session/usr/share/locale/ro/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/ko/
+gnome-session/usr/share/locale/ko/LC_MESSAGES/
+gnome-session/usr/share/locale/ko/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/sr@latin/
+gnome-session/usr/share/locale/sr@latin/LC_MESSAGES/
+gnome-session/usr/share/locale/sr@latin/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/zh_TW/
+gnome-session/usr/share/locale/zh_TW/LC_MESSAGES/
+gnome-session/usr/share/locale/zh_TW/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/hi/
+gnome-session/usr/share/locale/hi/LC_MESSAGES/
+gnome-session/usr/share/locale/hi/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/fy/
+gnome-session/usr/share/locale/fy/LC_MESSAGES/
+gnome-session/usr/share/locale/fy/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/kk/
+gnome-session/usr/share/locale/kk/LC_MESSAGES/
+gnome-session/usr/share/locale/kk/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/tk/
+gnome-session/usr/share/locale/tk/LC_MESSAGES/
+gnome-session/usr/share/locale/tk/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/km/
+gnome-session/usr/share/locale/km/LC_MESSAGES/
+gnome-session/usr/share/locale/km/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/nb/
+gnome-session/usr/share/locale/nb/LC_MESSAGES/
+gnome-session/usr/share/locale/nb/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/mjw/
+gnome-session/usr/share/locale/mjw/LC_MESSAGES/
+gnome-session/usr/share/locale/mjw/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/as/
+gnome-session/usr/share/locale/as/LC_MESSAGES/
+gnome-session/usr/share/locale/as/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/af/
+gnome-session/usr/share/locale/af/LC_MESSAGES/
+gnome-session/usr/share/locale/af/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/ie/
+gnome-session/usr/share/locale/ie/LC_MESSAGES/
+gnome-session/usr/share/locale/ie/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/ar/
+gnome-session/usr/share/locale/ar/LC_MESSAGES/
+gnome-session/usr/share/locale/ar/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/uk/
+gnome-session/usr/share/locale/uk/LC_MESSAGES/
+gnome-session/usr/share/locale/uk/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/am/
+gnome-session/usr/share/locale/am/LC_MESSAGES/
+gnome-session/usr/share/locale/am/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/uz@cyrillic/
+gnome-session/usr/share/locale/uz@cyrillic/LC_MESSAGES/
+gnome-session/usr/share/locale/uz@cyrillic/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/uz/
+gnome-session/usr/share/locale/uz/LC_MESSAGES/
+gnome-session/usr/share/locale/uz/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/wa/
+gnome-session/usr/share/locale/wa/LC_MESSAGES/
+gnome-session/usr/share/locale/wa/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/ia/
+gnome-session/usr/share/locale/ia/LC_MESSAGES/
+gnome-session/usr/share/locale/ia/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/ast/
+gnome-session/usr/share/locale/ast/LC_MESSAGES/
+gnome-session/usr/share/locale/ast/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/ug/
+gnome-session/usr/share/locale/ug/LC_MESSAGES/
+gnome-session/usr/share/locale/ug/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/en_GB/
+gnome-session/usr/share/locale/en_GB/LC_MESSAGES/
+gnome-session/usr/share/locale/en_GB/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/oc/
+gnome-session/usr/share/locale/oc/LC_MESSAGES/
+gnome-session/usr/share/locale/oc/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/es/
+gnome-session/usr/share/locale/es/LC_MESSAGES/
+gnome-session/usr/share/locale/es/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/csb/
+gnome-session/usr/share/locale/csb/LC_MESSAGES/
+gnome-session/usr/share/locale/csb/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/nds/
+gnome-session/usr/share/locale/nds/LC_MESSAGES/
+gnome-session/usr/share/locale/nds/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/rw/
+gnome-session/usr/share/locale/rw/LC_MESSAGES/
+gnome-session/usr/share/locale/rw/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/th/
+gnome-session/usr/share/locale/th/LC_MESSAGES/
+gnome-session/usr/share/locale/th/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/he/
+gnome-session/usr/share/locale/he/LC_MESSAGES/
+gnome-session/usr/share/locale/he/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/az/
+gnome-session/usr/share/locale/az/LC_MESSAGES/
+gnome-session/usr/share/locale/az/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/nn/
+gnome-session/usr/share/locale/nn/LC_MESSAGES/
+gnome-session/usr/share/locale/nn/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/mi/
+gnome-session/usr/share/locale/mi/LC_MESSAGES/
+gnome-session/usr/share/locale/mi/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/vi/
+gnome-session/usr/share/locale/vi/LC_MESSAGES/
+gnome-session/usr/share/locale/vi/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/fr/
+gnome-session/usr/share/locale/fr/LC_MESSAGES/
+gnome-session/usr/share/locale/fr/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/ca/
+gnome-session/usr/share/locale/ca/LC_MESSAGES/
+gnome-session/usr/share/locale/ca/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/ta/
+gnome-session/usr/share/locale/ta/LC_MESSAGES/
+gnome-session/usr/share/locale/ta/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/pl/
+gnome-session/usr/share/locale/pl/LC_MESSAGES/
+gnome-session/usr/share/locale/pl/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/da/
+gnome-session/usr/share/locale/da/LC_MESSAGES/
+gnome-session/usr/share/locale/da/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/ru/
+gnome-session/usr/share/locale/ru/LC_MESSAGES/
+gnome-session/usr/share/locale/ru/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/bn_IN/
+gnome-session/usr/share/locale/bn_IN/LC_MESSAGES/
+gnome-session/usr/share/locale/bn_IN/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/is/
+gnome-session/usr/share/locale/is/LC_MESSAGES/
+gnome-session/usr/share/locale/is/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/mk/
+gnome-session/usr/share/locale/mk/LC_MESSAGES/
+gnome-session/usr/share/locale/mk/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/hr/
+gnome-session/usr/share/locale/hr/LC_MESSAGES/
+gnome-session/usr/share/locale/hr/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/ja/
+gnome-session/usr/share/locale/ja/LC_MESSAGES/
+gnome-session/usr/share/locale/ja/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/kab/
+gnome-session/usr/share/locale/kab/LC_MESSAGES/
+gnome-session/usr/share/locale/kab/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/fa/
+gnome-session/usr/share/locale/fa/LC_MESSAGES/
+gnome-session/usr/share/locale/fa/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/ckb/
+gnome-session/usr/share/locale/ckb/LC_MESSAGES/
+gnome-session/usr/share/locale/ckb/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/zh_CN/
+gnome-session/usr/share/locale/zh_CN/LC_MESSAGES/
+gnome-session/usr/share/locale/zh_CN/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/cs/
+gnome-session/usr/share/locale/cs/LC_MESSAGES/
+gnome-session/usr/share/locale/cs/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/or/
+gnome-session/usr/share/locale/or/LC_MESSAGES/
+gnome-session/usr/share/locale/or/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/en_CA/
+gnome-session/usr/share/locale/en_CA/LC_MESSAGES/
+gnome-session/usr/share/locale/en_CA/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/lv/
+gnome-session/usr/share/locale/lv/LC_MESSAGES/
+gnome-session/usr/share/locale/lv/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/mr/
+gnome-session/usr/share/locale/mr/LC_MESSAGES/
+gnome-session/usr/share/locale/mr/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/pt_BR/
+gnome-session/usr/share/locale/pt_BR/LC_MESSAGES/
+gnome-session/usr/share/locale/pt_BR/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/cy/
+gnome-session/usr/share/locale/cy/LC_MESSAGES/
+gnome-session/usr/share/locale/cy/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/pt/
+gnome-session/usr/share/locale/pt/LC_MESSAGES/
+gnome-session/usr/share/locale/pt/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/hu/
+gnome-session/usr/share/locale/hu/LC_MESSAGES/
+gnome-session/usr/share/locale/hu/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/tr/
+gnome-session/usr/share/locale/tr/LC_MESSAGES/
+gnome-session/usr/share/locale/tr/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/ps/
+gnome-session/usr/share/locale/ps/LC_MESSAGES/
+gnome-session/usr/share/locale/ps/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/sl/
+gnome-session/usr/share/locale/sl/LC_MESSAGES/
+gnome-session/usr/share/locale/sl/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/ha/
+gnome-session/usr/share/locale/ha/LC_MESSAGES/
+gnome-session/usr/share/locale/ha/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/zh_HK/
+gnome-session/usr/share/locale/zh_HK/LC_MESSAGES/
+gnome-session/usr/share/locale/zh_HK/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/mg/
+gnome-session/usr/share/locale/mg/LC_MESSAGES/
+gnome-session/usr/share/locale/mg/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/bn/
+gnome-session/usr/share/locale/bn/LC_MESSAGES/
+gnome-session/usr/share/locale/bn/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/fur/
+gnome-session/usr/share/locale/fur/LC_MESSAGES/
+gnome-session/usr/share/locale/fur/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/be@latin/
+gnome-session/usr/share/locale/be@latin/LC_MESSAGES/
+gnome-session/usr/share/locale/be@latin/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/eu/
+gnome-session/usr/share/locale/eu/LC_MESSAGES/
+gnome-session/usr/share/locale/eu/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/dz/
+gnome-session/usr/share/locale/dz/LC_MESSAGES/
+gnome-session/usr/share/locale/dz/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/yo/
+gnome-session/usr/share/locale/yo/LC_MESSAGES/
+gnome-session/usr/share/locale/yo/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/el/
+gnome-session/usr/share/locale/el/LC_MESSAGES/
+gnome-session/usr/share/locale/el/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/xh/
+gnome-session/usr/share/locale/xh/LC_MESSAGES/
+gnome-session/usr/share/locale/xh/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/mn/
+gnome-session/usr/share/locale/mn/LC_MESSAGES/
+gnome-session/usr/share/locale/mn/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/gd/
+gnome-session/usr/share/locale/gd/LC_MESSAGES/
+gnome-session/usr/share/locale/gd/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/sv/
+gnome-session/usr/share/locale/sv/LC_MESSAGES/
+gnome-session/usr/share/locale/sv/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/br/
+gnome-session/usr/share/locale/br/LC_MESSAGES/
+gnome-session/usr/share/locale/br/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/ml/
+gnome-session/usr/share/locale/ml/LC_MESSAGES/
+gnome-session/usr/share/locale/ml/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/sk/
+gnome-session/usr/share/locale/sk/LC_MESSAGES/
+gnome-session/usr/share/locale/sk/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/si/
+gnome-session/usr/share/locale/si/LC_MESSAGES/
+gnome-session/usr/share/locale/si/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/eo/
+gnome-session/usr/share/locale/eo/LC_MESSAGES/
+gnome-session/usr/share/locale/eo/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/bg/
+gnome-session/usr/share/locale/bg/LC_MESSAGES/
+gnome-session/usr/share/locale/bg/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/pa/
+gnome-session/usr/share/locale/pa/LC_MESSAGES/
+gnome-session/usr/share/locale/pa/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/ka/
+gnome-session/usr/share/locale/ka/LC_MESSAGES/
+gnome-session/usr/share/locale/ka/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/ig/
+gnome-session/usr/share/locale/ig/LC_MESSAGES/
+gnome-session/usr/share/locale/ig/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/te/
+gnome-session/usr/share/locale/te/LC_MESSAGES/
+gnome-session/usr/share/locale/te/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/ne/
+gnome-session/usr/share/locale/ne/LC_MESSAGES/
+gnome-session/usr/share/locale/ne/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/it/
+gnome-session/usr/share/locale/it/LC_MESSAGES/
+gnome-session/usr/share/locale/it/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/de/
+gnome-session/usr/share/locale/de/LC_MESSAGES/
+gnome-session/usr/share/locale/de/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/ca@valencia/
+gnome-session/usr/share/locale/ca@valencia/LC_MESSAGES/
+gnome-session/usr/share/locale/ca@valencia/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/lt/
+gnome-session/usr/share/locale/lt/LC_MESSAGES/
+gnome-session/usr/share/locale/lt/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/et/
+gnome-session/usr/share/locale/et/LC_MESSAGES/
+gnome-session/usr/share/locale/et/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/sq/
+gnome-session/usr/share/locale/sq/LC_MESSAGES/
+gnome-session/usr/share/locale/sq/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/bs/
+gnome-session/usr/share/locale/bs/LC_MESSAGES/
+gnome-session/usr/share/locale/bs/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/nso/
+gnome-session/usr/share/locale/nso/LC_MESSAGES/
+gnome-session/usr/share/locale/nso/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/be/
+gnome-session/usr/share/locale/be/LC_MESSAGES/
+gnome-session/usr/share/locale/be/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/ms/
+gnome-session/usr/share/locale/ms/LC_MESSAGES/
+gnome-session/usr/share/locale/ms/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/locale/gl/
+gnome-session/usr/share/locale/gl/LC_MESSAGES/
+gnome-session/usr/share/locale/gl/LC_MESSAGES/gnome-session-49.mo
+gnome-session/usr/share/glib-2.0/
+gnome-session/usr/share/glib-2.0/schemas/
+gnome-session/usr/share/glib-2.0/schemas/org.gnome.SessionManager.gschema.xml
+gnome-session/usr/share/wayland-sessions/
+gnome-session/usr/share/wayland-sessions/gnome-wayland.desktop
+gnome-session/usr/share/wayland-sessions/gnome.desktop
+gnome-session/usr/share/doc/
+gnome-session/usr/share/doc/gnome-session/
+gnome-session/usr/share/doc/gnome-session/html/
+gnome-session/usr/share/doc/gnome-session/html/re06.html
+gnome-session/usr/share/doc/gnome-session/html/re02.html
+gnome-session/usr/share/doc/gnome-session/html/re04.html
+gnome-session/usr/share/doc/gnome-session/html/re07.html
+gnome-session/usr/share/doc/gnome-session/html/re03.html
+gnome-session/usr/share/doc/gnome-session/html/gnome-session.proc
+gnome-session/usr/share/doc/gnome-session/html/ix01.html
+gnome-session/usr/share/doc/gnome-session/html/pt02.html
+gnome-session/usr/share/doc/gnome-session/html/pt01.html
+gnome-session/usr/share/doc/gnome-session/html/re01.html
+gnome-session/usr/share/doc/gnome-session/html/index.html
+gnome-session/usr/share/doc/gnome-session/html/re05.html
+gnome-session/usr/share/applications/
+gnome-session/usr/share/applications/gnome-mimeapps.list
+gnome-session/usr/share/gnome-session/
+gnome-session/usr/share/gnome-session/sessions/
+gnome-session/usr/share/gnome-session/sessions/gnome.session
+gnome-session/usr/share/man/
+gnome-session/usr/share/man/man1/
+gnome-session/usr/share/man/man1/gnome-session.1
+gnome-session/usr/share/man/man1/gnome-session-quit.1
+gnome-session/usr/share/man/man1/gnome-session-inhibit.1
+gnome-session/usr/libexec/
+gnome-session/usr/libexec/gnome-session-init-worker
+gnome-session/usr/libexec/gnome-session-service
+gnome-session/usr/libexec/gnome-session-ctl
+gnome-session/usr/bin/
+gnome-session/usr/bin/gnome-session-inhibit
+gnome-session/usr/bin/gnome-session-quit
+gnome-session/usr/bin/gnome-session
+gnome-session/usr/lib/
+gnome-session/usr/lib/systemd/
+gnome-session/usr/lib/systemd/user/
+gnome-session/usr/lib/systemd/user/gnome-session-wayland@.target
+gnome-session/usr/lib/systemd/user/gnome-session-x11-services-ready.target
+gnome-session/usr/lib/systemd/user/gnome-session-wayland.target
+gnome-session/usr/lib/systemd/user/gnome-session.target
+gnome-session/usr/lib/systemd/user/gnome-session-pre.target
+gnome-session/usr/lib/systemd/user/app-flatpak-.scope.d/
+gnome-session/usr/lib/systemd/user/app-flatpak-.scope.d/override.conf
+gnome-session/usr/lib/systemd/user/gnome-session-manager.target
+gnome-session/usr/lib/systemd/user/gnome-session-shutdown.target
+gnome-session/usr/lib/systemd/user/gnome-session@gnome.target.d/
+gnome-session/usr/lib/systemd/user/gnome-session@gnome.target.d/gnome.session.conf
+gnome-session/usr/lib/systemd/user/app-gnome-.scope.d/
+gnome-session/usr/lib/systemd/user/app-gnome-.scope.d/override.conf
+gnome-session/usr/lib/systemd/user/gnome-session-signal-init.service
+gnome-session/usr/lib/systemd/user/gnome-session-x11-services.target
+gnome-session/usr/lib/systemd/user/gnome-session-monitor.service
+gnome-session/usr/lib/systemd/user/gnome-session-restart-dbus.service
+gnome-session/usr/lib/systemd/user/gnome-session@.target
+gnome-session/usr/lib/systemd/user/gnome-session-manager@.service
+gnome-session/usr/lib/systemd/user/gnome-session-initialized.target
+gnome-session/usr/lib/systemd/user/gnome-session-basic-services.target
+gnome-session/version
+gnome-session/depends
