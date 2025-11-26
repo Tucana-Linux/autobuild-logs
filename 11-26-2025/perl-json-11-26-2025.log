@@ -1,0 +1,183 @@
+--2025-11-26 08:27:56--  https://www.cpan.org/modules/by-module/JSON/JSON-4.10.tar.gz
+Resolving www.cpan.org (www.cpan.org)... 2a04:4e42::311, 2a04:4e42:200::311, 2a04:4e42:400::311, ...
+Connecting to www.cpan.org (www.cpan.org)|2a04:4e42::311|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 94342 (92K) [application/x-gzip]
+Saving to: ‘JSON-4.10.tar.gz’
+
+     0K .......... .......... .......... .......... .......... 54% 10.0M 0s
+    50K .......... .......... .......... .......... ..        100% 10.0M=0.009s
+
+2025-11-26 08:27:57 (10.0 MB/s) - ‘JSON-4.10.tar.gz’ saved [94342/94342]
+
+JSON-4.10/
+JSON-4.10/Changes
+JSON-4.10/lib/
+JSON-4.10/lib/JSON/
+JSON-4.10/lib/JSON/backportPP.pm
+JSON-4.10/lib/JSON/backportPP/
+JSON-4.10/lib/JSON/backportPP/Compat5006.pm
+JSON-4.10/lib/JSON/backportPP/Compat5005.pm
+JSON-4.10/lib/JSON/backportPP/Boolean.pm
+JSON-4.10/lib/JSON.pm
+JSON-4.10/META.yml
+JSON-4.10/MANIFEST
+JSON-4.10/Makefile.PL
+JSON-4.10/t/
+JSON-4.10/t/118_boolean_values.t
+JSON-4.10/t/04_dwiw_encode.t
+JSON-4.10/t/00_load.t
+JSON-4.10/t/x02_error.t
+JSON-4.10/t/19_incr.t
+JSON-4.10/t/14_latin1.t
+JSON-4.10/t/15_prefix.t
+JSON-4.10/t/105_esc_slash.t
+JSON-4.10/t/xe19_xs_and_suportbypp.t
+JSON-4.10/t/zero-mojibake.t
+JSON-4.10/t/109_encode.t
+JSON-4.10/t/rt_90071_incr_parse.t
+JSON-4.10/t/03_types.t
+JSON-4.10/t/xe20_croak_message.t
+JSON-4.10/t/22_comment_at_eof.t
+JSON-4.10/t/x17_strange_overload.t
+JSON-4.10/t/07_pc_esc.t
+JSON-4.10/t/e02_bool.t
+JSON-4.10/t/08_pc_base.t
+JSON-4.10/t/52_object.t
+JSON-4.10/t/16_tied.t
+JSON-4.10/t/rt_122270_old_xs_boolean.t
+JSON-4.10/t/01_utf8.t
+JSON-4.10/t/99_binary.t
+JSON-4.10/t/117_numbers.t
+JSON-4.10/t/12_blessed.t
+JSON-4.10/t/10_pc_keysort.t
+JSON-4.10/t/104_sortby.t
+JSON-4.10/t/21_evans.t
+JSON-4.10/t/20_unknown.t
+JSON-4.10/t/xe21_is_pp.t
+JSON-4.10/t/gh_29_trailing_false_value.t
+JSON-4.10/t/e01_property.t
+JSON-4.10/t/09_pc_extra_number.t
+JSON-4.10/t/114_decode_prefix.t
+JSON-4.10/t/05_dwiw_decode.t
+JSON-4.10/t/02_error.t
+JSON-4.10/t/120_incr_parse_truncated.t
+JSON-4.10/t/e90_misc.t
+JSON-4.10/t/x16_tied.t
+JSON-4.10/t/13_limit.t
+JSON-4.10/t/xe05_indent_length.t
+JSON-4.10/t/112_upgrade.t
+JSON-4.10/t/e00_func.t
+JSON-4.10/t/18_json_checker.t
+JSON-4.10/t/x12_blessed.t
+JSON-4.10/t/06_pc_pretty.t
+JSON-4.10/t/108_decode.t
+JSON-4.10/t/119_incr_parse_utf8.t
+JSON-4.10/t/107_allow_singlequote.t
+JSON-4.10/t/e11_conv_blessed_univ.t
+JSON-4.10/t/17_relaxed.t
+JSON-4.10/t/113_overloaded_eq.t
+JSON-4.10/t/rt_122270_is_bool_for_obsolete_xs_boolean.t
+JSON-4.10/t/x00_load.t
+JSON-4.10/t/115_tie_ixhash.t
+JSON-4.10/t/xe04_escape_slash.t
+JSON-4.10/t/116_incr_parse_fixed.t
+JSON-4.10/t/110_bignum.t
+JSON-4.10/t/xe12_boolean.t
+JSON-4.10/t/11_pc_expo.t
+JSON-4.10/t/20_faihu.t
+JSON-4.10/t/00_backend_version.t
+JSON-4.10/t/e03_bool2.t
+JSON-4.10/t/rt_116998_wrong_character_offset.t
+JSON-4.10/t/gh_28_json_test_suite.t
+JSON-4.10/t/106_allow_barekey.t
+JSON-4.10/t/00_load_backport_pp.t
+JSON-4.10/eg/
+JSON-4.10/eg/bench_decode.pl
+JSON-4.10/eg/bench_encode.pl
+JSON-4.10/README
+JSON-4.10/META.json
+Welcome to JSON (v.4.10)
+=============================
+
+ ** BACKWARD INCOMPATIBILITY **
+
+Since version 2.90, stringification (and string comparison) for
+JSON::true and JSON::false has not been overloaded. It shouldn't
+matter as long as you treat them as boolean values, but a code that
+expects they are stringified as "true" or "false" doesn't work as
+you have expected any more.
+
+    if (JSON::true eq 'true') {  # now fails
+
+    print "The result is 1 now."; # => The result is 1 now.
+
+And now these boolean values don't inherit JSON::Boolean, either.
+When you need to test a value is a JSON boolean value or not, use
+JSON::is_bool function, instead of testing the value inherits
+a particular boolean class or not.
+
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for JSON
+Writing MYMETA.yml and MYMETA.json
+cp lib/JSON/backportPP.pm blib/lib/JSON/backportPP.pm
+cp lib/JSON/backportPP/Compat5005.pm blib/lib/JSON/backportPP/Compat5005.pm
+cp lib/JSON.pm blib/lib/JSON.pm
+cp lib/JSON/backportPP/Boolean.pm blib/lib/JSON/backportPP/Boolean.pm
+cp lib/JSON/backportPP/Compat5006.pm blib/lib/JSON/backportPP/Compat5006.pm
+Manifying 5 pod documents
+Manifying 5 pod documents
+Installing /pkgs/perl-json/usr/lib/perl5/5.42/site_perl/JSON.pm
+Installing /pkgs/perl-json/usr/lib/perl5/5.42/site_perl/JSON/backportPP.pm
+Installing /pkgs/perl-json/usr/lib/perl5/5.42/site_perl/JSON/backportPP/Boolean.pm
+Installing /pkgs/perl-json/usr/lib/perl5/5.42/site_perl/JSON/backportPP/Compat5005.pm
+Installing /pkgs/perl-json/usr/lib/perl5/5.42/site_perl/JSON/backportPP/Compat5006.pm
+Installing /pkgs/perl-json/usr/share/man/man3/JSON::backportPP.3
+Installing /pkgs/perl-json/usr/share/man/man3/JSON::backportPP::Compat5006.3
+Installing /pkgs/perl-json/usr/share/man/man3/JSON.3
+Installing /pkgs/perl-json/usr/share/man/man3/JSON::backportPP::Compat5005.3
+Installing /pkgs/perl-json/usr/share/man/man3/JSON::backportPP::Boolean.3
+Appending installation info to /pkgs/perl-json/usr/lib/perl5/5.42/core_perl/perllocal.pod
+Manifying 5 pod documents
+Installing /usr/lib/perl5/5.42/site_perl/JSON.pm
+Installing /usr/lib/perl5/5.42/site_perl/JSON/backportPP.pm
+Installing /usr/lib/perl5/5.42/site_perl/JSON/backportPP/Boolean.pm
+Installing /usr/lib/perl5/5.42/site_perl/JSON/backportPP/Compat5005.pm
+Installing /usr/lib/perl5/5.42/site_perl/JSON/backportPP/Compat5006.pm
+Installing /usr/share/man/man3/JSON::backportPP.3
+Installing /usr/share/man/man3/JSON::backportPP::Compat5006.3
+Installing /usr/share/man/man3/JSON.3
+Installing /usr/share/man/man3/JSON::backportPP::Compat5005.3
+Installing /usr/share/man/man3/JSON::backportPP::Boolean.3
+Appending installation info to /usr/lib/perl5/5.42/core_perl/perllocal.pod
+perl-json/
+perl-json/usr/
+perl-json/usr/share/
+perl-json/usr/share/man/
+perl-json/usr/share/man/man3/
+perl-json/usr/share/man/man3/JSON::backportPP.3
+perl-json/usr/share/man/man3/JSON::backportPP::Compat5006.3
+perl-json/usr/share/man/man3/JSON.3
+perl-json/usr/share/man/man3/JSON::backportPP::Compat5005.3
+perl-json/usr/share/man/man3/JSON::backportPP::Boolean.3
+perl-json/usr/lib/
+perl-json/usr/lib/perl5/
+perl-json/usr/lib/perl5/5.42/
+perl-json/usr/lib/perl5/5.42/core_perl/
+perl-json/usr/lib/perl5/5.42/core_perl/perllocal.pod
+perl-json/usr/lib/perl5/5.42/site_perl/
+perl-json/usr/lib/perl5/5.42/site_perl/auto/
+perl-json/usr/lib/perl5/5.42/site_perl/auto/JSON/
+perl-json/usr/lib/perl5/5.42/site_perl/auto/JSON/.packlist
+perl-json/usr/lib/perl5/5.42/site_perl/JSON.pm
+perl-json/usr/lib/perl5/5.42/site_perl/JSON/
+perl-json/usr/lib/perl5/5.42/site_perl/JSON/backportPP/
+perl-json/usr/lib/perl5/5.42/site_perl/JSON/backportPP/Boolean.pm
+perl-json/usr/lib/perl5/5.42/site_perl/JSON/backportPP/Compat5005.pm
+perl-json/usr/lib/perl5/5.42/site_perl/JSON/backportPP/Compat5006.pm
+perl-json/usr/lib/perl5/5.42/site_perl/JSON/backportPP.pm
+perl-json/version
+perl-json/depends
+perl-json/make-depends
