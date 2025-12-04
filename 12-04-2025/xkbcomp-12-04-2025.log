@@ -1,0 +1,281 @@
+--2025-12-04 12:29:26--  https://www.x.org/pub/individual/app/xkbcomp-1.5.0.tar.xz
+Resolving www.x.org (www.x.org)... 131.252.210.176
+Connecting to www.x.org (www.x.org)|131.252.210.176|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://www.x.org/archive//individual/app/xkbcomp-1.5.0.tar.xz [following]
+--2025-12-04 12:29:27--  https://www.x.org/archive//individual/app/xkbcomp-1.5.0.tar.xz
+Reusing existing connection to www.x.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 247996 (242K) [application/x-xz]
+Saving to: ‘xkbcomp-1.5.0.tar.xz’
+
+     0K .......... .......... .......... .......... .......... 20%  371K 1s
+    50K .......... .......... .......... .......... .......... 41%  740K 0s
+   100K .......... .......... .......... .......... .......... 61% 10.6M 0s
+   150K .......... .......... .......... .......... .......... 82%  746K 0s
+   200K .......... .......... .......... .......... ..        100% 87.8M=0.3s
+
+2025-12-04 12:29:27 (882 KB/s) - ‘xkbcomp-1.5.0.tar.xz’ saved [247996/247996]
+
+xkbcomp-1.5.0/
+xkbcomp-1.5.0/Makefile.am
+xkbcomp-1.5.0/configure
+xkbcomp-1.5.0/configure.ac
+xkbcomp-1.5.0/aclocal.m4
+xkbcomp-1.5.0/Makefile.in
+xkbcomp-1.5.0/config.h.in
+xkbcomp-1.5.0/xkbcomp.pc.in
+xkbcomp-1.5.0/COPYING
+xkbcomp-1.5.0/ChangeLog
+xkbcomp-1.5.0/INSTALL
+xkbcomp-1.5.0/README
+xkbcomp-1.5.0/compile
+xkbcomp-1.5.0/config.guess
+xkbcomp-1.5.0/config.sub
+xkbcomp-1.5.0/depcomp
+xkbcomp-1.5.0/install-sh
+xkbcomp-1.5.0/missing
+xkbcomp-1.5.0/xkbparse.c
+xkbcomp-1.5.0/ylwrap
+xkbcomp-1.5.0/xkbparse.y
+xkbcomp-1.5.0/action.c
+xkbcomp-1.5.0/action.h
+xkbcomp-1.5.0/alias.c
+xkbcomp-1.5.0/alias.h
+xkbcomp-1.5.0/compat.c
+xkbcomp-1.5.0/compat.h
+xkbcomp-1.5.0/expr.c
+xkbcomp-1.5.0/expr.h
+xkbcomp-1.5.0/geometry.c
+xkbcomp-1.5.0/indicators.c
+xkbcomp-1.5.0/indicators.h
+xkbcomp-1.5.0/keycodes.c
+xkbcomp-1.5.0/keycodes.h
+xkbcomp-1.5.0/keymap.c
+xkbcomp-1.5.0/keytypes.c
+xkbcomp-1.5.0/listing.c
+xkbcomp-1.5.0/misc.c
+xkbcomp-1.5.0/misc.h
+xkbcomp-1.5.0/parseutils.c
+xkbcomp-1.5.0/parseutils.h
+xkbcomp-1.5.0/symbols.c
+xkbcomp-1.5.0/tokens.h
+xkbcomp-1.5.0/utils.c
+xkbcomp-1.5.0/utils.h
+xkbcomp-1.5.0/vmod.c
+xkbcomp-1.5.0/vmod.h
+xkbcomp-1.5.0/xkbcomp.c
+xkbcomp-1.5.0/xkbcomp.h
+xkbcomp-1.5.0/xkbpath.c
+xkbcomp-1.5.0/xkbpath.h
+xkbcomp-1.5.0/xkbscan.c
+xkbcomp-1.5.0/meson.build
+xkbcomp-1.5.0/meson.options
+xkbcomp-1.5.0/man/
+xkbcomp-1.5.0/man/Makefile.am
+xkbcomp-1.5.0/man/Makefile.in
+xkbcomp-1.5.0/man/xkbcomp.man
+xkbcomp-1.5.0/man/meson.build
+configure: WARNING: unrecognized options: --disable-static, --with-appdefaultdir
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to enable C11 features... none needed
+checking whether gcc understands -c and -o together... yes
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for wchar.h... yes
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether _XOPEN_SOURCE should be defined... no
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether sleep supports fractional seconds... yes
+checking filesystem timestamp resolution... 0.01
+checking whether build environment is sane... yes
+checking for a race-free mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports the include directive... yes (GNU style)
+checking whether make supports nested variables... yes
+checking xargs -n works... yes
+checking whether UID '0' is supported by ustar format... yes
+checking whether GID '0' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking dependency style of gcc... gcc3
+checking for gcc options needed to detect all undeclared functions... none needed
+checking whether __clang__ is declared... no
+checking whether __INTEL_COMPILER is declared... no
+checking whether __SUNPRO_C is declared... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking for a sed that does not truncate output... /usr/bin/sed
+checking if gcc supports -Werror=unknown-warning-option... no
+checking if gcc supports -Werror=unused-command-line-argument... no
+checking if gcc supports -Wall... yes
+checking if gcc supports -Wpointer-arith... yes
+checking if gcc supports -Wmissing-declarations... yes
+checking if gcc supports -Wformat=2... yes
+checking if gcc supports -Wstrict-prototypes... yes
+checking if gcc supports -Wmissing-prototypes... yes
+checking if gcc supports -Wnested-externs... yes
+checking if gcc supports -Wbad-function-cast... yes
+checking if gcc supports -Wold-style-definition... yes
+checking if gcc supports -Wunused... yes
+checking if gcc supports -Wuninitialized... yes
+checking if gcc supports -Wshadow... yes
+checking if gcc supports -Wmissing-noreturn... yes
+checking if gcc supports -Wmissing-format-attribute... yes
+checking if gcc supports -Wredundant-decls... yes
+checking if gcc supports -Wlogical-op... yes
+checking if gcc supports -Werror=implicit... yes
+checking if gcc supports -Werror=nonnull... yes
+checking if gcc supports -Werror=init-self... yes
+checking if gcc supports -Werror=main... yes
+checking if gcc supports -Werror=missing-braces... yes
+checking if gcc supports -Werror=sequence-point... yes
+checking if gcc supports -Werror=return-type... yes
+checking if gcc supports -Werror=trigraphs... yes
+checking if gcc supports -Werror=array-bounds... yes
+checking if gcc supports -Werror=write-strings... yes
+checking if gcc supports -Werror=address... yes
+checking if gcc supports -Werror=int-to-pointer-cast... yes
+checking if gcc supports -Werror=pointer-to-int-cast... yes
+checking if gcc supports -pedantic... yes
+checking if gcc supports -Werror... yes
+checking if gcc supports -Werror=attributes... yes
+checking for bison... bison -y
+checking for bison... /usr/bin/bison
+checking for asprintf... yes
+checking for reallocarray... yes
+checking for recallocarray... no
+checking for x11 xkbfile xproto >= 7.0.17... yes
+checking for gcc option to enable large file support... none needed
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating man/Makefile
+config.status: creating xkbcomp.pc
+config.status: creating config.h
+config.status: executing depfiles commands
+configure: WARNING: unrecognized options: --disable-static, --with-appdefaultdir
+make  all-recursive
+make[1]: Entering directory '/blfs/builds/xkbcomp-1.5.0'
+Making all in man
+make[2]: Entering directory '/blfs/builds/xkbcomp-1.5.0/man'
+  GEN      xkbcomp.1
+make[2]: Leaving directory '/blfs/builds/xkbcomp-1.5.0/man'
+make[2]: Entering directory '/blfs/builds/xkbcomp-1.5.0'
+  CC       xkbparse.o
+  CC       compat.o
+  CC       expr.o
+  CC       geometry.o
+  CC       action.o
+  CC       indicators.o
+  CC       alias.o
+  CC       keycodes.o
+  CC       keytypes.o
+  CC       keymap.o
+xkbparse.c:302:5: warning: redundant redeclaration of ‘yyparse’ [-Wredundant-decls]
+  302 | int yyparse (void);
+      |     ^~~~~~~
+In file included from xkbparse.y:97:
+parseutils.h:200:12: note: previous declaration of ‘yyparse’ with type ‘int(void)’
+  200 | extern int yyparse(void);
+      |            ^~~~~~~
+In function ‘InitAliasInfo’,
+    inlined from ‘HandleAliasDef’ at alias.c:101:13:
+alias.c:85:5: warning: ‘strncpy’ output may be truncated copying 4 bytes from a string of length 4 [-Wstringop-truncation]
+   85 |     strncpy(info->alias, alias, XkbKeyNameLength);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+alias.c:86:5: warning: ‘strncpy’ output may be truncated copying 4 bytes from a string of length 4 [-Wstringop-truncation]
+   86 |     strncpy(info->real, real, XkbKeyNameLength);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  CC       listing.o
+  CC       misc.o
+  CC       parseutils.o
+  CC       symbols.o
+  CC       utils.o
+action.c: In function ‘HandleActionMessage’:
+action.c:1025:17: warning: ‘strncpy’ specified bound 6 equals destination size [-Wstringop-truncation]
+ 1025 |                 strncpy((char *) act->message, rtrn.str, 6);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  CC       vmod.o
+symbols.c: In function ‘HandleSymbolsBody’:
+symbols.c:1505:31: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+ 1505 |                     field.str = "symbols";
+      |                               ^
+symbols.c:1507:31: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+ 1507 |                     field.str = "actions";
+      |                               ^
+  CC       xkbcomp.o
+  CC       xkbpath.o
+  CC       xkbscan.o
+xkbcomp.c: In function ‘main’:
+xkbcomp.c:947:23: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+  947 |             inputFile = "stdin";
+      |                       ^
+xkbcomp.c:1147:28: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+ 1147 |                 outputFile = "stdout";
+      |                            ^
+  CCLD     xkbcomp
+make[2]: Leaving directory '/blfs/builds/xkbcomp-1.5.0'
+make[1]: Leaving directory '/blfs/builds/xkbcomp-1.5.0'
+Making install in man
+make[1]: Entering directory '/blfs/builds/xkbcomp-1.5.0/man'
+make[2]: Entering directory '/blfs/builds/xkbcomp-1.5.0/man'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/pkgs/xkbcomp/usr/share/man/man1'
+ /usr/bin/install -c -m 644 xkbcomp.1 '/pkgs/xkbcomp/usr/share/man/man1'
+make[2]: Leaving directory '/blfs/builds/xkbcomp-1.5.0/man'
+make[1]: Leaving directory '/blfs/builds/xkbcomp-1.5.0/man'
+make[1]: Entering directory '/blfs/builds/xkbcomp-1.5.0'
+make[2]: Entering directory '/blfs/builds/xkbcomp-1.5.0'
+ /usr/bin/mkdir -p '/pkgs/xkbcomp/usr/bin'
+  /usr/bin/install -c xkbcomp '/pkgs/xkbcomp/usr/bin'
+ /usr/bin/mkdir -p '/pkgs/xkbcomp/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 xkbcomp.pc '/pkgs/xkbcomp/usr/lib/pkgconfig'
+make[2]: Leaving directory '/blfs/builds/xkbcomp-1.5.0'
+make[1]: Leaving directory '/blfs/builds/xkbcomp-1.5.0'
+Making install in man
+make[1]: Entering directory '/blfs/builds/xkbcomp-1.5.0/man'
+make[2]: Entering directory '/blfs/builds/xkbcomp-1.5.0/man'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 xkbcomp.1 '/usr/share/man/man1'
+make[2]: Leaving directory '/blfs/builds/xkbcomp-1.5.0/man'
+make[1]: Leaving directory '/blfs/builds/xkbcomp-1.5.0/man'
+make[1]: Entering directory '/blfs/builds/xkbcomp-1.5.0'
+make[2]: Entering directory '/blfs/builds/xkbcomp-1.5.0'
+ /usr/bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c xkbcomp '/usr/bin'
+ /usr/bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 xkbcomp.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/blfs/builds/xkbcomp-1.5.0'
+make[1]: Leaving directory '/blfs/builds/xkbcomp-1.5.0'
+xkbcomp/
+xkbcomp/usr/
+xkbcomp/usr/share/
+xkbcomp/usr/share/man/
+xkbcomp/usr/share/man/man1/
+xkbcomp/usr/share/man/man1/xkbcomp.1
+xkbcomp/usr/bin/
+xkbcomp/usr/bin/xkbcomp
+xkbcomp/usr/lib/
+xkbcomp/usr/lib/pkgconfig/
+xkbcomp/usr/lib/pkgconfig/xkbcomp.pc
+xkbcomp/version
+xkbcomp/depends

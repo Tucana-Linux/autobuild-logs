@@ -1,0 +1,599 @@
+--2025-12-04 12:24:51--  https://gitlab.freedesktop.org/libnice/libnice/-/archive/0.1.23/libnice-0.1.23.tar.gz
+Resolving gitlab.freedesktop.org (gitlab.freedesktop.org)... 2a04:4e42:200::820, 2a04:4e42:400::820, 2a04:4e42::820, ...
+Connecting to gitlab.freedesktop.org (gitlab.freedesktop.org)|2a04:4e42:200::820|:443... connected.
+HTTP request sent, awaiting response... 200 
+Length: unspecified [application/octet-stream]
+Saving to: ‘libnice-0.1.23.tar.gz’
+
+     0K .......... .......... .......... .......... ..........  273K
+    50K .......... .......... .......... .......... ..........  545K
+   100K .......... .......... .......... .......... .......... 4.72M
+   150K .......... .......... .......... .......... ..........  613K
+   200K .......... .......... .......... .......... .......... 7.41M
+   250K .......... .......... .......... .......... .......... 13.2M
+   300K .......... .......... .......... .......... .......... 44.1M
+   350K .......... .......... .......... .......... ..........  622K
+   400K .......... .......... .......... .......... .......... 88.9M
+   450K ........                                               84.4M=0.5s
+
+2025-12-04 12:24:53 (997 KB/s) - ‘libnice-0.1.23.tar.gz’ saved [469254]
+
+libnice-0.1.23/
+libnice-0.1.23/.gitignore
+libnice-0.1.23/.gitlab-ci.yml
+libnice-0.1.23/.lcovrc
+libnice-0.1.23/AUTHORS
+libnice-0.1.23/COPYING
+libnice-0.1.23/COPYING.LGPL
+libnice-0.1.23/COPYING.MPL
+libnice-0.1.23/NEWS
+libnice-0.1.23/README
+libnice-0.1.23/TODO
+libnice-0.1.23/agent/
+libnice-0.1.23/agent/address.c
+libnice-0.1.23/agent/address.h
+libnice-0.1.23/agent/agent-priv.h
+libnice-0.1.23/agent/agent.c
+libnice-0.1.23/agent/agent.h
+libnice-0.1.23/agent/candidate-priv.h
+libnice-0.1.23/agent/candidate.c
+libnice-0.1.23/agent/candidate.h
+libnice-0.1.23/agent/component.c
+libnice-0.1.23/agent/component.h
+libnice-0.1.23/agent/conncheck.c
+libnice-0.1.23/agent/conncheck.h
+libnice-0.1.23/agent/debug.c
+libnice-0.1.23/agent/debug.h
+libnice-0.1.23/agent/discovery.c
+libnice-0.1.23/agent/discovery.h
+libnice-0.1.23/agent/inputstream.c
+libnice-0.1.23/agent/inputstream.h
+libnice-0.1.23/agent/interfaces.c
+libnice-0.1.23/agent/interfaces.h
+libnice-0.1.23/agent/iostream.c
+libnice-0.1.23/agent/iostream.h
+libnice-0.1.23/agent/meson.build
+libnice-0.1.23/agent/outputstream.c
+libnice-0.1.23/agent/outputstream.h
+libnice-0.1.23/agent/pseudotcp.c
+libnice-0.1.23/agent/pseudotcp.h
+libnice-0.1.23/agent/stream.c
+libnice-0.1.23/agent/stream.h
+libnice-0.1.23/docs/
+libnice-0.1.23/docs/design.txt
+libnice-0.1.23/docs/reference/
+libnice-0.1.23/docs/reference/libnice/
+libnice-0.1.23/docs/reference/libnice/libnice-docs.xml
+libnice-0.1.23/docs/reference/libnice/libnice-sections.txt
+libnice-0.1.23/docs/reference/libnice/meson.build
+libnice-0.1.23/docs/reference/libnice/states.gv
+libnice-0.1.23/docs/reference/libnice/states.png
+libnice-0.1.23/examples/
+libnice-0.1.23/examples/meson.build
+libnice-0.1.23/examples/sdp-example.c
+libnice-0.1.23/examples/simple-example.c
+libnice-0.1.23/examples/threaded-example.c
+libnice-0.1.23/gst/
+libnice-0.1.23/gst/gstnice.c
+libnice-0.1.23/gst/gstnice.h
+libnice-0.1.23/gst/gstnicesink.c
+libnice-0.1.23/gst/gstnicesink.h
+libnice-0.1.23/gst/gstnicesrc.c
+libnice-0.1.23/gst/gstnicesrc.h
+libnice-0.1.23/gst/meson.build
+libnice-0.1.23/meson.build
+libnice-0.1.23/meson_options.txt
+libnice-0.1.23/nice/
+libnice-0.1.23/nice/gen-def.py
+libnice-0.1.23/nice/gen-map.py
+libnice-0.1.23/nice/libnice.sym
+libnice-0.1.23/nice/libnice.ver
+libnice-0.1.23/nice/meson.build
+libnice-0.1.23/nice/nice-version.h.in
+libnice-0.1.23/nice/nice.h
+libnice-0.1.23/nice/nice.pc.in
+libnice-0.1.23/random/
+libnice-0.1.23/random/meson.build
+libnice-0.1.23/random/random-glib.c
+libnice-0.1.23/random/random-glib.h
+libnice-0.1.23/random/random.c
+libnice-0.1.23/random/random.h
+libnice-0.1.23/random/test.c
+libnice-0.1.23/socket/
+libnice-0.1.23/socket/http.c
+libnice-0.1.23/socket/http.h
+libnice-0.1.23/socket/meson.build
+libnice-0.1.23/socket/pseudossl.c
+libnice-0.1.23/socket/pseudossl.h
+libnice-0.1.23/socket/socket-priv.h
+libnice-0.1.23/socket/socket.c
+libnice-0.1.23/socket/socket.h
+libnice-0.1.23/socket/socks5.c
+libnice-0.1.23/socket/socks5.h
+libnice-0.1.23/socket/tcp-active.c
+libnice-0.1.23/socket/tcp-active.h
+libnice-0.1.23/socket/tcp-bsd.c
+libnice-0.1.23/socket/tcp-bsd.h
+libnice-0.1.23/socket/tcp-passive.c
+libnice-0.1.23/socket/tcp-passive.h
+libnice-0.1.23/socket/udp-bsd.c
+libnice-0.1.23/socket/udp-bsd.h
+libnice-0.1.23/socket/udp-turn-over-tcp.c
+libnice-0.1.23/socket/udp-turn-over-tcp.h
+libnice-0.1.23/socket/udp-turn.c
+libnice-0.1.23/socket/udp-turn.h
+libnice-0.1.23/stun/
+libnice-0.1.23/stun/constants.h
+libnice-0.1.23/stun/debug.c
+libnice-0.1.23/stun/debug.h
+libnice-0.1.23/stun/meson.build
+libnice-0.1.23/stun/rand.c
+libnice-0.1.23/stun/rand.h
+libnice-0.1.23/stun/stun5389.c
+libnice-0.1.23/stun/stun5389.h
+libnice-0.1.23/stun/stunagent.c
+libnice-0.1.23/stun/stunagent.h
+libnice-0.1.23/stun/stuncrc32.c
+libnice-0.1.23/stun/stuncrc32.h
+libnice-0.1.23/stun/stunhmac.c
+libnice-0.1.23/stun/stunhmac.h
+libnice-0.1.23/stun/stunmessage.c
+libnice-0.1.23/stun/stunmessage.h
+libnice-0.1.23/stun/tests/
+libnice-0.1.23/stun/tests/check-bind.sh
+libnice-0.1.23/stun/tests/meson.build
+libnice-0.1.23/stun/tests/test-bind.c
+libnice-0.1.23/stun/tests/test-conncheck.c
+libnice-0.1.23/stun/tests/test-format.c
+libnice-0.1.23/stun/tests/test-hmac.c
+libnice-0.1.23/stun/tests/test-parse.c
+libnice-0.1.23/stun/tests/test-turn.c
+libnice-0.1.23/stun/tools/
+libnice-0.1.23/stun/tools/meson.build
+libnice-0.1.23/stun/tools/stunbdc.c
+libnice-0.1.23/stun/tools/stund.c
+libnice-0.1.23/stun/tools/stund.h
+libnice-0.1.23/stun/usages/
+libnice-0.1.23/stun/usages/bind.c
+libnice-0.1.23/stun/usages/bind.h
+libnice-0.1.23/stun/usages/ice.c
+libnice-0.1.23/stun/usages/ice.h
+libnice-0.1.23/stun/usages/timer.c
+libnice-0.1.23/stun/usages/timer.h
+libnice-0.1.23/stun/usages/turn.c
+libnice-0.1.23/stun/usages/turn.h
+libnice-0.1.23/stun/utils.c
+libnice-0.1.23/stun/utils.h
+libnice-0.1.23/stun/win32_common.h
+libnice-0.1.23/subprojects/
+libnice-0.1.23/subprojects/glib.wrap
+libnice-0.1.23/subprojects/zlib.wrap
+libnice-0.1.23/tests/
+libnice-0.1.23/tests/docker/
+libnice-0.1.23/tests/docker/centos8/
+libnice-0.1.23/tests/docker/centos8/pip-installs.sh
+libnice-0.1.23/tests/docker/fedora42/
+libnice-0.1.23/tests/docker/fedora42/pip-installs.sh
+libnice-0.1.23/tests/instrument-send.c
+libnice-0.1.23/tests/instrument-send.h
+libnice-0.1.23/tests/libnice.supp
+libnice-0.1.23/tests/meson.build
+libnice-0.1.23/tests/slow-resolver.c
+libnice-0.1.23/tests/test-add-remove-stream.c
+libnice-0.1.23/tests/test-address.c
+libnice-0.1.23/tests/test-bsd.c
+libnice-0.1.23/tests/test-build-io-stream.c
+libnice-0.1.23/tests/test-bytestream-tcp.c
+libnice-0.1.23/tests/test-common.c
+libnice-0.1.23/tests/test-common.h
+libnice-0.1.23/tests/test-consent.c
+libnice-0.1.23/tests/test-credentials.c
+libnice-0.1.23/tests/test-different-number-streams.c
+libnice-0.1.23/tests/test-drop-invalid.c
+libnice-0.1.23/tests/test-fallback.c
+libnice-0.1.23/tests/test-fullmode-with-stun.c
+libnice-0.1.23/tests/test-fullmode.c
+libnice-0.1.23/tests/test-gstreamer.c
+libnice-0.1.23/tests/test-icetcp.c
+libnice-0.1.23/tests/test-interfaces.c
+libnice-0.1.23/tests/test-io-stream-cancelling.c
+libnice-0.1.23/tests/test-io-stream-closing-read.c
+libnice-0.1.23/tests/test-io-stream-closing-write.c
+libnice-0.1.23/tests/test-io-stream-common.c
+libnice-0.1.23/tests/test-io-stream-common.h
+libnice-0.1.23/tests/test-io-stream-pollable.c
+libnice-0.1.23/tests/test-io-stream-thread.c
+libnice-0.1.23/tests/test-new-trickle.c
+libnice-0.1.23/tests/test-nomination.c
+libnice-0.1.23/tests/test-priority.c
+libnice-0.1.23/tests/test-pseudotcp-fin.c
+libnice-0.1.23/tests/test-pseudotcp-fuzzy.c
+libnice-0.1.23/tests/test-pseudotcp-random.sh
+libnice-0.1.23/tests/test-pseudotcp.c
+libnice-0.1.23/tests/test-restart.c
+libnice-0.1.23/tests/test-send-recv.c
+libnice-0.1.23/tests/test-set-port-range.c
+libnice-0.1.23/tests/test-slow-resolving.c
+libnice-0.1.23/tests/test-socket-is-based-on.c
+libnice-0.1.23/tests/test-tcp.c
+libnice-0.1.23/tests/test-thread.c
+libnice-0.1.23/tests/test-trickle.c
+libnice-0.1.23/tests/test-turn.c
+libnice-0.1.23/tests/test-udp-turn-fragmentation.c
+libnice-0.1.23/tests/test.c
+The Meson build system
+Version: 1.9.1
+Source dir: /blfs/builds/libnice-0.1.23
+Build dir: /blfs/builds/libnice-0.1.23/build
+Build type: native build
+Project name: libnice
+Project version: 0.1.23
+C compiler for the host machine: cc (gcc 15.2.0 "cc (GCC) 15.2.0")
+C linker for the host machine: cc ld.bfd 2.45
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Checking for function "clock_gettime" : YES 
+Message: Disabling GLib cast checks
+Has header "arpa/inet.h" : YES 
+Has header "net/in.h" : NO 
+Has header "net/if_media.h" : NO 
+Has header "netdb.h" : YES 
+Has header "ifaddrs.h" : YES 
+Has header "unistd.h" : YES 
+Checking for function "poll" : YES 
+Checking for function "getifaddrs" : YES 
+Checking whether type "struct ifreq" has member "ifr_index" : NO 
+Checking whether type "struct ifreq" has member "ifr_ifindex" : YES 
+Compiler for C supports arguments -fno-strict-aliasing: YES 
+Message: warning level: 2
+Message: werror enabled: false
+Compiler for C supports arguments -Wundef: YES 
+Compiler for C supports arguments -Wnested-externs: YES 
+Compiler for C supports arguments -Wwrite-strings: YES 
+Compiler for C supports arguments -Wpointer-arith: YES 
+Compiler for C supports arguments -Wmissing-declarations: YES 
+Compiler for C supports arguments -Wmissing-prototypes: YES 
+Compiler for C supports arguments -Wstrict-prototypes: YES 
+Compiler for C supports arguments -Wredundant-decls: YES 
+Compiler for C supports arguments -Wno-unused-parameter: YES 
+Compiler for C supports arguments -Wno-missing-field-initializers: YES 
+Compiler for C supports arguments -Wformat=2: YES 
+Compiler for C supports arguments -Wold-style-definition: YES 
+Compiler for C supports arguments -Wcast-align: YES 
+Compiler for C supports arguments -Wformat-nonliteral: YES 
+Compiler for C supports arguments -Wformat-security: YES 
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Run-time dependency gio-2.0 found: YES 2.86.2
+Run-time dependency gthread-2.0 found: YES 2.86.2
+Message: Crypto library requested: auto
+Run-time dependency gnutls found: YES 3.8.11
+Run-time dependency gstreamer-base-1.0 found: YES 1.26.9
+Found CMake: /usr/bin/cmake (4.2.0)
+Run-time dependency gupnp-igd-1.0 found: NO (tried pkgconfig and cmake)
+Library m found: YES
+Program g-ir-scanner found: YES (/usr/bin/g-ir-scanner)
+Build-time dependency glib-2.0 found: YES 2.86.2
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Dependency glib-2.0 found: YES 2.86.2 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Program gen-def.py found: YES (/usr/bin/python3 /blfs/builds/libnice-0.1.23/nice/gen-def.py)
+Program gen-map.py found: YES (/usr/bin/python3 /blfs/builds/libnice-0.1.23/nice/gen-map.py)
+Compiler for C supports link arguments -Wl,--version-script,/blfs/builds/libnice-0.1.23/nice/libnice.ver: YES 
+Configuring nice-version.h using configuration
+Run-time dependency gobject-introspection-1.0 found: YES 1.86.0
+Dependency gobject-introspection-1.0 found: YES 1.86.0 (cached)
+Program /usr/bin/g-ir-scanner found: YES (/usr/bin/g-ir-scanner)
+Dependency gobject-introspection-1.0 found: YES 1.86.0 (cached)
+Program /usr/bin/g-ir-compiler found: YES (/usr/bin/g-ir-compiler)
+Program gtkdoc-scan skipped: feature gtk_doc disabled
+Message: Not building documentation as gtk-doc was not found or disabled
+Has header "arpa/inet.h" : YES (cached)
+Library dl found: YES
+Run-time dependency gstreamer-check-1.0 found: YES 1.26.9
+Library dl found: YES
+Program sh found: YES (/usr/bin/sh)
+Program dd found: YES (/usr/bin/dd)
+Program diff found: YES (/usr/bin/diff)
+Program test-pseudotcp-random.sh found: YES (/blfs/builds/libnice-0.1.23/tests/test-pseudotcp-random.sh)
+Configuring config.h using configuration
+Build targets in project: 61
+
+libnice 0.1.23
+
+  User defined options
+    buildtype: release
+    prefix   : /usr
+
+Found ninja-1.13.2 at /usr/bin/ninja
+[1/195] Compiling C object stun/libstun.a.p/stun5389.c.o
+[2/195] Compiling C object stun/libstun.a.p/stuncrc32.c.o
+[3/195] Compiling C object stun/libstun.a.p/debug.c.o
+[4/195] Compiling C object stun/libstun.a.p/utils.c.o
+[5/195] Compiling C object stun/libstun.a.p/rand.c.o
+[6/195] Compiling C object stun/libstun.a.p/usages_ice.c.o
+[7/195] Compiling C object stun/libstun.a.p/stunhmac.c.o
+[8/195] Compiling C object stun/libstun.a.p/usages_timer.c.o
+[9/195] Compiling C object stun/libstun.a.p/usages_turn.c.o
+[10/195] Compiling C object stun/libstun.a.p/usages_bind.c.o
+[11/195] Compiling C object stun/libstun.a.p/stunmessage.c.o
+[12/195] Compiling C object stun/libstun.a.p/stunagent.c.o
+[13/195] Generating GObject enum file agent/agent-enum-types.c (wrapped by meson because command contains newlines, to capture output)
+[14/195] Compiling C object socket/libsocket.a.p/tcp-active.c.o
+[15/195] Compiling C object socket/libsocket.a.p/socket.c.o
+[16/195] Compiling C object socket/libsocket.a.p/tcp-passive.c.o
+[17/195] Linking static target stun/libstun.a
+[18/195] Compiling C object socket/libsocket.a.p/pseudossl.c.o
+[19/195] Compiling C object socket/libsocket.a.p/tcp-bsd.c.o
+[20/195] Compiling C object random/libnice-random.a.p/random.c.o
+[21/195] Generating GObject enum file agent/agent-enum-types.h (wrapped by meson because command contains newlines, to capture output)
+[22/195] Compiling C object random/libnice-random.a.p/random-glib.c.o
+[23/195] Compiling C object socket/libsocket.a.p/udp-bsd.c.o
+[24/195] Generating nice/libnice.def with a custom command (wrapped by meson to capture output)
+[25/195] Compiling C object tests/libinstrument-send.so.p/instrument-send.c.o
+[26/195] Compiling C object stun/tools/stunbdc.p/stunbdc.c.o
+[27/195] Generating nice/libnice.map with a custom command (wrapped by meson to capture output)
+[28/195] Compiling C object socket/libsocket.a.p/socks5.c.o
+[29/195] Compiling C object stun/tools/stund.p/stund.c.o
+[30/195] Compiling C object agent/libagent.a.p/meson-generated_.._agent-enum-types.c.o
+[31/195] Compiling C object socket/libsocket.a.p/udp-turn-over-tcp.c.o
+[32/195] Compiling C object agent/libagent.a.p/address.c.o
+[33/195] Compiling C object socket/libsocket.a.p/http.c.o
+[34/195] Compiling C object agent/libagent.a.p/debug.c.o
+[35/195] Compiling C object agent/libagent.a.p/candidate.c.o
+[36/195] Linking static target random/libnice-random.a
+[37/195] Linking target tests/libinstrument-send.so
+[38/195] Compiling C object socket/libsocket.a.p/udp-turn.c.o
+[39/195] Linking static target socket/libsocket.a
+[40/195] Compiling C object agent/libagent.a.p/inputstream.c.o
+[41/195] Compiling C object agent/libagent.a.p/stream.c.o
+[42/195] Compiling C object agent/libagent.a.p/iostream.c.o
+[43/195] Compiling C object agent/libagent.a.p/interfaces.c.o
+[44/195] Compiling C object stun/tests/test-format.p/test-format.c.o
+[45/195] Compiling C object stun/tests/test-conncheck.p/test-conncheck.c.o
+[46/195] Compiling C object agent/libagent.a.p/component.c.o
+[47/195] Compiling C object stun/tests/test-hmac.p/test-hmac.c.o
+[48/195] Compiling C object stun/tests/test-parse.p/test-parse.c.o
+[49/195] Compiling C object agent/libagent.a.p/outputstream.c.o
+[50/195] Compiling C object random/nice-random-test.p/test.c.o
+[51/195] Compiling C object stun/tests/test-bind.p/test-bind.c.o
+[52/195] Compiling C object agent/libagent.a.p/discovery.c.o
+[53/195] Compiling C object gst/libgstnice.so.p/gstnice.c.o
+[54/195] Compiling C object gst/libgstnice.so.p/gstnicesrc.c.o
+[55/195] Compiling C object gst/libgstnice.so.p/gstnicesink.c.o
+[56/195] Compiling C object tests/nice-test-pseudotcp.p/test-pseudotcp.c.o
+[57/195] Compiling C object tests/nice-test-address.p/test-address.c.o
+[58/195] Compiling C object tests/nice-test-bsd.p/test-common.c.o
+[59/195] Compiling C object tests/nice-test.p/test.c.o
+[60/195] Compiling C object tests/nice-test-pseudotcp.p/test-common.c.o
+[61/195] Compiling C object tests/nice-test-address.p/test-common.c.o
+[62/195] Compiling C object tests/nice-test-add-remove-stream.p/test-add-remove-stream.c.o
+[63/195] Compiling C object agent/libagent.a.p/pseudotcp.c.o
+[64/195] Compiling C object tests/nice-test.p/test-common.c.o
+[65/195] Compiling C object tests/nice-test-bsd.p/test-bsd.c.o
+[66/195] Compiling C object tests/nice-test-add-remove-stream.p/test-common.c.o
+[67/195] Compiling C object tests/nice-test-io-stream-closing-write.p/test-io-stream-closing-write.c.o
+[68/195] Compiling C object tests/nice-test-io-stream-thread.p/test-common.c.o
+[69/195] Compiling C object tests/nice-test-build-io-stream.p/test-common.c.o
+[70/195] Compiling C object tests/nice-test-build-io-stream.p/test-build-io-stream.c.o
+[71/195] Compiling C object tests/nice-test-io-stream-closing-write.p/test-io-stream-common.c.o
+[72/195] Compiling C object tests/nice-test-io-stream-thread.p/test-io-stream-thread.c.o
+[73/195] Compiling C object tests/nice-test-io-stream-thread.p/test-io-stream-common.c.o
+[74/195] Compiling C object tests/nice-test-io-stream-closing-write.p/test-common.c.o
+[75/195] Compiling C object tests/nice-test-io-stream-closing-read.p/test-common.c.o
+[76/195] Compiling C object tests/nice-test-io-stream-cancelling.p/test-io-stream-cancelling.c.o
+[77/195] Compiling C object agent/libagent.a.p/conncheck.c.o
+[78/195] Compiling C object tests/nice-test-io-stream-cancelling.p/test-io-stream-common.c.o
+[79/195] Compiling C object tests/nice-test-io-stream-closing-read.p/test-io-stream-common.c.o
+[80/195] Compiling C object tests/nice-test-io-stream-pollable.p/test-io-stream-common.c.o
+[81/195] Compiling C object tests/nice-test-io-stream-pollable.p/test-io-stream-pollable.c.o
+[82/195] Compiling C object tests/nice-test-io-stream-closing-read.p/test-io-stream-closing-read.c.o
+[83/195] Compiling C object tests/nice-test-send-recv.p/test-io-stream-common.c.o
+[84/195] Compiling C object tests/nice-test-send-recv.p/test-common.c.o
+[85/195] Compiling C object tests/nice-test-io-stream-pollable.p/test-common.c.o
+[86/195] Compiling C object tests/nice-test-socket-is-based-on.p/test-common.c.o
+[87/195] Compiling C object tests/nice-test-io-stream-cancelling.p/test-common.c.o
+[88/195] Compiling C object agent/libagent.a.p/agent.c.o
+[89/195] Linking static target agent/libagent.a
+[90/195] Compiling C object tests/nice-test-priority.p/test-priority.c.o
+[91/195] Compiling C object tests/nice-test-fullmode-with-stun.p/test-fullmode-with-stun.c.o
+[92/195] Compiling C object tests/nice-test-priority.p/test-common.c.o
+[93/195] Compiling C object tests/nice-test-send-recv.p/test-send-recv.c.o
+[94/195] Compiling C object tests/nice-test-socket-is-based-on.p/test-socket-is-based-on.c.o
+[95/195] Compiling C object tests/nice-test-udp-turn-fragmentation.p/test-common.c.o
+[96/195] Compiling C object tests/nice-test-udp-turn-fragmentation.p/test-udp-turn-fragmentation.c.o
+[97/195] Linking target nice/libnice.so.10.15.0
+[98/195] Compiling C object tests/nice-test-fullmode.p/test-common.c.o
+[99/195] Compiling C object tests/nice-test-different-number-streams.p/test-different-number-streams.c.o
+[100/195] Compiling C object tests/nice-test-fullmode.p/test-fullmode.c.o
+[101/195] Compiling C object tests/nice-test-restart.p/test-common.c.o
+[102/195] Compiling C object tests/nice-test-restart.p/test-restart.c.o
+[103/195] Compiling C object tests/nice-test-different-number-streams.p/test-common.c.o
+[104/195] Compiling C object tests/nice-test-fallback.p/test-fallback.c.o
+[105/195] Compiling C object tests/nice-test-trickle.p/test-common.c.o
+[106/195] Compiling C object tests/nice-test-trickle.p/test-trickle.c.o
+[107/195] Compiling C object tests/nice-test-fallback.p/test-common.c.o
+[108/195] Generating symbol file nice/libnice.so.10.15.0.p/libnice.so.10.15.0.symbols
+[109/195] Compiling C object tests/nice-test-tcp.p/test-common.c.o
+[110/195] Compiling C object tests/nice-test-thread.p/test-common.c.o
+[111/195] Compiling C object tests/nice-test-bytestream-tcp.p/test-bytestream-tcp.c.o
+[112/195] Compiling C object tests/nice-test-thread.p/test-thread.c.o
+[113/195] Compiling C object tests/nice-test-icetcp.p/test-common.c.o
+[114/195] Compiling C object tests/nice-test-tcp.p/test-tcp.c.o
+[115/195] Compiling C object tests/nice-test-icetcp.p/test-icetcp.c.o
+[116/195] Compiling C object tests/nice-test-credentials.p/test-common.c.o
+[117/195] Compiling C object tests/nice-test-turn.p/test-turn.c.o
+[118/195] Compiling C object tests/nice-test-turn.p/test-common.c.o
+[119/195] Compiling C object tests/nice-test-credentials.p/test-credentials.c.o
+[120/195] Compiling C object tests/nice-test-drop-invalid.p/test-common.c.o
+[121/195] Compiling C object tests/nice-test-drop-invalid.p/test-drop-invalid.c.o
+[122/195] Compiling C object tests/nice-test-bytestream-tcp.p/test-common.c.o
+[123/195] Compiling C object tests/nice-test-nomination.p/test-common.c.o
+[124/195] Compiling C object tests/nice-test-set-port-range.p/test-set-port-range.c.o
+[125/195] Compiling C object tests/nice-test-bytestream-tcp.p/test-io-stream-common.c.o
+[126/195] Compiling C object tests/nice-test-nomination.p/test-nomination.c.o
+[127/195] Compiling C object tests/nice-test-interfaces.p/test-interfaces.c.o
+[128/195] Compiling C object tests/nice-test-consent.p/test-common.c.o
+[129/195] Compiling C object tests/nice-test-set-port-range.p/test-common.c.o
+[130/195] Compiling C object tests/nice-test-pseudotcp-fin.p/test-common.c.o
+[131/195] Compiling C object tests/libslow-resolver.so.p/slow-resolver.c.o
+[132/195] Compiling C object tests/nice-test-interfaces.p/test-common.c.o
+[133/195] Compiling C object tests/nice-test-slow-resolving.p/test-common.c.o
+[134/195] Compiling C object tests/nice-test-new-trickle.p/test-new-trickle.c.o
+[135/195] Compiling C object tests/nice-test-new-trickle.p/test-common.c.o
+[136/195] Compiling C object tests/nice-test-consent.p/test-consent.c.o
+[137/195] Compiling C object tests/nice-test-slow-resolving.p/test-slow-resolving.c.o
+[138/195] Generating symbol file tests/libinstrument-send.so.p/libinstrument-send.so.symbols
+[139/195] Linking target stun/tests/test-bind
+[140/195] Linking target stun/tests/test-format
+[141/195] Linking target stun/tools/stunbdc
+[142/195] Linking target stun/tools/stund
+[143/195] Compiling C object tests/nice-test-pseudotcp-fin.p/test-pseudotcp-fin.c.o
+[144/195] Linking target stun/tests/test-parse
+[145/195] Compiling C object tests/nice-test-gstreamer.p/test-gstreamer.c.o
+[146/195] Compiling C object examples/sdp-example.p/sdp-example.c.o
+[147/195] Linking target stun/tests/test-hmac
+[148/195] Linking target stun/tests/test-conncheck
+[149/195] Compiling C object examples/threaded-example.p/threaded-example.c.o
+[150/195] Linking target random/nice-random-test
+[151/195] Compiling C object tests/nice-test-gstreamer.p/test-common.c.o
+[152/195] Compiling C object examples/simple-example.p/simple-example.c.o
+[153/195] Linking target gst/libgstnice.so
+[154/195] Linking target tests/nice-test
+[155/195] Linking target tests/nice-test-bsd
+[156/195] Linking target tests/nice-test-address
+[157/195] Linking target tests/nice-test-add-remove-stream
+[158/195] Linking target tests/nice-test-io-stream-closing-write
+[159/195] Linking target tests/nice-test-build-io-stream
+[160/195] Linking target tests/nice-test-io-stream-cancelling
+[161/195] Linking target tests/nice-test-pseudotcp
+[162/195] Linking target tests/nice-test-send-recv
+[163/195] Linking target tests/nice-test-io-stream-thread
+[164/195] Linking target tests/nice-test-io-stream-closing-read
+[165/195] Linking target tests/nice-test-udp-turn-fragmentation
+[166/195] Linking target tests/nice-test-io-stream-pollable
+[167/195] Linking target tests/nice-test-fullmode-with-stun
+[168/195] Linking target tests/nice-test-socket-is-based-on
+[169/195] Linking target tests/nice-test-fullmode
+[170/195] Linking target tests/nice-test-different-number-streams
+[171/195] Linking target tests/nice-test-priority
+[172/195] Linking target tests/nice-test-fallback
+[173/195] Linking target tests/nice-test-turn
+[174/195] Linking target tests/nice-test-icetcp
+[175/195] Linking target tests/nice-test-trickle
+[176/195] Linking target tests/nice-test-credentials
+[177/195] Linking target tests/nice-test-restart
+[178/195] Linking target tests/nice-test-interfaces
+[179/195] Linking target tests/nice-test-tcp
+[180/195] Generating nice/Nice-0.1.gir with a custom command (wrapped by meson to set env)
+../agent/agent.h:1726: Warning: Nice: Couldn't find 'close_finish' for the corresponding async function: 'close_async'
+[181/195] Linking target tests/nice-test-thread
+[182/195] Linking target tests/nice-test-bytestream-tcp
+[183/195] Linking target tests/libslow-resolver.so
+[184/195] Linking target tests/nice-test-set-port-range
+[185/195] Linking target tests/nice-test-consent
+[186/195] Linking target tests/nice-test-drop-invalid
+[187/195] Linking target examples/simple-example
+[188/195] Linking target tests/nice-test-new-trickle
+[189/195] Linking target examples/threaded-example
+[190/195] Linking target tests/nice-test-nomination
+[191/195] Linking target tests/nice-test-slow-resolving
+[192/195] Linking target tests/nice-test-gstreamer
+[193/195] Linking target tests/nice-test-pseudotcp-fin
+[194/195] Linking target examples/sdp-example
+[195/195] Generating nice/Nice-0.1.typelib with a custom command
+[0/1] Installing files
+Installing stun/tools/stund to /pkgs/libnice/usr/bin
+Installing stun/tools/stunbdc to /pkgs/libnice/usr/bin
+Installing nice/libnice.so.10.15.0 to /pkgs/libnice/usr/lib
+Installing nice/Nice-0.1.gir to /pkgs/libnice/usr/share/gir-1.0
+Installing nice/Nice-0.1.typelib to /pkgs/libnice/usr/lib/girepository-1.0
+Installing gst/libgstnice.so to /pkgs/libnice/usr/lib/gstreamer-1.0
+Installing /blfs/builds/libnice-0.1.23/agent/address.h to /pkgs/libnice/usr/include/nice
+Installing /blfs/builds/libnice-0.1.23/agent/agent.h to /pkgs/libnice/usr/include/nice
+Installing /blfs/builds/libnice-0.1.23/agent/candidate.h to /pkgs/libnice/usr/include/nice
+Installing /blfs/builds/libnice-0.1.23/agent/debug.h to /pkgs/libnice/usr/include/nice
+Installing /blfs/builds/libnice-0.1.23/agent/interfaces.h to /pkgs/libnice/usr/include/nice
+Installing /blfs/builds/libnice-0.1.23/agent/pseudotcp.h to /pkgs/libnice/usr/include/nice
+Installing /blfs/builds/libnice-0.1.23/stun/stunagent.h to /pkgs/libnice/usr/include/stun
+Installing /blfs/builds/libnice-0.1.23/stun/stunmessage.h to /pkgs/libnice/usr/include/stun
+Installing /blfs/builds/libnice-0.1.23/stun/win32_common.h to /pkgs/libnice/usr/include/stun
+Installing /blfs/builds/libnice-0.1.23/stun/debug.h to /pkgs/libnice/usr/include/stun
+Installing /blfs/builds/libnice-0.1.23/stun/constants.h to /pkgs/libnice/usr/include/stun
+Installing /blfs/builds/libnice-0.1.23/stun/usages/bind.h to /pkgs/libnice/usr/include/stun/usages
+Installing /blfs/builds/libnice-0.1.23/stun/usages/ice.h to /pkgs/libnice/usr/include/stun/usages
+Installing /blfs/builds/libnice-0.1.23/stun/usages/turn.h to /pkgs/libnice/usr/include/stun/usages
+Installing /blfs/builds/libnice-0.1.23/stun/usages/timer.h to /pkgs/libnice/usr/include/stun/usages
+Installing /blfs/builds/libnice-0.1.23/nice/nice.h to /pkgs/libnice/usr/include/nice
+Installing /blfs/builds/libnice-0.1.23/build/nice/nice-version.h to /pkgs/libnice/usr/include/nice
+Installing /blfs/builds/libnice-0.1.23/build/meson-private/nice.pc to /pkgs/libnice/usr/lib/pkgconfig
+Installing symlink pointing to libnice.so.10.15.0 to /pkgs/libnice/usr/lib/libnice.so.10
+Installing symlink pointing to libnice.so.10 to /pkgs/libnice/usr/lib/libnice.so
+[0/1] Installing files
+Installing stun/tools/stund to /usr/bin
+Installing stun/tools/stunbdc to /usr/bin
+Installing nice/libnice.so.10.15.0 to /usr/lib
+Installing nice/Nice-0.1.gir to /usr/share/gir-1.0
+Installing nice/Nice-0.1.typelib to /usr/lib/girepository-1.0
+Installing gst/libgstnice.so to /usr/lib/gstreamer-1.0
+Installing /blfs/builds/libnice-0.1.23/agent/address.h to /usr/include/nice
+Installing /blfs/builds/libnice-0.1.23/agent/agent.h to /usr/include/nice
+Installing /blfs/builds/libnice-0.1.23/agent/candidate.h to /usr/include/nice
+Installing /blfs/builds/libnice-0.1.23/agent/debug.h to /usr/include/nice
+Installing /blfs/builds/libnice-0.1.23/agent/interfaces.h to /usr/include/nice
+Installing /blfs/builds/libnice-0.1.23/agent/pseudotcp.h to /usr/include/nice
+Installing /blfs/builds/libnice-0.1.23/stun/stunagent.h to /usr/include/stun
+Installing /blfs/builds/libnice-0.1.23/stun/stunmessage.h to /usr/include/stun
+Installing /blfs/builds/libnice-0.1.23/stun/win32_common.h to /usr/include/stun
+Installing /blfs/builds/libnice-0.1.23/stun/debug.h to /usr/include/stun
+Installing /blfs/builds/libnice-0.1.23/stun/constants.h to /usr/include/stun
+Installing /blfs/builds/libnice-0.1.23/stun/usages/bind.h to /usr/include/stun/usages
+Installing /blfs/builds/libnice-0.1.23/stun/usages/ice.h to /usr/include/stun/usages
+Installing /blfs/builds/libnice-0.1.23/stun/usages/turn.h to /usr/include/stun/usages
+Installing /blfs/builds/libnice-0.1.23/stun/usages/timer.h to /usr/include/stun/usages
+Installing /blfs/builds/libnice-0.1.23/nice/nice.h to /usr/include/nice
+Installing /blfs/builds/libnice-0.1.23/build/nice/nice-version.h to /usr/include/nice
+Installing /blfs/builds/libnice-0.1.23/build/meson-private/nice.pc to /usr/lib/pkgconfig
+Installing symlink pointing to libnice.so.10.15.0 to /usr/lib/libnice.so.10
+Installing symlink pointing to libnice.so.10 to /usr/lib/libnice.so
+libnice/
+libnice/usr/
+libnice/usr/include/
+libnice/usr/include/nice/
+libnice/usr/include/nice/nice-version.h
+libnice/usr/include/nice/nice.h
+libnice/usr/include/nice/debug.h
+libnice/usr/include/nice/candidate.h
+libnice/usr/include/nice/address.h
+libnice/usr/include/nice/pseudotcp.h
+libnice/usr/include/nice/agent.h
+libnice/usr/include/nice/interfaces.h
+libnice/usr/include/stun/
+libnice/usr/include/stun/debug.h
+libnice/usr/include/stun/constants.h
+libnice/usr/include/stun/win32_common.h
+libnice/usr/include/stun/usages/
+libnice/usr/include/stun/usages/timer.h
+libnice/usr/include/stun/usages/ice.h
+libnice/usr/include/stun/usages/bind.h
+libnice/usr/include/stun/usages/turn.h
+libnice/usr/include/stun/stunmessage.h
+libnice/usr/include/stun/stunagent.h
+libnice/usr/share/
+libnice/usr/share/gir-1.0/
+libnice/usr/share/gir-1.0/Nice-0.1.gir
+libnice/usr/bin/
+libnice/usr/bin/stund
+libnice/usr/bin/stunbdc
+libnice/usr/lib/
+libnice/usr/lib/libnice.so.10
+libnice/usr/lib/girepository-1.0/
+libnice/usr/lib/girepository-1.0/Nice-0.1.typelib
+libnice/usr/lib/libnice.so
+libnice/usr/lib/libnice.so.10.15.0
+libnice/usr/lib/gstreamer-1.0/
+libnice/usr/lib/gstreamer-1.0/libgstnice.so
+libnice/usr/lib/pkgconfig/
+libnice/usr/lib/pkgconfig/nice.pc
+libnice/version
+libnice/depends
+libnice/make-depends

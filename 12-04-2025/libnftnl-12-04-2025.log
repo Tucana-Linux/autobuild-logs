@@ -1,0 +1,632 @@
+--2025-12-04 12:24:28--  https://www.netfilter.org/projects/libnftnl/files/libnftnl-1.3.1.tar.xz
+Resolving www.netfilter.org (www.netfilter.org)... 2001:4b98:dc0:45:216:3eff:fe8c:1b05, 92.243.20.29
+Connecting to www.netfilter.org (www.netfilter.org)|2001:4b98:dc0:45:216:3eff:fe8c:1b05|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 349096 (341K) [application/x-xz]
+Saving to: ‘libnftnl-1.3.1.tar.xz’
+
+     0K .......... .......... .......... .......... .......... 14%  317K 1s
+    50K .......... .......... .......... .......... .......... 29% 1.38M 0s
+   100K .......... .......... .......... .......... .......... 43% 1.08M 0s
+   150K .......... .......... .......... .......... .......... 58%  658K 0s
+   200K .......... .......... .......... .......... .......... 73% 1.34M 0s
+   250K .......... .......... .......... .......... .......... 87% 1.15M 0s
+   300K .......... .......... .......... ..........           100%  536K=0.5s
+
+2025-12-04 12:24:29 (726 KB/s) - ‘libnftnl-1.3.1.tar.xz’ saved [349096/349096]
+
+libnftnl-1.3.1/
+libnftnl-1.3.1/m4/
+libnftnl-1.3.1/m4/gcc4_visibility.m4
+libnftnl-1.3.1/m4/ltoptions.m4
+libnftnl-1.3.1/m4/ltsugar.m4
+libnftnl-1.3.1/m4/lt~obsolete.m4
+libnftnl-1.3.1/m4/ltversion.m4
+libnftnl-1.3.1/m4/libtool.m4
+libnftnl-1.3.1/build-aux/
+libnftnl-1.3.1/build-aux/ltmain.sh
+libnftnl-1.3.1/build-aux/depcomp
+libnftnl-1.3.1/build-aux/missing
+libnftnl-1.3.1/build-aux/config.sub
+libnftnl-1.3.1/build-aux/install-sh
+libnftnl-1.3.1/build-aux/config.guess
+libnftnl-1.3.1/build-aux/ar-lib
+libnftnl-1.3.1/build-aux/test-driver
+libnftnl-1.3.1/build-aux/compile
+libnftnl-1.3.1/COPYING
+libnftnl-1.3.1/libnftnl.pc.in
+libnftnl-1.3.1/doxygen.cfg.in
+libnftnl-1.3.1/src/
+libnftnl-1.3.1/src/expr/
+libnftnl-1.3.1/src/expr/last.c
+libnftnl-1.3.1/src/expr/payload.c
+libnftnl-1.3.1/src/expr/connlimit.c
+libnftnl-1.3.1/src/expr/immediate.c
+libnftnl-1.3.1/src/expr/osf.c
+libnftnl-1.3.1/src/expr/target.c
+libnftnl-1.3.1/src/expr/exthdr.c
+libnftnl-1.3.1/src/expr/ct.c
+libnftnl-1.3.1/src/expr/reject.c
+libnftnl-1.3.1/src/expr/objref.c
+libnftnl-1.3.1/src/expr/bitwise.c
+libnftnl-1.3.1/src/expr/redir.c
+libnftnl-1.3.1/src/expr/dup.c
+libnftnl-1.3.1/src/expr/queue.c
+libnftnl-1.3.1/src/expr/rt.c
+libnftnl-1.3.1/src/expr/synproxy.c
+libnftnl-1.3.1/src/expr/limit.c
+libnftnl-1.3.1/src/expr/flow_offload.c
+libnftnl-1.3.1/src/expr/cmp.c
+libnftnl-1.3.1/src/expr/tunnel.c
+libnftnl-1.3.1/src/expr/inner.c
+libnftnl-1.3.1/src/expr/quota.c
+libnftnl-1.3.1/src/expr/meta.c
+libnftnl-1.3.1/src/expr/match.c
+libnftnl-1.3.1/src/expr/socket.c
+libnftnl-1.3.1/src/expr/dynset.c
+libnftnl-1.3.1/src/expr/tproxy.c
+libnftnl-1.3.1/src/expr/counter.c
+libnftnl-1.3.1/src/expr/numgen.c
+libnftnl-1.3.1/src/expr/lookup.c
+libnftnl-1.3.1/src/expr/log.c
+libnftnl-1.3.1/src/expr/range.c
+libnftnl-1.3.1/src/expr/masq.c
+libnftnl-1.3.1/src/expr/data_reg.c
+libnftnl-1.3.1/src/expr/hash.c
+libnftnl-1.3.1/src/expr/byteorder.c
+libnftnl-1.3.1/src/expr/xfrm.c
+libnftnl-1.3.1/src/expr/fwd.c
+libnftnl-1.3.1/src/expr/nat.c
+libnftnl-1.3.1/src/expr/fib.c
+libnftnl-1.3.1/src/common.c
+libnftnl-1.3.1/src/obj/
+libnftnl-1.3.1/src/obj/ct_helper.c
+libnftnl-1.3.1/src/obj/ct_expect.c
+libnftnl-1.3.1/src/obj/synproxy.c
+libnftnl-1.3.1/src/obj/limit.c
+libnftnl-1.3.1/src/obj/tunnel.c
+libnftnl-1.3.1/src/obj/quota.c
+libnftnl-1.3.1/src/obj/counter.c
+libnftnl-1.3.1/src/obj/ct_timeout.c
+libnftnl-1.3.1/src/obj/secmark.c
+libnftnl-1.3.1/src/chain.c
+libnftnl-1.3.1/src/trace.c
+libnftnl-1.3.1/src/libnftnl.map
+libnftnl-1.3.1/src/set.c
+libnftnl-1.3.1/src/expr.c
+libnftnl-1.3.1/src/gen.c
+libnftnl-1.3.1/src/batch.c
+libnftnl-1.3.1/src/Makefile.am
+libnftnl-1.3.1/src/str_array.c
+libnftnl-1.3.1/src/object.c
+libnftnl-1.3.1/src/udata.c
+libnftnl-1.3.1/src/expr_ops.c
+libnftnl-1.3.1/src/table.c
+libnftnl-1.3.1/src/ruleset.c
+libnftnl-1.3.1/src/rule.c
+libnftnl-1.3.1/src/flowtable.c
+libnftnl-1.3.1/src/set_elem.c
+libnftnl-1.3.1/src/utils.c
+libnftnl-1.3.1/src/Makefile.in
+libnftnl-1.3.1/config.h.in
+libnftnl-1.3.1/Makefile.am
+libnftnl-1.3.1/include/
+libnftnl-1.3.1/include/libnftnl/
+libnftnl-1.3.1/include/libnftnl/udata.h
+libnftnl-1.3.1/include/libnftnl/set.h
+libnftnl-1.3.1/include/libnftnl/chain.h
+libnftnl-1.3.1/include/libnftnl/expr.h
+libnftnl-1.3.1/include/libnftnl/ruleset.h
+libnftnl-1.3.1/include/libnftnl/Makefile.am
+libnftnl-1.3.1/include/libnftnl/object.h
+libnftnl-1.3.1/include/libnftnl/flowtable.h
+libnftnl-1.3.1/include/libnftnl/rule.h
+libnftnl-1.3.1/include/libnftnl/trace.h
+libnftnl-1.3.1/include/libnftnl/common.h
+libnftnl-1.3.1/include/libnftnl/gen.h
+libnftnl-1.3.1/include/libnftnl/table.h
+libnftnl-1.3.1/include/libnftnl/batch.h
+libnftnl-1.3.1/include/libnftnl/Makefile.in
+libnftnl-1.3.1/include/linux_list.h
+libnftnl-1.3.1/include/udata.h
+libnftnl-1.3.1/include/set.h
+libnftnl-1.3.1/include/expr_ops.h
+libnftnl-1.3.1/include/linux/
+libnftnl-1.3.1/include/linux/netfilter.h
+libnftnl-1.3.1/include/linux/Makefile.am
+libnftnl-1.3.1/include/linux/netfilter/
+libnftnl-1.3.1/include/linux/netfilter/nf_tables.h
+libnftnl-1.3.1/include/linux/netfilter/nf_tables_compat.h
+libnftnl-1.3.1/include/linux/netfilter/Makefile.am
+libnftnl-1.3.1/include/linux/netfilter/nfnetlink.h
+libnftnl-1.3.1/include/linux/netfilter/nf_log.h
+libnftnl-1.3.1/include/linux/netfilter/Makefile.in
+libnftnl-1.3.1/include/linux/Makefile.in
+libnftnl-1.3.1/include/utils.h
+libnftnl-1.3.1/include/expr.h
+libnftnl-1.3.1/include/Makefile.am
+libnftnl-1.3.1/include/set_elem.h
+libnftnl-1.3.1/include/data_reg.h
+libnftnl-1.3.1/include/obj.h
+libnftnl-1.3.1/include/rule.h
+libnftnl-1.3.1/include/common.h
+libnftnl-1.3.1/include/str_array.h
+libnftnl-1.3.1/include/internal.h
+libnftnl-1.3.1/include/Makefile.in
+libnftnl-1.3.1/configure
+libnftnl-1.3.1/examples/
+libnftnl-1.3.1/examples/nft-table-upd.c
+libnftnl-1.3.1/examples/nft-ct-expectation-get.c
+libnftnl-1.3.1/examples/nft-table-add.c
+libnftnl-1.3.1/examples/nft-events.c
+libnftnl-1.3.1/examples/nft-table-get.c
+libnftnl-1.3.1/examples/nft-set-del.c
+libnftnl-1.3.1/examples/nft-flowtable-del.c
+libnftnl-1.3.1/examples/nft-set-elem-del.c
+libnftnl-1.3.1/examples/nft-compat-get.c
+libnftnl-1.3.1/examples/nft-rule-get.c
+libnftnl-1.3.1/examples/nft-ct-timeout-get.c
+libnftnl-1.3.1/examples/nft-chain-del.c
+libnftnl-1.3.1/examples/nft-ct-expectation-add.c
+libnftnl-1.3.1/examples/nft-rule-ct-expectation-add.c
+libnftnl-1.3.1/examples/nft-rule-ct-helper-add.c
+libnftnl-1.3.1/examples/nft-flowtable-add.c
+libnftnl-1.3.1/examples/Makefile.am
+libnftnl-1.3.1/examples/nft-rule-add.c
+libnftnl-1.3.1/examples/nft-ct-timeout-add.c
+libnftnl-1.3.1/examples/nft-obj-del.c
+libnftnl-1.3.1/examples/nft-ct-timeout-del.c
+libnftnl-1.3.1/examples/nft-set-add.c
+libnftnl-1.3.1/examples/nft-map-add.c
+libnftnl-1.3.1/examples/nft-rule-del.c
+libnftnl-1.3.1/examples/nft-rule-ct-timeout-add.c
+libnftnl-1.3.1/examples/nft-table-del.c
+libnftnl-1.3.1/examples/nft-chain-add.c
+libnftnl-1.3.1/examples/nft-set-elem-get.c
+libnftnl-1.3.1/examples/nft-chain-get.c
+libnftnl-1.3.1/examples/nft-ruleset-get.c
+libnftnl-1.3.1/examples/nft-ct-helper-del.c
+libnftnl-1.3.1/examples/nft-ct-expectation-del.c
+libnftnl-1.3.1/examples/nft-ct-helper-add.c
+libnftnl-1.3.1/examples/nft-ct-helper-get.c
+libnftnl-1.3.1/examples/nft-flowtable-get.c
+libnftnl-1.3.1/examples/nft-set-elem-add.c
+libnftnl-1.3.1/examples/nft-set-get.c
+libnftnl-1.3.1/examples/nft-obj-get.c
+libnftnl-1.3.1/examples/nft-obj-add.c
+libnftnl-1.3.1/examples/Makefile.in
+libnftnl-1.3.1/configure.ac
+libnftnl-1.3.1/Make_global.am
+libnftnl-1.3.1/aclocal.m4
+libnftnl-1.3.1/tests/
+libnftnl-1.3.1/tests/nft-expr_counter-test.c
+libnftnl-1.3.1/tests/nft-object-test.c
+libnftnl-1.3.1/tests/nft-expr_range-test.c
+libnftnl-1.3.1/tests/nft-expr_meta-test.c
+libnftnl-1.3.1/tests/nft-expr_quota-test.c
+libnftnl-1.3.1/tests/nft-expr_byteorder-test.c
+libnftnl-1.3.1/tests/nft-expr_immediate-test.c
+libnftnl-1.3.1/tests/nft-expr_exthdr-test.c
+libnftnl-1.3.1/tests/nft-expr_lookup-test.c
+libnftnl-1.3.1/tests/nft-chain-test.c
+libnftnl-1.3.1/tests/nft-expr_reject-test.c
+libnftnl-1.3.1/tests/nft-expr_match-test.c
+libnftnl-1.3.1/tests/nft-expr_target-test.c
+libnftnl-1.3.1/tests/nft-expr_bitwise-test.c
+libnftnl-1.3.1/tests/nft-expr_cmp-test.c
+libnftnl-1.3.1/tests/nft-expr_ct-test.c
+libnftnl-1.3.1/tests/nft-expr_hash-test.c
+libnftnl-1.3.1/tests/nft-set-test.c
+libnftnl-1.3.1/tests/nft-expr_log-test.c
+libnftnl-1.3.1/tests/nft-expr_nat-test.c
+libnftnl-1.3.1/tests/Makefile.am
+libnftnl-1.3.1/tests/nft-expr_objref-test.c
+libnftnl-1.3.1/tests/nft-expr_payload-test.c
+libnftnl-1.3.1/tests/nft-expr_numgen-test.c
+libnftnl-1.3.1/tests/nft-expr_limit-test.c
+libnftnl-1.3.1/tests/nft-rule-test.c
+libnftnl-1.3.1/tests/nft-expr_queue-test.c
+libnftnl-1.3.1/tests/nft-flowtable-test.c
+libnftnl-1.3.1/tests/nft-expr_masq-test.c
+libnftnl-1.3.1/tests/nft-table-test.c
+libnftnl-1.3.1/tests/nft-expr_fwd-test.c
+libnftnl-1.3.1/tests/nft-expr_redir-test.c
+libnftnl-1.3.1/tests/nft-expr_dup-test.c
+libnftnl-1.3.1/tests/Makefile.in
+libnftnl-1.3.1/Makefile.in
+libtoolize: putting auxiliary files in AC_CONFIG_AUX_DIR, 'build-aux'.
+libtoolize: copying file 'build-aux/ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+libtoolize: copying file 'm4/libtool.m4'
+libtoolize: copying file 'm4/ltoptions.m4'
+libtoolize: copying file 'm4/ltsugar.m4'
+libtoolize: copying file 'm4/ltversion.m4'
+libtoolize: copying file 'm4/lt~obsolete.m4'
+configure.ac:8: installing 'build-aux/compile'
+configure.ac:10: installing 'build-aux/missing'
+examples/Makefile.am: installing 'build-aux/depcomp'
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to enable C11 features... none needed
+checking whether gcc understands -c and -o together... yes
+checking for ar... ar
+checking the archiver (ar) interface... ar
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether sleep supports fractional seconds... yes
+checking filesystem timestamp resolution... 0.01
+checking whether build environment is sane... yes
+checking for a race-free mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports the include directive... yes (GNU style)
+checking whether make supports nested variables... yes
+checking xargs -n works... yes
+checking how to create a pax tar archive... gnutar
+checking dependency style of gcc... gcc3
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for libmnl >= 1.0.4... yes
+checking for gcc... (cached) gcc
+checking whether the compiler supports GNU C... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to enable C11 features... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for file... file
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ranlib... ranlib
+checking for archiver @FILE support... @
+checking for strip... strip
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking whether compiler accepts -fvisibility=hidden... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating include/Makefile
+config.status: creating include/libnftnl/Makefile
+config.status: creating include/linux/Makefile
+config.status: creating include/linux/netfilter/Makefile
+config.status: creating examples/Makefile
+config.status: creating tests/Makefile
+config.status: creating libnftnl.pc
+config.status: creating doxygen.cfg
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+make  all-recursive
+make[1]: Entering directory '/blfs/builds/libnftnl-1.3.1'
+Making all in src
+make[2]: Entering directory '/blfs/builds/libnftnl-1.3.1/src'
+  CC       utils.lo
+  CC       flowtable.lo
+  CC       gen.lo
+  CC       batch.lo
+  CC       common.lo
+  CC       chain.lo
+  CC       trace.lo
+  CC       object.lo
+  CC       rule.lo
+  CC       table.lo
+  CC       set.lo
+  CC       set_elem.lo
+  CC       str_array.lo
+  CC       ruleset.lo
+  CC       udata.lo
+  CC       expr.lo
+  CC       expr_ops.lo
+  CC       expr/bitwise.lo
+  CC       expr/byteorder.lo
+  CC       expr/cmp.lo
+  CC       expr/range.lo
+  CC       expr/connlimit.lo
+  CC       expr/counter.lo
+  CC       expr/ct.lo
+  CC       expr/data_reg.lo
+  CC       expr/exthdr.lo
+  CC       expr/dup.lo
+  CC       expr/flow_offload.lo
+  CC       expr/fib.lo
+  CC       expr/fwd.lo
+  CC       expr/last.lo
+  CC       expr/limit.lo
+  CC       expr/log.lo
+  CC       expr/lookup.lo
+  CC       expr/dynset.lo
+  CC       expr/immediate.lo
+  CC       expr/inner.lo
+  CC       expr/match.lo
+  CC       expr/meta.lo
+  CC       expr/numgen.lo
+  CC       expr/nat.lo
+  CC       expr/tproxy.lo
+  CC       expr/objref.lo
+  CC       expr/payload.lo
+  CC       expr/queue.lo
+  CC       expr/quota.lo
+  CC       expr/reject.lo
+  CC       expr/rt.lo
+  CC       expr/target.lo
+  CC       expr/tunnel.lo
+  CC       expr/masq.lo
+  CC       expr/redir.lo
+  CC       expr/hash.lo
+  CC       expr/socket.lo
+  CC       expr/synproxy.lo
+  CC       expr/osf.lo
+  CC       expr/xfrm.lo
+  CC       obj/counter.lo
+  CC       obj/ct_helper.lo
+  CC       obj/quota.lo
+  CC       obj/tunnel.lo
+  CC       obj/limit.lo
+  CC       obj/ct_timeout.lo
+  CC       obj/synproxy.lo
+  CC       obj/secmark.lo
+  CC       obj/ct_expect.lo
+  CCLD     libnftnl.la
+make[2]: Leaving directory '/blfs/builds/libnftnl-1.3.1/src'
+Making all in include
+make[2]: Entering directory '/blfs/builds/libnftnl-1.3.1/include'
+Making all in libnftnl
+make[3]: Entering directory '/blfs/builds/libnftnl-1.3.1/include/libnftnl'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/blfs/builds/libnftnl-1.3.1/include/libnftnl'
+Making all in linux
+make[3]: Entering directory '/blfs/builds/libnftnl-1.3.1/include/linux'
+Making all in netfilter
+make[4]: Entering directory '/blfs/builds/libnftnl-1.3.1/include/linux/netfilter'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/blfs/builds/libnftnl-1.3.1/include/linux/netfilter'
+make[4]: Entering directory '/blfs/builds/libnftnl-1.3.1/include/linux'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/blfs/builds/libnftnl-1.3.1/include/linux'
+make[3]: Leaving directory '/blfs/builds/libnftnl-1.3.1/include/linux'
+make[3]: Entering directory '/blfs/builds/libnftnl-1.3.1/include'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/blfs/builds/libnftnl-1.3.1/include'
+make[2]: Leaving directory '/blfs/builds/libnftnl-1.3.1/include'
+Making all in examples
+make[2]: Entering directory '/blfs/builds/libnftnl-1.3.1/examples'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/blfs/builds/libnftnl-1.3.1/examples'
+Making all in tests
+make[2]: Entering directory '/blfs/builds/libnftnl-1.3.1/tests'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/blfs/builds/libnftnl-1.3.1/tests'
+make[2]: Entering directory '/blfs/builds/libnftnl-1.3.1'
+make[2]: Leaving directory '/blfs/builds/libnftnl-1.3.1'
+make[1]: Leaving directory '/blfs/builds/libnftnl-1.3.1'
+Making install in src
+make[1]: Entering directory '/blfs/builds/libnftnl-1.3.1/src'
+make[2]: Entering directory '/blfs/builds/libnftnl-1.3.1/src'
+ /usr/bin/mkdir -p '/pkgs/libnftnl/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libnftnl.la '/pkgs/libnftnl/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libnftnl.so.11.7.0 /pkgs/libnftnl/usr/lib/libnftnl.so.11.7.0
+libtool: install: (cd /pkgs/libnftnl/usr/lib && { ln -s -f libnftnl.so.11.7.0 libnftnl.so.11 || { rm -f libnftnl.so.11 && ln -s libnftnl.so.11.7.0 libnftnl.so.11; }; })
+libtool: install: (cd /pkgs/libnftnl/usr/lib && { ln -s -f libnftnl.so.11.7.0 libnftnl.so || { rm -f libnftnl.so && ln -s libnftnl.so.11.7.0 libnftnl.so; }; })
+libtool: install: /usr/bin/install -c .libs/libnftnl.lai /pkgs/libnftnl/usr/lib/libnftnl.la
+libtool: warning: remember to run 'libtool --finish /usr/lib'
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/blfs/builds/libnftnl-1.3.1/src'
+make[1]: Leaving directory '/blfs/builds/libnftnl-1.3.1/src'
+Making install in include
+make[1]: Entering directory '/blfs/builds/libnftnl-1.3.1/include'
+Making install in libnftnl
+make[2]: Entering directory '/blfs/builds/libnftnl-1.3.1/include/libnftnl'
+make[3]: Entering directory '/blfs/builds/libnftnl-1.3.1/include/libnftnl'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/pkgs/libnftnl/usr/include/libnftnl'
+ /usr/bin/install -c -m 644 batch.h table.h trace.h chain.h object.h rule.h expr.h set.h flowtable.h ruleset.h common.h udata.h gen.h '/pkgs/libnftnl/usr/include/libnftnl'
+make[3]: Leaving directory '/blfs/builds/libnftnl-1.3.1/include/libnftnl'
+make[2]: Leaving directory '/blfs/builds/libnftnl-1.3.1/include/libnftnl'
+Making install in linux
+make[2]: Entering directory '/blfs/builds/libnftnl-1.3.1/include/linux'
+Making install in netfilter
+make[3]: Entering directory '/blfs/builds/libnftnl-1.3.1/include/linux/netfilter'
+make[4]: Entering directory '/blfs/builds/libnftnl-1.3.1/include/linux/netfilter'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/blfs/builds/libnftnl-1.3.1/include/linux/netfilter'
+make[3]: Leaving directory '/blfs/builds/libnftnl-1.3.1/include/linux/netfilter'
+make[3]: Entering directory '/blfs/builds/libnftnl-1.3.1/include/linux'
+make[4]: Entering directory '/blfs/builds/libnftnl-1.3.1/include/linux'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/blfs/builds/libnftnl-1.3.1/include/linux'
+make[3]: Leaving directory '/blfs/builds/libnftnl-1.3.1/include/linux'
+make[2]: Leaving directory '/blfs/builds/libnftnl-1.3.1/include/linux'
+make[2]: Entering directory '/blfs/builds/libnftnl-1.3.1/include'
+make[3]: Entering directory '/blfs/builds/libnftnl-1.3.1/include'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/blfs/builds/libnftnl-1.3.1/include'
+make[2]: Leaving directory '/blfs/builds/libnftnl-1.3.1/include'
+make[1]: Leaving directory '/blfs/builds/libnftnl-1.3.1/include'
+Making install in examples
+make[1]: Entering directory '/blfs/builds/libnftnl-1.3.1/examples'
+make[2]: Entering directory '/blfs/builds/libnftnl-1.3.1/examples'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/blfs/builds/libnftnl-1.3.1/examples'
+make[1]: Leaving directory '/blfs/builds/libnftnl-1.3.1/examples'
+Making install in tests
+make[1]: Entering directory '/blfs/builds/libnftnl-1.3.1/tests'
+make[2]: Entering directory '/blfs/builds/libnftnl-1.3.1/tests'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/blfs/builds/libnftnl-1.3.1/tests'
+make[1]: Leaving directory '/blfs/builds/libnftnl-1.3.1/tests'
+make[1]: Entering directory '/blfs/builds/libnftnl-1.3.1'
+make[2]: Entering directory '/blfs/builds/libnftnl-1.3.1'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/pkgs/libnftnl/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libnftnl.pc '/pkgs/libnftnl/usr/lib/pkgconfig'
+make[2]: Leaving directory '/blfs/builds/libnftnl-1.3.1'
+make[1]: Leaving directory '/blfs/builds/libnftnl-1.3.1'
+Making install in src
+make[1]: Entering directory '/blfs/builds/libnftnl-1.3.1/src'
+make[2]: Entering directory '/blfs/builds/libnftnl-1.3.1/src'
+ /usr/bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libnftnl.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libnftnl.so.11.7.0 /usr/lib/libnftnl.so.11.7.0
+libtool: install: (cd /usr/lib && { ln -s -f libnftnl.so.11.7.0 libnftnl.so.11 || { rm -f libnftnl.so.11 && ln -s libnftnl.so.11.7.0 libnftnl.so.11; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libnftnl.so.11.7.0 libnftnl.so || { rm -f libnftnl.so && ln -s libnftnl.so.11.7.0 libnftnl.so; }; })
+libtool: install: /usr/bin/install -c .libs/libnftnl.lai /usr/lib/libnftnl.la
+libtool: finish: PATH="/usr/sbin:/usr/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/blfs/builds/libnftnl-1.3.1/src'
+make[1]: Leaving directory '/blfs/builds/libnftnl-1.3.1/src'
+Making install in include
+make[1]: Entering directory '/blfs/builds/libnftnl-1.3.1/include'
+Making install in libnftnl
+make[2]: Entering directory '/blfs/builds/libnftnl-1.3.1/include/libnftnl'
+make[3]: Entering directory '/blfs/builds/libnftnl-1.3.1/include/libnftnl'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/include/libnftnl'
+ /usr/bin/install -c -m 644 batch.h table.h trace.h chain.h object.h rule.h expr.h set.h flowtable.h ruleset.h common.h udata.h gen.h '/usr/include/libnftnl'
+make[3]: Leaving directory '/blfs/builds/libnftnl-1.3.1/include/libnftnl'
+make[2]: Leaving directory '/blfs/builds/libnftnl-1.3.1/include/libnftnl'
+Making install in linux
+make[2]: Entering directory '/blfs/builds/libnftnl-1.3.1/include/linux'
+Making install in netfilter
+make[3]: Entering directory '/blfs/builds/libnftnl-1.3.1/include/linux/netfilter'
+make[4]: Entering directory '/blfs/builds/libnftnl-1.3.1/include/linux/netfilter'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/blfs/builds/libnftnl-1.3.1/include/linux/netfilter'
+make[3]: Leaving directory '/blfs/builds/libnftnl-1.3.1/include/linux/netfilter'
+make[3]: Entering directory '/blfs/builds/libnftnl-1.3.1/include/linux'
+make[4]: Entering directory '/blfs/builds/libnftnl-1.3.1/include/linux'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/blfs/builds/libnftnl-1.3.1/include/linux'
+make[3]: Leaving directory '/blfs/builds/libnftnl-1.3.1/include/linux'
+make[2]: Leaving directory '/blfs/builds/libnftnl-1.3.1/include/linux'
+make[2]: Entering directory '/blfs/builds/libnftnl-1.3.1/include'
+make[3]: Entering directory '/blfs/builds/libnftnl-1.3.1/include'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/blfs/builds/libnftnl-1.3.1/include'
+make[2]: Leaving directory '/blfs/builds/libnftnl-1.3.1/include'
+make[1]: Leaving directory '/blfs/builds/libnftnl-1.3.1/include'
+Making install in examples
+make[1]: Entering directory '/blfs/builds/libnftnl-1.3.1/examples'
+make[2]: Entering directory '/blfs/builds/libnftnl-1.3.1/examples'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/blfs/builds/libnftnl-1.3.1/examples'
+make[1]: Leaving directory '/blfs/builds/libnftnl-1.3.1/examples'
+Making install in tests
+make[1]: Entering directory '/blfs/builds/libnftnl-1.3.1/tests'
+make[2]: Entering directory '/blfs/builds/libnftnl-1.3.1/tests'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/blfs/builds/libnftnl-1.3.1/tests'
+make[1]: Leaving directory '/blfs/builds/libnftnl-1.3.1/tests'
+make[1]: Entering directory '/blfs/builds/libnftnl-1.3.1'
+make[2]: Entering directory '/blfs/builds/libnftnl-1.3.1'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libnftnl.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/blfs/builds/libnftnl-1.3.1'
+make[1]: Leaving directory '/blfs/builds/libnftnl-1.3.1'
+libnftnl/
+libnftnl/usr/
+libnftnl/usr/include/
+libnftnl/usr/include/libnftnl/
+libnftnl/usr/include/libnftnl/trace.h
+libnftnl/usr/include/libnftnl/gen.h
+libnftnl/usr/include/libnftnl/udata.h
+libnftnl/usr/include/libnftnl/ruleset.h
+libnftnl/usr/include/libnftnl/common.h
+libnftnl/usr/include/libnftnl/expr.h
+libnftnl/usr/include/libnftnl/chain.h
+libnftnl/usr/include/libnftnl/table.h
+libnftnl/usr/include/libnftnl/set.h
+libnftnl/usr/include/libnftnl/rule.h
+libnftnl/usr/include/libnftnl/object.h
+libnftnl/usr/include/libnftnl/batch.h
+libnftnl/usr/include/libnftnl/flowtable.h
+libnftnl/usr/lib/
+libnftnl/usr/lib/libnftnl.so
+libnftnl/usr/lib/libnftnl.la
+libnftnl/usr/lib/libnftnl.so.11.7.0
+libnftnl/usr/lib/pkgconfig/
+libnftnl/usr/lib/pkgconfig/libnftnl.pc
+libnftnl/usr/lib/libnftnl.so.11
+libnftnl/version
+libnftnl/depends
+libnftnl/make-depends
