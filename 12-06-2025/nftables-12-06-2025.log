@@ -1,0 +1,2620 @@
+--2025-12-06 08:30:26--  https://www.netfilter.org/projects/nftables/files/nftables-1.1.6.tar.xz
+Resolving www.netfilter.org (www.netfilter.org)... 2001:4b98:dc0:45:216:3eff:fe8c:1b05, 92.243.20.29
+Connecting to www.netfilter.org (www.netfilter.org)|2001:4b98:dc0:45:216:3eff:fe8c:1b05|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1025092 (1001K) [application/x-xz]
+Saving to: ‘nftables-1.1.6.tar.xz’
+
+     0K .......... .......... .......... .......... ..........  4%  293K 3s
+    50K .......... .......... .......... .......... ..........  9% 1.57M 2s
+   100K .......... .......... .......... .......... .......... 14%  874K 1s
+   150K .......... .......... .......... .......... .......... 19%  584K 1s
+   200K .......... .......... .......... .......... .......... 24% 1.45M 1s
+   250K .......... .......... .......... .......... .......... 29%  978K 1s
+   300K .......... .......... .......... .......... .......... 34% 16.0M 1s
+   350K .......... .......... .......... .......... .......... 39%  639K 1s
+   400K .......... .......... .......... .......... .......... 44% 16.9M 1s
+   450K .......... .......... .......... .......... .......... 49% 10.2M 1s
+   500K .......... .......... .......... .......... .......... 54% 1.52M 0s
+   550K .......... .......... .......... .......... .......... 59% 1.03M 0s
+   600K .......... .......... .......... .......... .......... 64% 13.1M 0s
+   650K .......... .......... .......... .......... .......... 69% 1.51M 0s
+   700K .......... .......... .......... .......... .......... 74% 1.01M 0s
+   750K .......... .......... .......... .......... .......... 79% 39.8M 0s
+   800K .......... .......... .......... .......... .......... 84% 45.3M 0s
+   850K .......... .......... .......... .......... .......... 89% 35.6M 0s
+   900K .......... .......... .......... .......... .......... 94% 46.0M 0s
+   950K .......... .......... .......... .......... .......... 99% 40.4M 0s
+  1000K .                                                     100% 1.99T=0.7s
+
+2025-12-06 08:30:28 (1.42 MB/s) - ‘nftables-1.1.6.tar.xz’ saved [1025092/1025092]
+
+nftables-1.1.6/
+nftables-1.1.6/files/
+nftables-1.1.6/files/osf/
+nftables-1.1.6/files/osf/pf.os
+nftables-1.1.6/files/examples/
+nftables-1.1.6/files/examples/load_balancing.nft
+nftables-1.1.6/files/examples/secmark.nft
+nftables-1.1.6/files/examples/ct_helpers.nft
+nftables-1.1.6/files/examples/sets_and_maps.nft
+nftables-1.1.6/files/nftables/
+nftables-1.1.6/files/nftables/arp-filter.nft
+nftables-1.1.6/files/nftables/ipv4-filter.nft
+nftables-1.1.6/files/nftables/ipv4-raw.nft
+nftables-1.1.6/files/nftables/bridge-filter.nft
+nftables-1.1.6/files/nftables/inet-nat.nft
+nftables-1.1.6/files/nftables/inet-filter.nft
+nftables-1.1.6/files/nftables/ipv6-mangle.nft
+nftables-1.1.6/files/nftables/ipv4-mangle.nft
+nftables-1.1.6/files/nftables/ipv6-filter.nft
+nftables-1.1.6/files/nftables/all-in-one.nft
+nftables-1.1.6/files/nftables/netdev-ingress.nft
+nftables-1.1.6/files/nftables/ipv4-nat.nft
+nftables-1.1.6/files/nftables/ipv6-raw.nft
+nftables-1.1.6/files/nftables/ipv6-nat.nft
+nftables-1.1.6/files/nftables/main.nft
+nftables-1.1.6/m4/
+nftables-1.1.6/m4/gcc4_visibility.m4
+nftables-1.1.6/m4/ltoptions.m4
+nftables-1.1.6/m4/ltsugar.m4
+nftables-1.1.6/m4/lt~obsolete.m4
+nftables-1.1.6/m4/ltversion.m4
+nftables-1.1.6/m4/libtool.m4
+nftables-1.1.6/build-aux/
+nftables-1.1.6/build-aux/ylwrap
+nftables-1.1.6/build-aux/ltmain.sh
+nftables-1.1.6/build-aux/depcomp
+nftables-1.1.6/build-aux/missing
+nftables-1.1.6/build-aux/config.sub
+nftables-1.1.6/build-aux/install-sh
+nftables-1.1.6/build-aux/config.guess
+nftables-1.1.6/build-aux/ar-lib
+nftables-1.1.6/build-aux/test-driver
+nftables-1.1.6/build-aux/compile
+nftables-1.1.6/COPYING
+nftables-1.1.6/INSTALL
+nftables-1.1.6/libnftables.pc.in
+nftables-1.1.6/doc/
+nftables-1.1.6/doc/additional-commands.txt
+nftables-1.1.6/doc/payload-expression.txt
+nftables-1.1.6/doc/stateful-objects.txt
+nftables-1.1.6/doc/nft.8
+nftables-1.1.6/doc/libnftables-json.5
+nftables-1.1.6/doc/statements.txt
+nftables-1.1.6/doc/data-types.txt
+nftables-1.1.6/doc/libnftables-json.adoc
+nftables-1.1.6/doc/primary-expression.txt
+nftables-1.1.6/doc/libnftables.3
+nftables-1.1.6/doc/nft.txt
+nftables-1.1.6/doc/libnftables.adoc
+nftables-1.1.6/src/
+nftables-1.1.6/src/mergesort.c
+nftables-1.1.6/src/payload.c
+nftables-1.1.6/src/ipopt.c
+nftables-1.1.6/src/expression.c
+nftables-1.1.6/src/osf.c
+nftables-1.1.6/src/exthdr.c
+nftables-1.1.6/src/cli.c
+nftables-1.1.6/src/ct.c
+nftables-1.1.6/src/owner.c
+nftables-1.1.6/src/parser_bison.c
+nftables-1.1.6/src/nftutils.h
+nftables-1.1.6/src/libnftables.map
+nftables-1.1.6/src/mnl.c
+nftables-1.1.6/src/trace.c
+nftables-1.1.6/src/erec.c
+nftables-1.1.6/src/rt.c
+nftables-1.1.6/src/nfnl_osf.c
+nftables-1.1.6/src/tcpopt.c
+nftables-1.1.6/src/optimize.c
+nftables-1.1.6/src/libnftables.c
+nftables-1.1.6/src/dccpopt.c
+nftables-1.1.6/src/statement.c
+nftables-1.1.6/src/tunnel.c
+nftables-1.1.6/src/gmputil.c
+nftables-1.1.6/src/nftutils.c
+nftables-1.1.6/src/meta.c
+nftables-1.1.6/src/intervals.c
+nftables-1.1.6/src/socket.c
+nftables-1.1.6/src/sctp_chunk.c
+nftables-1.1.6/src/print.c
+nftables-1.1.6/src/parser_bison.y
+nftables-1.1.6/src/main.c
+nftables-1.1.6/src/numgen.c
+nftables-1.1.6/src/cache.c
+nftables-1.1.6/src/misspell.c
+nftables-1.1.6/src/segtree.c
+nftables-1.1.6/src/mini-gmp.c
+nftables-1.1.6/src/preprocess.c
+nftables-1.1.6/src/xt.c
+nftables-1.1.6/src/evaluate.c
+nftables-1.1.6/src/netlink_delinearize.c
+nftables-1.1.6/src/proto.c
+nftables-1.1.6/src/netlink_linearize.c
+nftables-1.1.6/src/hash.c
+nftables-1.1.6/src/scanner.l
+nftables-1.1.6/src/scanner.c
+nftables-1.1.6/src/monitor.c
+nftables-1.1.6/src/xfrm.c
+nftables-1.1.6/src/parser_json.c
+nftables-1.1.6/src/cmd.c
+nftables-1.1.6/src/json.c
+nftables-1.1.6/src/rule.c
+nftables-1.1.6/src/iface.c
+nftables-1.1.6/src/utils.c
+nftables-1.1.6/src/netlink.c
+nftables-1.1.6/src/parser_bison.h
+nftables-1.1.6/src/datatype.c
+nftables-1.1.6/src/fib.c
+nftables-1.1.6/config.h.in
+nftables-1.1.6/Makefile.am
+nftables-1.1.6/include/
+nftables-1.1.6/include/owner.h
+nftables-1.1.6/include/fib.h
+nftables-1.1.6/include/mini-gmp.h
+nftables-1.1.6/include/intervals.h
+nftables-1.1.6/include/proto.h
+nftables-1.1.6/include/cache.h
+nftables-1.1.6/include/xt.h
+nftables-1.1.6/include/mnl.h
+nftables-1.1.6/include/json.h
+nftables-1.1.6/include/socket.h
+nftables-1.1.6/include/cmd.h
+nftables-1.1.6/include/iface.h
+nftables-1.1.6/include/osf.h
+nftables-1.1.6/include/rt.h
+nftables-1.1.6/include/misspell.h
+nftables-1.1.6/include/numgen.h
+nftables-1.1.6/include/linux/
+nftables-1.1.6/include/linux/netfilter_ipv6.h
+nftables-1.1.6/include/linux/netfilter_ipv4.h
+nftables-1.1.6/include/linux/netfilter.h
+nftables-1.1.6/include/linux/netfilter/
+nftables-1.1.6/include/linux/netfilter/nf_nat.h
+nftables-1.1.6/include/linux/netfilter/nf_synproxy.h
+nftables-1.1.6/include/linux/netfilter/nfnetlink_osf.h
+nftables-1.1.6/include/linux/netfilter/nf_conntrack_tuple_common.h
+nftables-1.1.6/include/linux/netfilter/nf_tables.h
+nftables-1.1.6/include/linux/netfilter/nf_tables_compat.h
+nftables-1.1.6/include/linux/netfilter/nfnetlink_hook.h
+nftables-1.1.6/include/linux/netfilter/nfnetlink.h
+nftables-1.1.6/include/linux/netfilter/nf_log.h
+nftables-1.1.6/include/linux/netfilter/nf_conntrack_common.h
+nftables-1.1.6/include/linux/netfilter_ipv4/
+nftables-1.1.6/include/linux/netfilter_ipv4/ip_tables.h
+nftables-1.1.6/include/linux/netfilter_bridge.h
+nftables-1.1.6/include/linux/netfilter_bridge/
+nftables-1.1.6/include/linux/netfilter_bridge/ebtables.h
+nftables-1.1.6/include/linux/netfilter_arp.h
+nftables-1.1.6/include/linux/netfilter_arp/
+nftables-1.1.6/include/linux/netfilter_arp/arp_tables.h
+nftables-1.1.6/include/linux/netfilter_ipv6/
+nftables-1.1.6/include/linux/netfilter_ipv6/ip6_tables.h
+nftables-1.1.6/include/ipopt.h
+nftables-1.1.6/include/utils.h
+nftables-1.1.6/include/statement.h
+nftables-1.1.6/include/payload.h
+nftables-1.1.6/include/meta.h
+nftables-1.1.6/include/afl++.h
+nftables-1.1.6/include/nft.h
+nftables-1.1.6/include/xfrm.h
+nftables-1.1.6/include/gmputil.h
+nftables-1.1.6/include/parser.h
+nftables-1.1.6/include/sctp_chunk.h
+nftables-1.1.6/include/erec.h
+nftables-1.1.6/include/tcpopt.h
+nftables-1.1.6/include/headers.h
+nftables-1.1.6/include/ct.h
+nftables-1.1.6/include/nftables.h
+nftables-1.1.6/include/list.h
+nftables-1.1.6/include/tunnel.h
+nftables-1.1.6/include/expression.h
+nftables-1.1.6/include/nftables/
+nftables-1.1.6/include/nftables/libnftables.h
+nftables-1.1.6/include/netlink.h
+nftables-1.1.6/include/dccpopt.h
+nftables-1.1.6/include/hash.h
+nftables-1.1.6/include/exthdr.h
+nftables-1.1.6/include/cli.h
+nftables-1.1.6/include/rule.h
+nftables-1.1.6/include/trace.h
+nftables-1.1.6/include/datatype.h
+nftables-1.1.6/configure
+nftables-1.1.6/examples/
+nftables-1.1.6/examples/nft-json-file.c
+nftables-1.1.6/examples/nft-buffer.c
+nftables-1.1.6/py/
+nftables-1.1.6/py/src/
+nftables-1.1.6/py/src/schema.json
+nftables-1.1.6/py/src/__init__.py
+nftables-1.1.6/py/src/nftables.py
+nftables-1.1.6/py/setup.py
+nftables-1.1.6/py/setup.cfg
+nftables-1.1.6/py/pyproject.toml
+nftables-1.1.6/configure.ac
+nftables-1.1.6/tools/
+nftables-1.1.6/tools/nftables.service.8
+nftables-1.1.6/tools/nftables.service.in
+nftables-1.1.6/tools/nft-afl.c
+nftables-1.1.6/aclocal.m4
+nftables-1.1.6/tests/
+nftables-1.1.6/tests/build/
+nftables-1.1.6/tests/build/README
+nftables-1.1.6/tests/build/run-tests.sh
+nftables-1.1.6/tests/monitor/
+nftables-1.1.6/tests/monitor/README
+nftables-1.1.6/tests/monitor/run-tests.sh
+nftables-1.1.6/tests/monitor/testcases/
+nftables-1.1.6/tests/monitor/testcases/set-concat-interval.t
+nftables-1.1.6/tests/monitor/testcases/map-expr.t
+nftables-1.1.6/tests/monitor/testcases/simple.t
+nftables-1.1.6/tests/monitor/testcases/set-mixed.t
+nftables-1.1.6/tests/monitor/testcases/chain.t
+nftables-1.1.6/tests/monitor/testcases/set-interval.t
+nftables-1.1.6/tests/monitor/testcases/set-maps.t
+nftables-1.1.6/tests/monitor/testcases/set-multiple.t
+nftables-1.1.6/tests/monitor/testcases/set-simple.t
+nftables-1.1.6/tests/monitor/testcases/object.t
+nftables-1.1.6/tests/monitor/testcases/flowtable-simple.t
+nftables-1.1.6/tests/monitor/testcases/table.t
+nftables-1.1.6/tests/afl++/
+nftables-1.1.6/tests/afl++/README
+nftables-1.1.6/tests/afl++/check_reproducers.sh
+nftables-1.1.6/tests/afl++/afl-sysctl.conf
+nftables-1.1.6/tests/afl++/run-afl.sh
+nftables-1.1.6/tests/py/
+nftables-1.1.6/tests/py/README
+nftables-1.1.6/tests/py/arp/
+nftables-1.1.6/tests/py/arp/arp.t.json
+nftables-1.1.6/tests/py/arp/chains.t
+nftables-1.1.6/tests/py/arp/arp.t
+nftables-1.1.6/tests/py/arp/arp.t.json.output
+nftables-1.1.6/tests/py/arp/arp.t.payload.netdev
+nftables-1.1.6/tests/py/arp/arp.t.payload
+nftables-1.1.6/tests/py/arp/chains.t.payload
+nftables-1.1.6/tests/py/netdev/
+nftables-1.1.6/tests/py/netdev/fwd.t.json
+nftables-1.1.6/tests/py/netdev/fwd.t.payload
+nftables-1.1.6/tests/py/netdev/tunnel.t.payload
+nftables-1.1.6/tests/py/netdev/tunnel.t
+nftables-1.1.6/tests/py/netdev/reject.t.json
+nftables-1.1.6/tests/py/netdev/reject.t.json.output
+nftables-1.1.6/tests/py/netdev/reject.t.payload
+nftables-1.1.6/tests/py/netdev/dup.t
+nftables-1.1.6/tests/py/netdev/dup.t.payload
+nftables-1.1.6/tests/py/netdev/dup.t.json
+nftables-1.1.6/tests/py/netdev/fwd.t.json.output
+nftables-1.1.6/tests/py/netdev/fwd.t
+nftables-1.1.6/tests/py/netdev/reject.t
+nftables-1.1.6/tests/py/netdev/tunnel.t.json
+nftables-1.1.6/tests/py/any/
+nftables-1.1.6/tests/py/any/meta.t.payload
+nftables-1.1.6/tests/py/any/icmpX.t.netdev.payload
+nftables-1.1.6/tests/py/any/rawpayload.t.payload
+nftables-1.1.6/tests/py/any/last.t.json
+nftables-1.1.6/tests/py/any/log.t.payload
+nftables-1.1.6/tests/py/any/limit.t.json.output
+nftables-1.1.6/tests/py/any/queue.t.json
+nftables-1.1.6/tests/py/any/last.t.payload
+nftables-1.1.6/tests/py/any/counter.t.json
+nftables-1.1.6/tests/py/any/counter.t.json.output
+nftables-1.1.6/tests/py/any/queue.t.payload
+nftables-1.1.6/tests/py/any/limit.t.json
+nftables-1.1.6/tests/py/any/rawpayload.t.json
+nftables-1.1.6/tests/py/any/rt.t.payload
+nftables-1.1.6/tests/py/any/quota.t
+nftables-1.1.6/tests/py/any/limit.t.payload
+nftables-1.1.6/tests/py/any/rt.t.json
+nftables-1.1.6/tests/py/any/counter.t
+nftables-1.1.6/tests/py/any/counter.t.payload
+nftables-1.1.6/tests/py/any/ct.t.json.output
+nftables-1.1.6/tests/py/any/limit.t
+nftables-1.1.6/tests/py/any/tcpopt.t.payload
+nftables-1.1.6/tests/py/any/log.t.json.output
+nftables-1.1.6/tests/py/any/last.t
+nftables-1.1.6/tests/py/any/last.t.json.output
+nftables-1.1.6/tests/py/any/tcpopt.t.json.output
+nftables-1.1.6/tests/py/any/quota.t.json
+nftables-1.1.6/tests/py/any/icmpX.t.netdev
+nftables-1.1.6/tests/py/any/tcpopt.t.json
+nftables-1.1.6/tests/py/any/quota.t.payload
+nftables-1.1.6/tests/py/any/rt.t
+nftables-1.1.6/tests/py/any/rawpayload.t.json.output
+nftables-1.1.6/tests/py/any/tcpopt.t
+nftables-1.1.6/tests/py/any/meta.t.json.output
+nftables-1.1.6/tests/py/any/meta.t.payload.bridge
+nftables-1.1.6/tests/py/any/ct.t.json
+nftables-1.1.6/tests/py/any/log.t
+nftables-1.1.6/tests/py/any/ct.t.payload
+nftables-1.1.6/tests/py/any/objects.t
+nftables-1.1.6/tests/py/any/queue.t.json.output
+nftables-1.1.6/tests/py/any/ct.t
+nftables-1.1.6/tests/py/any/log.t.json
+nftables-1.1.6/tests/py/any/meta.t.json
+nftables-1.1.6/tests/py/any/rawpayload.t
+nftables-1.1.6/tests/py/any/meta.t
+nftables-1.1.6/tests/py/any/queue.t
+nftables-1.1.6/tests/py/ip/
+nftables-1.1.6/tests/py/ip/icmp.t
+nftables-1.1.6/tests/py/ip/meta.t.payload
+nftables-1.1.6/tests/py/ip/objects.t.payload
+nftables-1.1.6/tests/py/ip/igmp.t.payload
+nftables-1.1.6/tests/py/ip/chains.t
+nftables-1.1.6/tests/py/ip/snat.t.payload
+nftables-1.1.6/tests/py/ip/tproxy.t.json
+nftables-1.1.6/tests/py/ip/sets.t.payload.ip
+nftables-1.1.6/tests/py/ip/ip.t.payload.inet
+nftables-1.1.6/tests/py/ip/redirect.t.payload
+nftables-1.1.6/tests/py/ip/redirect.t.json.output
+nftables-1.1.6/tests/py/ip/snat.t.json.output
+nftables-1.1.6/tests/py/ip/masquerade.t.json.output
+nftables-1.1.6/tests/py/ip/masquerade.t
+nftables-1.1.6/tests/py/ip/icmp.t.payload.ip
+nftables-1.1.6/tests/py/ip/ip.t.json
+nftables-1.1.6/tests/py/ip/ip.t.payload
+nftables-1.1.6/tests/py/ip/snat.t.json
+nftables-1.1.6/tests/py/ip/dnat.t.json
+nftables-1.1.6/tests/py/ip/numgen.t
+nftables-1.1.6/tests/py/ip/rt.t.payload
+nftables-1.1.6/tests/py/ip/masquerade.t.payload
+nftables-1.1.6/tests/py/ip/ip.t.json.output
+nftables-1.1.6/tests/py/ip/dnat.t.json.output
+nftables-1.1.6/tests/py/ip/ip_tcp.t.json
+nftables-1.1.6/tests/py/ip/ether.t.json
+nftables-1.1.6/tests/py/ip/sets.t.payload.inet
+nftables-1.1.6/tests/py/ip/reject.t.json
+nftables-1.1.6/tests/py/ip/rt.t.json
+nftables-1.1.6/tests/py/ip/ether.t
+nftables-1.1.6/tests/py/ip/ct.t.json.output
+nftables-1.1.6/tests/py/ip/tproxy.t.json.output
+nftables-1.1.6/tests/py/ip/masquerade.t.json
+nftables-1.1.6/tests/py/ip/sets.t.payload.netdev
+nftables-1.1.6/tests/py/ip/tproxy.t
+nftables-1.1.6/tests/py/ip/hash.t.json
+nftables-1.1.6/tests/py/ip/redirect.t.json
+nftables-1.1.6/tests/py/ip/ip_tcp.t
+nftables-1.1.6/tests/py/ip/numgen.t.payload
+nftables-1.1.6/tests/py/ip/ip.t
+nftables-1.1.6/tests/py/ip/reject.t.json.output
+nftables-1.1.6/tests/py/ip/ip.t.payload.netdev
+nftables-1.1.6/tests/py/ip/reject.t.payload
+nftables-1.1.6/tests/py/ip/dnat.t
+nftables-1.1.6/tests/py/ip/sets.t.json
+nftables-1.1.6/tests/py/ip/objects.t.json
+nftables-1.1.6/tests/py/ip/tcp.t.json
+nftables-1.1.6/tests/py/ip/igmp.t
+nftables-1.1.6/tests/py/ip/rt.t
+nftables-1.1.6/tests/py/ip/ether.t.payload
+nftables-1.1.6/tests/py/ip/ip_tcp.t.json.output
+nftables-1.1.6/tests/py/ip/tcp.t.payload
+nftables-1.1.6/tests/py/ip/dup.t
+nftables-1.1.6/tests/py/ip/dup.t.payload
+nftables-1.1.6/tests/py/ip/meta.t.json.output
+nftables-1.1.6/tests/py/ip/icmp.t.json
+nftables-1.1.6/tests/py/ip/tcp.t
+nftables-1.1.6/tests/py/ip/snat.t
+nftables-1.1.6/tests/py/ip/tproxy.t.payload
+nftables-1.1.6/tests/py/ip/sets.t
+nftables-1.1.6/tests/py/ip/redirect.t
+nftables-1.1.6/tests/py/ip/dup.t.json
+nftables-1.1.6/tests/py/ip/icmp.t.json.output
+nftables-1.1.6/tests/py/ip/objects.t.json.output
+nftables-1.1.6/tests/py/ip/ct.t.json
+nftables-1.1.6/tests/py/ip/numgen.t.json.output
+nftables-1.1.6/tests/py/ip/ether.t.json.output
+nftables-1.1.6/tests/py/ip/hash.t.payload
+nftables-1.1.6/tests/py/ip/numgen.t.json
+nftables-1.1.6/tests/py/ip/reject.t
+nftables-1.1.6/tests/py/ip/tcp.t.json.output
+nftables-1.1.6/tests/py/ip/ct.t.payload
+nftables-1.1.6/tests/py/ip/objects.t
+nftables-1.1.6/tests/py/ip/dnat.t.payload.ip
+nftables-1.1.6/tests/py/ip/ct.t
+nftables-1.1.6/tests/py/ip/hash.t
+nftables-1.1.6/tests/py/ip/igmp.t.json
+nftables-1.1.6/tests/py/ip/meta.t.json
+nftables-1.1.6/tests/py/ip/ip_tcp.t.payload
+nftables-1.1.6/tests/py/ip/ip.t.payload.bridge
+nftables-1.1.6/tests/py/ip/meta.t
+nftables-1.1.6/tests/py/ip6/
+nftables-1.1.6/tests/py/ip6/meta.t.payload
+nftables-1.1.6/tests/py/ip6/icmpv6.t.json
+nftables-1.1.6/tests/py/ip6/mh.t.payload.ip6
+nftables-1.1.6/tests/py/ip6/dst.t.json.output
+nftables-1.1.6/tests/py/ip6/exthdr.t.payload.ip6
+nftables-1.1.6/tests/py/ip6/hbh.t
+nftables-1.1.6/tests/py/ip6/exthdr.t
+nftables-1.1.6/tests/py/ip6/chains.t
+nftables-1.1.6/tests/py/ip6/mh.t.payload.inet
+nftables-1.1.6/tests/py/ip6/hbh.t.json.output
+nftables-1.1.6/tests/py/ip6/frag.t.payload.netdev
+nftables-1.1.6/tests/py/ip6/frag.t.json.output
+nftables-1.1.6/tests/py/ip6/tproxy.t.json
+nftables-1.1.6/tests/py/ip6/ip6.t.json.output
+nftables-1.1.6/tests/py/ip6/sets.t.payload
+nftables-1.1.6/tests/py/ip6/map.t.json.output
+nftables-1.1.6/tests/py/ip6/map.t.json
+nftables-1.1.6/tests/py/ip6/redirect.t.json.output
+nftables-1.1.6/tests/py/ip6/dst.t.payload.inet
+nftables-1.1.6/tests/py/ip6/masquerade.t.json.output
+nftables-1.1.6/tests/py/ip6/srh.t
+nftables-1.1.6/tests/py/ip6/masquerade.t
+nftables-1.1.6/tests/py/ip6/mh.t.json
+nftables-1.1.6/tests/py/ip6/snat.t.json
+nftables-1.1.6/tests/py/ip6/hbh.t.json
+nftables-1.1.6/tests/py/ip6/dnat.t.json
+nftables-1.1.6/tests/py/ip6/sets.t.payload.ip6
+nftables-1.1.6/tests/py/ip6/ip6.t.json
+nftables-1.1.6/tests/py/ip6/rt.t.json.output
+nftables-1.1.6/tests/py/ip6/ip6.t.payload.inet
+nftables-1.1.6/tests/py/ip6/vmap.t.payload.netdev
+nftables-1.1.6/tests/py/ip6/mh.t
+nftables-1.1.6/tests/py/ip6/ether.t.json
+nftables-1.1.6/tests/py/ip6/sets.t.payload.inet
+nftables-1.1.6/tests/py/ip6/reject.t.json
+nftables-1.1.6/tests/py/ip6/rt.t.json
+nftables-1.1.6/tests/py/ip6/rt.t.payload.ip6
+nftables-1.1.6/tests/py/ip6/ether.t
+nftables-1.1.6/tests/py/ip6/snat.t.payload.ip6
+nftables-1.1.6/tests/py/ip6/srh.t.json.output
+nftables-1.1.6/tests/py/ip6/tproxy.t.json.output
+nftables-1.1.6/tests/py/ip6/vmap.t.json.output
+nftables-1.1.6/tests/py/ip6/dnat.t.payload.ip6
+nftables-1.1.6/tests/py/ip6/masquerade.t.json
+nftables-1.1.6/tests/py/ip6/hbh.t.payload.ip6
+nftables-1.1.6/tests/py/ip6/sets.t.payload.netdev
+nftables-1.1.6/tests/py/ip6/tproxy.t
+nftables-1.1.6/tests/py/ip6/frag.t
+nftables-1.1.6/tests/py/ip6/exthdr.t.json.output
+nftables-1.1.6/tests/py/ip6/redirect.t.json
+nftables-1.1.6/tests/py/ip6/dst.t.json
+nftables-1.1.6/tests/py/ip6/reject.t.payload.ip6
+nftables-1.1.6/tests/py/ip6/icmpv6.t.json.output
+nftables-1.1.6/tests/py/ip6/icmpv6.t.payload.ip6
+nftables-1.1.6/tests/py/ip6/vmap.t
+nftables-1.1.6/tests/py/ip6/dst.t.payload.ip6
+nftables-1.1.6/tests/py/ip6/reject.t.json.output
+nftables-1.1.6/tests/py/ip6/ip6.t.payload.ip6
+nftables-1.1.6/tests/py/ip6/hbh.t.payload.inet
+nftables-1.1.6/tests/py/ip6/dnat.t
+nftables-1.1.6/tests/py/ip6/vmap.t.payload.inet
+nftables-1.1.6/tests/py/ip6/srh.t.json
+nftables-1.1.6/tests/py/ip6/sets.t.json
+nftables-1.1.6/tests/py/ip6/vmap.t.payload.ip6
+nftables-1.1.6/tests/py/ip6/srh.t.payload
+nftables-1.1.6/tests/py/ip6/rt.t
+nftables-1.1.6/tests/py/ip6/vmap.t.json
+nftables-1.1.6/tests/py/ip6/ether.t.payload
+nftables-1.1.6/tests/py/ip6/rt0.t.payload
+nftables-1.1.6/tests/py/ip6/dup.t
+nftables-1.1.6/tests/py/ip6/dup.t.payload
+nftables-1.1.6/tests/py/ip6/meta.t.json.output
+nftables-1.1.6/tests/py/ip6/snat.t
+nftables-1.1.6/tests/py/ip6/tproxy.t.payload
+nftables-1.1.6/tests/py/ip6/frag.t.payload.ip6
+nftables-1.1.6/tests/py/ip6/sets.t
+nftables-1.1.6/tests/py/ip6/redirect.t
+nftables-1.1.6/tests/py/ip6/mh.t.json.output
+nftables-1.1.6/tests/py/ip6/rt0.t
+nftables-1.1.6/tests/py/ip6/dup.t.json
+nftables-1.1.6/tests/py/ip6/icmpv6.t
+nftables-1.1.6/tests/py/ip6/dst.t
+nftables-1.1.6/tests/py/ip6/redirect.t.payload.ip6
+nftables-1.1.6/tests/py/ip6/rt.t.payload.inet
+nftables-1.1.6/tests/py/ip6/ct.t.json
+nftables-1.1.6/tests/py/ip6/masquerade.t.payload.ip6
+nftables-1.1.6/tests/py/ip6/frag.t.json
+nftables-1.1.6/tests/py/ip6/ether.t.json.output
+nftables-1.1.6/tests/py/ip6/reject.t
+nftables-1.1.6/tests/py/ip6/ct.t.payload
+nftables-1.1.6/tests/py/ip6/rt0.t.json
+nftables-1.1.6/tests/py/ip6/map.t.payload
+nftables-1.1.6/tests/py/ip6/ct.t
+nftables-1.1.6/tests/py/ip6/exthdr.t.json
+nftables-1.1.6/tests/py/ip6/meta.t.json
+nftables-1.1.6/tests/py/ip6/map.t
+nftables-1.1.6/tests/py/ip6/ip6.t
+nftables-1.1.6/tests/py/ip6/meta.t
+nftables-1.1.6/tests/py/ip6/frag.t.payload.inet
+nftables-1.1.6/tests/py/nft-test.py
+nftables-1.1.6/tests/py/bridge/
+nftables-1.1.6/tests/py/bridge/meta.t.payload
+nftables-1.1.6/tests/py/bridge/chains.t
+nftables-1.1.6/tests/py/bridge/redirect.t.payload
+nftables-1.1.6/tests/py/bridge/icmpX.t
+nftables-1.1.6/tests/py/bridge/ether.t.json
+nftables-1.1.6/tests/py/bridge/vlan.t.payload.netdev
+nftables-1.1.6/tests/py/bridge/reject.t.json
+nftables-1.1.6/tests/py/bridge/ether.t
+nftables-1.1.6/tests/py/bridge/icmpX.t.json.output
+nftables-1.1.6/tests/py/bridge/redirect.t.json
+nftables-1.1.6/tests/py/bridge/pass_up.t
+nftables-1.1.6/tests/py/bridge/reject.t.json.output
+nftables-1.1.6/tests/py/bridge/reject.t.payload
+nftables-1.1.6/tests/py/bridge/vlan.t.payload
+nftables-1.1.6/tests/py/bridge/pass_up.t.payload
+nftables-1.1.6/tests/py/bridge/icmpX.t.json
+nftables-1.1.6/tests/py/bridge/icmpX.t.payload
+nftables-1.1.6/tests/py/bridge/ether.t.payload
+nftables-1.1.6/tests/py/bridge/vlan.t
+nftables-1.1.6/tests/py/bridge/redirect.t
+nftables-1.1.6/tests/py/bridge/vlan.t.json.output
+nftables-1.1.6/tests/py/bridge/pass_up.t.json
+nftables-1.1.6/tests/py/bridge/ether.t.json.output
+nftables-1.1.6/tests/py/bridge/reject.t
+nftables-1.1.6/tests/py/bridge/vlan.t.json
+nftables-1.1.6/tests/py/bridge/meta.t.json
+nftables-1.1.6/tests/py/bridge/chains.t.payload
+nftables-1.1.6/tests/py/bridge/meta.t
+nftables-1.1.6/tests/py/tools/
+nftables-1.1.6/tests/py/tools/test-sanitizer.sh
+nftables-1.1.6/tests/py/inet/
+nftables-1.1.6/tests/py/inet/icmp.t
+nftables-1.1.6/tests/py/inet/meta.t.payload
+nftables-1.1.6/tests/py/inet/esp.t
+nftables-1.1.6/tests/py/inet/geneve.t.payload
+nftables-1.1.6/tests/py/inet/comp.t.json
+nftables-1.1.6/tests/py/inet/icmp.t.payload
+nftables-1.1.6/tests/py/inet/dccp.t
+nftables-1.1.6/tests/py/inet/snat.t.payload
+nftables-1.1.6/tests/py/inet/tproxy.t.json
+nftables-1.1.6/tests/py/inet/map.t.json.output
+nftables-1.1.6/tests/py/inet/map.t.json
+nftables-1.1.6/tests/py/inet/ip.t.payload.inet
+nftables-1.1.6/tests/py/inet/esp.t.payload
+nftables-1.1.6/tests/py/inet/snat.t.json.output
+nftables-1.1.6/tests/py/inet/ah.t.payload
+nftables-1.1.6/tests/py/inet/udp.t.json
+nftables-1.1.6/tests/py/inet/gretap.t.payload
+nftables-1.1.6/tests/py/inet/vxlan.t.payload
+nftables-1.1.6/tests/py/inet/ip_tcp.t.payload.bridge
+nftables-1.1.6/tests/py/inet/ip.t.json
+nftables-1.1.6/tests/py/inet/ip.t.payload
+nftables-1.1.6/tests/py/inet/snat.t.json
+nftables-1.1.6/tests/py/inet/gre.t.json
+nftables-1.1.6/tests/py/inet/dnat.t.json
+nftables-1.1.6/tests/py/inet/rt.t.json.output
+nftables-1.1.6/tests/py/inet/vxlan.t.json
+nftables-1.1.6/tests/py/inet/fib.t
+nftables-1.1.6/tests/py/inet/ether-ip.t.payload
+nftables-1.1.6/tests/py/inet/vmap.t.payload.netdev
+nftables-1.1.6/tests/py/inet/geneve.t.json
+nftables-1.1.6/tests/py/inet/ah.t
+nftables-1.1.6/tests/py/inet/icmpX.t
+nftables-1.1.6/tests/py/inet/rt.t.payload
+nftables-1.1.6/tests/py/inet/fib.t.payload
+nftables-1.1.6/tests/py/inet/ip_tcp.t.json
+nftables-1.1.6/tests/py/inet/ether.t.json
+nftables-1.1.6/tests/py/inet/sets.t.payload.inet
+nftables-1.1.6/tests/py/inet/gre.t.payload
+nftables-1.1.6/tests/py/inet/reject.t.json
+nftables-1.1.6/tests/py/inet/rt.t.json
+nftables-1.1.6/tests/py/inet/ether.t
+nftables-1.1.6/tests/py/inet/ether.t.payload.ip
+nftables-1.1.6/tests/py/inet/ip_tcp.t.payload.netdev
+nftables-1.1.6/tests/py/inet/ct.t.json.output
+nftables-1.1.6/tests/py/inet/icmpX.t.json.output
+nftables-1.1.6/tests/py/inet/osf.t.payload
+nftables-1.1.6/tests/py/inet/gre.t
+nftables-1.1.6/tests/py/inet/synproxy.t.payload
+nftables-1.1.6/tests/py/inet/sets.t.payload.netdev
+nftables-1.1.6/tests/py/inet/tproxy.t
+nftables-1.1.6/tests/py/inet/fib.t.json.output
+nftables-1.1.6/tests/py/inet/sctp.t.payload
+nftables-1.1.6/tests/py/inet/sctp.t
+nftables-1.1.6/tests/py/inet/udp.t
+nftables-1.1.6/tests/py/inet/ip_tcp.t
+nftables-1.1.6/tests/py/inet/udplite.t.json
+nftables-1.1.6/tests/py/inet/udplite.t
+nftables-1.1.6/tests/py/inet/synproxy.t.json.output
+nftables-1.1.6/tests/py/inet/sets.t.payload.bridge
+nftables-1.1.6/tests/py/inet/reject.t.payload.inet
+nftables-1.1.6/tests/py/inet/vmap.t
+nftables-1.1.6/tests/py/inet/osf.t.json
+nftables-1.1.6/tests/py/inet/ip.t
+nftables-1.1.6/tests/py/inet/synproxy.t
+nftables-1.1.6/tests/py/inet/reject.t.json.output
+nftables-1.1.6/tests/py/inet/ip.t.payload.netdev
+nftables-1.1.6/tests/py/inet/ah.t.json
+nftables-1.1.6/tests/py/inet/esp.t.json
+nftables-1.1.6/tests/py/inet/dnat.t.payload
+nftables-1.1.6/tests/py/inet/dnat.t
+nftables-1.1.6/tests/py/inet/ipsec.t.json
+nftables-1.1.6/tests/py/inet/ether.t.payload.bridge
+nftables-1.1.6/tests/py/inet/ether-ip.t.json.output
+nftables-1.1.6/tests/py/inet/sets.t.json
+nftables-1.1.6/tests/py/inet/vxlan.t
+nftables-1.1.6/tests/py/inet/icmpX.t.json
+nftables-1.1.6/tests/py/inet/gretap.t.json
+nftables-1.1.6/tests/py/inet/synproxy.t.json
+nftables-1.1.6/tests/py/inet/ipsec.t.payload
+nftables-1.1.6/tests/py/inet/comp.t.payload
+nftables-1.1.6/tests/py/inet/payloadmerge.t.json
+nftables-1.1.6/tests/py/inet/vmap.t.payload
+nftables-1.1.6/tests/py/inet/tcp.t.json
+nftables-1.1.6/tests/py/inet/icmpX.t.payload
+nftables-1.1.6/tests/py/inet/rt.t
+nftables-1.1.6/tests/py/inet/vmap.t.json
+nftables-1.1.6/tests/py/inet/ether.t.payload
+nftables-1.1.6/tests/py/inet/payloadmerge.t.payload
+nftables-1.1.6/tests/py/inet/ip_tcp.t.json.output
+nftables-1.1.6/tests/py/inet/tcp.t.payload
+nftables-1.1.6/tests/py/inet/osf.t
+nftables-1.1.6/tests/py/inet/meta.t.json.output
+nftables-1.1.6/tests/py/inet/osf.t.json.output
+nftables-1.1.6/tests/py/inet/icmp.t.json
+nftables-1.1.6/tests/py/inet/socket.t.json
+nftables-1.1.6/tests/py/inet/tcp.t
+nftables-1.1.6/tests/py/inet/snat.t
+nftables-1.1.6/tests/py/inet/tproxy.t.payload
+nftables-1.1.6/tests/py/inet/sets.t
+nftables-1.1.6/tests/py/inet/icmp.t.json.output
+nftables-1.1.6/tests/py/inet/sctp.t.json
+nftables-1.1.6/tests/py/inet/map.t.payload.netdev
+nftables-1.1.6/tests/py/inet/comp.t
+nftables-1.1.6/tests/py/inet/gretap.t
+nftables-1.1.6/tests/py/inet/ct.t.json
+nftables-1.1.6/tests/py/inet/ether.t.json.output
+nftables-1.1.6/tests/py/inet/dccp.t.payload
+nftables-1.1.6/tests/py/inet/fib.t.json
+nftables-1.1.6/tests/py/inet/dccp.t.json
+nftables-1.1.6/tests/py/inet/ether-ip.t
+nftables-1.1.6/tests/py/inet/socket.t.payload
+nftables-1.1.6/tests/py/inet/reject.t
+nftables-1.1.6/tests/py/inet/payloadmerge.t
+nftables-1.1.6/tests/py/inet/ipsec.t
+nftables-1.1.6/tests/py/inet/geneve.t
+nftables-1.1.6/tests/py/inet/tcp.t.json.output
+nftables-1.1.6/tests/py/inet/ct.t.payload
+nftables-1.1.6/tests/py/inet/dccp.t.json.output
+nftables-1.1.6/tests/py/inet/map.t.payload
+nftables-1.1.6/tests/py/inet/comp.t.json.output
+nftables-1.1.6/tests/py/inet/socket.t
+nftables-1.1.6/tests/py/inet/udplite.t.payload
+nftables-1.1.6/tests/py/inet/udp.t.payload
+nftables-1.1.6/tests/py/inet/ct.t
+nftables-1.1.6/tests/py/inet/map.t.payload.ip
+nftables-1.1.6/tests/py/inet/ether-ip.t.json
+nftables-1.1.6/tests/py/inet/ether-ip.t.payload.netdev
+nftables-1.1.6/tests/py/inet/meta.t.json
+nftables-1.1.6/tests/py/inet/map.t
+nftables-1.1.6/tests/py/inet/ip_tcp.t.payload
+nftables-1.1.6/tests/py/inet/ip.t.payload.bridge
+nftables-1.1.6/tests/py/inet/meta.t
+nftables-1.1.6/tests/json_echo/
+nftables-1.1.6/tests/json_echo/run-test.py
+nftables-1.1.6/tests/shell/
+nftables-1.1.6/tests/shell/README
+nftables-1.1.6/tests/shell/helpers/
+nftables-1.1.6/tests/shell/helpers/nft-valgrind-wrapper.sh
+nftables-1.1.6/tests/shell/helpers/random-source.sh
+nftables-1.1.6/tests/shell/helpers/json-pretty.sh
+nftables-1.1.6/tests/shell/helpers/set_flush_add_atomic_helpers
+nftables-1.1.6/tests/shell/helpers/json-diff-pretty.sh
+nftables-1.1.6/tests/shell/helpers/lib.sh
+nftables-1.1.6/tests/shell/helpers/test-wrapper.sh
+nftables-1.1.6/tests/shell/helpers/json-sanitize-ruleset.sh
+nftables-1.1.6/tests/shell/run-tests.sh
+nftables-1.1.6/tests/shell/features/
+nftables-1.1.6/tests/shell/features/cttimeout.nft
+nftables-1.1.6/tests/shell/features/stateful_object_update.sh
+nftables-1.1.6/tests/shell/features/set_expr.sh
+nftables-1.1.6/tests/shell/features/setcount.sh
+nftables-1.1.6/tests/shell/features/socat.sh
+nftables-1.1.6/tests/shell/features/flowtable_counter.sh
+nftables-1.1.6/tests/shell/features/inner_matching.nft
+nftables-1.1.6/tests/shell/features/tunnel.nft
+nftables-1.1.6/tests/shell/features/sctp_chunks.nft
+nftables-1.1.6/tests/shell/features/position_id.sh
+nftables-1.1.6/tests/shell/features/tcpdump.sh
+nftables-1.1.6/tests/shell/features/json.sh
+nftables-1.1.6/tests/shell/features/prerouting_reject.nft
+nftables-1.1.6/tests/shell/features/ifname_based_hooks.sh
+nftables-1.1.6/tests/shell/features/reset_tcp_options.nft
+nftables-1.1.6/tests/shell/features/elem_timeout_update.sh
+nftables-1.1.6/tests/shell/features/ip_options.nft
+nftables-1.1.6/tests/shell/features/list_hooks_flowtable_info.sh
+nftables-1.1.6/tests/shell/features/table_flag_owner.nft
+nftables-1.1.6/tests/shell/features/secmark.nft
+nftables-1.1.6/tests/shell/features/set_with_two_expressions.nft
+nftables-1.1.6/tests/shell/features/table_flag_persist.nft
+nftables-1.1.6/tests/shell/features/empty_netdev_chains.sh
+nftables-1.1.6/tests/shell/features/inet_ingress.nft
+nftables-1.1.6/tests/shell/features/netmap.nft
+nftables-1.1.6/tests/shell/features/reset_set.sh
+nftables-1.1.6/tests/shell/features/setelem_expiration.sh
+nftables-1.1.6/tests/shell/features/pipapo.nft
+nftables-1.1.6/tests/shell/features/dynset_op_delete.nft
+nftables-1.1.6/tests/shell/features/destroy.nft
+nftables-1.1.6/tests/shell/features/meta_time.nft
+nftables-1.1.6/tests/shell/features/bitwise_multireg.nft
+nftables-1.1.6/tests/shell/features/ctexpect.nft
+nftables-1.1.6/tests/shell/features/curl.sh
+nftables-1.1.6/tests/shell/features/chain_binding.nft
+nftables-1.1.6/tests/shell/features/ipsec.nft
+nftables-1.1.6/tests/shell/features/flowtable_no_devices.nft
+nftables-1.1.6/tests/shell/features/catchall_element.nft
+nftables-1.1.6/tests/shell/features/synproxy.nft
+nftables-1.1.6/tests/shell/features/bitshift.nft
+nftables-1.1.6/tests/shell/features/inet_nat.nft
+nftables-1.1.6/tests/shell/features/cgroupsv2.nft
+nftables-1.1.6/tests/shell/features/netdev_chain_without_device.nft
+nftables-1.1.6/tests/shell/features/netdev_chain_multidevice.sh
+nftables-1.1.6/tests/shell/features/meta_ibrhwaddr.nft
+nftables-1.1.6/tests/shell/features/osf.nft
+nftables-1.1.6/tests/shell/features/netdev_egress.nft
+nftables-1.1.6/tests/shell/features/reset_rule.sh
+nftables-1.1.6/tests/shell/features/vsftpd.sh
+nftables-1.1.6/tests/shell/features/comment.sh
+nftables-1.1.6/tests/shell/features/rbtree_size_limit.nft
+nftables-1.1.6/tests/shell/features/map_lookup.nft
+nftables-1.1.6/tests/shell/testcases/
+nftables-1.1.6/tests/shell/testcases/nft-i/
+nftables-1.1.6/tests/shell/testcases/nft-i/set_0
+nftables-1.1.6/tests/shell/testcases/nft-i/dumps/
+nftables-1.1.6/tests/shell/testcases/nft-i/dumps/index_0.nft
+nftables-1.1.6/tests/shell/testcases/nft-i/dumps/set_0.json-nft
+nftables-1.1.6/tests/shell/testcases/nft-i/dumps/index_0.json-nft
+nftables-1.1.6/tests/shell/testcases/nft-i/dumps/0001define_0.json-nft
+nftables-1.1.6/tests/shell/testcases/nft-i/dumps/set_0.nft
+nftables-1.1.6/tests/shell/testcases/nft-i/dumps/0001define_0.nft
+nftables-1.1.6/tests/shell/testcases/nft-i/index_0
+nftables-1.1.6/tests/shell/testcases/nft-i/0001define_0
+nftables-1.1.6/tests/shell/testcases/cache/
+nftables-1.1.6/tests/shell/testcases/cache/0002_interval_0
+nftables-1.1.6/tests/shell/testcases/cache/dumps/
+nftables-1.1.6/tests/shell/testcases/cache/dumps/0011_index_0.json-nft
+nftables-1.1.6/tests/shell/testcases/cache/dumps/0002_interval_0.json-nft
+nftables-1.1.6/tests/shell/testcases/cache/dumps/0001_cache_handling_0.nft
+nftables-1.1.6/tests/shell/testcases/cache/dumps/0010_implicit_chain_0.nft
+nftables-1.1.6/tests/shell/testcases/cache/dumps/0007_echo_cache_init_0.json-nft
+nftables-1.1.6/tests/shell/testcases/cache/dumps/0009_delete_by_handle_incorrect_0.nft
+nftables-1.1.6/tests/shell/testcases/cache/dumps/0008_delete_by_handle_0.nft
+nftables-1.1.6/tests/shell/testcases/cache/dumps/0002_interval_0.nft
+nftables-1.1.6/tests/shell/testcases/cache/dumps/0004_cache_update_0.nft
+nftables-1.1.6/tests/shell/testcases/cache/dumps/0006_cache_table_flush.nft
+nftables-1.1.6/tests/shell/testcases/cache/dumps/0001_cache_handling_0.json-nft
+nftables-1.1.6/tests/shell/testcases/cache/dumps/0006_cache_table_flush.json-nft
+nftables-1.1.6/tests/shell/testcases/cache/dumps/0004_cache_update_0.json-nft
+nftables-1.1.6/tests/shell/testcases/cache/dumps/0005_cache_chain_flush.nft
+nftables-1.1.6/tests/shell/testcases/cache/dumps/0003_cache_update_0.nft
+nftables-1.1.6/tests/shell/testcases/cache/dumps/0009_delete_by_handle_incorrect_0.json-nft
+nftables-1.1.6/tests/shell/testcases/cache/dumps/0005_cache_chain_flush.json-nft
+nftables-1.1.6/tests/shell/testcases/cache/dumps/0011_index_0.nft
+nftables-1.1.6/tests/shell/testcases/cache/dumps/0003_cache_update_0.json-nft
+nftables-1.1.6/tests/shell/testcases/cache/dumps/0007_echo_cache_init_0.nft
+nftables-1.1.6/tests/shell/testcases/cache/dumps/0008_delete_by_handle_0.json-nft
+nftables-1.1.6/tests/shell/testcases/cache/0008_delete_by_handle_0
+nftables-1.1.6/tests/shell/testcases/cache/0007_echo_cache_init_0
+nftables-1.1.6/tests/shell/testcases/cache/0003_cache_update_0
+nftables-1.1.6/tests/shell/testcases/cache/0001_cache_handling_0
+nftables-1.1.6/tests/shell/testcases/cache/0011_index_0
+nftables-1.1.6/tests/shell/testcases/cache/0005_cache_chain_flush
+nftables-1.1.6/tests/shell/testcases/cache/0004_cache_update_0
+nftables-1.1.6/tests/shell/testcases/cache/0006_cache_table_flush
+nftables-1.1.6/tests/shell/testcases/cache/0010_implicit_chain_0
+nftables-1.1.6/tests/shell/testcases/cache/0009_delete_by_handle_incorrect_0
+nftables-1.1.6/tests/shell/testcases/netns/
+nftables-1.1.6/tests/shell/testcases/netns/0003many_0
+nftables-1.1.6/tests/shell/testcases/netns/dumps/
+nftables-1.1.6/tests/shell/testcases/netns/dumps/0002loosecommands_0.json-nft
+nftables-1.1.6/tests/shell/testcases/netns/dumps/0003many_0.nft
+nftables-1.1.6/tests/shell/testcases/netns/dumps/0001nft-f_0.json-nft
+nftables-1.1.6/tests/shell/testcases/netns/dumps/0003many_0.json-nft
+nftables-1.1.6/tests/shell/testcases/netns/dumps/0001nft-f_0.nft
+nftables-1.1.6/tests/shell/testcases/netns/dumps/0002loosecommands_0.nft
+nftables-1.1.6/tests/shell/testcases/netns/0001nft-f_0
+nftables-1.1.6/tests/shell/testcases/netns/0002loosecommands_0
+nftables-1.1.6/tests/shell/testcases/comments/
+nftables-1.1.6/tests/shell/testcases/comments/dumps/
+nftables-1.1.6/tests/shell/testcases/comments/dumps/comments_0.json-nft
+nftables-1.1.6/tests/shell/testcases/comments/dumps/comments_0.nft
+nftables-1.1.6/tests/shell/testcases/comments/comments_0
+nftables-1.1.6/tests/shell/testcases/optimizations/
+nftables-1.1.6/tests/shell/testcases/optimizations/ruleset
+nftables-1.1.6/tests/shell/testcases/optimizations/merge_nat_concat
+nftables-1.1.6/tests/shell/testcases/optimizations/merge_stmts_concat_vmap
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/merge_stmts_concat.json-nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/merge_vmaps.nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/single_anon_set.nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/merge_vmap_raw.nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/merge_counter.json-nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/single_anon_set_expr.json-nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/merge_nat.nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/dependency_kill.json-nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/skip_non_eq.json-nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/merge_vmap.nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/merge_vmaps.json-nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/merge_stmts.json-nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/merge_reject.json-nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/merge_stmts_vmap.nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/merge_stmts_vmap.json-nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/skip_unsupported.nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/merge_nat_inet.json-nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/skip_unsupported.json-nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/single_anon_set.json-nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/variables.nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/merge_stmts_concat_vmap.nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/bitmask.json-nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/variables.json-nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/bitmask.nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/merge_nat_concat.nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/single_anon_set_expr.nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/merge_reject.nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/skip_non_eq.nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/skip_merge.json-nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/merge_nat_inet.nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/not_mergeable.nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/merge_stmts_concat_vmap.json-nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/dependency_kill.nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/ruleset.nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/skip_merge.nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/merge_nat.json-nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/merge_nat_concat.json-nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/merge_vmap_raw.json-nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/merge_stmts_concat.nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/nomerge_raw_payload.nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/nomerge_raw_payload.json-nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/not_mergeable.json-nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/nomerge_vmap.nodump
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/ruleset.json-nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/merge_stmts.nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dumps/merge_counter.nft
+nftables-1.1.6/tests/shell/testcases/optimizations/dependency_kill
+nftables-1.1.6/tests/shell/testcases/optimizations/merge_reject
+nftables-1.1.6/tests/shell/testcases/optimizations/merge_stmts_concat
+nftables-1.1.6/tests/shell/testcases/optimizations/not_mergeable
+nftables-1.1.6/tests/shell/testcases/optimizations/skip_unsupported
+nftables-1.1.6/tests/shell/testcases/optimizations/nomerge_vmap
+nftables-1.1.6/tests/shell/testcases/optimizations/merge_stmts
+nftables-1.1.6/tests/shell/testcases/optimizations/single_anon_set
+nftables-1.1.6/tests/shell/testcases/optimizations/nomerge_raw_payload
+nftables-1.1.6/tests/shell/testcases/optimizations/skip_merge
+nftables-1.1.6/tests/shell/testcases/optimizations/bitmask
+nftables-1.1.6/tests/shell/testcases/optimizations/merge_counter
+nftables-1.1.6/tests/shell/testcases/optimizations/merge_vmap_raw
+nftables-1.1.6/tests/shell/testcases/optimizations/merge_nat
+nftables-1.1.6/tests/shell/testcases/optimizations/variables
+nftables-1.1.6/tests/shell/testcases/optimizations/merge_vmaps
+nftables-1.1.6/tests/shell/testcases/optimizations/merge_nat_inet
+nftables-1.1.6/tests/shell/testcases/optimizations/merge_vmap
+nftables-1.1.6/tests/shell/testcases/optimizations/single_anon_set_expr
+nftables-1.1.6/tests/shell/testcases/optimizations/skip_non_eq
+nftables-1.1.6/tests/shell/testcases/optimizations/merge_stmts_vmap
+nftables-1.1.6/tests/shell/testcases/flowtable/
+nftables-1.1.6/tests/shell/testcases/flowtable/0009deleteafterflush_0
+nftables-1.1.6/tests/shell/testcases/flowtable/0003add_after_flush_0
+nftables-1.1.6/tests/shell/testcases/flowtable/dumps/
+nftables-1.1.6/tests/shell/testcases/flowtable/dumps/0002create_flowtable_0.nft
+nftables-1.1.6/tests/shell/testcases/flowtable/dumps/0005delete_in_use_1.json-nft
+nftables-1.1.6/tests/shell/testcases/flowtable/dumps/0011deleteafterflush_0.json-nft
+nftables-1.1.6/tests/shell/testcases/flowtable/dumps/0015destroy_0.nft
+nftables-1.1.6/tests/shell/testcases/flowtable/dumps/0007prio_0.json-nft
+nftables-1.1.6/tests/shell/testcases/flowtable/dumps/0003add_after_flush_0.json-nft
+nftables-1.1.6/tests/shell/testcases/flowtable/dumps/0004delete_after_add_0.json-nft
+nftables-1.1.6/tests/shell/testcases/flowtable/dumps/0011deleteafterflush_0.nft
+nftables-1.1.6/tests/shell/testcases/flowtable/dumps/0006segfault_0.json-nft
+nftables-1.1.6/tests/shell/testcases/flowtable/dumps/0014addafterdelete_0.nft
+nftables-1.1.6/tests/shell/testcases/flowtable/dumps/0014addafterdelete_0.json-nft
+nftables-1.1.6/tests/shell/testcases/flowtable/dumps/0009deleteafterflush_0.json-nft
+nftables-1.1.6/tests/shell/testcases/flowtable/dumps/0001flowtable_0.nft
+nftables-1.1.6/tests/shell/testcases/flowtable/dumps/0003add_after_flush_0.nft
+nftables-1.1.6/tests/shell/testcases/flowtable/dumps/0015destroy_0.json-nft
+nftables-1.1.6/tests/shell/testcases/flowtable/dumps/0005delete_in_use_1.nft
+nftables-1.1.6/tests/shell/testcases/flowtable/dumps/0016name_based_hook_0.json-nft
+nftables-1.1.6/tests/shell/testcases/flowtable/dumps/0013addafterdelete_0.nft
+nftables-1.1.6/tests/shell/testcases/flowtable/dumps/0002create_flowtable_0.json-nft
+nftables-1.1.6/tests/shell/testcases/flowtable/dumps/0012flowtable_variable_0.json-nft
+nftables-1.1.6/tests/shell/testcases/flowtable/dumps/0006segfault_0.nft
+nftables-1.1.6/tests/shell/testcases/flowtable/dumps/0016name_based_hook_0.nft
+nftables-1.1.6/tests/shell/testcases/flowtable/dumps/0010delete_handle_0.nft
+nftables-1.1.6/tests/shell/testcases/flowtable/dumps/0007prio_0.nft
+nftables-1.1.6/tests/shell/testcases/flowtable/dumps/0001flowtable_0.json-nft
+nftables-1.1.6/tests/shell/testcases/flowtable/dumps/0012flowtable_variable_0.nft
+nftables-1.1.6/tests/shell/testcases/flowtable/dumps/0004delete_after_add_0.nft
+nftables-1.1.6/tests/shell/testcases/flowtable/dumps/0009deleteafterflush_0.nft
+nftables-1.1.6/tests/shell/testcases/flowtable/dumps/0010delete_handle_0.json-nft
+nftables-1.1.6/tests/shell/testcases/flowtable/dumps/0008prio_1.json-nft
+nftables-1.1.6/tests/shell/testcases/flowtable/dumps/0013addafterdelete_0.json-nft
+nftables-1.1.6/tests/shell/testcases/flowtable/dumps/0008prio_1.nft
+nftables-1.1.6/tests/shell/testcases/flowtable/0007prio_0
+nftables-1.1.6/tests/shell/testcases/flowtable/0001flowtable_0
+nftables-1.1.6/tests/shell/testcases/flowtable/0010delete_handle_0
+nftables-1.1.6/tests/shell/testcases/flowtable/0013addafterdelete_0
+nftables-1.1.6/tests/shell/testcases/flowtable/0005delete_in_use_1
+nftables-1.1.6/tests/shell/testcases/flowtable/0014addafterdelete_0
+nftables-1.1.6/tests/shell/testcases/flowtable/0004delete_after_add_0
+nftables-1.1.6/tests/shell/testcases/flowtable/0012flowtable_variable_0
+nftables-1.1.6/tests/shell/testcases/flowtable/0015destroy_0
+nftables-1.1.6/tests/shell/testcases/flowtable/0002create_flowtable_0
+nftables-1.1.6/tests/shell/testcases/flowtable/0016name_based_hook_0
+nftables-1.1.6/tests/shell/testcases/flowtable/0011deleteafterflush_0
+nftables-1.1.6/tests/shell/testcases/flowtable/0006segfault_0
+nftables-1.1.6/tests/shell/testcases/flowtable/0008prio_1
+nftables-1.1.6/tests/shell/testcases/chains/
+nftables-1.1.6/tests/shell/testcases/chains/0007masquerade_1
+nftables-1.1.6/tests/shell/testcases/chains/0004busy_1
+nftables-1.1.6/tests/shell/testcases/chains/0037policy_variable_1
+nftables-1.1.6/tests/shell/testcases/chains/0033priority_variable_1
+nftables-1.1.6/tests/shell/testcases/chains/0042chain_variable_0
+nftables-1.1.6/tests/shell/testcases/chains/0041chain_binding_0
+nftables-1.1.6/tests/shell/testcases/chains/0023prio_inet_srcnat_1
+nftables-1.1.6/tests/shell/testcases/chains/0026prio_netdev_1
+nftables-1.1.6/tests/shell/testcases/chains/0027prio_bridge_dstnat_1
+nftables-1.1.6/tests/shell/testcases/chains/0024prio_inet_dstnat_1
+nftables-1.1.6/tests/shell/testcases/chains/netdev_netns_gone
+nftables-1.1.6/tests/shell/testcases/chains/0006masquerade_0
+nftables-1.1.6/tests/shell/testcases/chains/netdev_move_device
+nftables-1.1.6/tests/shell/testcases/chains/dumps/
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0039negative_priority_0.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0025prio_arp_1.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0023prio_inet_srcnat_1.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0007masquerade_1.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0013rename_0.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0030create_0.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0011endless_jump_loop_1.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0025prio_arp_1.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/netdev_chain_0.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/netdev_chain_dev_addremove.nodump
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0029prio_bridge_srcnat_1.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0016delete_handle_0.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/netdev_chain_dormant_autoremove.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0008masquerade_jump_1.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0009masquerade_jump_1.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0043chain_ingress_0.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0011endless_jump_loop_1.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/netdev_chain_autoremove.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0024prio_inet_dstnat_1.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0004busy_1.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0018check_jump_loop_1.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0001jumps_0.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0037policy_variable_1.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0027prio_bridge_dstnat_1.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0014rename_0.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0002jumps_1.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0016delete_handle_0.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0038policy_variable_1.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0003jump_loop_1.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/netdev_chain_autoremove.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/netdev_chain_multidev_gone.nodump
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0034priority_variable_1.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0036policy_variable_0.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0008masquerade_jump_1.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0004busy_1.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0024prio_inet_dstnat_1.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0039negative_priority_0.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/netdev_multidev_netns_gone.nodump
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0033priority_variable_1.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0029prio_bridge_srcnat_1.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0010endless_jump_loop_1.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0020depth_1.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0034priority_variable_1.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/netdev_chain_dormant_autoremove.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0035policy_variable_0.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0038policy_variable_1.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0026prio_netdev_1.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/jump_to_base_chain.nodump
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0032priority_variable_0.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0044chain_destroy_0.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0022prio_dummy_1.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0043chain_ingress_0.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0015check_jump_loop_1.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0019masquerade_jump_1.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0031priority_variable_0.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/netdev_chain_dev_gone.nodump
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0001jumps_0.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0037policy_variable_1.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0006masquerade_0.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0026prio_netdev_1.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0028prio_bridge_out_1.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0019masquerade_jump_1.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0014rename_0.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/netdev_move_device.nodump
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0023prio_inet_srcnat_1.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0009masquerade_jump_1.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/netdev_chain_0.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0006masquerade_0.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0020depth_1.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0007masquerade_1.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0005busy_map_1.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/netdev_netns_gone.nodump
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0032priority_variable_0.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0005busy_map_1.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0042chain_variable_0.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0036policy_variable_0.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0015check_jump_loop_1.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0003jump_loop_1.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0010endless_jump_loop_1.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0021prio_0.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0028prio_bridge_out_1.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0031priority_variable_0.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0035policy_variable_0.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0041chain_binding_0.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0027prio_bridge_dstnat_1.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/netdev_chain_name_based_hook_0.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0021prio_0.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0022prio_dummy_1.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0018check_jump_loop_1.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0017masquerade_jump_1.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/netdev_chain_name_based_hook_0.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0030create_0.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0044chain_destroy_0.nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0017masquerade_jump_1.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0033priority_variable_1.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0013rename_0.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0042chain_variable_0.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/dumps/0002jumps_1.json-nft
+nftables-1.1.6/tests/shell/testcases/chains/0010endless_jump_loop_1
+nftables-1.1.6/tests/shell/testcases/chains/0036policy_variable_0
+nftables-1.1.6/tests/shell/testcases/chains/0043chain_ingress_0
+nftables-1.1.6/tests/shell/testcases/chains/netdev_chain_multidev_gone
+nftables-1.1.6/tests/shell/testcases/chains/netdev_chain_dev_addremove
+nftables-1.1.6/tests/shell/testcases/chains/0034priority_variable_1
+nftables-1.1.6/tests/shell/testcases/chains/0017masquerade_jump_1
+nftables-1.1.6/tests/shell/testcases/chains/netdev_multidev_netns_gone
+nftables-1.1.6/tests/shell/testcases/chains/netdev_chain_0
+nftables-1.1.6/tests/shell/testcases/chains/0032priority_variable_0
+nftables-1.1.6/tests/shell/testcases/chains/0002jumps_1
+nftables-1.1.6/tests/shell/testcases/chains/0001jumps_0
+nftables-1.1.6/tests/shell/testcases/chains/0019masquerade_jump_1
+nftables-1.1.6/tests/shell/testcases/chains/0028prio_bridge_out_1
+nftables-1.1.6/tests/shell/testcases/chains/0022prio_dummy_1
+nftables-1.1.6/tests/shell/testcases/chains/netdev_chain_dormant_autoremove
+nftables-1.1.6/tests/shell/testcases/chains/0025prio_arp_1
+nftables-1.1.6/tests/shell/testcases/chains/0005busy_map_1
+nftables-1.1.6/tests/shell/testcases/chains/jump_to_base_chain
+nftables-1.1.6/tests/shell/testcases/chains/0018check_jump_loop_1
+nftables-1.1.6/tests/shell/testcases/chains/0011endless_jump_loop_1
+nftables-1.1.6/tests/shell/testcases/chains/0021prio_0
+nftables-1.1.6/tests/shell/testcases/chains/0039negative_priority_0
+nftables-1.1.6/tests/shell/testcases/chains/0014rename_0
+nftables-1.1.6/tests/shell/testcases/chains/0044chain_destroy_0
+nftables-1.1.6/tests/shell/testcases/chains/0009masquerade_jump_1
+nftables-1.1.6/tests/shell/testcases/chains/0003jump_loop_1
+nftables-1.1.6/tests/shell/testcases/chains/0035policy_variable_0
+nftables-1.1.6/tests/shell/testcases/chains/0016delete_handle_0
+nftables-1.1.6/tests/shell/testcases/chains/0038policy_variable_1
+nftables-1.1.6/tests/shell/testcases/chains/netdev_chain_dev_gone
+nftables-1.1.6/tests/shell/testcases/chains/0031priority_variable_0
+nftables-1.1.6/tests/shell/testcases/chains/0013rename_0
+nftables-1.1.6/tests/shell/testcases/chains/netdev_chain_autoremove
+nftables-1.1.6/tests/shell/testcases/chains/0015check_jump_loop_1
+nftables-1.1.6/tests/shell/testcases/chains/netdev_chain_name_based_hook_0
+nftables-1.1.6/tests/shell/testcases/chains/0030create_0
+nftables-1.1.6/tests/shell/testcases/chains/0029prio_bridge_srcnat_1
+nftables-1.1.6/tests/shell/testcases/chains/0020depth_1
+nftables-1.1.6/tests/shell/testcases/chains/0008masquerade_jump_1
+nftables-1.1.6/tests/shell/testcases/bogons/
+nftables-1.1.6/tests/shell/testcases/bogons/nft-j-f/
+nftables-1.1.6/tests/shell/testcases/bogons/nft-j-f/binop_rhs_decode_error_crash
+nftables-1.1.6/tests/shell/testcases/bogons/nft-j-f/ct_timeout_null_crash
+nftables-1.1.6/tests/shell/testcases/bogons/nft-j-f/Assertion__out_failed_assert
+nftables-1.1.6/tests/shell/testcases/bogons/nft-j-f/list_a_destroyed_table_crash
+nftables-1.1.6/tests/shell/testcases/bogons/nft-j-f/unkown_stateful_statement_type_19_assert
+nftables-1.1.6/tests/shell/testcases/bogons/nft-j-f/catchall_as_data_element_assert
+nftables-1.1.6/tests/shell/testcases/bogons/nft-j-f/mnl_nft_dev_add_ifname_len_0_assert
+nftables-1.1.6/tests/shell/testcases/bogons/nft-j-f/constant_expr_alloc_assert
+nftables-1.1.6/tests/shell/testcases/bogons/nft-j-f/set_with_single_value_concat_assert
+nftables-1.1.6/tests/shell/testcases/bogons/nft-j-f/dev_name_parser_overflow_crash
+nftables-1.1.6/tests/shell/testcases/bogons/nft-j-f/flowtable-no-priority-crash
+nftables-1.1.6/tests/shell/testcases/bogons/nft-j-f/null_ingress_type_crash
+nftables-1.1.6/tests/shell/testcases/bogons/nft-j-f/concat_is_not_concat_assert
+nftables-1.1.6/tests/shell/testcases/bogons/nft-j-f/reject_stmt_with_no_expression_crash
+nftables-1.1.6/tests/shell/testcases/bogons/nft-j-f/expr_evaluate_concat_empty_concat_key_assert
+nftables-1.1.6/tests/shell/testcases/bogons/dumps/
+nftables-1.1.6/tests/shell/testcases/bogons/dumps/assert_failures.json-nft
+nftables-1.1.6/tests/shell/testcases/bogons/dumps/assert_failures.nft
+nftables-1.1.6/tests/shell/testcases/bogons/assert_failures
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/unhandled_key_type_13_assert_vmap
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/set_without_key
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/include-device
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/unknown_expression_type_prefix_assert
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/evaluate_conflict_resolution_gen_dependency_base_ll_hdr_assert
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/unhandled_key_type_13_assert_map
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/huge_chain_prio
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/invalid_range_expr_type_binop
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/symbolic_constant_print_assert
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/invalid_range_expression_type_catch-all_set_element_assert
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/huge_chain_name_define_assert
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/byteorder_switch_stack_overflow
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/use_after_free_on_chain_removal
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/tunnel_with_garbage_dst
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/null_deref_on_anon_chain_update_crash
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/range_expression_corruption
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/ct_helper_yystate_underflow
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/objmap_to_prefix_assert
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/invalid_transcation_merge_map_and_objref_map
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/byteorder_conversion_assert
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/dynamic-stack-buffer-overflow_gen_prefix
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/nat_map_and_protocol_assert
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/invalid_data_expr_type_range_value_assert
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/payload_expr_with_0_length_assert
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/tcp_option_without_template
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/basechain_bad_policy
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/tproxy_ranges
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/invalid_basetype_verdict_assert
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/list_a_deleted_table_crash
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/typeof_map_with_plain_integer_assert
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/stack_overflow_via_large_concat_expr
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/same_set_name_but_different_keys_assert
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/delete_nonexistant_object_crash
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/unexisting_chain_set_policy
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/payload_expr_pctx_update_assert
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/nat_prefix_map_with_set_element_assert
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/netlink_gen_stmt_stateful_assert
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/flowtable-no-priority-crash
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/double-free-on-binop-dtype_assert
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/set_with_bad_elem
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/null_ingress_type_crash
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/binop_with_different_basetype_assert
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/counter_objref_crash
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/memleak_on_meta_set_errpath
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/invalid_mapping_expr_binop_assert
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/set_definition_with_no_key_assert
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/icmp_reject_type_uint8_assert
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/huge_chain_name_assert
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/rule-parse-error-with-anon-chain-leak
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/nat_stmt_with_set_instead_of_map
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/memleak_on_hookspec_error
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/flowtable-parser-err-memleak
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/stack_overflow_via_large_raw_expr
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/null_set_name_crash
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/unknown_expr_type_range_assert
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/payload_expr_unaligned_store
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/invalid_set_key_stmt_evaluate_nat_map_assert
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/add_to_a_set_crash
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/define_policy_assert
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/exthdr_with_range_bug
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/asan_out_of_bounds_read_with_long_chain
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/bitwise_masklen_assert
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/malformed_map_expr_evaluate_mapping_assert
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/huge_binop_expr_chain_crash
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/zero_length_devicename_flowtable_assert
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/tunnel_in_tunnel_crash
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/objref_double_free_crash
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/mapping_with_invalid_datatype_crash
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/ct_timeout_memleak_objfree
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/tchandle_type_parse_heap_overflow
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/tunnel_with_anon_set_assert
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/asan_stack_buffer_overrun_in_netlink_gen_range
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/map_without_key
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/empty_geneve_definition_crash
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/cmd_is_null_on_free
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/huge_shift_assert
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/unhandled_key_type_13_assert
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/dup_fwd_ranges
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/zero_length_devicename_assert
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/no_integer_basetype_crash
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/scope_underflow_assert
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/invalid_data_expr_type_range_value_2_assert
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/ct_timeout_memleak
+nftables-1.1.6/tests/shell/testcases/bogons/nft-f/zero_length_devicename2_assert
+nftables-1.1.6/tests/shell/testcases/nft-f/
+nftables-1.1.6/tests/shell/testcases/nft-f/0029split_file_0
+nftables-1.1.6/tests/shell/testcases/nft-f/0001define_slash_0
+nftables-1.1.6/tests/shell/testcases/nft-f/0010variable_0
+nftables-1.1.6/tests/shell/testcases/nft-f/0002rollback_rule_0
+nftables-1.1.6/tests/shell/testcases/nft-f/0026listing_0
+nftables-1.1.6/tests/shell/testcases/nft-f/named_set_as_protocol_dep
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0014defines_1.json-nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0001define_slash_0.nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0003rollback_jump_0.nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/named_set_as_protocol_dep.nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/nfqueue.nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0024priority_0.nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0032pknock_0.json-nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0024priority_0.json-nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0019jump_variable_1.nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0004rollback_set_0.json-nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0028variable_cmdline_0.json-nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0002rollback_rule_0.json-nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0022variables_0.nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0030variable_reuse_0.nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0004rollback_set_0.nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/sample-ruleset.nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0016redefines_1.json-nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0031vmap_string_0.nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0012different_defines_0.json-nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0018jump_variable_0.nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0005rollback_map_0.nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0002rollback_rule_0.nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0029split_file_0.json-nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0029split_file_0.nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0010variable_0.nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0008split_tables_0.nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0030variable_reuse_0.json-nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0007action_object_set_segfault_1.nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0010variable_0.json-nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0025empty_dynset_0.json-nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0009variable_0.nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0009variable_0.json-nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0018ct_expectation_obj_0.nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0025empty_dynset_0.nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0026listing_0.json-nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0027split_chains_0.json-nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0021list_ruleset_0.nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0028variable_cmdline_0.nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0018jump_variable_0.json-nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0022variables_0.json-nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0003rollback_jump_0.json-nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0006action_object_0.nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0016redefines_1.nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0015defines_1.json-nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/named_set_as_protocol_dep.json-nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0026listing_0.nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0023check_1.json-nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0011manydefines_0.nodump
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0015defines_1.nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0031vmap_string_0.json-nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0008split_tables_0.json-nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0012different_defines_0.nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0020jump_variable_1.json-nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0013defines_1.json-nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0001define_slash_0.json-nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0020jump_variable_1.nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0023check_1.nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0018ct_expectation_obj_0.json-nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0017ct_timeout_obj_0.nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0019jump_variable_1.json-nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0014defines_1.nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0021list_ruleset_0.json-nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0013defines_1.nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0007action_object_set_segfault_1.json-nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0017ct_timeout_obj_0.json-nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0005rollback_map_0.json-nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0006action_object_0.json-nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0027split_chains_0.nft
+nftables-1.1.6/tests/shell/testcases/nft-f/dumps/0032pknock_0.nft
+nftables-1.1.6/tests/shell/testcases/nft-f/0013defines_1
+nftables-1.1.6/tests/shell/testcases/nft-f/sample-ruleset
+nftables-1.1.6/tests/shell/testcases/nft-f/0009variable_0
+nftables-1.1.6/tests/shell/testcases/nft-f/0016redefines_1
+nftables-1.1.6/tests/shell/testcases/nft-f/0007action_object_set_segfault_1
+nftables-1.1.6/tests/shell/testcases/nft-f/0030variable_reuse_0
+nftables-1.1.6/tests/shell/testcases/nft-f/0020jump_variable_1
+nftables-1.1.6/tests/shell/testcases/nft-f/0028variable_cmdline_0
+nftables-1.1.6/tests/shell/testcases/nft-f/0018ct_expectation_obj_0
+nftables-1.1.6/tests/shell/testcases/nft-f/0025empty_dynset_0
+nftables-1.1.6/tests/shell/testcases/nft-f/0017ct_timeout_obj_0
+nftables-1.1.6/tests/shell/testcases/nft-f/0014defines_1
+nftables-1.1.6/tests/shell/testcases/nft-f/0004rollback_set_0
+nftables-1.1.6/tests/shell/testcases/nft-f/nfqueue
+nftables-1.1.6/tests/shell/testcases/nft-f/0015defines_1
+nftables-1.1.6/tests/shell/testcases/nft-f/0032pknock_0
+nftables-1.1.6/tests/shell/testcases/nft-f/0008split_tables_0
+nftables-1.1.6/tests/shell/testcases/nft-f/0031vmap_string_0
+nftables-1.1.6/tests/shell/testcases/nft-f/0018jump_variable_0
+nftables-1.1.6/tests/shell/testcases/nft-f/0022variables_0
+nftables-1.1.6/tests/shell/testcases/nft-f/0005rollback_map_0
+nftables-1.1.6/tests/shell/testcases/nft-f/0006action_object_0
+nftables-1.1.6/tests/shell/testcases/nft-f/0012different_defines_0
+nftables-1.1.6/tests/shell/testcases/nft-f/0011manydefines_0
+nftables-1.1.6/tests/shell/testcases/nft-f/0019jump_variable_1
+nftables-1.1.6/tests/shell/testcases/nft-f/0021list_ruleset_0
+nftables-1.1.6/tests/shell/testcases/nft-f/0003rollback_jump_0
+nftables-1.1.6/tests/shell/testcases/nft-f/0024priority_0
+nftables-1.1.6/tests/shell/testcases/nft-f/0023check_1
+nftables-1.1.6/tests/shell/testcases/nft-f/0027split_chains_0
+nftables-1.1.6/tests/shell/testcases/optionals/
+nftables-1.1.6/tests/shell/testcases/optionals/dumps/
+nftables-1.1.6/tests/shell/testcases/optionals/dumps/log_prefix_0.json-nft
+nftables-1.1.6/tests/shell/testcases/optionals/dumps/update_object_handles_0.json-nft
+nftables-1.1.6/tests/shell/testcases/optionals/dumps/handles_0.json-nft
+nftables-1.1.6/tests/shell/testcases/optionals/dumps/comments_objects_dup_0.json-nft
+nftables-1.1.6/tests/shell/testcases/optionals/dumps/handles_0.nft
+nftables-1.1.6/tests/shell/testcases/optionals/dumps/comments_chain_0.json-nft
+nftables-1.1.6/tests/shell/testcases/optionals/dumps/comments_0.json-nft
+nftables-1.1.6/tests/shell/testcases/optionals/dumps/log_prefix_0.nft
+nftables-1.1.6/tests/shell/testcases/optionals/dumps/comments_objects_dup_0.nft
+nftables-1.1.6/tests/shell/testcases/optionals/dumps/comments_0.nft
+nftables-1.1.6/tests/shell/testcases/optionals/dumps/delete_object_handles_0.json-nft
+nftables-1.1.6/tests/shell/testcases/optionals/dumps/comments_objects_0.json-nft
+nftables-1.1.6/tests/shell/testcases/optionals/dumps/comments_handles_0.json-nft
+nftables-1.1.6/tests/shell/testcases/optionals/dumps/comments_table_0.nft
+nftables-1.1.6/tests/shell/testcases/optionals/dumps/comments_chain_0.nft
+nftables-1.1.6/tests/shell/testcases/optionals/dumps/comments_handles_0.nft
+nftables-1.1.6/tests/shell/testcases/optionals/dumps/handles_1.json-nft
+nftables-1.1.6/tests/shell/testcases/optionals/dumps/delete_object_handles_0.nft
+nftables-1.1.6/tests/shell/testcases/optionals/dumps/comments_table_0.json-nft
+nftables-1.1.6/tests/shell/testcases/optionals/dumps/handles_1.nft
+nftables-1.1.6/tests/shell/testcases/optionals/dumps/comments_objects_0.nft
+nftables-1.1.6/tests/shell/testcases/optionals/dumps/update_object_handles_0.nft
+nftables-1.1.6/tests/shell/testcases/optionals/handles_1
+nftables-1.1.6/tests/shell/testcases/optionals/comments_objects_0
+nftables-1.1.6/tests/shell/testcases/optionals/comments_chain_0
+nftables-1.1.6/tests/shell/testcases/optionals/handles_0
+nftables-1.1.6/tests/shell/testcases/optionals/comments_objects_dup_0
+nftables-1.1.6/tests/shell/testcases/optionals/comments_handles_0
+nftables-1.1.6/tests/shell/testcases/optionals/delete_object_handles_0
+nftables-1.1.6/tests/shell/testcases/optionals/comments_0
+nftables-1.1.6/tests/shell/testcases/optionals/log_prefix_0
+nftables-1.1.6/tests/shell/testcases/optionals/comments_table_0
+nftables-1.1.6/tests/shell/testcases/optionals/update_object_handles_0
+nftables-1.1.6/tests/shell/testcases/include/
+nftables-1.1.6/tests/shell/testcases/include/0009glob_nofile_1
+nftables-1.1.6/tests/shell/testcases/include/0007glob_double_0
+nftables-1.1.6/tests/shell/testcases/include/0005glob_empty_0
+nftables-1.1.6/tests/shell/testcases/include/0006glob_single_0
+nftables-1.1.6/tests/shell/testcases/include/dumps/
+nftables-1.1.6/tests/shell/testcases/include/dumps/0016maxdepth_0.json-nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/0020include_chain_0.json-nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/0012glob_dependency_1.json-nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/0001absolute_0.nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/0013glob_dotfile_0.json-nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/0018include_error_0.json-nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/0017glob_more_than_maxdepth_1.json-nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/0015doubleincludepath_0.nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/0019include_error_0.json-nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/0007glob_double_0.json-nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/0016maxdepth_0.nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/0003includepath_0.nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/0007glob_double_0.nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/0008glob_nofile_wildcard_0.nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/0001absolute_0.json-nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/0009glob_nofile_1.nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/glob_duplicated_include.json-nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/0014glob_directory_0.nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/0014glob_directory_0.json-nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/0005glob_empty_0.json-nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/0013input_descriptors_included_files_0.json-nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/0010glob_broken_file_1.nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/0002relative_0.json-nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/glob_duplicated_include.nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/0011glob_dependency_0.nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/0003includepath_0.json-nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/0019include_error_0.nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/0013input_descriptors_included_files_0.nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/0017glob_more_than_maxdepth_1.nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/0015doubleincludepath_0.json-nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/0008glob_nofile_wildcard_0.json-nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/0012glob_dependency_1.nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/0006glob_single_0.json-nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/0005glob_empty_0.nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/0002relative_0.nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/0006glob_single_0.nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/0009glob_nofile_1.json-nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/0020include_chain_0.nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/0018include_error_0.nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/0004endlessloop_1.nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/0004endlessloop_1.json-nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/0010glob_broken_file_1.json-nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/0011glob_dependency_0.json-nft
+nftables-1.1.6/tests/shell/testcases/include/dumps/0013glob_dotfile_0.nft
+nftables-1.1.6/tests/shell/testcases/include/0013input_descriptors_included_files_0
+nftables-1.1.6/tests/shell/testcases/include/0010glob_broken_file_1
+nftables-1.1.6/tests/shell/testcases/include/0017glob_more_than_maxdepth_1
+nftables-1.1.6/tests/shell/testcases/include/0020include_chain_0
+nftables-1.1.6/tests/shell/testcases/include/0011glob_dependency_0
+nftables-1.1.6/tests/shell/testcases/include/0016maxdepth_0
+nftables-1.1.6/tests/shell/testcases/include/0004endlessloop_1
+nftables-1.1.6/tests/shell/testcases/include/0008glob_nofile_wildcard_0
+nftables-1.1.6/tests/shell/testcases/include/0019include_error_0
+nftables-1.1.6/tests/shell/testcases/include/0014glob_directory_0
+nftables-1.1.6/tests/shell/testcases/include/0002relative_0
+nftables-1.1.6/tests/shell/testcases/include/0012glob_dependency_1
+nftables-1.1.6/tests/shell/testcases/include/0018include_error_0
+nftables-1.1.6/tests/shell/testcases/include/0001absolute_0
+nftables-1.1.6/tests/shell/testcases/include/0015doubleincludepath_0
+nftables-1.1.6/tests/shell/testcases/include/0013glob_dotfile_0
+nftables-1.1.6/tests/shell/testcases/include/0003includepath_0
+nftables-1.1.6/tests/shell/testcases/include/glob_duplicated_include
+nftables-1.1.6/tests/shell/testcases/owner/
+nftables-1.1.6/tests/shell/testcases/owner/0001-flowtable-uaf
+nftables-1.1.6/tests/shell/testcases/owner/dumps/
+nftables-1.1.6/tests/shell/testcases/owner/dumps/0002-persist.json-nft
+nftables-1.1.6/tests/shell/testcases/owner/dumps/0001-flowtable-uaf.nft
+nftables-1.1.6/tests/shell/testcases/owner/dumps/0002-persist.nft
+nftables-1.1.6/tests/shell/testcases/owner/dumps/0001-flowtable-uaf.json-nft
+nftables-1.1.6/tests/shell/testcases/owner/0002-persist
+nftables-1.1.6/tests/shell/testcases/json/
+nftables-1.1.6/tests/shell/testcases/json/0003json_schema_version_0
+nftables-1.1.6/tests/shell/testcases/json/dumps/
+nftables-1.1.6/tests/shell/testcases/json/dumps/0001set_statements_0.nft
+nftables-1.1.6/tests/shell/testcases/json/dumps/0005secmark_objref_0.nft
+nftables-1.1.6/tests/shell/testcases/json/dumps/0006obj_comment_0.nft
+nftables-1.1.6/tests/shell/testcases/json/dumps/0004json_schema_version_1.nft
+nftables-1.1.6/tests/shell/testcases/json/dumps/0004json_schema_version_1.json-nft
+nftables-1.1.6/tests/shell/testcases/json/dumps/0003json_schema_version_0.json-nft
+nftables-1.1.6/tests/shell/testcases/json/dumps/single_flag.json-nft
+nftables-1.1.6/tests/shell/testcases/json/dumps/0006obj_comment_0.json-nft
+nftables-1.1.6/tests/shell/testcases/json/dumps/0002table_map_0.json-nft
+nftables-1.1.6/tests/shell/testcases/json/dumps/0002table_map_0.nft
+nftables-1.1.6/tests/shell/testcases/json/dumps/single_flag.nft
+nftables-1.1.6/tests/shell/testcases/json/dumps/0005secmark_objref_0.json-nft
+nftables-1.1.6/tests/shell/testcases/json/dumps/0003json_schema_version_0.nft
+nftables-1.1.6/tests/shell/testcases/json/dumps/netdev.json-nft
+nftables-1.1.6/tests/shell/testcases/json/dumps/0001set_statements_0.json-nft
+nftables-1.1.6/tests/shell/testcases/json/dumps/netdev.nft
+nftables-1.1.6/tests/shell/testcases/json/netdev
+nftables-1.1.6/tests/shell/testcases/json/single_flag
+nftables-1.1.6/tests/shell/testcases/json/0005secmark_objref_0
+nftables-1.1.6/tests/shell/testcases/json/0001set_statements_0
+nftables-1.1.6/tests/shell/testcases/json/0004json_schema_version_1
+nftables-1.1.6/tests/shell/testcases/json/0002table_map_0
+nftables-1.1.6/tests/shell/testcases/json/0006obj_comment_0
+nftables-1.1.6/tests/shell/testcases/listing/
+nftables-1.1.6/tests/shell/testcases/listing/0002ruleset_0
+nftables-1.1.6/tests/shell/testcases/listing/0009ruleset_bridge_0
+nftables-1.1.6/tests/shell/testcases/listing/0011sets_0
+nftables-1.1.6/tests/shell/testcases/listing/0020flowtable_0
+nftables-1.1.6/tests/shell/testcases/listing/0017objects_0
+nftables-1.1.6/tests/shell/testcases/listing/dumps/
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0006ruleset_ip6_0.json-nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0021ruleset_json_terse_0.json-nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0013objects_0.json-nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0020flowtable_0.nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0018data_0.json-nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0001ruleset_0.json-nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0009ruleset_bridge_0.nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0008ruleset_arp_0.json-nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0017objects_0.nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0012sets_0.json-nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0014objects_0.nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0019set_0.nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0015dynamic_0.nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/meta_time.nodump
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0004table_0.json-nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/reset_objects.nodump
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0017objects_0.json-nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0014objects_0.json-nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0001ruleset_0.nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0007ruleset_inet_0.nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0006ruleset_ip6_0.nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0008ruleset_arp_0.nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0011sets_0.json-nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0018data_0.nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0016anonymous_0.json-nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0022terse_0.nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0010sets_0.nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0019set_0.json-nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0021ruleset_json_terse_0.nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0007ruleset_inet_0.json-nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0005ruleset_ip_0.json-nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0015dynamic_0.json-nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0012sets_0.nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0016anonymous_0.nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0002ruleset_0.json-nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0005ruleset_ip_0.nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0022terse_0.json-nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0003table_0.json-nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0010sets_0.json-nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0009ruleset_bridge_0.json-nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0002ruleset_0.nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0003table_0.nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0013objects_0.nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0011sets_0.nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0020flowtable_0.json-nft
+nftables-1.1.6/tests/shell/testcases/listing/dumps/0004table_0.nft
+nftables-1.1.6/tests/shell/testcases/listing/0007ruleset_inet_0
+nftables-1.1.6/tests/shell/testcases/listing/0019set_0
+nftables-1.1.6/tests/shell/testcases/listing/0008ruleset_arp_0
+nftables-1.1.6/tests/shell/testcases/listing/0016anonymous_0
+nftables-1.1.6/tests/shell/testcases/listing/meta_time
+nftables-1.1.6/tests/shell/testcases/listing/0010sets_0
+nftables-1.1.6/tests/shell/testcases/listing/0001ruleset_0
+nftables-1.1.6/tests/shell/testcases/listing/0006ruleset_ip6_0
+nftables-1.1.6/tests/shell/testcases/listing/0005ruleset_ip_0
+nftables-1.1.6/tests/shell/testcases/listing/0013objects_0
+nftables-1.1.6/tests/shell/testcases/listing/reset_objects
+nftables-1.1.6/tests/shell/testcases/listing/0022terse_0
+nftables-1.1.6/tests/shell/testcases/listing/0014objects_0
+nftables-1.1.6/tests/shell/testcases/listing/0004table_0
+nftables-1.1.6/tests/shell/testcases/listing/0018data_0
+nftables-1.1.6/tests/shell/testcases/listing/0012sets_0
+nftables-1.1.6/tests/shell/testcases/listing/0021ruleset_json_terse_0
+nftables-1.1.6/tests/shell/testcases/listing/0003table_0
+nftables-1.1.6/tests/shell/testcases/listing/0015dynamic_0
+nftables-1.1.6/tests/shell/testcases/parsing/
+nftables-1.1.6/tests/shell/testcases/parsing/log
+nftables-1.1.6/tests/shell/testcases/parsing/dumps/
+nftables-1.1.6/tests/shell/testcases/parsing/dumps/log.nft
+nftables-1.1.6/tests/shell/testcases/parsing/dumps/octal.nft
+nftables-1.1.6/tests/shell/testcases/parsing/dumps/large_rule_pipe.nft
+nftables-1.1.6/tests/shell/testcases/parsing/dumps/log.json-nft
+nftables-1.1.6/tests/shell/testcases/parsing/dumps/large_rule_pipe.json-nft
+nftables-1.1.6/tests/shell/testcases/parsing/dumps/describe.json-nft
+nftables-1.1.6/tests/shell/testcases/parsing/dumps/describe.nft
+nftables-1.1.6/tests/shell/testcases/parsing/dumps/octal.json-nft
+nftables-1.1.6/tests/shell/testcases/parsing/octal
+nftables-1.1.6/tests/shell/testcases/parsing/large_rule_pipe
+nftables-1.1.6/tests/shell/testcases/parsing/describe
+nftables-1.1.6/tests/shell/testcases/maps/
+nftables-1.1.6/tests/shell/testcases/maps/0003map_add_many_elements_0
+nftables-1.1.6/tests/shell/testcases/maps/delete_element
+nftables-1.1.6/tests/shell/testcases/maps/nat_addr_port
+nftables-1.1.6/tests/shell/testcases/maps/typeof_maps_concat_update_0
+nftables-1.1.6/tests/shell/testcases/maps/map_with_flags_0
+nftables-1.1.6/tests/shell/testcases/maps/named_limits
+nftables-1.1.6/tests/shell/testcases/maps/0012map_0
+nftables-1.1.6/tests/shell/testcases/maps/0017_map_variable_0
+nftables-1.1.6/tests/shell/testcases/maps/dumps/
+nftables-1.1.6/tests/shell/testcases/maps/dumps/named_snat_map_0.json-nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/anon_objmap_concat.json-nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/map_catchall_double_free.nodump
+nftables-1.1.6/tests/shell/testcases/maps/dumps/0004interval_map_create_once_0.nodump
+nftables-1.1.6/tests/shell/testcases/maps/dumps/typeof_maps_concat.nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/0007named_ifname_dtype_0.json-nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/0010concat_map_0.nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/map_catchall_double_deactivate.nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/0012map_0.json-nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/0005interval_map_add_many_elements_0.nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/different_map_types_1.json-nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/vmap_unary.json-nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/named_limits.json-nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/anonymous_snat_map_1.nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/typeof_maps_add_delete.nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/0012map_0.nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/0010concat_map_0.json-nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/vmap_mark_bitwise_0.nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/nat_addr_port.nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/vmap_timeout.json-nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/0009vmap_0.json-nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/pipapo_double_flush.json-nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/anonymous_snat_map_1.json-nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/anonymous_snat_map_2.nodump
+nftables-1.1.6/tests/shell/testcases/maps/dumps/named_snat_map_0.nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/0008interval_map_delete_0.json-nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/0024named_objects_0.nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/anonymous_snat_map_0.nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/0024named_objects_1.json-nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/0016map_leak_0.nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/0024named_objects_0.json-nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/named_ct_objects.json-nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/0013map_0.nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/vmap_unary.nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/delete_element_catchall.json-nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/0014destroy_0.json-nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/pipapo_double_flush.nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/0003map_add_many_elements_0.nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/map_with_flags_0.nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/0014destroy_0.nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/vmap_timeout.nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/delete_element.nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/typeof_maps_0.nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/0003map_add_many_elements_0.json-nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/nat_addr_port.json-nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/different_map_types_1.nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/typeof_integer_0.nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/0009vmap_0.nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/0011vmap_0.json-nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/map_catchall_double_free_2.nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/0017_map_variable_0.json-nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/map_with_flags_0.json-nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/typeof_maps_concat.json-nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/0006interval_map_overlap_0.nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/named_ct_objects.nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/typeof_integer_0.json-nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/typeof_raw_0.nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/typeof_maps_concat_update_0.json-nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/0017_map_variable_0.nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/0008interval_map_delete_0.nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/0018map_leak_timeout_0.json-nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/delete_element_catchall.nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/0007named_ifname_dtype_0.nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/0005interval_map_add_many_elements_0.json-nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/0006interval_map_overlap_0.json-nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/0013map_0.json-nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/map_catchall_double_deactivate.json-nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/vmap_mark_bitwise_0.json-nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/0012map_concat_0.json-nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/0018map_leak_timeout_0.nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/0024named_objects_2.nodump
+nftables-1.1.6/tests/shell/testcases/maps/dumps/map_catchall_double_free_2.json-nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/named_limits.nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/delete_element.json-nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/anonymous_snat_map_0.json-nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/anon_objmap_concat.nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/0016map_leak_0.json-nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/typeof_maps_update_0.json-nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/typeof_maps_concat_update_0.nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/typeof_raw_0.json-nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/typeof_maps_add_delete.json-nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/0024named_objects_1.nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/0012map_concat_0.nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/0011vmap_0.nft
+nftables-1.1.6/tests/shell/testcases/maps/dumps/typeof_maps_update_0.nft
+nftables-1.1.6/tests/shell/testcases/maps/0004interval_map_create_once_0
+nftables-1.1.6/tests/shell/testcases/maps/anonymous_snat_map_1
+nftables-1.1.6/tests/shell/testcases/maps/0024named_objects_0
+nftables-1.1.6/tests/shell/testcases/maps/0024named_objects_2
+nftables-1.1.6/tests/shell/testcases/maps/anonymous_snat_map_2
+nftables-1.1.6/tests/shell/testcases/maps/0018map_leak_timeout_0
+nftables-1.1.6/tests/shell/testcases/maps/0005interval_map_add_many_elements_0
+nftables-1.1.6/tests/shell/testcases/maps/delete_element_catchall
+nftables-1.1.6/tests/shell/testcases/maps/vmap_timeout
+nftables-1.1.6/tests/shell/testcases/maps/typeof_integer_0
+nftables-1.1.6/tests/shell/testcases/maps/anon_objmap_concat
+nftables-1.1.6/tests/shell/testcases/maps/pipapo_double_flush
+nftables-1.1.6/tests/shell/testcases/maps/0013map_0
+nftables-1.1.6/tests/shell/testcases/maps/typeof_raw_0
+nftables-1.1.6/tests/shell/testcases/maps/typeof_maps_concat
+nftables-1.1.6/tests/shell/testcases/maps/named_ct_objects
+nftables-1.1.6/tests/shell/testcases/maps/map_catchall_double_deactivate
+nftables-1.1.6/tests/shell/testcases/maps/different_map_types_1
+nftables-1.1.6/tests/shell/testcases/maps/vmap_unary
+nftables-1.1.6/tests/shell/testcases/maps/0024named_objects_1
+nftables-1.1.6/tests/shell/testcases/maps/vmap_mark_bitwise_0
+nftables-1.1.6/tests/shell/testcases/maps/0010concat_map_0
+nftables-1.1.6/tests/shell/testcases/maps/map_catchall_double_free_2
+nftables-1.1.6/tests/shell/testcases/maps/0012map_concat_0
+nftables-1.1.6/tests/shell/testcases/maps/typeof_maps_update_0
+nftables-1.1.6/tests/shell/testcases/maps/0006interval_map_overlap_0
+nftables-1.1.6/tests/shell/testcases/maps/anonymous_snat_map_0
+nftables-1.1.6/tests/shell/testcases/maps/0011vmap_0
+nftables-1.1.6/tests/shell/testcases/maps/named_snat_map_0
+nftables-1.1.6/tests/shell/testcases/maps/typeof_maps_add_delete
+nftables-1.1.6/tests/shell/testcases/maps/0007named_ifname_dtype_0
+nftables-1.1.6/tests/shell/testcases/maps/0016map_leak_0
+nftables-1.1.6/tests/shell/testcases/maps/0008interval_map_delete_0
+nftables-1.1.6/tests/shell/testcases/maps/0009vmap_0
+nftables-1.1.6/tests/shell/testcases/maps/map_catchall_double_free
+nftables-1.1.6/tests/shell/testcases/maps/typeof_maps_0
+nftables-1.1.6/tests/shell/testcases/maps/0014destroy_0
+nftables-1.1.6/tests/shell/testcases/rule_management/
+nftables-1.1.6/tests/shell/testcases/rule_management/0005replace_1
+nftables-1.1.6/tests/shell/testcases/rule_management/0003insert_0
+nftables-1.1.6/tests/shell/testcases/rule_management/dumps/
+nftables-1.1.6/tests/shell/testcases/rule_management/dumps/0008delete_1.json-nft
+nftables-1.1.6/tests/shell/testcases/rule_management/dumps/0011reset_0.nft
+nftables-1.1.6/tests/shell/testcases/rule_management/dumps/0010replace_0.json-nft
+nftables-1.1.6/tests/shell/testcases/rule_management/dumps/0006replace_1.json-nft
+nftables-1.1.6/tests/shell/testcases/rule_management/dumps/0003insert_0.nft
+nftables-1.1.6/tests/shell/testcases/rule_management/dumps/0002addinsertlocation_1.nft
+nftables-1.1.6/tests/shell/testcases/rule_management/dumps/0008delete_1.nft
+nftables-1.1.6/tests/shell/testcases/rule_management/dumps/0001addinsertposition_0.json-nft
+nftables-1.1.6/tests/shell/testcases/rule_management/dumps/0001addinsertposition_0.nft
+nftables-1.1.6/tests/shell/testcases/rule_management/dumps/0009delete_1.nft
+nftables-1.1.6/tests/shell/testcases/rule_management/dumps/0010replace_0.nft
+nftables-1.1.6/tests/shell/testcases/rule_management/dumps/0003insert_0.json-nft
+nftables-1.1.6/tests/shell/testcases/rule_management/dumps/0011reset_0.json-nft
+nftables-1.1.6/tests/shell/testcases/rule_management/dumps/0006replace_1.nft
+nftables-1.1.6/tests/shell/testcases/rule_management/dumps/0005replace_1.nft
+nftables-1.1.6/tests/shell/testcases/rule_management/dumps/0007delete_0.nft
+nftables-1.1.6/tests/shell/testcases/rule_management/dumps/0002addinsertlocation_1.json-nft
+nftables-1.1.6/tests/shell/testcases/rule_management/dumps/0007delete_0.json-nft
+nftables-1.1.6/tests/shell/testcases/rule_management/dumps/0004replace_0.nft
+nftables-1.1.6/tests/shell/testcases/rule_management/dumps/0012destroy_0.json-nft
+nftables-1.1.6/tests/shell/testcases/rule_management/dumps/0004replace_0.json-nft
+nftables-1.1.6/tests/shell/testcases/rule_management/dumps/0012destroy_0.nft
+nftables-1.1.6/tests/shell/testcases/rule_management/dumps/0005replace_1.json-nft
+nftables-1.1.6/tests/shell/testcases/rule_management/dumps/0009delete_1.json-nft
+nftables-1.1.6/tests/shell/testcases/rule_management/0002addinsertlocation_1
+nftables-1.1.6/tests/shell/testcases/rule_management/0012destroy_0
+nftables-1.1.6/tests/shell/testcases/rule_management/0006replace_1
+nftables-1.1.6/tests/shell/testcases/rule_management/0004replace_0
+nftables-1.1.6/tests/shell/testcases/rule_management/0010replace_0
+nftables-1.1.6/tests/shell/testcases/rule_management/0001addinsertposition_0
+nftables-1.1.6/tests/shell/testcases/rule_management/0008delete_1
+nftables-1.1.6/tests/shell/testcases/rule_management/0009delete_1
+nftables-1.1.6/tests/shell/testcases/rule_management/0011reset_0
+nftables-1.1.6/tests/shell/testcases/rule_management/0007delete_0
+nftables-1.1.6/tests/shell/testcases/transactions/
+nftables-1.1.6/tests/shell/testcases/transactions/0050rule_1
+nftables-1.1.6/tests/shell/testcases/transactions/0022rule_1
+nftables-1.1.6/tests/shell/testcases/transactions/0048helpers_0
+nftables-1.1.6/tests/shell/testcases/transactions/0021rule_0
+nftables-1.1.6/tests/shell/testcases/transactions/0023rule_1
+nftables-1.1.6/tests/shell/testcases/transactions/0024rule_0
+nftables-1.1.6/tests/shell/testcases/transactions/0013chain_0
+nftables-1.1.6/tests/shell/testcases/transactions/0035set_0
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0014chain_1.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0045anon-unbind_0.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/30s-stress.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0038set_0.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0032set_0.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0036set_1.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/30s-stress.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0038set_0.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0030set_0.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/bad_expression.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0047set_0.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0012chain_0.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0048helpers_0.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0011chain_0.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0002table_0.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0012chain_0.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/anon_chain_loop.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0050rule_1.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0022rule_1.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/table_onoff.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0010chain_0.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0001table_0.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/doubled-set.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/atomic_replace.sh.nodump
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0023rule_1.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0031set_0.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0044rule_0.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0013chain_0.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0032set_0.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0020rule_0.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/bad_expression.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0011chain_0.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0036set_1.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0023rule_1.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0013chain_0.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0044rule_0.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0010chain_0.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0033set_0.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/anon_chain_loop.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0025rule_0.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0042_stateful_expr_0.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0041nat_restore_0.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0045anon-unbind_0.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0034set_0.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0043set_1.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0020rule_0.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0037set_0.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0042_stateful_expr_0.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0025rule_0.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/bad_rule_graphs.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0015chain_0.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0039set_0.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/bad_rule_graphs.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0024rule_0.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0021rule_0.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/concat_range_abort.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/doubled-set.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/table_onoff.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0024rule_0.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0034set_0.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0046set_0.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0031set_0.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0001table_0.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0051map_0.nodump
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0050rule_1.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0040set_0.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0035set_0.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0040set_0.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0046set_0.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0049huge_0.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/concat_range_abort.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0003table_0.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0035set_0.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0048helpers_0.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0039set_0.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0041nat_restore_0.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0002table_0.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0043set_1.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0030set_0.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0033set_0.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0003table_0.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0022rule_1.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0015chain_0.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0037set_0.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0049huge_0.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0047set_0.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/validation_recursion.sh.nodump
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0014chain_1.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/0021rule_0.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/handle_bad_family.nft
+nftables-1.1.6/tests/shell/testcases/transactions/dumps/handle_bad_family.json-nft
+nftables-1.1.6/tests/shell/testcases/transactions/0002table_0
+nftables-1.1.6/tests/shell/testcases/transactions/0014chain_1
+nftables-1.1.6/tests/shell/testcases/transactions/0045anon-unbind_0
+nftables-1.1.6/tests/shell/testcases/transactions/0046set_0
+nftables-1.1.6/tests/shell/testcases/transactions/0051map_0
+nftables-1.1.6/tests/shell/testcases/transactions/0030set_0
+nftables-1.1.6/tests/shell/testcases/transactions/30s-stress
+nftables-1.1.6/tests/shell/testcases/transactions/0039set_0
+nftables-1.1.6/tests/shell/testcases/transactions/0038set_0
+nftables-1.1.6/tests/shell/testcases/transactions/0001table_0
+nftables-1.1.6/tests/shell/testcases/transactions/bad_expression
+nftables-1.1.6/tests/shell/testcases/transactions/0042_stateful_expr_0
+nftables-1.1.6/tests/shell/testcases/transactions/handle_bad_family
+nftables-1.1.6/tests/shell/testcases/transactions/doubled-set
+nftables-1.1.6/tests/shell/testcases/transactions/0041nat_restore_0
+nftables-1.1.6/tests/shell/testcases/transactions/0037set_0
+nftables-1.1.6/tests/shell/testcases/transactions/0010chain_0
+nftables-1.1.6/tests/shell/testcases/transactions/0031set_0
+nftables-1.1.6/tests/shell/testcases/transactions/atomic_replace.sh
+nftables-1.1.6/tests/shell/testcases/transactions/0033set_0
+nftables-1.1.6/tests/shell/testcases/transactions/0043set_1
+nftables-1.1.6/tests/shell/testcases/transactions/0047set_0
+nftables-1.1.6/tests/shell/testcases/transactions/0025rule_0
+nftables-1.1.6/tests/shell/testcases/transactions/anon_chain_loop
+nftables-1.1.6/tests/shell/testcases/transactions/0011chain_0
+nftables-1.1.6/tests/shell/testcases/transactions/0020rule_0
+nftables-1.1.6/tests/shell/testcases/transactions/0032set_0
+nftables-1.1.6/tests/shell/testcases/transactions/bad_rule_graphs
+nftables-1.1.6/tests/shell/testcases/transactions/0044rule_0
+nftables-1.1.6/tests/shell/testcases/transactions/0034set_0
+nftables-1.1.6/tests/shell/testcases/transactions/0015chain_0
+nftables-1.1.6/tests/shell/testcases/transactions/0012chain_0
+nftables-1.1.6/tests/shell/testcases/transactions/0036set_1
+nftables-1.1.6/tests/shell/testcases/transactions/0003table_0
+nftables-1.1.6/tests/shell/testcases/transactions/validation_recursion.sh
+nftables-1.1.6/tests/shell/testcases/transactions/0049huge_0
+nftables-1.1.6/tests/shell/testcases/transactions/0040set_0
+nftables-1.1.6/tests/shell/testcases/transactions/table_onoff
+nftables-1.1.6/tests/shell/testcases/transactions/concat_range_abort
+nftables-1.1.6/tests/shell/testcases/packetpath/
+nftables-1.1.6/tests/shell/testcases/packetpath/vlan_qinq
+nftables-1.1.6/tests/shell/testcases/packetpath/set_flush_add_atomic_rhash
+nftables-1.1.6/tests/shell/testcases/packetpath/policy
+nftables-1.1.6/tests/shell/testcases/packetpath/dumps/
+nftables-1.1.6/tests/shell/testcases/packetpath/dumps/tcp_reset.nft
+nftables-1.1.6/tests/shell/testcases/packetpath/dumps/match_l4proto.nodump
+nftables-1.1.6/tests/shell/testcases/packetpath/dumps/set_flush_add_atomic_rhash.nodump
+nftables-1.1.6/tests/shell/testcases/packetpath/dumps/set_lookups.json-nft
+nftables-1.1.6/tests/shell/testcases/packetpath/dumps/tcp_reset.json-nft
+nftables-1.1.6/tests/shell/testcases/packetpath/dumps/bitwise_with_map.nft
+nftables-1.1.6/tests/shell/testcases/packetpath/dumps/type_route_chain.nodump
+nftables-1.1.6/tests/shell/testcases/packetpath/dumps/policy.nft
+nftables-1.1.6/tests/shell/testcases/packetpath/dumps/meta_time.nodump
+nftables-1.1.6/tests/shell/testcases/packetpath/dumps/vlan_mangling.nodump
+nftables-1.1.6/tests/shell/testcases/packetpath/dumps/vlan_8021ad_tag.nodump
+nftables-1.1.6/tests/shell/testcases/packetpath/dumps/nat_ftp.nodump
+nftables-1.1.6/tests/shell/testcases/packetpath/dumps/rate_limit.nodump
+nftables-1.1.6/tests/shell/testcases/packetpath/dumps/cgroupv2.nodump
+nftables-1.1.6/tests/shell/testcases/packetpath/dumps/set_flush_add_atomic_hash_fast.nodump
+nftables-1.1.6/tests/shell/testcases/packetpath/dumps/set_flush_add_atomic_rbtree.nodump
+nftables-1.1.6/tests/shell/testcases/packetpath/dumps/tcp_options.nodump
+nftables-1.1.6/tests/shell/testcases/packetpath/dumps/flowtables.nodump
+nftables-1.1.6/tests/shell/testcases/packetpath/dumps/vlan_qinq.nodump
+nftables-1.1.6/tests/shell/testcases/packetpath/dumps/set_flush_add_atomic_bitmap.nodump
+nftables-1.1.6/tests/shell/testcases/packetpath/dumps/set_flush_add_atomic_hash.nodump
+nftables-1.1.6/tests/shell/testcases/packetpath/dumps/set_lookups.nft
+nftables-1.1.6/tests/shell/testcases/packetpath/dumps/set_flush_add_atomic_pipapo.nodump
+nftables-1.1.6/tests/shell/testcases/packetpath/dumps/policy.json-nft
+nftables-1.1.6/tests/shell/testcases/packetpath/dumps/payload.nodump
+nftables-1.1.6/tests/shell/testcases/packetpath/bitwise_with_map
+nftables-1.1.6/tests/shell/testcases/packetpath/set_flush_add_atomic_rbtree
+nftables-1.1.6/tests/shell/testcases/packetpath/set_lookups
+nftables-1.1.6/tests/shell/testcases/packetpath/flowtables
+nftables-1.1.6/tests/shell/testcases/packetpath/reject_loopback
+nftables-1.1.6/tests/shell/testcases/packetpath/meta_time
+nftables-1.1.6/tests/shell/testcases/packetpath/cgroupv2
+nftables-1.1.6/tests/shell/testcases/packetpath/tcp_options
+nftables-1.1.6/tests/shell/testcases/packetpath/set_flush_add_atomic_hash
+nftables-1.1.6/tests/shell/testcases/packetpath/payload
+nftables-1.1.6/tests/shell/testcases/packetpath/tcp_reset
+nftables-1.1.6/tests/shell/testcases/packetpath/set_flush_add_atomic_pipapo
+nftables-1.1.6/tests/shell/testcases/packetpath/rate_limit
+nftables-1.1.6/tests/shell/testcases/packetpath/type_route_chain
+nftables-1.1.6/tests/shell/testcases/packetpath/nat_ftp
+nftables-1.1.6/tests/shell/testcases/packetpath/match_l4proto
+nftables-1.1.6/tests/shell/testcases/packetpath/bridge_pass_up
+nftables-1.1.6/tests/shell/testcases/packetpath/vlan_mangling
+nftables-1.1.6/tests/shell/testcases/packetpath/vlan_8021ad_tag
+nftables-1.1.6/tests/shell/testcases/packetpath/set_flush_add_atomic_hash_fast
+nftables-1.1.6/tests/shell/testcases/packetpath/set_flush_add_atomic_bitmap
+nftables-1.1.6/tests/shell/testcases/bitwise/
+nftables-1.1.6/tests/shell/testcases/bitwise/0040mark_binop_5
+nftables-1.1.6/tests/shell/testcases/bitwise/0040mark_binop_4
+nftables-1.1.6/tests/shell/testcases/bitwise/dumps/
+nftables-1.1.6/tests/shell/testcases/bitwise/dumps/0040mark_binop_0.json-nft
+nftables-1.1.6/tests/shell/testcases/bitwise/dumps/0040mark_binop_3.json-nft
+nftables-1.1.6/tests/shell/testcases/bitwise/dumps/0040mark_binop_5.nft
+nftables-1.1.6/tests/shell/testcases/bitwise/dumps/0044payload_binop_2.nft
+nftables-1.1.6/tests/shell/testcases/bitwise/dumps/0040mark_binop_13.nft
+nftables-1.1.6/tests/shell/testcases/bitwise/dumps/0040mark_binop_9.json-nft
+nftables-1.1.6/tests/shell/testcases/bitwise/dumps/0040mark_binop_7.json-nft
+nftables-1.1.6/tests/shell/testcases/bitwise/dumps/bitwise_in_sets_and_maps.nft
+nftables-1.1.6/tests/shell/testcases/bitwise/dumps/0044payload_binop_2.json-nft
+nftables-1.1.6/tests/shell/testcases/bitwise/dumps/0040mark_binop_11.json-nft
+nftables-1.1.6/tests/shell/testcases/bitwise/dumps/0040mark_binop_8.nft
+nftables-1.1.6/tests/shell/testcases/bitwise/dumps/0040mark_binop_7.nft
+nftables-1.1.6/tests/shell/testcases/bitwise/dumps/0040mark_binop_6.json-nft
+nftables-1.1.6/tests/shell/testcases/bitwise/dumps/0040mark_binop_3.nft
+nftables-1.1.6/tests/shell/testcases/bitwise/dumps/0040mark_binop_2.nft
+nftables-1.1.6/tests/shell/testcases/bitwise/dumps/0040mark_binop_13.json-nft
+nftables-1.1.6/tests/shell/testcases/bitwise/dumps/0040mark_binop_4.nft
+nftables-1.1.6/tests/shell/testcases/bitwise/dumps/0040mark_binop_4.json-nft
+nftables-1.1.6/tests/shell/testcases/bitwise/dumps/0040mark_binop_12.nft
+nftables-1.1.6/tests/shell/testcases/bitwise/dumps/0040mark_binop_6.nft
+nftables-1.1.6/tests/shell/testcases/bitwise/dumps/0040mark_binop_10.json-nft
+nftables-1.1.6/tests/shell/testcases/bitwise/dumps/0040mark_binop_1.nft
+nftables-1.1.6/tests/shell/testcases/bitwise/dumps/0040mark_binop_12.json-nft
+nftables-1.1.6/tests/shell/testcases/bitwise/dumps/0040mark_binop_9.nft
+nftables-1.1.6/tests/shell/testcases/bitwise/dumps/0040mark_binop_1.json-nft
+nftables-1.1.6/tests/shell/testcases/bitwise/dumps/0040mark_binop_5.json-nft
+nftables-1.1.6/tests/shell/testcases/bitwise/dumps/0040mark_binop_2.json-nft
+nftables-1.1.6/tests/shell/testcases/bitwise/dumps/0044payload_binop_5.json-nft
+nftables-1.1.6/tests/shell/testcases/bitwise/dumps/0040mark_binop_10.nft
+nftables-1.1.6/tests/shell/testcases/bitwise/dumps/0044payload_binop_5.nft
+nftables-1.1.6/tests/shell/testcases/bitwise/dumps/0040mark_binop_8.json-nft
+nftables-1.1.6/tests/shell/testcases/bitwise/dumps/0040mark_binop_11.nft
+nftables-1.1.6/tests/shell/testcases/bitwise/dumps/0040mark_binop_0.nft
+nftables-1.1.6/tests/shell/testcases/bitwise/0040mark_binop_13
+nftables-1.1.6/tests/shell/testcases/bitwise/0040mark_binop_0
+nftables-1.1.6/tests/shell/testcases/bitwise/0040mark_binop_8
+nftables-1.1.6/tests/shell/testcases/bitwise/0040mark_binop_11
+nftables-1.1.6/tests/shell/testcases/bitwise/0040mark_binop_1
+nftables-1.1.6/tests/shell/testcases/bitwise/0040mark_binop_10
+nftables-1.1.6/tests/shell/testcases/bitwise/bitwise_in_sets_and_maps
+nftables-1.1.6/tests/shell/testcases/bitwise/0040mark_binop_7
+nftables-1.1.6/tests/shell/testcases/bitwise/0044payload_binop_2
+nftables-1.1.6/tests/shell/testcases/bitwise/0044payload_binop_5
+nftables-1.1.6/tests/shell/testcases/bitwise/0040mark_binop_6
+nftables-1.1.6/tests/shell/testcases/bitwise/0040mark_binop_12
+nftables-1.1.6/tests/shell/testcases/bitwise/0040mark_binop_2
+nftables-1.1.6/tests/shell/testcases/bitwise/0040mark_binop_9
+nftables-1.1.6/tests/shell/testcases/bitwise/0040mark_binop_3
+nftables-1.1.6/tests/shell/testcases/sets/
+nftables-1.1.6/tests/shell/testcases/sets/range_with_same_start_end
+nftables-1.1.6/tests/shell/testcases/sets/collapse_elem_0
+nftables-1.1.6/tests/shell/testcases/sets/exact_overlap_0
+nftables-1.1.6/tests/shell/testcases/sets/typeof_sets_0
+nftables-1.1.6/tests/shell/testcases/sets/0032restore_set_simple_0
+nftables-1.1.6/tests/shell/testcases/sets/0022type_selective_flush_0
+nftables-1.1.6/tests/shell/testcases/sets/0012add_delete_many_elements_0
+nftables-1.1.6/tests/shell/testcases/sets/0061anonymous_automerge_0
+nftables-1.1.6/tests/shell/testcases/sets/reset_command_0
+nftables-1.1.6/tests/shell/testcases/sets/0073flat_interval_set
+nftables-1.1.6/tests/shell/testcases/sets/0065_icmp_postprocessing
+nftables-1.1.6/tests/shell/testcases/sets/0040get_host_endian_elements_0
+nftables-1.1.6/tests/shell/testcases/sets/0001named_interval_0
+nftables-1.1.6/tests/shell/testcases/sets/0062set_connlimit_0
+nftables-1.1.6/tests/shell/testcases/sets/0068interval_stack_overflow_0
+nftables-1.1.6/tests/shell/testcases/sets/0004named_interval_shadow_0
+nftables-1.1.6/tests/shell/testcases/sets/0070stacked_l2_headers
+nftables-1.1.6/tests/shell/testcases/sets/0058_setupdate_timeout_0
+nftables-1.1.6/tests/shell/testcases/sets/dumps/
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0041interval_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0015rulesetflush_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/range_with_same_start_end.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0053echo_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0075tunnel_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/typeof_sets_concat.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0012add_delete_many_elements_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/set_eval_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/inner_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0008comments_interval_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0040get_host_endian_elements_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0008create_verdict_map_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0059set_update_multistmt_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0004named_interval_shadow_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0020comments_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0016element_leak_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0027ipv6_maps_ipv4_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0049set_define_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/elem_limit_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0017add_after_flush_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/meter_set_reuse.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/dynset_missing.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/dynset_missing.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0045concat_ipv4_service.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/meter_set_reuse.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0072destroy_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0056dynamic_limit_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0054comments_set_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0062set_connlimit_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0002named_interval_automerging_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0048set_counters_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/type_set_symbol.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0042update_set_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/concat_interval_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0042update_set_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0048set_counters_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/concat_nlmsg_overrun.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0046netmap_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0051set_interval_counter_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/interval_size_random.nodump
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0065_icmp_postprocessing.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/type_set_symbol.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0032restore_set_simple_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0008create_verdict_map_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0054comments_set_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0068interval_stack_overflow_0.nodump
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0033add_set_simple_flat_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0044interval_overlap_1.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0043concatenated_ranges_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0002named_interval_automerging_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0060set_multistmt_1.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0027ipv6_maps_ipv4_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0008comments_interval_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/meter_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0074nested_interval_set.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0030add_many_elements_interval_0.nodump
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0004named_interval_shadow_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0050set_define_1.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0072destroy_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0045concat_ipv4_service.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0022type_selective_flush_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0050set_define_1.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0012add_delete_many_elements_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0024synproxy_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0053echo_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0006create_set_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0001named_interval_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0065_icmp_postprocessing.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0064map_catchall_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0039delete_interval_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0006create_set_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0018set_check_size_1.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0069interval_merge_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0038meter_list_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/errors_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0005named_interval_shadow_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0034get_element_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0026named_limit_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0058_setupdate_timeout_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/interval_size.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/inner_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0057set_create_fails_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/recursive_merge.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0014malformed_set_is_not_defined_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0070stacked_l2_headers.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0025anonymous_set_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0013add_delete_many_elements_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/concat_nlmsg_overrun.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0055tcpflags_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0074nested_interval_set.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0035add_set_elements_flat_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/set_stmt.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0069interval_merge_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0039delete_interval_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0007create_element_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0024named_objects_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0059set_update_multistmt_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0056dynamic_limit_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0019set_check_size_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0025anonymous_set_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0040get_host_endian_elements_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/set_eval_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/meter_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0071unclosed_prefix_interval_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/collapse_elem_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/elem_limit_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0013add_delete_many_elements_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0038meter_list_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/exact_overlap_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0011add_many_elements_0.nodump
+nftables-1.1.6/tests/shell/testcases/sets/dumps/sets_with_ifnames.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0035add_set_elements_flat_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0026named_limit_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0073flat_interval_set.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0058_setupdate_timeout_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0021nesting_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0033add_set_simple_flat_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0055tcpflags_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0024synproxy_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0034get_element_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0028delete_handle_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/range_with_same_start_end.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0017add_after_flush_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/typeof_sets_concat.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0063set_catchall_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0061anonymous_automerge_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0061anonymous_automerge_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0057set_create_fails_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0032restore_set_simple_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0044interval_overlap_0.nodump
+nftables-1.1.6/tests/shell/testcases/sets/dumps/interval_size.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0020comments_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0003named_interval_missing_flag_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0010comments_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0060set_multistmt_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0029named_ifname_dtype_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0005named_interval_shadow_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0037_set_with_inet_service_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/sets_with_ifnames.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0070stacked_l2_headers.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0043concatenated_ranges_1.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0044interval_overlap_1.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/reset_command_0.nodump
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0016element_leak_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0021nesting_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0015rulesetflush_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0007create_element_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0049set_define_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0073flat_interval_set.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0037_set_with_inet_service_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/typeof_raw_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0009comments_timeout_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0001named_interval_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/automerge_0.nodump
+nftables-1.1.6/tests/shell/testcases/sets/dumps/concat_interval_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0075tunnel_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0028autoselect_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0031set_timeout_size_0.nodump
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0023incomplete_add_set_command_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/elem_opts_compat_0.nodump
+nftables-1.1.6/tests/shell/testcases/sets/dumps/errors_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0043concatenated_ranges_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0067nat_concat_interval_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0052overlap_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0046netmap_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/typeof_sets_1.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0010comments_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0067nat_interval_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0051set_interval_counter_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0028delete_handle_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0014malformed_set_is_not_defined_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0071unclosed_prefix_interval_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0028autoselect_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0023incomplete_add_set_command_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0047nat_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0019set_check_size_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0062set_connlimit_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0018set_check_size_1.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0063set_catchall_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/exact_overlap_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/collapse_elem_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0043concatenated_ranges_1.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0052overlap_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0060set_multistmt_1.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0036add_set_element_expiration_0.nodump
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0003named_interval_missing_flag_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/set_element_timeout_updates.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0022type_selective_flush_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0060set_multistmt_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0041interval_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/typeof_raw_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/set_element_timeout_updates.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/typeof_sets_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/set_stmt.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0064map_catchall_0.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/0009comments_timeout_0.nft
+nftables-1.1.6/tests/shell/testcases/sets/dumps/typeof_sets_1.json-nft
+nftables-1.1.6/tests/shell/testcases/sets/0021nesting_0
+nftables-1.1.6/tests/shell/testcases/sets/0047nat_0
+nftables-1.1.6/tests/shell/testcases/sets/0017add_after_flush_0
+nftables-1.1.6/tests/shell/testcases/sets/0036add_set_element_expiration_0
+nftables-1.1.6/tests/shell/testcases/sets/0025anonymous_set_0
+nftables-1.1.6/tests/shell/testcases/sets/concat_nlmsg_overrun
+nftables-1.1.6/tests/shell/testcases/sets/0051set_interval_counter_0
+nftables-1.1.6/tests/shell/testcases/sets/0013add_delete_many_elements_0
+nftables-1.1.6/tests/shell/testcases/sets/errors_0
+nftables-1.1.6/tests/shell/testcases/sets/0007create_element_0
+nftables-1.1.6/tests/shell/testcases/sets/0044interval_overlap_0
+nftables-1.1.6/tests/shell/testcases/sets/0002named_interval_automerging_0
+nftables-1.1.6/tests/shell/testcases/sets/0003named_interval_missing_flag_0
+nftables-1.1.6/tests/shell/testcases/sets/0006create_set_0
+nftables-1.1.6/tests/shell/testcases/sets/typeof_raw_0
+nftables-1.1.6/tests/shell/testcases/sets/0044interval_overlap_1
+nftables-1.1.6/tests/shell/testcases/sets/0027ipv6_maps_ipv4_0
+nftables-1.1.6/tests/shell/testcases/sets/0028autoselect_0
+nftables-1.1.6/tests/shell/testcases/sets/0026named_limit_0
+nftables-1.1.6/tests/shell/testcases/sets/elem_opts_compat_0
+nftables-1.1.6/tests/shell/testcases/sets/0075tunnel_0
+nftables-1.1.6/tests/shell/testcases/sets/dynset_missing
+nftables-1.1.6/tests/shell/testcases/sets/0056dynamic_limit_0
+nftables-1.1.6/tests/shell/testcases/sets/0055tcpflags_0
+nftables-1.1.6/tests/shell/testcases/sets/0014malformed_set_is_not_defined_0
+nftables-1.1.6/tests/shell/testcases/sets/0035add_set_elements_flat_0
+nftables-1.1.6/tests/shell/testcases/sets/automerge_0
+nftables-1.1.6/tests/shell/testcases/sets/0046netmap_0
+nftables-1.1.6/tests/shell/testcases/sets/0053echo_0
+nftables-1.1.6/tests/shell/testcases/sets/0009comments_timeout_0
+nftables-1.1.6/tests/shell/testcases/sets/0031set_timeout_size_0
+nftables-1.1.6/tests/shell/testcases/sets/type_set_symbol
+nftables-1.1.6/tests/shell/testcases/sets/meter_set_reuse
+nftables-1.1.6/tests/shell/testcases/sets/0010comments_0
+nftables-1.1.6/tests/shell/testcases/sets/0024synproxy_0
+nftables-1.1.6/tests/shell/testcases/sets/0034get_element_0
+nftables-1.1.6/tests/shell/testcases/sets/typeof_sets_concat
+nftables-1.1.6/tests/shell/testcases/sets/0043concatenated_ranges_1
+nftables-1.1.6/tests/shell/testcases/sets/sets_with_ifnames
+nftables-1.1.6/tests/shell/testcases/sets/0067nat_concat_interval_0
+nftables-1.1.6/tests/shell/testcases/sets/0011add_many_elements_0
+nftables-1.1.6/tests/shell/testcases/sets/0033add_set_simple_flat_0
+nftables-1.1.6/tests/shell/testcases/sets/0045concat_ipv4_service
+nftables-1.1.6/tests/shell/testcases/sets/0030add_many_elements_interval_0
+nftables-1.1.6/tests/shell/testcases/sets/0008comments_interval_0
+nftables-1.1.6/tests/shell/testcases/sets/0059set_update_multistmt_0
+nftables-1.1.6/tests/shell/testcases/sets/0074nested_interval_set
+nftables-1.1.6/tests/shell/testcases/sets/0043concatenated_ranges_0
+nftables-1.1.6/tests/shell/testcases/sets/interval_size_random
+nftables-1.1.6/tests/shell/testcases/sets/0060set_multistmt_0
+nftables-1.1.6/tests/shell/testcases/sets/0054comments_set_0
+nftables-1.1.6/tests/shell/testcases/sets/0060set_multistmt_1
+nftables-1.1.6/tests/shell/testcases/sets/0049set_define_0
+nftables-1.1.6/tests/shell/testcases/sets/0023incomplete_add_set_command_0
+nftables-1.1.6/tests/shell/testcases/sets/0016element_leak_0
+nftables-1.1.6/tests/shell/testcases/sets/0038meter_list_0
+nftables-1.1.6/tests/shell/testcases/sets/0050set_define_1
+nftables-1.1.6/tests/shell/testcases/sets/0069interval_merge_0
+nftables-1.1.6/tests/shell/testcases/sets/0052overlap_0
+nftables-1.1.6/tests/shell/testcases/sets/typeof_sets_1
+nftables-1.1.6/tests/shell/testcases/sets/0015rulesetflush_0
+nftables-1.1.6/tests/shell/testcases/sets/0042update_set_0
+nftables-1.1.6/tests/shell/testcases/sets/0039delete_interval_0
+nftables-1.1.6/tests/shell/testcases/sets/0072destroy_0
+nftables-1.1.6/tests/shell/testcases/sets/0063set_catchall_0
+nftables-1.1.6/tests/shell/testcases/sets/0057set_create_fails_0
+nftables-1.1.6/tests/shell/testcases/sets/0019set_check_size_0
+nftables-1.1.6/tests/shell/testcases/sets/interval_size
+nftables-1.1.6/tests/shell/testcases/sets/set_stmt
+nftables-1.1.6/tests/shell/testcases/sets/0028delete_handle_0
+nftables-1.1.6/tests/shell/testcases/sets/0005named_interval_shadow_0
+nftables-1.1.6/tests/shell/testcases/sets/concat_interval_0
+nftables-1.1.6/tests/shell/testcases/sets/0067nat_interval_0
+nftables-1.1.6/tests/shell/testcases/sets/meter_0
+nftables-1.1.6/tests/shell/testcases/sets/0064map_catchall_0
+nftables-1.1.6/tests/shell/testcases/sets/inner_0
+nftables-1.1.6/tests/shell/testcases/sets/0029named_ifname_dtype_0
+nftables-1.1.6/tests/shell/testcases/sets/0041interval_0
+nftables-1.1.6/tests/shell/testcases/sets/0037_set_with_inet_service_0
+nftables-1.1.6/tests/shell/testcases/sets/recursive_merge
+nftables-1.1.6/tests/shell/testcases/sets/0018set_check_size_1
+nftables-1.1.6/tests/shell/testcases/sets/set_eval_0
+nftables-1.1.6/tests/shell/testcases/sets/elem_limit_0
+nftables-1.1.6/tests/shell/testcases/sets/0048set_counters_0
+nftables-1.1.6/tests/shell/testcases/sets/0008create_verdict_map_0
+nftables-1.1.6/tests/shell/testcases/sets/set_element_timeout_updates
+nftables-1.1.6/tests/shell/testcases/sets/0020comments_0
+nftables-1.1.6/tests/shell/testcases/sets/0071unclosed_prefix_interval_0
+nftables-1.1.6/Makefile.in
+configure: WARNING: unrecognized options: --disable-python
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether sleep supports fractional seconds... yes
+checking filesystem timestamp resolution... 0.01
+checking whether build environment is sane... yes
+checking for a race-free mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking xargs -n works... yes
+checking how to create a pax tar archive... gnutar
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to enable C11 features... none needed
+checking whether gcc understands -c and -o together... yes
+checking whether make supports the include directive... yes (GNU style)
+checking dependency style of gcc... gcc3
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for wchar.h... yes
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether _XOPEN_SOURCE should be defined... no
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for flex... flex
+checking for lex output file root... lex.yy
+checking for lex library... none needed
+checking whether yytext is a pointer... yes
+checking for bison... bison -y
+checking for ar... ar
+checking the archiver (ar) interface... ar
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... (cached) /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for file... file
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ranlib... ranlib
+checking for archiver @FILE support... @
+checking for strip... strip
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking whether compiler accepts -fvisibility=hidden... yes
+checking for a2x... a2x
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for libmnl >= 1.0.4... yes
+checking for libnftnl >= 1.3.1... yes
+checking for __gmpz_init in -lgmp... yes
+checking for readline in -lreadline... yes
+checking for json_object in -ljansson... yes
+checking for gcc options needed to detect all undeclared functions... none needed
+checking whether getprotobyname_r is declared... yes
+checking whether getprotobynumber_r is declared... yes
+checking whether getservbyport_r is declared... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating libnftables.pc
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing stable_release commands
+config.status: executing nftversion.h commands
+configure: WARNING: unrecognized options: --disable-python
+
+nft configuration:
+  cli support:			readline
+  enable debugging symbols:	no
+  use mini-gmp:			no
+  enable man page:              yes
+  libxtables support:		no
+  json output support:          yes
+  systemd unit:                 no
+* Getting build dependencies for wheel...
+/usr/lib/python3.14/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+!!
+
+        ********************************************************************************
+        Please consider removing the following classifiers in favor of a SPDX license expression:
+
+        License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  self._finalize_license_expression()
+/usr/lib/python3.14/site-packages/setuptools_scm/_integration/deprecation.py:7: UserWarning: setup.cfg: at [metadata]
+version = attr: ... is forcing setuptools to override the version setuptools-scm did already set
+When using setuptools-scm it's invalid to use setuptools dynamic version as well, please remove it.
+Setuptools-scm is responsible for setting the version, forcing setuptools to override creates errors.
+  warnings.warn(
+[12/06/25 08:30:33] WARNING  toml section missing       pyproject_reading.py:215
+                             PosixPath('pyproject.toml'                         
+                             ) does not contain a                               
+                             tool.setuptools_scm                                
+                             section                                            
+running egg_info
+creating nftables.egg-info
+writing nftables.egg-info/PKG-INFO
+writing dependency_links to nftables.egg-info/dependency_links.txt
+writing top-level names to nftables.egg-info/top_level.txt
+writing manifest file 'nftables.egg-info/SOURCES.txt'
+                    ERROR    listing git files failed - pretending     git.py:26
+                             there aren't any                                   
+reading manifest file 'nftables.egg-info/SOURCES.txt'
+writing manifest file 'nftables.egg-info/SOURCES.txt'
+* Building wheel...
+/usr/lib/python3.14/site-packages/setuptools_scm/_integration/deprecation.py:7: UserWarning: setup.cfg: at [metadata]
+version = attr: ... is forcing setuptools to override the version setuptools-scm did already set
+When using setuptools-scm it's invalid to use setuptools dynamic version as well, please remove it.
+Setuptools-scm is responsible for setting the version, forcing setuptools to override creates errors.
+  warnings.warn(
+[12/06/25 08:30:33] WARNING  toml section missing       pyproject_reading.py:215
+                             PosixPath('pyproject.toml'                         
+                             ) does not contain a                               
+                             tool.setuptools_scm                                
+                             section                                            
+/usr/lib/python3.14/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+!!
+
+        ********************************************************************************
+        Please consider removing the following classifiers in favor of a SPDX license expression:
+
+        License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  self._finalize_license_expression()
+running bdist_wheel
+running build
+running build_py
+creating build/lib/nftables
+copying src/nftables.py -> build/lib/nftables
+copying src/__init__.py -> build/lib/nftables
+copying src/schema.json -> build/lib/nftables
+installing to build/bdist.linux-x86_64/wheel
+running install
+running install_lib
+creating build/bdist.linux-x86_64/wheel
+creating build/bdist.linux-x86_64/wheel/nftables
+copying build/lib/nftables/nftables.py -> build/bdist.linux-x86_64/wheel/./nftables
+copying build/lib/nftables/schema.json -> build/bdist.linux-x86_64/wheel/./nftables
+copying build/lib/nftables/__init__.py -> build/bdist.linux-x86_64/wheel/./nftables
+running install_egg_info
+running egg_info
+writing nftables.egg-info/PKG-INFO
+writing dependency_links to nftables.egg-info/dependency_links.txt
+writing top-level names to nftables.egg-info/top_level.txt
+                    ERROR    listing git files failed - pretending     git.py:26
+                             there aren't any                                   
+reading manifest file 'nftables.egg-info/SOURCES.txt'
+writing manifest file 'nftables.egg-info/SOURCES.txt'
+Copying nftables.egg-info to build/bdist.linux-x86_64/wheel/./nftables-0.1-py3.14.egg-info
+running install_scripts
+creating build/bdist.linux-x86_64/wheel/nftables-0.1.dist-info/WHEEL
+creating '/blfs/builds/nftables-1.1.6/py/dist/.tmp-0fwrfzie/nftables-0.1-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+adding 'nftables/__init__.py'
+adding 'nftables/nftables.py'
+adding 'nftables/schema.json'
+adding 'nftables-0.1.dist-info/METADATA'
+adding 'nftables-0.1.dist-info/WHEEL'
+adding 'nftables-0.1.dist-info/top_level.txt'
+adding 'nftables-0.1.dist-info/RECORD'
+removing build/bdist.linux-x86_64/wheel
+Successfully built nftables-0.1-py3-none-any.whl
+make  all-am
+make[1]: Entering directory '/blfs/builds/nftables-1.1.6'
+  CC       src/main.o
+  CC       src/cli.o
+  CC       src/cache.lo
+  CC       src/cmd.lo
+  CC       src/ct.lo
+  CC       src/datatype.lo
+  CC       src/dccpopt.lo
+  CC       src/erec.lo
+  CC       src/evaluate.lo
+  CC       src/expression.lo
+  CC       src/exthdr.lo
+  CC       src/fib.lo
+  CC       src/gmputil.lo
+  CC       src/hash.lo
+  CC       src/iface.lo
+  CC       src/intervals.lo
+  CC       src/ipopt.lo
+  CC       src/libnftables.lo
+  CC       src/mergesort.lo
+  CC       src/meta.lo
+  CC       src/misspell.lo
+  CC       src/mnl.lo
+  CC       src/monitor.lo
+  CC       src/trace.lo
+  CC       src/netlink.lo
+  CC       src/netlink_delinearize.lo
+  CC       src/netlink_linearize.lo
+  CC       src/nfnl_osf.lo
+  CC       src/nftutils.lo
+  CC       src/numgen.lo
+  CC       src/optimize.lo
+  CC       src/osf.lo
+  CC       src/owner.lo
+  CC       src/payload.lo
+  CC       src/preprocess.lo
+  CC       src/print.lo
+  CC       src/proto.lo
+  CC       src/rt.lo
+  CC       src/rule.lo
+  CC       src/sctp_chunk.lo
+  CC       src/segtree.lo
+  CC       src/socket.lo
+  CC       src/statement.lo
+  CC       src/tcpopt.lo
+  CC       src/tunnel.lo
+  CC       src/utils.lo
+  CC       src/xfrm.lo
+  CC       src/xt.lo
+  CC       src/json.lo
+  CC       src/parser_json.lo
+  CC       src/libparser_la-parser_bison.lo
+  CC       src/libparser_la-scanner.lo
+  CCLD     src/libparser.la
+  CCLD     src/libnftables.la
+  CCLD     src/nft
+make[1]: Leaving directory '/blfs/builds/nftables-1.1.6'
+make  install-am
+make[1]: Entering directory '/blfs/builds/nftables-1.1.6'
+make[2]: Entering directory '/blfs/builds/nftables-1.1.6'
+ /usr/bin/mkdir -p '/pkgs/nftables/usr/lib'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   src/libnftables.la '/pkgs/nftables/usr/lib'
+libtool: install: /usr/bin/install -c src/.libs/libnftables.so.1.1.0 /pkgs/nftables/usr/lib/libnftables.so.1.1.0
+libtool: install: (cd /pkgs/nftables/usr/lib && { ln -s -f libnftables.so.1.1.0 libnftables.so.1 || { rm -f libnftables.so.1 && ln -s libnftables.so.1.1.0 libnftables.so.1; }; })
+libtool: install: (cd /pkgs/nftables/usr/lib && { ln -s -f libnftables.so.1.1.0 libnftables.so || { rm -f libnftables.so && ln -s libnftables.so.1.1.0 libnftables.so; }; })
+libtool: install: /usr/bin/install -c src/.libs/libnftables.lai /pkgs/nftables/usr/lib/libnftables.la
+libtool: warning: remember to run 'libtool --finish /usr/lib'
+ /usr/bin/mkdir -p '/pkgs/nftables/usr/sbin'
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c src/nft '/pkgs/nftables/usr/sbin'
+libtool: install: /usr/bin/install -c src/.libs/nft /pkgs/nftables/usr/sbin/nft
+ /usr/bin/mkdir -p '/pkgs/nftables/usr/share/doc/nftables/examples'
+ /usr/bin/install -c files/examples/ct_helpers.nft files/examples/load_balancing.nft files/examples/secmark.nft files/examples/sets_and_maps.nft '/pkgs/nftables/usr/share/doc/nftables/examples'
+ /usr/bin/mkdir -p '/pkgs/nftables/usr/share/nftables/osf'
+ /usr/bin/install -c -m 644 files/osf/pf.os '/pkgs/nftables/usr/share/nftables/osf'
+ /usr/bin/mkdir -p '/pkgs/nftables/usr/share/nftables'
+ /usr/bin/install -c -m 644 files/nftables/all-in-one.nft files/nftables/arp-filter.nft files/nftables/bridge-filter.nft files/nftables/inet-filter.nft files/nftables/inet-nat.nft files/nftables/ipv4-filter.nft files/nftables/ipv4-mangle.nft files/nftables/ipv4-nat.nft files/nftables/ipv4-raw.nft files/nftables/ipv6-filter.nft files/nftables/ipv6-mangle.nft files/nftables/ipv6-nat.nft files/nftables/ipv6-raw.nft files/nftables/netdev-ingress.nft '/pkgs/nftables/usr/share/nftables'
+ /usr/bin/mkdir -p '/pkgs/nftables/usr/share/man/man3'
+ /usr/bin/install -c -m 644 doc/libnftables.3 '/pkgs/nftables/usr/share/man/man3'
+ /usr/bin/mkdir -p '/pkgs/nftables/usr/share/man/man5'
+ /usr/bin/install -c -m 644 doc/libnftables-json.5 '/pkgs/nftables/usr/share/man/man5'
+ /usr/bin/mkdir -p '/pkgs/nftables/usr/share/man/man8'
+ /usr/bin/install -c -m 644 doc/nft.8 '/pkgs/nftables/usr/share/man/man8'
+ /usr/bin/mkdir -p '/pkgs/nftables/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libnftables.pc '/pkgs/nftables/usr/lib/pkgconfig'
+ /usr/bin/mkdir -p '/pkgs/nftables/usr/include/nftables'
+ /usr/bin/install -c -m 644 include/nftables/libnftables.h '/pkgs/nftables/usr/include/nftables'
+make[2]: Leaving directory '/blfs/builds/nftables-1.1.6'
+make[1]: Leaving directory '/blfs/builds/nftables-1.1.6'
+nftables/
+nftables/usr/
+nftables/usr/include/
+nftables/usr/include/nftables/
+nftables/usr/include/nftables/libnftables.h
+nftables/usr/share/
+nftables/usr/share/nftables/
+nftables/usr/share/nftables/ipv4-nat.nft
+nftables/usr/share/nftables/bridge-filter.nft
+nftables/usr/share/nftables/osf/
+nftables/usr/share/nftables/osf/pf.os
+nftables/usr/share/nftables/ipv4-raw.nft
+nftables/usr/share/nftables/ipv6-raw.nft
+nftables/usr/share/nftables/ipv4-mangle.nft
+nftables/usr/share/nftables/ipv6-filter.nft
+nftables/usr/share/nftables/all-in-one.nft
+nftables/usr/share/nftables/ipv6-mangle.nft
+nftables/usr/share/nftables/inet-nat.nft
+nftables/usr/share/nftables/ipv6-nat.nft
+nftables/usr/share/nftables/ipv4-filter.nft
+nftables/usr/share/nftables/inet-filter.nft
+nftables/usr/share/nftables/arp-filter.nft
+nftables/usr/share/nftables/netdev-ingress.nft
+nftables/usr/share/doc/
+nftables/usr/share/doc/nftables/
+nftables/usr/share/doc/nftables/examples/
+nftables/usr/share/doc/nftables/examples/secmark.nft
+nftables/usr/share/doc/nftables/examples/sets_and_maps.nft
+nftables/usr/share/doc/nftables/examples/ct_helpers.nft
+nftables/usr/share/doc/nftables/examples/load_balancing.nft
+nftables/usr/share/man/
+nftables/usr/share/man/man5/
+nftables/usr/share/man/man5/libnftables-json.5
+nftables/usr/share/man/man8/
+nftables/usr/share/man/man8/nft.8
+nftables/usr/share/man/man3/
+nftables/usr/share/man/man3/libnftables.3
+nftables/usr/sbin/
+nftables/usr/sbin/nft
+nftables/usr/lib/
+nftables/usr/lib/libnftables.so.1.1.0
+nftables/usr/lib/libnftables.la
+nftables/usr/lib/libnftables.so
+nftables/usr/lib/pkgconfig/
+nftables/usr/lib/pkgconfig/libnftables.pc
+nftables/usr/lib/python3.14/
+nftables/usr/lib/python3.14/site-packages/
+nftables/usr/lib/python3.14/site-packages/nftables-0.1.dist-info/
+nftables/usr/lib/python3.14/site-packages/nftables-0.1.dist-info/RECORD
+nftables/usr/lib/python3.14/site-packages/nftables-0.1.dist-info/METADATA
+nftables/usr/lib/python3.14/site-packages/nftables-0.1.dist-info/top_level.txt
+nftables/usr/lib/python3.14/site-packages/nftables-0.1.dist-info/WHEEL
+nftables/usr/lib/python3.14/site-packages/nftables/
+nftables/usr/lib/python3.14/site-packages/nftables/nftables.py
+nftables/usr/lib/python3.14/site-packages/nftables/schema.json
+nftables/usr/lib/python3.14/site-packages/nftables/__pycache__/
+nftables/usr/lib/python3.14/site-packages/nftables/__pycache__/__init__.cpython-314.opt-1.pyc
+nftables/usr/lib/python3.14/site-packages/nftables/__pycache__/nftables.cpython-314.pyc
+nftables/usr/lib/python3.14/site-packages/nftables/__pycache__/nftables.cpython-314.opt-1.pyc
+nftables/usr/lib/python3.14/site-packages/nftables/__pycache__/__init__.cpython-314.pyc
+nftables/usr/lib/python3.14/site-packages/nftables/__init__.py
+nftables/usr/lib/libnftables.so.1
+nftables/usr/lib/systemd/
+nftables/usr/lib/systemd/system/
+nftables/usr/lib/systemd/system/nftables.service
+nftables/etc/
+nftables/etc/nftables.conf
+nftables/version
+nftables/depends
+nftables/backup
+nftables/make-depends
