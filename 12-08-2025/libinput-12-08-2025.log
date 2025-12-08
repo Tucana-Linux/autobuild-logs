@@ -1,0 +1,1175 @@
+--2025-12-08 08:20:03--  https://gitlab.freedesktop.org/libinput/libinput/-/archive/1.30.1/libinput-1.30.1.tar.gz
+Resolving gitlab.freedesktop.org (gitlab.freedesktop.org)... 2a04:4e42::820, 2a04:4e42:200::820, 2a04:4e42:400::820, ...
+Connecting to gitlab.freedesktop.org (gitlab.freedesktop.org)|2a04:4e42::820|:443... connected.
+HTTP request sent, awaiting response... 200 
+Length: unspecified [application/octet-stream]
+Saving to: ‘libinput-1.30.1.tar.gz’
+
+     0K .......... .......... .......... .......... ..........  266K
+    50K .......... .......... .......... .......... ..........  543K
+   100K .......... .......... .......... .......... .......... 5.80M
+   150K .......... .......... .......... .......... ..........  595K
+   200K .......... .......... .......... .......... .......... 11.0M
+   250K .......... .......... .......... .......... .......... 5.87M
+   300K .......... .......... .......... .......... .......... 21.3M
+   350K .......... .......... .......... .......... ..........  643K
+   400K .......... .......... .......... .......... .......... 14.4M
+   450K .......... .......... .......... .......... .......... 11.2M
+   500K .......... .......... .......... .......... .......... 12.4M
+   550K .......... .......... .......... .......... .......... 10.9M
+   600K .......... .......... .......... .......... .......... 8.70M
+   650K .......... .......... .......... .......... .......... 54.7M
+   700K .......... .......... .......... .......... .......... 16.2M
+   750K .......... .......... .......... .......... ..........  771K
+   800K .......... .......... .......... .......... .......... 38.0M
+   850K .......... .......... .......... .......... .......... 44.8M
+   900K .......... .......... .......... .......... .......... 55.4M
+   950K .......... .......... .......... .......... .......... 11.5M
+  1000K .......... .......... .......... .......... .......... 71.4M
+  1050K .......... .......... .......... .......... .......... 15.1M
+  1100K .......... .......... .......... ....                  35.6M=0.6s
+
+2025-12-08 08:20:04 (1.95 MB/s) - ‘libinput-1.30.1.tar.gz’ saved [1161924]
+
+libinput-1.30.1/
+libinput-1.30.1/.clang-format
+libinput-1.30.1/.clang-format-ignore
+libinput-1.30.1/.clang-tidy
+libinput-1.30.1/.clang-tidy-ignore
+libinput-1.30.1/.dir-locals.el
+libinput-1.30.1/.editorconfig
+libinput-1.30.1/.git-blame-ignore-revs
+libinput-1.30.1/.gitignore
+libinput-1.30.1/.gitlab-ci.yml
+libinput-1.30.1/.gitlab-ci/
+libinput-1.30.1/.gitlab-ci/ci.template
+libinput-1.30.1/.gitlab-ci/config.yml
+libinput-1.30.1/.gitlab-ci/libinput.spec.in
+libinput-1.30.1/.gitlab-ci/meson-build.sh
+libinput-1.30.1/.gitlab-ci/scanbuild-wrapper.sh
+libinput-1.30.1/.gitlab-ci/whitespace-check.py
+libinput-1.30.1/.gitlab/
+libinput-1.30.1/.gitlab/issue_templates/
+libinput-1.30.1/.gitlab/issue_templates/FeatureRequest.md
+libinput-1.30.1/.gitlab/issue_templates/default.md
+libinput-1.30.1/.pre-commit-config.yaml
+libinput-1.30.1/.triage-policies.yml
+libinput-1.30.1/.vimdir
+libinput-1.30.1/CODING_STYLE.md
+libinput-1.30.1/CONTRIBUTING.md
+libinput-1.30.1/COPYING
+libinput-1.30.1/README.md
+libinput-1.30.1/completion/
+libinput-1.30.1/completion/zsh/
+libinput-1.30.1/completion/zsh/_libinput
+libinput-1.30.1/completion/zsh/meson.build
+libinput-1.30.1/doc/
+libinput-1.30.1/doc/api/
+libinput-1.30.1/doc/api/libinput.doxygen.in
+libinput-1.30.1/doc/api/mainpage.dox
+libinput-1.30.1/doc/api/meson.build
+libinput-1.30.1/doc/api/page-hierarchy.dox
+libinput-1.30.1/doc/api/style/
+libinput-1.30.1/doc/api/style/LICENSE
+libinput-1.30.1/doc/api/style/bootstrap.css
+libinput-1.30.1/doc/api/style/customdoxygen.css
+libinput-1.30.1/doc/api/style/footer.html
+libinput-1.30.1/doc/api/style/header.html
+libinput-1.30.1/doc/api/style/libinputdoxygen.css
+libinput-1.30.1/doc/button-debouncing-state-machine.svg
+libinput-1.30.1/doc/button-debouncing-wave-diagram.txt
+libinput-1.30.1/doc/middle-button-emulation.svg
+libinput-1.30.1/doc/touchpad-edge-scrolling-state-machine.svg
+libinput-1.30.1/doc/touchpad-gestures-state-machine.svg
+libinput-1.30.1/doc/touchpad-softbutton-state-machine.svg
+libinput-1.30.1/doc/touchpad-tap-state-machine.svg
+libinput-1.30.1/doc/user/
+libinput-1.30.1/doc/user/404.rst
+libinput-1.30.1/doc/user/absolute-axes.rst
+libinput-1.30.1/doc/user/absolute-coordinate-ranges.rst
+libinput-1.30.1/doc/user/architecture.rst
+libinput-1.30.1/doc/user/building.rst
+libinput-1.30.1/doc/user/button-debouncing.rst
+libinput-1.30.1/doc/user/clickpad-softbuttons.rst
+libinput-1.30.1/doc/user/clickpad-with-right-button.rst
+libinput-1.30.1/doc/user/conf.py.in
+libinput-1.30.1/doc/user/configuration.rst
+libinput-1.30.1/doc/user/contributing.rst
+libinput-1.30.1/doc/user/dependencies.rst
+libinput-1.30.1/doc/user/development.rst
+libinput-1.30.1/doc/user/device-configuration-via-udev.rst
+libinput-1.30.1/doc/user/device-quirks.rst
+libinput-1.30.1/doc/user/dot/
+libinput-1.30.1/doc/user/dot/evemu.gv
+libinput-1.30.1/doc/user/dot/libinput-record.gv
+libinput-1.30.1/doc/user/dot/libinput-stack-gnome.gv
+libinput-1.30.1/doc/user/dot/libinput-stack-wayland.gv
+libinput-1.30.1/doc/user/dot/libinput-stack-xorg.gv
+libinput-1.30.1/doc/user/dot/plugin-stack.gv
+libinput-1.30.1/doc/user/dot/seats-sketch-libinput.gv
+libinput-1.30.1/doc/user/dot/seats-sketch.gv
+libinput-1.30.1/doc/user/drag-3fg.rst
+libinput-1.30.1/doc/user/faqs.rst
+libinput-1.30.1/doc/user/features.rst
+libinput-1.30.1/doc/user/gestures.rst
+libinput-1.30.1/doc/user/git_version.py.in
+libinput-1.30.1/doc/user/ignoring-devices.rst
+libinput-1.30.1/doc/user/incorrectly-enabled-hires.rst
+libinput-1.30.1/doc/user/index.rst
+libinput-1.30.1/doc/user/lua-plugins.rst
+libinput-1.30.1/doc/user/meson.build
+libinput-1.30.1/doc/user/middle-button-emulation.rst
+libinput-1.30.1/doc/user/normalization-of-relative-motion.rst
+libinput-1.30.1/doc/user/palm-detection.rst
+libinput-1.30.1/doc/user/pointer-acceleration.rst
+libinput-1.30.1/doc/user/reporting-bugs.rst
+libinput-1.30.1/doc/user/scrolling.rst
+libinput-1.30.1/doc/user/seats.rst
+libinput-1.30.1/doc/user/svg/
+libinput-1.30.1/doc/user/svg/button-debouncing-wave-diagram.svg
+libinput-1.30.1/doc/user/svg/button-scrolling.svg
+libinput-1.30.1/doc/user/svg/clickfinger-distance.svg
+libinput-1.30.1/doc/user/svg/clickfinger.svg
+libinput-1.30.1/doc/user/svg/edge-scrolling.svg
+libinput-1.30.1/doc/user/svg/gesture-2fg-ambiguity.svg
+libinput-1.30.1/doc/user/svg/palm-detection.svg
+libinput-1.30.1/doc/user/svg/pinch-gestures-softbuttons.svg
+libinput-1.30.1/doc/user/svg/pinch-gestures.svg
+libinput-1.30.1/doc/user/svg/ptraccel-custom.svg
+libinput-1.30.1/doc/user/svg/ptraccel-linear.svg
+libinput-1.30.1/doc/user/svg/ptraccel-low-dpi.svg
+libinput-1.30.1/doc/user/svg/ptraccel-touchpad.svg
+libinput-1.30.1/doc/user/svg/ptraccel-trackpoint.svg
+libinput-1.30.1/doc/user/svg/software-buttons-conditions.svg
+libinput-1.30.1/doc/user/svg/software-buttons-thumbpress.svg
+libinput-1.30.1/doc/user/svg/software-buttons-visualized.svg
+libinput-1.30.1/doc/user/svg/software-buttons.svg
+libinput-1.30.1/doc/user/svg/swipe-gestures.svg
+libinput-1.30.1/doc/user/svg/tablet-area.svg
+libinput-1.30.1/doc/user/svg/tablet-axes.svg
+libinput-1.30.1/doc/user/svg/tablet-cintiq24hd-modes.svg
+libinput-1.30.1/doc/user/svg/tablet-eraser-button.svg
+libinput-1.30.1/doc/user/svg/tablet-eraser-invert.svg
+libinput-1.30.1/doc/user/svg/tablet-interfaces.svg
+libinput-1.30.1/doc/user/svg/tablet-intuos-modes.svg
+libinput-1.30.1/doc/user/svg/tablet-left-handed.svg
+libinput-1.30.1/doc/user/svg/tablet-out-of-bounds.svg
+libinput-1.30.1/doc/user/svg/tablet.svg
+libinput-1.30.1/doc/user/svg/tap-n-drag.svg
+libinput-1.30.1/doc/user/svg/thumb-detection.svg
+libinput-1.30.1/doc/user/svg/top-software-buttons.svg
+libinput-1.30.1/doc/user/svg/touchscreen-gestures.svg
+libinput-1.30.1/doc/user/svg/trackpoint-delta-illustration.svg
+libinput-1.30.1/doc/user/svg/twofinger-scrolling.svg
+libinput-1.30.1/doc/user/switches.rst
+libinput-1.30.1/doc/user/t440-support.rst
+libinput-1.30.1/doc/user/tablet-debugging.rst
+libinput-1.30.1/doc/user/tablet-support.rst
+libinput-1.30.1/doc/user/tapping.rst
+libinput-1.30.1/doc/user/test-suite.rst
+libinput-1.30.1/doc/user/timestamps.rst
+libinput-1.30.1/doc/user/tools.rst
+libinput-1.30.1/doc/user/touchpad-jitter.rst
+libinput-1.30.1/doc/user/touchpad-jumping-cursors.rst
+libinput-1.30.1/doc/user/touchpad-pressure-debugging.rst
+libinput-1.30.1/doc/user/touchpad-pressure.rst
+libinput-1.30.1/doc/user/touchpad-thumb-detection.rst
+libinput-1.30.1/doc/user/touchpads.rst
+libinput-1.30.1/doc/user/trackpoint-configuration.rst
+libinput-1.30.1/doc/user/trackpoints.rst
+libinput-1.30.1/doc/user/troubleshooting.rst
+libinput-1.30.1/doc/user/what-is-libinput.rst
+libinput-1.30.1/doc/user/wheel-api.rst
+libinput-1.30.1/include/
+libinput-1.30.1/include/linux/
+libinput-1.30.1/include/linux/freebsd/
+libinput-1.30.1/include/linux/freebsd/input-event-codes.h
+libinput-1.30.1/include/linux/freebsd/input.h
+libinput-1.30.1/include/linux/input.h
+libinput-1.30.1/include/linux/linux/
+libinput-1.30.1/include/linux/linux/input-event-codes.h
+libinput-1.30.1/include/linux/linux/input.h
+libinput-1.30.1/include/valgrind/
+libinput-1.30.1/include/valgrind/valgrind.h
+libinput-1.30.1/meson.build
+libinput-1.30.1/meson_options.txt
+libinput-1.30.1/plugins/
+libinput-1.30.1/plugins/10-copilot-key-override.lua
+libinput-1.30.1/plugins/10-delay-motion.lua
+libinput-1.30.1/plugins/10-disable-feature.lua
+libinput-1.30.1/plugins/10-dwt.lua
+libinput-1.30.1/plugins/10-example.lua
+libinput-1.30.1/plugins/10-logitech-mx-master-horiz-scroll.lua
+libinput-1.30.1/plugins/10-pointer-go-faster.lua
+libinput-1.30.1/plugins/10-pointer-go-slower.lua
+libinput-1.30.1/plugins/10-wheel-to-button.lua
+libinput-1.30.1/plugins/meson.build
+libinput-1.30.1/quirks/
+libinput-1.30.1/quirks/10-generic-keyboard.quirks
+libinput-1.30.1/quirks/10-generic-mouse.quirks
+libinput-1.30.1/quirks/10-generic-trackball.quirks
+libinput-1.30.1/quirks/30-vendor-a4tech.quirks
+libinput-1.30.1/quirks/30-vendor-aiptek.quirks
+libinput-1.30.1/quirks/30-vendor-alps.quirks
+libinput-1.30.1/quirks/30-vendor-contour.quirks
+libinput-1.30.1/quirks/30-vendor-cypress.quirks
+libinput-1.30.1/quirks/30-vendor-elantech.quirks
+libinput-1.30.1/quirks/30-vendor-glorious.quirks
+libinput-1.30.1/quirks/30-vendor-huion.quirks
+libinput-1.30.1/quirks/30-vendor-ibm.quirks
+libinput-1.30.1/quirks/30-vendor-ite.quirks
+libinput-1.30.1/quirks/30-vendor-kensington.quirks
+libinput-1.30.1/quirks/30-vendor-logitech.quirks
+libinput-1.30.1/quirks/30-vendor-madcatz.quirks
+libinput-1.30.1/quirks/30-vendor-microsoft.quirks
+libinput-1.30.1/quirks/30-vendor-nulea.quirks
+libinput-1.30.1/quirks/30-vendor-oracle.quirks
+libinput-1.30.1/quirks/30-vendor-qemu.quirks
+libinput-1.30.1/quirks/30-vendor-razer.quirks
+libinput-1.30.1/quirks/30-vendor-synaptics.quirks
+libinput-1.30.1/quirks/30-vendor-trust.quirks
+libinput-1.30.1/quirks/30-vendor-uniwill.quirks
+libinput-1.30.1/quirks/30-vendor-vmware.quirks
+libinput-1.30.1/quirks/30-vendor-wacom.quirks
+libinput-1.30.1/quirks/50-system-acer.quirks
+libinput-1.30.1/quirks/50-system-apple.quirks
+libinput-1.30.1/quirks/50-system-asus.quirks
+libinput-1.30.1/quirks/50-system-chicony.quirks
+libinput-1.30.1/quirks/50-system-chuwi.quirks
+libinput-1.30.1/quirks/50-system-cyborg.quirks
+libinput-1.30.1/quirks/50-system-dell.quirks
+libinput-1.30.1/quirks/50-system-framework.quirks
+libinput-1.30.1/quirks/50-system-gigabyte.quirks
+libinput-1.30.1/quirks/50-system-google.quirks
+libinput-1.30.1/quirks/50-system-gpd.quirks
+libinput-1.30.1/quirks/50-system-graviton.quirks
+libinput-1.30.1/quirks/50-system-honor.quirks
+libinput-1.30.1/quirks/50-system-hp.quirks
+libinput-1.30.1/quirks/50-system-huawei.quirks
+libinput-1.30.1/quirks/50-system-icl.quirks
+libinput-1.30.1/quirks/50-system-lenovo.quirks
+libinput-1.30.1/quirks/50-system-lg.quirks
+libinput-1.30.1/quirks/50-system-minisforum.quirks
+libinput-1.30.1/quirks/50-system-pine64.quirks
+libinput-1.30.1/quirks/50-system-sony.quirks
+libinput-1.30.1/quirks/50-system-starlabs.quirks
+libinput-1.30.1/quirks/50-system-system76.quirks
+libinput-1.30.1/quirks/50-system-tongfang.quirks
+libinput-1.30.1/quirks/50-system-toshiba.quirks
+libinput-1.30.1/quirks/50-system-vaio.quirks
+libinput-1.30.1/quirks/README.md
+libinput-1.30.1/src/
+libinput-1.30.1/src/builddir.h
+libinput-1.30.1/src/evdev-fallback.c
+libinput-1.30.1/src/evdev-fallback.h
+libinput-1.30.1/src/evdev-frame.h
+libinput-1.30.1/src/evdev-middle-button.c
+libinput-1.30.1/src/evdev-mt-touchpad-buttons.c
+libinput-1.30.1/src/evdev-mt-touchpad-edge-scroll.c
+libinput-1.30.1/src/evdev-mt-touchpad-gestures.c
+libinput-1.30.1/src/evdev-mt-touchpad-tap.c
+libinput-1.30.1/src/evdev-mt-touchpad-thumb.c
+libinput-1.30.1/src/evdev-mt-touchpad.c
+libinput-1.30.1/src/evdev-mt-touchpad.h
+libinput-1.30.1/src/evdev-plugin.c
+libinput-1.30.1/src/evdev-plugin.h
+libinput-1.30.1/src/evdev-tablet-pad-leds.c
+libinput-1.30.1/src/evdev-tablet-pad.c
+libinput-1.30.1/src/evdev-tablet-pad.h
+libinput-1.30.1/src/evdev-tablet.c
+libinput-1.30.1/src/evdev-tablet.h
+libinput-1.30.1/src/evdev-totem.c
+libinput-1.30.1/src/evdev.c
+libinput-1.30.1/src/evdev.h
+libinput-1.30.1/src/filter-custom.c
+libinput-1.30.1/src/filter-flat.c
+libinput-1.30.1/src/filter-low-dpi.c
+libinput-1.30.1/src/filter-mouse.c
+libinput-1.30.1/src/filter-private.h
+libinput-1.30.1/src/filter-tablet.c
+libinput-1.30.1/src/filter-touchpad-flat.c
+libinput-1.30.1/src/filter-touchpad-x230.c
+libinput-1.30.1/src/filter-touchpad.c
+libinput-1.30.1/src/filter-trackpoint-flat.c
+libinput-1.30.1/src/filter-trackpoint.c
+libinput-1.30.1/src/filter.c
+libinput-1.30.1/src/filter.h
+libinput-1.30.1/src/libinput-feature.h
+libinput-1.30.1/src/libinput-git-version.h.in
+libinput-1.30.1/src/libinput-log.h
+libinput-1.30.1/src/libinput-plugin-button-debounce.c
+libinput-1.30.1/src/libinput-plugin-button-debounce.h
+libinput-1.30.1/src/libinput-plugin-lua.c
+libinput-1.30.1/src/libinput-plugin-lua.h
+libinput-1.30.1/src/libinput-plugin-mouse-wheel-lowres.c
+libinput-1.30.1/src/libinput-plugin-mouse-wheel-lowres.h
+libinput-1.30.1/src/libinput-plugin-mouse-wheel.c
+libinput-1.30.1/src/libinput-plugin-mouse-wheel.h
+libinput-1.30.1/src/libinput-plugin-mtdev.c
+libinput-1.30.1/src/libinput-plugin-mtdev.h
+libinput-1.30.1/src/libinput-plugin-private.h
+libinput-1.30.1/src/libinput-plugin-system.h
+libinput-1.30.1/src/libinput-plugin-tablet-double-tool.c
+libinput-1.30.1/src/libinput-plugin-tablet-double-tool.h
+libinput-1.30.1/src/libinput-plugin-tablet-eraser-button.c
+libinput-1.30.1/src/libinput-plugin-tablet-eraser-button.h
+libinput-1.30.1/src/libinput-plugin-tablet-forced-tool.c
+libinput-1.30.1/src/libinput-plugin-tablet-forced-tool.h
+libinput-1.30.1/src/libinput-plugin-tablet-proximity-timer.c
+libinput-1.30.1/src/libinput-plugin-tablet-proximity-timer.h
+libinput-1.30.1/src/libinput-plugin.c
+libinput-1.30.1/src/libinput-plugin.h
+libinput-1.30.1/src/libinput-private-config.c
+libinput-1.30.1/src/libinput-private-config.h
+libinput-1.30.1/src/libinput-private.h
+libinput-1.30.1/src/libinput-restore-selinux-context.sh
+libinput-1.30.1/src/libinput-util.h
+libinput-1.30.1/src/libinput-version.h.in
+libinput-1.30.1/src/libinput-versionsort.h
+libinput-1.30.1/src/libinput.c
+libinput-1.30.1/src/libinput.h
+libinput-1.30.1/src/libinput.sym
+libinput-1.30.1/src/path-seat.c
+libinput-1.30.1/src/quirks.c
+libinput-1.30.1/src/quirks.h
+libinput-1.30.1/src/timer.c
+libinput-1.30.1/src/timer.h
+libinput-1.30.1/src/udev-seat.c
+libinput-1.30.1/src/udev-seat.h
+libinput-1.30.1/src/util-backtrace.h
+libinput-1.30.1/src/util-bits.h
+libinput-1.30.1/src/util-files.c
+libinput-1.30.1/src/util-files.h
+libinput-1.30.1/src/util-input-event.h
+libinput-1.30.1/src/util-libinput.c
+libinput-1.30.1/src/util-libinput.h
+libinput-1.30.1/src/util-list.c
+libinput-1.30.1/src/util-list.h
+libinput-1.30.1/src/util-macros.h
+libinput-1.30.1/src/util-matrix.h
+libinput-1.30.1/src/util-mem.h
+libinput-1.30.1/src/util-multivalue.h
+libinput-1.30.1/src/util-newtype.h
+libinput-1.30.1/src/util-prop-parsers.c
+libinput-1.30.1/src/util-prop-parsers.h
+libinput-1.30.1/src/util-range.h
+libinput-1.30.1/src/util-ratelimit.c
+libinput-1.30.1/src/util-ratelimit.h
+libinput-1.30.1/src/util-stringbuf.h
+libinput-1.30.1/src/util-strings.c
+libinput-1.30.1/src/util-strings.h
+libinput-1.30.1/src/util-time.h
+libinput-1.30.1/src/util-udev.h
+libinput-1.30.1/test/
+libinput-1.30.1/test/.clang-tidy
+libinput-1.30.1/test/50-litest.conf
+libinput-1.30.1/test/build-cxx.cc
+libinput-1.30.1/test/build-pedantic.c
+libinput-1.30.1/test/check-leftover-udev-rules.sh
+libinput-1.30.1/test/generate-gcov-report.sh
+libinput-1.30.1/test/helper-copy-and-exec-from-tmp.sh
+libinput-1.30.1/test/libinput-test-suite.man
+libinput-1.30.1/test/litest-device-absinfo-override.c
+libinput-1.30.1/test/litest-device-acer-hawaii-keyboard.c
+libinput-1.30.1/test/litest-device-acer-hawaii-touchpad.c
+libinput-1.30.1/test/litest-device-aiptek-tablet.c
+libinput-1.30.1/test/litest-device-alps-3fg.c
+libinput-1.30.1/test/litest-device-alps-dualpoint.c
+libinput-1.30.1/test/litest-device-alps-semi-mt.c
+libinput-1.30.1/test/litest-device-anker-mouse-kbd.c
+libinput-1.30.1/test/litest-device-apple-appletouch.c
+libinput-1.30.1/test/litest-device-apple-internal-keyboard.c
+libinput-1.30.1/test/litest-device-apple-magicmouse.c
+libinput-1.30.1/test/litest-device-asus-rog-gladius.c
+libinput-1.30.1/test/litest-device-atmel-hover.c
+libinput-1.30.1/test/litest-device-bcm5974.c
+libinput-1.30.1/test/litest-device-calibrated-touchscreen.c
+libinput-1.30.1/test/litest-device-cyborg-rat-5.c
+libinput-1.30.1/test/litest-device-dell-canvas-totem-touch.c
+libinput-1.30.1/test/litest-device-dell-canvas-totem.c
+libinput-1.30.1/test/litest-device-elan-tablet.c
+libinput-1.30.1/test/litest-device-elantech-touchpad.c
+libinput-1.30.1/test/litest-device-format-string.c
+libinput-1.30.1/test/litest-device-generic-pressurepad.c
+libinput-1.30.1/test/litest-device-generic-singletouch.c
+libinput-1.30.1/test/litest-device-gpio-keys.c
+libinput-1.30.1/test/litest-device-hp-wmi-hotkeys.c
+libinput-1.30.1/test/litest-device-huion-pentablet.c
+libinput-1.30.1/test/litest-device-huion-q620m-dial.c
+libinput-1.30.1/test/litest-device-ignored-mouse.c
+libinput-1.30.1/test/litest-device-keyboard-all-codes.c
+libinput-1.30.1/test/litest-device-keyboard-quirked.c
+libinput-1.30.1/test/litest-device-keyboard-razer-blackwidow.c
+libinput-1.30.1/test/litest-device-keyboard-razer-blade-stealth-videoswitch.c
+libinput-1.30.1/test/litest-device-keyboard-razer-blade-stealth.c
+libinput-1.30.1/test/litest-device-keyboard.c
+libinput-1.30.1/test/litest-device-lenovo-scrollpoint.c
+libinput-1.30.1/test/litest-device-lid-switch-surface3.c
+libinput-1.30.1/test/litest-device-lid-switch.c
+libinput-1.30.1/test/litest-device-logitech-media-keyboard-elite.c
+libinput-1.30.1/test/litest-device-logitech-trackball.c
+libinput-1.30.1/test/litest-device-magic-trackpad.c
+libinput-1.30.1/test/litest-device-mouse-low-dpi.c
+libinput-1.30.1/test/litest-device-mouse-ps2.c
+libinput-1.30.1/test/litest-device-mouse-roccat.c
+libinput-1.30.1/test/litest-device-mouse-virtual.c
+libinput-1.30.1/test/litest-device-mouse-wheel-click-angle.c
+libinput-1.30.1/test/litest-device-mouse-wheel-click-count.c
+libinput-1.30.1/test/litest-device-mouse-wheel-hires-disabled.c
+libinput-1.30.1/test/litest-device-mouse-wheel-tilt.c
+libinput-1.30.1/test/litest-device-mouse.c
+libinput-1.30.1/test/litest-device-ms-nano-transceiver-mouse.c
+libinput-1.30.1/test/litest-device-ms-surface-cover.c
+libinput-1.30.1/test/litest-device-nexus4-touch-screen.c
+libinput-1.30.1/test/litest-device-ploopy-pavonis-stylus.c
+libinput-1.30.1/test/litest-device-protocol-a-touch-screen.c
+libinput-1.30.1/test/litest-device-qemu-usb-tablet.c
+libinput-1.30.1/test/litest-device-sony-vaio-keys.c
+libinput-1.30.1/test/litest-device-synaptics-hover.c
+libinput-1.30.1/test/litest-device-synaptics-i2c.c
+libinput-1.30.1/test/litest-device-synaptics-phantomclicks.c
+libinput-1.30.1/test/litest-device-synaptics-pressurepad.c
+libinput-1.30.1/test/litest-device-synaptics-rmi4.c
+libinput-1.30.1/test/litest-device-synaptics-st.c
+libinput-1.30.1/test/litest-device-synaptics-t440.c
+libinput-1.30.1/test/litest-device-synaptics-x1-carbon-3rd.c
+libinput-1.30.1/test/litest-device-synaptics-x220.c
+libinput-1.30.1/test/litest-device-tablet-doubledial.c
+libinput-1.30.1/test/litest-device-tablet-mode-switch.c
+libinput-1.30.1/test/litest-device-tablet-rel-dial.c
+libinput-1.30.1/test/litest-device-thinkpad-extrabuttons.c
+libinput-1.30.1/test/litest-device-touch-screen.c
+libinput-1.30.1/test/litest-device-touchpad-palm-threshold-zero.c
+libinput-1.30.1/test/litest-device-touchscreen-fuzz.c
+libinput-1.30.1/test/litest-device-touchscreen-invalid-range.c
+libinput-1.30.1/test/litest-device-touchscreen-mt-tool.c
+libinput-1.30.1/test/litest-device-trackpoint.c
+libinput-1.30.1/test/litest-device-uclogic-tablet.c
+libinput-1.30.1/test/litest-device-vmware-virtual-usb-mouse.c
+libinput-1.30.1/test/litest-device-wacom-bamboo-16fg-pen.c
+libinput-1.30.1/test/litest-device-wacom-bamboo-2fg-finger.c
+libinput-1.30.1/test/litest-device-wacom-bamboo-2fg-pad.c
+libinput-1.30.1/test/litest-device-wacom-bamboo-2fg-pen.c
+libinput-1.30.1/test/litest-device-wacom-calibrated-tablet.c
+libinput-1.30.1/test/litest-device-wacom-cintiq-12wx-pen.c
+libinput-1.30.1/test/litest-device-wacom-cintiq-13hdt-finger.c
+libinput-1.30.1/test/litest-device-wacom-cintiq-13hdt-pad.c
+libinput-1.30.1/test/litest-device-wacom-cintiq-13hdt-pen.c
+libinput-1.30.1/test/litest-device-wacom-cintiq-24hd-pen.c
+libinput-1.30.1/test/litest-device-wacom-cintiq-24hdt-pad.c
+libinput-1.30.1/test/litest-device-wacom-cintiq-pro-16-finger.c
+libinput-1.30.1/test/litest-device-wacom-cintiq-pro-16-pad.c
+libinput-1.30.1/test/litest-device-wacom-cintiq-pro-16-pen.c
+libinput-1.30.1/test/litest-device-wacom-ekr.c
+libinput-1.30.1/test/litest-device-wacom-hid4800-pen.c
+libinput-1.30.1/test/litest-device-wacom-intuos3-pad.c
+libinput-1.30.1/test/litest-device-wacom-intuos5-finger.c
+libinput-1.30.1/test/litest-device-wacom-intuos5-pad.c
+libinput-1.30.1/test/litest-device-wacom-intuos5-pen.c
+libinput-1.30.1/test/litest-device-wacom-isdv4-4200-pen.c
+libinput-1.30.1/test/litest-device-wacom-isdv4-524c-pen.c
+libinput-1.30.1/test/litest-device-wacom-isdv4-e6-finger.c
+libinput-1.30.1/test/litest-device-wacom-isdv4-e6-pen.c
+libinput-1.30.1/test/litest-device-wacom-mobilestudio-pro-pad.c
+libinput-1.30.1/test/litest-device-waltop-tablet.c
+libinput-1.30.1/test/litest-device-wheel-only.c
+libinput-1.30.1/test/litest-device-xen-virtual-pointer.c
+libinput-1.30.1/test/litest-device-yubikey.c
+libinput-1.30.1/test/litest-int.h
+libinput-1.30.1/test/litest-main.c
+libinput-1.30.1/test/litest-runner.c
+libinput-1.30.1/test/litest-runner.h
+libinput-1.30.1/test/litest-selftest.c
+libinput-1.30.1/test/litest.c
+libinput-1.30.1/test/litest.h
+libinput-1.30.1/test/symbols-leak-test
+libinput-1.30.1/test/test-builddir-lookup.c
+libinput-1.30.1/test/test-device.c
+libinput-1.30.1/test/test-gestures.c
+libinput-1.30.1/test/test-keyboard.c
+libinput-1.30.1/test/test-library-version.c
+libinput-1.30.1/test/test-log.c
+libinput-1.30.1/test/test-misc.c
+libinput-1.30.1/test/test-pad.c
+libinput-1.30.1/test/test-path.c
+libinput-1.30.1/test/test-plugins-lua.c
+libinput-1.30.1/test/test-pointer.c
+libinput-1.30.1/test/test-quirks.c
+libinput-1.30.1/test/test-switch.c
+libinput-1.30.1/test/test-tablet.c
+libinput-1.30.1/test/test-totem.c
+libinput-1.30.1/test/test-touch.c
+libinput-1.30.1/test/test-touchpad-buttons.c
+libinput-1.30.1/test/test-touchpad-tap.c
+libinput-1.30.1/test/test-touchpad.c
+libinput-1.30.1/test/test-trackball.c
+libinput-1.30.1/test/test-trackpoint.c
+libinput-1.30.1/test/test-udev.c
+libinput-1.30.1/test/test-util-includes.c.in
+libinput-1.30.1/test/test-utils.c
+libinput-1.30.1/test/test_quirks_files.py
+libinput-1.30.1/test/valgrind.suppressions
+libinput-1.30.1/tools/
+libinput-1.30.1/tools/libinput-analyze-buttons.man
+libinput-1.30.1/tools/libinput-analyze-buttons.py
+libinput-1.30.1/tools/libinput-analyze-per-slot-delta.man
+libinput-1.30.1/tools/libinput-analyze-per-slot-delta.py
+libinput-1.30.1/tools/libinput-analyze-recording.man
+libinput-1.30.1/tools/libinput-analyze-recording.py
+libinput-1.30.1/tools/libinput-analyze-touch-down-state.man
+libinput-1.30.1/tools/libinput-analyze-touch-down-state.py
+libinput-1.30.1/tools/libinput-analyze.c
+libinput-1.30.1/tools/libinput-analyze.man
+libinput-1.30.1/tools/libinput-debug-events.c
+libinput-1.30.1/tools/libinput-debug-events.man
+libinput-1.30.1/tools/libinput-debug-gui.c
+libinput-1.30.1/tools/libinput-debug-gui.man
+libinput-1.30.1/tools/libinput-debug-tablet-pad.c
+libinput-1.30.1/tools/libinput-debug-tablet-pad.man
+libinput-1.30.1/tools/libinput-debug-tablet.c
+libinput-1.30.1/tools/libinput-debug-tablet.man
+libinput-1.30.1/tools/libinput-list-devices.c
+libinput-1.30.1/tools/libinput-list-devices.man
+libinput-1.30.1/tools/libinput-list-kernel-devices.man
+libinput-1.30.1/tools/libinput-list-kernel-devices.py
+libinput-1.30.1/tools/libinput-measure-fuzz.man
+libinput-1.30.1/tools/libinput-measure-fuzz.py
+libinput-1.30.1/tools/libinput-measure-touch-size.man
+libinput-1.30.1/tools/libinput-measure-touch-size.py
+libinput-1.30.1/tools/libinput-measure-touchpad-pressure.man
+libinput-1.30.1/tools/libinput-measure-touchpad-pressure.py
+libinput-1.30.1/tools/libinput-measure-touchpad-size.man
+libinput-1.30.1/tools/libinput-measure-touchpad-size.py
+libinput-1.30.1/tools/libinput-measure-touchpad-tap.man
+libinput-1.30.1/tools/libinput-measure-touchpad-tap.py
+libinput-1.30.1/tools/libinput-measure.c
+libinput-1.30.1/tools/libinput-measure.man
+libinput-1.30.1/tools/libinput-quirks.c
+libinput-1.30.1/tools/libinput-quirks.man
+libinput-1.30.1/tools/libinput-record-verify-yaml.py
+libinput-1.30.1/tools/libinput-record.c
+libinput-1.30.1/tools/libinput-record.man
+libinput-1.30.1/tools/libinput-replay.man
+libinput-1.30.1/tools/libinput-replay.py
+libinput-1.30.1/tools/libinput-test.c
+libinput-1.30.1/tools/libinput-test.man
+libinput-1.30.1/tools/libinput-tool.c
+libinput-1.30.1/tools/libinput.man
+libinput-1.30.1/tools/make-ptraccel-graphs.sh
+libinput-1.30.1/tools/ptraccel-debug.c
+libinput-1.30.1/tools/razer-quirks-lister.py
+libinput-1.30.1/tools/shared.c
+libinput-1.30.1/tools/shared.h
+libinput-1.30.1/tools/test_tool_option_parsing.py
+libinput-1.30.1/udev/
+libinput-1.30.1/udev/80-libinput-device-groups.rules.in
+libinput-1.30.1/udev/90-libinput-fuzz-override.rules.in
+libinput-1.30.1/udev/libinput-device-group.c
+libinput-1.30.1/udev/libinput-fuzz-extract.c
+libinput-1.30.1/udev/libinput-fuzz-to-zero.c
+The Meson build system
+Version: 1.9.2
+Source dir: /blfs/builds/libinput-1.30.1
+Build dir: /blfs/builds/libinput-1.30.1/build
+Build type: native build
+Project name: libinput
+Project version: 1.30.1
+C compiler for the host machine: cc (gcc 15.2.0 "cc (GCC) 15.2.0")
+C linker for the host machine: cc ld.bfd 2.45
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Compiler for C supports arguments -Wno-error=deprecated-declarations: YES 
+Compiler for C supports arguments -Wno-unused-parameter: YES 
+Compiler for C supports arguments -Wmissing-prototypes: YES 
+Compiler for C supports arguments -Wstrict-prototypes: YES 
+Compiler for C supports arguments -Wundef: YES 
+Compiler for C supports arguments -Wlogical-op: YES 
+Compiler for C supports arguments -Wpointer-arith: YES 
+Compiler for C supports arguments -Wuninitialized: YES 
+Compiler for C supports arguments -Winit-self: YES 
+Compiler for C supports arguments -Wstrict-prototypes: YES (cached)
+Compiler for C supports arguments -Wimplicit-fallthrough: YES 
+Compiler for C supports arguments -Wredundant-decls: YES 
+Compiler for C supports arguments -Wincompatible-pointer-types: YES 
+Compiler for C supports arguments -Wformat=2: YES 
+Compiler for C supports arguments -Wno-missing-field-initializers: YES 
+Compiler for C supports arguments -Wmissing-declarations: YES 
+Compiler for C supports arguments -fvisibility=hidden: YES 
+Fetching value of define "static_assert" : _Static_assert 
+Header "dirent.h" has symbol "versionsort" : YES 
+Fetching value of define "SYS_pidfd_open" : 434 
+Checking for function "sigabbrev_np" : YES 
+Header "errno.h" has symbol "program_invocation_short_name" : YES 
+Has header "xlocale.h" : NO 
+Checking if "has C23 auto keyword" compiles: NO 
+Checking if "locale.h" links: YES 
+Header "sys/ptrace.h" has symbol "PTRACE_ATTACH" : YES 
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Run-time dependency libudev found: YES 258
+Run-time dependency libevdev found: YES 1.13.6
+Library m found: YES
+Library rt found: YES
+Found CMake: /usr/bin/cmake (4.2.0)
+Run-time dependency lua-5.4 found: NO (tried pkgconfig and cmake)
+Run-time dependency lua5.4 found: NO (tried pkgconfig and cmake)
+Run-time dependency lua found: YES 5.4.6
+Run-time dependency mtdev found: YES 1.1.7
+Configuring 80-libinput-device-groups.rules using configuration
+Configuring 90-libinput-fuzz-override.rules using configuration
+Configuring 80-libinput-device-groups-litest.rules using configuration
+Configuring 90-libinput-fuzz-override-litest.rules using configuration
+Header "sys/epoll.h" has symbol "epoll_create1" : YES 
+Configuring test-util-includes-util-backtrace.h.c using configuration
+Configuring test-util-includes-util-bits.h.c using configuration
+Configuring test-util-includes-util-input-event.h.c using configuration
+Configuring test-util-includes-util-list.h.c using configuration
+Configuring test-util-includes-util-files.h.c using configuration
+Configuring test-util-includes-util-macros.h.c using configuration
+Configuring test-util-includes-util-matrix.h.c using configuration
+Configuring test-util-includes-util-prop-parsers.h.c using configuration
+Configuring test-util-includes-util-ratelimit.h.c using configuration
+Configuring test-util-includes-util-stringbuf.h.c using configuration
+Configuring test-util-includes-util-strings.h.c using configuration
+Configuring test-util-includes-util-time.h.c using configuration
+Configuring libinput-version.h using configuration
+Program test/test_quirks_files.py found: YES (/blfs/builds/libinput-1.30.1/test/test_quirks_files.py)
+Program test/helper-copy-and-exec-from-tmp.sh found: YES (/blfs/builds/libinput-1.30.1/test/helper-copy-and-exec-from-tmp.sh)
+Program test/symbols-leak-test found: YES (/blfs/builds/libinput-1.30.1/test/symbols-leak-test)
+C++ compiler for the host machine: c++ (gcc 15.2.0 "c++ (GCC) 15.2.0")
+C++ linker for the host machine: c++ ld.bfd 2.45
+Configuring libinput.1 using configuration
+Configuring libinput-analyze.1 using configuration
+Configuring libinput-analyze-buttons.1 using configuration
+Configuring libinput-analyze-per-slot-delta.1 using configuration
+Configuring libinput-analyze-recording.1 using configuration
+Configuring libinput-analyze-touch-down-state.1 using configuration
+Configuring libinput-debug-events.1 using configuration
+Configuring libinput-debug-tablet.1 using configuration
+Configuring libinput-debug-tablet-pad.1 using configuration
+Configuring libinput-list-devices.1 using configuration
+Configuring libinput-list-kernel-devices.1 using configuration
+Configuring libinput-measure.1 using configuration
+Configuring libinput-measure-fuzz.1 using configuration
+Configuring libinput-measure-touchpad-size.1 using configuration
+Configuring libinput-measure-touchpad-tap.1 using configuration
+Configuring libinput-measure-touchpad-pressure.1 using configuration
+Configuring libinput-measure-touch-size.1 using configuration
+Configuring libinput-quirks.1 using configuration
+Configuring libinput-record.1 using configuration
+Configuring libinput-replay.1 using configuration
+Configuring libinput-test.1 using configuration
+Configuring libinput-quirks-list.1 using configuration
+Configuring libinput-quirks-validate.1 using configuration
+Configuring config.h using configuration
+Build targets in project: 47
+
+libinput 1.30.1
+
+  Plugins
+    Plugins enabled   : YES
+    Autoload plugins  : NO
+    Lua Plugin support: YES
+
+  User defined options
+    buildtype         : release
+    debug-gui         : false
+    libwacom          : false
+    prefix            : /usr
+    tests             : false
+    udev-dir          : /usr/lib/udev
+
+Found ninja-1.13.2 at /usr/bin/ninja
+[1/141] Compiling C object liblibinput-util.a.p/src_util-ratelimit.c.o
+[2/141] Compiling C object liblibinput-util.a.p/src_util-list.c.o
+[3/141] Compiling C object libinput.so.10.13.0.p/src_filter-low-dpi.c.o
+[4/141] Compiling C object libinput.so.10.13.0.p/src_filter-touchpad.c.o
+[5/141] Compiling C object libinput.so.10.13.0.p/src_filter-mouse.c.o
+[6/141] Compiling C object libinput.so.10.13.0.p/src_filter.c.o
+[7/141] Compiling C object libinput.so.10.13.0.p/src_filter-custom.c.o
+[8/141] Compiling C object libinput.so.10.13.0.p/src_filter-touchpad-flat.c.o
+[9/141] Compiling C object liblibinput-util.a.p/src_util-prop-parsers.c.o
+[10/141] Compiling C object libinput.so.10.13.0.p/src_filter-tablet.c.o
+[11/141] Compiling C object liblibinput-util.a.p/src_util-files.c.o
+[12/141] Compiling C object libinput.so.10.13.0.p/src_filter-flat.c.o
+[13/141] Compiling C object liblibinput-util.a.p/src_util-strings.c.o
+[14/141] Linking static target liblibinput-util.a
+[15/141] Compiling C object libinput.so.10.13.0.p/src_filter-trackpoint.c.o
+[16/141] Compiling C object libinput.so.10.13.0.p/src_filter-touchpad-x230.c.o
+[17/141] Compiling C object libinput.so.10.13.0.p/src_filter-trackpoint-flat.c.o
+[18/141] Compiling C object libinput.so.10.13.0.p/src_libinput-private-config.c.o
+[19/141] Compiling C object libinput.so.10.13.0.p/src_libinput-plugin-tablet-forced-tool.c.o
+[20/141] Compiling C object libinput.so.10.13.0.p/src_libinput-plugin-tablet-double-tool.c.o
+[21/141] Compiling C object libinput.so.10.13.0.p/src_libinput-plugin-mouse-wheel-lowres.c.o
+[22/141] Compiling C object libinput.so.10.13.0.p/src_evdev-plugin.c.o
+[23/141] Compiling C object libinput.so.10.13.0.p/src_libinput-plugin-tablet-proximity-timer.c.o
+[24/141] Compiling C object libinput.so.10.13.0.p/src_libinput-plugin-mouse-wheel.c.o
+[25/141] Compiling C object libinput.so.10.13.0.p/src_libinput-plugin-tablet-eraser-button.c.o
+[26/141] Compiling C object libinput.so.10.13.0.p/src_libinput-plugin-button-debounce.c.o
+[27/141] Compiling C object libquirks.a.p/src_quirks.c.o
+[28/141] Linking static target libquirks.a
+[29/141] Compiling C object libinput.so.10.13.0.p/src_evdev-middle-button.c.o
+[30/141] Compiling C object libinput.so.10.13.0.p/src_libinput-plugin.c.o
+[31/141] Compiling C object libinput.so.10.13.0.p/src_evdev-mt-touchpad-thumb.c.o
+[32/141] Compiling C object libinput.so.10.13.0.p/src_evdev-mt-touchpad-edge-scroll.c.o
+[33/141] Compiling C object libinput.so.10.13.0.p/src_evdev-totem.c.o
+[34/141] Compiling C object libinput.so.10.13.0.p/src_evdev-fallback.c.o
+[35/141] Compiling C object libinput.so.10.13.0.p/src_evdev-tablet-pad-leds.c.o
+[36/141] Compiling C object libinput.so.10.13.0.p/src_evdev-mt-touchpad-buttons.c.o
+[37/141] Compiling C object libinput.so.10.13.0.p/src_path-seat.c.o
+[38/141] Compiling C object libinput.so.10.13.0.p/src_evdev-tablet-pad.c.o
+[39/141] Compiling C object libinput.so.10.13.0.p/src_evdev-mt-touchpad-tap.c.o
+[40/141] Compiling C object libinput.so.10.13.0.p/src_timer.c.o
+[41/141] Compiling C object libinput.so.10.13.0.p/src_evdev.c.o
+[42/141] Compiling C object libinput.so.10.13.0.p/src_evdev-mt-touchpad-gestures.c.o
+[43/141] Compiling C object libinput.so.10.13.0.p/src_udev-seat.c.o
+[44/141] Compiling C object libinput.so.10.13.0.p/src_libinput-plugin-mtdev.c.o
+[45/141] Compiling C object libfilter.a.p/src_filter-flat.c.o
+[46/141] Compiling C object libinput.so.10.13.0.p/src_evdev-tablet.c.o
+../src/evdev-tablet.c: In function ‘tablet_init’:
+../src/evdev-tablet.c:2947:26: warning: unused variable ‘li’ [-Wunused-variable]
+ 2947 |         struct libinput *li = evdev_libinput_context(device);
+      |                          ^~
+[47/141] Compiling C object libfilter.a.p/src_filter-custom.c.o
+[48/141] Compiling C object libfilter.a.p/src_filter.c.o
+[49/141] Compiling C object libfilter.a.p/src_filter-low-dpi.c.o
+[50/141] Compiling C object libfilter.a.p/src_filter-touchpad.c.o
+[51/141] Compiling C object libfilter.a.p/src_filter-touchpad-x230.c.o
+[52/141] Compiling C object libfilter.a.p/src_filter-touchpad-flat.c.o
+[53/141] Compiling C object libfilter.a.p/src_filter-mouse.c.o
+[54/141] Compiling C object libinput.so.10.13.0.p/src_util-libinput.c.o
+[55/141] Compiling C object libfilter.a.p/src_filter-tablet.c.o
+[56/141] Compiling C object libfilter.a.p/src_filter-trackpoint.c.o
+[57/141] Compiling C object libfilter.a.p/src_filter-trackpoint-flat.c.o
+[58/141] Compiling C object libinput-fuzz-extract.p/udev_libinput-fuzz-extract.c.o
+[59/141] Compiling C object libinput.so.10.13.0.p/src_libinput.c.o
+[60/141] Compiling C object test-build-util-bits.h.p/meson-generated_.._test-util-includes-util-bits.h.c.o
+[61/141] Compiling C object libinput.so.10.13.0.p/src_evdev-mt-touchpad.c.o
+[62/141] Compiling C object libinput-fuzz-to-zero.p/udev_libinput-fuzz-to-zero.c.o
+[63/141] Compiling C object test-build-util-input-event.h.p/meson-generated_.._test-util-includes-util-input-event.h.c.o
+[64/141] Compiling C object test-build-util-list.h.p/meson-generated_.._test-util-includes-util-list.h.c.o
+[65/141] Compiling C object libinput-device-group.p/udev_libinput-device-group.c.o
+[66/141] Compiling C object test-build-util-macros.h.p/meson-generated_.._test-util-includes-util-macros.h.c.o
+[67/141] Compiling C object test-build-util-prop-parsers.h.p/meson-generated_.._test-util-includes-util-prop-parsers.h.c.o
+[68/141] Compiling C object test-build-util-ratelimit.h.p/meson-generated_.._test-util-includes-util-ratelimit.h.c.o
+[69/141] Compiling C object test-build-util-backtrace.h.p/meson-generated_.._test-util-includes-util-backtrace.h.c.o
+[70/141] Compiling C object libinput.so.10.13.0.p/src_libinput-plugin-lua.c.o
+[71/141] Linking static target libfilter.a
+[72/141] Compiling C object libinput-fuzz-extract.p/src_util-strings.c.o
+[73/141] Generating libinput-git-version.h with a custom command
+[74/141] Compiling C object test-build-util-files.h.p/meson-generated_.._test-util-includes-util-files.h.c.o
+[75/141] Compiling C object test-build-util-stringbuf.h.p/meson-generated_.._test-util-includes-util-stringbuf.h.c.o
+[76/141] Compiling C object test-build-util-time.h.p/meson-generated_.._test-util-includes-util-time.h.c.o
+[77/141] Compiling C object test-build-util-matrix.h.p/meson-generated_.._test-util-includes-util-matrix.h.c.o
+[78/141] Compiling C object test-build-util-strings.h.p/meson-generated_.._test-util-includes-util-strings.h.c.o
+[79/141] Linking target libinput.so.10.13.0
+[80/141] Compiling C object libinput-fuzz-extract.p/src_util-prop-parsers.c.o
+[81/141] Compiling C object libtools_shared.a.p/tools_shared.c.o
+[82/141] Linking static target libtools_shared.a
+[83/141] Compiling C object libinput-measure.p/tools_libinput-measure.c.o
+[84/141] Compiling C object liblibinput-util-libinput.a.p/src_util-libinput.c.o
+[85/141] Linking static target liblibinput-util-libinput.a
+[86/141] Compiling C object libinput.p/tools_libinput-tool.c.o
+[87/141] Compiling C object libinput-debug-tablet-pad.p/tools_libinput-debug-tablet-pad.c.o
+[88/141] Compiling C object test-build-pedantic.p/test_build-pedantic.c.o
+[89/141] Compiling C object libinput-list-devices.p/tools_libinput-list-devices.c.o
+[90/141] Compiling C object libinput-quirks.p/tools_libinput-quirks.c.o
+[91/141] Compiling C object libinput-analyze.p/tools_libinput-analyze.c.o
+[92/141] Compiling C object libinput-debug-events.p/tools_libinput-debug-events.c.o
+[93/141] Compiling C object libinput-debug-tablet.p/tools_libinput-debug-tablet.c.o
+[94/141] Compiling C object test-build-linker.p/test_build-pedantic.c.o
+[95/141] Linking target test-build-util-bits.h
+[96/141] Linking target test-build-util-backtrace.h
+[97/141] Linking target libinput-device-group
+[98/141] Linking target libinput-fuzz-extract
+[99/141] Linking target libinput-fuzz-to-zero
+[100/141] Compiling C object test-build-std-gnuc90.p/test_build-pedantic.c.o
+[101/141] Compiling C object test-builddir-lookup.p/test_test-builddir-lookup.c.o
+[102/141] Compiling C object ptraccel-debug.p/tools_ptraccel-debug.c.o
+[103/141] Linking target test-build-util-list.h
+[104/141] Linking target test-build-util-input-event.h
+[105/141] Linking target test-build-util-files.h
+[106/141] Linking target test-build-util-matrix.h
+[107/141] Linking target test-build-util-macros.h
+[108/141] Linking target test-build-util-strings.h
+[109/141] Linking target test-build-util-prop-parsers.h
+[110/141] Linking target test-build-util-time.h
+[111/141] Linking target test-build-util-ratelimit.h
+[112/141] Linking target test-build-util-stringbuf.h
+[113/141] Compiling C object libinput-test.p/tools_libinput-test.c.o
+[114/141] Generating symbol file libinput.so.10.13.0.p/libinput.so.10.13.0.symbols
+[115/141] Compiling C++ object test-build-cxx.p/test_build-cxx.cc.o
+[116/141] Linking target libinput-debug-events
+[117/141] Copying file plugins/10-dwt.lua
+[118/141] Copying file plugins/10-delay-motion.lua
+[119/141] Copying file plugins/10-pointer-go-faster.lua
+[120/141] Copying file plugins/10-logitech-mx-master-horiz-scroll.lua
+[121/141] Copying file plugins/10-pointer-go-slower.lua
+[122/141] Copying file plugins/10-example.lua
+[123/141] Copying file plugins/10-copilot-key-override.lua
+[124/141] Linking target libinput-measure
+[125/141] Linking target libinput-debug-tablet-pad
+[126/141] Linking target libinput-debug-tablet
+[127/141] Linking target libinput-quirks
+[128/141] Copying file plugins/10-wheel-to-button.lua
+[129/141] Linking target libinput
+[130/141] Copying file plugins/10-disable-feature.lua
+[131/141] Linking target test-build-pedantic
+[132/141] Linking target test-builddir-lookup
+[133/141] Linking target libinput-analyze
+[134/141] Linking target test-build-linker
+[135/141] Linking target libinput-list-devices
+[136/141] Linking target test-build-std-gnuc90
+[137/141] Linking target ptraccel-debug
+[138/141] Linking target test-build-cxx
+[139/141] Linking target libinput-test
+[140/141] Compiling C object libinput-record.p/tools_libinput-record.c.o
+[141/141] Linking target libinput-record
+[1/4] Generating libinput-git-version.h with a custom command
+[1/2] Installing files
+Installing subdir /blfs/builds/libinput-1.30.1/quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-lenovo.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-minisforum.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-logitech.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-ibm.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-graviton.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-trust.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-tongfang.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-icl.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-asus.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-acer.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-uniwill.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-huawei.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-framework.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-cyborg.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-huion.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-glorious.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-dell.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-apple.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-hp.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-lg.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-pine64.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-microsoft.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-nulea.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-aiptek.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-alps.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-vaio.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-toshiba.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-oracle.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-razer.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-cypress.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-contour.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-system76.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-sony.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-kensington.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-gpd.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-madcatz.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-vmware.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-gigabyte.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-a4tech.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-chicony.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-wacom.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/10-generic-trackball.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/10-generic-keyboard.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/10-generic-mouse.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-elantech.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-synaptics.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-chuwi.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-qemu.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-google.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-honor.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-ite.quirks to /pkgs/libinput/usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-starlabs.quirks to /pkgs/libinput/usr/share/libinput
+Installing libinput-device-group to /pkgs/libinput/usr/lib/udev
+Installing libinput-fuzz-extract to /pkgs/libinput/usr/lib/udev
+Installing libinput-fuzz-to-zero to /pkgs/libinput/usr/lib/udev
+Installing libinput.so.10.13.0 to /pkgs/libinput/usr/lib
+Installing libinput-debug-events to /pkgs/libinput/usr/libexec/libinput
+Installing libinput-debug-tablet to /pkgs/libinput/usr/libexec/libinput
+Installing libinput-debug-tablet-pad to /pkgs/libinput/usr/libexec/libinput
+Installing libinput-quirks to /pkgs/libinput/usr/libexec/libinput
+Installing libinput-list-devices to /pkgs/libinput/usr/libexec/libinput
+Installing libinput-measure to /pkgs/libinput/usr/libexec/libinput
+Installing libinput-analyze to /pkgs/libinput/usr/libexec/libinput
+Installing libinput-record to /pkgs/libinput/usr/libexec/libinput
+Installing libinput to /pkgs/libinput/usr/bin
+Installing libinput-test to /pkgs/libinput/usr/libexec/libinput
+Installing /blfs/builds/libinput-1.30.1/src/libinput.h to /pkgs/libinput/usr/include
+Installing new directory /pkgs/libinput/etc/libinput
+Installing /blfs/builds/libinput-1.30.1/build/80-libinput-device-groups.rules to /pkgs/libinput/usr/lib/udev/rules.d
+Installing /blfs/builds/libinput-1.30.1/build/90-libinput-fuzz-override.rules to /pkgs/libinput/usr/lib/udev/rules.d
+Installing /blfs/builds/libinput-1.30.1/build/meson-private/libinput.pc to /pkgs/libinput/usr/lib/pkgconfig
+Installing /blfs/builds/libinput-1.30.1/completion/zsh/_libinput to /pkgs/libinput/usr/share/zsh/site-functions
+Installing /blfs/builds/libinput-1.30.1/build/libinput-analyze-buttons to /pkgs/libinput/usr/libexec/libinput
+Installing /blfs/builds/libinput-1.30.1/build/libinput-analyze-per-slot-delta to /pkgs/libinput/usr/libexec/libinput
+Installing /blfs/builds/libinput-1.30.1/build/libinput-analyze-recording to /pkgs/libinput/usr/libexec/libinput
+Installing /blfs/builds/libinput-1.30.1/build/libinput-analyze-touch-down-state to /pkgs/libinput/usr/libexec/libinput
+Installing /blfs/builds/libinput-1.30.1/build/libinput-list-kernel-devices to /pkgs/libinput/usr/libexec/libinput
+Installing /blfs/builds/libinput-1.30.1/build/libinput-measure-fuzz to /pkgs/libinput/usr/libexec/libinput
+Installing /blfs/builds/libinput-1.30.1/build/libinput-measure-touchpad-size to /pkgs/libinput/usr/libexec/libinput
+Installing /blfs/builds/libinput-1.30.1/build/libinput-measure-touchpad-tap to /pkgs/libinput/usr/libexec/libinput
+Installing /blfs/builds/libinput-1.30.1/build/libinput-measure-touchpad-pressure to /pkgs/libinput/usr/libexec/libinput
+Installing /blfs/builds/libinput-1.30.1/build/libinput-measure-touch-size to /pkgs/libinput/usr/libexec/libinput
+Installing /blfs/builds/libinput-1.30.1/build/libinput-replay to /pkgs/libinput/usr/libexec/libinput
+Installing /blfs/builds/libinput-1.30.1/build/libinput.1 to /pkgs/libinput/usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-analyze.1 to /pkgs/libinput/usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-analyze-buttons.1 to /pkgs/libinput/usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-analyze-per-slot-delta.1 to /pkgs/libinput/usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-analyze-recording.1 to /pkgs/libinput/usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-analyze-touch-down-state.1 to /pkgs/libinput/usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-debug-events.1 to /pkgs/libinput/usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-debug-tablet.1 to /pkgs/libinput/usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-debug-tablet-pad.1 to /pkgs/libinput/usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-list-devices.1 to /pkgs/libinput/usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-list-kernel-devices.1 to /pkgs/libinput/usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-measure.1 to /pkgs/libinput/usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-measure-fuzz.1 to /pkgs/libinput/usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-measure-touchpad-size.1 to /pkgs/libinput/usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-measure-touchpad-tap.1 to /pkgs/libinput/usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-measure-touchpad-pressure.1 to /pkgs/libinput/usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-measure-touch-size.1 to /pkgs/libinput/usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-quirks.1 to /pkgs/libinput/usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-record.1 to /pkgs/libinput/usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-replay.1 to /pkgs/libinput/usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-test.1 to /pkgs/libinput/usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-quirks-list.1 to /pkgs/libinput/usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-quirks-validate.1 to /pkgs/libinput/usr/share/man/man1
+Installing symlink pointing to libinput.so.10.13.0 to /pkgs/libinput/usr/lib/libinput.so.10
+Installing symlink pointing to libinput.so.10 to /pkgs/libinput/usr/lib/libinput.so
+[1/4] Generating libinput-git-version.h with a custom command
+[1/2] Installing files
+Installing subdir /blfs/builds/libinput-1.30.1/quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-lenovo.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-minisforum.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-logitech.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-ibm.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-graviton.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-trust.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-tongfang.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-icl.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-asus.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-acer.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-uniwill.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-huawei.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-framework.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-cyborg.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-huion.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-glorious.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-dell.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-apple.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-hp.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-lg.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-pine64.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-microsoft.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-nulea.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-aiptek.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-alps.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-vaio.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-toshiba.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-oracle.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-razer.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-cypress.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-contour.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-system76.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-sony.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-kensington.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-gpd.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-madcatz.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-vmware.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-gigabyte.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-a4tech.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-chicony.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-wacom.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/10-generic-trackball.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/10-generic-keyboard.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/10-generic-mouse.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-elantech.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-synaptics.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-chuwi.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-qemu.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-google.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-honor.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/30-vendor-ite.quirks to /usr/share/libinput
+Installing /blfs/builds/libinput-1.30.1/quirks/50-system-starlabs.quirks to /usr/share/libinput
+Installing libinput-device-group to /usr/lib/udev
+Installing libinput-fuzz-extract to /usr/lib/udev
+Installing libinput-fuzz-to-zero to /usr/lib/udev
+Installing libinput.so.10.13.0 to /usr/lib
+Installing libinput-debug-events to /usr/libexec/libinput
+Installing libinput-debug-tablet to /usr/libexec/libinput
+Installing libinput-debug-tablet-pad to /usr/libexec/libinput
+Installing libinput-quirks to /usr/libexec/libinput
+Installing libinput-list-devices to /usr/libexec/libinput
+Installing libinput-measure to /usr/libexec/libinput
+Installing libinput-analyze to /usr/libexec/libinput
+Installing libinput-record to /usr/libexec/libinput
+Installing libinput to /usr/bin
+Installing libinput-test to /usr/libexec/libinput
+Installing /blfs/builds/libinput-1.30.1/src/libinput.h to /usr/include
+Installing new directory /etc/libinput
+Installing /blfs/builds/libinput-1.30.1/build/80-libinput-device-groups.rules to /usr/lib/udev/rules.d
+Installing /blfs/builds/libinput-1.30.1/build/90-libinput-fuzz-override.rules to /usr/lib/udev/rules.d
+Installing /blfs/builds/libinput-1.30.1/build/meson-private/libinput.pc to /usr/lib/pkgconfig
+Installing /blfs/builds/libinput-1.30.1/completion/zsh/_libinput to /usr/share/zsh/site-functions
+Installing /blfs/builds/libinput-1.30.1/build/libinput-analyze-buttons to /usr/libexec/libinput
+Installing /blfs/builds/libinput-1.30.1/build/libinput-analyze-per-slot-delta to /usr/libexec/libinput
+Installing /blfs/builds/libinput-1.30.1/build/libinput-analyze-recording to /usr/libexec/libinput
+Installing /blfs/builds/libinput-1.30.1/build/libinput-analyze-touch-down-state to /usr/libexec/libinput
+Installing /blfs/builds/libinput-1.30.1/build/libinput-list-kernel-devices to /usr/libexec/libinput
+Installing /blfs/builds/libinput-1.30.1/build/libinput-measure-fuzz to /usr/libexec/libinput
+Installing /blfs/builds/libinput-1.30.1/build/libinput-measure-touchpad-size to /usr/libexec/libinput
+Installing /blfs/builds/libinput-1.30.1/build/libinput-measure-touchpad-tap to /usr/libexec/libinput
+Installing /blfs/builds/libinput-1.30.1/build/libinput-measure-touchpad-pressure to /usr/libexec/libinput
+Installing /blfs/builds/libinput-1.30.1/build/libinput-measure-touch-size to /usr/libexec/libinput
+Installing /blfs/builds/libinput-1.30.1/build/libinput-replay to /usr/libexec/libinput
+Installing /blfs/builds/libinput-1.30.1/build/libinput.1 to /usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-analyze.1 to /usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-analyze-buttons.1 to /usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-analyze-per-slot-delta.1 to /usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-analyze-recording.1 to /usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-analyze-touch-down-state.1 to /usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-debug-events.1 to /usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-debug-tablet.1 to /usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-debug-tablet-pad.1 to /usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-list-devices.1 to /usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-list-kernel-devices.1 to /usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-measure.1 to /usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-measure-fuzz.1 to /usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-measure-touchpad-size.1 to /usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-measure-touchpad-tap.1 to /usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-measure-touchpad-pressure.1 to /usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-measure-touch-size.1 to /usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-quirks.1 to /usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-record.1 to /usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-replay.1 to /usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-test.1 to /usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-quirks-list.1 to /usr/share/man/man1
+Installing /blfs/builds/libinput-1.30.1/build/libinput-quirks-validate.1 to /usr/share/man/man1
+Installing symlink pointing to libinput.so.10.13.0 to /usr/lib/libinput.so.10
+Installing symlink pointing to libinput.so.10 to /usr/lib/libinput.so
+libinput/
+libinput/usr/
+libinput/usr/include/
+libinput/usr/include/libinput.h
+libinput/usr/share/
+libinput/usr/share/libinput/
+libinput/usr/share/libinput/50-system-lenovo.quirks
+libinput/usr/share/libinput/50-system-minisforum.quirks
+libinput/usr/share/libinput/30-vendor-logitech.quirks
+libinput/usr/share/libinput/30-vendor-ibm.quirks
+libinput/usr/share/libinput/50-system-graviton.quirks
+libinput/usr/share/libinput/30-vendor-trust.quirks
+libinput/usr/share/libinput/50-system-tongfang.quirks
+libinput/usr/share/libinput/50-system-icl.quirks
+libinput/usr/share/libinput/50-system-asus.quirks
+libinput/usr/share/libinput/50-system-acer.quirks
+libinput/usr/share/libinput/30-vendor-uniwill.quirks
+libinput/usr/share/libinput/50-system-huawei.quirks
+libinput/usr/share/libinput/50-system-framework.quirks
+libinput/usr/share/libinput/50-system-cyborg.quirks
+libinput/usr/share/libinput/30-vendor-huion.quirks
+libinput/usr/share/libinput/30-vendor-glorious.quirks
+libinput/usr/share/libinput/50-system-dell.quirks
+libinput/usr/share/libinput/50-system-apple.quirks
+libinput/usr/share/libinput/50-system-hp.quirks
+libinput/usr/share/libinput/50-system-lg.quirks
+libinput/usr/share/libinput/50-system-pine64.quirks
+libinput/usr/share/libinput/30-vendor-microsoft.quirks
+libinput/usr/share/libinput/30-vendor-nulea.quirks
+libinput/usr/share/libinput/30-vendor-aiptek.quirks
+libinput/usr/share/libinput/30-vendor-alps.quirks
+libinput/usr/share/libinput/50-system-vaio.quirks
+libinput/usr/share/libinput/50-system-toshiba.quirks
+libinput/usr/share/libinput/30-vendor-oracle.quirks
+libinput/usr/share/libinput/30-vendor-razer.quirks
+libinput/usr/share/libinput/30-vendor-cypress.quirks
+libinput/usr/share/libinput/30-vendor-contour.quirks
+libinput/usr/share/libinput/50-system-system76.quirks
+libinput/usr/share/libinput/50-system-sony.quirks
+libinput/usr/share/libinput/30-vendor-kensington.quirks
+libinput/usr/share/libinput/50-system-gpd.quirks
+libinput/usr/share/libinput/30-vendor-madcatz.quirks
+libinput/usr/share/libinput/30-vendor-vmware.quirks
+libinput/usr/share/libinput/50-system-gigabyte.quirks
+libinput/usr/share/libinput/30-vendor-a4tech.quirks
+libinput/usr/share/libinput/50-system-chicony.quirks
+libinput/usr/share/libinput/30-vendor-wacom.quirks
+libinput/usr/share/libinput/10-generic-trackball.quirks
+libinput/usr/share/libinput/10-generic-keyboard.quirks
+libinput/usr/share/libinput/10-generic-mouse.quirks
+libinput/usr/share/libinput/30-vendor-elantech.quirks
+libinput/usr/share/libinput/30-vendor-synaptics.quirks
+libinput/usr/share/libinput/50-system-chuwi.quirks
+libinput/usr/share/libinput/30-vendor-qemu.quirks
+libinput/usr/share/libinput/50-system-google.quirks
+libinput/usr/share/libinput/50-system-honor.quirks
+libinput/usr/share/libinput/30-vendor-ite.quirks
+libinput/usr/share/libinput/50-system-starlabs.quirks
+libinput/usr/share/zsh/
+libinput/usr/share/zsh/site-functions/
+libinput/usr/share/zsh/site-functions/_libinput
+libinput/usr/share/man/
+libinput/usr/share/man/man1/
+libinput/usr/share/man/man1/libinput-list-devices.1
+libinput/usr/share/man/man1/libinput.1
+libinput/usr/share/man/man1/libinput-quirks-validate.1
+libinput/usr/share/man/man1/libinput-list-kernel-devices.1
+libinput/usr/share/man/man1/libinput-analyze.1
+libinput/usr/share/man/man1/libinput-measure-fuzz.1
+libinput/usr/share/man/man1/libinput-test.1
+libinput/usr/share/man/man1/libinput-measure-touchpad-size.1
+libinput/usr/share/man/man1/libinput-measure-touchpad-pressure.1
+libinput/usr/share/man/man1/libinput-analyze-per-slot-delta.1
+libinput/usr/share/man/man1/libinput-analyze-buttons.1
+libinput/usr/share/man/man1/libinput-replay.1
+libinput/usr/share/man/man1/libinput-analyze-touch-down-state.1
+libinput/usr/share/man/man1/libinput-analyze-recording.1
+libinput/usr/share/man/man1/libinput-measure.1
+libinput/usr/share/man/man1/libinput-debug-tablet-pad.1
+libinput/usr/share/man/man1/libinput-record.1
+libinput/usr/share/man/man1/libinput-debug-events.1
+libinput/usr/share/man/man1/libinput-quirks-list.1
+libinput/usr/share/man/man1/libinput-measure-touch-size.1
+libinput/usr/share/man/man1/libinput-measure-touchpad-tap.1
+libinput/usr/share/man/man1/libinput-debug-tablet.1
+libinput/usr/share/man/man1/libinput-quirks.1
+libinput/usr/libexec/
+libinput/usr/libexec/libinput/
+libinput/usr/libexec/libinput/libinput-list-devices
+libinput/usr/libexec/libinput/libinput-test
+libinput/usr/libexec/libinput/libinput-measure
+libinput/usr/libexec/libinput/libinput-measure-fuzz
+libinput/usr/libexec/libinput/libinput-replay
+libinput/usr/libexec/libinput/libinput-measure-touch-size
+libinput/usr/libexec/libinput/libinput-measure-touchpad-tap
+libinput/usr/libexec/libinput/libinput-analyze-recording
+libinput/usr/libexec/libinput/libinput-measure-touchpad-pressure
+libinput/usr/libexec/libinput/libinput-debug-tablet
+libinput/usr/libexec/libinput/libinput-quirks
+libinput/usr/libexec/libinput/libinput-list-kernel-devices
+libinput/usr/libexec/libinput/libinput-analyze-touch-down-state
+libinput/usr/libexec/libinput/libinput-measure-touchpad-size
+libinput/usr/libexec/libinput/libinput-debug-tablet-pad
+libinput/usr/libexec/libinput/libinput-debug-events
+libinput/usr/libexec/libinput/libinput-analyze-per-slot-delta
+libinput/usr/libexec/libinput/libinput-analyze-buttons
+libinput/usr/libexec/libinput/libinput-analyze
+libinput/usr/libexec/libinput/libinput-record
+libinput/usr/bin/
+libinput/usr/bin/libinput
+libinput/usr/lib/
+libinput/usr/lib/libinput.so.10.13.0
+libinput/usr/lib/udev/
+libinput/usr/lib/udev/libinput-device-group
+libinput/usr/lib/udev/libinput-fuzz-to-zero
+libinput/usr/lib/udev/libinput-fuzz-extract
+libinput/usr/lib/udev/rules.d/
+libinput/usr/lib/udev/rules.d/80-libinput-device-groups.rules
+libinput/usr/lib/udev/rules.d/90-libinput-fuzz-override.rules
+libinput/usr/lib/pkgconfig/
+libinput/usr/lib/pkgconfig/libinput.pc
+libinput/usr/lib/libinput.so.10
+libinput/usr/lib/libinput.so
+libinput/etc/
+libinput/etc/libinput/
+libinput/version
+libinput/depends

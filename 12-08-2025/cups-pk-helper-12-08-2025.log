@@ -1,0 +1,813 @@
+--2025-12-08 08:26:04--  https://www.freedesktop.org/software/cups-pk-helper/releases/cups-pk-helper-0.2.7.tar.xz
+Resolving www.freedesktop.org (www.freedesktop.org)... 131.252.210.176
+Connecting to www.freedesktop.org (www.freedesktop.org)|131.252.210.176|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 54500 (53K) [application/x-xz]
+Saving to: ‘cups-pk-helper-0.2.7.tar.xz’
+
+     0K .......... .......... .......... .......... .......... 93%  372K 0s
+    50K ...                                                   100% 6.00T=0.1s
+
+2025-12-08 08:26:05 (395 KB/s) - ‘cups-pk-helper-0.2.7.tar.xz’ saved [54500/54500]
+
+cups-pk-helper-0.2.7/
+cups-pk-helper-0.2.7/AUTHORS
+cups-pk-helper-0.2.7/COPYING
+cups-pk-helper-0.2.7/ChangeLog
+cups-pk-helper-0.2.7/HACKING
+cups-pk-helper-0.2.7/NEWS
+cups-pk-helper-0.2.7/README
+cups-pk-helper-0.2.7/cups-pk-helper.doap
+cups-pk-helper-0.2.7/meson.build
+cups-pk-helper-0.2.7/po/
+cups-pk-helper-0.2.7/po/ChangeLog
+cups-pk-helper-0.2.7/po/LINGUAS
+cups-pk-helper-0.2.7/po/POTFILES.in
+cups-pk-helper-0.2.7/po/POTFILES.skip
+cups-pk-helper-0.2.7/po/af.po
+cups-pk-helper-0.2.7/po/ast.po
+cups-pk-helper-0.2.7/po/ca.po
+cups-pk-helper-0.2.7/po/cs.po
+cups-pk-helper-0.2.7/po/cups-pk-helper.pot
+cups-pk-helper-0.2.7/po/da.po
+cups-pk-helper-0.2.7/po/de.po
+cups-pk-helper-0.2.7/po/en.po
+cups-pk-helper-0.2.7/po/en_GB.po
+cups-pk-helper-0.2.7/po/eo.po
+cups-pk-helper-0.2.7/po/es.po
+cups-pk-helper-0.2.7/po/et.po
+cups-pk-helper-0.2.7/po/eu.po
+cups-pk-helper-0.2.7/po/fi.po
+cups-pk-helper-0.2.7/po/fr.po
+cups-pk-helper-0.2.7/po/fur.po
+cups-pk-helper-0.2.7/po/gl.po
+cups-pk-helper-0.2.7/po/he.po
+cups-pk-helper-0.2.7/po/hr.po
+cups-pk-helper-0.2.7/po/hu.po
+cups-pk-helper-0.2.7/po/ia.po
+cups-pk-helper-0.2.7/po/id.po
+cups-pk-helper-0.2.7/po/it.po
+cups-pk-helper-0.2.7/po/ja.po
+cups-pk-helper-0.2.7/po/ka.po
+cups-pk-helper-0.2.7/po/kk.po
+cups-pk-helper-0.2.7/po/ko.po
+cups-pk-helper-0.2.7/po/lt.po
+cups-pk-helper-0.2.7/po/lv.po
+cups-pk-helper-0.2.7/po/meson.build
+cups-pk-helper-0.2.7/po/nl.po
+cups-pk-helper-0.2.7/po/oc.po
+cups-pk-helper-0.2.7/po/pl.po
+cups-pk-helper-0.2.7/po/pt.po
+cups-pk-helper-0.2.7/po/pt_BR.po
+cups-pk-helper-0.2.7/po/ru.po
+cups-pk-helper-0.2.7/po/si.po
+cups-pk-helper-0.2.7/po/sk.po
+cups-pk-helper-0.2.7/po/sl.po
+cups-pk-helper-0.2.7/po/sr.po
+cups-pk-helper-0.2.7/po/sv.po
+cups-pk-helper-0.2.7/po/tr.po
+cups-pk-helper-0.2.7/po/uk.po
+cups-pk-helper-0.2.7/po/zh_CN.po
+cups-pk-helper-0.2.7/po/zh_TW.po
+cups-pk-helper-0.2.7/src/
+cups-pk-helper-0.2.7/src/cups-pk-helper-mechanism.c
+cups-pk-helper-0.2.7/src/cups-pk-helper-mechanism.h
+cups-pk-helper-0.2.7/src/cups-pk-helper-mechanism.xml
+cups-pk-helper-0.2.7/src/cups.c
+cups-pk-helper-0.2.7/src/cups.h
+cups-pk-helper-0.2.7/src/main.c
+cups-pk-helper-0.2.7/src/meson.build
+cups-pk-helper-0.2.7/src/org.opensuse.CupsPkHelper.Mechanism.conf
+cups-pk-helper-0.2.7/src/org.opensuse.CupsPkHelper.Mechanism.service.in
+cups-pk-helper-0.2.7/src/org.opensuse.cupspkhelper.mechanism.policy.in
+cups-pk-helper-0.2.7/src/test-cups-pk.c
+cups-pk-helper-0.2.7/src/test-cups-pk.py
+cups-pk-helper-0.2.7/src/test-cups.c
+The Meson build system
+Version: 1.9.2
+Source dir: /blfs/builds/cups-pk-helper-0.2.7
+Build dir: /blfs/builds/cups-pk-helper-0.2.7/build
+Build type: native build
+Project name: cups-pk-helper
+Project version: 0.2.7
+C compiler for the host machine: cc (gcc 15.2.0 "cc (GCC) 15.2.0")
+C linker for the host machine: cc ld.bfd 2.45
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Run-time dependency glib-2.0 found: YES 2.86.2
+Run-time dependency gio-2.0 found: YES 2.86.2
+Run-time dependency gio-unix-2.0 found: YES 2.86.2
+Run-time dependency gobject-2.0 found: YES 2.86.2
+Run-time dependency polkit-gobject-1 found: YES 126
+Run-time dependency cups found: YES 2.4.16
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Program msginit found: YES (/usr/bin/msginit)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program xgettext found: YES (/usr/bin/xgettext)
+Dependency gio-2.0 found: YES 2.86.2 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Configuring org.opensuse.CupsPkHelper.Mechanism.service using configuration
+Build targets in project: 52
+NOTICE: Future-deprecated features used:
+ * 0.56.0: {'meson.source_root'}
+
+cups-pk-helper 0.2.7
+
+  User defined options
+    prefix: /usr
+
+Found ninja-1.13.2 at /usr/bin/ninja
+[1/59] Building translation po/af/LC_MESSAGES/cups-pk-helper-af.mo
+[2/59] Building translation po/cs/LC_MESSAGES/cups-pk-helper-cs.mo
+[3/59] Building translation po/da/LC_MESSAGES/cups-pk-helper-da.mo
+[4/59] Building translation po/ast/LC_MESSAGES/cups-pk-helper-ast.mo
+[5/59] Building translation po/ca/LC_MESSAGES/cups-pk-helper-ca.mo
+[6/59] Building translation po/de/LC_MESSAGES/cups-pk-helper-de.mo
+[7/59] Building translation po/en/LC_MESSAGES/cups-pk-helper-en.mo
+[8/59] Building translation po/en_GB/LC_MESSAGES/cups-pk-helper-en_GB.mo
+[9/59] Building translation po/eo/LC_MESSAGES/cups-pk-helper-eo.mo
+[10/59] Building translation po/eu/LC_MESSAGES/cups-pk-helper-eu.mo
+[11/59] Building translation po/es/LC_MESSAGES/cups-pk-helper-es.mo
+[12/59] Building translation po/et/LC_MESSAGES/cups-pk-helper-et.mo
+[13/59] Building translation po/fr/LC_MESSAGES/cups-pk-helper-fr.mo
+[14/59] Building translation po/fi/LC_MESSAGES/cups-pk-helper-fi.mo
+[15/59] Building translation po/gl/LC_MESSAGES/cups-pk-helper-gl.mo
+[16/59] Building translation po/hr/LC_MESSAGES/cups-pk-helper-hr.mo
+[17/59] Building translation po/fur/LC_MESSAGES/cups-pk-helper-fur.mo
+[18/59] Building translation po/hu/LC_MESSAGES/cups-pk-helper-hu.mo
+[19/59] Building translation po/he/LC_MESSAGES/cups-pk-helper-he.mo
+[20/59] Building translation po/ia/LC_MESSAGES/cups-pk-helper-ia.mo
+[21/59] Building translation po/id/LC_MESSAGES/cups-pk-helper-id.mo
+[22/59] Building translation po/it/LC_MESSAGES/cups-pk-helper-it.mo
+[23/59] Building translation po/ja/LC_MESSAGES/cups-pk-helper-ja.mo
+[24/59] Building translation po/kk/LC_MESSAGES/cups-pk-helper-kk.mo
+[25/59] Building translation po/ko/LC_MESSAGES/cups-pk-helper-ko.mo
+[26/59] Building translation po/ka/LC_MESSAGES/cups-pk-helper-ka.mo
+[27/59] Building translation po/lt/LC_MESSAGES/cups-pk-helper-lt.mo
+[28/59] Building translation po/lv/LC_MESSAGES/cups-pk-helper-lv.mo
+[29/59] Building translation po/nl/LC_MESSAGES/cups-pk-helper-nl.mo
+[30/59] Building translation po/pt/LC_MESSAGES/cups-pk-helper-pt.mo
+[31/59] Building translation po/pt_BR/LC_MESSAGES/cups-pk-helper-pt_BR.mo
+[32/59] Building translation po/ru/LC_MESSAGES/cups-pk-helper-ru.mo
+[33/59] Building translation po/oc/LC_MESSAGES/cups-pk-helper-oc.mo
+[34/59] Building translation po/pl/LC_MESSAGES/cups-pk-helper-pl.mo
+[35/59] Building translation po/si/LC_MESSAGES/cups-pk-helper-si.mo
+[36/59] Building translation po/sk/LC_MESSAGES/cups-pk-helper-sk.mo
+[37/59] Building translation po/sr/LC_MESSAGES/cups-pk-helper-sr.mo
+[38/59] Building translation po/sv/LC_MESSAGES/cups-pk-helper-sv.mo
+[39/59] Building translation po/tr/LC_MESSAGES/cups-pk-helper-tr.mo
+[40/59] Building translation po/sl/LC_MESSAGES/cups-pk-helper-sl.mo
+[41/59] Building translation po/zh_TW/LC_MESSAGES/cups-pk-helper-zh_TW.mo
+[42/59] Building translation po/zh_CN/LC_MESSAGES/cups-pk-helper-zh_CN.mo
+[43/59] Building translation po/uk/LC_MESSAGES/cups-pk-helper-uk.mo
+[44/59] Generating gdbus source src/cph-iface-mechanism.c
+[45/59] Generating gdbus header src/cph-iface-mechanism.h
+[46/59] Merging translations for src/org.opensuse.cupspkhelper.mechanism.policy
+[47/59] Compiling C object src/test-cups.p/test-cups.c.o
+[48/59] Compiling C object src/test-cups-pk.p/test-cups-pk.c.o
+[49/59] Compiling C object src/cups-pk-helper-mechanism.p/main.c.o
+[50/59] Compiling C object src/cups-pk-helper-mechanism.p/cups-pk-helper-mechanism.c.o
+../src/cups-pk-helper-mechanism.c: In function ‘cph_mechanism_class_init’:
+../src/cups-pk-helper-mechanism.c:132:9: warning: ‘g_type_class_add_private’ is deprecated [-Wdeprecated-declarations]
+  132 |         g_type_class_add_private (klass, sizeof (CphMechanismPrivate));
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/glib-2.0/gobject/gobject.h:26,
+                 from /usr/include/glib-2.0/gobject/gbinding.h:31,
+                 from /usr/include/glib-2.0/glib-object.h:24,
+                 from ../src/cups-pk-helper-mechanism.c:43:
+/usr/include/glib-2.0/gobject/gtype.h:1503:10: note: declared here
+ 1503 | void     g_type_class_add_private       (gpointer                    g_class,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/lib/glib-2.0/include/glibconfig.h:9,
+                 from /usr/include/glib-2.0/glib/gtypes.h:34,
+                 from /usr/include/glib-2.0/glib/galloca.h:34,
+                 from /usr/include/glib-2.0/glib.h:32,
+                 from ../src/cups-pk-helper-mechanism.c:42:
+../src/cups-pk-helper-mechanism.c: In function ‘cph_mechanism_init’:
+/usr/include/glib-2.0/glib/gmacros.h:1301:33: warning: Deprecated pre-processor symbol: replace with "G_ADD_PRIVATE"
+ 1301 | #define _GLIB_GNUC_DO_PRAGMA(x) _Pragma(G_STRINGIFY (x))
+      |                                 ^~~~~~~
+/usr/include/glib-2.0/glib/gmacros.h:1304:3: note: in expansion of macro ‘_GLIB_GNUC_DO_PRAGMA’
+ 1304 |   _GLIB_GNUC_DO_PRAGMA(GCC warning G_STRINGIFY (Deprecated pre-processor symbol: replace with #f))
+      |   ^~~~~~~~~~~~~~~~~~~~
+/usr/include/glib-2.0/gobject/gobject-visibility.h:584:49: note: in expansion of macro ‘GLIB_DEPRECATED_MACRO_FOR’
+  584 | #define GOBJECT_DEPRECATED_MACRO_IN_2_58_FOR(f) GLIB_DEPRECATED_MACRO_FOR (f)
+      |                                                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/glib-2.0/gobject/gtype.h:688:145: note: in expansion of macro ‘GOBJECT_DEPRECATED_MACRO_IN_2_58_FOR’
+  688 | #define G_TYPE_INSTANCE_GET_PRIVATE(instance, g_type, c_type)   ((c_type*) g_type_instance_get_private ((GTypeInstance*) (instance), (g_type))) GOBJECT_DEPRECATED_MACRO_IN_2_58_FOR(G_ADD_PRIVATE)
+      |                                                                                                                                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/cups-pk-helper-mechanism.c:87:39: note: in expansion of macro ‘G_TYPE_INSTANCE_GET_PRIVATE’
+   87 | #define CPH_MECHANISM_GET_PRIVATE(o) (G_TYPE_INSTANCE_GET_PRIVATE ((o), CPH_TYPE_MECHANISM, CphMechanismPrivate))
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/cups-pk-helper-mechanism.c:162:27: note: in expansion of macro ‘CPH_MECHANISM_GET_PRIVATE’
+  162 |         mechanism->priv = CPH_MECHANISM_GET_PRIVATE (mechanism);
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~
+[51/59] Compiling C object src/test-cups.p/meson-generated_.._cph-iface-mechanism.c.o
+[52/59] Compiling C object src/test-cups-pk.p/meson-generated_.._cph-iface-mechanism.c.o
+[53/59] Compiling C object src/cups-pk-helper-mechanism.p/meson-generated_.._cph-iface-mechanism.c.o
+[54/59] Compiling C object src/test-cups-pk.p/cups.c.o
+../src/cups.c: In function ‘cph_cups_class_init’:
+../src/cups.c:144:9: warning: ‘g_type_class_add_private’ is deprecated [-Wdeprecated-declarations]
+  144 |         g_type_class_add_private (klass, sizeof (CphCupsPrivate));
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/glib-2.0/gobject/gobject.h:26,
+                 from /usr/include/glib-2.0/gobject/gbinding.h:31,
+                 from /usr/include/glib-2.0/glib-object.h:24,
+                 from ../src/cups.h:27,
+                 from ../src/cups.c:48:
+/usr/include/glib-2.0/gobject/gtype.h:1503:10: note: declared here
+ 1503 | void     g_type_class_add_private       (gpointer                    g_class,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~
+../src/cups.c: In function ‘cph_cups_constructor’:
+../src/cups.c:162:9: warning: ‘httpConnectEncrypt’ is deprecated: Use httpConnect2 instead. [-Wdeprecated-declarations]
+  162 |         cups->priv->connection = httpConnectEncrypt (cupsServer (),
+      |         ^~~~
+In file included from /usr/include/cups/ipp.h:19,
+                 from /usr/include/cups/cups.h:28,
+                 from /usr/include/cups/adminutil.h:19,
+                 from ../src/cups.c:42:
+/usr/include/cups/http.h:478:26: note: declared here
+  478 | extern http_t           *httpConnectEncrypt(const char *host, int port, http_encryption_t encryption) _CUPS_DEPRECATED_1_7_MSG("Use httpConnect2 instead.");
+      |                          ^~~~~~~~~~~~~~~~~~
+In file included from /usr/lib/glib-2.0/include/glibconfig.h:9,
+                 from /usr/include/glib-2.0/glib/gtypes.h:34,
+                 from /usr/include/glib-2.0/glib/galloca.h:34,
+                 from /usr/include/glib-2.0/glib.h:32,
+                 from ../src/cups.c:38:
+../src/cups.c: In function ‘cph_cups_init’:
+/usr/include/glib-2.0/glib/gmacros.h:1301:33: warning: Deprecated pre-processor symbol: replace with "G_ADD_PRIVATE"
+ 1301 | #define _GLIB_GNUC_DO_PRAGMA(x) _Pragma(G_STRINGIFY (x))
+      |                                 ^~~~~~~
+/usr/include/glib-2.0/glib/gmacros.h:1304:3: note: in expansion of macro ‘_GLIB_GNUC_DO_PRAGMA’
+ 1304 |   _GLIB_GNUC_DO_PRAGMA(GCC warning G_STRINGIFY (Deprecated pre-processor symbol: replace with #f))
+      |   ^~~~~~~~~~~~~~~~~~~~
+/usr/include/glib-2.0/gobject/gobject-visibility.h:584:49: note: in expansion of macro ‘GLIB_DEPRECATED_MACRO_FOR’
+  584 | #define GOBJECT_DEPRECATED_MACRO_IN_2_58_FOR(f) GLIB_DEPRECATED_MACRO_FOR (f)
+      |                                                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/glib-2.0/gobject/gtype.h:688:145: note: in expansion of macro ‘GOBJECT_DEPRECATED_MACRO_IN_2_58_FOR’
+  688 | #define G_TYPE_INSTANCE_GET_PRIVATE(instance, g_type, c_type)   ((c_type*) g_type_instance_get_private ((GTypeInstance*) (instance), (g_type))) GOBJECT_DEPRECATED_MACRO_IN_2_58_FOR(G_ADD_PRIVATE)
+      |                                                                                                                                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/cups.c:118:34: note: in expansion of macro ‘G_TYPE_INSTANCE_GET_PRIVATE’
+  118 | #define CPH_CUPS_GET_PRIVATE(o) (G_TYPE_INSTANCE_GET_PRIVATE ((o), CPH_TYPE_CUPS, CphCupsPrivate))
+      |                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/cups.c:178:22: note: in expansion of macro ‘CPH_CUPS_GET_PRIVATE’
+  178 |         cups->priv = CPH_CUPS_GET_PRIVATE (cups);
+      |                      ^~~~~~~~~~~~~~~~~~~~
+../src/cups.c: In function ‘cph_cups_reconnect’:
+../src/cups.c:192:17: warning: ‘httpReconnect’ is deprecated: Use httpReconnect2 instead. [-Wdeprecated-declarations]
+  192 |                 return_value = httpReconnect (cups->priv->connection);
+      |                 ^~~~~~~~~~~~
+/usr/include/cups/http.h:497:25: note: declared here
+  497 | extern int              httpReconnect(http_t *http) _CUPS_DEPRECATED_1_6_MSG("Use httpReconnect2 instead.");
+      |                         ^~~~~~~~~~~~~
+../src/cups.c: In function ‘_cph_cups_devices_get’:
+../src/cups.c:1523:9: warning: ‘cupsGetDevices’ is deprecated [-Wdeprecated-declarations]
+ 1523 |         retval = cupsGetDevices (cups->priv->connection,
+      |         ^~~~~~
+/usr/include/cups/adminutil.h:77:25: note: declared here
+   77 | extern ipp_status_t     cupsGetDevices(http_t *http, int timeout,
+      |                         ^~~~~~~~~~~~~~
+../src/cups.c: In function ‘cph_cups_printer_class_rename’:
+../src/cups.c:2105:9: warning: ‘cupsGetPPD’ is deprecated: Use cupsCopyDestInfo and friends instead. [-Wdeprecated-declarations]
+ 2105 |         ppd_link = cupsGetPPD (old_printer_name);
+      |         ^~~~~~~~
+In file included from ../src/cups.c:46:
+/usr/include/cups/ppd.h:359:26: note: declared here
+  359 | extern const char       *cupsGetPPD(const char *name) _CUPS_DEPRECATED_1_6_MSG("Use cupsCopyDestInfo and friends instead.");
+      |                          ^~~~~~~~~~
+../src/cups.c: In function ‘_cph_cups_prepare_ppd_for_options’:
+../src/cups.c:2509:9: warning: ‘ppdOpenFile’ is deprecated: Use cupsCopyDestInfo and friends instead. [-Wdeprecated-declarations]
+ 2509 |         ppd = ppdOpenFile (ppdfile);
+      |         ^~~
+/usr/include/cups/ppd.h:390:26: note: declared here
+  390 | extern ppd_file_t       *ppdOpenFile(const char *filename) _CUPS_DEPRECATED_1_6_MSG("Use cupsCopyDestInfo and friends instead.");
+      |                          ^~~~~~~~~~~
+../src/cups.c:2538:9: warning: ‘ppdMarkDefaults’ is deprecated: Use cupsCopyDestInfo and friends instead. [-Wdeprecated-declarations]
+ 2538 |         ppdMarkDefaults (ppd);
+      |         ^~~~~~~~~~~~~~~
+/usr/include/cups/ppd.h:385:25: note: declared here
+  385 | extern void             ppdMarkDefaults(ppd_file_t *ppd) _CUPS_DEPRECATED_1_6_MSG("Use cupsCopyDestInfo and friends instead.");
+      |                         ^~~~~~~~~~~~~~~
+../src/cups.c:2539:9: warning: ‘cupsMarkOptions’ is deprecated: Use cupsCopyDestInfo and friends instead. [-Wdeprecated-declarations]
+ 2539 |         cupsMarkOptions (ppd, num_options, options);
+      |         ^~~~~~~~~~~~~~~
+/usr/include/cups/ppd.h:363:25: note: declared here
+  363 | extern int              cupsMarkOptions(ppd_file_t *ppd, int num_options, cups_option_t *options) _CUPS_DEPRECATED_1_6_MSG("Use cupsCopyDestInfo and friends instead.");
+      |                         ^~~~~~~~~~~~~~~
+../src/cups.c:2570:33: warning: ‘ppdFindMarkedChoice’ is deprecated: Use cupsCopyDestInfo and friends instead. [-Wdeprecated-declarations]
+ 2570 |                                 choice = ppdFindMarkedChoice (ppd, "PageSize");
+      |                                 ^~~~~~
+/usr/include/cups/ppd.h:378:26: note: declared here
+  378 | extern ppd_choice_t     *ppdFindMarkedChoice(ppd_file_t *ppd,
+      |                          ^~~~~~~~~~~~~~~~~~~
+../src/cups.c:2572:41: warning: ‘ppdFindMarkedChoice’ is deprecated: Use cupsCopyDestInfo and friends instead. [-Wdeprecated-declarations]
+ 2572 |                                         choice = ppdFindMarkedChoice (ppd, "PageRegion");
+      |                                         ^~~~~~
+/usr/include/cups/ppd.h:378:26: note: declared here
+  378 | extern ppd_choice_t     *ppdFindMarkedChoice(ppd_file_t *ppd,
+      |                          ^~~~~~~~~~~~~~~~~~~
+../src/cups.c:2574:33: warning: ‘ppdFindMarkedChoice’ is deprecated: Use cupsCopyDestInfo and friends instead. [-Wdeprecated-declarations]
+ 2574 |                                 choice = ppdFindMarkedChoice (ppd, keyword);
+      |                                 ^~~~~~
+/usr/include/cups/ppd.h:378:26: note: declared here
+  378 | extern ppd_choice_t     *ppdFindMarkedChoice(ppd_file_t *ppd,
+      |                          ^~~~~~~~~~~~~~~~~~~
+../src/cups.c:2621:17: warning: ‘ppdClose’ is deprecated: Use cupsCopyDestInfo and friends instead. [-Wdeprecated-declarations]
+ 2621 |                 ppdClose (ppd);
+      |                 ^~~~~~~~
+/usr/include/cups/ppd.h:365:25: note: declared here
+  365 | extern void             ppdClose(ppd_file_t *ppd) _CUPS_DEPRECATED_1_6_MSG("Use cupsCopyDestInfo and friends instead.");
+      |                         ^~~~~~~~
+../src/cups.c: In function ‘cph_cups_printer_class_set_option’:
+../src/cups.c:2671:17: warning: ‘cupsGetPPD’ is deprecated: Use cupsCopyDestInfo and friends instead. [-Wdeprecated-declarations]
+ 2671 |                 ppdfile = g_strdup (cupsGetPPD (printer_name));
+      |                 ^~~~~~~
+/usr/include/cups/ppd.h:359:26: note: declared here
+  359 | extern const char       *cupsGetPPD(const char *name) _CUPS_DEPRECATED_1_6_MSG("Use cupsCopyDestInfo and friends instead.");
+      |                          ^~~~~~~~~~
+[55/59] Compiling C object src/test-cups.p/cups.c.o
+../src/cups.c: In function ‘cph_cups_class_init’:
+../src/cups.c:144:9: warning: ‘g_type_class_add_private’ is deprecated [-Wdeprecated-declarations]
+  144 |         g_type_class_add_private (klass, sizeof (CphCupsPrivate));
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/glib-2.0/gobject/gobject.h:26,
+                 from /usr/include/glib-2.0/gobject/gbinding.h:31,
+                 from /usr/include/glib-2.0/glib-object.h:24,
+                 from ../src/cups.h:27,
+                 from ../src/cups.c:48:
+/usr/include/glib-2.0/gobject/gtype.h:1503:10: note: declared here
+ 1503 | void     g_type_class_add_private       (gpointer                    g_class,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~
+../src/cups.c: In function ‘cph_cups_constructor’:
+../src/cups.c:162:9: warning: ‘httpConnectEncrypt’ is deprecated: Use httpConnect2 instead. [-Wdeprecated-declarations]
+  162 |         cups->priv->connection = httpConnectEncrypt (cupsServer (),
+      |         ^~~~
+In file included from /usr/include/cups/ipp.h:19,
+                 from /usr/include/cups/cups.h:28,
+                 from /usr/include/cups/adminutil.h:19,
+                 from ../src/cups.c:42:
+/usr/include/cups/http.h:478:26: note: declared here
+  478 | extern http_t           *httpConnectEncrypt(const char *host, int port, http_encryption_t encryption) _CUPS_DEPRECATED_1_7_MSG("Use httpConnect2 instead.");
+      |                          ^~~~~~~~~~~~~~~~~~
+In file included from /usr/lib/glib-2.0/include/glibconfig.h:9,
+                 from /usr/include/glib-2.0/glib/gtypes.h:34,
+                 from /usr/include/glib-2.0/glib/galloca.h:34,
+                 from /usr/include/glib-2.0/glib.h:32,
+                 from ../src/cups.c:38:
+../src/cups.c: In function ‘cph_cups_init’:
+/usr/include/glib-2.0/glib/gmacros.h:1301:33: warning: Deprecated pre-processor symbol: replace with "G_ADD_PRIVATE"
+ 1301 | #define _GLIB_GNUC_DO_PRAGMA(x) _Pragma(G_STRINGIFY (x))
+      |                                 ^~~~~~~
+/usr/include/glib-2.0/glib/gmacros.h:1304:3: note: in expansion of macro ‘_GLIB_GNUC_DO_PRAGMA’
+ 1304 |   _GLIB_GNUC_DO_PRAGMA(GCC warning G_STRINGIFY (Deprecated pre-processor symbol: replace with #f))
+      |   ^~~~~~~~~~~~~~~~~~~~
+/usr/include/glib-2.0/gobject/gobject-visibility.h:584:49: note: in expansion of macro ‘GLIB_DEPRECATED_MACRO_FOR’
+  584 | #define GOBJECT_DEPRECATED_MACRO_IN_2_58_FOR(f) GLIB_DEPRECATED_MACRO_FOR (f)
+      |                                                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/glib-2.0/gobject/gtype.h:688:145: note: in expansion of macro ‘GOBJECT_DEPRECATED_MACRO_IN_2_58_FOR’
+  688 | #define G_TYPE_INSTANCE_GET_PRIVATE(instance, g_type, c_type)   ((c_type*) g_type_instance_get_private ((GTypeInstance*) (instance), (g_type))) GOBJECT_DEPRECATED_MACRO_IN_2_58_FOR(G_ADD_PRIVATE)
+      |                                                                                                                                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/cups.c:118:34: note: in expansion of macro ‘G_TYPE_INSTANCE_GET_PRIVATE’
+  118 | #define CPH_CUPS_GET_PRIVATE(o) (G_TYPE_INSTANCE_GET_PRIVATE ((o), CPH_TYPE_CUPS, CphCupsPrivate))
+      |                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/cups.c:178:22: note: in expansion of macro ‘CPH_CUPS_GET_PRIVATE’
+  178 |         cups->priv = CPH_CUPS_GET_PRIVATE (cups);
+      |                      ^~~~~~~~~~~~~~~~~~~~
+../src/cups.c: In function ‘cph_cups_reconnect’:
+../src/cups.c:192:17: warning: ‘httpReconnect’ is deprecated: Use httpReconnect2 instead. [-Wdeprecated-declarations]
+  192 |                 return_value = httpReconnect (cups->priv->connection);
+      |                 ^~~~~~~~~~~~
+/usr/include/cups/http.h:497:25: note: declared here
+  497 | extern int              httpReconnect(http_t *http) _CUPS_DEPRECATED_1_6_MSG("Use httpReconnect2 instead.");
+      |                         ^~~~~~~~~~~~~
+../src/cups.c: In function ‘_cph_cups_devices_get’:
+../src/cups.c:1523:9: warning: ‘cupsGetDevices’ is deprecated [-Wdeprecated-declarations]
+ 1523 |         retval = cupsGetDevices (cups->priv->connection,
+      |         ^~~~~~
+/usr/include/cups/adminutil.h:77:25: note: declared here
+   77 | extern ipp_status_t     cupsGetDevices(http_t *http, int timeout,
+      |                         ^~~~~~~~~~~~~~
+../src/cups.c: In function ‘cph_cups_printer_class_rename’:
+../src/cups.c:2105:9: warning: ‘cupsGetPPD’ is deprecated: Use cupsCopyDestInfo and friends instead. [-Wdeprecated-declarations]
+ 2105 |         ppd_link = cupsGetPPD (old_printer_name);
+      |         ^~~~~~~~
+In file included from ../src/cups.c:46:
+/usr/include/cups/ppd.h:359:26: note: declared here
+  359 | extern const char       *cupsGetPPD(const char *name) _CUPS_DEPRECATED_1_6_MSG("Use cupsCopyDestInfo and friends instead.");
+      |                          ^~~~~~~~~~
+../src/cups.c: In function ‘_cph_cups_prepare_ppd_for_options’:
+../src/cups.c:2509:9: warning: ‘ppdOpenFile’ is deprecated: Use cupsCopyDestInfo and friends instead. [-Wdeprecated-declarations]
+ 2509 |         ppd = ppdOpenFile (ppdfile);
+      |         ^~~
+/usr/include/cups/ppd.h:390:26: note: declared here
+  390 | extern ppd_file_t       *ppdOpenFile(const char *filename) _CUPS_DEPRECATED_1_6_MSG("Use cupsCopyDestInfo and friends instead.");
+      |                          ^~~~~~~~~~~
+../src/cups.c:2538:9: warning: ‘ppdMarkDefaults’ is deprecated: Use cupsCopyDestInfo and friends instead. [-Wdeprecated-declarations]
+ 2538 |         ppdMarkDefaults (ppd);
+      |         ^~~~~~~~~~~~~~~
+/usr/include/cups/ppd.h:385:25: note: declared here
+  385 | extern void             ppdMarkDefaults(ppd_file_t *ppd) _CUPS_DEPRECATED_1_6_MSG("Use cupsCopyDestInfo and friends instead.");
+      |                         ^~~~~~~~~~~~~~~
+../src/cups.c:2539:9: warning: ‘cupsMarkOptions’ is deprecated: Use cupsCopyDestInfo and friends instead. [-Wdeprecated-declarations]
+ 2539 |         cupsMarkOptions (ppd, num_options, options);
+      |         ^~~~~~~~~~~~~~~
+/usr/include/cups/ppd.h:363:25: note: declared here
+  363 | extern int              cupsMarkOptions(ppd_file_t *ppd, int num_options, cups_option_t *options) _CUPS_DEPRECATED_1_6_MSG("Use cupsCopyDestInfo and friends instead.");
+      |                         ^~~~~~~~~~~~~~~
+../src/cups.c:2570:33: warning: ‘ppdFindMarkedChoice’ is deprecated: Use cupsCopyDestInfo and friends instead. [-Wdeprecated-declarations]
+ 2570 |                                 choice = ppdFindMarkedChoice (ppd, "PageSize");
+      |                                 ^~~~~~
+/usr/include/cups/ppd.h:378:26: note: declared here
+  378 | extern ppd_choice_t     *ppdFindMarkedChoice(ppd_file_t *ppd,
+      |                          ^~~~~~~~~~~~~~~~~~~
+../src/cups.c:2572:41: warning: ‘ppdFindMarkedChoice’ is deprecated: Use cupsCopyDestInfo and friends instead. [-Wdeprecated-declarations]
+ 2572 |                                         choice = ppdFindMarkedChoice (ppd, "PageRegion");
+      |                                         ^~~~~~
+/usr/include/cups/ppd.h:378:26: note: declared here
+  378 | extern ppd_choice_t     *ppdFindMarkedChoice(ppd_file_t *ppd,
+      |                          ^~~~~~~~~~~~~~~~~~~
+../src/cups.c:2574:33: warning: ‘ppdFindMarkedChoice’ is deprecated: Use cupsCopyDestInfo and friends instead. [-Wdeprecated-declarations]
+ 2574 |                                 choice = ppdFindMarkedChoice (ppd, keyword);
+      |                                 ^~~~~~
+/usr/include/cups/ppd.h:378:26: note: declared here
+  378 | extern ppd_choice_t     *ppdFindMarkedChoice(ppd_file_t *ppd,
+      |                          ^~~~~~~~~~~~~~~~~~~
+../src/cups.c:2621:17: warning: ‘ppdClose’ is deprecated: Use cupsCopyDestInfo and friends instead. [-Wdeprecated-declarations]
+ 2621 |                 ppdClose (ppd);
+      |                 ^~~~~~~~
+/usr/include/cups/ppd.h:365:25: note: declared here
+  365 | extern void             ppdClose(ppd_file_t *ppd) _CUPS_DEPRECATED_1_6_MSG("Use cupsCopyDestInfo and friends instead.");
+      |                         ^~~~~~~~
+../src/cups.c: In function ‘cph_cups_printer_class_set_option’:
+../src/cups.c:2671:17: warning: ‘cupsGetPPD’ is deprecated: Use cupsCopyDestInfo and friends instead. [-Wdeprecated-declarations]
+ 2671 |                 ppdfile = g_strdup (cupsGetPPD (printer_name));
+      |                 ^~~~~~~
+/usr/include/cups/ppd.h:359:26: note: declared here
+  359 | extern const char       *cupsGetPPD(const char *name) _CUPS_DEPRECATED_1_6_MSG("Use cupsCopyDestInfo and friends instead.");
+      |                          ^~~~~~~~~~
+[56/59] Compiling C object src/cups-pk-helper-mechanism.p/cups.c.o
+../src/cups.c: In function ‘cph_cups_class_init’:
+../src/cups.c:144:9: warning: ‘g_type_class_add_private’ is deprecated [-Wdeprecated-declarations]
+  144 |         g_type_class_add_private (klass, sizeof (CphCupsPrivate));
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/glib-2.0/gobject/gobject.h:26,
+                 from /usr/include/glib-2.0/gobject/gbinding.h:31,
+                 from /usr/include/glib-2.0/glib-object.h:24,
+                 from ../src/cups.h:27,
+                 from ../src/cups.c:48:
+/usr/include/glib-2.0/gobject/gtype.h:1503:10: note: declared here
+ 1503 | void     g_type_class_add_private       (gpointer                    g_class,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~
+../src/cups.c: In function ‘cph_cups_constructor’:
+../src/cups.c:162:9: warning: ‘httpConnectEncrypt’ is deprecated: Use httpConnect2 instead. [-Wdeprecated-declarations]
+  162 |         cups->priv->connection = httpConnectEncrypt (cupsServer (),
+      |         ^~~~
+In file included from /usr/include/cups/ipp.h:19,
+                 from /usr/include/cups/cups.h:28,
+                 from /usr/include/cups/adminutil.h:19,
+                 from ../src/cups.c:42:
+/usr/include/cups/http.h:478:26: note: declared here
+  478 | extern http_t           *httpConnectEncrypt(const char *host, int port, http_encryption_t encryption) _CUPS_DEPRECATED_1_7_MSG("Use httpConnect2 instead.");
+      |                          ^~~~~~~~~~~~~~~~~~
+In file included from /usr/lib/glib-2.0/include/glibconfig.h:9,
+                 from /usr/include/glib-2.0/glib/gtypes.h:34,
+                 from /usr/include/glib-2.0/glib/galloca.h:34,
+                 from /usr/include/glib-2.0/glib.h:32,
+                 from ../src/cups.c:38:
+../src/cups.c: In function ‘cph_cups_init’:
+/usr/include/glib-2.0/glib/gmacros.h:1301:33: warning: Deprecated pre-processor symbol: replace with "G_ADD_PRIVATE"
+ 1301 | #define _GLIB_GNUC_DO_PRAGMA(x) _Pragma(G_STRINGIFY (x))
+      |                                 ^~~~~~~
+/usr/include/glib-2.0/glib/gmacros.h:1304:3: note: in expansion of macro ‘_GLIB_GNUC_DO_PRAGMA’
+ 1304 |   _GLIB_GNUC_DO_PRAGMA(GCC warning G_STRINGIFY (Deprecated pre-processor symbol: replace with #f))
+      |   ^~~~~~~~~~~~~~~~~~~~
+/usr/include/glib-2.0/gobject/gobject-visibility.h:584:49: note: in expansion of macro ‘GLIB_DEPRECATED_MACRO_FOR’
+  584 | #define GOBJECT_DEPRECATED_MACRO_IN_2_58_FOR(f) GLIB_DEPRECATED_MACRO_FOR (f)
+      |                                                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/glib-2.0/gobject/gtype.h:688:145: note: in expansion of macro ‘GOBJECT_DEPRECATED_MACRO_IN_2_58_FOR’
+  688 | #define G_TYPE_INSTANCE_GET_PRIVATE(instance, g_type, c_type)   ((c_type*) g_type_instance_get_private ((GTypeInstance*) (instance), (g_type))) GOBJECT_DEPRECATED_MACRO_IN_2_58_FOR(G_ADD_PRIVATE)
+      |                                                                                                                                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/cups.c:118:34: note: in expansion of macro ‘G_TYPE_INSTANCE_GET_PRIVATE’
+  118 | #define CPH_CUPS_GET_PRIVATE(o) (G_TYPE_INSTANCE_GET_PRIVATE ((o), CPH_TYPE_CUPS, CphCupsPrivate))
+      |                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/cups.c:178:22: note: in expansion of macro ‘CPH_CUPS_GET_PRIVATE’
+  178 |         cups->priv = CPH_CUPS_GET_PRIVATE (cups);
+      |                      ^~~~~~~~~~~~~~~~~~~~
+../src/cups.c: In function ‘cph_cups_reconnect’:
+../src/cups.c:192:17: warning: ‘httpReconnect’ is deprecated: Use httpReconnect2 instead. [-Wdeprecated-declarations]
+  192 |                 return_value = httpReconnect (cups->priv->connection);
+      |                 ^~~~~~~~~~~~
+/usr/include/cups/http.h:497:25: note: declared here
+  497 | extern int              httpReconnect(http_t *http) _CUPS_DEPRECATED_1_6_MSG("Use httpReconnect2 instead.");
+      |                         ^~~~~~~~~~~~~
+../src/cups.c: In function ‘_cph_cups_devices_get’:
+../src/cups.c:1523:9: warning: ‘cupsGetDevices’ is deprecated [-Wdeprecated-declarations]
+ 1523 |         retval = cupsGetDevices (cups->priv->connection,
+      |         ^~~~~~
+/usr/include/cups/adminutil.h:77:25: note: declared here
+   77 | extern ipp_status_t     cupsGetDevices(http_t *http, int timeout,
+      |                         ^~~~~~~~~~~~~~
+../src/cups.c: In function ‘cph_cups_printer_class_rename’:
+../src/cups.c:2105:9: warning: ‘cupsGetPPD’ is deprecated: Use cupsCopyDestInfo and friends instead. [-Wdeprecated-declarations]
+ 2105 |         ppd_link = cupsGetPPD (old_printer_name);
+      |         ^~~~~~~~
+In file included from ../src/cups.c:46:
+/usr/include/cups/ppd.h:359:26: note: declared here
+  359 | extern const char       *cupsGetPPD(const char *name) _CUPS_DEPRECATED_1_6_MSG("Use cupsCopyDestInfo and friends instead.");
+      |                          ^~~~~~~~~~
+../src/cups.c: In function ‘_cph_cups_prepare_ppd_for_options’:
+../src/cups.c:2509:9: warning: ‘ppdOpenFile’ is deprecated: Use cupsCopyDestInfo and friends instead. [-Wdeprecated-declarations]
+ 2509 |         ppd = ppdOpenFile (ppdfile);
+      |         ^~~
+/usr/include/cups/ppd.h:390:26: note: declared here
+  390 | extern ppd_file_t       *ppdOpenFile(const char *filename) _CUPS_DEPRECATED_1_6_MSG("Use cupsCopyDestInfo and friends instead.");
+      |                          ^~~~~~~~~~~
+../src/cups.c:2538:9: warning: ‘ppdMarkDefaults’ is deprecated: Use cupsCopyDestInfo and friends instead. [-Wdeprecated-declarations]
+ 2538 |         ppdMarkDefaults (ppd);
+      |         ^~~~~~~~~~~~~~~
+/usr/include/cups/ppd.h:385:25: note: declared here
+  385 | extern void             ppdMarkDefaults(ppd_file_t *ppd) _CUPS_DEPRECATED_1_6_MSG("Use cupsCopyDestInfo and friends instead.");
+      |                         ^~~~~~~~~~~~~~~
+../src/cups.c:2539:9: warning: ‘cupsMarkOptions’ is deprecated: Use cupsCopyDestInfo and friends instead. [-Wdeprecated-declarations]
+ 2539 |         cupsMarkOptions (ppd, num_options, options);
+      |         ^~~~~~~~~~~~~~~
+/usr/include/cups/ppd.h:363:25: note: declared here
+  363 | extern int              cupsMarkOptions(ppd_file_t *ppd, int num_options, cups_option_t *options) _CUPS_DEPRECATED_1_6_MSG("Use cupsCopyDestInfo and friends instead.");
+      |                         ^~~~~~~~~~~~~~~
+../src/cups.c:2570:33: warning: ‘ppdFindMarkedChoice’ is deprecated: Use cupsCopyDestInfo and friends instead. [-Wdeprecated-declarations]
+ 2570 |                                 choice = ppdFindMarkedChoice (ppd, "PageSize");
+      |                                 ^~~~~~
+/usr/include/cups/ppd.h:378:26: note: declared here
+  378 | extern ppd_choice_t     *ppdFindMarkedChoice(ppd_file_t *ppd,
+      |                          ^~~~~~~~~~~~~~~~~~~
+../src/cups.c:2572:41: warning: ‘ppdFindMarkedChoice’ is deprecated: Use cupsCopyDestInfo and friends instead. [-Wdeprecated-declarations]
+ 2572 |                                         choice = ppdFindMarkedChoice (ppd, "PageRegion");
+      |                                         ^~~~~~
+/usr/include/cups/ppd.h:378:26: note: declared here
+  378 | extern ppd_choice_t     *ppdFindMarkedChoice(ppd_file_t *ppd,
+      |                          ^~~~~~~~~~~~~~~~~~~
+../src/cups.c:2574:33: warning: ‘ppdFindMarkedChoice’ is deprecated: Use cupsCopyDestInfo and friends instead. [-Wdeprecated-declarations]
+ 2574 |                                 choice = ppdFindMarkedChoice (ppd, keyword);
+      |                                 ^~~~~~
+/usr/include/cups/ppd.h:378:26: note: declared here
+  378 | extern ppd_choice_t     *ppdFindMarkedChoice(ppd_file_t *ppd,
+      |                          ^~~~~~~~~~~~~~~~~~~
+../src/cups.c:2621:17: warning: ‘ppdClose’ is deprecated: Use cupsCopyDestInfo and friends instead. [-Wdeprecated-declarations]
+ 2621 |                 ppdClose (ppd);
+      |                 ^~~~~~~~
+/usr/include/cups/ppd.h:365:25: note: declared here
+  365 | extern void             ppdClose(ppd_file_t *ppd) _CUPS_DEPRECATED_1_6_MSG("Use cupsCopyDestInfo and friends instead.");
+      |                         ^~~~~~~~
+../src/cups.c: In function ‘cph_cups_printer_class_set_option’:
+../src/cups.c:2671:17: warning: ‘cupsGetPPD’ is deprecated: Use cupsCopyDestInfo and friends instead. [-Wdeprecated-declarations]
+ 2671 |                 ppdfile = g_strdup (cupsGetPPD (printer_name));
+      |                 ^~~~~~~
+/usr/include/cups/ppd.h:359:26: note: declared here
+  359 | extern const char       *cupsGetPPD(const char *name) _CUPS_DEPRECATED_1_6_MSG("Use cupsCopyDestInfo and friends instead.");
+      |                          ^~~~~~~~~~
+[57/59] Linking target src/test-cups-pk
+[58/59] Linking target src/test-cups
+[59/59] Linking target src/cups-pk-helper-mechanism
+[0/1] Installing files
+Installing po/af/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/af/LC_MESSAGES
+Installing po/ast/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/ast/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/ca/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/cs/LC_MESSAGES
+Installing po/da/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/de/LC_MESSAGES
+Installing po/en/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/en/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/en_GB/LC_MESSAGES
+Installing po/eo/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/eo/LC_MESSAGES
+Installing po/es/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/es/LC_MESSAGES
+Installing po/et/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/et/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/eu/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/fr/LC_MESSAGES
+Installing po/fur/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/fur/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/gl/LC_MESSAGES
+Installing po/he/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/he/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/hu/LC_MESSAGES
+Installing po/ia/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/ia/LC_MESSAGES
+Installing po/id/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/id/LC_MESSAGES
+Installing po/it/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/it/LC_MESSAGES
+Installing po/ja/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/ja/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/ka/LC_MESSAGES
+Installing po/kk/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/kk/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/ko/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/lt/LC_MESSAGES
+Installing po/lv/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/lv/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/nl/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/oc/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/pl/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/pt/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/ru/LC_MESSAGES
+Installing po/si/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/si/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/sl/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/sr/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/sv/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/tr/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/uk/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/cups-pk-helper.mo to /pkgs/cups-pk-helper/usr/share/locale/zh_TW/LC_MESSAGES
+Installing src/cups-pk-helper-mechanism to /pkgs/cups-pk-helper/usr/libexec
+Installing src/org.opensuse.cupspkhelper.mechanism.policy to /pkgs/cups-pk-helper/usr/share/polkit-1/actions
+Installing /blfs/builds/cups-pk-helper-0.2.7/src/org.opensuse.CupsPkHelper.Mechanism.conf to /pkgs/cups-pk-helper/usr/share/dbus-1/system.d
+Installing /blfs/builds/cups-pk-helper-0.2.7/build/src/org.opensuse.CupsPkHelper.Mechanism.service to /pkgs/cups-pk-helper/usr/share/dbus-1/system-services
+[0/1] Installing files
+Installing po/af/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/af/LC_MESSAGES
+Installing po/ast/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/ast/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/ca/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/cs/LC_MESSAGES
+Installing po/da/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/de/LC_MESSAGES
+Installing po/en/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/en/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/en_GB/LC_MESSAGES
+Installing po/eo/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/eo/LC_MESSAGES
+Installing po/es/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/es/LC_MESSAGES
+Installing po/et/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/et/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/eu/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/fr/LC_MESSAGES
+Installing po/fur/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/fur/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/gl/LC_MESSAGES
+Installing po/he/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/he/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/hu/LC_MESSAGES
+Installing po/ia/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/ia/LC_MESSAGES
+Installing po/id/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/id/LC_MESSAGES
+Installing po/it/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/it/LC_MESSAGES
+Installing po/ja/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/ja/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/ka/LC_MESSAGES
+Installing po/kk/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/kk/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/ko/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/lt/LC_MESSAGES
+Installing po/lv/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/lv/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/nl/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/oc/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/pl/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/pt/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/ru/LC_MESSAGES
+Installing po/si/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/si/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/sl/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/sr/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/sv/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/tr/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/uk/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/cups-pk-helper.mo to /usr/share/locale/zh_TW/LC_MESSAGES
+Installing src/cups-pk-helper-mechanism to /usr/libexec
+Installing src/org.opensuse.cupspkhelper.mechanism.policy to /usr/share/polkit-1/actions
+Installing /blfs/builds/cups-pk-helper-0.2.7/src/org.opensuse.CupsPkHelper.Mechanism.conf to /usr/share/dbus-1/system.d
+Installing /blfs/builds/cups-pk-helper-0.2.7/build/src/org.opensuse.CupsPkHelper.Mechanism.service to /usr/share/dbus-1/system-services
+cups-pk-helper/
+cups-pk-helper/usr/
+cups-pk-helper/usr/share/
+cups-pk-helper/usr/share/polkit-1/
+cups-pk-helper/usr/share/polkit-1/actions/
+cups-pk-helper/usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy
+cups-pk-helper/usr/share/locale/
+cups-pk-helper/usr/share/locale/sr/
+cups-pk-helper/usr/share/locale/sr/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/sr/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/nl/
+cups-pk-helper/usr/share/locale/nl/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/nl/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/fi/
+cups-pk-helper/usr/share/locale/fi/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/fi/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/id/
+cups-pk-helper/usr/share/locale/id/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/id/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/ko/
+cups-pk-helper/usr/share/locale/ko/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/ko/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/zh_TW/
+cups-pk-helper/usr/share/locale/zh_TW/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/zh_TW/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/kk/
+cups-pk-helper/usr/share/locale/kk/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/kk/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/af/
+cups-pk-helper/usr/share/locale/af/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/af/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/uk/
+cups-pk-helper/usr/share/locale/uk/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/uk/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/ia/
+cups-pk-helper/usr/share/locale/ia/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/ia/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/ast/
+cups-pk-helper/usr/share/locale/ast/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/ast/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/en_GB/
+cups-pk-helper/usr/share/locale/en_GB/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/en_GB/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/oc/
+cups-pk-helper/usr/share/locale/oc/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/oc/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/es/
+cups-pk-helper/usr/share/locale/es/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/es/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/he/
+cups-pk-helper/usr/share/locale/he/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/he/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/fr/
+cups-pk-helper/usr/share/locale/fr/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/fr/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/ca/
+cups-pk-helper/usr/share/locale/ca/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/ca/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/pl/
+cups-pk-helper/usr/share/locale/pl/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/pl/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/da/
+cups-pk-helper/usr/share/locale/da/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/da/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/ru/
+cups-pk-helper/usr/share/locale/ru/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/ru/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/hr/
+cups-pk-helper/usr/share/locale/hr/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/hr/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/ja/
+cups-pk-helper/usr/share/locale/ja/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/ja/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/zh_CN/
+cups-pk-helper/usr/share/locale/zh_CN/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/zh_CN/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/cs/
+cups-pk-helper/usr/share/locale/cs/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/cs/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/lv/
+cups-pk-helper/usr/share/locale/lv/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/lv/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/pt_BR/
+cups-pk-helper/usr/share/locale/pt_BR/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/pt_BR/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/pt/
+cups-pk-helper/usr/share/locale/pt/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/pt/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/hu/
+cups-pk-helper/usr/share/locale/hu/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/hu/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/tr/
+cups-pk-helper/usr/share/locale/tr/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/tr/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/sl/
+cups-pk-helper/usr/share/locale/sl/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/sl/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/fur/
+cups-pk-helper/usr/share/locale/fur/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/fur/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/eu/
+cups-pk-helper/usr/share/locale/eu/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/eu/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/sv/
+cups-pk-helper/usr/share/locale/sv/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/sv/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/sk/
+cups-pk-helper/usr/share/locale/sk/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/sk/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/si/
+cups-pk-helper/usr/share/locale/si/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/si/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/en/
+cups-pk-helper/usr/share/locale/en/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/en/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/eo/
+cups-pk-helper/usr/share/locale/eo/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/eo/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/ka/
+cups-pk-helper/usr/share/locale/ka/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/ka/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/it/
+cups-pk-helper/usr/share/locale/it/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/it/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/de/
+cups-pk-helper/usr/share/locale/de/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/de/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/lt/
+cups-pk-helper/usr/share/locale/lt/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/lt/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/et/
+cups-pk-helper/usr/share/locale/et/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/et/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/locale/gl/
+cups-pk-helper/usr/share/locale/gl/LC_MESSAGES/
+cups-pk-helper/usr/share/locale/gl/LC_MESSAGES/cups-pk-helper.mo
+cups-pk-helper/usr/share/dbus-1/
+cups-pk-helper/usr/share/dbus-1/system.d/
+cups-pk-helper/usr/share/dbus-1/system.d/org.opensuse.CupsPkHelper.Mechanism.conf
+cups-pk-helper/usr/share/dbus-1/system-services/
+cups-pk-helper/usr/share/dbus-1/system-services/org.opensuse.CupsPkHelper.Mechanism.service
+cups-pk-helper/usr/libexec/
+cups-pk-helper/usr/libexec/cups-pk-helper-mechanism
+cups-pk-helper/version
+cups-pk-helper/depends
+cups-pk-helper/make-depends
