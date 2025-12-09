@@ -1,0 +1,103 @@
+Cloning into 'LuaJIT'...
+==== Building LuaJIT 2.1 (amalgamation) ====
+make -C src amalg
+make[1]: Entering directory '/blfs/builds/LuaJIT/src'
+make all "LJCORE_O=ljamalg.o"
+make[2]: Entering directory '/blfs/builds/LuaJIT/src'
+HOSTCC    host/minilua.o
+HOSTCC    host/buildvm_asm.o
+HOSTCC    host/buildvm_fold.o
+HOSTCC    host/buildvm_peobj.o
+HOSTCC    host/buildvm_lib.o
+HOSTLINK  host/minilua
+VERSION   luajit.h
+DYNASM    host/buildvm_arch.h
+CC        luajit.o
+HOSTCC    host/buildvm.o
+HOSTLINK  host/buildvm
+BUILDVM   lj_ffdef.h
+BUILDVM   lj_vm.S
+BUILDVM   lj_bcdef.h
+BUILDVM   lj_folddef.h
+BUILDVM   lj_recdef.h
+BUILDVM   lj_libdef.h
+BUILDVM   jit/vmdef.lua
+ASM       lj_vm.o
+CC        ljamalg.o
+AR        libluajit.a
+DYNLINK   libluajit.so
+LINK      luajit
+OK        Successfully built LuaJIT
+make[2]: Leaving directory '/blfs/builds/LuaJIT/src'
+make[1]: Leaving directory '/blfs/builds/LuaJIT/src'
+==== Successfully built LuaJIT 2.1 (amalgamation) ====
+==== Installing LuaJIT 2.1.1765228720 to /usr ====
+mkdir -p /pkgs/luajit/usr/bin /pkgs/luajit/usr/lib /pkgs/luajit/usr/include/luajit-2.1 /pkgs/luajit/usr/share/man/man1 /pkgs/luajit/usr/lib/pkgconfig /pkgs/luajit/usr/share/luajit-2.1/jit /pkgs/luajit/usr/share/lua/5.1 /pkgs/luajit/usr/lib/lua/5.1
+cd src && install -m 0755 luajit /pkgs/luajit/usr/bin/luajit-2.1.1765228720
+cd src && test -f libluajit.a && install -m 0644 libluajit.a /pkgs/luajit/usr/lib/libluajit-5.1.a || :
+rm -f /pkgs/luajit/usr/lib/libluajit-5.1.so.2.1.1765228720 /pkgs/luajit/usr/lib/libluajit-5.1.so /pkgs/luajit/usr/lib/libluajit-5.1.so.2
+cd src && test -f libluajit.so && \
+  install -m 0755 libluajit.so /pkgs/luajit/usr/lib/libluajit-5.1.so.2.1.1765228720 && \
+  ( ldconfig -n 2>/dev/null /pkgs/luajit/usr/lib || : ) && \
+  ln -sf libluajit-5.1.so.2.1.1765228720 /pkgs/luajit/usr/lib/libluajit-5.1.so && \
+  ln -sf libluajit-5.1.so.2.1.1765228720 /pkgs/luajit/usr/lib/libluajit-5.1.so.2 || :
+cd etc && install -m 0644 luajit.1 /pkgs/luajit/usr/share/man/man1
+cd etc && sed -e "s|^prefix=.*|prefix=/usr|" -e "s|^multilib=.*|multilib=lib|" -e "s|^relver=.*|relver=1765228720|" luajit.pc > luajit.pc.tmp && \
+  install -m 0644 luajit.pc.tmp /pkgs/luajit/usr/lib/pkgconfig/luajit.pc && \
+  rm -f luajit.pc.tmp
+cd src && install -m 0644 lua.h lualib.h lauxlib.h luaconf.h lua.hpp luajit.h /pkgs/luajit/usr/include/luajit-2.1
+cd src/jit && install -m 0644 bc.lua bcsave.lua dump.lua p.lua v.lua zone.lua dis_x86.lua dis_x64.lua dis_arm.lua dis_arm64.lua dis_arm64be.lua dis_ppc.lua dis_mips.lua dis_mipsel.lua dis_mips64.lua dis_mips64el.lua dis_mips64r6.lua dis_mips64r6el.lua vmdef.lua /pkgs/luajit/usr/share/luajit-2.1/jit
+ln -sf luajit-2.1.1765228720 /pkgs/luajit/usr/bin/luajit
+==== Successfully installed LuaJIT 2.1.1765228720 to /usr ====
+luajit/
+luajit/usr/
+luajit/usr/include/
+luajit/usr/include/luajit-2.1/
+luajit/usr/include/luajit-2.1/lualib.h
+luajit/usr/include/luajit-2.1/luaconf.h
+luajit/usr/include/luajit-2.1/lua.hpp
+luajit/usr/include/luajit-2.1/luajit.h
+luajit/usr/include/luajit-2.1/lua.h
+luajit/usr/include/luajit-2.1/lauxlib.h
+luajit/usr/share/
+luajit/usr/share/luajit-2.1/
+luajit/usr/share/luajit-2.1/jit/
+luajit/usr/share/luajit-2.1/jit/dump.lua
+luajit/usr/share/luajit-2.1/jit/dis_x64.lua
+luajit/usr/share/luajit-2.1/jit/dis_mips64el.lua
+luajit/usr/share/luajit-2.1/jit/v.lua
+luajit/usr/share/luajit-2.1/jit/dis_arm64.lua
+luajit/usr/share/luajit-2.1/jit/bcsave.lua
+luajit/usr/share/luajit-2.1/jit/dis_mips.lua
+luajit/usr/share/luajit-2.1/jit/vmdef.lua
+luajit/usr/share/luajit-2.1/jit/zone.lua
+luajit/usr/share/luajit-2.1/jit/dis_arm.lua
+luajit/usr/share/luajit-2.1/jit/dis_mips64r6.lua
+luajit/usr/share/luajit-2.1/jit/dis_ppc.lua
+luajit/usr/share/luajit-2.1/jit/dis_mipsel.lua
+luajit/usr/share/luajit-2.1/jit/dis_mips64.lua
+luajit/usr/share/luajit-2.1/jit/dis_mips64r6el.lua
+luajit/usr/share/luajit-2.1/jit/bc.lua
+luajit/usr/share/luajit-2.1/jit/dis_x86.lua
+luajit/usr/share/luajit-2.1/jit/p.lua
+luajit/usr/share/luajit-2.1/jit/dis_arm64be.lua
+luajit/usr/share/lua/
+luajit/usr/share/lua/5.1/
+luajit/usr/share/man/
+luajit/usr/share/man/man1/
+luajit/usr/share/man/man1/luajit.1
+luajit/usr/bin/
+luajit/usr/bin/luajit
+luajit/usr/bin/luajit-2.1.1765228720
+luajit/usr/lib/
+luajit/usr/lib/lua/
+luajit/usr/lib/lua/5.1/
+luajit/usr/lib/libluajit-5.1.a
+luajit/usr/lib/pkgconfig/
+luajit/usr/lib/pkgconfig/luajit.pc
+luajit/usr/lib/libluajit-5.1.so.2
+luajit/usr/lib/libluajit-5.1.so
+luajit/usr/lib/libluajit-5.1.so.2.1.1765228720
+luajit/version
+luajit/depends
+luajit/make-depends
