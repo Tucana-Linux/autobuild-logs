@@ -1,0 +1,1227 @@
+--2025-12-10 08:25:33--  https://download.gimp.org/pub/babl/0.1/babl-0.1.118.tar.xz
+Resolving download.gimp.org (download.gimp.org)... 140.211.167.248
+Connecting to download.gimp.org (download.gimp.org)|140.211.167.248|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://cofractal-ewr.mm.fcix.net/gimp/babl/0.1/babl-0.1.118.tar.xz [following]
+--2025-12-10 08:25:34--  https://cofractal-ewr.mm.fcix.net/gimp/babl/0.1/babl-0.1.118.tar.xz
+Resolving cofractal-ewr.mm.fcix.net (cofractal-ewr.mm.fcix.net)... 2606:7940:52:10::10, 199.255.19.134
+Connecting to cofractal-ewr.mm.fcix.net (cofractal-ewr.mm.fcix.net)|2606:7940:52:10::10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 325412 (318K) [application/octet-stream]
+Saving to: ‘babl-0.1.118.tar.xz’
+
+     0K .......... .......... .......... .......... .......... 15% 4.11M 0s
+    50K .......... .......... .......... .......... .......... 31% 7.24M 0s
+   100K .......... .......... .......... .......... .......... 47% 11.3M 0s
+   150K .......... .......... .......... .......... .......... 62% 11.2M 0s
+   200K .......... .......... .......... .......... .......... 78% 6.37M 0s
+   250K .......... .......... .......... .......... .......... 94% 11.7M 0s
+   300K .......... .......                                    100% 64.1M=0.04s
+
+2025-12-10 08:25:34 (7.88 MB/s) - ‘babl-0.1.118.tar.xz’ saved [325412/325412]
+
+babl-0.1.118/
+babl-0.1.118/.gitignore
+babl-0.1.118/.gitlab/
+babl-0.1.118/.gitlab/check_dead_branches.sh
+babl-0.1.118/.gitlab/run_meson_health_diff.sh
+babl-0.1.118/.gitlab/search-common-ancestor.sh
+babl-0.1.118/.gitlab-ci.yml
+babl-0.1.118/.kateconfig
+babl-0.1.118/.vscode/
+babl-0.1.118/.vscode/settings.json
+babl-0.1.118/AUTHORS
+babl-0.1.118/COPYING
+babl-0.1.118/INSTALL.in
+babl-0.1.118/MAINTAINERS
+babl-0.1.118/NEWS
+babl-0.1.118/TODO
+babl-0.1.118/babl/
+babl-0.1.118/babl/babl/
+babl-0.1.118/babl/babl/meson.build
+babl-0.1.118/babl/babl-cache.c
+babl-0.1.118/babl/babl-class.h
+babl-0.1.118/babl/babl-classes.h
+babl-0.1.118/babl/babl-component.c
+babl-0.1.118/babl/babl-component.h
+babl-0.1.118/babl/babl-conversion.c
+babl-0.1.118/babl/babl-conversion.h
+babl-0.1.118/babl/babl-core.c
+babl-0.1.118/babl/babl-cpuaccel.c
+babl-0.1.118/babl/babl-cpuaccel.h
+babl-0.1.118/babl/babl-db.c
+babl-0.1.118/babl/babl-db.h
+babl-0.1.118/babl/babl-extension.c
+babl-0.1.118/babl/babl-extension.h
+babl-0.1.118/babl/babl-fish-path.c
+babl-0.1.118/babl/babl-fish-reference.c
+babl-0.1.118/babl/babl-fish-simple.c
+babl-0.1.118/babl/babl-fish.c
+babl-0.1.118/babl/babl-fish.h
+babl-0.1.118/babl/babl-format.c
+babl-0.1.118/babl/babl-format.h
+babl-0.1.118/babl/babl-hash-table.c
+babl-0.1.118/babl/babl-hash-table.h
+babl-0.1.118/babl/babl-icc.c
+babl-0.1.118/babl/babl-ids.h
+babl-0.1.118/babl/babl-image.c
+babl-0.1.118/babl/babl-image.h
+babl-0.1.118/babl/babl-internal.c
+babl-0.1.118/babl/babl-internal.h
+babl-0.1.118/babl/babl-introspect.c
+babl-0.1.118/babl/babl-introspect.h
+babl-0.1.118/babl/babl-list.c
+babl-0.1.118/babl/babl-list.h
+babl-0.1.118/babl/babl-macros.h
+babl-0.1.118/babl/babl-main.h
+babl-0.1.118/babl/babl-matrix.h
+babl-0.1.118/babl/babl-memory.c
+babl-0.1.118/babl/babl-memory.h
+babl-0.1.118/babl/babl-model.c
+babl-0.1.118/babl/babl-model.h
+babl-0.1.118/babl/babl-mutex.c
+babl-0.1.118/babl/babl-mutex.h
+babl-0.1.118/babl/babl-palette.c
+babl-0.1.118/babl/babl-polynomial.c
+babl-0.1.118/babl/babl-polynomial.h
+babl-0.1.118/babl/babl-ref-pixels.c
+babl-0.1.118/babl/babl-ref-pixels.h
+babl-0.1.118/babl/babl-ref-pixels.inc
+babl-0.1.118/babl/babl-sampling.c
+babl-0.1.118/babl/babl-sampling.h
+babl-0.1.118/babl/babl-sanity.c
+babl-0.1.118/babl/babl-shared-util.c
+babl-0.1.118/babl/babl-shared-util.h
+babl-0.1.118/babl/babl-space.c
+babl-0.1.118/babl/babl-space.h
+babl-0.1.118/babl/babl-type.c
+babl-0.1.118/babl/babl-type.h
+babl-0.1.118/babl/babl-types.h
+babl-0.1.118/babl/babl-util.c
+babl-0.1.118/babl/babl-util.h
+babl-0.1.118/babl/babl-version.c
+babl-0.1.118/babl/babl-version.h.in
+babl-0.1.118/babl/babl.c
+babl-0.1.118/babl/babl.def
+babl-0.1.118/babl/babl.h
+babl-0.1.118/babl/base/
+babl-0.1.118/babl/base/babl-base.c
+babl-0.1.118/babl/base/babl-base.h
+babl-0.1.118/babl/base/babl-rgb-converter.c
+babl-0.1.118/babl/base/babl-trc.c
+babl-0.1.118/babl/base/babl-trc.h
+babl-0.1.118/babl/base/formats.c
+babl-0.1.118/babl/base/meson.build
+babl-0.1.118/babl/base/model-cmyk.c
+babl-0.1.118/babl/base/model-gray.c
+babl-0.1.118/babl/base/model-rgb.c
+babl-0.1.118/babl/base/model-ycbcr.c
+babl-0.1.118/babl/base/pow-24.c
+babl-0.1.118/babl/base/pow-24.h
+babl-0.1.118/babl/base/type-float.c
+babl-0.1.118/babl/base/type-half.c
+babl-0.1.118/babl/base/type-u15.c
+babl-0.1.118/babl/base/type-u16.c
+babl-0.1.118/babl/base/type-u32.c
+babl-0.1.118/babl/base/type-u8.c
+babl-0.1.118/babl/base/util.h
+babl-0.1.118/babl/gettimeofday.c
+babl-0.1.118/babl/identfilter.py
+babl-0.1.118/babl/meson.build
+babl-0.1.118/babl/test-clang.map
+babl-0.1.118/babl/test-gnu.map
+babl-0.1.118/babl.doap
+babl-0.1.118/bin/
+babl-0.1.118/bin/babl.c
+babl-0.1.118/bin/meson.build
+babl-0.1.118/docs/
+babl-0.1.118/docs/CMYK-static.html
+babl-0.1.118/docs/COPYING
+babl-0.1.118/docs/COPYING.LESSER
+babl-0.1.118/docs/ColorManagement-static.html
+babl-0.1.118/docs/Glossary-static.html
+babl-0.1.118/docs/OldNews-static.html
+babl-0.1.118/docs/Reference-static.html
+babl-0.1.118/docs/UnifiedAlpha-static.html
+babl-0.1.118/docs/babl.css
+babl-0.1.118/docs/build_as_meson_subproject.md
+babl-0.1.118/docs/graphics/
+babl-0.1.118/docs/graphics/babl-16x16.svg
+babl-0.1.118/docs/graphics/babl-48x48.svg
+babl-0.1.118/docs/graphics/babl-a4poster.svg
+babl-0.1.118/docs/graphics/index.html
+babl-0.1.118/docs/graphics/meson.build
+babl-0.1.118/docs/index-static.html.in
+babl-0.1.118/docs/meson.build
+babl-0.1.118/docs/reference/
+babl-0.1.118/docs/reference/babl.toml.in
+babl-0.1.118/docs/reference/meson.build
+babl-0.1.118/docs/toc
+babl-0.1.118/docs/tools/
+babl-0.1.118/docs/tools/changelog2rss
+babl-0.1.118/extensions/
+babl-0.1.118/extensions/CIE.c
+babl-0.1.118/extensions/HCY.c
+babl-0.1.118/extensions/HSL.c
+babl-0.1.118/extensions/HSV.c
+babl-0.1.118/extensions/avx2-int8-tables.h
+babl-0.1.118/extensions/avx2-int8.c
+babl-0.1.118/extensions/babl-verify-cpu.inc
+babl-0.1.118/extensions/cairo.c
+babl-0.1.118/extensions/double.c
+babl-0.1.118/extensions/fast-float.c
+babl-0.1.118/extensions/float.c
+babl-0.1.118/extensions/formats.c
+babl-0.1.118/extensions/gegl-fixups.c
+babl-0.1.118/extensions/gggl-lies.c
+babl-0.1.118/extensions/gggl-table-lies.c
+babl-0.1.118/extensions/gggl-table.c
+babl-0.1.118/extensions/gggl.c
+babl-0.1.118/extensions/gimp-8bit.c
+babl-0.1.118/extensions/grey.c
+babl-0.1.118/extensions/half.c
+babl-0.1.118/extensions/meson.build
+babl-0.1.118/extensions/naive-CMYK.c
+babl-0.1.118/extensions/oklab.c
+babl-0.1.118/extensions/simple.c
+babl-0.1.118/extensions/sse-half.c
+babl-0.1.118/extensions/sse2-float.c
+babl-0.1.118/extensions/sse2-int16.c
+babl-0.1.118/extensions/sse2-int8.c
+babl-0.1.118/extensions/sse4-int8.c
+babl-0.1.118/extensions/two-table-tables.h
+babl-0.1.118/extensions/two-table.c
+babl-0.1.118/extensions/u16.c
+babl-0.1.118/extensions/u32.c
+babl-0.1.118/extensions/util.h
+babl-0.1.118/extensions/ycbcr.c
+babl-0.1.118/gen_babl_map.py
+babl-0.1.118/git-version.h
+babl-0.1.118/git-version.h.in
+babl-0.1.118/meson.build
+babl-0.1.118/meson_install_win_debug.py
+babl-0.1.118/meson_options.txt
+babl-0.1.118/tests/
+babl-0.1.118/tests/alpha_symmetric_transform.c
+babl-0.1.118/tests/babl_class_name.c
+babl-0.1.118/tests/cairo-RGB24.c
+babl-0.1.118/tests/cairo_cmyk_hack.c
+babl-0.1.118/tests/chromaticities.c
+babl-0.1.118/tests/cmyk.c
+babl-0.1.118/tests/common.inc
+babl-0.1.118/tests/concurrency-stress-test.c
+babl-0.1.118/tests/conversions.c
+babl-0.1.118/tests/extract.c
+babl-0.1.118/tests/float-to-8bit.c
+babl-0.1.118/tests/floatclamp.c
+babl-0.1.118/tests/format_with_space.c
+babl-0.1.118/tests/grayscale_to_rgb.c
+babl-0.1.118/tests/hsl.c
+babl-0.1.118/tests/hsva.c
+babl-0.1.118/tests/meson.build
+babl-0.1.118/tests/models.c
+babl-0.1.118/tests/n_components.c
+babl-0.1.118/tests/n_components_cast.c
+babl-0.1.118/tests/nop.c
+babl-0.1.118/tests/palette-concurrency-stress-test.c
+babl-0.1.118/tests/palette.c
+babl-0.1.118/tests/rgb_to_bgr.c
+babl-0.1.118/tests/rgb_to_ycbcr.c
+babl-0.1.118/tests/sanity.c
+babl-0.1.118/tests/srgb_to_lab_u8.c
+babl-0.1.118/tests/transparent.c
+babl-0.1.118/tests/trcs.c
+babl-0.1.118/tests/types.c
+babl-0.1.118/tests/xyz_to_lab.c
+babl-0.1.118/tools/
+babl-0.1.118/tools/babl-benchmark.c
+babl-0.1.118/tools/babl-gen-test-pixels.c
+babl-0.1.118/tools/babl-html-dump.c
+babl-0.1.118/tools/babl-icc-dump.c
+babl-0.1.118/tools/babl-icc-rewrite.c
+babl-0.1.118/tools/babl-lut-verify.c
+babl-0.1.118/tools/babl-verify.c
+babl-0.1.118/tools/babl-verify.sh
+babl-0.1.118/tools/babl_fish_path_fitness.c
+babl-0.1.118/tools/conversions.c
+babl-0.1.118/tools/defcheck.py
+babl-0.1.118/tools/formats.c
+babl-0.1.118/tools/introspect.c
+babl-0.1.118/tools/meson.build
+babl-0.1.118/tools/trc-validator.c
+babl-0.1.118/tools/xml-insert.py
+The Meson build system
+Version: 1.10.0
+Source dir: /blfs/builds/babl-0.1.118
+Build dir: /blfs/builds/babl-0.1.118/bld
+Build type: native build
+Project name: babl
+Project version: 0.1.118
+C compiler for the host machine: cc (gcc 15.2.0 "cc (GCC) 15.2.0")
+C linker for the host machine: cc ld.bfd 2.45
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Program python3 found: YES (/usr/bin/python3)
+Message: Host os: linux
+Message: Build os: linux
+Compiler for C supports arguments -fno-unsafe-math-optimizations: YES 
+Compiler for C supports arguments -ftree-vectorize: YES 
+Compiler for C supports arguments -Wdeclaration-after-statement: YES 
+Compiler for C supports arguments -Winit-self: YES 
+Compiler for C supports arguments -Wmissing-declarations: YES 
+Compiler for C supports arguments -Wmissing-prototypes: YES 
+Compiler for C supports arguments -Wold-style-definition: YES 
+Compiler for C supports arguments -Wpointer-arith: YES 
+Compiler for C supports arguments -march=x86-64: YES 
+Compiler for C supports arguments -msse2: YES 
+Compiler for C supports arguments -msse2: YES (cached)
+Compiler for C supports arguments -msse4.1: YES 
+Compiler for C supports arguments -msse4.2: YES 
+Compiler for C supports arguments -mpopcnt: YES 
+Compiler for C supports arguments -mssse3: YES 
+Compiler for C supports arguments -mavx: YES 
+Compiler for C supports arguments -mavx2: YES 
+Compiler for C supports arguments -mf16c: YES 
+Compiler for C supports arguments -mfma: YES 
+Compiler for C supports arguments -mmovbe: YES 
+Compiler for C supports arguments -mbmi: YES 
+Compiler for C supports arguments -mbmi2: YES 
+Compiler for C supports arguments -mmmx: YES 
+Message: mmx assembly available
+Compiler for C supports arguments -msse: YES 
+Message: sse assembly available
+Compiler for C supports arguments -mfpmath=sse: YES 
+Compiler for C supports arguments -msse2: YES (cached)
+Message: sse2 assembly available
+Compiler for C supports arguments -msse4.1: YES (cached)
+Message: sse4.1 assembly available
+Compiler for C supports arguments -mavx2: YES (cached)
+Message: avx2 assembly available
+Compiler for C supports arguments -mf16c: YES (cached)
+Message: Can compile half-floating point code (f16c)
+Has header "stdatomic.h" : YES 
+Has header "dlfcn.h" : YES 
+Has header "dl.h" : NO 
+Checking for function "gettimeofday" : YES 
+Checking for function "srandom" : YES 
+Library m found: YES
+Run-time dependency threads found: YES
+Library dl found: YES
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Run-time dependency gobject-introspection-1.0 found: YES 1.86.0
+Run-time dependency lcms2 found: YES 2.16
+Run-time dependency vapigen found: YES 0.56.18
+Program git found: YES (/usr/bin/git)
+Program rsvg-convert found: YES (/usr/bin/rsvg-convert)
+Program w3m found: NO
+Program gi-docgen found: YES (/usr/bin/gi-docgen)
+Configuring config.h using configuration
+Program gen_babl_map.py found: YES (/usr/bin/python3 /blfs/builds/babl-0.1.118/gen_babl_map.py)
+Checking if "-Wl,--version-script" links: YES 
+Configuring babl-version.h using configuration
+Dependency gobject-introspection-1.0 found: YES 1.86.0 (cached)
+Dependency gobject-introspection-1.0 found: YES 1.86.0 (cached)
+Program /usr/bin/g-ir-scanner found: YES (/usr/bin/g-ir-scanner)
+Dependency gobject-introspection-1.0 found: YES 1.86.0 (cached)
+Program /usr/bin/g-ir-compiler found: YES (/usr/bin/g-ir-compiler)
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Program vapigen found: YES (/usr/bin/vapigen)
+Program tools/xml-insert.py found: YES (/usr/bin/python3 /blfs/builds/babl-0.1.118/tools/xml-insert.py)
+Configuring index-static.html using configuration
+Configuring babl.toml using configuration
+Build targets in project: 116
+NOTICE: Future-deprecated features used:
+ * 0.62.0: {'pkgconfig.generate variable for builtin directories'}
+
+babl 0.1.118
+
+  Directories
+    prefix                  : /usr
+    libdir                  : lib
+
+  Optional features
+    BABL docs (babl website): true
+    gi-docgen               : true
+    Introspection           : true
+    VALA support            : true
+    Debug symbols format    : Disabled
+    relocatable             : false
+
+  Processor extensions
+    mmx                     : true
+    sse                     : true
+    sse2                    : true
+    sse4_1                  : true
+    avx2                    : true
+    f16c (half fp)          : true
+
+  Optional dependencies
+    lcms                    : true
+
+  User defined options
+    buildtype               : release
+    prefix                  : /usr
+
+Found ninja-1.13.2 at /usr/bin/ninja
+[1/290] Compiling C object babl/base/libbabl_base.a.p/babl-base.c.o
+[2/290] Compiling C object babl/base/libbabl_base.a.p/pow-24.c.o
+[3/290] Compiling C object babl/base/libbabl_base.a.p/type-float.c.o
+[4/290] Compiling C object babl/base/libbabl_base.a.p/formats.c.o
+[5/290] Compiling C object babl/base/libbabl_base-x86-64-v2.a.p/babl-base.c.o
+[6/290] Compiling C object babl/base/libbabl_base.a.p/type-u32.c.o
+[7/290] Compiling C object babl/base/libbabl_base.a.p/type-u16.c.o
+[8/290] Compiling C object babl/base/libbabl_base.a.p/type-u15.c.o
+[9/290] Compiling C object babl/base/libbabl_base.a.p/type-u8.c.o
+[10/290] Compiling C object babl/base/libbabl_base.a.p/model-ycbcr.c.o
+[11/290] Compiling C object babl/base/libbabl_base.a.p/type-half.c.o
+[12/290] Compiling C object babl/base/libbabl_base.a.p/model-cmyk.c.o
+[13/290] Compiling C object babl/base/libbabl_base-x86-64-v2.a.p/formats.c.o
+[14/290] Compiling C object babl/base/libbabl_base-x86-64-v2.a.p/pow-24.c.o
+[15/290] Compiling C object babl/base/libbabl_base-x86-64-v2.a.p/type-float.c.o
+[16/290] Compiling C object babl/base/libbabl_base-x86-64-v2.a.p/model-ycbcr.c.o
+[17/290] Compiling C object babl/base/libbabl_base-x86-64-v2.a.p/type-half.c.o
+[18/290] Compiling C object babl/base/libbabl_base-x86-64-v2.a.p/type-u16.c.o
+[19/290] Compiling C object babl/base/libbabl_base-x86-64-v2.a.p/type-u32.c.o
+[20/290] Compiling C object babl/base/libbabl_base-x86-64-v2.a.p/type-u15.c.o
+[21/290] Compiling C object babl/base/libbabl_base-x86-64-v3.a.p/babl-base.c.o
+[22/290] Compiling C object babl/base/libbabl_base-x86-64-v2.a.p/type-u8.c.o
+[23/290] Compiling C object babl/base/libbabl_base-x86-64-v2.a.p/model-cmyk.c.o
+[24/290] Compiling C object babl/base/libbabl_base.a.p/babl-rgb-converter.c.o
+[25/290] Compiling C object babl/base/libbabl_base-x86-64-v3.a.p/formats.c.o
+[26/290] Compiling C object babl/base/libbabl_base.a.p/model-rgb.c.o
+[27/290] Compiling C object babl/base/libbabl_base-x86-64-v3.a.p/pow-24.c.o
+[28/290] Compiling C object babl/base/libbabl_base-x86-64-v3.a.p/model-ycbcr.c.o
+[29/290] Compiling C object babl/base/libbabl_base.a.p/babl-trc.c.o
+[30/290] Compiling C object babl/base/libbabl_base-x86-64-v2.a.p/babl-trc.c.o
+[31/290] Compiling C object babl/base/libbabl_base-x86-64-v3.a.p/type-half.c.o
+[32/290] Compiling C object babl/base/libbabl_base-x86-64-v3.a.p/type-float.c.o
+[33/290] Compiling C object babl/base/libbabl_base-x86-64-v3.a.p/type-u15.c.o
+[34/290] Compiling C object babl/base/libbabl_base-x86-64-v2.a.p/babl-rgb-converter.c.o
+[35/290] Compiling C object babl/base/libbabl_base-x86-64-v3.a.p/model-cmyk.c.o
+[36/290] Compiling C object babl/base/libbabl_base-x86-64-v2.a.p/model-rgb.c.o
+[37/290] Generating babl/babl.map with a custom command
+[38/290] Compiling C object babl/base/libbabl_base-x86-64-v3.a.p/type-u32.c.o
+[39/290] Compiling C object babl/base/libbabl_base-x86-64-v3.a.p/type-u16.c.o
+[40/290] Compiling C object babl/libbabl-0.1.so.0.217.1.p/babl-component.c.o
+[41/290] Compiling C object babl/base/libbabl_base-x86-64-v3.a.p/type-u8.c.o
+[42/290] Compiling C object babl/libbabl-0.1.so.0.217.1.p/babl-cpuaccel.c.o
+[43/290] Compiling C object babl/base/libbabl_base.a.p/model-gray.c.o
+[44/290] Compiling C object babl/libbabl-0.1.so.0.217.1.p/babl-conversion.c.o
+[45/290] Linking static target babl/base/libbabl_base.a
+[46/290] Compiling C object babl/libbabl-0.1.so.0.217.1.p/babl-db.c.o
+[47/290] Compiling C object babl/libbabl-0.1.so.0.217.1.p/babl-extension.c.o
+[48/290] Compiling C object babl/libbabl-0.1.so.0.217.1.p/babl-core.c.o
+[49/290] Compiling C object babl/libbabl-0.1.so.0.217.1.p/babl-fish-simple.c.o
+[50/290] Compiling C object babl/libbabl-0.1.so.0.217.1.p/babl-cache.c.o
+[51/290] Compiling C object babl/base/libbabl_base-x86-64-v3.a.p/babl-rgb-converter.c.o
+[52/290] Compiling C object babl/base/libbabl_base-x86-64-v3.a.p/model-gray.c.o
+[53/290] Compiling C object babl/base/libbabl_base-x86-64-v2.a.p/model-gray.c.o
+[54/290] Linking static target babl/base/libbabl_base-x86-64-v2.a
+[55/290] Compiling C object babl/libbabl-0.1.so.0.217.1.p/babl-hash-table.c.o
+[56/290] Compiling C object babl/libbabl-0.1.so.0.217.1.p/babl-fish.c.o
+[57/290] Compiling C object babl/base/libbabl_base-x86-64-v3.a.p/babl-trc.c.o
+[58/290] Compiling C object babl/libbabl-0.1.so.0.217.1.p/babl-image.c.o
+[59/290] Compiling C object babl/libbabl-0.1.so.0.217.1.p/babl-introspect.c.o
+[60/290] Compiling C object babl/libbabl-0.1.so.0.217.1.p/babl-internal.c.o
+[61/290] Compiling C object babl/libbabl-0.1.so.0.217.1.p/babl-fish-path.c.o
+[62/290] Compiling C object babl/libbabl-0.1.so.0.217.1.p/babl-list.c.o
+[63/290] Compiling C object babl/libbabl-0.1.so.0.217.1.p/babl-mutex.c.o
+[64/290] Compiling C object babl/libbabl-0.1.so.0.217.1.p/babl-format.c.o
+[65/290] Compiling C object babl/libbabl-0.1.so.0.217.1.p/babl-ref-pixels.c.o
+[66/290] Compiling C object babl/libbabl-0.1.so.0.217.1.p/babl-fish-reference.c.o
+[67/290] Compiling C object babl/libbabl-0.1.so.0.217.1.p/babl-memory.c.o
+[68/290] Compiling C object babl/libbabl-0.1.so.0.217.1.p/babl-sampling.c.o
+[69/290] Compiling C object babl/libbabl-0.1.so.0.217.1.p/babl-model.c.o
+[70/290] Compiling C object babl/libbabl-0.1.so.0.217.1.p/babl-util.c.o
+[71/290] Compiling C object babl/libbabl-0.1.so.0.217.1.p/babl-version.c.o
+[72/290] Compiling C object babl/libbabl-0.1.so.0.217.1.p/babl-sanity.c.o
+[73/290] Compiling C object babl/base/libbabl_base-x86-64-v3.a.p/model-rgb.c.o
+[74/290] Compiling C object babl/libbabl-0.1.so.0.217.1.p/babl-shared-util.c.o
+[75/290] Linking static target babl/base/libbabl_base-x86-64-v3.a
+[76/290] Compiling C object babl/libbabl-0.1.so.0.217.1.p/babl-palette.c.o
+[77/290] Compiling C object babl/libbabl-0.1.so.0.217.1.p/babl.c.o
+[78/290] Compiling C object babl/libbabl-0.1.so.0.217.1.p/babl-type.c.o
+[79/290] Compiling C object extensions/fast-float.so.p/fast-float.c.o
+[80/290] Compiling C object extensions/u16.so.p/u16.c.o
+[81/290] Compiling C object babl/libbabl-0.1.so.0.217.1.p/babl-space.c.o
+[82/290] Compiling C object babl/libbabl-0.1.so.0.217.1.p/babl-polynomial.c.o
+[83/290] Compiling C object babl/libbabl-0.1.so.0.217.1.p/babl-icc.c.o
+[84/290] Compiling C object extensions/double.so.p/double.c.o
+[85/290] Compiling C object extensions/u32.so.p/u32.c.o
+[86/290] Linking target babl/libbabl-0.1.so.0.217.1
+[87/290] Compiling C object extensions/half.so.p/half.c.o
+[88/290] Compiling C object extensions/formats.so.p/formats.c.o
+[89/290] Compiling C object extensions/gegl-fixups.so.p/gegl-fixups.c.o
+[90/290] Compiling C object extensions/cairo.so.p/cairo.c.o
+[91/290] Compiling C object extensions/gggl-table.so.p/gggl-table.c.o
+[92/290] Compiling C object extensions/float.so.p/float.c.o
+[93/290] Compiling C object extensions/grey.so.p/grey.c.o
+[94/290] Generating symbol file babl/libbabl-0.1.so.0.217.1.p/libbabl-0.1.so.0.217.1.symbols
+[95/290] Compiling C object extensions/gggl-table-lies.so.p/gggl-table-lies.c.o
+[96/290] Compiling C object extensions/HCY.so.p/HCY.c.o
+[97/290] Compiling C object extensions/naive-CMYK.so.p/naive-CMYK.c.o
+[98/290] Compiling C object extensions/HSV.so.p/HSV.c.o
+[99/290] Compiling C object extensions/gimp-8bit.so.p/gimp-8bit.c.o
+[100/290] Compiling C object extensions/gggl-lies.so.p/gggl-lies.c.o
+[101/290] Compiling C object extensions/sse2-int16.so.p/sse2-int16.c.o
+[102/290] Compiling C object extensions/HSL.so.p/HSL.c.o
+[103/290] Compiling C object extensions/two-table.so.p/two-table.c.o
+[104/290] Compiling C object extensions/ycbcr.so.p/ycbcr.c.o
+[105/290] Linking target extensions/u16.so
+[106/290] Linking target extensions/u32.so
+[107/290] Compiling C object extensions/oklab.so.p/oklab.c.o
+[108/290] Linking target extensions/cairo.so
+[109/290] Compiling C object extensions/sse4-int8.so.p/sse4-int8.c.o
+[110/290] Compiling C object extensions/sse2-int8.so.p/sse2-int8.c.o
+[111/290] Linking target extensions/double.so
+[112/290] Linking target extensions/oklab.so
+[113/290] Linking target extensions/float.so
+[114/290] Linking target extensions/half.so
+[115/290] Linking target extensions/fast-float.so
+[116/290] Compiling C object tools/babl-html-dump.p/babl-html-dump.c.o
+[117/290] Linking target extensions/gegl-fixups.so
+[118/290] Linking target extensions/gggl-table-lies.so
+[119/290] Linking target extensions/gggl-table.so
+[120/290] Linking target extensions/gggl-lies.so
+[121/290] Linking target extensions/formats.so
+[122/290] Linking target extensions/gimp-8bit.so
+[123/290] Linking target extensions/grey.so
+[124/290] Compiling C object extensions/gggl.so.p/gggl.c.o
+[125/290] Linking target extensions/HSL.so
+[126/290] Linking target extensions/HCY.so
+[127/290] Linking target extensions/naive-CMYK.so
+[128/290] Linking target extensions/sse2-int8.so
+[129/290] Linking target extensions/HSV.so
+[130/290] Linking target extensions/sse4-int8.so
+[131/290] Linking target extensions/gggl.so
+[132/290] Linking target extensions/sse2-int16.so
+[133/290] Linking target extensions/two-table.so
+[134/290] Linking target tools/babl-html-dump
+[135/290] Linking target extensions/ycbcr.so
+[136/290] Compiling C object extensions/x86-64-v2-u16.so.p/u16.c.o
+[137/290] Compiling C object extensions/simple.so.p/simple.c.o
+[138/290] Compiling C object extensions/x86-64-v2-u32.so.p/u32.c.o
+[139/290] Compiling C object extensions/x86-64-v2-grey.so.p/grey.c.o
+[140/290] Linking target extensions/simple.so
+[141/290] Compiling C object extensions/sse2-float.so.p/sse2-float.c.o
+[142/290] Linking target extensions/sse2-float.so
+[143/290] Compiling C object extensions/x86-64-v2-double.so.p/double.c.o
+[144/290] Compiling C object extensions/x86-64-v2-gegl-fixups.so.p/gegl-fixups.c.o
+[145/290] Compiling C object extensions/x86-64-v2-float.so.p/float.c.o
+[146/290] Compiling C object extensions/x86-64-v2-gggl-lies.so.p/gggl-lies.c.o
+[147/290] Compiling C object extensions/x86-64-v2-ycbcr.so.p/ycbcr.c.o
+[148/290] Compiling C object extensions/x86-64-v3-u16.so.p/u16.c.o
+[149/290] Compiling C object extensions/CIE.so.p/CIE.c.o
+[150/290] Compiling C object extensions/x86-64-v3-grey.so.p/grey.c.o
+[151/290] Compiling C object extensions/x86-64-v2-cairo.so.p/cairo.c.o
+[152/290] Compiling C object extensions/x86-64-v2-gggl.so.p/gggl.c.o
+[153/290] Linking target extensions/CIE.so
+[154/290] Compiling C object extensions/sse-half.so.p/sse-half.c.o
+[155/290] Compiling C object extensions/x86-64-v3-u32.so.p/u32.c.o
+[156/290] Compiling C object extensions/x86-64-v3-gegl-fixups.so.p/gegl-fixups.c.o
+[157/290] Linking target extensions/sse-half.so
+[158/290] Compiling C object extensions/x86-64-v2-simple.so.p/simple.c.o
+[159/290] Compiling C object extensions/x86-64-v3-cairo.so.p/cairo.c.o
+[160/290] Compiling C object extensions/x86-64-v3-float.so.p/float.c.o
+[161/290] Compiling C object extensions/avx2-int8.so.p/avx2-int8.c.o
+[162/290] Compiling C object tests/cairo_cmyk_hack.p/cairo_cmyk_hack.c.o
+[163/290] Linking target extensions/avx2-int8.so
+[164/290] Compiling C object tests/cairo-RGB24.p/cairo-RGB24.c.o
+[165/290] Compiling C object extensions/x86-64-v3-ycbcr.so.p/ycbcr.c.o
+[166/290] Compiling C object tests/cmyk.p/cmyk.c.o
+[167/290] Compiling C object tests/babl_class_name.p/babl_class_name.c.o
+[168/290] Compiling C object tests/chromaticities.p/chromaticities.c.o
+[169/290] Compiling C object tests/conversions.p/conversions.c.o
+[170/290] Compiling C object extensions/x86-64-v3-double.so.p/double.c.o
+[171/290] Compiling C object tests/extract.p/extract.c.o
+[172/290] Compiling C object tests/floatclamp.p/floatclamp.c.o
+[173/290] Compiling C object tests/hsl.p/hsl.c.o
+[174/290] Compiling C object tests/format_with_space.p/format_with_space.c.o
+[175/290] Compiling C object tests/hsva.p/hsva.c.o
+[176/290] Compiling C object extensions/x86-64-v3-gggl-lies.so.p/gggl-lies.c.o
+[177/290] Compiling C object tests/grayscale_to_rgb.p/grayscale_to_rgb.c.o
+[178/290] Compiling C object tests/nop.p/nop.c.o
+[179/290] Compiling C object tests/float-to-8bit.p/float-to-8bit.c.o
+[180/290] Generating babl/Babl-0.1.gir with a custom command (wrapped by meson to set env)
+[181/290] Compiling C object tests/models.p/models.c.o
+[182/290] Compiling C object tests/n_components.p/n_components.c.o
+[183/290] Compiling C object tests/srgb_to_lab_u8.p/srgb_to_lab_u8.c.o
+[184/290] Compiling C object tests/sanity.p/sanity.c.o
+[185/290] Compiling C object extensions/x86-64-v2-CIE.so.p/CIE.c.o
+[186/290] Compiling C object tests/n_components_cast.p/n_components_cast.c.o
+[187/290] Compiling C object tests/rgb_to_bgr.p/rgb_to_bgr.c.o
+[188/290] Compiling C object tests/transparent.p/transparent.c.o
+[189/290] Compiling C object tests/types.p/types.c.o
+[190/290] Compiling C object tests/alpha_symmetric_transform.p/alpha_symmetric_transform.c.o
+[191/290] Compiling C object tests/xyz_to_lab.p/xyz_to_lab.c.o
+[192/290] Compiling C object tests/rgb_to_ycbcr.p/rgb_to_ycbcr.c.o
+[193/290] Compiling C object tests/concurrency-stress-test.p/concurrency-stress-test.c.o
+[194/290] Compiling C object tests/palette-concurrency-stress-test.p/palette-concurrency-stress-test.c.o
+[195/290] Compiling C object tests/trcs.p/trcs.c.o
+[196/290] Compiling C object tests/palette.p/palette.c.o
+[197/290] Compiling C object tools/babl_fish_path_fitness.p/babl_fish_path_fitness.c.o
+[198/290] Compiling C object extensions/x86-64-v3-simple.so.p/simple.c.o
+[199/290] Compiling C object tools/babl-icc-rewrite.p/babl-icc-rewrite.c.o
+[200/290] Compiling C object tools/babl-verify.p/babl-verify.c.o
+[201/290] Compiling C object extensions/x86-64-v3-gggl.so.p/gggl.c.o
+[202/290] Compiling C object tools/introspect.p/introspect.c.o
+[203/290] Compiling C object tools/formats.p/formats.c.o
+[204/290] Generating babl/Babl-0.1.typelib with a custom command
+[205/290] Compiling C object tools/conversions.p/conversions.c.o
+[206/290] Compiling C object tools/trc-validator.p/trc-validator.c.o
+[207/290] Compiling C object tools/babl-lut-verify.p/babl-lut-verify.c.o
+[208/290] Compiling C object bin/babl.p/.._babl_babl-shared-util.c.o
+[209/290] Linking target extensions/x86-64-v2-u16.so
+[210/290] Linking target extensions/x86-64-v2-u32.so
+[211/290] Linking target extensions/x86-64-v2-cairo.so
+[212/290] Linking target extensions/x86-64-v2-grey.so
+[213/290] Linking target extensions/x86-64-v2-gegl-fixups.so
+[214/290] Linking target extensions/x86-64-v2-gggl-lies.so
+[215/290] Linking target extensions/x86-64-v2-CIE.so
+[216/290] Linking target extensions/x86-64-v2-gggl.so
+[217/290] Linking target extensions/x86-64-v2-double.so
+[218/290] Generating docs/index.html.tmp with a custom command (wrapped by meson to set env, to capture output)
+[219/290] Linking target extensions/x86-64-v2-ycbcr.so
+[220/290] Linking target extensions/x86-64-v2-simple.so
+[221/290] Compiling C object tools/babl-icc-dump.p/babl-icc-dump.c.o
+[222/290] Linking target extensions/x86-64-v2-float.so
+[223/290] Linking target extensions/x86-64-v3-u16.so
+[224/290] Linking target extensions/x86-64-v3-u32.so
+[225/290] Linking target extensions/x86-64-v3-cairo.so
+[226/290] Linking target extensions/x86-64-v3-grey.so
+[227/290] Linking target extensions/x86-64-v3-gggl-lies.so
+[228/290] Linking target extensions/x86-64-v3-gggl.so
+[229/290] Linking target extensions/x86-64-v3-simple.so
+[230/290] Linking target extensions/x86-64-v3-double.so
+[231/290] Linking target extensions/x86-64-v3-float.so
+[232/290] Linking target tests/babl_class_name
+[233/290] Linking target extensions/x86-64-v3-gegl-fixups.so
+[234/290] Linking target extensions/x86-64-v3-ycbcr.so
+[235/290] Linking target tests/cairo_cmyk_hack
+[236/290] Linking target tests/cmyk
+[237/290] Linking target tests/cairo-RGB24
+[238/290] Compiling C object bin/babl.p/babl.c.o
+[239/290] Linking target tests/floatclamp
+[240/290] Linking target tests/float-to-8bit
+[241/290] Linking target tests/chromaticities
+[242/290] Linking target tests/conversions
+[243/290] Linking target tests/format_with_space
+[244/290] Linking target tests/hsl
+[245/290] Linking target tests/extract
+[246/290] Linking target tests/models
+[247/290] Linking target tests/grayscale_to_rgb
+[248/290] Linking target tests/hsva
+[249/290] Linking target tests/n_components
+[250/290] Linking target tests/palette
+[251/290] Linking target tests/rgb_to_bgr
+[252/290] Linking target tests/n_components_cast
+[253/290] Linking target tests/nop
+[254/290] Linking target tests/sanity
+[255/290] Linking target tests/rgb_to_ycbcr
+[256/290] Linking target tests/transparent
+[257/290] Linking target tests/srgb_to_lab_u8
+[258/290] Linking target tests/xyz_to_lab
+[259/290] Linking target tests/alpha_symmetric_transform
+[260/290] Linking target tests/trcs
+[261/290] Linking target tests/types
+[262/290] Linking target tools/babl-icc-dump
+[263/290] Linking target tools/babl_fish_path_fitness
+[264/290] Linking target tests/palette-concurrency-stress-test
+[265/290] Linking target tools/babl-icc-rewrite
+[266/290] Linking target tools/babl-verify
+[267/290] Linking target tests/concurrency-stress-test
+[268/290] Linking target tools/conversions
+[269/290] Linking target tools/introspect
+[270/290] Linking target tools/formats
+[271/290] Generating babl/babl-0.1.vapi with a custom command
+[272/290] Linking target tools/trc-validator
+[273/290] Linking target tools/babl-lut-verify
+[274/290] Generating docs/graphics/babl-16x16.svg with a custom command
+[275/290] Generating docs/graphics/babl-48x48.svg with a custom command
+[276/290] Generating docs/graphics/babl-a4poster.svg with a custom command
+[277/290] Generating docs/Reference.html with a custom command
+[278/290] Generating docs/OldNews.html with a custom command
+[279/290] Generating docs/CMYK.html with a custom command
+[280/290] Generating docs/ColorManagement.html with a custom command
+[281/290] Linking target bin/babl
+[282/290] Generating check-def-files with a custom command
+[283/290] Compiling C object extensions/x86-64-v3-CIE.so.p/CIE.c.o
+[284/290] Generating docs/index.html with a custom command
+[285/290] Generating docs/Glossary.html with a custom command
+[286/290] Generating docs/UnifiedAlpha.html with a custom command
+[287/290] Linking target extensions/x86-64-v3-CIE.so
+[288/290] Compiling C object tools/babl-benchmark.p/babl-benchmark.c.o
+[289/290] Linking target tools/babl-benchmark
+[290/290] Generating docs/reference/babl-docs with a custom command
+[1/2] Generating check-def-files with a custom command
+[1/2] Installing files
+Installing babl/libbabl-0.1.so.0.217.1 to /pkgs/babl/usr/lib
+Installing babl/Babl-0.1.gir to /pkgs/babl/usr/share/gir-1.0
+Installing babl/Babl-0.1.typelib to /pkgs/babl/usr/lib/girepository-1.0
+Installing babl/babl-0.1.vapi to /pkgs/babl/usr/share/vala/vapi
+Installing extensions/u16.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/u32.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/cairo.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/oklab.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/CIE.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/double.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/fast-float.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/half.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/float.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/formats.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/gegl-fixups.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/gggl-lies.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/gggl-table-lies.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/gggl-table.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/gggl.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/gimp-8bit.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/grey.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/HCY.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/HSL.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/HSV.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/naive-CMYK.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/simple.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/sse-half.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/sse2-float.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/sse2-int16.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/sse2-int8.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/sse4-int8.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/avx2-int8.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/two-table.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/ycbcr.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/x86-64-v2-u16.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/x86-64-v2-u32.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/x86-64-v2-cairo.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/x86-64-v2-grey.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/x86-64-v2-gggl.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/x86-64-v2-gggl-lies.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/x86-64-v2-gegl-fixups.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/x86-64-v2-CIE.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/x86-64-v2-float.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/x86-64-v2-double.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/x86-64-v2-simple.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/x86-64-v2-ycbcr.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/x86-64-v3-u16.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/x86-64-v3-u32.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/x86-64-v3-cairo.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/x86-64-v3-grey.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/x86-64-v3-gggl.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/x86-64-v3-gggl-lies.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/x86-64-v3-gegl-fixups.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/x86-64-v3-CIE.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/x86-64-v3-float.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/x86-64-v3-double.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/x86-64-v3-simple.so to /pkgs/babl/usr/lib/babl-0.1
+Installing extensions/x86-64-v3-ycbcr.so to /pkgs/babl/usr/lib/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/go-up-symbolic.png to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.format_with_space.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.trc_gamma.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatDisplay-BlackItalic.woff to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatDisplay-Regular.woff2 to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.format_get_encoding.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.component_new.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/SourceCodePro-Regular.ttf.woff to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.get_user_data.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatDisplay-Bold.woff2 to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/babl-0.1.devhelp2 to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.space.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.space_is_cmyk.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatDisplay-Medium.woff to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/solarized-light.css to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.new_palette_with_space.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatDisplay-Bold.woff to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatText-MediumItalic.woff2 to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.conversion_get_source_space.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.exit.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatText-Italic.woff2 to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/main.js to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.space_from_chromaticities.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/callback.FuncPlanar.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatText-MediumItalic.woff to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatText-Bold.woff2 to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.introspect.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.palette_set_palette.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.space_get_icc.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/const.ALPHA_FLOOR.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.space_is_rgb.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatDisplay-Italic.woff2 to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatDisplay-MediumItalic.woff to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.space_from_rgbxyz_matrix.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.space_with_trc.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/classes_hierarchy.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatDisplay-Black.woff2 to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.fish.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/union.Object.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.fish_get_process.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatText-Regular.woff2 to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.icc_make_space.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/callback.FuncLinear.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/search.js to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/enum.SpaceFlags.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.component.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatDisplay-Regular.woff to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.format_get_model.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.init.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatText-Bold.woff to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.format_has_alpha.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.get_model_flags.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.space_get_gamma.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/callback.FishProcess.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatText-Regular.woff to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatText-Italic.woff to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.conversion_new.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/index.json to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/SourceCodePro-Semibold.ttf.woff to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.process_rows.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.format_get_bytes_per_pixel.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.trc.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.sampling.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.space_is_gray.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/style.css to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.format_is_palette.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/fzy.js to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.type.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.conversion_get_destination_space.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.get_name.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.space_from_icc.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.get_version.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.process.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.space_get.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatText-Medium.woff to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.model.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatDisplay-BlackItalic.woff2 to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.model_with_space.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.icc_get_key.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatDisplay-MediumItalic.woff2 to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.space_get_rgb_luminance.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.type_new.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.fast_fish.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatDisplay-BoldItalic.woff2 to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/SourceCodePro-It.ttf.woff to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatDisplay-Medium.woff2 to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.format_exists.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/const.MAJOR_VERSION.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.gc.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatText-BoldItalic.woff to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatText-Medium.woff2 to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.new_palette.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatDisplay-Italic.woff to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.palette_reset.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.format_n.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.format_new.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.model_is.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.format_is_format_n.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatDisplay-BoldItalic.woff to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/const.ALPHA_FLOOR_F.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.model_new.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/solarized-dark.css to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.set_user_data.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/enum.IccIntent.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.format_get_type.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.format.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatDisplay-Black.woff to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/flags.ModelFlag.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.format_get_n_components.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/const.MINOR_VERSION.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/fonts.css to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/index.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatText-BoldItalic.woff2 to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.format_get_space.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/const.MICRO_VERSION.html to /pkgs/babl/usr/share/doc/babl-0.1
+Installing bin/babl to /pkgs/babl/usr/bin
+Installing /blfs/builds/babl-0.1.118/babl/babl-introspect.h to /pkgs/babl/usr/include/babl-0.1/babl
+Installing /blfs/builds/babl-0.1.118/babl/babl-macros.h to /pkgs/babl/usr/include/babl-0.1/babl
+Installing /blfs/builds/babl-0.1.118/babl/babl-types.h to /pkgs/babl/usr/include/babl-0.1/babl
+Installing /blfs/builds/babl-0.1.118/babl/babl.h to /pkgs/babl/usr/include/babl-0.1/babl
+Installing /blfs/builds/babl-0.1.118/bld/babl/babl-version.h to /pkgs/babl/usr/include/babl-0.1/babl
+Installing /blfs/builds/babl-0.1.118/bld/meson-private/babl-0.1.deps to /pkgs/babl/usr/share/vala/vapi
+Installing /blfs/builds/babl-0.1.118/bld/meson-private/babl-0.1.pc to /pkgs/babl/usr/lib/pkgconfig
+Installing symlink pointing to libbabl-0.1.so.0.217.1 to /pkgs/babl/usr/lib/libbabl-0.1.so.0
+Installing symlink pointing to libbabl-0.1.so.0 to /pkgs/babl/usr/lib/libbabl-0.1.so
+[1/2] Generating check-def-files with a custom command
+[1/2] Installing files
+Installing babl/libbabl-0.1.so.0.217.1 to /usr/lib
+Installing babl/Babl-0.1.gir to /usr/share/gir-1.0
+Installing babl/Babl-0.1.typelib to /usr/lib/girepository-1.0
+Installing babl/babl-0.1.vapi to /usr/share/vala/vapi
+Installing extensions/u16.so to /usr/lib/babl-0.1
+Installing extensions/u32.so to /usr/lib/babl-0.1
+Installing extensions/cairo.so to /usr/lib/babl-0.1
+Installing extensions/oklab.so to /usr/lib/babl-0.1
+Installing extensions/CIE.so to /usr/lib/babl-0.1
+Installing extensions/double.so to /usr/lib/babl-0.1
+Installing extensions/fast-float.so to /usr/lib/babl-0.1
+Installing extensions/half.so to /usr/lib/babl-0.1
+Installing extensions/float.so to /usr/lib/babl-0.1
+Installing extensions/formats.so to /usr/lib/babl-0.1
+Installing extensions/gegl-fixups.so to /usr/lib/babl-0.1
+Installing extensions/gggl-lies.so to /usr/lib/babl-0.1
+Installing extensions/gggl-table-lies.so to /usr/lib/babl-0.1
+Installing extensions/gggl-table.so to /usr/lib/babl-0.1
+Installing extensions/gggl.so to /usr/lib/babl-0.1
+Installing extensions/gimp-8bit.so to /usr/lib/babl-0.1
+Installing extensions/grey.so to /usr/lib/babl-0.1
+Installing extensions/HCY.so to /usr/lib/babl-0.1
+Installing extensions/HSL.so to /usr/lib/babl-0.1
+Installing extensions/HSV.so to /usr/lib/babl-0.1
+Installing extensions/naive-CMYK.so to /usr/lib/babl-0.1
+Installing extensions/simple.so to /usr/lib/babl-0.1
+Installing extensions/sse-half.so to /usr/lib/babl-0.1
+Installing extensions/sse2-float.so to /usr/lib/babl-0.1
+Installing extensions/sse2-int16.so to /usr/lib/babl-0.1
+Installing extensions/sse2-int8.so to /usr/lib/babl-0.1
+Installing extensions/sse4-int8.so to /usr/lib/babl-0.1
+Installing extensions/avx2-int8.so to /usr/lib/babl-0.1
+Installing extensions/two-table.so to /usr/lib/babl-0.1
+Installing extensions/ycbcr.so to /usr/lib/babl-0.1
+Installing extensions/x86-64-v2-u16.so to /usr/lib/babl-0.1
+Installing extensions/x86-64-v2-u32.so to /usr/lib/babl-0.1
+Installing extensions/x86-64-v2-cairo.so to /usr/lib/babl-0.1
+Installing extensions/x86-64-v2-grey.so to /usr/lib/babl-0.1
+Installing extensions/x86-64-v2-gggl.so to /usr/lib/babl-0.1
+Installing extensions/x86-64-v2-gggl-lies.so to /usr/lib/babl-0.1
+Installing extensions/x86-64-v2-gegl-fixups.so to /usr/lib/babl-0.1
+Installing extensions/x86-64-v2-CIE.so to /usr/lib/babl-0.1
+Installing extensions/x86-64-v2-float.so to /usr/lib/babl-0.1
+Installing extensions/x86-64-v2-double.so to /usr/lib/babl-0.1
+Installing extensions/x86-64-v2-simple.so to /usr/lib/babl-0.1
+Installing extensions/x86-64-v2-ycbcr.so to /usr/lib/babl-0.1
+Installing extensions/x86-64-v3-u16.so to /usr/lib/babl-0.1
+Installing extensions/x86-64-v3-u32.so to /usr/lib/babl-0.1
+Installing extensions/x86-64-v3-cairo.so to /usr/lib/babl-0.1
+Installing extensions/x86-64-v3-grey.so to /usr/lib/babl-0.1
+Installing extensions/x86-64-v3-gggl.so to /usr/lib/babl-0.1
+Installing extensions/x86-64-v3-gggl-lies.so to /usr/lib/babl-0.1
+Installing extensions/x86-64-v3-gegl-fixups.so to /usr/lib/babl-0.1
+Installing extensions/x86-64-v3-CIE.so to /usr/lib/babl-0.1
+Installing extensions/x86-64-v3-float.so to /usr/lib/babl-0.1
+Installing extensions/x86-64-v3-double.so to /usr/lib/babl-0.1
+Installing extensions/x86-64-v3-simple.so to /usr/lib/babl-0.1
+Installing extensions/x86-64-v3-ycbcr.so to /usr/lib/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/go-up-symbolic.png to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.format_with_space.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.trc_gamma.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatDisplay-BlackItalic.woff to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatDisplay-Regular.woff2 to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.format_get_encoding.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.component_new.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/SourceCodePro-Regular.ttf.woff to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.get_user_data.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatDisplay-Bold.woff2 to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/babl-0.1.devhelp2 to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.space.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.space_is_cmyk.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatDisplay-Medium.woff to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/solarized-light.css to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.new_palette_with_space.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatDisplay-Bold.woff to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatText-MediumItalic.woff2 to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.conversion_get_source_space.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.exit.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatText-Italic.woff2 to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/main.js to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.space_from_chromaticities.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/callback.FuncPlanar.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatText-MediumItalic.woff to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatText-Bold.woff2 to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.introspect.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.palette_set_palette.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.space_get_icc.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/const.ALPHA_FLOOR.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.space_is_rgb.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatDisplay-Italic.woff2 to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatDisplay-MediumItalic.woff to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.space_from_rgbxyz_matrix.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.space_with_trc.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/classes_hierarchy.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatDisplay-Black.woff2 to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.fish.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/union.Object.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.fish_get_process.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatText-Regular.woff2 to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.icc_make_space.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/callback.FuncLinear.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/search.js to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/enum.SpaceFlags.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.component.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatDisplay-Regular.woff to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.format_get_model.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.init.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatText-Bold.woff to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.format_has_alpha.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.get_model_flags.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.space_get_gamma.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/callback.FishProcess.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatText-Regular.woff to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatText-Italic.woff to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.conversion_new.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/index.json to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/SourceCodePro-Semibold.ttf.woff to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.process_rows.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.format_get_bytes_per_pixel.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.trc.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.sampling.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.space_is_gray.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/style.css to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.format_is_palette.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/fzy.js to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.type.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.conversion_get_destination_space.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.get_name.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.space_from_icc.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.get_version.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.process.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.space_get.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatText-Medium.woff to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.model.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatDisplay-BlackItalic.woff2 to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.model_with_space.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.icc_get_key.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatDisplay-MediumItalic.woff2 to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.space_get_rgb_luminance.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.type_new.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.fast_fish.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatDisplay-BoldItalic.woff2 to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/SourceCodePro-It.ttf.woff to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatDisplay-Medium.woff2 to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.format_exists.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/const.MAJOR_VERSION.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.gc.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatText-BoldItalic.woff to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatText-Medium.woff2 to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.new_palette.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatDisplay-Italic.woff to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.palette_reset.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.format_n.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.format_new.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.model_is.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.format_is_format_n.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatDisplay-BoldItalic.woff to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/const.ALPHA_FLOOR_F.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.model_new.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/solarized-dark.css to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.set_user_data.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/enum.IccIntent.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.format_get_type.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.format.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatDisplay-Black.woff to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/flags.ModelFlag.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.format_get_n_components.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/const.MINOR_VERSION.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/fonts.css to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/index.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/RedHatText-BoldItalic.woff2 to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/func.format_get_space.html to /usr/share/doc/babl-0.1
+Installing /blfs/builds/babl-0.1.118/bld/docs/reference/babl-0.1/const.MICRO_VERSION.html to /usr/share/doc/babl-0.1
+Installing bin/babl to /usr/bin
+Installing /blfs/builds/babl-0.1.118/babl/babl-introspect.h to /usr/include/babl-0.1/babl
+Installing /blfs/builds/babl-0.1.118/babl/babl-macros.h to /usr/include/babl-0.1/babl
+Installing /blfs/builds/babl-0.1.118/babl/babl-types.h to /usr/include/babl-0.1/babl
+Installing /blfs/builds/babl-0.1.118/babl/babl.h to /usr/include/babl-0.1/babl
+Installing /blfs/builds/babl-0.1.118/bld/babl/babl-version.h to /usr/include/babl-0.1/babl
+Installing /blfs/builds/babl-0.1.118/bld/meson-private/babl-0.1.deps to /usr/share/vala/vapi
+Installing /blfs/builds/babl-0.1.118/bld/meson-private/babl-0.1.pc to /usr/lib/pkgconfig
+Installing symlink pointing to libbabl-0.1.so.0.217.1 to /usr/lib/libbabl-0.1.so.0
+Installing symlink pointing to libbabl-0.1.so.0 to /usr/lib/libbabl-0.1.so
+babl/
+babl/usr/
+babl/usr/include/
+babl/usr/include/babl-0.1/
+babl/usr/include/babl-0.1/babl/
+babl/usr/include/babl-0.1/babl/babl.h
+babl/usr/include/babl-0.1/babl/babl-types.h
+babl/usr/include/babl-0.1/babl/babl-version.h
+babl/usr/include/babl-0.1/babl/babl-macros.h
+babl/usr/include/babl-0.1/babl/babl-introspect.h
+babl/usr/share/
+babl/usr/share/vala/
+babl/usr/share/vala/vapi/
+babl/usr/share/vala/vapi/babl-0.1.vapi
+babl/usr/share/vala/vapi/babl-0.1.deps
+babl/usr/share/gir-1.0/
+babl/usr/share/gir-1.0/Babl-0.1.gir
+babl/usr/share/doc/
+babl/usr/share/doc/babl-0.1/
+babl/usr/share/doc/babl-0.1/go-up-symbolic.png
+babl/usr/share/doc/babl-0.1/func.format_with_space.html
+babl/usr/share/doc/babl-0.1/func.trc_gamma.html
+babl/usr/share/doc/babl-0.1/RedHatDisplay-BlackItalic.woff
+babl/usr/share/doc/babl-0.1/RedHatDisplay-Regular.woff2
+babl/usr/share/doc/babl-0.1/func.format_get_encoding.html
+babl/usr/share/doc/babl-0.1/func.component_new.html
+babl/usr/share/doc/babl-0.1/SourceCodePro-Regular.ttf.woff
+babl/usr/share/doc/babl-0.1/func.get_user_data.html
+babl/usr/share/doc/babl-0.1/RedHatDisplay-Bold.woff2
+babl/usr/share/doc/babl-0.1/babl-0.1.devhelp2
+babl/usr/share/doc/babl-0.1/func.space.html
+babl/usr/share/doc/babl-0.1/func.space_is_cmyk.html
+babl/usr/share/doc/babl-0.1/RedHatDisplay-Medium.woff
+babl/usr/share/doc/babl-0.1/solarized-light.css
+babl/usr/share/doc/babl-0.1/func.new_palette_with_space.html
+babl/usr/share/doc/babl-0.1/RedHatDisplay-Bold.woff
+babl/usr/share/doc/babl-0.1/RedHatText-MediumItalic.woff2
+babl/usr/share/doc/babl-0.1/func.conversion_get_source_space.html
+babl/usr/share/doc/babl-0.1/func.exit.html
+babl/usr/share/doc/babl-0.1/RedHatText-Italic.woff2
+babl/usr/share/doc/babl-0.1/main.js
+babl/usr/share/doc/babl-0.1/func.space_from_chromaticities.html
+babl/usr/share/doc/babl-0.1/callback.FuncPlanar.html
+babl/usr/share/doc/babl-0.1/RedHatText-MediumItalic.woff
+babl/usr/share/doc/babl-0.1/RedHatText-Bold.woff2
+babl/usr/share/doc/babl-0.1/func.introspect.html
+babl/usr/share/doc/babl-0.1/func.palette_set_palette.html
+babl/usr/share/doc/babl-0.1/func.space_get_icc.html
+babl/usr/share/doc/babl-0.1/const.ALPHA_FLOOR.html
+babl/usr/share/doc/babl-0.1/func.space_is_rgb.html
+babl/usr/share/doc/babl-0.1/RedHatDisplay-Italic.woff2
+babl/usr/share/doc/babl-0.1/RedHatDisplay-MediumItalic.woff
+babl/usr/share/doc/babl-0.1/func.space_from_rgbxyz_matrix.html
+babl/usr/share/doc/babl-0.1/func.space_with_trc.html
+babl/usr/share/doc/babl-0.1/classes_hierarchy.html
+babl/usr/share/doc/babl-0.1/RedHatDisplay-Black.woff2
+babl/usr/share/doc/babl-0.1/func.fish.html
+babl/usr/share/doc/babl-0.1/union.Object.html
+babl/usr/share/doc/babl-0.1/func.fish_get_process.html
+babl/usr/share/doc/babl-0.1/RedHatText-Regular.woff2
+babl/usr/share/doc/babl-0.1/func.icc_make_space.html
+babl/usr/share/doc/babl-0.1/callback.FuncLinear.html
+babl/usr/share/doc/babl-0.1/search.js
+babl/usr/share/doc/babl-0.1/enum.SpaceFlags.html
+babl/usr/share/doc/babl-0.1/func.component.html
+babl/usr/share/doc/babl-0.1/RedHatDisplay-Regular.woff
+babl/usr/share/doc/babl-0.1/func.format_get_model.html
+babl/usr/share/doc/babl-0.1/func.init.html
+babl/usr/share/doc/babl-0.1/RedHatText-Bold.woff
+babl/usr/share/doc/babl-0.1/func.format_has_alpha.html
+babl/usr/share/doc/babl-0.1/func.get_model_flags.html
+babl/usr/share/doc/babl-0.1/func.space_get_gamma.html
+babl/usr/share/doc/babl-0.1/callback.FishProcess.html
+babl/usr/share/doc/babl-0.1/RedHatText-Regular.woff
+babl/usr/share/doc/babl-0.1/RedHatText-Italic.woff
+babl/usr/share/doc/babl-0.1/func.conversion_new.html
+babl/usr/share/doc/babl-0.1/index.json
+babl/usr/share/doc/babl-0.1/SourceCodePro-Semibold.ttf.woff
+babl/usr/share/doc/babl-0.1/func.process_rows.html
+babl/usr/share/doc/babl-0.1/func.format_get_bytes_per_pixel.html
+babl/usr/share/doc/babl-0.1/func.trc.html
+babl/usr/share/doc/babl-0.1/func.sampling.html
+babl/usr/share/doc/babl-0.1/func.space_is_gray.html
+babl/usr/share/doc/babl-0.1/style.css
+babl/usr/share/doc/babl-0.1/func.format_is_palette.html
+babl/usr/share/doc/babl-0.1/fzy.js
+babl/usr/share/doc/babl-0.1/func.type.html
+babl/usr/share/doc/babl-0.1/func.conversion_get_destination_space.html
+babl/usr/share/doc/babl-0.1/func.get_name.html
+babl/usr/share/doc/babl-0.1/func.space_from_icc.html
+babl/usr/share/doc/babl-0.1/func.get_version.html
+babl/usr/share/doc/babl-0.1/func.process.html
+babl/usr/share/doc/babl-0.1/func.space_get.html
+babl/usr/share/doc/babl-0.1/RedHatText-Medium.woff
+babl/usr/share/doc/babl-0.1/func.model.html
+babl/usr/share/doc/babl-0.1/RedHatDisplay-BlackItalic.woff2
+babl/usr/share/doc/babl-0.1/func.model_with_space.html
+babl/usr/share/doc/babl-0.1/func.icc_get_key.html
+babl/usr/share/doc/babl-0.1/RedHatDisplay-MediumItalic.woff2
+babl/usr/share/doc/babl-0.1/func.space_get_rgb_luminance.html
+babl/usr/share/doc/babl-0.1/func.type_new.html
+babl/usr/share/doc/babl-0.1/func.fast_fish.html
+babl/usr/share/doc/babl-0.1/RedHatDisplay-BoldItalic.woff2
+babl/usr/share/doc/babl-0.1/SourceCodePro-It.ttf.woff
+babl/usr/share/doc/babl-0.1/RedHatDisplay-Medium.woff2
+babl/usr/share/doc/babl-0.1/func.format_exists.html
+babl/usr/share/doc/babl-0.1/const.MAJOR_VERSION.html
+babl/usr/share/doc/babl-0.1/func.gc.html
+babl/usr/share/doc/babl-0.1/RedHatText-BoldItalic.woff
+babl/usr/share/doc/babl-0.1/RedHatText-Medium.woff2
+babl/usr/share/doc/babl-0.1/func.new_palette.html
+babl/usr/share/doc/babl-0.1/RedHatDisplay-Italic.woff
+babl/usr/share/doc/babl-0.1/func.palette_reset.html
+babl/usr/share/doc/babl-0.1/func.format_n.html
+babl/usr/share/doc/babl-0.1/func.format_new.html
+babl/usr/share/doc/babl-0.1/func.model_is.html
+babl/usr/share/doc/babl-0.1/func.format_is_format_n.html
+babl/usr/share/doc/babl-0.1/RedHatDisplay-BoldItalic.woff
+babl/usr/share/doc/babl-0.1/const.ALPHA_FLOOR_F.html
+babl/usr/share/doc/babl-0.1/func.model_new.html
+babl/usr/share/doc/babl-0.1/solarized-dark.css
+babl/usr/share/doc/babl-0.1/func.set_user_data.html
+babl/usr/share/doc/babl-0.1/enum.IccIntent.html
+babl/usr/share/doc/babl-0.1/func.format_get_type.html
+babl/usr/share/doc/babl-0.1/func.format.html
+babl/usr/share/doc/babl-0.1/RedHatDisplay-Black.woff
+babl/usr/share/doc/babl-0.1/flags.ModelFlag.html
+babl/usr/share/doc/babl-0.1/func.format_get_n_components.html
+babl/usr/share/doc/babl-0.1/const.MINOR_VERSION.html
+babl/usr/share/doc/babl-0.1/fonts.css
+babl/usr/share/doc/babl-0.1/index.html
+babl/usr/share/doc/babl-0.1/RedHatText-BoldItalic.woff2
+babl/usr/share/doc/babl-0.1/func.format_get_space.html
+babl/usr/share/doc/babl-0.1/const.MICRO_VERSION.html
+babl/usr/bin/
+babl/usr/bin/babl
+babl/usr/lib/
+babl/usr/lib/girepository-1.0/
+babl/usr/lib/girepository-1.0/Babl-0.1.typelib
+babl/usr/lib/babl-0.1/
+babl/usr/lib/babl-0.1/x86-64-v2-CIE.so
+babl/usr/lib/babl-0.1/x86-64-v2-u16.so
+babl/usr/lib/babl-0.1/x86-64-v3-float.so
+babl/usr/lib/babl-0.1/x86-64-v3-simple.so
+babl/usr/lib/babl-0.1/gggl-lies.so
+babl/usr/lib/babl-0.1/x86-64-v3-CIE.so
+babl/usr/lib/babl-0.1/x86-64-v3-u32.so
+babl/usr/lib/babl-0.1/cairo.so
+babl/usr/lib/babl-0.1/x86-64-v2-cairo.so
+babl/usr/lib/babl-0.1/sse2-int8.so
+babl/usr/lib/babl-0.1/gimp-8bit.so
+babl/usr/lib/babl-0.1/x86-64-v3-grey.so
+babl/usr/lib/babl-0.1/gegl-fixups.so
+babl/usr/lib/babl-0.1/ycbcr.so
+babl/usr/lib/babl-0.1/x86-64-v2-grey.so
+babl/usr/lib/babl-0.1/sse4-int8.so
+babl/usr/lib/babl-0.1/x86-64-v3-ycbcr.so
+babl/usr/lib/babl-0.1/float.so
+babl/usr/lib/babl-0.1/grey.so
+babl/usr/lib/babl-0.1/x86-64-v2-simple.so
+babl/usr/lib/babl-0.1/fast-float.so
+babl/usr/lib/babl-0.1/double.so
+babl/usr/lib/babl-0.1/x86-64-v2-gggl.so
+babl/usr/lib/babl-0.1/u16.so
+babl/usr/lib/babl-0.1/x86-64-v3-u16.so
+babl/usr/lib/babl-0.1/x86-64-v2-u32.so
+babl/usr/lib/babl-0.1/simple.so
+babl/usr/lib/babl-0.1/naive-CMYK.so
+babl/usr/lib/babl-0.1/sse2-float.so
+babl/usr/lib/babl-0.1/two-table.so
+babl/usr/lib/babl-0.1/HSV.so
+babl/usr/lib/babl-0.1/CIE.so
+babl/usr/lib/babl-0.1/x86-64-v3-gggl.so
+babl/usr/lib/babl-0.1/oklab.so
+babl/usr/lib/babl-0.1/x86-64-v3-double.so
+babl/usr/lib/babl-0.1/x86-64-v2-double.so
+babl/usr/lib/babl-0.1/gggl-table.so
+babl/usr/lib/babl-0.1/x86-64-v3-gggl-lies.so
+babl/usr/lib/babl-0.1/x86-64-v2-float.so
+babl/usr/lib/babl-0.1/x86-64-v2-ycbcr.so
+babl/usr/lib/babl-0.1/half.so
+babl/usr/lib/babl-0.1/x86-64-v2-gegl-fixups.so
+babl/usr/lib/babl-0.1/x86-64-v2-gggl-lies.so
+babl/usr/lib/babl-0.1/sse2-int16.so
+babl/usr/lib/babl-0.1/HSL.so
+babl/usr/lib/babl-0.1/HCY.so
+babl/usr/lib/babl-0.1/x86-64-v3-cairo.so
+babl/usr/lib/babl-0.1/gggl.so
+babl/usr/lib/babl-0.1/x86-64-v3-gegl-fixups.so
+babl/usr/lib/babl-0.1/avx2-int8.so
+babl/usr/lib/babl-0.1/sse-half.so
+babl/usr/lib/babl-0.1/u32.so
+babl/usr/lib/babl-0.1/formats.so
+babl/usr/lib/babl-0.1/gggl-table-lies.so
+babl/usr/lib/libbabl-0.1.so.0
+babl/usr/lib/pkgconfig/
+babl/usr/lib/pkgconfig/babl-0.1.pc
+babl/usr/lib/libbabl-0.1.so
+babl/usr/lib/libbabl-0.1.so.0.217.1
+babl/version
+babl/depends
+babl/make-depends
