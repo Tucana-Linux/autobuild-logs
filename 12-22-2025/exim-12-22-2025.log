@@ -1,0 +1,958 @@
+--2025-12-22 17:44:47--  https://ftp.exim.org/pub/exim/exim4/exim-4.99.1.tar.xz
+Resolving ftp.exim.org (ftp.exim.org)... 152.53.204.32, 2a00:11c0:5f:34c1::2
+Connecting to ftp.exim.org (ftp.exim.org)|152.53.204.32|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1960984 (1.9M) [application/octet-stream]
+Saving to: ‘exim-4.99.1.tar.xz’
+
+     0K .......... .......... .......... .......... ..........  2%  402K 5s
+    50K .......... .......... .......... .......... ..........  5%  400K 5s
+   100K .......... .......... .......... .......... ..........  7% 38.7M 3s
+   150K .......... .......... .......... .......... .......... 10%  411K 3s
+   200K .......... .......... .......... .......... .......... 13%  401K 3s
+   250K .......... .......... .......... .......... .......... 15%  404K 3s
+   300K .......... .......... .......... .......... .......... 18%  401K 3s
+   350K .......... .......... .......... .......... .......... 20% 30.1M 3s
+   400K .......... .......... .......... .......... .......... 23%  394K 3s
+   450K .......... .......... .......... .......... .......... 26%  405K 3s
+   500K .......... .......... .......... .......... .......... 28% 36.0M 2s
+   550K .......... .......... .......... .......... .......... 31%  403K 2s
+   600K .......... .......... .......... .......... .......... 33% 42.6M 2s
+   650K .......... .......... .......... .......... .......... 36%  406K 2s
+   700K .......... .......... .......... .......... .......... 39%  409K 2s
+   750K .......... .......... .......... .......... .......... 41% 52.0M 2s
+   800K .......... .......... .......... .......... .......... 44% 12.9M 2s
+   850K .......... .......... .......... .......... .......... 46%  401K 2s
+   900K .......... .......... .......... .......... .......... 49% 39.3M 2s
+   950K .......... .......... .......... .......... .......... 52% 45.6M 1s
+  1000K .......... .......... .......... .......... .......... 54%  428K 1s
+  1050K .......... .......... .......... .......... .......... 57% 12.5M 1s
+  1100K .......... .......... .......... .......... .......... 60% 45.0M 1s
+  1150K .......... .......... .......... .......... .......... 62%  422K 1s
+  1200K .......... .......... .......... .......... .......... 65% 36.2M 1s
+  1250K .......... .......... .......... .......... .......... 67% 47.1M 1s
+  1300K .......... .......... .......... .......... .......... 70% 16.6M 1s
+  1350K .......... .......... .......... .......... .......... 73% 14.0M 1s
+  1400K .......... .......... .......... .......... .......... 75% 43.5M 1s
+  1450K .......... .......... .......... .......... .......... 78% 47.7M 0s
+  1500K .......... .......... .......... .......... .......... 80%  434K 0s
+  1550K .......... .......... .......... .......... .......... 83% 10.9M 0s
+  1600K .......... .......... .......... .......... .......... 86% 46.2M 0s
+  1650K .......... .......... .......... .......... .......... 88% 17.9M 0s
+  1700K .......... .......... .......... .......... .......... 91%  426K 0s
+  1750K .......... .......... .......... .......... .......... 93% 31.4M 0s
+  1800K .......... .......... .......... .......... .......... 96% 45.9M 0s
+  1850K .......... .......... .......... .......... .......... 99% 46.2M 0s
+  1900K .......... .....                                      100% 47.5M=2.0s
+
+2025-12-22 17:44:50 (959 KB/s) - ‘exim-4.99.1.tar.xz’ saved [1960984/1960984]
+
+exim-4.99.1/
+exim-4.99.1/doc/
+exim-4.99.1/doc/README.SIEVE
+exim-4.99.1/doc/README
+exim-4.99.1/doc/OptionLists.txt
+exim-4.99.1/doc/openssl.txt
+exim-4.99.1/doc/NewStuff
+exim-4.99.1/doc/id-wellknown.txt
+exim-4.99.1/doc/GnuTLS-FAQ.txt
+exim-4.99.1/doc/experimental-spec.txt
+exim-4.99.1/doc/exim-security-2025-12-09.1/
+exim-4.99.1/doc/exim-security-2025-12-09.1/timeline
+exim-4.99.1/doc/exim-security-2025-12-09.1/report.txt
+exim-4.99.1/doc/exim-security-2025-12-09.1/report.eml.xz
+exim-4.99.1/doc/exim-security-2025-12-09.1/oss-security.txt
+exim-4.99.1/doc/dbm.discuss.txt
+exim-4.99.1/doc/DANE-draft-notes
+exim-4.99.1/doc/cve-2025-67896
+exim-4.99.1/doc/cve-2023-51766
+exim-4.99.1/doc/cve-2020-qualys
+exim-4.99.1/doc/cve-2019-15846/
+exim-4.99.1/doc/cve-2019-15846/qualys.mbx
+exim-4.99.1/doc/cve-2019-15846/posting-2.txt
+exim-4.99.1/doc/cve-2019-15846/posting-1.txt
+exim-4.99.1/doc/cve-2019-15846/posting-0.txt
+exim-4.99.1/doc/cve-2019-15846/mitre.mbx
+exim-4.99.1/doc/cve-2019-15846/cve.txt
+exim-4.99.1/doc/cve-2019-13917
+exim-4.99.1/doc/cve-2016-9663
+exim-4.99.1/doc/ChangeLog
+exim-4.99.1/doc/filter.txt
+exim-4.99.1/doc/spec.txt
+exim-4.99.1/doc/exim.8
+exim-4.99.1/Local/
+exim-4.99.1/util/
+exim-4.99.1/util/unknownuser.sh
+exim-4.99.1/util/renew-opendmarc-tlds.sh
+exim-4.99.1/util/ratelimit.pl
+exim-4.99.1/util/proxy_protocol_client.pl
+exim-4.99.1/util/ocsp_fetch.pl
+exim-4.99.1/util/mkcdb.pl
+exim-4.99.1/util/mailtest
+exim-4.99.1/util/logargs.sh
+exim-4.99.1/util/gen_pkcs3.c
+exim-4.99.1/util/cramtest.pl
+exim-4.99.1/util/chunking_fixqueue_finalnewlines.pl
+exim-4.99.1/util/README
+exim-4.99.1/util/.gitignore
+exim-4.99.1/src/
+exim-4.99.1/src/version.h
+exim-4.99.1/src/cnumber.h
+exim-4.99.1/src/version.sh
+exim-4.99.1/src/xtextencode.c
+exim-4.99.1/src/xclient.c
+exim-4.99.1/src/version.c
+exim-4.99.1/src/verify.c
+exim-4.99.1/src/valgrind.h
+exim-4.99.1/src/utils/
+exim-4.99.1/src/utils/msgid.frag
+exim-4.99.1/src/utils/exiwhat.src
+exim-4.99.1/src/utils/exiqsumm.src
+exim-4.99.1/src/utils/exiqgrep.src
+exim-4.99.1/src/utils/exipick.src
+exim-4.99.1/src/utils/exinext.src
+exim-4.99.1/src/utils/eximstats.src
+exim-4.99.1/src/utils/eximon.src
+exim-4.99.1/src/utils/exim_msgdate.src
+exim-4.99.1/src/utils/exim_id_update.src
+exim-4.99.1/src/utils/exim_checkaccess.src
+exim-4.99.1/src/utils/exigrep.src
+exim-4.99.1/src/utils/exicyclog.src
+exim-4.99.1/src/utf8.c
+exim-4.99.1/src/tree.c
+exim-4.99.1/src/transports/
+exim-4.99.1/src/transports/tf_maildir.h
+exim-4.99.1/src/transports/tf_maildir.c
+exim-4.99.1/src/transports/smtp_socks.c
+exim-4.99.1/src/transports/smtp.h
+exim-4.99.1/src/transports/smtp.c
+exim-4.99.1/src/transports/queuefile.h
+exim-4.99.1/src/transports/queuefile.c
+exim-4.99.1/src/transports/pipe.h
+exim-4.99.1/src/transports/pipe.c
+exim-4.99.1/src/transports/lmtp.h
+exim-4.99.1/src/transports/lmtp.c
+exim-4.99.1/src/transports/autoreply.h
+exim-4.99.1/src/transports/autoreply.c
+exim-4.99.1/src/transports/appendfile.h
+exim-4.99.1/src/transports/appendfile.c
+exim-4.99.1/src/transports/README
+exim-4.99.1/src/transports/Makefile
+exim-4.99.1/src/transport.c
+exim-4.99.1/src/transport-filter.src
+exim-4.99.1/src/tod.c
+exim-4.99.1/src/tlscert-openssl.c
+exim-4.99.1/src/tlscert-gnu.c
+exim-4.99.1/src/tls.c
+exim-4.99.1/src/tls-openssl.c
+exim-4.99.1/src/tls-gnu.c
+exim-4.99.1/src/tls-cipher-stdname.c
+exim-4.99.1/src/structs.h
+exim-4.99.1/src/string.c
+exim-4.99.1/src/store.h
+exim-4.99.1/src/store.c
+exim-4.99.1/src/std-crypto.c
+exim-4.99.1/src/spool_out.c
+exim-4.99.1/src/spool_mbox.c
+exim-4.99.1/src/spool_in.c
+exim-4.99.1/src/spam.h
+exim-4.99.1/src/spam.c
+exim-4.99.1/src/smtp_out.c
+exim-4.99.1/src/smtp_in.c
+exim-4.99.1/src/sha_ver.h
+exim-4.99.1/src/setenv.c
+exim-4.99.1/src/search.c
+exim-4.99.1/src/routers/
+exim-4.99.1/src/routers/rf_set_ugid.c
+exim-4.99.1/src/routers/rf_self_action.c
+exim-4.99.1/src/routers/rf_queue_add.c
+exim-4.99.1/src/routers/rf_lookup_hostlist.c
+exim-4.99.1/src/routers/rf_get_ugid.c
+exim-4.99.1/src/routers/rf_get_transport.c
+exim-4.99.1/src/routers/rf_get_munge_headers.c
+exim-4.99.1/src/routers/rf_get_errors_address.c
+exim-4.99.1/src/routers/rf_functions.h
+exim-4.99.1/src/routers/rf_expand_data.c
+exim-4.99.1/src/routers/rf_change_domain.c
+exim-4.99.1/src/routers/redirect.h
+exim-4.99.1/src/routers/redirect.c
+exim-4.99.1/src/routers/queryprogram.h
+exim-4.99.1/src/routers/queryprogram.c
+exim-4.99.1/src/routers/manualroute.h
+exim-4.99.1/src/routers/manualroute.c
+exim-4.99.1/src/routers/iplookup.h
+exim-4.99.1/src/routers/iplookup.c
+exim-4.99.1/src/routers/ipliteral.h
+exim-4.99.1/src/routers/ipliteral.c
+exim-4.99.1/src/routers/dnslookup.h
+exim-4.99.1/src/routers/dnslookup.c
+exim-4.99.1/src/routers/accept.h
+exim-4.99.1/src/routers/accept.c
+exim-4.99.1/src/routers/README
+exim-4.99.1/src/routers/Makefile
+exim-4.99.1/src/route.c
+exim-4.99.1/src/rfc2047.c
+exim-4.99.1/src/rewrite.c
+exim-4.99.1/src/retry.c
+exim-4.99.1/src/regex_cache.c
+exim-4.99.1/src/regex.c
+exim-4.99.1/src/receive.c
+exim-4.99.1/src/readconf.c
+exim-4.99.1/src/rda.c
+exim-4.99.1/src/queue.c
+exim-4.99.1/src/proxy.c
+exim-4.99.1/src/priv.c
+exim-4.99.1/src/path_max.h
+exim-4.99.1/src/parse.c
+exim-4.99.1/src/osfunctions.h
+exim-4.99.1/src/os.c
+exim-4.99.1/src/mytypes.h
+exim-4.99.1/src/moan.c
+exim-4.99.1/src/miscmods/
+exim-4.99.1/src/miscmods/spf_perl.c
+exim-4.99.1/src/miscmods/spf_api.h
+exim-4.99.1/src/miscmods/spf.h
+exim-4.99.1/src/miscmods/spf.c
+exim-4.99.1/src/miscmods/sieve_filter_api.h
+exim-4.99.1/src/miscmods/sieve_filter.c
+exim-4.99.1/src/miscmods/radius_api.h
+exim-4.99.1/src/miscmods/radius.c
+exim-4.99.1/src/miscmods/perl_api.h
+exim-4.99.1/src/miscmods/perl.c
+exim-4.99.1/src/miscmods/pdkim/
+exim-4.99.1/src/miscmods/pdkim/signing.h
+exim-4.99.1/src/miscmods/pdkim/signing.c
+exim-4.99.1/src/miscmods/pdkim/pdkim_hash.h
+exim-4.99.1/src/miscmods/pdkim/pdkim.h
+exim-4.99.1/src/miscmods/pdkim/pdkim.c
+exim-4.99.1/src/miscmods/pdkim/crypt_ver.h
+exim-4.99.1/src/miscmods/pdkim/README
+exim-4.99.1/src/miscmods/pdkim/Makefile
+exim-4.99.1/src/miscmods/pam_api.h
+exim-4.99.1/src/miscmods/pam.c
+exim-4.99.1/src/miscmods/exim_filter_api.h
+exim-4.99.1/src/miscmods/exim_filter.c
+exim-4.99.1/src/miscmods/dummy.c
+exim-4.99.1/src/miscmods/dmarc_api.h
+exim-4.99.1/src/miscmods/dmarc.h
+exim-4.99.1/src/miscmods/dmarc.c
+exim-4.99.1/src/miscmods/dkim_transport.c
+exim-4.99.1/src/miscmods/dkim_api.h
+exim-4.99.1/src/miscmods/dkim.h
+exim-4.99.1/src/miscmods/dkim.c
+exim-4.99.1/src/miscmods/arc_api.h
+exim-4.99.1/src/miscmods/arc.c
+exim-4.99.1/src/miscmods/README
+exim-4.99.1/src/miscmods/Makefile
+exim-4.99.1/src/mime.h
+exim-4.99.1/src/mime.c
+exim-4.99.1/src/memcheck.h
+exim-4.99.1/src/md5.c
+exim-4.99.1/src/match.c
+exim-4.99.1/src/malware.c
+exim-4.99.1/src/macros.h
+exim-4.99.1/src/macro_predef.h
+exim-4.99.1/src/macro_predef.c
+exim-4.99.1/src/lss.c
+exim-4.99.1/src/lookups/
+exim-4.99.1/src/lookups/whoson.c
+exim-4.99.1/src/lookups/testdb.c
+exim-4.99.1/src/lookups/sqlite.c
+exim-4.99.1/src/lookups/spf.c
+exim-4.99.1/src/lookups/redis.c
+exim-4.99.1/src/lookups/readsock.c
+exim-4.99.1/src/lookups/pgsql.c
+exim-4.99.1/src/lookups/passwd.c
+exim-4.99.1/src/lookups/oracle.c
+exim-4.99.1/src/lookups/nmh.c
+exim-4.99.1/src/lookups/nisplus.c
+exim-4.99.1/src/lookups/nis.c
+exim-4.99.1/src/lookups/mysql.c
+exim-4.99.1/src/lookups/lsearch.c
+exim-4.99.1/src/lookups/lmdb.c
+exim-4.99.1/src/lookups/lf_sqlperform.c
+exim-4.99.1/src/lookups/lf_quote.c
+exim-4.99.1/src/lookups/lf_functions.h
+exim-4.99.1/src/lookups/lf_check_file.c
+exim-4.99.1/src/lookups/ldap.c
+exim-4.99.1/src/lookups/json.c
+exim-4.99.1/src/lookups/ibase.c
+exim-4.99.1/src/lookups/dsearch.c
+exim-4.99.1/src/lookups/dnsdb.c
+exim-4.99.1/src/lookups/dbmdb.c
+exim-4.99.1/src/lookups/cdb.c
+exim-4.99.1/src/lookups/README
+exim-4.99.1/src/lookups/Makefile
+exim-4.99.1/src/lookupapi.h
+exim-4.99.1/src/log.c
+exim-4.99.1/src/local_scan.h
+exim-4.99.1/src/local_scan.c
+exim-4.99.1/src/ip.c
+exim-4.99.1/src/imap_utf7.c
+exim-4.99.1/src/host_address.c
+exim-4.99.1/src/host.c
+exim-4.99.1/src/hintsdb_structs.h
+exim-4.99.1/src/hintsdb/
+exim-4.99.1/src/hintsdb/hints_tdb.h
+exim-4.99.1/src/hintsdb/hints_sqlite.h
+exim-4.99.1/src/hintsdb/hints_ndbm.h
+exim-4.99.1/src/hintsdb/hints_gdbm.h
+exim-4.99.1/src/hintsdb/hints_bdb.h
+exim-4.99.1/src/hintsdb.h
+exim-4.99.1/src/header.c
+exim-4.99.1/src/hash.h
+exim-4.99.1/src/hash.c
+exim-4.99.1/src/globals.h
+exim-4.99.1/src/globals.c
+exim-4.99.1/src/functions.h
+exim-4.99.1/src/filtertest.c
+exim-4.99.1/src/expand.c
+exim-4.99.1/src/exim_lock.c
+exim-4.99.1/src/exim_dbutil.c
+exim-4.99.1/src/exim_dbmbuild.c
+exim-4.99.1/src/exim.h
+exim-4.99.1/src/exim.c
+exim-4.99.1/src/environment.c
+exim-4.99.1/src/enq.c
+exim-4.99.1/src/dummies.c
+exim-4.99.1/src/drtables.c
+exim-4.99.1/src/dnsbl.c
+exim-4.99.1/src/dns.c
+exim-4.99.1/src/directory.c
+exim-4.99.1/src/deliver.c
+exim-4.99.1/src/debug.c
+exim-4.99.1/src/dcc.h
+exim-4.99.1/src/dcc.c
+exim-4.99.1/src/dbfunctions.h
+exim-4.99.1/src/dbfn.c
+exim-4.99.1/src/danessl.h
+exim-4.99.1/src/dane.c
+exim-4.99.1/src/dane-openssl.c
+exim-4.99.1/src/daemon.c
+exim-4.99.1/src/crypt16.c
+exim-4.99.1/src/configure.default
+exim-4.99.1/src/config.h.defaults
+exim-4.99.1/src/child.c
+exim-4.99.1/src/buildconfig.c
+exim-4.99.1/src/bmi_spam.h
+exim-4.99.1/src/bmi_spam.c
+exim-4.99.1/src/blob.h
+exim-4.99.1/src/base64.c
+exim-4.99.1/src/auths/
+exim-4.99.1/src/auths/tls.h
+exim-4.99.1/src/auths/tls.c
+exim-4.99.1/src/auths/spa.h
+exim-4.99.1/src/auths/spa.c
+exim-4.99.1/src/auths/pwcheck.h
+exim-4.99.1/src/auths/pwcheck.c
+exim-4.99.1/src/auths/plaintext.h
+exim-4.99.1/src/auths/plaintext.c
+exim-4.99.1/src/auths/heimdal_gssapi.h
+exim-4.99.1/src/auths/heimdal_gssapi.c
+exim-4.99.1/src/auths/gsasl.h
+exim-4.99.1/src/auths/gsasl.c
+exim-4.99.1/src/auths/get_no64_data.c
+exim-4.99.1/src/auths/get_data.c
+exim-4.99.1/src/auths/external.h
+exim-4.99.1/src/auths/external.c
+exim-4.99.1/src/auths/dovecot.h
+exim-4.99.1/src/auths/dovecot.c
+exim-4.99.1/src/auths/cyrus_sasl.h
+exim-4.99.1/src/auths/cyrus_sasl.c
+exim-4.99.1/src/auths/cram_md5.h
+exim-4.99.1/src/auths/cram_md5.c
+exim-4.99.1/src/auths/check_serv_cond.c
+exim-4.99.1/src/auths/call_pwcheck.c
+exim-4.99.1/src/auths/auth-spa.h
+exim-4.99.1/src/auths/auth-spa.c
+exim-4.99.1/src/auths/README
+exim-4.99.1/src/auths/Makefile
+exim-4.99.1/src/atrn.c
+exim-4.99.1/src/aliases.default
+exim-4.99.1/src/acl.c
+exim-4.99.1/src/EDITME
+exim-4.99.1/scripts/
+exim-4.99.1/scripts/source_checks
+exim-4.99.1/scripts/reversion
+exim-4.99.1/scripts/os-type
+exim-4.99.1/scripts/newer
+exim-4.99.1/scripts/lookups-Makefile
+exim-4.99.1/scripts/exim_install
+exim-4.99.1/scripts/drivers-Makefile
+exim-4.99.1/scripts/arch-type
+exim-4.99.1/scripts/MakeLinks
+exim-4.99.1/scripts/Configure-os.h
+exim-4.99.1/scripts/Configure-os.c
+exim-4.99.1/scripts/Configure-eximon
+exim-4.99.1/scripts/Configure-config.h
+exim-4.99.1/scripts/Configure-Makefile
+exim-4.99.1/scripts/Configure
+exim-4.99.1/exim_monitor/
+exim-4.99.1/exim_monitor/em_xs.c
+exim-4.99.1/exim_monitor/em_version.c
+exim-4.99.1/exim_monitor/em_text.c
+exim-4.99.1/exim_monitor/em_strip.c
+exim-4.99.1/exim_monitor/em_queue.c
+exim-4.99.1/exim_monitor/em_menu.c
+exim-4.99.1/exim_monitor/em_main.c
+exim-4.99.1/exim_monitor/em_log.c
+exim-4.99.1/exim_monitor/em_init.c
+exim-4.99.1/exim_monitor/em_hdr.h
+exim-4.99.1/exim_monitor/em_globals.c
+exim-4.99.1/exim_monitor/em_TextPop.c
+exim-4.99.1/exim_monitor/em_StripChart.c
+exim-4.99.1/exim_monitor/EDITME
+exim-4.99.1/conf
+exim-4.99.1/README.UPDATING
+exim-4.99.1/README.DSN
+exim-4.99.1/README
+exim-4.99.1/OS/
+exim-4.99.1/OS/unsupported/
+exim-4.99.1/OS/unsupported/os.h-mips
+exim-4.99.1/OS/unsupported/os.h-cygwin
+exim-4.99.1/OS/unsupported/os.h-Unixware7
+exim-4.99.1/OS/unsupported/os.h-USG
+exim-4.99.1/OS/unsupported/os.h-UNIX_SV
+exim-4.99.1/OS/unsupported/os.h-ULTRIX
+exim-4.99.1/OS/unsupported/os.h-SunOS5-hal
+exim-4.99.1/OS/unsupported/os.h-SunOS4
+exim-4.99.1/OS/unsupported/os.h-SCO_SV
+exim-4.99.1/OS/unsupported/os.h-SCO
+exim-4.99.1/OS/unsupported/os.h-QNX
+exim-4.99.1/OS/unsupported/os.h-OpenUNIX
+exim-4.99.1/OS/unsupported/os.h-OSF1
+exim-4.99.1/OS/unsupported/os.h-NetBSD-a.out
+exim-4.99.1/OS/unsupported/os.h-NetBSD
+exim-4.99.1/OS/unsupported/os.h-IRIX65
+exim-4.99.1/OS/unsupported/os.h-IRIX632
+exim-4.99.1/OS/unsupported/os.h-IRIX6
+exim-4.99.1/OS/unsupported/os.h-IRIX
+exim-4.99.1/OS/unsupported/os.h-HP-UX-9
+exim-4.99.1/OS/unsupported/os.h-HP-UX
+exim-4.99.1/OS/unsupported/os.h-HI-UX
+exim-4.99.1/OS/unsupported/os.h-HI-OSF
+exim-4.99.1/OS/unsupported/os.h-GNUkNetBSD
+exim-4.99.1/OS/unsupported/os.h-GNUkFreeBSD
+exim-4.99.1/OS/unsupported/os.h-DragonFly
+exim-4.99.1/OS/unsupported/os.h-Darwin
+exim-4.99.1/OS/unsupported/os.h-DGUX
+exim-4.99.1/OS/unsupported/os.h-BSDI
+exim-4.99.1/OS/unsupported/os.h-AIX
+exim-4.99.1/OS/unsupported/os.c-cygwin
+exim-4.99.1/OS/unsupported/os.c-OSF1
+exim-4.99.1/OS/unsupported/os.c-IRIX65
+exim-4.99.1/OS/unsupported/os.c-IRIX632
+exim-4.99.1/OS/unsupported/os.c-IRIX6
+exim-4.99.1/OS/unsupported/os.c-IRIX
+exim-4.99.1/OS/unsupported/os.c-HP-UX
+exim-4.99.1/OS/unsupported/os.c-HI-OSF
+exim-4.99.1/OS/unsupported/os.c-BSDI
+exim-4.99.1/OS/unsupported/README
+exim-4.99.1/OS/unsupported/Makefile-mips
+exim-4.99.1/OS/unsupported/Makefile-Unixware7
+exim-4.99.1/OS/unsupported/Makefile-USG
+exim-4.99.1/OS/unsupported/Makefile-UNIX_SV
+exim-4.99.1/OS/unsupported/Makefile-ULTRIX
+exim-4.99.1/OS/unsupported/Makefile-SunOS5-hal
+exim-4.99.1/OS/unsupported/Makefile-SunOS4
+exim-4.99.1/OS/unsupported/Makefile-SCO_SV
+exim-4.99.1/OS/unsupported/Makefile-SCO
+exim-4.99.1/OS/unsupported/Makefile-QNX
+exim-4.99.1/OS/unsupported/Makefile-OpenUNIX
+exim-4.99.1/OS/unsupported/Makefile-OSF1
+exim-4.99.1/OS/unsupported/Makefile-NetBSD-a.out
+exim-4.99.1/OS/unsupported/Makefile-NetBSD
+exim-4.99.1/OS/unsupported/Makefile-IRIX65
+exim-4.99.1/OS/unsupported/Makefile-IRIX632
+exim-4.99.1/OS/unsupported/Makefile-IRIX6
+exim-4.99.1/OS/unsupported/Makefile-IRIX
+exim-4.99.1/OS/unsupported/Makefile-HP-UX-9
+exim-4.99.1/OS/unsupported/Makefile-HP-UX
+exim-4.99.1/OS/unsupported/Makefile-HI-UX
+exim-4.99.1/OS/unsupported/Makefile-HI-OSF
+exim-4.99.1/OS/unsupported/Makefile-GNUkNetBSD
+exim-4.99.1/OS/unsupported/Makefile-GNUkFreeBSD
+exim-4.99.1/OS/unsupported/Makefile-DragonFly
+exim-4.99.1/OS/unsupported/Makefile-Darwin
+exim-4.99.1/OS/unsupported/Makefile-DGUX
+exim-4.99.1/OS/unsupported/Makefile-CYGWIN
+exim-4.99.1/OS/unsupported/Makefile-BSDI
+exim-4.99.1/OS/unsupported/Makefile-AIX
+exim-4.99.1/OS/os.h-SunOS5
+exim-4.99.1/OS/os.h-OpenBSD
+exim-4.99.1/OS/os.h-Linux
+exim-4.99.1/OS/os.h-GNU
+exim-4.99.1/OS/os.h-FreeBSD
+exim-4.99.1/OS/os.c-SunOS5
+exim-4.99.1/OS/os.c-Linux
+exim-4.99.1/OS/os.c-GNU
+exim-4.99.1/OS/os.c-FreeBSD
+exim-4.99.1/OS/os.Configuring
+exim-4.99.1/OS/eximon.conf-Default
+exim-4.99.1/OS/Makefile-SunOS5
+exim-4.99.1/OS/Makefile-OpenBSD
+exim-4.99.1/OS/Makefile-Linux
+exim-4.99.1/OS/Makefile-GNU
+exim-4.99.1/OS/Makefile-FreeBSD
+exim-4.99.1/OS/Makefile-Default
+exim-4.99.1/OS/Makefile-Base
+exim-4.99.1/NOTICE
+exim-4.99.1/Makefile
+exim-4.99.1/LICENSE.opendmarc
+exim-4.99.1/LICENCE
+exim-4.99.1/CONTRIBUTING
+exim-4.99.1/CHANGES
+exim-4.99.1/ACKNOWLEDGMENTS
+exim-4.99.1/ABOUT
+exim-4.99.1/.gitignore
+exim-4.99.1/.gitattributes
+exim-4.99.1/.ctags
+/bin/sh scripts/source_checks
+
+>>> Creating links to source files...
+>>> Creating lookups/Makefile for building dynamic modules
+>>> Creating routers/Makefile for building dynamic modules
+>>> Creating transports/Makefile for building dynamic modules
+>>> Creating auths/Makefile for building dynamic modules
+>>> Creating miscmods/Makefile for building dynamic modules
+>>> New Makefile & lookups/Makefile installed
+>>> Use "make makefile" if you need to force rebuilding of the makefile
+ 
+make[1]: Entering directory '/blfs/builds/exim-4.99.1/build-Linux-x86_64'
+make[1]: warning: -j10 forced in submake: resetting jobserver mode.
+/bin/sh ../scripts/Configure-os.c
+/bin/sh ../scripts/Configure-os.h
+cc buildconfig.c
+cc exim_lock.c
+cc -o exim_lock
+>>> exim_lock utility built
+ 
+/bin/sh ../scripts/Configure-config.h "make"
+make[2]: Entering directory '/blfs/builds/exim-4.99.1/build-Linux-x86_64'
+make[2]: 'buildconfig' is up to date.
+make[2]: Leaving directory '/blfs/builds/exim-4.99.1/build-Linux-x86_64'
+Building configuration file config.h
+>>> config.h built
+
+cc -DMACRO_PREDEF globals.c
+cc -DMACRO_PREDEF macro_predef.c
+cc -DMACRO_PREDEF route.c
+cc -DMACRO_PREDEF drtables.c
+cc -DMACRO_PREDEF acl.c
+cc -DMACRO_PREDEF readconf.c
+cc -DMACRO_PREDEF transports/appendfile.c
+cc -DMACRO_PREDEF expand.c
+cc -DMACRO_PREDEF transport.c
+cc -DMACRO_PREDEF tls.c
+cc -DMACRO_PREDEF transports/autoreply.c
+cc -DMACRO_PREDEF transports/lmtp.c
+cc -DMACRO_PREDEF transports/pipe.c
+cc -DMACRO_PREDEF transports/queuefile.c
+cc -DMACRO_PREDEF transports/smtp.c
+cc -DMACRO_PREDEF routers/accept.c
+cc -DMACRO_PREDEF routers/dnslookup.c
+cc -DMACRO_PREDEF routers/ipliteral.c
+cc -DMACRO_PREDEF routers/iplookup.c
+cc -DMACRO_PREDEF routers/manualroute.c
+cc -DMACRO_PREDEF routers/queryprogram.c
+cc -DMACRO_PREDEF routers/redirect.c
+cc -DMACRO_PREDEF auths/auth-spa.c
+cc -DMACRO_PREDEF auths/cram_md5.c
+cc -DMACRO_PREDEF auths/cyrus_sasl.c
+cc -DMACRO_PREDEF auths/dovecot.c
+cc -DMACRO_PREDEF auths/gsasl.c
+cc -DMACRO_PREDEF auths/spa.c
+cc -DMACRO_PREDEF auths/tls.c
+cc -DMACRO_PREDEF auths/heimdal_gssapi.c
+cc -DMACRO_PREDEF miscmods/dkim.c
+cc -DMACRO_PREDEF auths/plaintext.c
+cc -DMACRO_PREDEF auths/external.c
+cc -DMACRO_PREDEF malware.c
+cc -DMACRO_PREDEF miscmods/signing.c
+cc exim_dbmbuild.c
+cc -DCOMPILE_UTILITY xtextencode.c
+cc -DEXIM_DUMPDB exim_dbutil.c
+cc -DCOMPILE_UTILITY os.c
+cc -DCOMPILE_UTILITY store.c
+cc -DEXIM_FIXDB exim_dbutil.c
+cc -DCOMPILE_UTILITY queue.c
+cc -DEXIM_TIDYDB exim_dbutil.c
+cc acl.c
+cc atrn.c
+cc base64.c
+cc child.c
+cc crypt16.c
+cc daemon.c
+cc dbfn.c
+cc debug.c
+cc deliver.c
+cc directory.c
+cc dns.c
+cc drtables.c
+cc enq.c
+cc exim.c
+cc expand.c
+cc filtertest.c
+cc globals.c
+cc dnsbl.c
+cc hash.c
+cc header.c
+cc host.c
+cc host_address.c
+cc ip.c
+cc log.c
+cc lss.c
+cc match.c
+cc md5.c
+cc moan.c
+cc os.c
+cc parse.c
+cc priv.c
+cc proxy.c
+cc queue.c
+cc rda.c
+cc readconf.c
+cc receive.c
+cc retry.c
+cc rewrite.c
+cc rfc2047.c
+cc regex_cache.c
+cc route.c
+cc search.c
+cc smtp_in.c
+cc smtp_out.c
+cc spool_in.c
+cc spool_out.c
+cc std-crypto.c
+cc store.c
+cc string.c
+cc tls.c
+cc tod.c
+cc transport.c
+cc tree.c
+cc verify.c
+cc xtextencode.c
+cc environment.c
+cc lookups/lf_quote.c
+cc lookups/lf_check_file.c
+cc lookups/lf_sqlperform.c
+cc routers/rf_change_domain.c
+cc routers/rf_expand_data.c
+cc routers/rf_get_errors_address.c
+cc routers/rf_get_munge_headers.c
+cc routers/rf_get_transport.c
+cc routers/rf_get_ugid.c
+cc routers/rf_lookup_hostlist.c
+cc routers/rf_queue_add.c
+cc routers/rf_self_action.c
+cc routers/rf_set_ugid.c
+cc auths/call_pwcheck.c
+cc auths/check_serv_cond.c
+cc auths/get_data.c
+cc auths/get_no64_data.c
+cc auths/pwcheck.c
+cc malware.c
+cc mime.c
+cc regex.c
+cc spam.c
+cc spool_mbox.c
+cc bmi_spam.c
+cc dane.c
+cc dcc.c
+cc imap_utf7.c
+cc utf8.c
+cc xclient.c
+cc version.c
+cc -o macro_predef
+cc -o exim_dbmbuild
+cc -o exim_dumpdb
+cc -o exim_fixdb
+>>> exim_dbmbuild utility built
+ 
+cc -o exim_tidydb
+>>> exim_dumpdb utility built
+ 
+./macro_predef > macro.c
+>>> exim_fixdb utility built
+ 
+>>> exicyclog script built
+>>> exiwhat script built
+>>> exinext script built
+>>> exim_tidydb utility built
+ 
+>>> transport-filter.pl script built
+>>> exiqgrep script built
+>>> exiqsumm script built
+# @./exim_checkaccess -v 2>&1 >/dev/null
+>>> exim_checkaccess script built
+
+make[2]: Entering directory '/blfs/builds/exim-4.99.1/build-Linux-x86_64/lookups'
+make[2]: warning: -j10 forced in submake: resetting jobserver mode.
+cc dbmdb.c
+cc spf.c
+cc dnsdb.c
+cc lsearch.c
+cc readsock.c
+>>> eximstats script built
+make[2]: Entering directory '/blfs/builds/exim-4.99.1/build-Linux-x86_64/auths'
+make[2]: warning: -j10 forced in submake: resetting jobserver mode.
+cc auth-spa.c
+make[2]: Entering directory '/blfs/builds/exim-4.99.1/build-Linux-x86_64/routers'
+make[2]: warning: -j10 forced in submake: resetting jobserver mode.
+cc accept.c
+cc dnslookup.c
+cc manualroute.c
+cc ipliteral.c
+cc queryprogram.c
+make[2]: Entering directory '/blfs/builds/exim-4.99.1/build-Linux-x86_64/transports'
+make[2]: warning: -j10 forced in submake: resetting jobserver mode.
+cc redirect.c
+cc appendfile.c
+cc autoreply.c
+cc pipe.c
+cc smtp.c
+cc smtp_socks.c
+cc tf_maildir.c
+>>> exim_id_update script built
+make[2]: Entering directory '/blfs/builds/exim-4.99.1/build-Linux-x86_64/miscmods'
+make[2]: warning: -j10 forced in submake: resetting jobserver mode.
+cc dkim.c dkim_transport.c pdkim.c signing.c
+cc exim_filter.c
+cc sieve_filter.c
+cc pam.c
+cc dummy.c
+>>> exim_msgdate script built
+cc macro.c
+>>> exipick script built
+cc local_scan.c
+>>> exigrep script built
+ar cq lookups.a
+ranlib lookups.a
+make[2]: Leaving directory '/blfs/builds/exim-4.99.1/build-Linux-x86_64/lookups'
+ 
+ar cq routers.a
+ranlib routers.a
+make[2]: Leaving directory '/blfs/builds/exim-4.99.1/build-Linux-x86_64/routers'
+ 
+ar cq auths.a
+ranlib auths.a
+make[2]: Leaving directory '/blfs/builds/exim-4.99.1/build-Linux-x86_64/auths'
+ 
+ar cq miscmods.a
+ranlib miscmods.a
+make[2]: Leaving directory '/blfs/builds/exim-4.99.1/build-Linux-x86_64/miscmods'
+ 
+ar cq transports.a
+ranlib transports.a
+make[2]: Leaving directory '/blfs/builds/exim-4.99.1/build-Linux-x86_64/transports'
+ 
+rm -fr dynmodules
+mkdir dynmodules
+for d in lookup router transport auth miscmod; do \
+  for f in ${d}s/*.so; do \
+    [ -e $f ] && ln $f dynmodules/`basename $f .so`_$d.so; \
+  done; \
+done; \
+true
+cc -o exim
+ 
+>>> exim binary built
+ 
+make[1]: Leaving directory '/blfs/builds/exim-4.99.1/build-Linux-x86_64'
+install: creating directory '/pkgs/exim'
+install: creating directory '/pkgs/exim/usr'
+install: creating directory '/pkgs/exim/usr/share'
+install: creating directory '/pkgs/exim/usr/share/doc'
+install: creating directory '/pkgs/exim/usr/share/doc/exim'
+'doc/ChangeLog' -> '/pkgs/exim/usr/share/doc/exim/ChangeLog'
+'doc/cve-2016-9663' -> '/pkgs/exim/usr/share/doc/exim/cve-2016-9663'
+'doc/cve-2019-13917' -> '/pkgs/exim/usr/share/doc/exim/cve-2019-13917'
+'doc/cve-2019-15846' -> '/pkgs/exim/usr/share/doc/exim/cve-2019-15846'
+'doc/cve-2019-15846/qualys.mbx' -> '/pkgs/exim/usr/share/doc/exim/cve-2019-15846/qualys.mbx'
+'doc/cve-2019-15846/posting-2.txt' -> '/pkgs/exim/usr/share/doc/exim/cve-2019-15846/posting-2.txt'
+'doc/cve-2019-15846/posting-1.txt' -> '/pkgs/exim/usr/share/doc/exim/cve-2019-15846/posting-1.txt'
+'doc/cve-2019-15846/posting-0.txt' -> '/pkgs/exim/usr/share/doc/exim/cve-2019-15846/posting-0.txt'
+'doc/cve-2019-15846/mitre.mbx' -> '/pkgs/exim/usr/share/doc/exim/cve-2019-15846/mitre.mbx'
+'doc/cve-2019-15846/cve.txt' -> '/pkgs/exim/usr/share/doc/exim/cve-2019-15846/cve.txt'
+'doc/cve-2020-qualys' -> '/pkgs/exim/usr/share/doc/exim/cve-2020-qualys'
+'doc/cve-2023-51766' -> '/pkgs/exim/usr/share/doc/exim/cve-2023-51766'
+'doc/cve-2025-67896' -> '/pkgs/exim/usr/share/doc/exim/cve-2025-67896'
+'doc/DANE-draft-notes' -> '/pkgs/exim/usr/share/doc/exim/DANE-draft-notes'
+'doc/dbm.discuss.txt' -> '/pkgs/exim/usr/share/doc/exim/dbm.discuss.txt'
+'doc/exim.8' -> '/pkgs/exim/usr/share/doc/exim/exim.8'
+'doc/exim-security-2025-12-09.1' -> '/pkgs/exim/usr/share/doc/exim/exim-security-2025-12-09.1'
+'doc/exim-security-2025-12-09.1/timeline' -> '/pkgs/exim/usr/share/doc/exim/exim-security-2025-12-09.1/timeline'
+'doc/exim-security-2025-12-09.1/report.txt' -> '/pkgs/exim/usr/share/doc/exim/exim-security-2025-12-09.1/report.txt'
+'doc/exim-security-2025-12-09.1/report.eml.xz' -> '/pkgs/exim/usr/share/doc/exim/exim-security-2025-12-09.1/report.eml.xz'
+'doc/exim-security-2025-12-09.1/oss-security.txt' -> '/pkgs/exim/usr/share/doc/exim/exim-security-2025-12-09.1/oss-security.txt'
+'doc/experimental-spec.txt' -> '/pkgs/exim/usr/share/doc/exim/experimental-spec.txt'
+'doc/filter.txt' -> '/pkgs/exim/usr/share/doc/exim/filter.txt'
+'doc/GnuTLS-FAQ.txt' -> '/pkgs/exim/usr/share/doc/exim/GnuTLS-FAQ.txt'
+'doc/id-wellknown.txt' -> '/pkgs/exim/usr/share/doc/exim/id-wellknown.txt'
+'doc/NewStuff' -> '/pkgs/exim/usr/share/doc/exim/NewStuff'
+'doc/openssl.txt' -> '/pkgs/exim/usr/share/doc/exim/openssl.txt'
+'doc/OptionLists.txt' -> '/pkgs/exim/usr/share/doc/exim/OptionLists.txt'
+'doc/README' -> '/pkgs/exim/usr/share/doc/exim/README'
+'doc/README.SIEVE' -> '/pkgs/exim/usr/share/doc/exim/README.SIEVE'
+'doc/spec.txt' -> '/pkgs/exim/usr/share/doc/exim/spec.txt'
+'/pkgs/exim/usr/sbin/sendmail' -> 'exim'
+install: creating directory '/pkgs/exim/var'
+install: creating directory '/pkgs/exim/var/spool'
+install: creating directory '/pkgs/exim/var/spool/exim'
+/bin/sh scripts/source_checks
+`Makefile' is up to date.
+ 
+make[1]: Entering directory '/blfs/builds/exim-4.99.1/build-Linux-x86_64'
+>>> exicyclog script built
+>>> exinext script built
+>>> exiwhat script built
+>>> exigrep script built
+>>> eximstats script built
+>>> exipick script built
+>>> exiqgrep script built
+>>> exiqsumm script built
+>>> transport-filter.pl script built
+# @./exim_checkaccess -v 2>&1 >/dev/null
+>>> exim_checkaccess script built
+
+>>> exim_msgdate script built
+>>> exim_id_update script built
+make[2]: Entering directory '/blfs/builds/exim-4.99.1/build-Linux-x86_64/lookups'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/blfs/builds/exim-4.99.1/build-Linux-x86_64/lookups'
+ 
+make[2]: Entering directory '/blfs/builds/exim-4.99.1/build-Linux-x86_64/auths'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/blfs/builds/exim-4.99.1/build-Linux-x86_64/auths'
+ 
+make[2]: Entering directory '/blfs/builds/exim-4.99.1/build-Linux-x86_64/routers'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/blfs/builds/exim-4.99.1/build-Linux-x86_64/routers'
+ 
+make[2]: Entering directory '/blfs/builds/exim-4.99.1/build-Linux-x86_64/transports'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/blfs/builds/exim-4.99.1/build-Linux-x86_64/transports'
+ 
+make[2]: Entering directory '/blfs/builds/exim-4.99.1/build-Linux-x86_64/miscmods'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/blfs/builds/exim-4.99.1/build-Linux-x86_64/miscmods'
+ 
+cc local_scan.c
+cc -o exim
+ 
+>>> exim binary built
+ 
+rm -fr dynmodules
+mkdir dynmodules
+for d in lookup router transport auth miscmod; do \
+  for f in ${d}s/*.so; do \
+    [ -e $f ] && ln $f dynmodules/`basename $f .so`_$d.so; \
+  done; \
+done; \
+true
+make[1]: Leaving directory '/blfs/builds/exim-4.99.1/build-Linux-x86_64'
+
+Installation directory is /pkgs/exim/usr/sbin
+
+cp exim /pkgs/exim/usr/sbin/exim-4.99.1-2
+/bin/chown root /pkgs/exim/usr/sbin/exim-4.99.1-2
+chmod a+x /pkgs/exim/usr/sbin/exim-4.99.1-2
+chmod u+s /pkgs/exim/usr/sbin/exim-4.99.1-2
+(cd /pkgs/exim/usr/sbin; ln -s exim-4.99.1-2 exim)
+cp exim_dumpdb /pkgs/exim/usr/sbin
+cp exim_fixdb /pkgs/exim/usr/sbin
+cp exim_tidydb /pkgs/exim/usr/sbin
+cp exinext /pkgs/exim/usr/sbin
+cp exiwhat /pkgs/exim/usr/sbin
+cp exim_dbmbuild /pkgs/exim/usr/sbin
+cp exicyclog /pkgs/exim/usr/sbin
+cp exigrep /pkgs/exim/usr/sbin
+cp eximstats /pkgs/exim/usr/sbin
+cp exipick /pkgs/exim/usr/sbin
+cp exiqgrep /pkgs/exim/usr/sbin
+cp exiqsumm /pkgs/exim/usr/sbin
+cp exim_lock /pkgs/exim/usr/sbin
+cp exim_checkaccess /pkgs/exim/usr/sbin
+cp exim_msgdate /pkgs/exim/usr/sbin
+cp exim_id_update /pkgs/exim/usr/sbin
+
+Installing default configuration in /pkgs/exim/etc/exim.conf
+because there is no existing configuration file.
+mkdir -p /pkgs/exim/etc
+sed -e \\
+  "/SYSTEM_ALIASES_FILE/ s'SYSTEM_ALIASES_FILE'/etc/aliases'" \\
+  ../src/configure.default > ${CONFIGURE_FILE}
+****
+Installing a dummy /pkgs/exim/etc/aliases file because you do not have
+one, and the default configuration requires it. You should
+edit /pkgs/exim/etc/aliases and at least create an alias for postmaster.
+***
+cp ../src/aliases.default /pkgs/exim/etc/aliases
+
+Exim installation complete
+exim/
+exim/usr/
+exim/usr/share/
+exim/usr/share/doc/
+exim/usr/share/doc/exim/
+exim/usr/share/doc/exim/GnuTLS-FAQ.txt
+exim/usr/share/doc/exim/experimental-spec.txt
+exim/usr/share/doc/exim/cve-2016-9663
+exim/usr/share/doc/exim/id-wellknown.txt
+exim/usr/share/doc/exim/exim-security-2025-12-09.1/
+exim/usr/share/doc/exim/exim-security-2025-12-09.1/report.txt
+exim/usr/share/doc/exim/exim-security-2025-12-09.1/timeline
+exim/usr/share/doc/exim/exim-security-2025-12-09.1/oss-security.txt
+exim/usr/share/doc/exim/exim-security-2025-12-09.1/report.eml.xz
+exim/usr/share/doc/exim/spec.txt
+exim/usr/share/doc/exim/cve-2019-13917
+exim/usr/share/doc/exim/dbm.discuss.txt
+exim/usr/share/doc/exim/NewStuff
+exim/usr/share/doc/exim/README
+exim/usr/share/doc/exim/cve-2019-15846/
+exim/usr/share/doc/exim/cve-2019-15846/cve.txt
+exim/usr/share/doc/exim/cve-2019-15846/qualys.mbx
+exim/usr/share/doc/exim/cve-2019-15846/mitre.mbx
+exim/usr/share/doc/exim/cve-2019-15846/posting-0.txt
+exim/usr/share/doc/exim/cve-2019-15846/posting-2.txt
+exim/usr/share/doc/exim/cve-2019-15846/posting-1.txt
+exim/usr/share/doc/exim/filter.txt
+exim/usr/share/doc/exim/OptionLists.txt
+exim/usr/share/doc/exim/exim.8
+exim/usr/share/doc/exim/README.SIEVE
+exim/usr/share/doc/exim/cve-2023-51766
+exim/usr/share/doc/exim/DANE-draft-notes
+exim/usr/share/doc/exim/cve-2020-qualys
+exim/usr/share/doc/exim/cve-2025-67896
+exim/usr/share/doc/exim/openssl.txt
+exim/usr/share/doc/exim/ChangeLog
+exim/usr/sbin/
+exim/usr/sbin/exinext
+exim/usr/sbin/exiwhat
+exim/usr/sbin/exim_lock
+exim/usr/sbin/exim_dumpdb
+exim/usr/sbin/exim_msgdate
+exim/usr/sbin/exicyclog
+exim/usr/sbin/exim
+exim/usr/sbin/exim_tidydb
+exim/usr/sbin/exim_fixdb
+exim/usr/sbin/sendmail
+exim/usr/sbin/exim_dbmbuild
+exim/usr/sbin/exiqgrep
+exim/usr/sbin/exim-4.99.1-2
+exim/usr/sbin/eximstats
+exim/usr/sbin/exigrep
+exim/usr/sbin/exim_checkaccess
+exim/usr/sbin/exiqsumm
+exim/usr/sbin/exipick
+exim/usr/sbin/exim_id_update
+exim/etc/
+exim/etc/exim.conf
+exim/etc/aliases
+exim/version
+exim/postinst
+exim/depends
+exim/make-depends
+exim/var/
+exim/var/spool/
+exim/var/spool/exim/

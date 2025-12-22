@@ -1,0 +1,116 @@
+--2025-12-22 17:47:46--  https://download.savannah.gnu.org/releases/dmidecode/dmidecode-3.7.tar.xz
+Resolving download.savannah.gnu.org (download.savannah.gnu.org)... 209.51.188.200, 2001:470:142:5::200
+Connecting to download.savannah.gnu.org (download.savannah.gnu.org)|209.51.188.200|:443... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: https://nongnu.askapache.com/dmidecode/dmidecode-3.7.tar.xz [following]
+--2025-12-22 17:47:46--  https://nongnu.askapache.com/dmidecode/dmidecode-3.7.tar.xz
+Resolving nongnu.askapache.com (nongnu.askapache.com)... 23.253.164.232
+Connecting to nongnu.askapache.com (nongnu.askapache.com)|23.253.164.232|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 74700 (73K) [application/x-tar]
+Saving to: ‘dmidecode-3.7.tar.xz’
+
+     0K .......... .......... .......... .......... .......... 68% 94.0K 0s
+    50K .......... .......... ..                              100% 70.5K=0.9s
+
+2025-12-22 17:47:47 (85.1 KB/s) - ‘dmidecode-3.7.tar.xz’ saved [74700/74700]
+
+dmidecode-3.7/
+dmidecode-3.7/AUTHORS
+dmidecode-3.7/LICENSE
+dmidecode-3.7/Makefile
+dmidecode-3.7/NEWS
+dmidecode-3.7/README
+dmidecode-3.7/biosdecode.c
+dmidecode-3.7/completion/
+dmidecode-3.7/completion/biosdecode.bash
+dmidecode-3.7/completion/dmidecode.bash
+dmidecode-3.7/completion/ownership.bash
+dmidecode-3.7/completion/vpddecode.bash
+dmidecode-3.7/config.h
+dmidecode-3.7/dmidecode.c
+dmidecode-3.7/dmidecode.h
+dmidecode-3.7/dmioem.c
+dmidecode-3.7/dmioem.h
+dmidecode-3.7/dmiopt.c
+dmidecode-3.7/dmiopt.h
+dmidecode-3.7/dmioutput.c
+dmidecode-3.7/dmioutput.h
+dmidecode-3.7/man/
+dmidecode-3.7/man/biosdecode.8
+dmidecode-3.7/man/dmidecode.8
+dmidecode-3.7/man/ownership.8
+dmidecode-3.7/man/vpddecode.8
+dmidecode-3.7/ownership.c
+dmidecode-3.7/types.h
+dmidecode-3.7/util.c
+dmidecode-3.7/util.h
+dmidecode-3.7/version.h
+dmidecode-3.7/vpddecode.c
+dmidecode-3.7/vpdopt.c
+dmidecode-3.7/vpdopt.h
+cc -O2 -c dmidecode.c -o dmidecode.o
+cc -O2 -c dmiopt.c -o dmiopt.o
+cc -O2 -c dmioem.c -o dmioem.o
+cc -O2 -c dmioutput.c -o dmioutput.o
+cc -O2 -c util.c -o util.o
+cc -O2 -c biosdecode.c -o biosdecode.o
+cc -O2 -c ownership.c -o ownership.o
+cc -O2 -c vpddecode.c -o vpddecode.o
+cc -O2 -c vpdopt.c -o vpdopt.o
+cc  ownership.o util.o -o ownership
+cc  vpddecode.o vpdopt.o util.o -o vpddecode
+cc  biosdecode.o util.o -o biosdecode
+cc  dmidecode.o dmiopt.o dmioem.o dmioutput.o util.o -o dmidecode
+install -m 755 -d /pkgs/dmidecode/usr/sbin
+for program in dmidecode biosdecode ownership vpddecode ; do \
+install -m 755 $program /pkgs/dmidecode/usr/sbin ; done
+install -m 755 -d /pkgs/dmidecode/usr/share/man/man8
+for program in dmidecode biosdecode ownership vpddecode ; do \
+install -m 644 man/$program.8 /pkgs/dmidecode/usr/share/man/man8 ; done
+install -m 755 -d /pkgs/dmidecode/usr/share/doc/dmidecode
+install -m 644 README /pkgs/dmidecode/usr/share/doc/dmidecode
+install -m 644 NEWS /pkgs/dmidecode/usr/share/doc/dmidecode
+install -m 644 AUTHORS /pkgs/dmidecode/usr/share/doc/dmidecode
+if [ -d /usr/etc/bash_completion.d ] ; then \
+install -m 755 -d /pkgs/dmidecode/usr/etc/bash_completion.d ; \
+for program in dmidecode biosdecode ownership vpddecode ; do \
+install -m 644 completion/$program.bash /pkgs/dmidecode/usr/etc/bash_completion.d/$program ; done ; \
+fi
+install -m 755 -d /usr/local/sbin
+for program in dmidecode biosdecode ownership vpddecode ; do \
+install -m 755 $program /usr/local/sbin ; done
+install -m 755 -d /usr/local/share/man/man8
+for program in dmidecode biosdecode ownership vpddecode ; do \
+install -m 644 man/$program.8 /usr/local/share/man/man8 ; done
+install -m 755 -d /usr/local/share/doc/dmidecode
+install -m 644 README /usr/local/share/doc/dmidecode
+install -m 644 NEWS /usr/local/share/doc/dmidecode
+install -m 644 AUTHORS /usr/local/share/doc/dmidecode
+if [ -d /usr/local/etc/bash_completion.d ] ; then \
+install -m 755 -d /usr/local/etc/bash_completion.d ; \
+for program in dmidecode biosdecode ownership vpddecode ; do \
+install -m 644 completion/$program.bash /usr/local/etc/bash_completion.d/$program ; done ; \
+fi
+dmidecode/
+dmidecode/usr/
+dmidecode/usr/share/
+dmidecode/usr/share/doc/
+dmidecode/usr/share/doc/dmidecode/
+dmidecode/usr/share/doc/dmidecode/NEWS
+dmidecode/usr/share/doc/dmidecode/AUTHORS
+dmidecode/usr/share/doc/dmidecode/README
+dmidecode/usr/share/man/
+dmidecode/usr/share/man/man8/
+dmidecode/usr/share/man/man8/vpddecode.8
+dmidecode/usr/share/man/man8/biosdecode.8
+dmidecode/usr/share/man/man8/dmidecode.8
+dmidecode/usr/share/man/man8/ownership.8
+dmidecode/usr/sbin/
+dmidecode/usr/sbin/ownership
+dmidecode/usr/sbin/dmidecode
+dmidecode/usr/sbin/biosdecode
+dmidecode/usr/sbin/vpddecode
+dmidecode/version
+dmidecode/depends
+dmidecode/make-depends

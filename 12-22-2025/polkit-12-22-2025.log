@@ -1,0 +1,955 @@
+--2025-12-22 16:41:03--  https://github.com/polkit-org/polkit/archive/127/polkit-127.tar.gz
+Resolving github.com (github.com)... 140.82.112.4
+Connecting to github.com (github.com)|140.82.112.4|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://codeload.github.com/polkit-org/polkit/tar.gz/refs/tags/127 [following]
+--2025-12-22 16:41:03--  https://codeload.github.com/polkit-org/polkit/tar.gz/refs/tags/127
+Resolving codeload.github.com (codeload.github.com)... 140.82.113.9
+Connecting to codeload.github.com (codeload.github.com)|140.82.113.9|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/x-gzip]
+Saving to: ‘polkit-127.tar.gz’
+
+     0K .......... .......... .......... .......... .......... 2.25M
+    50K .......... .......... .......... .......... .......... 5.91M
+   100K .......... .......... .......... .......... .......... 6.24M
+   150K .......... .......... .......... .......... .......... 3.18M
+   200K .......... .......... .......... .......... .......... 43.7M
+   250K .......... .......... .......... .......... .......... 5.17M
+   300K .......... .......... .......... .......... .......... 6.06M
+   350K .......... .......... .......... .......... .......... 4.88M
+   400K .......... .......... .......... .......... .......... 4.13M
+   450K .......... .                                           22.4M=0.09s
+
+2025-12-22 16:41:04 (4.79 MB/s) - ‘polkit-127.tar.gz’ saved [472872]
+
+polkit-127/
+polkit-127/.dir-locals.el
+polkit-127/.editorconfig
+polkit-127/.github/
+polkit-127/.github/ISSUE_TEMPLATE/
+polkit-127/.github/ISSUE_TEMPLATE/bug_report.md
+polkit-127/.github/ISSUE_TEMPLATE/feature_request.md
+polkit-127/.github/dependabot.yml
+polkit-127/.github/pull_request_template.md
+polkit-127/.github/workflows/
+polkit-127/.github/workflows/ci.sh
+polkit-127/.github/workflows/ci.yml
+polkit-127/.github/workflows/codeql.yml
+polkit-127/.github/workflows/coverity.sh
+polkit-127/.github/workflows/coverity.yml
+polkit-127/.github/workflows/differential-shellcheck.yml
+polkit-127/.gitignore
+polkit-127/.packit.yaml
+polkit-127/.packit/
+polkit-127/.packit/polkit.spec
+polkit-127/.packit/polkit.sysusers
+polkit-127/AUTHORS
+polkit-127/COPYING
+polkit-127/ChangeLog
+polkit-127/HACKING.md
+polkit-127/NEWS.md
+polkit-127/README.md
+polkit-127/actions/
+polkit-127/actions/meson.build
+polkit-127/actions/org.freedesktop.policykit.policy.in
+polkit-127/data/
+polkit-127/data/meson.build
+polkit-127/data/org.freedesktop.PolicyKit1.AuthenticationAgent.xml
+polkit-127/data/org.freedesktop.PolicyKit1.Authority.xml
+polkit-127/data/org.freedesktop.PolicyKit1.conf.in
+polkit-127/data/org.freedesktop.PolicyKit1.service.in
+polkit-127/data/policyconfig-1.dtd
+polkit-127/data/polkit-1.debian
+polkit-127/data/polkit-1.in
+polkit-127/data/polkit-agent-1.pc.in
+polkit-127/data/polkit-agent-helper.socket
+polkit-127/data/polkit-agent-helper@.service.in
+polkit-127/data/polkit-gobject-1.pc.in
+polkit-127/data/polkit-tmpfiles.conf.in
+polkit-127/data/polkit.conf.in
+polkit-127/data/polkit.service.in
+polkit-127/data/polkitd.conf
+polkit-127/docs/
+polkit-127/docs/PORTING-GUIDE
+polkit-127/docs/TODO
+polkit-127/docs/extensiondir.xml.in
+polkit-127/docs/man/
+polkit-127/docs/man/meson.build
+polkit-127/docs/man/pkaction.xml
+polkit-127/docs/man/pkcheck.xml
+polkit-127/docs/man/pkexec.xml
+polkit-127/docs/man/pkttyagent.xml
+polkit-127/docs/man/polkit.xml
+polkit-127/docs/man/polkitd.conf.xml
+polkit-127/docs/man/polkitd.xml
+polkit-127/docs/meson.build
+polkit-127/docs/polkit-1-diagrams.svg
+polkit-127/docs/polkit-architecture.png
+polkit-127/docs/polkit-authentication-agent-example-wheel.png
+polkit-127/docs/polkit-authentication-agent-example.png
+polkit-127/docs/polkit/
+polkit-127/docs/polkit/docbook-interface-org.freedesktop.PolicyKit1.AuthenticationAgent.xml
+polkit-127/docs/polkit/docbook-interface-org.freedesktop.PolicyKit1.Authority.xml
+polkit-127/docs/polkit/meson.build
+polkit-127/docs/polkit/overview.xml
+polkit-127/docs/polkit/polkit-1-docs.xml
+polkit-127/docs/polkit/polkit-1-sections.txt
+polkit-127/docs/polkit/polkit-1.types
+polkit-127/docs/version.xml.in
+polkit-127/gettext/
+polkit-127/gettext/its/
+polkit-127/gettext/its/polkit.its
+polkit-127/gettext/its/polkit.loc
+polkit-127/meson.build
+polkit-127/meson_options.txt
+polkit-127/meson_post_install.py
+polkit-127/po/
+polkit-127/po/ChangeLog
+polkit-127/po/LINGUAS
+polkit-127/po/Makevars
+polkit-127/po/POTFILES.in
+polkit-127/po/POTFILES.skip
+polkit-127/po/bg.po
+polkit-127/po/cs.po
+polkit-127/po/da.po
+polkit-127/po/de.po
+polkit-127/po/hi.po
+polkit-127/po/hr.po
+polkit-127/po/hu.po
+polkit-127/po/id.po
+polkit-127/po/it.po
+polkit-127/po/ka.po
+polkit-127/po/meson.build
+polkit-127/po/nl.po
+polkit-127/po/nn.po
+polkit-127/po/oc.po
+polkit-127/po/pl.po
+polkit-127/po/pt.po
+polkit-127/po/pt_BR.po
+polkit-127/po/ro.po
+polkit-127/po/ru.po
+polkit-127/po/sk.po
+polkit-127/po/sl.po
+polkit-127/po/sv.po
+polkit-127/po/tr.po
+polkit-127/po/uk.po
+polkit-127/po/zh_CN.po
+polkit-127/po/zh_TW.po
+polkit-127/src/
+polkit-127/src/examples/
+polkit-127/src/examples/cancel.c
+polkit-127/src/examples/frobnicate.c
+polkit-127/src/examples/meson.build
+polkit-127/src/examples/org.freedesktop.policykit.examples.pkexec.policy.in
+polkit-127/src/examples/polkit-raw-dbus.py
+polkit-127/src/meson.build
+polkit-127/src/polkit/
+polkit-127/src/polkit/meson.build
+polkit-127/src/polkit/polkit.h
+polkit-127/src/polkit/polkitactiondescription.c
+polkit-127/src/polkit/polkitactiondescription.h
+polkit-127/src/polkit/polkitauthority.c
+polkit-127/src/polkit/polkitauthority.h
+polkit-127/src/polkit/polkitauthorityfeatures.c
+polkit-127/src/polkit/polkitauthorityfeatures.h
+polkit-127/src/polkit/polkitauthorizationresult.c
+polkit-127/src/polkit/polkitauthorizationresult.h
+polkit-127/src/polkit/polkitcheckauthorizationflags.c
+polkit-127/src/polkit/polkitcheckauthorizationflags.h
+polkit-127/src/polkit/polkitdetails.c
+polkit-127/src/polkit/polkitdetails.h
+polkit-127/src/polkit/polkitenumtypes.c.template
+polkit-127/src/polkit/polkitenumtypes.h.template
+polkit-127/src/polkit/polkiterror.c
+polkit-127/src/polkit/polkiterror.h
+polkit-127/src/polkit/polkitidentity.c
+polkit-127/src/polkit/polkitidentity.h
+polkit-127/src/polkit/polkitimplicitauthorization.c
+polkit-127/src/polkit/polkitimplicitauthorization.h
+polkit-127/src/polkit/polkitpermission.c
+polkit-127/src/polkit/polkitpermission.h
+polkit-127/src/polkit/polkitprivate.h
+polkit-127/src/polkit/polkitsubject.c
+polkit-127/src/polkit/polkitsubject.h
+polkit-127/src/polkit/polkitsystembusname.c
+polkit-127/src/polkit/polkitsystembusname.h
+polkit-127/src/polkit/polkittemporaryauthorization.c
+polkit-127/src/polkit/polkittemporaryauthorization.h
+polkit-127/src/polkit/polkittypes.h
+polkit-127/src/polkit/polkitunixgroup.c
+polkit-127/src/polkit/polkitunixgroup.h
+polkit-127/src/polkit/polkitunixnetgroup.c
+polkit-127/src/polkit/polkitunixnetgroup.h
+polkit-127/src/polkit/polkitunixprocess.c
+polkit-127/src/polkit/polkitunixprocess.h
+polkit-127/src/polkit/polkitunixsession-systemd.c
+polkit-127/src/polkit/polkitunixsession.c
+polkit-127/src/polkit/polkitunixsession.h
+polkit-127/src/polkit/polkitunixuser.c
+polkit-127/src/polkit/polkitunixuser.h
+polkit-127/src/polkitagent/
+polkit-127/src/polkitagent/meson.build
+polkit-127/src/polkitagent/polkitagent.h
+polkit-127/src/polkitagent/polkitagentenumtypes.c.template
+polkit-127/src/polkitagent/polkitagentenumtypes.h.template
+polkit-127/src/polkitagent/polkitagenthelper-bsdauth.c
+polkit-127/src/polkitagent/polkitagenthelper-pam.c
+polkit-127/src/polkitagent/polkitagenthelper-shadow.c
+polkit-127/src/polkitagent/polkitagenthelperprivate.c
+polkit-127/src/polkitagent/polkitagenthelperprivate.h
+polkit-127/src/polkitagent/polkitagentlistener.c
+polkit-127/src/polkitagent/polkitagentlistener.h
+polkit-127/src/polkitagent/polkitagentmarshal.list
+polkit-127/src/polkitagent/polkitagentsession.c
+polkit-127/src/polkitagent/polkitagentsession.h
+polkit-127/src/polkitagent/polkitagenttextlistener.c
+polkit-127/src/polkitagent/polkitagenttextlistener.h
+polkit-127/src/polkitagent/polkitagenttypes.h
+polkit-127/src/polkitbackend/
+polkit-127/src/polkitbackend/50-default.rules.in
+polkit-127/src/polkitbackend/init.js
+polkit-127/src/polkitbackend/meson.build
+polkit-127/src/polkitbackend/polkitbackend.h
+polkit-127/src/polkitbackend/polkitbackendactionlookup.c
+polkit-127/src/polkitbackend/polkitbackendactionlookup.h
+polkit-127/src/polkitbackend/polkitbackendactionpool.c
+polkit-127/src/polkitbackend/polkitbackendactionpool.h
+polkit-127/src/polkitbackend/polkitbackendauthority.c
+polkit-127/src/polkitbackend/polkitbackendauthority.h
+polkit-127/src/polkitbackend/polkitbackendcommon.c
+polkit-127/src/polkitbackend/polkitbackendcommon.h
+polkit-127/src/polkitbackend/polkitbackendduktapeauthority.c
+polkit-127/src/polkitbackend/polkitbackendinteractiveauthority.c
+polkit-127/src/polkitbackend/polkitbackendinteractiveauthority.h
+polkit-127/src/polkitbackend/polkitbackendjsauthority.h
+polkit-127/src/polkitbackend/polkitbackendprivate.h
+polkit-127/src/polkitbackend/polkitbackendsessionmonitor-systemd.c
+polkit-127/src/polkitbackend/polkitbackendsessionmonitor.c
+polkit-127/src/polkitbackend/polkitbackendsessionmonitor.h
+polkit-127/src/polkitbackend/polkitbackendtypes.h
+polkit-127/src/polkitbackend/polkitd.c
+polkit-127/src/polkitbackend/toarray.pl
+polkit-127/src/programs/
+polkit-127/src/programs/meson.build
+polkit-127/src/programs/pkaction.c
+polkit-127/src/programs/pkcheck.c
+polkit-127/src/programs/pkexec.c
+polkit-127/src/programs/pkttyagent.c
+polkit-127/src/symbol.map
+polkit-127/test/
+polkit-127/test/data/
+polkit-127/test/data/etc/
+polkit-127/test/data/etc/group
+polkit-127/test/data/etc/netgroup
+polkit-127/test/data/etc/passwd
+polkit-127/test/data/etc/polkit-1/
+polkit-127/test/data/etc/polkit-1/localauthority.conf.d/
+polkit-127/test/data/etc/polkit-1/localauthority.conf.d/10-test.conf
+polkit-127/test/data/etc/polkit-1/localauthority/
+polkit-127/test/data/etc/polkit-1/localauthority/10-test/
+polkit-127/test/data/etc/polkit-1/localauthority/10-test/com.example.pkla
+polkit-127/test/data/etc/polkit-1/rules.d/
+polkit-127/test/data/etc/polkit-1/rules.d/10-testing.rules
+polkit-127/test/data/etc/polkit-1/rules.d/15-testing.rules
+polkit-127/test/data/usr/
+polkit-127/test/data/usr/share/
+polkit-127/test/data/usr/share/polkit-1/
+polkit-127/test/data/usr/share/polkit-1/rules.d/
+polkit-127/test/data/usr/share/polkit-1/rules.d/10-testing.rules
+polkit-127/test/data/usr/share/polkit-1/rules.d/20-testing.rules
+polkit-127/test/data/var/
+polkit-127/test/data/var/lib/
+polkit-127/test/data/var/lib/polkit-1/
+polkit-127/test/data/var/lib/polkit-1/localauthority/
+polkit-127/test/data/var/lib/polkit-1/localauthority/10-test/
+polkit-127/test/data/var/lib/polkit-1/localauthority/10-test/com.example.pkla
+polkit-127/test/integration/
+polkit-127/test/integration/.fmf/
+polkit-127/test/integration/.fmf/version
+polkit-127/test/integration/README
+polkit-127/test/integration/dfuzzer/
+polkit-127/test/integration/dfuzzer/main.fmf
+polkit-127/test/integration/dfuzzer/test.sh
+polkit-127/test/integration/main.fmf
+polkit-127/test/integration/pkexec/
+polkit-127/test/integration/pkexec/expect/
+polkit-127/test/integration/pkexec/expect/SIGTRAP-on-EOF.exp
+polkit-127/test/integration/pkexec/expect/basic-auth-cache.exp
+polkit-127/test/integration/pkexec/expect/basic-auth.exp
+polkit-127/test/integration/pkexec/main.fmf
+polkit-127/test/integration/pkexec/test.sh
+polkit-127/test/integration/plans/
+polkit-127/test/integration/plans/upstream-ci.fmf
+polkit-127/test/integration/systemd/
+polkit-127/test/integration/systemd/main.fmf
+polkit-127/test/integration/systemd/rules/
+polkit-127/test/integration/systemd/rules/start-restart-stop-unit.rules
+polkit-127/test/integration/systemd/test.sh
+polkit-127/test/integration/util.sh
+polkit-127/test/meson.build
+polkit-127/test/polkit/
+polkit-127/test/polkit/meson.build
+polkit-127/test/polkit/polkitidentitytest.c
+polkit-127/test/polkit/polkitunixgrouptest.c
+polkit-127/test/polkit/polkitunixnetgrouptest.c
+polkit-127/test/polkit/polkitunixusertest.c
+polkit-127/test/polkitbackend/
+polkit-127/test/polkitbackend/meson.build
+polkit-127/test/polkitbackend/test-polkitbackendjsauthority.c
+polkit-127/test/polkittesthelper.c
+polkit-127/test/polkittesthelper.h
+polkit-127/test/wrapper.py
+The Meson build system
+Version: 1.10.0
+Source dir: /blfs/builds/polkit-127
+Build dir: /blfs/builds/polkit-127/build
+Build type: native build
+Project name: polkit
+Project version: 127
+C compiler for the host machine: cc (gcc 15.2.0 "cc (GCC) 15.2.0")
+C linker for the host machine: cc ld.bfd 2.45
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Checking for function "clearenv" : YES 
+Checking for function "fdatasync" : YES 
+Checking for function "setnetgrent" : YES 
+Compiler for C supports arguments -Wno-format-y2k: YES 
+Compiler for C supports arguments -Wno-declaration-after-statement: YES 
+Compiler for C supports arguments -Wno-unused-result: YES 
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Run-time dependency gio-2.0 found: YES 2.86.3
+Run-time dependency gio-unix-2.0 found: YES 2.86.3
+Run-time dependency glib-2.0 found: YES 2.86.3
+Run-time dependency gobject-2.0 found: YES 2.86.3
+Run-time dependency expat found: YES 2.7.3
+Has header "expat.h" with dependency expat: YES 
+Checking for function "XML_ParserCreate" with dependency expat: YES 
+Run-time dependency duktape found: YES 2.7.0
+Library m found: YES
+Run-time dependency threads found: YES
+Checking for function "pthread_condattr_setclock" : NO 
+Run-time dependency dbus-1 found: YES 1.16.2
+Has header "netgroup.h" : NO 
+Checking if "setnetgrent return support" compiles: YES 
+Run-time dependency libsystemd found: YES 259
+Checking for function "sd_uid_get_display" with dependency libsystemd: YES 
+Checking for function "sd_pidfd_get_session" with dependency libsystemd: YES 
+Fetching value of define "SYS_pidfd_open" : 434 
+Run-time dependency systemd found: YES 259
+Library pam found: YES
+Checking for function "pam_start" with dependency -lpam: YES 
+Message: how to call pam_strerror: unknown
+Message: Linux distribution autodetection failed, specify the distribution to target using -Dos_type=
+Run-time dependency gobject-introspection-1.0 found: YES 1.86.0
+Configuring config.h using configuration
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Configuring org.freedesktop.PolicyKit1.service using configuration
+Configuring org.freedesktop.PolicyKit1.conf using configuration
+Configuring polkit-1 using configuration
+Configuring polkit.service using configuration
+Configuring polkit-agent-helper@.service using configuration
+Configuring polkit.conf using configuration
+Configuring polkit-tmpfiles.conf using configuration
+Compiler for C supports link arguments -Wl,--version-script,/blfs/builds/polkit-127/src/symbol.map: YES 
+Dependency glib-2.0 found: YES 2.86.3 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Dependency glib-2.0 found: YES 2.86.3 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Dependency gobject-introspection-1.0 found: YES 1.86.0 (cached)
+Dependency gobject-introspection-1.0 found: YES 1.86.0 (cached)
+Program /usr/bin/g-ir-scanner found: YES (/usr/bin/g-ir-scanner)
+Dependency gobject-introspection-1.0 found: YES 1.86.0 (cached)
+Program /usr/bin/g-ir-compiler found: YES (/usr/bin/g-ir-compiler)
+Dependency glib-2.0 found: YES 2.86.3 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Dependency glib-2.0 found: YES 2.86.3 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Dependency glib-2.0 found: YES 2.86.3 (cached)
+Program /usr/bin/glib-genmarshal found: YES (/usr/bin/glib-genmarshal)
+Program perl found: YES (/usr/bin/perl)
+Configuring 50-default.rules using configuration
+Program xsltproc found: YES (/usr/bin/xsltproc)
+Program msginit found: YES (/usr/bin/msginit)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program xgettext found: YES (/usr/bin/xgettext)
+Program wrapper.py found: YES (/blfs/builds/polkit-127/test/wrapper.py)
+Message: 
+        polkit 127
+        ============
+
+        prefix:                   /usr
+        datadir:                  share
+
+        includedir:               include
+        libdir:                   lib
+        sysconfdir:               /etc
+        source code location:     /blfs/builds/polkit-127
+        compiler:                 gcc
+        c_flags:                  -Wno-format-y2k -Wno-declaration-after-statement -Wno-unused-result
+
+        xsltproc:                 /usr/bin/xsltproc
+        introspection:            true
+        Distribution/OS:          
+        Authentication framework: pam
+        Session tracking:         logind
+        system unit directory:    /usr/lib/systemd/system
+        sysusers.d directory:     /usr/lib/sysusers.d
+        tmpfiles.d directory:     /usr/lib/tmpfiles.d
+        polkitd user:             polkitd 
+        PAM support:              true
+
+        PAM file auth:            system-auth
+        PAM file acount:          system-auth
+        PAM file password:        system-auth
+        PAM file session:         system-auth
+        PAM config location:      /usr/lib/pam.d
+
+        Building api docs:        false
+        Building man pages:       true
+        Building examples:        false
+        Building tests:           true
+Build targets in project: 62
+
+polkit 127
+
+  User defined options
+    buildtype       : release
+    man             : true
+    prefix          : /usr
+    session_tracking: logind
+    tests           : true
+
+Found ninja-1.13.2 at /usr/bin/ninja
+WARNING: Running the setup command as `meson [options]` instead of `meson setup [options]` is ambiguous and deprecated.
+[1/105] Generating glib marshaller header src/polkitagent/polkitagentmarshal_h
+[2/105] Compiling C object test/libpolkit-test-helper.a.p/polkittesthelper.c.o
+[3/105] Linking static target test/libpolkit-test-helper.a
+[4/105] Generating src/polkitbackend/initjs.h with a custom command (wrapped by meson to capture output)
+[5/105] Generating glib marshaller source src/polkitagent/polkitagentmarshal_c
+[6/105] Generating GObject enum file src/polkit/polkitenumtypes.h (wrapped by meson because command contains newlines, to capture output)
+[7/105] Merging translations for actions/org.freedesktop.policykit.policy
+[8/105] Generating GObject enum file src/polkitagent/polkitagentenumtypes.h (wrapped by meson because command contains newlines, to capture output)
+[9/105] Generating GObject enum file src/polkit/polkitenumtypes.c (wrapped by meson because command contains newlines, to capture output)
+[10/105] Generating GObject enum file src/polkitagent/polkitagentenumtypes.c (wrapped by meson because command contains newlines, to capture output)
+[11/105] Generating docs/man/pkcheck.1 with a custom command
+Error: no ID for constraint linkend: "polkit.8".
+Error: no ID for constraint linkend: "polkitd.8".
+Error: no ID for constraint linkend: "pkaction.1".
+Error: no ID for constraint linkend: "pkexec.1".
+Error: no ID for constraint linkend: "pkttyagent.1".
+Note: Writing pkcheck.1
+[12/105] Generating docs/man/pkaction.1 with a custom command
+Error: no ID for constraint linkend: "polkit.8".
+Error: no ID for constraint linkend: "polkitd.8".
+Error: no ID for constraint linkend: "pkcheck.1".
+Error: no ID for constraint linkend: "pkexec.1".
+Error: no ID for constraint linkend: "pkttyagent.1".
+Note: Writing pkaction.1
+[13/105] Generating docs/man/polkitd.conf.5 with a custom command
+Warn: meta author : no refentry/info/author                        polkitd.conf
+Note: meta author : see http://www.docbook.org/tdg5/en/html/autho  polkitd.conf
+Warn: meta author : no author data, so inserted a fixme            polkitd.conf
+Error: no ID for constraint linkend: "polkitd.8".
+Error: no ID for constraint linkend: "polkit.8".
+Note: Writing polkitd.conf.5
+[14/105] Compiling C object src/polkit/libpolkit-gobject-1.so.0.0.0.p/meson-generated_.._polkitenumtypes.c.o
+[15/105] Generating docs/man/pkttyagent.1 with a custom command
+Error: no ID for constraint linkend: "eggdbus-signal-org.freedesktop.PolicyKit1.Authority::Changed".
+Error: no ID for constraint linkend: "polkit.8".
+Error: no ID for constraint linkend: "polkitd.8".
+Error: no ID for constraint linkend: "pkaction.1".
+Error: no ID for constraint linkend: "pkcheck.1".
+Error: no ID for constraint linkend: "pkexec.1".
+Note: Writing pkttyagent.1
+[16/105] Generating docs/man/polkitd.8 with a custom command
+Error: no ID for constraint linkend: "polkitd.conf.5".
+Error: no ID for constraint linkend: "polkit.8".
+Error: no ID for constraint linkend: "polkit.8".
+Error: no ID for constraint linkend: "pkaction.1".
+Error: no ID for constraint linkend: "pkcheck.1".
+Error: no ID for constraint linkend: "pkexec.1".
+Error: no ID for constraint linkend: "pkttyagent.1".
+Note: Writing polkitd.8
+[17/105] Generating docs/man/pkexec.1 with a custom command
+Error: no ID for constraint linkend: "polkit.8".
+Error: no ID for constraint linkend: "polkitd.8".
+Error: no ID for constraint linkend: "pkaction.1".
+Error: no ID for constraint linkend: "pkcheck.1".
+Error: no ID for constraint linkend: "pkttyagent.1".
+Note: Writing pkexec.1
+[18/105] Generating docs/man/polkit.8 with a custom command
+Error: no ID for constraint linkend: "polkitd.8".
+Error: no ID for constraint linkend: "pkcheck.1".
+Error: no ID for constraint linkend: "PolkitAgentTextListener-struct".
+Error: no ID for constraint linkend: "pkttyagent.1".
+Error: no ID for constraint linkend: "pkaction.1".
+Error: no ID for constraint linkend: "pkexec.1".
+Error: no ID for constraint linkend: "PolkitIdentity-struct".
+Error: no ID for constraint linkend: "pkexec.1".
+Error: no ID for constraint linkend: "pkexec.1".
+Error: no ID for constraint linkend: "polkitd.8".
+Error: no ID for constraint linkend: "pkaction.1".
+Error: no ID for constraint linkend: "pkcheck.1".
+Error: no ID for constraint linkend: "pkexec.1".
+Error: no ID for constraint linkend: "pkttyagent.1".
+Note: Writing polkit.8
+[19/105] Compiling C object src/polkit/libpolkit-gobject-1.so.0.0.0.p/polkitactiondescription.c.o
+[20/105] Compiling C object src/polkit/libpolkit-gobject-1.so.0.0.0.p/polkitauthorityfeatures.c.o
+[21/105] Compiling C object src/polkit/libpolkit-gobject-1.so.0.0.0.p/polkitcheckauthorizationflags.c.o
+[22/105] Compiling C object src/polkit/libpolkit-gobject-1.so.0.0.0.p/polkitauthorizationresult.c.o
+[23/105] Compiling C object src/polkit/libpolkit-gobject-1.so.0.0.0.p/polkiterror.c.o
+[24/105] Compiling C object src/polkit/libpolkit-gobject-1.so.0.0.0.p/polkitimplicitauthorization.c.o
+[25/105] Compiling C object src/polkit/libpolkit-gobject-1.so.0.0.0.p/polkitdetails.c.o
+[26/105] Compiling C object src/polkit/libpolkit-gobject-1.so.0.0.0.p/polkitsubject.c.o
+[27/105] Compiling C object src/polkit/libpolkit-gobject-1.so.0.0.0.p/polkitidentity.c.o
+[28/105] Compiling C object src/polkit/libpolkit-gobject-1.so.0.0.0.p/polkitsystembusname.c.o
+[29/105] Compiling C object src/polkit/libpolkit-gobject-1.so.0.0.0.p/polkittemporaryauthorization.c.o
+[30/105] Compiling C object src/polkitagent/libpolkit-agent-1.so.0.0.0.p/meson-generated_.._polkitagentmarshal.c.o
+[31/105] Compiling C object src/polkit/libpolkit-gobject-1.so.0.0.0.p/polkitunixnetgroup.c.o
+[32/105] Compiling C object src/polkit/libpolkit-gobject-1.so.0.0.0.p/polkitunixgroup.c.o
+[33/105] Compiling C object src/polkit/libpolkit-gobject-1.so.0.0.0.p/polkitunixuser.c.o
+[34/105] Compiling C object src/polkit/libpolkit-gobject-1.so.0.0.0.p/polkitpermission.c.o
+[35/105] Compiling C object src/polkit/libpolkit-gobject-1.so.0.0.0.p/polkitauthority.c.o
+[36/105] Compiling C object src/polkit/libpolkit-gobject-1.so.0.0.0.p/polkitunixsession-systemd.c.o
+[37/105] Compiling C object src/polkitagent/libpolkit-agent-1.so.0.0.0.p/meson-generated_.._polkitagentenumtypes.c.o
+[38/105] Compiling C object src/polkitbackend/libpolkit-backend-1.a.p/polkitbackendactionlookup.c.o
+[39/105] Compiling C object src/polkitagent/libpolkit-agent-1.so.0.0.0.p/polkitagentlistener.c.o
+[40/105] Compiling C object src/polkitagent/libpolkit-agent-1.so.0.0.0.p/polkitagenttextlistener.c.o
+[41/105] Compiling C object src/polkit/libpolkit-gobject-1.so.0.0.0.p/polkitunixprocess.c.o
+[42/105] Linking target src/polkit/libpolkit-gobject-1.so.0.0.0
+[43/105] Compiling C object src/polkitagent/libpolkit-agent-1.so.0.0.0.p/polkitagentsession.c.o
+[44/105] Compiling C object src/polkitbackend/libpolkit-backend-1.a.p/polkitbackendactionpool.c.o
+[45/105] Compiling C object src/polkitbackend/libpolkit-backend-1.a.p/polkitbackendsessionmonitor-systemd.c.o
+[46/105] Compiling C object src/polkitagent/polkit-agent-helper-1.p/polkitagenthelperprivate.c.o
+[47/105] Compiling C object src/polkitbackend/libpolkit-backend-1.a.p/polkitbackendcommon.c.o
+[48/105] Compiling C object src/polkitagent/polkit-agent-helper-1.p/polkitagenthelper-pam.c.o
+[49/105] Compiling C object src/polkitbackend/polkitd.p/polkitd.c.o
+[50/105] Generating symbol file src/polkit/libpolkit-gobject-1.so.0.0.0.p/libpolkit-gobject-1.so.0.0.0.symbols
+[51/105] Compiling C object src/polkitbackend/libpolkit-backend-1.a.p/polkitbackendauthority.c.o
+[52/105] Compiling C object src/polkitbackend/libpolkit-backend-1.a.p/polkitbackendduktapeauthority.c.o
+[53/105] Compiling C object src/programs/pkaction.p/pkaction.c.o
+[54/105] Linking target src/polkitagent/libpolkit-agent-1.so.0.0.0
+[55/105] Compiling C object test/polkit/polkitunixnetgrouptest.p/polkitunixnetgrouptest.c.o
+[56/105] Compiling C object test/polkit/polkitunixusertest.p/polkitunixusertest.c.o
+[57/105] Compiling C object test/polkit/polkitunixgrouptest.p/polkitunixgrouptest.c.o
+[58/105] Building translation po/bg/LC_MESSAGES/polkit-1-bg.mo
+[59/105] Building translation po/cs/LC_MESSAGES/polkit-1-cs.mo
+[60/105] Building translation po/da/LC_MESSAGES/polkit-1-da.mo
+[61/105] Building translation po/de/LC_MESSAGES/polkit-1-de.mo
+[62/105] Linking target src/programs/pkaction
+[63/105] Building translation po/hr/LC_MESSAGES/polkit-1-hr.mo
+[64/105] Building translation po/hi/LC_MESSAGES/polkit-1-hi.mo
+[65/105] Linking target src/polkitagent/polkit-agent-helper-1
+[66/105] Building translation po/id/LC_MESSAGES/polkit-1-id.mo
+[67/105] Building translation po/hu/LC_MESSAGES/polkit-1-hu.mo
+[68/105] Building translation po/it/LC_MESSAGES/polkit-1-it.mo
+[69/105] Building translation po/oc/LC_MESSAGES/polkit-1-oc.mo
+[70/105] Building translation po/nl/LC_MESSAGES/polkit-1-nl.mo
+[71/105] Building translation po/ka/LC_MESSAGES/polkit-1-ka.mo
+[72/105] Building translation po/nn/LC_MESSAGES/polkit-1-nn.mo
+[73/105] Building translation po/pl/LC_MESSAGES/polkit-1-pl.mo
+[74/105] Building translation po/pt/LC_MESSAGES/polkit-1-pt.mo
+[75/105] Building translation po/ro/LC_MESSAGES/polkit-1-ro.mo
+[76/105] Compiling C object src/programs/pkttyagent.p/pkttyagent.c.o
+[77/105] Building translation po/pt_BR/LC_MESSAGES/polkit-1-pt_BR.mo
+[78/105] Building translation po/tr/LC_MESSAGES/polkit-1-tr.mo
+[79/105] Building translation po/ru/LC_MESSAGES/polkit-1-ru.mo
+[80/105] Building translation po/sk/LC_MESSAGES/polkit-1-sk.mo
+[81/105] Building translation po/sl/LC_MESSAGES/polkit-1-sl.mo
+[82/105] Building translation po/sv/LC_MESSAGES/polkit-1-sv.mo
+[83/105] Building translation po/uk/LC_MESSAGES/polkit-1-uk.mo
+[84/105] Building translation po/zh_TW/LC_MESSAGES/polkit-1-zh_TW.mo
+[85/105] Building translation po/zh_CN/LC_MESSAGES/polkit-1-zh_CN.mo
+[86/105] Compiling C object src/programs/pkcheck.p/pkcheck.c.o
+[87/105] Linking target test/polkit/polkitunixnetgrouptest
+[88/105] Generating symbol file src/polkitagent/libpolkit-agent-1.so.0.0.0.p/libpolkit-agent-1.so.0.0.0.symbols
+[89/105] Compiling C object test/polkitbackend/test-polkitbackendjsauthority.p/test-polkitbackendjsauthority.c.o
+[90/105] Linking target test/polkit/polkitunixgrouptest
+[91/105] Linking target test/polkit/polkitunixusertest
+[92/105] Compiling C object src/programs/pkexec.p/pkexec.c.o
+[93/105] Linking target src/programs/pkcheck
+[94/105] Linking target src/programs/pkttyagent
+[95/105] Linking target src/programs/pkexec
+[96/105] Compiling C object test/polkit/polkitidentitytest.p/polkitidentitytest.c.o
+[97/105] Compiling C object src/polkitbackend/libpolkit-backend-1.a.p/polkitbackendinteractiveauthority.c.o
+[98/105] Linking target test/polkit/polkitidentitytest
+[99/105] Linking static target src/polkitbackend/libpolkit-backend-1.a
+[100/105] Linking target test/polkitbackend/test-polkitbackendjsauthority
+[101/105] Linking target src/polkitbackend/polkitd
+[102/105] Generating src/polkit/Polkit-1.0.gir with a custom command (wrapped by meson to set env)
+<unknown>:: Warning: Polkit: (Interface)Identity: Couldn't find associated structure for 'Identity'
+<unknown>:: Warning: Polkit: (Interface)Subject: Couldn't find associated structure for 'Subject'
+[103/105] Generating src/polkit/Polkit-1.0.typelib with a custom command
+[104/105] Generating src/polkitagent/PolkitAgent-1.0.gir with a custom command (wrapped by meson to set env)
+[105/105] Generating src/polkitagent/PolkitAgent-1.0.typelib with a custom command
+[0/1] Installing files
+Installing actions/org.freedesktop.policykit.policy to /pkgs/polkit/usr/share/polkit-1/actions
+Installing src/polkit/polkitenumtypes.h to /pkgs/polkit/usr/include/polkit-1/polkit
+Installing src/polkit/libpolkit-gobject-1.so.0.0.0 to /pkgs/polkit/usr/lib
+Installing src/polkit/Polkit-1.0.gir to /pkgs/polkit/usr/share/gir-1.0
+Installing src/polkit/Polkit-1.0.typelib to /pkgs/polkit/usr/lib/girepository-1.0
+Installing src/polkitagent/polkitagentenumtypes.h to /pkgs/polkit/usr/include/polkit-1/polkitagent
+Installing src/polkitagent/libpolkit-agent-1.so.0.0.0 to /pkgs/polkit/usr/lib
+Installing src/polkitagent/PolkitAgent-1.0.gir to /pkgs/polkit/usr/share/gir-1.0
+Installing src/polkitagent/PolkitAgent-1.0.typelib to /pkgs/polkit/usr/lib/girepository-1.0
+Installing src/polkitagent/polkit-agent-helper-1 to /pkgs/polkit/usr/lib/polkit-1
+Installing src/polkitbackend/polkitd to /pkgs/polkit/usr/lib/polkit-1
+Installing src/programs/pkexec to /pkgs/polkit/usr/bin
+Installing src/programs/pkcheck to /pkgs/polkit/usr/bin
+Installing src/programs/pkaction to /pkgs/polkit/usr/bin
+Installing src/programs/pkttyagent to /pkgs/polkit/usr/bin
+Installing docs/man/polkit.8 to /pkgs/polkit/usr/share/man/man8
+Installing docs/man/polkitd.8 to /pkgs/polkit/usr/share/man/man8
+Installing docs/man/polkitd.conf.5 to /pkgs/polkit/usr/share/man/man5
+Installing docs/man/pkexec.1 to /pkgs/polkit/usr/share/man/man1
+Installing docs/man/pkcheck.1 to /pkgs/polkit/usr/share/man/man1
+Installing docs/man/pkaction.1 to /pkgs/polkit/usr/share/man/man1
+Installing docs/man/pkttyagent.1 to /pkgs/polkit/usr/share/man/man1
+Installing po/bg/LC_MESSAGES/polkit-1.mo to /pkgs/polkit/usr/share/locale/bg/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/polkit-1.mo to /pkgs/polkit/usr/share/locale/cs/LC_MESSAGES
+Installing po/da/LC_MESSAGES/polkit-1.mo to /pkgs/polkit/usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/polkit-1.mo to /pkgs/polkit/usr/share/locale/de/LC_MESSAGES
+Installing po/hi/LC_MESSAGES/polkit-1.mo to /pkgs/polkit/usr/share/locale/hi/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/polkit-1.mo to /pkgs/polkit/usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/polkit-1.mo to /pkgs/polkit/usr/share/locale/hu/LC_MESSAGES
+Installing po/id/LC_MESSAGES/polkit-1.mo to /pkgs/polkit/usr/share/locale/id/LC_MESSAGES
+Installing po/it/LC_MESSAGES/polkit-1.mo to /pkgs/polkit/usr/share/locale/it/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/polkit-1.mo to /pkgs/polkit/usr/share/locale/ka/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/polkit-1.mo to /pkgs/polkit/usr/share/locale/nl/LC_MESSAGES
+Installing po/nn/LC_MESSAGES/polkit-1.mo to /pkgs/polkit/usr/share/locale/nn/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/polkit-1.mo to /pkgs/polkit/usr/share/locale/oc/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/polkit-1.mo to /pkgs/polkit/usr/share/locale/pl/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/polkit-1.mo to /pkgs/polkit/usr/share/locale/pt/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/polkit-1.mo to /pkgs/polkit/usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/polkit-1.mo to /pkgs/polkit/usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/polkit-1.mo to /pkgs/polkit/usr/share/locale/ru/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/polkit-1.mo to /pkgs/polkit/usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/polkit-1.mo to /pkgs/polkit/usr/share/locale/sl/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/polkit-1.mo to /pkgs/polkit/usr/share/locale/sv/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/polkit-1.mo to /pkgs/polkit/usr/share/locale/tr/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/polkit-1.mo to /pkgs/polkit/usr/share/locale/uk/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/polkit-1.mo to /pkgs/polkit/usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/polkit-1.mo to /pkgs/polkit/usr/share/locale/zh_TW/LC_MESSAGES
+Installing /blfs/builds/polkit-127/src/polkit/polkitauthorityfeatures.h to /pkgs/polkit/usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkit/polkitcheckauthorizationflags.h to /pkgs/polkit/usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkit/polkiterror.h to /pkgs/polkit/usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkit/polkitimplicitauthorization.h to /pkgs/polkit/usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkit/polkitactiondescription.h to /pkgs/polkit/usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkit/polkitauthority.h to /pkgs/polkit/usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkit/polkitauthorizationresult.h to /pkgs/polkit/usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkit/polkitdetails.h to /pkgs/polkit/usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkit/polkit.h to /pkgs/polkit/usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkit/polkitidentity.h to /pkgs/polkit/usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkit/polkitpermission.h to /pkgs/polkit/usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkit/polkitsubject.h to /pkgs/polkit/usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkit/polkitsystembusname.h to /pkgs/polkit/usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkit/polkittemporaryauthorization.h to /pkgs/polkit/usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkit/polkitunixgroup.h to /pkgs/polkit/usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkit/polkitunixnetgroup.h to /pkgs/polkit/usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkit/polkitunixprocess.h to /pkgs/polkit/usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkit/polkitunixsession.h to /pkgs/polkit/usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkit/polkitunixuser.h to /pkgs/polkit/usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkit/polkitprivate.h to /pkgs/polkit/usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkit/polkittypes.h to /pkgs/polkit/usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkitagent/polkitagentlistener.h to /pkgs/polkit/usr/include/polkit-1/polkitagent
+Installing /blfs/builds/polkit-127/src/polkitagent/polkitagent.h to /pkgs/polkit/usr/include/polkit-1/polkitagent
+Installing /blfs/builds/polkit-127/src/polkitagent/polkitagentsession.h to /pkgs/polkit/usr/include/polkit-1/polkitagent
+Installing /blfs/builds/polkit-127/src/polkitagent/polkitagenttextlistener.h to /pkgs/polkit/usr/include/polkit-1/polkitagent
+Installing /blfs/builds/polkit-127/src/polkitagent/polkitagenttypes.h to /pkgs/polkit/usr/include/polkit-1/polkitagent
+Installing /blfs/builds/polkit-127/gettext/its/polkit.its to /pkgs/polkit/usr/share/gettext/its
+Installing /blfs/builds/polkit-127/gettext/its/polkit.loc to /pkgs/polkit/usr/share/gettext/its
+Installing /blfs/builds/polkit-127/build/data/org.freedesktop.PolicyKit1.service to /pkgs/polkit/usr/share/dbus-1/system-services
+Installing /blfs/builds/polkit-127/build/data/org.freedesktop.PolicyKit1.conf to /pkgs/polkit/usr/share/dbus-1/system.d
+Installing /blfs/builds/polkit-127/build/data/polkit-1 to /pkgs/polkit/usr/lib/pam.d
+Installing /blfs/builds/polkit-127/build/data/polkit.service to /pkgs/polkit/usr/lib/systemd/system
+Installing /blfs/builds/polkit-127/build/data/polkit-agent-helper@.service to /pkgs/polkit/usr/lib/systemd/system
+Installing /blfs/builds/polkit-127/data/polkit-agent-helper.socket to /pkgs/polkit/usr/lib/systemd/system
+Installing /blfs/builds/polkit-127/build/data/polkit.conf to /pkgs/polkit/usr/lib/sysusers.d
+Installing /blfs/builds/polkit-127/data/policyconfig-1.dtd to /pkgs/polkit/usr/share/polkit-1
+Installing /blfs/builds/polkit-127/data/polkitd.conf to /pkgs/polkit/usr/share/polkit-1
+Installing /blfs/builds/polkit-127/build/data/polkit-tmpfiles.conf to /pkgs/polkit/usr/lib/tmpfiles.d
+Installing /blfs/builds/polkit-127/build/meson-private/polkit-gobject-1.pc to /pkgs/polkit/usr/lib/pkgconfig
+Installing /blfs/builds/polkit-127/build/meson-private/polkit-agent-1.pc to /pkgs/polkit/usr/lib/pkgconfig
+Installing /blfs/builds/polkit-127/build/src/polkitbackend/50-default.rules to /pkgs/polkit/usr/share/polkit-1/rules.d
+Installing symlink pointing to libpolkit-gobject-1.so.0.0.0 to /pkgs/polkit/usr/lib/libpolkit-gobject-1.so.0
+Installing symlink pointing to libpolkit-gobject-1.so.0 to /pkgs/polkit/usr/lib/libpolkit-gobject-1.so
+Installing symlink pointing to libpolkit-agent-1.so.0.0.0 to /pkgs/polkit/usr/lib/libpolkit-agent-1.so.0
+Installing symlink pointing to libpolkit-agent-1.so.0 to /pkgs/polkit/usr/lib/libpolkit-agent-1.so
+Running custom install script '/usr/bin/python3 /blfs/builds/polkit-127/meson_post_install.py bin lib/polkit-1 /etc/polkit-1 polkitd'
+[0/1] Installing files
+Installing actions/org.freedesktop.policykit.policy to /usr/share/polkit-1/actions
+Installing src/polkit/polkitenumtypes.h to /usr/include/polkit-1/polkit
+Installing src/polkit/libpolkit-gobject-1.so.0.0.0 to /usr/lib
+Installing src/polkit/Polkit-1.0.gir to /usr/share/gir-1.0
+Installing src/polkit/Polkit-1.0.typelib to /usr/lib/girepository-1.0
+Installing src/polkitagent/polkitagentenumtypes.h to /usr/include/polkit-1/polkitagent
+Installing src/polkitagent/libpolkit-agent-1.so.0.0.0 to /usr/lib
+Installing src/polkitagent/PolkitAgent-1.0.gir to /usr/share/gir-1.0
+Installing src/polkitagent/PolkitAgent-1.0.typelib to /usr/lib/girepository-1.0
+Installing src/polkitagent/polkit-agent-helper-1 to /usr/lib/polkit-1
+Installing src/polkitbackend/polkitd to /usr/lib/polkit-1
+Installing src/programs/pkexec to /usr/bin
+Installing src/programs/pkcheck to /usr/bin
+Installing src/programs/pkaction to /usr/bin
+Installing src/programs/pkttyagent to /usr/bin
+Installing docs/man/polkit.8 to /usr/share/man/man8
+Installing docs/man/polkitd.8 to /usr/share/man/man8
+Installing docs/man/polkitd.conf.5 to /usr/share/man/man5
+Installing docs/man/pkexec.1 to /usr/share/man/man1
+Installing docs/man/pkcheck.1 to /usr/share/man/man1
+Installing docs/man/pkaction.1 to /usr/share/man/man1
+Installing docs/man/pkttyagent.1 to /usr/share/man/man1
+Installing po/bg/LC_MESSAGES/polkit-1.mo to /usr/share/locale/bg/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/polkit-1.mo to /usr/share/locale/cs/LC_MESSAGES
+Installing po/da/LC_MESSAGES/polkit-1.mo to /usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/polkit-1.mo to /usr/share/locale/de/LC_MESSAGES
+Installing po/hi/LC_MESSAGES/polkit-1.mo to /usr/share/locale/hi/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/polkit-1.mo to /usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/polkit-1.mo to /usr/share/locale/hu/LC_MESSAGES
+Installing po/id/LC_MESSAGES/polkit-1.mo to /usr/share/locale/id/LC_MESSAGES
+Installing po/it/LC_MESSAGES/polkit-1.mo to /usr/share/locale/it/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/polkit-1.mo to /usr/share/locale/ka/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/polkit-1.mo to /usr/share/locale/nl/LC_MESSAGES
+Installing po/nn/LC_MESSAGES/polkit-1.mo to /usr/share/locale/nn/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/polkit-1.mo to /usr/share/locale/oc/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/polkit-1.mo to /usr/share/locale/pl/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/polkit-1.mo to /usr/share/locale/pt/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/polkit-1.mo to /usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/polkit-1.mo to /usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/polkit-1.mo to /usr/share/locale/ru/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/polkit-1.mo to /usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/polkit-1.mo to /usr/share/locale/sl/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/polkit-1.mo to /usr/share/locale/sv/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/polkit-1.mo to /usr/share/locale/tr/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/polkit-1.mo to /usr/share/locale/uk/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/polkit-1.mo to /usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/polkit-1.mo to /usr/share/locale/zh_TW/LC_MESSAGES
+Installing /blfs/builds/polkit-127/src/polkit/polkitauthorityfeatures.h to /usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkit/polkitcheckauthorizationflags.h to /usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkit/polkiterror.h to /usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkit/polkitimplicitauthorization.h to /usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkit/polkitactiondescription.h to /usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkit/polkitauthority.h to /usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkit/polkitauthorizationresult.h to /usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkit/polkitdetails.h to /usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkit/polkit.h to /usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkit/polkitidentity.h to /usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkit/polkitpermission.h to /usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkit/polkitsubject.h to /usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkit/polkitsystembusname.h to /usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkit/polkittemporaryauthorization.h to /usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkit/polkitunixgroup.h to /usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkit/polkitunixnetgroup.h to /usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkit/polkitunixprocess.h to /usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkit/polkitunixsession.h to /usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkit/polkitunixuser.h to /usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkit/polkitprivate.h to /usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkit/polkittypes.h to /usr/include/polkit-1/polkit
+Installing /blfs/builds/polkit-127/src/polkitagent/polkitagentlistener.h to /usr/include/polkit-1/polkitagent
+Installing /blfs/builds/polkit-127/src/polkitagent/polkitagent.h to /usr/include/polkit-1/polkitagent
+Installing /blfs/builds/polkit-127/src/polkitagent/polkitagentsession.h to /usr/include/polkit-1/polkitagent
+Installing /blfs/builds/polkit-127/src/polkitagent/polkitagenttextlistener.h to /usr/include/polkit-1/polkitagent
+Installing /blfs/builds/polkit-127/src/polkitagent/polkitagenttypes.h to /usr/include/polkit-1/polkitagent
+Installing /blfs/builds/polkit-127/gettext/its/polkit.its to /usr/share/gettext/its
+Installing /blfs/builds/polkit-127/gettext/its/polkit.loc to /usr/share/gettext/its
+Installing /blfs/builds/polkit-127/build/data/org.freedesktop.PolicyKit1.service to /usr/share/dbus-1/system-services
+Installing /blfs/builds/polkit-127/build/data/org.freedesktop.PolicyKit1.conf to /usr/share/dbus-1/system.d
+Installing /blfs/builds/polkit-127/build/data/polkit-1 to /usr/lib/pam.d
+Installing /blfs/builds/polkit-127/build/data/polkit.service to /usr/lib/systemd/system
+Installing /blfs/builds/polkit-127/build/data/polkit-agent-helper@.service to /usr/lib/systemd/system
+Installing /blfs/builds/polkit-127/data/polkit-agent-helper.socket to /usr/lib/systemd/system
+Installing /blfs/builds/polkit-127/build/data/polkit.conf to /usr/lib/sysusers.d
+Installing /blfs/builds/polkit-127/data/policyconfig-1.dtd to /usr/share/polkit-1
+Installing /blfs/builds/polkit-127/data/polkitd.conf to /usr/share/polkit-1
+Installing /blfs/builds/polkit-127/build/data/polkit-tmpfiles.conf to /usr/lib/tmpfiles.d
+Installing /blfs/builds/polkit-127/build/meson-private/polkit-gobject-1.pc to /usr/lib/pkgconfig
+Installing /blfs/builds/polkit-127/build/meson-private/polkit-agent-1.pc to /usr/lib/pkgconfig
+Installing /blfs/builds/polkit-127/build/src/polkitbackend/50-default.rules to /usr/share/polkit-1/rules.d
+Installing symlink pointing to libpolkit-gobject-1.so.0.0.0 to /usr/lib/libpolkit-gobject-1.so.0
+Installing symlink pointing to libpolkit-gobject-1.so.0 to /usr/lib/libpolkit-gobject-1.so
+Installing symlink pointing to libpolkit-agent-1.so.0.0.0 to /usr/lib/libpolkit-agent-1.so.0
+Installing symlink pointing to libpolkit-agent-1.so.0 to /usr/lib/libpolkit-agent-1.so
+Running custom install script '/usr/bin/python3 /blfs/builds/polkit-127/meson_post_install.py bin lib/polkit-1 /etc/polkit-1 polkitd'
+polkit/
+polkit/usr/
+polkit/usr/include/
+polkit/usr/include/polkit-1/
+polkit/usr/include/polkit-1/polkitagent/
+polkit/usr/include/polkit-1/polkitagent/polkitagenttypes.h
+polkit/usr/include/polkit-1/polkitagent/polkitagentlistener.h
+polkit/usr/include/polkit-1/polkitagent/polkitagentenumtypes.h
+polkit/usr/include/polkit-1/polkitagent/polkitagenttextlistener.h
+polkit/usr/include/polkit-1/polkitagent/polkitagent.h
+polkit/usr/include/polkit-1/polkitagent/polkitagentsession.h
+polkit/usr/include/polkit-1/polkit/
+polkit/usr/include/polkit-1/polkit/polkitprivate.h
+polkit/usr/include/polkit-1/polkit/polkitunixnetgroup.h
+polkit/usr/include/polkit-1/polkit/polkitunixuser.h
+polkit/usr/include/polkit-1/polkit/polkittemporaryauthorization.h
+polkit/usr/include/polkit-1/polkit/polkitunixsession.h
+polkit/usr/include/polkit-1/polkit/polkitactiondescription.h
+polkit/usr/include/polkit-1/polkit/polkit.h
+polkit/usr/include/polkit-1/polkit/polkitimplicitauthorization.h
+polkit/usr/include/polkit-1/polkit/polkitenumtypes.h
+polkit/usr/include/polkit-1/polkit/polkittypes.h
+polkit/usr/include/polkit-1/polkit/polkitauthorityfeatures.h
+polkit/usr/include/polkit-1/polkit/polkitidentity.h
+polkit/usr/include/polkit-1/polkit/polkitunixgroup.h
+polkit/usr/include/polkit-1/polkit/polkitauthorizationresult.h
+polkit/usr/include/polkit-1/polkit/polkitsubject.h
+polkit/usr/include/polkit-1/polkit/polkitcheckauthorizationflags.h
+polkit/usr/include/polkit-1/polkit/polkitauthority.h
+polkit/usr/include/polkit-1/polkit/polkitsystembusname.h
+polkit/usr/include/polkit-1/polkit/polkitdetails.h
+polkit/usr/include/polkit-1/polkit/polkitpermission.h
+polkit/usr/include/polkit-1/polkit/polkitunixprocess.h
+polkit/usr/include/polkit-1/polkit/polkiterror.h
+polkit/usr/share/
+polkit/usr/share/polkit-1/
+polkit/usr/share/polkit-1/rules.d/
+polkit/usr/share/polkit-1/rules.d/50-default.rules
+polkit/usr/share/polkit-1/polkitd.conf
+polkit/usr/share/polkit-1/actions/
+polkit/usr/share/polkit-1/actions/org.freedesktop.policykit.policy
+polkit/usr/share/polkit-1/policyconfig-1.dtd
+polkit/usr/share/gettext/
+polkit/usr/share/gettext/its/
+polkit/usr/share/gettext/its/polkit.its
+polkit/usr/share/gettext/its/polkit.loc
+polkit/usr/share/locale/
+polkit/usr/share/locale/nl/
+polkit/usr/share/locale/nl/LC_MESSAGES/
+polkit/usr/share/locale/nl/LC_MESSAGES/polkit-1.mo
+polkit/usr/share/locale/id/
+polkit/usr/share/locale/id/LC_MESSAGES/
+polkit/usr/share/locale/id/LC_MESSAGES/polkit-1.mo
+polkit/usr/share/locale/ro/
+polkit/usr/share/locale/ro/LC_MESSAGES/
+polkit/usr/share/locale/ro/LC_MESSAGES/polkit-1.mo
+polkit/usr/share/locale/zh_TW/
+polkit/usr/share/locale/zh_TW/LC_MESSAGES/
+polkit/usr/share/locale/zh_TW/LC_MESSAGES/polkit-1.mo
+polkit/usr/share/locale/hi/
+polkit/usr/share/locale/hi/LC_MESSAGES/
+polkit/usr/share/locale/hi/LC_MESSAGES/polkit-1.mo
+polkit/usr/share/locale/uk/
+polkit/usr/share/locale/uk/LC_MESSAGES/
+polkit/usr/share/locale/uk/LC_MESSAGES/polkit-1.mo
+polkit/usr/share/locale/oc/
+polkit/usr/share/locale/oc/LC_MESSAGES/
+polkit/usr/share/locale/oc/LC_MESSAGES/polkit-1.mo
+polkit/usr/share/locale/nn/
+polkit/usr/share/locale/nn/LC_MESSAGES/
+polkit/usr/share/locale/nn/LC_MESSAGES/polkit-1.mo
+polkit/usr/share/locale/pl/
+polkit/usr/share/locale/pl/LC_MESSAGES/
+polkit/usr/share/locale/pl/LC_MESSAGES/polkit-1.mo
+polkit/usr/share/locale/da/
+polkit/usr/share/locale/da/LC_MESSAGES/
+polkit/usr/share/locale/da/LC_MESSAGES/polkit-1.mo
+polkit/usr/share/locale/ru/
+polkit/usr/share/locale/ru/LC_MESSAGES/
+polkit/usr/share/locale/ru/LC_MESSAGES/polkit-1.mo
+polkit/usr/share/locale/hr/
+polkit/usr/share/locale/hr/LC_MESSAGES/
+polkit/usr/share/locale/hr/LC_MESSAGES/polkit-1.mo
+polkit/usr/share/locale/zh_CN/
+polkit/usr/share/locale/zh_CN/LC_MESSAGES/
+polkit/usr/share/locale/zh_CN/LC_MESSAGES/polkit-1.mo
+polkit/usr/share/locale/cs/
+polkit/usr/share/locale/cs/LC_MESSAGES/
+polkit/usr/share/locale/cs/LC_MESSAGES/polkit-1.mo
+polkit/usr/share/locale/pt_BR/
+polkit/usr/share/locale/pt_BR/LC_MESSAGES/
+polkit/usr/share/locale/pt_BR/LC_MESSAGES/polkit-1.mo
+polkit/usr/share/locale/pt/
+polkit/usr/share/locale/pt/LC_MESSAGES/
+polkit/usr/share/locale/pt/LC_MESSAGES/polkit-1.mo
+polkit/usr/share/locale/hu/
+polkit/usr/share/locale/hu/LC_MESSAGES/
+polkit/usr/share/locale/hu/LC_MESSAGES/polkit-1.mo
+polkit/usr/share/locale/tr/
+polkit/usr/share/locale/tr/LC_MESSAGES/
+polkit/usr/share/locale/tr/LC_MESSAGES/polkit-1.mo
+polkit/usr/share/locale/sl/
+polkit/usr/share/locale/sl/LC_MESSAGES/
+polkit/usr/share/locale/sl/LC_MESSAGES/polkit-1.mo
+polkit/usr/share/locale/sv/
+polkit/usr/share/locale/sv/LC_MESSAGES/
+polkit/usr/share/locale/sv/LC_MESSAGES/polkit-1.mo
+polkit/usr/share/locale/sk/
+polkit/usr/share/locale/sk/LC_MESSAGES/
+polkit/usr/share/locale/sk/LC_MESSAGES/polkit-1.mo
+polkit/usr/share/locale/bg/
+polkit/usr/share/locale/bg/LC_MESSAGES/
+polkit/usr/share/locale/bg/LC_MESSAGES/polkit-1.mo
+polkit/usr/share/locale/ka/
+polkit/usr/share/locale/ka/LC_MESSAGES/
+polkit/usr/share/locale/ka/LC_MESSAGES/polkit-1.mo
+polkit/usr/share/locale/it/
+polkit/usr/share/locale/it/LC_MESSAGES/
+polkit/usr/share/locale/it/LC_MESSAGES/polkit-1.mo
+polkit/usr/share/locale/de/
+polkit/usr/share/locale/de/LC_MESSAGES/
+polkit/usr/share/locale/de/LC_MESSAGES/polkit-1.mo
+polkit/usr/share/dbus-1/
+polkit/usr/share/dbus-1/system.d/
+polkit/usr/share/dbus-1/system.d/org.freedesktop.PolicyKit1.conf
+polkit/usr/share/dbus-1/system-services/
+polkit/usr/share/dbus-1/system-services/org.freedesktop.PolicyKit1.service
+polkit/usr/share/gir-1.0/
+polkit/usr/share/gir-1.0/Polkit-1.0.gir
+polkit/usr/share/gir-1.0/PolkitAgent-1.0.gir
+polkit/usr/share/man/
+polkit/usr/share/man/man5/
+polkit/usr/share/man/man5/polkitd.conf.5
+polkit/usr/share/man/man8/
+polkit/usr/share/man/man8/polkit.8
+polkit/usr/share/man/man8/polkitd.8
+polkit/usr/share/man/man1/
+polkit/usr/share/man/man1/pkttyagent.1
+polkit/usr/share/man/man1/pkcheck.1
+polkit/usr/share/man/man1/pkaction.1
+polkit/usr/share/man/man1/pkexec.1
+polkit/usr/bin/
+polkit/usr/bin/pkcheck
+polkit/usr/bin/pkaction
+polkit/usr/bin/pkexec
+polkit/usr/bin/pkttyagent
+polkit/usr/lib/
+polkit/usr/lib/polkit-1/
+polkit/usr/lib/polkit-1/polkitd
+polkit/usr/lib/polkit-1/polkit-agent-helper-1
+polkit/usr/lib/libpolkit-agent-1.so.0.0.0
+polkit/usr/lib/tmpfiles.d/
+polkit/usr/lib/tmpfiles.d/polkit-tmpfiles.conf
+polkit/usr/lib/pam.d/
+polkit/usr/lib/pam.d/polkit-1
+polkit/usr/lib/libpolkit-gobject-1.so.0
+polkit/usr/lib/girepository-1.0/
+polkit/usr/lib/girepository-1.0/PolkitAgent-1.0.typelib
+polkit/usr/lib/girepository-1.0/Polkit-1.0.typelib
+polkit/usr/lib/libpolkit-gobject-1.so.0.0.0
+polkit/usr/lib/libpolkit-gobject-1.so
+polkit/usr/lib/libpolkit-agent-1.so.0
+polkit/usr/lib/pkgconfig/
+polkit/usr/lib/pkgconfig/polkit-agent-1.pc
+polkit/usr/lib/pkgconfig/polkit-gobject-1.pc
+polkit/usr/lib/systemd/
+polkit/usr/lib/systemd/system/
+polkit/usr/lib/systemd/system/polkit-agent-helper@.service
+polkit/usr/lib/systemd/system/polkit-agent-helper.socket
+polkit/usr/lib/systemd/system/polkit.service
+polkit/usr/lib/sysusers.d/
+polkit/usr/lib/sysusers.d/polkit.conf
+polkit/usr/lib/libpolkit-agent-1.so
+polkit/etc/
+polkit/etc/polkit-1/
+polkit/etc/polkit-1/rules.d/
+polkit/etc/pam.d/
+polkit/etc/pam.d/polkit-1
+polkit/version
+polkit/postinst
+polkit/depends
