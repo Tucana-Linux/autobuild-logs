@@ -1,0 +1,1677 @@
+--2025-12-24 09:12:33--  https://gitlab.freedesktop.org/pipewire/wireplumber/-/archive/0.5.13/wireplumber-0.5.13.tar.bz2
+Resolving gitlab.freedesktop.org (gitlab.freedesktop.org)... 151.101.67.52, 151.101.131.52, 151.101.195.52, ...
+Connecting to gitlab.freedesktop.org (gitlab.freedesktop.org)|151.101.67.52|:443... connected.
+HTTP request sent, awaiting response... 200 
+Length: unspecified [application/octet-stream]
+Saving to: ‘wireplumber-0.5.13.tar.bz2’
+
+     0K .......... .......... .......... .......... ..........  242K
+    50K .......... .......... .......... .......... ..........  485K
+   100K .......... .......... .......... .......... .......... 8.72M
+   150K .......... .......... .......... .......... ..........  514K
+   200K .......... .......... .......... .......... .......... 61.7M
+   250K .......... .......... .......... .......... .......... 21.3M
+   300K .......... .......... .......... .......... .......... 12.1M
+   350K .......... .......... .......... .......... ..........  522K
+   400K .......... .......... .......... ........              52.6M=0.5s
+
+2025-12-24 09:12:34 (849 KB/s) - ‘wireplumber-0.5.13.tar.bz2’ saved [448588]
+
+wireplumber-0.5.13/
+wireplumber-0.5.13/.editorconfig
+wireplumber-0.5.13/.gitignore
+wireplumber-0.5.13/.gitlab-ci.yml
+wireplumber-0.5.13/AGENTS.md
+wireplumber-0.5.13/LICENSE
+wireplumber-0.5.13/Makefile
+wireplumber-0.5.13/NEWS.rst
+wireplumber-0.5.13/README.rst
+wireplumber-0.5.13/docs/
+wireplumber-0.5.13/docs/Doxyfile.in
+wireplumber-0.5.13/docs/_static/
+wireplumber-0.5.13/docs/_static/custom.css
+wireplumber-0.5.13/docs/conf.py.in
+wireplumber-0.5.13/docs/gen-api-gtkdoc.py
+wireplumber-0.5.13/docs/meson.build
+wireplumber-0.5.13/docs/rst/
+wireplumber-0.5.13/docs/rst/daemon/
+wireplumber-0.5.13/docs/rst/daemon/configuration.rst
+wireplumber-0.5.13/docs/rst/daemon/configuration/
+wireplumber-0.5.13/docs/rst/daemon/configuration/access.rst
+wireplumber-0.5.13/docs/rst/daemon/configuration/alsa.rst
+wireplumber-0.5.13/docs/rst/daemon/configuration/bluetooth.rst
+wireplumber-0.5.13/docs/rst/daemon/configuration/components_and_profiles.rst
+wireplumber-0.5.13/docs/rst/daemon/configuration/conf_file.rst
+wireplumber-0.5.13/docs/rst/daemon/configuration/configuration_option_types.rst
+wireplumber-0.5.13/docs/rst/daemon/configuration/features.rst
+wireplumber-0.5.13/docs/rst/daemon/configuration/meson.build
+wireplumber-0.5.13/docs/rst/daemon/configuration/migration.rst
+wireplumber-0.5.13/docs/rst/daemon/configuration/modifying_configuration.rst
+wireplumber-0.5.13/docs/rst/daemon/configuration/settings.rst
+wireplumber-0.5.13/docs/rst/daemon/installing.rst
+wireplumber-0.5.13/docs/rst/daemon/locations.rst
+wireplumber-0.5.13/docs/rst/daemon/logging.rst
+wireplumber-0.5.13/docs/rst/daemon/meson.build
+wireplumber-0.5.13/docs/rst/daemon/multi_instance.rst
+wireplumber-0.5.13/docs/rst/daemon/running.rst
+wireplumber-0.5.13/docs/rst/design/
+wireplumber-0.5.13/docs/rst/design/events_and_hooks.rst
+wireplumber-0.5.13/docs/rst/design/meson.build
+wireplumber-0.5.13/docs/rst/design/understanding_session_management.rst
+wireplumber-0.5.13/docs/rst/design/understanding_wireplumber.rst
+wireplumber-0.5.13/docs/rst/index.rst
+wireplumber-0.5.13/docs/rst/library/
+wireplumber-0.5.13/docs/rst/library/c_api.rst
+wireplumber-0.5.13/docs/rst/library/c_api/
+wireplumber-0.5.13/docs/rst/library/c_api/base_dirs_api.rst
+wireplumber-0.5.13/docs/rst/library/c_api/client_api.rst
+wireplumber-0.5.13/docs/rst/library/c_api/component_loader_api.rst
+wireplumber-0.5.13/docs/rst/library/c_api/conf_api.rst
+wireplumber-0.5.13/docs/rst/library/c_api/core_api.rst
+wireplumber-0.5.13/docs/rst/library/c_api/device_api.rst
+wireplumber-0.5.13/docs/rst/library/c_api/global_proxy_api.rst
+wireplumber-0.5.13/docs/rst/library/c_api/impl_module_api.rst
+wireplumber-0.5.13/docs/rst/library/c_api/impl_node_api.rst
+wireplumber-0.5.13/docs/rst/library/c_api/iterator_api.rst
+wireplumber-0.5.13/docs/rst/library/c_api/link_api.rst
+wireplumber-0.5.13/docs/rst/library/c_api/log_api.rst
+wireplumber-0.5.13/docs/rst/library/c_api/meson.build
+wireplumber-0.5.13/docs/rst/library/c_api/metadata_api.rst
+wireplumber-0.5.13/docs/rst/library/c_api/node_api.rst
+wireplumber-0.5.13/docs/rst/library/c_api/obj_interest_api.rst
+wireplumber-0.5.13/docs/rst/library/c_api/obj_manager_api.rst
+wireplumber-0.5.13/docs/rst/library/c_api/object_api.rst
+wireplumber-0.5.13/docs/rst/library/c_api/pipewire_object_api.rst
+wireplumber-0.5.13/docs/rst/library/c_api/plugin_api.rst
+wireplumber-0.5.13/docs/rst/library/c_api/port_api.rst
+wireplumber-0.5.13/docs/rst/library/c_api/properties_api.rst
+wireplumber-0.5.13/docs/rst/library/c_api/proxy_api.rst
+wireplumber-0.5.13/docs/rst/library/c_api/session_item_api.rst
+wireplumber-0.5.13/docs/rst/library/c_api/settings_api.rst
+wireplumber-0.5.13/docs/rst/library/c_api/si_factory_api.rst
+wireplumber-0.5.13/docs/rst/library/c_api/si_interfaces_api.rst
+wireplumber-0.5.13/docs/rst/library/c_api/spa_device_api.rst
+wireplumber-0.5.13/docs/rst/library/c_api/spa_json_api.rst
+wireplumber-0.5.13/docs/rst/library/c_api/spa_pod_api.rst
+wireplumber-0.5.13/docs/rst/library/c_api/spa_type_api.rst
+wireplumber-0.5.13/docs/rst/library/c_api/state_api.rst
+wireplumber-0.5.13/docs/rst/library/c_api/transitions_api.rst
+wireplumber-0.5.13/docs/rst/library/c_api/wp_api.rst
+wireplumber-0.5.13/docs/rst/library/c_api/wperror_api.rst
+wireplumber-0.5.13/docs/rst/library/meson.build
+wireplumber-0.5.13/docs/rst/meson.build
+wireplumber-0.5.13/docs/rst/policies/
+wireplumber-0.5.13/docs/rst/policies/linking.rst
+wireplumber-0.5.13/docs/rst/policies/meson.build
+wireplumber-0.5.13/docs/rst/policies/smart_filters.rst
+wireplumber-0.5.13/docs/rst/policies/software_dsp.rst
+wireplumber-0.5.13/docs/rst/resources/
+wireplumber-0.5.13/docs/rst/resources/community.rst
+wireplumber-0.5.13/docs/rst/resources/contributing.rst
+wireplumber-0.5.13/docs/rst/resources/meson.build
+wireplumber-0.5.13/docs/rst/resources/releases.rst
+wireplumber-0.5.13/docs/rst/resources/testing.rst
+wireplumber-0.5.13/docs/rst/scripting/
+wireplumber-0.5.13/docs/rst/scripting/custom_scripts.rst
+wireplumber-0.5.13/docs/rst/scripting/existing_scripts.rst
+wireplumber-0.5.13/docs/rst/scripting/existing_scripts/
+wireplumber-0.5.13/docs/rst/scripting/existing_scripts/default_nodes.rst
+wireplumber-0.5.13/docs/rst/scripting/existing_scripts/device.rst
+wireplumber-0.5.13/docs/rst/scripting/existing_scripts/linking.rst
+wireplumber-0.5.13/docs/rst/scripting/existing_scripts/meson.build
+wireplumber-0.5.13/docs/rst/scripting/lua_api.rst
+wireplumber-0.5.13/docs/rst/scripting/lua_api/
+wireplumber-0.5.13/docs/rst/scripting/lua_api/lua_core_api.rst
+wireplumber-0.5.13/docs/rst/scripting/lua_api/lua_gobject.rst
+wireplumber-0.5.13/docs/rst/scripting/lua_api/lua_introduction.rst
+wireplumber-0.5.13/docs/rst/scripting/lua_api/lua_local_module_api.rst
+wireplumber-0.5.13/docs/rst/scripting/lua_api/lua_log_api.rst
+wireplumber-0.5.13/docs/rst/scripting/lua_api/lua_object_api.rst
+wireplumber-0.5.13/docs/rst/scripting/lua_api/lua_object_interest_api.rst
+wireplumber-0.5.13/docs/rst/scripting/lua_api/lua_object_manager_api.rst
+wireplumber-0.5.13/docs/rst/scripting/lua_api/lua_proxies_api.rst
+wireplumber-0.5.13/docs/rst/scripting/lua_api/lua_session_item_api.rst
+wireplumber-0.5.13/docs/rst/scripting/lua_api/lua_spa_device_api.rst
+wireplumber-0.5.13/docs/rst/scripting/lua_api/lua_spa_pod.rst
+wireplumber-0.5.13/docs/rst/scripting/lua_api/meson.build
+wireplumber-0.5.13/docs/rst/scripting/meson.build
+wireplumber-0.5.13/docs/rst/tools/
+wireplumber-0.5.13/docs/rst/tools/meson.build
+wireplumber-0.5.13/docs/rst/tools/wpctl.rst
+wireplumber-0.5.13/lib/
+wireplumber-0.5.13/lib/meson.build
+wireplumber-0.5.13/lib/wp/
+wireplumber-0.5.13/lib/wp/base-dirs.c
+wireplumber-0.5.13/lib/wp/base-dirs.h
+wireplumber-0.5.13/lib/wp/client.c
+wireplumber-0.5.13/lib/wp/client.h
+wireplumber-0.5.13/lib/wp/component-loader.c
+wireplumber-0.5.13/lib/wp/component-loader.h
+wireplumber-0.5.13/lib/wp/conf.c
+wireplumber-0.5.13/lib/wp/conf.h
+wireplumber-0.5.13/lib/wp/core.c
+wireplumber-0.5.13/lib/wp/core.h
+wireplumber-0.5.13/lib/wp/defs.h
+wireplumber-0.5.13/lib/wp/device.c
+wireplumber-0.5.13/lib/wp/device.h
+wireplumber-0.5.13/lib/wp/error.c
+wireplumber-0.5.13/lib/wp/error.h
+wireplumber-0.5.13/lib/wp/event-dispatcher.c
+wireplumber-0.5.13/lib/wp/event-dispatcher.h
+wireplumber-0.5.13/lib/wp/event-hook.c
+wireplumber-0.5.13/lib/wp/event-hook.h
+wireplumber-0.5.13/lib/wp/event.c
+wireplumber-0.5.13/lib/wp/event.h
+wireplumber-0.5.13/lib/wp/factory.c
+wireplumber-0.5.13/lib/wp/factory.h
+wireplumber-0.5.13/lib/wp/global-proxy.c
+wireplumber-0.5.13/lib/wp/global-proxy.h
+wireplumber-0.5.13/lib/wp/iterator.c
+wireplumber-0.5.13/lib/wp/iterator.h
+wireplumber-0.5.13/lib/wp/json-utils.c
+wireplumber-0.5.13/lib/wp/json-utils.h
+wireplumber-0.5.13/lib/wp/link.c
+wireplumber-0.5.13/lib/wp/link.h
+wireplumber-0.5.13/lib/wp/log.c
+wireplumber-0.5.13/lib/wp/log.h
+wireplumber-0.5.13/lib/wp/meson.build
+wireplumber-0.5.13/lib/wp/metadata.c
+wireplumber-0.5.13/lib/wp/metadata.h
+wireplumber-0.5.13/lib/wp/module.c
+wireplumber-0.5.13/lib/wp/module.h
+wireplumber-0.5.13/lib/wp/node.c
+wireplumber-0.5.13/lib/wp/node.h
+wireplumber-0.5.13/lib/wp/object-interest.c
+wireplumber-0.5.13/lib/wp/object-interest.h
+wireplumber-0.5.13/lib/wp/object-manager.c
+wireplumber-0.5.13/lib/wp/object-manager.h
+wireplumber-0.5.13/lib/wp/object.c
+wireplumber-0.5.13/lib/wp/object.h
+wireplumber-0.5.13/lib/wp/plugin.c
+wireplumber-0.5.13/lib/wp/plugin.h
+wireplumber-0.5.13/lib/wp/port.c
+wireplumber-0.5.13/lib/wp/port.h
+wireplumber-0.5.13/lib/wp/private/
+wireplumber-0.5.13/lib/wp/private/internal-comp-loader.c
+wireplumber-0.5.13/lib/wp/private/internal-comp-loader.h
+wireplumber-0.5.13/lib/wp/private/parse-conf-section.c
+wireplumber-0.5.13/lib/wp/private/pipewire-object-mixin.c
+wireplumber-0.5.13/lib/wp/private/pipewire-object-mixin.h
+wireplumber-0.5.13/lib/wp/private/registry.c
+wireplumber-0.5.13/lib/wp/private/registry.h
+wireplumber-0.5.13/lib/wp/proc-utils.c
+wireplumber-0.5.13/lib/wp/proc-utils.h
+wireplumber-0.5.13/lib/wp/properties.c
+wireplumber-0.5.13/lib/wp/properties.h
+wireplumber-0.5.13/lib/wp/proxy-interfaces.c
+wireplumber-0.5.13/lib/wp/proxy-interfaces.h
+wireplumber-0.5.13/lib/wp/proxy.c
+wireplumber-0.5.13/lib/wp/proxy.h
+wireplumber-0.5.13/lib/wp/session-item.c
+wireplumber-0.5.13/lib/wp/session-item.h
+wireplumber-0.5.13/lib/wp/settings.c
+wireplumber-0.5.13/lib/wp/settings.h
+wireplumber-0.5.13/lib/wp/si-factory.c
+wireplumber-0.5.13/lib/wp/si-factory.h
+wireplumber-0.5.13/lib/wp/si-interfaces.c
+wireplumber-0.5.13/lib/wp/si-interfaces.h
+wireplumber-0.5.13/lib/wp/spa-json.c
+wireplumber-0.5.13/lib/wp/spa-json.h
+wireplumber-0.5.13/lib/wp/spa-pod.c
+wireplumber-0.5.13/lib/wp/spa-pod.h
+wireplumber-0.5.13/lib/wp/spa-type.c
+wireplumber-0.5.13/lib/wp/spa-type.h
+wireplumber-0.5.13/lib/wp/state.c
+wireplumber-0.5.13/lib/wp/state.h
+wireplumber-0.5.13/lib/wp/transition.c
+wireplumber-0.5.13/lib/wp/transition.h
+wireplumber-0.5.13/lib/wp/wp.c
+wireplumber-0.5.13/lib/wp/wp.h
+wireplumber-0.5.13/lib/wp/wpversion.h.in
+wireplumber-0.5.13/meson.build
+wireplumber-0.5.13/meson_options.txt
+wireplumber-0.5.13/modules/
+wireplumber-0.5.13/modules/dbus-connection-state.h
+wireplumber-0.5.13/modules/flatpak-utils.h
+wireplumber-0.5.13/modules/meson.build
+wireplumber-0.5.13/modules/module-dbus-connection.c
+wireplumber-0.5.13/modules/module-default-nodes-api.c
+wireplumber-0.5.13/modules/module-file-monitor-api.c
+wireplumber-0.5.13/modules/module-log-settings.c
+wireplumber-0.5.13/modules/module-logind.c
+wireplumber-0.5.13/modules/module-lua-scripting/
+wireplumber-0.5.13/modules/module-lua-scripting/api/
+wireplumber-0.5.13/modules/module-lua-scripting/api/api.c
+wireplumber-0.5.13/modules/module-lua-scripting/api/api.lua
+wireplumber-0.5.13/modules/module-lua-scripting/api/gresource.xml
+wireplumber-0.5.13/modules/module-lua-scripting/api/json.c
+wireplumber-0.5.13/modules/module-lua-scripting/api/meson.build
+wireplumber-0.5.13/modules/module-lua-scripting/api/pod.c
+wireplumber-0.5.13/modules/module-lua-scripting/api/require.c
+wireplumber-0.5.13/modules/module-lua-scripting/meson.build
+wireplumber-0.5.13/modules/module-lua-scripting/module.c
+wireplumber-0.5.13/modules/module-lua-scripting/script.c
+wireplumber-0.5.13/modules/module-lua-scripting/script.h
+wireplumber-0.5.13/modules/module-lua-scripting/wplua/
+wireplumber-0.5.13/modules/module-lua-scripting/wplua/boxed.c
+wireplumber-0.5.13/modules/module-lua-scripting/wplua/closure.c
+wireplumber-0.5.13/modules/module-lua-scripting/wplua/gresource.xml
+wireplumber-0.5.13/modules/module-lua-scripting/wplua/meson.build
+wireplumber-0.5.13/modules/module-lua-scripting/wplua/object.c
+wireplumber-0.5.13/modules/module-lua-scripting/wplua/private.h
+wireplumber-0.5.13/modules/module-lua-scripting/wplua/sandbox.lua
+wireplumber-0.5.13/modules/module-lua-scripting/wplua/userdata.c
+wireplumber-0.5.13/modules/module-lua-scripting/wplua/value.c
+wireplumber-0.5.13/modules/module-lua-scripting/wplua/wplua.c
+wireplumber-0.5.13/modules/module-lua-scripting/wplua/wplua.h
+wireplumber-0.5.13/modules/module-mixer-api.c
+wireplumber-0.5.13/modules/module-modem-manager.c
+wireplumber-0.5.13/modules/module-mpris.c
+wireplumber-0.5.13/modules/module-notifications-api.c
+wireplumber-0.5.13/modules/module-portal-permissionstore.c
+wireplumber-0.5.13/modules/module-reserve-device/
+wireplumber-0.5.13/modules/module-reserve-device/meson.build
+wireplumber-0.5.13/modules/module-reserve-device/org.freedesktop.ReserveDevice1.xml
+wireplumber-0.5.13/modules/module-reserve-device/plugin.c
+wireplumber-0.5.13/modules/module-reserve-device/plugin.h
+wireplumber-0.5.13/modules/module-reserve-device/reserve-device.c
+wireplumber-0.5.13/modules/module-reserve-device/reserve-device.h
+wireplumber-0.5.13/modules/module-reserve-device/transitions.c
+wireplumber-0.5.13/modules/module-reserve-device/transitions.h
+wireplumber-0.5.13/modules/module-settings.c
+wireplumber-0.5.13/modules/module-si-audio-adapter.c
+wireplumber-0.5.13/modules/module-si-node.c
+wireplumber-0.5.13/modules/module-si-standard-link.c
+wireplumber-0.5.13/modules/module-standard-event-source.c
+wireplumber-0.5.13/po/
+wireplumber-0.5.13/po/LINGUAS
+wireplumber-0.5.13/po/POTFILES.in
+wireplumber-0.5.13/po/POTFILES.skip
+wireplumber-0.5.13/po/af.po
+wireplumber-0.5.13/po/as.po
+wireplumber-0.5.13/po/be.po
+wireplumber-0.5.13/po/bg.po
+wireplumber-0.5.13/po/bn_IN.po
+wireplumber-0.5.13/po/ca.po
+wireplumber-0.5.13/po/conf.pot
+wireplumber-0.5.13/po/cs.po
+wireplumber-0.5.13/po/da.po
+wireplumber-0.5.13/po/de.po
+wireplumber-0.5.13/po/de_CH.po
+wireplumber-0.5.13/po/el.po
+wireplumber-0.5.13/po/eo.po
+wireplumber-0.5.13/po/es.po
+wireplumber-0.5.13/po/fa.po
+wireplumber-0.5.13/po/fi.po
+wireplumber-0.5.13/po/fr.po
+wireplumber-0.5.13/po/gl.po
+wireplumber-0.5.13/po/gu.po
+wireplumber-0.5.13/po/he.po
+wireplumber-0.5.13/po/hi.po
+wireplumber-0.5.13/po/hr.po
+wireplumber-0.5.13/po/hu.po
+wireplumber-0.5.13/po/id.po
+wireplumber-0.5.13/po/it.po
+wireplumber-0.5.13/po/ja.po
+wireplumber-0.5.13/po/ka.po
+wireplumber-0.5.13/po/kk.po
+wireplumber-0.5.13/po/kn.po
+wireplumber-0.5.13/po/ko.po
+wireplumber-0.5.13/po/lt.po
+wireplumber-0.5.13/po/meson.build
+wireplumber-0.5.13/po/ml.po
+wireplumber-0.5.13/po/mr.po
+wireplumber-0.5.13/po/my.po
+wireplumber-0.5.13/po/nl.po
+wireplumber-0.5.13/po/nn.po
+wireplumber-0.5.13/po/oc.po
+wireplumber-0.5.13/po/or.po
+wireplumber-0.5.13/po/pa.po
+wireplumber-0.5.13/po/pl.po
+wireplumber-0.5.13/po/pt.po
+wireplumber-0.5.13/po/pt_BR.po
+wireplumber-0.5.13/po/ro.po
+wireplumber-0.5.13/po/ru.po
+wireplumber-0.5.13/po/si.po
+wireplumber-0.5.13/po/sk.po
+wireplumber-0.5.13/po/sl.po
+wireplumber-0.5.13/po/sr.po
+wireplumber-0.5.13/po/sr@latin.po
+wireplumber-0.5.13/po/sv.po
+wireplumber-0.5.13/po/ta.po
+wireplumber-0.5.13/po/te.po
+wireplumber-0.5.13/po/tr.po
+wireplumber-0.5.13/po/uk.po
+wireplumber-0.5.13/po/zh_CN.po
+wireplumber-0.5.13/po/zh_TW.po
+wireplumber-0.5.13/src/
+wireplumber-0.5.13/src/config/
+wireplumber-0.5.13/src/config/meson.build
+wireplumber-0.5.13/src/config/wireplumber.conf
+wireplumber-0.5.13/src/config/wireplumber.conf.d.examples/
+wireplumber-0.5.13/src/config/wireplumber.conf.d.examples/access.conf
+wireplumber-0.5.13/src/config/wireplumber.conf.d.examples/alsa.conf
+wireplumber-0.5.13/src/config/wireplumber.conf.d.examples/bluetooth.conf
+wireplumber-0.5.13/src/config/wireplumber.conf.d.examples/device.conf
+wireplumber-0.5.13/src/config/wireplumber.conf.d.examples/filter-graph.conf
+wireplumber-0.5.13/src/config/wireplumber.conf.d.examples/libcamera.conf
+wireplumber-0.5.13/src/config/wireplumber.conf.d.examples/linking.conf
+wireplumber-0.5.13/src/config/wireplumber.conf.d.examples/log.conf
+wireplumber-0.5.13/src/config/wireplumber.conf.d.examples/media-role-nodes.conf
+wireplumber-0.5.13/src/config/wireplumber.conf.d.examples/profile.conf
+wireplumber-0.5.13/src/config/wireplumber.conf.d.examples/smart-equalizer.conf
+wireplumber-0.5.13/src/config/wireplumber.conf.d.examples/stream.conf
+wireplumber-0.5.13/src/config/wireplumber.conf.d.examples/v4l2.conf
+wireplumber-0.5.13/src/config/wireplumber.conf.d/
+wireplumber-0.5.13/src/config/wireplumber.conf.d/alsa-vm.conf
+wireplumber-0.5.13/src/main.c
+wireplumber-0.5.13/src/meson.build
+wireplumber-0.5.13/src/scripts/
+wireplumber-0.5.13/src/scripts/client/
+wireplumber-0.5.13/src/scripts/client/access-default.lua
+wireplumber-0.5.13/src/scripts/client/access-portal.lua
+wireplumber-0.5.13/src/scripts/client/access-snap.lua
+wireplumber-0.5.13/src/scripts/default-nodes/
+wireplumber-0.5.13/src/scripts/default-nodes/README.rst
+wireplumber-0.5.13/src/scripts/default-nodes/apply-default-node.lua
+wireplumber-0.5.13/src/scripts/default-nodes/find-best-default-node.lua
+wireplumber-0.5.13/src/scripts/default-nodes/find-selected-default-node.lua
+wireplumber-0.5.13/src/scripts/default-nodes/rescan.lua
+wireplumber-0.5.13/src/scripts/default-nodes/state-default-nodes.lua
+wireplumber-0.5.13/src/scripts/device/
+wireplumber-0.5.13/src/scripts/device/README.rst
+wireplumber-0.5.13/src/scripts/device/apply-profile.lua
+wireplumber-0.5.13/src/scripts/device/apply-routes.lua
+wireplumber-0.5.13/src/scripts/device/automute-alsa-routes.lua
+wireplumber-0.5.13/src/scripts/device/autoswitch-bluetooth-profile.lua
+wireplumber-0.5.13/src/scripts/device/find-best-profile.lua
+wireplumber-0.5.13/src/scripts/device/find-best-routes.lua
+wireplumber-0.5.13/src/scripts/device/find-preferred-profile.lua
+wireplumber-0.5.13/src/scripts/device/find-voice-call-profile.lua
+wireplumber-0.5.13/src/scripts/device/select-profile.lua
+wireplumber-0.5.13/src/scripts/device/select-routes.lua
+wireplumber-0.5.13/src/scripts/device/state-profile.lua
+wireplumber-0.5.13/src/scripts/device/state-routes.lua
+wireplumber-0.5.13/src/scripts/fallback-sink.lua
+wireplumber-0.5.13/src/scripts/lib/
+wireplumber-0.5.13/src/scripts/lib/audio-group-utils.lua
+wireplumber-0.5.13/src/scripts/lib/common-utils.lua
+wireplumber-0.5.13/src/scripts/lib/device-info-cache.lua
+wireplumber-0.5.13/src/scripts/lib/filter-utils.lua
+wireplumber-0.5.13/src/scripts/lib/linking-utils.lua
+wireplumber-0.5.13/src/scripts/lib/monitor-utils.lua
+wireplumber-0.5.13/src/scripts/lib/node-utils.lua
+wireplumber-0.5.13/src/scripts/linking/
+wireplumber-0.5.13/src/scripts/linking/README.rst
+wireplumber-0.5.13/src/scripts/linking/find-audio-group-target.lua
+wireplumber-0.5.13/src/scripts/linking/find-best-target.lua
+wireplumber-0.5.13/src/scripts/linking/find-default-target.lua
+wireplumber-0.5.13/src/scripts/linking/find-defined-target.lua
+wireplumber-0.5.13/src/scripts/linking/find-filter-target.lua
+wireplumber-0.5.13/src/scripts/linking/find-media-role-sink-target.lua
+wireplumber-0.5.13/src/scripts/linking/find-media-role-target.lua
+wireplumber-0.5.13/src/scripts/linking/find-user-target.lua.example
+wireplumber-0.5.13/src/scripts/linking/get-filter-from-target.lua
+wireplumber-0.5.13/src/scripts/linking/link-target.lua
+wireplumber-0.5.13/src/scripts/linking/mpris-pause.lua
+wireplumber-0.5.13/src/scripts/linking/prepare-link.lua
+wireplumber-0.5.13/src/scripts/linking/rescan-media-role-links.lua
+wireplumber-0.5.13/src/scripts/linking/rescan.lua
+wireplumber-0.5.13/src/scripts/metadata.lua
+wireplumber-0.5.13/src/scripts/monitors/
+wireplumber-0.5.13/src/scripts/monitors/alsa-midi.lua
+wireplumber-0.5.13/src/scripts/monitors/alsa.lua
+wireplumber-0.5.13/src/scripts/monitors/bluez-midi.lua
+wireplumber-0.5.13/src/scripts/monitors/bluez.lua
+wireplumber-0.5.13/src/scripts/monitors/libcamera/
+wireplumber-0.5.13/src/scripts/monitors/libcamera/create-device.lua
+wireplumber-0.5.13/src/scripts/monitors/libcamera/create-node.lua
+wireplumber-0.5.13/src/scripts/monitors/libcamera/enumerate-device.lua
+wireplumber-0.5.13/src/scripts/monitors/libcamera/name-device.lua
+wireplumber-0.5.13/src/scripts/monitors/libcamera/name-node.lua
+wireplumber-0.5.13/src/scripts/monitors/v4l2/
+wireplumber-0.5.13/src/scripts/monitors/v4l2/create-device.lua
+wireplumber-0.5.13/src/scripts/monitors/v4l2/create-node.lua
+wireplumber-0.5.13/src/scripts/monitors/v4l2/enumerate-device.lua
+wireplumber-0.5.13/src/scripts/monitors/v4l2/name-device.lua
+wireplumber-0.5.13/src/scripts/monitors/v4l2/name-node.lua
+wireplumber-0.5.13/src/scripts/node/
+wireplumber-0.5.13/src/scripts/node/audio-group.lua
+wireplumber-0.5.13/src/scripts/node/create-item.lua
+wireplumber-0.5.13/src/scripts/node/filter-forward-format.lua
+wireplumber-0.5.13/src/scripts/node/filter-graph.lua
+wireplumber-0.5.13/src/scripts/node/find-media-role-default-volume.lua
+wireplumber-0.5.13/src/scripts/node/software-dsp.lua
+wireplumber-0.5.13/src/scripts/node/state-stream.lua
+wireplumber-0.5.13/src/scripts/node/suspend-node.lua
+wireplumber-0.5.13/src/scripts/session-services.lua
+wireplumber-0.5.13/src/scripts/sm-objects.lua
+wireplumber-0.5.13/src/systemd/
+wireplumber-0.5.13/src/systemd/meson.build
+wireplumber-0.5.13/src/systemd/system/
+wireplumber-0.5.13/src/systemd/system/meson.build
+wireplumber-0.5.13/src/systemd/system/wireplumber.service.in
+wireplumber-0.5.13/src/systemd/system/wireplumber@.service.in
+wireplumber-0.5.13/src/systemd/user/
+wireplumber-0.5.13/src/systemd/user/meson.build
+wireplumber-0.5.13/src/systemd/user/wireplumber.service.in
+wireplumber-0.5.13/src/systemd/user/wireplumber@.service.in
+wireplumber-0.5.13/src/tools/
+wireplumber-0.5.13/src/tools/meson.build
+wireplumber-0.5.13/src/tools/shell-completion/
+wireplumber-0.5.13/src/tools/shell-completion/wpctl.bash
+wireplumber-0.5.13/src/tools/shell-completion/wpctl.zsh
+wireplumber-0.5.13/src/tools/spa-json-po.py
+wireplumber-0.5.13/src/tools/wpctl.c
+wireplumber-0.5.13/src/tools/wpexec.c
+wireplumber-0.5.13/subprojects/
+wireplumber-0.5.13/subprojects/lua.wrap
+wireplumber-0.5.13/tests/
+wireplumber-0.5.13/tests/common/
+wireplumber-0.5.13/tests/common/base-test-fixture.h
+wireplumber-0.5.13/tests/common/test-log.h
+wireplumber-0.5.13/tests/common/test-server.h
+wireplumber-0.5.13/tests/examples/
+wireplumber-0.5.13/tests/examples/bt-pinephone.lua
+wireplumber-0.5.13/tests/examples/bt-profile-switch.lua
+wireplumber-0.5.13/tests/examples/filter-chain.lua
+wireplumber-0.5.13/tests/examples/get-default-sink-volume.lua
+wireplumber-0.5.13/tests/examples/interactive.lua
+wireplumber-0.5.13/tests/examples/meson.build
+wireplumber-0.5.13/tests/examples/node-extra-params.c
+wireplumber-0.5.13/tests/meson.build
+wireplumber-0.5.13/tests/modules/
+wireplumber-0.5.13/tests/modules/dbus-connection.c
+wireplumber-0.5.13/tests/modules/file-monitor.c
+wireplumber-0.5.13/tests/modules/meson.build
+wireplumber-0.5.13/tests/modules/reserve-device.c
+wireplumber-0.5.13/tests/modules/si-audio-adapter.c
+wireplumber-0.5.13/tests/modules/si-node.c
+wireplumber-0.5.13/tests/modules/si-standard-link.c
+wireplumber-0.5.13/tests/script-tester.c
+wireplumber-0.5.13/tests/scripts/
+wireplumber-0.5.13/tests/scripts/config/
+wireplumber-0.5.13/tests/scripts/config/wireplumber.conf
+wireplumber-0.5.13/tests/scripts/meson.build
+wireplumber-0.5.13/tests/scripts/scripts/
+wireplumber-0.5.13/tests/scripts/scripts/00-test-default-nodes-initial-metadata-update.lua
+wireplumber-0.5.13/tests/scripts/scripts/00-test-linking-non-default-device-node.lua
+wireplumber-0.5.13/tests/scripts/scripts/01-test-linking-non-default-device-node-capture.lua
+wireplumber-0.5.13/tests/scripts/scripts/02-test-linking-default-device-node.lua
+wireplumber-0.5.13/tests/scripts/scripts/03-test-linking-default-device-node-capture.lua
+wireplumber-0.5.13/tests/scripts/scripts/04-test-linking-defined-device-node-target-object-string.lua
+wireplumber-0.5.13/tests/scripts/scripts/05-test-linking-defined-device-node-target-object-int.lua
+wireplumber-0.5.13/tests/scripts/scripts/06-test-linking-defined-device-node-target-object-name.lua
+wireplumber-0.5.13/tests/scripts/scripts/07-test-linking-defined-device-node-target-object-string-capture.lua
+wireplumber-0.5.13/tests/scripts/scripts/08-test-linking-defined-device-node-target-object-int-capture.lua
+wireplumber-0.5.13/tests/scripts/scripts/09-test-linking-defined-device-node-target-object-name-capture.lua
+wireplumber-0.5.13/tests/scripts/scripts/10-test-linking-defined-device-node-node-target.lua
+wireplumber-0.5.13/tests/scripts/scripts/11-test-linking-defined-device-node-node-target-capture.lua
+wireplumber-0.5.13/tests/scripts/scripts/12-test-linking-defined-device-node-target-node-metadata.lua
+wireplumber-0.5.13/tests/scripts/scripts/13-test-linking-defined-device-node-target-node-metadata-capture.lua
+wireplumber-0.5.13/tests/scripts/scripts/14-test-linking-defined-device-node-target-object-metadata.lua
+wireplumber-0.5.13/tests/scripts/scripts/15-test-linking-defined-device-node-target-object-metadata-capture.lua
+wireplumber-0.5.13/tests/scripts/scripts/16-test-linking-defined-device-node-target-object-int-metadata.lua
+wireplumber-0.5.13/tests/scripts/scripts/17-test-linking-defined-device-node-target-object-int-metadata-capture.lua
+wireplumber-0.5.13/tests/scripts/scripts/lib/
+wireplumber-0.5.13/tests/scripts/scripts/lib/test-utils.lua
+wireplumber-0.5.13/tests/wp/
+wireplumber-0.5.13/tests/wp/component-loader.c
+wireplumber-0.5.13/tests/wp/component-loader.conf
+wireplumber-0.5.13/tests/wp/conf.c
+wireplumber-0.5.13/tests/wp/conf/
+wireplumber-0.5.13/tests/wp/conf/section.conf
+wireplumber-0.5.13/tests/wp/conf/wireplumber.conf
+wireplumber-0.5.13/tests/wp/conf/wireplumber.conf.d/
+wireplumber-0.5.13/tests/wp/conf/wireplumber.conf.d/empty.conf
+wireplumber-0.5.13/tests/wp/conf/wireplumber.conf.d/merge.conf
+wireplumber-0.5.13/tests/wp/conf/wireplumber.conf.d/merge2.conf
+wireplumber-0.5.13/tests/wp/core.c
+wireplumber-0.5.13/tests/wp/events.c
+wireplumber-0.5.13/tests/wp/factory.c
+wireplumber-0.5.13/tests/wp/json-utils.c
+wireplumber-0.5.13/tests/wp/meson.build
+wireplumber-0.5.13/tests/wp/metadata.c
+wireplumber-0.5.13/tests/wp/object-interest.c
+wireplumber-0.5.13/tests/wp/object-manager.c
+wireplumber-0.5.13/tests/wp/properties.c
+wireplumber-0.5.13/tests/wp/proxy.c
+wireplumber-0.5.13/tests/wp/session-item.c
+wireplumber-0.5.13/tests/wp/settings.c
+wireplumber-0.5.13/tests/wp/settings/
+wireplumber-0.5.13/tests/wp/settings/wireplumber.conf
+wireplumber-0.5.13/tests/wp/spa-json.c
+wireplumber-0.5.13/tests/wp/spa-pod.c
+wireplumber-0.5.13/tests/wp/spa-type.c
+wireplumber-0.5.13/tests/wp/state.c
+wireplumber-0.5.13/tests/wp/transition.c
+wireplumber-0.5.13/tests/wplua/
+wireplumber-0.5.13/tests/wplua/meson.build
+wireplumber-0.5.13/tests/wplua/scripts/
+wireplumber-0.5.13/tests/wplua/scripts/async-activation.lua
+wireplumber-0.5.13/tests/wplua/scripts/event-hooks.lua
+wireplumber-0.5.13/tests/wplua/scripts/json-utils.lua
+wireplumber-0.5.13/tests/wplua/scripts/json.lua
+wireplumber-0.5.13/tests/wplua/scripts/lib/
+wireplumber-0.5.13/tests/wplua/scripts/lib/testlib.lua
+wireplumber-0.5.13/tests/wplua/scripts/monitor-rules.lua
+wireplumber-0.5.13/tests/wplua/scripts/pod.lua
+wireplumber-0.5.13/tests/wplua/scripts/properties.lua
+wireplumber-0.5.13/tests/wplua/scripts/require.lua
+wireplumber-0.5.13/tests/wplua/scripts/settings.lua
+wireplumber-0.5.13/tests/wplua/settings
+wireplumber-0.5.13/tests/wplua/wplua.c
+wireplumber-0.5.13/wp-uninstalled.sh
+The Meson build system
+Version: 1.10.0
+Source dir: /blfs/builds/wireplumber-0.5.13
+Build dir: /blfs/builds/wireplumber-0.5.13/build
+Build type: native build
+Project name: wireplumber
+Project version: 0.5.13
+C compiler for the host machine: cc (gcc 15.2.0 "cc (GCC) 15.2.0")
+C linker for the host machine: cc ld.bfd 2.45
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Checking if "check short_name" compiles: YES 
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Run-time dependency glib-2.0 found: YES 2.86.3
+Run-time dependency gobject-2.0 found: YES 2.86.3
+Run-time dependency gmodule-2.0 found: YES 2.86.3
+Run-time dependency gio-2.0 found: YES 2.86.3
+Run-time dependency gio-unix-2.0 found: YES 2.86.3
+Run-time dependency libspa-0.2 found: YES 0.2
+Run-time dependency libpipewire-0.3 found: YES 1.5.84
+Library m found: YES
+Run-time dependency threads found: YES
+Run-time dependency intl found: YES
+Found CMake: /usr/bin/cmake (4.2.1)
+Run-time dependency lua-5.4 found: NO (tried pkgconfig and cmake)
+Run-time dependency lua5.4 found: NO (tried pkgconfig and cmake)
+Run-time dependency lua54 found: NO (tried pkgconfig and cmake)
+Run-time dependency lua-5.3 found: NO (tried pkgconfig and cmake)
+Run-time dependency lua5.3 found: NO (tried pkgconfig and cmake)
+Run-time dependency lua53 found: NO (tried pkgconfig and cmake)
+Run-time dependency lua found: YES 5.4.6
+Run-time dependency systemd found: YES 259
+Run-time dependency libsystemd found: YES 259
+Run-time dependency libelogind found: NO (tried pkgconfig and cmake)
+Compiler for C supports arguments -fvisibility=hidden: YES 
+Compiler for C supports arguments -Wsuggest-attribute=format: YES 
+Compiler for C supports arguments -Wsign-compare: YES 
+Compiler for C supports arguments -Wpointer-arith: YES 
+Compiler for C supports arguments -Wpointer-sign: YES 
+Compiler for C supports arguments -Wformat: YES 
+Compiler for C supports arguments -Wformat-security: YES 
+Compiler for C supports arguments -Wimplicit-fallthrough: YES 
+Compiler for C supports arguments -Wmissing-braces: YES 
+Compiler for C supports arguments -Wtype-limits: YES 
+Compiler for C supports arguments -Wvariadic-macros: YES 
+Compiler for C supports arguments -Wno-missing-field-initializers: YES 
+Compiler for C supports arguments -Wno-unused-parameter: YES 
+Compiler for C supports arguments -Wno-pedantic: YES 
+Compiler for C supports arguments -Wold-style-declaration: YES 
+Compiler for C supports arguments -Wunused-result: YES 
+Checking if "SPA_AUDIO_MAX_CHANNELS override" with dependency libspa-0.2 compiles: YES 
+Dependency glib-2.0 found: YES 2.86.3 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Dependency glib-2.0 found: YES 2.86.3 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Configuring wpversion.h using configuration
+Configuring wpbuildbasedirs.h using configuration
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Dependency glib-2.0 found: YES 2.86.3 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Dependency glib-2.0 found: YES 2.86.3 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Dependency gio-2.0 found: YES 2.86.3 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Dependency glib-2.0 found: YES 2.86.3 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Dependency glib-2.0 found: YES 2.86.3 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Dependency gio-2.0 found: YES 2.86.3 (cached)
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Dependency gio-2.0 found: YES 2.86.3 (cached)
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Has header "sys/vfs.h" : YES 
+Configuring wireplumber.service using configuration
+Configuring wireplumber@.service using configuration
+Program python3 found: YES (/usr/bin/python3)
+Program spa-json-dump found: YES (/usr/bin/spa-json-dump)
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Program msginit found: YES (/usr/bin/msginit)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program xgettext found: YES (/usr/bin/xgettext)
+Program python3 (sphinx, sphinx_rtd_theme, breathe, sphinx.ext.graphviz) found: NO modules: sphinx, sphinx_rtd_theme, sphinx.ext.graphviz
+Program python3 (lxml) found: YES (/usr/bin/python3) modules: lxml
+Program doxygen found: NO
+Program sphinx-build found: YES 9.0.4 9.0.4 (/usr/bin/sphinx-build)
+Program g-ir-scanner found: YES (/usr/bin/g-ir-scanner)
+Program valgrind found: NO
+Configuring wp-uninstalled.sh.in using configuration
+Build targets in project: 122
+
+wireplumber 0.5.13
+
+    Lua version                    : 5.4.6 (system)
+    systemd conf data              : YES
+    libsystemd                     : YES
+    libelogind                     : NO
+    SPA_AUDIO_MAX_CHANNELS         : 128
+
+  For documentation
+    Python 3 Sphinx related modules: NO
+    Doxygen                        : NO
+    sphinx-build                   : YES
+
+  For introspection
+    Python 3 lxml module           : YES
+    Doxygen                        : NO
+    g-ir-scanner                   : YES
+
+  User defined options
+    buildtype                      : release
+    prefix                         : /usr
+    system-lua                     : true
+
+Found ninja-1.13.2 at /usr/bin/ninja
+[1/227] Generating modules/module-lua-scripting/api/m-lua-scripting-resources_c with a custom command
+[2/227] Generating modules/module-lua-scripting/wplua/wplua-resources_c with a custom command
+[3/227] Generating modules/module-lua-scripting/wplua/wplua-resources_h with a custom command
+[4/227] Generating modules/module-lua-scripting/api/m-lua-scripting-resources_h with a custom command
+[5/227] Building translation po/be/LC_MESSAGES/wireplumber-be.mo
+[6/227] Building translation po/af/LC_MESSAGES/wireplumber-af.mo
+[7/227] Building translation po/as/LC_MESSAGES/wireplumber-as.mo
+[8/227] Building translation po/bg/LC_MESSAGES/wireplumber-bg.mo
+[9/227] Building translation po/cs/LC_MESSAGES/wireplumber-cs.mo
+[10/227] Building translation po/da/LC_MESSAGES/wireplumber-da.mo
+[11/227] Building translation po/bn_IN/LC_MESSAGES/wireplumber-bn_IN.mo
+[12/227] Building translation po/ca/LC_MESSAGES/wireplumber-ca.mo
+[13/227] Building translation po/de/LC_MESSAGES/wireplumber-de.mo
+[14/227] Building translation po/de_CH/LC_MESSAGES/wireplumber-de_CH.mo
+[15/227] Building translation po/el/LC_MESSAGES/wireplumber-el.mo
+[16/227] Building translation po/eo/LC_MESSAGES/wireplumber-eo.mo
+[17/227] Building translation po/fa/LC_MESSAGES/wireplumber-fa.mo
+[18/227] Building translation po/es/LC_MESSAGES/wireplumber-es.mo
+[19/227] Building translation po/fi/LC_MESSAGES/wireplumber-fi.mo
+[20/227] Building translation po/fr/LC_MESSAGES/wireplumber-fr.mo
+[21/227] Building translation po/gl/LC_MESSAGES/wireplumber-gl.mo
+[22/227] Generating GObject enum file modules/dbus-connection-enums.c (wrapped by meson because command contains newlines, to capture output)
+[23/227] Generating GObject enum file modules/module-reserve-device/reserve-device-enums.c (wrapped by meson because command contains newlines, to capture output)
+[24/227] Building translation po/hr/LC_MESSAGES/wireplumber-hr.mo
+[25/227] Building translation po/gu/LC_MESSAGES/wireplumber-gu.mo
+[26/227] Building translation po/hi/LC_MESSAGES/wireplumber-hi.mo
+[27/227] Building translation po/he/LC_MESSAGES/wireplumber-he.mo
+[28/227] Building translation po/hu/LC_MESSAGES/wireplumber-hu.mo
+[29/227] Building translation po/id/LC_MESSAGES/wireplumber-id.mo
+[30/227] Building translation po/it/LC_MESSAGES/wireplumber-it.mo
+[31/227] Building translation po/ja/LC_MESSAGES/wireplumber-ja.mo
+[32/227] Generating GObject enum file lib/wp/wpenums.h (wrapped by meson because command contains newlines, to capture output)
+[33/227] Building translation po/kk/LC_MESSAGES/wireplumber-kk.mo
+[34/227] Building translation po/ka/LC_MESSAGES/wireplumber-ka.mo
+[35/227] Building translation po/ko/LC_MESSAGES/wireplumber-ko.mo
+[36/227] Building translation po/lt/LC_MESSAGES/wireplumber-lt.mo
+[37/227] Generating GObject enum file modules/dbus-connection-enums.h (wrapped by meson because command contains newlines, to capture output)
+[38/227] Building translation po/kn/LC_MESSAGES/wireplumber-kn.mo
+[39/227] Generating GObject enum file lib/wp/wpenums.c (wrapped by meson because command contains newlines, to capture output)
+[40/227] Generating GObject enum file modules/module-reserve-device/reserve-device-enums.h (wrapped by meson because command contains newlines, to capture output)
+[41/227] Generating gdbus header modules/module-reserve-device/reserve-device-interface.h
+[42/227] Generating gdbus source modules/module-reserve-device/reserve-device-interface.c
+[43/227] Generating po/conf.pot with a custom command (wrapped by meson to capture output)
+[44/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/error.c.o
+[45/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/meson-generated_.._wpenums.c.o
+[46/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/factory.c.o
+[47/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/event-hook.c.o
+[48/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/event.c.o
+[49/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/component-loader.c.o
+[50/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/base-dirs.c.o
+[51/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/client.c.o
+[52/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/global-proxy.c.o
+[53/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/iterator.c.o
+[54/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/device.c.o
+[55/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/event-dispatcher.c.o
+[56/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/link.c.o
+[57/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/conf.c.o
+[58/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/core.c.o
+[59/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/module.c.o
+[60/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/object.c.o
+[61/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/json-utils.c.o
+[62/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/proc-utils.c.o
+[63/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/plugin.c.o
+[64/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/port.c.o
+[65/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/log.c.o
+[66/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/metadata.c.o
+[67/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/node.c.o
+[68/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/object-manager.c.o
+[69/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/object-interest.c.o
+[70/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/si-factory.c.o
+[71/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/session-item.c.o
+[72/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/settings.c.o
+[73/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/properties.c.o
+[74/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/si-interfaces.c.o
+[75/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/proxy-interfaces.c.o
+[76/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/proxy.c.o
+[77/227] Compiling C object modules/module-lua-scripting/wplua/libwplua-0.5.a.p/meson-generated_.._wplua-resources.c.o
+[78/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/transition.c.o
+[79/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/state.c.o
+[80/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/wp.c.o
+[81/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/spa-type.c.o
+[82/227] Compiling C object modules/module-lua-scripting/wplua/libwplua-0.5.a.p/closure.c.o
+[83/227] Compiling C object modules/module-lua-scripting/wplua/libwplua-0.5.a.p/object.c.o
+[84/227] Compiling C object modules/module-lua-scripting/wplua/libwplua-0.5.a.p/boxed.c.o
+[85/227] Compiling C object modules/module-lua-scripting/wplua/libwplua-0.5.a.p/userdata.c.o
+[86/227] Compiling C object modules/module-lua-scripting/wplua/libwplua-0.5.a.p/value.c.o
+[87/227] Compiling C object modules/module-lua-scripting/wplua/libwplua-0.5.a.p/wplua.c.o
+[88/227] Compiling C object modules/libwireplumber-module-dbus-connection.so.p/meson-generated_.._dbus-connection-enums.c.o
+[89/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/private_registry.c.o
+[90/227] Compiling C object modules/libwireplumber-module-default-nodes-api.so.p/module-default-nodes-api.c.o
+[91/227] Compiling C object modules/libwireplumber-module-dbus-connection.so.p/module-dbus-connection.c.o
+[92/227] Compiling C object modules/libwireplumber-module-reserve-device.so.p/meson-generated_.._module-reserve-device_reserve-device-enums.c.o
+[93/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/private_internal-comp-loader.c.o
+[94/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/private_pipewire-object-mixin.c.o
+[95/227] Compiling C object modules/libwireplumber-module-reserve-device.so.p/module-reserve-device_transitions.c.o
+[96/227] Linking static target modules/module-lua-scripting/wplua/libwplua-0.5.a
+[97/227] Compiling C object modules/libwireplumber-module-reserve-device.so.p/module-reserve-device_plugin.c.o
+[98/227] Compiling C object modules/libwireplumber-module-reserve-device.so.p/module-reserve-device_reserve-device.c.o
+[99/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/spa-json.c.o
+[100/227] Compiling C object modules/libwireplumber-module-portal-permissionstore.so.p/module-portal-permissionstore.c.o
+[101/227] Compiling C object modules/libwireplumber-module-notifications-api.so.p/module-notifications-api.c.o
+[102/227] Compiling C object modules/libwireplumber-module-settings.so.p/module-settings.c.o
+[103/227] Compiling C object modules/libwireplumber-module-si-node.so.p/module-si-node.c.o
+[104/227] Compiling C object modules/libwireplumber-module-lua-scripting.so.p/meson-generated_.._module-lua-scripting_api_m-lua-scripting-resources.c.o
+[105/227] Compiling C object modules/libwireplumber-module-lua-scripting.so.p/module-lua-scripting_module.c.o
+[106/227] Compiling C object modules/libwireplumber-module-reserve-device.so.p/meson-generated_.._module-reserve-device_reserve-device-interface.c.o
+[107/227] Compiling C object modules/libwireplumber-module-si-standard-link.so.p/module-si-standard-link.c.o
+[108/227] Compiling C object modules/libwireplumber-module-lua-scripting.so.p/module-lua-scripting_api_json.c.o
+[109/227] Compiling C object modules/libwireplumber-module-lua-scripting.so.p/module-lua-scripting_api_pod.c.o
+[110/227] Compiling C object modules/libwireplumber-module-lua-scripting.so.p/module-lua-scripting_script.c.o
+[111/227] Compiling C object modules/libwireplumber-module-log-settings.so.p/module-log-settings.c.o
+[112/227] Compiling C object modules/libwireplumber-module-file-monitor-api.so.p/module-file-monitor-api.c.o
+[113/227] Compiling C object modules/libwireplumber-module-si-audio-adapter.so.p/module-si-audio-adapter.c.o
+[114/227] Compiling C object modules/libwireplumber-module-logind.so.p/module-logind.c.o
+[115/227] Compiling C object src/tools/wpexec.p/wpexec.c.o
+[116/227] Compiling C object modules/libwireplumber-module-mixer-api.so.p/module-mixer-api.c.o
+[117/227] Compiling C object modules/libwireplumber-module-modem-manager.so.p/module-modem-manager.c.o
+[118/227] Compiling C object src/wireplumber.p/main.c.o
+[119/227] Compiling C object tests/wp/test-component-loader.p/component-loader.c.o
+[120/227] Compiling C object tests/wp/test-core.p/core.c.o
+[121/227] Compiling C object modules/libwireplumber-module-mpris.so.p/module-mpris.c.o
+[122/227] Compiling C object modules/libwireplumber-module-standard-event-source.so.p/module-standard-event-source.c.o
+[123/227] Compiling C object src/tools/wpctl.p/wpctl.c.o
+[124/227] Compiling C object tests/wp/test-properties.p/properties.c.o
+[125/227] Compiling C object modules/libwireplumber-module-lua-scripting.so.p/module-lua-scripting_api_api.c.o
+[126/227] Compiling C object tests/wp/test-metadata.p/metadata.c.o
+[127/227] Compiling C object tests/wp/test-state.p/state.c.o
+[128/227] Compiling C object tests/wp/test-events.p/events.c.o
+[129/227] Compiling C object tests/wp/test-object-manager.p/object-manager.c.o
+[130/227] Compiling C object tests/wp/test-spa-type.p/spa-type.c.o
+[131/227] Compiling C object tests/wp/test-proxy.p/proxy.c.o
+[132/227] Compiling C object tests/wp/test-object-interest.p/object-interest.c.o
+[133/227] Compiling C object tests/wp/test-transition.p/transition.c.o
+[134/227] Compiling C object tests/wp/test-session-item.p/session-item.c.o
+[135/227] Compiling C object tests/wp/test-spa-pod.p/spa-pod.c.o
+[136/227] Compiling C object tests/wp/test-factory.p/factory.c.o
+[137/227] Compiling C object tests/wp/test-json-utils.p/json-utils.c.o
+[138/227] Compiling C object tests/wplua/test-wplua.p/wplua.c.o
+[139/227] Compiling C object tests/wp/test-spa-json.p/spa-json.c.o
+[140/227] Compiling C object tests/wp/test-conf.p/conf.c.o
+[141/227] Building translation po/ml/LC_MESSAGES/wireplumber-ml.mo
+[142/227] Building translation po/mr/LC_MESSAGES/wireplumber-mr.mo
+[143/227] Building translation po/my/LC_MESSAGES/wireplumber-my.mo
+[144/227] Building translation po/nl/LC_MESSAGES/wireplumber-nl.mo
+[145/227] Building translation po/nn/LC_MESSAGES/wireplumber-nn.mo
+[146/227] Compiling C object tests/examples/node-extra-params.p/node-extra-params.c.o
+[147/227] Building translation po/oc/LC_MESSAGES/wireplumber-oc.mo
+[148/227] Building translation po/or/LC_MESSAGES/wireplumber-or.mo
+[149/227] Building translation po/pa/LC_MESSAGES/wireplumber-pa.mo
+[150/227] Building translation po/pl/LC_MESSAGES/wireplumber-pl.mo
+[151/227] Building translation po/pt/LC_MESSAGES/wireplumber-pt.mo
+[152/227] Building translation po/pt_BR/LC_MESSAGES/wireplumber-pt_BR.mo
+[153/227] Building translation po/ro/LC_MESSAGES/wireplumber-ro.mo
+[154/227] Building translation po/ru/LC_MESSAGES/wireplumber-ru.mo
+[155/227] Building translation po/si/LC_MESSAGES/wireplumber-si.mo
+[156/227] Building translation po/sk/LC_MESSAGES/wireplumber-sk.mo
+[157/227] Building translation po/sr/LC_MESSAGES/wireplumber-sr.mo
+[158/227] Building translation po/sl/LC_MESSAGES/wireplumber-sl.mo
+[159/227] Building translation po/sr@latin/LC_MESSAGES/wireplumber-sr@latin.mo
+[160/227] Building translation po/sv/LC_MESSAGES/wireplumber-sv.mo
+[161/227] Building translation po/ta/LC_MESSAGES/wireplumber-ta.mo
+[162/227] Building translation po/te/LC_MESSAGES/wireplumber-te.mo
+[163/227] Building translation po/tr/LC_MESSAGES/wireplumber-tr.mo
+[164/227] Building translation po/uk/LC_MESSAGES/wireplumber-uk.mo
+[165/227] Building translation po/zh_CN/LC_MESSAGES/wireplumber-zh_CN.mo
+[166/227] Generating wp-uninstalled with a custom command
+[167/227] Building translation po/zh_TW/LC_MESSAGES/wireplumber-zh_TW.mo
+[168/227] Compiling C object tests/modules/test-dbus-connection.p/dbus-connection.c.o
+[169/227] Compiling C object tests/modules/test-reserve-device.p/reserve-device.c.o
+[170/227] Compiling C object tests/modules/test-file-monitor.p/file-monitor.c.o
+[171/227] Compiling C object lib/wp/libwireplumber-0.5.so.0.513.0.p/spa-pod.c.o
+[172/227] Compiling C object tests/wp/test-settings.p/settings.c.o
+[173/227] Compiling C object tests/modules/test-si-node.p/si-node.c.o
+[174/227] Compiling C object tests/modules/test-si-audio-adapter.p/si-audio-adapter.c.o
+[175/227] Compiling C object tests/modules/test-si-standard-link.p/si-standard-link.c.o
+[176/227] Linking target lib/wp/libwireplumber-0.5.so.0.513.0
+[177/227] Generating symbol file lib/wp/libwireplumber-0.5.so.0.513.0.p/libwireplumber-0.5.so.0.513.0.symbols
+[178/227] Linking target modules/libwireplumber-module-settings.so
+[179/227] Linking target modules/libwireplumber-module-portal-permissionstore.so
+[180/227] Linking target modules/libwireplumber-module-notifications-api.so
+[181/227] Linking target modules/libwireplumber-module-dbus-connection.so
+[182/227] Linking target modules/libwireplumber-module-reserve-device.so
+[183/227] Linking target modules/libwireplumber-module-default-nodes-api.so
+[184/227] Linking target modules/libwireplumber-module-si-node.so
+[185/227] Linking target modules/libwireplumber-module-si-audio-adapter.so
+[186/227] Linking target modules/libwireplumber-module-log-settings.so
+[187/227] Linking target modules/libwireplumber-module-mixer-api.so
+[188/227] Linking target modules/libwireplumber-module-si-standard-link.so
+[189/227] Linking target modules/libwireplumber-module-file-monitor-api.so
+[190/227] Linking target modules/libwireplumber-module-mpris.so
+[191/227] Linking target modules/libwireplumber-module-lua-scripting.so
+[192/227] Linking target modules/libwireplumber-module-standard-event-source.so
+[193/227] Linking target src/tools/wpexec
+[194/227] Linking target modules/libwireplumber-module-modem-manager.so
+[195/227] Linking target tests/wp/test-component-loader
+[196/227] Linking target modules/libwireplumber-module-logind.so
+[197/227] Linking target src/tools/wpctl
+[198/227] Linking target tests/wp/test-core
+[199/227] Linking target src/wireplumber
+[200/227] Linking target tests/wp/test-metadata
+[201/227] Linking target tests/wp/test-events
+[202/227] Linking target tests/wp/test-object-interest
+[203/227] Linking target tests/wp/test-properties
+[204/227] Compiling C object tests/scripts/script-tester.p/.._script-tester.c.o
+[205/227] Linking target tests/wp/test-object-manager
+[206/227] Linking target tests/wp/test-spa-json
+[207/227] Linking target tests/wp/test-proxy
+[208/227] Linking target tests/wp/test-settings
+[209/227] Linking target tests/wp/test-state
+[210/227] Linking target tests/wp/test-session-item
+[211/227] Linking target tests/wp/test-spa-pod
+[212/227] Linking target tests/wp/test-spa-type
+[213/227] Compiling C object tests/wplua/script-tester.p/.._script-tester.c.o
+[214/227] Linking target tests/wp/test-factory
+[215/227] Linking target tests/wp/test-conf
+[216/227] Linking target tests/wp/test-transition
+[217/227] Linking target tests/modules/test-file-monitor
+[218/227] Linking target tests/modules/test-reserve-device
+[219/227] Linking target tests/wplua/test-wplua
+[220/227] Linking target tests/modules/test-si-audio-adapter
+[221/227] Linking target tests/wp/test-json-utils
+[222/227] Linking target tests/modules/test-si-standard-link
+[223/227] Linking target tests/scripts/script-tester
+[224/227] Linking target tests/modules/test-si-node
+[225/227] Linking target tests/modules/test-dbus-connection
+[226/227] Linking target tests/wplua/script-tester
+[227/227] Linking target tests/examples/node-extra-params
+[0/1] Installing files
+Installing subdir /blfs/builds/wireplumber-0.5.13/src/config/wireplumber.conf.d to /pkgs/wireplumber/usr/share/wireplumber/wireplumber.conf.d
+Installing /blfs/builds/wireplumber-0.5.13/src/config/wireplumber.conf.d/alsa-vm.conf to /pkgs/wireplumber/usr/share/wireplumber/wireplumber.conf.d
+Installing subdir /blfs/builds/wireplumber-0.5.13/src/config/wireplumber.conf.d.examples to /pkgs/wireplumber/usr/share/doc/wireplumber/examples/wireplumber.conf.d
+Installing /blfs/builds/wireplumber-0.5.13/src/config/wireplumber.conf.d.examples/media-role-nodes.conf to /pkgs/wireplumber/usr/share/doc/wireplumber/examples/wireplumber.conf.d
+Installing /blfs/builds/wireplumber-0.5.13/src/config/wireplumber.conf.d.examples/bluetooth.conf to /pkgs/wireplumber/usr/share/doc/wireplumber/examples/wireplumber.conf.d
+Installing /blfs/builds/wireplumber-0.5.13/src/config/wireplumber.conf.d.examples/alsa.conf to /pkgs/wireplumber/usr/share/doc/wireplumber/examples/wireplumber.conf.d
+Installing /blfs/builds/wireplumber-0.5.13/src/config/wireplumber.conf.d.examples/smart-equalizer.conf to /pkgs/wireplumber/usr/share/doc/wireplumber/examples/wireplumber.conf.d
+Installing /blfs/builds/wireplumber-0.5.13/src/config/wireplumber.conf.d.examples/linking.conf to /pkgs/wireplumber/usr/share/doc/wireplumber/examples/wireplumber.conf.d
+Installing /blfs/builds/wireplumber-0.5.13/src/config/wireplumber.conf.d.examples/stream.conf to /pkgs/wireplumber/usr/share/doc/wireplumber/examples/wireplumber.conf.d
+Installing /blfs/builds/wireplumber-0.5.13/src/config/wireplumber.conf.d.examples/libcamera.conf to /pkgs/wireplumber/usr/share/doc/wireplumber/examples/wireplumber.conf.d
+Installing /blfs/builds/wireplumber-0.5.13/src/config/wireplumber.conf.d.examples/profile.conf to /pkgs/wireplumber/usr/share/doc/wireplumber/examples/wireplumber.conf.d
+Installing /blfs/builds/wireplumber-0.5.13/src/config/wireplumber.conf.d.examples/filter-graph.conf to /pkgs/wireplumber/usr/share/doc/wireplumber/examples/wireplumber.conf.d
+Installing /blfs/builds/wireplumber-0.5.13/src/config/wireplumber.conf.d.examples/device.conf to /pkgs/wireplumber/usr/share/doc/wireplumber/examples/wireplumber.conf.d
+Installing /blfs/builds/wireplumber-0.5.13/src/config/wireplumber.conf.d.examples/v4l2.conf to /pkgs/wireplumber/usr/share/doc/wireplumber/examples/wireplumber.conf.d
+Installing /blfs/builds/wireplumber-0.5.13/src/config/wireplumber.conf.d.examples/log.conf to /pkgs/wireplumber/usr/share/doc/wireplumber/examples/wireplumber.conf.d
+Installing /blfs/builds/wireplumber-0.5.13/src/config/wireplumber.conf.d.examples/access.conf to /pkgs/wireplumber/usr/share/doc/wireplumber/examples/wireplumber.conf.d
+Installing subdir /blfs/builds/wireplumber-0.5.13/src/scripts to /pkgs/wireplumber/usr/share/wireplumber/scripts
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/metadata.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/sm-objects.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/session-services.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/fallback-sink.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/monitors/alsa.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/monitors
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/monitors/bluez-midi.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/monitors
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/monitors/bluez.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/monitors
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/monitors/alsa-midi.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/monitors
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/monitors/v4l2/create-node.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/monitors/v4l2
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/monitors/v4l2/create-device.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/monitors/v4l2
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/monitors/v4l2/enumerate-device.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/monitors/v4l2
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/monitors/v4l2/name-device.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/monitors/v4l2
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/monitors/v4l2/name-node.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/monitors/v4l2
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/monitors/libcamera/create-node.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/monitors/libcamera
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/monitors/libcamera/create-device.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/monitors/libcamera
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/monitors/libcamera/enumerate-device.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/monitors/libcamera
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/monitors/libcamera/name-device.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/monitors/libcamera
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/monitors/libcamera/name-node.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/monitors/libcamera
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/node/filter-forward-format.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/node
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/node/filter-graph.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/node
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/node/create-item.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/node
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/node/suspend-node.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/node
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/node/audio-group.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/node
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/node/software-dsp.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/node
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/node/state-stream.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/node
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/node/find-media-role-default-volume.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/node
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/client/access-default.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/client
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/client/access-portal.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/client
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/client/access-snap.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/client
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/device/select-routes.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/device
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/device/state-profile.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/device
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/device/apply-profile.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/device
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/device/apply-routes.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/device
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/device/autoswitch-bluetooth-profile.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/device
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/device/find-best-profile.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/device
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/device/automute-alsa-routes.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/device
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/device/select-profile.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/device
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/device/find-preferred-profile.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/device
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/device/find-best-routes.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/device
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/device/find-voice-call-profile.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/device
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/device/state-routes.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/device
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/default-nodes/state-default-nodes.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/default-nodes
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/default-nodes/find-best-default-node.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/default-nodes
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/default-nodes/find-selected-default-node.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/default-nodes
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/default-nodes/rescan.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/default-nodes
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/default-nodes/apply-default-node.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/default-nodes
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/linking/find-media-role-target.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/linking
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/linking/find-default-target.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/linking
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/linking/find-best-target.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/linking
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/linking/rescan-media-role-links.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/linking
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/linking/link-target.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/linking
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/linking/find-defined-target.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/linking
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/linking/mpris-pause.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/linking
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/linking/find-filter-target.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/linking
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/linking/get-filter-from-target.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/linking
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/linking/find-user-target.lua.example to /pkgs/wireplumber/usr/share/wireplumber/scripts/linking
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/linking/rescan.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/linking
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/linking/prepare-link.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/linking
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/linking/find-media-role-sink-target.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/linking
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/linking/find-audio-group-target.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/linking
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/lib/filter-utils.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/lib
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/lib/monitor-utils.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/lib
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/lib/node-utils.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/lib
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/lib/linking-utils.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/lib
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/lib/device-info-cache.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/lib
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/lib/audio-group-utils.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/lib
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/lib/common-utils.lua to /pkgs/wireplumber/usr/share/wireplumber/scripts/lib
+Installing lib/wp/wpenums.h to /pkgs/wireplumber/usr/include/wireplumber-0.5/wp
+Installing lib/wp/libwireplumber-0.5.so.0.513.0 to /pkgs/wireplumber/usr/lib
+Installing modules/libwireplumber-module-settings.so to /pkgs/wireplumber/usr/lib/wireplumber-0.5
+Installing modules/libwireplumber-module-dbus-connection.so to /pkgs/wireplumber/usr/lib/wireplumber-0.5
+Installing modules/libwireplumber-module-default-nodes-api.so to /pkgs/wireplumber/usr/lib/wireplumber-0.5
+Installing modules/libwireplumber-module-reserve-device.so to /pkgs/wireplumber/usr/lib/wireplumber-0.5
+Installing modules/libwireplumber-module-portal-permissionstore.so to /pkgs/wireplumber/usr/lib/wireplumber-0.5
+Installing modules/libwireplumber-module-notifications-api.so to /pkgs/wireplumber/usr/lib/wireplumber-0.5
+Installing modules/libwireplumber-module-si-audio-adapter.so to /pkgs/wireplumber/usr/lib/wireplumber-0.5
+Installing modules/libwireplumber-module-si-node.so to /pkgs/wireplumber/usr/lib/wireplumber-0.5
+Installing modules/libwireplumber-module-si-standard-link.so to /pkgs/wireplumber/usr/lib/wireplumber-0.5
+Installing modules/libwireplumber-module-lua-scripting.so to /pkgs/wireplumber/usr/lib/wireplumber-0.5
+Installing modules/libwireplumber-module-mixer-api.so to /pkgs/wireplumber/usr/lib/wireplumber-0.5
+Installing modules/libwireplumber-module-file-monitor-api.so to /pkgs/wireplumber/usr/lib/wireplumber-0.5
+Installing modules/libwireplumber-module-log-settings.so to /pkgs/wireplumber/usr/lib/wireplumber-0.5
+Installing modules/libwireplumber-module-logind.so to /pkgs/wireplumber/usr/lib/wireplumber-0.5
+Installing modules/libwireplumber-module-standard-event-source.so to /pkgs/wireplumber/usr/lib/wireplumber-0.5
+Installing modules/libwireplumber-module-mpris.so to /pkgs/wireplumber/usr/lib/wireplumber-0.5
+Installing modules/libwireplumber-module-modem-manager.so to /pkgs/wireplumber/usr/lib/wireplumber-0.5
+Installing src/tools/wpctl to /pkgs/wireplumber/usr/bin
+Installing src/tools/wpexec to /pkgs/wireplumber/usr/bin
+Installing src/wireplumber to /pkgs/wireplumber/usr/bin
+Installing po/af/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/af/LC_MESSAGES
+Installing po/as/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/as/LC_MESSAGES
+Installing po/be/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/be/LC_MESSAGES
+Installing po/bg/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/bg/LC_MESSAGES
+Installing po/bn_IN/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/bn_IN/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/ca/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/cs/LC_MESSAGES
+Installing po/da/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/de/LC_MESSAGES
+Installing po/de_CH/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/de_CH/LC_MESSAGES
+Installing po/el/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/el/LC_MESSAGES
+Installing po/eo/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/eo/LC_MESSAGES
+Installing po/es/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/es/LC_MESSAGES
+Installing po/fa/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/fa/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/fr/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/gl/LC_MESSAGES
+Installing po/gu/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/gu/LC_MESSAGES
+Installing po/he/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/he/LC_MESSAGES
+Installing po/hi/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/hi/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/hu/LC_MESSAGES
+Installing po/id/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/id/LC_MESSAGES
+Installing po/it/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/it/LC_MESSAGES
+Installing po/ja/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/ja/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/ka/LC_MESSAGES
+Installing po/kk/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/kk/LC_MESSAGES
+Installing po/kn/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/kn/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/ko/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/lt/LC_MESSAGES
+Installing po/ml/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/ml/LC_MESSAGES
+Installing po/mr/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/mr/LC_MESSAGES
+Installing po/my/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/my/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/nl/LC_MESSAGES
+Installing po/nn/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/nn/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/oc/LC_MESSAGES
+Installing po/or/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/or/LC_MESSAGES
+Installing po/pa/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/pa/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/pl/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/pt/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/ru/LC_MESSAGES
+Installing po/si/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/si/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/sl/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/sr/LC_MESSAGES
+Installing po/sr@latin/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/sr@latin/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/sv/LC_MESSAGES
+Installing po/ta/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/ta/LC_MESSAGES
+Installing po/te/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/te/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/tr/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/uk/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/wireplumber.mo to /pkgs/wireplumber/usr/share/locale/zh_TW/LC_MESSAGES
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/base-dirs.h to /pkgs/wireplumber/usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/client.h to /pkgs/wireplumber/usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/component-loader.h to /pkgs/wireplumber/usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/conf.h to /pkgs/wireplumber/usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/core.h to /pkgs/wireplumber/usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/defs.h to /pkgs/wireplumber/usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/device.h to /pkgs/wireplumber/usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/error.h to /pkgs/wireplumber/usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/event.h to /pkgs/wireplumber/usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/event-dispatcher.h to /pkgs/wireplumber/usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/event-hook.h to /pkgs/wireplumber/usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/global-proxy.h to /pkgs/wireplumber/usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/iterator.h to /pkgs/wireplumber/usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/json-utils.h to /pkgs/wireplumber/usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/link.h to /pkgs/wireplumber/usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/log.h to /pkgs/wireplumber/usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/metadata.h to /pkgs/wireplumber/usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/settings.h to /pkgs/wireplumber/usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/module.h to /pkgs/wireplumber/usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/node.h to /pkgs/wireplumber/usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/object.h to /pkgs/wireplumber/usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/object-interest.h to /pkgs/wireplumber/usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/object-manager.h to /pkgs/wireplumber/usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/plugin.h to /pkgs/wireplumber/usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/port.h to /pkgs/wireplumber/usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/proc-utils.h to /pkgs/wireplumber/usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/properties.h to /pkgs/wireplumber/usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/proxy.h to /pkgs/wireplumber/usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/proxy-interfaces.h to /pkgs/wireplumber/usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/session-item.h to /pkgs/wireplumber/usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/si-factory.h to /pkgs/wireplumber/usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/si-interfaces.h to /pkgs/wireplumber/usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/spa-json.h to /pkgs/wireplumber/usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/spa-pod.h to /pkgs/wireplumber/usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/spa-type.h to /pkgs/wireplumber/usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/state.h to /pkgs/wireplumber/usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/transition.h to /pkgs/wireplumber/usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/wp.h to /pkgs/wireplumber/usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/factory.h to /pkgs/wireplumber/usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/build/lib/wp/wpversion.h to /pkgs/wireplumber/usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/build/meson-private/wireplumber-0.5.pc to /pkgs/wireplumber/usr/lib/pkgconfig
+Installing /blfs/builds/wireplumber-0.5.13/src/tools/shell-completion/wpctl.bash to /pkgs/wireplumber/usr/share/bash-completion/completions
+Installing /blfs/builds/wireplumber-0.5.13/src/tools/shell-completion/wpctl.zsh to /pkgs/wireplumber/usr/share/zsh/site-functions
+Installing /blfs/builds/wireplumber-0.5.13/src/config/wireplumber.conf to /pkgs/wireplumber/usr/share/wireplumber
+Installing /blfs/builds/wireplumber-0.5.13/build/src/systemd/user/wireplumber.service to /pkgs/wireplumber/usr/lib/systemd/user
+Installing /blfs/builds/wireplumber-0.5.13/build/src/systemd/user/wireplumber@.service to /pkgs/wireplumber/usr/lib/systemd/user
+Installing symlink pointing to libwireplumber-0.5.so.0.513.0 to /pkgs/wireplumber/usr/lib/libwireplumber-0.5.so.0
+Installing symlink pointing to libwireplumber-0.5.so.0 to /pkgs/wireplumber/usr/lib/libwireplumber-0.5.so
+[0/1] Installing files
+Installing subdir /blfs/builds/wireplumber-0.5.13/src/config/wireplumber.conf.d to /usr/share/wireplumber/wireplumber.conf.d
+Installing /blfs/builds/wireplumber-0.5.13/src/config/wireplumber.conf.d/alsa-vm.conf to /usr/share/wireplumber/wireplumber.conf.d
+Installing subdir /blfs/builds/wireplumber-0.5.13/src/config/wireplumber.conf.d.examples to /usr/share/doc/wireplumber/examples/wireplumber.conf.d
+Installing /blfs/builds/wireplumber-0.5.13/src/config/wireplumber.conf.d.examples/media-role-nodes.conf to /usr/share/doc/wireplumber/examples/wireplumber.conf.d
+Installing /blfs/builds/wireplumber-0.5.13/src/config/wireplumber.conf.d.examples/bluetooth.conf to /usr/share/doc/wireplumber/examples/wireplumber.conf.d
+Installing /blfs/builds/wireplumber-0.5.13/src/config/wireplumber.conf.d.examples/alsa.conf to /usr/share/doc/wireplumber/examples/wireplumber.conf.d
+Installing /blfs/builds/wireplumber-0.5.13/src/config/wireplumber.conf.d.examples/smart-equalizer.conf to /usr/share/doc/wireplumber/examples/wireplumber.conf.d
+Installing /blfs/builds/wireplumber-0.5.13/src/config/wireplumber.conf.d.examples/linking.conf to /usr/share/doc/wireplumber/examples/wireplumber.conf.d
+Installing /blfs/builds/wireplumber-0.5.13/src/config/wireplumber.conf.d.examples/stream.conf to /usr/share/doc/wireplumber/examples/wireplumber.conf.d
+Installing /blfs/builds/wireplumber-0.5.13/src/config/wireplumber.conf.d.examples/libcamera.conf to /usr/share/doc/wireplumber/examples/wireplumber.conf.d
+Installing /blfs/builds/wireplumber-0.5.13/src/config/wireplumber.conf.d.examples/profile.conf to /usr/share/doc/wireplumber/examples/wireplumber.conf.d
+Installing /blfs/builds/wireplumber-0.5.13/src/config/wireplumber.conf.d.examples/filter-graph.conf to /usr/share/doc/wireplumber/examples/wireplumber.conf.d
+Installing /blfs/builds/wireplumber-0.5.13/src/config/wireplumber.conf.d.examples/device.conf to /usr/share/doc/wireplumber/examples/wireplumber.conf.d
+Installing /blfs/builds/wireplumber-0.5.13/src/config/wireplumber.conf.d.examples/v4l2.conf to /usr/share/doc/wireplumber/examples/wireplumber.conf.d
+Installing /blfs/builds/wireplumber-0.5.13/src/config/wireplumber.conf.d.examples/log.conf to /usr/share/doc/wireplumber/examples/wireplumber.conf.d
+Installing /blfs/builds/wireplumber-0.5.13/src/config/wireplumber.conf.d.examples/access.conf to /usr/share/doc/wireplumber/examples/wireplumber.conf.d
+Installing subdir /blfs/builds/wireplumber-0.5.13/src/scripts to /usr/share/wireplumber/scripts
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/metadata.lua to /usr/share/wireplumber/scripts
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/sm-objects.lua to /usr/share/wireplumber/scripts
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/session-services.lua to /usr/share/wireplumber/scripts
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/fallback-sink.lua to /usr/share/wireplumber/scripts
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/monitors/alsa.lua to /usr/share/wireplumber/scripts/monitors
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/monitors/bluez-midi.lua to /usr/share/wireplumber/scripts/monitors
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/monitors/bluez.lua to /usr/share/wireplumber/scripts/monitors
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/monitors/alsa-midi.lua to /usr/share/wireplumber/scripts/monitors
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/monitors/v4l2/create-node.lua to /usr/share/wireplumber/scripts/monitors/v4l2
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/monitors/v4l2/create-device.lua to /usr/share/wireplumber/scripts/monitors/v4l2
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/monitors/v4l2/enumerate-device.lua to /usr/share/wireplumber/scripts/monitors/v4l2
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/monitors/v4l2/name-device.lua to /usr/share/wireplumber/scripts/monitors/v4l2
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/monitors/v4l2/name-node.lua to /usr/share/wireplumber/scripts/monitors/v4l2
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/monitors/libcamera/create-node.lua to /usr/share/wireplumber/scripts/monitors/libcamera
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/monitors/libcamera/create-device.lua to /usr/share/wireplumber/scripts/monitors/libcamera
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/monitors/libcamera/enumerate-device.lua to /usr/share/wireplumber/scripts/monitors/libcamera
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/monitors/libcamera/name-device.lua to /usr/share/wireplumber/scripts/monitors/libcamera
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/monitors/libcamera/name-node.lua to /usr/share/wireplumber/scripts/monitors/libcamera
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/node/filter-forward-format.lua to /usr/share/wireplumber/scripts/node
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/node/filter-graph.lua to /usr/share/wireplumber/scripts/node
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/node/create-item.lua to /usr/share/wireplumber/scripts/node
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/node/suspend-node.lua to /usr/share/wireplumber/scripts/node
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/node/audio-group.lua to /usr/share/wireplumber/scripts/node
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/node/software-dsp.lua to /usr/share/wireplumber/scripts/node
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/node/state-stream.lua to /usr/share/wireplumber/scripts/node
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/node/find-media-role-default-volume.lua to /usr/share/wireplumber/scripts/node
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/client/access-default.lua to /usr/share/wireplumber/scripts/client
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/client/access-portal.lua to /usr/share/wireplumber/scripts/client
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/client/access-snap.lua to /usr/share/wireplumber/scripts/client
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/device/select-routes.lua to /usr/share/wireplumber/scripts/device
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/device/state-profile.lua to /usr/share/wireplumber/scripts/device
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/device/apply-profile.lua to /usr/share/wireplumber/scripts/device
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/device/apply-routes.lua to /usr/share/wireplumber/scripts/device
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/device/autoswitch-bluetooth-profile.lua to /usr/share/wireplumber/scripts/device
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/device/find-best-profile.lua to /usr/share/wireplumber/scripts/device
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/device/automute-alsa-routes.lua to /usr/share/wireplumber/scripts/device
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/device/select-profile.lua to /usr/share/wireplumber/scripts/device
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/device/find-preferred-profile.lua to /usr/share/wireplumber/scripts/device
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/device/find-best-routes.lua to /usr/share/wireplumber/scripts/device
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/device/find-voice-call-profile.lua to /usr/share/wireplumber/scripts/device
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/device/state-routes.lua to /usr/share/wireplumber/scripts/device
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/default-nodes/state-default-nodes.lua to /usr/share/wireplumber/scripts/default-nodes
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/default-nodes/find-best-default-node.lua to /usr/share/wireplumber/scripts/default-nodes
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/default-nodes/find-selected-default-node.lua to /usr/share/wireplumber/scripts/default-nodes
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/default-nodes/rescan.lua to /usr/share/wireplumber/scripts/default-nodes
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/default-nodes/apply-default-node.lua to /usr/share/wireplumber/scripts/default-nodes
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/linking/find-media-role-target.lua to /usr/share/wireplumber/scripts/linking
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/linking/find-default-target.lua to /usr/share/wireplumber/scripts/linking
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/linking/find-best-target.lua to /usr/share/wireplumber/scripts/linking
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/linking/rescan-media-role-links.lua to /usr/share/wireplumber/scripts/linking
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/linking/link-target.lua to /usr/share/wireplumber/scripts/linking
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/linking/find-defined-target.lua to /usr/share/wireplumber/scripts/linking
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/linking/mpris-pause.lua to /usr/share/wireplumber/scripts/linking
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/linking/find-filter-target.lua to /usr/share/wireplumber/scripts/linking
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/linking/get-filter-from-target.lua to /usr/share/wireplumber/scripts/linking
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/linking/find-user-target.lua.example to /usr/share/wireplumber/scripts/linking
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/linking/rescan.lua to /usr/share/wireplumber/scripts/linking
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/linking/prepare-link.lua to /usr/share/wireplumber/scripts/linking
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/linking/find-media-role-sink-target.lua to /usr/share/wireplumber/scripts/linking
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/linking/find-audio-group-target.lua to /usr/share/wireplumber/scripts/linking
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/lib/filter-utils.lua to /usr/share/wireplumber/scripts/lib
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/lib/monitor-utils.lua to /usr/share/wireplumber/scripts/lib
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/lib/node-utils.lua to /usr/share/wireplumber/scripts/lib
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/lib/linking-utils.lua to /usr/share/wireplumber/scripts/lib
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/lib/device-info-cache.lua to /usr/share/wireplumber/scripts/lib
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/lib/audio-group-utils.lua to /usr/share/wireplumber/scripts/lib
+Installing /blfs/builds/wireplumber-0.5.13/src/scripts/lib/common-utils.lua to /usr/share/wireplumber/scripts/lib
+Installing lib/wp/wpenums.h to /usr/include/wireplumber-0.5/wp
+Installing lib/wp/libwireplumber-0.5.so.0.513.0 to /usr/lib
+Installing modules/libwireplumber-module-settings.so to /usr/lib/wireplumber-0.5
+Installing modules/libwireplumber-module-dbus-connection.so to /usr/lib/wireplumber-0.5
+Installing modules/libwireplumber-module-default-nodes-api.so to /usr/lib/wireplumber-0.5
+Installing modules/libwireplumber-module-reserve-device.so to /usr/lib/wireplumber-0.5
+Installing modules/libwireplumber-module-portal-permissionstore.so to /usr/lib/wireplumber-0.5
+Installing modules/libwireplumber-module-notifications-api.so to /usr/lib/wireplumber-0.5
+Installing modules/libwireplumber-module-si-audio-adapter.so to /usr/lib/wireplumber-0.5
+Installing modules/libwireplumber-module-si-node.so to /usr/lib/wireplumber-0.5
+Installing modules/libwireplumber-module-si-standard-link.so to /usr/lib/wireplumber-0.5
+Installing modules/libwireplumber-module-lua-scripting.so to /usr/lib/wireplumber-0.5
+Installing modules/libwireplumber-module-mixer-api.so to /usr/lib/wireplumber-0.5
+Installing modules/libwireplumber-module-file-monitor-api.so to /usr/lib/wireplumber-0.5
+Installing modules/libwireplumber-module-log-settings.so to /usr/lib/wireplumber-0.5
+Installing modules/libwireplumber-module-logind.so to /usr/lib/wireplumber-0.5
+Installing modules/libwireplumber-module-standard-event-source.so to /usr/lib/wireplumber-0.5
+Installing modules/libwireplumber-module-mpris.so to /usr/lib/wireplumber-0.5
+Installing modules/libwireplumber-module-modem-manager.so to /usr/lib/wireplumber-0.5
+Installing src/tools/wpctl to /usr/bin
+Installing src/tools/wpexec to /usr/bin
+Installing src/wireplumber to /usr/bin
+Installing po/af/LC_MESSAGES/wireplumber.mo to /usr/share/locale/af/LC_MESSAGES
+Installing po/as/LC_MESSAGES/wireplumber.mo to /usr/share/locale/as/LC_MESSAGES
+Installing po/be/LC_MESSAGES/wireplumber.mo to /usr/share/locale/be/LC_MESSAGES
+Installing po/bg/LC_MESSAGES/wireplumber.mo to /usr/share/locale/bg/LC_MESSAGES
+Installing po/bn_IN/LC_MESSAGES/wireplumber.mo to /usr/share/locale/bn_IN/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/wireplumber.mo to /usr/share/locale/ca/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/wireplumber.mo to /usr/share/locale/cs/LC_MESSAGES
+Installing po/da/LC_MESSAGES/wireplumber.mo to /usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/wireplumber.mo to /usr/share/locale/de/LC_MESSAGES
+Installing po/de_CH/LC_MESSAGES/wireplumber.mo to /usr/share/locale/de_CH/LC_MESSAGES
+Installing po/el/LC_MESSAGES/wireplumber.mo to /usr/share/locale/el/LC_MESSAGES
+Installing po/eo/LC_MESSAGES/wireplumber.mo to /usr/share/locale/eo/LC_MESSAGES
+Installing po/es/LC_MESSAGES/wireplumber.mo to /usr/share/locale/es/LC_MESSAGES
+Installing po/fa/LC_MESSAGES/wireplumber.mo to /usr/share/locale/fa/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/wireplumber.mo to /usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/wireplumber.mo to /usr/share/locale/fr/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/wireplumber.mo to /usr/share/locale/gl/LC_MESSAGES
+Installing po/gu/LC_MESSAGES/wireplumber.mo to /usr/share/locale/gu/LC_MESSAGES
+Installing po/he/LC_MESSAGES/wireplumber.mo to /usr/share/locale/he/LC_MESSAGES
+Installing po/hi/LC_MESSAGES/wireplumber.mo to /usr/share/locale/hi/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/wireplumber.mo to /usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/wireplumber.mo to /usr/share/locale/hu/LC_MESSAGES
+Installing po/id/LC_MESSAGES/wireplumber.mo to /usr/share/locale/id/LC_MESSAGES
+Installing po/it/LC_MESSAGES/wireplumber.mo to /usr/share/locale/it/LC_MESSAGES
+Installing po/ja/LC_MESSAGES/wireplumber.mo to /usr/share/locale/ja/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/wireplumber.mo to /usr/share/locale/ka/LC_MESSAGES
+Installing po/kk/LC_MESSAGES/wireplumber.mo to /usr/share/locale/kk/LC_MESSAGES
+Installing po/kn/LC_MESSAGES/wireplumber.mo to /usr/share/locale/kn/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/wireplumber.mo to /usr/share/locale/ko/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/wireplumber.mo to /usr/share/locale/lt/LC_MESSAGES
+Installing po/ml/LC_MESSAGES/wireplumber.mo to /usr/share/locale/ml/LC_MESSAGES
+Installing po/mr/LC_MESSAGES/wireplumber.mo to /usr/share/locale/mr/LC_MESSAGES
+Installing po/my/LC_MESSAGES/wireplumber.mo to /usr/share/locale/my/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/wireplumber.mo to /usr/share/locale/nl/LC_MESSAGES
+Installing po/nn/LC_MESSAGES/wireplumber.mo to /usr/share/locale/nn/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/wireplumber.mo to /usr/share/locale/oc/LC_MESSAGES
+Installing po/or/LC_MESSAGES/wireplumber.mo to /usr/share/locale/or/LC_MESSAGES
+Installing po/pa/LC_MESSAGES/wireplumber.mo to /usr/share/locale/pa/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/wireplumber.mo to /usr/share/locale/pl/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/wireplumber.mo to /usr/share/locale/pt/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/wireplumber.mo to /usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/wireplumber.mo to /usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/wireplumber.mo to /usr/share/locale/ru/LC_MESSAGES
+Installing po/si/LC_MESSAGES/wireplumber.mo to /usr/share/locale/si/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/wireplumber.mo to /usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/wireplumber.mo to /usr/share/locale/sl/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/wireplumber.mo to /usr/share/locale/sr/LC_MESSAGES
+Installing po/sr@latin/LC_MESSAGES/wireplumber.mo to /usr/share/locale/sr@latin/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/wireplumber.mo to /usr/share/locale/sv/LC_MESSAGES
+Installing po/ta/LC_MESSAGES/wireplumber.mo to /usr/share/locale/ta/LC_MESSAGES
+Installing po/te/LC_MESSAGES/wireplumber.mo to /usr/share/locale/te/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/wireplumber.mo to /usr/share/locale/tr/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/wireplumber.mo to /usr/share/locale/uk/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/wireplumber.mo to /usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/wireplumber.mo to /usr/share/locale/zh_TW/LC_MESSAGES
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/base-dirs.h to /usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/client.h to /usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/component-loader.h to /usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/conf.h to /usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/core.h to /usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/defs.h to /usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/device.h to /usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/error.h to /usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/event.h to /usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/event-dispatcher.h to /usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/event-hook.h to /usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/global-proxy.h to /usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/iterator.h to /usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/json-utils.h to /usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/link.h to /usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/log.h to /usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/metadata.h to /usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/settings.h to /usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/module.h to /usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/node.h to /usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/object.h to /usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/object-interest.h to /usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/object-manager.h to /usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/plugin.h to /usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/port.h to /usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/proc-utils.h to /usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/properties.h to /usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/proxy.h to /usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/proxy-interfaces.h to /usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/session-item.h to /usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/si-factory.h to /usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/si-interfaces.h to /usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/spa-json.h to /usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/spa-pod.h to /usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/spa-type.h to /usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/state.h to /usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/transition.h to /usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/wp.h to /usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/lib/wp/factory.h to /usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/build/lib/wp/wpversion.h to /usr/include/wireplumber-0.5/wp
+Installing /blfs/builds/wireplumber-0.5.13/build/meson-private/wireplumber-0.5.pc to /usr/lib/pkgconfig
+Installing /blfs/builds/wireplumber-0.5.13/src/tools/shell-completion/wpctl.bash to /usr/share/bash-completion/completions
+Installing /blfs/builds/wireplumber-0.5.13/src/tools/shell-completion/wpctl.zsh to /usr/share/zsh/site-functions
+Installing /blfs/builds/wireplumber-0.5.13/src/config/wireplumber.conf to /usr/share/wireplumber
+Installing /blfs/builds/wireplumber-0.5.13/build/src/systemd/user/wireplumber.service to /usr/lib/systemd/user
+Installing /blfs/builds/wireplumber-0.5.13/build/src/systemd/user/wireplumber@.service to /usr/lib/systemd/user
+Installing symlink pointing to libwireplumber-0.5.so.0.513.0 to /usr/lib/libwireplumber-0.5.so.0
+Installing symlink pointing to libwireplumber-0.5.so.0 to /usr/lib/libwireplumber-0.5.so
+wireplumber/
+wireplumber/usr/
+wireplumber/usr/include/
+wireplumber/usr/include/wireplumber-0.5/
+wireplumber/usr/include/wireplumber-0.5/wp/
+wireplumber/usr/include/wireplumber-0.5/wp/port.h
+wireplumber/usr/include/wireplumber-0.5/wp/client.h
+wireplumber/usr/include/wireplumber-0.5/wp/event-dispatcher.h
+wireplumber/usr/include/wireplumber-0.5/wp/spa-json.h
+wireplumber/usr/include/wireplumber-0.5/wp/global-proxy.h
+wireplumber/usr/include/wireplumber-0.5/wp/factory.h
+wireplumber/usr/include/wireplumber-0.5/wp/proxy-interfaces.h
+wireplumber/usr/include/wireplumber-0.5/wp/event.h
+wireplumber/usr/include/wireplumber-0.5/wp/defs.h
+wireplumber/usr/include/wireplumber-0.5/wp/event-hook.h
+wireplumber/usr/include/wireplumber-0.5/wp/spa-pod.h
+wireplumber/usr/include/wireplumber-0.5/wp/object-interest.h
+wireplumber/usr/include/wireplumber-0.5/wp/device.h
+wireplumber/usr/include/wireplumber-0.5/wp/node.h
+wireplumber/usr/include/wireplumber-0.5/wp/transition.h
+wireplumber/usr/include/wireplumber-0.5/wp/log.h
+wireplumber/usr/include/wireplumber-0.5/wp/conf.h
+wireplumber/usr/include/wireplumber-0.5/wp/wpversion.h
+wireplumber/usr/include/wireplumber-0.5/wp/base-dirs.h
+wireplumber/usr/include/wireplumber-0.5/wp/si-factory.h
+wireplumber/usr/include/wireplumber-0.5/wp/object-manager.h
+wireplumber/usr/include/wireplumber-0.5/wp/iterator.h
+wireplumber/usr/include/wireplumber-0.5/wp/link.h
+wireplumber/usr/include/wireplumber-0.5/wp/core.h
+wireplumber/usr/include/wireplumber-0.5/wp/wp.h
+wireplumber/usr/include/wireplumber-0.5/wp/session-item.h
+wireplumber/usr/include/wireplumber-0.5/wp/properties.h
+wireplumber/usr/include/wireplumber-0.5/wp/proc-utils.h
+wireplumber/usr/include/wireplumber-0.5/wp/error.h
+wireplumber/usr/include/wireplumber-0.5/wp/si-interfaces.h
+wireplumber/usr/include/wireplumber-0.5/wp/json-utils.h
+wireplumber/usr/include/wireplumber-0.5/wp/object.h
+wireplumber/usr/include/wireplumber-0.5/wp/wpenums.h
+wireplumber/usr/include/wireplumber-0.5/wp/state.h
+wireplumber/usr/include/wireplumber-0.5/wp/spa-type.h
+wireplumber/usr/include/wireplumber-0.5/wp/module.h
+wireplumber/usr/include/wireplumber-0.5/wp/settings.h
+wireplumber/usr/include/wireplumber-0.5/wp/proxy.h
+wireplumber/usr/include/wireplumber-0.5/wp/metadata.h
+wireplumber/usr/include/wireplumber-0.5/wp/plugin.h
+wireplumber/usr/include/wireplumber-0.5/wp/component-loader.h
+wireplumber/usr/share/
+wireplumber/usr/share/locale/
+wireplumber/usr/share/locale/sr/
+wireplumber/usr/share/locale/sr/LC_MESSAGES/
+wireplumber/usr/share/locale/sr/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/nl/
+wireplumber/usr/share/locale/nl/LC_MESSAGES/
+wireplumber/usr/share/locale/nl/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/fi/
+wireplumber/usr/share/locale/fi/LC_MESSAGES/
+wireplumber/usr/share/locale/fi/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/kn/
+wireplumber/usr/share/locale/kn/LC_MESSAGES/
+wireplumber/usr/share/locale/kn/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/id/
+wireplumber/usr/share/locale/id/LC_MESSAGES/
+wireplumber/usr/share/locale/id/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/gu/
+wireplumber/usr/share/locale/gu/LC_MESSAGES/
+wireplumber/usr/share/locale/gu/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/ro/
+wireplumber/usr/share/locale/ro/LC_MESSAGES/
+wireplumber/usr/share/locale/ro/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/ko/
+wireplumber/usr/share/locale/ko/LC_MESSAGES/
+wireplumber/usr/share/locale/ko/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/sr@latin/
+wireplumber/usr/share/locale/sr@latin/LC_MESSAGES/
+wireplumber/usr/share/locale/sr@latin/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/zh_TW/
+wireplumber/usr/share/locale/zh_TW/LC_MESSAGES/
+wireplumber/usr/share/locale/zh_TW/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/hi/
+wireplumber/usr/share/locale/hi/LC_MESSAGES/
+wireplumber/usr/share/locale/hi/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/kk/
+wireplumber/usr/share/locale/kk/LC_MESSAGES/
+wireplumber/usr/share/locale/kk/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/as/
+wireplumber/usr/share/locale/as/LC_MESSAGES/
+wireplumber/usr/share/locale/as/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/af/
+wireplumber/usr/share/locale/af/LC_MESSAGES/
+wireplumber/usr/share/locale/af/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/uk/
+wireplumber/usr/share/locale/uk/LC_MESSAGES/
+wireplumber/usr/share/locale/uk/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/oc/
+wireplumber/usr/share/locale/oc/LC_MESSAGES/
+wireplumber/usr/share/locale/oc/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/es/
+wireplumber/usr/share/locale/es/LC_MESSAGES/
+wireplumber/usr/share/locale/es/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/he/
+wireplumber/usr/share/locale/he/LC_MESSAGES/
+wireplumber/usr/share/locale/he/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/nn/
+wireplumber/usr/share/locale/nn/LC_MESSAGES/
+wireplumber/usr/share/locale/nn/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/fr/
+wireplumber/usr/share/locale/fr/LC_MESSAGES/
+wireplumber/usr/share/locale/fr/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/ca/
+wireplumber/usr/share/locale/ca/LC_MESSAGES/
+wireplumber/usr/share/locale/ca/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/ta/
+wireplumber/usr/share/locale/ta/LC_MESSAGES/
+wireplumber/usr/share/locale/ta/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/pl/
+wireplumber/usr/share/locale/pl/LC_MESSAGES/
+wireplumber/usr/share/locale/pl/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/da/
+wireplumber/usr/share/locale/da/LC_MESSAGES/
+wireplumber/usr/share/locale/da/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/ru/
+wireplumber/usr/share/locale/ru/LC_MESSAGES/
+wireplumber/usr/share/locale/ru/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/bn_IN/
+wireplumber/usr/share/locale/bn_IN/LC_MESSAGES/
+wireplumber/usr/share/locale/bn_IN/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/my/
+wireplumber/usr/share/locale/my/LC_MESSAGES/
+wireplumber/usr/share/locale/my/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/hr/
+wireplumber/usr/share/locale/hr/LC_MESSAGES/
+wireplumber/usr/share/locale/hr/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/ja/
+wireplumber/usr/share/locale/ja/LC_MESSAGES/
+wireplumber/usr/share/locale/ja/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/de_CH/
+wireplumber/usr/share/locale/de_CH/LC_MESSAGES/
+wireplumber/usr/share/locale/de_CH/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/fa/
+wireplumber/usr/share/locale/fa/LC_MESSAGES/
+wireplumber/usr/share/locale/fa/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/zh_CN/
+wireplumber/usr/share/locale/zh_CN/LC_MESSAGES/
+wireplumber/usr/share/locale/zh_CN/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/cs/
+wireplumber/usr/share/locale/cs/LC_MESSAGES/
+wireplumber/usr/share/locale/cs/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/or/
+wireplumber/usr/share/locale/or/LC_MESSAGES/
+wireplumber/usr/share/locale/or/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/mr/
+wireplumber/usr/share/locale/mr/LC_MESSAGES/
+wireplumber/usr/share/locale/mr/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/pt_BR/
+wireplumber/usr/share/locale/pt_BR/LC_MESSAGES/
+wireplumber/usr/share/locale/pt_BR/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/pt/
+wireplumber/usr/share/locale/pt/LC_MESSAGES/
+wireplumber/usr/share/locale/pt/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/hu/
+wireplumber/usr/share/locale/hu/LC_MESSAGES/
+wireplumber/usr/share/locale/hu/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/tr/
+wireplumber/usr/share/locale/tr/LC_MESSAGES/
+wireplumber/usr/share/locale/tr/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/sl/
+wireplumber/usr/share/locale/sl/LC_MESSAGES/
+wireplumber/usr/share/locale/sl/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/el/
+wireplumber/usr/share/locale/el/LC_MESSAGES/
+wireplumber/usr/share/locale/el/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/sv/
+wireplumber/usr/share/locale/sv/LC_MESSAGES/
+wireplumber/usr/share/locale/sv/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/ml/
+wireplumber/usr/share/locale/ml/LC_MESSAGES/
+wireplumber/usr/share/locale/ml/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/sk/
+wireplumber/usr/share/locale/sk/LC_MESSAGES/
+wireplumber/usr/share/locale/sk/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/si/
+wireplumber/usr/share/locale/si/LC_MESSAGES/
+wireplumber/usr/share/locale/si/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/eo/
+wireplumber/usr/share/locale/eo/LC_MESSAGES/
+wireplumber/usr/share/locale/eo/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/bg/
+wireplumber/usr/share/locale/bg/LC_MESSAGES/
+wireplumber/usr/share/locale/bg/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/pa/
+wireplumber/usr/share/locale/pa/LC_MESSAGES/
+wireplumber/usr/share/locale/pa/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/ka/
+wireplumber/usr/share/locale/ka/LC_MESSAGES/
+wireplumber/usr/share/locale/ka/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/te/
+wireplumber/usr/share/locale/te/LC_MESSAGES/
+wireplumber/usr/share/locale/te/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/it/
+wireplumber/usr/share/locale/it/LC_MESSAGES/
+wireplumber/usr/share/locale/it/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/de/
+wireplumber/usr/share/locale/de/LC_MESSAGES/
+wireplumber/usr/share/locale/de/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/lt/
+wireplumber/usr/share/locale/lt/LC_MESSAGES/
+wireplumber/usr/share/locale/lt/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/be/
+wireplumber/usr/share/locale/be/LC_MESSAGES/
+wireplumber/usr/share/locale/be/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/locale/gl/
+wireplumber/usr/share/locale/gl/LC_MESSAGES/
+wireplumber/usr/share/locale/gl/LC_MESSAGES/wireplumber.mo
+wireplumber/usr/share/bash-completion/
+wireplumber/usr/share/bash-completion/completions/
+wireplumber/usr/share/bash-completion/completions/wpctl
+wireplumber/usr/share/wireplumber/
+wireplumber/usr/share/wireplumber/wireplumber.conf
+wireplumber/usr/share/wireplumber/scripts/
+wireplumber/usr/share/wireplumber/scripts/monitors/
+wireplumber/usr/share/wireplumber/scripts/monitors/alsa.lua
+wireplumber/usr/share/wireplumber/scripts/monitors/bluez-midi.lua
+wireplumber/usr/share/wireplumber/scripts/monitors/v4l2/
+wireplumber/usr/share/wireplumber/scripts/monitors/v4l2/create-node.lua
+wireplumber/usr/share/wireplumber/scripts/monitors/v4l2/create-device.lua
+wireplumber/usr/share/wireplumber/scripts/monitors/v4l2/enumerate-device.lua
+wireplumber/usr/share/wireplumber/scripts/monitors/v4l2/name-device.lua
+wireplumber/usr/share/wireplumber/scripts/monitors/v4l2/name-node.lua
+wireplumber/usr/share/wireplumber/scripts/monitors/bluez.lua
+wireplumber/usr/share/wireplumber/scripts/monitors/libcamera/
+wireplumber/usr/share/wireplumber/scripts/monitors/libcamera/create-node.lua
+wireplumber/usr/share/wireplumber/scripts/monitors/libcamera/create-device.lua
+wireplumber/usr/share/wireplumber/scripts/monitors/libcamera/enumerate-device.lua
+wireplumber/usr/share/wireplumber/scripts/monitors/libcamera/name-device.lua
+wireplumber/usr/share/wireplumber/scripts/monitors/libcamera/name-node.lua
+wireplumber/usr/share/wireplumber/scripts/monitors/alsa-midi.lua
+wireplumber/usr/share/wireplumber/scripts/node/
+wireplumber/usr/share/wireplumber/scripts/node/filter-forward-format.lua
+wireplumber/usr/share/wireplumber/scripts/node/filter-graph.lua
+wireplumber/usr/share/wireplumber/scripts/node/create-item.lua
+wireplumber/usr/share/wireplumber/scripts/node/suspend-node.lua
+wireplumber/usr/share/wireplumber/scripts/node/audio-group.lua
+wireplumber/usr/share/wireplumber/scripts/node/software-dsp.lua
+wireplumber/usr/share/wireplumber/scripts/node/state-stream.lua
+wireplumber/usr/share/wireplumber/scripts/node/find-media-role-default-volume.lua
+wireplumber/usr/share/wireplumber/scripts/metadata.lua
+wireplumber/usr/share/wireplumber/scripts/client/
+wireplumber/usr/share/wireplumber/scripts/client/access-default.lua
+wireplumber/usr/share/wireplumber/scripts/client/access-portal.lua
+wireplumber/usr/share/wireplumber/scripts/client/access-snap.lua
+wireplumber/usr/share/wireplumber/scripts/sm-objects.lua
+wireplumber/usr/share/wireplumber/scripts/device/
+wireplumber/usr/share/wireplumber/scripts/device/select-routes.lua
+wireplumber/usr/share/wireplumber/scripts/device/state-profile.lua
+wireplumber/usr/share/wireplumber/scripts/device/apply-profile.lua
+wireplumber/usr/share/wireplumber/scripts/device/apply-routes.lua
+wireplumber/usr/share/wireplumber/scripts/device/autoswitch-bluetooth-profile.lua
+wireplumber/usr/share/wireplumber/scripts/device/find-best-profile.lua
+wireplumber/usr/share/wireplumber/scripts/device/automute-alsa-routes.lua
+wireplumber/usr/share/wireplumber/scripts/device/select-profile.lua
+wireplumber/usr/share/wireplumber/scripts/device/find-preferred-profile.lua
+wireplumber/usr/share/wireplumber/scripts/device/find-best-routes.lua
+wireplumber/usr/share/wireplumber/scripts/device/find-voice-call-profile.lua
+wireplumber/usr/share/wireplumber/scripts/device/state-routes.lua
+wireplumber/usr/share/wireplumber/scripts/default-nodes/
+wireplumber/usr/share/wireplumber/scripts/default-nodes/state-default-nodes.lua
+wireplumber/usr/share/wireplumber/scripts/default-nodes/find-best-default-node.lua
+wireplumber/usr/share/wireplumber/scripts/default-nodes/find-selected-default-node.lua
+wireplumber/usr/share/wireplumber/scripts/default-nodes/rescan.lua
+wireplumber/usr/share/wireplumber/scripts/default-nodes/apply-default-node.lua
+wireplumber/usr/share/wireplumber/scripts/session-services.lua
+wireplumber/usr/share/wireplumber/scripts/fallback-sink.lua
+wireplumber/usr/share/wireplumber/scripts/linking/
+wireplumber/usr/share/wireplumber/scripts/linking/find-media-role-target.lua
+wireplumber/usr/share/wireplumber/scripts/linking/find-default-target.lua
+wireplumber/usr/share/wireplumber/scripts/linking/find-best-target.lua
+wireplumber/usr/share/wireplumber/scripts/linking/rescan-media-role-links.lua
+wireplumber/usr/share/wireplumber/scripts/linking/link-target.lua
+wireplumber/usr/share/wireplumber/scripts/linking/find-defined-target.lua
+wireplumber/usr/share/wireplumber/scripts/linking/mpris-pause.lua
+wireplumber/usr/share/wireplumber/scripts/linking/find-filter-target.lua
+wireplumber/usr/share/wireplumber/scripts/linking/get-filter-from-target.lua
+wireplumber/usr/share/wireplumber/scripts/linking/find-user-target.lua.example
+wireplumber/usr/share/wireplumber/scripts/linking/rescan.lua
+wireplumber/usr/share/wireplumber/scripts/linking/prepare-link.lua
+wireplumber/usr/share/wireplumber/scripts/linking/find-media-role-sink-target.lua
+wireplumber/usr/share/wireplumber/scripts/linking/find-audio-group-target.lua
+wireplumber/usr/share/wireplumber/scripts/lib/
+wireplumber/usr/share/wireplumber/scripts/lib/filter-utils.lua
+wireplumber/usr/share/wireplumber/scripts/lib/monitor-utils.lua
+wireplumber/usr/share/wireplumber/scripts/lib/node-utils.lua
+wireplumber/usr/share/wireplumber/scripts/lib/linking-utils.lua
+wireplumber/usr/share/wireplumber/scripts/lib/device-info-cache.lua
+wireplumber/usr/share/wireplumber/scripts/lib/audio-group-utils.lua
+wireplumber/usr/share/wireplumber/scripts/lib/common-utils.lua
+wireplumber/usr/share/wireplumber/wireplumber.conf.d/
+wireplumber/usr/share/wireplumber/wireplumber.conf.d/alsa-vm.conf
+wireplumber/usr/share/zsh/
+wireplumber/usr/share/zsh/site-functions/
+wireplumber/usr/share/zsh/site-functions/_wpctl
+wireplumber/usr/share/doc/
+wireplumber/usr/share/doc/wireplumber/
+wireplumber/usr/share/doc/wireplumber/examples/
+wireplumber/usr/share/doc/wireplumber/examples/wireplumber.conf.d/
+wireplumber/usr/share/doc/wireplumber/examples/wireplumber.conf.d/media-role-nodes.conf
+wireplumber/usr/share/doc/wireplumber/examples/wireplumber.conf.d/bluetooth.conf
+wireplumber/usr/share/doc/wireplumber/examples/wireplumber.conf.d/alsa.conf
+wireplumber/usr/share/doc/wireplumber/examples/wireplumber.conf.d/smart-equalizer.conf
+wireplumber/usr/share/doc/wireplumber/examples/wireplumber.conf.d/linking.conf
+wireplumber/usr/share/doc/wireplumber/examples/wireplumber.conf.d/stream.conf
+wireplumber/usr/share/doc/wireplumber/examples/wireplumber.conf.d/libcamera.conf
+wireplumber/usr/share/doc/wireplumber/examples/wireplumber.conf.d/profile.conf
+wireplumber/usr/share/doc/wireplumber/examples/wireplumber.conf.d/filter-graph.conf
+wireplumber/usr/share/doc/wireplumber/examples/wireplumber.conf.d/device.conf
+wireplumber/usr/share/doc/wireplumber/examples/wireplumber.conf.d/v4l2.conf
+wireplumber/usr/share/doc/wireplumber/examples/wireplumber.conf.d/log.conf
+wireplumber/usr/share/doc/wireplumber/examples/wireplumber.conf.d/access.conf
+wireplumber/usr/bin/
+wireplumber/usr/bin/wireplumber
+wireplumber/usr/bin/wpexec
+wireplumber/usr/bin/wpctl
+wireplumber/usr/lib/
+wireplumber/usr/lib/libwireplumber-0.5.so.0.513.0
+wireplumber/usr/lib/libwireplumber-0.5.so.0
+wireplumber/usr/lib/wireplumber-0.5/
+wireplumber/usr/lib/wireplumber-0.5/libwireplumber-module-settings.so
+wireplumber/usr/lib/wireplumber-0.5/libwireplumber-module-standard-event-source.so
+wireplumber/usr/lib/wireplumber-0.5/libwireplumber-module-si-audio-adapter.so
+wireplumber/usr/lib/wireplumber-0.5/libwireplumber-module-si-standard-link.so
+wireplumber/usr/lib/wireplumber-0.5/libwireplumber-module-log-settings.so
+wireplumber/usr/lib/wireplumber-0.5/libwireplumber-module-file-monitor-api.so
+wireplumber/usr/lib/wireplumber-0.5/libwireplumber-module-portal-permissionstore.so
+wireplumber/usr/lib/wireplumber-0.5/libwireplumber-module-mixer-api.so
+wireplumber/usr/lib/wireplumber-0.5/libwireplumber-module-logind.so
+wireplumber/usr/lib/wireplumber-0.5/libwireplumber-module-modem-manager.so
+wireplumber/usr/lib/wireplumber-0.5/libwireplumber-module-notifications-api.so
+wireplumber/usr/lib/wireplumber-0.5/libwireplumber-module-default-nodes-api.so
+wireplumber/usr/lib/wireplumber-0.5/libwireplumber-module-reserve-device.so
+wireplumber/usr/lib/wireplumber-0.5/libwireplumber-module-dbus-connection.so
+wireplumber/usr/lib/wireplumber-0.5/libwireplumber-module-lua-scripting.so
+wireplumber/usr/lib/wireplumber-0.5/libwireplumber-module-mpris.so
+wireplumber/usr/lib/wireplumber-0.5/libwireplumber-module-si-node.so
+wireplumber/usr/lib/pkgconfig/
+wireplumber/usr/lib/pkgconfig/wireplumber-0.5.pc
+wireplumber/usr/lib/systemd/
+wireplumber/usr/lib/systemd/user/
+wireplumber/usr/lib/systemd/user/wireplumber.service
+wireplumber/usr/lib/systemd/user/wireplumber@.service
+wireplumber/usr/lib/libwireplumber-0.5.so
+wireplumber/version
+wireplumber/postinst
+wireplumber/depends

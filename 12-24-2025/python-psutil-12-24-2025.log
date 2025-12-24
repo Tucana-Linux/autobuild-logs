@@ -1,0 +1,454 @@
+--2025-12-24 08:27:25--  https://pypi.org/packages/source/p/psutil/psutil-7.2.0.tar.gz
+Resolving pypi.org (pypi.org)... 151.101.0.223, 151.101.192.223, 151.101.128.223, ...
+Connecting to pypi.org (pypi.org)|151.101.0.223|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://files.pythonhosted.org/packages/source/p/psutil/psutil-7.2.0.tar.gz [following]
+--2025-12-24 08:27:25--  https://files.pythonhosted.org/packages/source/p/psutil/psutil-7.2.0.tar.gz
+Resolving files.pythonhosted.org (files.pythonhosted.org)... 151.101.64.223, 151.101.128.223, 151.101.192.223, ...
+Connecting to files.pythonhosted.org (files.pythonhosted.org)|151.101.64.223|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://files.pythonhosted.org/packages/be/7c/31d1c3ceb1260301f87565f50689dc6da3db427ece1e1e012af22abca54e/psutil-7.2.0.tar.gz [following]
+--2025-12-24 08:27:25--  https://files.pythonhosted.org/packages/be/7c/31d1c3ceb1260301f87565f50689dc6da3db427ece1e1e012af22abca54e/psutil-7.2.0.tar.gz
+Reusing existing connection to files.pythonhosted.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 489863 (478K) [binary/octet-stream]
+Saving to: ‘psutil-7.2.0.tar.gz’
+
+     0K .......... .......... .......... .......... .......... 10% 6.44M 0s
+    50K .......... .......... .......... .......... .......... 20% 21.4M 0s
+   100K .......... .......... .......... .......... .......... 31% 8.91M 0s
+   150K .......... .......... .......... .......... .......... 41% 12.4M 0s
+   200K .......... .......... .......... .......... .......... 52% 11.7M 0s
+   250K .......... .......... .......... .......... .......... 62%  144M 0s
+   300K .......... .......... .......... .......... .......... 73% 55.7M 0s
+   350K .......... .......... .......... .......... .......... 83% 17.5M 0s
+   400K .......... .......... .......... .......... .......... 94% 11.4M 0s
+   450K .......... .......... ........                        100%  233M=0.03s
+
+2025-12-24 08:27:25 (14.7 MB/s) - ‘psutil-7.2.0.tar.gz’ saved [489863/489863]
+
+psutil-7.2.0/
+psutil-7.2.0/.clang-format
+psutil-7.2.0/.dprint.jsonc
+psutil-7.2.0/.gitignore
+psutil-7.2.0/CONTRIBUTING.md
+psutil-7.2.0/CREDITS
+psutil-7.2.0/HISTORY.rst
+psutil-7.2.0/INSTALL.rst
+psutil-7.2.0/LICENSE
+psutil-7.2.0/MANIFEST.in
+psutil-7.2.0/Makefile
+psutil-7.2.0/PKG-INFO
+psutil-7.2.0/README.rst
+psutil-7.2.0/SECURITY.md
+psutil-7.2.0/docs/
+psutil-7.2.0/docs/.readthedocs.yaml
+psutil-7.2.0/docs/DEVGUIDE.rst
+psutil-7.2.0/docs/DEVNOTES
+psutil-7.2.0/docs/Makefile
+psutil-7.2.0/docs/README
+psutil-7.2.0/docs/STATS.md
+psutil-7.2.0/docs/conf.py
+psutil-7.2.0/docs/index.rst
+psutil-7.2.0/docs/make.bat
+psutil-7.2.0/docs/requirements.txt
+psutil-7.2.0/psutil/
+psutil-7.2.0/psutil/__init__.py
+psutil-7.2.0/psutil/_common.py
+psutil-7.2.0/psutil/_ntuples.py
+psutil-7.2.0/psutil/_psaix.py
+psutil-7.2.0/psutil/_psbsd.py
+psutil-7.2.0/psutil/_pslinux.py
+psutil-7.2.0/psutil/_psosx.py
+psutil-7.2.0/psutil/_psposix.py
+psutil-7.2.0/psutil/_pssunos.py
+psutil-7.2.0/psutil/_psutil_aix.c
+psutil-7.2.0/psutil/_psutil_bsd.c
+psutil-7.2.0/psutil/_psutil_linux.c
+psutil-7.2.0/psutil/_psutil_osx.c
+psutil-7.2.0/psutil/_psutil_sunos.c
+psutil-7.2.0/psutil/_psutil_windows.c
+psutil-7.2.0/psutil/_pswindows.py
+psutil-7.2.0/psutil/arch/
+psutil-7.2.0/psutil/arch/aix/
+psutil-7.2.0/psutil/arch/aix/common.c
+psutil-7.2.0/psutil/arch/aix/common.h
+psutil-7.2.0/psutil/arch/aix/ifaddrs.c
+psutil-7.2.0/psutil/arch/aix/ifaddrs.h
+psutil-7.2.0/psutil/arch/aix/net_connections.c
+psutil-7.2.0/psutil/arch/aix/net_connections.h
+psutil-7.2.0/psutil/arch/aix/net_kernel_structs.h
+psutil-7.2.0/psutil/arch/all/
+psutil-7.2.0/psutil/arch/all/errors.c
+psutil-7.2.0/psutil/arch/all/init.c
+psutil-7.2.0/psutil/arch/all/init.h
+psutil-7.2.0/psutil/arch/all/pids.c
+psutil-7.2.0/psutil/arch/all/str.c
+psutil-7.2.0/psutil/arch/bsd/
+psutil-7.2.0/psutil/arch/bsd/cpu.c
+psutil-7.2.0/psutil/arch/bsd/disk.c
+psutil-7.2.0/psutil/arch/bsd/heap.c
+psutil-7.2.0/psutil/arch/bsd/init.c
+psutil-7.2.0/psutil/arch/bsd/init.h
+psutil-7.2.0/psutil/arch/bsd/net.c
+psutil-7.2.0/psutil/arch/bsd/proc.c
+psutil-7.2.0/psutil/arch/bsd/proc_utils.c
+psutil-7.2.0/psutil/arch/bsd/sys.c
+psutil-7.2.0/psutil/arch/freebsd/
+psutil-7.2.0/psutil/arch/freebsd/cpu.c
+psutil-7.2.0/psutil/arch/freebsd/disk.c
+psutil-7.2.0/psutil/arch/freebsd/init.h
+psutil-7.2.0/psutil/arch/freebsd/mem.c
+psutil-7.2.0/psutil/arch/freebsd/pids.c
+psutil-7.2.0/psutil/arch/freebsd/proc.c
+psutil-7.2.0/psutil/arch/freebsd/proc_socks.c
+psutil-7.2.0/psutil/arch/freebsd/sensors.c
+psutil-7.2.0/psutil/arch/freebsd/sys_socks.c
+psutil-7.2.0/psutil/arch/linux/
+psutil-7.2.0/psutil/arch/linux/disk.c
+psutil-7.2.0/psutil/arch/linux/heap.c
+psutil-7.2.0/psutil/arch/linux/init.h
+psutil-7.2.0/psutil/arch/linux/mem.c
+psutil-7.2.0/psutil/arch/linux/net.c
+psutil-7.2.0/psutil/arch/linux/proc.c
+psutil-7.2.0/psutil/arch/netbsd/
+psutil-7.2.0/psutil/arch/netbsd/cpu.c
+psutil-7.2.0/psutil/arch/netbsd/disk.c
+psutil-7.2.0/psutil/arch/netbsd/init.h
+psutil-7.2.0/psutil/arch/netbsd/mem.c
+psutil-7.2.0/psutil/arch/netbsd/pids.c
+psutil-7.2.0/psutil/arch/netbsd/proc.c
+psutil-7.2.0/psutil/arch/netbsd/socks.c
+psutil-7.2.0/psutil/arch/openbsd/
+psutil-7.2.0/psutil/arch/openbsd/cpu.c
+psutil-7.2.0/psutil/arch/openbsd/disk.c
+psutil-7.2.0/psutil/arch/openbsd/init.h
+psutil-7.2.0/psutil/arch/openbsd/mem.c
+psutil-7.2.0/psutil/arch/openbsd/pids.c
+psutil-7.2.0/psutil/arch/openbsd/proc.c
+psutil-7.2.0/psutil/arch/openbsd/socks.c
+psutil-7.2.0/psutil/arch/openbsd/users.c
+psutil-7.2.0/psutil/arch/osx/
+psutil-7.2.0/psutil/arch/osx/cpu.c
+psutil-7.2.0/psutil/arch/osx/disk.c
+psutil-7.2.0/psutil/arch/osx/heap.c
+psutil-7.2.0/psutil/arch/osx/init.c
+psutil-7.2.0/psutil/arch/osx/init.h
+psutil-7.2.0/psutil/arch/osx/mem.c
+psutil-7.2.0/psutil/arch/osx/net.c
+psutil-7.2.0/psutil/arch/osx/pids.c
+psutil-7.2.0/psutil/arch/osx/proc.c
+psutil-7.2.0/psutil/arch/osx/proc_utils.c
+psutil-7.2.0/psutil/arch/osx/sensors.c
+psutil-7.2.0/psutil/arch/osx/sys.c
+psutil-7.2.0/psutil/arch/posix/
+psutil-7.2.0/psutil/arch/posix/init.c
+psutil-7.2.0/psutil/arch/posix/init.h
+psutil-7.2.0/psutil/arch/posix/net.c
+psutil-7.2.0/psutil/arch/posix/pids.c
+psutil-7.2.0/psutil/arch/posix/proc.c
+psutil-7.2.0/psutil/arch/posix/sysctl.c
+psutil-7.2.0/psutil/arch/posix/users.c
+psutil-7.2.0/psutil/arch/sunos/
+psutil-7.2.0/psutil/arch/sunos/cpu.c
+psutil-7.2.0/psutil/arch/sunos/disk.c
+psutil-7.2.0/psutil/arch/sunos/environ.c
+psutil-7.2.0/psutil/arch/sunos/init.h
+psutil-7.2.0/psutil/arch/sunos/mem.c
+psutil-7.2.0/psutil/arch/sunos/net.c
+psutil-7.2.0/psutil/arch/sunos/proc.c
+psutil-7.2.0/psutil/arch/sunos/sys.c
+psutil-7.2.0/psutil/arch/windows/
+psutil-7.2.0/psutil/arch/windows/cpu.c
+psutil-7.2.0/psutil/arch/windows/disk.c
+psutil-7.2.0/psutil/arch/windows/heap.c
+psutil-7.2.0/psutil/arch/windows/init.c
+psutil-7.2.0/psutil/arch/windows/init.h
+psutil-7.2.0/psutil/arch/windows/mem.c
+psutil-7.2.0/psutil/arch/windows/net.c
+psutil-7.2.0/psutil/arch/windows/ntextapi.h
+psutil-7.2.0/psutil/arch/windows/pids.c
+psutil-7.2.0/psutil/arch/windows/proc.c
+psutil-7.2.0/psutil/arch/windows/proc_handles.c
+psutil-7.2.0/psutil/arch/windows/proc_info.c
+psutil-7.2.0/psutil/arch/windows/proc_utils.c
+psutil-7.2.0/psutil/arch/windows/security.c
+psutil-7.2.0/psutil/arch/windows/sensors.c
+psutil-7.2.0/psutil/arch/windows/services.c
+psutil-7.2.0/psutil/arch/windows/socks.c
+psutil-7.2.0/psutil/arch/windows/sys.c
+psutil-7.2.0/psutil/arch/windows/wmi.c
+psutil-7.2.0/psutil.egg-info/
+psutil-7.2.0/psutil.egg-info/PKG-INFO
+psutil-7.2.0/psutil.egg-info/SOURCES.txt
+psutil-7.2.0/psutil.egg-info/dependency_links.txt
+psutil-7.2.0/psutil.egg-info/not-zip-safe
+psutil-7.2.0/psutil.egg-info/requires.txt
+psutil-7.2.0/psutil.egg-info/top_level.txt
+psutil-7.2.0/pyproject.toml
+psutil-7.2.0/scripts/
+psutil-7.2.0/scripts/battery.py
+psutil-7.2.0/scripts/cpu_distribution.py
+psutil-7.2.0/scripts/disk_usage.py
+psutil-7.2.0/scripts/fans.py
+psutil-7.2.0/scripts/free.py
+psutil-7.2.0/scripts/ifconfig.py
+psutil-7.2.0/scripts/internal/
+psutil-7.2.0/scripts/internal/README
+psutil-7.2.0/scripts/internal/bench_oneshot.py
+psutil-7.2.0/scripts/internal/bench_oneshot_2.py
+psutil-7.2.0/scripts/internal/convert_readme.py
+psutil-7.2.0/scripts/internal/download_wheels.py
+psutil-7.2.0/scripts/internal/find_broken_links.py
+psutil-7.2.0/scripts/internal/generate_manifest.py
+psutil-7.2.0/scripts/internal/git_pre_commit.py
+psutil-7.2.0/scripts/internal/install-sysdeps.sh
+psutil-7.2.0/scripts/internal/install_pip.py
+psutil-7.2.0/scripts/internal/print_access_denied.py
+psutil-7.2.0/scripts/internal/print_announce.py
+psutil-7.2.0/scripts/internal/print_api_speed.py
+psutil-7.2.0/scripts/internal/print_dist.py
+psutil-7.2.0/scripts/internal/print_downloads.py
+psutil-7.2.0/scripts/internal/print_hashes.py
+psutil-7.2.0/scripts/internal/print_sysinfo.py
+psutil-7.2.0/scripts/internal/print_timeline.py
+psutil-7.2.0/scripts/internal/purge_installation.py
+psutil-7.2.0/scripts/internal/test_python2_setup_py.py
+psutil-7.2.0/scripts/iotop.py
+psutil-7.2.0/scripts/killall.py
+psutil-7.2.0/scripts/meminfo.py
+psutil-7.2.0/scripts/netstat.py
+psutil-7.2.0/scripts/nettop.py
+psutil-7.2.0/scripts/pidof.py
+psutil-7.2.0/scripts/pmap.py
+psutil-7.2.0/scripts/procinfo.py
+psutil-7.2.0/scripts/procsmem.py
+psutil-7.2.0/scripts/ps.py
+psutil-7.2.0/scripts/pstree.py
+psutil-7.2.0/scripts/sensors.py
+psutil-7.2.0/scripts/temperatures.py
+psutil-7.2.0/scripts/top.py
+psutil-7.2.0/scripts/who.py
+psutil-7.2.0/scripts/winservices.py
+psutil-7.2.0/setup.cfg
+psutil-7.2.0/setup.py
+psutil-7.2.0/tests/
+psutil-7.2.0/tests/README.md
+psutil-7.2.0/tests/__init__.py
+psutil-7.2.0/tests/test_aix.py
+psutil-7.2.0/tests/test_bsd.py
+psutil-7.2.0/tests/test_connections.py
+psutil-7.2.0/tests/test_contracts.py
+psutil-7.2.0/tests/test_heap.py
+psutil-7.2.0/tests/test_linux.py
+psutil-7.2.0/tests/test_memleaks.py
+psutil-7.2.0/tests/test_misc.py
+psutil-7.2.0/tests/test_osx.py
+psutil-7.2.0/tests/test_posix.py
+psutil-7.2.0/tests/test_process.py
+psutil-7.2.0/tests/test_process_all.py
+psutil-7.2.0/tests/test_scripts.py
+psutil-7.2.0/tests/test_sudo.py
+psutil-7.2.0/tests/test_sunos.py
+psutil-7.2.0/tests/test_system.py
+psutil-7.2.0/tests/test_testutils.py
+psutil-7.2.0/tests/test_unicode.py
+psutil-7.2.0/tests/test_windows.py
+[12/24/25 08:27:26] WARNING  toml section missing       pyproject_reading.py:215
+                             PosixPath('pyproject.toml'                         
+                             ) does not contain a                               
+                             tool.setuptools_scm                                
+                             section                                            
+running build
+running build_py
+creating build/lib.linux-x86_64-cpython-314/psutil
+copying psutil/_pswindows.py -> build/lib.linux-x86_64-cpython-314/psutil
+copying psutil/_psaix.py -> build/lib.linux-x86_64-cpython-314/psutil
+copying psutil/_common.py -> build/lib.linux-x86_64-cpython-314/psutil
+copying psutil/__init__.py -> build/lib.linux-x86_64-cpython-314/psutil
+copying psutil/_psbsd.py -> build/lib.linux-x86_64-cpython-314/psutil
+copying psutil/_psosx.py -> build/lib.linux-x86_64-cpython-314/psutil
+copying psutil/_ntuples.py -> build/lib.linux-x86_64-cpython-314/psutil
+copying psutil/_psposix.py -> build/lib.linux-x86_64-cpython-314/psutil
+copying psutil/_pslinux.py -> build/lib.linux-x86_64-cpython-314/psutil
+copying psutil/_pssunos.py -> build/lib.linux-x86_64-cpython-314/psutil
+running build_ext
+building 'psutil._psutil_linux' extension
+creating build/temp.linux-x86_64-cpython-314/psutil
+creating build/temp.linux-x86_64-cpython-314/psutil/arch/all
+creating build/temp.linux-x86_64-cpython-314/psutil/arch/linux
+creating build/temp.linux-x86_64-cpython-314/psutil/arch/posix
+gcc -O2 -fPIC -DPSUTIL_POSIX=1 -DPSUTIL_SIZEOF_PID_T=4 -DPSUTIL_VERSION=720 -DPy_LIMITED_API=0x03060000 -DPSUTIL_LINUX=1 -I/usr/include/python3.14 -c psutil/_psutil_linux.c -o build/temp.linux-x86_64-cpython-314/psutil/_psutil_linux.o
+gcc -O2 -fPIC -DPSUTIL_POSIX=1 -DPSUTIL_SIZEOF_PID_T=4 -DPSUTIL_VERSION=720 -DPy_LIMITED_API=0x03060000 -DPSUTIL_LINUX=1 -I/usr/include/python3.14 -c psutil/arch/all/errors.c -o build/temp.linux-x86_64-cpython-314/psutil/arch/all/errors.o
+gcc -O2 -fPIC -DPSUTIL_POSIX=1 -DPSUTIL_SIZEOF_PID_T=4 -DPSUTIL_VERSION=720 -DPy_LIMITED_API=0x03060000 -DPSUTIL_LINUX=1 -I/usr/include/python3.14 -c psutil/arch/all/init.c -o build/temp.linux-x86_64-cpython-314/psutil/arch/all/init.o
+gcc -O2 -fPIC -DPSUTIL_POSIX=1 -DPSUTIL_SIZEOF_PID_T=4 -DPSUTIL_VERSION=720 -DPy_LIMITED_API=0x03060000 -DPSUTIL_LINUX=1 -I/usr/include/python3.14 -c psutil/arch/all/pids.c -o build/temp.linux-x86_64-cpython-314/psutil/arch/all/pids.o
+gcc -O2 -fPIC -DPSUTIL_POSIX=1 -DPSUTIL_SIZEOF_PID_T=4 -DPSUTIL_VERSION=720 -DPy_LIMITED_API=0x03060000 -DPSUTIL_LINUX=1 -I/usr/include/python3.14 -c psutil/arch/all/str.c -o build/temp.linux-x86_64-cpython-314/psutil/arch/all/str.o
+gcc -O2 -fPIC -DPSUTIL_POSIX=1 -DPSUTIL_SIZEOF_PID_T=4 -DPSUTIL_VERSION=720 -DPy_LIMITED_API=0x03060000 -DPSUTIL_LINUX=1 -I/usr/include/python3.14 -c psutil/arch/linux/disk.c -o build/temp.linux-x86_64-cpython-314/psutil/arch/linux/disk.o
+gcc -O2 -fPIC -DPSUTIL_POSIX=1 -DPSUTIL_SIZEOF_PID_T=4 -DPSUTIL_VERSION=720 -DPy_LIMITED_API=0x03060000 -DPSUTIL_LINUX=1 -I/usr/include/python3.14 -c psutil/arch/linux/heap.c -o build/temp.linux-x86_64-cpython-314/psutil/arch/linux/heap.o
+gcc -O2 -fPIC -DPSUTIL_POSIX=1 -DPSUTIL_SIZEOF_PID_T=4 -DPSUTIL_VERSION=720 -DPy_LIMITED_API=0x03060000 -DPSUTIL_LINUX=1 -I/usr/include/python3.14 -c psutil/arch/linux/mem.c -o build/temp.linux-x86_64-cpython-314/psutil/arch/linux/mem.o
+gcc -O2 -fPIC -DPSUTIL_POSIX=1 -DPSUTIL_SIZEOF_PID_T=4 -DPSUTIL_VERSION=720 -DPy_LIMITED_API=0x03060000 -DPSUTIL_LINUX=1 -I/usr/include/python3.14 -c psutil/arch/linux/net.c -o build/temp.linux-x86_64-cpython-314/psutil/arch/linux/net.o
+gcc -O2 -fPIC -DPSUTIL_POSIX=1 -DPSUTIL_SIZEOF_PID_T=4 -DPSUTIL_VERSION=720 -DPy_LIMITED_API=0x03060000 -DPSUTIL_LINUX=1 -I/usr/include/python3.14 -c psutil/arch/linux/proc.c -o build/temp.linux-x86_64-cpython-314/psutil/arch/linux/proc.o
+gcc -O2 -fPIC -DPSUTIL_POSIX=1 -DPSUTIL_SIZEOF_PID_T=4 -DPSUTIL_VERSION=720 -DPy_LIMITED_API=0x03060000 -DPSUTIL_LINUX=1 -I/usr/include/python3.14 -c psutil/arch/posix/init.c -o build/temp.linux-x86_64-cpython-314/psutil/arch/posix/init.o
+gcc -O2 -fPIC -DPSUTIL_POSIX=1 -DPSUTIL_SIZEOF_PID_T=4 -DPSUTIL_VERSION=720 -DPy_LIMITED_API=0x03060000 -DPSUTIL_LINUX=1 -I/usr/include/python3.14 -c psutil/arch/posix/net.c -o build/temp.linux-x86_64-cpython-314/psutil/arch/posix/net.o
+gcc -O2 -fPIC -DPSUTIL_POSIX=1 -DPSUTIL_SIZEOF_PID_T=4 -DPSUTIL_VERSION=720 -DPy_LIMITED_API=0x03060000 -DPSUTIL_LINUX=1 -I/usr/include/python3.14 -c psutil/arch/posix/pids.c -o build/temp.linux-x86_64-cpython-314/psutil/arch/posix/pids.o
+gcc -O2 -fPIC -DPSUTIL_POSIX=1 -DPSUTIL_SIZEOF_PID_T=4 -DPSUTIL_VERSION=720 -DPy_LIMITED_API=0x03060000 -DPSUTIL_LINUX=1 -I/usr/include/python3.14 -c psutil/arch/posix/proc.c -o build/temp.linux-x86_64-cpython-314/psutil/arch/posix/proc.o
+gcc -O2 -fPIC -DPSUTIL_POSIX=1 -DPSUTIL_SIZEOF_PID_T=4 -DPSUTIL_VERSION=720 -DPy_LIMITED_API=0x03060000 -DPSUTIL_LINUX=1 -I/usr/include/python3.14 -c psutil/arch/posix/sysctl.c -o build/temp.linux-x86_64-cpython-314/psutil/arch/posix/sysctl.o
+gcc -O2 -fPIC -DPSUTIL_POSIX=1 -DPSUTIL_SIZEOF_PID_T=4 -DPSUTIL_VERSION=720 -DPy_LIMITED_API=0x03060000 -DPSUTIL_LINUX=1 -I/usr/include/python3.14 -c psutil/arch/posix/users.c -o build/temp.linux-x86_64-cpython-314/psutil/arch/posix/users.o
+gcc -shared -O2 build/temp.linux-x86_64-cpython-314/psutil/_psutil_linux.o build/temp.linux-x86_64-cpython-314/psutil/arch/all/errors.o build/temp.linux-x86_64-cpython-314/psutil/arch/all/init.o build/temp.linux-x86_64-cpython-314/psutil/arch/all/pids.o build/temp.linux-x86_64-cpython-314/psutil/arch/all/str.o build/temp.linux-x86_64-cpython-314/psutil/arch/linux/disk.o build/temp.linux-x86_64-cpython-314/psutil/arch/linux/heap.o build/temp.linux-x86_64-cpython-314/psutil/arch/linux/mem.o build/temp.linux-x86_64-cpython-314/psutil/arch/linux/net.o build/temp.linux-x86_64-cpython-314/psutil/arch/linux/proc.o build/temp.linux-x86_64-cpython-314/psutil/arch/posix/init.o build/temp.linux-x86_64-cpython-314/psutil/arch/posix/net.o build/temp.linux-x86_64-cpython-314/psutil/arch/posix/pids.o build/temp.linux-x86_64-cpython-314/psutil/arch/posix/proc.o build/temp.linux-x86_64-cpython-314/psutil/arch/posix/sysctl.o build/temp.linux-x86_64-cpython-314/psutil/arch/posix/users.o -L/usr/lib -o build/lib.linux-x86_64-cpython-314/psutil/_psutil_linux.abi3.so
+[12/24/25 08:27:28] WARNING  toml section missing       pyproject_reading.py:215
+                             PosixPath('pyproject.toml'                         
+                             ) does not contain a                               
+                             tool.setuptools_scm                                
+                             section                                            
+running install
+/usr/lib/python3.14/site-packages/setuptools/_distutils/cmd.py:90: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        This deprecation is overdue, please update your project and remove deprecated
+        calls to avoid build errors in the future.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+running build
+running build_py
+running build_ext
+running install_lib
+creating /pkgs/python-psutil/usr/lib/python3.14/site-packages
+creating /pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil
+copying build/lib.linux-x86_64-cpython-314/psutil/_pswindows.py -> /pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil
+copying build/lib.linux-x86_64-cpython-314/psutil/_psaix.py -> /pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil
+copying build/lib.linux-x86_64-cpython-314/psutil/_psutil_linux.abi3.so -> /pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil
+copying build/lib.linux-x86_64-cpython-314/psutil/_common.py -> /pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil
+copying build/lib.linux-x86_64-cpython-314/psutil/__init__.py -> /pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil
+copying build/lib.linux-x86_64-cpython-314/psutil/_psbsd.py -> /pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil
+copying build/lib.linux-x86_64-cpython-314/psutil/_psosx.py -> /pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil
+copying build/lib.linux-x86_64-cpython-314/psutil/_ntuples.py -> /pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil
+copying build/lib.linux-x86_64-cpython-314/psutil/_psposix.py -> /pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil
+copying build/lib.linux-x86_64-cpython-314/psutil/_pslinux.py -> /pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil
+copying build/lib.linux-x86_64-cpython-314/psutil/_pssunos.py -> /pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil
+byte-compiling /pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil/_pswindows.py to _pswindows.cpython-314.pyc
+byte-compiling /pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil/_psaix.py to _psaix.cpython-314.pyc
+byte-compiling /pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil/_common.py to _common.cpython-314.pyc
+byte-compiling /pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil/__init__.py to __init__.cpython-314.pyc
+byte-compiling /pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil/_psbsd.py to _psbsd.cpython-314.pyc
+byte-compiling /pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil/_psosx.py to _psosx.cpython-314.pyc
+byte-compiling /pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil/_ntuples.py to _ntuples.cpython-314.pyc
+byte-compiling /pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil/_psposix.py to _psposix.cpython-314.pyc
+byte-compiling /pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil/_pslinux.py to _pslinux.cpython-314.pyc
+byte-compiling /pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil/_pssunos.py to _pssunos.cpython-314.pyc
+writing byte-compilation script '/tmp/tmpshw9rmhs.py'
+/usr/bin/python3 /tmp/tmpshw9rmhs.py
+removing /tmp/tmpshw9rmhs.py
+running install_egg_info
+running egg_info
+writing psutil.egg-info/PKG-INFO
+writing dependency_links to psutil.egg-info/dependency_links.txt
+writing requirements to psutil.egg-info/requires.txt
+writing top-level names to psutil.egg-info/top_level.txt
+                    ERROR    listing git files failed - pretending     git.py:26
+                             there aren't any                                   
+reading manifest file 'psutil.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching 'docs/_static/copybutton.js'
+warning: no files found matching 'docs/_static/css/custom.css'
+warning: no files found matching 'docs/_static/favicon.ico'
+warning: no files found matching 'docs/_static/sidebar.js'
+warning: no previously-included files matching '*' found under directory 'docs/_static'
+adding license file 'LICENSE'
+writing manifest file 'psutil.egg-info/SOURCES.txt'
+Copying psutil.egg-info to /pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil-7.2.0-py3.14.egg-info
+running install_scripts
+'/pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil-7.2.0-py3.14.egg-info' -> '/usr/lib/python3.14/site-packages/psutil-7.2.0-py3.14.egg-info'
+'/pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil-7.2.0-py3.14.egg-info/top_level.txt' -> '/usr/lib/python3.14/site-packages/psutil-7.2.0-py3.14.egg-info/top_level.txt'
+'/pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil-7.2.0-py3.14.egg-info/not-zip-safe' -> '/usr/lib/python3.14/site-packages/psutil-7.2.0-py3.14.egg-info/not-zip-safe'
+'/pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil-7.2.0-py3.14.egg-info/SOURCES.txt' -> '/usr/lib/python3.14/site-packages/psutil-7.2.0-py3.14.egg-info/SOURCES.txt'
+'/pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil-7.2.0-py3.14.egg-info/requires.txt' -> '/usr/lib/python3.14/site-packages/psutil-7.2.0-py3.14.egg-info/requires.txt'
+'/pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil-7.2.0-py3.14.egg-info/dependency_links.txt' -> '/usr/lib/python3.14/site-packages/psutil-7.2.0-py3.14.egg-info/dependency_links.txt'
+'/pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil-7.2.0-py3.14.egg-info/PKG-INFO' -> '/usr/lib/python3.14/site-packages/psutil-7.2.0-py3.14.egg-info/PKG-INFO'
+'/pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil/_pswindows.py' -> '/usr/lib/python3.14/site-packages/psutil/_pswindows.py'
+'/pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil/_psaix.py' -> '/usr/lib/python3.14/site-packages/psutil/_psaix.py'
+'/pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil/_psutil_linux.abi3.so' -> '/usr/lib/python3.14/site-packages/psutil/_psutil_linux.abi3.so'
+'/pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil/_common.py' -> '/usr/lib/python3.14/site-packages/psutil/_common.py'
+'/pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil/__init__.py' -> '/usr/lib/python3.14/site-packages/psutil/__init__.py'
+'/pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil/_psbsd.py' -> '/usr/lib/python3.14/site-packages/psutil/_psbsd.py'
+'/pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil/_psosx.py' -> '/usr/lib/python3.14/site-packages/psutil/_psosx.py'
+'/pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil/_ntuples.py' -> '/usr/lib/python3.14/site-packages/psutil/_ntuples.py'
+'/pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil/_psposix.py' -> '/usr/lib/python3.14/site-packages/psutil/_psposix.py'
+'/pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil/_pslinux.py' -> '/usr/lib/python3.14/site-packages/psutil/_pslinux.py'
+'/pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil/_pssunos.py' -> '/usr/lib/python3.14/site-packages/psutil/_pssunos.py'
+'/pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil/__pycache__/_pswindows.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/psutil/__pycache__/_pswindows.cpython-314.pyc'
+'/pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil/__pycache__/_psaix.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/psutil/__pycache__/_psaix.cpython-314.pyc'
+'/pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil/__pycache__/_common.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/psutil/__pycache__/_common.cpython-314.pyc'
+'/pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil/__pycache__/__init__.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/psutil/__pycache__/__init__.cpython-314.pyc'
+'/pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil/__pycache__/_psbsd.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/psutil/__pycache__/_psbsd.cpython-314.pyc'
+'/pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil/__pycache__/_psosx.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/psutil/__pycache__/_psosx.cpython-314.pyc'
+'/pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil/__pycache__/_ntuples.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/psutil/__pycache__/_ntuples.cpython-314.pyc'
+'/pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil/__pycache__/_psposix.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/psutil/__pycache__/_psposix.cpython-314.pyc'
+'/pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil/__pycache__/_pslinux.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/psutil/__pycache__/_pslinux.cpython-314.pyc'
+'/pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil/__pycache__/_pssunos.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/psutil/__pycache__/_pssunos.cpython-314.pyc'
+'/pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil/__pycache__/_pswindows.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/psutil/__pycache__/_pswindows.cpython-314.opt-1.pyc'
+'/pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil/__pycache__/_psaix.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/psutil/__pycache__/_psaix.cpython-314.opt-1.pyc'
+'/pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil/__pycache__/_common.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/psutil/__pycache__/_common.cpython-314.opt-1.pyc'
+'/pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil/__pycache__/__init__.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/psutil/__pycache__/__init__.cpython-314.opt-1.pyc'
+'/pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil/__pycache__/_psbsd.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/psutil/__pycache__/_psbsd.cpython-314.opt-1.pyc'
+'/pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil/__pycache__/_psosx.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/psutil/__pycache__/_psosx.cpython-314.opt-1.pyc'
+'/pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil/__pycache__/_ntuples.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/psutil/__pycache__/_ntuples.cpython-314.opt-1.pyc'
+'/pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil/__pycache__/_psposix.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/psutil/__pycache__/_psposix.cpython-314.opt-1.pyc'
+'/pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil/__pycache__/_pslinux.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/psutil/__pycache__/_pslinux.cpython-314.opt-1.pyc'
+'/pkgs/python-psutil/usr/lib/python3.14/site-packages/psutil/__pycache__/_pssunos.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/psutil/__pycache__/_pssunos.cpython-314.opt-1.pyc'
+python-psutil/
+python-psutil/usr/
+python-psutil/usr/lib/
+python-psutil/usr/lib/python3.14/
+python-psutil/usr/lib/python3.14/site-packages/
+python-psutil/usr/lib/python3.14/site-packages/psutil/
+python-psutil/usr/lib/python3.14/site-packages/psutil/_pswindows.py
+python-psutil/usr/lib/python3.14/site-packages/psutil/__pycache__/
+python-psutil/usr/lib/python3.14/site-packages/psutil/__pycache__/_psosx.cpython-314.pyc
+python-psutil/usr/lib/python3.14/site-packages/psutil/__pycache__/_pssunos.cpython-314.pyc
+python-psutil/usr/lib/python3.14/site-packages/psutil/__pycache__/_pswindows.cpython-314.pyc
+python-psutil/usr/lib/python3.14/site-packages/psutil/__pycache__/_pssunos.cpython-314.opt-1.pyc
+python-psutil/usr/lib/python3.14/site-packages/psutil/__pycache__/_ntuples.cpython-314.pyc
+python-psutil/usr/lib/python3.14/site-packages/psutil/__pycache__/_common.cpython-314.opt-1.pyc
+python-psutil/usr/lib/python3.14/site-packages/psutil/__pycache__/_common.cpython-314.pyc
+python-psutil/usr/lib/python3.14/site-packages/psutil/__pycache__/__init__.cpython-314.opt-1.pyc
+python-psutil/usr/lib/python3.14/site-packages/psutil/__pycache__/_psbsd.cpython-314.pyc
+python-psutil/usr/lib/python3.14/site-packages/psutil/__pycache__/_psposix.cpython-314.opt-1.pyc
+python-psutil/usr/lib/python3.14/site-packages/psutil/__pycache__/_psosx.cpython-314.opt-1.pyc
+python-psutil/usr/lib/python3.14/site-packages/psutil/__pycache__/_pslinux.cpython-314.pyc
+python-psutil/usr/lib/python3.14/site-packages/psutil/__pycache__/_pswindows.cpython-314.opt-1.pyc
+python-psutil/usr/lib/python3.14/site-packages/psutil/__pycache__/_pslinux.cpython-314.opt-1.pyc
+python-psutil/usr/lib/python3.14/site-packages/psutil/__pycache__/__init__.cpython-314.pyc
+python-psutil/usr/lib/python3.14/site-packages/psutil/__pycache__/_psbsd.cpython-314.opt-1.pyc
+python-psutil/usr/lib/python3.14/site-packages/psutil/__pycache__/_psposix.cpython-314.pyc
+python-psutil/usr/lib/python3.14/site-packages/psutil/__pycache__/_psaix.cpython-314.opt-1.pyc
+python-psutil/usr/lib/python3.14/site-packages/psutil/__pycache__/_psaix.cpython-314.pyc
+python-psutil/usr/lib/python3.14/site-packages/psutil/__pycache__/_ntuples.cpython-314.opt-1.pyc
+python-psutil/usr/lib/python3.14/site-packages/psutil/_psaix.py
+python-psutil/usr/lib/python3.14/site-packages/psutil/_psutil_linux.abi3.so
+python-psutil/usr/lib/python3.14/site-packages/psutil/_common.py
+python-psutil/usr/lib/python3.14/site-packages/psutil/__init__.py
+python-psutil/usr/lib/python3.14/site-packages/psutil/_psbsd.py
+python-psutil/usr/lib/python3.14/site-packages/psutil/_psosx.py
+python-psutil/usr/lib/python3.14/site-packages/psutil/_ntuples.py
+python-psutil/usr/lib/python3.14/site-packages/psutil/_psposix.py
+python-psutil/usr/lib/python3.14/site-packages/psutil/_pslinux.py
+python-psutil/usr/lib/python3.14/site-packages/psutil/_pssunos.py
+python-psutil/usr/lib/python3.14/site-packages/psutil-7.2.0-py3.14.egg-info/
+python-psutil/usr/lib/python3.14/site-packages/psutil-7.2.0-py3.14.egg-info/top_level.txt
+python-psutil/usr/lib/python3.14/site-packages/psutil-7.2.0-py3.14.egg-info/not-zip-safe
+python-psutil/usr/lib/python3.14/site-packages/psutil-7.2.0-py3.14.egg-info/SOURCES.txt
+python-psutil/usr/lib/python3.14/site-packages/psutil-7.2.0-py3.14.egg-info/requires.txt
+python-psutil/usr/lib/python3.14/site-packages/psutil-7.2.0-py3.14.egg-info/dependency_links.txt
+python-psutil/usr/lib/python3.14/site-packages/psutil-7.2.0-py3.14.egg-info/PKG-INFO
+python-psutil/version
+python-psutil/depends
+python-psutil/make-depends
