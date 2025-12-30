@@ -1,0 +1,1295 @@
+--2025-12-30 08:14:05--  https://archive.xfce.org/src/xfce/xfce4-power-manager/4.21/xfce4-power-manager-4.21.1.tar.xz
+Resolving archive.xfce.org (archive.xfce.org)... 217.70.191.87
+Connecting to archive.xfce.org (archive.xfce.org)|217.70.191.87|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://archive.al-us.xfce.org/src/xfce/xfce4-power-manager/4.21/xfce4-power-manager-4.21.1.tar.xz [following]
+--2025-12-30 08:14:06--  https://archive.al-us.xfce.org/src/xfce/xfce4-power-manager/4.21/xfce4-power-manager-4.21.1.tar.xz
+Resolving archive.al-us.xfce.org (archive.al-us.xfce.org)... 207.223.116.211
+Connecting to archive.al-us.xfce.org (archive.al-us.xfce.org)|207.223.116.211|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 628104 (613K) [application/x-xz]
+Saving to: ‘xfce4-power-manager-4.21.1.tar.xz’
+
+     0K .......... .......... .......... .......... ..........  8%  776K 1s
+    50K .......... .......... .......... .......... .......... 16%  891K 1s
+   100K .......... .......... .......... .......... .......... 24%  368K 1s
+   150K .......... .......... .......... .......... .......... 32%  970K 1s
+   200K .......... .......... .......... .......... .......... 40%  647K 1s
+   250K .......... .......... .......... .......... .......... 48%  937K 0s
+   300K .......... .......... .......... .......... .......... 57%  875K 0s
+   350K .......... .......... .......... .......... .......... 65%  688K 0s
+   400K .......... .......... .......... .......... .......... 73%  878K 0s
+   450K .......... .......... .......... .......... .......... 81%  696K 0s
+   500K .......... .......... .......... .......... .......... 89%  890K 0s
+   550K .......... .......... .......... .......... .......... 97%  776K 0s
+   600K .......... ...                                        100% 1008K=0.8s
+
+2025-12-30 08:14:07 (738 KB/s) - ‘xfce4-power-manager-4.21.1.tar.xz’ saved [628104/628104]
+
+xfce4-power-manager-4.21.1/
+xfce4-power-manager-4.21.1/.clang-format
+xfce4-power-manager-4.21.1/.gitlab-ci.yml
+xfce4-power-manager-4.21.1/.gitmodules
+xfce4-power-manager-4.21.1/.scan-build-false-positives
+xfce4-power-manager-4.21.1/AUTHORS
+xfce4-power-manager-4.21.1/COPYING
+xfce4-power-manager-4.21.1/NEWS
+xfce4-power-manager-4.21.1/README.md
+xfce4-power-manager-4.21.1/common/
+xfce4-power-manager-4.21.1/common/meson.build
+xfce4-power-manager-4.21.1/common/xfpm-brightness-polkit.c
+xfce4-power-manager-4.21.1/common/xfpm-brightness-polkit.h
+xfce4-power-manager-4.21.1/common/xfpm-brightness-x11.c
+xfce4-power-manager-4.21.1/common/xfpm-brightness-x11.h
+xfce4-power-manager-4.21.1/common/xfpm-brightness.c
+xfce4-power-manager-4.21.1/common/xfpm-brightness.h
+xfce4-power-manager-4.21.1/common/xfpm-common.c
+xfce4-power-manager-4.21.1/common/xfpm-common.h
+xfce4-power-manager-4.21.1/common/xfpm-config.h
+xfce4-power-manager-4.21.1/common/xfpm-debug.c
+xfce4-power-manager-4.21.1/common/xfpm-debug.h
+xfce4-power-manager-4.21.1/common/xfpm-enum-glib.h
+xfce4-power-manager-4.21.1/common/xfpm-enum.h
+xfce4-power-manager-4.21.1/common/xfpm-icons.h
+xfce4-power-manager-4.21.1/common/xfpm-power-common.c
+xfce4-power-manager-4.21.1/common/xfpm-power-common.h
+xfce4-power-manager-4.21.1/common/xfpm-ppd-common.c
+xfce4-power-manager-4.21.1/common/xfpm-ppd-common.h
+xfce4-power-manager-4.21.1/data/
+xfce4-power-manager-4.21.1/data/appdata/
+xfce4-power-manager-4.21.1/data/appdata/org.xfce.PowerManager.appdata.xml.in
+xfce4-power-manager-4.21.1/data/appdata/xfce4-power-manager-default.png
+xfce4-power-manager-4.21.1/data/icons/
+xfce4-power-manager-4.21.1/data/icons/128x128/
+xfce4-power-manager-4.21.1/data/icons/128x128/org.xfce.powermanager.png
+xfce4-power-manager-4.21.1/data/icons/16x16/
+xfce4-power-manager-4.21.1/data/icons/16x16/org.xfce.powermanager.png
+xfce4-power-manager-4.21.1/data/icons/16x16/org.xfce.powermanager.svg
+xfce4-power-manager-4.21.1/data/icons/24x24/
+xfce4-power-manager-4.21.1/data/icons/24x24/org.xfce.powermanager.png
+xfce4-power-manager-4.21.1/data/icons/24x24/org.xfce.powermanager.svg
+xfce4-power-manager-4.21.1/data/icons/32x32/
+xfce4-power-manager-4.21.1/data/icons/32x32/ac-adapter.png
+xfce4-power-manager-4.21.1/data/icons/32x32/battery-caution-charging.png
+xfce4-power-manager-4.21.1/data/icons/32x32/battery-caution.png
+xfce4-power-manager-4.21.1/data/icons/32x32/battery-empty-charging.png
+xfce4-power-manager-4.21.1/data/icons/32x32/battery-empty.png
+xfce4-power-manager-4.21.1/data/icons/32x32/battery-full-charged.png
+xfce4-power-manager-4.21.1/data/icons/32x32/battery-full-charging.png
+xfce4-power-manager-4.21.1/data/icons/32x32/battery-full.png
+xfce4-power-manager-4.21.1/data/icons/32x32/battery-good-charging.png
+xfce4-power-manager-4.21.1/data/icons/32x32/battery-good.png
+xfce4-power-manager-4.21.1/data/icons/32x32/battery-low-charging.png
+xfce4-power-manager-4.21.1/data/icons/32x32/battery-low.png
+xfce4-power-manager-4.21.1/data/icons/32x32/battery-missing.png
+xfce4-power-manager-4.21.1/data/icons/32x32/computer.png
+xfce4-power-manager-4.21.1/data/icons/32x32/display-brightness.png
+xfce4-power-manager-4.21.1/data/icons/32x32/input-keyboard.png
+xfce4-power-manager-4.21.1/data/icons/32x32/input-mouse.png
+xfce4-power-manager-4.21.1/data/icons/32x32/keyboard-brightness.png
+xfce4-power-manager-4.21.1/data/icons/32x32/multimedia-player.png
+xfce4-power-manager-4.21.1/data/icons/32x32/org.xfce.powermanager.png
+xfce4-power-manager-4.21.1/data/icons/32x32/org.xfce.powermanager.svg
+xfce4-power-manager-4.21.1/data/icons/32x32/pda.png
+xfce4-power-manager-4.21.1/data/icons/32x32/phone.png
+xfce4-power-manager-4.21.1/data/icons/32x32/tablet.png
+xfce4-power-manager-4.21.1/data/icons/32x32/tablet.svg
+xfce4-power-manager-4.21.1/data/icons/32x32/uninterruptible-power-supply.png
+xfce4-power-manager-4.21.1/data/icons/32x32/video-display.png
+xfce4-power-manager-4.21.1/data/icons/48x48/
+xfce4-power-manager-4.21.1/data/icons/48x48/ac-adapter.png
+xfce4-power-manager-4.21.1/data/icons/48x48/battery-caution-charging.png
+xfce4-power-manager-4.21.1/data/icons/48x48/battery-caution.png
+xfce4-power-manager-4.21.1/data/icons/48x48/battery-empty-charging.png
+xfce4-power-manager-4.21.1/data/icons/48x48/battery-empty.png
+xfce4-power-manager-4.21.1/data/icons/48x48/battery-full-charged.png
+xfce4-power-manager-4.21.1/data/icons/48x48/battery-full-charging.png
+xfce4-power-manager-4.21.1/data/icons/48x48/battery-full.png
+xfce4-power-manager-4.21.1/data/icons/48x48/battery-good-charging.png
+xfce4-power-manager-4.21.1/data/icons/48x48/battery-good.png
+xfce4-power-manager-4.21.1/data/icons/48x48/battery-low-charging.png
+xfce4-power-manager-4.21.1/data/icons/48x48/battery-low.png
+xfce4-power-manager-4.21.1/data/icons/48x48/battery-missing.png
+xfce4-power-manager-4.21.1/data/icons/48x48/computer.png
+xfce4-power-manager-4.21.1/data/icons/48x48/display-brightness.png
+xfce4-power-manager-4.21.1/data/icons/48x48/input-keyboard.png
+xfce4-power-manager-4.21.1/data/icons/48x48/input-mouse.png
+xfce4-power-manager-4.21.1/data/icons/48x48/keyboard-brightness.png
+xfce4-power-manager-4.21.1/data/icons/48x48/multimedia-player.png
+xfce4-power-manager-4.21.1/data/icons/48x48/org.xfce.powermanager.png
+xfce4-power-manager-4.21.1/data/icons/48x48/org.xfce.powermanager.svg
+xfce4-power-manager-4.21.1/data/icons/48x48/pda.png
+xfce4-power-manager-4.21.1/data/icons/48x48/phone.png
+xfce4-power-manager-4.21.1/data/icons/48x48/tablet.png
+xfce4-power-manager-4.21.1/data/icons/48x48/uninterruptible-power-supply.png
+xfce4-power-manager-4.21.1/data/icons/48x48/video-display.png
+xfce4-power-manager-4.21.1/data/icons/64x64/
+xfce4-power-manager-4.21.1/data/icons/64x64/org.xfce.powermanager.png
+xfce4-power-manager-4.21.1/data/icons/64x64/org.xfce.powermanager.svg
+xfce4-power-manager-4.21.1/data/icons/96x96/
+xfce4-power-manager-4.21.1/data/icons/96x96/org.xfce.powermanager.png
+xfce4-power-manager-4.21.1/data/icons/96x96/org.xfce.powermanager.svg
+xfce4-power-manager-4.21.1/data/icons/scalable/
+xfce4-power-manager-4.21.1/data/icons/scalable/ac-adapter-symbolic.svg
+xfce4-power-manager-4.21.1/data/icons/scalable/ac-adapter.svg
+xfce4-power-manager-4.21.1/data/icons/scalable/battery-caution-charging-symbolic.svg
+xfce4-power-manager-4.21.1/data/icons/scalable/battery-caution-charging.svg
+xfce4-power-manager-4.21.1/data/icons/scalable/battery-caution-symbolic.svg
+xfce4-power-manager-4.21.1/data/icons/scalable/battery-caution.svg
+xfce4-power-manager-4.21.1/data/icons/scalable/battery-empty-charging-symbolic.svg
+xfce4-power-manager-4.21.1/data/icons/scalable/battery-empty-charging.svg
+xfce4-power-manager-4.21.1/data/icons/scalable/battery-empty-symbolic.svg
+xfce4-power-manager-4.21.1/data/icons/scalable/battery-empty.svg
+xfce4-power-manager-4.21.1/data/icons/scalable/battery-full-charged-symbolic.svg
+xfce4-power-manager-4.21.1/data/icons/scalable/battery-full-charged.svg
+xfce4-power-manager-4.21.1/data/icons/scalable/battery-full-charging-symbolic.svg
+xfce4-power-manager-4.21.1/data/icons/scalable/battery-full-charging.svg
+xfce4-power-manager-4.21.1/data/icons/scalable/battery-full-symbolic.svg
+xfce4-power-manager-4.21.1/data/icons/scalable/battery-full.svg
+xfce4-power-manager-4.21.1/data/icons/scalable/battery-good-charging-symbolic.svg
+xfce4-power-manager-4.21.1/data/icons/scalable/battery-good-charging.svg
+xfce4-power-manager-4.21.1/data/icons/scalable/battery-good-symbolic.svg
+xfce4-power-manager-4.21.1/data/icons/scalable/battery-good.svg
+xfce4-power-manager-4.21.1/data/icons/scalable/battery-low-charging-symbolic.svg
+xfce4-power-manager-4.21.1/data/icons/scalable/battery-low-charging.svg
+xfce4-power-manager-4.21.1/data/icons/scalable/battery-low-symbolic.svg
+xfce4-power-manager-4.21.1/data/icons/scalable/battery-low.svg
+xfce4-power-manager-4.21.1/data/icons/scalable/battery-missing-symbolic.svg
+xfce4-power-manager-4.21.1/data/icons/scalable/battery-missing.svg
+xfce4-power-manager-4.21.1/data/icons/scalable/computer.svg
+xfce4-power-manager-4.21.1/data/icons/scalable/display-brightness-symbolic.svg
+xfce4-power-manager-4.21.1/data/icons/scalable/display-brightness.svg
+xfce4-power-manager-4.21.1/data/icons/scalable/keyboard-brightness-symbolic.svg
+xfce4-power-manager-4.21.1/data/icons/scalable/keyboard-brightness.svg
+xfce4-power-manager-4.21.1/data/icons/scalable/keyboard.svg
+xfce4-power-manager-4.21.1/data/icons/scalable/mouse.svg
+xfce4-power-manager-4.21.1/data/icons/scalable/multimedia-player.svg
+xfce4-power-manager-4.21.1/data/icons/scalable/org.xfce.powermanager.svg
+xfce4-power-manager-4.21.1/data/icons/scalable/pda.svg
+xfce4-power-manager-4.21.1/data/icons/scalable/phone.svg
+xfce4-power-manager-4.21.1/data/icons/scalable/tablet.svg
+xfce4-power-manager-4.21.1/data/icons/scalable/uninterruptible-power-supply.svg
+xfce4-power-manager-4.21.1/data/icons/scalable/video-display.svg
+xfce4-power-manager-4.21.1/data/interfaces/
+xfce4-power-manager-4.21.1/data/interfaces/meson.build
+xfce4-power-manager-4.21.1/data/interfaces/xfpm-settings.ui
+xfce4-power-manager-4.21.1/data/interfaces/xfpm.gresource.xml
+xfce4-power-manager-4.21.1/data/meson.build
+xfce4-power-manager-4.21.1/libdbus/
+xfce4-power-manager-4.21.1/libdbus/meson.build
+xfce4-power-manager-4.21.1/libdbus/xfpm-dbus-marshal.list
+xfce4-power-manager-4.21.1/libdbus/xfpm-dbus-monitor.c
+xfce4-power-manager-4.21.1/libdbus/xfpm-dbus-monitor.h
+xfce4-power-manager-4.21.1/libdbus/xfpm-dbus.c
+xfce4-power-manager-4.21.1/libdbus/xfpm-dbus.h
+xfce4-power-manager-4.21.1/meson.build
+xfce4-power-manager-4.21.1/meson_options.txt
+xfce4-power-manager-4.21.1/panel-plugin/
+xfce4-power-manager-4.21.1/panel-plugin/meson.build
+xfce4-power-manager-4.21.1/panel-plugin/power-manager-button.c
+xfce4-power-manager-4.21.1/panel-plugin/power-manager-button.h
+xfce4-power-manager-4.21.1/panel-plugin/power-manager-config.c
+xfce4-power-manager-4.21.1/panel-plugin/power-manager-config.h
+xfce4-power-manager-4.21.1/panel-plugin/power-manager-dialog.c
+xfce4-power-manager-4.21.1/panel-plugin/power-manager-dialog.h
+xfce4-power-manager-4.21.1/panel-plugin/power-manager-plugin.c
+xfce4-power-manager-4.21.1/panel-plugin/power-manager-plugin.desktop.in
+xfce4-power-manager-4.21.1/panel-plugin/power-manager-plugin.h
+xfce4-power-manager-4.21.1/panel-plugin/scalemenuitem.c
+xfce4-power-manager-4.21.1/panel-plugin/scalemenuitem.h
+xfce4-power-manager-4.21.1/po/
+xfce4-power-manager-4.21.1/po/LINGUAS
+xfce4-power-manager-4.21.1/po/POTFILES
+xfce4-power-manager-4.21.1/po/ar.po
+xfce4-power-manager-4.21.1/po/ast.po
+xfce4-power-manager-4.21.1/po/be.po
+xfce4-power-manager-4.21.1/po/bg.po
+xfce4-power-manager-4.21.1/po/ca.po
+xfce4-power-manager-4.21.1/po/cs.po
+xfce4-power-manager-4.21.1/po/da.po
+xfce4-power-manager-4.21.1/po/de.po
+xfce4-power-manager-4.21.1/po/el.po
+xfce4-power-manager-4.21.1/po/en_AU.po
+xfce4-power-manager-4.21.1/po/en_CA.po
+xfce4-power-manager-4.21.1/po/en_GB.po
+xfce4-power-manager-4.21.1/po/es.po
+xfce4-power-manager-4.21.1/po/et.po
+xfce4-power-manager-4.21.1/po/eu.po
+xfce4-power-manager-4.21.1/po/fi.po
+xfce4-power-manager-4.21.1/po/fr.po
+xfce4-power-manager-4.21.1/po/gl.po
+xfce4-power-manager-4.21.1/po/he.po
+xfce4-power-manager-4.21.1/po/hr.po
+xfce4-power-manager-4.21.1/po/hu.po
+xfce4-power-manager-4.21.1/po/hy_AM.po
+xfce4-power-manager-4.21.1/po/hye.po
+xfce4-power-manager-4.21.1/po/id.po
+xfce4-power-manager-4.21.1/po/ie.po
+xfce4-power-manager-4.21.1/po/is.po
+xfce4-power-manager-4.21.1/po/it.po
+xfce4-power-manager-4.21.1/po/ja.po
+xfce4-power-manager-4.21.1/po/ka.po
+xfce4-power-manager-4.21.1/po/kk.po
+xfce4-power-manager-4.21.1/po/kn.po
+xfce4-power-manager-4.21.1/po/ko.po
+xfce4-power-manager-4.21.1/po/lt.po
+xfce4-power-manager-4.21.1/po/meson.build
+xfce4-power-manager-4.21.1/po/ms.po
+xfce4-power-manager-4.21.1/po/nb.po
+xfce4-power-manager-4.21.1/po/nl.po
+xfce4-power-manager-4.21.1/po/nn.po
+xfce4-power-manager-4.21.1/po/oc.po
+xfce4-power-manager-4.21.1/po/pa.po
+xfce4-power-manager-4.21.1/po/pl.po
+xfce4-power-manager-4.21.1/po/pt.po
+xfce4-power-manager-4.21.1/po/pt_BR.po
+xfce4-power-manager-4.21.1/po/ro.po
+xfce4-power-manager-4.21.1/po/ru.po
+xfce4-power-manager-4.21.1/po/si.po
+xfce4-power-manager-4.21.1/po/sk.po
+xfce4-power-manager-4.21.1/po/sl.po
+xfce4-power-manager-4.21.1/po/sq.po
+xfce4-power-manager-4.21.1/po/sr.po
+xfce4-power-manager-4.21.1/po/sv.po
+xfce4-power-manager-4.21.1/po/te.po
+xfce4-power-manager-4.21.1/po/th.po
+xfce4-power-manager-4.21.1/po/tr.po
+xfce4-power-manager-4.21.1/po/tt.po
+xfce4-power-manager-4.21.1/po/ug.po
+xfce4-power-manager-4.21.1/po/uk.po
+xfce4-power-manager-4.21.1/po/ur.po
+xfce4-power-manager-4.21.1/po/ur_PK.po
+xfce4-power-manager-4.21.1/po/vi.po
+xfce4-power-manager-4.21.1/po/zh_CN.po
+xfce4-power-manager-4.21.1/po/zh_HK.po
+xfce4-power-manager-4.21.1/po/zh_TW.po
+xfce4-power-manager-4.21.1/protocols/
+xfce4-power-manager-4.21.1/protocols/ext-idle-notify-v1.xml
+xfce4-power-manager-4.21.1/protocols/meson.build
+xfce4-power-manager-4.21.1/protocols/wlr-protocols/
+xfce4-power-manager-4.21.1/protocols/wlr-protocols/.build.yml
+xfce4-power-manager-4.21.1/protocols/wlr-protocols/.editorconfig
+xfce4-power-manager-4.21.1/protocols/wlr-protocols/.gitlab-ci.yml
+xfce4-power-manager-4.21.1/protocols/wlr-protocols/Makefile
+xfce4-power-manager-4.21.1/protocols/wlr-protocols/README.md
+xfce4-power-manager-4.21.1/protocols/wlr-protocols/check.sh
+xfce4-power-manager-4.21.1/protocols/wlr-protocols/unstable/
+xfce4-power-manager-4.21.1/protocols/wlr-protocols/unstable/wlr-data-control-unstable-v1.xml
+xfce4-power-manager-4.21.1/protocols/wlr-protocols/unstable/wlr-export-dmabuf-unstable-v1.xml
+xfce4-power-manager-4.21.1/protocols/wlr-protocols/unstable/wlr-foreign-toplevel-management-unstable-v1.xml
+xfce4-power-manager-4.21.1/protocols/wlr-protocols/unstable/wlr-gamma-control-unstable-v1.xml
+xfce4-power-manager-4.21.1/protocols/wlr-protocols/unstable/wlr-input-inhibitor-unstable-v1.xml
+xfce4-power-manager-4.21.1/protocols/wlr-protocols/unstable/wlr-layer-shell-unstable-v1.xml
+xfce4-power-manager-4.21.1/protocols/wlr-protocols/unstable/wlr-output-management-unstable-v1.xml
+xfce4-power-manager-4.21.1/protocols/wlr-protocols/unstable/wlr-output-power-management-unstable-v1.xml
+xfce4-power-manager-4.21.1/protocols/wlr-protocols/unstable/wlr-screencopy-unstable-v1.xml
+xfce4-power-manager-4.21.1/protocols/wlr-protocols/unstable/wlr-virtual-pointer-unstable-v1.xml
+xfce4-power-manager-4.21.1/protocols/wlr-protocols/wlr-protocols.pc.in
+xfce4-power-manager-4.21.1/settings/
+xfce4-power-manager-4.21.1/settings/meson.build
+xfce4-power-manager-4.21.1/settings/xfce4-power-manager-settings.1
+xfce4-power-manager-4.21.1/settings/xfce4-power-manager-settings.desktop.in
+xfce4-power-manager-4.21.1/settings/xfpm-settings-app.c
+xfce4-power-manager-4.21.1/settings/xfpm-settings-app.h
+xfce4-power-manager-4.21.1/settings/xfpm-settings-main.c
+xfce4-power-manager-4.21.1/settings/xfpm-settings.c
+xfce4-power-manager-4.21.1/settings/xfpm-settings.h
+xfce4-power-manager-4.21.1/src/
+xfce4-power-manager-4.21.1/src/meson.build
+xfce4-power-manager-4.21.1/src/org.freedesktop.PowerManagement.Inhibit.xml
+xfce4-power-manager-4.21.1/src/org.freedesktop.PowerManagement.xml
+xfce4-power-manager-4.21.1/src/org.xfce.Power.Manager.xml
+xfce4-power-manager-4.21.1/src/org.xfce.power.policy.in.in
+xfce4-power-manager-4.21.1/src/xfce4-power-manager.1
+xfce4-power-manager-4.21.1/src/xfce4-power-manager.desktop.in
+xfce4-power-manager-4.21.1/src/xfpm-backlight-helper.c
+xfce4-power-manager-4.21.1/src/xfpm-backlight.c
+xfce4-power-manager-4.21.1/src/xfpm-backlight.h
+xfce4-power-manager-4.21.1/src/xfpm-battery.c
+xfce4-power-manager-4.21.1/src/xfpm-battery.h
+xfce4-power-manager-4.21.1/src/xfpm-button.c
+xfce4-power-manager-4.21.1/src/xfpm-button.h
+xfce4-power-manager-4.21.1/src/xfpm-dpms-wayland.c
+xfce4-power-manager-4.21.1/src/xfpm-dpms-wayland.h
+xfce4-power-manager-4.21.1/src/xfpm-dpms-x11.c
+xfce4-power-manager-4.21.1/src/xfpm-dpms-x11.h
+xfce4-power-manager-4.21.1/src/xfpm-dpms.c
+xfce4-power-manager-4.21.1/src/xfpm-dpms.h
+xfce4-power-manager-4.21.1/src/xfpm-errors.c
+xfce4-power-manager-4.21.1/src/xfpm-errors.h
+xfce4-power-manager-4.21.1/src/xfpm-idle-wayland.c
+xfce4-power-manager-4.21.1/src/xfpm-idle-wayland.h
+xfce4-power-manager-4.21.1/src/xfpm-idle-x11.c
+xfce4-power-manager-4.21.1/src/xfpm-idle-x11.h
+xfce4-power-manager-4.21.1/src/xfpm-idle.c
+xfce4-power-manager-4.21.1/src/xfpm-idle.h
+xfce4-power-manager-4.21.1/src/xfpm-inhibit.c
+xfce4-power-manager-4.21.1/src/xfpm-inhibit.h
+xfce4-power-manager-4.21.1/src/xfpm-kbd-backlight.c
+xfce4-power-manager-4.21.1/src/xfpm-kbd-backlight.h
+xfce4-power-manager-4.21.1/src/xfpm-main.c
+xfce4-power-manager-4.21.1/src/xfpm-manager.c
+xfce4-power-manager-4.21.1/src/xfpm-manager.h
+xfce4-power-manager-4.21.1/src/xfpm-marshal.list
+xfce4-power-manager-4.21.1/src/xfpm-notify.c
+xfce4-power-manager-4.21.1/src/xfpm-notify.h
+xfce4-power-manager-4.21.1/src/xfpm-pm-helper.c
+xfce4-power-manager-4.21.1/src/xfpm-polkit.c
+xfce4-power-manager-4.21.1/src/xfpm-polkit.h
+xfce4-power-manager-4.21.1/src/xfpm-power.c
+xfce4-power-manager-4.21.1/src/xfpm-power.h
+xfce4-power-manager-4.21.1/src/xfpm-ppd.c
+xfce4-power-manager-4.21.1/src/xfpm-ppd.h
+xfce4-power-manager-4.21.1/src/xfpm-suspend.c
+xfce4-power-manager-4.21.1/src/xfpm-suspend.h
+xfce4-power-manager-4.21.1/src/xfpm-xfconf.c
+xfce4-power-manager-4.21.1/src/xfpm-xfconf.h
+xfce4-power-manager-4.21.1/xfce-revision.h.in
+The Meson build system
+Version: 1.10.0
+Source dir: /blfs/builds/xfce4-power-manager-4.21.1
+Build dir: /blfs/builds/xfce4-power-manager-4.21.1/build
+Build type: native build
+Project name: xfce4-power-manager
+Project version: 4.21.1
+C compiler for the host machine: cc (gcc 15.2.0 "cc (GCC) 15.2.0")
+C linker for the host machine: cc ld.bfd 2.45
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Run-time dependency glib-2.0 found: YES 2.86.3
+Run-time dependency gio-2.0 found: YES 2.86.3
+Run-time dependency gio-unix-2.0 found: YES 2.86.3
+Run-time dependency gmodule-2.0 found: YES 2.86.3
+Run-time dependency gobject-2.0 found: YES 2.86.3
+Run-time dependency gthread-2.0 found: YES 2.86.3
+Run-time dependency gtk+-3.0 found: YES 3.24.51
+Run-time dependency libnotify found: YES 0.8.7
+Run-time dependency upower-glib found: YES 1.91.0
+Run-time dependency libxfce4ui-2 found: YES 4.21.3
+Run-time dependency libxfce4util-1.0 found: YES 4.20.1
+Run-time dependency libxfconf-0 found: YES 4.21.0
+Run-time dependency gdk-x11-3.0 found: YES 3.24.51
+Run-time dependency x11 found: YES 1.8.12
+Run-time dependency xext found: YES 1.3.6
+Run-time dependency xrandr found: YES 1.5.4
+Run-time dependency gdk-wayland-3.0 found: YES 3.24.51
+Run-time dependency wayland-client found: YES 1.24.0
+Build-time dependency wayland-scanner found: YES 1.24.0
+Run-time dependency wayland-protocols found: YES 1.47
+Header "X11/XF86keysym.h" has symbol "XF86XK_Suspend" : YES 
+Header "X11/XF86keysym.h" has symbol "XF86XK_Hibernate" : YES 
+Program /usr/bin/wayland-scanner found: YES (/usr/bin/wayland-scanner)
+Found CMake: /usr/bin/cmake (4.2.1)
+Run-time dependency wlr-protocols found: NO (tried pkgconfig and cmake)
+Run-time dependency libxfce4panel-2.0 found: YES 4.21.1
+Run-time dependency polkit-gobject-1 found: YES 127
+Checking for function "setsid" : YES 
+Checking for function "sigprocmask" : YES 
+Check usable header "sys/param.h" : YES 
+Check usable header "sys/resource.h" : YES 
+Check usable header "sys/stat.h" : YES 
+Check usable header "sys/sysctl.h" : NO 
+Check usable header "sys/types.h" : YES 
+Check usable header "sys/user.h" : YES 
+Check usable header "sys/wait.h" : YES 
+Check usable header "errno.h" : YES 
+Check usable header "math.h" : YES 
+Check usable header "memory.h" : YES 
+Check usable header "stdlib.h" : YES 
+Check usable header "signal.h" : YES 
+Check usable header "string.h" : YES 
+Check usable header "unistd.h" : YES 
+Library m found: YES
+Compiler for C supports arguments -Wmissing-declarations: YES 
+Compiler for C supports arguments -Wmissing-noreturn: YES 
+Compiler for C supports arguments -Wold-style-definition: YES 
+Compiler for C supports arguments -Wredundant-decls: YES 
+Compiler for C supports arguments -Wpointer-arith: YES 
+Compiler for C supports arguments -Wcast-align: YES 
+Compiler for C supports arguments -Winit-self: YES 
+Compiler for C supports arguments -Wshadow: YES 
+Compiler for C supports arguments -Wmissing-include-dirs: YES 
+Compiler for C supports arguments -Wundef: YES 
+Compiler for C supports arguments -Wformat: YES 
+Compiler for C supports arguments -Wformat-security: YES 
+Compiler for C supports arguments -Wformat-y2k: YES 
+Compiler for C supports arguments -Wnested-externs: YES 
+Compiler for C supports arguments -Wno-unused-parameter: YES 
+Compiler for C supports arguments -Wno-declaration-after-statement: YES 
+Compiler for C supports arguments -Wno-missing-field-initializers: YES 
+Compiler for C supports arguments -Werror=implicit-function-declaration: YES 
+Compiler for C supports arguments -Wno-error=deprecated-declarations: YES 
+Dependency glib-2.0 found: YES 2.86.3 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Dependency glib-2.0 found: YES 2.86.3 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Dependency gio-2.0 found: YES 2.86.3 (cached)
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Dependency glib-2.0 found: YES 2.86.3 (cached)
+Program /usr/bin/glib-genmarshal found: YES (/usr/bin/glib-genmarshal)
+Program msginit found: YES (/usr/bin/msginit)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program xgettext found: YES (/usr/bin/xgettext)
+Dependency gio-2.0 found: YES 2.86.3 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Dependency glib-2.0 found: YES 2.86.3 (cached)
+Program /usr/bin/glib-genmarshal found: YES (/usr/bin/glib-genmarshal)
+Dependency gio-2.0 found: YES 2.86.3 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Dependency gio-2.0 found: YES 2.86.3 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Dependency gio-2.0 found: YES 2.86.3 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Configuring org.xfce.power.policy.in using configuration
+Build targets in project: 100
+
+xfce4-power-manager 4.21.1
+
+  User defined options
+    buildtype: release
+    prefix   : /usr
+
+Found ninja-1.13.2 at /usr/bin/ninja
+[1/150] Generating protocols/wlr-output-power-management-unstable-v1-client-header with a custom command
+[2/150] Generating protocols/wlr-output-power-management-unstable-v1-private-code with a custom command
+[3/150] Generating protocols/wlr-output-management-unstable-v1-client-header with a custom command
+[4/150] Generating protocols/wlr-output-management-unstable-v1-private-code with a custom command
+[5/150] Generating data/interfaces/xfpm-resources_h with a custom command
+[6/150] Generating protocols/ext-idle-notify-v1-private-code with a custom command
+[7/150] Generating protocols/ext-idle-notify-v1-client-header with a custom command
+[8/150] Generating data/interfaces/xfpm-resources_c with a custom command
+[9/150] Generating gdbus source settings/xfce-power-manager-dbus.c
+[10/150] Generating gdbus header settings/xfce-power-manager-dbus.h
+[11/150] Generating xfce-revision.h with a custom command
+[12/150] Generating glib marshaller header libdbus/xfpm-dbus-marshal_h
+[13/150] Generating gdbus source src/xfce-power-manager-dbus.c
+[14/150] Generating glib marshaller header src/xfpm-marshal_h
+[15/150] Generating gdbus header src/xfce-power-manager-dbus.h
+[16/150] Generating gdbus header src/org.freedesktop.PowerManagement.h
+[17/150] Generating gdbus header src/org.freedesktop.PowerManagement.Inhibit.h
+[18/150] Generating gdbus source src/org.freedesktop.PowerManagement.c
+[19/150] Generating gdbus source src/org.freedesktop.PowerManagement.Inhibit.c
+[20/150] Generating GObject enum file common/xfpm-enum-types.c (wrapped by meson because command contains newlines, to capture output)
+[21/150] Generating glib marshaller source src/xfpm-marshal_c
+[22/150] Generating glib marshaller source libdbus/xfpm-dbus-marshal_c
+[23/150] Generating GObject enum file common/xfpm-enum-types.h (wrapped by meson because command contains newlines, to capture output)
+[24/150] Compiling C object common/libxfpmcommon.a.p/meson-generated_.._.._protocols_ext-idle-notify-v1.c.o
+[25/150] Compiling C object common/libxfpmcommon.a.p/meson-generated_.._.._protocols_wlr-output-power-management-unstable-v1.c.o
+[26/150] Compiling C object common/libxfpmcommon.a.p/meson-generated_.._.._protocols_wlr-output-management-unstable-v1.c.o
+[27/150] Compiling C object libdbus/libxfpmdbus.a.p/xfpm-dbus.c.o
+[28/150] Compiling C object libdbus/libxfpmdbus.a.p/meson-generated_.._xfpm-dbus-marshal.c.o
+[29/150] Compiling C object common/libxfpmcommon.a.p/meson-generated_.._xfpm-enum-types.c.o
+[30/150] Compiling C object panel-plugin/libxfce4powermanager.so.p/power-manager-config.c.o
+[31/150] Compiling C object settings/xfce4-power-manager-settings.p/meson-generated_.._xfce-power-manager-dbus.c.o
+[32/150] Compiling C object libdbus/libxfpmdbus.a.p/xfpm-dbus-monitor.c.o
+[33/150] Compiling C object panel-plugin/libxfce4powermanager.so.p/scalemenuitem.c.o
+[34/150] Compiling C object common/libxfpmcommon.a.p/xfpm-debug.c.o
+[35/150] Compiling C object panel-plugin/libxfce4powermanager.so.p/power-manager-plugin.c.o
+[36/150] Linking static target libdbus/libxfpmdbus.a
+[37/150] Compiling C object settings/xfce4-power-manager-settings.p/meson-generated_.._.._data_interfaces_xfpm-resources.c.o
+[38/150] Compiling C object common/libxfpmcommon.a.p/xfpm-brightness-polkit.c.o
+[39/150] Compiling C object common/libxfpmcommon.a.p/xfpm-brightness.c.o
+[40/150] Compiling C object panel-plugin/libxfce4powermanager.so.p/power-manager-button.c.o
+[41/150] Compiling C object src/xfce4-power-manager.p/meson-generated_.._.._protocols_wlr-output-power-management-unstable-v1.c.o
+[42/150] Compiling C object src/xfce4-power-manager.p/meson-generated_.._.._protocols_ext-idle-notify-v1.c.o
+[43/150] Compiling C object common/libxfpmcommon.a.p/xfpm-ppd-common.c.o
+[44/150] Compiling C object common/libxfpmcommon.a.p/xfpm-power-common.c.o
+../common/xfpm-power-common.c: In function ‘get_device_icon_name’:
+../common/xfpm-power-common.c:255:3: warning: ‘up_client_get_lid_is_present’ is deprecated [-Wdeprecated-declarations]
+  255 |   else if (!up_client_get_lid_is_present (upower)
+      |   ^~~~
+In file included from /usr/include/libupower-glib/upower.h:38,
+                 from ../common/xfpm-power-common.h:24,
+                 from ../common/xfpm-power-common.c:24:
+/usr/include/libupower-glib/up-client.h:100:18: note: declared here
+  100 | gboolean         up_client_get_lid_is_present           (UpClient               *client);
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[45/150] Compiling C object src/xfce4-power-manager.p/meson-generated_.._.._protocols_wlr-output-management-unstable-v1.c.o
+[46/150] Compiling C object panel-plugin/libxfce4powermanager.so.p/power-manager-dialog.c.o
+[47/150] Compiling C object src/xfce4-power-manager.p/meson-generated_.._xfpm-marshal.c.o
+[48/150] Compiling C object common/libxfpmcommon.a.p/xfpm-brightness-x11.c.o
+[49/150] Compiling C object settings/xfce4-power-manager-settings.p/xfpm-settings-main.c.o
+[50/150] Compiling C object src/xfce4-power-manager.p/meson-generated_.._org.freedesktop.PowerManagement.Inhibit.c.o
+[51/150] Compiling C object common/libxfpmcommon.a.p/xfpm-common.c.o
+[52/150] Compiling C object settings/xfce4-power-manager-settings.p/xfpm-settings-app.c.o
+[53/150] Linking static target common/libxfpmcommon.a
+[54/150] Compiling C object src/xfce4-power-manager.p/meson-generated_.._xfce-power-manager-dbus.c.o
+[55/150] Compiling C object src/xfce4-power-manager.p/meson-generated_.._org.freedesktop.PowerManagement.c.o
+[56/150] Compiling C object src/xfce4-power-manager.p/xfpm-errors.c.o
+[57/150] Compiling C object src/xfce4-power-manager.p/xfpm-battery.c.o
+[58/150] Compiling C object src/xfce4-power-manager.p/xfpm-backlight.c.o
+[59/150] Compiling C object src/xfce4-power-manager.p/xfpm-idle.c.o
+[60/150] Compiling C object settings/xfce4-power-manager-settings.p/xfpm-settings.c.o
+[61/150] Compiling C object src/xfce4-power-manager.p/xfpm-dpms.c.o
+[62/150] Compiling C object src/xfce4-power-manager.p/xfpm-button.c.o
+[63/150] Compiling C object src/xfce4-power-manager.p/xfpm-inhibit.c.o
+[64/150] Compiling C object src/xfce4-power-manager.p/xfpm-xfconf.c.o
+[65/150] Compiling C object src/xfce4-power-manager.p/xfpm-main.c.o
+[66/150] Compiling C object src/xfce4-power-manager.p/xfpm-notify.c.o
+[67/150] Compiling C object src/xfce4-power-manager.p/xfpm-ppd.c.o
+[68/150] Compiling C object src/xfce4-power-manager.p/xfpm-kbd-backlight.c.o
+[69/150] Compiling C object src/xfpm-power-backlight-helper.p/xfpm-backlight-helper.c.o
+[70/150] Compiling C object src/xfce4-pm-helper.p/xfpm-pm-helper.c.o
+[71/150] Building translation po/ar/LC_MESSAGES/xfce4-power-manager-ar.mo
+[72/150] Compiling C object src/xfce4-power-manager.p/xfpm-polkit.c.o
+[73/150] Building translation po/ast/LC_MESSAGES/xfce4-power-manager-ast.mo
+[74/150] Compiling C object src/xfce4-power-manager.p/xfpm-manager.c.o
+[75/150] Building translation po/be/LC_MESSAGES/xfce4-power-manager-be.mo
+[76/150] Compiling C object src/xfce4-power-manager.p/xfpm-dpms-wayland.c.o
+[77/150] Compiling C object src/xfce4-power-manager.p/xfpm-dpms-x11.c.o
+[78/150] Building translation po/da/LC_MESSAGES/xfce4-power-manager-da.mo
+[79/150] Building translation po/bg/LC_MESSAGES/xfce4-power-manager-bg.mo
+[80/150] Building translation po/cs/LC_MESSAGES/xfce4-power-manager-cs.mo
+[81/150] Building translation po/ca/LC_MESSAGES/xfce4-power-manager-ca.mo
+[82/150] Building translation po/el/LC_MESSAGES/xfce4-power-manager-el.mo
+[83/150] Building translation po/de/LC_MESSAGES/xfce4-power-manager-de.mo
+[84/150] Compiling C object src/xfce4-power-manager.p/xfpm-idle-wayland.c.o
+[85/150] Building translation po/es/LC_MESSAGES/xfce4-power-manager-es.mo
+[86/150] Building translation po/en_CA/LC_MESSAGES/xfce4-power-manager-en_CA.mo
+[87/150] Building translation po/et/LC_MESSAGES/xfce4-power-manager-et.mo
+[88/150] Building translation po/eu/LC_MESSAGES/xfce4-power-manager-eu.mo
+[89/150] Building translation po/en_AU/LC_MESSAGES/xfce4-power-manager-en_AU.mo
+[90/150] Building translation po/en_GB/LC_MESSAGES/xfce4-power-manager-en_GB.mo
+[91/150] Building translation po/fi/LC_MESSAGES/xfce4-power-manager-fi.mo
+[92/150] Linking target panel-plugin/libxfce4powermanager.so
+[93/150] Building translation po/gl/LC_MESSAGES/xfce4-power-manager-gl.mo
+[94/150] Building translation po/he/LC_MESSAGES/xfce4-power-manager-he.mo
+[95/150] Building translation po/hy_AM/LC_MESSAGES/xfce4-power-manager-hy_AM.mo
+[96/150] Building translation po/hye/LC_MESSAGES/xfce4-power-manager-hye.mo
+[97/150] Building translation po/hu/LC_MESSAGES/xfce4-power-manager-hu.mo
+[98/150] Compiling C object src/xfce4-power-manager.p/xfpm-idle-x11.c.o
+[99/150] Building translation po/fr/LC_MESSAGES/xfce4-power-manager-fr.mo
+[100/150] Building translation po/hr/LC_MESSAGES/xfce4-power-manager-hr.mo
+[101/150] Building translation po/id/LC_MESSAGES/xfce4-power-manager-id.mo
+[102/150] Building translation po/ie/LC_MESSAGES/xfce4-power-manager-ie.mo
+[103/150] Building translation po/is/LC_MESSAGES/xfce4-power-manager-is.mo
+[104/150] Building translation po/it/LC_MESSAGES/xfce4-power-manager-it.mo
+[105/150] Building translation po/ja/LC_MESSAGES/xfce4-power-manager-ja.mo
+[106/150] Building translation po/ka/LC_MESSAGES/xfce4-power-manager-ka.mo
+[107/150] Building translation po/kk/LC_MESSAGES/xfce4-power-manager-kk.mo
+[108/150] Building translation po/ko/LC_MESSAGES/xfce4-power-manager-ko.mo
+[109/150] Compiling C object src/xfce4-power-manager.p/xfpm-suspend.c.o
+[110/150] Building translation po/lt/LC_MESSAGES/xfce4-power-manager-lt.mo
+[111/150] Building translation po/kn/LC_MESSAGES/xfce4-power-manager-kn.mo
+[112/150] Building translation po/ms/LC_MESSAGES/xfce4-power-manager-ms.mo
+[113/150] Building translation po/nb/LC_MESSAGES/xfce4-power-manager-nb.mo
+[114/150] Building translation po/nl/LC_MESSAGES/xfce4-power-manager-nl.mo
+[115/150] Building translation po/pl/LC_MESSAGES/xfce4-power-manager-pl.mo
+[116/150] Building translation po/nn/LC_MESSAGES/xfce4-power-manager-nn.mo
+[117/150] Building translation po/pt_BR/LC_MESSAGES/xfce4-power-manager-pt_BR.mo
+[118/150] Building translation po/ro/LC_MESSAGES/xfce4-power-manager-ro.mo
+[119/150] Building translation po/ru/LC_MESSAGES/xfce4-power-manager-ru.mo
+[120/150] Building translation po/pt/LC_MESSAGES/xfce4-power-manager-pt.mo
+[121/150] Building translation po/pa/LC_MESSAGES/xfce4-power-manager-pa.mo
+[122/150] Building translation po/si/LC_MESSAGES/xfce4-power-manager-si.mo
+[123/150] Building translation po/sk/LC_MESSAGES/xfce4-power-manager-sk.mo
+[124/150] Building translation po/sl/LC_MESSAGES/xfce4-power-manager-sl.mo
+[125/150] Building translation po/sq/LC_MESSAGES/xfce4-power-manager-sq.mo
+[126/150] Building translation po/sr/LC_MESSAGES/xfce4-power-manager-sr.mo
+[127/150] Building translation po/oc/LC_MESSAGES/xfce4-power-manager-oc.mo
+[128/150] Building translation po/sv/LC_MESSAGES/xfce4-power-manager-sv.mo
+[129/150] Building translation po/te/LC_MESSAGES/xfce4-power-manager-te.mo
+[130/150] Building translation po/th/LC_MESSAGES/xfce4-power-manager-th.mo
+[131/150] Building translation po/tr/LC_MESSAGES/xfce4-power-manager-tr.mo
+[132/150] Building translation po/tt/LC_MESSAGES/xfce4-power-manager-tt.mo
+[133/150] Building translation po/ur_PK/LC_MESSAGES/xfce4-power-manager-ur_PK.mo
+[134/150] Building translation po/uk/LC_MESSAGES/xfce4-power-manager-uk.mo
+[135/150] Building translation po/ug/LC_MESSAGES/xfce4-power-manager-ug.mo
+[136/150] Building translation po/zh_CN/LC_MESSAGES/xfce4-power-manager-zh_CN.mo
+[137/150] Building translation po/vi/LC_MESSAGES/xfce4-power-manager-vi.mo
+[138/150] Building translation po/zh_HK/LC_MESSAGES/xfce4-power-manager-zh_HK.mo
+[139/150] Building translation po/ur/LC_MESSAGES/xfce4-power-manager-ur.mo
+[140/150] Building translation po/zh_TW/LC_MESSAGES/xfce4-power-manager-zh_TW.mo
+[141/150] Linking target src/xfpm-power-backlight-helper
+[142/150] Linking target src/xfce4-pm-helper
+[143/150] Merging translations for data/org.xfce.PowerManager.appdata.xml
+[144/150] Merging translations for panel-plugin/power-manager-plugin.desktop
+[145/150] Linking target settings/xfce4-power-manager-settings
+[146/150] Merging translations for settings/xfce4-power-manager-settings.desktop
+[147/150] Merging translations for src/org.xfce.power.policy
+[148/150] Merging translations for src/xfce4-power-manager.desktop
+[149/150] Compiling C object src/xfce4-power-manager.p/xfpm-power.c.o
+[150/150] Linking target src/xfce4-power-manager
+[1/10] Generating xfce-revision.h with a custom command
+[1/2] Installing files
+Installing data/org.xfce.PowerManager.appdata.xml to /pkgs/xfce4-power-manager/usr/share/metainfo
+Installing panel-plugin/libxfce4powermanager.so to /pkgs/xfce4-power-manager/usr/lib/xfce4/panel/plugins
+Installing panel-plugin/power-manager-plugin.desktop to /pkgs/xfce4-power-manager/usr/share/xfce4/panel/plugins
+Installing po/ar/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/ar/LC_MESSAGES
+Installing po/ast/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/ast/LC_MESSAGES
+Installing po/be/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/be/LC_MESSAGES
+Installing po/bg/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/bg/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/ca/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/cs/LC_MESSAGES
+Installing po/da/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/de/LC_MESSAGES
+Installing po/el/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/el/LC_MESSAGES
+Installing po/en_AU/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/en_AU/LC_MESSAGES
+Installing po/en_CA/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/en_CA/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/en_GB/LC_MESSAGES
+Installing po/es/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/es/LC_MESSAGES
+Installing po/et/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/et/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/eu/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/fr/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/gl/LC_MESSAGES
+Installing po/he/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/he/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/hu/LC_MESSAGES
+Installing po/hy_AM/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/hy_AM/LC_MESSAGES
+Installing po/hye/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/hye/LC_MESSAGES
+Installing po/id/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/id/LC_MESSAGES
+Installing po/ie/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/ie/LC_MESSAGES
+Installing po/is/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/is/LC_MESSAGES
+Installing po/it/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/it/LC_MESSAGES
+Installing po/ja/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/ja/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/ka/LC_MESSAGES
+Installing po/kk/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/kk/LC_MESSAGES
+Installing po/kn/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/kn/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/ko/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/lt/LC_MESSAGES
+Installing po/ms/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/ms/LC_MESSAGES
+Installing po/nb/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/nb/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/nl/LC_MESSAGES
+Installing po/nn/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/nn/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/oc/LC_MESSAGES
+Installing po/pa/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/pa/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/pl/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/pt/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/ru/LC_MESSAGES
+Installing po/si/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/si/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/sl/LC_MESSAGES
+Installing po/sq/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/sq/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/sr/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/sv/LC_MESSAGES
+Installing po/te/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/te/LC_MESSAGES
+Installing po/th/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/th/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/tr/LC_MESSAGES
+Installing po/tt/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/tt/LC_MESSAGES
+Installing po/ug/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/ug/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/uk/LC_MESSAGES
+Installing po/ur_PK/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/ur_PK/LC_MESSAGES
+Installing po/ur/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/ur/LC_MESSAGES
+Installing po/vi/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/vi/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_HK/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/zh_HK/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/xfce4-power-manager.mo to /pkgs/xfce4-power-manager/usr/share/locale/zh_TW/LC_MESSAGES
+Installing settings/xfce4-power-manager-settings to /pkgs/xfce4-power-manager/usr/bin
+Installing settings/xfce4-power-manager-settings.desktop to /pkgs/xfce4-power-manager/usr/share/applications
+Installing src/xfce4-power-manager to /pkgs/xfce4-power-manager/usr/bin
+Installing src/xfce4-power-manager.desktop to /pkgs/xfce4-power-manager/etc/xdg/autostart
+Installing src/xfpm-power-backlight-helper to /pkgs/xfce4-power-manager/usr/sbin
+Installing src/xfce4-pm-helper to /pkgs/xfce4-power-manager/usr/sbin
+Installing src/org.xfce.power.policy to /pkgs/xfce4-power-manager/usr/share/polkit-1/actions
+Installing /blfs/builds/xfce4-power-manager-4.21.1/settings/xfce4-power-manager-settings.1 to /pkgs/xfce4-power-manager/usr/share/man/man1
+Installing /blfs/builds/xfce4-power-manager-4.21.1/src/xfce4-power-manager.1 to /pkgs/xfce4-power-manager/usr/share/man/man1
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/16x16/org.xfce.powermanager.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/16x16/apps
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/24x24/org.xfce.powermanager.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/24x24/apps
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/org.xfce.powermanager.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/32x32/apps
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/org.xfce.powermanager.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/48x48/apps
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/64x64/org.xfce.powermanager.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/64x64/apps
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/96x96/org.xfce.powermanager.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/96x96/apps
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/128x128/org.xfce.powermanager.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/128x128/apps
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/ac-adapter.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/battery-caution-charging.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/battery-caution.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/battery-empty-charging.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/battery-empty.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/battery-full-charged.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/battery-full-charging.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/battery-full.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/battery-good-charging.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/battery-good.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/battery-low-charging.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/battery-low.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/battery-missing.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/computer.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/display-brightness.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/input-keyboard.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/input-mouse.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/keyboard-brightness.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/multimedia-player.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/pda.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/phone.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/tablet.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/uninterruptible-power-supply.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/video-display.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/ac-adapter.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/battery-caution-charging.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/battery-caution.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/battery-empty-charging.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/battery-empty.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/battery-full-charged.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/battery-full-charging.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/battery-full.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/battery-good-charging.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/battery-good.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/battery-low-charging.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/battery-low.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/battery-missing.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/computer.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/display-brightness.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/input-keyboard.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/input-mouse.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/keyboard-brightness.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/multimedia-player.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/pda.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/phone.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/tablet.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/uninterruptible-power-supply.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/video-display.png to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/org.xfce.powermanager.svg to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/scalable/apps
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/ac-adapter.svg to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/ac-adapter-symbolic.svg to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-caution-charging.svg to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-caution-charging-symbolic.svg to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-caution.svg to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-caution-symbolic.svg to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-empty-charging.svg to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-empty-charging-symbolic.svg to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-empty.svg to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-empty-symbolic.svg to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-full-charged.svg to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-full-charged-symbolic.svg to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-full-charging.svg to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-full-charging-symbolic.svg to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-full.svg to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-full-symbolic.svg to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-good-charging.svg to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-good-charging-symbolic.svg to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-good.svg to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-good-symbolic.svg to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-low-charging.svg to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-low-charging-symbolic.svg to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-low.svg to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-low-symbolic.svg to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-missing.svg to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-missing-symbolic.svg to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/computer.svg to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/display-brightness.svg to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/display-brightness-symbolic.svg to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/keyboard-brightness.svg to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/keyboard-brightness-symbolic.svg to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/keyboard.svg to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/mouse.svg to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/multimedia-player.svg to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/pda.svg to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/phone.svg to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/tablet.svg to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/uninterruptible-power-supply.svg to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/video-display.svg to /pkgs/xfce4-power-manager/usr/share/icons/hicolor/scalable/status
+[1/10] Generating xfce-revision.h with a custom command
+[1/2] Installing files
+Installing data/org.xfce.PowerManager.appdata.xml to /usr/share/metainfo
+Installing panel-plugin/libxfce4powermanager.so to /usr/lib/xfce4/panel/plugins
+Installing panel-plugin/power-manager-plugin.desktop to /usr/share/xfce4/panel/plugins
+Installing po/ar/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/ar/LC_MESSAGES
+Installing po/ast/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/ast/LC_MESSAGES
+Installing po/be/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/be/LC_MESSAGES
+Installing po/bg/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/bg/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/ca/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/cs/LC_MESSAGES
+Installing po/da/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/de/LC_MESSAGES
+Installing po/el/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/el/LC_MESSAGES
+Installing po/en_AU/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/en_AU/LC_MESSAGES
+Installing po/en_CA/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/en_CA/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/en_GB/LC_MESSAGES
+Installing po/es/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/es/LC_MESSAGES
+Installing po/et/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/et/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/eu/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/fr/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/gl/LC_MESSAGES
+Installing po/he/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/he/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/hu/LC_MESSAGES
+Installing po/hy_AM/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/hy_AM/LC_MESSAGES
+Installing po/hye/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/hye/LC_MESSAGES
+Installing po/id/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/id/LC_MESSAGES
+Installing po/ie/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/ie/LC_MESSAGES
+Installing po/is/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/is/LC_MESSAGES
+Installing po/it/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/it/LC_MESSAGES
+Installing po/ja/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/ja/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/ka/LC_MESSAGES
+Installing po/kk/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/kk/LC_MESSAGES
+Installing po/kn/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/kn/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/ko/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/lt/LC_MESSAGES
+Installing po/ms/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/ms/LC_MESSAGES
+Installing po/nb/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/nb/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/nl/LC_MESSAGES
+Installing po/nn/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/nn/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/oc/LC_MESSAGES
+Installing po/pa/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/pa/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/pl/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/pt/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/ru/LC_MESSAGES
+Installing po/si/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/si/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/sl/LC_MESSAGES
+Installing po/sq/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/sq/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/sr/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/sv/LC_MESSAGES
+Installing po/te/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/te/LC_MESSAGES
+Installing po/th/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/th/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/tr/LC_MESSAGES
+Installing po/tt/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/tt/LC_MESSAGES
+Installing po/ug/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/ug/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/uk/LC_MESSAGES
+Installing po/ur_PK/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/ur_PK/LC_MESSAGES
+Installing po/ur/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/ur/LC_MESSAGES
+Installing po/vi/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/vi/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_HK/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/zh_HK/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/xfce4-power-manager.mo to /usr/share/locale/zh_TW/LC_MESSAGES
+Installing settings/xfce4-power-manager-settings to /usr/bin
+Installing settings/xfce4-power-manager-settings.desktop to /usr/share/applications
+Installing src/xfce4-power-manager to /usr/bin
+Installing src/xfce4-power-manager.desktop to /etc/xdg/autostart
+Installing src/xfpm-power-backlight-helper to /usr/sbin
+Installing src/xfce4-pm-helper to /usr/sbin
+Installing src/org.xfce.power.policy to /usr/share/polkit-1/actions
+Installing /blfs/builds/xfce4-power-manager-4.21.1/settings/xfce4-power-manager-settings.1 to /usr/share/man/man1
+Installing /blfs/builds/xfce4-power-manager-4.21.1/src/xfce4-power-manager.1 to /usr/share/man/man1
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/16x16/org.xfce.powermanager.png to /usr/share/icons/hicolor/16x16/apps
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/24x24/org.xfce.powermanager.png to /usr/share/icons/hicolor/24x24/apps
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/org.xfce.powermanager.png to /usr/share/icons/hicolor/32x32/apps
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/org.xfce.powermanager.png to /usr/share/icons/hicolor/48x48/apps
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/64x64/org.xfce.powermanager.png to /usr/share/icons/hicolor/64x64/apps
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/96x96/org.xfce.powermanager.png to /usr/share/icons/hicolor/96x96/apps
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/128x128/org.xfce.powermanager.png to /usr/share/icons/hicolor/128x128/apps
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/ac-adapter.png to /usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/battery-caution-charging.png to /usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/battery-caution.png to /usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/battery-empty-charging.png to /usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/battery-empty.png to /usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/battery-full-charged.png to /usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/battery-full-charging.png to /usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/battery-full.png to /usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/battery-good-charging.png to /usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/battery-good.png to /usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/battery-low-charging.png to /usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/battery-low.png to /usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/battery-missing.png to /usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/computer.png to /usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/display-brightness.png to /usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/input-keyboard.png to /usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/input-mouse.png to /usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/keyboard-brightness.png to /usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/multimedia-player.png to /usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/pda.png to /usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/phone.png to /usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/tablet.png to /usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/uninterruptible-power-supply.png to /usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/32x32/video-display.png to /usr/share/icons/hicolor/32x32/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/ac-adapter.png to /usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/battery-caution-charging.png to /usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/battery-caution.png to /usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/battery-empty-charging.png to /usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/battery-empty.png to /usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/battery-full-charged.png to /usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/battery-full-charging.png to /usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/battery-full.png to /usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/battery-good-charging.png to /usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/battery-good.png to /usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/battery-low-charging.png to /usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/battery-low.png to /usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/battery-missing.png to /usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/computer.png to /usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/display-brightness.png to /usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/input-keyboard.png to /usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/input-mouse.png to /usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/keyboard-brightness.png to /usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/multimedia-player.png to /usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/pda.png to /usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/phone.png to /usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/tablet.png to /usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/uninterruptible-power-supply.png to /usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/48x48/video-display.png to /usr/share/icons/hicolor/48x48/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/org.xfce.powermanager.svg to /usr/share/icons/hicolor/scalable/apps
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/ac-adapter.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/ac-adapter-symbolic.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-caution-charging.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-caution-charging-symbolic.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-caution.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-caution-symbolic.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-empty-charging.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-empty-charging-symbolic.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-empty.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-empty-symbolic.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-full-charged.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-full-charged-symbolic.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-full-charging.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-full-charging-symbolic.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-full.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-full-symbolic.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-good-charging.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-good-charging-symbolic.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-good.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-good-symbolic.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-low-charging.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-low-charging-symbolic.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-low.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-low-symbolic.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-missing.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/battery-missing-symbolic.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/computer.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/display-brightness.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/display-brightness-symbolic.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/keyboard-brightness.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/keyboard-brightness-symbolic.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/keyboard.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/mouse.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/multimedia-player.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/pda.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/phone.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/tablet.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/uninterruptible-power-supply.svg to /usr/share/icons/hicolor/scalable/status
+Installing /blfs/builds/xfce4-power-manager-4.21.1/data/icons/scalable/video-display.svg to /usr/share/icons/hicolor/scalable/status
+xfce4-power-manager/
+xfce4-power-manager/usr/
+xfce4-power-manager/usr/share/
+xfce4-power-manager/usr/share/polkit-1/
+xfce4-power-manager/usr/share/polkit-1/actions/
+xfce4-power-manager/usr/share/polkit-1/actions/org.xfce.power.policy
+xfce4-power-manager/usr/share/locale/
+xfce4-power-manager/usr/share/locale/sr/
+xfce4-power-manager/usr/share/locale/sr/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/sr/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/nl/
+xfce4-power-manager/usr/share/locale/nl/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/nl/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/fi/
+xfce4-power-manager/usr/share/locale/fi/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/fi/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/kn/
+xfce4-power-manager/usr/share/locale/kn/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/kn/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/id/
+xfce4-power-manager/usr/share/locale/id/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/id/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/en_AU/
+xfce4-power-manager/usr/share/locale/en_AU/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/en_AU/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/ro/
+xfce4-power-manager/usr/share/locale/ro/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/ro/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/ko/
+xfce4-power-manager/usr/share/locale/ko/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/ko/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/zh_TW/
+xfce4-power-manager/usr/share/locale/zh_TW/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/zh_TW/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/kk/
+xfce4-power-manager/usr/share/locale/kk/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/kk/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/nb/
+xfce4-power-manager/usr/share/locale/nb/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/nb/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/ie/
+xfce4-power-manager/usr/share/locale/ie/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/ie/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/ar/
+xfce4-power-manager/usr/share/locale/ar/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/ar/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/uk/
+xfce4-power-manager/usr/share/locale/uk/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/uk/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/ast/
+xfce4-power-manager/usr/share/locale/ast/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/ast/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/ug/
+xfce4-power-manager/usr/share/locale/ug/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/ug/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/en_GB/
+xfce4-power-manager/usr/share/locale/en_GB/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/en_GB/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/oc/
+xfce4-power-manager/usr/share/locale/oc/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/oc/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/es/
+xfce4-power-manager/usr/share/locale/es/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/es/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/th/
+xfce4-power-manager/usr/share/locale/th/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/th/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/he/
+xfce4-power-manager/usr/share/locale/he/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/he/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/nn/
+xfce4-power-manager/usr/share/locale/nn/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/nn/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/vi/
+xfce4-power-manager/usr/share/locale/vi/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/vi/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/fr/
+xfce4-power-manager/usr/share/locale/fr/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/fr/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/ca/
+xfce4-power-manager/usr/share/locale/ca/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/ca/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/ur_PK/
+xfce4-power-manager/usr/share/locale/ur_PK/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/ur_PK/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/pl/
+xfce4-power-manager/usr/share/locale/pl/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/pl/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/da/
+xfce4-power-manager/usr/share/locale/da/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/da/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/ru/
+xfce4-power-manager/usr/share/locale/ru/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/ru/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/is/
+xfce4-power-manager/usr/share/locale/is/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/is/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/hr/
+xfce4-power-manager/usr/share/locale/hr/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/hr/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/hy_AM/
+xfce4-power-manager/usr/share/locale/hy_AM/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/hy_AM/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/ja/
+xfce4-power-manager/usr/share/locale/ja/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/ja/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/zh_CN/
+xfce4-power-manager/usr/share/locale/zh_CN/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/zh_CN/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/cs/
+xfce4-power-manager/usr/share/locale/cs/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/cs/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/en_CA/
+xfce4-power-manager/usr/share/locale/en_CA/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/en_CA/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/pt_BR/
+xfce4-power-manager/usr/share/locale/pt_BR/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/pt_BR/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/pt/
+xfce4-power-manager/usr/share/locale/pt/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/pt/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/hu/
+xfce4-power-manager/usr/share/locale/hu/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/hu/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/tr/
+xfce4-power-manager/usr/share/locale/tr/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/tr/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/sl/
+xfce4-power-manager/usr/share/locale/sl/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/sl/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/zh_HK/
+xfce4-power-manager/usr/share/locale/zh_HK/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/zh_HK/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/eu/
+xfce4-power-manager/usr/share/locale/eu/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/eu/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/el/
+xfce4-power-manager/usr/share/locale/el/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/el/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/sv/
+xfce4-power-manager/usr/share/locale/sv/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/sv/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/sk/
+xfce4-power-manager/usr/share/locale/sk/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/sk/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/si/
+xfce4-power-manager/usr/share/locale/si/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/si/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/bg/
+xfce4-power-manager/usr/share/locale/bg/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/bg/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/pa/
+xfce4-power-manager/usr/share/locale/pa/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/pa/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/ka/
+xfce4-power-manager/usr/share/locale/ka/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/ka/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/te/
+xfce4-power-manager/usr/share/locale/te/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/te/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/hye/
+xfce4-power-manager/usr/share/locale/hye/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/hye/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/it/
+xfce4-power-manager/usr/share/locale/it/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/it/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/de/
+xfce4-power-manager/usr/share/locale/de/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/de/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/lt/
+xfce4-power-manager/usr/share/locale/lt/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/lt/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/et/
+xfce4-power-manager/usr/share/locale/et/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/et/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/sq/
+xfce4-power-manager/usr/share/locale/sq/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/sq/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/tt/
+xfce4-power-manager/usr/share/locale/tt/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/tt/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/ur/
+xfce4-power-manager/usr/share/locale/ur/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/ur/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/be/
+xfce4-power-manager/usr/share/locale/be/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/be/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/ms/
+xfce4-power-manager/usr/share/locale/ms/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/ms/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/locale/gl/
+xfce4-power-manager/usr/share/locale/gl/LC_MESSAGES/
+xfce4-power-manager/usr/share/locale/gl/LC_MESSAGES/xfce4-power-manager.mo
+xfce4-power-manager/usr/share/xfce4/
+xfce4-power-manager/usr/share/xfce4/panel/
+xfce4-power-manager/usr/share/xfce4/panel/plugins/
+xfce4-power-manager/usr/share/xfce4/panel/plugins/power-manager-plugin.desktop
+xfce4-power-manager/usr/share/icons/
+xfce4-power-manager/usr/share/icons/hicolor/
+xfce4-power-manager/usr/share/icons/hicolor/48x48/
+xfce4-power-manager/usr/share/icons/hicolor/48x48/apps/
+xfce4-power-manager/usr/share/icons/hicolor/48x48/apps/org.xfce.powermanager.png
+xfce4-power-manager/usr/share/icons/hicolor/48x48/status/
+xfce4-power-manager/usr/share/icons/hicolor/48x48/status/video-display.png
+xfce4-power-manager/usr/share/icons/hicolor/48x48/status/pda.png
+xfce4-power-manager/usr/share/icons/hicolor/48x48/status/battery-full-charging.png
+xfce4-power-manager/usr/share/icons/hicolor/48x48/status/multimedia-player.png
+xfce4-power-manager/usr/share/icons/hicolor/48x48/status/ac-adapter.png
+xfce4-power-manager/usr/share/icons/hicolor/48x48/status/battery-empty.png
+xfce4-power-manager/usr/share/icons/hicolor/48x48/status/input-mouse.png
+xfce4-power-manager/usr/share/icons/hicolor/48x48/status/battery-full-charged.png
+xfce4-power-manager/usr/share/icons/hicolor/48x48/status/uninterruptible-power-supply.png
+xfce4-power-manager/usr/share/icons/hicolor/48x48/status/display-brightness.png
+xfce4-power-manager/usr/share/icons/hicolor/48x48/status/battery-caution-charging.png
+xfce4-power-manager/usr/share/icons/hicolor/48x48/status/phone.png
+xfce4-power-manager/usr/share/icons/hicolor/48x48/status/battery-low.png
+xfce4-power-manager/usr/share/icons/hicolor/48x48/status/tablet.png
+xfce4-power-manager/usr/share/icons/hicolor/48x48/status/computer.png
+xfce4-power-manager/usr/share/icons/hicolor/48x48/status/battery-empty-charging.png
+xfce4-power-manager/usr/share/icons/hicolor/48x48/status/input-keyboard.png
+xfce4-power-manager/usr/share/icons/hicolor/48x48/status/keyboard-brightness.png
+xfce4-power-manager/usr/share/icons/hicolor/48x48/status/battery-missing.png
+xfce4-power-manager/usr/share/icons/hicolor/48x48/status/battery-low-charging.png
+xfce4-power-manager/usr/share/icons/hicolor/48x48/status/battery-caution.png
+xfce4-power-manager/usr/share/icons/hicolor/48x48/status/battery-good.png
+xfce4-power-manager/usr/share/icons/hicolor/48x48/status/battery-full.png
+xfce4-power-manager/usr/share/icons/hicolor/48x48/status/battery-good-charging.png
+xfce4-power-manager/usr/share/icons/hicolor/16x16/
+xfce4-power-manager/usr/share/icons/hicolor/16x16/apps/
+xfce4-power-manager/usr/share/icons/hicolor/16x16/apps/org.xfce.powermanager.png
+xfce4-power-manager/usr/share/icons/hicolor/64x64/
+xfce4-power-manager/usr/share/icons/hicolor/64x64/apps/
+xfce4-power-manager/usr/share/icons/hicolor/64x64/apps/org.xfce.powermanager.png
+xfce4-power-manager/usr/share/icons/hicolor/128x128/
+xfce4-power-manager/usr/share/icons/hicolor/128x128/apps/
+xfce4-power-manager/usr/share/icons/hicolor/128x128/apps/org.xfce.powermanager.png
+xfce4-power-manager/usr/share/icons/hicolor/96x96/
+xfce4-power-manager/usr/share/icons/hicolor/96x96/apps/
+xfce4-power-manager/usr/share/icons/hicolor/96x96/apps/org.xfce.powermanager.png
+xfce4-power-manager/usr/share/icons/hicolor/24x24/
+xfce4-power-manager/usr/share/icons/hicolor/24x24/apps/
+xfce4-power-manager/usr/share/icons/hicolor/24x24/apps/org.xfce.powermanager.png
+xfce4-power-manager/usr/share/icons/hicolor/32x32/
+xfce4-power-manager/usr/share/icons/hicolor/32x32/apps/
+xfce4-power-manager/usr/share/icons/hicolor/32x32/apps/org.xfce.powermanager.png
+xfce4-power-manager/usr/share/icons/hicolor/32x32/status/
+xfce4-power-manager/usr/share/icons/hicolor/32x32/status/video-display.png
+xfce4-power-manager/usr/share/icons/hicolor/32x32/status/pda.png
+xfce4-power-manager/usr/share/icons/hicolor/32x32/status/battery-full-charging.png
+xfce4-power-manager/usr/share/icons/hicolor/32x32/status/multimedia-player.png
+xfce4-power-manager/usr/share/icons/hicolor/32x32/status/ac-adapter.png
+xfce4-power-manager/usr/share/icons/hicolor/32x32/status/battery-empty.png
+xfce4-power-manager/usr/share/icons/hicolor/32x32/status/input-mouse.png
+xfce4-power-manager/usr/share/icons/hicolor/32x32/status/battery-full-charged.png
+xfce4-power-manager/usr/share/icons/hicolor/32x32/status/uninterruptible-power-supply.png
+xfce4-power-manager/usr/share/icons/hicolor/32x32/status/display-brightness.png
+xfce4-power-manager/usr/share/icons/hicolor/32x32/status/battery-caution-charging.png
+xfce4-power-manager/usr/share/icons/hicolor/32x32/status/phone.png
+xfce4-power-manager/usr/share/icons/hicolor/32x32/status/battery-low.png
+xfce4-power-manager/usr/share/icons/hicolor/32x32/status/tablet.png
+xfce4-power-manager/usr/share/icons/hicolor/32x32/status/computer.png
+xfce4-power-manager/usr/share/icons/hicolor/32x32/status/battery-empty-charging.png
+xfce4-power-manager/usr/share/icons/hicolor/32x32/status/input-keyboard.png
+xfce4-power-manager/usr/share/icons/hicolor/32x32/status/keyboard-brightness.png
+xfce4-power-manager/usr/share/icons/hicolor/32x32/status/battery-missing.png
+xfce4-power-manager/usr/share/icons/hicolor/32x32/status/battery-low-charging.png
+xfce4-power-manager/usr/share/icons/hicolor/32x32/status/battery-caution.png
+xfce4-power-manager/usr/share/icons/hicolor/32x32/status/battery-good.png
+xfce4-power-manager/usr/share/icons/hicolor/32x32/status/battery-full.png
+xfce4-power-manager/usr/share/icons/hicolor/32x32/status/battery-good-charging.png
+xfce4-power-manager/usr/share/icons/hicolor/scalable/
+xfce4-power-manager/usr/share/icons/hicolor/scalable/apps/
+xfce4-power-manager/usr/share/icons/hicolor/scalable/apps/org.xfce.powermanager.svg
+xfce4-power-manager/usr/share/icons/hicolor/scalable/status/
+xfce4-power-manager/usr/share/icons/hicolor/scalable/status/keyboard.svg
+xfce4-power-manager/usr/share/icons/hicolor/scalable/status/battery-low-charging-symbolic.svg
+xfce4-power-manager/usr/share/icons/hicolor/scalable/status/battery-full-charged.svg
+xfce4-power-manager/usr/share/icons/hicolor/scalable/status/battery-caution-charging.svg
+xfce4-power-manager/usr/share/icons/hicolor/scalable/status/ac-adapter-symbolic.svg
+xfce4-power-manager/usr/share/icons/hicolor/scalable/status/battery-missing.svg
+xfce4-power-manager/usr/share/icons/hicolor/scalable/status/battery-missing-symbolic.svg
+xfce4-power-manager/usr/share/icons/hicolor/scalable/status/mouse.svg
+xfce4-power-manager/usr/share/icons/hicolor/scalable/status/multimedia-player.svg
+xfce4-power-manager/usr/share/icons/hicolor/scalable/status/uninterruptible-power-supply.svg
+xfce4-power-manager/usr/share/icons/hicolor/scalable/status/computer.svg
+xfce4-power-manager/usr/share/icons/hicolor/scalable/status/battery-empty-charging.svg
+xfce4-power-manager/usr/share/icons/hicolor/scalable/status/display-brightness-symbolic.svg
+xfce4-power-manager/usr/share/icons/hicolor/scalable/status/battery-good-charging-symbolic.svg
+xfce4-power-manager/usr/share/icons/hicolor/scalable/status/battery-empty.svg
+xfce4-power-manager/usr/share/icons/hicolor/scalable/status/battery-full-charging-symbolic.svg
+xfce4-power-manager/usr/share/icons/hicolor/scalable/status/battery-good.svg
+xfce4-power-manager/usr/share/icons/hicolor/scalable/status/battery-empty-symbolic.svg
+xfce4-power-manager/usr/share/icons/hicolor/scalable/status/battery-caution-symbolic.svg
+xfce4-power-manager/usr/share/icons/hicolor/scalable/status/battery-full-charged-symbolic.svg
+xfce4-power-manager/usr/share/icons/hicolor/scalable/status/tablet.svg
+xfce4-power-manager/usr/share/icons/hicolor/scalable/status/battery-full-symbolic.svg
+xfce4-power-manager/usr/share/icons/hicolor/scalable/status/battery-low-symbolic.svg
+xfce4-power-manager/usr/share/icons/hicolor/scalable/status/display-brightness.svg
+xfce4-power-manager/usr/share/icons/hicolor/scalable/status/battery-low-charging.svg
+xfce4-power-manager/usr/share/icons/hicolor/scalable/status/video-display.svg
+xfce4-power-manager/usr/share/icons/hicolor/scalable/status/ac-adapter.svg
+xfce4-power-manager/usr/share/icons/hicolor/scalable/status/battery-good-charging.svg
+xfce4-power-manager/usr/share/icons/hicolor/scalable/status/phone.svg
+xfce4-power-manager/usr/share/icons/hicolor/scalable/status/battery-caution.svg
+xfce4-power-manager/usr/share/icons/hicolor/scalable/status/battery-full-charging.svg
+xfce4-power-manager/usr/share/icons/hicolor/scalable/status/battery-low.svg
+xfce4-power-manager/usr/share/icons/hicolor/scalable/status/keyboard-brightness.svg
+xfce4-power-manager/usr/share/icons/hicolor/scalable/status/keyboard-brightness-symbolic.svg
+xfce4-power-manager/usr/share/icons/hicolor/scalable/status/battery-good-symbolic.svg
+xfce4-power-manager/usr/share/icons/hicolor/scalable/status/battery-full.svg
+xfce4-power-manager/usr/share/icons/hicolor/scalable/status/battery-empty-charging-symbolic.svg
+xfce4-power-manager/usr/share/icons/hicolor/scalable/status/pda.svg
+xfce4-power-manager/usr/share/icons/hicolor/scalable/status/battery-caution-charging-symbolic.svg
+xfce4-power-manager/usr/share/metainfo/
+xfce4-power-manager/usr/share/metainfo/org.xfce.PowerManager.appdata.xml
+xfce4-power-manager/usr/share/applications/
+xfce4-power-manager/usr/share/applications/xfce4-power-manager-settings.desktop
+xfce4-power-manager/usr/share/man/
+xfce4-power-manager/usr/share/man/man1/
+xfce4-power-manager/usr/share/man/man1/xfce4-power-manager-settings.1
+xfce4-power-manager/usr/share/man/man1/xfce4-power-manager.1
+xfce4-power-manager/usr/sbin/
+xfce4-power-manager/usr/sbin/xfpm-power-backlight-helper
+xfce4-power-manager/usr/sbin/xfce4-pm-helper
+xfce4-power-manager/usr/bin/
+xfce4-power-manager/usr/bin/xfce4-power-manager
+xfce4-power-manager/usr/bin/xfce4-power-manager-settings
+xfce4-power-manager/usr/lib/
+xfce4-power-manager/usr/lib/xfce4/
+xfce4-power-manager/usr/lib/xfce4/panel/
+xfce4-power-manager/usr/lib/xfce4/panel/plugins/
+xfce4-power-manager/usr/lib/xfce4/panel/plugins/libxfce4powermanager.so
+xfce4-power-manager/etc/
+xfce4-power-manager/etc/xdg/
+xfce4-power-manager/etc/xdg/autostart/
+xfce4-power-manager/etc/xdg/autostart/xfce4-power-manager.desktop
+xfce4-power-manager/version
+xfce4-power-manager/depends
+xfce4-power-manager/make-depends

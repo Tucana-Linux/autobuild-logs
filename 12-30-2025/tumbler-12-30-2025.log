@@ -1,0 +1,971 @@
+--2025-12-30 08:15:53--  https://archive.xfce.org/src/xfce/tumbler/4.21/tumbler-4.21.1.tar.xz
+Resolving archive.xfce.org (archive.xfce.org)... 217.70.191.87
+Connecting to archive.xfce.org (archive.xfce.org)|217.70.191.87|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://archive.al-us.xfce.org/src/xfce/tumbler/4.21/tumbler-4.21.1.tar.xz [following]
+--2025-12-30 08:15:54--  https://archive.al-us.xfce.org/src/xfce/tumbler/4.21/tumbler-4.21.1.tar.xz
+Resolving archive.al-us.xfce.org (archive.al-us.xfce.org)... 207.223.116.211
+Connecting to archive.al-us.xfce.org (archive.al-us.xfce.org)|207.223.116.211|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 141164 (138K) [application/x-xz]
+Saving to: ‘tumbler-4.21.1.tar.xz’
+
+     0K .......... .......... .......... .......... .......... 36%  627K 0s
+    50K .......... .......... .......... .......... .......... 72%  804K 0s
+   100K .......... .......... .......... .......              100%  938K=0.2s
+
+2025-12-30 08:15:55 (756 KB/s) - ‘tumbler-4.21.1.tar.xz’ saved [141164/141164]
+
+tumbler-4.21.1/
+tumbler-4.21.1/.clang-format
+tumbler-4.21.1/.gitlab-ci.yml
+tumbler-4.21.1/.scan-build-false-positives
+tumbler-4.21.1/AUTHORS
+tumbler-4.21.1/CODING_STYLE
+tumbler-4.21.1/COPYING
+tumbler-4.21.1/NEWS
+tumbler-4.21.1/README.md
+tumbler-4.21.1/acinclude.m4
+tumbler-4.21.1/docs/
+tumbler-4.21.1/docs/reference/
+tumbler-4.21.1/docs/reference/tumbler/
+tumbler-4.21.1/docs/reference/tumbler/gtkdocentities.ent.in
+tumbler-4.21.1/docs/reference/tumbler/meson.build
+tumbler-4.21.1/docs/reference/tumbler/tumbler-docs.xml.in
+tumbler-4.21.1/docs/reference/tumbler/tumbler-sections.txt
+tumbler-4.21.1/docs/reference/tumbler/tumbler.types
+tumbler-4.21.1/docs/reference/tumbler/version.xml.in
+tumbler-4.21.1/icons/
+tumbler-4.21.1/icons/32x32/
+tumbler-4.21.1/icons/32x32/org.xfce.tumbler.png
+tumbler-4.21.1/icons/32x32/org.xfce.tumbler.svg
+tumbler-4.21.1/icons/64x64/
+tumbler-4.21.1/icons/64x64/org.xfce.tumbler.png
+tumbler-4.21.1/icons/64x64/org.xfce.tumbler.svg
+tumbler-4.21.1/icons/meson.build
+tumbler-4.21.1/meson.build
+tumbler-4.21.1/meson_options.txt
+tumbler-4.21.1/plugins/
+tumbler-4.21.1/plugins/cover-thumbnailer/
+tumbler-4.21.1/plugins/cover-thumbnailer/cover-thumbnailer-plugin.c
+tumbler-4.21.1/plugins/cover-thumbnailer/cover-thumbnailer-provider.c
+tumbler-4.21.1/plugins/cover-thumbnailer/cover-thumbnailer-provider.h
+tumbler-4.21.1/plugins/cover-thumbnailer/cover-thumbnailer.c
+tumbler-4.21.1/plugins/cover-thumbnailer/cover-thumbnailer.h
+tumbler-4.21.1/plugins/desktop-thumbnailer/
+tumbler-4.21.1/plugins/desktop-thumbnailer/desktop-thumbnailer-plugin.c
+tumbler-4.21.1/plugins/desktop-thumbnailer/desktop-thumbnailer-provider.c
+tumbler-4.21.1/plugins/desktop-thumbnailer/desktop-thumbnailer-provider.h
+tumbler-4.21.1/plugins/desktop-thumbnailer/desktop-thumbnailer.c
+tumbler-4.21.1/plugins/desktop-thumbnailer/desktop-thumbnailer.h
+tumbler-4.21.1/plugins/ffmpeg-thumbnailer/
+tumbler-4.21.1/plugins/ffmpeg-thumbnailer/ffmpeg-thumbnailer-plugin.c
+tumbler-4.21.1/plugins/ffmpeg-thumbnailer/ffmpeg-thumbnailer-provider.c
+tumbler-4.21.1/plugins/ffmpeg-thumbnailer/ffmpeg-thumbnailer-provider.h
+tumbler-4.21.1/plugins/ffmpeg-thumbnailer/ffmpeg-thumbnailer.c
+tumbler-4.21.1/plugins/ffmpeg-thumbnailer/ffmpeg-thumbnailer.h
+tumbler-4.21.1/plugins/font-thumbnailer/
+tumbler-4.21.1/plugins/font-thumbnailer/font-thumbnailer-plugin.c
+tumbler-4.21.1/plugins/font-thumbnailer/font-thumbnailer-provider.c
+tumbler-4.21.1/plugins/font-thumbnailer/font-thumbnailer-provider.h
+tumbler-4.21.1/plugins/font-thumbnailer/font-thumbnailer.c
+tumbler-4.21.1/plugins/font-thumbnailer/font-thumbnailer.h
+tumbler-4.21.1/plugins/gepub-thumbnailer/
+tumbler-4.21.1/plugins/gepub-thumbnailer/gepub-thumbnailer-plugin.c
+tumbler-4.21.1/plugins/gepub-thumbnailer/gepub-thumbnailer-provider.c
+tumbler-4.21.1/plugins/gepub-thumbnailer/gepub-thumbnailer-provider.h
+tumbler-4.21.1/plugins/gepub-thumbnailer/gepub-thumbnailer.c
+tumbler-4.21.1/plugins/gepub-thumbnailer/gepub-thumbnailer.h
+tumbler-4.21.1/plugins/gst-thumbnailer/
+tumbler-4.21.1/plugins/gst-thumbnailer/gst-thumbnailer-plugin.c
+tumbler-4.21.1/plugins/gst-thumbnailer/gst-thumbnailer-provider.c
+tumbler-4.21.1/plugins/gst-thumbnailer/gst-thumbnailer-provider.h
+tumbler-4.21.1/plugins/gst-thumbnailer/gst-thumbnailer.c
+tumbler-4.21.1/plugins/gst-thumbnailer/gst-thumbnailer.h
+tumbler-4.21.1/plugins/jpeg-thumbnailer/
+tumbler-4.21.1/plugins/jpeg-thumbnailer/jpeg-thumbnailer-plugin.c
+tumbler-4.21.1/plugins/jpeg-thumbnailer/jpeg-thumbnailer-provider.c
+tumbler-4.21.1/plugins/jpeg-thumbnailer/jpeg-thumbnailer-provider.h
+tumbler-4.21.1/plugins/jpeg-thumbnailer/jpeg-thumbnailer.c
+tumbler-4.21.1/plugins/jpeg-thumbnailer/jpeg-thumbnailer.h
+tumbler-4.21.1/plugins/meson.build
+tumbler-4.21.1/plugins/odf-thumbnailer/
+tumbler-4.21.1/plugins/odf-thumbnailer/odf-thumbnailer-plugin.c
+tumbler-4.21.1/plugins/odf-thumbnailer/odf-thumbnailer-provider.c
+tumbler-4.21.1/plugins/odf-thumbnailer/odf-thumbnailer-provider.h
+tumbler-4.21.1/plugins/odf-thumbnailer/odf-thumbnailer.c
+tumbler-4.21.1/plugins/odf-thumbnailer/odf-thumbnailer.h
+tumbler-4.21.1/plugins/pixbuf-thumbnailer/
+tumbler-4.21.1/plugins/pixbuf-thumbnailer/pixbuf-thumbnailer-plugin.c
+tumbler-4.21.1/plugins/pixbuf-thumbnailer/pixbuf-thumbnailer-provider.c
+tumbler-4.21.1/plugins/pixbuf-thumbnailer/pixbuf-thumbnailer-provider.h
+tumbler-4.21.1/plugins/pixbuf-thumbnailer/pixbuf-thumbnailer.c
+tumbler-4.21.1/plugins/pixbuf-thumbnailer/pixbuf-thumbnailer.h
+tumbler-4.21.1/plugins/poppler-thumbnailer/
+tumbler-4.21.1/plugins/poppler-thumbnailer/poppler-thumbnailer-plugin.c
+tumbler-4.21.1/plugins/poppler-thumbnailer/poppler-thumbnailer-provider.c
+tumbler-4.21.1/plugins/poppler-thumbnailer/poppler-thumbnailer-provider.h
+tumbler-4.21.1/plugins/poppler-thumbnailer/poppler-thumbnailer.c
+tumbler-4.21.1/plugins/poppler-thumbnailer/poppler-thumbnailer.h
+tumbler-4.21.1/plugins/raw-thumbnailer/
+tumbler-4.21.1/plugins/raw-thumbnailer/raw-thumbnailer-plugin.c
+tumbler-4.21.1/plugins/raw-thumbnailer/raw-thumbnailer-provider.c
+tumbler-4.21.1/plugins/raw-thumbnailer/raw-thumbnailer-provider.h
+tumbler-4.21.1/plugins/raw-thumbnailer/raw-thumbnailer.c
+tumbler-4.21.1/plugins/raw-thumbnailer/raw-thumbnailer.h
+tumbler-4.21.1/plugins/xdg-cache/
+tumbler-4.21.1/plugins/xdg-cache/meson.build
+tumbler-4.21.1/plugins/xdg-cache/xdg-cache-cache.c
+tumbler-4.21.1/plugins/xdg-cache/xdg-cache-cache.h
+tumbler-4.21.1/plugins/xdg-cache/xdg-cache-plugin.c
+tumbler-4.21.1/plugins/xdg-cache/xdg-cache-thumbnail.c
+tumbler-4.21.1/plugins/xdg-cache/xdg-cache-thumbnail.h
+tumbler-4.21.1/po/
+tumbler-4.21.1/po/LINGUAS
+tumbler-4.21.1/po/POTFILES
+tumbler-4.21.1/po/ar.po
+tumbler-4.21.1/po/ast.po
+tumbler-4.21.1/po/be.po
+tumbler-4.21.1/po/bg.po
+tumbler-4.21.1/po/bn.po
+tumbler-4.21.1/po/ca.po
+tumbler-4.21.1/po/cs.po
+tumbler-4.21.1/po/da.po
+tumbler-4.21.1/po/de.po
+tumbler-4.21.1/po/el.po
+tumbler-4.21.1/po/en_AU.po
+tumbler-4.21.1/po/en_CA.po
+tumbler-4.21.1/po/en_GB.po
+tumbler-4.21.1/po/eo.po
+tumbler-4.21.1/po/es.po
+tumbler-4.21.1/po/et.po
+tumbler-4.21.1/po/eu.po
+tumbler-4.21.1/po/fi.po
+tumbler-4.21.1/po/fr.po
+tumbler-4.21.1/po/gl.po
+tumbler-4.21.1/po/he.po
+tumbler-4.21.1/po/hi.po
+tumbler-4.21.1/po/hr.po
+tumbler-4.21.1/po/hu.po
+tumbler-4.21.1/po/hy_AM.po
+tumbler-4.21.1/po/hye.po
+tumbler-4.21.1/po/id.po
+tumbler-4.21.1/po/is.po
+tumbler-4.21.1/po/it.po
+tumbler-4.21.1/po/ja.po
+tumbler-4.21.1/po/kab.po
+tumbler-4.21.1/po/kk.po
+tumbler-4.21.1/po/ko.po
+tumbler-4.21.1/po/lt.po
+tumbler-4.21.1/po/lv.po
+tumbler-4.21.1/po/meson.build
+tumbler-4.21.1/po/ms.po
+tumbler-4.21.1/po/nb.po
+tumbler-4.21.1/po/nl.po
+tumbler-4.21.1/po/nn.po
+tumbler-4.21.1/po/oc.po
+tumbler-4.21.1/po/pa.po
+tumbler-4.21.1/po/pl.po
+tumbler-4.21.1/po/pt.po
+tumbler-4.21.1/po/pt_BR.po
+tumbler-4.21.1/po/ro.po
+tumbler-4.21.1/po/ru.po
+tumbler-4.21.1/po/si.po
+tumbler-4.21.1/po/sk.po
+tumbler-4.21.1/po/sl.po
+tumbler-4.21.1/po/sq.po
+tumbler-4.21.1/po/sr.po
+tumbler-4.21.1/po/sv.po
+tumbler-4.21.1/po/te.po
+tumbler-4.21.1/po/th.po
+tumbler-4.21.1/po/tr.po
+tumbler-4.21.1/po/ug.po
+tumbler-4.21.1/po/uk.po
+tumbler-4.21.1/po/vi.po
+tumbler-4.21.1/po/zh_CN.po
+tumbler-4.21.1/po/zh_HK.po
+tumbler-4.21.1/po/zh_TW.po
+tumbler-4.21.1/tumbler/
+tumbler-4.21.1/tumbler/.clang-format
+tumbler-4.21.1/tumbler/meson.build
+tumbler-4.21.1/tumbler/tumbler-1.pc.in
+tumbler-4.21.1/tumbler/tumbler-abstract-thumbnailer.c
+tumbler-4.21.1/tumbler/tumbler-abstract-thumbnailer.h
+tumbler-4.21.1/tumbler/tumbler-cache-plugin.c
+tumbler-4.21.1/tumbler/tumbler-cache-plugin.h
+tumbler-4.21.1/tumbler/tumbler-cache.c
+tumbler-4.21.1/tumbler/tumbler-cache.h
+tumbler-4.21.1/tumbler/tumbler-config.c
+tumbler-4.21.1/tumbler/tumbler-config.h.in
+tumbler-4.21.1/tumbler/tumbler-enum-types.c
+tumbler-4.21.1/tumbler/tumbler-enum-types.h
+tumbler-4.21.1/tumbler/tumbler-error.h
+tumbler-4.21.1/tumbler/tumbler-file-info.c
+tumbler-4.21.1/tumbler/tumbler-file-info.h
+tumbler-4.21.1/tumbler/tumbler-marshal.list
+tumbler-4.21.1/tumbler/tumbler-provider-factory.c
+tumbler-4.21.1/tumbler/tumbler-provider-factory.h
+tumbler-4.21.1/tumbler/tumbler-provider-plugin.c
+tumbler-4.21.1/tumbler/tumbler-provider-plugin.h
+tumbler-4.21.1/tumbler/tumbler-thumbnail-flavor.c
+tumbler-4.21.1/tumbler/tumbler-thumbnail-flavor.h
+tumbler-4.21.1/tumbler/tumbler-thumbnail.c
+tumbler-4.21.1/tumbler/tumbler-thumbnail.h
+tumbler-4.21.1/tumbler/tumbler-thumbnailer-provider.c
+tumbler-4.21.1/tumbler/tumbler-thumbnailer-provider.h
+tumbler-4.21.1/tumbler/tumbler-thumbnailer.c
+tumbler-4.21.1/tumbler/tumbler-thumbnailer.h
+tumbler-4.21.1/tumbler/tumbler-util.c
+tumbler-4.21.1/tumbler/tumbler-util.h
+tumbler-4.21.1/tumbler/tumbler.h
+tumbler-4.21.1/tumbler/tumbler.symbols
+tumbler-4.21.1/tumblerd/
+tumbler-4.21.1/tumblerd/main.c
+tumbler-4.21.1/tumblerd/meson.build
+tumbler-4.21.1/tumblerd/org.xfce.Tumbler.Cache1.service.in
+tumbler-4.21.1/tumblerd/org.xfce.Tumbler.Manager1.service.in
+tumbler-4.21.1/tumblerd/org.xfce.Tumbler.Thumbnailer1.service.in
+tumbler-4.21.1/tumblerd/tumbler-cache-service-dbus.xml.in
+tumbler-4.21.1/tumblerd/tumbler-cache-service.c
+tumbler-4.21.1/tumblerd/tumbler-cache-service.h
+tumbler-4.21.1/tumblerd/tumbler-component.c
+tumbler-4.21.1/tumblerd/tumbler-component.h
+tumbler-4.21.1/tumblerd/tumbler-group-scheduler.c
+tumbler-4.21.1/tumblerd/tumbler-group-scheduler.h
+tumbler-4.21.1/tumblerd/tumbler-lifecycle-manager.c
+tumbler-4.21.1/tumblerd/tumbler-lifecycle-manager.h
+tumbler-4.21.1/tumblerd/tumbler-lifo-scheduler.c
+tumbler-4.21.1/tumblerd/tumbler-lifo-scheduler.h
+tumbler-4.21.1/tumblerd/tumbler-manager-dbus.xml.in
+tumbler-4.21.1/tumblerd/tumbler-manager.c
+tumbler-4.21.1/tumblerd/tumbler-manager.h
+tumbler-4.21.1/tumblerd/tumbler-marshal.list
+tumbler-4.21.1/tumblerd/tumbler-registry.c
+tumbler-4.21.1/tumblerd/tumbler-registry.h
+tumbler-4.21.1/tumblerd/tumbler-scheduler.c
+tumbler-4.21.1/tumblerd/tumbler-scheduler.h
+tumbler-4.21.1/tumblerd/tumbler-service-dbus.xml.in
+tumbler-4.21.1/tumblerd/tumbler-service.c
+tumbler-4.21.1/tumblerd/tumbler-service.h
+tumbler-4.21.1/tumblerd/tumbler-specialized-thumbnailer.c
+tumbler-4.21.1/tumblerd/tumbler-specialized-thumbnailer.h
+tumbler-4.21.1/tumblerd/tumbler-utils.h
+tumbler-4.21.1/tumblerd/tumbler.rc
+tumbler-4.21.1/tumblerd/tumblerd.service.in
+tumbler-4.21.1/xdt-gen-visibility
+tumbler-4.21.1/xfce-revision.h.in
+The Meson build system
+Version: 1.10.0
+Source dir: /blfs/builds/tumbler-4.21.1
+Build dir: /blfs/builds/tumbler-4.21.1/build
+Build type: native build
+Project name: tumbler
+Project version: 4.21.1
+C compiler for the host machine: cc (gcc 15.2.0 "cc (GCC) 15.2.0")
+C linker for the host machine: cc ld.bfd 2.45
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Run-time dependency gdk-pixbuf-2.0 found: YES 2.44.4
+Run-time dependency glib-2.0 found: YES 2.86.3
+Run-time dependency gio-2.0 found: YES 2.86.3
+Run-time dependency gio-unix-2.0 found: YES 2.86.3
+Run-time dependency gmodule-2.0 found: YES 2.86.3
+Run-time dependency gthread-2.0 found: YES 2.86.3
+Run-time dependency libxfce4util-1.0 found: YES 4.20.1
+Library m found: YES
+Program xdt-gen-visibility found: YES (/blfs/builds/tumbler-4.21.1/xdt-gen-visibility)
+Run-time dependency libcurl found: YES 8.17.0
+Found CMake: /usr/bin/cmake (4.2.1)
+Run-time dependency libffmpegthumbnailer found: NO (tried pkgconfig and cmake)
+Run-time dependency freetype2 found: YES 26.4.20
+Run-time dependency libgepub-0.7 found: NO (tried pkgconfig and cmake)
+Run-time dependency libgepub-0.6 found: NO (tried pkgconfig and cmake)
+Run-time dependency gstreamer-1.0 found: YES 1.26.10
+Run-time dependency gstreamer-tag-1.0 found: YES 1.26.10
+Run-time dependency libjpeg found: YES 3.1.3
+Run-time dependency libgsf-1 found: NO (tried pkgconfig and cmake)
+Run-time dependency poppler-glib found: YES 25.09.0
+Run-time dependency libopenraw-gnome-0.3 found: NO (tried pkgconfig and cmake)
+Run-time dependency libopenraw-gnome-0.2 found: NO (tried pkgconfig and cmake)
+Run-time dependency libopenraw-gnome-0.1 found: NO (tried pkgconfig and cmake)
+Run-time dependency libpng found: YES 1.6.53
+Checking for function "bind_textdomain_codeset" : YES 
+Checking for function "mmap" : YES 
+Checking for function "sched_getparam" : YES 
+Checking for function "sched_setscheduler" : YES 
+Check usable header "fcntl.h" : YES 
+Check usable header "linux/sched.h" : YES 
+Check usable header "math.h" : YES 
+Check usable header "memory.h" : YES 
+Check usable header "pwd.h" : YES 
+Check usable header "sched.h" : YES 
+Check usable header "setjmp.h" : YES 
+Check usable header "stdio.h" : YES 
+Check usable header "stdlib.h" : YES 
+Check usable header "string.h" : YES 
+Check usable header "syscall.h" : YES 
+Check usable header "unistd.h" : YES 
+Check usable header "sys/mman.h" : YES 
+Check usable header "sys/select.h" : YES 
+Check usable header "sys/stat.h" : YES 
+Check usable header "sys/types.h" : YES 
+Compiler for C supports arguments -Wmissing-declarations: YES 
+Compiler for C supports arguments -Wmissing-noreturn: YES 
+Compiler for C supports arguments -Wold-style-definition: YES 
+Compiler for C supports arguments -Wredundant-decls: YES 
+Compiler for C supports arguments -Wpointer-arith: YES 
+Compiler for C supports arguments -Wcast-align: YES 
+Compiler for C supports arguments -Winit-self: YES 
+Compiler for C supports arguments -Wshadow: YES 
+Compiler for C supports arguments -Wmissing-include-dirs: YES 
+Compiler for C supports arguments -Wundef: YES 
+Compiler for C supports arguments -Wformat: YES 
+Compiler for C supports arguments -Wformat-security: YES 
+Compiler for C supports arguments -Wformat-y2k: YES 
+Compiler for C supports arguments -Wnested-externs: YES 
+Compiler for C supports arguments -Wno-unused-parameter: YES 
+Compiler for C supports arguments -Wno-declaration-after-statement: YES 
+Compiler for C supports arguments -Wno-missing-field-initializers: YES 
+Compiler for C supports arguments -Werror=implicit-function-declaration: YES 
+Compiler for C supports arguments -Wno-error=deprecated-declarations: YES 
+Configuring tumbler-config.h using configuration
+Dependency glib-2.0 found: YES 2.86.3 (cached)
+Program /usr/bin/glib-genmarshal found: YES (/usr/bin/glib-genmarshal)
+Configuring tumbler-visibility.h with command
+Configuring tumbler-visibility.c with command
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Program msginit found: YES (/usr/bin/msginit)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program xgettext found: YES (/usr/bin/xgettext)
+Dependency glib-2.0 found: YES 2.86.3 (cached)
+Program /usr/bin/glib-genmarshal found: YES (/usr/bin/glib-genmarshal)
+Configuring tumblerd.service using configuration
+Configuring org.xfce.Tumbler.Cache1.service using configuration
+Configuring tumbler-cache-service-dbus.xml using configuration
+Dependency gio-2.0 found: YES 2.86.3 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Configuring org.xfce.Tumbler.Manager1.service using configuration
+Configuring tumbler-manager-dbus.xml using configuration
+Dependency gio-2.0 found: YES 2.86.3 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Configuring org.xfce.Tumbler.Thumbnailer1.service using configuration
+Configuring tumbler-service-dbus.xml using configuration
+Dependency gio-2.0 found: YES 2.86.3 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Build targets in project: 85
+
+tumbler 4.21.1
+
+  User defined options
+    prefix: /usr
+
+Found ninja-1.13.2 at /usr/bin/ninja
+[1/137] Generating gdbus header tumblerd/tumbler-cache-service-gdbus.h
+[2/137] Generating glib marshaller header tumbler/tumbler-marshal_h
+[3/137] Generating gdbus source tumblerd/tumbler-cache-service-gdbus.c
+[4/137] Generating gdbus source tumblerd/tumbler-service-gdbus.c
+[5/137] Generating glib marshaller header tumblerd/tumbler-marshal_h
+[6/137] Generating gdbus header tumblerd/tumbler-manager-gdbus.h
+[7/137] Generating gdbus source tumblerd/tumbler-manager-gdbus.c
+[8/137] Generating gdbus header tumblerd/tumbler-service-gdbus.h
+[9/137] Compiling C object plugins/tumbler-desktop-thumbnailer.so.p/desktop-thumbnailer_desktop-thumbnailer-plugin.c.o
+[10/137] Compiling C object tumbler/libtumbler-1.so.0.0.0.p/tumbler-config.c.o
+[11/137] Generating glib marshaller source tumbler/tumbler-marshal_c
+[12/137] Compiling C object plugins/tumbler-desktop-thumbnailer.so.p/desktop-thumbnailer_desktop-thumbnailer-provider.c.o
+[13/137] Compiling C object tumbler/libtumbler-1.so.0.0.0.p/tumbler-enum-types.c.o
+[14/137] Compiling C object plugins/tumbler-cover-thumbnailer.so.p/cover-thumbnailer_cover-thumbnailer-plugin.c.o
+[15/137] Compiling C object plugins/tumbler-cover-thumbnailer.so.p/cover-thumbnailer_cover-thumbnailer-provider.c.o
+[16/137] Compiling C object tumbler/libtumbler-1.so.0.0.0.p/tumbler-cache.c.o
+[17/137] Compiling C object tumbler/libtumbler-1.so.0.0.0.p/tumbler-file-info.c.o
+[18/137] Compiling C object tumbler/libtumbler-1.so.0.0.0.p/tumbler-cache-plugin.c.o
+[19/137] Compiling C object tumbler/libtumbler-1.so.0.0.0.p/meson-generated_.._tumbler-marshal.c.o
+[20/137] Compiling C object tumbler/libtumbler-1.so.0.0.0.p/tumbler-provider-plugin.c.o
+[21/137] Compiling C object tumbler/libtumbler-1.so.0.0.0.p/meson-generated_.._tumbler-visibility.c.o
+[22/137] Compiling C object tumbler/libtumbler-1.so.0.0.0.p/tumbler-thumbnailer-provider.c.o
+[23/137] Generating glib marshaller source tumblerd/tumbler-marshal_c
+[24/137] Compiling C object tumbler/libtumbler-1.so.0.0.0.p/tumbler-abstract-thumbnailer.c.o
+[25/137] Compiling C object plugins/tumbler-cover-thumbnailer.so.p/cover-thumbnailer_cover-thumbnailer.c.o
+[26/137] Compiling C object tumbler/libtumbler-1.so.0.0.0.p/tumbler-provider-factory.c.o
+[27/137] Compiling C object tumbler/libtumbler-1.so.0.0.0.p/tumbler-thumbnail-flavor.c.o
+[28/137] Compiling C object tumbler/libtumbler-1.so.0.0.0.p/tumbler-thumbnailer.c.o
+[29/137] Compiling C object plugins/tumbler-font-thumbnailer.so.p/font-thumbnailer_font-thumbnailer-provider.c.o
+[30/137] Compiling C object plugins/tumbler-font-thumbnailer.so.p/font-thumbnailer_font-thumbnailer-plugin.c.o
+[31/137] Compiling C object tumbler/libtumbler-1.so.0.0.0.p/tumbler-util.c.o
+[32/137] Compiling C object tumbler/libtumbler-1.so.0.0.0.p/tumbler-thumbnail.c.o
+[33/137] Compiling C object plugins/tumbler-gst-thumbnailer.so.p/gst-thumbnailer_gst-thumbnailer-plugin.c.o
+[34/137] Linking target tumbler/libtumbler-1.so.0.0.0
+[35/137] Compiling C object plugins/tumbler-jpeg-thumbnailer.so.p/jpeg-thumbnailer_jpeg-thumbnailer-provider.c.o
+[36/137] Compiling C object plugins/tumbler-pixbuf-thumbnailer.so.p/pixbuf-thumbnailer_pixbuf-thumbnailer-plugin.c.o
+[37/137] Compiling C object plugins/tumbler-jpeg-thumbnailer.so.p/jpeg-thumbnailer_jpeg-thumbnailer-plugin.c.o
+[38/137] Compiling C object plugins/tumbler-desktop-thumbnailer.so.p/desktop-thumbnailer_desktop-thumbnailer.c.o
+[39/137] Compiling C object plugins/tumbler-gst-thumbnailer.so.p/gst-thumbnailer_gst-thumbnailer-provider.c.o
+[40/137] Compiling C object plugins/tumbler-font-thumbnailer.so.p/font-thumbnailer_font-thumbnailer.c.o
+[41/137] Compiling C object plugins/tumbler-pixbuf-thumbnailer.so.p/pixbuf-thumbnailer_pixbuf-thumbnailer-provider.c.o
+[42/137] Compiling C object plugins/tumbler-gst-thumbnailer.so.p/gst-thumbnailer_gst-thumbnailer.c.o
+[43/137] Compiling C object plugins/tumbler-poppler-thumbnailer.so.p/poppler-thumbnailer_poppler-thumbnailer-plugin.c.o
+[44/137] Compiling C object plugins/tumbler-jpeg-thumbnailer.so.p/jpeg-thumbnailer_jpeg-thumbnailer.c.o
+[45/137] Generating symbol file tumbler/libtumbler-1.so.0.0.0.p/libtumbler-1.so.0.0.0.symbols
+[46/137] Compiling C object plugins/xdg-cache/tumbler-xdg-cache.so.p/xdg-cache-plugin.c.o
+[47/137] Compiling C object tumblerd/tumblerd.p/meson-generated_.._tumbler-marshal.c.o
+[48/137] Compiling C object plugins/tumbler-pixbuf-thumbnailer.so.p/pixbuf-thumbnailer_pixbuf-thumbnailer.c.o
+../plugins/pixbuf-thumbnailer/pixbuf-thumbnailer.c: In function ‘pixbuf_thumbnailer_new_from_stream’:
+../plugins/pixbuf-thumbnailer/pixbuf-thumbnailer.c:135:7: warning: ‘gdk_pixbuf_loader_get_animation’ is deprecated [-Wdeprecated-declarations]
+  135 |       animation = gdk_pixbuf_loader_get_animation (loader);
+      |       ^~~~~~~~~
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:39,
+                 from ../tumbler/tumbler-util.h:28,
+                 from ../tumbler/tumbler.h:39,
+                 from ../plugins/pixbuf-thumbnailer/pixbuf-thumbnailer.h:24,
+                 from ../plugins/pixbuf-thumbnailer/pixbuf-thumbnailer.c:21:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-loader.h:102:22: note: declared here
+  102 | GdkPixbufAnimation * gdk_pixbuf_loader_get_animation (GdkPixbufLoader *loader);
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../plugins/pixbuf-thumbnailer/pixbuf-thumbnailer.c:138:11: warning: ‘gdk_pixbuf_animation_get_iter’ is deprecated [-Wdeprecated-declarations]
+  138 |           iter = gdk_pixbuf_animation_get_iter (animation, NULL);
+      |           ^~~~
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:36:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-animation.h:97:25: note: declared here
+   97 | GdkPixbufAnimationIter *gdk_pixbuf_animation_get_iter                        (GdkPixbufAnimation     *animation,
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../plugins/pixbuf-thumbnailer/pixbuf-thumbnailer.c:139:11: warning: ‘gdk_pixbuf_animation_iter_on_currently_loading_frame’ is deprecated [-Wdeprecated-declarations]
+  139 |           has_frame = !gdk_pixbuf_animation_iter_on_currently_loading_frame (iter);
+      |           ^~~~~~~~~
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-animation.h:108:25: note: declared here
+  108 | gboolean                gdk_pixbuf_animation_iter_on_currently_loading_frame (GdkPixbufAnimationIter *iter);
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[49/137] Compiling C object plugins/tumbler-poppler-thumbnailer.so.p/poppler-thumbnailer_poppler-thumbnailer-provider.c.o
+[50/137] Compiling C object plugins/xdg-cache/tumbler-xdg-cache.so.p/xdg-cache-thumbnail.c.o
+[51/137] Compiling C object tumblerd/tumblerd.p/tumbler-component.c.o
+[52/137] Compiling C object tumblerd/tumblerd.p/main.c.o
+[53/137] Compiling C object tumblerd/tumblerd.p/meson-generated_.._tumbler-manager-gdbus.c.o
+[54/137] Compiling C object plugins/tumbler-poppler-thumbnailer.so.p/poppler-thumbnailer_poppler-thumbnailer.c.o
+[55/137] Compiling C object tumblerd/tumblerd.p/meson-generated_.._tumbler-cache-service-gdbus.c.o
+[56/137] Compiling C object tumblerd/tumblerd.p/tumbler-lifecycle-manager.c.o
+[57/137] Compiling C object plugins/xdg-cache/tumbler-xdg-cache.so.p/xdg-cache-cache.c.o
+[58/137] Compiling C object tumblerd/tumblerd.p/tumbler-group-scheduler.c.o
+[59/137] Linking target plugins/tumbler-cover-thumbnailer.so
+[60/137] Generating xfce-revision.h with a custom command
+[61/137] Linking target plugins/tumbler-desktop-thumbnailer.so
+[62/137] Linking target plugins/tumbler-font-thumbnailer.so
+[63/137] Compiling C object tumblerd/tumblerd.p/tumbler-lifo-scheduler.c.o
+[64/137] Linking target plugins/tumbler-jpeg-thumbnailer.so
+[65/137] Building translation po/ar/LC_MESSAGES/tumbler-ar.mo
+[66/137] Linking target plugins/tumbler-gst-thumbnailer.so
+[67/137] Linking target plugins/tumbler-poppler-thumbnailer.so
+[68/137] Linking target plugins/tumbler-pixbuf-thumbnailer.so
+[69/137] Building translation po/bg/LC_MESSAGES/tumbler-bg.mo
+[70/137] Building translation po/bn/LC_MESSAGES/tumbler-bn.mo
+[71/137] Building translation po/ca/LC_MESSAGES/tumbler-ca.mo
+[72/137] Building translation po/cs/LC_MESSAGES/tumbler-cs.mo
+[73/137] Compiling C object tumblerd/tumblerd.p/tumbler-cache-service.c.o
+[74/137] Building translation po/ast/LC_MESSAGES/tumbler-ast.mo
+[75/137] Building translation po/be/LC_MESSAGES/tumbler-be.mo
+[76/137] Linking target plugins/xdg-cache/tumbler-xdg-cache.so
+[77/137] Building translation po/da/LC_MESSAGES/tumbler-da.mo
+[78/137] Building translation po/de/LC_MESSAGES/tumbler-de.mo
+[79/137] Building translation po/el/LC_MESSAGES/tumbler-el.mo
+[80/137] Building translation po/en_CA/LC_MESSAGES/tumbler-en_CA.mo
+[81/137] Building translation po/en_AU/LC_MESSAGES/tumbler-en_AU.mo
+[82/137] Building translation po/eo/LC_MESSAGES/tumbler-eo.mo
+[83/137] Building translation po/et/LC_MESSAGES/tumbler-et.mo
+[84/137] Building translation po/en_GB/LC_MESSAGES/tumbler-en_GB.mo
+[85/137] Building translation po/es/LC_MESSAGES/tumbler-es.mo
+[86/137] Building translation po/fi/LC_MESSAGES/tumbler-fi.mo
+[87/137] Building translation po/eu/LC_MESSAGES/tumbler-eu.mo
+[88/137] Building translation po/hr/LC_MESSAGES/tumbler-hr.mo
+[89/137] Building translation po/hu/LC_MESSAGES/tumbler-hu.mo
+[90/137] Building translation po/he/LC_MESSAGES/tumbler-he.mo
+[91/137] Building translation po/fr/LC_MESSAGES/tumbler-fr.mo
+[92/137] Building translation po/gl/LC_MESSAGES/tumbler-gl.mo
+[93/137] Building translation po/hi/LC_MESSAGES/tumbler-hi.mo
+[94/137] Building translation po/hy_AM/LC_MESSAGES/tumbler-hy_AM.mo
+[95/137] Building translation po/hye/LC_MESSAGES/tumbler-hye.mo
+[96/137] Building translation po/id/LC_MESSAGES/tumbler-id.mo
+[97/137] Building translation po/is/LC_MESSAGES/tumbler-is.mo
+[98/137] Building translation po/ja/LC_MESSAGES/tumbler-ja.mo
+[99/137] Building translation po/it/LC_MESSAGES/tumbler-it.mo
+[100/137] Building translation po/kab/LC_MESSAGES/tumbler-kab.mo
+[101/137] Building translation po/kk/LC_MESSAGES/tumbler-kk.mo
+[102/137] Building translation po/ko/LC_MESSAGES/tumbler-ko.mo
+[103/137] Building translation po/lv/LC_MESSAGES/tumbler-lv.mo
+[104/137] Building translation po/ms/LC_MESSAGES/tumbler-ms.mo
+[105/137] Building translation po/lt/LC_MESSAGES/tumbler-lt.mo
+[106/137] Building translation po/oc/LC_MESSAGES/tumbler-oc.mo
+[107/137] Building translation po/pa/LC_MESSAGES/tumbler-pa.mo
+[108/137] Compiling C object tumblerd/tumblerd.p/tumbler-specialized-thumbnailer.c.o
+[109/137] Building translation po/nb/LC_MESSAGES/tumbler-nb.mo
+[110/137] Building translation po/nl/LC_MESSAGES/tumbler-nl.mo
+[111/137] Building translation po/nn/LC_MESSAGES/tumbler-nn.mo
+[112/137] Building translation po/pl/LC_MESSAGES/tumbler-pl.mo
+[113/137] Building translation po/pt_BR/LC_MESSAGES/tumbler-pt_BR.mo
+[114/137] Building translation po/pt/LC_MESSAGES/tumbler-pt.mo
+[115/137] Building translation po/ro/LC_MESSAGES/tumbler-ro.mo
+[116/137] Building translation po/ru/LC_MESSAGES/tumbler-ru.mo
+[117/137] Building translation po/sk/LC_MESSAGES/tumbler-sk.mo
+[118/137] Building translation po/si/LC_MESSAGES/tumbler-si.mo
+[119/137] Building translation po/sl/LC_MESSAGES/tumbler-sl.mo
+[120/137] Building translation po/sq/LC_MESSAGES/tumbler-sq.mo
+[121/137] Building translation po/sr/LC_MESSAGES/tumbler-sr.mo
+[122/137] Building translation po/sv/LC_MESSAGES/tumbler-sv.mo
+[123/137] Building translation po/te/LC_MESSAGES/tumbler-te.mo
+[124/137] Building translation po/th/LC_MESSAGES/tumbler-th.mo
+[125/137] Building translation po/tr/LC_MESSAGES/tumbler-tr.mo
+[126/137] Building translation po/ug/LC_MESSAGES/tumbler-ug.mo
+[127/137] Building translation po/uk/LC_MESSAGES/tumbler-uk.mo
+[128/137] Building translation po/vi/LC_MESSAGES/tumbler-vi.mo
+[129/137] Building translation po/zh_HK/LC_MESSAGES/tumbler-zh_HK.mo
+[130/137] Building translation po/zh_CN/LC_MESSAGES/tumbler-zh_CN.mo
+[131/137] Building translation po/zh_TW/LC_MESSAGES/tumbler-zh_TW.mo
+[132/137] Compiling C object tumblerd/tumblerd.p/tumbler-scheduler.c.o
+[133/137] Compiling C object tumblerd/tumblerd.p/meson-generated_.._tumbler-service-gdbus.c.o
+[134/137] Compiling C object tumblerd/tumblerd.p/tumbler-registry.c.o
+[135/137] Compiling C object tumblerd/tumblerd.p/tumbler-service.c.o
+[136/137] Compiling C object tumblerd/tumblerd.p/tumbler-manager.c.o
+[137/137] Linking target tumblerd/tumblerd
+[1/2] Generating xfce-revision.h with a custom command
+[1/2] Installing files
+Installing tumbler/libtumbler-1.so.0.0.0 to /pkgs/tumbler/usr/lib
+Installing plugins/tumbler-cover-thumbnailer.so to /pkgs/tumbler/usr/lib/tumbler-1/plugins
+Installing plugins/tumbler-desktop-thumbnailer.so to /pkgs/tumbler/usr/lib/tumbler-1/plugins
+Installing plugins/tumbler-font-thumbnailer.so to /pkgs/tumbler/usr/lib/tumbler-1/plugins
+Installing plugins/tumbler-gst-thumbnailer.so to /pkgs/tumbler/usr/lib/tumbler-1/plugins
+Installing plugins/tumbler-jpeg-thumbnailer.so to /pkgs/tumbler/usr/lib/tumbler-1/plugins
+Installing plugins/tumbler-pixbuf-thumbnailer.so to /pkgs/tumbler/usr/lib/tumbler-1/plugins
+Installing plugins/tumbler-poppler-thumbnailer.so to /pkgs/tumbler/usr/lib/tumbler-1/plugins
+Installing plugins/xdg-cache/tumbler-xdg-cache.so to /pkgs/tumbler/usr/lib/tumbler-1/plugins/cache
+Installing po/ar/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/ar/LC_MESSAGES
+Installing po/ast/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/ast/LC_MESSAGES
+Installing po/be/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/be/LC_MESSAGES
+Installing po/bg/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/bg/LC_MESSAGES
+Installing po/bn/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/bn/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/ca/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/cs/LC_MESSAGES
+Installing po/da/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/de/LC_MESSAGES
+Installing po/el/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/el/LC_MESSAGES
+Installing po/en_AU/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/en_AU/LC_MESSAGES
+Installing po/en_CA/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/en_CA/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/en_GB/LC_MESSAGES
+Installing po/eo/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/eo/LC_MESSAGES
+Installing po/es/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/es/LC_MESSAGES
+Installing po/et/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/et/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/eu/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/fr/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/gl/LC_MESSAGES
+Installing po/he/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/he/LC_MESSAGES
+Installing po/hi/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/hi/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/hu/LC_MESSAGES
+Installing po/hy_AM/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/hy_AM/LC_MESSAGES
+Installing po/hye/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/hye/LC_MESSAGES
+Installing po/id/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/id/LC_MESSAGES
+Installing po/is/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/is/LC_MESSAGES
+Installing po/it/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/it/LC_MESSAGES
+Installing po/ja/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/ja/LC_MESSAGES
+Installing po/kab/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/kab/LC_MESSAGES
+Installing po/kk/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/kk/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/ko/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/lt/LC_MESSAGES
+Installing po/lv/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/lv/LC_MESSAGES
+Installing po/ms/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/ms/LC_MESSAGES
+Installing po/nb/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/nb/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/nl/LC_MESSAGES
+Installing po/nn/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/nn/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/oc/LC_MESSAGES
+Installing po/pa/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/pa/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/pl/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/pt/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/ru/LC_MESSAGES
+Installing po/si/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/si/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/sl/LC_MESSAGES
+Installing po/sq/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/sq/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/sr/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/sv/LC_MESSAGES
+Installing po/te/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/te/LC_MESSAGES
+Installing po/th/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/th/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/tr/LC_MESSAGES
+Installing po/ug/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/ug/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/uk/LC_MESSAGES
+Installing po/vi/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/vi/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_HK/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/zh_HK/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/tumbler.mo to /pkgs/tumbler/usr/share/locale/zh_TW/LC_MESSAGES
+Installing tumblerd/tumblerd to /pkgs/tumbler/usr/lib/tumbler-1
+Installing /blfs/builds/tumbler-4.21.1/tumbler/tumbler-abstract-thumbnailer.h to /pkgs/tumbler/usr/include/tumbler-1/tumbler
+Installing /blfs/builds/tumbler-4.21.1/tumbler/tumbler-cache-plugin.h to /pkgs/tumbler/usr/include/tumbler-1/tumbler
+Installing /blfs/builds/tumbler-4.21.1/tumbler/tumbler-cache.h to /pkgs/tumbler/usr/include/tumbler-1/tumbler
+Installing /blfs/builds/tumbler-4.21.1/tumbler/tumbler-enum-types.h to /pkgs/tumbler/usr/include/tumbler-1/tumbler
+Installing /blfs/builds/tumbler-4.21.1/tumbler/tumbler-error.h to /pkgs/tumbler/usr/include/tumbler-1/tumbler
+Installing /blfs/builds/tumbler-4.21.1/tumbler/tumbler-file-info.h to /pkgs/tumbler/usr/include/tumbler-1/tumbler
+Installing /blfs/builds/tumbler-4.21.1/tumbler/tumbler-provider-factory.h to /pkgs/tumbler/usr/include/tumbler-1/tumbler
+Installing /blfs/builds/tumbler-4.21.1/tumbler/tumbler-provider-plugin.h to /pkgs/tumbler/usr/include/tumbler-1/tumbler
+Installing /blfs/builds/tumbler-4.21.1/tumbler/tumbler-thumbnail-flavor.h to /pkgs/tumbler/usr/include/tumbler-1/tumbler
+Installing /blfs/builds/tumbler-4.21.1/tumbler/tumbler-thumbnail.h to /pkgs/tumbler/usr/include/tumbler-1/tumbler
+Installing /blfs/builds/tumbler-4.21.1/tumbler/tumbler-thumbnailer-provider.h to /pkgs/tumbler/usr/include/tumbler-1/tumbler
+Installing /blfs/builds/tumbler-4.21.1/tumbler/tumbler-thumbnailer.h to /pkgs/tumbler/usr/include/tumbler-1/tumbler
+Installing /blfs/builds/tumbler-4.21.1/tumbler/tumbler-util.h to /pkgs/tumbler/usr/include/tumbler-1/tumbler
+Installing /blfs/builds/tumbler-4.21.1/tumbler/tumbler.h to /pkgs/tumbler/usr/include/tumbler-1/tumbler
+Installing /blfs/builds/tumbler-4.21.1/build/tumbler/tumbler-config.h to /pkgs/tumbler/usr/include/tumbler-1/tumbler
+Installing /blfs/builds/tumbler-4.21.1/build/meson-private/tumbler-1.pc to /pkgs/tumbler/usr/lib/pkgconfig
+Installing /blfs/builds/tumbler-4.21.1/icons/32x32/org.xfce.tumbler.png to /pkgs/tumbler/usr/share/icons/hicolor/32x32/apps
+Installing /blfs/builds/tumbler-4.21.1/icons/64x64/org.xfce.tumbler.png to /pkgs/tumbler/usr/share/icons/hicolor/64x64/apps
+Installing /blfs/builds/tumbler-4.21.1/build/tumblerd/tumblerd.service to /pkgs/tumbler/usr/lib/systemd/user
+Installing /blfs/builds/tumbler-4.21.1/build/tumblerd/org.xfce.Tumbler.Cache1.service to /pkgs/tumbler/usr/share/dbus-1/services
+Installing /blfs/builds/tumbler-4.21.1/build/tumblerd/org.xfce.Tumbler.Manager1.service to /pkgs/tumbler/usr/share/dbus-1/services
+Installing /blfs/builds/tumbler-4.21.1/build/tumblerd/org.xfce.Tumbler.Thumbnailer1.service to /pkgs/tumbler/usr/share/dbus-1/services
+Installing /blfs/builds/tumbler-4.21.1/tumblerd/tumbler.rc to /pkgs/tumbler/etc/xdg/tumbler
+Installing symlink pointing to libtumbler-1.so.0.0.0 to /pkgs/tumbler/usr/lib/libtumbler-1.so.0
+Installing symlink pointing to libtumbler-1.so.0 to /pkgs/tumbler/usr/lib/libtumbler-1.so
+Installing symlink pointing to tumbler-xdg-cache.so to /pkgs/tumbler/usr/lib/tumbler-1/plugins/cache/tumbler-cache-plugin.so
+[1/2] Generating xfce-revision.h with a custom command
+[1/2] Installing files
+Installing tumbler/libtumbler-1.so.0.0.0 to /usr/lib
+Installing plugins/tumbler-cover-thumbnailer.so to /usr/lib/tumbler-1/plugins
+Installing plugins/tumbler-desktop-thumbnailer.so to /usr/lib/tumbler-1/plugins
+Installing plugins/tumbler-font-thumbnailer.so to /usr/lib/tumbler-1/plugins
+Installing plugins/tumbler-gst-thumbnailer.so to /usr/lib/tumbler-1/plugins
+Installing plugins/tumbler-jpeg-thumbnailer.so to /usr/lib/tumbler-1/plugins
+Installing plugins/tumbler-pixbuf-thumbnailer.so to /usr/lib/tumbler-1/plugins
+Installing plugins/tumbler-poppler-thumbnailer.so to /usr/lib/tumbler-1/plugins
+Installing plugins/xdg-cache/tumbler-xdg-cache.so to /usr/lib/tumbler-1/plugins/cache
+Installing po/ar/LC_MESSAGES/tumbler.mo to /usr/share/locale/ar/LC_MESSAGES
+Installing po/ast/LC_MESSAGES/tumbler.mo to /usr/share/locale/ast/LC_MESSAGES
+Installing po/be/LC_MESSAGES/tumbler.mo to /usr/share/locale/be/LC_MESSAGES
+Installing po/bg/LC_MESSAGES/tumbler.mo to /usr/share/locale/bg/LC_MESSAGES
+Installing po/bn/LC_MESSAGES/tumbler.mo to /usr/share/locale/bn/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/tumbler.mo to /usr/share/locale/ca/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/tumbler.mo to /usr/share/locale/cs/LC_MESSAGES
+Installing po/da/LC_MESSAGES/tumbler.mo to /usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/tumbler.mo to /usr/share/locale/de/LC_MESSAGES
+Installing po/el/LC_MESSAGES/tumbler.mo to /usr/share/locale/el/LC_MESSAGES
+Installing po/en_AU/LC_MESSAGES/tumbler.mo to /usr/share/locale/en_AU/LC_MESSAGES
+Installing po/en_CA/LC_MESSAGES/tumbler.mo to /usr/share/locale/en_CA/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/tumbler.mo to /usr/share/locale/en_GB/LC_MESSAGES
+Installing po/eo/LC_MESSAGES/tumbler.mo to /usr/share/locale/eo/LC_MESSAGES
+Installing po/es/LC_MESSAGES/tumbler.mo to /usr/share/locale/es/LC_MESSAGES
+Installing po/et/LC_MESSAGES/tumbler.mo to /usr/share/locale/et/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/tumbler.mo to /usr/share/locale/eu/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/tumbler.mo to /usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/tumbler.mo to /usr/share/locale/fr/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/tumbler.mo to /usr/share/locale/gl/LC_MESSAGES
+Installing po/he/LC_MESSAGES/tumbler.mo to /usr/share/locale/he/LC_MESSAGES
+Installing po/hi/LC_MESSAGES/tumbler.mo to /usr/share/locale/hi/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/tumbler.mo to /usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/tumbler.mo to /usr/share/locale/hu/LC_MESSAGES
+Installing po/hy_AM/LC_MESSAGES/tumbler.mo to /usr/share/locale/hy_AM/LC_MESSAGES
+Installing po/hye/LC_MESSAGES/tumbler.mo to /usr/share/locale/hye/LC_MESSAGES
+Installing po/id/LC_MESSAGES/tumbler.mo to /usr/share/locale/id/LC_MESSAGES
+Installing po/is/LC_MESSAGES/tumbler.mo to /usr/share/locale/is/LC_MESSAGES
+Installing po/it/LC_MESSAGES/tumbler.mo to /usr/share/locale/it/LC_MESSAGES
+Installing po/ja/LC_MESSAGES/tumbler.mo to /usr/share/locale/ja/LC_MESSAGES
+Installing po/kab/LC_MESSAGES/tumbler.mo to /usr/share/locale/kab/LC_MESSAGES
+Installing po/kk/LC_MESSAGES/tumbler.mo to /usr/share/locale/kk/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/tumbler.mo to /usr/share/locale/ko/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/tumbler.mo to /usr/share/locale/lt/LC_MESSAGES
+Installing po/lv/LC_MESSAGES/tumbler.mo to /usr/share/locale/lv/LC_MESSAGES
+Installing po/ms/LC_MESSAGES/tumbler.mo to /usr/share/locale/ms/LC_MESSAGES
+Installing po/nb/LC_MESSAGES/tumbler.mo to /usr/share/locale/nb/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/tumbler.mo to /usr/share/locale/nl/LC_MESSAGES
+Installing po/nn/LC_MESSAGES/tumbler.mo to /usr/share/locale/nn/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/tumbler.mo to /usr/share/locale/oc/LC_MESSAGES
+Installing po/pa/LC_MESSAGES/tumbler.mo to /usr/share/locale/pa/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/tumbler.mo to /usr/share/locale/pl/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/tumbler.mo to /usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/tumbler.mo to /usr/share/locale/pt/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/tumbler.mo to /usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/tumbler.mo to /usr/share/locale/ru/LC_MESSAGES
+Installing po/si/LC_MESSAGES/tumbler.mo to /usr/share/locale/si/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/tumbler.mo to /usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/tumbler.mo to /usr/share/locale/sl/LC_MESSAGES
+Installing po/sq/LC_MESSAGES/tumbler.mo to /usr/share/locale/sq/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/tumbler.mo to /usr/share/locale/sr/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/tumbler.mo to /usr/share/locale/sv/LC_MESSAGES
+Installing po/te/LC_MESSAGES/tumbler.mo to /usr/share/locale/te/LC_MESSAGES
+Installing po/th/LC_MESSAGES/tumbler.mo to /usr/share/locale/th/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/tumbler.mo to /usr/share/locale/tr/LC_MESSAGES
+Installing po/ug/LC_MESSAGES/tumbler.mo to /usr/share/locale/ug/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/tumbler.mo to /usr/share/locale/uk/LC_MESSAGES
+Installing po/vi/LC_MESSAGES/tumbler.mo to /usr/share/locale/vi/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/tumbler.mo to /usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_HK/LC_MESSAGES/tumbler.mo to /usr/share/locale/zh_HK/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/tumbler.mo to /usr/share/locale/zh_TW/LC_MESSAGES
+Installing tumblerd/tumblerd to /usr/lib/tumbler-1
+Installing /blfs/builds/tumbler-4.21.1/tumbler/tumbler-abstract-thumbnailer.h to /usr/include/tumbler-1/tumbler
+Installing /blfs/builds/tumbler-4.21.1/tumbler/tumbler-cache-plugin.h to /usr/include/tumbler-1/tumbler
+Installing /blfs/builds/tumbler-4.21.1/tumbler/tumbler-cache.h to /usr/include/tumbler-1/tumbler
+Installing /blfs/builds/tumbler-4.21.1/tumbler/tumbler-enum-types.h to /usr/include/tumbler-1/tumbler
+Installing /blfs/builds/tumbler-4.21.1/tumbler/tumbler-error.h to /usr/include/tumbler-1/tumbler
+Installing /blfs/builds/tumbler-4.21.1/tumbler/tumbler-file-info.h to /usr/include/tumbler-1/tumbler
+Installing /blfs/builds/tumbler-4.21.1/tumbler/tumbler-provider-factory.h to /usr/include/tumbler-1/tumbler
+Installing /blfs/builds/tumbler-4.21.1/tumbler/tumbler-provider-plugin.h to /usr/include/tumbler-1/tumbler
+Installing /blfs/builds/tumbler-4.21.1/tumbler/tumbler-thumbnail-flavor.h to /usr/include/tumbler-1/tumbler
+Installing /blfs/builds/tumbler-4.21.1/tumbler/tumbler-thumbnail.h to /usr/include/tumbler-1/tumbler
+Installing /blfs/builds/tumbler-4.21.1/tumbler/tumbler-thumbnailer-provider.h to /usr/include/tumbler-1/tumbler
+Installing /blfs/builds/tumbler-4.21.1/tumbler/tumbler-thumbnailer.h to /usr/include/tumbler-1/tumbler
+Installing /blfs/builds/tumbler-4.21.1/tumbler/tumbler-util.h to /usr/include/tumbler-1/tumbler
+Installing /blfs/builds/tumbler-4.21.1/tumbler/tumbler.h to /usr/include/tumbler-1/tumbler
+Installing /blfs/builds/tumbler-4.21.1/build/tumbler/tumbler-config.h to /usr/include/tumbler-1/tumbler
+Installing /blfs/builds/tumbler-4.21.1/build/meson-private/tumbler-1.pc to /usr/lib/pkgconfig
+Installing /blfs/builds/tumbler-4.21.1/icons/32x32/org.xfce.tumbler.png to /usr/share/icons/hicolor/32x32/apps
+Installing /blfs/builds/tumbler-4.21.1/icons/64x64/org.xfce.tumbler.png to /usr/share/icons/hicolor/64x64/apps
+Installing /blfs/builds/tumbler-4.21.1/build/tumblerd/tumblerd.service to /usr/lib/systemd/user
+Installing /blfs/builds/tumbler-4.21.1/build/tumblerd/org.xfce.Tumbler.Cache1.service to /usr/share/dbus-1/services
+Installing /blfs/builds/tumbler-4.21.1/build/tumblerd/org.xfce.Tumbler.Manager1.service to /usr/share/dbus-1/services
+Installing /blfs/builds/tumbler-4.21.1/build/tumblerd/org.xfce.Tumbler.Thumbnailer1.service to /usr/share/dbus-1/services
+Installing /blfs/builds/tumbler-4.21.1/tumblerd/tumbler.rc to /etc/xdg/tumbler
+Installing symlink pointing to libtumbler-1.so.0.0.0 to /usr/lib/libtumbler-1.so.0
+Installing symlink pointing to libtumbler-1.so.0 to /usr/lib/libtumbler-1.so
+Installing symlink pointing to tumbler-xdg-cache.so to /usr/lib/tumbler-1/plugins/cache/tumbler-cache-plugin.so
+tumbler/
+tumbler/usr/
+tumbler/usr/include/
+tumbler/usr/include/tumbler-1/
+tumbler/usr/include/tumbler-1/tumbler/
+tumbler/usr/include/tumbler-1/tumbler/tumbler-thumbnailer.h
+tumbler/usr/include/tumbler-1/tumbler/tumbler-provider-factory.h
+tumbler/usr/include/tumbler-1/tumbler/tumbler-cache-plugin.h
+tumbler/usr/include/tumbler-1/tumbler/tumbler-error.h
+tumbler/usr/include/tumbler-1/tumbler/tumbler-enum-types.h
+tumbler/usr/include/tumbler-1/tumbler/tumbler-thumbnail-flavor.h
+tumbler/usr/include/tumbler-1/tumbler/tumbler-util.h
+tumbler/usr/include/tumbler-1/tumbler/tumbler-file-info.h
+tumbler/usr/include/tumbler-1/tumbler/tumbler-cache.h
+tumbler/usr/include/tumbler-1/tumbler/tumbler-thumbnail.h
+tumbler/usr/include/tumbler-1/tumbler/tumbler-provider-plugin.h
+tumbler/usr/include/tumbler-1/tumbler/tumbler-thumbnailer-provider.h
+tumbler/usr/include/tumbler-1/tumbler/tumbler.h
+tumbler/usr/include/tumbler-1/tumbler/tumbler-config.h
+tumbler/usr/include/tumbler-1/tumbler/tumbler-abstract-thumbnailer.h
+tumbler/usr/share/
+tumbler/usr/share/locale/
+tumbler/usr/share/locale/sr/
+tumbler/usr/share/locale/sr/LC_MESSAGES/
+tumbler/usr/share/locale/sr/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/nl/
+tumbler/usr/share/locale/nl/LC_MESSAGES/
+tumbler/usr/share/locale/nl/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/fi/
+tumbler/usr/share/locale/fi/LC_MESSAGES/
+tumbler/usr/share/locale/fi/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/id/
+tumbler/usr/share/locale/id/LC_MESSAGES/
+tumbler/usr/share/locale/id/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/en_AU/
+tumbler/usr/share/locale/en_AU/LC_MESSAGES/
+tumbler/usr/share/locale/en_AU/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/ro/
+tumbler/usr/share/locale/ro/LC_MESSAGES/
+tumbler/usr/share/locale/ro/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/ko/
+tumbler/usr/share/locale/ko/LC_MESSAGES/
+tumbler/usr/share/locale/ko/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/zh_TW/
+tumbler/usr/share/locale/zh_TW/LC_MESSAGES/
+tumbler/usr/share/locale/zh_TW/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/hi/
+tumbler/usr/share/locale/hi/LC_MESSAGES/
+tumbler/usr/share/locale/hi/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/kk/
+tumbler/usr/share/locale/kk/LC_MESSAGES/
+tumbler/usr/share/locale/kk/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/nb/
+tumbler/usr/share/locale/nb/LC_MESSAGES/
+tumbler/usr/share/locale/nb/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/ar/
+tumbler/usr/share/locale/ar/LC_MESSAGES/
+tumbler/usr/share/locale/ar/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/uk/
+tumbler/usr/share/locale/uk/LC_MESSAGES/
+tumbler/usr/share/locale/uk/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/ast/
+tumbler/usr/share/locale/ast/LC_MESSAGES/
+tumbler/usr/share/locale/ast/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/ug/
+tumbler/usr/share/locale/ug/LC_MESSAGES/
+tumbler/usr/share/locale/ug/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/en_GB/
+tumbler/usr/share/locale/en_GB/LC_MESSAGES/
+tumbler/usr/share/locale/en_GB/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/oc/
+tumbler/usr/share/locale/oc/LC_MESSAGES/
+tumbler/usr/share/locale/oc/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/es/
+tumbler/usr/share/locale/es/LC_MESSAGES/
+tumbler/usr/share/locale/es/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/th/
+tumbler/usr/share/locale/th/LC_MESSAGES/
+tumbler/usr/share/locale/th/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/he/
+tumbler/usr/share/locale/he/LC_MESSAGES/
+tumbler/usr/share/locale/he/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/nn/
+tumbler/usr/share/locale/nn/LC_MESSAGES/
+tumbler/usr/share/locale/nn/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/vi/
+tumbler/usr/share/locale/vi/LC_MESSAGES/
+tumbler/usr/share/locale/vi/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/fr/
+tumbler/usr/share/locale/fr/LC_MESSAGES/
+tumbler/usr/share/locale/fr/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/ca/
+tumbler/usr/share/locale/ca/LC_MESSAGES/
+tumbler/usr/share/locale/ca/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/pl/
+tumbler/usr/share/locale/pl/LC_MESSAGES/
+tumbler/usr/share/locale/pl/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/da/
+tumbler/usr/share/locale/da/LC_MESSAGES/
+tumbler/usr/share/locale/da/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/ru/
+tumbler/usr/share/locale/ru/LC_MESSAGES/
+tumbler/usr/share/locale/ru/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/is/
+tumbler/usr/share/locale/is/LC_MESSAGES/
+tumbler/usr/share/locale/is/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/hr/
+tumbler/usr/share/locale/hr/LC_MESSAGES/
+tumbler/usr/share/locale/hr/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/hy_AM/
+tumbler/usr/share/locale/hy_AM/LC_MESSAGES/
+tumbler/usr/share/locale/hy_AM/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/ja/
+tumbler/usr/share/locale/ja/LC_MESSAGES/
+tumbler/usr/share/locale/ja/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/kab/
+tumbler/usr/share/locale/kab/LC_MESSAGES/
+tumbler/usr/share/locale/kab/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/zh_CN/
+tumbler/usr/share/locale/zh_CN/LC_MESSAGES/
+tumbler/usr/share/locale/zh_CN/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/cs/
+tumbler/usr/share/locale/cs/LC_MESSAGES/
+tumbler/usr/share/locale/cs/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/en_CA/
+tumbler/usr/share/locale/en_CA/LC_MESSAGES/
+tumbler/usr/share/locale/en_CA/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/lv/
+tumbler/usr/share/locale/lv/LC_MESSAGES/
+tumbler/usr/share/locale/lv/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/pt_BR/
+tumbler/usr/share/locale/pt_BR/LC_MESSAGES/
+tumbler/usr/share/locale/pt_BR/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/pt/
+tumbler/usr/share/locale/pt/LC_MESSAGES/
+tumbler/usr/share/locale/pt/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/hu/
+tumbler/usr/share/locale/hu/LC_MESSAGES/
+tumbler/usr/share/locale/hu/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/tr/
+tumbler/usr/share/locale/tr/LC_MESSAGES/
+tumbler/usr/share/locale/tr/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/sl/
+tumbler/usr/share/locale/sl/LC_MESSAGES/
+tumbler/usr/share/locale/sl/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/zh_HK/
+tumbler/usr/share/locale/zh_HK/LC_MESSAGES/
+tumbler/usr/share/locale/zh_HK/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/bn/
+tumbler/usr/share/locale/bn/LC_MESSAGES/
+tumbler/usr/share/locale/bn/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/eu/
+tumbler/usr/share/locale/eu/LC_MESSAGES/
+tumbler/usr/share/locale/eu/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/el/
+tumbler/usr/share/locale/el/LC_MESSAGES/
+tumbler/usr/share/locale/el/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/sv/
+tumbler/usr/share/locale/sv/LC_MESSAGES/
+tumbler/usr/share/locale/sv/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/sk/
+tumbler/usr/share/locale/sk/LC_MESSAGES/
+tumbler/usr/share/locale/sk/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/si/
+tumbler/usr/share/locale/si/LC_MESSAGES/
+tumbler/usr/share/locale/si/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/eo/
+tumbler/usr/share/locale/eo/LC_MESSAGES/
+tumbler/usr/share/locale/eo/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/bg/
+tumbler/usr/share/locale/bg/LC_MESSAGES/
+tumbler/usr/share/locale/bg/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/pa/
+tumbler/usr/share/locale/pa/LC_MESSAGES/
+tumbler/usr/share/locale/pa/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/te/
+tumbler/usr/share/locale/te/LC_MESSAGES/
+tumbler/usr/share/locale/te/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/hye/
+tumbler/usr/share/locale/hye/LC_MESSAGES/
+tumbler/usr/share/locale/hye/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/it/
+tumbler/usr/share/locale/it/LC_MESSAGES/
+tumbler/usr/share/locale/it/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/de/
+tumbler/usr/share/locale/de/LC_MESSAGES/
+tumbler/usr/share/locale/de/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/lt/
+tumbler/usr/share/locale/lt/LC_MESSAGES/
+tumbler/usr/share/locale/lt/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/et/
+tumbler/usr/share/locale/et/LC_MESSAGES/
+tumbler/usr/share/locale/et/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/sq/
+tumbler/usr/share/locale/sq/LC_MESSAGES/
+tumbler/usr/share/locale/sq/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/be/
+tumbler/usr/share/locale/be/LC_MESSAGES/
+tumbler/usr/share/locale/be/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/ms/
+tumbler/usr/share/locale/ms/LC_MESSAGES/
+tumbler/usr/share/locale/ms/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/locale/gl/
+tumbler/usr/share/locale/gl/LC_MESSAGES/
+tumbler/usr/share/locale/gl/LC_MESSAGES/tumbler.mo
+tumbler/usr/share/dbus-1/
+tumbler/usr/share/dbus-1/services/
+tumbler/usr/share/dbus-1/services/org.xfce.Tumbler.Manager1.service
+tumbler/usr/share/dbus-1/services/org.xfce.Tumbler.Thumbnailer1.service
+tumbler/usr/share/dbus-1/services/org.xfce.Tumbler.Cache1.service
+tumbler/usr/share/icons/
+tumbler/usr/share/icons/hicolor/
+tumbler/usr/share/icons/hicolor/64x64/
+tumbler/usr/share/icons/hicolor/64x64/apps/
+tumbler/usr/share/icons/hicolor/64x64/apps/org.xfce.tumbler.png
+tumbler/usr/share/icons/hicolor/32x32/
+tumbler/usr/share/icons/hicolor/32x32/apps/
+tumbler/usr/share/icons/hicolor/32x32/apps/org.xfce.tumbler.png
+tumbler/usr/lib/
+tumbler/usr/lib/libtumbler-1.so.0
+tumbler/usr/lib/libtumbler-1.so
+tumbler/usr/lib/tumbler-1/
+tumbler/usr/lib/tumbler-1/tumblerd
+tumbler/usr/lib/tumbler-1/plugins/
+tumbler/usr/lib/tumbler-1/plugins/tumbler-gst-thumbnailer.so
+tumbler/usr/lib/tumbler-1/plugins/cache/
+tumbler/usr/lib/tumbler-1/plugins/cache/tumbler-cache-plugin.so
+tumbler/usr/lib/tumbler-1/plugins/cache/tumbler-xdg-cache.so
+tumbler/usr/lib/tumbler-1/plugins/tumbler-font-thumbnailer.so
+tumbler/usr/lib/tumbler-1/plugins/tumbler-desktop-thumbnailer.so
+tumbler/usr/lib/tumbler-1/plugins/tumbler-cover-thumbnailer.so
+tumbler/usr/lib/tumbler-1/plugins/tumbler-jpeg-thumbnailer.so
+tumbler/usr/lib/tumbler-1/plugins/tumbler-pixbuf-thumbnailer.so
+tumbler/usr/lib/tumbler-1/plugins/tumbler-poppler-thumbnailer.so
+tumbler/usr/lib/libtumbler-1.so.0.0.0
+tumbler/usr/lib/pkgconfig/
+tumbler/usr/lib/pkgconfig/tumbler-1.pc
+tumbler/usr/lib/systemd/
+tumbler/usr/lib/systemd/user/
+tumbler/usr/lib/systemd/user/tumblerd.service
+tumbler/etc/
+tumbler/etc/xdg/
+tumbler/etc/xdg/tumbler/
+tumbler/etc/xdg/tumbler/tumbler.rc
+tumbler/version
+tumbler/depends
+tumbler/make-depends
