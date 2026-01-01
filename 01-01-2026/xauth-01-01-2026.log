@@ -1,0 +1,253 @@
+--2026-01-01 08:29:17--  https://www.x.org/pub/individual/app/xauth-1.1.5.tar.xz
+Resolving www.x.org (www.x.org)... 131.252.210.176
+Connecting to www.x.org (www.x.org)|131.252.210.176|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://www.x.org/archive//individual/app/xauth-1.1.5.tar.xz [following]
+--2026-01-01 08:29:17--  https://www.x.org/archive//individual/app/xauth-1.1.5.tar.xz
+Reusing existing connection to www.x.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 165480 (162K) [application/x-xz]
+Saving to: ‘xauth-1.1.5.tar.xz’
+
+     0K .......... .......... .......... .......... .......... 30%  369K 0s
+    50K .......... .......... .......... .......... .......... 61%  737K 0s
+   100K .......... .......... .......... .......... .......... 92% 66.4M 0s
+   150K .......... .                                          100%  238M=0.2s
+
+2026-01-01 08:29:18 (792 KB/s) - ‘xauth-1.1.5.tar.xz’ saved [165480/165480]
+
+xauth-1.1.5/
+xauth-1.1.5/Makefile.am
+xauth-1.1.5/ChangeLog
+xauth-1.1.5/INSTALL
+xauth-1.1.5/tests/
+xauth-1.1.5/tests/010-xauth-add-inet.script
+xauth-1.1.5/tests/setup-sourced
+xauth-1.1.5/tests/020-xauth-add-local.script
+xauth-1.1.5/tests/030-xauth-extract.stdout
+xauth-1.1.5/tests/090-xauth-bad-usage.stdout
+xauth-1.1.5/tests/040-xauth-source.stdout
+xauth-1.1.5/tests/test_xauth
+xauth-1.1.5/tests/090-xauth-bad-usage.script
+xauth-1.1.5/tests/030-xauth-extract.script
+xauth-1.1.5/tests/090-xauth-bad-usage.stderr
+xauth-1.1.5/tests/020-xauth-add-local.stdout
+xauth-1.1.5/tests/Makefile.am
+xauth-1.1.5/tests/010-xauth-add-inet.stdout
+xauth-1.1.5/tests/040-xauth-source.script
+xauth-1.1.5/tests/Makefile.in
+xauth-1.1.5/config.sub
+xauth-1.1.5/xauth.c
+xauth-1.1.5/README.md
+xauth-1.1.5/test-driver
+xauth-1.1.5/configure
+xauth-1.1.5/parsedpy.c
+xauth-1.1.5/Makefile.in
+xauth-1.1.5/configure.ac
+xauth-1.1.5/config.guess
+xauth-1.1.5/compile
+xauth-1.1.5/gethost.c
+xauth-1.1.5/process.c
+xauth-1.1.5/install-sh
+xauth-1.1.5/xauth.h
+xauth-1.1.5/aclocal.m4
+xauth-1.1.5/man/
+xauth-1.1.5/man/xauth.man
+xauth-1.1.5/man/Makefile.am
+xauth-1.1.5/man/Makefile.in
+xauth-1.1.5/COPYING
+xauth-1.1.5/missing
+xauth-1.1.5/depcomp
+xauth-1.1.5/config.h.in
+configure: WARNING: unrecognized options: --disable-static, --with-appdefaultdir
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to enable C11 features... none needed
+checking whether gcc understands -c and -o together... yes
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for wchar.h... yes
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether _XOPEN_SOURCE should be defined... no
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether sleep supports fractional seconds... yes
+checking filesystem timestamp resolution... 0.01
+checking whether build environment is sane... yes
+checking for a race-free mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports the include directive... yes (GNU style)
+checking whether make supports nested variables... yes
+checking xargs -n works... yes
+checking whether UID '0' is supported by ustar format... yes
+checking whether GID '0' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking dependency style of gcc... gcc3
+checking for gcc options needed to detect all undeclared functions... none needed
+checking whether __clang__ is declared... no
+checking whether __INTEL_COMPILER is declared... no
+checking whether __SUNPRO_C is declared... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking for a sed that does not truncate output... /usr/bin/sed
+checking if gcc supports -Werror=unknown-warning-option... no
+checking if gcc supports -Werror=unused-command-line-argument... no
+checking if gcc supports -Wall... yes
+checking if gcc supports -Wpointer-arith... yes
+checking if gcc supports -Wmissing-declarations... yes
+checking if gcc supports -Wformat=2... yes
+checking if gcc supports -Wstrict-prototypes... yes
+checking if gcc supports -Wmissing-prototypes... yes
+checking if gcc supports -Wnested-externs... yes
+checking if gcc supports -Wbad-function-cast... yes
+checking if gcc supports -Wold-style-definition... yes
+checking if gcc supports -Wunused... yes
+checking if gcc supports -Wuninitialized... yes
+checking if gcc supports -Wshadow... yes
+checking if gcc supports -Wmissing-noreturn... yes
+checking if gcc supports -Wmissing-format-attribute... yes
+checking if gcc supports -Wredundant-decls... yes
+checking if gcc supports -Wlogical-op... yes
+checking if gcc supports -Werror=implicit... yes
+checking if gcc supports -Werror=nonnull... yes
+checking if gcc supports -Werror=init-self... yes
+checking if gcc supports -Werror=main... yes
+checking if gcc supports -Werror=missing-braces... yes
+checking if gcc supports -Werror=sequence-point... yes
+checking if gcc supports -Werror=return-type... yes
+checking if gcc supports -Werror=trigraphs... yes
+checking if gcc supports -Werror=array-bounds... yes
+checking if gcc supports -Werror=write-strings... yes
+checking if gcc supports -Werror=address... yes
+checking if gcc supports -Werror=int-to-pointer-cast... yes
+checking if gcc supports -Werror=pointer-to-int-cast... yes
+checking if gcc supports -pedantic... yes
+checking if gcc supports -Werror... yes
+checking if gcc supports -Werror=attributes... yes
+checking for net/errno.h... no
+checking for gcc option to enable large file support... none needed
+checking for XAUTH... yes
+checking if Xtrans should support UNIX socket connections... yes
+checking if Xtrans should support TCP socket connections... yes
+checking for library containing socket... none required
+checking for library containing gethostbyname... none required
+checking for getaddrinfo... yes
+checking for inet_ntop... yes
+checking if IPv6 support should be built... yes
+checking for struct sockaddr_in.sin_len... no
+checking for socklen_t... yes
+checking for struct sockaddr_storage... yes
+checking for struct msghdr.msg_control... yes
+checking if Xtrans should support os-specific local connections... no
+checking for strcasecmp... yes
+checking for strlcpy... yes
+checking for getaddrinfo... (cached) yes
+checking for inet_ntop... (cached) yes
+checking for reallocarray... yes
+checking for strlcpy... (cached) yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating tests/Makefile
+config.status: creating man/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+configure: WARNING: unrecognized options: --disable-static, --with-appdefaultdir
+make  all-recursive
+make[1]: Entering directory '/blfs/builds/xauth-1.1.5'
+Making all in .
+make[2]: Entering directory '/blfs/builds/xauth-1.1.5'
+  CC       parsedpy.o
+  CC       xauth.o
+  CC       gethost.o
+  CC       process.o
+process.c: In function ‘read_numeric’:
+process.c:454:15: warning: ‘XauDisposeAuth’ called on pointer returned from a mismatched allocation function [-Wmismatched-dealloc]
+  454 |     if (auth) XauDisposeAuth (auth);    /* won't free null pointers */
+      |               ^~~~~~~~~~~~~~~~~~~~~
+process.c:416:12: note: returned from ‘malloc’
+  416 |     auth = malloc (sizeof (Xauth));
+      |            ^~~~~~~~~~~~~~~~~~~~~~~
+  CCLD     xauth
+make[2]: Leaving directory '/blfs/builds/xauth-1.1.5'
+Making all in man
+make[2]: Entering directory '/blfs/builds/xauth-1.1.5/man'
+  GEN      xauth.1
+make[2]: Leaving directory '/blfs/builds/xauth-1.1.5/man'
+Making all in tests
+make[2]: Entering directory '/blfs/builds/xauth-1.1.5/tests'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/blfs/builds/xauth-1.1.5/tests'
+make[1]: Leaving directory '/blfs/builds/xauth-1.1.5'
+Making install in .
+make[1]: Entering directory '/blfs/builds/xauth-1.1.5'
+make[2]: Entering directory '/blfs/builds/xauth-1.1.5'
+ /usr/bin/mkdir -p '/pkgs/xauth/usr/bin'
+  /usr/bin/install -c xauth '/pkgs/xauth/usr/bin'
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/blfs/builds/xauth-1.1.5'
+make[1]: Leaving directory '/blfs/builds/xauth-1.1.5'
+Making install in man
+make[1]: Entering directory '/blfs/builds/xauth-1.1.5/man'
+make[2]: Entering directory '/blfs/builds/xauth-1.1.5/man'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/pkgs/xauth/usr/share/man/man1'
+ /usr/bin/install -c -m 644 xauth.1 '/pkgs/xauth/usr/share/man/man1'
+make[2]: Leaving directory '/blfs/builds/xauth-1.1.5/man'
+make[1]: Leaving directory '/blfs/builds/xauth-1.1.5/man'
+Making install in tests
+make[1]: Entering directory '/blfs/builds/xauth-1.1.5/tests'
+make[2]: Entering directory '/blfs/builds/xauth-1.1.5/tests'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/blfs/builds/xauth-1.1.5/tests'
+make[1]: Leaving directory '/blfs/builds/xauth-1.1.5/tests'
+Making install in .
+make[1]: Entering directory '/blfs/builds/xauth-1.1.5'
+make[2]: Entering directory '/blfs/builds/xauth-1.1.5'
+ /usr/bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c xauth '/usr/bin'
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/blfs/builds/xauth-1.1.5'
+make[1]: Leaving directory '/blfs/builds/xauth-1.1.5'
+Making install in man
+make[1]: Entering directory '/blfs/builds/xauth-1.1.5/man'
+make[2]: Entering directory '/blfs/builds/xauth-1.1.5/man'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 xauth.1 '/usr/share/man/man1'
+make[2]: Leaving directory '/blfs/builds/xauth-1.1.5/man'
+make[1]: Leaving directory '/blfs/builds/xauth-1.1.5/man'
+Making install in tests
+make[1]: Entering directory '/blfs/builds/xauth-1.1.5/tests'
+make[2]: Entering directory '/blfs/builds/xauth-1.1.5/tests'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/blfs/builds/xauth-1.1.5/tests'
+make[1]: Leaving directory '/blfs/builds/xauth-1.1.5/tests'
+xauth/
+xauth/usr/
+xauth/usr/share/
+xauth/usr/share/man/
+xauth/usr/share/man/man1/
+xauth/usr/share/man/man1/xauth.1
+xauth/usr/bin/
+xauth/usr/bin/xauth
+xauth/version
+xauth/depends
