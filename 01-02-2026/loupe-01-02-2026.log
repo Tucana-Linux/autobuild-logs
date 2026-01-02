@@ -1,0 +1,2496 @@
+--2026-01-02 08:38:28--  https://download.gnome.org/sources/loupe/49/loupe-49.2.tar.xz
+Resolving download.gnome.org (download.gnome.org)... 79.127.206.234, 79.127.206.207, 2a02:6ea0:c400::53, ...
+Connecting to download.gnome.org (download.gnome.org)|79.127.206.234|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 378904 (370K) [application/octet-stream]
+Saving to: ‘loupe-49.2.tar.xz’
+
+     0K .......... .......... .......... .......... .......... 13% 4.04M 0s
+    50K .......... .......... .......... .......... .......... 27% 9.39M 0s
+   100K .......... .......... .......... .......... .......... 40% 7.67M 0s
+   150K .......... .......... .......... .......... .......... 54% 27.8M 0s
+   200K .......... .......... .......... .......... .......... 67% 8.10M 0s
+   250K .......... .......... .......... .......... .......... 81% 51.4M 0s
+   300K .......... .......... .......... .......... .......... 94% 15.2M 0s
+   350K .......... ..........                                 100%  161M=0.04s
+
+2026-01-02 08:38:29 (10.1 MB/s) - ‘loupe-49.2.tar.xz’ saved [378904/378904]
+
+loupe-49.2/
+loupe-49.2/.editorconfig
+loupe-49.2/.gitignore
+loupe-49.2/.gitlab/
+loupe-49.2/.gitlab/issue_templates/
+loupe-49.2/.gitlab/issue_templates/Change.md
+loupe-49.2/.gitlab/issue_templates/Default.md
+loupe-49.2/.gitlab/issue_templates/Feature.md
+loupe-49.2/.gitlab/issue_templates/Issue.md
+loupe-49.2/.gitlab-ci.yml
+loupe-49.2/.rustfmt.toml
+loupe-49.2/CONTRIBUTING.md
+loupe-49.2/COPYING.md
+loupe-49.2/Cargo.lock
+loupe-49.2/Cargo.toml
+loupe-49.2/NEWS
+loupe-49.2/README.md
+loupe-49.2/build-aux/
+loupe-49.2/build-aux/flatpak/
+loupe-49.2/build-aux/flatpak/org.gnome.Loupe.Devel.json
+loupe-49.2/build-aux/generate-news.py
+loupe-49.2/data/
+loupe-49.2/data/icons/
+loupe-49.2/data/icons/hicolor/
+loupe-49.2/data/icons/hicolor/scalable/
+loupe-49.2/data/icons/hicolor/scalable/apps/
+loupe-49.2/data/icons/hicolor/scalable/apps/org.gnome.Loupe.Devel.svg
+loupe-49.2/data/icons/hicolor/scalable/apps/org.gnome.Loupe.svg
+loupe-49.2/data/icons/hicolor/symbolic/
+loupe-49.2/data/icons/hicolor/symbolic/apps/
+loupe-49.2/data/icons/hicolor/symbolic/apps/org.gnome.Loupe-symbolic.svg
+loupe-49.2/data/icons/meson.build
+loupe-49.2/data/icons/org.gnome.Loupe.Source.svg
+loupe-49.2/data/meson.build
+loupe-49.2/data/org.gnome.Loupe.desktop.in.in
+loupe-49.2/data/org.gnome.Loupe.gschema.xml.in
+loupe-49.2/data/org.gnome.Loupe.metainfo.xml.in.in
+loupe-49.2/data/org.gnome.Loupe.service.in
+loupe-49.2/data/resources/
+loupe-49.2/data/resources/edit.css
+loupe-49.2/data/resources/edit_crop.css
+loupe-49.2/data/resources/gtk/
+loupe-49.2/data/resources/gtk/help-overlay.ui
+loupe-49.2/data/resources/icons/
+loupe-49.2/data/resources/icons/scalable/
+loupe-49.2/data/resources/icons/scalable/actions/
+loupe-49.2/data/resources/icons/scalable/actions/apply-crop-symbolic.svg
+loupe-49.2/data/resources/icons/scalable/actions/aspect-ratio-16to9-symbolic.svg
+loupe-49.2/data/resources/icons/scalable/actions/aspect-ratio-3to2-symbolic.svg
+loupe-49.2/data/resources/icons/scalable/actions/aspect-ratio-4to3-symbolic.svg
+loupe-49.2/data/resources/icons/scalable/actions/aspect-ratio-5to4-symbolic.svg
+loupe-49.2/data/resources/icons/scalable/actions/aspect-ratio-free-symbolic.svg
+loupe-49.2/data/resources/icons/scalable/actions/aspect-ratio-original-symbolic.svg
+loupe-49.2/data/resources/icons/scalable/actions/aspect-ratio-square-symbolic.svg
+loupe-49.2/data/resources/icons/scalable/actions/aspect-ratio-symbolic.svg
+loupe-49.2/data/resources/icons/scalable/actions/check-plain-symbolic.svg
+loupe-49.2/data/resources/icons/scalable/actions/crop-symbolic.svg
+loupe-49.2/data/resources/icons/scalable/actions/edit-mirror-horizontally-symbolic.svg
+loupe-49.2/data/resources/icons/scalable/actions/edit-mirror-vertically-symbolic.svg
+loupe-49.2/data/resources/icons/scalable/actions/external-link-symbolic.svg
+loupe-49.2/data/resources/icons/scalable/actions/image-round-symbolic.svg
+loupe-49.2/data/resources/icons/scalable/actions/info-outline-symbolic.svg
+loupe-49.2/data/resources/icons/scalable/actions/minus-large-symbolic.svg
+loupe-49.2/data/resources/icons/scalable/actions/page-orientation-landscape-symbolic.svg
+loupe-49.2/data/resources/icons/scalable/actions/page-orientation-portrait-symbolic.svg
+loupe-49.2/data/resources/icons/scalable/actions/plus-large-symbolic.svg
+loupe-49.2/data/resources/icons/scalable/actions/zoom-toggle-symbolic.svg
+loupe-49.2/data/resources/style-dark.css
+loupe-49.2/data/resources/style-hc.css
+loupe-49.2/data/resources/style.css
+loupe-49.2/deny.toml
+loupe-49.2/help/
+loupe-49.2/help/C/
+loupe-49.2/help/C/Makefile
+loupe-49.2/help/C/duck/
+loupe-49.2/help/C/duck/image-properties.duck
+loupe-49.2/help/C/duck/index.duck
+loupe-49.2/help/C/duck/opening-images.duck
+loupe-49.2/help/C/duck/sending-to-other-apps.duck
+loupe-49.2/help/C/duck/supported-formats.duck
+loupe-49.2/help/C/duck/trashing-images.duck
+loupe-49.2/help/C/duck/viewing-images.duck
+loupe-49.2/help/C/figures/
+loupe-49.2/help/C/figures/edit-copy-symbolic.svg
+loupe-49.2/help/C/figures/go-next-symbolic.svg
+loupe-49.2/help/C/figures/go-previous-symbolic.svg
+loupe-49.2/help/C/figures/help-about-symbolic.svg
+loupe-49.2/help/C/figures/object-rotate-left-symbolic.svg
+loupe-49.2/help/C/figures/object-rotate-right-symbolic.svg
+loupe-49.2/help/C/figures/org.gnome.Loupe.svg
+loupe-49.2/help/C/figures/user-trash-symbolic.svg
+loupe-49.2/help/C/figures/view-fullscreen-symbolic.svg
+loupe-49.2/help/C/figures/view-restore-symbolic.svg
+loupe-49.2/help/C/figures/zoom-in-symbolic.svg
+loupe-49.2/help/C/figures/zoom-out-symbolic.svg
+loupe-49.2/help/C/image-properties.page
+loupe-49.2/help/C/index.page
+loupe-49.2/help/C/opening-images.page
+loupe-49.2/help/C/sending-to-other-apps.page
+loupe-49.2/help/C/supported-formats.page
+loupe-49.2/help/C/trashing-images.page
+loupe-49.2/help/C/viewing-images.page
+loupe-49.2/help/LINGUAS
+loupe-49.2/help/README.md
+loupe-49.2/help/bg/
+loupe-49.2/help/bg/bg.po
+loupe-49.2/help/ca/
+loupe-49.2/help/ca/ca.po
+loupe-49.2/help/cs/
+loupe-49.2/help/cs/cs.po
+loupe-49.2/help/de/
+loupe-49.2/help/de/de.po
+loupe-49.2/help/eu/
+loupe-49.2/help/eu/eu.po
+loupe-49.2/help/fa/
+loupe-49.2/help/fa/fa.po
+loupe-49.2/help/fr/
+loupe-49.2/help/fr/fr.po
+loupe-49.2/help/gl/
+loupe-49.2/help/gl/gl.po
+loupe-49.2/help/hu/
+loupe-49.2/help/hu/hu.po
+loupe-49.2/help/id/
+loupe-49.2/help/id/id.po
+loupe-49.2/help/it/
+loupe-49.2/help/it/it.po
+loupe-49.2/help/ko/
+loupe-49.2/help/ko/ko.po
+loupe-49.2/help/meson.build
+loupe-49.2/help/pl/
+loupe-49.2/help/pl/pl.po
+loupe-49.2/help/pt_BR/
+loupe-49.2/help/pt_BR/pt_BR.po
+loupe-49.2/help/ru/
+loupe-49.2/help/ru/ru.po
+loupe-49.2/help/sv/
+loupe-49.2/help/sv/sv.po
+loupe-49.2/help/tr/
+loupe-49.2/help/tr/tr.po
+loupe-49.2/help/uk/
+loupe-49.2/help/uk/uk.po
+loupe-49.2/help/zh_CN/
+loupe-49.2/help/zh_CN/zh_CN.po
+loupe-49.2/loupe.doap
+loupe-49.2/meson.build
+loupe-49.2/meson_options.txt
+loupe-49.2/news.d/
+loupe-49.2/news.d/47.0/
+loupe-49.2/news.d/47.0/fixed-avoid-flickering-when-reloading-image
+loupe-49.2/news.d/47.0/fixed-wrong-image-shown-with-animations-disabled
+loupe-49.2/news.d/47.0/fixed-zoom-center
+loupe-49.2/news.d/47.0/released
+loupe-49.2/news.d/47.1/
+loupe-49.2/news.d/47.1/added-branding-colors
+loupe-49.2/news.d/47.1/fixed-make-string-translatable
+loupe-49.2/news.d/47.1/fixed-require-glycin-2.0.1-to-fix-svgz
+loupe-49.2/news.d/47.1/released
+loupe-49.2/news.d/47.2/
+loupe-49.2/news.d/47.2/fixed-call-style-manager-too-early
+loupe-49.2/news.d/47.2/released
+loupe-49.2/news.d/47.4/
+loupe-49.2/news.d/47.4/fixed-svg-print-preview-missing
+loupe-49.2/news.d/47.4/released
+loupe-49.2/news.d/47.alpha/
+loupe-49.2/news.d/47.alpha/added-error-detail-dialog
+loupe-49.2/news.d/47.alpha/added-save-rotation
+loupe-49.2/news.d/47.alpha/changed-error-messages-nicer
+loupe-49.2/news.d/47.alpha/changed-follow-style-guide
+loupe-49.2/news.d/47.alpha/changed-print-api
+loupe-49.2/news.d/47.alpha/changed-rework-shortcuts
+loupe-49.2/news.d/47.alpha/changed-use-adw-about-dialog
+loupe-49.2/news.d/47.alpha/changed-use-adw-alert-dialog
+loupe-49.2/news.d/47.alpha/fixed-markup-in-properties
+loupe-49.2/news.d/47.alpha/released
+loupe-49.2/news.d/47.beta/
+loupe-49.2/news.d/47.beta/added-reload-action
+loupe-49.2/news.d/47.beta/changed-accent-colors-drag-and-drop
+loupe-49.2/news.d/47.beta/changed-make-unicode-escape-translatable
+loupe-49.2/news.d/47.beta/changed-no-longer-default-to-gl-renderer
+loupe-49.2/news.d/47.beta/changed-properties-widgets
+loupe-49.2/news.d/47.beta/changed-show-spinner-after-delay
+loupe-49.2/news.d/47.beta/changed-use-adw-spinner
+loupe-49.2/news.d/47.beta/changed-use-glycin-devel-detection
+loupe-49.2/news.d/47.beta/fixed-actions-available-on-error-page
+loupe-49.2/news.d/47.beta/fixed-dont-empty-animation-buffer
+loupe-49.2/news.d/47.beta/fixed-svg-dont-fail-on-additional-tails
+loupe-49.2/news.d/47.beta/fixed-zoom-into-image-center
+loupe-49.2/news.d/47.beta/released
+loupe-49.2/news.d/47.beta.1/
+loupe-49.2/news.d/47.beta.1/fixed-dont-rewrite-image-for-0deg-rotation
+loupe-49.2/news.d/47.beta.1/fixed-hands-and-crashes-when-loading-large-images
+loupe-49.2/news.d/47.beta.1/fixed-opening-svgs-fails-outside-flatpak
+loupe-49.2/news.d/47.beta.1/fixed-rotating-image-might-not-follow-best-fit
+loupe-49.2/news.d/47.beta.1/fixed-window-can-open-with-overlaying-bottom-sheet
+loupe-49.2/news.d/47.beta.1/released
+loupe-49.2/news.d/48.0/
+loupe-49.2/news.d/48.0/fixed-edit-crop-pre-select-portrait-orientation
+loupe-49.2/news.d/48.0/released
+loupe-49.2/news.d/48.1/
+loupe-49.2/news.d/48.1/fixed-dont-crash-on-window-close
+loupe-49.2/news.d/48.1/fixed-editing-pre-rotated-images
+loupe-49.2/news.d/48.1/fixed-print-empty-page
+loupe-49.2/news.d/48.1/released
+loupe-49.2/news.d/48.alpha/
+loupe-49.2/news.d/48.alpha/added-exif-user-comment
+loupe-49.2/news.d/48.alpha/added-get-correct-folder-name-via-portal
+loupe-49.2/news.d/48.alpha/added-image-editing-crop
+loupe-49.2/news.d/48.alpha/added-xmp-support
+loupe-49.2/news.d/48.alpha/changed-zoom-overlay-buttons
+loupe-49.2/news.d/48.alpha/fixed-sort-order-not-following-nautilus
+loupe-49.2/news.d/48.alpha/released
+loupe-49.2/news.d/48.beta/
+loupe-49.2/news.d/48.beta/added-edit-allow-to-cancel-saving
+loupe-49.2/news.d/48.beta/added-edit-crop-allow-dragging-selection-from-edges
+loupe-49.2/news.d/48.beta/added-edit-crop-apply-crop
+loupe-49.2/news.d/48.beta/added-edit-crop-keyboard-shortcuts
+loupe-49.2/news.d/48.beta/added-edit-crop-re-add-aspect-ratio-orientation
+loupe-49.2/news.d/48.beta/added-edit-crop-save-menu
+loupe-49.2/news.d/48.beta/added-edit-return-to-image-after-save
+loupe-49.2/news.d/48.beta/added-edit-save-and-cancel-shortcuts
+loupe-49.2/news.d/48.beta/added-edit-visual-feedback-saving
+loupe-49.2/news.d/48.beta/changed-edit-crop-allow-reset-on-selection-change
+loupe-49.2/news.d/48.beta/changed-edit-crop-redesign-apply-button
+loupe-49.2/news.d/48.beta/changed-edit-crop-refactor
+loupe-49.2/news.d/48.beta/changed-edit-details
+loupe-49.2/news.d/48.beta/changed-edit-use-edited-suffix-for-save-as
+loupe-49.2/news.d/48.beta/changed-zoom-allow-levels-smaller-best-fit
+loupe-49.2/news.d/48.beta/fixed-allocate-warning
+loupe-49.2/news.d/48.beta/fixed-edit-crop-reset-aspect-ratio-on-reset
+loupe-49.2/news.d/48.beta/fixed-edit-crop-work-arround-gesture-bug
+loupe-49.2/news.d/48.beta/fixed-edit-disable-save-actions
+loupe-49.2/news.d/48.beta/fixed-error-disable-more-buttons
+loupe-49.2/news.d/48.beta/released
+loupe-49.2/news.d/48.rc/
+loupe-49.2/news.d/48.rc/changed-crop-aspect-ratio-icons
+loupe-49.2/news.d/48.rc/changed-crop-orientation
+loupe-49.2/news.d/48.rc/fixed-crop-selection-edge
+loupe-49.2/news.d/48.rc/fixed-dont-show-canceled-error
+loupe-49.2/news.d/48.rc/fixed-editable-based-on-reliable-mime-type
+loupe-49.2/news.d/48.rc/fixed-error-detail-window
+loupe-49.2/news.d/48.rc/fixed-internal-rotation-convention
+loupe-49.2/news.d/48.rc/released
+loupe-49.2/news.d/49.0/
+loupe-49.2/news.d/49.0/fixed-accel
+loupe-49.2/news.d/49.0/released
+loupe-49.2/news.d/49.1/
+loupe-49.2/news.d/49.1/fixed-3-zooms-to-200
+loupe-49.2/news.d/49.1/fixed-editing-disable-trash-option
+loupe-49.2/news.d/49.1/released
+loupe-49.2/news.d/49.2/
+loupe-49.2/news.d/49.2/changed-track-get-window-errors
+loupe-49.2/news.d/49.2/fixed-bad-remote-list-performance
+loupe-49.2/news.d/49.2/fixed-crashes-when-closing-window
+loupe-49.2/news.d/49.2/fixed-creation-time-without-timezone-incorrect
+loupe-49.2/news.d/49.2/fixed-file-property-warnings-is-hidden
+loupe-49.2/news.d/49.2/fixed-no-zoom-when-window-too-large
+loupe-49.2/news.d/49.2/fixed-stripped-user-comments
+loupe-49.2/news.d/49.2/fixed-wrong-image-format
+loupe-49.2/news.d/49.2/released
+loupe-49.2/news.d/49.alpha/
+loupe-49.2/news.d/49.alpha/changed-use-glycin-2
+loupe-49.2/news.d/49.alpha/released
+loupe-49.2/news.d/49.beta/
+loupe-49.2/news.d/49.beta/changed-update-deps
+loupe-49.2/news.d/49.beta/released
+loupe-49.2/news.d/49.rc/
+loupe-49.2/news.d/49.rc/released
+loupe-49.2/news.d/README.md
+loupe-49.2/news.d/previous
+loupe-49.2/po/
+loupe-49.2/po/LINGUAS
+loupe-49.2/po/POTFILES.in
+loupe-49.2/po/ar.po
+loupe-49.2/po/be.po
+loupe-49.2/po/bg.po
+loupe-49.2/po/ca.po
+loupe-49.2/po/cs.po
+loupe-49.2/po/da.po
+loupe-49.2/po/de.po
+loupe-49.2/po/el.po
+loupe-49.2/po/en_GB.po
+loupe-49.2/po/eo.po
+loupe-49.2/po/es.po
+loupe-49.2/po/eu.po
+loupe-49.2/po/fa.po
+loupe-49.2/po/fi.po
+loupe-49.2/po/fil.po
+loupe-49.2/po/fr.po
+loupe-49.2/po/fur.po
+loupe-49.2/po/gl.po
+loupe-49.2/po/he.po
+loupe-49.2/po/hi.po
+loupe-49.2/po/hu.po
+loupe-49.2/po/ia.po
+loupe-49.2/po/id.po
+loupe-49.2/po/ie.po
+loupe-49.2/po/it.po
+loupe-49.2/po/ja.po
+loupe-49.2/po/ka.po
+loupe-49.2/po/kab.po
+loupe-49.2/po/kk.po
+loupe-49.2/po/ko.po
+loupe-49.2/po/lt.po
+loupe-49.2/po/lv.po
+loupe-49.2/po/meson.build
+loupe-49.2/po/nb.po
+loupe-49.2/po/ne.po
+loupe-49.2/po/nl.po
+loupe-49.2/po/nn.po
+loupe-49.2/po/oc.po
+loupe-49.2/po/pa.po
+loupe-49.2/po/pl.po
+loupe-49.2/po/pt.po
+loupe-49.2/po/pt_BR.po
+loupe-49.2/po/ro.po
+loupe-49.2/po/ru.po
+loupe-49.2/po/rw.po
+loupe-49.2/po/sk.po
+loupe-49.2/po/sl.po
+loupe-49.2/po/sr.po
+loupe-49.2/po/sr@latin.po
+loupe-49.2/po/sv.po
+loupe-49.2/po/th.po
+loupe-49.2/po/tr.po
+loupe-49.2/po/ug.po
+loupe-49.2/po/uk.po
+loupe-49.2/po/uz.po
+loupe-49.2/po/vi.po
+loupe-49.2/po/zh_CN.po
+loupe-49.2/po/zh_TW.po
+loupe-49.2/src/
+loupe-49.2/src/about.rs
+loupe-49.2/src/application.rs
+loupe-49.2/src/config.rs
+loupe-49.2/src/decoder/
+loupe-49.2/src/decoder/formats/
+loupe-49.2/src/decoder/formats/glycin_proxy.rs
+loupe-49.2/src/decoder/formats/svg.rs
+loupe-49.2/src/decoder/formats.rs
+loupe-49.2/src/decoder/tiling.rs
+loupe-49.2/src/decoder.rs
+loupe-49.2/src/editing/
+loupe-49.2/src/editing/preview.rs
+loupe-49.2/src/editing.rs
+loupe-49.2/src/file_model.rs
+loupe-49.2/src/lib.rs
+loupe-49.2/src/main.rs
+loupe-49.2/src/meson.build
+loupe-49.2/src/metadata/
+loupe-49.2/src/metadata/file.rs
+loupe-49.2/src/metadata.rs
+loupe-49.2/src/util/
+loupe-49.2/src/util/gettext.rs
+loupe-49.2/src/util/root.rs
+loupe-49.2/src/util.rs
+loupe-49.2/src/widgets/
+loupe-49.2/src/widgets/drag_overlay.rs
+loupe-49.2/src/widgets/drag_overlay.ui
+loupe-49.2/src/widgets/edit/
+loupe-49.2/src/widgets/edit/crop.rs
+loupe-49.2/src/widgets/edit/crop.ui
+loupe-49.2/src/widgets/edit/crop_selection.rs
+loupe-49.2/src/widgets/edit/crop_selection.ui
+loupe-49.2/src/widgets/edit.rs
+loupe-49.2/src/widgets/edit_window.rs
+loupe-49.2/src/widgets/edit_window.ui
+loupe-49.2/src/widgets/error_details.rs
+loupe-49.2/src/widgets/error_details.ui
+loupe-49.2/src/widgets/image/
+loupe-49.2/src/widgets/image/background_color.rs
+loupe-49.2/src/widgets/image/drag.rs
+loupe-49.2/src/widgets/image/editing.rs
+loupe-49.2/src/widgets/image/input_handling.rs
+loupe-49.2/src/widgets/image/loading.rs
+loupe-49.2/src/widgets/image/metadata.rs
+loupe-49.2/src/widgets/image/pan.rs
+loupe-49.2/src/widgets/image/printing.rs
+loupe-49.2/src/widgets/image/rendering.rs
+loupe-49.2/src/widgets/image/rotation.rs
+loupe-49.2/src/widgets/image/scrollable.rs
+loupe-49.2/src/widgets/image/zoom.rs
+loupe-49.2/src/widgets/image.rs
+loupe-49.2/src/widgets/image_page.rs
+loupe-49.2/src/widgets/image_page.ui
+loupe-49.2/src/widgets/image_view.rs
+loupe-49.2/src/widgets/image_view.ui
+loupe-49.2/src/widgets/image_window/
+loupe-49.2/src/widgets/image_window/actions.rs
+loupe-49.2/src/widgets/image_window/controls.rs
+loupe-49.2/src/widgets/image_window.rs
+loupe-49.2/src/widgets/image_window.ui
+loupe-49.2/src/widgets/print.rs
+loupe-49.2/src/widgets/print.ui
+loupe-49.2/src/widgets/print_preview.rs
+loupe-49.2/src/widgets/properties_view.rs
+loupe-49.2/src/widgets/properties_view.ui
+loupe-49.2/src/widgets/shy_bin.rs
+loupe-49.2/src/widgets/sliding_view.rs
+loupe-49.2/src/widgets/window.rs
+loupe-49.2/src/widgets/window.ui
+loupe-49.2/src/widgets.rs
+loupe-49.2/supply-chain/
+loupe-49.2/supply-chain/audits.toml
+loupe-49.2/supply-chain/config.toml
+loupe-49.2/supply-chain/imports.lock
+The Meson build system
+Version: 1.10.0
+Source dir: /blfs/builds/loupe-49.2
+Build dir: /blfs/builds/loupe-49.2/build
+Build type: native build
+Project name: loupe
+Project version: 49.2
+Rust compiler for the host machine: rustc -C linker=cc (rustc 1.92.0 "1.92.0")
+Rust linker for the host machine: rustc -C linker=cc ld.bfd 2.45
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Run-time dependency gtk4 found: YES 4.20.3
+Run-time dependency libadwaita-1 found: YES 1.8.2
+Run-time dependency gweather4 found: YES 4.4.4
+Run-time dependency lcms2 found: YES 2.16
+Run-time dependency libseccomp found: YES 2.6.0
+Run-time dependency gtk4-x11 found: YES 4.20.3
+Program cargo found: YES (/usr/bin/cargo)
+Program glib-compile-schemas found: YES (/usr/bin/glib-compile-schemas)
+Configuring org.gnome.Loupe.desktop.in using configuration
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Configuring org.gnome.Loupe.service using configuration
+Program desktop-file-validate found: YES (/usr/bin/desktop-file-validate)
+Configuring org.gnome.Loupe.metainfo.xml.in using configuration
+Program appstreamcli found: YES (/usr/bin/appstreamcli)
+Configuring org.gnome.Loupe.gschema.xml using configuration
+Program itstool found: YES (/usr/bin/itstool)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Program msginit found: YES (/usr/bin/msginit)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program xgettext found: YES (/usr/bin/xgettext)
+Build-time dependency gio-2.0 found: YES 2.86.3
+Program /usr/bin/glib-compile-schemas found: YES (/usr/bin/glib-compile-schemas)
+Program gtk4-update-icon-cache found: YES (/usr/bin/gtk4-update-icon-cache)
+Program update-desktop-database found: YES (/usr/bin/update-desktop-database)
+Build targets in project: 124
+
+loupe 49.2
+
+  User defined options
+    buildtype: release
+    prefix   : /usr
+
+Found ninja-1.13.2 at /usr/bin/ninja
+[1/99] Generating yelp doc help/cs/help-loupe-cs-gmo
+[2/99] Generating yelp doc help/ca/help-loupe-ca-gmo
+[3/99] Generating yelp doc help/fa/help-loupe-fa-gmo
+[4/99] Generating yelp doc help/bg/help-loupe-bg-gmo
+[5/99] Generating yelp doc help/de/help-loupe-de-gmo
+[6/99] Generating yelp doc help/eu/help-loupe-eu-gmo
+[7/99] Generating yelp doc help/fr/help-loupe-fr-gmo
+[8/99] Generating yelp doc help/gl/help-loupe-gl-gmo
+[8/99] Generating src/cargo-build with a custom command (wrapped by meson to set env)
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded adler2 v2.0.1
+  Downloaded async-global-executor v3.1.0
+  Downloaded async-channel v2.5.0
+  Downloaded async-broadcast v0.7.2
+  Downloaded cairo-sys-rs v0.21.1
+  Downloaded atomic-waker v1.1.2
+  Downloaded heck v0.5.0
+  Downloaded async-process v2.4.0
+  Downloaded gettext-rs v0.7.2
+  Downloaded hex v0.4.3
+  Downloaded icu_locale_core v2.0.0
+  Downloaded gweather-sys v4.6.0
+  Downloaded async-signal v0.2.12
+  Downloaded foreign-types-macros v0.2.3
+  Downloaded field-offset v0.3.6
+  Downloaded gufo-tiff v0.3.0
+  Downloaded futures-task v0.3.31
+  Downloaded equivalent v1.0.2
+  Downloaded half v2.6.0
+  Downloaded icu_normalizer_data v2.0.0
+  Downloaded toml_datetime v0.6.11
+  Downloaded version-compare v0.2.0
+  Downloaded libseccomp-sys v0.3.0
+  Downloaded rmp v0.8.14
+  Downloaded pin-project-lite v0.2.16
+  Downloaded parking v2.2.1
+  Downloaded stable_deref_trait v1.2.0
+  Downloaded serde_repr v0.1.20
+  Downloaded glycin-utils v4.0.4
+  Downloaded tracing-attributes v0.1.30
+  Downloaded thiserror-impl v2.0.16
+  Downloaded tinystr v0.8.1
+  Downloaded zvariant_derive v5.7.0
+  Downloaded zvariant_utils v3.2.1
+  Downloaded xml-rs v0.8.27
+  Downloaded cc v1.2.36
+  Downloaded zerotrie v0.2.2
+  Downloaded x11 v2.21.0
+  Downloaded indexmap v2.11.1
+  Downloaded futures-util v0.3.31
+  Downloaded libadwaita v0.8.0
+  Downloaded winnow v0.7.13
+  Downloaded serde_json v1.0.143
+  Downloaded regex v1.11.2
+  Downloaded icu_properties_data v2.0.1
+  Downloaded quick-xml v0.38.3
+  Downloaded glib v0.21.1
+  Downloaded chrono v0.4.42
+  Downloaded gtk4 v0.10.0
+  Downloaded rayon v1.11.0
+  Downloaded syn v2.0.106
+  Downloaded lcms2-sys v4.0.6
+  Downloaded idna v1.1.0
+  Downloaded nix v0.30.1
+  Downloaded regex-syntax v0.8.6
+  Downloaded gio v0.21.1
+  Downloaded zvariant v5.7.0
+  Downloaded zerocopy v0.8.27
+  Downloaded rustix v1.1.2
+  Downloaded zerovec v0.11.4
+  Downloaded zerocopy-derive v0.8.27
+  Downloaded zbus v5.11.0
+  Downloaded tracing-subscriber v0.3.20
+  Downloaded aho-corasick v1.1.3
+  Downloaded ashpd v0.12.0
+  Downloaded tracing v0.1.41
+  Downloaded serde v1.0.219
+  Downloaded miniz_oxide v0.8.9
+  Downloaded regex-automata v0.4.10
+  Downloaded jiff v0.2.15
+  Downloaded memchr v2.7.5
+  Downloaded gtk4-sys v0.10.0
+  Downloaded gdk4 v0.10.0
+  Downloaded zbus_macros v5.11.0
+  Downloaded yoke v0.8.0
+  Downloaded url v2.5.7
+  Downloaded rand v0.9.2
+  Downloaded libc v0.2.175
+  Downloaded sharded-slab v0.1.7
+  Downloaded encoding_rs v0.8.35
+  Downloaded pango v0.21.1
+  Downloaded num-traits v0.2.19
+  Downloaded litrs v0.5.1
+  Downloaded gio-sys v0.21.1
+  Downloaded zbus_names v4.2.0
+  Downloaded tracing-log v0.2.0
+  Downloaded tracing-core v0.1.34
+  Downloaded toml_edit v0.22.27
+  Downloaded smallvec v1.15.1
+  Downloaded serde_derive v1.0.219
+  Downloaded rayon-core v1.13.0
+  Downloaded proc-macro2 v1.0.101
+  Downloaded polling v3.10.0
+  Downloaded pkg-config v0.3.32
+  Downloaded pango-sys v0.21.1
+  Downloaded once_cell v1.21.3
+  Downloaded log v0.4.28
+  Downloaded litemap v0.8.0
+  Downloaded libseccomp v0.4.0
+  Downloaded libloading v0.8.8
+  Downloaded libadwaita-sys v0.8.0
+  Downloaded icu_provider v2.0.0
+  Downloaded glycin v3.0.4
+  Downloaded gdk4-sys v0.10.0
+  Downloaded flate2 v1.1.2
+  Downloaded zerovec-derive v0.11.1
+  Downloaded zerofrom-derive v0.1.6
+  Downloaded zerofrom v0.1.6
+  Downloaded yoke-derive v0.8.0
+  Downloaded yeslogic-fontconfig-sys v6.0.0
+  Downloaded writeable v0.6.1
+  Downloaded walkdir v2.5.0
+  Downloaded unicode-ident v1.0.19
+  Downloaded thread_local v1.1.9
+  Downloaded system-deps v7.0.5
+  Downloaded synstructure v0.13.2
+  Downloaded strum_macros v0.27.2
+  Downloaded semver v1.0.26
+  Downloaded ryu v1.0.20
+  Downloaded rmp-serde v1.3.0
+  Downloaded rand_core v0.9.3
+  Downloaded rand_chacha v0.9.0
+  Downloaded ppv-lite86 v0.2.21
+  Downloaded paste v1.0.15
+  Downloaded memmap2 v0.9.8
+  Downloaded jobserver v0.1.34
+  Downloaded gvdb v0.9.0
+  Downloaded glib-sys v0.21.1
+  Downloaded glib-macros v0.21.0
+  Downloaded futures-lite v2.6.1
+  Downloaded target-lexicon v0.13.2
+  Downloaded static_assertions v1.1.0
+  Downloaded slab v0.4.11
+  Downloaded shlex v1.3.0
+  Downloaded ordered-stream v0.2.0
+  Downloaded thiserror v2.0.16
+  Downloaded signal-hook-registry v1.4.6
+  Downloaded quote v1.0.40
+  Downloaded potential_utf v0.1.3
+  Downloaded nu-ansi-term v0.50.1
+  Downloaded locale_config v0.3.0
+  Downloaded libgweather v4.6.0
+  Downloaded toml v0.8.23
+  Downloaded getrandom v0.3.3
+  Downloaded rustc_version v0.4.1
+  Downloaded piper v0.2.4
+  Downloaded pin-utils v0.1.0
+  Downloaded matchers v0.2.0
+  Downloaded idna_adapter v1.2.1
+  Downloaded lazy_static v1.5.0
+  Downloaded displaydoc v0.2.5
+  Downloaded percent-encoding v2.3.2
+  Downloaded lcms2 v6.1.1
+  Downloaded icu_properties v2.0.1
+  Downloaded gtk4-macros v0.10.0
+  Downloaded gsk4 v0.10.0
+  Downloaded futures-executor v0.3.31
+  Downloaded event-listener v5.4.1
+  Downloaded env_logger v0.11.8
+  Downloaded enumflags2 v0.7.12
+  Downloaded crossbeam-utils v0.8.21
+  Downloaded crossbeam-epoch v0.9.18
+  Downloaded crc32fast v1.5.0
+  Downloaded cfg-expr v0.20.2
+  Downloaded cairo-rs v0.21.1
+  Downloaded bytemuck v1.23.2
+  Downloaded arc-swap v1.7.1
+  Downloaded utf8_iter v1.0.4
+  Downloaded strum v0.27.2
+  Downloaded serde_spanned v0.6.9
+  Downloaded same-file v1.0.6
+  Downloaded proc-macro-crate v3.3.0
+  Downloaded memoffset v0.9.1
+  Downloaded itoa v1.0.15
+  Downloaded hashbrown v0.15.5
+  Downloaded gufo-webp v0.3.0
+  Downloaded gufo-png v0.3.0
+  Downloaded gufo-jpeg v0.3.0
+  Downloaded gufo-exif v0.3.1
+  Downloaded gufo-common v1.0.1
+  Downloaded gufo v0.3.0
+  Downloaded gsk4-sys v0.10.0
+  Downloaded graphene-sys v0.21.1
+  Downloaded glycin-common v1.0.0
+  Downloaded gdk-pixbuf v0.21.1
+  Downloaded cfg_aliases v0.2.1
+  Downloaded linux-raw-sys v0.11.0
+  Downloaded async-io v2.5.0
+  Downloaded anyhow v1.0.99
+  Downloaded temp-dir v0.1.16
+  Downloaded memfd v0.6.5
+  Downloaded icu_collections v2.0.0
+  Downloaded either v1.15.0
+  Downloaded bitflags v2.9.4
+  Downloaded async-trait v0.1.89
+  Downloaded async-task v4.7.1
+  Downloaded async-lock v3.4.1
+  Downloaded icu_normalizer v2.0.0
+  Downloaded graphene-rs v0.21.1
+  Downloaded gobject-sys v0.21.1
+  Downloaded gdk4-x11-sys v0.10.0
+  Downloaded gdk4-wayland v0.10.0
+  Downloaded futures-timer v3.0.3
+  Downloaded futures-macro v0.3.31
+  Downloaded futures-channel v0.3.31
+  Downloaded foreign-types-shared v0.3.1
+  Downloaded foreign-types v0.5.0
+  Downloaded find-msvc-tools v0.1.1
+  Downloaded errno v0.3.14
+  Downloaded event-listener-strategy v0.5.4
+  Downloaded enumflags2_derive v0.7.12
+  Downloaded endi v1.1.0
+  Downloaded env_filter v0.1.3
+  Downloaded dlib v0.5.2
+  Downloaded futures-io v0.3.31
+  Downloaded async-net v2.0.0
+  Downloaded gdk4-x11 v0.10.0
+  Downloaded gdk4-wayland-sys v0.10.0
+  Downloaded futures-core v0.3.31
+  Downloaded dunce v1.0.5
+  Downloaded crossbeam-deque v0.8.6
+  Downloaded concurrent-queue v2.5.0
+  Downloaded cfg-if v1.0.3
+  Downloaded byteorder v1.5.0
+  Downloaded blocking v1.6.2
+  Downloaded autocfg v1.5.0
+  Downloaded gufo-xmp v0.3.0
+  Downloaded fastrand v2.3.0
+  Downloaded gdk-pixbuf-sys v0.21.1
+  Downloaded form_urlencoded v1.2.2
+  Downloaded async-fs v2.1.3
+  Downloaded async-executor v1.13.3
+  Downloaded gvdb-macros v0.1.15
+  Downloaded gettext-sys v0.22.5
+   Compiling proc-macro2 v1.0.101
+   Compiling unicode-ident v1.0.19
+   Compiling serde v1.0.219
+   Compiling equivalent v1.0.2
+   Compiling hashbrown v0.15.5
+   Compiling winnow v0.7.13
+   Compiling pkg-config v0.3.32
+   Compiling heck v0.5.0
+   Compiling target-lexicon v0.13.2
+   Compiling smallvec v1.15.1
+   Compiling version-compare v0.2.0
+   Compiling libc v0.2.175
+   Compiling pin-project-lite v0.2.16
+   Compiling futures-core v0.3.31
+   Compiling futures-io v0.3.31
+   Compiling stable_deref_trait v1.2.0
+   Compiling bitflags v2.9.4
+   Compiling cfg-if v1.0.3
+   Compiling autocfg v1.5.0
+   Compiling slab v0.4.11
+   Compiling memchr v2.7.5
+   Compiling indexmap v2.11.1
+   Compiling cfg-expr v0.20.2
+   Compiling crossbeam-utils v0.8.21
+   Compiling writeable v0.6.1
+   Compiling litemap v0.8.0
+   Compiling icu_normalizer_data v2.0.0
+   Compiling icu_properties_data v2.0.1
+   Compiling pin-utils v0.1.0
+   Compiling quote v1.0.40
+   Compiling futures-task v0.3.31
+   Compiling parking v2.2.1
+   Compiling utf8_iter v1.0.4
+   Compiling syn v2.0.106
+   Compiling percent-encoding v2.3.2
+   Compiling concurrent-queue v2.5.0
+   Compiling num-traits v0.2.19
+   Compiling form_urlencoded v1.2.2
+   Compiling event-listener v5.4.1
+   Compiling futures-channel v0.3.31
+   Compiling paste v1.0.15
+   Compiling endi v1.1.0
+   Compiling event-listener-strategy v0.5.4
+   Compiling fastrand v2.3.0
+   Compiling thiserror v2.0.16
+   Compiling rustix v1.1.2
+   Compiling gio v0.21.1
+   Compiling futures-lite v2.6.1
+   Compiling once_cell v1.21.3
+   Compiling linux-raw-sys v0.11.0
+   Compiling chrono v0.4.42
+   Compiling memoffset v0.9.1
+   Compiling zerocopy v0.8.27
+   Compiling tracing-core v0.1.34
+   Compiling async-lock v3.4.1
+   Compiling find-msvc-tools v0.1.1
+   Compiling shlex v1.3.0
+   Compiling async-task v4.7.1
+   Compiling jobserver v0.1.34
+   Compiling async-channel v2.5.0
+   Compiling cc v1.2.36
+   Compiling crc32fast v1.5.0
+   Compiling atomic-waker v1.1.2
+   Compiling getrandom v0.3.3
+   Compiling semver v1.0.26
+   Compiling piper v0.2.4
+   Compiling cfg_aliases v0.2.1
+   Compiling blocking v1.6.2
+   Compiling nix v0.30.1
+   Compiling rustc_version v0.4.1
+   Compiling rand_core v0.9.3
+   Compiling signal-hook-registry v1.4.6
+   Compiling aho-corasick v1.1.3
+   Compiling log v0.4.28
+   Compiling static_assertions v1.1.0
+   Compiling regex-syntax v0.8.6
+   Compiling hex v0.4.3
+   Compiling field-offset v0.3.6
+   Compiling async-executor v1.13.3
+   Compiling crossbeam-epoch v0.9.18
+   Compiling dunce v1.0.5
+   Compiling rayon-core v1.13.0
+   Compiling byteorder v1.5.0
+   Compiling synstructure v0.13.2
+   Compiling libseccomp-sys v0.3.0
+   Compiling rmp v0.8.14
+   Compiling lcms2-sys v4.0.6
+   Compiling crossbeam-deque v0.8.6
+   Compiling async-broadcast v0.7.2
+   Compiling libseccomp v0.4.0
+   Compiling x11 v2.21.0
+   Compiling ordered-stream v0.2.0
+   Compiling serde_json v1.0.143
+   Compiling lazy_static v1.5.0
+   Compiling temp-dir v0.1.16
+   Compiling adler2 v2.0.1
+   Compiling gettext-sys v0.22.5
+   Compiling miniz_oxide v0.8.9
+   Compiling env_filter v0.1.3
+   Compiling memmap2 v0.9.8
+   Compiling regex-automata v0.4.10
+   Compiling yeslogic-fontconfig-sys v6.0.0
+   Compiling libloading v0.8.8
+   Compiling jiff v0.2.15
+   Compiling foreign-types-shared v0.3.1
+   Compiling serde_derive v1.0.219
+   Compiling zerofrom-derive v0.1.6
+   Compiling yoke-derive v0.8.0
+   Compiling zerovec-derive v0.11.1
+   Compiling displaydoc v0.2.5
+   Compiling enumflags2_derive v0.7.12
+   Compiling zerofrom v0.1.6
+   Compiling futures-macro v0.3.31
+   Compiling yoke v0.8.0
+   Compiling zerotrie v0.2.2
+   Compiling zerovec v0.11.4
+   Compiling zerocopy-derive v0.8.27
+   Compiling thiserror-impl v2.0.16
+   Compiling polling v3.10.0
+   Compiling tracing-attributes v0.1.30
+   Compiling futures-util v0.3.31
+   Compiling tinystr v0.8.1
+   Compiling icu_locale_core v2.0.0
+   Compiling potential_utf v0.1.3
+   Compiling icu_provider v2.0.0
+   Compiling icu_collections v2.0.0
+   Compiling tracing v0.1.41
+   Compiling icu_normalizer v2.0.0
+   Compiling icu_properties v2.0.1
+   Compiling async-io v2.5.0
+   Compiling futures-executor v0.3.31
+   Compiling idna_adapter v1.2.1
+   Compiling idna v1.1.0
+   Compiling async-signal v0.2.12
+   Compiling serde_repr v0.1.20
+   Compiling async-process v2.4.0
+   Compiling toml_datetime v0.6.11
+   Compiling serde_spanned v0.6.9
+   Compiling toml_edit v0.22.27
+   Compiling zvariant_utils v3.2.1
+   Compiling enumflags2 v0.7.12
+   Compiling ppv-lite86 v0.2.21
+   Compiling quick-xml v0.38.3
+   Compiling async-trait v0.1.89
+   Compiling rand_chacha v0.9.0
+   Compiling half v2.6.0
+   Compiling rand v0.9.2
+   Compiling foreign-types-macros v0.2.3
+   Compiling either v1.15.0
+   Compiling itoa v1.0.15
+   Compiling ryu v1.0.20
+   Compiling same-file v1.0.6
+   Compiling rayon v1.11.0
+   Compiling foreign-types v0.5.0
+   Compiling walkdir v2.5.0
+   Compiling env_logger v0.11.8
+   Compiling toml v0.8.23
+   Compiling proc-macro-crate v3.3.0
+   Compiling url v2.5.7
+   Compiling system-deps v7.0.5
+   Compiling rmp-serde v1.3.0
+   Compiling regex v1.11.2
+   Compiling dlib v0.5.2
+   Compiling flate2 v1.1.2
+   Compiling zvariant_derive v5.7.0
+   Compiling glib-sys v0.21.1
+   Compiling gobject-sys v0.21.1
+   Compiling gio-sys v0.21.1
+   Compiling gdk-pixbuf-sys v0.21.1
+   Compiling cairo-sys-rs v0.21.1
+   Compiling pango-sys v0.21.1
+   Compiling glib-macros v0.21.0
+   Compiling gdk4-sys v0.10.0
+   Compiling graphene-sys v0.21.1
+   Compiling gsk4-sys v0.10.0
+   Compiling gtk4-sys v0.10.0
+   Compiling zvariant v5.7.0
+   Compiling gdk4-wayland-sys v0.10.0
+   Compiling gdk4-x11-sys v0.10.0
+   Compiling libadwaita-sys v0.8.0
+   Compiling gweather-sys v4.6.0
+   Compiling gtk4-macros v0.10.0
+   Compiling async-fs v2.1.3
+   Compiling encoding_rs v0.8.35
+   Compiling xml-rs v0.8.27
+   Compiling bytemuck v1.23.2
+   Compiling anyhow v1.0.99
+   Compiling lcms2 v6.1.1
+   Compiling locale_config v0.3.0
+   Compiling async-net v2.0.0
+   Compiling gufo-common v1.0.1
+   Compiling zbus_names v4.2.0
+   Compiling async-global-executor v3.1.0
+   Compiling gufo-exif v0.3.1
+   Compiling glycin-common v1.0.0
+   Compiling gvdb v0.9.0
+   Compiling gufo-tiff v0.3.0
+   Compiling gufo-jpeg v0.3.0
+   Compiling gufo-xmp v0.3.0
+   Compiling zbus_macros v5.11.0
+   Compiling glib v0.21.1
+   Compiling gufo-png v0.3.0
+   Compiling gufo-webp v0.3.0
+   Compiling matchers v0.2.0
+   Compiling memfd v0.6.5
+   Compiling strum_macros v0.27.2
+   Compiling sharded-slab v0.1.7
+   Compiling tracing-log v0.2.0
+   Compiling litrs v0.5.1
+   Compiling thread_local v1.1.9
+   Compiling futures-timer v3.0.3
+   Compiling nu-ansi-term v0.50.1
+   Compiling gufo v0.3.0
+   Compiling gettext-rs v0.7.2
+   Compiling tracing-subscriber v0.3.20
+   Compiling arc-swap v1.7.1
+   Compiling gvdb-macros v0.1.15
+   Compiling strum v0.27.2
+   Compiling zbus v5.11.0
+   Compiling cairo-rs v0.21.1
+   Compiling graphene-rs v0.21.1
+   Compiling glycin-utils v4.0.4
+   Compiling pango v0.21.1
+   Compiling gdk-pixbuf v0.21.1
+   Compiling libgweather v4.6.0
+   Compiling gdk4 v0.10.0
+   Compiling gsk4 v0.10.0
+   Compiling gdk4-wayland v0.10.0
+   Compiling gdk4-x11 v0.10.0
+   Compiling glycin v3.0.4
+   Compiling gtk4 v0.10.0
+   Compiling libadwaita v0.8.0
+   Compiling ashpd v0.12.0
+   Compiling loupe v49.2.0 (/blfs/builds/loupe-49.2)
+    Finished `release` profile [optimized] target(s) in 3m 33s
+[22/99] Generating yelp doc help/eu/help-loupe-eu
+Warning: Could not merge eu translation for msgid:
+b'Users can zoom in with the <gui>Zoom In</gui> (<media type="image" src="figures/zoom-in-symbolic.svg">zoom-in-symbolic</media>) button and zoom out with the <gui>Zoom Out</gui> (<media type="image" src="figures/zoom-out-symbolic.svg">zoom-out-symbolic</media>) button.'
+[97/99] Generating yelp doc help/uk/help-loupe-uk
+[99/99] Generating src/cp-binary with a custom command
+[0/3] Generating src/cargo-build with a custom command (wrapped by meson to set env)
+    Finished `release` profile [optimized] target(s) in 0.20s
+[2/3] Generating src/cp-binary with a custom command
+[2/3] Installing files
+Installing data/org.gnome.Loupe.desktop to /usr/share/applications
+Installing data/org.gnome.Loupe.metainfo.xml to /usr/share/metainfo
+Installing help/bg/image-properties.page to /usr/share/help/bg/loupe
+Installing help/bg/index.page to /usr/share/help/bg/loupe
+Installing help/bg/opening-images.page to /usr/share/help/bg/loupe
+Installing help/bg/sending-to-other-apps.page to /usr/share/help/bg/loupe
+Installing help/bg/supported-formats.page to /usr/share/help/bg/loupe
+Installing help/bg/trashing-images.page to /usr/share/help/bg/loupe
+Installing help/bg/viewing-images.page to /usr/share/help/bg/loupe
+Installing help/ca/image-properties.page to /usr/share/help/ca/loupe
+Installing help/ca/index.page to /usr/share/help/ca/loupe
+Installing help/ca/opening-images.page to /usr/share/help/ca/loupe
+Installing help/ca/sending-to-other-apps.page to /usr/share/help/ca/loupe
+Installing help/ca/supported-formats.page to /usr/share/help/ca/loupe
+Installing help/ca/trashing-images.page to /usr/share/help/ca/loupe
+Installing help/ca/viewing-images.page to /usr/share/help/ca/loupe
+Installing help/cs/image-properties.page to /usr/share/help/cs/loupe
+Installing help/cs/index.page to /usr/share/help/cs/loupe
+Installing help/cs/opening-images.page to /usr/share/help/cs/loupe
+Installing help/cs/sending-to-other-apps.page to /usr/share/help/cs/loupe
+Installing help/cs/supported-formats.page to /usr/share/help/cs/loupe
+Installing help/cs/trashing-images.page to /usr/share/help/cs/loupe
+Installing help/cs/viewing-images.page to /usr/share/help/cs/loupe
+Installing help/de/image-properties.page to /usr/share/help/de/loupe
+Installing help/de/index.page to /usr/share/help/de/loupe
+Installing help/de/opening-images.page to /usr/share/help/de/loupe
+Installing help/de/sending-to-other-apps.page to /usr/share/help/de/loupe
+Installing help/de/supported-formats.page to /usr/share/help/de/loupe
+Installing help/de/trashing-images.page to /usr/share/help/de/loupe
+Installing help/de/viewing-images.page to /usr/share/help/de/loupe
+Installing help/eu/image-properties.page to /usr/share/help/eu/loupe
+Installing help/eu/index.page to /usr/share/help/eu/loupe
+Installing help/eu/opening-images.page to /usr/share/help/eu/loupe
+Installing help/eu/sending-to-other-apps.page to /usr/share/help/eu/loupe
+Installing help/eu/supported-formats.page to /usr/share/help/eu/loupe
+Installing help/eu/trashing-images.page to /usr/share/help/eu/loupe
+Installing help/eu/viewing-images.page to /usr/share/help/eu/loupe
+Installing help/fa/image-properties.page to /usr/share/help/fa/loupe
+Installing help/fa/index.page to /usr/share/help/fa/loupe
+Installing help/fa/opening-images.page to /usr/share/help/fa/loupe
+Installing help/fa/sending-to-other-apps.page to /usr/share/help/fa/loupe
+Installing help/fa/supported-formats.page to /usr/share/help/fa/loupe
+Installing help/fa/trashing-images.page to /usr/share/help/fa/loupe
+Installing help/fa/viewing-images.page to /usr/share/help/fa/loupe
+Installing help/fr/image-properties.page to /usr/share/help/fr/loupe
+Installing help/fr/index.page to /usr/share/help/fr/loupe
+Installing help/fr/opening-images.page to /usr/share/help/fr/loupe
+Installing help/fr/sending-to-other-apps.page to /usr/share/help/fr/loupe
+Installing help/fr/supported-formats.page to /usr/share/help/fr/loupe
+Installing help/fr/trashing-images.page to /usr/share/help/fr/loupe
+Installing help/fr/viewing-images.page to /usr/share/help/fr/loupe
+Installing help/gl/image-properties.page to /usr/share/help/gl/loupe
+Installing help/gl/index.page to /usr/share/help/gl/loupe
+Installing help/gl/opening-images.page to /usr/share/help/gl/loupe
+Installing help/gl/sending-to-other-apps.page to /usr/share/help/gl/loupe
+Installing help/gl/supported-formats.page to /usr/share/help/gl/loupe
+Installing help/gl/trashing-images.page to /usr/share/help/gl/loupe
+Installing help/gl/viewing-images.page to /usr/share/help/gl/loupe
+Installing help/hu/image-properties.page to /usr/share/help/hu/loupe
+Installing help/hu/index.page to /usr/share/help/hu/loupe
+Installing help/hu/opening-images.page to /usr/share/help/hu/loupe
+Installing help/hu/sending-to-other-apps.page to /usr/share/help/hu/loupe
+Installing help/hu/supported-formats.page to /usr/share/help/hu/loupe
+Installing help/hu/trashing-images.page to /usr/share/help/hu/loupe
+Installing help/hu/viewing-images.page to /usr/share/help/hu/loupe
+Installing help/id/image-properties.page to /usr/share/help/id/loupe
+Installing help/id/index.page to /usr/share/help/id/loupe
+Installing help/id/opening-images.page to /usr/share/help/id/loupe
+Installing help/id/sending-to-other-apps.page to /usr/share/help/id/loupe
+Installing help/id/supported-formats.page to /usr/share/help/id/loupe
+Installing help/id/trashing-images.page to /usr/share/help/id/loupe
+Installing help/id/viewing-images.page to /usr/share/help/id/loupe
+Installing help/it/image-properties.page to /usr/share/help/it/loupe
+Installing help/it/index.page to /usr/share/help/it/loupe
+Installing help/it/opening-images.page to /usr/share/help/it/loupe
+Installing help/it/sending-to-other-apps.page to /usr/share/help/it/loupe
+Installing help/it/supported-formats.page to /usr/share/help/it/loupe
+Installing help/it/trashing-images.page to /usr/share/help/it/loupe
+Installing help/it/viewing-images.page to /usr/share/help/it/loupe
+Installing help/ko/image-properties.page to /usr/share/help/ko/loupe
+Installing help/ko/index.page to /usr/share/help/ko/loupe
+Installing help/ko/opening-images.page to /usr/share/help/ko/loupe
+Installing help/ko/sending-to-other-apps.page to /usr/share/help/ko/loupe
+Installing help/ko/supported-formats.page to /usr/share/help/ko/loupe
+Installing help/ko/trashing-images.page to /usr/share/help/ko/loupe
+Installing help/ko/viewing-images.page to /usr/share/help/ko/loupe
+Installing help/pl/image-properties.page to /usr/share/help/pl/loupe
+Installing help/pl/index.page to /usr/share/help/pl/loupe
+Installing help/pl/opening-images.page to /usr/share/help/pl/loupe
+Installing help/pl/sending-to-other-apps.page to /usr/share/help/pl/loupe
+Installing help/pl/supported-formats.page to /usr/share/help/pl/loupe
+Installing help/pl/trashing-images.page to /usr/share/help/pl/loupe
+Installing help/pl/viewing-images.page to /usr/share/help/pl/loupe
+Installing help/pt_BR/image-properties.page to /usr/share/help/pt_BR/loupe
+Installing help/pt_BR/index.page to /usr/share/help/pt_BR/loupe
+Installing help/pt_BR/opening-images.page to /usr/share/help/pt_BR/loupe
+Installing help/pt_BR/sending-to-other-apps.page to /usr/share/help/pt_BR/loupe
+Installing help/pt_BR/supported-formats.page to /usr/share/help/pt_BR/loupe
+Installing help/pt_BR/trashing-images.page to /usr/share/help/pt_BR/loupe
+Installing help/pt_BR/viewing-images.page to /usr/share/help/pt_BR/loupe
+Installing help/ru/image-properties.page to /usr/share/help/ru/loupe
+Installing help/ru/index.page to /usr/share/help/ru/loupe
+Installing help/ru/opening-images.page to /usr/share/help/ru/loupe
+Installing help/ru/sending-to-other-apps.page to /usr/share/help/ru/loupe
+Installing help/ru/supported-formats.page to /usr/share/help/ru/loupe
+Installing help/ru/trashing-images.page to /usr/share/help/ru/loupe
+Installing help/ru/viewing-images.page to /usr/share/help/ru/loupe
+Installing help/sv/image-properties.page to /usr/share/help/sv/loupe
+Installing help/sv/index.page to /usr/share/help/sv/loupe
+Installing help/sv/opening-images.page to /usr/share/help/sv/loupe
+Installing help/sv/sending-to-other-apps.page to /usr/share/help/sv/loupe
+Installing help/sv/supported-formats.page to /usr/share/help/sv/loupe
+Installing help/sv/trashing-images.page to /usr/share/help/sv/loupe
+Installing help/sv/viewing-images.page to /usr/share/help/sv/loupe
+Installing help/tr/image-properties.page to /usr/share/help/tr/loupe
+Installing help/tr/index.page to /usr/share/help/tr/loupe
+Installing help/tr/opening-images.page to /usr/share/help/tr/loupe
+Installing help/tr/sending-to-other-apps.page to /usr/share/help/tr/loupe
+Installing help/tr/supported-formats.page to /usr/share/help/tr/loupe
+Installing help/tr/trashing-images.page to /usr/share/help/tr/loupe
+Installing help/tr/viewing-images.page to /usr/share/help/tr/loupe
+Installing help/uk/image-properties.page to /usr/share/help/uk/loupe
+Installing help/uk/index.page to /usr/share/help/uk/loupe
+Installing help/uk/opening-images.page to /usr/share/help/uk/loupe
+Installing help/uk/sending-to-other-apps.page to /usr/share/help/uk/loupe
+Installing help/uk/supported-formats.page to /usr/share/help/uk/loupe
+Installing help/uk/trashing-images.page to /usr/share/help/uk/loupe
+Installing help/uk/viewing-images.page to /usr/share/help/uk/loupe
+Installing help/zh_CN/image-properties.page to /usr/share/help/zh_CN/loupe
+Installing help/zh_CN/index.page to /usr/share/help/zh_CN/loupe
+Installing help/zh_CN/opening-images.page to /usr/share/help/zh_CN/loupe
+Installing help/zh_CN/sending-to-other-apps.page to /usr/share/help/zh_CN/loupe
+Installing help/zh_CN/supported-formats.page to /usr/share/help/zh_CN/loupe
+Installing help/zh_CN/trashing-images.page to /usr/share/help/zh_CN/loupe
+Installing help/zh_CN/viewing-images.page to /usr/share/help/zh_CN/loupe
+Installing src/loupe to /usr/bin
+Installing po/ar/LC_MESSAGES/loupe.mo to /usr/share/locale/ar/LC_MESSAGES
+Installing po/be/LC_MESSAGES/loupe.mo to /usr/share/locale/be/LC_MESSAGES
+Installing po/bg/LC_MESSAGES/loupe.mo to /usr/share/locale/bg/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/loupe.mo to /usr/share/locale/ca/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/loupe.mo to /usr/share/locale/cs/LC_MESSAGES
+Installing po/da/LC_MESSAGES/loupe.mo to /usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/loupe.mo to /usr/share/locale/de/LC_MESSAGES
+Installing po/el/LC_MESSAGES/loupe.mo to /usr/share/locale/el/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/loupe.mo to /usr/share/locale/en_GB/LC_MESSAGES
+Installing po/eo/LC_MESSAGES/loupe.mo to /usr/share/locale/eo/LC_MESSAGES
+Installing po/es/LC_MESSAGES/loupe.mo to /usr/share/locale/es/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/loupe.mo to /usr/share/locale/eu/LC_MESSAGES
+Installing po/fa/LC_MESSAGES/loupe.mo to /usr/share/locale/fa/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/loupe.mo to /usr/share/locale/fi/LC_MESSAGES
+Installing po/fil/LC_MESSAGES/loupe.mo to /usr/share/locale/fil/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/loupe.mo to /usr/share/locale/fr/LC_MESSAGES
+Installing po/fur/LC_MESSAGES/loupe.mo to /usr/share/locale/fur/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/loupe.mo to /usr/share/locale/gl/LC_MESSAGES
+Installing po/he/LC_MESSAGES/loupe.mo to /usr/share/locale/he/LC_MESSAGES
+Installing po/hi/LC_MESSAGES/loupe.mo to /usr/share/locale/hi/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/loupe.mo to /usr/share/locale/hu/LC_MESSAGES
+Installing po/ia/LC_MESSAGES/loupe.mo to /usr/share/locale/ia/LC_MESSAGES
+Installing po/id/LC_MESSAGES/loupe.mo to /usr/share/locale/id/LC_MESSAGES
+Installing po/ie/LC_MESSAGES/loupe.mo to /usr/share/locale/ie/LC_MESSAGES
+Installing po/it/LC_MESSAGES/loupe.mo to /usr/share/locale/it/LC_MESSAGES
+Installing po/ja/LC_MESSAGES/loupe.mo to /usr/share/locale/ja/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/loupe.mo to /usr/share/locale/ka/LC_MESSAGES
+Installing po/kab/LC_MESSAGES/loupe.mo to /usr/share/locale/kab/LC_MESSAGES
+Installing po/kk/LC_MESSAGES/loupe.mo to /usr/share/locale/kk/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/loupe.mo to /usr/share/locale/ko/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/loupe.mo to /usr/share/locale/lt/LC_MESSAGES
+Installing po/lv/LC_MESSAGES/loupe.mo to /usr/share/locale/lv/LC_MESSAGES
+Installing po/nb/LC_MESSAGES/loupe.mo to /usr/share/locale/nb/LC_MESSAGES
+Installing po/ne/LC_MESSAGES/loupe.mo to /usr/share/locale/ne/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/loupe.mo to /usr/share/locale/nl/LC_MESSAGES
+Installing po/nn/LC_MESSAGES/loupe.mo to /usr/share/locale/nn/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/loupe.mo to /usr/share/locale/oc/LC_MESSAGES
+Installing po/pa/LC_MESSAGES/loupe.mo to /usr/share/locale/pa/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/loupe.mo to /usr/share/locale/pl/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/loupe.mo to /usr/share/locale/pt/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/loupe.mo to /usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/loupe.mo to /usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/loupe.mo to /usr/share/locale/ru/LC_MESSAGES
+Installing po/rw/LC_MESSAGES/loupe.mo to /usr/share/locale/rw/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/loupe.mo to /usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/loupe.mo to /usr/share/locale/sl/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/loupe.mo to /usr/share/locale/sr/LC_MESSAGES
+Installing po/sr@latin/LC_MESSAGES/loupe.mo to /usr/share/locale/sr@latin/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/loupe.mo to /usr/share/locale/sv/LC_MESSAGES
+Installing po/th/LC_MESSAGES/loupe.mo to /usr/share/locale/th/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/loupe.mo to /usr/share/locale/tr/LC_MESSAGES
+Installing po/ug/LC_MESSAGES/loupe.mo to /usr/share/locale/ug/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/loupe.mo to /usr/share/locale/uk/LC_MESSAGES
+Installing po/uz/LC_MESSAGES/loupe.mo to /usr/share/locale/uz/LC_MESSAGES
+Installing po/vi/LC_MESSAGES/loupe.mo to /usr/share/locale/vi/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/loupe.mo to /usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/loupe.mo to /usr/share/locale/zh_TW/LC_MESSAGES
+Installing /blfs/builds/loupe-49.2/build/data/org.gnome.Loupe.service to /usr/share/dbus-1/services
+Installing /blfs/builds/loupe-49.2/data/icons/hicolor/scalable/apps/org.gnome.Loupe.svg to /usr/share/icons/hicolor/scalable/apps
+Installing /blfs/builds/loupe-49.2/data/icons/hicolor/symbolic/apps/org.gnome.Loupe-symbolic.svg to /usr/share/icons/hicolor/symbolic/apps
+Installing /blfs/builds/loupe-49.2/build/data/org.gnome.Loupe.gschema.xml to /usr/share/glib-2.0/schemas
+Installing /blfs/builds/loupe-49.2/help/C/image-properties.page to /usr/share/help/C/loupe
+Installing /blfs/builds/loupe-49.2/help/C/index.page to /usr/share/help/C/loupe
+Installing /blfs/builds/loupe-49.2/help/C/opening-images.page to /usr/share/help/C/loupe
+Installing /blfs/builds/loupe-49.2/help/C/sending-to-other-apps.page to /usr/share/help/C/loupe
+Installing /blfs/builds/loupe-49.2/help/C/supported-formats.page to /usr/share/help/C/loupe
+Installing /blfs/builds/loupe-49.2/help/C/trashing-images.page to /usr/share/help/C/loupe
+Installing /blfs/builds/loupe-49.2/help/C/viewing-images.page to /usr/share/help/C/loupe
+Installing /blfs/builds/loupe-49.2/help/C/figures/edit-copy-symbolic.svg to /usr/share/help/C/loupe/figures
+Installing /blfs/builds/loupe-49.2/help/C/figures/go-next-symbolic.svg to /usr/share/help/C/loupe/figures
+Installing /blfs/builds/loupe-49.2/help/C/figures/go-previous-symbolic.svg to /usr/share/help/C/loupe/figures
+Installing /blfs/builds/loupe-49.2/help/C/figures/help-about-symbolic.svg to /usr/share/help/C/loupe/figures
+Installing /blfs/builds/loupe-49.2/help/C/figures/object-rotate-left-symbolic.svg to /usr/share/help/C/loupe/figures
+Installing /blfs/builds/loupe-49.2/help/C/figures/object-rotate-right-symbolic.svg to /usr/share/help/C/loupe/figures
+Installing /blfs/builds/loupe-49.2/help/C/figures/org.gnome.Loupe.svg to /usr/share/help/C/loupe/figures
+Installing /blfs/builds/loupe-49.2/help/C/figures/user-trash-symbolic.svg to /usr/share/help/C/loupe/figures
+Installing /blfs/builds/loupe-49.2/help/C/figures/view-fullscreen-symbolic.svg to /usr/share/help/C/loupe/figures
+Installing /blfs/builds/loupe-49.2/help/C/figures/view-restore-symbolic.svg to /usr/share/help/C/loupe/figures
+Installing /blfs/builds/loupe-49.2/help/C/figures/zoom-in-symbolic.svg to /usr/share/help/C/loupe/figures
+Installing /blfs/builds/loupe-49.2/help/C/figures/zoom-out-symbolic.svg to /usr/share/help/C/loupe/figures
+Installing symlink pointing to ../../../C/loupe/figures/edit-copy-symbolic.svg to /usr/share/help/bg/loupe/figures/edit-copy-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-next-symbolic.svg to /usr/share/help/bg/loupe/figures/go-next-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-previous-symbolic.svg to /usr/share/help/bg/loupe/figures/go-previous-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/help-about-symbolic.svg to /usr/share/help/bg/loupe/figures/help-about-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-left-symbolic.svg to /usr/share/help/bg/loupe/figures/object-rotate-left-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-right-symbolic.svg to /usr/share/help/bg/loupe/figures/object-rotate-right-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/org.gnome.Loupe.svg to /usr/share/help/bg/loupe/figures/org.gnome.Loupe.svg
+Installing symlink pointing to ../../../C/loupe/figures/user-trash-symbolic.svg to /usr/share/help/bg/loupe/figures/user-trash-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-fullscreen-symbolic.svg to /usr/share/help/bg/loupe/figures/view-fullscreen-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-restore-symbolic.svg to /usr/share/help/bg/loupe/figures/view-restore-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-in-symbolic.svg to /usr/share/help/bg/loupe/figures/zoom-in-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-out-symbolic.svg to /usr/share/help/bg/loupe/figures/zoom-out-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/edit-copy-symbolic.svg to /usr/share/help/ca/loupe/figures/edit-copy-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-next-symbolic.svg to /usr/share/help/ca/loupe/figures/go-next-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-previous-symbolic.svg to /usr/share/help/ca/loupe/figures/go-previous-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/help-about-symbolic.svg to /usr/share/help/ca/loupe/figures/help-about-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-left-symbolic.svg to /usr/share/help/ca/loupe/figures/object-rotate-left-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-right-symbolic.svg to /usr/share/help/ca/loupe/figures/object-rotate-right-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/org.gnome.Loupe.svg to /usr/share/help/ca/loupe/figures/org.gnome.Loupe.svg
+Installing symlink pointing to ../../../C/loupe/figures/user-trash-symbolic.svg to /usr/share/help/ca/loupe/figures/user-trash-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-fullscreen-symbolic.svg to /usr/share/help/ca/loupe/figures/view-fullscreen-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-restore-symbolic.svg to /usr/share/help/ca/loupe/figures/view-restore-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-in-symbolic.svg to /usr/share/help/ca/loupe/figures/zoom-in-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-out-symbolic.svg to /usr/share/help/ca/loupe/figures/zoom-out-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/edit-copy-symbolic.svg to /usr/share/help/cs/loupe/figures/edit-copy-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-next-symbolic.svg to /usr/share/help/cs/loupe/figures/go-next-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-previous-symbolic.svg to /usr/share/help/cs/loupe/figures/go-previous-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/help-about-symbolic.svg to /usr/share/help/cs/loupe/figures/help-about-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-left-symbolic.svg to /usr/share/help/cs/loupe/figures/object-rotate-left-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-right-symbolic.svg to /usr/share/help/cs/loupe/figures/object-rotate-right-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/org.gnome.Loupe.svg to /usr/share/help/cs/loupe/figures/org.gnome.Loupe.svg
+Installing symlink pointing to ../../../C/loupe/figures/user-trash-symbolic.svg to /usr/share/help/cs/loupe/figures/user-trash-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-fullscreen-symbolic.svg to /usr/share/help/cs/loupe/figures/view-fullscreen-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-restore-symbolic.svg to /usr/share/help/cs/loupe/figures/view-restore-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-in-symbolic.svg to /usr/share/help/cs/loupe/figures/zoom-in-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-out-symbolic.svg to /usr/share/help/cs/loupe/figures/zoom-out-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/edit-copy-symbolic.svg to /usr/share/help/de/loupe/figures/edit-copy-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-next-symbolic.svg to /usr/share/help/de/loupe/figures/go-next-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-previous-symbolic.svg to /usr/share/help/de/loupe/figures/go-previous-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/help-about-symbolic.svg to /usr/share/help/de/loupe/figures/help-about-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-left-symbolic.svg to /usr/share/help/de/loupe/figures/object-rotate-left-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-right-symbolic.svg to /usr/share/help/de/loupe/figures/object-rotate-right-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/org.gnome.Loupe.svg to /usr/share/help/de/loupe/figures/org.gnome.Loupe.svg
+Installing symlink pointing to ../../../C/loupe/figures/user-trash-symbolic.svg to /usr/share/help/de/loupe/figures/user-trash-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-fullscreen-symbolic.svg to /usr/share/help/de/loupe/figures/view-fullscreen-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-restore-symbolic.svg to /usr/share/help/de/loupe/figures/view-restore-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-in-symbolic.svg to /usr/share/help/de/loupe/figures/zoom-in-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-out-symbolic.svg to /usr/share/help/de/loupe/figures/zoom-out-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/edit-copy-symbolic.svg to /usr/share/help/eu/loupe/figures/edit-copy-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-next-symbolic.svg to /usr/share/help/eu/loupe/figures/go-next-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-previous-symbolic.svg to /usr/share/help/eu/loupe/figures/go-previous-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/help-about-symbolic.svg to /usr/share/help/eu/loupe/figures/help-about-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-left-symbolic.svg to /usr/share/help/eu/loupe/figures/object-rotate-left-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-right-symbolic.svg to /usr/share/help/eu/loupe/figures/object-rotate-right-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/org.gnome.Loupe.svg to /usr/share/help/eu/loupe/figures/org.gnome.Loupe.svg
+Installing symlink pointing to ../../../C/loupe/figures/user-trash-symbolic.svg to /usr/share/help/eu/loupe/figures/user-trash-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-fullscreen-symbolic.svg to /usr/share/help/eu/loupe/figures/view-fullscreen-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-restore-symbolic.svg to /usr/share/help/eu/loupe/figures/view-restore-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-in-symbolic.svg to /usr/share/help/eu/loupe/figures/zoom-in-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-out-symbolic.svg to /usr/share/help/eu/loupe/figures/zoom-out-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/edit-copy-symbolic.svg to /usr/share/help/fa/loupe/figures/edit-copy-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-next-symbolic.svg to /usr/share/help/fa/loupe/figures/go-next-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-previous-symbolic.svg to /usr/share/help/fa/loupe/figures/go-previous-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/help-about-symbolic.svg to /usr/share/help/fa/loupe/figures/help-about-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-left-symbolic.svg to /usr/share/help/fa/loupe/figures/object-rotate-left-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-right-symbolic.svg to /usr/share/help/fa/loupe/figures/object-rotate-right-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/org.gnome.Loupe.svg to /usr/share/help/fa/loupe/figures/org.gnome.Loupe.svg
+Installing symlink pointing to ../../../C/loupe/figures/user-trash-symbolic.svg to /usr/share/help/fa/loupe/figures/user-trash-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-fullscreen-symbolic.svg to /usr/share/help/fa/loupe/figures/view-fullscreen-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-restore-symbolic.svg to /usr/share/help/fa/loupe/figures/view-restore-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-in-symbolic.svg to /usr/share/help/fa/loupe/figures/zoom-in-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-out-symbolic.svg to /usr/share/help/fa/loupe/figures/zoom-out-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/edit-copy-symbolic.svg to /usr/share/help/fr/loupe/figures/edit-copy-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-next-symbolic.svg to /usr/share/help/fr/loupe/figures/go-next-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-previous-symbolic.svg to /usr/share/help/fr/loupe/figures/go-previous-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/help-about-symbolic.svg to /usr/share/help/fr/loupe/figures/help-about-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-left-symbolic.svg to /usr/share/help/fr/loupe/figures/object-rotate-left-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-right-symbolic.svg to /usr/share/help/fr/loupe/figures/object-rotate-right-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/org.gnome.Loupe.svg to /usr/share/help/fr/loupe/figures/org.gnome.Loupe.svg
+Installing symlink pointing to ../../../C/loupe/figures/user-trash-symbolic.svg to /usr/share/help/fr/loupe/figures/user-trash-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-fullscreen-symbolic.svg to /usr/share/help/fr/loupe/figures/view-fullscreen-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-restore-symbolic.svg to /usr/share/help/fr/loupe/figures/view-restore-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-in-symbolic.svg to /usr/share/help/fr/loupe/figures/zoom-in-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-out-symbolic.svg to /usr/share/help/fr/loupe/figures/zoom-out-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/edit-copy-symbolic.svg to /usr/share/help/gl/loupe/figures/edit-copy-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-next-symbolic.svg to /usr/share/help/gl/loupe/figures/go-next-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-previous-symbolic.svg to /usr/share/help/gl/loupe/figures/go-previous-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/help-about-symbolic.svg to /usr/share/help/gl/loupe/figures/help-about-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-left-symbolic.svg to /usr/share/help/gl/loupe/figures/object-rotate-left-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-right-symbolic.svg to /usr/share/help/gl/loupe/figures/object-rotate-right-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/org.gnome.Loupe.svg to /usr/share/help/gl/loupe/figures/org.gnome.Loupe.svg
+Installing symlink pointing to ../../../C/loupe/figures/user-trash-symbolic.svg to /usr/share/help/gl/loupe/figures/user-trash-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-fullscreen-symbolic.svg to /usr/share/help/gl/loupe/figures/view-fullscreen-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-restore-symbolic.svg to /usr/share/help/gl/loupe/figures/view-restore-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-in-symbolic.svg to /usr/share/help/gl/loupe/figures/zoom-in-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-out-symbolic.svg to /usr/share/help/gl/loupe/figures/zoom-out-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/edit-copy-symbolic.svg to /usr/share/help/hu/loupe/figures/edit-copy-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-next-symbolic.svg to /usr/share/help/hu/loupe/figures/go-next-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-previous-symbolic.svg to /usr/share/help/hu/loupe/figures/go-previous-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/help-about-symbolic.svg to /usr/share/help/hu/loupe/figures/help-about-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-left-symbolic.svg to /usr/share/help/hu/loupe/figures/object-rotate-left-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-right-symbolic.svg to /usr/share/help/hu/loupe/figures/object-rotate-right-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/org.gnome.Loupe.svg to /usr/share/help/hu/loupe/figures/org.gnome.Loupe.svg
+Installing symlink pointing to ../../../C/loupe/figures/user-trash-symbolic.svg to /usr/share/help/hu/loupe/figures/user-trash-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-fullscreen-symbolic.svg to /usr/share/help/hu/loupe/figures/view-fullscreen-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-restore-symbolic.svg to /usr/share/help/hu/loupe/figures/view-restore-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-in-symbolic.svg to /usr/share/help/hu/loupe/figures/zoom-in-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-out-symbolic.svg to /usr/share/help/hu/loupe/figures/zoom-out-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/edit-copy-symbolic.svg to /usr/share/help/id/loupe/figures/edit-copy-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-next-symbolic.svg to /usr/share/help/id/loupe/figures/go-next-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-previous-symbolic.svg to /usr/share/help/id/loupe/figures/go-previous-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/help-about-symbolic.svg to /usr/share/help/id/loupe/figures/help-about-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-left-symbolic.svg to /usr/share/help/id/loupe/figures/object-rotate-left-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-right-symbolic.svg to /usr/share/help/id/loupe/figures/object-rotate-right-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/org.gnome.Loupe.svg to /usr/share/help/id/loupe/figures/org.gnome.Loupe.svg
+Installing symlink pointing to ../../../C/loupe/figures/user-trash-symbolic.svg to /usr/share/help/id/loupe/figures/user-trash-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-fullscreen-symbolic.svg to /usr/share/help/id/loupe/figures/view-fullscreen-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-restore-symbolic.svg to /usr/share/help/id/loupe/figures/view-restore-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-in-symbolic.svg to /usr/share/help/id/loupe/figures/zoom-in-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-out-symbolic.svg to /usr/share/help/id/loupe/figures/zoom-out-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/edit-copy-symbolic.svg to /usr/share/help/it/loupe/figures/edit-copy-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-next-symbolic.svg to /usr/share/help/it/loupe/figures/go-next-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-previous-symbolic.svg to /usr/share/help/it/loupe/figures/go-previous-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/help-about-symbolic.svg to /usr/share/help/it/loupe/figures/help-about-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-left-symbolic.svg to /usr/share/help/it/loupe/figures/object-rotate-left-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-right-symbolic.svg to /usr/share/help/it/loupe/figures/object-rotate-right-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/org.gnome.Loupe.svg to /usr/share/help/it/loupe/figures/org.gnome.Loupe.svg
+Installing symlink pointing to ../../../C/loupe/figures/user-trash-symbolic.svg to /usr/share/help/it/loupe/figures/user-trash-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-fullscreen-symbolic.svg to /usr/share/help/it/loupe/figures/view-fullscreen-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-restore-symbolic.svg to /usr/share/help/it/loupe/figures/view-restore-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-in-symbolic.svg to /usr/share/help/it/loupe/figures/zoom-in-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-out-symbolic.svg to /usr/share/help/it/loupe/figures/zoom-out-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/edit-copy-symbolic.svg to /usr/share/help/ko/loupe/figures/edit-copy-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-next-symbolic.svg to /usr/share/help/ko/loupe/figures/go-next-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-previous-symbolic.svg to /usr/share/help/ko/loupe/figures/go-previous-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/help-about-symbolic.svg to /usr/share/help/ko/loupe/figures/help-about-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-left-symbolic.svg to /usr/share/help/ko/loupe/figures/object-rotate-left-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-right-symbolic.svg to /usr/share/help/ko/loupe/figures/object-rotate-right-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/org.gnome.Loupe.svg to /usr/share/help/ko/loupe/figures/org.gnome.Loupe.svg
+Installing symlink pointing to ../../../C/loupe/figures/user-trash-symbolic.svg to /usr/share/help/ko/loupe/figures/user-trash-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-fullscreen-symbolic.svg to /usr/share/help/ko/loupe/figures/view-fullscreen-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-restore-symbolic.svg to /usr/share/help/ko/loupe/figures/view-restore-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-in-symbolic.svg to /usr/share/help/ko/loupe/figures/zoom-in-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-out-symbolic.svg to /usr/share/help/ko/loupe/figures/zoom-out-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/edit-copy-symbolic.svg to /usr/share/help/pl/loupe/figures/edit-copy-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-next-symbolic.svg to /usr/share/help/pl/loupe/figures/go-next-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-previous-symbolic.svg to /usr/share/help/pl/loupe/figures/go-previous-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/help-about-symbolic.svg to /usr/share/help/pl/loupe/figures/help-about-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-left-symbolic.svg to /usr/share/help/pl/loupe/figures/object-rotate-left-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-right-symbolic.svg to /usr/share/help/pl/loupe/figures/object-rotate-right-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/org.gnome.Loupe.svg to /usr/share/help/pl/loupe/figures/org.gnome.Loupe.svg
+Installing symlink pointing to ../../../C/loupe/figures/user-trash-symbolic.svg to /usr/share/help/pl/loupe/figures/user-trash-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-fullscreen-symbolic.svg to /usr/share/help/pl/loupe/figures/view-fullscreen-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-restore-symbolic.svg to /usr/share/help/pl/loupe/figures/view-restore-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-in-symbolic.svg to /usr/share/help/pl/loupe/figures/zoom-in-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-out-symbolic.svg to /usr/share/help/pl/loupe/figures/zoom-out-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/edit-copy-symbolic.svg to /usr/share/help/pt_BR/loupe/figures/edit-copy-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-next-symbolic.svg to /usr/share/help/pt_BR/loupe/figures/go-next-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-previous-symbolic.svg to /usr/share/help/pt_BR/loupe/figures/go-previous-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/help-about-symbolic.svg to /usr/share/help/pt_BR/loupe/figures/help-about-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-left-symbolic.svg to /usr/share/help/pt_BR/loupe/figures/object-rotate-left-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-right-symbolic.svg to /usr/share/help/pt_BR/loupe/figures/object-rotate-right-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/org.gnome.Loupe.svg to /usr/share/help/pt_BR/loupe/figures/org.gnome.Loupe.svg
+Installing symlink pointing to ../../../C/loupe/figures/user-trash-symbolic.svg to /usr/share/help/pt_BR/loupe/figures/user-trash-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-fullscreen-symbolic.svg to /usr/share/help/pt_BR/loupe/figures/view-fullscreen-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-restore-symbolic.svg to /usr/share/help/pt_BR/loupe/figures/view-restore-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-in-symbolic.svg to /usr/share/help/pt_BR/loupe/figures/zoom-in-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-out-symbolic.svg to /usr/share/help/pt_BR/loupe/figures/zoom-out-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/edit-copy-symbolic.svg to /usr/share/help/ru/loupe/figures/edit-copy-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-next-symbolic.svg to /usr/share/help/ru/loupe/figures/go-next-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-previous-symbolic.svg to /usr/share/help/ru/loupe/figures/go-previous-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/help-about-symbolic.svg to /usr/share/help/ru/loupe/figures/help-about-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-left-symbolic.svg to /usr/share/help/ru/loupe/figures/object-rotate-left-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-right-symbolic.svg to /usr/share/help/ru/loupe/figures/object-rotate-right-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/org.gnome.Loupe.svg to /usr/share/help/ru/loupe/figures/org.gnome.Loupe.svg
+Installing symlink pointing to ../../../C/loupe/figures/user-trash-symbolic.svg to /usr/share/help/ru/loupe/figures/user-trash-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-fullscreen-symbolic.svg to /usr/share/help/ru/loupe/figures/view-fullscreen-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-restore-symbolic.svg to /usr/share/help/ru/loupe/figures/view-restore-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-in-symbolic.svg to /usr/share/help/ru/loupe/figures/zoom-in-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-out-symbolic.svg to /usr/share/help/ru/loupe/figures/zoom-out-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/edit-copy-symbolic.svg to /usr/share/help/sv/loupe/figures/edit-copy-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-next-symbolic.svg to /usr/share/help/sv/loupe/figures/go-next-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-previous-symbolic.svg to /usr/share/help/sv/loupe/figures/go-previous-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/help-about-symbolic.svg to /usr/share/help/sv/loupe/figures/help-about-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-left-symbolic.svg to /usr/share/help/sv/loupe/figures/object-rotate-left-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-right-symbolic.svg to /usr/share/help/sv/loupe/figures/object-rotate-right-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/org.gnome.Loupe.svg to /usr/share/help/sv/loupe/figures/org.gnome.Loupe.svg
+Installing symlink pointing to ../../../C/loupe/figures/user-trash-symbolic.svg to /usr/share/help/sv/loupe/figures/user-trash-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-fullscreen-symbolic.svg to /usr/share/help/sv/loupe/figures/view-fullscreen-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-restore-symbolic.svg to /usr/share/help/sv/loupe/figures/view-restore-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-in-symbolic.svg to /usr/share/help/sv/loupe/figures/zoom-in-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-out-symbolic.svg to /usr/share/help/sv/loupe/figures/zoom-out-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/edit-copy-symbolic.svg to /usr/share/help/tr/loupe/figures/edit-copy-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-next-symbolic.svg to /usr/share/help/tr/loupe/figures/go-next-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-previous-symbolic.svg to /usr/share/help/tr/loupe/figures/go-previous-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/help-about-symbolic.svg to /usr/share/help/tr/loupe/figures/help-about-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-left-symbolic.svg to /usr/share/help/tr/loupe/figures/object-rotate-left-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-right-symbolic.svg to /usr/share/help/tr/loupe/figures/object-rotate-right-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/org.gnome.Loupe.svg to /usr/share/help/tr/loupe/figures/org.gnome.Loupe.svg
+Installing symlink pointing to ../../../C/loupe/figures/user-trash-symbolic.svg to /usr/share/help/tr/loupe/figures/user-trash-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-fullscreen-symbolic.svg to /usr/share/help/tr/loupe/figures/view-fullscreen-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-restore-symbolic.svg to /usr/share/help/tr/loupe/figures/view-restore-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-in-symbolic.svg to /usr/share/help/tr/loupe/figures/zoom-in-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-out-symbolic.svg to /usr/share/help/tr/loupe/figures/zoom-out-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/edit-copy-symbolic.svg to /usr/share/help/uk/loupe/figures/edit-copy-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-next-symbolic.svg to /usr/share/help/uk/loupe/figures/go-next-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-previous-symbolic.svg to /usr/share/help/uk/loupe/figures/go-previous-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/help-about-symbolic.svg to /usr/share/help/uk/loupe/figures/help-about-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-left-symbolic.svg to /usr/share/help/uk/loupe/figures/object-rotate-left-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-right-symbolic.svg to /usr/share/help/uk/loupe/figures/object-rotate-right-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/org.gnome.Loupe.svg to /usr/share/help/uk/loupe/figures/org.gnome.Loupe.svg
+Installing symlink pointing to ../../../C/loupe/figures/user-trash-symbolic.svg to /usr/share/help/uk/loupe/figures/user-trash-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-fullscreen-symbolic.svg to /usr/share/help/uk/loupe/figures/view-fullscreen-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-restore-symbolic.svg to /usr/share/help/uk/loupe/figures/view-restore-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-in-symbolic.svg to /usr/share/help/uk/loupe/figures/zoom-in-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-out-symbolic.svg to /usr/share/help/uk/loupe/figures/zoom-out-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/edit-copy-symbolic.svg to /usr/share/help/zh_CN/loupe/figures/edit-copy-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-next-symbolic.svg to /usr/share/help/zh_CN/loupe/figures/go-next-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-previous-symbolic.svg to /usr/share/help/zh_CN/loupe/figures/go-previous-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/help-about-symbolic.svg to /usr/share/help/zh_CN/loupe/figures/help-about-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-left-symbolic.svg to /usr/share/help/zh_CN/loupe/figures/object-rotate-left-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-right-symbolic.svg to /usr/share/help/zh_CN/loupe/figures/object-rotate-right-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/org.gnome.Loupe.svg to /usr/share/help/zh_CN/loupe/figures/org.gnome.Loupe.svg
+Installing symlink pointing to ../../../C/loupe/figures/user-trash-symbolic.svg to /usr/share/help/zh_CN/loupe/figures/user-trash-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-fullscreen-symbolic.svg to /usr/share/help/zh_CN/loupe/figures/view-fullscreen-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-restore-symbolic.svg to /usr/share/help/zh_CN/loupe/figures/view-restore-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-in-symbolic.svg to /usr/share/help/zh_CN/loupe/figures/zoom-in-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-out-symbolic.svg to /usr/share/help/zh_CN/loupe/figures/zoom-out-symbolic.svg
+Running custom install script '/usr/bin/glib-compile-schemas /usr/share/glib-2.0/schemas'
+Running custom install script '/usr/bin/gtk4-update-icon-cache -q -t -f /usr/share/icons/hicolor'
+Running custom install script '/usr/bin/update-desktop-database -q /usr/share/applications'
+[0/3] Generating src/cargo-build with a custom command (wrapped by meson to set env)
+    Finished `release` profile [optimized] target(s) in 0.13s
+[2/3] Generating src/cp-binary with a custom command
+[2/3] Installing files
+Installing data/org.gnome.Loupe.desktop to /pkgs/loupe/usr/share/applications
+Installing data/org.gnome.Loupe.metainfo.xml to /pkgs/loupe/usr/share/metainfo
+Installing help/bg/image-properties.page to /pkgs/loupe/usr/share/help/bg/loupe
+Installing help/bg/index.page to /pkgs/loupe/usr/share/help/bg/loupe
+Installing help/bg/opening-images.page to /pkgs/loupe/usr/share/help/bg/loupe
+Installing help/bg/sending-to-other-apps.page to /pkgs/loupe/usr/share/help/bg/loupe
+Installing help/bg/supported-formats.page to /pkgs/loupe/usr/share/help/bg/loupe
+Installing help/bg/trashing-images.page to /pkgs/loupe/usr/share/help/bg/loupe
+Installing help/bg/viewing-images.page to /pkgs/loupe/usr/share/help/bg/loupe
+Installing help/ca/image-properties.page to /pkgs/loupe/usr/share/help/ca/loupe
+Installing help/ca/index.page to /pkgs/loupe/usr/share/help/ca/loupe
+Installing help/ca/opening-images.page to /pkgs/loupe/usr/share/help/ca/loupe
+Installing help/ca/sending-to-other-apps.page to /pkgs/loupe/usr/share/help/ca/loupe
+Installing help/ca/supported-formats.page to /pkgs/loupe/usr/share/help/ca/loupe
+Installing help/ca/trashing-images.page to /pkgs/loupe/usr/share/help/ca/loupe
+Installing help/ca/viewing-images.page to /pkgs/loupe/usr/share/help/ca/loupe
+Installing help/cs/image-properties.page to /pkgs/loupe/usr/share/help/cs/loupe
+Installing help/cs/index.page to /pkgs/loupe/usr/share/help/cs/loupe
+Installing help/cs/opening-images.page to /pkgs/loupe/usr/share/help/cs/loupe
+Installing help/cs/sending-to-other-apps.page to /pkgs/loupe/usr/share/help/cs/loupe
+Installing help/cs/supported-formats.page to /pkgs/loupe/usr/share/help/cs/loupe
+Installing help/cs/trashing-images.page to /pkgs/loupe/usr/share/help/cs/loupe
+Installing help/cs/viewing-images.page to /pkgs/loupe/usr/share/help/cs/loupe
+Installing help/de/image-properties.page to /pkgs/loupe/usr/share/help/de/loupe
+Installing help/de/index.page to /pkgs/loupe/usr/share/help/de/loupe
+Installing help/de/opening-images.page to /pkgs/loupe/usr/share/help/de/loupe
+Installing help/de/sending-to-other-apps.page to /pkgs/loupe/usr/share/help/de/loupe
+Installing help/de/supported-formats.page to /pkgs/loupe/usr/share/help/de/loupe
+Installing help/de/trashing-images.page to /pkgs/loupe/usr/share/help/de/loupe
+Installing help/de/viewing-images.page to /pkgs/loupe/usr/share/help/de/loupe
+Installing help/eu/image-properties.page to /pkgs/loupe/usr/share/help/eu/loupe
+Installing help/eu/index.page to /pkgs/loupe/usr/share/help/eu/loupe
+Installing help/eu/opening-images.page to /pkgs/loupe/usr/share/help/eu/loupe
+Installing help/eu/sending-to-other-apps.page to /pkgs/loupe/usr/share/help/eu/loupe
+Installing help/eu/supported-formats.page to /pkgs/loupe/usr/share/help/eu/loupe
+Installing help/eu/trashing-images.page to /pkgs/loupe/usr/share/help/eu/loupe
+Installing help/eu/viewing-images.page to /pkgs/loupe/usr/share/help/eu/loupe
+Installing help/fa/image-properties.page to /pkgs/loupe/usr/share/help/fa/loupe
+Installing help/fa/index.page to /pkgs/loupe/usr/share/help/fa/loupe
+Installing help/fa/opening-images.page to /pkgs/loupe/usr/share/help/fa/loupe
+Installing help/fa/sending-to-other-apps.page to /pkgs/loupe/usr/share/help/fa/loupe
+Installing help/fa/supported-formats.page to /pkgs/loupe/usr/share/help/fa/loupe
+Installing help/fa/trashing-images.page to /pkgs/loupe/usr/share/help/fa/loupe
+Installing help/fa/viewing-images.page to /pkgs/loupe/usr/share/help/fa/loupe
+Installing help/fr/image-properties.page to /pkgs/loupe/usr/share/help/fr/loupe
+Installing help/fr/index.page to /pkgs/loupe/usr/share/help/fr/loupe
+Installing help/fr/opening-images.page to /pkgs/loupe/usr/share/help/fr/loupe
+Installing help/fr/sending-to-other-apps.page to /pkgs/loupe/usr/share/help/fr/loupe
+Installing help/fr/supported-formats.page to /pkgs/loupe/usr/share/help/fr/loupe
+Installing help/fr/trashing-images.page to /pkgs/loupe/usr/share/help/fr/loupe
+Installing help/fr/viewing-images.page to /pkgs/loupe/usr/share/help/fr/loupe
+Installing help/gl/image-properties.page to /pkgs/loupe/usr/share/help/gl/loupe
+Installing help/gl/index.page to /pkgs/loupe/usr/share/help/gl/loupe
+Installing help/gl/opening-images.page to /pkgs/loupe/usr/share/help/gl/loupe
+Installing help/gl/sending-to-other-apps.page to /pkgs/loupe/usr/share/help/gl/loupe
+Installing help/gl/supported-formats.page to /pkgs/loupe/usr/share/help/gl/loupe
+Installing help/gl/trashing-images.page to /pkgs/loupe/usr/share/help/gl/loupe
+Installing help/gl/viewing-images.page to /pkgs/loupe/usr/share/help/gl/loupe
+Installing help/hu/image-properties.page to /pkgs/loupe/usr/share/help/hu/loupe
+Installing help/hu/index.page to /pkgs/loupe/usr/share/help/hu/loupe
+Installing help/hu/opening-images.page to /pkgs/loupe/usr/share/help/hu/loupe
+Installing help/hu/sending-to-other-apps.page to /pkgs/loupe/usr/share/help/hu/loupe
+Installing help/hu/supported-formats.page to /pkgs/loupe/usr/share/help/hu/loupe
+Installing help/hu/trashing-images.page to /pkgs/loupe/usr/share/help/hu/loupe
+Installing help/hu/viewing-images.page to /pkgs/loupe/usr/share/help/hu/loupe
+Installing help/id/image-properties.page to /pkgs/loupe/usr/share/help/id/loupe
+Installing help/id/index.page to /pkgs/loupe/usr/share/help/id/loupe
+Installing help/id/opening-images.page to /pkgs/loupe/usr/share/help/id/loupe
+Installing help/id/sending-to-other-apps.page to /pkgs/loupe/usr/share/help/id/loupe
+Installing help/id/supported-formats.page to /pkgs/loupe/usr/share/help/id/loupe
+Installing help/id/trashing-images.page to /pkgs/loupe/usr/share/help/id/loupe
+Installing help/id/viewing-images.page to /pkgs/loupe/usr/share/help/id/loupe
+Installing help/it/image-properties.page to /pkgs/loupe/usr/share/help/it/loupe
+Installing help/it/index.page to /pkgs/loupe/usr/share/help/it/loupe
+Installing help/it/opening-images.page to /pkgs/loupe/usr/share/help/it/loupe
+Installing help/it/sending-to-other-apps.page to /pkgs/loupe/usr/share/help/it/loupe
+Installing help/it/supported-formats.page to /pkgs/loupe/usr/share/help/it/loupe
+Installing help/it/trashing-images.page to /pkgs/loupe/usr/share/help/it/loupe
+Installing help/it/viewing-images.page to /pkgs/loupe/usr/share/help/it/loupe
+Installing help/ko/image-properties.page to /pkgs/loupe/usr/share/help/ko/loupe
+Installing help/ko/index.page to /pkgs/loupe/usr/share/help/ko/loupe
+Installing help/ko/opening-images.page to /pkgs/loupe/usr/share/help/ko/loupe
+Installing help/ko/sending-to-other-apps.page to /pkgs/loupe/usr/share/help/ko/loupe
+Installing help/ko/supported-formats.page to /pkgs/loupe/usr/share/help/ko/loupe
+Installing help/ko/trashing-images.page to /pkgs/loupe/usr/share/help/ko/loupe
+Installing help/ko/viewing-images.page to /pkgs/loupe/usr/share/help/ko/loupe
+Installing help/pl/image-properties.page to /pkgs/loupe/usr/share/help/pl/loupe
+Installing help/pl/index.page to /pkgs/loupe/usr/share/help/pl/loupe
+Installing help/pl/opening-images.page to /pkgs/loupe/usr/share/help/pl/loupe
+Installing help/pl/sending-to-other-apps.page to /pkgs/loupe/usr/share/help/pl/loupe
+Installing help/pl/supported-formats.page to /pkgs/loupe/usr/share/help/pl/loupe
+Installing help/pl/trashing-images.page to /pkgs/loupe/usr/share/help/pl/loupe
+Installing help/pl/viewing-images.page to /pkgs/loupe/usr/share/help/pl/loupe
+Installing help/pt_BR/image-properties.page to /pkgs/loupe/usr/share/help/pt_BR/loupe
+Installing help/pt_BR/index.page to /pkgs/loupe/usr/share/help/pt_BR/loupe
+Installing help/pt_BR/opening-images.page to /pkgs/loupe/usr/share/help/pt_BR/loupe
+Installing help/pt_BR/sending-to-other-apps.page to /pkgs/loupe/usr/share/help/pt_BR/loupe
+Installing help/pt_BR/supported-formats.page to /pkgs/loupe/usr/share/help/pt_BR/loupe
+Installing help/pt_BR/trashing-images.page to /pkgs/loupe/usr/share/help/pt_BR/loupe
+Installing help/pt_BR/viewing-images.page to /pkgs/loupe/usr/share/help/pt_BR/loupe
+Installing help/ru/image-properties.page to /pkgs/loupe/usr/share/help/ru/loupe
+Installing help/ru/index.page to /pkgs/loupe/usr/share/help/ru/loupe
+Installing help/ru/opening-images.page to /pkgs/loupe/usr/share/help/ru/loupe
+Installing help/ru/sending-to-other-apps.page to /pkgs/loupe/usr/share/help/ru/loupe
+Installing help/ru/supported-formats.page to /pkgs/loupe/usr/share/help/ru/loupe
+Installing help/ru/trashing-images.page to /pkgs/loupe/usr/share/help/ru/loupe
+Installing help/ru/viewing-images.page to /pkgs/loupe/usr/share/help/ru/loupe
+Installing help/sv/image-properties.page to /pkgs/loupe/usr/share/help/sv/loupe
+Installing help/sv/index.page to /pkgs/loupe/usr/share/help/sv/loupe
+Installing help/sv/opening-images.page to /pkgs/loupe/usr/share/help/sv/loupe
+Installing help/sv/sending-to-other-apps.page to /pkgs/loupe/usr/share/help/sv/loupe
+Installing help/sv/supported-formats.page to /pkgs/loupe/usr/share/help/sv/loupe
+Installing help/sv/trashing-images.page to /pkgs/loupe/usr/share/help/sv/loupe
+Installing help/sv/viewing-images.page to /pkgs/loupe/usr/share/help/sv/loupe
+Installing help/tr/image-properties.page to /pkgs/loupe/usr/share/help/tr/loupe
+Installing help/tr/index.page to /pkgs/loupe/usr/share/help/tr/loupe
+Installing help/tr/opening-images.page to /pkgs/loupe/usr/share/help/tr/loupe
+Installing help/tr/sending-to-other-apps.page to /pkgs/loupe/usr/share/help/tr/loupe
+Installing help/tr/supported-formats.page to /pkgs/loupe/usr/share/help/tr/loupe
+Installing help/tr/trashing-images.page to /pkgs/loupe/usr/share/help/tr/loupe
+Installing help/tr/viewing-images.page to /pkgs/loupe/usr/share/help/tr/loupe
+Installing help/uk/image-properties.page to /pkgs/loupe/usr/share/help/uk/loupe
+Installing help/uk/index.page to /pkgs/loupe/usr/share/help/uk/loupe
+Installing help/uk/opening-images.page to /pkgs/loupe/usr/share/help/uk/loupe
+Installing help/uk/sending-to-other-apps.page to /pkgs/loupe/usr/share/help/uk/loupe
+Installing help/uk/supported-formats.page to /pkgs/loupe/usr/share/help/uk/loupe
+Installing help/uk/trashing-images.page to /pkgs/loupe/usr/share/help/uk/loupe
+Installing help/uk/viewing-images.page to /pkgs/loupe/usr/share/help/uk/loupe
+Installing help/zh_CN/image-properties.page to /pkgs/loupe/usr/share/help/zh_CN/loupe
+Installing help/zh_CN/index.page to /pkgs/loupe/usr/share/help/zh_CN/loupe
+Installing help/zh_CN/opening-images.page to /pkgs/loupe/usr/share/help/zh_CN/loupe
+Installing help/zh_CN/sending-to-other-apps.page to /pkgs/loupe/usr/share/help/zh_CN/loupe
+Installing help/zh_CN/supported-formats.page to /pkgs/loupe/usr/share/help/zh_CN/loupe
+Installing help/zh_CN/trashing-images.page to /pkgs/loupe/usr/share/help/zh_CN/loupe
+Installing help/zh_CN/viewing-images.page to /pkgs/loupe/usr/share/help/zh_CN/loupe
+Installing src/loupe to /pkgs/loupe/usr/bin
+Installing po/ar/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/ar/LC_MESSAGES
+Installing po/be/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/be/LC_MESSAGES
+Installing po/bg/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/bg/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/ca/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/cs/LC_MESSAGES
+Installing po/da/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/de/LC_MESSAGES
+Installing po/el/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/el/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/en_GB/LC_MESSAGES
+Installing po/eo/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/eo/LC_MESSAGES
+Installing po/es/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/es/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/eu/LC_MESSAGES
+Installing po/fa/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/fa/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/fi/LC_MESSAGES
+Installing po/fil/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/fil/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/fr/LC_MESSAGES
+Installing po/fur/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/fur/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/gl/LC_MESSAGES
+Installing po/he/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/he/LC_MESSAGES
+Installing po/hi/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/hi/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/hu/LC_MESSAGES
+Installing po/ia/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/ia/LC_MESSAGES
+Installing po/id/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/id/LC_MESSAGES
+Installing po/ie/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/ie/LC_MESSAGES
+Installing po/it/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/it/LC_MESSAGES
+Installing po/ja/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/ja/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/ka/LC_MESSAGES
+Installing po/kab/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/kab/LC_MESSAGES
+Installing po/kk/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/kk/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/ko/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/lt/LC_MESSAGES
+Installing po/lv/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/lv/LC_MESSAGES
+Installing po/nb/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/nb/LC_MESSAGES
+Installing po/ne/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/ne/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/nl/LC_MESSAGES
+Installing po/nn/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/nn/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/oc/LC_MESSAGES
+Installing po/pa/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/pa/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/pl/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/pt/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/ru/LC_MESSAGES
+Installing po/rw/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/rw/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/sl/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/sr/LC_MESSAGES
+Installing po/sr@latin/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/sr@latin/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/sv/LC_MESSAGES
+Installing po/th/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/th/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/tr/LC_MESSAGES
+Installing po/ug/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/ug/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/uk/LC_MESSAGES
+Installing po/uz/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/uz/LC_MESSAGES
+Installing po/vi/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/vi/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/loupe.mo to /pkgs/loupe/usr/share/locale/zh_TW/LC_MESSAGES
+Installing /blfs/builds/loupe-49.2/build/data/org.gnome.Loupe.service to /pkgs/loupe/usr/share/dbus-1/services
+Installing /blfs/builds/loupe-49.2/data/icons/hicolor/scalable/apps/org.gnome.Loupe.svg to /pkgs/loupe/usr/share/icons/hicolor/scalable/apps
+Installing /blfs/builds/loupe-49.2/data/icons/hicolor/symbolic/apps/org.gnome.Loupe-symbolic.svg to /pkgs/loupe/usr/share/icons/hicolor/symbolic/apps
+Installing /blfs/builds/loupe-49.2/build/data/org.gnome.Loupe.gschema.xml to /pkgs/loupe/usr/share/glib-2.0/schemas
+Installing /blfs/builds/loupe-49.2/help/C/image-properties.page to /pkgs/loupe/usr/share/help/C/loupe
+Installing /blfs/builds/loupe-49.2/help/C/index.page to /pkgs/loupe/usr/share/help/C/loupe
+Installing /blfs/builds/loupe-49.2/help/C/opening-images.page to /pkgs/loupe/usr/share/help/C/loupe
+Installing /blfs/builds/loupe-49.2/help/C/sending-to-other-apps.page to /pkgs/loupe/usr/share/help/C/loupe
+Installing /blfs/builds/loupe-49.2/help/C/supported-formats.page to /pkgs/loupe/usr/share/help/C/loupe
+Installing /blfs/builds/loupe-49.2/help/C/trashing-images.page to /pkgs/loupe/usr/share/help/C/loupe
+Installing /blfs/builds/loupe-49.2/help/C/viewing-images.page to /pkgs/loupe/usr/share/help/C/loupe
+Installing /blfs/builds/loupe-49.2/help/C/figures/edit-copy-symbolic.svg to /pkgs/loupe/usr/share/help/C/loupe/figures
+Installing /blfs/builds/loupe-49.2/help/C/figures/go-next-symbolic.svg to /pkgs/loupe/usr/share/help/C/loupe/figures
+Installing /blfs/builds/loupe-49.2/help/C/figures/go-previous-symbolic.svg to /pkgs/loupe/usr/share/help/C/loupe/figures
+Installing /blfs/builds/loupe-49.2/help/C/figures/help-about-symbolic.svg to /pkgs/loupe/usr/share/help/C/loupe/figures
+Installing /blfs/builds/loupe-49.2/help/C/figures/object-rotate-left-symbolic.svg to /pkgs/loupe/usr/share/help/C/loupe/figures
+Installing /blfs/builds/loupe-49.2/help/C/figures/object-rotate-right-symbolic.svg to /pkgs/loupe/usr/share/help/C/loupe/figures
+Installing /blfs/builds/loupe-49.2/help/C/figures/org.gnome.Loupe.svg to /pkgs/loupe/usr/share/help/C/loupe/figures
+Installing /blfs/builds/loupe-49.2/help/C/figures/user-trash-symbolic.svg to /pkgs/loupe/usr/share/help/C/loupe/figures
+Installing /blfs/builds/loupe-49.2/help/C/figures/view-fullscreen-symbolic.svg to /pkgs/loupe/usr/share/help/C/loupe/figures
+Installing /blfs/builds/loupe-49.2/help/C/figures/view-restore-symbolic.svg to /pkgs/loupe/usr/share/help/C/loupe/figures
+Installing /blfs/builds/loupe-49.2/help/C/figures/zoom-in-symbolic.svg to /pkgs/loupe/usr/share/help/C/loupe/figures
+Installing /blfs/builds/loupe-49.2/help/C/figures/zoom-out-symbolic.svg to /pkgs/loupe/usr/share/help/C/loupe/figures
+Installing symlink pointing to ../../../C/loupe/figures/edit-copy-symbolic.svg to /pkgs/loupe/usr/share/help/bg/loupe/figures/edit-copy-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-next-symbolic.svg to /pkgs/loupe/usr/share/help/bg/loupe/figures/go-next-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-previous-symbolic.svg to /pkgs/loupe/usr/share/help/bg/loupe/figures/go-previous-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/help-about-symbolic.svg to /pkgs/loupe/usr/share/help/bg/loupe/figures/help-about-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-left-symbolic.svg to /pkgs/loupe/usr/share/help/bg/loupe/figures/object-rotate-left-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-right-symbolic.svg to /pkgs/loupe/usr/share/help/bg/loupe/figures/object-rotate-right-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/org.gnome.Loupe.svg to /pkgs/loupe/usr/share/help/bg/loupe/figures/org.gnome.Loupe.svg
+Installing symlink pointing to ../../../C/loupe/figures/user-trash-symbolic.svg to /pkgs/loupe/usr/share/help/bg/loupe/figures/user-trash-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-fullscreen-symbolic.svg to /pkgs/loupe/usr/share/help/bg/loupe/figures/view-fullscreen-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-restore-symbolic.svg to /pkgs/loupe/usr/share/help/bg/loupe/figures/view-restore-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-in-symbolic.svg to /pkgs/loupe/usr/share/help/bg/loupe/figures/zoom-in-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-out-symbolic.svg to /pkgs/loupe/usr/share/help/bg/loupe/figures/zoom-out-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/edit-copy-symbolic.svg to /pkgs/loupe/usr/share/help/ca/loupe/figures/edit-copy-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-next-symbolic.svg to /pkgs/loupe/usr/share/help/ca/loupe/figures/go-next-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-previous-symbolic.svg to /pkgs/loupe/usr/share/help/ca/loupe/figures/go-previous-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/help-about-symbolic.svg to /pkgs/loupe/usr/share/help/ca/loupe/figures/help-about-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-left-symbolic.svg to /pkgs/loupe/usr/share/help/ca/loupe/figures/object-rotate-left-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-right-symbolic.svg to /pkgs/loupe/usr/share/help/ca/loupe/figures/object-rotate-right-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/org.gnome.Loupe.svg to /pkgs/loupe/usr/share/help/ca/loupe/figures/org.gnome.Loupe.svg
+Installing symlink pointing to ../../../C/loupe/figures/user-trash-symbolic.svg to /pkgs/loupe/usr/share/help/ca/loupe/figures/user-trash-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-fullscreen-symbolic.svg to /pkgs/loupe/usr/share/help/ca/loupe/figures/view-fullscreen-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-restore-symbolic.svg to /pkgs/loupe/usr/share/help/ca/loupe/figures/view-restore-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-in-symbolic.svg to /pkgs/loupe/usr/share/help/ca/loupe/figures/zoom-in-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-out-symbolic.svg to /pkgs/loupe/usr/share/help/ca/loupe/figures/zoom-out-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/edit-copy-symbolic.svg to /pkgs/loupe/usr/share/help/cs/loupe/figures/edit-copy-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-next-symbolic.svg to /pkgs/loupe/usr/share/help/cs/loupe/figures/go-next-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-previous-symbolic.svg to /pkgs/loupe/usr/share/help/cs/loupe/figures/go-previous-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/help-about-symbolic.svg to /pkgs/loupe/usr/share/help/cs/loupe/figures/help-about-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-left-symbolic.svg to /pkgs/loupe/usr/share/help/cs/loupe/figures/object-rotate-left-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-right-symbolic.svg to /pkgs/loupe/usr/share/help/cs/loupe/figures/object-rotate-right-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/org.gnome.Loupe.svg to /pkgs/loupe/usr/share/help/cs/loupe/figures/org.gnome.Loupe.svg
+Installing symlink pointing to ../../../C/loupe/figures/user-trash-symbolic.svg to /pkgs/loupe/usr/share/help/cs/loupe/figures/user-trash-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-fullscreen-symbolic.svg to /pkgs/loupe/usr/share/help/cs/loupe/figures/view-fullscreen-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-restore-symbolic.svg to /pkgs/loupe/usr/share/help/cs/loupe/figures/view-restore-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-in-symbolic.svg to /pkgs/loupe/usr/share/help/cs/loupe/figures/zoom-in-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-out-symbolic.svg to /pkgs/loupe/usr/share/help/cs/loupe/figures/zoom-out-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/edit-copy-symbolic.svg to /pkgs/loupe/usr/share/help/de/loupe/figures/edit-copy-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-next-symbolic.svg to /pkgs/loupe/usr/share/help/de/loupe/figures/go-next-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-previous-symbolic.svg to /pkgs/loupe/usr/share/help/de/loupe/figures/go-previous-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/help-about-symbolic.svg to /pkgs/loupe/usr/share/help/de/loupe/figures/help-about-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-left-symbolic.svg to /pkgs/loupe/usr/share/help/de/loupe/figures/object-rotate-left-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-right-symbolic.svg to /pkgs/loupe/usr/share/help/de/loupe/figures/object-rotate-right-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/org.gnome.Loupe.svg to /pkgs/loupe/usr/share/help/de/loupe/figures/org.gnome.Loupe.svg
+Installing symlink pointing to ../../../C/loupe/figures/user-trash-symbolic.svg to /pkgs/loupe/usr/share/help/de/loupe/figures/user-trash-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-fullscreen-symbolic.svg to /pkgs/loupe/usr/share/help/de/loupe/figures/view-fullscreen-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-restore-symbolic.svg to /pkgs/loupe/usr/share/help/de/loupe/figures/view-restore-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-in-symbolic.svg to /pkgs/loupe/usr/share/help/de/loupe/figures/zoom-in-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-out-symbolic.svg to /pkgs/loupe/usr/share/help/de/loupe/figures/zoom-out-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/edit-copy-symbolic.svg to /pkgs/loupe/usr/share/help/eu/loupe/figures/edit-copy-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-next-symbolic.svg to /pkgs/loupe/usr/share/help/eu/loupe/figures/go-next-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-previous-symbolic.svg to /pkgs/loupe/usr/share/help/eu/loupe/figures/go-previous-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/help-about-symbolic.svg to /pkgs/loupe/usr/share/help/eu/loupe/figures/help-about-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-left-symbolic.svg to /pkgs/loupe/usr/share/help/eu/loupe/figures/object-rotate-left-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-right-symbolic.svg to /pkgs/loupe/usr/share/help/eu/loupe/figures/object-rotate-right-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/org.gnome.Loupe.svg to /pkgs/loupe/usr/share/help/eu/loupe/figures/org.gnome.Loupe.svg
+Installing symlink pointing to ../../../C/loupe/figures/user-trash-symbolic.svg to /pkgs/loupe/usr/share/help/eu/loupe/figures/user-trash-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-fullscreen-symbolic.svg to /pkgs/loupe/usr/share/help/eu/loupe/figures/view-fullscreen-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-restore-symbolic.svg to /pkgs/loupe/usr/share/help/eu/loupe/figures/view-restore-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-in-symbolic.svg to /pkgs/loupe/usr/share/help/eu/loupe/figures/zoom-in-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-out-symbolic.svg to /pkgs/loupe/usr/share/help/eu/loupe/figures/zoom-out-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/edit-copy-symbolic.svg to /pkgs/loupe/usr/share/help/fa/loupe/figures/edit-copy-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-next-symbolic.svg to /pkgs/loupe/usr/share/help/fa/loupe/figures/go-next-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-previous-symbolic.svg to /pkgs/loupe/usr/share/help/fa/loupe/figures/go-previous-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/help-about-symbolic.svg to /pkgs/loupe/usr/share/help/fa/loupe/figures/help-about-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-left-symbolic.svg to /pkgs/loupe/usr/share/help/fa/loupe/figures/object-rotate-left-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-right-symbolic.svg to /pkgs/loupe/usr/share/help/fa/loupe/figures/object-rotate-right-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/org.gnome.Loupe.svg to /pkgs/loupe/usr/share/help/fa/loupe/figures/org.gnome.Loupe.svg
+Installing symlink pointing to ../../../C/loupe/figures/user-trash-symbolic.svg to /pkgs/loupe/usr/share/help/fa/loupe/figures/user-trash-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-fullscreen-symbolic.svg to /pkgs/loupe/usr/share/help/fa/loupe/figures/view-fullscreen-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-restore-symbolic.svg to /pkgs/loupe/usr/share/help/fa/loupe/figures/view-restore-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-in-symbolic.svg to /pkgs/loupe/usr/share/help/fa/loupe/figures/zoom-in-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-out-symbolic.svg to /pkgs/loupe/usr/share/help/fa/loupe/figures/zoom-out-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/edit-copy-symbolic.svg to /pkgs/loupe/usr/share/help/fr/loupe/figures/edit-copy-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-next-symbolic.svg to /pkgs/loupe/usr/share/help/fr/loupe/figures/go-next-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-previous-symbolic.svg to /pkgs/loupe/usr/share/help/fr/loupe/figures/go-previous-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/help-about-symbolic.svg to /pkgs/loupe/usr/share/help/fr/loupe/figures/help-about-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-left-symbolic.svg to /pkgs/loupe/usr/share/help/fr/loupe/figures/object-rotate-left-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-right-symbolic.svg to /pkgs/loupe/usr/share/help/fr/loupe/figures/object-rotate-right-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/org.gnome.Loupe.svg to /pkgs/loupe/usr/share/help/fr/loupe/figures/org.gnome.Loupe.svg
+Installing symlink pointing to ../../../C/loupe/figures/user-trash-symbolic.svg to /pkgs/loupe/usr/share/help/fr/loupe/figures/user-trash-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-fullscreen-symbolic.svg to /pkgs/loupe/usr/share/help/fr/loupe/figures/view-fullscreen-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-restore-symbolic.svg to /pkgs/loupe/usr/share/help/fr/loupe/figures/view-restore-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-in-symbolic.svg to /pkgs/loupe/usr/share/help/fr/loupe/figures/zoom-in-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-out-symbolic.svg to /pkgs/loupe/usr/share/help/fr/loupe/figures/zoom-out-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/edit-copy-symbolic.svg to /pkgs/loupe/usr/share/help/gl/loupe/figures/edit-copy-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-next-symbolic.svg to /pkgs/loupe/usr/share/help/gl/loupe/figures/go-next-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-previous-symbolic.svg to /pkgs/loupe/usr/share/help/gl/loupe/figures/go-previous-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/help-about-symbolic.svg to /pkgs/loupe/usr/share/help/gl/loupe/figures/help-about-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-left-symbolic.svg to /pkgs/loupe/usr/share/help/gl/loupe/figures/object-rotate-left-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-right-symbolic.svg to /pkgs/loupe/usr/share/help/gl/loupe/figures/object-rotate-right-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/org.gnome.Loupe.svg to /pkgs/loupe/usr/share/help/gl/loupe/figures/org.gnome.Loupe.svg
+Installing symlink pointing to ../../../C/loupe/figures/user-trash-symbolic.svg to /pkgs/loupe/usr/share/help/gl/loupe/figures/user-trash-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-fullscreen-symbolic.svg to /pkgs/loupe/usr/share/help/gl/loupe/figures/view-fullscreen-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-restore-symbolic.svg to /pkgs/loupe/usr/share/help/gl/loupe/figures/view-restore-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-in-symbolic.svg to /pkgs/loupe/usr/share/help/gl/loupe/figures/zoom-in-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-out-symbolic.svg to /pkgs/loupe/usr/share/help/gl/loupe/figures/zoom-out-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/edit-copy-symbolic.svg to /pkgs/loupe/usr/share/help/hu/loupe/figures/edit-copy-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-next-symbolic.svg to /pkgs/loupe/usr/share/help/hu/loupe/figures/go-next-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-previous-symbolic.svg to /pkgs/loupe/usr/share/help/hu/loupe/figures/go-previous-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/help-about-symbolic.svg to /pkgs/loupe/usr/share/help/hu/loupe/figures/help-about-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-left-symbolic.svg to /pkgs/loupe/usr/share/help/hu/loupe/figures/object-rotate-left-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-right-symbolic.svg to /pkgs/loupe/usr/share/help/hu/loupe/figures/object-rotate-right-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/org.gnome.Loupe.svg to /pkgs/loupe/usr/share/help/hu/loupe/figures/org.gnome.Loupe.svg
+Installing symlink pointing to ../../../C/loupe/figures/user-trash-symbolic.svg to /pkgs/loupe/usr/share/help/hu/loupe/figures/user-trash-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-fullscreen-symbolic.svg to /pkgs/loupe/usr/share/help/hu/loupe/figures/view-fullscreen-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-restore-symbolic.svg to /pkgs/loupe/usr/share/help/hu/loupe/figures/view-restore-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-in-symbolic.svg to /pkgs/loupe/usr/share/help/hu/loupe/figures/zoom-in-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-out-symbolic.svg to /pkgs/loupe/usr/share/help/hu/loupe/figures/zoom-out-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/edit-copy-symbolic.svg to /pkgs/loupe/usr/share/help/id/loupe/figures/edit-copy-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-next-symbolic.svg to /pkgs/loupe/usr/share/help/id/loupe/figures/go-next-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-previous-symbolic.svg to /pkgs/loupe/usr/share/help/id/loupe/figures/go-previous-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/help-about-symbolic.svg to /pkgs/loupe/usr/share/help/id/loupe/figures/help-about-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-left-symbolic.svg to /pkgs/loupe/usr/share/help/id/loupe/figures/object-rotate-left-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-right-symbolic.svg to /pkgs/loupe/usr/share/help/id/loupe/figures/object-rotate-right-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/org.gnome.Loupe.svg to /pkgs/loupe/usr/share/help/id/loupe/figures/org.gnome.Loupe.svg
+Installing symlink pointing to ../../../C/loupe/figures/user-trash-symbolic.svg to /pkgs/loupe/usr/share/help/id/loupe/figures/user-trash-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-fullscreen-symbolic.svg to /pkgs/loupe/usr/share/help/id/loupe/figures/view-fullscreen-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-restore-symbolic.svg to /pkgs/loupe/usr/share/help/id/loupe/figures/view-restore-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-in-symbolic.svg to /pkgs/loupe/usr/share/help/id/loupe/figures/zoom-in-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-out-symbolic.svg to /pkgs/loupe/usr/share/help/id/loupe/figures/zoom-out-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/edit-copy-symbolic.svg to /pkgs/loupe/usr/share/help/it/loupe/figures/edit-copy-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-next-symbolic.svg to /pkgs/loupe/usr/share/help/it/loupe/figures/go-next-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-previous-symbolic.svg to /pkgs/loupe/usr/share/help/it/loupe/figures/go-previous-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/help-about-symbolic.svg to /pkgs/loupe/usr/share/help/it/loupe/figures/help-about-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-left-symbolic.svg to /pkgs/loupe/usr/share/help/it/loupe/figures/object-rotate-left-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-right-symbolic.svg to /pkgs/loupe/usr/share/help/it/loupe/figures/object-rotate-right-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/org.gnome.Loupe.svg to /pkgs/loupe/usr/share/help/it/loupe/figures/org.gnome.Loupe.svg
+Installing symlink pointing to ../../../C/loupe/figures/user-trash-symbolic.svg to /pkgs/loupe/usr/share/help/it/loupe/figures/user-trash-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-fullscreen-symbolic.svg to /pkgs/loupe/usr/share/help/it/loupe/figures/view-fullscreen-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-restore-symbolic.svg to /pkgs/loupe/usr/share/help/it/loupe/figures/view-restore-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-in-symbolic.svg to /pkgs/loupe/usr/share/help/it/loupe/figures/zoom-in-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-out-symbolic.svg to /pkgs/loupe/usr/share/help/it/loupe/figures/zoom-out-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/edit-copy-symbolic.svg to /pkgs/loupe/usr/share/help/ko/loupe/figures/edit-copy-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-next-symbolic.svg to /pkgs/loupe/usr/share/help/ko/loupe/figures/go-next-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-previous-symbolic.svg to /pkgs/loupe/usr/share/help/ko/loupe/figures/go-previous-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/help-about-symbolic.svg to /pkgs/loupe/usr/share/help/ko/loupe/figures/help-about-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-left-symbolic.svg to /pkgs/loupe/usr/share/help/ko/loupe/figures/object-rotate-left-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-right-symbolic.svg to /pkgs/loupe/usr/share/help/ko/loupe/figures/object-rotate-right-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/org.gnome.Loupe.svg to /pkgs/loupe/usr/share/help/ko/loupe/figures/org.gnome.Loupe.svg
+Installing symlink pointing to ../../../C/loupe/figures/user-trash-symbolic.svg to /pkgs/loupe/usr/share/help/ko/loupe/figures/user-trash-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-fullscreen-symbolic.svg to /pkgs/loupe/usr/share/help/ko/loupe/figures/view-fullscreen-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-restore-symbolic.svg to /pkgs/loupe/usr/share/help/ko/loupe/figures/view-restore-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-in-symbolic.svg to /pkgs/loupe/usr/share/help/ko/loupe/figures/zoom-in-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-out-symbolic.svg to /pkgs/loupe/usr/share/help/ko/loupe/figures/zoom-out-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/edit-copy-symbolic.svg to /pkgs/loupe/usr/share/help/pl/loupe/figures/edit-copy-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-next-symbolic.svg to /pkgs/loupe/usr/share/help/pl/loupe/figures/go-next-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-previous-symbolic.svg to /pkgs/loupe/usr/share/help/pl/loupe/figures/go-previous-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/help-about-symbolic.svg to /pkgs/loupe/usr/share/help/pl/loupe/figures/help-about-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-left-symbolic.svg to /pkgs/loupe/usr/share/help/pl/loupe/figures/object-rotate-left-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-right-symbolic.svg to /pkgs/loupe/usr/share/help/pl/loupe/figures/object-rotate-right-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/org.gnome.Loupe.svg to /pkgs/loupe/usr/share/help/pl/loupe/figures/org.gnome.Loupe.svg
+Installing symlink pointing to ../../../C/loupe/figures/user-trash-symbolic.svg to /pkgs/loupe/usr/share/help/pl/loupe/figures/user-trash-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-fullscreen-symbolic.svg to /pkgs/loupe/usr/share/help/pl/loupe/figures/view-fullscreen-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-restore-symbolic.svg to /pkgs/loupe/usr/share/help/pl/loupe/figures/view-restore-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-in-symbolic.svg to /pkgs/loupe/usr/share/help/pl/loupe/figures/zoom-in-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-out-symbolic.svg to /pkgs/loupe/usr/share/help/pl/loupe/figures/zoom-out-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/edit-copy-symbolic.svg to /pkgs/loupe/usr/share/help/pt_BR/loupe/figures/edit-copy-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-next-symbolic.svg to /pkgs/loupe/usr/share/help/pt_BR/loupe/figures/go-next-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-previous-symbolic.svg to /pkgs/loupe/usr/share/help/pt_BR/loupe/figures/go-previous-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/help-about-symbolic.svg to /pkgs/loupe/usr/share/help/pt_BR/loupe/figures/help-about-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-left-symbolic.svg to /pkgs/loupe/usr/share/help/pt_BR/loupe/figures/object-rotate-left-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-right-symbolic.svg to /pkgs/loupe/usr/share/help/pt_BR/loupe/figures/object-rotate-right-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/org.gnome.Loupe.svg to /pkgs/loupe/usr/share/help/pt_BR/loupe/figures/org.gnome.Loupe.svg
+Installing symlink pointing to ../../../C/loupe/figures/user-trash-symbolic.svg to /pkgs/loupe/usr/share/help/pt_BR/loupe/figures/user-trash-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-fullscreen-symbolic.svg to /pkgs/loupe/usr/share/help/pt_BR/loupe/figures/view-fullscreen-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-restore-symbolic.svg to /pkgs/loupe/usr/share/help/pt_BR/loupe/figures/view-restore-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-in-symbolic.svg to /pkgs/loupe/usr/share/help/pt_BR/loupe/figures/zoom-in-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-out-symbolic.svg to /pkgs/loupe/usr/share/help/pt_BR/loupe/figures/zoom-out-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/edit-copy-symbolic.svg to /pkgs/loupe/usr/share/help/ru/loupe/figures/edit-copy-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-next-symbolic.svg to /pkgs/loupe/usr/share/help/ru/loupe/figures/go-next-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-previous-symbolic.svg to /pkgs/loupe/usr/share/help/ru/loupe/figures/go-previous-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/help-about-symbolic.svg to /pkgs/loupe/usr/share/help/ru/loupe/figures/help-about-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-left-symbolic.svg to /pkgs/loupe/usr/share/help/ru/loupe/figures/object-rotate-left-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-right-symbolic.svg to /pkgs/loupe/usr/share/help/ru/loupe/figures/object-rotate-right-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/org.gnome.Loupe.svg to /pkgs/loupe/usr/share/help/ru/loupe/figures/org.gnome.Loupe.svg
+Installing symlink pointing to ../../../C/loupe/figures/user-trash-symbolic.svg to /pkgs/loupe/usr/share/help/ru/loupe/figures/user-trash-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-fullscreen-symbolic.svg to /pkgs/loupe/usr/share/help/ru/loupe/figures/view-fullscreen-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-restore-symbolic.svg to /pkgs/loupe/usr/share/help/ru/loupe/figures/view-restore-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-in-symbolic.svg to /pkgs/loupe/usr/share/help/ru/loupe/figures/zoom-in-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-out-symbolic.svg to /pkgs/loupe/usr/share/help/ru/loupe/figures/zoom-out-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/edit-copy-symbolic.svg to /pkgs/loupe/usr/share/help/sv/loupe/figures/edit-copy-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-next-symbolic.svg to /pkgs/loupe/usr/share/help/sv/loupe/figures/go-next-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-previous-symbolic.svg to /pkgs/loupe/usr/share/help/sv/loupe/figures/go-previous-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/help-about-symbolic.svg to /pkgs/loupe/usr/share/help/sv/loupe/figures/help-about-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-left-symbolic.svg to /pkgs/loupe/usr/share/help/sv/loupe/figures/object-rotate-left-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-right-symbolic.svg to /pkgs/loupe/usr/share/help/sv/loupe/figures/object-rotate-right-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/org.gnome.Loupe.svg to /pkgs/loupe/usr/share/help/sv/loupe/figures/org.gnome.Loupe.svg
+Installing symlink pointing to ../../../C/loupe/figures/user-trash-symbolic.svg to /pkgs/loupe/usr/share/help/sv/loupe/figures/user-trash-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-fullscreen-symbolic.svg to /pkgs/loupe/usr/share/help/sv/loupe/figures/view-fullscreen-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-restore-symbolic.svg to /pkgs/loupe/usr/share/help/sv/loupe/figures/view-restore-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-in-symbolic.svg to /pkgs/loupe/usr/share/help/sv/loupe/figures/zoom-in-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-out-symbolic.svg to /pkgs/loupe/usr/share/help/sv/loupe/figures/zoom-out-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/edit-copy-symbolic.svg to /pkgs/loupe/usr/share/help/tr/loupe/figures/edit-copy-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-next-symbolic.svg to /pkgs/loupe/usr/share/help/tr/loupe/figures/go-next-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-previous-symbolic.svg to /pkgs/loupe/usr/share/help/tr/loupe/figures/go-previous-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/help-about-symbolic.svg to /pkgs/loupe/usr/share/help/tr/loupe/figures/help-about-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-left-symbolic.svg to /pkgs/loupe/usr/share/help/tr/loupe/figures/object-rotate-left-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-right-symbolic.svg to /pkgs/loupe/usr/share/help/tr/loupe/figures/object-rotate-right-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/org.gnome.Loupe.svg to /pkgs/loupe/usr/share/help/tr/loupe/figures/org.gnome.Loupe.svg
+Installing symlink pointing to ../../../C/loupe/figures/user-trash-symbolic.svg to /pkgs/loupe/usr/share/help/tr/loupe/figures/user-trash-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-fullscreen-symbolic.svg to /pkgs/loupe/usr/share/help/tr/loupe/figures/view-fullscreen-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-restore-symbolic.svg to /pkgs/loupe/usr/share/help/tr/loupe/figures/view-restore-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-in-symbolic.svg to /pkgs/loupe/usr/share/help/tr/loupe/figures/zoom-in-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-out-symbolic.svg to /pkgs/loupe/usr/share/help/tr/loupe/figures/zoom-out-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/edit-copy-symbolic.svg to /pkgs/loupe/usr/share/help/uk/loupe/figures/edit-copy-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-next-symbolic.svg to /pkgs/loupe/usr/share/help/uk/loupe/figures/go-next-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-previous-symbolic.svg to /pkgs/loupe/usr/share/help/uk/loupe/figures/go-previous-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/help-about-symbolic.svg to /pkgs/loupe/usr/share/help/uk/loupe/figures/help-about-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-left-symbolic.svg to /pkgs/loupe/usr/share/help/uk/loupe/figures/object-rotate-left-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-right-symbolic.svg to /pkgs/loupe/usr/share/help/uk/loupe/figures/object-rotate-right-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/org.gnome.Loupe.svg to /pkgs/loupe/usr/share/help/uk/loupe/figures/org.gnome.Loupe.svg
+Installing symlink pointing to ../../../C/loupe/figures/user-trash-symbolic.svg to /pkgs/loupe/usr/share/help/uk/loupe/figures/user-trash-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-fullscreen-symbolic.svg to /pkgs/loupe/usr/share/help/uk/loupe/figures/view-fullscreen-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-restore-symbolic.svg to /pkgs/loupe/usr/share/help/uk/loupe/figures/view-restore-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-in-symbolic.svg to /pkgs/loupe/usr/share/help/uk/loupe/figures/zoom-in-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-out-symbolic.svg to /pkgs/loupe/usr/share/help/uk/loupe/figures/zoom-out-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/edit-copy-symbolic.svg to /pkgs/loupe/usr/share/help/zh_CN/loupe/figures/edit-copy-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-next-symbolic.svg to /pkgs/loupe/usr/share/help/zh_CN/loupe/figures/go-next-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/go-previous-symbolic.svg to /pkgs/loupe/usr/share/help/zh_CN/loupe/figures/go-previous-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/help-about-symbolic.svg to /pkgs/loupe/usr/share/help/zh_CN/loupe/figures/help-about-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-left-symbolic.svg to /pkgs/loupe/usr/share/help/zh_CN/loupe/figures/object-rotate-left-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/object-rotate-right-symbolic.svg to /pkgs/loupe/usr/share/help/zh_CN/loupe/figures/object-rotate-right-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/org.gnome.Loupe.svg to /pkgs/loupe/usr/share/help/zh_CN/loupe/figures/org.gnome.Loupe.svg
+Installing symlink pointing to ../../../C/loupe/figures/user-trash-symbolic.svg to /pkgs/loupe/usr/share/help/zh_CN/loupe/figures/user-trash-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-fullscreen-symbolic.svg to /pkgs/loupe/usr/share/help/zh_CN/loupe/figures/view-fullscreen-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/view-restore-symbolic.svg to /pkgs/loupe/usr/share/help/zh_CN/loupe/figures/view-restore-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-in-symbolic.svg to /pkgs/loupe/usr/share/help/zh_CN/loupe/figures/zoom-in-symbolic.svg
+Installing symlink pointing to ../../../C/loupe/figures/zoom-out-symbolic.svg to /pkgs/loupe/usr/share/help/zh_CN/loupe/figures/zoom-out-symbolic.svg
+Skipping custom install script because DESTDIR is set '/usr/bin/glib-compile-schemas /usr/share/glib-2.0/schemas'
+Skipping custom install script because DESTDIR is set '/usr/bin/gtk4-update-icon-cache -q -t -f /usr/share/icons/hicolor'
+Skipping custom install script because DESTDIR is set '/usr/bin/update-desktop-database -q /usr/share/applications'
+loupe/
+loupe/usr/
+loupe/usr/share/
+loupe/usr/share/locale/
+loupe/usr/share/locale/sr/
+loupe/usr/share/locale/sr/LC_MESSAGES/
+loupe/usr/share/locale/sr/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/nl/
+loupe/usr/share/locale/nl/LC_MESSAGES/
+loupe/usr/share/locale/nl/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/fi/
+loupe/usr/share/locale/fi/LC_MESSAGES/
+loupe/usr/share/locale/fi/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/id/
+loupe/usr/share/locale/id/LC_MESSAGES/
+loupe/usr/share/locale/id/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/ro/
+loupe/usr/share/locale/ro/LC_MESSAGES/
+loupe/usr/share/locale/ro/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/ko/
+loupe/usr/share/locale/ko/LC_MESSAGES/
+loupe/usr/share/locale/ko/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/sr@latin/
+loupe/usr/share/locale/sr@latin/LC_MESSAGES/
+loupe/usr/share/locale/sr@latin/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/zh_TW/
+loupe/usr/share/locale/zh_TW/LC_MESSAGES/
+loupe/usr/share/locale/zh_TW/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/hi/
+loupe/usr/share/locale/hi/LC_MESSAGES/
+loupe/usr/share/locale/hi/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/kk/
+loupe/usr/share/locale/kk/LC_MESSAGES/
+loupe/usr/share/locale/kk/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/nb/
+loupe/usr/share/locale/nb/LC_MESSAGES/
+loupe/usr/share/locale/nb/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/ie/
+loupe/usr/share/locale/ie/LC_MESSAGES/
+loupe/usr/share/locale/ie/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/ar/
+loupe/usr/share/locale/ar/LC_MESSAGES/
+loupe/usr/share/locale/ar/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/uk/
+loupe/usr/share/locale/uk/LC_MESSAGES/
+loupe/usr/share/locale/uk/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/fil/
+loupe/usr/share/locale/fil/LC_MESSAGES/
+loupe/usr/share/locale/fil/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/uz/
+loupe/usr/share/locale/uz/LC_MESSAGES/
+loupe/usr/share/locale/uz/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/ia/
+loupe/usr/share/locale/ia/LC_MESSAGES/
+loupe/usr/share/locale/ia/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/ug/
+loupe/usr/share/locale/ug/LC_MESSAGES/
+loupe/usr/share/locale/ug/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/en_GB/
+loupe/usr/share/locale/en_GB/LC_MESSAGES/
+loupe/usr/share/locale/en_GB/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/oc/
+loupe/usr/share/locale/oc/LC_MESSAGES/
+loupe/usr/share/locale/oc/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/es/
+loupe/usr/share/locale/es/LC_MESSAGES/
+loupe/usr/share/locale/es/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/rw/
+loupe/usr/share/locale/rw/LC_MESSAGES/
+loupe/usr/share/locale/rw/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/th/
+loupe/usr/share/locale/th/LC_MESSAGES/
+loupe/usr/share/locale/th/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/he/
+loupe/usr/share/locale/he/LC_MESSAGES/
+loupe/usr/share/locale/he/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/nn/
+loupe/usr/share/locale/nn/LC_MESSAGES/
+loupe/usr/share/locale/nn/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/vi/
+loupe/usr/share/locale/vi/LC_MESSAGES/
+loupe/usr/share/locale/vi/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/fr/
+loupe/usr/share/locale/fr/LC_MESSAGES/
+loupe/usr/share/locale/fr/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/ca/
+loupe/usr/share/locale/ca/LC_MESSAGES/
+loupe/usr/share/locale/ca/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/pl/
+loupe/usr/share/locale/pl/LC_MESSAGES/
+loupe/usr/share/locale/pl/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/da/
+loupe/usr/share/locale/da/LC_MESSAGES/
+loupe/usr/share/locale/da/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/ru/
+loupe/usr/share/locale/ru/LC_MESSAGES/
+loupe/usr/share/locale/ru/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/ja/
+loupe/usr/share/locale/ja/LC_MESSAGES/
+loupe/usr/share/locale/ja/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/kab/
+loupe/usr/share/locale/kab/LC_MESSAGES/
+loupe/usr/share/locale/kab/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/fa/
+loupe/usr/share/locale/fa/LC_MESSAGES/
+loupe/usr/share/locale/fa/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/zh_CN/
+loupe/usr/share/locale/zh_CN/LC_MESSAGES/
+loupe/usr/share/locale/zh_CN/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/cs/
+loupe/usr/share/locale/cs/LC_MESSAGES/
+loupe/usr/share/locale/cs/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/lv/
+loupe/usr/share/locale/lv/LC_MESSAGES/
+loupe/usr/share/locale/lv/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/pt_BR/
+loupe/usr/share/locale/pt_BR/LC_MESSAGES/
+loupe/usr/share/locale/pt_BR/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/pt/
+loupe/usr/share/locale/pt/LC_MESSAGES/
+loupe/usr/share/locale/pt/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/hu/
+loupe/usr/share/locale/hu/LC_MESSAGES/
+loupe/usr/share/locale/hu/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/tr/
+loupe/usr/share/locale/tr/LC_MESSAGES/
+loupe/usr/share/locale/tr/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/sl/
+loupe/usr/share/locale/sl/LC_MESSAGES/
+loupe/usr/share/locale/sl/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/fur/
+loupe/usr/share/locale/fur/LC_MESSAGES/
+loupe/usr/share/locale/fur/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/eu/
+loupe/usr/share/locale/eu/LC_MESSAGES/
+loupe/usr/share/locale/eu/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/el/
+loupe/usr/share/locale/el/LC_MESSAGES/
+loupe/usr/share/locale/el/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/sv/
+loupe/usr/share/locale/sv/LC_MESSAGES/
+loupe/usr/share/locale/sv/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/sk/
+loupe/usr/share/locale/sk/LC_MESSAGES/
+loupe/usr/share/locale/sk/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/eo/
+loupe/usr/share/locale/eo/LC_MESSAGES/
+loupe/usr/share/locale/eo/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/bg/
+loupe/usr/share/locale/bg/LC_MESSAGES/
+loupe/usr/share/locale/bg/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/pa/
+loupe/usr/share/locale/pa/LC_MESSAGES/
+loupe/usr/share/locale/pa/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/ka/
+loupe/usr/share/locale/ka/LC_MESSAGES/
+loupe/usr/share/locale/ka/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/ne/
+loupe/usr/share/locale/ne/LC_MESSAGES/
+loupe/usr/share/locale/ne/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/it/
+loupe/usr/share/locale/it/LC_MESSAGES/
+loupe/usr/share/locale/it/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/de/
+loupe/usr/share/locale/de/LC_MESSAGES/
+loupe/usr/share/locale/de/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/lt/
+loupe/usr/share/locale/lt/LC_MESSAGES/
+loupe/usr/share/locale/lt/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/be/
+loupe/usr/share/locale/be/LC_MESSAGES/
+loupe/usr/share/locale/be/LC_MESSAGES/loupe.mo
+loupe/usr/share/locale/gl/
+loupe/usr/share/locale/gl/LC_MESSAGES/
+loupe/usr/share/locale/gl/LC_MESSAGES/loupe.mo
+loupe/usr/share/dbus-1/
+loupe/usr/share/dbus-1/services/
+loupe/usr/share/dbus-1/services/org.gnome.Loupe.service
+loupe/usr/share/glib-2.0/
+loupe/usr/share/glib-2.0/schemas/
+loupe/usr/share/glib-2.0/schemas/org.gnome.Loupe.gschema.xml
+loupe/usr/share/icons/
+loupe/usr/share/icons/hicolor/
+loupe/usr/share/icons/hicolor/symbolic/
+loupe/usr/share/icons/hicolor/symbolic/apps/
+loupe/usr/share/icons/hicolor/symbolic/apps/org.gnome.Loupe-symbolic.svg
+loupe/usr/share/icons/hicolor/scalable/
+loupe/usr/share/icons/hicolor/scalable/apps/
+loupe/usr/share/icons/hicolor/scalable/apps/org.gnome.Loupe.svg
+loupe/usr/share/help/
+loupe/usr/share/help/id/
+loupe/usr/share/help/id/loupe/
+loupe/usr/share/help/id/loupe/image-properties.page
+loupe/usr/share/help/id/loupe/figures/
+loupe/usr/share/help/id/loupe/figures/user-trash-symbolic.svg
+loupe/usr/share/help/id/loupe/figures/object-rotate-right-symbolic.svg
+loupe/usr/share/help/id/loupe/figures/object-rotate-left-symbolic.svg
+loupe/usr/share/help/id/loupe/figures/edit-copy-symbolic.svg
+loupe/usr/share/help/id/loupe/figures/view-fullscreen-symbolic.svg
+loupe/usr/share/help/id/loupe/figures/view-restore-symbolic.svg
+loupe/usr/share/help/id/loupe/figures/zoom-in-symbolic.svg
+loupe/usr/share/help/id/loupe/figures/zoom-out-symbolic.svg
+loupe/usr/share/help/id/loupe/figures/go-previous-symbolic.svg
+loupe/usr/share/help/id/loupe/figures/org.gnome.Loupe.svg
+loupe/usr/share/help/id/loupe/figures/go-next-symbolic.svg
+loupe/usr/share/help/id/loupe/figures/help-about-symbolic.svg
+loupe/usr/share/help/id/loupe/supported-formats.page
+loupe/usr/share/help/id/loupe/viewing-images.page
+loupe/usr/share/help/id/loupe/index.page
+loupe/usr/share/help/id/loupe/sending-to-other-apps.page
+loupe/usr/share/help/id/loupe/opening-images.page
+loupe/usr/share/help/id/loupe/trashing-images.page
+loupe/usr/share/help/C/
+loupe/usr/share/help/C/loupe/
+loupe/usr/share/help/C/loupe/image-properties.page
+loupe/usr/share/help/C/loupe/figures/
+loupe/usr/share/help/C/loupe/figures/user-trash-symbolic.svg
+loupe/usr/share/help/C/loupe/figures/object-rotate-right-symbolic.svg
+loupe/usr/share/help/C/loupe/figures/object-rotate-left-symbolic.svg
+loupe/usr/share/help/C/loupe/figures/edit-copy-symbolic.svg
+loupe/usr/share/help/C/loupe/figures/view-fullscreen-symbolic.svg
+loupe/usr/share/help/C/loupe/figures/view-restore-symbolic.svg
+loupe/usr/share/help/C/loupe/figures/zoom-in-symbolic.svg
+loupe/usr/share/help/C/loupe/figures/zoom-out-symbolic.svg
+loupe/usr/share/help/C/loupe/figures/go-previous-symbolic.svg
+loupe/usr/share/help/C/loupe/figures/org.gnome.Loupe.svg
+loupe/usr/share/help/C/loupe/figures/go-next-symbolic.svg
+loupe/usr/share/help/C/loupe/figures/help-about-symbolic.svg
+loupe/usr/share/help/C/loupe/supported-formats.page
+loupe/usr/share/help/C/loupe/viewing-images.page
+loupe/usr/share/help/C/loupe/index.page
+loupe/usr/share/help/C/loupe/sending-to-other-apps.page
+loupe/usr/share/help/C/loupe/opening-images.page
+loupe/usr/share/help/C/loupe/trashing-images.page
+loupe/usr/share/help/ko/
+loupe/usr/share/help/ko/loupe/
+loupe/usr/share/help/ko/loupe/image-properties.page
+loupe/usr/share/help/ko/loupe/figures/
+loupe/usr/share/help/ko/loupe/figures/user-trash-symbolic.svg
+loupe/usr/share/help/ko/loupe/figures/object-rotate-right-symbolic.svg
+loupe/usr/share/help/ko/loupe/figures/object-rotate-left-symbolic.svg
+loupe/usr/share/help/ko/loupe/figures/edit-copy-symbolic.svg
+loupe/usr/share/help/ko/loupe/figures/view-fullscreen-symbolic.svg
+loupe/usr/share/help/ko/loupe/figures/view-restore-symbolic.svg
+loupe/usr/share/help/ko/loupe/figures/zoom-in-symbolic.svg
+loupe/usr/share/help/ko/loupe/figures/zoom-out-symbolic.svg
+loupe/usr/share/help/ko/loupe/figures/go-previous-symbolic.svg
+loupe/usr/share/help/ko/loupe/figures/org.gnome.Loupe.svg
+loupe/usr/share/help/ko/loupe/figures/go-next-symbolic.svg
+loupe/usr/share/help/ko/loupe/figures/help-about-symbolic.svg
+loupe/usr/share/help/ko/loupe/supported-formats.page
+loupe/usr/share/help/ko/loupe/viewing-images.page
+loupe/usr/share/help/ko/loupe/index.page
+loupe/usr/share/help/ko/loupe/sending-to-other-apps.page
+loupe/usr/share/help/ko/loupe/opening-images.page
+loupe/usr/share/help/ko/loupe/trashing-images.page
+loupe/usr/share/help/uk/
+loupe/usr/share/help/uk/loupe/
+loupe/usr/share/help/uk/loupe/image-properties.page
+loupe/usr/share/help/uk/loupe/figures/
+loupe/usr/share/help/uk/loupe/figures/user-trash-symbolic.svg
+loupe/usr/share/help/uk/loupe/figures/object-rotate-right-symbolic.svg
+loupe/usr/share/help/uk/loupe/figures/object-rotate-left-symbolic.svg
+loupe/usr/share/help/uk/loupe/figures/edit-copy-symbolic.svg
+loupe/usr/share/help/uk/loupe/figures/view-fullscreen-symbolic.svg
+loupe/usr/share/help/uk/loupe/figures/view-restore-symbolic.svg
+loupe/usr/share/help/uk/loupe/figures/zoom-in-symbolic.svg
+loupe/usr/share/help/uk/loupe/figures/zoom-out-symbolic.svg
+loupe/usr/share/help/uk/loupe/figures/go-previous-symbolic.svg
+loupe/usr/share/help/uk/loupe/figures/org.gnome.Loupe.svg
+loupe/usr/share/help/uk/loupe/figures/go-next-symbolic.svg
+loupe/usr/share/help/uk/loupe/figures/help-about-symbolic.svg
+loupe/usr/share/help/uk/loupe/supported-formats.page
+loupe/usr/share/help/uk/loupe/viewing-images.page
+loupe/usr/share/help/uk/loupe/index.page
+loupe/usr/share/help/uk/loupe/sending-to-other-apps.page
+loupe/usr/share/help/uk/loupe/opening-images.page
+loupe/usr/share/help/uk/loupe/trashing-images.page
+loupe/usr/share/help/fr/
+loupe/usr/share/help/fr/loupe/
+loupe/usr/share/help/fr/loupe/image-properties.page
+loupe/usr/share/help/fr/loupe/figures/
+loupe/usr/share/help/fr/loupe/figures/user-trash-symbolic.svg
+loupe/usr/share/help/fr/loupe/figures/object-rotate-right-symbolic.svg
+loupe/usr/share/help/fr/loupe/figures/object-rotate-left-symbolic.svg
+loupe/usr/share/help/fr/loupe/figures/edit-copy-symbolic.svg
+loupe/usr/share/help/fr/loupe/figures/view-fullscreen-symbolic.svg
+loupe/usr/share/help/fr/loupe/figures/view-restore-symbolic.svg
+loupe/usr/share/help/fr/loupe/figures/zoom-in-symbolic.svg
+loupe/usr/share/help/fr/loupe/figures/zoom-out-symbolic.svg
+loupe/usr/share/help/fr/loupe/figures/go-previous-symbolic.svg
+loupe/usr/share/help/fr/loupe/figures/org.gnome.Loupe.svg
+loupe/usr/share/help/fr/loupe/figures/go-next-symbolic.svg
+loupe/usr/share/help/fr/loupe/figures/help-about-symbolic.svg
+loupe/usr/share/help/fr/loupe/supported-formats.page
+loupe/usr/share/help/fr/loupe/viewing-images.page
+loupe/usr/share/help/fr/loupe/index.page
+loupe/usr/share/help/fr/loupe/sending-to-other-apps.page
+loupe/usr/share/help/fr/loupe/opening-images.page
+loupe/usr/share/help/fr/loupe/trashing-images.page
+loupe/usr/share/help/ca/
+loupe/usr/share/help/ca/loupe/
+loupe/usr/share/help/ca/loupe/image-properties.page
+loupe/usr/share/help/ca/loupe/figures/
+loupe/usr/share/help/ca/loupe/figures/user-trash-symbolic.svg
+loupe/usr/share/help/ca/loupe/figures/object-rotate-right-symbolic.svg
+loupe/usr/share/help/ca/loupe/figures/object-rotate-left-symbolic.svg
+loupe/usr/share/help/ca/loupe/figures/edit-copy-symbolic.svg
+loupe/usr/share/help/ca/loupe/figures/view-fullscreen-symbolic.svg
+loupe/usr/share/help/ca/loupe/figures/view-restore-symbolic.svg
+loupe/usr/share/help/ca/loupe/figures/zoom-in-symbolic.svg
+loupe/usr/share/help/ca/loupe/figures/zoom-out-symbolic.svg
+loupe/usr/share/help/ca/loupe/figures/go-previous-symbolic.svg
+loupe/usr/share/help/ca/loupe/figures/org.gnome.Loupe.svg
+loupe/usr/share/help/ca/loupe/figures/go-next-symbolic.svg
+loupe/usr/share/help/ca/loupe/figures/help-about-symbolic.svg
+loupe/usr/share/help/ca/loupe/supported-formats.page
+loupe/usr/share/help/ca/loupe/viewing-images.page
+loupe/usr/share/help/ca/loupe/index.page
+loupe/usr/share/help/ca/loupe/sending-to-other-apps.page
+loupe/usr/share/help/ca/loupe/opening-images.page
+loupe/usr/share/help/ca/loupe/trashing-images.page
+loupe/usr/share/help/pl/
+loupe/usr/share/help/pl/loupe/
+loupe/usr/share/help/pl/loupe/image-properties.page
+loupe/usr/share/help/pl/loupe/figures/
+loupe/usr/share/help/pl/loupe/figures/user-trash-symbolic.svg
+loupe/usr/share/help/pl/loupe/figures/object-rotate-right-symbolic.svg
+loupe/usr/share/help/pl/loupe/figures/object-rotate-left-symbolic.svg
+loupe/usr/share/help/pl/loupe/figures/edit-copy-symbolic.svg
+loupe/usr/share/help/pl/loupe/figures/view-fullscreen-symbolic.svg
+loupe/usr/share/help/pl/loupe/figures/view-restore-symbolic.svg
+loupe/usr/share/help/pl/loupe/figures/zoom-in-symbolic.svg
+loupe/usr/share/help/pl/loupe/figures/zoom-out-symbolic.svg
+loupe/usr/share/help/pl/loupe/figures/go-previous-symbolic.svg
+loupe/usr/share/help/pl/loupe/figures/org.gnome.Loupe.svg
+loupe/usr/share/help/pl/loupe/figures/go-next-symbolic.svg
+loupe/usr/share/help/pl/loupe/figures/help-about-symbolic.svg
+loupe/usr/share/help/pl/loupe/supported-formats.page
+loupe/usr/share/help/pl/loupe/viewing-images.page
+loupe/usr/share/help/pl/loupe/index.page
+loupe/usr/share/help/pl/loupe/sending-to-other-apps.page
+loupe/usr/share/help/pl/loupe/opening-images.page
+loupe/usr/share/help/pl/loupe/trashing-images.page
+loupe/usr/share/help/ru/
+loupe/usr/share/help/ru/loupe/
+loupe/usr/share/help/ru/loupe/image-properties.page
+loupe/usr/share/help/ru/loupe/figures/
+loupe/usr/share/help/ru/loupe/figures/user-trash-symbolic.svg
+loupe/usr/share/help/ru/loupe/figures/object-rotate-right-symbolic.svg
+loupe/usr/share/help/ru/loupe/figures/object-rotate-left-symbolic.svg
+loupe/usr/share/help/ru/loupe/figures/edit-copy-symbolic.svg
+loupe/usr/share/help/ru/loupe/figures/view-fullscreen-symbolic.svg
+loupe/usr/share/help/ru/loupe/figures/view-restore-symbolic.svg
+loupe/usr/share/help/ru/loupe/figures/zoom-in-symbolic.svg
+loupe/usr/share/help/ru/loupe/figures/zoom-out-symbolic.svg
+loupe/usr/share/help/ru/loupe/figures/go-previous-symbolic.svg
+loupe/usr/share/help/ru/loupe/figures/org.gnome.Loupe.svg
+loupe/usr/share/help/ru/loupe/figures/go-next-symbolic.svg
+loupe/usr/share/help/ru/loupe/figures/help-about-symbolic.svg
+loupe/usr/share/help/ru/loupe/supported-formats.page
+loupe/usr/share/help/ru/loupe/viewing-images.page
+loupe/usr/share/help/ru/loupe/index.page
+loupe/usr/share/help/ru/loupe/sending-to-other-apps.page
+loupe/usr/share/help/ru/loupe/opening-images.page
+loupe/usr/share/help/ru/loupe/trashing-images.page
+loupe/usr/share/help/fa/
+loupe/usr/share/help/fa/loupe/
+loupe/usr/share/help/fa/loupe/image-properties.page
+loupe/usr/share/help/fa/loupe/figures/
+loupe/usr/share/help/fa/loupe/figures/user-trash-symbolic.svg
+loupe/usr/share/help/fa/loupe/figures/object-rotate-right-symbolic.svg
+loupe/usr/share/help/fa/loupe/figures/object-rotate-left-symbolic.svg
+loupe/usr/share/help/fa/loupe/figures/edit-copy-symbolic.svg
+loupe/usr/share/help/fa/loupe/figures/view-fullscreen-symbolic.svg
+loupe/usr/share/help/fa/loupe/figures/view-restore-symbolic.svg
+loupe/usr/share/help/fa/loupe/figures/zoom-in-symbolic.svg
+loupe/usr/share/help/fa/loupe/figures/zoom-out-symbolic.svg
+loupe/usr/share/help/fa/loupe/figures/go-previous-symbolic.svg
+loupe/usr/share/help/fa/loupe/figures/org.gnome.Loupe.svg
+loupe/usr/share/help/fa/loupe/figures/go-next-symbolic.svg
+loupe/usr/share/help/fa/loupe/figures/help-about-symbolic.svg
+loupe/usr/share/help/fa/loupe/supported-formats.page
+loupe/usr/share/help/fa/loupe/viewing-images.page
+loupe/usr/share/help/fa/loupe/index.page
+loupe/usr/share/help/fa/loupe/sending-to-other-apps.page
+loupe/usr/share/help/fa/loupe/opening-images.page
+loupe/usr/share/help/fa/loupe/trashing-images.page
+loupe/usr/share/help/zh_CN/
+loupe/usr/share/help/zh_CN/loupe/
+loupe/usr/share/help/zh_CN/loupe/image-properties.page
+loupe/usr/share/help/zh_CN/loupe/figures/
+loupe/usr/share/help/zh_CN/loupe/figures/user-trash-symbolic.svg
+loupe/usr/share/help/zh_CN/loupe/figures/object-rotate-right-symbolic.svg
+loupe/usr/share/help/zh_CN/loupe/figures/object-rotate-left-symbolic.svg
+loupe/usr/share/help/zh_CN/loupe/figures/edit-copy-symbolic.svg
+loupe/usr/share/help/zh_CN/loupe/figures/view-fullscreen-symbolic.svg
+loupe/usr/share/help/zh_CN/loupe/figures/view-restore-symbolic.svg
+loupe/usr/share/help/zh_CN/loupe/figures/zoom-in-symbolic.svg
+loupe/usr/share/help/zh_CN/loupe/figures/zoom-out-symbolic.svg
+loupe/usr/share/help/zh_CN/loupe/figures/go-previous-symbolic.svg
+loupe/usr/share/help/zh_CN/loupe/figures/org.gnome.Loupe.svg
+loupe/usr/share/help/zh_CN/loupe/figures/go-next-symbolic.svg
+loupe/usr/share/help/zh_CN/loupe/figures/help-about-symbolic.svg
+loupe/usr/share/help/zh_CN/loupe/supported-formats.page
+loupe/usr/share/help/zh_CN/loupe/viewing-images.page
+loupe/usr/share/help/zh_CN/loupe/index.page
+loupe/usr/share/help/zh_CN/loupe/sending-to-other-apps.page
+loupe/usr/share/help/zh_CN/loupe/opening-images.page
+loupe/usr/share/help/zh_CN/loupe/trashing-images.page
+loupe/usr/share/help/cs/
+loupe/usr/share/help/cs/loupe/
+loupe/usr/share/help/cs/loupe/image-properties.page
+loupe/usr/share/help/cs/loupe/figures/
+loupe/usr/share/help/cs/loupe/figures/user-trash-symbolic.svg
+loupe/usr/share/help/cs/loupe/figures/object-rotate-right-symbolic.svg
+loupe/usr/share/help/cs/loupe/figures/object-rotate-left-symbolic.svg
+loupe/usr/share/help/cs/loupe/figures/edit-copy-symbolic.svg
+loupe/usr/share/help/cs/loupe/figures/view-fullscreen-symbolic.svg
+loupe/usr/share/help/cs/loupe/figures/view-restore-symbolic.svg
+loupe/usr/share/help/cs/loupe/figures/zoom-in-symbolic.svg
+loupe/usr/share/help/cs/loupe/figures/zoom-out-symbolic.svg
+loupe/usr/share/help/cs/loupe/figures/go-previous-symbolic.svg
+loupe/usr/share/help/cs/loupe/figures/org.gnome.Loupe.svg
+loupe/usr/share/help/cs/loupe/figures/go-next-symbolic.svg
+loupe/usr/share/help/cs/loupe/figures/help-about-symbolic.svg
+loupe/usr/share/help/cs/loupe/supported-formats.page
+loupe/usr/share/help/cs/loupe/viewing-images.page
+loupe/usr/share/help/cs/loupe/index.page
+loupe/usr/share/help/cs/loupe/sending-to-other-apps.page
+loupe/usr/share/help/cs/loupe/opening-images.page
+loupe/usr/share/help/cs/loupe/trashing-images.page
+loupe/usr/share/help/pt_BR/
+loupe/usr/share/help/pt_BR/loupe/
+loupe/usr/share/help/pt_BR/loupe/image-properties.page
+loupe/usr/share/help/pt_BR/loupe/figures/
+loupe/usr/share/help/pt_BR/loupe/figures/user-trash-symbolic.svg
+loupe/usr/share/help/pt_BR/loupe/figures/object-rotate-right-symbolic.svg
+loupe/usr/share/help/pt_BR/loupe/figures/object-rotate-left-symbolic.svg
+loupe/usr/share/help/pt_BR/loupe/figures/edit-copy-symbolic.svg
+loupe/usr/share/help/pt_BR/loupe/figures/view-fullscreen-symbolic.svg
+loupe/usr/share/help/pt_BR/loupe/figures/view-restore-symbolic.svg
+loupe/usr/share/help/pt_BR/loupe/figures/zoom-in-symbolic.svg
+loupe/usr/share/help/pt_BR/loupe/figures/zoom-out-symbolic.svg
+loupe/usr/share/help/pt_BR/loupe/figures/go-previous-symbolic.svg
+loupe/usr/share/help/pt_BR/loupe/figures/org.gnome.Loupe.svg
+loupe/usr/share/help/pt_BR/loupe/figures/go-next-symbolic.svg
+loupe/usr/share/help/pt_BR/loupe/figures/help-about-symbolic.svg
+loupe/usr/share/help/pt_BR/loupe/supported-formats.page
+loupe/usr/share/help/pt_BR/loupe/viewing-images.page
+loupe/usr/share/help/pt_BR/loupe/index.page
+loupe/usr/share/help/pt_BR/loupe/sending-to-other-apps.page
+loupe/usr/share/help/pt_BR/loupe/opening-images.page
+loupe/usr/share/help/pt_BR/loupe/trashing-images.page
+loupe/usr/share/help/hu/
+loupe/usr/share/help/hu/loupe/
+loupe/usr/share/help/hu/loupe/image-properties.page
+loupe/usr/share/help/hu/loupe/figures/
+loupe/usr/share/help/hu/loupe/figures/user-trash-symbolic.svg
+loupe/usr/share/help/hu/loupe/figures/object-rotate-right-symbolic.svg
+loupe/usr/share/help/hu/loupe/figures/object-rotate-left-symbolic.svg
+loupe/usr/share/help/hu/loupe/figures/edit-copy-symbolic.svg
+loupe/usr/share/help/hu/loupe/figures/view-fullscreen-symbolic.svg
+loupe/usr/share/help/hu/loupe/figures/view-restore-symbolic.svg
+loupe/usr/share/help/hu/loupe/figures/zoom-in-symbolic.svg
+loupe/usr/share/help/hu/loupe/figures/zoom-out-symbolic.svg
+loupe/usr/share/help/hu/loupe/figures/go-previous-symbolic.svg
+loupe/usr/share/help/hu/loupe/figures/org.gnome.Loupe.svg
+loupe/usr/share/help/hu/loupe/figures/go-next-symbolic.svg
+loupe/usr/share/help/hu/loupe/figures/help-about-symbolic.svg
+loupe/usr/share/help/hu/loupe/supported-formats.page
+loupe/usr/share/help/hu/loupe/viewing-images.page
+loupe/usr/share/help/hu/loupe/index.page
+loupe/usr/share/help/hu/loupe/sending-to-other-apps.page
+loupe/usr/share/help/hu/loupe/opening-images.page
+loupe/usr/share/help/hu/loupe/trashing-images.page
+loupe/usr/share/help/tr/
+loupe/usr/share/help/tr/loupe/
+loupe/usr/share/help/tr/loupe/image-properties.page
+loupe/usr/share/help/tr/loupe/figures/
+loupe/usr/share/help/tr/loupe/figures/user-trash-symbolic.svg
+loupe/usr/share/help/tr/loupe/figures/object-rotate-right-symbolic.svg
+loupe/usr/share/help/tr/loupe/figures/object-rotate-left-symbolic.svg
+loupe/usr/share/help/tr/loupe/figures/edit-copy-symbolic.svg
+loupe/usr/share/help/tr/loupe/figures/view-fullscreen-symbolic.svg
+loupe/usr/share/help/tr/loupe/figures/view-restore-symbolic.svg
+loupe/usr/share/help/tr/loupe/figures/zoom-in-symbolic.svg
+loupe/usr/share/help/tr/loupe/figures/zoom-out-symbolic.svg
+loupe/usr/share/help/tr/loupe/figures/go-previous-symbolic.svg
+loupe/usr/share/help/tr/loupe/figures/org.gnome.Loupe.svg
+loupe/usr/share/help/tr/loupe/figures/go-next-symbolic.svg
+loupe/usr/share/help/tr/loupe/figures/help-about-symbolic.svg
+loupe/usr/share/help/tr/loupe/supported-formats.page
+loupe/usr/share/help/tr/loupe/viewing-images.page
+loupe/usr/share/help/tr/loupe/index.page
+loupe/usr/share/help/tr/loupe/sending-to-other-apps.page
+loupe/usr/share/help/tr/loupe/opening-images.page
+loupe/usr/share/help/tr/loupe/trashing-images.page
+loupe/usr/share/help/eu/
+loupe/usr/share/help/eu/loupe/
+loupe/usr/share/help/eu/loupe/image-properties.page
+loupe/usr/share/help/eu/loupe/figures/
+loupe/usr/share/help/eu/loupe/figures/user-trash-symbolic.svg
+loupe/usr/share/help/eu/loupe/figures/object-rotate-right-symbolic.svg
+loupe/usr/share/help/eu/loupe/figures/object-rotate-left-symbolic.svg
+loupe/usr/share/help/eu/loupe/figures/edit-copy-symbolic.svg
+loupe/usr/share/help/eu/loupe/figures/view-fullscreen-symbolic.svg
+loupe/usr/share/help/eu/loupe/figures/view-restore-symbolic.svg
+loupe/usr/share/help/eu/loupe/figures/zoom-in-symbolic.svg
+loupe/usr/share/help/eu/loupe/figures/zoom-out-symbolic.svg
+loupe/usr/share/help/eu/loupe/figures/go-previous-symbolic.svg
+loupe/usr/share/help/eu/loupe/figures/org.gnome.Loupe.svg
+loupe/usr/share/help/eu/loupe/figures/go-next-symbolic.svg
+loupe/usr/share/help/eu/loupe/figures/help-about-symbolic.svg
+loupe/usr/share/help/eu/loupe/supported-formats.page
+loupe/usr/share/help/eu/loupe/viewing-images.page
+loupe/usr/share/help/eu/loupe/index.page
+loupe/usr/share/help/eu/loupe/sending-to-other-apps.page
+loupe/usr/share/help/eu/loupe/opening-images.page
+loupe/usr/share/help/eu/loupe/trashing-images.page
+loupe/usr/share/help/sv/
+loupe/usr/share/help/sv/loupe/
+loupe/usr/share/help/sv/loupe/image-properties.page
+loupe/usr/share/help/sv/loupe/figures/
+loupe/usr/share/help/sv/loupe/figures/user-trash-symbolic.svg
+loupe/usr/share/help/sv/loupe/figures/object-rotate-right-symbolic.svg
+loupe/usr/share/help/sv/loupe/figures/object-rotate-left-symbolic.svg
+loupe/usr/share/help/sv/loupe/figures/edit-copy-symbolic.svg
+loupe/usr/share/help/sv/loupe/figures/view-fullscreen-symbolic.svg
+loupe/usr/share/help/sv/loupe/figures/view-restore-symbolic.svg
+loupe/usr/share/help/sv/loupe/figures/zoom-in-symbolic.svg
+loupe/usr/share/help/sv/loupe/figures/zoom-out-symbolic.svg
+loupe/usr/share/help/sv/loupe/figures/go-previous-symbolic.svg
+loupe/usr/share/help/sv/loupe/figures/org.gnome.Loupe.svg
+loupe/usr/share/help/sv/loupe/figures/go-next-symbolic.svg
+loupe/usr/share/help/sv/loupe/figures/help-about-symbolic.svg
+loupe/usr/share/help/sv/loupe/supported-formats.page
+loupe/usr/share/help/sv/loupe/viewing-images.page
+loupe/usr/share/help/sv/loupe/index.page
+loupe/usr/share/help/sv/loupe/sending-to-other-apps.page
+loupe/usr/share/help/sv/loupe/opening-images.page
+loupe/usr/share/help/sv/loupe/trashing-images.page
+loupe/usr/share/help/bg/
+loupe/usr/share/help/bg/loupe/
+loupe/usr/share/help/bg/loupe/image-properties.page
+loupe/usr/share/help/bg/loupe/figures/
+loupe/usr/share/help/bg/loupe/figures/user-trash-symbolic.svg
+loupe/usr/share/help/bg/loupe/figures/object-rotate-right-symbolic.svg
+loupe/usr/share/help/bg/loupe/figures/object-rotate-left-symbolic.svg
+loupe/usr/share/help/bg/loupe/figures/edit-copy-symbolic.svg
+loupe/usr/share/help/bg/loupe/figures/view-fullscreen-symbolic.svg
+loupe/usr/share/help/bg/loupe/figures/view-restore-symbolic.svg
+loupe/usr/share/help/bg/loupe/figures/zoom-in-symbolic.svg
+loupe/usr/share/help/bg/loupe/figures/zoom-out-symbolic.svg
+loupe/usr/share/help/bg/loupe/figures/go-previous-symbolic.svg
+loupe/usr/share/help/bg/loupe/figures/org.gnome.Loupe.svg
+loupe/usr/share/help/bg/loupe/figures/go-next-symbolic.svg
+loupe/usr/share/help/bg/loupe/figures/help-about-symbolic.svg
+loupe/usr/share/help/bg/loupe/supported-formats.page
+loupe/usr/share/help/bg/loupe/viewing-images.page
+loupe/usr/share/help/bg/loupe/index.page
+loupe/usr/share/help/bg/loupe/sending-to-other-apps.page
+loupe/usr/share/help/bg/loupe/opening-images.page
+loupe/usr/share/help/bg/loupe/trashing-images.page
+loupe/usr/share/help/it/
+loupe/usr/share/help/it/loupe/
+loupe/usr/share/help/it/loupe/image-properties.page
+loupe/usr/share/help/it/loupe/figures/
+loupe/usr/share/help/it/loupe/figures/user-trash-symbolic.svg
+loupe/usr/share/help/it/loupe/figures/object-rotate-right-symbolic.svg
+loupe/usr/share/help/it/loupe/figures/object-rotate-left-symbolic.svg
+loupe/usr/share/help/it/loupe/figures/edit-copy-symbolic.svg
+loupe/usr/share/help/it/loupe/figures/view-fullscreen-symbolic.svg
+loupe/usr/share/help/it/loupe/figures/view-restore-symbolic.svg
+loupe/usr/share/help/it/loupe/figures/zoom-in-symbolic.svg
+loupe/usr/share/help/it/loupe/figures/zoom-out-symbolic.svg
+loupe/usr/share/help/it/loupe/figures/go-previous-symbolic.svg
+loupe/usr/share/help/it/loupe/figures/org.gnome.Loupe.svg
+loupe/usr/share/help/it/loupe/figures/go-next-symbolic.svg
+loupe/usr/share/help/it/loupe/figures/help-about-symbolic.svg
+loupe/usr/share/help/it/loupe/supported-formats.page
+loupe/usr/share/help/it/loupe/viewing-images.page
+loupe/usr/share/help/it/loupe/index.page
+loupe/usr/share/help/it/loupe/sending-to-other-apps.page
+loupe/usr/share/help/it/loupe/opening-images.page
+loupe/usr/share/help/it/loupe/trashing-images.page
+loupe/usr/share/help/de/
+loupe/usr/share/help/de/loupe/
+loupe/usr/share/help/de/loupe/image-properties.page
+loupe/usr/share/help/de/loupe/figures/
+loupe/usr/share/help/de/loupe/figures/user-trash-symbolic.svg
+loupe/usr/share/help/de/loupe/figures/object-rotate-right-symbolic.svg
+loupe/usr/share/help/de/loupe/figures/object-rotate-left-symbolic.svg
+loupe/usr/share/help/de/loupe/figures/edit-copy-symbolic.svg
+loupe/usr/share/help/de/loupe/figures/view-fullscreen-symbolic.svg
+loupe/usr/share/help/de/loupe/figures/view-restore-symbolic.svg
+loupe/usr/share/help/de/loupe/figures/zoom-in-symbolic.svg
+loupe/usr/share/help/de/loupe/figures/zoom-out-symbolic.svg
+loupe/usr/share/help/de/loupe/figures/go-previous-symbolic.svg
+loupe/usr/share/help/de/loupe/figures/org.gnome.Loupe.svg
+loupe/usr/share/help/de/loupe/figures/go-next-symbolic.svg
+loupe/usr/share/help/de/loupe/figures/help-about-symbolic.svg
+loupe/usr/share/help/de/loupe/supported-formats.page
+loupe/usr/share/help/de/loupe/viewing-images.page
+loupe/usr/share/help/de/loupe/index.page
+loupe/usr/share/help/de/loupe/sending-to-other-apps.page
+loupe/usr/share/help/de/loupe/opening-images.page
+loupe/usr/share/help/de/loupe/trashing-images.page
+loupe/usr/share/help/gl/
+loupe/usr/share/help/gl/loupe/
+loupe/usr/share/help/gl/loupe/image-properties.page
+loupe/usr/share/help/gl/loupe/figures/
+loupe/usr/share/help/gl/loupe/figures/user-trash-symbolic.svg
+loupe/usr/share/help/gl/loupe/figures/object-rotate-right-symbolic.svg
+loupe/usr/share/help/gl/loupe/figures/object-rotate-left-symbolic.svg
+loupe/usr/share/help/gl/loupe/figures/edit-copy-symbolic.svg
+loupe/usr/share/help/gl/loupe/figures/view-fullscreen-symbolic.svg
+loupe/usr/share/help/gl/loupe/figures/view-restore-symbolic.svg
+loupe/usr/share/help/gl/loupe/figures/zoom-in-symbolic.svg
+loupe/usr/share/help/gl/loupe/figures/zoom-out-symbolic.svg
+loupe/usr/share/help/gl/loupe/figures/go-previous-symbolic.svg
+loupe/usr/share/help/gl/loupe/figures/org.gnome.Loupe.svg
+loupe/usr/share/help/gl/loupe/figures/go-next-symbolic.svg
+loupe/usr/share/help/gl/loupe/figures/help-about-symbolic.svg
+loupe/usr/share/help/gl/loupe/supported-formats.page
+loupe/usr/share/help/gl/loupe/viewing-images.page
+loupe/usr/share/help/gl/loupe/index.page
+loupe/usr/share/help/gl/loupe/sending-to-other-apps.page
+loupe/usr/share/help/gl/loupe/opening-images.page
+loupe/usr/share/help/gl/loupe/trashing-images.page
+loupe/usr/share/metainfo/
+loupe/usr/share/metainfo/org.gnome.Loupe.metainfo.xml
+loupe/usr/share/applications/
+loupe/usr/share/applications/org.gnome.Loupe.desktop
+loupe/usr/bin/
+loupe/usr/bin/loupe
+loupe/version
+loupe/postinst
+loupe/depends
+loupe/make-depends
