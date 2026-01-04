@@ -1,0 +1,1180 @@
+--2026-01-04 08:13:06--  https://download.gnome.org/sources/at-spi2-core/2.58/at-spi2-core-2.58.3.tar.xz
+Resolving download.gnome.org (download.gnome.org)... 79.127.206.207, 79.127.206.235, 2a02:6ea0:c400::53, ...
+Connecting to download.gnome.org (download.gnome.org)|79.127.206.207|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 584888 (571K) [application/octet-stream]
+Saving to: ‘at-spi2-core-2.58.3.tar.xz.1’
+
+     0K .......... .......... .......... .......... ..........  8% 4.20M 0s
+    50K .......... .......... .......... .......... .......... 17% 9.29M 0s
+   100K .......... .......... .......... .......... .......... 26% 12.9M 0s
+   150K .......... .......... .......... .......... .......... 35% 10.6M 0s
+   200K .......... .......... .......... .......... .......... 43% 38.6M 0s
+   250K .......... .......... .......... .......... .......... 52% 19.6M 0s
+   300K .......... .......... .......... .......... .......... 61% 12.6M 0s
+   350K .......... .......... .......... .......... .......... 70% 45.5M 0s
+   400K .......... .......... .......... .......... .......... 78% 85.7M 0s
+   450K .......... .......... .......... .......... .......... 87% 81.3M 0s
+   500K .......... .......... .......... .......... .......... 96% 8.84M 0s
+   550K .......... .......... .                               100%  206M=0.04s
+
+2026-01-04 08:13:06 (13.7 MB/s) - ‘at-spi2-core-2.58.3.tar.xz.1’ saved [584888/584888]
+
+at-spi2-core-2.58.3/
+at-spi2-core-2.58.3/.clang-format
+at-spi2-core-2.58.3/.gitignore
+at-spi2-core-2.58.3/.gitlab-ci.yml
+at-spi2-core-2.58.3/COPYING
+at-spi2-core-2.58.3/INSTALL
+at-spi2-core-2.58.3/MAINTAINERS
+at-spi2-core-2.58.3/NEWS
+at-spi2-core-2.58.3/README.md
+at-spi2-core-2.58.3/README.msvc
+at-spi2-core-2.58.3/at-spi2-atk.desktop
+at-spi2-core-2.58.3/at-spi2-core.doap
+at-spi2-core-2.58.3/atk/
+at-spi2-core-2.58.3/atk/.gitignore
+at-spi2-core-2.58.3/atk/atk-autocleanups.h
+at-spi2-core-2.58.3/atk/atk-enum-types.c.template
+at-spi2-core-2.58.3/atk/atk-enum-types.h.template
+at-spi2-core-2.58.3/atk/atk.h
+at-spi2-core-2.58.3/atk/atk.rc.in
+at-spi2-core-2.58.3/atk/atkaction.c
+at-spi2-core-2.58.3/atk/atkaction.h
+at-spi2-core-2.58.3/atk/atkcomponent.c
+at-spi2-core-2.58.3/atk/atkcomponent.h
+at-spi2-core-2.58.3/atk/atkdocument.c
+at-spi2-core-2.58.3/atk/atkdocument.h
+at-spi2-core-2.58.3/atk/atkeditabletext.c
+at-spi2-core-2.58.3/atk/atkeditabletext.h
+at-spi2-core-2.58.3/atk/atkgobjectaccessible.c
+at-spi2-core-2.58.3/atk/atkgobjectaccessible.h
+at-spi2-core-2.58.3/atk/atkhyperlink.c
+at-spi2-core-2.58.3/atk/atkhyperlink.h
+at-spi2-core-2.58.3/atk/atkhyperlinkimpl.c
+at-spi2-core-2.58.3/atk/atkhyperlinkimpl.h
+at-spi2-core-2.58.3/atk/atkhypertext.c
+at-spi2-core-2.58.3/atk/atkhypertext.h
+at-spi2-core-2.58.3/atk/atkimage.c
+at-spi2-core-2.58.3/atk/atkimage.h
+at-spi2-core-2.58.3/atk/atkmarshal.list
+at-spi2-core-2.58.3/atk/atkmisc.c
+at-spi2-core-2.58.3/atk/atkmisc.h
+at-spi2-core-2.58.3/atk/atknoopobject.c
+at-spi2-core-2.58.3/atk/atknoopobject.h
+at-spi2-core-2.58.3/atk/atknoopobjectfactory.c
+at-spi2-core-2.58.3/atk/atknoopobjectfactory.h
+at-spi2-core-2.58.3/atk/atkobject.c
+at-spi2-core-2.58.3/atk/atkobject.h
+at-spi2-core-2.58.3/atk/atkobjectfactory.c
+at-spi2-core-2.58.3/atk/atkobjectfactory.h
+at-spi2-core-2.58.3/atk/atkplug.c
+at-spi2-core-2.58.3/atk/atkplug.h
+at-spi2-core-2.58.3/atk/atkprivate.c
+at-spi2-core-2.58.3/atk/atkprivate.h
+at-spi2-core-2.58.3/atk/atkrange.c
+at-spi2-core-2.58.3/atk/atkrange.h
+at-spi2-core-2.58.3/atk/atkregistry.c
+at-spi2-core-2.58.3/atk/atkregistry.h
+at-spi2-core-2.58.3/atk/atkrelation.c
+at-spi2-core-2.58.3/atk/atkrelation.h
+at-spi2-core-2.58.3/atk/atkrelationset.c
+at-spi2-core-2.58.3/atk/atkrelationset.h
+at-spi2-core-2.58.3/atk/atkrelationtype.h
+at-spi2-core-2.58.3/atk/atkselection.c
+at-spi2-core-2.58.3/atk/atkselection.h
+at-spi2-core-2.58.3/atk/atksocket.c
+at-spi2-core-2.58.3/atk/atksocket.h
+at-spi2-core-2.58.3/atk/atkstate.c
+at-spi2-core-2.58.3/atk/atkstate.h
+at-spi2-core-2.58.3/atk/atkstateset.c
+at-spi2-core-2.58.3/atk/atkstateset.h
+at-spi2-core-2.58.3/atk/atkstreamablecontent.c
+at-spi2-core-2.58.3/atk/atkstreamablecontent.h
+at-spi2-core-2.58.3/atk/atktable.c
+at-spi2-core-2.58.3/atk/atktable.h
+at-spi2-core-2.58.3/atk/atktablecell.c
+at-spi2-core-2.58.3/atk/atktablecell.h
+at-spi2-core-2.58.3/atk/atktext.c
+at-spi2-core-2.58.3/atk/atktext.h
+at-spi2-core-2.58.3/atk/atkutil.c
+at-spi2-core-2.58.3/atk/atkutil.h
+at-spi2-core-2.58.3/atk/atkvalue.c
+at-spi2-core-2.58.3/atk/atkvalue.h
+at-spi2-core-2.58.3/atk/atkversion.c
+at-spi2-core-2.58.3/atk/atkversion.h.in
+at-spi2-core-2.58.3/atk/atkwindow.c
+at-spi2-core-2.58.3/atk/atkwindow.h
+at-spi2-core-2.58.3/atk/meson.build
+at-spi2-core-2.58.3/atk-adaptor/
+at-spi2-core-2.58.3/atk-adaptor/accessible-cache.c
+at-spi2-core-2.58.3/atk-adaptor/accessible-cache.h
+at-spi2-core-2.58.3/atk-adaptor/accessible-leasing.c
+at-spi2-core-2.58.3/atk-adaptor/accessible-leasing.h
+at-spi2-core-2.58.3/atk-adaptor/accessible-register.c
+at-spi2-core-2.58.3/atk-adaptor/accessible-register.h
+at-spi2-core-2.58.3/atk-adaptor/accessible-stateset.c
+at-spi2-core-2.58.3/atk-adaptor/accessible-stateset.h
+at-spi2-core-2.58.3/atk-adaptor/adaptors/
+at-spi2-core-2.58.3/atk-adaptor/adaptors/accessible-adaptor.c
+at-spi2-core-2.58.3/atk-adaptor/adaptors/action-adaptor.c
+at-spi2-core-2.58.3/atk-adaptor/adaptors/adaptors.h
+at-spi2-core-2.58.3/atk-adaptor/adaptors/application-adaptor.c
+at-spi2-core-2.58.3/atk-adaptor/adaptors/cache-adaptor.c
+at-spi2-core-2.58.3/atk-adaptor/adaptors/collection-adaptor.c
+at-spi2-core-2.58.3/atk-adaptor/adaptors/component-adaptor.c
+at-spi2-core-2.58.3/atk-adaptor/adaptors/document-adaptor.c
+at-spi2-core-2.58.3/atk-adaptor/adaptors/editabletext-adaptor.c
+at-spi2-core-2.58.3/atk-adaptor/adaptors/hyperlink-adaptor.c
+at-spi2-core-2.58.3/atk-adaptor/adaptors/hypertext-adaptor.c
+at-spi2-core-2.58.3/atk-adaptor/adaptors/image-adaptor.c
+at-spi2-core-2.58.3/atk-adaptor/adaptors/meson.build
+at-spi2-core-2.58.3/atk-adaptor/adaptors/selection-adaptor.c
+at-spi2-core-2.58.3/atk-adaptor/adaptors/socket-adaptor.c
+at-spi2-core-2.58.3/atk-adaptor/adaptors/streamablecontent-adaptor.c
+at-spi2-core-2.58.3/atk-adaptor/adaptors/table-adaptor.c
+at-spi2-core-2.58.3/atk-adaptor/adaptors/table-cell-adaptor.c
+at-spi2-core-2.58.3/atk-adaptor/adaptors/text-adaptor.c
+at-spi2-core-2.58.3/atk-adaptor/adaptors/value-adaptor.c
+at-spi2-core-2.58.3/atk-adaptor/atk-bridge.h
+at-spi2-core-2.58.3/atk-adaptor/atkbridge.symbols
+at-spi2-core-2.58.3/atk-adaptor/bitarray.h
+at-spi2-core-2.58.3/atk-adaptor/bridge.c
+at-spi2-core-2.58.3/atk-adaptor/bridge.h
+at-spi2-core-2.58.3/atk-adaptor/event.c
+at-spi2-core-2.58.3/atk-adaptor/event.h
+at-spi2-core-2.58.3/atk-adaptor/gtk-2.0/
+at-spi2-core-2.58.3/atk-adaptor/gtk-2.0/module.c
+at-spi2-core-2.58.3/atk-adaptor/meson.build
+at-spi2-core-2.58.3/atk-adaptor/object.c
+at-spi2-core-2.58.3/atk-adaptor/object.h
+at-spi2-core-2.58.3/atk-adaptor/spi-dbus.c
+at-spi2-core-2.58.3/atk-adaptor/spi-dbus.h
+at-spi2-core-2.58.3/atspi/
+at-spi2-core-2.58.3/atspi/atspi-accessible-private.h
+at-spi2-core-2.58.3/atspi/atspi-accessible.c
+at-spi2-core-2.58.3/atspi/atspi-accessible.h
+at-spi2-core-2.58.3/atspi/atspi-action.c
+at-spi2-core-2.58.3/atspi/atspi-action.h
+at-spi2-core-2.58.3/atspi/atspi-application.c
+at-spi2-core-2.58.3/atspi/atspi-application.h
+at-spi2-core-2.58.3/atspi/atspi-collection.c
+at-spi2-core-2.58.3/atspi/atspi-collection.h
+at-spi2-core-2.58.3/atspi/atspi-component.c
+at-spi2-core-2.58.3/atspi/atspi-component.h
+at-spi2-core-2.58.3/atspi/atspi-constants.h
+at-spi2-core-2.58.3/atspi/atspi-device-a11y-manager.c
+at-spi2-core-2.58.3/atspi/atspi-device-a11y-manager.h
+at-spi2-core-2.58.3/atspi/atspi-device-legacy.c
+at-spi2-core-2.58.3/atspi/atspi-device-legacy.h
+at-spi2-core-2.58.3/atspi/atspi-device-listener-private.h
+at-spi2-core-2.58.3/atspi/atspi-device-listener.c
+at-spi2-core-2.58.3/atspi/atspi-device-listener.h
+at-spi2-core-2.58.3/atspi/atspi-device-x11.c
+at-spi2-core-2.58.3/atspi/atspi-device-x11.h
+at-spi2-core-2.58.3/atspi/atspi-device.c
+at-spi2-core-2.58.3/atspi/atspi-device.h
+at-spi2-core-2.58.3/atspi/atspi-document.c
+at-spi2-core-2.58.3/atspi/atspi-document.h
+at-spi2-core-2.58.3/atspi/atspi-editabletext.c
+at-spi2-core-2.58.3/atspi/atspi-editabletext.h
+at-spi2-core-2.58.3/atspi/atspi-enum-types.c.template
+at-spi2-core-2.58.3/atspi/atspi-enum-types.h.template
+at-spi2-core-2.58.3/atspi/atspi-event-listener-private.h
+at-spi2-core-2.58.3/atspi/atspi-event-listener.c
+at-spi2-core-2.58.3/atspi/atspi-event-listener.h
+at-spi2-core-2.58.3/atspi/atspi-gmain.c
+at-spi2-core-2.58.3/atspi/atspi-gmain.h
+at-spi2-core-2.58.3/atspi/atspi-hyperlink.c
+at-spi2-core-2.58.3/atspi/atspi-hyperlink.h
+at-spi2-core-2.58.3/atspi/atspi-hypertext.c
+at-spi2-core-2.58.3/atspi/atspi-hypertext.h
+at-spi2-core-2.58.3/atspi/atspi-image.c
+at-spi2-core-2.58.3/atspi/atspi-image.h
+at-spi2-core-2.58.3/atspi/atspi-matchrule-private.h
+at-spi2-core-2.58.3/atspi/atspi-matchrule.c
+at-spi2-core-2.58.3/atspi/atspi-matchrule.h
+at-spi2-core-2.58.3/atspi/atspi-misc-private.h
+at-spi2-core-2.58.3/atspi/atspi-misc.c
+at-spi2-core-2.58.3/atspi/atspi-misc.h
+at-spi2-core-2.58.3/atspi/atspi-object.c
+at-spi2-core-2.58.3/atspi/atspi-object.h
+at-spi2-core-2.58.3/atspi/atspi-private.h
+at-spi2-core-2.58.3/atspi/atspi-registry.c
+at-spi2-core-2.58.3/atspi/atspi-registry.h
+at-spi2-core-2.58.3/atspi/atspi-relation.c
+at-spi2-core-2.58.3/atspi/atspi-relation.h
+at-spi2-core-2.58.3/atspi/atspi-selection.c
+at-spi2-core-2.58.3/atspi/atspi-selection.h
+at-spi2-core-2.58.3/atspi/atspi-stateset.c
+at-spi2-core-2.58.3/atspi/atspi-stateset.h
+at-spi2-core-2.58.3/atspi/atspi-table-cell.c
+at-spi2-core-2.58.3/atspi/atspi-table-cell.h
+at-spi2-core-2.58.3/atspi/atspi-table.c
+at-spi2-core-2.58.3/atspi/atspi-table.h
+at-spi2-core-2.58.3/atspi/atspi-text.c
+at-spi2-core-2.58.3/atspi/atspi-text.h
+at-spi2-core-2.58.3/atspi/atspi-types.h
+at-spi2-core-2.58.3/atspi/atspi-value.c
+at-spi2-core-2.58.3/atspi/atspi-value.h
+at-spi2-core-2.58.3/atspi/atspi-version.h.in
+at-spi2-core-2.58.3/atspi/atspi.h
+at-spi2-core-2.58.3/atspi/atspimarshal.list
+at-spi2-core-2.58.3/atspi/meson.build
+at-spi2-core-2.58.3/bus/
+at-spi2-core-2.58.3/bus/00-at-spi
+at-spi2-core-2.58.3/bus/README.md
+at-spi2-core-2.58.3/bus/accessibility.conf.in
+at-spi2-core-2.58.3/bus/at-spi-bus-launcher.c
+at-spi2-core-2.58.3/bus/at-spi-dbus-bus.desktop.in
+at-spi2-core-2.58.3/bus/at-spi-dbus-bus.service.in
+at-spi2-core-2.58.3/bus/meson.build
+at-spi2-core-2.58.3/bus/org.a11y.Bus.service.in
+at-spi2-core-2.58.3/ci/
+at-spi2-core-2.58.3/ci/README.md
+at-spi2-core-2.58.3/ci/address-sanitizer.supp
+at-spi2-core-2.58.3/ci/container_builds.yml
+at-spi2-core-2.58.3/ci/env.sh
+at-spi2-core-2.58.3/ci/install-python-tools.sh
+at-spi2-core-2.58.3/ci/install-rust.sh
+at-spi2-core-2.58.3/ci/lcovrc
+at-spi2-core-2.58.3/ci/pull-container-image.sh
+at-spi2-core-2.58.3/ci/requirements.txt
+at-spi2-core-2.58.3/ci/run-registryd-tests.sh
+at-spi2-core-2.58.3/ci/run-style-check.sh
+at-spi2-core-2.58.3/ci/run-tests.sh
+at-spi2-core-2.58.3/config/
+at-spi2-core-2.58.3/config/NONCE
+at-spi2-core-2.58.3/dbind/
+at-spi2-core-2.58.3/dbind/dbind-any.c
+at-spi2-core-2.58.3/dbind/dbind-any.h
+at-spi2-core-2.58.3/dbind/dbind.c
+at-spi2-core-2.58.3/dbind/dbind.h
+at-spi2-core-2.58.3/dbind/dbtest.c
+at-spi2-core-2.58.3/dbind/meson.build
+at-spi2-core-2.58.3/devel-docs/
+at-spi2-core-2.58.3/devel-docs/architecture-modules.svg
+at-spi2-core-2.58.3/devel-docs/architecture.rst
+at-spi2-core-2.58.3/devel-docs/at-spi3.rst
+at-spi2-core-2.58.3/devel-docs/atk-deprecations.rst
+at-spi2-core-2.58.3/devel-docs/atspi-python-stack.rst
+at-spi2-core-2.58.3/devel-docs/conf.py
+at-spi2-core-2.58.3/devel-docs/de-controller.rst
+at-spi2-core-2.58.3/devel-docs/gitlab-ci.rst
+at-spi2-core-2.58.3/devel-docs/index.rst
+at-spi2-core-2.58.3/devel-docs/meeting-2023-01-13.rst
+at-spi2-core-2.58.3/devel-docs/meson.build
+at-spi2-core-2.58.3/devel-docs/new-protocol.rst
+at-spi2-core-2.58.3/devel-docs/roadmap.rst
+at-spi2-core-2.58.3/devel-docs/toolkits.rst
+at-spi2-core-2.58.3/devel-docs/xml-changes.rst
+at-spi2-core-2.58.3/devel-docs/xml-interfaces.rst
+at-spi2-core-2.58.3/doc/
+at-spi2-core-2.58.3/doc/atk.toml.in
+at-spi2-core-2.58.3/doc/libatspi.toml.in
+at-spi2-core-2.58.3/doc/logo.png
+at-spi2-core-2.58.3/doc/meson.build
+at-spi2-core-2.58.3/doc/urlmap.js
+at-spi2-core-2.58.3/droute/
+at-spi2-core-2.58.3/droute/droute-pairhash.c
+at-spi2-core-2.58.3/droute/droute-pairhash.h
+at-spi2-core-2.58.3/droute/droute-test.c
+at-spi2-core-2.58.3/droute/droute-variant.c
+at-spi2-core-2.58.3/droute/droute-variant.h
+at-spi2-core-2.58.3/droute/droute.c
+at-spi2-core-2.58.3/droute/droute.h
+at-spi2-core-2.58.3/droute/meson.build
+at-spi2-core-2.58.3/git.mk
+at-spi2-core-2.58.3/m4/
+at-spi2-core-2.58.3/m4/.gitignore
+at-spi2-core-2.58.3/meson.build
+at-spi2-core-2.58.3/meson_options.txt
+at-spi2-core-2.58.3/po/
+at-spi2-core-2.58.3/po/LINGUAS
+at-spi2-core-2.58.3/po/POTFILES.in
+at-spi2-core-2.58.3/po/POTFILES.skip
+at-spi2-core-2.58.3/po/ab.po
+at-spi2-core-2.58.3/po/af.po
+at-spi2-core-2.58.3/po/am.po
+at-spi2-core-2.58.3/po/an.po
+at-spi2-core-2.58.3/po/ar.po
+at-spi2-core-2.58.3/po/as.po
+at-spi2-core-2.58.3/po/ast.po
+at-spi2-core-2.58.3/po/az.po
+at-spi2-core-2.58.3/po/be.po
+at-spi2-core-2.58.3/po/be@latin.po
+at-spi2-core-2.58.3/po/bg.po
+at-spi2-core-2.58.3/po/bn.po
+at-spi2-core-2.58.3/po/bn_IN.po
+at-spi2-core-2.58.3/po/bs.po
+at-spi2-core-2.58.3/po/ca.po
+at-spi2-core-2.58.3/po/ca@valencia.po
+at-spi2-core-2.58.3/po/ckb.po
+at-spi2-core-2.58.3/po/cs.po
+at-spi2-core-2.58.3/po/cy.po
+at-spi2-core-2.58.3/po/da.po
+at-spi2-core-2.58.3/po/de.po
+at-spi2-core-2.58.3/po/dz.po
+at-spi2-core-2.58.3/po/el.po
+at-spi2-core-2.58.3/po/en@shaw.po
+at-spi2-core-2.58.3/po/en_CA.po
+at-spi2-core-2.58.3/po/en_GB.po
+at-spi2-core-2.58.3/po/eo.po
+at-spi2-core-2.58.3/po/es.po
+at-spi2-core-2.58.3/po/et.po
+at-spi2-core-2.58.3/po/eu.po
+at-spi2-core-2.58.3/po/fa.po
+at-spi2-core-2.58.3/po/fi.po
+at-spi2-core-2.58.3/po/fr.po
+at-spi2-core-2.58.3/po/fur.po
+at-spi2-core-2.58.3/po/ga.po
+at-spi2-core-2.58.3/po/gd.po
+at-spi2-core-2.58.3/po/gl.po
+at-spi2-core-2.58.3/po/gu.po
+at-spi2-core-2.58.3/po/he.po
+at-spi2-core-2.58.3/po/hi.po
+at-spi2-core-2.58.3/po/hr.po
+at-spi2-core-2.58.3/po/hu.po
+at-spi2-core-2.58.3/po/hy.po
+at-spi2-core-2.58.3/po/id.po
+at-spi2-core-2.58.3/po/is.po
+at-spi2-core-2.58.3/po/it.po
+at-spi2-core-2.58.3/po/ja.po
+at-spi2-core-2.58.3/po/ka.po
+at-spi2-core-2.58.3/po/kab.po
+at-spi2-core-2.58.3/po/kk.po
+at-spi2-core-2.58.3/po/km.po
+at-spi2-core-2.58.3/po/kn.po
+at-spi2-core-2.58.3/po/ko.po
+at-spi2-core-2.58.3/po/ku.po
+at-spi2-core-2.58.3/po/li.po
+at-spi2-core-2.58.3/po/lt.po
+at-spi2-core-2.58.3/po/lv.po
+at-spi2-core-2.58.3/po/mai.po
+at-spi2-core-2.58.3/po/meson.build
+at-spi2-core-2.58.3/po/mk.po
+at-spi2-core-2.58.3/po/ml.po
+at-spi2-core-2.58.3/po/mn.po
+at-spi2-core-2.58.3/po/mr.po
+at-spi2-core-2.58.3/po/ms.po
+at-spi2-core-2.58.3/po/nb.po
+at-spi2-core-2.58.3/po/ne.po
+at-spi2-core-2.58.3/po/nl.po
+at-spi2-core-2.58.3/po/nn.po
+at-spi2-core-2.58.3/po/oc.po
+at-spi2-core-2.58.3/po/or.po
+at-spi2-core-2.58.3/po/pa.po
+at-spi2-core-2.58.3/po/pl.po
+at-spi2-core-2.58.3/po/ps.po
+at-spi2-core-2.58.3/po/pt.po
+at-spi2-core-2.58.3/po/pt_BR.po
+at-spi2-core-2.58.3/po/ro.po
+at-spi2-core-2.58.3/po/ru.po
+at-spi2-core-2.58.3/po/rw.po
+at-spi2-core-2.58.3/po/si.po
+at-spi2-core-2.58.3/po/sk.po
+at-spi2-core-2.58.3/po/sl.po
+at-spi2-core-2.58.3/po/sq.po
+at-spi2-core-2.58.3/po/sr.po
+at-spi2-core-2.58.3/po/sr@ije.po
+at-spi2-core-2.58.3/po/sr@latin.po
+at-spi2-core-2.58.3/po/sv.po
+at-spi2-core-2.58.3/po/ta.po
+at-spi2-core-2.58.3/po/te.po
+at-spi2-core-2.58.3/po/tg.po
+at-spi2-core-2.58.3/po/th.po
+at-spi2-core-2.58.3/po/tk.po
+at-spi2-core-2.58.3/po/tr.po
+at-spi2-core-2.58.3/po/tt.po
+at-spi2-core-2.58.3/po/ug.po
+at-spi2-core-2.58.3/po/uk.po
+at-spi2-core-2.58.3/po/uz.po
+at-spi2-core-2.58.3/po/uz@cyrillic.po
+at-spi2-core-2.58.3/po/vi.po
+at-spi2-core-2.58.3/po/wa.po
+at-spi2-core-2.58.3/po/xh.po
+at-spi2-core-2.58.3/po/yi.po
+at-spi2-core-2.58.3/po/zh_CN.po
+at-spi2-core-2.58.3/po/zh_HK.po
+at-spi2-core-2.58.3/po/zh_TW.po
+at-spi2-core-2.58.3/po/zu.po
+at-spi2-core-2.58.3/python/
+at-spi2-core-2.58.3/python/Atspi.py
+at-spi2-core-2.58.3/python/meson.build
+at-spi2-core-2.58.3/registryd/
+at-spi2-core-2.58.3/registryd/de-types.h
+at-spi2-core-2.58.3/registryd/deviceeventcontroller-x11.c
+at-spi2-core-2.58.3/registryd/deviceeventcontroller-x11.h
+at-spi2-core-2.58.3/registryd/deviceeventcontroller.c
+at-spi2-core-2.58.3/registryd/deviceeventcontroller.h
+at-spi2-core-2.58.3/registryd/display.c
+at-spi2-core-2.58.3/registryd/display.h
+at-spi2-core-2.58.3/registryd/event-source.c
+at-spi2-core-2.58.3/registryd/event-source.h
+at-spi2-core-2.58.3/registryd/keymasks.h
+at-spi2-core-2.58.3/registryd/marshal-dbus.c
+at-spi2-core-2.58.3/registryd/marshal-dbus.h
+at-spi2-core-2.58.3/registryd/meson.build
+at-spi2-core-2.58.3/registryd/org.a11y.atspi.Registry.service.in
+at-spi2-core-2.58.3/registryd/paths.h
+at-spi2-core-2.58.3/registryd/reentrant-list.c
+at-spi2-core-2.58.3/registryd/reentrant-list.h
+at-spi2-core-2.58.3/registryd/registry-main.c
+at-spi2-core-2.58.3/registryd/registry.c
+at-spi2-core-2.58.3/registryd/registry.h
+at-spi2-core-2.58.3/registryd/ucs2keysym.c
+at-spi2-core-2.58.3/registryd/ucs2keysym.sh
+at-spi2-core-2.58.3/subprojects/
+at-spi2-core-2.58.3/subprojects/gi-docgen.wrap
+at-spi2-core-2.58.3/subprojects/glib.wrap
+at-spi2-core-2.58.3/tests/
+at-spi2-core-2.58.3/tests/.gitignore
+at-spi2-core-2.58.3/tests/at-spi2-atk/
+at-spi2-core-2.58.3/tests/at-spi2-atk/README
+at-spi2-core-2.58.3/tests/at-spi2-atk/atk-object-xml-loader.c
+at-spi2-core-2.58.3/tests/at-spi2-atk/atk-object-xml-loader.h
+at-spi2-core-2.58.3/tests/at-spi2-atk/atk_suite.c
+at-spi2-core-2.58.3/tests/at-spi2-atk/atk_suite.h
+at-spi2-core-2.58.3/tests/at-spi2-atk/atk_test_accessible.c
+at-spi2-core-2.58.3/tests/at-spi2-atk/atk_test_action.c
+at-spi2-core-2.58.3/tests/at-spi2-atk/atk_test_collection.c
+at-spi2-core-2.58.3/tests/at-spi2-atk/atk_test_component.c
+at-spi2-core-2.58.3/tests/at-spi2-atk/atk_test_document.c
+at-spi2-core-2.58.3/tests/at-spi2-atk/atk_test_editable_text.c
+at-spi2-core-2.58.3/tests/at-spi2-atk/atk_test_hyperlink.c
+at-spi2-core-2.58.3/tests/at-spi2-atk/atk_test_hypertext.c
+at-spi2-core-2.58.3/tests/at-spi2-atk/atk_test_image.c
+at-spi2-core-2.58.3/tests/at-spi2-atk/atk_test_selection.c
+at-spi2-core-2.58.3/tests/at-spi2-atk/atk_test_state_set.c
+at-spi2-core-2.58.3/tests/at-spi2-atk/atk_test_table.c
+at-spi2-core-2.58.3/tests/at-spi2-atk/atk_test_table_cell.c
+at-spi2-core-2.58.3/tests/at-spi2-atk/atk_test_text.c
+at-spi2-core-2.58.3/tests/at-spi2-atk/atk_test_util.c
+at-spi2-core-2.58.3/tests/at-spi2-atk/atk_test_util.h
+at-spi2-core-2.58.3/tests/at-spi2-atk/atk_test_value.c
+at-spi2-core-2.58.3/tests/at-spi2-atk/data/
+at-spi2-core-2.58.3/tests/at-spi2-atk/data/test-accessible.xml
+at-spi2-core-2.58.3/tests/at-spi2-atk/data/test-action.xml
+at-spi2-core-2.58.3/tests/at-spi2-atk/data/test-collection.xml
+at-spi2-core-2.58.3/tests/at-spi2-atk/data/test-component.xml
+at-spi2-core-2.58.3/tests/at-spi2-atk/data/test-document.xml
+at-spi2-core-2.58.3/tests/at-spi2-atk/data/test-editable-text.xml
+at-spi2-core-2.58.3/tests/at-spi2-atk/data/test-hypertext.xml
+at-spi2-core-2.58.3/tests/at-spi2-atk/data/test-image.xml
+at-spi2-core-2.58.3/tests/at-spi2-atk/data/test-selection.xml
+at-spi2-core-2.58.3/tests/at-spi2-atk/data/test-table.xml
+at-spi2-core-2.58.3/tests/at-spi2-atk/data/test-text.xml
+at-spi2-core-2.58.3/tests/at-spi2-atk/data/test-value.xml
+at-spi2-core-2.58.3/tests/at-spi2-atk/data/test.xml
+at-spi2-core-2.58.3/tests/at-spi2-atk/dummyatk/
+at-spi2-core-2.58.3/tests/at-spi2-atk/dummyatk/meson.build
+at-spi2-core-2.58.3/tests/at-spi2-atk/dummyatk/my-atk-action.c
+at-spi2-core-2.58.3/tests/at-spi2-atk/dummyatk/my-atk-action.h
+at-spi2-core-2.58.3/tests/at-spi2-atk/dummyatk/my-atk-component.c
+at-spi2-core-2.58.3/tests/at-spi2-atk/dummyatk/my-atk-component.h
+at-spi2-core-2.58.3/tests/at-spi2-atk/dummyatk/my-atk-document.c
+at-spi2-core-2.58.3/tests/at-spi2-atk/dummyatk/my-atk-document.h
+at-spi2-core-2.58.3/tests/at-spi2-atk/dummyatk/my-atk-editable-text.c
+at-spi2-core-2.58.3/tests/at-spi2-atk/dummyatk/my-atk-editable-text.h
+at-spi2-core-2.58.3/tests/at-spi2-atk/dummyatk/my-atk-hyperlink.c
+at-spi2-core-2.58.3/tests/at-spi2-atk/dummyatk/my-atk-hyperlink.h
+at-spi2-core-2.58.3/tests/at-spi2-atk/dummyatk/my-atk-hypertext.c
+at-spi2-core-2.58.3/tests/at-spi2-atk/dummyatk/my-atk-hypertext.h
+at-spi2-core-2.58.3/tests/at-spi2-atk/dummyatk/my-atk-image.c
+at-spi2-core-2.58.3/tests/at-spi2-atk/dummyatk/my-atk-image.h
+at-spi2-core-2.58.3/tests/at-spi2-atk/dummyatk/my-atk-object.c
+at-spi2-core-2.58.3/tests/at-spi2-atk/dummyatk/my-atk-object.h
+at-spi2-core-2.58.3/tests/at-spi2-atk/dummyatk/my-atk-selection.c
+at-spi2-core-2.58.3/tests/at-spi2-atk/dummyatk/my-atk-selection.h
+at-spi2-core-2.58.3/tests/at-spi2-atk/dummyatk/my-atk-table-cell.c
+at-spi2-core-2.58.3/tests/at-spi2-atk/dummyatk/my-atk-table-cell.h
+at-spi2-core-2.58.3/tests/at-spi2-atk/dummyatk/my-atk-table.c
+at-spi2-core-2.58.3/tests/at-spi2-atk/dummyatk/my-atk-table.h
+at-spi2-core-2.58.3/tests/at-spi2-atk/dummyatk/my-atk-text.c
+at-spi2-core-2.58.3/tests/at-spi2-atk/dummyatk/my-atk-text.h
+at-spi2-core-2.58.3/tests/at-spi2-atk/dummyatk/my-atk-value.c
+at-spi2-core-2.58.3/tests/at-spi2-atk/dummyatk/my-atk-value.h
+at-spi2-core-2.58.3/tests/at-spi2-atk/dummyatk/my-atk.h
+at-spi2-core-2.58.3/tests/at-spi2-atk/meson.build
+at-spi2-core-2.58.3/tests/at-spi2-atk/test-application.c
+at-spi2-core-2.58.3/tests/atk/
+at-spi2-core-2.58.3/tests/atk/README
+at-spi2-core-2.58.3/tests/atk/meson.build
+at-spi2-core-2.58.3/tests/atk/testatk_vc.mak
+at-spi2-core-2.58.3/tests/atk/testdocument.c
+at-spi2-core-2.58.3/tests/atk/testrelation.c
+at-spi2-core-2.58.3/tests/atk/testrole.c
+at-spi2-core-2.58.3/tests/atk/teststateset.c
+at-spi2-core-2.58.3/tests/atk/testvalue.c
+at-spi2-core-2.58.3/tests/atspi/
+at-spi2-core-2.58.3/tests/atspi/memory.c
+at-spi2-core-2.58.3/tests/atspi/meson.build
+at-spi2-core-2.58.3/tests/atspi/test-application.c
+at-spi2-core-2.58.3/tests/dbusmock/
+at-spi2-core-2.58.3/tests/dbusmock/mock-gnome-session.py
+at-spi2-core-2.58.3/tests/dbusmock/mock_accessible_app.py
+at-spi2-core-2.58.3/tests/meson.build
+at-spi2-core-2.58.3/tests/registryd/
+at-spi2-core-2.58.3/tests/registryd/__init__.py
+at-spi2-core-2.58.3/tests/registryd/conftest.py
+at-spi2-core-2.58.3/tests/registryd/test_introspection.py
+at-spi2-core-2.58.3/tests/registryd/test_root.py
+at-spi2-core-2.58.3/tests/registryd/test_root_accessible.py
+at-spi2-core-2.58.3/tests/registryd/test_root_application.py
+at-spi2-core-2.58.3/tests/registryd/test_root_component.py
+at-spi2-core-2.58.3/tests/registryd/utils.py
+at-spi2-core-2.58.3/xml/
+at-spi2-core-2.58.3/xml/Accessible.xml
+at-spi2-core-2.58.3/xml/Action.xml
+at-spi2-core-2.58.3/xml/Application.xml
+at-spi2-core-2.58.3/xml/Cache.xml
+at-spi2-core-2.58.3/xml/Collection.xml
+at-spi2-core-2.58.3/xml/Component.xml
+at-spi2-core-2.58.3/xml/DeviceEventController.xml
+at-spi2-core-2.58.3/xml/DeviceEventListener.xml
+at-spi2-core-2.58.3/xml/Document.xml
+at-spi2-core-2.58.3/xml/EditableText.xml
+at-spi2-core-2.58.3/xml/Event.xml
+at-spi2-core-2.58.3/xml/Hyperlink.xml
+at-spi2-core-2.58.3/xml/Hypertext.xml
+at-spi2-core-2.58.3/xml/Image.xml
+at-spi2-core-2.58.3/xml/Registry.xml
+at-spi2-core-2.58.3/xml/Selection.xml
+at-spi2-core-2.58.3/xml/Socket.xml
+at-spi2-core-2.58.3/xml/Table.xml
+at-spi2-core-2.58.3/xml/TableCell.xml
+at-spi2-core-2.58.3/xml/Text.xml
+at-spi2-core-2.58.3/xml/Value.xml
+at-spi2-core-2.58.3/xml/generate-introspection.py
+at-spi2-core-2.58.3/xml/meson.build
+The Meson build system
+Version: 1.10.0
+Source dir: /blfs/builds/at-spi2-core-2.58.3
+Build dir: /blfs/builds/at-spi2-core-2.58.3/build
+Build type: native build
+Project name: at-spi2-core
+Project version: 2.58.3
+C compiler for the host machine: cc (gcc 15.2.0 "cc (GCC) 15.2.0")
+C linker for the host machine: cc ld.bfd 2.45
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Compiler for C supports arguments -fvisibility=hidden: YES 
+Compiler for C supports link arguments -Wl,-Bsymbolic: YES 
+Compiler for C supports link arguments -Wl,-z,relro: YES 
+Compiler for C supports link arguments -Wl,-z,now: YES 
+Checking for function "bind_textdomain_codeset" : YES 
+Found pkg-config: YES (/usr/bin/i686-pc-linux-gnu-pkg-config) 2.5.1
+Run-time dependency dbus-1 found: YES 1.16.2
+Run-time dependency glib-2.0 found: YES 2.86.3
+Run-time dependency gobject-2.0 found: YES 2.86.3
+Run-time dependency gio-2.0 found: YES 2.86.3
+Checking for function "dlopen" : YES 
+Run-time dependency gmodule-2.0 found: YES 2.86.3
+Run-time dependency libxml-2.0 found: YES 2.15.1
+Run-time dependency x11 found: YES 1.8.12
+Run-time dependency xtst found: YES 1.2.5
+Checking for function "XkbGetMap" with dependencies x11, xtst: YES 
+Run-time dependency xi found: YES 1.8.2
+Checking for alignment of "char" : 1 
+Checking for alignment of "double" : 4 
+Checking for alignment of "dbus_bool_t" with dependency dbus-1: 4 
+Checking for alignment of "dbus_int16_t" with dependency dbus-1: 2 
+Checking for alignment of "dbus_int32_t" with dependency dbus-1: 4 
+Checking for alignment of "dbus_int64_t" with dependency dbus-1: 4 
+Checking for alignment of "dbind_pointer" : 4 
+Checking for alignment of "dbind_struct" : 1 
+Program g-ir-scanner skipped: feature introspection disabled
+Program python3 found: YES (/usr/bin/python3)
+Program xgettext found: YES (/usr/bin/xgettext)
+Configuring config.h using configuration
+Configuring atkversion.h using configuration
+Dependency glib-2.0 found: YES 2.86.3 (cached)
+Program /usr/bin/glib-genmarshal found: YES (/usr/bin/glib-genmarshal)
+Dependency glib-2.0 found: YES 2.86.3 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Dependency glib-2.0 found: YES 2.86.3 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Found pkg-config: YES (/usr/bin/i686-pc-linux-gnu-pkg-config) 2.5.1
+Program generate-introspection.py found: YES (/usr/bin/python3 /blfs/builds/at-spi2-core-2.58.3/xml/generate-introspection.py)
+Configuring atspi-version.h using configuration
+Dependency glib-2.0 found: YES 2.86.3 (cached)
+Program /usr/bin/glib-genmarshal found: YES (/usr/bin/glib-genmarshal)
+Dependency glib-2.0 found: YES 2.86.3 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Dependency glib-2.0 found: YES 2.86.3 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Configuring accessibility.conf using configuration
+Configuring at-spi-dbus-bus.desktop using configuration
+Configuring org.a11y.Bus.service using configuration
+Configuring at-spi-dbus-bus.service using configuration
+Program dbus-daemon found: YES (/usr/bin/dbus-daemon)
+Program dbus-broker-launch found: NO
+Configuring org.a11y.atspi.Registry.service using configuration
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Program msginit found: YES (/usr/bin/msginit)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program xgettext found: YES (/usr/bin/xgettext)
+Build targets in project: 138
+
+at-spi2-core 2.58.3
+
+  User defined options
+    buildtype    : release
+    introspection: disabled
+    libdir       : /usr/lib32
+    prefix       : /usr
+
+Found ninja-1.13.2 at /usr/bin/ninja
+WARNING: Running the setup command as `meson [options]` instead of `meson setup [options]` is ambiguous and deprecated.
+[1/290] Generating glib marshaller header atspi/atspimarshal_h
+[2/290] Compiling C object droute/libdroute.a.p/droute-pairhash.c.o
+[3/290] Compiling C object droute/libdroute.a.p/droute-variant.c.o
+[4/290] Generating glib marshaller header atk/atkmarshal_h
+[5/290] Generating xml/introspection_generated with a custom command
+[6/290] Building translation po/af/LC_MESSAGES/at-spi2-core-af.mo
+[7/290] Building translation po/ab/LC_MESSAGES/at-spi2-core-ab.mo
+[8/290] Building translation po/am/LC_MESSAGES/at-spi2-core-am.mo
+[9/290] Building translation po/an/LC_MESSAGES/at-spi2-core-an.mo
+[10/290] Building translation po/ar/LC_MESSAGES/at-spi2-core-ar.mo
+[11/290] Generating glib marshaller source atspi/atspimarshal_c
+[12/290] Building translation po/ast/LC_MESSAGES/at-spi2-core-ast.mo
+[13/290] Building translation po/as/LC_MESSAGES/at-spi2-core-as.mo
+[14/290] Building translation po/az/LC_MESSAGES/at-spi2-core-az.mo
+[15/290] Building translation po/be/LC_MESSAGES/at-spi2-core-be.mo
+[16/290] Building translation po/be@latin/LC_MESSAGES/at-spi2-core-be@latin.mo
+[17/290] Building translation po/bg/LC_MESSAGES/at-spi2-core-bg.mo
+[18/290] Building translation po/bn/LC_MESSAGES/at-spi2-core-bn.mo
+[19/290] Generating glib marshaller source atk/atkmarshal_c
+[20/290] Compiling C object dbind/dbind-test.p/.._atspi_atspi-gmain.c.o
+[21/290] Compiling C object dbind/dbind-test.p/dbind.c.o
+[22/290] Building translation po/bn_IN/LC_MESSAGES/at-spi2-core-bn_IN.mo
+[23/290] Building translation po/bs/LC_MESSAGES/at-spi2-core-bs.mo
+[24/290] Building translation po/ca/LC_MESSAGES/at-spi2-core-ca.mo
+[25/290] Compiling C object dbind/dbind-test.p/dbtest.c.o
+[26/290] Building translation po/ckb/LC_MESSAGES/at-spi2-core-ckb.mo
+[27/290] Building translation po/ca@valencia/LC_MESSAGES/at-spi2-core-ca@valencia.mo
+[28/290] Building translation po/cy/LC_MESSAGES/at-spi2-core-cy.mo
+[29/290] Building translation po/cs/LC_MESSAGES/at-spi2-core-cs.mo
+[30/290] Building translation po/de/LC_MESSAGES/at-spi2-core-de.mo
+[31/290] Building translation po/en_GB/LC_MESSAGES/at-spi2-core-en_GB.mo
+[32/290] Building translation po/da/LC_MESSAGES/at-spi2-core-da.mo
+[33/290] Building translation po/dz/LC_MESSAGES/at-spi2-core-dz.mo
+[34/290] Building translation po/eo/LC_MESSAGES/at-spi2-core-eo.mo
+[35/290] Building translation po/en@shaw/LC_MESSAGES/at-spi2-core-en@shaw.mo
+[36/290] Building translation po/en_CA/LC_MESSAGES/at-spi2-core-en_CA.mo
+[37/290] Building translation po/el/LC_MESSAGES/at-spi2-core-el.mo
+[38/290] Building translation po/es/LC_MESSAGES/at-spi2-core-es.mo
+[39/290] Building translation po/et/LC_MESSAGES/at-spi2-core-et.mo
+[40/290] Building translation po/fa/LC_MESSAGES/at-spi2-core-fa.mo
+[41/290] Building translation po/fi/LC_MESSAGES/at-spi2-core-fi.mo
+[42/290] Building translation po/fr/LC_MESSAGES/at-spi2-core-fr.mo
+[43/290] Building translation po/ga/LC_MESSAGES/at-spi2-core-ga.mo
+[44/290] Building translation po/fur/LC_MESSAGES/at-spi2-core-fur.mo
+[45/290] Building translation po/gl/LC_MESSAGES/at-spi2-core-gl.mo
+[46/290] Building translation po/eu/LC_MESSAGES/at-spi2-core-eu.mo
+[47/290] Compiling C object droute/libdroute.a.p/droute.c.o
+[48/290] Building translation po/gd/LC_MESSAGES/at-spi2-core-gd.mo
+[49/290] Building translation po/gu/LC_MESSAGES/at-spi2-core-gu.mo
+[50/290] Building translation po/he/LC_MESSAGES/at-spi2-core-he.mo
+[51/290] Building translation po/hr/LC_MESSAGES/at-spi2-core-hr.mo
+[52/290] Building translation po/hi/LC_MESSAGES/at-spi2-core-hi.mo
+[53/290] Building translation po/hu/LC_MESSAGES/at-spi2-core-hu.mo
+[54/290] Building translation po/hy/LC_MESSAGES/at-spi2-core-hy.mo
+[55/290] Linking static target droute/libdroute.a
+[56/290] Building translation po/id/LC_MESSAGES/at-spi2-core-id.mo
+[57/290] Building translation po/is/LC_MESSAGES/at-spi2-core-is.mo
+[58/290] Building translation po/it/LC_MESSAGES/at-spi2-core-it.mo
+[59/290] Building translation po/ja/LC_MESSAGES/at-spi2-core-ja.mo
+[60/290] Building translation po/ka/LC_MESSAGES/at-spi2-core-ka.mo
+[61/290] Building translation po/kab/LC_MESSAGES/at-spi2-core-kab.mo
+[62/290] Building translation po/kk/LC_MESSAGES/at-spi2-core-kk.mo
+[63/290] Building translation po/km/LC_MESSAGES/at-spi2-core-km.mo
+[64/290] Building translation po/kn/LC_MESSAGES/at-spi2-core-kn.mo
+[65/290] Building translation po/ko/LC_MESSAGES/at-spi2-core-ko.mo
+[66/290] Building translation po/ku/LC_MESSAGES/at-spi2-core-ku.mo
+[67/290] Building translation po/li/LC_MESSAGES/at-spi2-core-li.mo
+[68/290] Building translation po/lt/LC_MESSAGES/at-spi2-core-lt.mo
+[69/290] Building translation po/mai/LC_MESSAGES/at-spi2-core-mai.mo
+[70/290] Building translation po/lv/LC_MESSAGES/at-spi2-core-lv.mo
+[71/290] Building translation po/mk/LC_MESSAGES/at-spi2-core-mk.mo
+[72/290] Building translation po/ml/LC_MESSAGES/at-spi2-core-ml.mo
+[73/290] Building translation po/mn/LC_MESSAGES/at-spi2-core-mn.mo
+[74/290] Building translation po/mr/LC_MESSAGES/at-spi2-core-mr.mo
+[75/290] Building translation po/ms/LC_MESSAGES/at-spi2-core-ms.mo
+[76/290] Building translation po/nb/LC_MESSAGES/at-spi2-core-nb.mo
+[77/290] Building translation po/ne/LC_MESSAGES/at-spi2-core-ne.mo
+[78/290] Building translation po/nl/LC_MESSAGES/at-spi2-core-nl.mo
+[79/290] Building translation po/nn/LC_MESSAGES/at-spi2-core-nn.mo
+[80/290] Building translation po/oc/LC_MESSAGES/at-spi2-core-oc.mo
+[81/290] Building translation po/or/LC_MESSAGES/at-spi2-core-or.mo
+[82/290] Building translation po/pa/LC_MESSAGES/at-spi2-core-pa.mo
+[83/290] Building translation po/pl/LC_MESSAGES/at-spi2-core-pl.mo
+[84/290] Building translation po/ps/LC_MESSAGES/at-spi2-core-ps.mo
+[85/290] Building translation po/pt/LC_MESSAGES/at-spi2-core-pt.mo
+[86/290] Building translation po/pt_BR/LC_MESSAGES/at-spi2-core-pt_BR.mo
+[87/290] Building translation po/ro/LC_MESSAGES/at-spi2-core-ro.mo
+[88/290] Building translation po/ru/LC_MESSAGES/at-spi2-core-ru.mo
+[89/290] Building translation po/si/LC_MESSAGES/at-spi2-core-si.mo
+[90/290] Building translation po/rw/LC_MESSAGES/at-spi2-core-rw.mo
+[91/290] Building translation po/sk/LC_MESSAGES/at-spi2-core-sk.mo
+[92/290] Building translation po/sl/LC_MESSAGES/at-spi2-core-sl.mo
+[93/290] Building translation po/sq/LC_MESSAGES/at-spi2-core-sq.mo
+[94/290] Building translation po/sr@ije/LC_MESSAGES/at-spi2-core-sr@ije.mo
+[95/290] Building translation po/sr@latin/LC_MESSAGES/at-spi2-core-sr@latin.mo
+[96/290] Building translation po/sv/LC_MESSAGES/at-spi2-core-sv.mo
+[97/290] Building translation po/ta/LC_MESSAGES/at-spi2-core-ta.mo
+[98/290] Building translation po/sr/LC_MESSAGES/at-spi2-core-sr.mo
+[99/290] Compiling C object dbind/dbind-test.p/dbind-any.c.o
+[100/290] Building translation po/te/LC_MESSAGES/at-spi2-core-te.mo
+[101/290] Building translation po/tg/LC_MESSAGES/at-spi2-core-tg.mo
+[102/290] Building translation po/th/LC_MESSAGES/at-spi2-core-th.mo
+[103/290] Building translation po/tk/LC_MESSAGES/at-spi2-core-tk.mo
+[104/290] Building translation po/tr/LC_MESSAGES/at-spi2-core-tr.mo
+[105/290] Building translation po/tt/LC_MESSAGES/at-spi2-core-tt.mo
+[106/290] Building translation po/ug/LC_MESSAGES/at-spi2-core-ug.mo
+[107/290] Building translation po/uk/LC_MESSAGES/at-spi2-core-uk.mo
+[108/290] Building translation po/uz/LC_MESSAGES/at-spi2-core-uz.mo
+[109/290] Building translation po/uz@cyrillic/LC_MESSAGES/at-spi2-core-uz@cyrillic.mo
+[110/290] Building translation po/wa/LC_MESSAGES/at-spi2-core-wa.mo
+[111/290] Building translation po/yi/LC_MESSAGES/at-spi2-core-yi.mo
+[112/290] Building translation po/vi/LC_MESSAGES/at-spi2-core-vi.mo
+[113/290] Building translation po/zh_CN/LC_MESSAGES/at-spi2-core-zh_CN.mo
+[114/290] Building translation po/xh/LC_MESSAGES/at-spi2-core-xh.mo
+[115/290] Building translation po/zh_HK/LC_MESSAGES/at-spi2-core-zh_HK.mo
+[116/290] Building translation po/zh_TW/LC_MESSAGES/at-spi2-core-zh_TW.mo
+[117/290] Building translation po/zu/LC_MESSAGES/at-spi2-core-zu.mo
+[118/290] Linking target dbind/dbind-test
+[119/290] Generating GObject enum file atk/atk-enum-types.h (wrapped by meson to capture output)
+[120/290] Generating GObject enum file atspi/atspi-enum-types.h (wrapped by meson to capture output)
+[121/290] Compiling C object bus/at-spi-bus-launcher.p/at-spi-bus-launcher.c.o
+[122/290] Compiling C object atk/libatk-1.0.so.0.25812.1.p/atkgobjectaccessible.c.o
+[123/290] Compiling C object atk/libatk-1.0.so.0.25812.1.p/meson-generated_.._atkmarshal.c.o
+[124/290] Compiling C object atk/libatk-1.0.so.0.25812.1.p/atkeditabletext.c.o
+[125/290] Compiling C object atk/libatk-1.0.so.0.25812.1.p/atkaction.c.o
+[126/290] Compiling C object atk/libatk-1.0.so.0.25812.1.p/atkhyperlink.c.o
+[127/290] Compiling C object atk/libatk-1.0.so.0.25812.1.p/atkhyperlinkimpl.c.o
+[128/290] Compiling C object atk/libatk-1.0.so.0.25812.1.p/atkhypertext.c.o
+[129/290] Compiling C object atk/libatk-1.0.so.0.25812.1.p/atkdocument.c.o
+[130/290] Compiling C object atk/libatk-1.0.so.0.25812.1.p/atkcomponent.c.o
+[131/290] Compiling C object atk/libatk-1.0.so.0.25812.1.p/atknoopobjectfactory.c.o
+[132/290] Compiling C object atk/libatk-1.0.so.0.25812.1.p/atkprivate.c.o
+[133/290] Compiling C object atk/libatk-1.0.so.0.25812.1.p/atknoopobject.c.o
+[134/290] Compiling C object atk/libatk-1.0.so.0.25812.1.p/atkobjectfactory.c.o
+[135/290] Compiling C object atk/libatk-1.0.so.0.25812.1.p/atkplug.c.o
+[136/290] Compiling C object atk/libatk-1.0.so.0.25812.1.p/atkimage.c.o
+[137/290] Compiling C object atk/libatk-1.0.so.0.25812.1.p/atkrange.c.o
+[138/290] Compiling C object atk/libatk-1.0.so.0.25812.1.p/atkregistry.c.o
+[139/290] Generating GObject enum file atk/atk-enum-types.c (wrapped by meson to capture output)
+[140/290] Compiling C object atk/libatk-1.0.so.0.25812.1.p/atksocket.c.o
+[141/290] Compiling C object atk/libatk-1.0.so.0.25812.1.p/atkrelation.c.o
+[142/290] Compiling C object atk/libatk-1.0.so.0.25812.1.p/atkselection.c.o
+[143/290] Compiling C object atk/libatk-1.0.so.0.25812.1.p/atkstreamablecontent.c.o
+[144/290] Compiling C object atk/libatk-1.0.so.0.25812.1.p/atkstateset.c.o
+[145/290] Compiling C object atk/libatk-1.0.so.0.25812.1.p/atkstate.c.o
+[146/290] Generating GObject enum file atspi/atspi-enum-types.c (wrapped by meson to capture output)
+[147/290] Compiling C object atk/libatk-1.0.so.0.25812.1.p/atkrelationset.c.o
+[148/290] Compiling C object atk/libatk-1.0.so.0.25812.1.p/atkobject.c.o
+[149/290] Compiling C object atk/libatk-1.0.so.0.25812.1.p/meson-generated_.._atk-enum-types.c.o
+[150/290] Compiling C object atk/libatk-1.0.so.0.25812.1.p/atktablecell.c.o
+[151/290] Compiling C object atk/libatk-1.0.so.0.25812.1.p/atkmisc.c.o
+[152/290] Compiling C object atk/libatk-1.0.so.0.25812.1.p/atkwindow.c.o
+[153/290] Compiling C object atk/libatk-1.0.so.0.25812.1.p/atkversion.c.o
+[154/290] Compiling C object atk/libatk-1.0.so.0.25812.1.p/atkutil.c.o
+[155/290] Compiling C object atspi/libatspi.so.0.0.1.p/meson-generated_.._atspimarshal.c.o
+[156/290] Compiling C object atk/libatk-1.0.so.0.25812.1.p/atktable.c.o
+[157/290] Compiling C object atspi/libatspi.so.0.0.1.p/meson-generated_.._atspi-enum-types.c.o
+[158/290] Compiling C object atk/libatk-1.0.so.0.25812.1.p/atkvalue.c.o
+[159/290] Compiling C object atspi/libatspi.so.0.0.1.p/atspi-action.c.o
+[160/290] Compiling C object atspi/libatspi.so.0.0.1.p/atspi-application.c.o
+[161/290] Compiling C object atspi/libatspi.so.0.0.1.p/atspi-collection.c.o
+[162/290] Compiling C object atspi/libatspi.so.0.0.1.p/atspi-component.c.o
+[163/290] Compiling C object atk/libatk-1.0.so.0.25812.1.p/atktext.c.o
+[164/290] Compiling C object atspi/libatspi.so.0.0.1.p/atspi-device.c.o
+[165/290] Compiling C object atspi/libatspi.so.0.0.1.p/atspi-device-legacy.c.o
+[166/290] Compiling C object atspi/libatspi.so.0.0.1.p/atspi-device-listener.c.o
+[167/290] Compiling C object atspi/libatspi.so.0.0.1.p/atspi-hyperlink.c.o
+[168/290] Compiling C object atspi/libatspi.so.0.0.1.p/atspi-editabletext.c.o
+[169/290] Compiling C object atspi/libatspi.so.0.0.1.p/atspi-hypertext.c.o
+[170/290] Compiling C object atspi/libatspi.so.0.0.1.p/atspi-gmain.c.o
+[171/290] Compiling C object atspi/libatspi.so.0.0.1.p/atspi-document.c.o
+[172/290] Compiling C object atspi/libatspi.so.0.0.1.p/atspi-image.c.o
+[173/290] Compiling C object atspi/libatspi.so.0.0.1.p/atspi-device-a11y-manager.c.o
+[174/290] Compiling C object atspi/libatspi.so.0.0.1.p/atspi-matchrule.c.o
+[175/290] Compiling C object atspi/libatspi.so.0.0.1.p/atspi-object.c.o
+[176/290] Compiling C object atspi/libatspi.so.0.0.1.p/atspi-selection.c.o
+[177/290] Compiling C object atspi/libatspi.so.0.0.1.p/atspi-accessible.c.o
+[178/290] Compiling C object atspi/libatspi.so.0.0.1.p/atspi-relation.c.o
+[179/290] Compiling C object atspi/libatspi.so.0.0.1.p/atspi-table-cell.c.o
+[180/290] Compiling C object atspi/libatspi.so.0.0.1.p/atspi-event-listener.c.o
+[181/290] Compiling C object atk-adaptor/adaptors/libatk-bridge-adaptors.a.p/meson-generated_.._.._.._xml_introspection.c.o
+[182/290] Compiling C object atspi/libatspi.so.0.0.1.p/atspi-table.c.o
+[183/290] Compiling C object atspi/libatspi.so.0.0.1.p/atspi-registry.c.o
+[184/290] Compiling C object atspi/libatspi.so.0.0.1.p/atspi-value.c.o
+[185/290] Compiling C object atspi/libatspi.so.0.0.1.p/atspi-stateset.c.o
+[186/290] Linking target atk/libatk-1.0.so.0.25812.1
+[187/290] Compiling C object atspi/libatspi.so.0.0.1.p/atspi-text.c.o
+[188/290] Compiling C object atspi/libatspi.so.0.0.1.p/.._dbind_dbind.c.o
+[189/290] Compiling C object atspi/libatspi.so.0.0.1.p/.._dbind_dbind-any.c.o
+[190/290] Compiling C object atspi/libatspi.so.0.0.1.p/atspi-device-x11.c.o
+[191/290] Compiling C object atk-adaptor/adaptors/libatk-bridge-adaptors.a.p/action-adaptor.c.o
+[192/290] Compiling C object atk-adaptor/adaptors/libatk-bridge-adaptors.a.p/cache-adaptor.c.o
+[193/290] Compiling C object atk-adaptor/adaptors/libatk-bridge-adaptors.a.p/application-adaptor.c.o
+[194/290] Compiling C object atspi/libatspi.so.0.0.1.p/atspi-misc.c.o
+[195/290] Compiling C object atk-adaptor/adaptors/libatk-bridge-adaptors.a.p/accessible-adaptor.c.o
+[196/290] Compiling C object atk-adaptor/adaptors/libatk-bridge-adaptors.a.p/component-adaptor.c.o
+[197/290] Compiling C object atk-adaptor/adaptors/libatk-bridge-adaptors.a.p/editabletext-adaptor.c.o
+[198/290] Compiling C object atk-adaptor/adaptors/libatk-bridge-adaptors.a.p/document-adaptor.c.o
+[199/290] Compiling C object atk-adaptor/adaptors/libatk-bridge-adaptors.a.p/hyperlink-adaptor.c.o
+[200/290] Compiling C object atk-adaptor/adaptors/libatk-bridge-adaptors.a.p/image-adaptor.c.o
+[201/290] Linking target atspi/libatspi.so.0.0.1
+[202/290] Compiling C object atk-adaptor/libatk-bridge-2.0.so.0.0.0.p/meson-generated_.._.._xml_introspection.c.o
+[203/290] Compiling C object atk-adaptor/adaptors/libatk-bridge-adaptors.a.p/socket-adaptor.c.o
+[204/290] Compiling C object atk-adaptor/adaptors/libatk-bridge-adaptors.a.p/hypertext-adaptor.c.o
+[205/290] Compiling C object atk-adaptor/adaptors/libatk-bridge-adaptors.a.p/selection-adaptor.c.o
+[206/290] Compiling C object atk-adaptor/adaptors/libatk-bridge-adaptors.a.p/collection-adaptor.c.o
+[207/290] Generating symbol file atk/libatk-1.0.so.0.25812.1.p/libatk-1.0.so.0.25812.1.symbols
+[208/290] Compiling C object atk-adaptor/adaptors/libatk-bridge-adaptors.a.p/table-cell-adaptor.c.o
+[209/290] Compiling C object atk-adaptor/libatk-bridge-2.0.so.0.0.0.p/accessible-leasing.c.o
+[210/290] Generating symbol file atspi/libatspi.so.0.0.1.p/libatspi.so.0.0.1.symbols
+[211/290] Compiling C object atk-adaptor/adaptors/libatk-bridge-adaptors.a.p/table-adaptor.c.o
+[212/290] Compiling C object atk-adaptor/libatk-bridge-2.0.so.0.0.0.p/accessible-stateset.c.o
+[213/290] Compiling C object atk-adaptor/adaptors/libatk-bridge-adaptors.a.p/value-adaptor.c.o
+[214/290] Compiling C object atk-adaptor/libatk-bridge-2.0.so.0.0.0.p/accessible-register.c.o
+[215/290] Compiling C object atk-adaptor/libatk-bridge-2.0.so.0.0.0.p/accessible-cache.c.o
+[216/290] Compiling C object tests/at-spi2-atk/dummyatk/libdummyatk.a.p/my-atk-action.c.o
+[217/290] Compiling C object atk-adaptor/libatk-bridge-2.0.so.0.0.0.p/spi-dbus.c.o
+[218/290] Compiling C object atk-adaptor/adaptors/libatk-bridge-adaptors.a.p/text-adaptor.c.o
+[219/290] Linking static target atk-adaptor/adaptors/libatk-bridge-adaptors.a
+[220/290] Compiling C object tests/at-spi2-atk/dummyatk/libdummyatk.a.p/my-atk-editable-text.c.o
+[221/290] Compiling C object tests/at-spi2-atk/dummyatk/libdummyatk.a.p/my-atk-component.c.o
+[222/290] Compiling C object atk-adaptor/libatk-bridge-2.0.so.0.0.0.p/object.c.o
+[223/290] Compiling C object tests/at-spi2-atk/dummyatk/libdummyatk.a.p/my-atk-document.c.o
+[224/290] Compiling C object tests/at-spi2-atk/dummyatk/libdummyatk.a.p/my-atk-hypertext.c.o
+[225/290] Compiling C object tests/at-spi2-atk/dummyatk/libdummyatk.a.p/my-atk-image.c.o
+[226/290] Compiling C object tests/at-spi2-atk/dummyatk/libdummyatk.a.p/my-atk-hyperlink.c.o
+[227/290] Compiling C object registryd/at-spi2-registryd.p/meson-generated_.._.._xml_introspection.c.o
+[228/290] Compiling C object tests/at-spi2-atk/dummyatk/libdummyatk.a.p/my-atk-object.c.o
+[229/290] Compiling C object atk-adaptor/libatk-bridge-2.0.so.0.0.0.p/bridge.c.o
+[230/290] Compiling C object tests/at-spi2-atk/dummyatk/libdummyatk.a.p/my-atk-table-cell.c.o
+[231/290] Compiling C object tests/at-spi2-atk/dummyatk/libdummyatk.a.p/my-atk-value.c.o
+[232/290] Compiling C object tests/at-spi2-atk/dummyatk/libdummyatk.a.p/my-atk-selection.c.o
+[233/290] Compiling C object tests/at-spi2-atk/libtestutils.a.p/atk_test_util.c.o
+[234/290] Compiling C object atk-adaptor/libatk-bridge-2.0.so.0.0.0.p/event.c.o
+[235/290] Compiling C object registryd/at-spi2-registryd.p/reentrant-list.c.o
+[236/290] Compiling C object registryd/at-spi2-registryd.p/marshal-dbus.c.o
+[237/290] Compiling C object tests/at-spi2-atk/dummyatk/libdummyatk.a.p/my-atk-text.c.o
+[238/290] Compiling C object tests/at-spi2-atk/libxmlloader.a.p/atk-object-xml-loader.c.o
+[239/290] Linking target atk-adaptor/libatk-bridge-2.0.so.0.0.0
+[240/290] Compiling C object registryd/at-spi2-registryd.p/display.c.o
+[241/290] Compiling C object tests/at-spi2-atk/dummyatk/libdummyatk.a.p/my-atk-table.c.o
+[242/290] Compiling C object registryd/at-spi2-registryd.p/event-source.c.o
+[243/290] Compiling C object registryd/at-spi2-registryd.p/registry-main.c.o
+[244/290] Compiling C object registryd/at-spi2-registryd.p/ucs2keysym.c.o
+[245/290] Compiling C object atk-adaptor/libatk-bridge.so.p/gtk-2.0_module.c.o
+[246/290] Generating symbol file atk-adaptor/libatk-bridge-2.0.so.0.0.0.p/libatk-bridge-2.0.so.0.0.0.symbols
+[247/290] Linking static target tests/at-spi2-atk/dummyatk/libdummyatk.a
+[248/290] Compiling C object tests/atspi/test-application.p/test-application.c.o
+[249/290] Linking static target tests/at-spi2-atk/libxmlloader.a
+[250/290] Linking static target tests/at-spi2-atk/libtestutils.a
+[251/290] Compiling C object droute/droute-test.p/droute-test.c.o
+[252/290] Compiling C object tests/atk/testrole.p/testrole.c.o
+[253/290] Compiling C object registryd/at-spi2-registryd.p/deviceeventcontroller-x11.c.o
+[254/290] Compiling C object tests/atk/testdocument.p/testdocument.c.o
+[255/290] Compiling C object tests/atspi/memory.p/memory.c.o
+[256/290] Compiling C object tests/atk/testrelation.p/testrelation.c.o
+[257/290] Compiling C object tests/atk/teststateset.p/teststateset.c.o
+[258/290] Compiling C object registryd/at-spi2-registryd.p/registry.c.o
+[259/290] Compiling C object registryd/at-spi2-registryd.p/deviceeventcontroller.c.o
+[260/290] Compiling C object tests/at-spi2-atk/atk-test.p/atk_suite.c.o
+[261/290] Compiling C object tests/atk/testvalue.p/testvalue.c.o
+[262/290] Compiling C object tests/at-spi2-atk/atk-test.p/atk_test_action.c.o
+[263/290] Compiling C object tests/at-spi2-atk/atk-test.p/atk_test_document.c.o
+[264/290] Compiling C object tests/at-spi2-atk/atk-test.p/atk_test_collection.c.o
+[265/290] Compiling C object tests/at-spi2-atk/atk-test.p/atk_test_editable_text.c.o
+[266/290] Compiling C object tests/at-spi2-atk/atk-test.p/atk_test_component.c.o
+[267/290] Compiling C object tests/at-spi2-atk/atk-test.p/atk_test_accessible.c.o
+[268/290] Compiling C object tests/at-spi2-atk/atk-test.p/atk_test_hyperlink.c.o
+[269/290] Linking target bus/at-spi-bus-launcher
+[270/290] Compiling C object tests/at-spi2-atk/atk-test.p/atk_test_hypertext.c.o
+[271/290] Compiling C object tests/at-spi2-atk/atk-test.p/atk_test_image.c.o
+[272/290] Linking target atk-adaptor/libatk-bridge.so
+[273/290] Compiling C object tests/at-spi2-atk/atk-test.p/atk_test_state_set.c.o
+[274/290] Linking target droute/droute-test
+[275/290] Linking target registryd/at-spi2-registryd
+[276/290] Linking target tests/atspi/test-application
+[277/290] Linking target tests/atk/teststateset
+[278/290] Compiling C object tests/at-spi2-atk/atk-test.p/atk_test_value.c.o
+[279/290] Linking target tests/atk/testrole
+[280/290] Linking target tests/atk/testrelation
+[281/290] Linking target tests/atk/testdocument
+[282/290] Compiling C object tests/at-spi2-atk/atk-test.p/atk_test_table_cell.c.o
+[283/290] Compiling C object tests/at-spi2-atk/atk-test.p/atk_test_selection.c.o
+[284/290] Linking target tests/atspi/memory
+[285/290] Linking target tests/atk/testvalue
+[286/290] Compiling C object tests/at-spi2-atk/app-test.p/test-application.c.o
+[287/290] Linking target tests/at-spi2-atk/app-test
+[288/290] Compiling C object tests/at-spi2-atk/atk-test.p/atk_test_table.c.o
+[289/290] Compiling C object tests/at-spi2-atk/atk-test.p/atk_test_text.c.o
+[290/290] Linking target tests/at-spi2-atk/atk-test
+[0/1] Installing files
+Compiling '/blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/lib/python3.14/site-packages/gi/overrides/Atspi.py'...
+Installing atk/atk-enum-types.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/atk-1.0/atk
+Installing atk/libatk-1.0.so.0.25812.1 to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/lib32
+Installing atspi/atspi-enum-types.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/at-spi-2.0/atspi
+Installing atspi/libatspi.so.0.0.1 to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/lib32
+Installing bus/at-spi-bus-launcher to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/libexec
+Installing registryd/at-spi2-registryd to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/libexec
+Installing atk-adaptor/libatk-bridge-2.0.so.0.0.0 to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/lib32
+Installing atk-adaptor/libatk-bridge.so to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/lib32/gtk-2.0/modules
+Installing po/ab/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/ab/LC_MESSAGES
+Installing po/af/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/af/LC_MESSAGES
+Installing po/am/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/am/LC_MESSAGES
+Installing po/an/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/an/LC_MESSAGES
+Installing po/ar/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/ar/LC_MESSAGES
+Installing po/as/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/as/LC_MESSAGES
+Installing po/ast/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/ast/LC_MESSAGES
+Installing po/az/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/az/LC_MESSAGES
+Installing po/be/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/be/LC_MESSAGES
+Installing po/be@latin/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/be@latin/LC_MESSAGES
+Installing po/bg/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/bg/LC_MESSAGES
+Installing po/bn/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/bn/LC_MESSAGES
+Installing po/bn_IN/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/bn_IN/LC_MESSAGES
+Installing po/bs/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/bs/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/ca/LC_MESSAGES
+Installing po/ca@valencia/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/ca@valencia/LC_MESSAGES
+Installing po/ckb/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/ckb/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/cs/LC_MESSAGES
+Installing po/cy/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/cy/LC_MESSAGES
+Installing po/da/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/de/LC_MESSAGES
+Installing po/dz/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/dz/LC_MESSAGES
+Installing po/el/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/el/LC_MESSAGES
+Installing po/en_CA/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/en_CA/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/en_GB/LC_MESSAGES
+Installing po/en@shaw/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/en@shaw/LC_MESSAGES
+Installing po/eo/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/eo/LC_MESSAGES
+Installing po/es/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/es/LC_MESSAGES
+Installing po/et/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/et/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/eu/LC_MESSAGES
+Installing po/fa/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/fa/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/fr/LC_MESSAGES
+Installing po/fur/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/fur/LC_MESSAGES
+Installing po/ga/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/ga/LC_MESSAGES
+Installing po/gd/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/gd/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/gl/LC_MESSAGES
+Installing po/gu/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/gu/LC_MESSAGES
+Installing po/he/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/he/LC_MESSAGES
+Installing po/hi/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/hi/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/hu/LC_MESSAGES
+Installing po/hy/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/hy/LC_MESSAGES
+Installing po/id/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/id/LC_MESSAGES
+Installing po/is/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/is/LC_MESSAGES
+Installing po/it/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/it/LC_MESSAGES
+Installing po/ja/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/ja/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/ka/LC_MESSAGES
+Installing po/kab/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/kab/LC_MESSAGES
+Installing po/kk/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/kk/LC_MESSAGES
+Installing po/km/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/km/LC_MESSAGES
+Installing po/kn/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/kn/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/ko/LC_MESSAGES
+Installing po/ku/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/ku/LC_MESSAGES
+Installing po/li/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/li/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/lt/LC_MESSAGES
+Installing po/lv/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/lv/LC_MESSAGES
+Installing po/mai/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/mai/LC_MESSAGES
+Installing po/mk/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/mk/LC_MESSAGES
+Installing po/ml/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/ml/LC_MESSAGES
+Installing po/mn/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/mn/LC_MESSAGES
+Installing po/mr/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/mr/LC_MESSAGES
+Installing po/ms/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/ms/LC_MESSAGES
+Installing po/nb/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/nb/LC_MESSAGES
+Installing po/ne/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/ne/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/nl/LC_MESSAGES
+Installing po/nn/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/nn/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/oc/LC_MESSAGES
+Installing po/or/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/or/LC_MESSAGES
+Installing po/pa/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/pa/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/pl/LC_MESSAGES
+Installing po/ps/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/ps/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/pt/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/ru/LC_MESSAGES
+Installing po/rw/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/rw/LC_MESSAGES
+Installing po/si/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/si/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/sl/LC_MESSAGES
+Installing po/sq/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/sq/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/sr/LC_MESSAGES
+Installing po/sr@ije/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/sr@ije/LC_MESSAGES
+Installing po/sr@latin/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/sr@latin/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/sv/LC_MESSAGES
+Installing po/ta/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/ta/LC_MESSAGES
+Installing po/te/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/te/LC_MESSAGES
+Installing po/tg/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/tg/LC_MESSAGES
+Installing po/th/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/th/LC_MESSAGES
+Installing po/tk/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/tk/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/tr/LC_MESSAGES
+Installing po/tt/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/tt/LC_MESSAGES
+Installing po/ug/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/ug/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/uk/LC_MESSAGES
+Installing po/uz/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/uz/LC_MESSAGES
+Installing po/uz@cyrillic/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/uz@cyrillic/LC_MESSAGES
+Installing po/vi/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/vi/LC_MESSAGES
+Installing po/wa/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/wa/LC_MESSAGES
+Installing po/xh/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/xh/LC_MESSAGES
+Installing po/yi/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/yi/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_HK/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/zh_HK/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/zh_TW/LC_MESSAGES
+Installing po/zu/LC_MESSAGES/at-spi2-core.mo to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/locale/zu/LC_MESSAGES
+Installing /blfs/builds/at-spi2-core-2.58.3/atk/atkaction.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/atk-1.0/atk
+Installing /blfs/builds/at-spi2-core-2.58.3/atk/atkcomponent.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/atk-1.0/atk
+Installing /blfs/builds/at-spi2-core-2.58.3/atk/atkdocument.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/atk-1.0/atk
+Installing /blfs/builds/at-spi2-core-2.58.3/atk/atkeditabletext.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/atk-1.0/atk
+Installing /blfs/builds/at-spi2-core-2.58.3/atk/atkgobjectaccessible.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/atk-1.0/atk
+Installing /blfs/builds/at-spi2-core-2.58.3/atk/atkhyperlink.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/atk-1.0/atk
+Installing /blfs/builds/at-spi2-core-2.58.3/atk/atkhyperlinkimpl.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/atk-1.0/atk
+Installing /blfs/builds/at-spi2-core-2.58.3/atk/atkhypertext.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/atk-1.0/atk
+Installing /blfs/builds/at-spi2-core-2.58.3/atk/atkimage.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/atk-1.0/atk
+Installing /blfs/builds/at-spi2-core-2.58.3/atk/atkmisc.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/atk-1.0/atk
+Installing /blfs/builds/at-spi2-core-2.58.3/atk/atknoopobject.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/atk-1.0/atk
+Installing /blfs/builds/at-spi2-core-2.58.3/atk/atknoopobjectfactory.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/atk-1.0/atk
+Installing /blfs/builds/at-spi2-core-2.58.3/atk/atkobject.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/atk-1.0/atk
+Installing /blfs/builds/at-spi2-core-2.58.3/atk/atkobjectfactory.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/atk-1.0/atk
+Installing /blfs/builds/at-spi2-core-2.58.3/atk/atkplug.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/atk-1.0/atk
+Installing /blfs/builds/at-spi2-core-2.58.3/atk/atkrange.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/atk-1.0/atk
+Installing /blfs/builds/at-spi2-core-2.58.3/atk/atkregistry.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/atk-1.0/atk
+Installing /blfs/builds/at-spi2-core-2.58.3/atk/atkrelation.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/atk-1.0/atk
+Installing /blfs/builds/at-spi2-core-2.58.3/atk/atkrelationtype.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/atk-1.0/atk
+Installing /blfs/builds/at-spi2-core-2.58.3/atk/atkrelationset.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/atk-1.0/atk
+Installing /blfs/builds/at-spi2-core-2.58.3/atk/atkselection.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/atk-1.0/atk
+Installing /blfs/builds/at-spi2-core-2.58.3/atk/atksocket.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/atk-1.0/atk
+Installing /blfs/builds/at-spi2-core-2.58.3/atk/atkstate.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/atk-1.0/atk
+Installing /blfs/builds/at-spi2-core-2.58.3/atk/atkstateset.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/atk-1.0/atk
+Installing /blfs/builds/at-spi2-core-2.58.3/atk/atkstreamablecontent.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/atk-1.0/atk
+Installing /blfs/builds/at-spi2-core-2.58.3/atk/atktable.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/atk-1.0/atk
+Installing /blfs/builds/at-spi2-core-2.58.3/atk/atktablecell.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/atk-1.0/atk
+Installing /blfs/builds/at-spi2-core-2.58.3/atk/atktext.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/atk-1.0/atk
+Installing /blfs/builds/at-spi2-core-2.58.3/atk/atkutil.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/atk-1.0/atk
+Installing /blfs/builds/at-spi2-core-2.58.3/atk/atkvalue.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/atk-1.0/atk
+Installing /blfs/builds/at-spi2-core-2.58.3/atk/atkwindow.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/atk-1.0/atk
+Installing /blfs/builds/at-spi2-core-2.58.3/atk/atk-autocleanups.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/atk-1.0/atk
+Installing /blfs/builds/at-spi2-core-2.58.3/atk/atk.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/atk-1.0/atk
+Installing /blfs/builds/at-spi2-core-2.58.3/atspi/atspi.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/at-spi-2.0/atspi
+Installing /blfs/builds/at-spi2-core-2.58.3/atspi/atspi-accessible.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/at-spi-2.0/atspi
+Installing /blfs/builds/at-spi2-core-2.58.3/atspi/atspi-action.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/at-spi-2.0/atspi
+Installing /blfs/builds/at-spi2-core-2.58.3/atspi/atspi-application.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/at-spi-2.0/atspi
+Installing /blfs/builds/at-spi2-core-2.58.3/atspi/atspi-collection.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/at-spi-2.0/atspi
+Installing /blfs/builds/at-spi2-core-2.58.3/atspi/atspi-component.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/at-spi-2.0/atspi
+Installing /blfs/builds/at-spi2-core-2.58.3/atspi/atspi-constants.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/at-spi-2.0/atspi
+Installing /blfs/builds/at-spi2-core-2.58.3/atspi/atspi-device.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/at-spi-2.0/atspi
+Installing /blfs/builds/at-spi2-core-2.58.3/atspi/atspi-device-a11y-manager.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/at-spi-2.0/atspi
+Installing /blfs/builds/at-spi2-core-2.58.3/atspi/atspi-device-legacy.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/at-spi-2.0/atspi
+Installing /blfs/builds/at-spi2-core-2.58.3/atspi/atspi-device-listener.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/at-spi-2.0/atspi
+Installing /blfs/builds/at-spi2-core-2.58.3/atspi/atspi-document.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/at-spi-2.0/atspi
+Installing /blfs/builds/at-spi2-core-2.58.3/atspi/atspi-editabletext.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/at-spi-2.0/atspi
+Installing /blfs/builds/at-spi2-core-2.58.3/atspi/atspi-event-listener.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/at-spi-2.0/atspi
+Installing /blfs/builds/at-spi2-core-2.58.3/atspi/atspi-gmain.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/at-spi-2.0/atspi
+Installing /blfs/builds/at-spi2-core-2.58.3/atspi/atspi-hyperlink.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/at-spi-2.0/atspi
+Installing /blfs/builds/at-spi2-core-2.58.3/atspi/atspi-hypertext.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/at-spi-2.0/atspi
+Installing /blfs/builds/at-spi2-core-2.58.3/atspi/atspi-image.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/at-spi-2.0/atspi
+Installing /blfs/builds/at-spi2-core-2.58.3/atspi/atspi-matchrule.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/at-spi-2.0/atspi
+Installing /blfs/builds/at-spi2-core-2.58.3/atspi/atspi-misc.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/at-spi-2.0/atspi
+Installing /blfs/builds/at-spi2-core-2.58.3/atspi/atspi-object.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/at-spi-2.0/atspi
+Installing /blfs/builds/at-spi2-core-2.58.3/atspi/atspi-registry.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/at-spi-2.0/atspi
+Installing /blfs/builds/at-spi2-core-2.58.3/atspi/atspi-relation.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/at-spi-2.0/atspi
+Installing /blfs/builds/at-spi2-core-2.58.3/atspi/atspi-selection.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/at-spi-2.0/atspi
+Installing /blfs/builds/at-spi2-core-2.58.3/atspi/atspi-stateset.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/at-spi-2.0/atspi
+Installing /blfs/builds/at-spi2-core-2.58.3/atspi/atspi-table.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/at-spi-2.0/atspi
+Installing /blfs/builds/at-spi2-core-2.58.3/atspi/atspi-table-cell.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/at-spi-2.0/atspi
+Installing /blfs/builds/at-spi2-core-2.58.3/atspi/atspi-text.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/at-spi-2.0/atspi
+Installing /blfs/builds/at-spi2-core-2.58.3/atspi/atspi-types.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/at-spi-2.0/atspi
+Installing /blfs/builds/at-spi2-core-2.58.3/atspi/atspi-value.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/at-spi-2.0/atspi
+Installing /blfs/builds/at-spi2-core-2.58.3/atspi/atspi-device-x11.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/at-spi-2.0/atspi
+Installing /blfs/builds/at-spi2-core-2.58.3/atk-adaptor/atk-bridge.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/at-spi2-atk/2.0
+Installing /blfs/builds/at-spi2-core-2.58.3/build/atk/atkversion.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/atk-1.0/atk
+Installing /blfs/builds/at-spi2-core-2.58.3/build/meson-private/atk.pc to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/lib32/pkgconfig
+Installing /blfs/builds/at-spi2-core-2.58.3/at-spi2-atk.desktop to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/lib32/gnome-settings-daemon-3.0/gtk-modules
+Installing /blfs/builds/at-spi2-core-2.58.3/build/atspi/atspi-version.h to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/include/at-spi-2.0/atspi
+Installing /blfs/builds/at-spi2-core-2.58.3/build/meson-private/atspi-2.pc to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/lib32/pkgconfig
+Installing /blfs/builds/at-spi2-core-2.58.3/build/bus/accessibility.conf to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/defaults/at-spi2
+Installing /blfs/builds/at-spi2-core-2.58.3/build/bus/at-spi-dbus-bus.desktop to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/etc/xdg/autostart
+Installing /blfs/builds/at-spi2-core-2.58.3/build/bus/org.a11y.Bus.service to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/dbus-1/services
+Installing /blfs/builds/at-spi2-core-2.58.3/build/bus/at-spi-dbus-bus.service to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/lib/systemd/user
+Installing /blfs/builds/at-spi2-core-2.58.3/bus/00-at-spi to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/etc/xdg/Xwayland-session.d
+Installing /blfs/builds/at-spi2-core-2.58.3/build/registryd/org.a11y.atspi.Registry.service to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/share/dbus-1/accessibility-services
+Installing /blfs/builds/at-spi2-core-2.58.3/build/meson-private/atk-bridge-2.0.pc to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/lib32/pkgconfig
+Installing /blfs/builds/at-spi2-core-2.58.3/python/Atspi.py to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/lib/python3.14/site-packages/gi/overrides
+Installing symlink pointing to libatk-1.0.so.0.25812.1 to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/lib32/libatk-1.0.so.0
+Installing symlink pointing to libatk-1.0.so.0 to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/lib32/libatk-1.0.so
+Installing symlink pointing to libatspi.so.0.0.1 to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/lib32/libatspi.so.0
+Installing symlink pointing to libatspi.so.0 to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/lib32/libatspi.so
+Installing symlink pointing to libatk-bridge-2.0.so.0.0.0 to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/lib32/libatk-bridge-2.0.so.0
+Installing symlink pointing to libatk-bridge-2.0.so.0 to /blfs/builds/at-spi2-core-2.58.3/build/DESTDIR/usr/lib32/libatk-bridge-2.0.so
+Running custom install script '/usr/bin/python3 /blfs/builds/at-spi2-core-2.58.3/build/meson-private/pycompile.py python-3.14-installed.json 0'
+'DESTDIR/usr/lib32/gnome-settings-daemon-3.0' -> '/pkgs/lib32-at-spi2-core/usr/lib32/gnome-settings-daemon-3.0'
+'DESTDIR/usr/lib32/gnome-settings-daemon-3.0/gtk-modules' -> '/pkgs/lib32-at-spi2-core/usr/lib32/gnome-settings-daemon-3.0/gtk-modules'
+'DESTDIR/usr/lib32/gnome-settings-daemon-3.0/gtk-modules/at-spi2-atk.desktop' -> '/pkgs/lib32-at-spi2-core/usr/lib32/gnome-settings-daemon-3.0/gtk-modules/at-spi2-atk.desktop'
+'DESTDIR/usr/lib32/gtk-2.0' -> '/pkgs/lib32-at-spi2-core/usr/lib32/gtk-2.0'
+'DESTDIR/usr/lib32/gtk-2.0/modules' -> '/pkgs/lib32-at-spi2-core/usr/lib32/gtk-2.0/modules'
+'DESTDIR/usr/lib32/gtk-2.0/modules/libatk-bridge.so' -> '/pkgs/lib32-at-spi2-core/usr/lib32/gtk-2.0/modules/libatk-bridge.so'
+'DESTDIR/usr/lib32/libatk-1.0.so' -> '/pkgs/lib32-at-spi2-core/usr/lib32/libatk-1.0.so'
+'DESTDIR/usr/lib32/libatk-1.0.so.0' -> '/pkgs/lib32-at-spi2-core/usr/lib32/libatk-1.0.so.0'
+'DESTDIR/usr/lib32/libatk-1.0.so.0.25812.1' -> '/pkgs/lib32-at-spi2-core/usr/lib32/libatk-1.0.so.0.25812.1'
+'DESTDIR/usr/lib32/libatk-bridge-2.0.so' -> '/pkgs/lib32-at-spi2-core/usr/lib32/libatk-bridge-2.0.so'
+'DESTDIR/usr/lib32/libatk-bridge-2.0.so.0' -> '/pkgs/lib32-at-spi2-core/usr/lib32/libatk-bridge-2.0.so.0'
+'DESTDIR/usr/lib32/libatk-bridge-2.0.so.0.0.0' -> '/pkgs/lib32-at-spi2-core/usr/lib32/libatk-bridge-2.0.so.0.0.0'
+'DESTDIR/usr/lib32/libatspi.so' -> '/pkgs/lib32-at-spi2-core/usr/lib32/libatspi.so'
+'DESTDIR/usr/lib32/libatspi.so.0' -> '/pkgs/lib32-at-spi2-core/usr/lib32/libatspi.so.0'
+'DESTDIR/usr/lib32/libatspi.so.0.0.1' -> '/pkgs/lib32-at-spi2-core/usr/lib32/libatspi.so.0.0.1'
+'DESTDIR/usr/lib32/pkgconfig' -> '/pkgs/lib32-at-spi2-core/usr/lib32/pkgconfig'
+'DESTDIR/usr/lib32/pkgconfig/atk.pc' -> '/pkgs/lib32-at-spi2-core/usr/lib32/pkgconfig/atk.pc'
+'DESTDIR/usr/lib32/pkgconfig/atspi-2.pc' -> '/pkgs/lib32-at-spi2-core/usr/lib32/pkgconfig/atspi-2.pc'
+'DESTDIR/usr/lib32/pkgconfig/atk-bridge-2.0.pc' -> '/pkgs/lib32-at-spi2-core/usr/lib32/pkgconfig/atk-bridge-2.0.pc'
+'/pkgs/lib32-at-spi2-core/usr/lib32/gnome-settings-daemon-3.0/gtk-modules/at-spi2-atk.desktop' -> '/usr/lib32/gnome-settings-daemon-3.0/gtk-modules/at-spi2-atk.desktop'
+'/pkgs/lib32-at-spi2-core/usr/lib32/gtk-2.0/modules/libatk-bridge.so' -> '/usr/lib32/gtk-2.0/modules/libatk-bridge.so'
+removed '/usr/lib32/libatk-1.0.so'
+'/pkgs/lib32-at-spi2-core/usr/lib32/libatk-1.0.so' -> '/usr/lib32/libatk-1.0.so'
+removed '/usr/lib32/libatk-1.0.so.0'
+'/pkgs/lib32-at-spi2-core/usr/lib32/libatk-1.0.so.0' -> '/usr/lib32/libatk-1.0.so.0'
+'/pkgs/lib32-at-spi2-core/usr/lib32/libatk-1.0.so.0.25812.1' -> '/usr/lib32/libatk-1.0.so.0.25812.1'
+removed '/usr/lib32/libatk-bridge-2.0.so'
+'/pkgs/lib32-at-spi2-core/usr/lib32/libatk-bridge-2.0.so' -> '/usr/lib32/libatk-bridge-2.0.so'
+removed '/usr/lib32/libatk-bridge-2.0.so.0'
+'/pkgs/lib32-at-spi2-core/usr/lib32/libatk-bridge-2.0.so.0' -> '/usr/lib32/libatk-bridge-2.0.so.0'
+'/pkgs/lib32-at-spi2-core/usr/lib32/libatk-bridge-2.0.so.0.0.0' -> '/usr/lib32/libatk-bridge-2.0.so.0.0.0'
+removed '/usr/lib32/libatspi.so'
+'/pkgs/lib32-at-spi2-core/usr/lib32/libatspi.so' -> '/usr/lib32/libatspi.so'
+removed '/usr/lib32/libatspi.so.0'
+'/pkgs/lib32-at-spi2-core/usr/lib32/libatspi.so.0' -> '/usr/lib32/libatspi.so.0'
+'/pkgs/lib32-at-spi2-core/usr/lib32/libatspi.so.0.0.1' -> '/usr/lib32/libatspi.so.0.0.1'
+'/pkgs/lib32-at-spi2-core/usr/lib32/pkgconfig/atk.pc' -> '/usr/lib32/pkgconfig/atk.pc'
+'/pkgs/lib32-at-spi2-core/usr/lib32/pkgconfig/atspi-2.pc' -> '/usr/lib32/pkgconfig/atspi-2.pc'
+'/pkgs/lib32-at-spi2-core/usr/lib32/pkgconfig/atk-bridge-2.0.pc' -> '/usr/lib32/pkgconfig/atk-bridge-2.0.pc'
+lib32-at-spi2-core/
+lib32-at-spi2-core/usr/
+lib32-at-spi2-core/usr/lib32/
+lib32-at-spi2-core/usr/lib32/gtk-2.0/
+lib32-at-spi2-core/usr/lib32/gtk-2.0/modules/
+lib32-at-spi2-core/usr/lib32/gtk-2.0/modules/libatk-bridge.so
+lib32-at-spi2-core/usr/lib32/libatk-bridge-2.0.so.0.0.0
+lib32-at-spi2-core/usr/lib32/libatspi.so.0.0.1
+lib32-at-spi2-core/usr/lib32/libatk-bridge-2.0.so.0
+lib32-at-spi2-core/usr/lib32/pkgconfig/
+lib32-at-spi2-core/usr/lib32/pkgconfig/atk.pc
+lib32-at-spi2-core/usr/lib32/pkgconfig/atspi-2.pc
+lib32-at-spi2-core/usr/lib32/pkgconfig/atk-bridge-2.0.pc
+lib32-at-spi2-core/usr/lib32/libatk-1.0.so.0.25812.1
+lib32-at-spi2-core/usr/lib32/libatk-1.0.so.0
+lib32-at-spi2-core/usr/lib32/libatk-1.0.so
+lib32-at-spi2-core/usr/lib32/libatspi.so.0
+lib32-at-spi2-core/usr/lib32/gnome-settings-daemon-3.0/
+lib32-at-spi2-core/usr/lib32/gnome-settings-daemon-3.0/gtk-modules/
+lib32-at-spi2-core/usr/lib32/gnome-settings-daemon-3.0/gtk-modules/at-spi2-atk.desktop
+lib32-at-spi2-core/usr/lib32/libatspi.so
+lib32-at-spi2-core/usr/lib32/libatk-bridge-2.0.so
+lib32-at-spi2-core/version
+lib32-at-spi2-core/depends

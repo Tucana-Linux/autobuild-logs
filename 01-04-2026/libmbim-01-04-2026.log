@@ -1,0 +1,569 @@
+--2026-01-04 08:28:52--  https://gitlab.freedesktop.org/mobile-broadband/libmbim/-/archive/1.34.0/libmbim-1.34.0.tar.gz
+Resolving gitlab.freedesktop.org (gitlab.freedesktop.org)... 151.101.3.52, 151.101.131.52, 151.101.195.52, ...
+Connecting to gitlab.freedesktop.org (gitlab.freedesktop.org)|151.101.3.52|:443... connected.
+HTTP request sent, awaiting response... 200 
+Length: unspecified [application/octet-stream]
+Saving to: ‘libmbim-1.34.0.tar.gz’
+
+     0K .......... .......... .......... .......... ..........  270K
+    50K .......... .......... .......... .......... ..........  535K
+   100K .......... .......... .......... .......... .......... 32.2M
+   150K .......... .......... .......... .......... ..........  551K
+   200K .......... .......... .......... .......... .......... 19.7M
+   250K .......... .......... .......... .......... .          28.0M=0.4s
+
+2026-01-04 08:28:54 (778 KB/s) - ‘libmbim-1.34.0.tar.gz’ saved [298542]
+
+libmbim-1.34.0/
+libmbim-1.34.0/.editorconfig
+libmbim-1.34.0/.gitignore
+libmbim-1.34.0/.gitlab-ci.yml
+libmbim-1.34.0/AUTHORS
+libmbim-1.34.0/LICENSES/
+libmbim-1.34.0/LICENSES/GPL-2.0-or-later.txt
+libmbim-1.34.0/LICENSES/LGPL-2.1-or-later.txt
+libmbim-1.34.0/NEWS
+libmbim-1.34.0/README.md
+libmbim-1.34.0/RELEASING
+libmbim-1.34.0/build-aux/
+libmbim-1.34.0/build-aux/mbim-codegen/
+libmbim-1.34.0/build-aux/mbim-codegen/Message.py
+libmbim-1.34.0/build-aux/mbim-codegen/ObjectList.py
+libmbim-1.34.0/build-aux/mbim-codegen/Struct.py
+libmbim-1.34.0/build-aux/mbim-codegen/mbim-codegen
+libmbim-1.34.0/build-aux/mbim-codegen/utils.py
+libmbim-1.34.0/build-aux/mbim-mkenums
+libmbim-1.34.0/build-aux/templates/
+libmbim-1.34.0/build-aux/templates/mbim-enum-types.c.template
+libmbim-1.34.0/build-aux/templates/mbim-enum-types.h.template
+libmbim-1.34.0/build-aux/templates/mbim-error-quarks.c.template
+libmbim-1.34.0/build-aux/templates/mbim-error-types.c.template
+libmbim-1.34.0/build-aux/templates/mbim-error-types.h.template
+libmbim-1.34.0/build-aux/templates/mbim-flag-types.c.template
+libmbim-1.34.0/build-aux/templates/mbim-flag-types.h.template
+libmbim-1.34.0/data/
+libmbim-1.34.0/data/mbim-service-atds.json
+libmbim-1.34.0/data/mbim-service-auth.json
+libmbim-1.34.0/data/mbim-service-basic-connect.json
+libmbim-1.34.0/data/mbim-service-compal.json
+libmbim-1.34.0/data/mbim-service-dss.json
+libmbim-1.34.0/data/mbim-service-fibocom.json
+libmbim-1.34.0/data/mbim-service-google.json
+libmbim-1.34.0/data/mbim-service-intel-at-tunnel.json
+libmbim-1.34.0/data/mbim-service-intel-firmware-update-v2.json
+libmbim-1.34.0/data/mbim-service-intel-firmware-update.json
+libmbim-1.34.0/data/mbim-service-intel-mutual-authentication.json
+libmbim-1.34.0/data/mbim-service-intel-thermal-rf.json
+libmbim-1.34.0/data/mbim-service-intel-tools.json
+libmbim-1.34.0/data/mbim-service-ms-basic-connect-extensions-v2.json
+libmbim-1.34.0/data/mbim-service-ms-basic-connect-extensions-v3.json
+libmbim-1.34.0/data/mbim-service-ms-basic-connect-extensions.json
+libmbim-1.34.0/data/mbim-service-ms-basic-connect-v2.json
+libmbim-1.34.0/data/mbim-service-ms-basic-connect-v3.json
+libmbim-1.34.0/data/mbim-service-ms-firmware-id.json
+libmbim-1.34.0/data/mbim-service-ms-host-shutdown.json
+libmbim-1.34.0/data/mbim-service-ms-sar.json
+libmbim-1.34.0/data/mbim-service-ms-uicc-low-level-access.json
+libmbim-1.34.0/data/mbim-service-ms-voice-extensions.json
+libmbim-1.34.0/data/mbim-service-phonebook.json
+libmbim-1.34.0/data/mbim-service-proxy-control.json
+libmbim-1.34.0/data/mbim-service-qdu.json
+libmbim-1.34.0/data/mbim-service-qmi.json
+libmbim-1.34.0/data/mbim-service-quectel.json
+libmbim-1.34.0/data/mbim-service-sms.json
+libmbim-1.34.0/data/mbim-service-stk.json
+libmbim-1.34.0/data/mbim-service-ussd.json
+libmbim-1.34.0/docs/
+libmbim-1.34.0/docs/libmbim-icon.svg
+libmbim-1.34.0/docs/libmbim-logo.png
+libmbim-1.34.0/docs/libmbim-logo.svg
+libmbim-1.34.0/docs/man/
+libmbim-1.34.0/docs/man/meson.build
+libmbim-1.34.0/docs/reference/
+libmbim-1.34.0/docs/reference/libmbim-glib/
+libmbim-1.34.0/docs/reference/libmbim-glib/libmbim-glib-common.sections
+libmbim-1.34.0/docs/reference/libmbim-glib/libmbim-glib-docs.xml
+libmbim-1.34.0/docs/reference/libmbim-glib/meson.build
+libmbim-1.34.0/docs/reference/libmbim-glib/version.xml.in
+libmbim-1.34.0/docs/reference/libmbim-glib/xml/
+libmbim-1.34.0/docs/reference/libmbim-glib/xml/gtkdocentities.ent.in
+libmbim-1.34.0/docs/reference/libmbim-glib/xml/meson.build
+libmbim-1.34.0/examples/
+libmbim-1.34.0/examples/simple-tester-c/
+libmbim-1.34.0/examples/simple-tester-c/README
+libmbim-1.34.0/examples/simple-tester-c/meson.build
+libmbim-1.34.0/examples/simple-tester-c/simple-tester-c.c
+libmbim-1.34.0/examples/simple-tester-python/
+libmbim-1.34.0/examples/simple-tester-python/README
+libmbim-1.34.0/examples/simple-tester-python/simple-tester-python
+libmbim-1.34.0/meson.build
+libmbim-1.34.0/meson_options.txt
+libmbim-1.34.0/src/
+libmbim-1.34.0/src/common/
+libmbim-1.34.0/src/common/mbim-common.c
+libmbim-1.34.0/src/common/mbim-common.h
+libmbim-1.34.0/src/common/meson.build
+libmbim-1.34.0/src/common/test/
+libmbim-1.34.0/src/common/test/meson.build
+libmbim-1.34.0/src/common/test/test-common.c
+libmbim-1.34.0/src/libmbim-glib/
+libmbim-1.34.0/src/libmbim-glib/76-mbim-device-group.rules.in
+libmbim-1.34.0/src/libmbim-glib/76-mbim-device-ownership.rules.in
+libmbim-1.34.0/src/libmbim-glib/generated/
+libmbim-1.34.0/src/libmbim-glib/generated/meson.build
+libmbim-1.34.0/src/libmbim-glib/kernel/
+libmbim-1.34.0/src/libmbim-glib/kernel/if_link.h
+libmbim-1.34.0/src/libmbim-glib/kernel/wwan.h
+libmbim-1.34.0/src/libmbim-glib/libmbim-glib.h
+libmbim-1.34.0/src/libmbim-glib/mbim-cid.c
+libmbim-1.34.0/src/libmbim-glib/mbim-cid.h
+libmbim-1.34.0/src/libmbim-glib/mbim-compat.c
+libmbim-1.34.0/src/libmbim-glib/mbim-compat.h
+libmbim-1.34.0/src/libmbim-glib/mbim-device.c
+libmbim-1.34.0/src/libmbim-glib/mbim-device.h
+libmbim-1.34.0/src/libmbim-glib/mbim-enums.h
+libmbim-1.34.0/src/libmbim-glib/mbim-errors.h
+libmbim-1.34.0/src/libmbim-glib/mbim-helpers-netlink.c
+libmbim-1.34.0/src/libmbim-glib/mbim-helpers-netlink.h
+libmbim-1.34.0/src/libmbim-glib/mbim-helpers.c
+libmbim-1.34.0/src/libmbim-glib/mbim-helpers.h
+libmbim-1.34.0/src/libmbim-glib/mbim-message-private.h
+libmbim-1.34.0/src/libmbim-glib/mbim-message.c
+libmbim-1.34.0/src/libmbim-glib/mbim-message.h
+libmbim-1.34.0/src/libmbim-glib/mbim-net-port-manager-wdm.c
+libmbim-1.34.0/src/libmbim-glib/mbim-net-port-manager-wdm.h
+libmbim-1.34.0/src/libmbim-glib/mbim-net-port-manager-wwan.c
+libmbim-1.34.0/src/libmbim-glib/mbim-net-port-manager-wwan.h
+libmbim-1.34.0/src/libmbim-glib/mbim-net-port-manager.c
+libmbim-1.34.0/src/libmbim-glib/mbim-net-port-manager.h
+libmbim-1.34.0/src/libmbim-glib/mbim-proxy-helpers.c
+libmbim-1.34.0/src/libmbim-glib/mbim-proxy-helpers.h
+libmbim-1.34.0/src/libmbim-glib/mbim-proxy.c
+libmbim-1.34.0/src/libmbim-glib/mbim-proxy.h
+libmbim-1.34.0/src/libmbim-glib/mbim-tlv-private.h
+libmbim-1.34.0/src/libmbim-glib/mbim-tlv.c
+libmbim-1.34.0/src/libmbim-glib/mbim-tlv.h
+libmbim-1.34.0/src/libmbim-glib/mbim-utils.c
+libmbim-1.34.0/src/libmbim-glib/mbim-utils.h
+libmbim-1.34.0/src/libmbim-glib/mbim-uuid.c
+libmbim-1.34.0/src/libmbim-glib/mbim-uuid.h
+libmbim-1.34.0/src/libmbim-glib/mbim-version.h.in
+libmbim-1.34.0/src/libmbim-glib/meson.build
+libmbim-1.34.0/src/libmbim-glib/symbol.map
+libmbim-1.34.0/src/libmbim-glib/test/
+libmbim-1.34.0/src/libmbim-glib/test/meson.build
+libmbim-1.34.0/src/libmbim-glib/test/test-cid.c
+libmbim-1.34.0/src/libmbim-glib/test/test-fragment.c
+libmbim-1.34.0/src/libmbim-glib/test/test-message-builder.c
+libmbim-1.34.0/src/libmbim-glib/test/test-message-fuzzer-samples.c
+libmbim-1.34.0/src/libmbim-glib/test/test-message-fuzzer.c
+libmbim-1.34.0/src/libmbim-glib/test/test-message-parser.c
+libmbim-1.34.0/src/libmbim-glib/test/test-message.c
+libmbim-1.34.0/src/libmbim-glib/test/test-proxy-helpers.c
+libmbim-1.34.0/src/libmbim-glib/test/test-uuid.c
+libmbim-1.34.0/src/mbim-proxy/
+libmbim-1.34.0/src/mbim-proxy/mbim-proxy.c
+libmbim-1.34.0/src/mbim-proxy/meson.build
+libmbim-1.34.0/src/mbimcli/
+libmbim-1.34.0/src/mbimcli/mbimcli
+libmbim-1.34.0/src/mbimcli/mbimcli-atds.c
+libmbim-1.34.0/src/mbimcli/mbimcli-basic-connect.c
+libmbim-1.34.0/src/mbimcli/mbimcli-compal.c
+libmbim-1.34.0/src/mbimcli/mbimcli-dss.c
+libmbim-1.34.0/src/mbimcli/mbimcli-fibocom.c
+libmbim-1.34.0/src/mbimcli/mbimcli-google.c
+libmbim-1.34.0/src/mbimcli/mbimcli-helpers-quectel.c
+libmbim-1.34.0/src/mbimcli/mbimcli-helpers-quectel.h
+libmbim-1.34.0/src/mbimcli/mbimcli-helpers.c
+libmbim-1.34.0/src/mbimcli/mbimcli-helpers.h
+libmbim-1.34.0/src/mbimcli/mbimcli-intel-at-tunnel.c
+libmbim-1.34.0/src/mbimcli/mbimcli-intel-firmware-update.c
+libmbim-1.34.0/src/mbimcli/mbimcli-intel-mutual-authentication.c
+libmbim-1.34.0/src/mbimcli/mbimcli-intel-thermal-rf.c
+libmbim-1.34.0/src/mbimcli/mbimcli-intel-tools.c
+libmbim-1.34.0/src/mbimcli/mbimcli-link-management.c
+libmbim-1.34.0/src/mbimcli/mbimcli-ms-basic-connect-extensions.c
+libmbim-1.34.0/src/mbimcli/mbimcli-ms-firmware-id.c
+libmbim-1.34.0/src/mbimcli/mbimcli-ms-host-shutdown.c
+libmbim-1.34.0/src/mbimcli/mbimcli-ms-sar.c
+libmbim-1.34.0/src/mbimcli/mbimcli-ms-uicc-low-level-access.c
+libmbim-1.34.0/src/mbimcli/mbimcli-ms-voice-extensions.c
+libmbim-1.34.0/src/mbimcli/mbimcli-phonebook.c
+libmbim-1.34.0/src/mbimcli/mbimcli-quectel.c
+libmbim-1.34.0/src/mbimcli/mbimcli-sms.c
+libmbim-1.34.0/src/mbimcli/mbimcli.c
+libmbim-1.34.0/src/mbimcli/mbimcli.h
+libmbim-1.34.0/src/mbimcli/meson.build
+libmbim-1.34.0/src/mbimcli/tests/
+libmbim-1.34.0/src/mbimcli/tests/meson.build
+libmbim-1.34.0/src/mbimcli/tests/test-quectel.c
+libmbim-1.34.0/src/meson.build
+libmbim-1.34.0/utils/
+libmbim-1.34.0/utils/mbim-network.in
+libmbim-1.34.0/utils/meson.build
+The Meson build system
+Version: 1.10.0
+Source dir: /blfs/builds/libmbim-1.34.0
+Build dir: /blfs/builds/libmbim-1.34.0/build
+Build type: native build
+Project name: libmbim
+Project version: 1.34.0
+C compiler for the host machine: cc (gcc 15.2.0 "cc (GCC) 15.2.0")
+C linker for the host machine: cc ld.bfd 2.45
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Program python3 found: YES (/usr/bin/python3)
+Program /blfs/builds/libmbim-1.34.0/build-aux/mbim-codegen/mbim-codegen found: YES (/blfs/builds/libmbim-1.34.0/build-aux/mbim-codegen/mbim-codegen)
+Program /blfs/builds/libmbim-1.34.0/build-aux/mbim-mkenums found: YES (/blfs/builds/libmbim-1.34.0/build-aux/mbim-mkenums)
+Compiler for C supports arguments -Wno-unused-parameter: YES 
+Compiler for C supports arguments -Wno-cast-function-type: YES 
+Compiler for C supports arguments -Wno-packed: YES 
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Run-time dependency glib-2.0 found: YES 2.86.3
+Run-time dependency gio-unix-2.0 found: YES 2.86.3
+Run-time dependency gio-2.0 found: YES 2.86.3
+Run-time dependency gobject-2.0 found: YES 2.86.3
+Run-time dependency gobject-introspection-1.0 found: YES 1.86.0
+Configuring mbim-version.h using configuration
+Compiler for C supports link arguments -Wl,--version-script,/blfs/builds/libmbim-1.34.0/src/libmbim-glib/symbol.map: YES 
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Dependency gobject-introspection-1.0 found: YES 1.86.0 (cached)
+Dependency gobject-introspection-1.0 found: YES 1.86.0 (cached)
+Program /usr/bin/g-ir-scanner found: YES (/usr/bin/g-ir-scanner)
+Dependency gobject-introspection-1.0 found: YES 1.86.0 (cached)
+Program /usr/bin/g-ir-compiler found: YES (/usr/bin/g-ir-compiler)
+Configuring mbim-network using configuration
+Configuring config.h using configuration
+Build targets in project: 53
+
+libmbim 1.34.0
+
+  Build
+    compiler             : gcc
+    cflags               : -Wno-unused-parameter
+                           -Wno-cast-function-type
+                           -Wno-packed
+    Documentation        : false
+    bash completion      : false
+    gobject introspection: true
+    man pages            : false
+    fuzzer               : false
+
+  System paths
+    prefix               : /usr
+    udev base directory  : disabled
+
+  Features
+    MBIM username        : no (root)
+    MBIM groupname       : none
+
+  User defined options
+    bash_completion      : false
+    buildtype            : release
+    man                  : false
+    prefix               : /usr
+
+Found ninja-1.13.2 at /usr/bin/ninja
+[1/137] Generating src/libmbim-glib/generated/mbim-auth with a custom command
+[2/137] Generating src/libmbim-glib/generated/mbim-atds with a custom command
+[3/137] Generating src/libmbim-glib/generated/mbim-dss with a custom command
+[4/137] Generating src/libmbim-glib/generated/mbim-intel-firmware-update with a custom command
+[5/137] Generating src/libmbim-glib/generated/mbim-ms-uicc-low-level-access with a custom command
+[6/137] Generating src/libmbim-glib/generated/mbim-basic-connect with a custom command
+[7/137] Generating src/libmbim-glib/generated/mbim-intel-thermal-rf with a custom command
+[8/137] Generating src/libmbim-glib/generated/mbim-ms-basic-connect-extensions with a custom command
+[9/137] Generating src/libmbim-glib/generated/mbim-ms-firmware-id with a custom command
+[10/137] Generating src/libmbim-glib/generated/mbim-ms-host-shutdown with a custom command
+[11/137] Generating src/libmbim-glib/generated/mbim-error-types.c with a custom command (wrapped by meson because command contains newlines, to capture output)
+[12/137] Generating src/libmbim-glib/generated/mbim-phonebook with a custom command
+[13/137] Generating src/libmbim-glib/generated/mbim-ms-sar with a custom command
+[14/137] Generating src/libmbim-glib/generated/mbim-error-types.h with a custom command (wrapped by meson because command contains newlines, to capture output)
+[15/137] Generating src/libmbim-glib/generated/mbim-ms-voice-extensions with a custom command
+[16/137] Generating src/libmbim-glib/generated/mbim-proxy-control with a custom command
+[17/137] Generating src/libmbim-glib/generated/mbim-qdu with a custom command
+[18/137] Generating src/libmbim-glib/generated/mbim-ussd with a custom command
+[19/137] Generating src/libmbim-glib/generated/mbim-stk with a custom command
+[20/137] Generating src/libmbim-glib/generated/mbim-quectel with a custom command
+[21/137] Generating src/libmbim-glib/generated/mbim-enum-types.c with a custom command (wrapped by meson because command contains newlines, to capture output)
+[22/137] Generating src/libmbim-glib/generated/mbim-intel-mutual-authentication with a custom command
+[23/137] Generating src/libmbim-glib/generated/mbim-sms with a custom command
+[24/137] Generating src/libmbim-glib/generated/mbim-qmi with a custom command
+[25/137] Generating src/libmbim-glib/generated/mbim-error-quarks.c with a custom command (wrapped by meson because command contains newlines, to capture output)
+[26/137] Generating src/libmbim-glib/generated/mbim-intel-tools with a custom command
+[27/137] Generating src/libmbim-glib/generated/mbim-flag-types.c with a custom command (wrapped by meson because command contains newlines, to capture output)
+[28/137] Generating src/libmbim-glib/generated/mbim-compal with a custom command
+[29/137] Generating src/libmbim-glib/generated/mbim-google with a custom command
+[30/137] Generating src/libmbim-glib/generated/mbim-fibocom with a custom command
+[31/137] Generating src/libmbim-glib/generated/mbim-flag-types.h with a custom command (wrapped by meson because command contains newlines, to capture output)
+[32/137] Generating src/libmbim-glib/generated/mbim-intel-at-tunnel with a custom command
+[33/137] Generating src/libmbim-glib/generated/mbim-enum-types.h with a custom command (wrapped by meson because command contains newlines, to capture output)
+[34/137] Compiling C object src/common/libmbim-common.a.p/mbim-common.c.o
+[35/137] Compiling C object src/common/test/test-common.p/test-common.c.o
+[36/137] Compiling C object src/libmbim-glib/generated/libmbim-glib-generated.a.p/meson-generated_.._mbim-error-types.c.o
+[37/137] Compiling C object src/libmbim-glib/generated/libmbim-glib-generated.a.p/meson-generated_.._mbim-error-quarks.c.o
+[38/137] Compiling C object src/libmbim-glib/generated/libmbim-glib-generated.a.p/meson-generated_.._mbim-intel-firmware-update.c.o
+[39/137] Compiling C object src/libmbim-glib/generated/libmbim-glib-generated.a.p/meson-generated_.._mbim-ms-firmware-id.c.o
+[40/137] Compiling C object src/libmbim-glib/generated/libmbim-glib-generated.a.p/meson-generated_.._mbim-ms-host-shutdown.c.o
+[41/137] Compiling C object src/libmbim-glib/generated/libmbim-glib-generated.a.p/meson-generated_.._mbim-flag-types.c.o
+[42/137] Compiling C object src/libmbim-glib/generated/libmbim-glib-generated.a.p/meson-generated_.._mbim-dss.c.o
+[43/137] Compiling C object src/libmbim-glib/generated/libmbim-glib-generated.a.p/meson-generated_.._mbim-auth.c.o
+[44/137] Compiling C object src/libmbim-glib/generated/libmbim-glib-generated.a.p/meson-generated_.._mbim-atds.c.o
+[45/137] Compiling C object src/libmbim-glib/generated/libmbim-glib-generated.a.p/meson-generated_.._mbim-ms-voice-extensions.c.o
+[46/137] Compiling C object src/libmbim-glib/generated/libmbim-glib-generated.a.p/meson-generated_.._mbim-ms-sar.c.o
+[47/137] Compiling C object src/libmbim-glib/generated/libmbim-glib-generated.a.p/meson-generated_.._mbim-quectel.c.o
+[48/137] Compiling C object src/libmbim-glib/generated/libmbim-glib-generated.a.p/meson-generated_.._mbim-intel-thermal-rf.c.o
+[49/137] Compiling C object src/libmbim-glib/generated/libmbim-glib-generated.a.p/meson-generated_.._mbim-proxy-control.c.o
+[50/137] Compiling C object src/libmbim-glib/generated/libmbim-glib-generated.a.p/meson-generated_.._mbim-qmi.c.o
+[51/137] Compiling C object src/libmbim-glib/generated/libmbim-glib-generated.a.p/meson-generated_.._mbim-phonebook.c.o
+[52/137] Compiling C object src/libmbim-glib/generated/libmbim-glib-generated.a.p/meson-generated_.._mbim-intel-mutual-authentication.c.o
+[53/137] Compiling C object src/libmbim-glib/generated/libmbim-glib-generated.a.p/meson-generated_.._mbim-intel-tools.c.o
+[54/137] Compiling C object src/libmbim-glib/generated/libmbim-glib-generated.a.p/meson-generated_.._mbim-qdu.c.o
+[55/137] Compiling C object src/libmbim-glib/generated/libmbim-glib-generated.a.p/meson-generated_.._mbim-fibocom.c.o
+[56/137] Compiling C object src/libmbim-glib/generated/libmbim-glib-generated.a.p/meson-generated_.._mbim-ussd.c.o
+[57/137] Compiling C object src/libmbim-glib/generated/libmbim-glib-generated.a.p/meson-generated_.._mbim-google.c.o
+[58/137] Compiling C object src/libmbim-glib/generated/libmbim-glib-generated.a.p/meson-generated_.._mbim-enum-types.c.o
+[59/137] Compiling C object src/libmbim-glib/libmbim-glib-core.a.p/mbim-cid.c.o
+[60/137] Compiling C object src/libmbim-glib/generated/libmbim-glib-generated.a.p/meson-generated_.._mbim-stk.c.o
+[61/137] Compiling C object src/libmbim-glib/generated/libmbim-glib-generated.a.p/meson-generated_.._mbim-intel-at-tunnel.c.o
+[62/137] Compiling C object src/libmbim-glib/libmbim-glib-core.a.p/mbim-helpers-netlink.c.o
+[63/137] Compiling C object src/libmbim-glib/generated/libmbim-glib-generated.a.p/meson-generated_.._mbim-ms-uicc-low-level-access.c.o
+[64/137] Compiling C object src/libmbim-glib/generated/libmbim-glib-generated.a.p/meson-generated_.._mbim-compal.c.o
+[65/137] Compiling C object src/libmbim-glib/libmbim-glib-core.a.p/mbim-helpers.c.o
+[66/137] Compiling C object src/libmbim-glib/libmbim-glib-core.a.p/mbim-compat.c.o
+[67/137] Compiling C object src/libmbim-glib/libmbim-glib-core.a.p/mbim-net-port-manager-wdm.c.o
+[68/137] Compiling C object src/libmbim-glib/libmbim-glib-core.a.p/mbim-utils.c.o
+[69/137] Linking static target src/common/libmbim-common.a
+[70/137] Compiling C object src/libmbim-glib/libmbim-glib-core.a.p/mbim-net-port-manager.c.o
+[71/137] Compiling C object src/libmbim-glib/libmbim-glib-core.a.p/mbim-net-port-manager-wwan.c.o
+[72/137] Compiling C object src/libmbim-glib/libmbim-glib-core.a.p/mbim-proxy-helpers.c.o
+[73/137] Compiling C object src/libmbim-glib/generated/libmbim-glib-generated.a.p/meson-generated_.._mbim-sms.c.o
+[74/137] Compiling C object src/libmbim-glib/libmbim-glib-core.a.p/mbim-uuid.c.o
+[75/137] Compiling C object src/libmbim-glib/libmbim-glib-core.a.p/mbim-tlv.c.o
+[76/137] Compiling C object src/mbimcli/libmbimcli-helpers.a.p/mbimcli-helpers-quectel.c.o
+[77/137] Compiling C object src/libmbim-glib/test/test-uuid.p/test-uuid.c.o
+[78/137] Compiling C object src/libmbim-glib/libmbim-glib-core.a.p/mbim-proxy.c.o
+[79/137] Compiling C object src/libmbim-glib/test/test-cid.p/test-cid.c.o
+[80/137] Compiling C object src/libmbim-glib/libmbim-glib-core.a.p/mbim-device.c.o
+[81/137] Compiling C object src/libmbim-glib/test/test-message-fuzzer-samples.p/test-message-fuzzer-samples.c.o
+[82/137] Compiling C object src/libmbim-glib/test/test-fragment.p/test-fragment.c.o
+[83/137] Compiling C object src/mbimcli/libmbimcli-helpers.a.p/mbimcli-helpers.c.o
+[84/137] Linking static target src/mbimcli/libmbimcli-helpers.a
+[85/137] Compiling C object src/libmbim-glib/test/test-message.p/test-message.c.o
+[86/137] Compiling C object src/libmbim-glib/libmbim-glib-core.a.p/mbim-message.c.o
+[87/137] Compiling C object src/mbimcli/mbimcli.p/mbimcli-atds.c.o
+[88/137] Compiling C object src/mbimcli/mbimcli.p/mbimcli-fibocom.c.o
+[89/137] Compiling C object src/mbimcli/mbimcli.p/mbimcli.c.o
+[90/137] Compiling C object src/mbimcli/mbimcli.p/mbimcli-compal.c.o
+[91/137] Compiling C object src/mbimcli/mbimcli.p/mbimcli-dss.c.o
+[92/137] Compiling C object src/libmbim-glib/test/test-proxy-helpers.p/test-proxy-helpers.c.o
+[93/137] Compiling C object src/mbimcli/mbimcli.p/mbimcli-google.c.o
+[94/137] Compiling C object src/mbimcli/mbimcli.p/mbimcli-intel-at-tunnel.c.o
+[95/137] Compiling C object src/mbimcli/mbimcli.p/mbimcli-intel-mutual-authentication.c.o
+[96/137] Compiling C object src/mbimcli/mbimcli.p/mbimcli-intel-firmware-update.c.o
+[97/137] Compiling C object src/libmbim-glib/test/test-message-builder.p/test-message-builder.c.o
+[98/137] Compiling C object src/mbimcli/mbimcli.p/mbimcli-intel-thermal-rf.c.o
+[99/137] Compiling C object src/mbimcli/mbimcli.p/mbimcli-ms-host-shutdown.c.o
+[100/137] Compiling C object src/mbimcli/mbimcli.p/mbimcli-link-management.c.o
+[101/137] Compiling C object src/mbimcli/mbimcli.p/mbimcli-intel-tools.c.o
+[102/137] Compiling C object src/mbimcli/mbimcli.p/mbimcli-basic-connect.c.o
+[103/137] Compiling C object src/mbimcli/mbimcli.p/mbimcli-ms-firmware-id.c.o
+[104/137] Compiling C object src/mbimcli/mbimcli.p/mbimcli-ms-sar.c.o
+[105/137] Compiling C object src/libmbim-glib/test/test-message-parser.p/test-message-parser.c.o
+[106/137] Compiling C object src/mbimcli/mbimcli.p/mbimcli-ms-voice-extensions.c.o
+[107/137] Compiling C object src/mbimcli/mbimcli.p/mbimcli-phonebook.c.o
+[108/137] Linking target src/common/test/test-common
+[109/137] Compiling C object src/mbimcli/mbimcli.p/mbimcli-helpers-quectel.c.o
+[110/137] Compiling C object src/mbimcli/tests/test-quectel.p/test-quectel.c.o
+[111/137] Compiling C object src/mbimcli/mbimcli.p/mbimcli-sms.c.o
+[112/137] Compiling C object src/mbimcli/mbimcli.p/mbimcli-quectel.c.o
+[113/137] Compiling C object src/mbimcli/mbimcli.p/mbimcli-ms-basic-connect-extensions.c.o
+[114/137] Compiling C object src/mbimcli/mbimcli.p/mbimcli-ms-uicc-low-level-access.c.o
+[115/137] Compiling C object src/mbim-proxy/mbim-proxy.p/mbim-proxy.c.o
+[116/137] Compiling C object examples/simple-tester-c/simple-tester-c.p/simple-tester-c.c.o
+[117/137] Compiling C object src/mbimcli/mbimcli.p/mbimcli-helpers.c.o
+[118/137] Compiling C object src/libmbim-glib/generated/libmbim-glib-generated.a.p/meson-generated_.._mbim-ms-basic-connect-extensions.c.o
+[119/137] Compiling C object src/libmbim-glib/generated/libmbim-glib-generated.a.p/meson-generated_.._mbim-basic-connect.c.o
+[120/137] Linking static target src/libmbim-glib/generated/libmbim-glib-generated.a
+[121/137] Linking static target src/libmbim-glib/libmbim-glib-core.a
+[122/137] Linking target src/libmbim-glib/test/test-uuid
+[123/137] Linking target src/libmbim-glib/test/test-cid
+[124/137] Linking target src/libmbim-glib/test/test-fragment
+[125/137] Linking target src/libmbim-glib/test/test-proxy-helpers
+[126/137] Linking target src/libmbim-glib/test/test-message-builder
+[127/137] Linking target src/libmbim-glib/test/test-message-fuzzer-samples
+[128/137] Linking target src/libmbim-glib/test/test-message
+[129/137] Linking target src/libmbim-glib/libmbim-glib.so.4.10.0
+[130/137] Linking target src/libmbim-glib/test/test-message-parser
+[131/137] Generating symbol file src/libmbim-glib/libmbim-glib.so.4.10.0.p/libmbim-glib.so.4.10.0.symbols
+[132/137] Linking target src/mbim-proxy/mbim-proxy
+[133/137] Linking target examples/simple-tester-c/simple-tester-c
+[134/137] Linking target src/mbimcli/tests/test-quectel
+[135/137] Linking target src/mbimcli/mbimcli
+[136/137] Generating src/libmbim-glib/Mbim-1.0.gir with a custom command (wrapped by meson to set env)
+[137/137] Generating src/libmbim-glib/Mbim-1.0.typelib with a custom command
+[0/1] Installing files
+Installing src/libmbim-glib/generated/mbim-error-types.h to /pkgs/libmbim/usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-enum-types.h to /pkgs/libmbim/usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-flag-types.h to /pkgs/libmbim/usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-atds.h to /pkgs/libmbim/usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-auth.h to /pkgs/libmbim/usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-basic-connect.h to /pkgs/libmbim/usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-dss.h to /pkgs/libmbim/usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-intel-firmware-update.h to /pkgs/libmbim/usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-intel-thermal-rf.h to /pkgs/libmbim/usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-ms-basic-connect-extensions.h to /pkgs/libmbim/usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-ms-uicc-low-level-access.h to /pkgs/libmbim/usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-ms-firmware-id.h to /pkgs/libmbim/usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-ms-host-shutdown.h to /pkgs/libmbim/usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-ms-sar.h to /pkgs/libmbim/usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-ms-voice-extensions.h to /pkgs/libmbim/usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-phonebook.h to /pkgs/libmbim/usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-proxy-control.h to /pkgs/libmbim/usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-qdu.h to /pkgs/libmbim/usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-quectel.h to /pkgs/libmbim/usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-qmi.h to /pkgs/libmbim/usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-sms.h to /pkgs/libmbim/usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-stk.h to /pkgs/libmbim/usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-ussd.h to /pkgs/libmbim/usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-intel-mutual-authentication.h to /pkgs/libmbim/usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-intel-tools.h to /pkgs/libmbim/usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-google.h to /pkgs/libmbim/usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-fibocom.h to /pkgs/libmbim/usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-compal.h to /pkgs/libmbim/usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-intel-at-tunnel.h to /pkgs/libmbim/usr/include/libmbim-glib
+Installing src/libmbim-glib/libmbim-glib.so.4.10.0 to /pkgs/libmbim/usr/lib
+Installing src/libmbim-glib/Mbim-1.0.gir to /pkgs/libmbim/usr/share/gir-1.0
+Installing src/libmbim-glib/Mbim-1.0.typelib to /pkgs/libmbim/usr/lib/girepository-1.0
+Installing src/mbimcli/mbimcli to /pkgs/libmbim/usr/bin
+Installing src/mbim-proxy/mbim-proxy to /pkgs/libmbim/usr/libexec
+Installing /blfs/builds/libmbim-1.34.0/src/libmbim-glib/mbim-errors.h to /pkgs/libmbim/usr/include/libmbim-glib
+Installing /blfs/builds/libmbim-1.34.0/src/libmbim-glib/mbim-cid.h to /pkgs/libmbim/usr/include/libmbim-glib
+Installing /blfs/builds/libmbim-1.34.0/src/libmbim-glib/mbim-enums.h to /pkgs/libmbim/usr/include/libmbim-glib
+Installing /blfs/builds/libmbim-1.34.0/src/libmbim-glib/mbim-message.h to /pkgs/libmbim/usr/include/libmbim-glib
+Installing /blfs/builds/libmbim-1.34.0/src/libmbim-glib/mbim-uuid.h to /pkgs/libmbim/usr/include/libmbim-glib
+Installing /blfs/builds/libmbim-1.34.0/src/libmbim-glib/mbim-tlv.h to /pkgs/libmbim/usr/include/libmbim-glib
+Installing /blfs/builds/libmbim-1.34.0/src/libmbim-glib/libmbim-glib.h to /pkgs/libmbim/usr/include/libmbim-glib
+Installing /blfs/builds/libmbim-1.34.0/src/libmbim-glib/mbim-compat.h to /pkgs/libmbim/usr/include/libmbim-glib
+Installing /blfs/builds/libmbim-1.34.0/src/libmbim-glib/mbim-device.h to /pkgs/libmbim/usr/include/libmbim-glib
+Installing /blfs/builds/libmbim-1.34.0/src/libmbim-glib/mbim-proxy.h to /pkgs/libmbim/usr/include/libmbim-glib
+Installing /blfs/builds/libmbim-1.34.0/src/libmbim-glib/mbim-utils.h to /pkgs/libmbim/usr/include/libmbim-glib
+Installing /blfs/builds/libmbim-1.34.0/build/src/libmbim-glib/mbim-version.h to /pkgs/libmbim/usr/include/libmbim-glib
+Installing /blfs/builds/libmbim-1.34.0/build/meson-private/mbim-glib.pc to /pkgs/libmbim/usr/lib/pkgconfig
+Installing /blfs/builds/libmbim-1.34.0/build/utils/mbim-network to /pkgs/libmbim/usr/bin
+Installing symlink pointing to libmbim-glib.so.4.10.0 to /pkgs/libmbim/usr/lib/libmbim-glib.so.4
+Installing symlink pointing to libmbim-glib.so.4 to /pkgs/libmbim/usr/lib/libmbim-glib.so
+[0/1] Installing files
+Installing src/libmbim-glib/generated/mbim-error-types.h to /usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-enum-types.h to /usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-flag-types.h to /usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-atds.h to /usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-auth.h to /usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-basic-connect.h to /usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-dss.h to /usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-intel-firmware-update.h to /usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-intel-thermal-rf.h to /usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-ms-basic-connect-extensions.h to /usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-ms-uicc-low-level-access.h to /usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-ms-firmware-id.h to /usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-ms-host-shutdown.h to /usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-ms-sar.h to /usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-ms-voice-extensions.h to /usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-phonebook.h to /usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-proxy-control.h to /usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-qdu.h to /usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-quectel.h to /usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-qmi.h to /usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-sms.h to /usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-stk.h to /usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-ussd.h to /usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-intel-mutual-authentication.h to /usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-intel-tools.h to /usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-google.h to /usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-fibocom.h to /usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-compal.h to /usr/include/libmbim-glib
+Installing src/libmbim-glib/generated/mbim-intel-at-tunnel.h to /usr/include/libmbim-glib
+Installing src/libmbim-glib/libmbim-glib.so.4.10.0 to /usr/lib
+Installing src/libmbim-glib/Mbim-1.0.gir to /usr/share/gir-1.0
+Installing src/libmbim-glib/Mbim-1.0.typelib to /usr/lib/girepository-1.0
+Installing src/mbimcli/mbimcli to /usr/bin
+Installing src/mbim-proxy/mbim-proxy to /usr/libexec
+Installing /blfs/builds/libmbim-1.34.0/src/libmbim-glib/mbim-errors.h to /usr/include/libmbim-glib
+Installing /blfs/builds/libmbim-1.34.0/src/libmbim-glib/mbim-cid.h to /usr/include/libmbim-glib
+Installing /blfs/builds/libmbim-1.34.0/src/libmbim-glib/mbim-enums.h to /usr/include/libmbim-glib
+Installing /blfs/builds/libmbim-1.34.0/src/libmbim-glib/mbim-message.h to /usr/include/libmbim-glib
+Installing /blfs/builds/libmbim-1.34.0/src/libmbim-glib/mbim-uuid.h to /usr/include/libmbim-glib
+Installing /blfs/builds/libmbim-1.34.0/src/libmbim-glib/mbim-tlv.h to /usr/include/libmbim-glib
+Installing /blfs/builds/libmbim-1.34.0/src/libmbim-glib/libmbim-glib.h to /usr/include/libmbim-glib
+Installing /blfs/builds/libmbim-1.34.0/src/libmbim-glib/mbim-compat.h to /usr/include/libmbim-glib
+Installing /blfs/builds/libmbim-1.34.0/src/libmbim-glib/mbim-device.h to /usr/include/libmbim-glib
+Installing /blfs/builds/libmbim-1.34.0/src/libmbim-glib/mbim-proxy.h to /usr/include/libmbim-glib
+Installing /blfs/builds/libmbim-1.34.0/src/libmbim-glib/mbim-utils.h to /usr/include/libmbim-glib
+Installing /blfs/builds/libmbim-1.34.0/build/src/libmbim-glib/mbim-version.h to /usr/include/libmbim-glib
+Installing /blfs/builds/libmbim-1.34.0/build/meson-private/mbim-glib.pc to /usr/lib/pkgconfig
+Installing /blfs/builds/libmbim-1.34.0/build/utils/mbim-network to /usr/bin
+Installing symlink pointing to libmbim-glib.so.4.10.0 to /usr/lib/libmbim-glib.so.4
+Installing symlink pointing to libmbim-glib.so.4 to /usr/lib/libmbim-glib.so
+libmbim/
+libmbim/usr/
+libmbim/usr/include/
+libmbim/usr/include/libmbim-glib/
+libmbim/usr/include/libmbim-glib/mbim-enums.h
+libmbim/usr/include/libmbim-glib/mbim-ms-host-shutdown.h
+libmbim/usr/include/libmbim-glib/mbim-intel-mutual-authentication.h
+libmbim/usr/include/libmbim-glib/mbim-dss.h
+libmbim/usr/include/libmbim-glib/mbim-quectel.h
+libmbim/usr/include/libmbim-glib/mbim-sms.h
+libmbim/usr/include/libmbim-glib/mbim-flag-types.h
+libmbim/usr/include/libmbim-glib/mbim-compal.h
+libmbim/usr/include/libmbim-glib/mbim-enum-types.h
+libmbim/usr/include/libmbim-glib/mbim-atds.h
+libmbim/usr/include/libmbim-glib/mbim-ms-uicc-low-level-access.h
+libmbim/usr/include/libmbim-glib/mbim-auth.h
+libmbim/usr/include/libmbim-glib/mbim-ms-sar.h
+libmbim/usr/include/libmbim-glib/mbim-device.h
+libmbim/usr/include/libmbim-glib/mbim-intel-firmware-update.h
+libmbim/usr/include/libmbim-glib/mbim-intel-thermal-rf.h
+libmbim/usr/include/libmbim-glib/mbim-error-types.h
+libmbim/usr/include/libmbim-glib/mbim-fibocom.h
+libmbim/usr/include/libmbim-glib/mbim-ussd.h
+libmbim/usr/include/libmbim-glib/mbim-basic-connect.h
+libmbim/usr/include/libmbim-glib/mbim-ms-voice-extensions.h
+libmbim/usr/include/libmbim-glib/mbim-phonebook.h
+libmbim/usr/include/libmbim-glib/mbim-uuid.h
+libmbim/usr/include/libmbim-glib/mbim-version.h
+libmbim/usr/include/libmbim-glib/mbim-ms-firmware-id.h
+libmbim/usr/include/libmbim-glib/mbim-message.h
+libmbim/usr/include/libmbim-glib/mbim-ms-basic-connect-extensions.h
+libmbim/usr/include/libmbim-glib/mbim-utils.h
+libmbim/usr/include/libmbim-glib/mbim-intel-tools.h
+libmbim/usr/include/libmbim-glib/mbim-stk.h
+libmbim/usr/include/libmbim-glib/libmbim-glib.h
+libmbim/usr/include/libmbim-glib/mbim-compat.h
+libmbim/usr/include/libmbim-glib/mbim-errors.h
+libmbim/usr/include/libmbim-glib/mbim-proxy.h
+libmbim/usr/include/libmbim-glib/mbim-proxy-control.h
+libmbim/usr/include/libmbim-glib/mbim-qdu.h
+libmbim/usr/include/libmbim-glib/mbim-qmi.h
+libmbim/usr/include/libmbim-glib/mbim-intel-at-tunnel.h
+libmbim/usr/include/libmbim-glib/mbim-cid.h
+libmbim/usr/include/libmbim-glib/mbim-google.h
+libmbim/usr/include/libmbim-glib/mbim-tlv.h
+libmbim/usr/share/
+libmbim/usr/share/gir-1.0/
+libmbim/usr/share/gir-1.0/Mbim-1.0.gir
+libmbim/usr/libexec/
+libmbim/usr/libexec/mbim-proxy
+libmbim/usr/bin/
+libmbim/usr/bin/mbim-network
+libmbim/usr/bin/mbimcli
+libmbim/usr/lib/
+libmbim/usr/lib/girepository-1.0/
+libmbim/usr/lib/girepository-1.0/Mbim-1.0.typelib
+libmbim/usr/lib/libmbim-glib.so
+libmbim/usr/lib/pkgconfig/
+libmbim/usr/lib/pkgconfig/mbim-glib.pc
+libmbim/usr/lib/libmbim-glib.so.4
+libmbim/usr/lib/libmbim-glib.so.4.10.0
+libmbim/version
+libmbim/depends
+libmbim/make-depends
