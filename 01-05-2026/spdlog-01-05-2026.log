@@ -1,0 +1,629 @@
+--2026-01-05 08:15:11--  https://github.com/gabime/spdlog/archive/refs/tags/v1.17.0.tar.gz
+Resolving github.com (github.com)... 140.82.112.4
+Connecting to github.com (github.com)|140.82.112.4|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://codeload.github.com/gabime/spdlog/tar.gz/refs/tags/v1.17.0 [following]
+--2026-01-05 08:15:12--  https://codeload.github.com/gabime/spdlog/tar.gz/refs/tags/v1.17.0
+Resolving codeload.github.com (codeload.github.com)... 140.82.112.10
+Connecting to codeload.github.com (codeload.github.com)|140.82.112.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 281801 (275K) [application/x-gzip]
+Saving to: ‘v1.17.0.tar.gz’
+
+     0K .......... .......... .......... .......... .......... 18% 1.98M 0s
+    50K .......... .......... .......... .......... .......... 36% 4.21M 0s
+   100K .......... .......... .......... .......... .......... 54% 9.80M 0s
+   150K .......... .......... .......... .......... .......... 72% 4.19M 0s
+   200K .......... .......... .......... .......... .......... 90% 6.03M 0s
+   250K .......... .......... .....                           100% 18.2M=0.06s
+
+2026-01-05 08:15:12 (4.31 MB/s) - ‘v1.17.0.tar.gz’ saved [281801/281801]
+
+spdlog-1.17.0/
+spdlog-1.17.0/.clang-format
+spdlog-1.17.0/.clang-tidy
+spdlog-1.17.0/.git-blame-ignore-revs
+spdlog-1.17.0/.gitattributes
+spdlog-1.17.0/.github/
+spdlog-1.17.0/.github/workflows/
+spdlog-1.17.0/.github/workflows/coverity_scan.yml
+spdlog-1.17.0/.github/workflows/linux.yml
+spdlog-1.17.0/.github/workflows/macos.yml
+spdlog-1.17.0/.github/workflows/windows.yml
+spdlog-1.17.0/.gitignore
+spdlog-1.17.0/CMakeLists.txt
+spdlog-1.17.0/INSTALL
+spdlog-1.17.0/LICENSE
+spdlog-1.17.0/README.md
+spdlog-1.17.0/appveyor.yml
+spdlog-1.17.0/bench/
+spdlog-1.17.0/bench/CMakeLists.txt
+spdlog-1.17.0/bench/async_bench.cpp
+spdlog-1.17.0/bench/bench.cpp
+spdlog-1.17.0/bench/formatter-bench.cpp
+spdlog-1.17.0/bench/latency.cpp
+spdlog-1.17.0/bench/utils.h
+spdlog-1.17.0/cmake/
+spdlog-1.17.0/cmake/ide.cmake
+spdlog-1.17.0/cmake/pch.h.in
+spdlog-1.17.0/cmake/spdlog.pc.in
+spdlog-1.17.0/cmake/spdlogCPack.cmake
+spdlog-1.17.0/cmake/spdlogConfig.cmake.in
+spdlog-1.17.0/cmake/utils.cmake
+spdlog-1.17.0/cmake/version.rc.in
+spdlog-1.17.0/example/
+spdlog-1.17.0/example/CMakeLists.txt
+spdlog-1.17.0/example/example.cpp
+spdlog-1.17.0/include/
+spdlog-1.17.0/include/spdlog/
+spdlog-1.17.0/include/spdlog/async.h
+spdlog-1.17.0/include/spdlog/async_logger-inl.h
+spdlog-1.17.0/include/spdlog/async_logger.h
+spdlog-1.17.0/include/spdlog/cfg/
+spdlog-1.17.0/include/spdlog/cfg/argv.h
+spdlog-1.17.0/include/spdlog/cfg/env.h
+spdlog-1.17.0/include/spdlog/cfg/helpers-inl.h
+spdlog-1.17.0/include/spdlog/cfg/helpers.h
+spdlog-1.17.0/include/spdlog/common-inl.h
+spdlog-1.17.0/include/spdlog/common.h
+spdlog-1.17.0/include/spdlog/details/
+spdlog-1.17.0/include/spdlog/details/backtracer-inl.h
+spdlog-1.17.0/include/spdlog/details/backtracer.h
+spdlog-1.17.0/include/spdlog/details/circular_q.h
+spdlog-1.17.0/include/spdlog/details/console_globals.h
+spdlog-1.17.0/include/spdlog/details/file_helper-inl.h
+spdlog-1.17.0/include/spdlog/details/file_helper.h
+spdlog-1.17.0/include/spdlog/details/fmt_helper.h
+spdlog-1.17.0/include/spdlog/details/log_msg-inl.h
+spdlog-1.17.0/include/spdlog/details/log_msg.h
+spdlog-1.17.0/include/spdlog/details/log_msg_buffer-inl.h
+spdlog-1.17.0/include/spdlog/details/log_msg_buffer.h
+spdlog-1.17.0/include/spdlog/details/mpmc_blocking_q.h
+spdlog-1.17.0/include/spdlog/details/null_mutex.h
+spdlog-1.17.0/include/spdlog/details/os-inl.h
+spdlog-1.17.0/include/spdlog/details/os.h
+spdlog-1.17.0/include/spdlog/details/periodic_worker-inl.h
+spdlog-1.17.0/include/spdlog/details/periodic_worker.h
+spdlog-1.17.0/include/spdlog/details/registry-inl.h
+spdlog-1.17.0/include/spdlog/details/registry.h
+spdlog-1.17.0/include/spdlog/details/synchronous_factory.h
+spdlog-1.17.0/include/spdlog/details/tcp_client-windows.h
+spdlog-1.17.0/include/spdlog/details/tcp_client.h
+spdlog-1.17.0/include/spdlog/details/thread_pool-inl.h
+spdlog-1.17.0/include/spdlog/details/thread_pool.h
+spdlog-1.17.0/include/spdlog/details/udp_client-windows.h
+spdlog-1.17.0/include/spdlog/details/udp_client.h
+spdlog-1.17.0/include/spdlog/details/windows_include.h
+spdlog-1.17.0/include/spdlog/fmt/
+spdlog-1.17.0/include/spdlog/fmt/bin_to_hex.h
+spdlog-1.17.0/include/spdlog/fmt/bundled/
+spdlog-1.17.0/include/spdlog/fmt/bundled/args.h
+spdlog-1.17.0/include/spdlog/fmt/bundled/base.h
+spdlog-1.17.0/include/spdlog/fmt/bundled/chrono.h
+spdlog-1.17.0/include/spdlog/fmt/bundled/color.h
+spdlog-1.17.0/include/spdlog/fmt/bundled/compile.h
+spdlog-1.17.0/include/spdlog/fmt/bundled/core.h
+spdlog-1.17.0/include/spdlog/fmt/bundled/fmt.license.rst
+spdlog-1.17.0/include/spdlog/fmt/bundled/format-inl.h
+spdlog-1.17.0/include/spdlog/fmt/bundled/format.h
+spdlog-1.17.0/include/spdlog/fmt/bundled/os.h
+spdlog-1.17.0/include/spdlog/fmt/bundled/ostream.h
+spdlog-1.17.0/include/spdlog/fmt/bundled/printf.h
+spdlog-1.17.0/include/spdlog/fmt/bundled/ranges.h
+spdlog-1.17.0/include/spdlog/fmt/bundled/std.h
+spdlog-1.17.0/include/spdlog/fmt/bundled/xchar.h
+spdlog-1.17.0/include/spdlog/fmt/chrono.h
+spdlog-1.17.0/include/spdlog/fmt/compile.h
+spdlog-1.17.0/include/spdlog/fmt/fmt.h
+spdlog-1.17.0/include/spdlog/fmt/ostr.h
+spdlog-1.17.0/include/spdlog/fmt/ranges.h
+spdlog-1.17.0/include/spdlog/fmt/std.h
+spdlog-1.17.0/include/spdlog/fmt/xchar.h
+spdlog-1.17.0/include/spdlog/formatter.h
+spdlog-1.17.0/include/spdlog/fwd.h
+spdlog-1.17.0/include/spdlog/logger-inl.h
+spdlog-1.17.0/include/spdlog/logger.h
+spdlog-1.17.0/include/spdlog/mdc.h
+spdlog-1.17.0/include/spdlog/pattern_formatter-inl.h
+spdlog-1.17.0/include/spdlog/pattern_formatter.h
+spdlog-1.17.0/include/spdlog/sinks/
+spdlog-1.17.0/include/spdlog/sinks/android_sink.h
+spdlog-1.17.0/include/spdlog/sinks/ansicolor_sink-inl.h
+spdlog-1.17.0/include/spdlog/sinks/ansicolor_sink.h
+spdlog-1.17.0/include/spdlog/sinks/base_sink-inl.h
+spdlog-1.17.0/include/spdlog/sinks/base_sink.h
+spdlog-1.17.0/include/spdlog/sinks/basic_file_sink-inl.h
+spdlog-1.17.0/include/spdlog/sinks/basic_file_sink.h
+spdlog-1.17.0/include/spdlog/sinks/callback_sink.h
+spdlog-1.17.0/include/spdlog/sinks/daily_file_sink.h
+spdlog-1.17.0/include/spdlog/sinks/dist_sink.h
+spdlog-1.17.0/include/spdlog/sinks/dup_filter_sink.h
+spdlog-1.17.0/include/spdlog/sinks/hourly_file_sink.h
+spdlog-1.17.0/include/spdlog/sinks/kafka_sink.h
+spdlog-1.17.0/include/spdlog/sinks/mongo_sink.h
+spdlog-1.17.0/include/spdlog/sinks/msvc_sink.h
+spdlog-1.17.0/include/spdlog/sinks/null_sink.h
+spdlog-1.17.0/include/spdlog/sinks/ostream_sink.h
+spdlog-1.17.0/include/spdlog/sinks/qt_sinks.h
+spdlog-1.17.0/include/spdlog/sinks/ringbuffer_sink.h
+spdlog-1.17.0/include/spdlog/sinks/rotating_file_sink-inl.h
+spdlog-1.17.0/include/spdlog/sinks/rotating_file_sink.h
+spdlog-1.17.0/include/spdlog/sinks/sink-inl.h
+spdlog-1.17.0/include/spdlog/sinks/sink.h
+spdlog-1.17.0/include/spdlog/sinks/stdout_color_sinks-inl.h
+spdlog-1.17.0/include/spdlog/sinks/stdout_color_sinks.h
+spdlog-1.17.0/include/spdlog/sinks/stdout_sinks-inl.h
+spdlog-1.17.0/include/spdlog/sinks/stdout_sinks.h
+spdlog-1.17.0/include/spdlog/sinks/syslog_sink.h
+spdlog-1.17.0/include/spdlog/sinks/systemd_sink.h
+spdlog-1.17.0/include/spdlog/sinks/tcp_sink.h
+spdlog-1.17.0/include/spdlog/sinks/udp_sink.h
+spdlog-1.17.0/include/spdlog/sinks/win_eventlog_sink.h
+spdlog-1.17.0/include/spdlog/sinks/wincolor_sink-inl.h
+spdlog-1.17.0/include/spdlog/sinks/wincolor_sink.h
+spdlog-1.17.0/include/spdlog/spdlog-inl.h
+spdlog-1.17.0/include/spdlog/spdlog.h
+spdlog-1.17.0/include/spdlog/stopwatch.h
+spdlog-1.17.0/include/spdlog/tweakme.h
+spdlog-1.17.0/include/spdlog/version.h
+spdlog-1.17.0/logos/
+spdlog-1.17.0/logos/jetbrains-variant-4.svg
+spdlog-1.17.0/logos/spdlog.png
+spdlog-1.17.0/scripts/
+spdlog-1.17.0/scripts/ci_setup_clang.sh
+spdlog-1.17.0/scripts/extract_version.py
+spdlog-1.17.0/scripts/format.sh
+spdlog-1.17.0/src/
+spdlog-1.17.0/src/async.cpp
+spdlog-1.17.0/src/bundled_fmtlib_format.cpp
+spdlog-1.17.0/src/cfg.cpp
+spdlog-1.17.0/src/color_sinks.cpp
+spdlog-1.17.0/src/file_sinks.cpp
+spdlog-1.17.0/src/spdlog.cpp
+spdlog-1.17.0/src/stdout_sinks.cpp
+spdlog-1.17.0/tests/
+spdlog-1.17.0/tests/CMakeLists.txt
+spdlog-1.17.0/tests/includes.h
+spdlog-1.17.0/tests/main.cpp
+spdlog-1.17.0/tests/test_async.cpp
+spdlog-1.17.0/tests/test_backtrace.cpp
+spdlog-1.17.0/tests/test_bin_to_hex.cpp
+spdlog-1.17.0/tests/test_cfg.cpp
+spdlog-1.17.0/tests/test_circular_q.cpp
+spdlog-1.17.0/tests/test_create_dir.cpp
+spdlog-1.17.0/tests/test_custom_callbacks.cpp
+spdlog-1.17.0/tests/test_daily_logger.cpp
+spdlog-1.17.0/tests/test_dup_filter.cpp
+spdlog-1.17.0/tests/test_errors.cpp
+spdlog-1.17.0/tests/test_eventlog.cpp
+spdlog-1.17.0/tests/test_file_helper.cpp
+spdlog-1.17.0/tests/test_file_logging.cpp
+spdlog-1.17.0/tests/test_fmt_helper.cpp
+spdlog-1.17.0/tests/test_macros.cpp
+spdlog-1.17.0/tests/test_misc.cpp
+spdlog-1.17.0/tests/test_mpmc_q.cpp
+spdlog-1.17.0/tests/test_pattern_formatter.cpp
+spdlog-1.17.0/tests/test_registry.cpp
+spdlog-1.17.0/tests/test_ringbuffer.cpp
+spdlog-1.17.0/tests/test_sink.h
+spdlog-1.17.0/tests/test_stdout_api.cpp
+spdlog-1.17.0/tests/test_stopwatch.cpp
+spdlog-1.17.0/tests/test_systemd.cpp
+spdlog-1.17.0/tests/test_time_point.cpp
+spdlog-1.17.0/tests/test_timezone.cpp
+spdlog-1.17.0/tests/utils.cpp
+spdlog-1.17.0/tests/utils.h
+-- The CXX compiler identification is GNU 15.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Build spdlog: 1.17.0
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Build type: Release
+-- Looking for fwrite_unlocked
+-- Looking for fwrite_unlocked - found
+-- Generating example(s)
+-- Generating install
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    INSTALL_LIBDIR
+
+
+-- Build files have been written to: /blfs/builds/spdlog-1.17.0/build
+[ 10%] Building CXX object CMakeFiles/spdlog.dir/src/spdlog.cpp.o
+[ 20%] Building CXX object CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o
+[ 30%] Building CXX object CMakeFiles/spdlog.dir/src/file_sinks.cpp.o
+[ 40%] Building CXX object CMakeFiles/spdlog.dir/src/cfg.cpp.o
+[ 50%] Building CXX object CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o
+[ 60%] Building CXX object CMakeFiles/spdlog.dir/src/color_sinks.cpp.o
+[ 70%] Building CXX object CMakeFiles/spdlog.dir/src/async.cpp.o
+[ 80%] Linking CXX shared library libspdlog.so
+[ 80%] Built target spdlog
+[ 90%] Building CXX object example/CMakeFiles/example.dir/example.cpp.o
+[100%] Linking CXX executable example
+[100%] Built target example
+[ 80%] Built target spdlog
+[100%] Built target example
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /pkgs/spdlog/usr/include
+-- Installing: /pkgs/spdlog/usr/include/spdlog
+-- Installing: /pkgs/spdlog/usr/include/spdlog/version.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/details
+-- Installing: /pkgs/spdlog/usr/include/spdlog/details/udp_client.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/details/periodic_worker.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/details/file_helper-inl.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/details/console_globals.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/details/windows_include.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/details/os.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/details/os-inl.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/details/mpmc_blocking_q.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/details/udp_client-windows.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/details/tcp_client-windows.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/details/log_msg.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/details/thread_pool.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/details/registry.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/details/null_mutex.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/details/fmt_helper.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/details/backtracer.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/details/file_helper.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/details/log_msg_buffer.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/details/registry-inl.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/details/backtracer-inl.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/details/log_msg-inl.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/details/log_msg_buffer-inl.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/details/periodic_worker-inl.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/details/thread_pool-inl.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/details/tcp_client.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/details/circular_q.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/details/synchronous_factory.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/logger.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/async_logger-inl.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/async.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/stopwatch.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/cfg
+-- Installing: /pkgs/spdlog/usr/include/spdlog/cfg/env.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/cfg/argv.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/cfg/helpers.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/cfg/helpers-inl.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/async_logger.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/logger-inl.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/formatter.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/pattern_formatter-inl.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/spdlog-inl.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/common.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/mdc.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/sinks
+-- Installing: /pkgs/spdlog/usr/include/spdlog/sinks/ansicolor_sink-inl.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/sinks/wincolor_sink.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/sinks/basic_file_sink-inl.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/sinks/ringbuffer_sink.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/sinks/wincolor_sink-inl.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/sinks/tcp_sink.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/sinks/sink.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/sinks/null_sink.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/sinks/rotating_file_sink.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/sinks/systemd_sink.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/sinks/base_sink-inl.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/sinks/udp_sink.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/sinks/mongo_sink.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/sinks/ostream_sink.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/sinks/msvc_sink.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/sinks/syslog_sink.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/sinks/daily_file_sink.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/sinks/kafka_sink.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/sinks/android_sink.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/sinks/stdout_sinks-inl.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/sinks/sink-inl.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/sinks/stdout_sinks.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/sinks/stdout_color_sinks.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/sinks/win_eventlog_sink.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/sinks/stdout_color_sinks-inl.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/sinks/callback_sink.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/sinks/basic_file_sink.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/sinks/ansicolor_sink.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/sinks/dist_sink.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/sinks/qt_sinks.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/sinks/hourly_file_sink.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/sinks/dup_filter_sink.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/sinks/base_sink.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/sinks/rotating_file_sink-inl.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/tweakme.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/fwd.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/common-inl.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/spdlog.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/pattern_formatter.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/fmt
+-- Installing: /pkgs/spdlog/usr/include/spdlog/fmt/xchar.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/fmt/ostr.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/fmt/std.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/fmt/bin_to_hex.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/fmt/compile.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/fmt/ranges.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/fmt/chrono.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/fmt/fmt.h
+-- Installing: /pkgs/spdlog/usr/lib/libspdlog.so.1.17.0
+-- Installing: /pkgs/spdlog/usr/lib/libspdlog.so.1.17
+-- Installing: /pkgs/spdlog/usr/lib/libspdlog.so
+-- Installing: /pkgs/spdlog/usr/include/spdlog/fmt/bundled/
+-- Installing: /pkgs/spdlog/usr/include/spdlog/fmt/bundled//os.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/fmt/bundled//args.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/fmt/bundled//xchar.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/fmt/bundled//std.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/fmt/bundled//base.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/fmt/bundled//compile.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/fmt/bundled//fmt.license.rst
+-- Installing: /pkgs/spdlog/usr/include/spdlog/fmt/bundled//ranges.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/fmt/bundled//ostream.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/fmt/bundled//format.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/fmt/bundled//color.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/fmt/bundled//core.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/fmt/bundled//chrono.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/fmt/bundled//printf.h
+-- Installing: /pkgs/spdlog/usr/include/spdlog/fmt/bundled//format-inl.h
+-- Installing: /pkgs/spdlog/usr/lib/pkgconfig/spdlog.pc
+-- Installing: /pkgs/spdlog/usr/lib/cmake/spdlog/spdlogConfigTargets.cmake
+-- Installing: /pkgs/spdlog/usr/lib/cmake/spdlog/spdlogConfigTargets-release.cmake
+-- Installing: /pkgs/spdlog/usr/lib/cmake/spdlog/spdlogConfig.cmake
+-- Installing: /pkgs/spdlog/usr/lib/cmake/spdlog/spdlogConfigVersion.cmake
+[ 80%] Built target spdlog
+[100%] Built target example
+Install the project...
+-- Install configuration: "Release"
+-- Up-to-date: /usr/include
+-- Up-to-date: /usr/include/spdlog
+-- Installing: /usr/include/spdlog/version.h
+-- Up-to-date: /usr/include/spdlog/details
+-- Installing: /usr/include/spdlog/details/udp_client.h
+-- Installing: /usr/include/spdlog/details/periodic_worker.h
+-- Installing: /usr/include/spdlog/details/file_helper-inl.h
+-- Installing: /usr/include/spdlog/details/console_globals.h
+-- Installing: /usr/include/spdlog/details/windows_include.h
+-- Installing: /usr/include/spdlog/details/os.h
+-- Installing: /usr/include/spdlog/details/os-inl.h
+-- Installing: /usr/include/spdlog/details/mpmc_blocking_q.h
+-- Installing: /usr/include/spdlog/details/udp_client-windows.h
+-- Installing: /usr/include/spdlog/details/tcp_client-windows.h
+-- Installing: /usr/include/spdlog/details/log_msg.h
+-- Installing: /usr/include/spdlog/details/thread_pool.h
+-- Installing: /usr/include/spdlog/details/registry.h
+-- Installing: /usr/include/spdlog/details/null_mutex.h
+-- Installing: /usr/include/spdlog/details/fmt_helper.h
+-- Installing: /usr/include/spdlog/details/backtracer.h
+-- Installing: /usr/include/spdlog/details/file_helper.h
+-- Installing: /usr/include/spdlog/details/log_msg_buffer.h
+-- Installing: /usr/include/spdlog/details/registry-inl.h
+-- Installing: /usr/include/spdlog/details/backtracer-inl.h
+-- Installing: /usr/include/spdlog/details/log_msg-inl.h
+-- Installing: /usr/include/spdlog/details/log_msg_buffer-inl.h
+-- Installing: /usr/include/spdlog/details/periodic_worker-inl.h
+-- Installing: /usr/include/spdlog/details/thread_pool-inl.h
+-- Installing: /usr/include/spdlog/details/tcp_client.h
+-- Installing: /usr/include/spdlog/details/circular_q.h
+-- Installing: /usr/include/spdlog/details/synchronous_factory.h
+-- Installing: /usr/include/spdlog/logger.h
+-- Installing: /usr/include/spdlog/async_logger-inl.h
+-- Installing: /usr/include/spdlog/async.h
+-- Installing: /usr/include/spdlog/stopwatch.h
+-- Up-to-date: /usr/include/spdlog/cfg
+-- Installing: /usr/include/spdlog/cfg/env.h
+-- Installing: /usr/include/spdlog/cfg/argv.h
+-- Installing: /usr/include/spdlog/cfg/helpers.h
+-- Installing: /usr/include/spdlog/cfg/helpers-inl.h
+-- Installing: /usr/include/spdlog/async_logger.h
+-- Installing: /usr/include/spdlog/logger-inl.h
+-- Installing: /usr/include/spdlog/formatter.h
+-- Installing: /usr/include/spdlog/pattern_formatter-inl.h
+-- Installing: /usr/include/spdlog/spdlog-inl.h
+-- Installing: /usr/include/spdlog/common.h
+-- Installing: /usr/include/spdlog/mdc.h
+-- Up-to-date: /usr/include/spdlog/sinks
+-- Installing: /usr/include/spdlog/sinks/ansicolor_sink-inl.h
+-- Installing: /usr/include/spdlog/sinks/wincolor_sink.h
+-- Installing: /usr/include/spdlog/sinks/basic_file_sink-inl.h
+-- Installing: /usr/include/spdlog/sinks/ringbuffer_sink.h
+-- Installing: /usr/include/spdlog/sinks/wincolor_sink-inl.h
+-- Installing: /usr/include/spdlog/sinks/tcp_sink.h
+-- Installing: /usr/include/spdlog/sinks/sink.h
+-- Installing: /usr/include/spdlog/sinks/null_sink.h
+-- Installing: /usr/include/spdlog/sinks/rotating_file_sink.h
+-- Installing: /usr/include/spdlog/sinks/systemd_sink.h
+-- Installing: /usr/include/spdlog/sinks/base_sink-inl.h
+-- Installing: /usr/include/spdlog/sinks/udp_sink.h
+-- Installing: /usr/include/spdlog/sinks/mongo_sink.h
+-- Installing: /usr/include/spdlog/sinks/ostream_sink.h
+-- Installing: /usr/include/spdlog/sinks/msvc_sink.h
+-- Installing: /usr/include/spdlog/sinks/syslog_sink.h
+-- Installing: /usr/include/spdlog/sinks/daily_file_sink.h
+-- Installing: /usr/include/spdlog/sinks/kafka_sink.h
+-- Installing: /usr/include/spdlog/sinks/android_sink.h
+-- Installing: /usr/include/spdlog/sinks/stdout_sinks-inl.h
+-- Installing: /usr/include/spdlog/sinks/sink-inl.h
+-- Installing: /usr/include/spdlog/sinks/stdout_sinks.h
+-- Installing: /usr/include/spdlog/sinks/stdout_color_sinks.h
+-- Installing: /usr/include/spdlog/sinks/win_eventlog_sink.h
+-- Installing: /usr/include/spdlog/sinks/stdout_color_sinks-inl.h
+-- Installing: /usr/include/spdlog/sinks/callback_sink.h
+-- Installing: /usr/include/spdlog/sinks/basic_file_sink.h
+-- Installing: /usr/include/spdlog/sinks/ansicolor_sink.h
+-- Installing: /usr/include/spdlog/sinks/dist_sink.h
+-- Installing: /usr/include/spdlog/sinks/qt_sinks.h
+-- Installing: /usr/include/spdlog/sinks/hourly_file_sink.h
+-- Installing: /usr/include/spdlog/sinks/dup_filter_sink.h
+-- Installing: /usr/include/spdlog/sinks/base_sink.h
+-- Installing: /usr/include/spdlog/sinks/rotating_file_sink-inl.h
+-- Installing: /usr/include/spdlog/tweakme.h
+-- Installing: /usr/include/spdlog/fwd.h
+-- Installing: /usr/include/spdlog/common-inl.h
+-- Installing: /usr/include/spdlog/spdlog.h
+-- Installing: /usr/include/spdlog/pattern_formatter.h
+-- Up-to-date: /usr/include/spdlog/fmt
+-- Installing: /usr/include/spdlog/fmt/xchar.h
+-- Installing: /usr/include/spdlog/fmt/ostr.h
+-- Installing: /usr/include/spdlog/fmt/std.h
+-- Installing: /usr/include/spdlog/fmt/bin_to_hex.h
+-- Installing: /usr/include/spdlog/fmt/compile.h
+-- Installing: /usr/include/spdlog/fmt/ranges.h
+-- Installing: /usr/include/spdlog/fmt/chrono.h
+-- Installing: /usr/include/spdlog/fmt/fmt.h
+-- Installing: /usr/lib/libspdlog.so.1.17.0
+-- Installing: /usr/lib/libspdlog.so.1.17
+-- Installing: /usr/lib/libspdlog.so
+-- Up-to-date: /usr/include/spdlog/fmt/bundled/
+-- Installing: /usr/include/spdlog/fmt/bundled//os.h
+-- Installing: /usr/include/spdlog/fmt/bundled//args.h
+-- Installing: /usr/include/spdlog/fmt/bundled//xchar.h
+-- Installing: /usr/include/spdlog/fmt/bundled//std.h
+-- Installing: /usr/include/spdlog/fmt/bundled//base.h
+-- Installing: /usr/include/spdlog/fmt/bundled//compile.h
+-- Installing: /usr/include/spdlog/fmt/bundled//fmt.license.rst
+-- Installing: /usr/include/spdlog/fmt/bundled//ranges.h
+-- Installing: /usr/include/spdlog/fmt/bundled//ostream.h
+-- Installing: /usr/include/spdlog/fmt/bundled//format.h
+-- Installing: /usr/include/spdlog/fmt/bundled//color.h
+-- Installing: /usr/include/spdlog/fmt/bundled//core.h
+-- Installing: /usr/include/spdlog/fmt/bundled//chrono.h
+-- Installing: /usr/include/spdlog/fmt/bundled//printf.h
+-- Installing: /usr/include/spdlog/fmt/bundled//format-inl.h
+-- Installing: /usr/lib/pkgconfig/spdlog.pc
+-- Old export file "/usr/lib/cmake/spdlog/spdlogConfigTargets.cmake" will be replaced.  Removing files [/usr/lib/cmake/spdlog/spdlogConfigTargets-release.cmake].
+-- Installing: /usr/lib/cmake/spdlog/spdlogConfigTargets.cmake
+-- Installing: /usr/lib/cmake/spdlog/spdlogConfigTargets-release.cmake
+-- Installing: /usr/lib/cmake/spdlog/spdlogConfig.cmake
+-- Installing: /usr/lib/cmake/spdlog/spdlogConfigVersion.cmake
+spdlog/
+spdlog/usr/
+spdlog/usr/include/
+spdlog/usr/include/spdlog/
+spdlog/usr/include/spdlog/version.h
+spdlog/usr/include/spdlog/details/
+spdlog/usr/include/spdlog/details/udp_client.h
+spdlog/usr/include/spdlog/details/periodic_worker.h
+spdlog/usr/include/spdlog/details/file_helper-inl.h
+spdlog/usr/include/spdlog/details/console_globals.h
+spdlog/usr/include/spdlog/details/windows_include.h
+spdlog/usr/include/spdlog/details/os.h
+spdlog/usr/include/spdlog/details/os-inl.h
+spdlog/usr/include/spdlog/details/mpmc_blocking_q.h
+spdlog/usr/include/spdlog/details/udp_client-windows.h
+spdlog/usr/include/spdlog/details/tcp_client-windows.h
+spdlog/usr/include/spdlog/details/log_msg.h
+spdlog/usr/include/spdlog/details/thread_pool.h
+spdlog/usr/include/spdlog/details/registry.h
+spdlog/usr/include/spdlog/details/null_mutex.h
+spdlog/usr/include/spdlog/details/fmt_helper.h
+spdlog/usr/include/spdlog/details/backtracer.h
+spdlog/usr/include/spdlog/details/file_helper.h
+spdlog/usr/include/spdlog/details/log_msg_buffer.h
+spdlog/usr/include/spdlog/details/registry-inl.h
+spdlog/usr/include/spdlog/details/backtracer-inl.h
+spdlog/usr/include/spdlog/details/log_msg-inl.h
+spdlog/usr/include/spdlog/details/log_msg_buffer-inl.h
+spdlog/usr/include/spdlog/details/periodic_worker-inl.h
+spdlog/usr/include/spdlog/details/thread_pool-inl.h
+spdlog/usr/include/spdlog/details/tcp_client.h
+spdlog/usr/include/spdlog/details/circular_q.h
+spdlog/usr/include/spdlog/details/synchronous_factory.h
+spdlog/usr/include/spdlog/logger.h
+spdlog/usr/include/spdlog/async_logger-inl.h
+spdlog/usr/include/spdlog/async.h
+spdlog/usr/include/spdlog/stopwatch.h
+spdlog/usr/include/spdlog/cfg/
+spdlog/usr/include/spdlog/cfg/env.h
+spdlog/usr/include/spdlog/cfg/argv.h
+spdlog/usr/include/spdlog/cfg/helpers.h
+spdlog/usr/include/spdlog/cfg/helpers-inl.h
+spdlog/usr/include/spdlog/async_logger.h
+spdlog/usr/include/spdlog/logger-inl.h
+spdlog/usr/include/spdlog/formatter.h
+spdlog/usr/include/spdlog/pattern_formatter-inl.h
+spdlog/usr/include/spdlog/spdlog-inl.h
+spdlog/usr/include/spdlog/common.h
+spdlog/usr/include/spdlog/mdc.h
+spdlog/usr/include/spdlog/sinks/
+spdlog/usr/include/spdlog/sinks/ansicolor_sink-inl.h
+spdlog/usr/include/spdlog/sinks/wincolor_sink.h
+spdlog/usr/include/spdlog/sinks/basic_file_sink-inl.h
+spdlog/usr/include/spdlog/sinks/ringbuffer_sink.h
+spdlog/usr/include/spdlog/sinks/wincolor_sink-inl.h
+spdlog/usr/include/spdlog/sinks/tcp_sink.h
+spdlog/usr/include/spdlog/sinks/sink.h
+spdlog/usr/include/spdlog/sinks/null_sink.h
+spdlog/usr/include/spdlog/sinks/rotating_file_sink.h
+spdlog/usr/include/spdlog/sinks/systemd_sink.h
+spdlog/usr/include/spdlog/sinks/base_sink-inl.h
+spdlog/usr/include/spdlog/sinks/udp_sink.h
+spdlog/usr/include/spdlog/sinks/mongo_sink.h
+spdlog/usr/include/spdlog/sinks/ostream_sink.h
+spdlog/usr/include/spdlog/sinks/msvc_sink.h
+spdlog/usr/include/spdlog/sinks/syslog_sink.h
+spdlog/usr/include/spdlog/sinks/daily_file_sink.h
+spdlog/usr/include/spdlog/sinks/kafka_sink.h
+spdlog/usr/include/spdlog/sinks/android_sink.h
+spdlog/usr/include/spdlog/sinks/stdout_sinks-inl.h
+spdlog/usr/include/spdlog/sinks/sink-inl.h
+spdlog/usr/include/spdlog/sinks/stdout_sinks.h
+spdlog/usr/include/spdlog/sinks/stdout_color_sinks.h
+spdlog/usr/include/spdlog/sinks/win_eventlog_sink.h
+spdlog/usr/include/spdlog/sinks/stdout_color_sinks-inl.h
+spdlog/usr/include/spdlog/sinks/callback_sink.h
+spdlog/usr/include/spdlog/sinks/basic_file_sink.h
+spdlog/usr/include/spdlog/sinks/ansicolor_sink.h
+spdlog/usr/include/spdlog/sinks/dist_sink.h
+spdlog/usr/include/spdlog/sinks/qt_sinks.h
+spdlog/usr/include/spdlog/sinks/hourly_file_sink.h
+spdlog/usr/include/spdlog/sinks/dup_filter_sink.h
+spdlog/usr/include/spdlog/sinks/base_sink.h
+spdlog/usr/include/spdlog/sinks/rotating_file_sink-inl.h
+spdlog/usr/include/spdlog/tweakme.h
+spdlog/usr/include/spdlog/fwd.h
+spdlog/usr/include/spdlog/common-inl.h
+spdlog/usr/include/spdlog/spdlog.h
+spdlog/usr/include/spdlog/pattern_formatter.h
+spdlog/usr/include/spdlog/fmt/
+spdlog/usr/include/spdlog/fmt/xchar.h
+spdlog/usr/include/spdlog/fmt/ostr.h
+spdlog/usr/include/spdlog/fmt/std.h
+spdlog/usr/include/spdlog/fmt/bin_to_hex.h
+spdlog/usr/include/spdlog/fmt/compile.h
+spdlog/usr/include/spdlog/fmt/ranges.h
+spdlog/usr/include/spdlog/fmt/bundled/
+spdlog/usr/include/spdlog/fmt/bundled/os.h
+spdlog/usr/include/spdlog/fmt/bundled/args.h
+spdlog/usr/include/spdlog/fmt/bundled/xchar.h
+spdlog/usr/include/spdlog/fmt/bundled/std.h
+spdlog/usr/include/spdlog/fmt/bundled/base.h
+spdlog/usr/include/spdlog/fmt/bundled/compile.h
+spdlog/usr/include/spdlog/fmt/bundled/fmt.license.rst
+spdlog/usr/include/spdlog/fmt/bundled/ranges.h
+spdlog/usr/include/spdlog/fmt/bundled/ostream.h
+spdlog/usr/include/spdlog/fmt/bundled/format.h
+spdlog/usr/include/spdlog/fmt/bundled/color.h
+spdlog/usr/include/spdlog/fmt/bundled/core.h
+spdlog/usr/include/spdlog/fmt/bundled/chrono.h
+spdlog/usr/include/spdlog/fmt/bundled/printf.h
+spdlog/usr/include/spdlog/fmt/bundled/format-inl.h
+spdlog/usr/include/spdlog/fmt/chrono.h
+spdlog/usr/include/spdlog/fmt/fmt.h
+spdlog/usr/lib/
+spdlog/usr/lib/libspdlog.so.1.17
+spdlog/usr/lib/libspdlog.so
+spdlog/usr/lib/libspdlog.so.1.17.0
+spdlog/usr/lib/pkgconfig/
+spdlog/usr/lib/pkgconfig/spdlog.pc
+spdlog/usr/lib/cmake/
+spdlog/usr/lib/cmake/spdlog/
+spdlog/usr/lib/cmake/spdlog/spdlogConfigVersion.cmake
+spdlog/usr/lib/cmake/spdlog/spdlogConfig.cmake
+spdlog/usr/lib/cmake/spdlog/spdlogConfigTargets.cmake
+spdlog/usr/lib/cmake/spdlog/spdlogConfigTargets-release.cmake
+spdlog/version
+spdlog/depends
+spdlog/make-depends
