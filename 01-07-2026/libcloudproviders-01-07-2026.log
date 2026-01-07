@@ -1,0 +1,198 @@
+--2026-01-07 08:24:04--  https://download.gnome.org/sources/libcloudproviders/0.4/libcloudproviders-0.4.0.tar.xz
+Resolving download.gnome.org (download.gnome.org)... 79.127.206.208, 79.127.206.235, 2a02:6ea0:c400::53, ...
+Connecting to download.gnome.org (download.gnome.org)|79.127.206.208|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 23580 (23K) [application/octet-stream]
+Saving to: ‘libcloudproviders-0.4.0.tar.xz’
+
+     0K .......... .......... ...                             100% 4.73M=0.005s
+
+2026-01-07 08:24:04 (4.73 MB/s) - ‘libcloudproviders-0.4.0.tar.xz’ saved [23580/23580]
+
+libcloudproviders-0.4.0/
+libcloudproviders-0.4.0/.editorconfig
+libcloudproviders-0.4.0/.gitignore
+libcloudproviders-0.4.0/.gitlab-ci.yml
+libcloudproviders-0.4.0/CHANGELOG
+libcloudproviders-0.4.0/LICENSE
+libcloudproviders-0.4.0/README.md
+libcloudproviders-0.4.0/data/
+libcloudproviders-0.4.0/data/cloud-providers-dbus.xml
+libcloudproviders-0.4.0/docs/
+libcloudproviders-0.4.0/docs/cloudproviders-dbus.md
+libcloudproviders-0.4.0/docs/integration-client.md
+libcloudproviders-0.4.0/docs/integration-server.md
+libcloudproviders-0.4.0/docs/libcloudproviders.toml.in
+libcloudproviders-0.4.0/docs/meson.build
+libcloudproviders-0.4.0/docs/overview.md
+libcloudproviders-0.4.0/docs/urlmap.js
+libcloudproviders-0.4.0/libcloudproviders.doap
+libcloudproviders-0.4.0/meson.build
+libcloudproviders-0.4.0/meson_options.txt
+libcloudproviders-0.4.0/src/
+libcloudproviders-0.4.0/src/cloudproviders.h
+libcloudproviders-0.4.0/src/cloudprovidersaccount.c
+libcloudproviders-0.4.0/src/cloudprovidersaccount.h
+libcloudproviders-0.4.0/src/cloudprovidersaccountexporter.c
+libcloudproviders-0.4.0/src/cloudprovidersaccountexporter.h
+libcloudproviders-0.4.0/src/cloudprovidersaccountexporterpriv.h
+libcloudproviders-0.4.0/src/cloudproviderscollector.c
+libcloudproviders-0.4.0/src/cloudproviderscollector.h
+libcloudproviders-0.4.0/src/cloudprovidersprovider.c
+libcloudproviders-0.4.0/src/cloudprovidersprovider.h
+libcloudproviders-0.4.0/src/cloudprovidersproviderexporter.c
+libcloudproviders-0.4.0/src/cloudprovidersproviderexporter.h
+libcloudproviders-0.4.0/src/cloudprovidersproviderexporterpriv.h
+libcloudproviders-0.4.0/src/meson.build
+libcloudproviders-0.4.0/test/
+libcloudproviders-0.4.0/test/icon.svg
+libcloudproviders-0.4.0/test/meson.build
+libcloudproviders-0.4.0/test/org.freedesktop.CloudProviders.ServerExample.desktop
+libcloudproviders-0.4.0/test/org.freedesktop.CloudProviders.ServerExample.ini
+libcloudproviders-0.4.0/test/org.freedesktop.CloudProviders.ServerExample.service.in
+libcloudproviders-0.4.0/test/testcloudprovidersclient.c
+libcloudproviders-0.4.0/test/testcloudprovidersserver.c
+The Meson build system
+Version: 1.10.0
+Source dir: /blfs/builds/libcloudproviders-0.4.0
+Build dir: /blfs/builds/libcloudproviders-0.4.0/build
+Build type: native build
+Project name: libcloudproviders
+Project version: 0.4.0
+C compiler for the host machine: cc (gcc 15.2.0 "cc (GCC) 15.2.0")
+C linker for the host machine: cc ld.bfd 2.45
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Compiler for C supports arguments -Wno-unused-parameter: YES 
+Compiler for C supports arguments -Wno-missing-field-initializers: YES 
+Compiler for C supports arguments -Wstrict-prototypes: YES 
+Compiler for C supports arguments -Wmissing-prototypes: YES 
+Compiler for C supports arguments -Werror=implicit-function-declaration: YES 
+Compiler for C supports arguments -Werror=pointer-arith: YES 
+Compiler for C supports arguments -Werror=init-self: YES 
+Compiler for C supports arguments -Werror=format-security -Werror=format=1: YES 
+Compiler for C supports arguments -Werror=date-time: YES 
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Run-time dependency glib-2.0 found: YES 2.86.3
+Run-time dependency gio-2.0 found: YES 2.86.3
+Run-time dependency gio-unix-2.0 found: YES 2.86.3
+Dependency glib-2.0 found: YES 2.86.3 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Dependency glib-2.0 found: YES 2.86.3 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Dependency gio-2.0 found: YES 2.86.3 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Run-time dependency gobject-introspection-1.0 found: YES 1.86.0
+Dependency gobject-introspection-1.0 found: YES 1.86.0 (cached)
+Program /usr/bin/g-ir-scanner found: YES (/usr/bin/g-ir-scanner)
+Dependency gobject-introspection-1.0 found: YES 1.86.0 (cached)
+Program /usr/bin/g-ir-compiler found: YES (/usr/bin/g-ir-compiler)
+Program vapigen found: YES (/usr/bin/vapigen)
+Program vapigen found: YES (/usr/bin/vapigen)
+Build targets in project: 11
+
+libcloudproviders 0.4.0
+
+  Directories
+    bindir         : bin
+    libdir         : lib
+    libexecdir     : libexec
+    datadir        : share
+    includedir     : include
+
+  Configuration
+    Introspection  : true
+    Vala bindings  : true
+    Documentation  : false
+    Installed tests: false
+
+  User defined options
+    buildtype      : release
+    prefix         : /usr
+
+Found ninja-1.13.2 at /usr/bin/ninja
+[1/21] Generating gdbus markdown src/cloudproviders-generated-markdown
+[2/21] Generating gdbus header src/cloudproviders-generated.h
+[3/21] Generating gdbus source src/cloudproviders-generated.c
+[4/21] Generating GObject enum file src/enums.c (wrapped by meson because command contains newlines, to capture output)
+[5/21] Generating GObject enum file src/enums.h (wrapped by meson because command contains newlines, to capture output)
+[6/21] Compiling C object test/testcloudprovidersserver.p/testcloudprovidersserver.c.o
+[7/21] Compiling C object test/testcloudprovidersclient.p/testcloudprovidersclient.c.o
+[8/21] Compiling C object src/libcloudproviders.so.0.4.0.p/meson-generated_.._enums.c.o
+[9/21] Compiling C object src/libcloudproviders.so.0.4.0.p/cloudprovidersproviderexporter.c.o
+[10/21] Compiling C object src/libcloudproviders.so.0.4.0.p/cloudprovidersprovider.c.o
+[11/21] Compiling C object src/libcloudproviders.so.0.4.0.p/cloudprovidersaccountexporter.c.o
+[12/21] Compiling C object src/libcloudproviders.so.0.4.0.p/cloudproviderscollector.c.o
+[13/21] Compiling C object src/libcloudproviders.so.0.4.0.p/cloudprovidersaccount.c.o
+[14/21] Compiling C object src/libcloudproviders.so.0.4.0.p/meson-generated_.._cloudproviders-generated.c.o
+[15/21] Linking target src/libcloudproviders.so.0.4.0
+[16/21] Generating symbol file src/libcloudproviders.so.0.4.0.p/libcloudproviders.so.0.4.0.symbols
+[17/21] Linking target test/testcloudprovidersserver
+[18/21] Linking target test/testcloudprovidersclient
+[19/21] Generating src/CloudProviders-0.3.gir with a custom command (wrapped by meson to set env)
+[20/21] Generating src/CloudProviders-0.3.typelib with a custom command
+[21/21] Generating src/cloudproviders.vapi with a custom command
+[1/2] Generating gdbus markdown src/cloudproviders-generated-markdown
+[1/2] Installing files
+Installing src/enums.h to /usr/include/cloudproviders
+Installing src/libcloudproviders.so.0.4.0 to /usr/lib
+Installing src/CloudProviders-0.3.gir to /usr/share/gir-1.0
+Installing src/CloudProviders-0.3.typelib to /usr/lib/girepository-1.0
+Installing src/cloudproviders.vapi to /usr/share/vala/vapi
+Installing /blfs/builds/libcloudproviders-0.4.0/src/cloudproviders.h to /usr/include/cloudproviders
+Installing /blfs/builds/libcloudproviders-0.4.0/src/cloudproviderscollector.h to /usr/include/cloudproviders
+Installing /blfs/builds/libcloudproviders-0.4.0/src/cloudprovidersaccount.h to /usr/include/cloudproviders
+Installing /blfs/builds/libcloudproviders-0.4.0/src/cloudprovidersaccountexporter.h to /usr/include/cloudproviders
+Installing /blfs/builds/libcloudproviders-0.4.0/src/cloudprovidersprovider.h to /usr/include/cloudproviders
+Installing /blfs/builds/libcloudproviders-0.4.0/src/cloudprovidersproviderexporter.h to /usr/include/cloudproviders
+Installing /blfs/builds/libcloudproviders-0.4.0/build/meson-private/cloudproviders.pc to /usr/lib/pkgconfig
+Installing /blfs/builds/libcloudproviders-0.4.0/build/meson-private/cloudproviders.deps to /usr/share/vala/vapi
+Installing symlink pointing to libcloudproviders.so.0.4.0 to /usr/lib/libcloudproviders.so.0
+Installing symlink pointing to libcloudproviders.so.0 to /usr/lib/libcloudproviders.so
+[1/2] Generating gdbus markdown src/cloudproviders-generated-markdown
+[1/2] Installing files
+Installing src/enums.h to /pkgs/libcloudproviders/usr/include/cloudproviders
+Installing src/libcloudproviders.so.0.4.0 to /pkgs/libcloudproviders/usr/lib
+Installing src/CloudProviders-0.3.gir to /pkgs/libcloudproviders/usr/share/gir-1.0
+Installing src/CloudProviders-0.3.typelib to /pkgs/libcloudproviders/usr/lib/girepository-1.0
+Installing src/cloudproviders.vapi to /pkgs/libcloudproviders/usr/share/vala/vapi
+Installing /blfs/builds/libcloudproviders-0.4.0/src/cloudproviders.h to /pkgs/libcloudproviders/usr/include/cloudproviders
+Installing /blfs/builds/libcloudproviders-0.4.0/src/cloudproviderscollector.h to /pkgs/libcloudproviders/usr/include/cloudproviders
+Installing /blfs/builds/libcloudproviders-0.4.0/src/cloudprovidersaccount.h to /pkgs/libcloudproviders/usr/include/cloudproviders
+Installing /blfs/builds/libcloudproviders-0.4.0/src/cloudprovidersaccountexporter.h to /pkgs/libcloudproviders/usr/include/cloudproviders
+Installing /blfs/builds/libcloudproviders-0.4.0/src/cloudprovidersprovider.h to /pkgs/libcloudproviders/usr/include/cloudproviders
+Installing /blfs/builds/libcloudproviders-0.4.0/src/cloudprovidersproviderexporter.h to /pkgs/libcloudproviders/usr/include/cloudproviders
+Installing /blfs/builds/libcloudproviders-0.4.0/build/meson-private/cloudproviders.pc to /pkgs/libcloudproviders/usr/lib/pkgconfig
+Installing /blfs/builds/libcloudproviders-0.4.0/build/meson-private/cloudproviders.deps to /pkgs/libcloudproviders/usr/share/vala/vapi
+Installing symlink pointing to libcloudproviders.so.0.4.0 to /pkgs/libcloudproviders/usr/lib/libcloudproviders.so.0
+Installing symlink pointing to libcloudproviders.so.0 to /pkgs/libcloudproviders/usr/lib/libcloudproviders.so
+libcloudproviders/
+libcloudproviders/usr/
+libcloudproviders/usr/include/
+libcloudproviders/usr/include/cloudproviders/
+libcloudproviders/usr/include/cloudproviders/cloudprovidersaccount.h
+libcloudproviders/usr/include/cloudproviders/cloudprovidersaccountexporter.h
+libcloudproviders/usr/include/cloudproviders/cloudproviderscollector.h
+libcloudproviders/usr/include/cloudproviders/cloudproviders.h
+libcloudproviders/usr/include/cloudproviders/enums.h
+libcloudproviders/usr/include/cloudproviders/cloudprovidersprovider.h
+libcloudproviders/usr/include/cloudproviders/cloudprovidersproviderexporter.h
+libcloudproviders/usr/share/
+libcloudproviders/usr/share/vala/
+libcloudproviders/usr/share/vala/vapi/
+libcloudproviders/usr/share/vala/vapi/cloudproviders.vapi
+libcloudproviders/usr/share/vala/vapi/cloudproviders.deps
+libcloudproviders/usr/share/gir-1.0/
+libcloudproviders/usr/share/gir-1.0/CloudProviders-0.3.gir
+libcloudproviders/usr/lib/
+libcloudproviders/usr/lib/libcloudproviders.so
+libcloudproviders/usr/lib/girepository-1.0/
+libcloudproviders/usr/lib/girepository-1.0/CloudProviders-0.3.typelib
+libcloudproviders/usr/lib/libcloudproviders.so.0.4.0
+libcloudproviders/usr/lib/libcloudproviders.so.0
+libcloudproviders/usr/lib/pkgconfig/
+libcloudproviders/usr/lib/pkgconfig/cloudproviders.pc
+libcloudproviders/version
+libcloudproviders/postinst
+libcloudproviders/depends

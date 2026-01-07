@@ -1,0 +1,212 @@
+--2026-01-07 08:26:02--  https://github.com/bugaevc/wl-clipboard/archive/refs/tags/v2.2.1.tar.gz
+Resolving github.com (github.com)... 140.82.113.3
+Connecting to github.com (github.com)|140.82.113.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://codeload.github.com/bugaevc/wl-clipboard/tar.gz/refs/tags/v2.2.1 [following]
+--2026-01-07 08:26:02--  https://codeload.github.com/bugaevc/wl-clipboard/tar.gz/refs/tags/v2.2.1
+Resolving codeload.github.com (codeload.github.com)... 140.82.113.10
+Connecting to codeload.github.com (codeload.github.com)|140.82.113.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/x-gzip]
+Saving to: ‘v2.2.1.tar.gz’
+
+     0K .......... .......... .......... .......... ........   1.93M=0.02s
+
+2026-01-07 08:26:02 (1.93 MB/s) - ‘v2.2.1.tar.gz’ saved [49421]
+
+wl-clipboard-2.2.1/
+wl-clipboard-2.2.1/.editorconfig
+wl-clipboard-2.2.1/.gitignore
+wl-clipboard-2.2.1/BUILDING.md
+wl-clipboard-2.2.1/COPYING
+wl-clipboard-2.2.1/README.md
+wl-clipboard-2.2.1/completions/
+wl-clipboard-2.2.1/completions/bash/
+wl-clipboard-2.2.1/completions/bash/meson.build
+wl-clipboard-2.2.1/completions/bash/wl-copy
+wl-clipboard-2.2.1/completions/bash/wl-paste
+wl-clipboard-2.2.1/completions/fish/
+wl-clipboard-2.2.1/completions/fish/meson.build
+wl-clipboard-2.2.1/completions/fish/wl-copy.fish
+wl-clipboard-2.2.1/completions/fish/wl-paste.fish
+wl-clipboard-2.2.1/completions/meson.build
+wl-clipboard-2.2.1/completions/zsh/
+wl-clipboard-2.2.1/completions/zsh/_wl-copy
+wl-clipboard-2.2.1/completions/zsh/_wl-paste
+wl-clipboard-2.2.1/completions/zsh/meson.build
+wl-clipboard-2.2.1/data/
+wl-clipboard-2.2.1/data/meson.build
+wl-clipboard-2.2.1/data/wl-clipboard.1
+wl-clipboard-2.2.1/data/wl-copy.1
+wl-clipboard-2.2.1/data/wl-paste.1
+wl-clipboard-2.2.1/meson.build
+wl-clipboard-2.2.1/meson_options.txt
+wl-clipboard-2.2.1/src/
+wl-clipboard-2.2.1/src/includes/
+wl-clipboard-2.2.1/src/includes/selection-protocols.h
+wl-clipboard-2.2.1/src/includes/shell-protocols.h
+wl-clipboard-2.2.1/src/meson.build
+wl-clipboard-2.2.1/src/protocol/
+wl-clipboard-2.2.1/src/protocol/gtk-primary-selection.xml
+wl-clipboard-2.2.1/src/protocol/gtk-shell.xml
+wl-clipboard-2.2.1/src/protocol/meson.build
+wl-clipboard-2.2.1/src/protocol/wlr-data-control-unstable-v1.xml
+wl-clipboard-2.2.1/src/types/
+wl-clipboard-2.2.1/src/types/copy-action.c
+wl-clipboard-2.2.1/src/types/copy-action.h
+wl-clipboard-2.2.1/src/types/device-manager.c
+wl-clipboard-2.2.1/src/types/device-manager.h
+wl-clipboard-2.2.1/src/types/device.c
+wl-clipboard-2.2.1/src/types/device.h
+wl-clipboard-2.2.1/src/types/keyboard.c
+wl-clipboard-2.2.1/src/types/keyboard.h
+wl-clipboard-2.2.1/src/types/offer.c
+wl-clipboard-2.2.1/src/types/offer.h
+wl-clipboard-2.2.1/src/types/popup-surface.c
+wl-clipboard-2.2.1/src/types/popup-surface.h
+wl-clipboard-2.2.1/src/types/registry.c
+wl-clipboard-2.2.1/src/types/registry.h
+wl-clipboard-2.2.1/src/types/seat.c
+wl-clipboard-2.2.1/src/types/seat.h
+wl-clipboard-2.2.1/src/types/shell-surface.c
+wl-clipboard-2.2.1/src/types/shell-surface.h
+wl-clipboard-2.2.1/src/types/shell.c
+wl-clipboard-2.2.1/src/types/shell.h
+wl-clipboard-2.2.1/src/types/source.c
+wl-clipboard-2.2.1/src/types/source.h
+wl-clipboard-2.2.1/src/util/
+wl-clipboard-2.2.1/src/util/files.c
+wl-clipboard-2.2.1/src/util/files.h
+wl-clipboard-2.2.1/src/util/misc.c
+wl-clipboard-2.2.1/src/util/misc.h
+wl-clipboard-2.2.1/src/util/string.c
+wl-clipboard-2.2.1/src/util/string.h
+wl-clipboard-2.2.1/src/wl-copy.c
+wl-clipboard-2.2.1/src/wl-paste.c
+wl-clipboard-2.2.1/subprojects/
+wl-clipboard-2.2.1/subprojects/expat.wrap
+wl-clipboard-2.2.1/subprojects/libffi.wrap
+wl-clipboard-2.2.1/subprojects/wayland-protocols.wrap
+wl-clipboard-2.2.1/subprojects/wayland.wrap
+The Meson build system
+Version: 1.10.0
+Source dir: /blfs/builds/wl-clipboard-2.2.1
+Build dir: /blfs/builds/wl-clipboard-2.2.1/build
+Build type: native build
+Project name: wl-clipboard
+Project version: 2.2.1
+C compiler for the host machine: cc (gcc 15.2.0 "cc (GCC) 15.2.0")
+C linker for the host machine: cc ld.bfd 2.45
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Run-time dependency wayland-client found: YES 1.24.0
+Header "sys/syscall.h" has symbol "SYS_memfd_create" : YES 
+Header "sys/mman.h" has symbol "SHM_ANON" : NO 
+Program wayland-scanner found: YES (/usr/bin/wayland-scanner)
+Run-time dependency wayland-protocols found: YES 1.47
+Configuring config.h using configuration
+Found CMake: /usr/bin/cmake (4.2.1)
+Run-time dependency fish found: NO (tried pkgconfig and cmake)
+Build targets in project: 21
+
+wl-clipboard 2.2.1
+
+  User defined options
+    buildtype: release
+    prefix   : /usr
+
+Found ninja-1.13.2 at /usr/bin/ninja
+[1/43] Generating src/protocol/gtk-primary-selection client header with a custom command
+[2/43] Generating src/protocol/wlr-data-control code with a custom command
+[3/43] Generating src/protocol/gtk-primary-selection code with a custom command
+[4/43] Generating src/protocol/wlr-data-control client header with a custom command
+[5/43] Generating src/protocol/gtk-shell client header with a custom command
+[6/43] Generating src/protocol/gtk-shell code with a custom command
+[7/43] Generating src/protocol/xdg-activation client header with a custom command
+[8/43] Generating src/protocol/wp-primary-selection code with a custom command
+[9/43] Generating src/protocol/xdg-activation code with a custom command
+[10/43] Generating src/protocol/wp-primary-selection client header with a custom command
+[11/43] Generating src/protocol/xdg-shell code with a custom command
+[12/43] Generating src/protocol/xdg-shell client header with a custom command
+[13/43] Compiling C object src/protocol/libwlr-data-control.a.p/meson-generated_.._wlr-data-control.c.o
+[14/43] Compiling C object src/protocol/libgtk-shell.a.p/meson-generated_.._gtk-shell.c.o
+[15/43] Compiling C object src/libwl-clipboard.a.p/util_string.c.o
+[16/43] Compiling C object src/protocol/libxdg-activation.a.p/meson-generated_.._xdg-activation.c.o
+[17/43] Compiling C object src/protocol/libwp-primary-selection.a.p/meson-generated_.._wp-primary-selection.c.o
+[18/43] Compiling C object src/protocol/libgtk-primary-selection.a.p/meson-generated_.._gtk-primary-selection.c.o
+[19/43] Compiling C object src/protocol/libxdg-shell.a.p/meson-generated_.._xdg-shell.c.o
+[20/43] Compiling C object src/libwl-clipboard.a.p/util_misc.c.o
+[21/43] Compiling C object src/libwl-clipboard.a.p/types_keyboard.c.o
+[22/43] Linking static target src/protocol/libxdg-shell.a
+[23/43] Linking static target src/protocol/libwp-primary-selection.a
+[24/43] Linking static target src/protocol/libgtk-primary-selection.a
+[25/43] Linking static target src/protocol/libwlr-data-control.a
+[26/43] Linking static target src/protocol/libxdg-activation.a
+[27/43] Linking static target src/protocol/libgtk-shell.a
+[28/43] Compiling C object src/libwl-clipboard.a.p/types_device-manager.c.o
+[29/43] Compiling C object src/libwl-clipboard.a.p/types_shell-surface.c.o
+[30/43] Compiling C object src/libwl-clipboard.a.p/types_seat.c.o
+[31/43] Compiling C object src/libwl-clipboard.a.p/types_source.c.o
+[32/43] Compiling C object src/libwl-clipboard.a.p/types_shell.c.o
+[33/43] Compiling C object src/libwl-clipboard.a.p/types_copy-action.c.o
+[34/43] Compiling C object src/libwl-clipboard.a.p/types_offer.c.o
+[35/43] Compiling C object src/libwl-clipboard.a.p/util_files.c.o
+[36/43] Compiling C object src/libwl-clipboard.a.p/types_device.c.o
+[37/43] Compiling C object src/libwl-clipboard.a.p/types_popup-surface.c.o
+[38/43] Compiling C object src/libwl-clipboard.a.p/types_registry.c.o
+[39/43] Compiling C object src/wl-copy.p/wl-copy.c.o
+[40/43] Linking static target src/libwl-clipboard.a
+[41/43] Linking target src/wl-copy
+[42/43] Compiling C object src/wl-paste.p/wl-paste.c.o
+[43/43] Linking target src/wl-paste
+[0/1] Installing files
+Installing src/wl-copy to /pkgs/wl-clipboard/usr/bin
+Installing src/wl-paste to /pkgs/wl-clipboard/usr/bin
+Installing /blfs/builds/wl-clipboard-2.2.1/data/wl-copy.1 to /pkgs/wl-clipboard/usr/share/man/man1
+Installing /blfs/builds/wl-clipboard-2.2.1/data/wl-paste.1 to /pkgs/wl-clipboard/usr/share/man/man1
+Installing /blfs/builds/wl-clipboard-2.2.1/data/wl-clipboard.1 to /pkgs/wl-clipboard/usr/share/man/man1
+Installing /blfs/builds/wl-clipboard-2.2.1/completions/bash/wl-copy to /pkgs/wl-clipboard/usr/share/bash-completion/completions
+Installing /blfs/builds/wl-clipboard-2.2.1/completions/bash/wl-paste to /pkgs/wl-clipboard/usr/share/bash-completion/completions
+Installing /blfs/builds/wl-clipboard-2.2.1/completions/zsh/_wl-copy to /pkgs/wl-clipboard/usr/share/zsh/site-functions
+Installing /blfs/builds/wl-clipboard-2.2.1/completions/zsh/_wl-paste to /pkgs/wl-clipboard/usr/share/zsh/site-functions
+Installing /blfs/builds/wl-clipboard-2.2.1/completions/fish/wl-copy.fish to /pkgs/wl-clipboard/usr/share/fish/vendor_completions.d
+Installing /blfs/builds/wl-clipboard-2.2.1/completions/fish/wl-paste.fish to /pkgs/wl-clipboard/usr/share/fish/vendor_completions.d
+[0/1] Installing files
+Installing src/wl-copy to /usr/bin
+Installing src/wl-paste to /usr/bin
+Installing /blfs/builds/wl-clipboard-2.2.1/data/wl-copy.1 to /usr/share/man/man1
+Installing /blfs/builds/wl-clipboard-2.2.1/data/wl-paste.1 to /usr/share/man/man1
+Installing /blfs/builds/wl-clipboard-2.2.1/data/wl-clipboard.1 to /usr/share/man/man1
+Installing /blfs/builds/wl-clipboard-2.2.1/completions/bash/wl-copy to /usr/share/bash-completion/completions
+Installing /blfs/builds/wl-clipboard-2.2.1/completions/bash/wl-paste to /usr/share/bash-completion/completions
+Installing /blfs/builds/wl-clipboard-2.2.1/completions/zsh/_wl-copy to /usr/share/zsh/site-functions
+Installing /blfs/builds/wl-clipboard-2.2.1/completions/zsh/_wl-paste to /usr/share/zsh/site-functions
+Installing /blfs/builds/wl-clipboard-2.2.1/completions/fish/wl-copy.fish to /usr/share/fish/vendor_completions.d
+Installing /blfs/builds/wl-clipboard-2.2.1/completions/fish/wl-paste.fish to /usr/share/fish/vendor_completions.d
+wl-clipboard/
+wl-clipboard/usr/
+wl-clipboard/usr/share/
+wl-clipboard/usr/share/fish/
+wl-clipboard/usr/share/fish/vendor_completions.d/
+wl-clipboard/usr/share/fish/vendor_completions.d/wl-copy.fish
+wl-clipboard/usr/share/fish/vendor_completions.d/wl-paste.fish
+wl-clipboard/usr/share/bash-completion/
+wl-clipboard/usr/share/bash-completion/completions/
+wl-clipboard/usr/share/bash-completion/completions/wl-paste
+wl-clipboard/usr/share/bash-completion/completions/wl-copy
+wl-clipboard/usr/share/zsh/
+wl-clipboard/usr/share/zsh/site-functions/
+wl-clipboard/usr/share/zsh/site-functions/_wl-copy
+wl-clipboard/usr/share/zsh/site-functions/_wl-paste
+wl-clipboard/usr/share/man/
+wl-clipboard/usr/share/man/man1/
+wl-clipboard/usr/share/man/man1/wl-clipboard.1
+wl-clipboard/usr/share/man/man1/wl-paste.1
+wl-clipboard/usr/share/man/man1/wl-copy.1
+wl-clipboard/usr/bin/
+wl-clipboard/usr/bin/wl-paste
+wl-clipboard/usr/bin/wl-copy
+wl-clipboard/version
+wl-clipboard/depends
+wl-clipboard/make-depends
