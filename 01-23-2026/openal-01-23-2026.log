@@ -1,0 +1,1130 @@
+--2026-01-23 09:14:18--  https://github.com/kcat/openal-soft/archive/refs/tags/1.25.1.tar.gz
+Resolving github.com (github.com)... 140.82.112.3
+Connecting to github.com (github.com)|140.82.112.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://codeload.github.com/kcat/openal-soft/tar.gz/refs/tags/1.25.1 [following]
+--2026-01-23 09:14:19--  https://codeload.github.com/kcat/openal-soft/tar.gz/refs/tags/1.25.1
+Resolving codeload.github.com (codeload.github.com)... 140.82.114.9
+Connecting to codeload.github.com (codeload.github.com)|140.82.114.9|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/x-gzip]
+Saving to: ‘1.25.1.tar.gz’
+
+     0K .......... .......... .......... .......... .......... 2.03M
+    50K .......... .......... .......... .......... .......... 4.10M
+   100K .......... .......... .......... .......... .......... 9.64M
+   150K .......... .......... .......... .......... .......... 4.06M
+   200K .......... .......... .......... .......... .......... 4.28M
+   250K .......... .......... .......... .......... .......... 21.5M
+   300K .......... .......... .......... .......... .......... 5.07M
+   350K .......... .......... .......... .......... .......... 4.32M
+   400K .......... .......... .......... .......... .......... 15.9M
+   450K .......... .......... .......... .......... .......... 4.41M
+   500K .......... .......... .......... .......... .......... 4.59M
+   550K .......... .......... .......... .......... .......... 4.24M
+   600K .......... .......... .......... .......... .......... 16.6M
+   650K .......... .......... .......... .......... .......... 4.97M
+   700K .......... .......... .......... .......... .......... 11.3M
+   750K .......... .......... .......... .......... .......... 7.46M
+   800K .......... .......... .......... .......... .......... 7.65M
+   850K .......... .......... .......... .......... .......... 7.37M
+   900K .......... .......... .......... .......... .......... 16.2M
+   950K .......... .......... .......... .......... .......... 17.2M
+  1000K .......... .......... .......... .......... .......... 8.44M
+  1050K .......... .......... .......... .......... .......... 10.0M
+  1100K .......... .......... .......... .......... .......... 17.5M
+  1150K .......... .......... .......... .......... .......... 13.1M
+  1200K .......... .......... .......... .......... .......... 16.8M
+  1250K .......... .......... .......... .......... .......... 18.0M
+  1300K .......... .......... .......... .......... .......... 23.3M
+  1350K ....                                                   27.0M=0.2s
+
+2026-01-23 09:14:19 (6.91 MB/s) - ‘1.25.1.tar.gz’ saved [1386986]
+
+openal-soft-1.25.1/
+openal-soft-1.25.1/.clang-tidy
+openal-soft-1.25.1/.github/
+openal-soft-1.25.1/.github/workflows/
+openal-soft-1.25.1/.github/workflows/ci.yml
+openal-soft-1.25.1/.github/workflows/utils.yml
+openal-soft-1.25.1/.gitignore
+openal-soft-1.25.1/.travis.yml
+openal-soft-1.25.1/BSD-3Clause
+openal-soft-1.25.1/CMakeLists.txt
+openal-soft-1.25.1/COPYING
+openal-soft-1.25.1/ChangeLog
+openal-soft-1.25.1/LICENSE-pffft
+openal-soft-1.25.1/OpenALConfig.cmake.in
+openal-soft-1.25.1/README.md
+openal-soft-1.25.1/XCompile-Android.txt
+openal-soft-1.25.1/XCompile.txt
+openal-soft-1.25.1/al/
+openal-soft-1.25.1/al/auxeffectslot.cpp
+openal-soft-1.25.1/al/auxeffectslot.h
+openal-soft-1.25.1/al/buffer.cpp
+openal-soft-1.25.1/al/buffer.h
+openal-soft-1.25.1/al/debug.cpp
+openal-soft-1.25.1/al/debug.h
+openal-soft-1.25.1/al/direct_defs.h
+openal-soft-1.25.1/al/eax.cpp
+openal-soft-1.25.1/al/eax/
+openal-soft-1.25.1/al/eax/api.cpp
+openal-soft-1.25.1/al/eax/api.h
+openal-soft-1.25.1/al/eax/call.cpp
+openal-soft-1.25.1/al/eax/call.h
+openal-soft-1.25.1/al/eax/effect.h
+openal-soft-1.25.1/al/eax/exception.cpp
+openal-soft-1.25.1/al/eax/exception.h
+openal-soft-1.25.1/al/eax/fx_slot_index.cpp
+openal-soft-1.25.1/al/eax/fx_slot_index.h
+openal-soft-1.25.1/al/eax/fx_slots.cpp
+openal-soft-1.25.1/al/eax/fx_slots.h
+openal-soft-1.25.1/al/eax/globals.h
+openal-soft-1.25.1/al/eax/utils.cpp
+openal-soft-1.25.1/al/eax/utils.h
+openal-soft-1.25.1/al/eax/x_ram.h
+openal-soft-1.25.1/al/effect.cpp
+openal-soft-1.25.1/al/effect.h
+openal-soft-1.25.1/al/effects/
+openal-soft-1.25.1/al/effects/autowah.cpp
+openal-soft-1.25.1/al/effects/chorus.cpp
+openal-soft-1.25.1/al/effects/compressor.cpp
+openal-soft-1.25.1/al/effects/convolution.cpp
+openal-soft-1.25.1/al/effects/dedicated.cpp
+openal-soft-1.25.1/al/effects/distortion.cpp
+openal-soft-1.25.1/al/effects/echo.cpp
+openal-soft-1.25.1/al/effects/effects.cpp
+openal-soft-1.25.1/al/effects/effects.h
+openal-soft-1.25.1/al/effects/equalizer.cpp
+openal-soft-1.25.1/al/effects/fshifter.cpp
+openal-soft-1.25.1/al/effects/modulator.cpp
+openal-soft-1.25.1/al/effects/null.cpp
+openal-soft-1.25.1/al/effects/pshifter.cpp
+openal-soft-1.25.1/al/effects/reverb.cpp
+openal-soft-1.25.1/al/effects/vmorpher.cpp
+openal-soft-1.25.1/al/error.cpp
+openal-soft-1.25.1/al/event.cpp
+openal-soft-1.25.1/al/event.h
+openal-soft-1.25.1/al/extension.cpp
+openal-soft-1.25.1/al/filter.cpp
+openal-soft-1.25.1/al/filter.h
+openal-soft-1.25.1/al/listener.cpp
+openal-soft-1.25.1/al/listener.h
+openal-soft-1.25.1/al/source.cpp
+openal-soft-1.25.1/al/source.h
+openal-soft-1.25.1/al/state.cpp
+openal-soft-1.25.1/alc/
+openal-soft-1.25.1/alc/alc.cpp
+openal-soft-1.25.1/alc/alconfig.cpp
+openal-soft-1.25.1/alc/alconfig.h
+openal-soft-1.25.1/alc/alu.cpp
+openal-soft-1.25.1/alc/alu.h
+openal-soft-1.25.1/alc/backends/
+openal-soft-1.25.1/alc/backends/alsa.cpp
+openal-soft-1.25.1/alc/backends/alsa.h
+openal-soft-1.25.1/alc/backends/base.cpp
+openal-soft-1.25.1/alc/backends/base.h
+openal-soft-1.25.1/alc/backends/coreaudio.cpp
+openal-soft-1.25.1/alc/backends/coreaudio.h
+openal-soft-1.25.1/alc/backends/dsound.cpp
+openal-soft-1.25.1/alc/backends/dsound.h
+openal-soft-1.25.1/alc/backends/jack.cpp
+openal-soft-1.25.1/alc/backends/jack.h
+openal-soft-1.25.1/alc/backends/loopback.cpp
+openal-soft-1.25.1/alc/backends/loopback.h
+openal-soft-1.25.1/alc/backends/null.cpp
+openal-soft-1.25.1/alc/backends/null.h
+openal-soft-1.25.1/alc/backends/oboe.cpp
+openal-soft-1.25.1/alc/backends/oboe.h
+openal-soft-1.25.1/alc/backends/opensl.cpp
+openal-soft-1.25.1/alc/backends/opensl.h
+openal-soft-1.25.1/alc/backends/oss.cpp
+openal-soft-1.25.1/alc/backends/oss.h
+openal-soft-1.25.1/alc/backends/pipewire.cpp
+openal-soft-1.25.1/alc/backends/pipewire.h
+openal-soft-1.25.1/alc/backends/portaudio.cpp
+openal-soft-1.25.1/alc/backends/portaudio.hpp
+openal-soft-1.25.1/alc/backends/pulseaudio.cpp
+openal-soft-1.25.1/alc/backends/pulseaudio.h
+openal-soft-1.25.1/alc/backends/sdl2.cpp
+openal-soft-1.25.1/alc/backends/sdl2.h
+openal-soft-1.25.1/alc/backends/sdl3.cpp
+openal-soft-1.25.1/alc/backends/sdl3.h
+openal-soft-1.25.1/alc/backends/sndio.cpp
+openal-soft-1.25.1/alc/backends/sndio.hpp
+openal-soft-1.25.1/alc/backends/solaris.cpp
+openal-soft-1.25.1/alc/backends/solaris.h
+openal-soft-1.25.1/alc/backends/wasapi.cpp
+openal-soft-1.25.1/alc/backends/wasapi.h
+openal-soft-1.25.1/alc/backends/wave.cpp
+openal-soft-1.25.1/alc/backends/wave.h
+openal-soft-1.25.1/alc/backends/winmm.cpp
+openal-soft-1.25.1/alc/backends/winmm.h
+openal-soft-1.25.1/alc/context.cpp
+openal-soft-1.25.1/alc/context.h
+openal-soft-1.25.1/alc/device.cpp
+openal-soft-1.25.1/alc/device.h
+openal-soft-1.25.1/alc/effects/
+openal-soft-1.25.1/alc/effects/autowah.cpp
+openal-soft-1.25.1/alc/effects/base.h
+openal-soft-1.25.1/alc/effects/chorus.cpp
+openal-soft-1.25.1/alc/effects/compressor.cpp
+openal-soft-1.25.1/alc/effects/convolution.cpp
+openal-soft-1.25.1/alc/effects/dedicated.cpp
+openal-soft-1.25.1/alc/effects/distortion.cpp
+openal-soft-1.25.1/alc/effects/echo.cpp
+openal-soft-1.25.1/alc/effects/equalizer.cpp
+openal-soft-1.25.1/alc/effects/fshifter.cpp
+openal-soft-1.25.1/alc/effects/modulator.cpp
+openal-soft-1.25.1/alc/effects/null.cpp
+openal-soft-1.25.1/alc/effects/pshifter.cpp
+openal-soft-1.25.1/alc/effects/reverb.cpp
+openal-soft-1.25.1/alc/effects/vmorpher.cpp
+openal-soft-1.25.1/alc/events.cpp
+openal-soft-1.25.1/alc/events.h
+openal-soft-1.25.1/alc/export_list.h
+openal-soft-1.25.1/alc/inprogext.h
+openal-soft-1.25.1/alc/panning.cpp
+openal-soft-1.25.1/alsoft-modules/
+openal-soft-1.25.1/alsoft-modules/gsl.cppm
+openal-soft-1.25.1/alsoft-modules/router.cppm
+openal-soft-1.25.1/alsoftrc.sample
+openal-soft-1.25.1/appveyor.yml
+openal-soft-1.25.1/build/
+openal-soft-1.25.1/build/.empty
+openal-soft-1.25.1/cmake/
+openal-soft-1.25.1/cmake/FindALSA.cmake
+openal-soft-1.25.1/cmake/FindAudioIO.cmake
+openal-soft-1.25.1/cmake/FindFFmpeg.cmake
+openal-soft-1.25.1/cmake/FindJACK.cmake
+openal-soft-1.25.1/cmake/FindMySOFA.cmake
+openal-soft-1.25.1/cmake/FindOSS.cmake
+openal-soft-1.25.1/cmake/FindOboe.cmake
+openal-soft-1.25.1/cmake/FindOpenSL.cmake
+openal-soft-1.25.1/cmake/FindPortAudio.cmake
+openal-soft-1.25.1/cmake/FindPulseAudio.cmake
+openal-soft-1.25.1/cmake/FindSndFile.cmake
+openal-soft-1.25.1/cmake/FindSndIO.cmake
+openal-soft-1.25.1/cmake/bin2h.script.cmake
+openal-soft-1.25.1/common/
+openal-soft-1.25.1/common/albit.h
+openal-soft-1.25.1/common/alcomplex.cpp
+openal-soft-1.25.1/common/alcomplex.h
+openal-soft-1.25.1/common/alformat.hpp
+openal-soft-1.25.1/common/almalloc.cpp
+openal-soft-1.25.1/common/almalloc.h
+openal-soft-1.25.1/common/alnumeric.h
+openal-soft-1.25.1/common/alstring.cpp
+openal-soft-1.25.1/common/alstring.h
+openal-soft-1.25.1/common/althrd_setname.cpp
+openal-soft-1.25.1/common/althrd_setname.h
+openal-soft-1.25.1/common/althreads.h
+openal-soft-1.25.1/common/altypes.hpp
+openal-soft-1.25.1/common/atomic.h
+openal-soft-1.25.1/common/comptr.h
+openal-soft-1.25.1/common/dlopennote.h
+openal-soft-1.25.1/common/dynload.cpp
+openal-soft-1.25.1/common/dynload.h
+openal-soft-1.25.1/common/expected.hpp
+openal-soft-1.25.1/common/filesystem.cpp
+openal-soft-1.25.1/common/filesystem.h
+openal-soft-1.25.1/common/flexarray.h
+openal-soft-1.25.1/common/ghc_filesystem.h
+openal-soft-1.25.1/common/intrusive_ptr.h
+openal-soft-1.25.1/common/opthelpers.h
+openal-soft-1.25.1/common/pffft.cpp
+openal-soft-1.25.1/common/pffft.h
+openal-soft-1.25.1/common/phase_shifter.h
+openal-soft-1.25.1/common/polyphase_resampler.cpp
+openal-soft-1.25.1/common/polyphase_resampler.h
+openal-soft-1.25.1/common/pragmadefs.h
+openal-soft-1.25.1/common/ringbuffer.h
+openal-soft-1.25.1/common/strutils.cpp
+openal-soft-1.25.1/common/strutils.hpp
+openal-soft-1.25.1/common/vecmat.h
+openal-soft-1.25.1/common/vector.h
+openal-soft-1.25.1/common/win_main_utf8.h
+openal-soft-1.25.1/config.h.in
+openal-soft-1.25.1/config_backends.h.in
+openal-soft-1.25.1/config_simd.h.in
+openal-soft-1.25.1/configs/
+openal-soft-1.25.1/configs/HRTF+WASAPI Exclusive/
+openal-soft-1.25.1/configs/HRTF+WASAPI Exclusive/alsoft.ini
+openal-soft-1.25.1/configs/HRTF/
+openal-soft-1.25.1/configs/HRTF/alsoft.ini
+openal-soft-1.25.1/configs/WASAPI Exclusive/
+openal-soft-1.25.1/configs/WASAPI Exclusive/alsoft.ini
+openal-soft-1.25.1/core/
+openal-soft-1.25.1/core/allpass_conv.hpp
+openal-soft-1.25.1/core/allpass_iir.hpp
+openal-soft-1.25.1/core/ambdec.cpp
+openal-soft-1.25.1/core/ambdec.h
+openal-soft-1.25.1/core/ambidefs.cpp
+openal-soft-1.25.1/core/ambidefs.h
+openal-soft-1.25.1/core/async_event.h
+openal-soft-1.25.1/core/bformatdec.cpp
+openal-soft-1.25.1/core/bformatdec.h
+openal-soft-1.25.1/core/bs2b.cpp
+openal-soft-1.25.1/core/bs2b.h
+openal-soft-1.25.1/core/bsinc_defs.h
+openal-soft-1.25.1/core/bsinc_tables.cpp
+openal-soft-1.25.1/core/bsinc_tables.h
+openal-soft-1.25.1/core/buffer_storage.h
+openal-soft-1.25.1/core/bufferline.h
+openal-soft-1.25.1/core/context.cpp
+openal-soft-1.25.1/core/context.h
+openal-soft-1.25.1/core/converter.cpp
+openal-soft-1.25.1/core/converter.h
+openal-soft-1.25.1/core/cpu_caps.cpp
+openal-soft-1.25.1/core/cpu_caps.h
+openal-soft-1.25.1/core/cubic_defs.h
+openal-soft-1.25.1/core/cubic_tables.cpp
+openal-soft-1.25.1/core/cubic_tables.h
+openal-soft-1.25.1/core/devformat.cpp
+openal-soft-1.25.1/core/devformat.h
+openal-soft-1.25.1/core/device.cpp
+openal-soft-1.25.1/core/device.h
+openal-soft-1.25.1/core/effects/
+openal-soft-1.25.1/core/effects/base.h
+openal-soft-1.25.1/core/effectslot.cpp
+openal-soft-1.25.1/core/effectslot.h
+openal-soft-1.25.1/core/encoderbase.hpp
+openal-soft-1.25.1/core/except.cpp
+openal-soft-1.25.1/core/except.h
+openal-soft-1.25.1/core/filters/
+openal-soft-1.25.1/core/filters/biquad.cpp
+openal-soft-1.25.1/core/filters/biquad.h
+openal-soft-1.25.1/core/filters/nfc.cpp
+openal-soft-1.25.1/core/filters/nfc.h
+openal-soft-1.25.1/core/filters/splitter.cpp
+openal-soft-1.25.1/core/filters/splitter.h
+openal-soft-1.25.1/core/fmt_traits.h
+openal-soft-1.25.1/core/fpu_ctrl.cpp
+openal-soft-1.25.1/core/fpu_ctrl.h
+openal-soft-1.25.1/core/front_stablizer.h
+openal-soft-1.25.1/core/helpers.cpp
+openal-soft-1.25.1/core/helpers.h
+openal-soft-1.25.1/core/hrtf.cpp
+openal-soft-1.25.1/core/hrtf.h
+openal-soft-1.25.1/core/hrtf_loader.cpp
+openal-soft-1.25.1/core/hrtf_loader.hpp
+openal-soft-1.25.1/core/hrtf_resource.cpp
+openal-soft-1.25.1/core/hrtf_resource.hpp
+openal-soft-1.25.1/core/logging.cpp
+openal-soft-1.25.1/core/logging.h
+openal-soft-1.25.1/core/mastering.cpp
+openal-soft-1.25.1/core/mastering.h
+openal-soft-1.25.1/core/mixer.cpp
+openal-soft-1.25.1/core/mixer.h
+openal-soft-1.25.1/core/mixer/
+openal-soft-1.25.1/core/mixer/defs.h
+openal-soft-1.25.1/core/mixer/hrtfbase.h
+openal-soft-1.25.1/core/mixer/hrtfdefs.h
+openal-soft-1.25.1/core/mixer/mixer_c.cpp
+openal-soft-1.25.1/core/mixer/mixer_neon.cpp
+openal-soft-1.25.1/core/mixer/mixer_sse.cpp
+openal-soft-1.25.1/core/mixer/mixer_sse2.cpp
+openal-soft-1.25.1/core/mixer/mixer_sse3.cpp
+openal-soft-1.25.1/core/mixer/mixer_sse41.cpp
+openal-soft-1.25.1/core/resampler_limits.h
+openal-soft-1.25.1/core/rtkit.cpp
+openal-soft-1.25.1/core/rtkit.h
+openal-soft-1.25.1/core/storage_formats.cpp
+openal-soft-1.25.1/core/storage_formats.h
+openal-soft-1.25.1/core/tsmefilter.cpp
+openal-soft-1.25.1/core/tsmefilter.hpp
+openal-soft-1.25.1/core/uhjfilter.cpp
+openal-soft-1.25.1/core/uhjfilter.h
+openal-soft-1.25.1/core/uiddefs.cpp
+openal-soft-1.25.1/core/voice.cpp
+openal-soft-1.25.1/core/voice.h
+openal-soft-1.25.1/core/voice_change.h
+openal-soft-1.25.1/docs/
+openal-soft-1.25.1/docs/3D7.1.txt
+openal-soft-1.25.1/docs/ambdec.txt
+openal-soft-1.25.1/docs/ambisonics.txt
+openal-soft-1.25.1/docs/env-vars.txt
+openal-soft-1.25.1/docs/hrtf.txt
+openal-soft-1.25.1/examples/
+openal-soft-1.25.1/examples/alconvolve.c
+openal-soft-1.25.1/examples/aldebug.cpp
+openal-soft-1.25.1/examples/aldirect.cpp
+openal-soft-1.25.1/examples/alffplay.cpp
+openal-soft-1.25.1/examples/alhrtf.c
+openal-soft-1.25.1/examples/allafplay.cpp
+openal-soft-1.25.1/examples/allatency.c
+openal-soft-1.25.1/examples/alloopback.c
+openal-soft-1.25.1/examples/almultireverb.c
+openal-soft-1.25.1/examples/alplay.c
+openal-soft-1.25.1/examples/alrecord.c
+openal-soft-1.25.1/examples/alreverb.c
+openal-soft-1.25.1/examples/alstream.c
+openal-soft-1.25.1/examples/alstreamcb.cpp
+openal-soft-1.25.1/examples/altonegen.c
+openal-soft-1.25.1/examples/common/
+openal-soft-1.25.1/examples/common/alhelpers.c
+openal-soft-1.25.1/examples/common/alhelpers.h
+openal-soft-1.25.1/examples/common/alhelpers.hpp
+openal-soft-1.25.1/fmt-11.2.0/
+openal-soft-1.25.1/fmt-11.2.0/.clang-format
+openal-soft-1.25.1/fmt-11.2.0/.github/
+openal-soft-1.25.1/fmt-11.2.0/.github/dependabot.yml
+openal-soft-1.25.1/fmt-11.2.0/.github/issue_template.md
+openal-soft-1.25.1/fmt-11.2.0/.github/pull_request_template.md
+openal-soft-1.25.1/fmt-11.2.0/.github/workflows/
+openal-soft-1.25.1/fmt-11.2.0/.github/workflows/cifuzz.yml
+openal-soft-1.25.1/fmt-11.2.0/.github/workflows/doc.yml
+openal-soft-1.25.1/fmt-11.2.0/.github/workflows/lint.yml
+openal-soft-1.25.1/fmt-11.2.0/.github/workflows/linux.yml
+openal-soft-1.25.1/fmt-11.2.0/.github/workflows/macos.yml
+openal-soft-1.25.1/fmt-11.2.0/.github/workflows/scorecard.yml
+openal-soft-1.25.1/fmt-11.2.0/.github/workflows/windows.yml
+openal-soft-1.25.1/fmt-11.2.0/.gitignore
+openal-soft-1.25.1/fmt-11.2.0/CMakeLists.txt
+openal-soft-1.25.1/fmt-11.2.0/CONTRIBUTING.md
+openal-soft-1.25.1/fmt-11.2.0/ChangeLog.md
+openal-soft-1.25.1/fmt-11.2.0/LICENSE
+openal-soft-1.25.1/fmt-11.2.0/README.md
+openal-soft-1.25.1/fmt-11.2.0/doc/
+openal-soft-1.25.1/fmt-11.2.0/doc/ChangeLog-old.md
+openal-soft-1.25.1/fmt-11.2.0/doc/api.md
+openal-soft-1.25.1/fmt-11.2.0/doc/fmt.css
+openal-soft-1.25.1/fmt-11.2.0/doc/fmt.js
+openal-soft-1.25.1/fmt-11.2.0/doc/get-started.md
+openal-soft-1.25.1/fmt-11.2.0/doc/index.md
+openal-soft-1.25.1/fmt-11.2.0/doc/perf.svg
+openal-soft-1.25.1/fmt-11.2.0/doc/python-license.txt
+openal-soft-1.25.1/fmt-11.2.0/doc/syntax.md
+openal-soft-1.25.1/fmt-11.2.0/include/
+openal-soft-1.25.1/fmt-11.2.0/include/fmt/
+openal-soft-1.25.1/fmt-11.2.0/include/fmt/args.h
+openal-soft-1.25.1/fmt-11.2.0/include/fmt/base.h
+openal-soft-1.25.1/fmt-11.2.0/include/fmt/chrono.h
+openal-soft-1.25.1/fmt-11.2.0/include/fmt/color.h
+openal-soft-1.25.1/fmt-11.2.0/include/fmt/compile.h
+openal-soft-1.25.1/fmt-11.2.0/include/fmt/core.h
+openal-soft-1.25.1/fmt-11.2.0/include/fmt/format-inl.h
+openal-soft-1.25.1/fmt-11.2.0/include/fmt/format.h
+openal-soft-1.25.1/fmt-11.2.0/include/fmt/os.h
+openal-soft-1.25.1/fmt-11.2.0/include/fmt/ostream.h
+openal-soft-1.25.1/fmt-11.2.0/include/fmt/printf.h
+openal-soft-1.25.1/fmt-11.2.0/include/fmt/ranges.h
+openal-soft-1.25.1/fmt-11.2.0/include/fmt/std.h
+openal-soft-1.25.1/fmt-11.2.0/include/fmt/xchar.h
+openal-soft-1.25.1/fmt-11.2.0/src/
+openal-soft-1.25.1/fmt-11.2.0/src/fmt.cc
+openal-soft-1.25.1/fmt-11.2.0/src/format.cc
+openal-soft-1.25.1/fmt-11.2.0/src/os.cc
+openal-soft-1.25.1/fmt-11.2.0/support/
+openal-soft-1.25.1/fmt-11.2.0/support/Android.mk
+openal-soft-1.25.1/fmt-11.2.0/support/AndroidManifest.xml
+openal-soft-1.25.1/fmt-11.2.0/support/C++.sublime-syntax
+openal-soft-1.25.1/fmt-11.2.0/support/README
+openal-soft-1.25.1/fmt-11.2.0/support/Vagrantfile
+openal-soft-1.25.1/fmt-11.2.0/support/bazel/
+openal-soft-1.25.1/fmt-11.2.0/support/bazel/.bazelversion
+openal-soft-1.25.1/fmt-11.2.0/support/bazel/BUILD.bazel
+openal-soft-1.25.1/fmt-11.2.0/support/bazel/MODULE.bazel
+openal-soft-1.25.1/fmt-11.2.0/support/bazel/README.md
+openal-soft-1.25.1/fmt-11.2.0/support/bazel/WORKSPACE.bazel
+openal-soft-1.25.1/fmt-11.2.0/support/build.gradle
+openal-soft-1.25.1/fmt-11.2.0/support/check-commits
+openal-soft-1.25.1/fmt-11.2.0/support/cmake/
+openal-soft-1.25.1/fmt-11.2.0/support/cmake/FindSetEnv.cmake
+openal-soft-1.25.1/fmt-11.2.0/support/cmake/JoinPaths.cmake
+openal-soft-1.25.1/fmt-11.2.0/support/cmake/fmt-config.cmake.in
+openal-soft-1.25.1/fmt-11.2.0/support/cmake/fmt.pc.in
+openal-soft-1.25.1/fmt-11.2.0/support/docopt.py
+openal-soft-1.25.1/fmt-11.2.0/support/mkdocs
+openal-soft-1.25.1/fmt-11.2.0/support/mkdocs.yml
+openal-soft-1.25.1/fmt-11.2.0/support/printable.py
+openal-soft-1.25.1/fmt-11.2.0/support/python/
+openal-soft-1.25.1/fmt-11.2.0/support/python/mkdocstrings_handlers/
+openal-soft-1.25.1/fmt-11.2.0/support/python/mkdocstrings_handlers/cxx/
+openal-soft-1.25.1/fmt-11.2.0/support/python/mkdocstrings_handlers/cxx/__init__.py
+openal-soft-1.25.1/fmt-11.2.0/support/python/mkdocstrings_handlers/cxx/templates/
+openal-soft-1.25.1/fmt-11.2.0/support/python/mkdocstrings_handlers/cxx/templates/README
+openal-soft-1.25.1/fmt-11.2.0/support/release.py
+openal-soft-1.25.1/gsl/
+openal-soft-1.25.1/gsl/.clang-format
+openal-soft-1.25.1/gsl/CMakeLists.txt
+openal-soft-1.25.1/gsl/CMakeSettings.json
+openal-soft-1.25.1/gsl/CONTRIBUTING.md
+openal-soft-1.25.1/gsl/GSL.natvis
+openal-soft-1.25.1/gsl/LICENSE
+openal-soft-1.25.1/gsl/README.md
+openal-soft-1.25.1/gsl/SECURITY.md
+openal-soft-1.25.1/gsl/ThirdPartyNotices.txt
+openal-soft-1.25.1/gsl/docs/
+openal-soft-1.25.1/gsl/docs/headers.md
+openal-soft-1.25.1/gsl/include/
+openal-soft-1.25.1/gsl/include/CMakeLists.txt
+openal-soft-1.25.1/gsl/include/gsl/
+openal-soft-1.25.1/gsl/include/gsl/algorithm
+openal-soft-1.25.1/gsl/include/gsl/assert
+openal-soft-1.25.1/gsl/include/gsl/byte
+openal-soft-1.25.1/gsl/include/gsl/gsl
+openal-soft-1.25.1/gsl/include/gsl/narrow
+openal-soft-1.25.1/gsl/include/gsl/pointers
+openal-soft-1.25.1/gsl/include/gsl/span
+openal-soft-1.25.1/gsl/include/gsl/span_ext
+openal-soft-1.25.1/gsl/include/gsl/util
+openal-soft-1.25.1/gsl/include/gsl/zstring
+openal-soft-1.25.1/hrtf/
+openal-soft-1.25.1/hrtf/Default HRTF.mhr
+openal-soft-1.25.1/include/
+openal-soft-1.25.1/include/AL/
+openal-soft-1.25.1/include/AL/al.h
+openal-soft-1.25.1/include/AL/alc.h
+openal-soft-1.25.1/include/AL/alext.h
+openal-soft-1.25.1/include/AL/efx-creative.h
+openal-soft-1.25.1/include/AL/efx-presets.h
+openal-soft-1.25.1/include/AL/efx.h
+openal-soft-1.25.1/libopenal.version
+openal-soft-1.25.1/logging/
+openal-soft-1.25.1/logging/log.cmd
+openal-soft-1.25.1/modules/
+openal-soft-1.25.1/modules/al.cppm
+openal-soft-1.25.1/modules/alc.cppm
+openal-soft-1.25.1/modules/alext.cppm
+openal-soft-1.25.1/modules/alstd.cppm
+openal-soft-1.25.1/modules/efx.cppm
+openal-soft-1.25.1/modules/openal.cppm
+openal-soft-1.25.1/openal.pc.in
+openal-soft-1.25.1/presets/
+openal-soft-1.25.1/presets/3D7.1.ambdec
+openal-soft-1.25.1/presets/hex-quad.ambdec
+openal-soft-1.25.1/presets/hexagon.ambdec
+openal-soft-1.25.1/presets/itu5.1-nocenter.ambdec
+openal-soft-1.25.1/presets/itu5.1.ambdec
+openal-soft-1.25.1/presets/presets.txt
+openal-soft-1.25.1/presets/rectangle.ambdec
+openal-soft-1.25.1/presets/square.ambdec
+openal-soft-1.25.1/registry/
+openal-soft-1.25.1/registry/README.md
+openal-soft-1.25.1/registry/scripts/
+openal-soft-1.25.1/registry/scripts/genheaders.py
+openal-soft-1.25.1/registry/scripts/reg.py
+openal-soft-1.25.1/registry/xml/
+openal-soft-1.25.1/registry/xml/al.xml
+openal-soft-1.25.1/resources/
+openal-soft-1.25.1/resources/openal32.rc
+openal-soft-1.25.1/resources/resource.h
+openal-soft-1.25.1/resources/router.rc
+openal-soft-1.25.1/resources/soft_oal.rc
+openal-soft-1.25.1/router/
+openal-soft-1.25.1/router/al.cpp
+openal-soft-1.25.1/router/alc.cpp
+openal-soft-1.25.1/router/router.cpp
+openal-soft-1.25.1/router/router.h
+openal-soft-1.25.1/tests/
+openal-soft-1.25.1/tests/CMakeLists.txt
+openal-soft-1.25.1/tests/example.t.cpp
+openal-soft-1.25.1/utils/
+openal-soft-1.25.1/utils/CIAIR.def
+openal-soft-1.25.1/utils/IRC_1005.def
+openal-soft-1.25.1/utils/MIT_KEMAR.def
+openal-soft-1.25.1/utils/MIT_KEMAR_sofa.def
+openal-soft-1.25.1/utils/SCUT_KEMAR.def
+openal-soft-1.25.1/utils/alsoft-config/
+openal-soft-1.25.1/utils/alsoft-config/CMakeLists.txt
+openal-soft-1.25.1/utils/alsoft-config/main.cpp
+openal-soft-1.25.1/utils/alsoft-config/mainwindow.cpp
+openal-soft-1.25.1/utils/alsoft-config/mainwindow.h
+openal-soft-1.25.1/utils/alsoft-config/mainwindow.ui
+openal-soft-1.25.1/utils/alsoft-config/verstr.cpp
+openal-soft-1.25.1/utils/alsoft-config/verstr.h
+openal-soft-1.25.1/utils/makemhr/
+openal-soft-1.25.1/utils/makemhr/loaddef.cpp
+openal-soft-1.25.1/utils/makemhr/loaddef.h
+openal-soft-1.25.1/utils/makemhr/loadsofa.cpp
+openal-soft-1.25.1/utils/makemhr/loadsofa.h
+openal-soft-1.25.1/utils/makemhr/makemhr.cpp
+openal-soft-1.25.1/utils/makemhr/makemhr.h
+openal-soft-1.25.1/utils/openal-info.c
+openal-soft-1.25.1/utils/sofa-info.cpp
+openal-soft-1.25.1/utils/sofa-support.cpp
+openal-soft-1.25.1/utils/sofa-support.h
+openal-soft-1.25.1/utils/uhjdecoder.cpp
+openal-soft-1.25.1/utils/uhjencoder.cpp
+openal-soft-1.25.1/version.cmake
+openal-soft-1.25.1/version.h.in
+-- The C compiler identification is GNU 15.2.0
+-- The CXX compiler identification is GNU 15.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PkgConfig: /usr/bin/pkg-config (found version "2.5.1")
+-- Looking for __GLIBCXX__
+-- Looking for __GLIBCXX__ - found
+-- Looking for _LIBCPP_VERSION
+-- Looking for _LIBCPP_VERSION - not found
+-- Looking for _MSVC_STL_UPDATE
+-- Looking for _MSVC_STL_UPDATE - not found
+-- C++20 modules enabled using GNU compiler v15.2.0 (CMake 4.2.1, Ninja generator)
+-- {fmt} version: 11.2.0
+-- Build type: Release
+-- Performing Test HAVE_LIBATOMIC
+-- Performing Test HAVE_LIBATOMIC - Success
+-- Performing Test HAVE_WTRAMPOLINES
+-- Performing Test HAVE_WTRAMPOLINES - Success
+-- Performing Test HAVE_WCONVERSION
+-- Performing Test HAVE_WCONVERSION - Success
+-- Performing Test HAVE_WARITH_CONVERSION
+-- Performing Test HAVE_WARITH_CONVERSION - Success
+-- Performing Test HAVE_WBIDI_CHARS_ANY
+-- Performing Test HAVE_WBIDI_CHARS_ANY - Success
+-- Performing Test HAVE_WNO_INTERFERENCE_SIZE
+-- Performing Test HAVE_WNO_INTERFERENCE_SIZE - Success
+-- Performing Test HAVE_FTRIVIAL_AUTO_VAR_INIT
+-- Performing Test HAVE_FTRIVIAL_AUTO_VAR_INIT - Success
+-- Performing Test HAVE_FNO_MATH_ERRNO
+-- Performing Test HAVE_FNO_MATH_ERRNO - Success
+-- Performing Test HAVE_WL_Z_NOEXECSTACK
+-- Performing Test HAVE_WL_Z_NOEXECSTACK - Success
+-- Performing Test HAVE_WL_Z_RELRO
+-- Performing Test HAVE_WL_Z_RELRO - Success
+-- Performing Test HAVE_WL_Z_NOW
+-- Performing Test HAVE_WL_Z_NOW - Success
+-- Performing Test HAVE_WL_AS_NEEDED
+-- Performing Test HAVE_WL_AS_NEEDED - Success
+-- Performing Test HAVE_GCC_PROTECTED_VISIBILITY
+-- Performing Test HAVE_GCC_PROTECTED_VISIBILITY - Success
+-- Performing Test HAVE_MSSE2_SWITCH
+-- Performing Test HAVE_MSSE2_SWITCH - Success
+-- Looking for xmmintrin.h
+-- Looking for xmmintrin.h - found
+-- Looking for emmintrin.h
+-- Looking for emmintrin.h - found
+-- Looking for pmmintrin.h
+-- Looking for pmmintrin.h - found
+-- Looking for smmintrin.h
+-- Looking for smmintrin.h - found
+-- Looking for arm_neon.h
+-- Looking for arm_neon.h - not found
+-- Performing Test HAVE_SSE_INTRINSICS
+-- Performing Test HAVE_SSE_INTRINSICS - Success
+-- Looking for cpuid.h
+-- Looking for cpuid.h - found
+-- Looking for intrin.h
+-- Looking for intrin.h - not found
+-- Looking for guiddef.h
+-- Looking for guiddef.h - not found
+-- Looking for pow in m
+-- Looking for pow in m - found
+-- Looking for clock_gettime in rt
+-- Looking for clock_gettime in rt - found
+-- Looking for dlfcn.h
+-- Looking for dlfcn.h - found
+-- Looking for dlopen in dl
+-- Looking for dlopen in dl - found
+-- Performing Test HAVE_GCC_GET_CPUID
+-- Performing Test HAVE_GCC_GET_CPUID - Success
+-- Looking for proc_pidpath
+-- Looking for proc_pidpath - not found
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test HAVE_PTHREAD
+-- Performing Test HAVE_PTHREAD - Success
+-- Looking for pthread_setschedparam
+-- Looking for pthread_setschedparam - found
+-- Looking for include files pthread.h, pthread_np.h
+-- Looking for include files pthread.h, pthread_np.h - not found
+-- Looking for pthread_setname_np
+-- Looking for pthread_setname_np - not found
+-- Looking for pthread_set_name_np
+-- Looking for pthread_set_name_np - not found
+-- Checking for module 'libpipewire-0.3>=0.3.23'
+--   Found libpipewire-0.3, version 1.5.85
+-- Found PulseAudio: /usr/lib/libpulse.so (found version "17.0.0")
+-- Found ALSA: /usr/lib/libasound.so (found version "1.2.15.3")
+-- Found OSS: /usr/include
+-- Could NOT find AudioIO (missing: AUDIOIO_INCLUDE_DIR) 
+-- Could NOT find JACK (missing: JACK_LIBRARY JACK_INCLUDE_DIR) 
+-- Could NOT find OpenSL (missing: OPENSL_LIBRARY OPENSL_INCLUDE_DIR OPENSL_ANDROID_INCLUDE_DIR) 
+-- Could NOT find PortAudio (missing: PORTAUDIO_LIBRARY PORTAUDIO_INCLUDE_DIR) 
+-- Found Git: /usr/bin/git (found version "2.52.0")
+-- Found ZLIB: /usr/lib/libz.so (found version "1.3.1")
+-- Could NOT find MySOFA (missing: MYSOFA_LIBRARY MYSOFA_INCLUDE_DIR) 
+-- Could NOT find Qt6Widgets
+-- Found SndFile: /usr/lib/libsndfile.so
+-- Performing Test COMPILER_SUPPORTS_ELFNOTES
+-- Performing Test COMPILER_SUPPORTS_ELFNOTES - Success
+-- 
+-- STL hardening level: Performance
+-- 
+-- Building OpenAL with support for the following backends:
+--     PipeWire, PulseAudio, ALSA, OSS, WaveFile, Null
+-- 
+-- Building with support for CPU extensions:
+--     Default, SSE, SSE2, SSE3, SSE4.1
+-- 
+-- Embedding HRTF datasets
+-- 
+-- Installing library and headers
+-- Installing sample configuration
+-- Installing HRTF data files
+-- Installing AmbDec presets
+-- 
+-- Building utility programs
+-- 
+-- Building example programs
+-- Building SndFile example programs
+-- 
+-- Configuring done (2.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /blfs/builds/openal-soft-1.25.1/bld
+[1/267] Scanning /blfs/builds/openal-soft-1.25.1/common/filesystem.cpp for CXX dependencies
+[2/267] Scanning /blfs/builds/openal-soft-1.25.1/common/althrd_setname.cpp for CXX dependencies
+[3/267] Scanning /blfs/builds/openal-soft-1.25.1/modules/al.cppm for CXX dependencies
+[4/267] Scanning /blfs/builds/openal-soft-1.25.1/modules/alc.cppm for CXX dependencies
+[5/267] Scanning /blfs/builds/openal-soft-1.25.1/modules/alstd.cppm for CXX dependencies
+[6/267] Scanning /blfs/builds/openal-soft-1.25.1/modules/efx.cppm for CXX dependencies
+[7/267] Scanning /blfs/builds/openal-soft-1.25.1/modules/openal.cppm for CXX dependencies
+[8/267] Scanning /blfs/builds/openal-soft-1.25.1/modules/alext.cppm for CXX dependencies
+[9/267] Generating CXX dyndep file CMakeFiles/openal.modules.dir/CXX.dd
+[10/267] Scanning /blfs/builds/openal-soft-1.25.1/common/alstring.cpp for CXX dependencies
+[11/267] Scanning /blfs/builds/openal-soft-1.25.1/common/dynload.cpp for CXX dependencies
+[12/267] Building CXX object CMakeFiles/openal.modules.dir/modules/alc.cppm.o
+[13/267] Scanning /blfs/builds/openal-soft-1.25.1/alsoft-modules/gsl.cppm for CXX dependencies
+[14/267] Scanning /blfs/builds/openal-soft-1.25.1/common/strutils.cpp for CXX dependencies
+[15/267] Building CXX object CMakeFiles/openal.modules.dir/modules/al.cppm.o
+[16/267] Scanning /blfs/builds/openal-soft-1.25.1/common/almalloc.cpp for CXX dependencies
+[17/267] Building CXX object CMakeFiles/openal.modules.dir/modules/alstd.cppm.o
+[18/267] Scanning /blfs/builds/openal-soft-1.25.1/common/alcomplex.cpp for CXX dependencies
+[19/267] Scanning /blfs/builds/openal-soft-1.25.1/common/pffft.cpp for CXX dependencies
+[20/267] Scanning /blfs/builds/openal-soft-1.25.1/common/polyphase_resampler.cpp for CXX dependencies
+[21/267] Generating CXX dyndep file CMakeFiles/alsoft.common.dir/CXX.dd
+[22/267] Building CXX object CMakeFiles/alsoft.common.dir/common/filesystem.cpp.o
+[23/267] Building CXX object CMakeFiles/alsoft.common.dir/common/althrd_setname.cpp.o
+[24/267] Building CXX object CMakeFiles/openal.modules.dir/modules/efx.cppm.o
+[25/267] Scanning /blfs/builds/openal-soft-1.25.1/utils/uhjdecoder.cpp for CXX dependencies
+[26/267] Scanning /blfs/builds/openal-soft-1.25.1/utils/uhjencoder.cpp for CXX dependencies
+[27/267] Generating CXX dyndep file CMakeFiles/uhjdecoder.dir/CXX.dd
+[28/267] Generating CXX dyndep file CMakeFiles/uhjencoder.dir/CXX.dd
+[29/267] Building CXX object CMakeFiles/openal.modules.dir/modules/alext.cppm.o
+[30/267] Building CXX object CMakeFiles/openal.modules.dir/modules/openal.cppm.o
+[31/267] Building CXX object fmt-11.2.0/CMakeFiles/alsoft.fmt.dir/src/os.cc.o
+[32/267] Building CXX object CMakeFiles/alsoft.common.dir/common/almalloc.cpp.o
+[33/267] Building CXX object CMakeFiles/alsoft.common.dir/common/alstring.cpp.o
+[34/267] Building CXX object CMakeFiles/alsoft.common.dir/common/strutils.cpp.o
+[35/267] Building CXX object CMakeFiles/alsoft.common.dir/common/dynload.cpp.o
+[36/267] Building CXX object CMakeFiles/alsoft.common.dir/alsoft-modules/gsl.cppm.o
+[37/267] Building CXX object CMakeFiles/alsoft.common.dir/common/alcomplex.cpp.o
+[38/267] Building CXX object CMakeFiles/alsoft.common.dir/common/polyphase_resampler.cpp.o
+[39/267] Building CXX object CMakeFiles/alsoft.common.dir/common/pffft.cpp.o
+[40/267] Building CXX object fmt-11.2.0/CMakeFiles/alsoft.fmt.dir/src/format.cc.o
+[41/267] Linking CXX static library libalsoft.common.a
+[42/267] Generating default_hrtf.txt
+[43/267] Scanning /blfs/builds/openal-soft-1.25.1/al/effects/dedicated.cpp for CXX dependencies
+[44/267] Scanning /blfs/builds/openal-soft-1.25.1/al/effects/compressor.cpp for CXX dependencies
+[45/267] Scanning /blfs/builds/openal-soft-1.25.1/al/auxeffectslot.cpp for CXX dependencies
+[46/267] Scanning /blfs/builds/openal-soft-1.25.1/al/buffer.cpp for CXX dependencies
+[47/267] Scanning /blfs/builds/openal-soft-1.25.1/al/effect.cpp for CXX dependencies
+[48/267] Scanning /blfs/builds/openal-soft-1.25.1/al/effects/effects.cpp for CXX dependencies
+[49/267] Scanning /blfs/builds/openal-soft-1.25.1/al/effects/echo.cpp for CXX dependencies
+[50/267] Scanning /blfs/builds/openal-soft-1.25.1/al/effects/autowah.cpp for CXX dependencies
+[51/267] Scanning /blfs/builds/openal-soft-1.25.1/al/effects/chorus.cpp for CXX dependencies
+[52/267] Scanning /blfs/builds/openal-soft-1.25.1/al/debug.cpp for CXX dependencies
+[53/267] Scanning /blfs/builds/openal-soft-1.25.1/al/effects/convolution.cpp for CXX dependencies
+[54/267] Scanning /blfs/builds/openal-soft-1.25.1/al/effects/fshifter.cpp for CXX dependencies
+[55/267] Scanning /blfs/builds/openal-soft-1.25.1/al/effects/distortion.cpp for CXX dependencies
+[56/267] Scanning /blfs/builds/openal-soft-1.25.1/al/effects/null.cpp for CXX dependencies
+[57/267] Scanning /blfs/builds/openal-soft-1.25.1/al/effects/modulator.cpp for CXX dependencies
+[58/267] Scanning /blfs/builds/openal-soft-1.25.1/al/effects/pshifter.cpp for CXX dependencies
+[59/267] Scanning /blfs/builds/openal-soft-1.25.1/al/effects/equalizer.cpp for CXX dependencies
+[60/267] Scanning /blfs/builds/openal-soft-1.25.1/al/effects/vmorpher.cpp for CXX dependencies
+[61/267] Scanning /blfs/builds/openal-soft-1.25.1/al/error.cpp for CXX dependencies
+[62/267] Scanning /blfs/builds/openal-soft-1.25.1/al/effects/reverb.cpp for CXX dependencies
+[63/267] Scanning /blfs/builds/openal-soft-1.25.1/alc/alu.cpp for CXX dependencies
+[64/267] Scanning /blfs/builds/openal-soft-1.25.1/al/listener.cpp for CXX dependencies
+[65/267] Scanning /blfs/builds/openal-soft-1.25.1/alc/alc.cpp for CXX dependencies
+[66/267] Scanning /blfs/builds/openal-soft-1.25.1/al/source.cpp for CXX dependencies
+[67/267] Scanning /blfs/builds/openal-soft-1.25.1/al/filter.cpp for CXX dependencies
+[68/267] Scanning /blfs/builds/openal-soft-1.25.1/al/event.cpp for CXX dependencies
+[69/267] Scanning /blfs/builds/openal-soft-1.25.1/al/extension.cpp for CXX dependencies
+[70/267] Scanning /blfs/builds/openal-soft-1.25.1/alc/alconfig.cpp for CXX dependencies
+[71/267] Scanning /blfs/builds/openal-soft-1.25.1/al/state.cpp for CXX dependencies
+[72/267] Scanning /blfs/builds/openal-soft-1.25.1/alc/effects/chorus.cpp for CXX dependencies
+[73/267] Scanning /blfs/builds/openal-soft-1.25.1/alc/context.cpp for CXX dependencies
+[74/267] Scanning /blfs/builds/openal-soft-1.25.1/alc/effects/convolution.cpp for CXX dependencies
+[75/267] Scanning /blfs/builds/openal-soft-1.25.1/alc/effects/compressor.cpp for CXX dependencies
+[76/267] Scanning /blfs/builds/openal-soft-1.25.1/alc/effects/fshifter.cpp for CXX dependencies
+[77/267] Scanning /blfs/builds/openal-soft-1.25.1/alc/effects/null.cpp for CXX dependencies
+[78/267] Scanning /blfs/builds/openal-soft-1.25.1/alc/effects/modulator.cpp for CXX dependencies
+[79/267] Building CXX object CMakeFiles/uhjdecoder.dir/utils/uhjdecoder.cpp.o
+[80/267] Scanning /blfs/builds/openal-soft-1.25.1/alc/effects/pshifter.cpp for CXX dependencies
+[81/267] Scanning /blfs/builds/openal-soft-1.25.1/alc/effects/autowah.cpp for CXX dependencies
+[82/267] Scanning /blfs/builds/openal-soft-1.25.1/alc/effects/reverb.cpp for CXX dependencies
+[83/267] Scanning /blfs/builds/openal-soft-1.25.1/alc/effects/dedicated.cpp for CXX dependencies
+[84/267] Scanning /blfs/builds/openal-soft-1.25.1/alc/effects/echo.cpp for CXX dependencies
+[85/267] Scanning /blfs/builds/openal-soft-1.25.1/alc/effects/equalizer.cpp for CXX dependencies
+[86/267] Scanning /blfs/builds/openal-soft-1.25.1/alc/effects/distortion.cpp for CXX dependencies
+[87/267] Scanning /blfs/builds/openal-soft-1.25.1/alc/events.cpp for CXX dependencies
+[88/267] Scanning /blfs/builds/openal-soft-1.25.1/alc/device.cpp for CXX dependencies
+[89/267] Scanning /blfs/builds/openal-soft-1.25.1/alc/effects/vmorpher.cpp for CXX dependencies
+[90/267] Scanning /blfs/builds/openal-soft-1.25.1/alc/backends/base.cpp for CXX dependencies
+[91/267] Scanning /blfs/builds/openal-soft-1.25.1/alc/backends/null.cpp for CXX dependencies
+[92/267] Scanning /blfs/builds/openal-soft-1.25.1/alc/panning.cpp for CXX dependencies
+[93/267] Scanning /blfs/builds/openal-soft-1.25.1/alc/backends/pulseaudio.cpp for CXX dependencies
+[94/267] Scanning /blfs/builds/openal-soft-1.25.1/alc/backends/loopback.cpp for CXX dependencies
+[95/267] Scanning /blfs/builds/openal-soft-1.25.1/alc/backends/alsa.cpp for CXX dependencies
+[96/267] Scanning /blfs/builds/openal-soft-1.25.1/alc/backends/pipewire.cpp for CXX dependencies
+[97/267] Scanning /blfs/builds/openal-soft-1.25.1/alc/backends/oss.cpp for CXX dependencies
+[98/267] Scanning /blfs/builds/openal-soft-1.25.1/alc/backends/wave.cpp for CXX dependencies
+[99/267] Building CXX object CMakeFiles/uhjencoder.dir/utils/uhjencoder.cpp.o
+[100/267] Scanning /blfs/builds/openal-soft-1.25.1/core/cpu_caps.cpp for CXX dependencies
+[101/267] Scanning /blfs/builds/openal-soft-1.25.1/core/bs2b.cpp for CXX dependencies
+[102/267] Scanning /blfs/builds/openal-soft-1.25.1/core/bformatdec.cpp for CXX dependencies
+[103/267] Scanning /blfs/builds/openal-soft-1.25.1/core/bsinc_tables.cpp for CXX dependencies
+[104/267] Scanning /blfs/builds/openal-soft-1.25.1/core/ambdec.cpp for CXX dependencies
+[105/267] Scanning /blfs/builds/openal-soft-1.25.1/core/fpu_ctrl.cpp for CXX dependencies
+[106/267] Scanning /blfs/builds/openal-soft-1.25.1/core/device.cpp for CXX dependencies
+[107/267] Scanning /blfs/builds/openal-soft-1.25.1/core/devformat.cpp for CXX dependencies
+[108/267] Scanning /blfs/builds/openal-soft-1.25.1/core/effectslot.cpp for CXX dependencies
+[109/267] Scanning /blfs/builds/openal-soft-1.25.1/core/filters/nfc.cpp for CXX dependencies
+[110/267] Scanning /blfs/builds/openal-soft-1.25.1/core/converter.cpp for CXX dependencies
+[111/267] Scanning /blfs/builds/openal-soft-1.25.1/core/ambidefs.cpp for CXX dependencies
+[112/267] Scanning /blfs/builds/openal-soft-1.25.1/core/context.cpp for CXX dependencies
+[113/267] Scanning /blfs/builds/openal-soft-1.25.1/core/cubic_tables.cpp for CXX dependencies
+[114/267] Scanning /blfs/builds/openal-soft-1.25.1/core/uiddefs.cpp for CXX dependencies
+[115/267] Scanning /blfs/builds/openal-soft-1.25.1/core/except.cpp for CXX dependencies
+[116/267] Scanning /blfs/builds/openal-soft-1.25.1/core/filters/splitter.cpp for CXX dependencies
+[117/267] Scanning /blfs/builds/openal-soft-1.25.1/core/hrtf_resource.cpp for CXX dependencies
+[118/267] Scanning /blfs/builds/openal-soft-1.25.1/core/hrtf.cpp for CXX dependencies
+[119/267] Scanning /blfs/builds/openal-soft-1.25.1/core/mastering.cpp for CXX dependencies
+[120/267] Scanning /blfs/builds/openal-soft-1.25.1/core/hrtf_loader.cpp for CXX dependencies
+[121/267] Scanning /blfs/builds/openal-soft-1.25.1/core/mixer/mixer_sse3.cpp for CXX dependencies
+[122/267] Scanning /blfs/builds/openal-soft-1.25.1/core/mixer.cpp for CXX dependencies
+[123/267] Scanning /blfs/builds/openal-soft-1.25.1/core/filters/biquad.cpp for CXX dependencies
+[124/267] Scanning /blfs/builds/openal-soft-1.25.1/core/mixer/mixer_c.cpp for CXX dependencies
+[125/267] Scanning /blfs/builds/openal-soft-1.25.1/core/helpers.cpp for CXX dependencies
+[126/267] Scanning /blfs/builds/openal-soft-1.25.1/core/storage_formats.cpp for CXX dependencies
+[127/267] Scanning /blfs/builds/openal-soft-1.25.1/core/mixer/mixer_sse.cpp for CXX dependencies
+[128/267] Scanning /blfs/builds/openal-soft-1.25.1/core/uhjfilter.cpp for CXX dependencies
+[129/267] Scanning /blfs/builds/openal-soft-1.25.1/core/mixer/mixer_sse2.cpp for CXX dependencies
+[130/267] Scanning /blfs/builds/openal-soft-1.25.1/core/tsmefilter.cpp for CXX dependencies
+[131/267] Scanning /blfs/builds/openal-soft-1.25.1/core/logging.cpp for CXX dependencies
+[132/267] Building C object CMakeFiles/alsoft.excommon.dir/examples/common/alhelpers.c.o
+[133/267] Scanning /blfs/builds/openal-soft-1.25.1/core/rtkit.cpp for CXX dependencies
+[134/267] Scanning /blfs/builds/openal-soft-1.25.1/examples/allafplay.cpp for CXX dependencies
+[135/267] Building C object CMakeFiles/altonegen.dir/examples/altonegen.c.o
+[136/267] Building C object CMakeFiles/openal-info.dir/utils/openal-info.c.o
+[137/267] Generating CXX dyndep file CMakeFiles/allafplay.dir/CXX.dd
+[138/267] Scanning /blfs/builds/openal-soft-1.25.1/core/voice.cpp for CXX dependencies
+[139/267] Building C object CMakeFiles/alplay.dir/examples/alplay.c.o
+[140/267] Scanning /blfs/builds/openal-soft-1.25.1/examples/aldirect.cpp for CXX dependencies
+[141/267] Building C object CMakeFiles/alrecord.dir/examples/alrecord.c.o
+[142/267] Generating CXX dyndep file CMakeFiles/aldirect.dir/CXX.dd
+[143/267] Scanning /blfs/builds/openal-soft-1.25.1/examples/aldebug.cpp for CXX dependencies
+[144/267] Generating CXX dyndep file CMakeFiles/aldebug.dir/CXX.dd
+[145/267] Building C object CMakeFiles/allatency.dir/examples/allatency.c.o
+[146/267] Building C object CMakeFiles/alreverb.dir/examples/alreverb.c.o
+[147/267] Linking CXX executable uhjdecoder
+[148/267] Scanning /blfs/builds/openal-soft-1.25.1/core/mixer/mixer_sse41.cpp for CXX dependencies
+[149/267] Generating CXX dyndep file CMakeFiles/OpenAL.dir/CXX.dd
+[150/267] Linking CXX executable uhjencoder
+[151/267] Scanning /blfs/builds/openal-soft-1.25.1/examples/alstreamcb.cpp for CXX dependencies
+[152/267] Building C object CMakeFiles/almultireverb.dir/examples/almultireverb.c.o
+[153/267] Building C object CMakeFiles/alhrtf.dir/examples/alhrtf.c.o
+[154/267] Building C object CMakeFiles/alstream.dir/examples/alstream.c.o
+[155/267] Building C object CMakeFiles/alconvolve.dir/examples/alconvolve.c.o
+[156/267] Building CXX object CMakeFiles/OpenAL.dir/al/effects/echo.cpp.o
+[157/267] Building CXX object CMakeFiles/OpenAL.dir/al/effects/compressor.cpp.o
+[158/267] Building CXX object CMakeFiles/OpenAL.dir/al/effects/autowah.cpp.o
+[159/267] Building CXX object CMakeFiles/aldebug.dir/examples/aldebug.cpp.o
+[160/267] Building CXX object CMakeFiles/aldirect.dir/examples/aldirect.cpp.o
+[161/267] Building CXX object CMakeFiles/OpenAL.dir/al/effects/convolution.cpp.o
+[162/267] Building CXX object CMakeFiles/OpenAL.dir/al/effects/dedicated.cpp.o
+[163/267] Building CXX object CMakeFiles/OpenAL.dir/al/effects/distortion.cpp.o
+[164/267] Building CXX object CMakeFiles/OpenAL.dir/al/effects/effects.cpp.o
+[165/267] Building CXX object CMakeFiles/OpenAL.dir/al/effects/equalizer.cpp.o
+[166/267] Building CXX object CMakeFiles/OpenAL.dir/al/effect.cpp.o
+[167/267] Building CXX object CMakeFiles/OpenAL.dir/al/effects/reverb.cpp.o
+[168/267] Building CXX object CMakeFiles/OpenAL.dir/al/effects/pshifter.cpp.o
+[169/267] Building CXX object CMakeFiles/OpenAL.dir/al/effects/null.cpp.o
+[170/267] Building CXX object CMakeFiles/OpenAL.dir/al/effects/chorus.cpp.o
+[171/267] Building CXX object CMakeFiles/allafplay.dir/examples/allafplay.cpp.o
+[172/267] Building CXX object CMakeFiles/OpenAL.dir/al/effects/modulator.cpp.o
+[173/267] Building CXX object CMakeFiles/OpenAL.dir/al/extension.cpp.o
+[174/267] Building CXX object CMakeFiles/OpenAL.dir/al/effects/vmorpher.cpp.o
+[175/267] Building CXX object CMakeFiles/OpenAL.dir/al/debug.cpp.o
+[176/267] Building CXX object CMakeFiles/OpenAL.dir/al/auxeffectslot.cpp.o
+[177/267] Building CXX object CMakeFiles/OpenAL.dir/al/listener.cpp.o
+[178/267] Building CXX object CMakeFiles/OpenAL.dir/al/effects/fshifter.cpp.o
+[179/267] Building CXX object CMakeFiles/OpenAL.dir/al/event.cpp.o
+[180/267] Building CXX object CMakeFiles/OpenAL.dir/al/error.cpp.o
+[181/267] Building CXX object CMakeFiles/OpenAL.dir/al/filter.cpp.o
+[182/267] Building CXX object CMakeFiles/OpenAL.dir/alc/device.cpp.o
+[183/267] Building CXX object CMakeFiles/OpenAL.dir/alc/effects/autowah.cpp.o
+[184/267] Building CXX object CMakeFiles/OpenAL.dir/alc/effects/compressor.cpp.o
+[185/267] Building CXX object CMakeFiles/OpenAL.dir/alc/effects/chorus.cpp.o
+[186/267] Building CXX object CMakeFiles/OpenAL.dir/alc/effects/dedicated.cpp.o
+[187/267] Building CXX object CMakeFiles/OpenAL.dir/alc/alconfig.cpp.o
+[188/267] Building CXX object CMakeFiles/OpenAL.dir/alc/effects/distortion.cpp.o
+[189/267] Building CXX object CMakeFiles/OpenAL.dir/alc/effects/null.cpp.o
+[190/267] Building CXX object CMakeFiles/OpenAL.dir/alc/effects/equalizer.cpp.o
+[191/267] Building CXX object CMakeFiles/OpenAL.dir/al/buffer.cpp.o
+[192/267] Building CXX object CMakeFiles/OpenAL.dir/alc/context.cpp.o
+[193/267] Building CXX object CMakeFiles/OpenAL.dir/alc/effects/convolution.cpp.o
+[194/267] Building CXX object CMakeFiles/OpenAL.dir/alc/effects/fshifter.cpp.o
+[195/267] Building CXX object CMakeFiles/OpenAL.dir/alc/effects/echo.cpp.o
+[196/267] Building CXX object CMakeFiles/OpenAL.dir/al/state.cpp.o
+[197/267] Building CXX object CMakeFiles/OpenAL.dir/alc/effects/modulator.cpp.o
+[198/267] Building CXX object CMakeFiles/OpenAL.dir/alc/effects/pshifter.cpp.o
+[199/267] Building CXX object CMakeFiles/OpenAL.dir/alc/alu.cpp.o
+[200/267] Building CXX object CMakeFiles/OpenAL.dir/alc/effects/vmorpher.cpp.o
+[201/267] Building CXX object CMakeFiles/OpenAL.dir/alc/events.cpp.o
+[202/267] Building CXX object CMakeFiles/OpenAL.dir/al/source.cpp.o
+/blfs/builds/openal-soft-1.25.1/al/source.cpp: In function ‘void {anonymous}::StartSources(gsl::not_null<al::Context*>, std::span<const gsl::not_null<al::Source*> >, std::chrono::nanoseconds)’:
+/blfs/builds/openal-soft-1.25.1/al/source.cpp:2539:37: warning: loop variable ‘source’ creates a copy from type ‘const gsl::not_null<al::Source*>’ [-Wrange-loop-construct]
+ 2539 |             for(const gsl::not_null source : srchandles)
+      |                                     ^~~~~~
+/blfs/builds/openal-soft-1.25.1/al/source.cpp:2539:37: note: use reference type to prevent copying
+ 2539 |             for(const gsl::not_null source : srchandles)
+      |                                     ^~~~~~
+      |                                     &
+[203/267] Building CXX object CMakeFiles/OpenAL.dir/alc/backends/loopback.cpp.o
+[204/267] Building CXX object CMakeFiles/OpenAL.dir/alc/effects/reverb.cpp.o
+[205/267] Building CXX object CMakeFiles/OpenAL.dir/alc/backends/null.cpp.o
+[206/267] Building CXX object CMakeFiles/OpenAL.dir/core/bs2b.cpp.o
+[207/267] Building CXX object CMakeFiles/OpenAL.dir/core/ambidefs.cpp.o
+[208/267] Building CXX object CMakeFiles/OpenAL.dir/core/bformatdec.cpp.o
+[209/267] Building CXX object CMakeFiles/OpenAL.dir/core/cpu_caps.cpp.o
+[210/267] Building CXX object CMakeFiles/OpenAL.dir/alc/backends/base.cpp.o
+[211/267] Building CXX object CMakeFiles/OpenAL.dir/core/bsinc_tables.cpp.o
+[212/267] Building CXX object CMakeFiles/OpenAL.dir/alc/panning.cpp.o
+[213/267] Building CXX object CMakeFiles/OpenAL.dir/core/devformat.cpp.o
+[214/267] Building CXX object CMakeFiles/OpenAL.dir/core/cubic_tables.cpp.o
+[215/267] Building CXX object CMakeFiles/OpenAL.dir/core/context.cpp.o
+[216/267] Building CXX object CMakeFiles/OpenAL.dir/core/converter.cpp.o
+[217/267] Building CXX object CMakeFiles/OpenAL.dir/alc/backends/wave.cpp.o
+[218/267] Building CXX object CMakeFiles/OpenAL.dir/core/fpu_ctrl.cpp.o
+[219/267] Building CXX object CMakeFiles/OpenAL.dir/core/except.cpp.o
+[220/267] Building CXX object CMakeFiles/OpenAL.dir/alc/backends/oss.cpp.o
+[221/267] Building CXX object CMakeFiles/OpenAL.dir/alc/alc.cpp.o
+[222/267] Building CXX object CMakeFiles/OpenAL.dir/core/hrtf_resource.cpp.o
+[223/267] Building CXX object CMakeFiles/OpenAL.dir/core/device.cpp.o
+[224/267] Building CXX object CMakeFiles/OpenAL.dir/alc/backends/alsa.cpp.o
+[225/267] Building CXX object CMakeFiles/OpenAL.dir/core/filters/biquad.cpp.o
+[226/267] Building CXX object CMakeFiles/OpenAL.dir/core/filters/nfc.cpp.o
+[227/267] Building CXX object CMakeFiles/OpenAL.dir/core/filters/splitter.cpp.o
+[228/267] Building CXX object CMakeFiles/OpenAL.dir/core/uiddefs.cpp.o
+[229/267] Building CXX object CMakeFiles/OpenAL.dir/core/effectslot.cpp.o
+[230/267] Building CXX object CMakeFiles/OpenAL.dir/core/ambdec.cpp.o
+[231/267] Building CXX object CMakeFiles/OpenAL.dir/core/storage_formats.cpp.o
+[232/267] Building CXX object CMakeFiles/OpenAL.dir/alc/backends/pulseaudio.cpp.o
+[233/267] Building CXX object CMakeFiles/OpenAL.dir/core/mixer.cpp.o
+[234/267] Building CXX object CMakeFiles/OpenAL.dir/core/mixer/mixer_sse3.cpp.o
+[235/267] Building CXX object CMakeFiles/OpenAL.dir/core/mastering.cpp.o
+[236/267] Generating CXX dyndep file CMakeFiles/alstreamcb.dir/CXX.dd
+[237/267] Building CXX object CMakeFiles/OpenAL.dir/alc/backends/pipewire.cpp.o
+[238/267] Building CXX object CMakeFiles/OpenAL.dir/core/rtkit.cpp.o
+[239/267] Building CXX object CMakeFiles/OpenAL.dir/core/helpers.cpp.o
+[240/267] Building CXX object CMakeFiles/OpenAL.dir/core/mixer/mixer_c.cpp.o
+[241/267] Building CXX object CMakeFiles/OpenAL.dir/core/mixer/mixer_sse.cpp.o
+[242/267] Building CXX object CMakeFiles/OpenAL.dir/core/uhjfilter.cpp.o
+[243/267] Building CXX object CMakeFiles/OpenAL.dir/core/mixer/mixer_sse41.cpp.o
+[244/267] Building CXX object CMakeFiles/OpenAL.dir/core/tsmefilter.cpp.o
+[245/267] Building CXX object CMakeFiles/OpenAL.dir/core/mixer/mixer_sse2.cpp.o
+[246/267] Building CXX object CMakeFiles/OpenAL.dir/core/logging.cpp.o
+[247/267] Building CXX object CMakeFiles/alstreamcb.dir/examples/alstreamcb.cpp.o
+[248/267] Building CXX object CMakeFiles/OpenAL.dir/core/voice.cpp.o
+[249/267] Building CXX object CMakeFiles/OpenAL.dir/core/hrtf.cpp.o
+In file included from /usr/include/c++/15.2.0/tuple:43,
+                 from /usr/include/c++/15.2.0/bits/unique_ptr.h:37,
+                 from /usr/include/c++/15.2.0/memory:80,
+                 from /blfs/builds/openal-soft-1.25.1/core/hrtf.h:6,
+                 from /blfs/builds/openal-soft-1.25.1/core/hrtf.cpp:4:
+In function ‘constexpr _Res std::__invoke_impl(__invoke_other, _Fn&&, _Args&& ...) [with _Res = float; _Fn = DirectHrtfState::build(const HrtfStore*, u32, bool, std::span<const AngularPoint>, std::span<const std::array<float, 25> >, f32, std::span<const float, 5>)::<lambda(f64)>&; _Args = {double&}]’,
+    inlined from ‘constexpr typename std::__invoke_result<_Functor, _ArgTypes>::type std::__invoke(_Callable&&, _Args&& ...) [with _Callable = DirectHrtfState::build(const HrtfStore*, u32, bool, std::span<const AngularPoint>, std::span<const std::array<float, 25> >, f32, std::span<const float, 5>)::<lambda(f64)>&; _Args = {double&}]’ at /usr/include/c++/15.2.0/bits/invoke.h:98:40,
+    inlined from ‘constexpr std::ranges::unary_transform_result<_Iter, _Out> std::ranges::__transform_fn::operator()(_Iter, _Sent, _Out, _Fp, _Proj) const [with _Iter = std::ranges::join_view<std::ranges::join_view<std::ranges::ref_view<std::vector<std::array<std::array<double, 2>, 128> > > > >::_Iterator<true>; _Sent = std::ranges::join_view<std::ranges::join_view<std::ranges::ref_view<std::vector<std::array<std::array<double, 2>, 128> > > > >::_Iterator<true>; _Out = std::ranges::join_view<std::ranges::join_view<std::ranges::transform_view<std::ranges::ref_view<al::FlexArray<HrtfChannelState> >, std::array<std::array<float, 2>, 128> HrtfChannelState::*> > >::_Iterator<false>; _Fp = DirectHrtfState::build(const HrtfStore*, u32, bool, std::span<const AngularPoint>, std::span<const std::array<float, 25> >, f32, std::span<const float, 5>)::<lambda(f64)>; _Proj = std::identity]’ at /usr/include/c++/15.2.0/bits/ranges_algo.h:730:29,
+    inlined from ‘constexpr std::ranges::unary_transform_result<std::ranges::borrowed_iterator_t<_Range>, _Out> std::ranges::__transform_fn::operator()(_Range&&, _Out, _Fp, _Proj) const [with _Range = std::ranges::join_view<std::ranges::join_view<std::ranges::ref_view<std::vector<std::array<std::array<double, 2>, 128> > > > >; _Out = std::ranges::join_view<std::ranges::join_view<std::ranges::transform_view<std::ranges::ref_view<al::FlexArray<HrtfChannelState> >, std::array<std::array<float, 2>, 128> HrtfChannelState::*> > >::_Iterator<false>; _Fp = DirectHrtfState::build(const HrtfStore*, u32, bool, std::span<const AngularPoint>, std::span<const std::array<float, 25> >, f32, std::span<const float, 5>)::<lambda(f64)>; _Proj = std::identity]’ at /usr/include/c++/15.2.0/bits/ranges_algo.h:742:16,
+    inlined from ‘void DirectHrtfState::build(const HrtfStore*, u32, bool, std::span<const AngularPoint>, std::span<const std::array<float, 25> >, f32, std::span<const float, 5>)’ at /blfs/builds/openal-soft-1.25.1/core/hrtf.cpp:352:41:
+/usr/include/c++/15.2.0/bits/invoke.h:63:36: warning: ‘*(double**)((char*)&__first1 + offsetof(std::ranges::join_view<std::ranges::join_view<std::ranges::ref_view<std::vector<std::array<std::array<double, 2>, 128>, std::allocator<std::array<std::array<double, 2>, 128> > > > > >::_Iterator<true>,std::ranges::join_view<std::ranges::join_view<std::ranges::ref_view<std::vector<std::array<std::array<double, 2>, 128>, std::allocator<std::array<std::array<double, 2>, 128> > > > > >::_Iterator<true>::_M_inner.std::optional<double*>::<unnamed>.std::_Optional_base<double*, true, true>::_M_payload.std::_Optional_payload<double*, true, true, true>::<unnamed>.std::_Optional_payload_base<double*>::_M_payload))’ may be used uninitialized [-Wmaybe-uninitialized]
+   63 |     { return std::forward<_Fn>(__f)(std::forward<_Args>(__args)...); }
+      |              ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/blfs/builds/openal-soft-1.25.1/core/hrtf.cpp: In member function ‘void DirectHrtfState::build(const HrtfStore*, u32, bool, std::span<const AngularPoint>, std::span<const std::array<float, 25> >, f32, std::span<const float, 5>)’:
+/blfs/builds/openal-soft-1.25.1/core/hrtf.cpp:260:6: note: ‘*(double**)((char*)&__first1 + offsetof(std::ranges::join_view<std::ranges::join_view<std::ranges::ref_view<std::vector<std::array<std::array<double, 2>, 128>, std::allocator<std::array<std::array<double, 2>, 128> > > > > >::_Iterator<true>,std::ranges::join_view<std::ranges::join_view<std::ranges::ref_view<std::vector<std::array<std::array<double, 2>, 128>, std::allocator<std::array<std::array<double, 2>, 128> > > > > >::_Iterator<true>::_M_inner.std::optional<double*>::<unnamed>.std::_Optional_base<double*, true, true>::_M_payload.std::_Optional_payload<double*, true, true, true>::<unnamed>.std::_Optional_payload_base<double*>::_M_payload))’ was declared here
+  260 | void DirectHrtfState::build(HrtfStore const *const Hrtf, u32 const irSize, bool const perHrirMin,
+      |      ^~~~~~~~~~~~~~~
+[250/267] Building CXX object CMakeFiles/OpenAL.dir/core/hrtf_loader.cpp.o
+[251/267] Linking CXX shared library libopenal.so.1.25.1
+[252/267] Creating library symlink libopenal.so.1 libopenal.so
+[253/267] Linking C static library libalsoft.excommon.a
+[254/267] Linking C executable openal-info
+[255/267] Linking C executable alstream
+[256/267] Linking C executable alplay
+[257/267] Linking C executable altonegen
+[258/267] Linking CXX executable aldirect
+[259/267] Linking C executable almultireverb
+[260/267] Linking C executable alrecord
+[261/267] Linking C executable alreverb
+[262/267] Linking CXX executable alconvolve
+[263/267] Linking CXX executable allafplay
+[264/267] Linking C executable allatency
+[265/267] Linking C executable alhrtf
+[266/267] Linking CXX executable aldebug
+[267/267] Linking CXX executable alstreamcb
+[0/1] Install the project...
+-- Install configuration: "Release"
+-- Installing: /pkgs/openal/usr/lib/libopenal.so.1.25.1
+-- Installing: /pkgs/openal/usr/lib/libopenal.so.1
+-- Installing: /pkgs/openal/usr/lib/libopenal.so
+-- Installing: /pkgs/openal/usr/lib/cmake/OpenAL/OpenALTargets.cmake
+-- Installing: /pkgs/openal/usr/lib/cmake/OpenAL/OpenALTargets-release.cmake
+-- Installing: /pkgs/openal/usr/include/AL
+-- Installing: /pkgs/openal/usr/include/AL/efx.h
+-- Installing: /pkgs/openal/usr/include/AL/alext.h
+-- Installing: /pkgs/openal/usr/include/AL/al.h
+-- Installing: /pkgs/openal/usr/include/AL/efx-creative.h
+-- Installing: /pkgs/openal/usr/include/AL/efx-presets.h
+-- Installing: /pkgs/openal/usr/include/AL/alc.h
+-- Installing: /pkgs/openal/usr/lib/pkgconfig/openal.pc
+-- Installing: /pkgs/openal/usr/lib/cmake/OpenAL/OpenALConfig.cmake
+-- Installing: /pkgs/openal/usr/share/openal/alsoftrc.sample
+-- Installing: /pkgs/openal/usr/share/openal/hrtf
+-- Installing: /pkgs/openal/usr/share/openal/hrtf/Default HRTF.mhr
+-- Installing: /pkgs/openal/usr/share/openal/presets
+-- Installing: /pkgs/openal/usr/share/openal/presets/itu5.1.ambdec
+-- Installing: /pkgs/openal/usr/share/openal/presets/3D7.1.ambdec
+-- Installing: /pkgs/openal/usr/share/openal/presets/presets.txt
+-- Installing: /pkgs/openal/usr/share/openal/presets/hex-quad.ambdec
+-- Installing: /pkgs/openal/usr/share/openal/presets/rectangle.ambdec
+-- Installing: /pkgs/openal/usr/share/openal/presets/hexagon.ambdec
+-- Installing: /pkgs/openal/usr/share/openal/presets/itu5.1-nocenter.ambdec
+-- Installing: /pkgs/openal/usr/share/openal/presets/square.ambdec
+-- Installing: /pkgs/openal/usr/bin/openal-info
+-- Set non-toolchain portion of runtime path of "/pkgs/openal/usr/bin/openal-info" to ""
+-- Installing: /pkgs/openal/usr/bin/altonegen
+-- Set non-toolchain portion of runtime path of "/pkgs/openal/usr/bin/altonegen" to ""
+-- Installing: /pkgs/openal/usr/bin/alrecord
+-- Set non-toolchain portion of runtime path of "/pkgs/openal/usr/bin/alrecord" to ""
+-- Installing: /pkgs/openal/usr/bin/aldebug
+-- Set non-toolchain portion of runtime path of "/pkgs/openal/usr/bin/aldebug" to ""
+-- Installing: /pkgs/openal/usr/bin/allafplay
+-- Set non-toolchain portion of runtime path of "/pkgs/openal/usr/bin/allafplay" to ""
+-- Installing: /pkgs/openal/usr/bin/alplay
+-- Set non-toolchain portion of runtime path of "/pkgs/openal/usr/bin/alplay" to ""
+-- Installing: /pkgs/openal/usr/bin/alstream
+-- Set non-toolchain portion of runtime path of "/pkgs/openal/usr/bin/alstream" to ""
+-- Installing: /pkgs/openal/usr/bin/alreverb
+-- Set non-toolchain portion of runtime path of "/pkgs/openal/usr/bin/alreverb" to ""
+-- Installing: /pkgs/openal/usr/bin/almultireverb
+-- Set non-toolchain portion of runtime path of "/pkgs/openal/usr/bin/almultireverb" to ""
+-- Installing: /pkgs/openal/usr/bin/allatency
+-- Set non-toolchain portion of runtime path of "/pkgs/openal/usr/bin/allatency" to ""
+-- Installing: /pkgs/openal/usr/bin/alhrtf
+-- Set non-toolchain portion of runtime path of "/pkgs/openal/usr/bin/alhrtf" to ""
+-- Installing: /pkgs/openal/usr/bin/aldirect
+-- Set non-toolchain portion of runtime path of "/pkgs/openal/usr/bin/aldirect" to ""
+[0/1] Install the project...
+-- Install configuration: "Release"
+-- Installing: /usr/lib/libopenal.so.1.25.1
+-- Installing: /usr/lib/libopenal.so.1
+-- Up-to-date: /usr/lib/libopenal.so
+-- Installing: /usr/lib/cmake/OpenAL/OpenALTargets.cmake
+-- Installing: /usr/lib/cmake/OpenAL/OpenALTargets-release.cmake
+-- Up-to-date: /usr/include/AL
+-- Installing: /usr/include/AL/efx.h
+-- Installing: /usr/include/AL/alext.h
+-- Installing: /usr/include/AL/al.h
+-- Installing: /usr/include/AL/efx-creative.h
+-- Installing: /usr/include/AL/efx-presets.h
+-- Installing: /usr/include/AL/alc.h
+-- Installing: /usr/lib/pkgconfig/openal.pc
+-- Installing: /usr/lib/cmake/OpenAL/OpenALConfig.cmake
+-- Installing: /usr/share/openal/alsoftrc.sample
+-- Up-to-date: /usr/share/openal/hrtf
+-- Installing: /usr/share/openal/hrtf/Default HRTF.mhr
+-- Up-to-date: /usr/share/openal/presets
+-- Installing: /usr/share/openal/presets/itu5.1.ambdec
+-- Installing: /usr/share/openal/presets/3D7.1.ambdec
+-- Installing: /usr/share/openal/presets/presets.txt
+-- Installing: /usr/share/openal/presets/hex-quad.ambdec
+-- Installing: /usr/share/openal/presets/rectangle.ambdec
+-- Installing: /usr/share/openal/presets/hexagon.ambdec
+-- Installing: /usr/share/openal/presets/itu5.1-nocenter.ambdec
+-- Installing: /usr/share/openal/presets/square.ambdec
+-- Installing: /usr/bin/openal-info
+-- Set non-toolchain portion of runtime path of "/usr/bin/openal-info" to ""
+-- Installing: /usr/bin/altonegen
+-- Set non-toolchain portion of runtime path of "/usr/bin/altonegen" to ""
+-- Installing: /usr/bin/alrecord
+-- Set non-toolchain portion of runtime path of "/usr/bin/alrecord" to ""
+-- Installing: /usr/bin/aldebug
+-- Set non-toolchain portion of runtime path of "/usr/bin/aldebug" to ""
+-- Installing: /usr/bin/allafplay
+-- Set non-toolchain portion of runtime path of "/usr/bin/allafplay" to ""
+-- Installing: /usr/bin/alplay
+-- Set non-toolchain portion of runtime path of "/usr/bin/alplay" to ""
+-- Installing: /usr/bin/alstream
+-- Set non-toolchain portion of runtime path of "/usr/bin/alstream" to ""
+-- Installing: /usr/bin/alreverb
+-- Set non-toolchain portion of runtime path of "/usr/bin/alreverb" to ""
+-- Installing: /usr/bin/almultireverb
+-- Set non-toolchain portion of runtime path of "/usr/bin/almultireverb" to ""
+-- Installing: /usr/bin/allatency
+-- Set non-toolchain portion of runtime path of "/usr/bin/allatency" to ""
+-- Installing: /usr/bin/alhrtf
+-- Set non-toolchain portion of runtime path of "/usr/bin/alhrtf" to ""
+-- Installing: /usr/bin/aldirect
+-- Set non-toolchain portion of runtime path of "/usr/bin/aldirect" to ""
+openal/
+openal/usr/
+openal/usr/include/
+openal/usr/include/AL/
+openal/usr/include/AL/efx.h
+openal/usr/include/AL/alext.h
+openal/usr/include/AL/al.h
+openal/usr/include/AL/efx-creative.h
+openal/usr/include/AL/efx-presets.h
+openal/usr/include/AL/alc.h
+openal/usr/share/
+openal/usr/share/openal/
+openal/usr/share/openal/presets/
+openal/usr/share/openal/presets/itu5.1.ambdec
+openal/usr/share/openal/presets/3D7.1.ambdec
+openal/usr/share/openal/presets/presets.txt
+openal/usr/share/openal/presets/hex-quad.ambdec
+openal/usr/share/openal/presets/rectangle.ambdec
+openal/usr/share/openal/presets/hexagon.ambdec
+openal/usr/share/openal/presets/itu5.1-nocenter.ambdec
+openal/usr/share/openal/presets/square.ambdec
+openal/usr/share/openal/alsoftrc.sample
+openal/usr/share/openal/hrtf/
+openal/usr/share/openal/hrtf/Default HRTF.mhr
+openal/usr/bin/
+openal/usr/bin/alstream
+openal/usr/bin/alplay
+openal/usr/bin/aldirect
+openal/usr/bin/aldebug
+openal/usr/bin/alhrtf
+openal/usr/bin/alreverb
+openal/usr/bin/openal-info
+openal/usr/bin/altonegen
+openal/usr/bin/almultireverb
+openal/usr/bin/allafplay
+openal/usr/bin/alrecord
+openal/usr/bin/allatency
+openal/usr/lib/
+openal/usr/lib/libopenal.so.1.25.1
+openal/usr/lib/libopenal.so
+openal/usr/lib/libopenal.so.1
+openal/usr/lib/pkgconfig/
+openal/usr/lib/pkgconfig/openal.pc
+openal/usr/lib/cmake/
+openal/usr/lib/cmake/OpenAL/
+openal/usr/lib/cmake/OpenAL/OpenALConfig.cmake
+openal/usr/lib/cmake/OpenAL/OpenALTargets.cmake
+openal/usr/lib/cmake/OpenAL/OpenALTargets-release.cmake
+openal/version
+openal/depends
+openal/make-depends
