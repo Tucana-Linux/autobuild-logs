@@ -1,0 +1,195 @@
+--2026-02-02 08:15:37--  https://git.sr.ht/~kennylevinsen/seatd/archive/0.9.2.tar.gz
+Resolving git.sr.ht (git.sr.ht)... 46.23.81.155, 2a03:6000:1813:1337::155
+Connecting to git.sr.ht (git.sr.ht)|46.23.81.155|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/tar+gzip]
+Saving to: ‘0.9.2.tar.gz’
+
+     0K .......... .......... .......... ..........            3.42M=0.01s
+
+2026-02-02 08:15:38 (3.42 MB/s) - ‘0.9.2.tar.gz’ saved [41920]
+
+seatd-0.9.2/
+seatd-0.9.2/.builds/
+seatd-0.9.2/.builds/alpine.yml
+seatd-0.9.2/.builds/archlinux.yml
+seatd-0.9.2/.builds/freebsd.yml
+seatd-0.9.2/.builds/netbsd.yml
+seatd-0.9.2/.clang-format
+seatd-0.9.2/.editorconfig
+seatd-0.9.2/LICENSE
+seatd-0.9.2/README.md
+seatd-0.9.2/common/
+seatd-0.9.2/common/connection.c
+seatd-0.9.2/common/drm.c
+seatd-0.9.2/common/evdev.c
+seatd-0.9.2/common/hidraw.c
+seatd-0.9.2/common/linked_list.c
+seatd-0.9.2/common/log.c
+seatd-0.9.2/common/terminal.c
+seatd-0.9.2/common/wscons.c
+seatd-0.9.2/contrib/
+seatd-0.9.2/contrib/systemd/
+seatd-0.9.2/contrib/systemd/seatd.service
+seatd-0.9.2/examples/
+seatd-0.9.2/examples/simpletest/
+seatd-0.9.2/examples/simpletest/main.c
+seatd-0.9.2/include/
+seatd-0.9.2/include/backend.h
+seatd-0.9.2/include/client.h
+seatd-0.9.2/include/connection.h
+seatd-0.9.2/include/drm.h
+seatd-0.9.2/include/evdev.h
+seatd-0.9.2/include/hidraw.h
+seatd-0.9.2/include/libseat.h
+seatd-0.9.2/include/linked_list.h
+seatd-0.9.2/include/log.h
+seatd-0.9.2/include/poller.h
+seatd-0.9.2/include/protocol.h
+seatd-0.9.2/include/seat.h
+seatd-0.9.2/include/server.h
+seatd-0.9.2/include/terminal.h
+seatd-0.9.2/include/test.h
+seatd-0.9.2/include/wscons.h
+seatd-0.9.2/libseat/
+seatd-0.9.2/libseat/backend/
+seatd-0.9.2/libseat/backend/logind.c
+seatd-0.9.2/libseat/backend/noop.c
+seatd-0.9.2/libseat/backend/seatd.c
+seatd-0.9.2/libseat/libseat.c
+seatd-0.9.2/libseat/libseat.syms
+seatd-0.9.2/man/
+seatd-0.9.2/man/seatd-launch.1.scd
+seatd-0.9.2/man/seatd.1.scd
+seatd-0.9.2/meson.build
+seatd-0.9.2/meson_options.txt
+seatd-0.9.2/seatd-launch/
+seatd-0.9.2/seatd-launch/seatd-launch.c
+seatd-0.9.2/seatd/
+seatd-0.9.2/seatd/client.c
+seatd-0.9.2/seatd/poller.c
+seatd-0.9.2/seatd/seat.c
+seatd-0.9.2/seatd/seatd.c
+seatd-0.9.2/seatd/server.c
+seatd-0.9.2/tests/
+seatd-0.9.2/tests/connection.c
+seatd-0.9.2/tests/linked_list.c
+seatd-0.9.2/tests/poller.c
+The Meson build system
+Version: 1.10.1
+Source dir: /blfs/builds/seatd-0.9.2
+Build dir: /blfs/builds/seatd-0.9.2/build
+Build type: native build
+Project name: seatd
+Project version: 0.9.2
+C compiler for the host machine: cc (gcc 15.2.0 "cc (GCC) 15.2.0")
+C linker for the host machine: cc ld.bfd 2.45
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Compiler for C supports arguments -Wundef: YES 
+Compiler for C supports arguments -Wunused: YES 
+Compiler for C supports arguments -Wlogical-op: YES 
+Compiler for C supports arguments -Wmissing-include-dirs: YES 
+Compiler for C supports arguments -Wold-style-definition: YES 
+Compiler for C supports arguments -Wpointer-arith: YES 
+Compiler for C supports arguments -Wstrict-aliasing: YES 
+Compiler for C supports arguments -Wstrict-prototypes: YES 
+Compiler for C supports arguments -Wimplicit-fallthrough: YES 
+Compiler for C supports arguments -Wmissing-prototypes: YES 
+Compiler for C supports arguments -Wno-unknown-warning-option: NO 
+Compiler for C supports arguments -Wno-unused-command-line-argument: NO 
+Compiler for C supports arguments -Wvla: YES 
+Compiler for C supports arguments -Wno-hardened: YES 
+Compiler for C supports arguments -fhardened: YES 
+Compiler for C supports link arguments -Wl,--exclude-libs=ALL: YES 
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Run-time dependency libsystemd found: YES 259
+Library rt found: YES
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Found CMake: /usr/bin/cmake (4.2.3)
+Build-time dependency scdoc found: NO (tried pkgconfig and cmake)
+Build targets in project: 7
+
+seatd 0.9.2
+
+    libseat-seatd  : YES
+    libseat-builtin: NO
+    libseat-systemd: YES
+    libseat-elogind: NO
+    server         : YES
+    man-pages      : NO
+
+  User defined options
+    buildtype      : plain
+    examples       : disabled
+    libseat-logind : systemd
+    prefix         : /usr
+    server         : enabled
+
+Found ninja-1.13.2 at /usr/bin/ninja
+WARNING: Running the setup command as `meson [options]` instead of `meson setup [options]` is ambiguous and deprecated.
+[1/36] Compiling C object libseat-private.a.p/common_linked_list.c.o
+[2/36] Compiling C object libseat-private.a.p/common_drm.c.o
+[3/36] Compiling C object seatd.p/common_linked_list.c.o
+[4/36] Compiling C object seatd.p/common_hidraw.c.o
+[5/36] Compiling C object libseat-private.a.p/common_log.c.o
+[6/36] Compiling C object seatd.p/common_drm.c.o
+[7/36] Compiling C object seatd.p/common_log.c.o
+[8/36] Compiling C object seatd.p/common_evdev.c.o
+[9/36] Compiling C object seatd.p/common_wscons.c.o
+[10/36] Compiling C object libseat.so.1.p/libseat_backend_noop.c.o
+[11/36] Compiling C object libseat.so.1.p/libseat_libseat.c.o
+[12/36] Compiling C object seatd.p/common_terminal.c.o
+[13/36] Compiling C object libseat-private.a.p/common_connection.c.o
+[14/36] Compiling C object linked_list_test.p/common_linked_list.c.o
+[15/36] Compiling C object seatd.p/seatd_seatd.c.o
+[16/36] Compiling C object seatd.p/seatd_server.c.o
+[17/36] Compiling C object seatd.p/common_connection.c.o
+[18/36] Compiling C object seatd.p/seatd_client.c.o
+[19/36] Compiling C object poller_test.p/common_linked_list.c.o
+[20/36] Compiling C object seatd-launch.p/seatd-launch_seatd-launch.c.o
+[21/36] Linking target seatd-launch
+[22/36] Compiling C object seatd.p/seatd_seat.c.o
+[23/36] Compiling C object seatd.p/seatd_poller.c.o
+[24/36] Compiling C object connection_test.p/common_connection.c.o
+[25/36] Compiling C object libseat-private.a.p/libseat_backend_seatd.c.o
+[26/36] Linking target seatd
+[27/36] Compiling C object poller_test.p/seatd_poller.c.o
+[28/36] Compiling C object connection_test.p/tests_connection.c.o
+[29/36] Compiling C object linked_list_test.p/tests_linked_list.c.o
+[30/36] Linking target connection_test
+[31/36] Compiling C object libseat-private.a.p/libseat_backend_logind.c.o
+[32/36] Linking static target libseat-private.a
+[33/36] Linking target linked_list_test
+[34/36] Compiling C object poller_test.p/tests_poller.c.o
+[35/36] Linking target poller_test
+[36/36] Linking target libseat.so.1
+[0/1] Installing files
+Installing libseat.so.1 to /pkgs/seatd/usr/lib
+Installing seatd to /pkgs/seatd/usr/bin
+Installing seatd-launch to /pkgs/seatd/usr/bin
+Installing /blfs/builds/seatd-0.9.2/include/libseat.h to /pkgs/seatd/usr/include
+Installing /blfs/builds/seatd-0.9.2/build/meson-private/libseat.pc to /pkgs/seatd/usr/lib/pkgconfig
+Installing symlink pointing to libseat.so.1 to /pkgs/seatd/usr/lib/libseat.so
+[0/1] Installing files
+Installing libseat.so.1 to /usr/lib
+Installing seatd to /usr/bin
+Installing seatd-launch to /usr/bin
+Installing /blfs/builds/seatd-0.9.2/include/libseat.h to /usr/include
+Installing /blfs/builds/seatd-0.9.2/build/meson-private/libseat.pc to /usr/lib/pkgconfig
+Installing symlink pointing to libseat.so.1 to /usr/lib/libseat.so
+seatd/
+seatd/usr/
+seatd/usr/include/
+seatd/usr/include/libseat.h
+seatd/usr/bin/
+seatd/usr/bin/seatd
+seatd/usr/bin/seatd-launch
+seatd/usr/lib/
+seatd/usr/lib/libseat.so.1
+seatd/usr/lib/libseat.so
+seatd/usr/lib/pkgconfig/
+seatd/usr/lib/pkgconfig/libseat.pc
+seatd/version
+seatd/depends
+seatd/make-depends
