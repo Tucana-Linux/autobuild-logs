@@ -1,0 +1,1615 @@
+--2026-02-11 09:25:20--  https://github.com/libjxl/libjxl/archive/v0.11.2/libjxl-0.11.2.tar.gz
+Resolving github.com (github.com)... 140.82.112.4
+Connecting to github.com (github.com)|140.82.112.4|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://codeload.github.com/libjxl/libjxl/tar.gz/refs/tags/v0.11.2 [following]
+--2026-02-11 09:25:20--  https://codeload.github.com/libjxl/libjxl/tar.gz/refs/tags/v0.11.2
+Resolving codeload.github.com (codeload.github.com)... 140.82.114.9
+Connecting to codeload.github.com (codeload.github.com)|140.82.114.9|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1882762 (1.8M) [application/x-gzip]
+Saving to: ‘libjxl-0.11.2.tar.gz’
+
+     0K .......... .......... .......... .......... ..........  2% 2.28M 1s
+    50K .......... .......... .......... .......... ..........  5% 2.03M 1s
+   100K .......... .......... .......... .......... ..........  8% 2.05M 1s
+   150K .......... .......... .......... .......... .......... 10% 3.97M 1s
+   200K .......... .......... .......... .......... .......... 13% 2.04M 1s
+   250K .......... .......... .......... .......... .......... 16% 2.05M 1s
+   300K .......... .......... .......... .......... .......... 19% 2.05M 1s
+   350K .......... .......... .......... .......... .......... 21% 4.03M 1s
+   400K .......... .......... .......... .......... .......... 24% 2.02M 1s
+   450K .......... .......... .......... .......... .......... 27% 2.05M 1s
+   500K .......... .......... .......... .......... .......... 29% 2.03M 1s
+   550K .......... .......... .......... .......... .......... 32% 2.06M 1s
+   600K .......... .......... .......... .......... .......... 35% 3.97M 1s
+   650K .......... .......... .......... .......... .......... 38% 3.97M 0s
+   700K .......... .......... .......... .......... .......... 40% 2.06M 0s
+   750K .......... .......... .......... .......... .......... 43% 4.05M 0s
+   800K .......... .......... .......... .......... .......... 46% 2.05M 0s
+   850K .......... .......... .......... .......... .......... 48% 3.97M 0s
+   900K .......... .......... .......... .......... .......... 51% 2.07M 0s
+   950K .......... .......... .......... .......... .......... 54% 4.04M 0s
+  1000K .......... .......... .......... .......... .......... 57% 3.99M 0s
+  1050K .......... .......... .......... .......... .......... 59% 2.05M 0s
+  1100K .......... .......... .......... .......... .......... 62% 73.5M 0s
+  1150K .......... .......... .......... .......... .......... 65% 4.13M 0s
+  1200K .......... .......... .......... .......... .......... 67% 4.03M 0s
+  1250K .......... .......... .......... .......... .......... 70%  100M 0s
+  1300K .......... .......... .......... .......... .......... 73% 4.42M 0s
+  1350K .......... .......... .......... .......... .......... 76% 4.16M 0s
+  1400K .......... .......... .......... .......... .......... 78% 86.9M 0s
+  1450K .......... .......... .......... .......... .......... 81%  105M 0s
+  1500K .......... .......... .......... .......... .......... 84% 4.29M 0s
+  1550K .......... .......... .......... .......... .......... 87% 4.28M 0s
+  1600K .......... .......... .......... .......... .......... 89% 72.2M 0s
+  1650K .......... .......... .......... .......... .......... 92% 89.2M 0s
+  1700K .......... .......... .......... .......... .......... 95% 4.50M 0s
+  1750K .......... .......... .......... .......... .......... 97% 76.1M 0s
+  1800K .......... .......... .......... ........             100% 93.1M=0.5s
+
+2026-02-11 09:25:21 (3.49 MB/s) - ‘libjxl-0.11.2.tar.gz’ saved [1882762/1882762]
+
+libjxl-0.11.2/
+libjxl-0.11.2/.bazelignore
+libjxl-0.11.2/.clang-format
+libjxl-0.11.2/.clang-tidy
+libjxl-0.11.2/.github/
+libjxl-0.11.2/.github/ISSUE_TEMPLATE/
+libjxl-0.11.2/.github/ISSUE_TEMPLATE/bug_report.md
+libjxl-0.11.2/.github/ISSUE_TEMPLATE/feature_request.md
+libjxl-0.11.2/.github/PULL_REQUEST_TEMPLATE.md
+libjxl-0.11.2/.github/dependabot.yml
+libjxl-0.11.2/.github/workflows/
+libjxl-0.11.2/.github/workflows/build_test.yml
+libjxl-0.11.2/.github/workflows/build_test_bazel.yml
+libjxl-0.11.2/.github/workflows/build_test_cross.yml
+libjxl-0.11.2/.github/workflows/build_test_md.yml
+libjxl-0.11.2/.github/workflows/build_test_msys2.yml
+libjxl-0.11.2/.github/workflows/build_test_wasm.yml
+libjxl-0.11.2/.github/workflows/codeql.yml
+libjxl-0.11.2/.github/workflows/conformance.yml
+libjxl-0.11.2/.github/workflows/debug_ci.yml
+libjxl-0.11.2/.github/workflows/dependency-review.yml
+libjxl-0.11.2/.github/workflows/fuzz.yml
+libjxl-0.11.2/.github/workflows/gitlab_mirror.yml
+libjxl-0.11.2/.github/workflows/highway.patch
+libjxl-0.11.2/.github/workflows/pages.yml
+libjxl-0.11.2/.github/workflows/pull_request.yml
+libjxl-0.11.2/.github/workflows/release.yaml
+libjxl-0.11.2/.github/workflows/scorecard.yml
+libjxl-0.11.2/.github/workflows/test_new_highway.yml
+libjxl-0.11.2/.gitignore
+libjxl-0.11.2/.gitmodules
+libjxl-0.11.2/.pre-commit-config.yaml
+libjxl-0.11.2/.readthedocs.yaml
+libjxl-0.11.2/AUTHORS
+libjxl-0.11.2/BUILD.bazel
+libjxl-0.11.2/BUILDING.md
+libjxl-0.11.2/BUILDING_Haiku.md
+libjxl-0.11.2/BUILDING_OSX.md
+libjxl-0.11.2/CHANGELOG.md
+libjxl-0.11.2/CMakeLists.txt
+libjxl-0.11.2/CODE_OF_CONDUCT.md
+libjxl-0.11.2/CONTRIBUTING.md
+libjxl-0.11.2/CONTRIBUTORS
+libjxl-0.11.2/LICENSE
+libjxl-0.11.2/MODULE.bazel
+libjxl-0.11.2/MODULE.bazel.lock
+libjxl-0.11.2/PATENTS
+libjxl-0.11.2/README.md
+libjxl-0.11.2/SECURITY.md
+libjxl-0.11.2/bash_test.sh
+libjxl-0.11.2/ci.sh
+libjxl-0.11.2/cmake/
+libjxl-0.11.2/cmake/FindAtomics.cmake
+libjxl-0.11.2/cmake/FindBrotli.cmake
+libjxl-0.11.2/cmake/FindHWY.cmake
+libjxl-0.11.2/cmake/FindLCMS2.cmake
+libjxl-0.11.2/debian/
+libjxl-0.11.2/debian/changelog
+libjxl-0.11.2/debian/compat
+libjxl-0.11.2/debian/control
+libjxl-0.11.2/debian/copyright
+libjxl-0.11.2/debian/jxl.install
+libjxl-0.11.2/debian/libjxl-dev.install
+libjxl-0.11.2/debian/libjxl-gdk-pixbuf.install
+libjxl-0.11.2/debian/libjxl-gimp-plugin.install
+libjxl-0.11.2/debian/libjxl.install
+libjxl-0.11.2/debian/rules
+libjxl-0.11.2/debian/source/
+libjxl-0.11.2/debian/source/format
+libjxl-0.11.2/deps.sh
+libjxl-0.11.2/doc/
+libjxl-0.11.2/doc/api.txt
+libjxl-0.11.2/doc/benchmarking.md
+libjxl-0.11.2/doc/building_and_testing.md
+libjxl-0.11.2/doc/building_wasm.md
+libjxl-0.11.2/doc/color_management.md
+libjxl-0.11.2/doc/debugging_workflows.md
+libjxl-0.11.2/doc/developing_in_debian.md
+libjxl-0.11.2/doc/developing_in_github.md
+libjxl-0.11.2/doc/developing_in_windows_msys.md
+libjxl-0.11.2/doc/developing_in_windows_vcpkg.md
+libjxl-0.11.2/doc/developing_with_crossroad.md
+libjxl-0.11.2/doc/encode_effort.md
+libjxl-0.11.2/doc/format_overview.md
+libjxl-0.11.2/doc/fuzzing.md
+libjxl-0.11.2/doc/jxl.svg
+libjxl-0.11.2/doc/man/
+libjxl-0.11.2/doc/man/cjxl.txt
+libjxl-0.11.2/doc/man/djxl.txt
+libjxl-0.11.2/doc/release.md
+libjxl-0.11.2/doc/software_support.md
+libjxl-0.11.2/doc/sphinx/
+libjxl-0.11.2/doc/sphinx/api.rst
+libjxl-0.11.2/doc/sphinx/api_color.rst
+libjxl-0.11.2/doc/sphinx/api_common.rst
+libjxl-0.11.2/doc/sphinx/api_cpp.rst
+libjxl-0.11.2/doc/sphinx/api_decoder.rst
+libjxl-0.11.2/doc/sphinx/api_encoder.rst
+libjxl-0.11.2/doc/sphinx/api_metadata.rst
+libjxl-0.11.2/doc/sphinx/api_threads.rst
+libjxl-0.11.2/doc/sphinx/conf.py
+libjxl-0.11.2/doc/sphinx/index.rst
+libjxl-0.11.2/doc/sphinx/requirements.txt
+libjxl-0.11.2/doc/vuln_playbook.md
+libjxl-0.11.2/doc/xl_overview.md
+libjxl-0.11.2/examples/
+libjxl-0.11.2/examples/CMakeLists.txt
+libjxl-0.11.2/examples/decode_exif_metadata.cc
+libjxl-0.11.2/examples/decode_oneshot.cc
+libjxl-0.11.2/examples/decode_progressive.cc
+libjxl-0.11.2/examples/encode_oneshot.cc
+libjxl-0.11.2/examples/examples.cmake
+libjxl-0.11.2/flake.lock
+libjxl-0.11.2/flake.nix
+libjxl-0.11.2/lib/
+libjxl-0.11.2/lib/BUILD
+libjxl-0.11.2/lib/CMakeLists.txt
+libjxl-0.11.2/lib/extras/
+libjxl-0.11.2/lib/extras/LICENSE.apngdis
+libjxl-0.11.2/lib/extras/README.md
+libjxl-0.11.2/lib/extras/alpha_blend.cc
+libjxl-0.11.2/lib/extras/alpha_blend.h
+libjxl-0.11.2/lib/extras/codec.cc
+libjxl-0.11.2/lib/extras/codec.h
+libjxl-0.11.2/lib/extras/codec_test.cc
+libjxl-0.11.2/lib/extras/common.cc
+libjxl-0.11.2/lib/extras/common.h
+libjxl-0.11.2/lib/extras/compressed_icc.cc
+libjxl-0.11.2/lib/extras/compressed_icc_test.cc
+libjxl-0.11.2/lib/extras/dec/
+libjxl-0.11.2/lib/extras/dec/apng.cc
+libjxl-0.11.2/lib/extras/dec/apng.h
+libjxl-0.11.2/lib/extras/dec/color_description.cc
+libjxl-0.11.2/lib/extras/dec/color_description.h
+libjxl-0.11.2/lib/extras/dec/color_description_test.cc
+libjxl-0.11.2/lib/extras/dec/color_hints.cc
+libjxl-0.11.2/lib/extras/dec/color_hints.h
+libjxl-0.11.2/lib/extras/dec/decode.cc
+libjxl-0.11.2/lib/extras/dec/decode.h
+libjxl-0.11.2/lib/extras/dec/exr.cc
+libjxl-0.11.2/lib/extras/dec/exr.h
+libjxl-0.11.2/lib/extras/dec/gif.cc
+libjxl-0.11.2/lib/extras/dec/gif.h
+libjxl-0.11.2/lib/extras/dec/jpegli.cc
+libjxl-0.11.2/lib/extras/dec/jpegli.h
+libjxl-0.11.2/lib/extras/dec/jpg.cc
+libjxl-0.11.2/lib/extras/dec/jpg.h
+libjxl-0.11.2/lib/extras/dec/jxl.cc
+libjxl-0.11.2/lib/extras/dec/jxl.h
+libjxl-0.11.2/lib/extras/dec/pgx.cc
+libjxl-0.11.2/lib/extras/dec/pgx.h
+libjxl-0.11.2/lib/extras/dec/pgx_test.cc
+libjxl-0.11.2/lib/extras/dec/pnm.cc
+libjxl-0.11.2/lib/extras/dec/pnm.h
+libjxl-0.11.2/lib/extras/enc/
+libjxl-0.11.2/lib/extras/enc/apng.cc
+libjxl-0.11.2/lib/extras/enc/apng.h
+libjxl-0.11.2/lib/extras/enc/encode.cc
+libjxl-0.11.2/lib/extras/enc/encode.h
+libjxl-0.11.2/lib/extras/enc/exr.cc
+libjxl-0.11.2/lib/extras/enc/exr.h
+libjxl-0.11.2/lib/extras/enc/jpegli.cc
+libjxl-0.11.2/lib/extras/enc/jpegli.h
+libjxl-0.11.2/lib/extras/enc/jpg.cc
+libjxl-0.11.2/lib/extras/enc/jpg.h
+libjxl-0.11.2/lib/extras/enc/jxl.cc
+libjxl-0.11.2/lib/extras/enc/jxl.h
+libjxl-0.11.2/lib/extras/enc/npy.cc
+libjxl-0.11.2/lib/extras/enc/npy.h
+libjxl-0.11.2/lib/extras/enc/pgx.cc
+libjxl-0.11.2/lib/extras/enc/pgx.h
+libjxl-0.11.2/lib/extras/enc/pnm.cc
+libjxl-0.11.2/lib/extras/enc/pnm.h
+libjxl-0.11.2/lib/extras/exif.cc
+libjxl-0.11.2/lib/extras/exif.h
+libjxl-0.11.2/lib/extras/gain_map.cc
+libjxl-0.11.2/lib/extras/gain_map_test.cc
+libjxl-0.11.2/lib/extras/hlg.cc
+libjxl-0.11.2/lib/extras/hlg.h
+libjxl-0.11.2/lib/extras/jpegli_test.cc
+libjxl-0.11.2/lib/extras/metrics.cc
+libjxl-0.11.2/lib/extras/metrics.h
+libjxl-0.11.2/lib/extras/mmap.cc
+libjxl-0.11.2/lib/extras/mmap.h
+libjxl-0.11.2/lib/extras/packed_image.h
+libjxl-0.11.2/lib/extras/packed_image_convert.cc
+libjxl-0.11.2/lib/extras/packed_image_convert.h
+libjxl-0.11.2/lib/extras/size_constraints.h
+libjxl-0.11.2/lib/extras/time.cc
+libjxl-0.11.2/lib/extras/time.h
+libjxl-0.11.2/lib/extras/tone_mapping.cc
+libjxl-0.11.2/lib/extras/tone_mapping.h
+libjxl-0.11.2/lib/extras/tone_mapping_gbench.cc
+libjxl-0.11.2/lib/gbench_main.cc
+libjxl-0.11.2/lib/include/
+libjxl-0.11.2/lib/include/jxl/
+libjxl-0.11.2/lib/include/jxl/cms.h
+libjxl-0.11.2/lib/include/jxl/cms_interface.h
+libjxl-0.11.2/lib/include/jxl/codestream_header.h
+libjxl-0.11.2/lib/include/jxl/color_encoding.h
+libjxl-0.11.2/lib/include/jxl/compressed_icc.h
+libjxl-0.11.2/lib/include/jxl/decode.h
+libjxl-0.11.2/lib/include/jxl/decode_cxx.h
+libjxl-0.11.2/lib/include/jxl/encode.h
+libjxl-0.11.2/lib/include/jxl/encode_cxx.h
+libjxl-0.11.2/lib/include/jxl/gain_map.h
+libjxl-0.11.2/lib/include/jxl/memory_manager.h
+libjxl-0.11.2/lib/include/jxl/parallel_runner.h
+libjxl-0.11.2/lib/include/jxl/resizable_parallel_runner.h
+libjxl-0.11.2/lib/include/jxl/resizable_parallel_runner_cxx.h
+libjxl-0.11.2/lib/include/jxl/stats.h
+libjxl-0.11.2/lib/include/jxl/thread_parallel_runner.h
+libjxl-0.11.2/lib/include/jxl/thread_parallel_runner_cxx.h
+libjxl-0.11.2/lib/include/jxl/types.h
+libjxl-0.11.2/lib/jpegli.cmake
+libjxl-0.11.2/lib/jpegli/
+libjxl-0.11.2/lib/jpegli/README.md
+libjxl-0.11.2/lib/jpegli/adaptive_quantization.cc
+libjxl-0.11.2/lib/jpegli/adaptive_quantization.h
+libjxl-0.11.2/lib/jpegli/bit_writer.cc
+libjxl-0.11.2/lib/jpegli/bit_writer.h
+libjxl-0.11.2/lib/jpegli/bitstream.cc
+libjxl-0.11.2/lib/jpegli/bitstream.h
+libjxl-0.11.2/lib/jpegli/color_quantize.cc
+libjxl-0.11.2/lib/jpegli/color_quantize.h
+libjxl-0.11.2/lib/jpegli/color_transform.cc
+libjxl-0.11.2/lib/jpegli/color_transform.h
+libjxl-0.11.2/lib/jpegli/common.cc
+libjxl-0.11.2/lib/jpegli/common.h
+libjxl-0.11.2/lib/jpegli/common_internal.h
+libjxl-0.11.2/lib/jpegli/dct-inl.h
+libjxl-0.11.2/lib/jpegli/decode.cc
+libjxl-0.11.2/lib/jpegli/decode.h
+libjxl-0.11.2/lib/jpegli/decode_api_test.cc
+libjxl-0.11.2/lib/jpegli/decode_internal.h
+libjxl-0.11.2/lib/jpegli/decode_marker.cc
+libjxl-0.11.2/lib/jpegli/decode_marker.h
+libjxl-0.11.2/lib/jpegli/decode_scan.cc
+libjxl-0.11.2/lib/jpegli/decode_scan.h
+libjxl-0.11.2/lib/jpegli/destination_manager.cc
+libjxl-0.11.2/lib/jpegli/downsample.cc
+libjxl-0.11.2/lib/jpegli/downsample.h
+libjxl-0.11.2/lib/jpegli/encode.cc
+libjxl-0.11.2/lib/jpegli/encode.h
+libjxl-0.11.2/lib/jpegli/encode_api_test.cc
+libjxl-0.11.2/lib/jpegli/encode_finish.cc
+libjxl-0.11.2/lib/jpegli/encode_finish.h
+libjxl-0.11.2/lib/jpegli/encode_internal.h
+libjxl-0.11.2/lib/jpegli/encode_streaming.cc
+libjxl-0.11.2/lib/jpegli/encode_streaming.h
+libjxl-0.11.2/lib/jpegli/entropy_coding-inl.h
+libjxl-0.11.2/lib/jpegli/entropy_coding.cc
+libjxl-0.11.2/lib/jpegli/entropy_coding.h
+libjxl-0.11.2/lib/jpegli/error.cc
+libjxl-0.11.2/lib/jpegli/error.h
+libjxl-0.11.2/lib/jpegli/error_handling_test.cc
+libjxl-0.11.2/lib/jpegli/fuzztest.h
+libjxl-0.11.2/lib/jpegli/huffman.cc
+libjxl-0.11.2/lib/jpegli/huffman.h
+libjxl-0.11.2/lib/jpegli/idct.cc
+libjxl-0.11.2/lib/jpegli/idct.h
+libjxl-0.11.2/lib/jpegli/input.cc
+libjxl-0.11.2/lib/jpegli/input.h
+libjxl-0.11.2/lib/jpegli/input_suspension_test.cc
+libjxl-0.11.2/lib/jpegli/jpeg.version.62
+libjxl-0.11.2/lib/jpegli/jpeg.version.8
+libjxl-0.11.2/lib/jpegli/libjpeg_test_util.cc
+libjxl-0.11.2/lib/jpegli/libjpeg_test_util.h
+libjxl-0.11.2/lib/jpegli/libjpeg_wrapper.cc
+libjxl-0.11.2/lib/jpegli/memory_manager.cc
+libjxl-0.11.2/lib/jpegli/memory_manager.h
+libjxl-0.11.2/lib/jpegli/output_suspension_test.cc
+libjxl-0.11.2/lib/jpegli/quant.cc
+libjxl-0.11.2/lib/jpegli/quant.h
+libjxl-0.11.2/lib/jpegli/render.cc
+libjxl-0.11.2/lib/jpegli/render.h
+libjxl-0.11.2/lib/jpegli/simd.cc
+libjxl-0.11.2/lib/jpegli/simd.h
+libjxl-0.11.2/lib/jpegli/source_manager.cc
+libjxl-0.11.2/lib/jpegli/source_manager_test.cc
+libjxl-0.11.2/lib/jpegli/streaming_test.cc
+libjxl-0.11.2/lib/jpegli/test_params.h
+libjxl-0.11.2/lib/jpegli/test_utils-inl.h
+libjxl-0.11.2/lib/jpegli/test_utils.cc
+libjxl-0.11.2/lib/jpegli/test_utils.h
+libjxl-0.11.2/lib/jpegli/testing.h
+libjxl-0.11.2/lib/jpegli/transcode_api_test.cc
+libjxl-0.11.2/lib/jpegli/transpose-inl.h
+libjxl-0.11.2/lib/jpegli/types.h
+libjxl-0.11.2/lib/jpegli/upsample.cc
+libjxl-0.11.2/lib/jpegli/upsample.h
+libjxl-0.11.2/lib/jxl.cmake
+libjxl-0.11.2/lib/jxl/
+libjxl-0.11.2/lib/jxl/ac_context.h
+libjxl-0.11.2/lib/jxl/ac_strategy.cc
+libjxl-0.11.2/lib/jxl/ac_strategy.h
+libjxl-0.11.2/lib/jxl/ac_strategy_test.cc
+libjxl-0.11.2/lib/jxl/alpha.cc
+libjxl-0.11.2/lib/jxl/alpha.h
+libjxl-0.11.2/lib/jxl/alpha_test.cc
+libjxl-0.11.2/lib/jxl/ans_common.cc
+libjxl-0.11.2/lib/jxl/ans_common.h
+libjxl-0.11.2/lib/jxl/ans_common_test.cc
+libjxl-0.11.2/lib/jxl/ans_params.h
+libjxl-0.11.2/lib/jxl/ans_test.cc
+libjxl-0.11.2/lib/jxl/base/
+libjxl-0.11.2/lib/jxl/base/arch_macros.h
+libjxl-0.11.2/lib/jxl/base/bits.h
+libjxl-0.11.2/lib/jxl/base/byte_order.h
+libjxl-0.11.2/lib/jxl/base/c_callback_support.h
+libjxl-0.11.2/lib/jxl/base/common.h
+libjxl-0.11.2/lib/jxl/base/compiler_specific.h
+libjxl-0.11.2/lib/jxl/base/data_parallel.h
+libjxl-0.11.2/lib/jxl/base/exif.h
+libjxl-0.11.2/lib/jxl/base/fast_math-inl.h
+libjxl-0.11.2/lib/jxl/base/float.h
+libjxl-0.11.2/lib/jxl/base/iaca.h
+libjxl-0.11.2/lib/jxl/base/include_jpeglib.h
+libjxl-0.11.2/lib/jxl/base/matrix_ops.h
+libjxl-0.11.2/lib/jxl/base/os_macros.h
+libjxl-0.11.2/lib/jxl/base/override.h
+libjxl-0.11.2/lib/jxl/base/printf_macros.h
+libjxl-0.11.2/lib/jxl/base/random.h
+libjxl-0.11.2/lib/jxl/base/rational_polynomial-inl.h
+libjxl-0.11.2/lib/jxl/base/rect.h
+libjxl-0.11.2/lib/jxl/base/sanitizer_definitions.h
+libjxl-0.11.2/lib/jxl/base/sanitizers.h
+libjxl-0.11.2/lib/jxl/base/scope_guard.h
+libjxl-0.11.2/lib/jxl/base/span.h
+libjxl-0.11.2/lib/jxl/base/status.h
+libjxl-0.11.2/lib/jxl/bit_reader_test.cc
+libjxl-0.11.2/lib/jxl/bits_test.cc
+libjxl-0.11.2/lib/jxl/blending.cc
+libjxl-0.11.2/lib/jxl/blending.h
+libjxl-0.11.2/lib/jxl/blending_test.cc
+libjxl-0.11.2/lib/jxl/box_content_decoder.cc
+libjxl-0.11.2/lib/jxl/box_content_decoder.h
+libjxl-0.11.2/lib/jxl/butteraugli/
+libjxl-0.11.2/lib/jxl/butteraugli/butteraugli.cc
+libjxl-0.11.2/lib/jxl/butteraugli/butteraugli.h
+libjxl-0.11.2/lib/jxl/butteraugli/butteraugli_test.cc
+libjxl-0.11.2/lib/jxl/byte_order_test.cc
+libjxl-0.11.2/lib/jxl/chroma_from_luma.cc
+libjxl-0.11.2/lib/jxl/chroma_from_luma.h
+libjxl-0.11.2/lib/jxl/cms/
+libjxl-0.11.2/lib/jxl/cms/color_encoding_cms.h
+libjxl-0.11.2/lib/jxl/cms/jxl_cms.cc
+libjxl-0.11.2/lib/jxl/cms/jxl_cms_internal.h
+libjxl-0.11.2/lib/jxl/cms/opsin_params.h
+libjxl-0.11.2/lib/jxl/cms/tone_mapping-inl.h
+libjxl-0.11.2/lib/jxl/cms/tone_mapping.h
+libjxl-0.11.2/lib/jxl/cms/tone_mapping_test.cc
+libjxl-0.11.2/lib/jxl/cms/transfer_functions-inl.h
+libjxl-0.11.2/lib/jxl/cms/transfer_functions.h
+libjxl-0.11.2/lib/jxl/cms/transfer_functions_test.cc
+libjxl-0.11.2/lib/jxl/codec_in_out.h
+libjxl-0.11.2/lib/jxl/coeff_order.cc
+libjxl-0.11.2/lib/jxl/coeff_order.h
+libjxl-0.11.2/lib/jxl/coeff_order_fwd.h
+libjxl-0.11.2/lib/jxl/coeff_order_test.cc
+libjxl-0.11.2/lib/jxl/color_encoding_internal.cc
+libjxl-0.11.2/lib/jxl/color_encoding_internal.h
+libjxl-0.11.2/lib/jxl/color_encoding_internal_test.cc
+libjxl-0.11.2/lib/jxl/color_management_test.cc
+libjxl-0.11.2/lib/jxl/common.h
+libjxl-0.11.2/lib/jxl/compressed_dc.cc
+libjxl-0.11.2/lib/jxl/compressed_dc.h
+libjxl-0.11.2/lib/jxl/convolve-inl.h
+libjxl-0.11.2/lib/jxl/convolve.h
+libjxl-0.11.2/lib/jxl/convolve_separable5.cc
+libjxl-0.11.2/lib/jxl/convolve_slow.cc
+libjxl-0.11.2/lib/jxl/convolve_symmetric3.cc
+libjxl-0.11.2/lib/jxl/convolve_symmetric5.cc
+libjxl-0.11.2/lib/jxl/convolve_test.cc
+libjxl-0.11.2/lib/jxl/data_parallel_test.cc
+libjxl-0.11.2/lib/jxl/dct-inl.h
+libjxl-0.11.2/lib/jxl/dct_block-inl.h
+libjxl-0.11.2/lib/jxl/dct_for_test.h
+libjxl-0.11.2/lib/jxl/dct_scales.cc
+libjxl-0.11.2/lib/jxl/dct_scales.h
+libjxl-0.11.2/lib/jxl/dct_test.cc
+libjxl-0.11.2/lib/jxl/dct_util.h
+libjxl-0.11.2/lib/jxl/dec_ans.cc
+libjxl-0.11.2/lib/jxl/dec_ans.h
+libjxl-0.11.2/lib/jxl/dec_bit_reader.h
+libjxl-0.11.2/lib/jxl/dec_cache.cc
+libjxl-0.11.2/lib/jxl/dec_cache.h
+libjxl-0.11.2/lib/jxl/dec_context_map.cc
+libjxl-0.11.2/lib/jxl/dec_context_map.h
+libjxl-0.11.2/lib/jxl/dec_external_image.cc
+libjxl-0.11.2/lib/jxl/dec_external_image.h
+libjxl-0.11.2/lib/jxl/dec_external_image_gbench.cc
+libjxl-0.11.2/lib/jxl/dec_frame.cc
+libjxl-0.11.2/lib/jxl/dec_frame.h
+libjxl-0.11.2/lib/jxl/dec_group.cc
+libjxl-0.11.2/lib/jxl/dec_group.h
+libjxl-0.11.2/lib/jxl/dec_group_border.cc
+libjxl-0.11.2/lib/jxl/dec_group_border.h
+libjxl-0.11.2/lib/jxl/dec_huffman.cc
+libjxl-0.11.2/lib/jxl/dec_huffman.h
+libjxl-0.11.2/lib/jxl/dec_modular.cc
+libjxl-0.11.2/lib/jxl/dec_modular.h
+libjxl-0.11.2/lib/jxl/dec_noise.cc
+libjxl-0.11.2/lib/jxl/dec_noise.h
+libjxl-0.11.2/lib/jxl/dec_patch_dictionary.cc
+libjxl-0.11.2/lib/jxl/dec_patch_dictionary.h
+libjxl-0.11.2/lib/jxl/dec_transforms-inl.h
+libjxl-0.11.2/lib/jxl/dec_transforms_testonly.cc
+libjxl-0.11.2/lib/jxl/dec_transforms_testonly.h
+libjxl-0.11.2/lib/jxl/dec_xyb-inl.h
+libjxl-0.11.2/lib/jxl/dec_xyb.cc
+libjxl-0.11.2/lib/jxl/dec_xyb.h
+libjxl-0.11.2/lib/jxl/decode.cc
+libjxl-0.11.2/lib/jxl/decode_test.cc
+libjxl-0.11.2/lib/jxl/decode_to_jpeg.cc
+libjxl-0.11.2/lib/jxl/decode_to_jpeg.h
+libjxl-0.11.2/lib/jxl/enc_ac_strategy.cc
+libjxl-0.11.2/lib/jxl/enc_ac_strategy.h
+libjxl-0.11.2/lib/jxl/enc_adaptive_quantization.cc
+libjxl-0.11.2/lib/jxl/enc_adaptive_quantization.h
+libjxl-0.11.2/lib/jxl/enc_ans.cc
+libjxl-0.11.2/lib/jxl/enc_ans.h
+libjxl-0.11.2/lib/jxl/enc_ans_params.h
+libjxl-0.11.2/lib/jxl/enc_aux_out.cc
+libjxl-0.11.2/lib/jxl/enc_aux_out.h
+libjxl-0.11.2/lib/jxl/enc_bit_writer.cc
+libjxl-0.11.2/lib/jxl/enc_bit_writer.h
+libjxl-0.11.2/lib/jxl/enc_butteraugli_comparator.cc
+libjxl-0.11.2/lib/jxl/enc_butteraugli_comparator.h
+libjxl-0.11.2/lib/jxl/enc_cache.cc
+libjxl-0.11.2/lib/jxl/enc_cache.h
+libjxl-0.11.2/lib/jxl/enc_chroma_from_luma.cc
+libjxl-0.11.2/lib/jxl/enc_chroma_from_luma.h
+libjxl-0.11.2/lib/jxl/enc_cluster.cc
+libjxl-0.11.2/lib/jxl/enc_cluster.h
+libjxl-0.11.2/lib/jxl/enc_coeff_order.cc
+libjxl-0.11.2/lib/jxl/enc_coeff_order.h
+libjxl-0.11.2/lib/jxl/enc_comparator.cc
+libjxl-0.11.2/lib/jxl/enc_comparator.h
+libjxl-0.11.2/lib/jxl/enc_context_map.cc
+libjxl-0.11.2/lib/jxl/enc_context_map.h
+libjxl-0.11.2/lib/jxl/enc_debug_image.cc
+libjxl-0.11.2/lib/jxl/enc_debug_image.h
+libjxl-0.11.2/lib/jxl/enc_detect_dots.cc
+libjxl-0.11.2/lib/jxl/enc_detect_dots.h
+libjxl-0.11.2/lib/jxl/enc_dot_dictionary.cc
+libjxl-0.11.2/lib/jxl/enc_dot_dictionary.h
+libjxl-0.11.2/lib/jxl/enc_entropy_coder.cc
+libjxl-0.11.2/lib/jxl/enc_entropy_coder.h
+libjxl-0.11.2/lib/jxl/enc_external_image.cc
+libjxl-0.11.2/lib/jxl/enc_external_image.h
+libjxl-0.11.2/lib/jxl/enc_external_image_gbench.cc
+libjxl-0.11.2/lib/jxl/enc_external_image_test.cc
+libjxl-0.11.2/lib/jxl/enc_fast_lossless.cc
+libjxl-0.11.2/lib/jxl/enc_fast_lossless.h
+libjxl-0.11.2/lib/jxl/enc_fields.cc
+libjxl-0.11.2/lib/jxl/enc_fields.h
+libjxl-0.11.2/lib/jxl/enc_frame.cc
+libjxl-0.11.2/lib/jxl/enc_frame.h
+libjxl-0.11.2/lib/jxl/enc_gaborish.cc
+libjxl-0.11.2/lib/jxl/enc_gaborish.h
+libjxl-0.11.2/lib/jxl/enc_gaborish_test.cc
+libjxl-0.11.2/lib/jxl/enc_gamma_correct.h
+libjxl-0.11.2/lib/jxl/enc_group.cc
+libjxl-0.11.2/lib/jxl/enc_group.h
+libjxl-0.11.2/lib/jxl/enc_heuristics.cc
+libjxl-0.11.2/lib/jxl/enc_heuristics.h
+libjxl-0.11.2/lib/jxl/enc_huffman.cc
+libjxl-0.11.2/lib/jxl/enc_huffman.h
+libjxl-0.11.2/lib/jxl/enc_huffman_tree.cc
+libjxl-0.11.2/lib/jxl/enc_huffman_tree.h
+libjxl-0.11.2/lib/jxl/enc_icc_codec.cc
+libjxl-0.11.2/lib/jxl/enc_icc_codec.h
+libjxl-0.11.2/lib/jxl/enc_image_bundle.cc
+libjxl-0.11.2/lib/jxl/enc_image_bundle.h
+libjxl-0.11.2/lib/jxl/enc_linalg.cc
+libjxl-0.11.2/lib/jxl/enc_linalg.h
+libjxl-0.11.2/lib/jxl/enc_linalg_test.cc
+libjxl-0.11.2/lib/jxl/enc_modular.cc
+libjxl-0.11.2/lib/jxl/enc_modular.h
+libjxl-0.11.2/lib/jxl/enc_noise.cc
+libjxl-0.11.2/lib/jxl/enc_noise.h
+libjxl-0.11.2/lib/jxl/enc_optimize.h
+libjxl-0.11.2/lib/jxl/enc_optimize_test.cc
+libjxl-0.11.2/lib/jxl/enc_params.h
+libjxl-0.11.2/lib/jxl/enc_patch_dictionary.cc
+libjxl-0.11.2/lib/jxl/enc_patch_dictionary.h
+libjxl-0.11.2/lib/jxl/enc_photon_noise.cc
+libjxl-0.11.2/lib/jxl/enc_photon_noise.h
+libjxl-0.11.2/lib/jxl/enc_photon_noise_test.cc
+libjxl-0.11.2/lib/jxl/enc_progressive_split.cc
+libjxl-0.11.2/lib/jxl/enc_progressive_split.h
+libjxl-0.11.2/lib/jxl/enc_quant_weights.cc
+libjxl-0.11.2/lib/jxl/enc_quant_weights.h
+libjxl-0.11.2/lib/jxl/enc_splines.cc
+libjxl-0.11.2/lib/jxl/enc_splines.h
+libjxl-0.11.2/lib/jxl/enc_toc.cc
+libjxl-0.11.2/lib/jxl/enc_toc.h
+libjxl-0.11.2/lib/jxl/enc_transforms-inl.h
+libjxl-0.11.2/lib/jxl/enc_transforms.cc
+libjxl-0.11.2/lib/jxl/enc_transforms.h
+libjxl-0.11.2/lib/jxl/enc_xyb.cc
+libjxl-0.11.2/lib/jxl/enc_xyb.h
+libjxl-0.11.2/lib/jxl/encode.cc
+libjxl-0.11.2/lib/jxl/encode_internal.h
+libjxl-0.11.2/lib/jxl/encode_test.cc
+libjxl-0.11.2/lib/jxl/entropy_coder.cc
+libjxl-0.11.2/lib/jxl/entropy_coder.h
+libjxl-0.11.2/lib/jxl/entropy_coder_test.cc
+libjxl-0.11.2/lib/jxl/epf.cc
+libjxl-0.11.2/lib/jxl/epf.h
+libjxl-0.11.2/lib/jxl/fake_parallel_runner_testonly.h
+libjxl-0.11.2/lib/jxl/fast_math_test.cc
+libjxl-0.11.2/lib/jxl/field_encodings.h
+libjxl-0.11.2/lib/jxl/fields.cc
+libjxl-0.11.2/lib/jxl/fields.h
+libjxl-0.11.2/lib/jxl/fields_test.cc
+libjxl-0.11.2/lib/jxl/frame_dimensions.h
+libjxl-0.11.2/lib/jxl/frame_header.cc
+libjxl-0.11.2/lib/jxl/frame_header.h
+libjxl-0.11.2/lib/jxl/fuzztest.h
+libjxl-0.11.2/lib/jxl/gamma_correct_test.cc
+libjxl-0.11.2/lib/jxl/gradient_test.cc
+libjxl-0.11.2/lib/jxl/headers.cc
+libjxl-0.11.2/lib/jxl/headers.h
+libjxl-0.11.2/lib/jxl/huffman_table.cc
+libjxl-0.11.2/lib/jxl/huffman_table.h
+libjxl-0.11.2/lib/jxl/iaca_test.cc
+libjxl-0.11.2/lib/jxl/icc_codec.cc
+libjxl-0.11.2/lib/jxl/icc_codec.h
+libjxl-0.11.2/lib/jxl/icc_codec_common.cc
+libjxl-0.11.2/lib/jxl/icc_codec_common.h
+libjxl-0.11.2/lib/jxl/icc_codec_test.cc
+libjxl-0.11.2/lib/jxl/image.cc
+libjxl-0.11.2/lib/jxl/image.h
+libjxl-0.11.2/lib/jxl/image_bundle.cc
+libjxl-0.11.2/lib/jxl/image_bundle.h
+libjxl-0.11.2/lib/jxl/image_bundle_test.cc
+libjxl-0.11.2/lib/jxl/image_metadata.cc
+libjxl-0.11.2/lib/jxl/image_metadata.h
+libjxl-0.11.2/lib/jxl/image_ops.cc
+libjxl-0.11.2/lib/jxl/image_ops.h
+libjxl-0.11.2/lib/jxl/image_ops_test.cc
+libjxl-0.11.2/lib/jxl/image_test_utils.h
+libjxl-0.11.2/lib/jxl/inverse_mtf-inl.h
+libjxl-0.11.2/lib/jxl/jpeg/
+libjxl-0.11.2/lib/jxl/jpeg/dec_jpeg_data.cc
+libjxl-0.11.2/lib/jxl/jpeg/dec_jpeg_data.h
+libjxl-0.11.2/lib/jxl/jpeg/dec_jpeg_data_writer.cc
+libjxl-0.11.2/lib/jxl/jpeg/dec_jpeg_data_writer.h
+libjxl-0.11.2/lib/jxl/jpeg/dec_jpeg_output_chunk.h
+libjxl-0.11.2/lib/jxl/jpeg/dec_jpeg_serialization_state.h
+libjxl-0.11.2/lib/jxl/jpeg/enc_jpeg_data.cc
+libjxl-0.11.2/lib/jxl/jpeg/enc_jpeg_data.h
+libjxl-0.11.2/lib/jxl/jpeg/enc_jpeg_data_reader.cc
+libjxl-0.11.2/lib/jxl/jpeg/enc_jpeg_data_reader.h
+libjxl-0.11.2/lib/jxl/jpeg/enc_jpeg_huffman_decode.cc
+libjxl-0.11.2/lib/jxl/jpeg/enc_jpeg_huffman_decode.h
+libjxl-0.11.2/lib/jxl/jpeg/jpeg_data.cc
+libjxl-0.11.2/lib/jxl/jpeg/jpeg_data.h
+libjxl-0.11.2/lib/jxl/jxl.syms
+libjxl-0.11.2/lib/jxl/jxl.version
+libjxl-0.11.2/lib/jxl/jxl_osx.syms
+libjxl-0.11.2/lib/jxl/jxl_test.cc
+libjxl-0.11.2/lib/jxl/lehmer_code.h
+libjxl-0.11.2/lib/jxl/lehmer_code_test.cc
+libjxl-0.11.2/lib/jxl/libjxl.pc.in
+libjxl-0.11.2/lib/jxl/libjxl_cms.pc.in
+libjxl-0.11.2/lib/jxl/loop_filter.cc
+libjxl-0.11.2/lib/jxl/loop_filter.h
+libjxl-0.11.2/lib/jxl/luminance.cc
+libjxl-0.11.2/lib/jxl/luminance.h
+libjxl-0.11.2/lib/jxl/memory_manager_internal.cc
+libjxl-0.11.2/lib/jxl/memory_manager_internal.h
+libjxl-0.11.2/lib/jxl/modular/
+libjxl-0.11.2/lib/jxl/modular/encoding/
+libjxl-0.11.2/lib/jxl/modular/encoding/context_predict.h
+libjxl-0.11.2/lib/jxl/modular/encoding/dec_ma.cc
+libjxl-0.11.2/lib/jxl/modular/encoding/dec_ma.h
+libjxl-0.11.2/lib/jxl/modular/encoding/enc_debug_tree.cc
+libjxl-0.11.2/lib/jxl/modular/encoding/enc_debug_tree.h
+libjxl-0.11.2/lib/jxl/modular/encoding/enc_encoding.cc
+libjxl-0.11.2/lib/jxl/modular/encoding/enc_encoding.h
+libjxl-0.11.2/lib/jxl/modular/encoding/enc_ma.cc
+libjxl-0.11.2/lib/jxl/modular/encoding/enc_ma.h
+libjxl-0.11.2/lib/jxl/modular/encoding/encoding.cc
+libjxl-0.11.2/lib/jxl/modular/encoding/encoding.h
+libjxl-0.11.2/lib/jxl/modular/encoding/ma_common.h
+libjxl-0.11.2/lib/jxl/modular/modular_image.cc
+libjxl-0.11.2/lib/jxl/modular/modular_image.h
+libjxl-0.11.2/lib/jxl/modular/options.h
+libjxl-0.11.2/lib/jxl/modular/transform/
+libjxl-0.11.2/lib/jxl/modular/transform/enc_palette.cc
+libjxl-0.11.2/lib/jxl/modular/transform/enc_palette.h
+libjxl-0.11.2/lib/jxl/modular/transform/enc_rct.cc
+libjxl-0.11.2/lib/jxl/modular/transform/enc_rct.h
+libjxl-0.11.2/lib/jxl/modular/transform/enc_squeeze.cc
+libjxl-0.11.2/lib/jxl/modular/transform/enc_squeeze.h
+libjxl-0.11.2/lib/jxl/modular/transform/enc_transform.cc
+libjxl-0.11.2/lib/jxl/modular/transform/enc_transform.h
+libjxl-0.11.2/lib/jxl/modular/transform/palette.cc
+libjxl-0.11.2/lib/jxl/modular/transform/palette.h
+libjxl-0.11.2/lib/jxl/modular/transform/rct.cc
+libjxl-0.11.2/lib/jxl/modular/transform/rct.h
+libjxl-0.11.2/lib/jxl/modular/transform/squeeze.cc
+libjxl-0.11.2/lib/jxl/modular/transform/squeeze.h
+libjxl-0.11.2/lib/jxl/modular/transform/transform.cc
+libjxl-0.11.2/lib/jxl/modular/transform/transform.h
+libjxl-0.11.2/lib/jxl/modular_test.cc
+libjxl-0.11.2/lib/jxl/noise.h
+libjxl-0.11.2/lib/jxl/opsin_image_test.cc
+libjxl-0.11.2/lib/jxl/opsin_inverse_test.cc
+libjxl-0.11.2/lib/jxl/opsin_params.cc
+libjxl-0.11.2/lib/jxl/opsin_params.h
+libjxl-0.11.2/lib/jxl/pack_signed.h
+libjxl-0.11.2/lib/jxl/padded_bytes.h
+libjxl-0.11.2/lib/jxl/padded_bytes_test.cc
+libjxl-0.11.2/lib/jxl/passes_state.cc
+libjxl-0.11.2/lib/jxl/passes_state.h
+libjxl-0.11.2/lib/jxl/passes_test.cc
+libjxl-0.11.2/lib/jxl/patch_dictionary_internal.h
+libjxl-0.11.2/lib/jxl/patch_dictionary_test.cc
+libjxl-0.11.2/lib/jxl/preview_test.cc
+libjxl-0.11.2/lib/jxl/quant_weights.cc
+libjxl-0.11.2/lib/jxl/quant_weights.h
+libjxl-0.11.2/lib/jxl/quant_weights_test.cc
+libjxl-0.11.2/lib/jxl/quantizer-inl.h
+libjxl-0.11.2/lib/jxl/quantizer.cc
+libjxl-0.11.2/lib/jxl/quantizer.h
+libjxl-0.11.2/lib/jxl/quantizer_test.cc
+libjxl-0.11.2/lib/jxl/rational_polynomial_test.cc
+libjxl-0.11.2/lib/jxl/render_pipeline/
+libjxl-0.11.2/lib/jxl/render_pipeline/low_memory_render_pipeline.cc
+libjxl-0.11.2/lib/jxl/render_pipeline/low_memory_render_pipeline.h
+libjxl-0.11.2/lib/jxl/render_pipeline/render_pipeline.cc
+libjxl-0.11.2/lib/jxl/render_pipeline/render_pipeline.h
+libjxl-0.11.2/lib/jxl/render_pipeline/render_pipeline_stage.h
+libjxl-0.11.2/lib/jxl/render_pipeline/render_pipeline_test.cc
+libjxl-0.11.2/lib/jxl/render_pipeline/simple_render_pipeline.cc
+libjxl-0.11.2/lib/jxl/render_pipeline/simple_render_pipeline.h
+libjxl-0.11.2/lib/jxl/render_pipeline/stage_blending.cc
+libjxl-0.11.2/lib/jxl/render_pipeline/stage_blending.h
+libjxl-0.11.2/lib/jxl/render_pipeline/stage_chroma_upsampling.cc
+libjxl-0.11.2/lib/jxl/render_pipeline/stage_chroma_upsampling.h
+libjxl-0.11.2/lib/jxl/render_pipeline/stage_cms.cc
+libjxl-0.11.2/lib/jxl/render_pipeline/stage_cms.h
+libjxl-0.11.2/lib/jxl/render_pipeline/stage_epf.cc
+libjxl-0.11.2/lib/jxl/render_pipeline/stage_epf.h
+libjxl-0.11.2/lib/jxl/render_pipeline/stage_from_linear.cc
+libjxl-0.11.2/lib/jxl/render_pipeline/stage_from_linear.h
+libjxl-0.11.2/lib/jxl/render_pipeline/stage_gaborish.cc
+libjxl-0.11.2/lib/jxl/render_pipeline/stage_gaborish.h
+libjxl-0.11.2/lib/jxl/render_pipeline/stage_noise.cc
+libjxl-0.11.2/lib/jxl/render_pipeline/stage_noise.h
+libjxl-0.11.2/lib/jxl/render_pipeline/stage_patches.cc
+libjxl-0.11.2/lib/jxl/render_pipeline/stage_patches.h
+libjxl-0.11.2/lib/jxl/render_pipeline/stage_splines.cc
+libjxl-0.11.2/lib/jxl/render_pipeline/stage_splines.h
+libjxl-0.11.2/lib/jxl/render_pipeline/stage_spot.cc
+libjxl-0.11.2/lib/jxl/render_pipeline/stage_spot.h
+libjxl-0.11.2/lib/jxl/render_pipeline/stage_to_linear.cc
+libjxl-0.11.2/lib/jxl/render_pipeline/stage_to_linear.h
+libjxl-0.11.2/lib/jxl/render_pipeline/stage_tone_mapping.cc
+libjxl-0.11.2/lib/jxl/render_pipeline/stage_tone_mapping.h
+libjxl-0.11.2/lib/jxl/render_pipeline/stage_upsampling.cc
+libjxl-0.11.2/lib/jxl/render_pipeline/stage_upsampling.h
+libjxl-0.11.2/lib/jxl/render_pipeline/stage_write.cc
+libjxl-0.11.2/lib/jxl/render_pipeline/stage_write.h
+libjxl-0.11.2/lib/jxl/render_pipeline/stage_xyb.cc
+libjxl-0.11.2/lib/jxl/render_pipeline/stage_xyb.h
+libjxl-0.11.2/lib/jxl/render_pipeline/stage_ycbcr.cc
+libjxl-0.11.2/lib/jxl/render_pipeline/stage_ycbcr.h
+libjxl-0.11.2/lib/jxl/render_pipeline/test_render_pipeline_stages.h
+libjxl-0.11.2/lib/jxl/roundtrip_test.cc
+libjxl-0.11.2/lib/jxl/simd_util-inl.h
+libjxl-0.11.2/lib/jxl/simd_util.cc
+libjxl-0.11.2/lib/jxl/simd_util.h
+libjxl-0.11.2/lib/jxl/simd_util_test.cc
+libjxl-0.11.2/lib/jxl/speed_tier_test.cc
+libjxl-0.11.2/lib/jxl/splines.cc
+libjxl-0.11.2/lib/jxl/splines.h
+libjxl-0.11.2/lib/jxl/splines_gbench.cc
+libjxl-0.11.2/lib/jxl/splines_test.cc
+libjxl-0.11.2/lib/jxl/test_image.cc
+libjxl-0.11.2/lib/jxl/test_image.h
+libjxl-0.11.2/lib/jxl/test_memory_manager.cc
+libjxl-0.11.2/lib/jxl/test_memory_manager.h
+libjxl-0.11.2/lib/jxl/test_utils.cc
+libjxl-0.11.2/lib/jxl/test_utils.h
+libjxl-0.11.2/lib/jxl/testing.h
+libjxl-0.11.2/lib/jxl/tf_gbench.cc
+libjxl-0.11.2/lib/jxl/toc.cc
+libjxl-0.11.2/lib/jxl/toc.h
+libjxl-0.11.2/lib/jxl/toc_test.cc
+libjxl-0.11.2/lib/jxl/transpose-inl.h
+libjxl-0.11.2/lib/jxl/version.h.in
+libjxl-0.11.2/lib/jxl/xorshift128plus-inl.h
+libjxl-0.11.2/lib/jxl/xorshift128plus_test.cc
+libjxl-0.11.2/lib/jxl_benchmark.cmake
+libjxl-0.11.2/lib/jxl_cms.cmake
+libjxl-0.11.2/lib/jxl_extras.cmake
+libjxl-0.11.2/lib/jxl_lists.bzl
+libjxl-0.11.2/lib/jxl_lists.cmake
+libjxl-0.11.2/lib/jxl_tests.cmake
+libjxl-0.11.2/lib/jxl_threads.cmake
+libjxl-0.11.2/lib/jxl_vars.bzl
+libjxl-0.11.2/lib/lib.gni
+libjxl-0.11.2/lib/nothing.cc
+libjxl-0.11.2/lib/threads/
+libjxl-0.11.2/lib/threads/libjxl_threads.pc.in
+libjxl-0.11.2/lib/threads/resizable_parallel_runner.cc
+libjxl-0.11.2/lib/threads/thread_parallel_runner.cc
+libjxl-0.11.2/lib/threads/thread_parallel_runner_internal.cc
+libjxl-0.11.2/lib/threads/thread_parallel_runner_internal.h
+libjxl-0.11.2/lib/threads/thread_parallel_runner_test.cc
+libjxl-0.11.2/plugins/
+libjxl-0.11.2/plugins/CMakeLists.txt
+libjxl-0.11.2/plugins/gdk-pixbuf/
+libjxl-0.11.2/plugins/gdk-pixbuf/CMakeLists.txt
+libjxl-0.11.2/plugins/gdk-pixbuf/README.md
+libjxl-0.11.2/plugins/gdk-pixbuf/jxl.thumbnailer
+libjxl-0.11.2/plugins/gdk-pixbuf/loaders_test.cache
+libjxl-0.11.2/plugins/gdk-pixbuf/pixbufloader-jxl.c
+libjxl-0.11.2/plugins/gdk-pixbuf/pixbufloader_test.cc
+libjxl-0.11.2/plugins/gimp/
+libjxl-0.11.2/plugins/gimp/CMakeLists.txt
+libjxl-0.11.2/plugins/gimp/common.cc
+libjxl-0.11.2/plugins/gimp/common.h
+libjxl-0.11.2/plugins/gimp/file-jxl-load.cc
+libjxl-0.11.2/plugins/gimp/file-jxl-load.h
+libjxl-0.11.2/plugins/gimp/file-jxl-save.cc
+libjxl-0.11.2/plugins/gimp/file-jxl-save.h
+libjxl-0.11.2/plugins/gimp/file-jxl.cc
+libjxl-0.11.2/plugins/mime/
+libjxl-0.11.2/plugins/mime/CMakeLists.txt
+libjxl-0.11.2/plugins/mime/README.md
+libjxl-0.11.2/plugins/mime/image-jxl.xml
+libjxl-0.11.2/testdata/
+libjxl-0.11.2/third_party/
+libjxl-0.11.2/third_party/CMakeLists.txt
+libjxl-0.11.2/third_party/HEVCSoftware/
+libjxl-0.11.2/third_party/HEVCSoftware/README.md
+libjxl-0.11.2/third_party/HEVCSoftware/cfg/
+libjxl-0.11.2/third_party/HEVCSoftware/cfg/LICENSE
+libjxl-0.11.2/third_party/HEVCSoftware/cfg/encoder_intra_main_scc_10.cfg
+libjxl-0.11.2/third_party/brotli/
+libjxl-0.11.2/third_party/dirent.cc
+libjxl-0.11.2/third_party/dirent.h
+libjxl-0.11.2/third_party/googletest/
+libjxl-0.11.2/third_party/highway/
+libjxl-0.11.2/third_party/lcms/
+libjxl-0.11.2/third_party/lcms2.cmake
+libjxl-0.11.2/third_party/libjpeg-turbo/
+libjxl-0.11.2/third_party/libpng/
+libjxl-0.11.2/third_party/sjpeg/
+libjxl-0.11.2/third_party/sjpeg.cmake
+libjxl-0.11.2/third_party/skcms/
+libjxl-0.11.2/third_party/skcms.cmake
+libjxl-0.11.2/third_party/testing.cmake
+libjxl-0.11.2/third_party/zlib/
+libjxl-0.11.2/tools/
+libjxl-0.11.2/tools/BUILD
+libjxl-0.11.2/tools/CMakeLists.txt
+libjxl-0.11.2/tools/args.h
+libjxl-0.11.2/tools/benchmark/
+libjxl-0.11.2/tools/benchmark/benchmark_args.cc
+libjxl-0.11.2/tools/benchmark/benchmark_args.h
+libjxl-0.11.2/tools/benchmark/benchmark_codec.cc
+libjxl-0.11.2/tools/benchmark/benchmark_codec.h
+libjxl-0.11.2/tools/benchmark/benchmark_codec_avif.cc
+libjxl-0.11.2/tools/benchmark/benchmark_codec_avif.h
+libjxl-0.11.2/tools/benchmark/benchmark_codec_custom.cc
+libjxl-0.11.2/tools/benchmark/benchmark_codec_custom.h
+libjxl-0.11.2/tools/benchmark/benchmark_codec_jpeg.cc
+libjxl-0.11.2/tools/benchmark/benchmark_codec_jpeg.h
+libjxl-0.11.2/tools/benchmark/benchmark_codec_jxl.cc
+libjxl-0.11.2/tools/benchmark/benchmark_codec_jxl.h
+libjxl-0.11.2/tools/benchmark/benchmark_codec_png.cc
+libjxl-0.11.2/tools/benchmark/benchmark_codec_png.h
+libjxl-0.11.2/tools/benchmark/benchmark_codec_webp.cc
+libjxl-0.11.2/tools/benchmark/benchmark_codec_webp.h
+libjxl-0.11.2/tools/benchmark/benchmark_file_io.cc
+libjxl-0.11.2/tools/benchmark/benchmark_file_io.h
+libjxl-0.11.2/tools/benchmark/benchmark_stats.cc
+libjxl-0.11.2/tools/benchmark/benchmark_stats.h
+libjxl-0.11.2/tools/benchmark/benchmark_utils.cc
+libjxl-0.11.2/tools/benchmark/benchmark_utils.h
+libjxl-0.11.2/tools/benchmark/benchmark_xl.cc
+libjxl-0.11.2/tools/benchmark/hm/
+libjxl-0.11.2/tools/benchmark/hm/README.md
+libjxl-0.11.2/tools/benchmark/hm/decode.sh
+libjxl-0.11.2/tools/benchmark/hm/encode.sh
+libjxl-0.11.2/tools/benchmark/metrics/
+libjxl-0.11.2/tools/benchmark/metrics/compute-hdrvdp.m
+libjxl-0.11.2/tools/benchmark/metrics/compute-pumetrics.m
+libjxl-0.11.2/tools/benchmark/metrics/compute_octave_metric.sh
+libjxl-0.11.2/tools/benchmark/metrics/dists-rgb.sh
+libjxl-0.11.2/tools/benchmark/metrics/fsim-rgb.sh
+libjxl-0.11.2/tools/benchmark/metrics/fsim-y.sh
+libjxl-0.11.2/tools/benchmark/metrics/gmsd-rgb.sh
+libjxl-0.11.2/tools/benchmark/metrics/hdr_plots.sh
+libjxl-0.11.2/tools/benchmark/metrics/hdrvdp-fixes.patch
+libjxl-0.11.2/tools/benchmark/metrics/hdrvdp.sh
+libjxl-0.11.2/tools/benchmark/metrics/iqa.py
+libjxl-0.11.2/tools/benchmark/metrics/iqa_wrapper.sh
+libjxl-0.11.2/tools/benchmark/metrics/lpips-rgb.sh
+libjxl-0.11.2/tools/benchmark/metrics/mrse.sh
+libjxl-0.11.2/tools/benchmark/metrics/msssim-rgb.sh
+libjxl-0.11.2/tools/benchmark/metrics/msssim-y.sh
+libjxl-0.11.2/tools/benchmark/metrics/nlpd-y.sh
+libjxl-0.11.2/tools/benchmark/metrics/plots.py
+libjxl-0.11.2/tools/benchmark/metrics/prepare_metrics.sh
+libjxl-0.11.2/tools/benchmark/metrics/pupsnr.sh
+libjxl-0.11.2/tools/benchmark/metrics/pussim.sh
+libjxl-0.11.2/tools/benchmark/metrics/run_all_hdr_metrics.sh
+libjxl-0.11.2/tools/benchmark/metrics/run_all_sdr_metrics.sh
+libjxl-0.11.2/tools/benchmark/metrics/sdr_plots.sh
+libjxl-0.11.2/tools/benchmark/metrics/ssim-rgb.sh
+libjxl-0.11.2/tools/benchmark/metrics/ssim-y.sh
+libjxl-0.11.2/tools/benchmark/metrics/ssimulacra.sh
+libjxl-0.11.2/tools/benchmark/metrics/vif-rgb.sh
+libjxl-0.11.2/tools/benchmark/metrics/vmaf.sh
+libjxl-0.11.2/tools/benchmark/metrics/vsi-rgb.sh
+libjxl-0.11.2/tools/butteraugli_main.cc
+libjxl-0.11.2/tools/cjpegli.cc
+libjxl-0.11.2/tools/cjxl_fuzzer.cc
+libjxl-0.11.2/tools/cjxl_main.cc
+libjxl-0.11.2/tools/cmdline.cc
+libjxl-0.11.2/tools/cmdline.h
+libjxl-0.11.2/tools/codec_config.cc
+libjxl-0.11.2/tools/codec_config.h
+libjxl-0.11.2/tools/color_encoding_fuzzer.cc
+libjxl-0.11.2/tools/comparison_viewer/
+libjxl-0.11.2/tools/comparison_viewer/CMakeLists.txt
+libjxl-0.11.2/tools/comparison_viewer/codec_comparison_window.cc
+libjxl-0.11.2/tools/comparison_viewer/codec_comparison_window.h
+libjxl-0.11.2/tools/comparison_viewer/codec_comparison_window.ui
+libjxl-0.11.2/tools/comparison_viewer/compare_codecs.cc
+libjxl-0.11.2/tools/comparison_viewer/compare_images.cc
+libjxl-0.11.2/tools/comparison_viewer/image_loading.cc
+libjxl-0.11.2/tools/comparison_viewer/image_loading.h
+libjxl-0.11.2/tools/comparison_viewer/settings.cc
+libjxl-0.11.2/tools/comparison_viewer/settings.h
+libjxl-0.11.2/tools/comparison_viewer/settings.ui
+libjxl-0.11.2/tools/comparison_viewer/split_image_renderer.cc
+libjxl-0.11.2/tools/comparison_viewer/split_image_renderer.h
+libjxl-0.11.2/tools/comparison_viewer/split_image_view.cc
+libjxl-0.11.2/tools/comparison_viewer/split_image_view.h
+libjxl-0.11.2/tools/comparison_viewer/split_image_view.ui
+libjxl-0.11.2/tools/conformance/
+libjxl-0.11.2/tools/conformance/CMakeLists.txt
+libjxl-0.11.2/tools/conformance/conformance.py
+libjxl-0.11.2/tools/conformance/generator.py
+libjxl-0.11.2/tools/conformance/lcms2.py
+libjxl-0.11.2/tools/conformance/tooling_test.sh
+libjxl-0.11.2/tools/decode_and_encode.cc
+libjxl-0.11.2/tools/decode_basic_info_fuzzer.cc
+libjxl-0.11.2/tools/demo_vardct_select.sh
+libjxl-0.11.2/tools/djpegli.cc
+libjxl-0.11.2/tools/djxl_fuzzer.cc
+libjxl-0.11.2/tools/djxl_fuzzer_corpus.cc
+libjxl-0.11.2/tools/djxl_fuzzer_test.cc
+libjxl-0.11.2/tools/djxl_main.cc
+libjxl-0.11.2/tools/example_tree.txt
+libjxl-0.11.2/tools/example_tree2.txt
+libjxl-0.11.2/tools/fast_lossless/
+libjxl-0.11.2/tools/fast_lossless/.gitignore
+libjxl-0.11.2/tools/fast_lossless/README.md
+libjxl-0.11.2/tools/fast_lossless/build-android.sh
+libjxl-0.11.2/tools/fast_lossless/build.sh
+libjxl-0.11.2/tools/fast_lossless/cross_compile_aarch64.sh
+libjxl-0.11.2/tools/fast_lossless/fast_lossless_main.cc
+libjxl-0.11.2/tools/fast_lossless/pam-input.h
+libjxl-0.11.2/tools/fields_fuzzer.cc
+libjxl-0.11.2/tools/file_io.h
+libjxl-0.11.2/tools/flicker_test/
+libjxl-0.11.2/tools/flicker_test/CMakeLists.txt
+libjxl-0.11.2/tools/flicker_test/main.cc
+libjxl-0.11.2/tools/flicker_test/parameters.cc
+libjxl-0.11.2/tools/flicker_test/parameters.h
+libjxl-0.11.2/tools/flicker_test/setup.cc
+libjxl-0.11.2/tools/flicker_test/setup.h
+libjxl-0.11.2/tools/flicker_test/setup.ui
+libjxl-0.11.2/tools/flicker_test/split_view.cc
+libjxl-0.11.2/tools/flicker_test/split_view.h
+libjxl-0.11.2/tools/flicker_test/test_window.cc
+libjxl-0.11.2/tools/flicker_test/test_window.h
+libjxl-0.11.2/tools/flicker_test/test_window.ui
+libjxl-0.11.2/tools/fuzzer_stub.cc
+libjxl-0.11.2/tools/gauss_blur.cc
+libjxl-0.11.2/tools/gauss_blur.h
+libjxl-0.11.2/tools/gauss_blur_gbench.cc
+libjxl-0.11.2/tools/gauss_blur_test.cc
+libjxl-0.11.2/tools/git_version.cmake
+libjxl-0.11.2/tools/hdr/
+libjxl-0.11.2/tools/hdr/README.md
+libjxl-0.11.2/tools/hdr/display_to_hlg.cc
+libjxl-0.11.2/tools/hdr/exr_to_pq.cc
+libjxl-0.11.2/tools/hdr/generate_lut_template.cc
+libjxl-0.11.2/tools/hdr/image_utils.h
+libjxl-0.11.2/tools/hdr/local_tone_map.cc
+libjxl-0.11.2/tools/hdr/pq_to_hlg.cc
+libjxl-0.11.2/tools/hdr/render_hlg.cc
+libjxl-0.11.2/tools/hdr/texture_to_cube.cc
+libjxl-0.11.2/tools/hdr/tone_map.cc
+libjxl-0.11.2/tools/icc_codec_fuzzer.cc
+libjxl-0.11.2/tools/icc_detect/
+libjxl-0.11.2/tools/icc_detect/icc_detect.h
+libjxl-0.11.2/tools/icc_detect/icc_detect_empty.cc
+libjxl-0.11.2/tools/icc_detect/icc_detect_win32.cc
+libjxl-0.11.2/tools/icc_detect/icc_detect_x11.cc
+libjxl-0.11.2/tools/icc_simplify.cc
+libjxl-0.11.2/tools/jni/
+libjxl-0.11.2/tools/jni/org/
+libjxl-0.11.2/tools/jni/org/jpeg/
+libjxl-0.11.2/tools/jni/org/jpeg/jpegli/
+libjxl-0.11.2/tools/jni/org/jpeg/jpegli/wrapper/
+libjxl-0.11.2/tools/jni/org/jpeg/jpegli/wrapper/Encoder.java
+libjxl-0.11.2/tools/jni/org/jpeg/jpegli/wrapper/EncoderTest.java
+libjxl-0.11.2/tools/jni/org/jpeg/jpegli/wrapper/JniHelper.java
+libjxl-0.11.2/tools/jni/org/jpeg/jpegli/wrapper/encoder_jni.cc
+libjxl-0.11.2/tools/jni/org/jpeg/jpegli/wrapper/encoder_jni.h
+libjxl-0.11.2/tools/jni/org/jpeg/jpegli/wrapper/encoder_jni_onload.cc
+libjxl-0.11.2/tools/jni/org/jpeg/jpegxl/
+libjxl-0.11.2/tools/jni/org/jpeg/jpegxl/wrapper/
+libjxl-0.11.2/tools/jni/org/jpeg/jpegxl/wrapper/Decoder.java
+libjxl-0.11.2/tools/jni/org/jpeg/jpegxl/wrapper/DecoderJni.java
+libjxl-0.11.2/tools/jni/org/jpeg/jpegxl/wrapper/DecoderTest.java
+libjxl-0.11.2/tools/jni/org/jpeg/jpegxl/wrapper/ImageData.java
+libjxl-0.11.2/tools/jni/org/jpeg/jpegxl/wrapper/JniHelper.java
+libjxl-0.11.2/tools/jni/org/jpeg/jpegxl/wrapper/PixelFormat.java
+libjxl-0.11.2/tools/jni/org/jpeg/jpegxl/wrapper/Status.java
+libjxl-0.11.2/tools/jni/org/jpeg/jpegxl/wrapper/StreamInfo.java
+libjxl-0.11.2/tools/jni/org/jpeg/jpegxl/wrapper/decoder_jni.cc
+libjxl-0.11.2/tools/jni/org/jpeg/jpegxl/wrapper/decoder_jni.h
+libjxl-0.11.2/tools/jni/org/jpeg/jpegxl/wrapper/decoder_jni_onload.cc
+libjxl-0.11.2/tools/jpegli_dec_fuzzer.cc
+libjxl-0.11.2/tools/jpegli_dec_fuzzer_corpus.cc
+libjxl-0.11.2/tools/jxl_from_tree.cc
+libjxl-0.11.2/tools/jxlinfo.c
+libjxl-0.11.2/tools/libjxl_test.c
+libjxl-0.11.2/tools/no_memory_manager.cc
+libjxl-0.11.2/tools/no_memory_manager.h
+libjxl-0.11.2/tools/optimizer/
+libjxl-0.11.2/tools/optimizer/apply_simplex.py
+libjxl-0.11.2/tools/optimizer/simplex_fork.py
+libjxl-0.11.2/tools/optimizer/update_jpegli_global_scale.py
+libjxl-0.11.2/tools/rans_fuzzer.cc
+libjxl-0.11.2/tools/scripts/
+libjxl-0.11.2/tools/scripts/bisector
+libjxl-0.11.2/tools/scripts/build_cleaner.py
+libjxl-0.11.2/tools/scripts/build_stats.py
+libjxl-0.11.2/tools/scripts/check_author.py
+libjxl-0.11.2/tools/scripts/cjxl_bisect_bpp
+libjxl-0.11.2/tools/scripts/cjxl_bisect_size
+libjxl-0.11.2/tools/scripts/demo_progressive_saliency_encoding.py
+libjxl-0.11.2/tools/scripts/fix_headers.sh
+libjxl-0.11.2/tools/scripts/jpegli_tools_test.sh
+libjxl-0.11.2/tools/scripts/jxl-eval.sh
+libjxl-0.11.2/tools/scripts/ossfuzz-build.sh
+libjxl-0.11.2/tools/scripts/progressive_saliency.conf
+libjxl-0.11.2/tools/scripts/progressive_sizes.sh
+libjxl-0.11.2/tools/scripts/reference_zip.sh
+libjxl-0.11.2/tools/scripts/roundtrip_test.sh
+libjxl-0.11.2/tools/scripts/test_cost-arm64-lowprecision.zip
+libjxl-0.11.2/tools/scripts/test_cost-arm64.zip
+libjxl-0.11.2/tools/scripts/test_cost-armhf.zip
+libjxl-0.11.2/tools/scripts/test_cost-i386.zip
+libjxl-0.11.2/tools/scripts/transform_sources_list.py
+libjxl-0.11.2/tools/scripts/typos.toml
+libjxl-0.11.2/tools/set_from_bytes_fuzzer.cc
+libjxl-0.11.2/tools/speed_stats.cc
+libjxl-0.11.2/tools/speed_stats.h
+libjxl-0.11.2/tools/ssimulacra.cc
+libjxl-0.11.2/tools/ssimulacra.h
+libjxl-0.11.2/tools/ssimulacra.txt
+libjxl-0.11.2/tools/ssimulacra2.cc
+libjxl-0.11.2/tools/ssimulacra2.h
+libjxl-0.11.2/tools/ssimulacra2_main.cc
+libjxl-0.11.2/tools/ssimulacra_main.cc
+libjxl-0.11.2/tools/streaming_fuzzer.cc
+libjxl-0.11.2/tools/thread_pool_internal.h
+libjxl-0.11.2/tools/tool_version.cc
+libjxl-0.11.2/tools/tool_version.h
+libjxl-0.11.2/tools/tracking_memory_manager.cc
+libjxl-0.11.2/tools/tracking_memory_manager.h
+libjxl-0.11.2/tools/transforms_fuzzer.cc
+libjxl-0.11.2/tools/upscaling_coefficients/
+libjxl-0.11.2/tools/upscaling_coefficients/generate_upscaling_coefficients.py
+libjxl-0.11.2/tools/upscaling_coefficients/upscaler_demo.py
+libjxl-0.11.2/tools/utf8.manifest
+libjxl-0.11.2/tools/utf8.rc
+libjxl-0.11.2/tools/viewer/
+libjxl-0.11.2/tools/viewer/CMakeLists.txt
+libjxl-0.11.2/tools/viewer/load_jxl.cc
+libjxl-0.11.2/tools/viewer/load_jxl.h
+libjxl-0.11.2/tools/viewer/main.cc
+libjxl-0.11.2/tools/viewer/viewer_window.cc
+libjxl-0.11.2/tools/viewer/viewer_window.h
+libjxl-0.11.2/tools/viewer/viewer_window.ui
+libjxl-0.11.2/tools/wasm_demo/
+libjxl-0.11.2/tools/wasm_demo/CMakeLists.txt
+libjxl-0.11.2/tools/wasm_demo/README.md
+libjxl-0.11.2/tools/wasm_demo/build_site.py
+libjxl-0.11.2/tools/wasm_demo/client_worker.js
+libjxl-0.11.2/tools/wasm_demo/jxl_decoder.cc
+libjxl-0.11.2/tools/wasm_demo/jxl_decoder.h
+libjxl-0.11.2/tools/wasm_demo/jxl_decoder_test.js
+libjxl-0.11.2/tools/wasm_demo/jxl_decompressor.cc
+libjxl-0.11.2/tools/wasm_demo/jxl_decompressor.h
+libjxl-0.11.2/tools/wasm_demo/manual_decode_demo.html
+libjxl-0.11.2/tools/wasm_demo/netlify.toml
+libjxl-0.11.2/tools/wasm_demo/netlify/
+libjxl-0.11.2/tools/wasm_demo/netlify/edge-functions/
+libjxl-0.11.2/tools/wasm_demo/netlify/edge-functions/precompressed.ts
+libjxl-0.11.2/tools/wasm_demo/no_png.cc
+libjxl-0.11.2/tools/wasm_demo/no_png.h
+libjxl-0.11.2/tools/wasm_demo/one_line_demo.html
+libjxl-0.11.2/tools/wasm_demo/one_line_demo_with_console.html
+libjxl-0.11.2/tools/wasm_demo/service_worker.js
+libjxl-0.11.2/tools/xyb_range.cc
+-- The C compiler identification is GNU 15.2.0
+-- The CXX compiler identification is GNU 15.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- CMAKE_SYSTEM_PROCESSOR is x86_64
+-- Performing Test CXX_FUZZERS_SUPPORTED
+-- Performing Test CXX_FUZZERS_SUPPORTED - Failed
+-- Performing Test CXX_MACRO_PREFIX_MAP
+-- Performing Test CXX_MACRO_PREFIX_MAP - Success
+-- Performing Test CXX_NO_RTTI_SUPPORTED
+-- Performing Test CXX_NO_RTTI_SUPPORTED - Success
+-- Found PkgConfig: /usr/bin/pkg-config (found version "2.5.1")
+-- tcmalloc version  -- tcmalloc 2.8.0 disabled due to https://github.com/gperftools/gperftools/issues/1204
+-- Performing Test JXL_HWY_DISABLED_TARGETS_FORCED
+-- Performing Test JXL_HWY_DISABLED_TARGETS_FORCED - Failed
+-- libjpeg-turbo submodule is absent; not enabling jpegli
+-- Compiled IDs C:GNU, C++:GNU
+-- Disabled AVX512 (set JPEGXL_ENABLE_AVX512 to enable it)
+-- Disabled AVX512_SPR (set JPEGXL_ENABLE_AVX512_SPR to enable it)
+-- Disabled AVX512_ZEN4 (set JPEGXL_ENABLE_AVX512_ZEN4 to enable it)
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Performing Test ATOMICS_LOCK_FREE_INSTRUCTIONS
+-- Performing Test ATOMICS_LOCK_FREE_INSTRUCTIONS - Success
+-- Found HWY: /usr/lib/libhwy.so (found suitable version "1.3.0", minimum required is "1.0.7")
+-- Checking for module 'libbrotlicommon'
+--   Found libbrotlicommon, version 1.2.0
+-- Checking for module 'libbrotlienc'
+--   Found libbrotlienc, version 1.2.0
+-- Checking for module 'libbrotlidec'
+--   Found libbrotlidec, version 1.2.0
+-- Found Brotli: /usr/include
+-- Found LCMS2: /usr/lib/liblcms2.so (found suitable version "2.16", minimum required is "2.12")
+-- Found ZLIB: /usr/lib/libz.so (found version "1.3.1")
+-- Found PNG: /usr/lib/libpng.so (found version "1.6.54")
+-- Looking for __GLIBCXX__
+-- Looking for __GLIBCXX__ - found
+-- Looking for _LIBCPP_VERSION
+-- Looking for _LIBCPP_VERSION - not found
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- Performing Test LINKER_SUPPORT_EXCLUDE_LIBS
+-- Performing Test LINKER_SUPPORT_EXCLUDE_LIBS - Success
+-- Found GIF: /usr/lib/libgif.so (found suitable version "5.2.2", minimum required is "5.1")
+-- Found JPEG: /usr/lib/libjpeg.so (found version "62")
+-- Checking for module 'OpenEXR'
+--   Package 'OpenEXR' not found
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+CMake Warning at CMakeLists.txt:510 (message):
+  asciidoc was not found, the man pages will not be installed.
+
+
+-- Checking for module 'gdk-pixbuf-2.0>=2.36'
+--   Found gdk-pixbuf-2.0, version 2.44.5
+-- Checking for modules 'gimp-2.0>=2.10;gimpui-2.0>=2.10'
+--   Package 'gimp-2.0' not found
+--   Package 'gimpui-2.0' not found
+CMake Warning at plugins/gimp/CMakeLists.txt:10 (message):
+  Gimp development libraries not found, the Gimp plugin will not be built
+
+
+-- Building with JPEGXL_VERSION=(unknown)
+-- Checking for module 'libwebp'
+--   Found libwebp, version 1.6.0
+CMake Warning at tools/CMakeLists.txt:290 (message):
+  Using dynamic libwebp
+
+
+-- Checking for module 'libavif'
+--   Found libavif, version 1.3.0
+-- Building tools: cjxl;djxl;jxlinfo;benchmark_xl
+-- Configuring done (5.4s)
+-- Generating done (0.3s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    JPEGXL_INSTALL_JARDIR
+
+
+-- Build files have been written to: /blfs/builds/libjxl-0.11.2/build
+[1/249] Building CXX object lib/CMakeFiles/jxl_export.dir/nothing.cc.o
+[2/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/dct_scales.cc.o
+[3/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/alpha.cc.o
+[4/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/ac_strategy.cc.o
+[5/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/chroma_from_luma.cc.o
+[6/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/ans_common.cc.o
+[7/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/coeff_order.cc.o
+[8/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/blending.cc.o
+[9/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/dec_ans.cc.o
+In file included from /usr/include/c++/15.2.0/bits/stl_tempbuf.h:61,
+                 from /usr/include/c++/15.2.0/bits/stl_algo.h:69,
+                 from /usr/include/c++/15.2.0/algorithm:63,
+                 from /blfs/builds/libjxl-0.11.2/lib/jxl/dec_ans.h:15,
+                 from /blfs/builds/libjxl-0.11.2/lib/jxl/dec_ans.cc:6:
+In function ‘void std::_Construct(_Tp*, _Args&& ...) [with _Tp = int; _Args = {const int&}]’,
+    inlined from ‘_ForwardIterator std::__do_uninit_fill_n(_ForwardIterator, _Size, const _Tp&) [with _ForwardIterator = int*; _Size = long unsigned int; _Tp = int]’ at /usr/include/c++/15.2.0/bits/stl_uninitialized.h:470:17,
+    inlined from ‘_ForwardIterator std::uninitialized_fill_n(_ForwardIterator, _Size, const _Tp&) [with _ForwardIterator = int*; _Size = long unsigned int; _Tp = int]’ at /usr/include/c++/15.2.0/bits/stl_uninitialized.h:571:37,
+    inlined from ‘_ForwardIterator std::__uninitialized_fill_n_a(_ForwardIterator, _Size, const _Tp&, allocator<_Tp>&) [with _ForwardIterator = int*; _Size = long unsigned int; _Tp = int; _Tp2 = int]’ at /usr/include/c++/15.2.0/bits/stl_uninitialized.h:727:39,
+    inlined from ‘void std::vector<_Tp, _Alloc>::_M_fill_initialize(size_type, const value_type&) [with _Tp = int; _Alloc = std::allocator<int>]’ at /usr/include/c++/15.2.0/bits/stl_vector.h:2000:33,
+    inlined from ‘std::vector<_Tp, _Alloc>::vector(size_type, const value_type&, const allocator_type&) [with _Tp = int; _Alloc = std::allocator<int>]’ at /usr/include/c++/15.2.0/bits/stl_vector.h:602:27,
+    inlined from ‘jxl::Status jxl::{anonymous}::ReadHistogram(int, std::vector<int>*, jxl::BitReader*)’ at /blfs/builds/libjxl-0.11.2/lib/jxl/dec_ans.cc:124:44,
+    inlined from ‘jxl::Status jxl::DecodeANSCodes(JxlMemoryManager*, size_t, size_t, BitReader*, ANSCode*)’ at /blfs/builds/libjxl-0.11.2/lib/jxl/dec_ans.cc:237:25:
+/usr/include/c++/15.2.0/bits/stl_construct.h:133:7: warning: ‘void* __builtin_memset(void*, int, long unsigned int)’ forming offset [4, 7] is out of the bounds [0, 4] [-Warray-bounds=]
+  133 |       ::new(static_cast<void*>(__p)) _Tp(std::forward<_Args>(__args)...);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[10/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/convolve_slow.cc.o
+[11/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/dec_huffman.cc.o
+[12/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/dec_context_map.cc.o
+[13/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/dec_group_border.cc.o
+[14/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/color_encoding_internal.cc.o
+[15/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/dec_cache.cc.o
+[16/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/dec_patch_dictionary.cc.o
+[17/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/dec_frame.cc.o
+[18/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/entropy_coder.cc.o
+[19/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/convolve_symmetric5.cc.o
+[20/249] Building CXX object lib/CMakeFiles/jxl_cms.dir/jxl/cms/jxl_cms.cc.o
+[21/249] Linking CXX shared library lib/libjxl_cms.so.0.11.2
+[22/249] Creating library symlink lib/libjxl_cms.so.0.11 lib/libjxl_cms.so
+[23/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/dec_external_image.cc.o
+[24/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/headers.cc.o
+[25/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/huffman_table.cc.o
+[26/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/fields.cc.o
+[27/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/compressed_dc.cc.o
+[28/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/icc_codec_common.cc.o
+[29/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/epf.cc.o
+[30/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/image.cc.o
+[31/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/frame_header.cc.o
+[32/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/image_ops.cc.o
+[33/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/dec_modular.cc.o
+[34/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/loop_filter.cc.o
+[35/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/image_bundle.cc.o
+[36/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/icc_codec.cc.o
+[37/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/memory_manager_internal.cc.o
+[38/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/image_metadata.cc.o
+[39/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/dec_xyb.cc.o
+[40/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/luminance.cc.o
+[41/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/modular/encoding/dec_ma.cc.o
+[42/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/dec_noise.cc.o
+[43/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/opsin_params.cc.o
+[44/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/passes_state.cc.o
+[45/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/convolve_symmetric3.cc.o
+[46/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/modular/modular_image.cc.o
+[47/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/modular/transform/transform.cc.o
+[48/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/decode.cc.o
+[49/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/modular/transform/palette.cc.o
+[50/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/quantizer.cc.o
+[51/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/render_pipeline/simple_render_pipeline.cc.o
+[52/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/render_pipeline/render_pipeline.cc.o
+[53/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/convolve_separable5.cc.o
+[54/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/render_pipeline/low_memory_render_pipeline.cc.o
+[55/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/render_pipeline/stage_patches.cc.o
+[56/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/modular/transform/squeeze.cc.o
+[57/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/modular/encoding/encoding.cc.o
+[58/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/render_pipeline/stage_spot.cc.o
+[59/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/render_pipeline/stage_chroma_upsampling.cc.o
+[60/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/modular/transform/rct.cc.o
+[61/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/render_pipeline/stage_cms.cc.o
+[62/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/quant_weights.cc.o
+[63/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/render_pipeline/stage_blending.cc.o
+[64/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/render_pipeline/stage_gaborish.cc.o
+[65/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/render_pipeline/stage_epf.cc.o
+[66/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/render_pipeline/stage_splines.cc.o
+[67/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/toc.cc.o
+[68/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/box_content_decoder.cc.o
+[69/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/render_pipeline/stage_from_linear.cc.o
+[70/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/jpeg/dec_jpeg_data.cc.o
+[71/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/render_pipeline/stage_noise.cc.o
+[72/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/decode_to_jpeg.cc.o
+[73/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/jpeg/jpeg_data.cc.o
+[74/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/render_pipeline/stage_to_linear.cc.o
+[75/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/render_pipeline/stage_tone_mapping.cc.o
+[76/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_aux_out.cc.o
+[77/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/simd_util.cc.o
+[78/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/render_pipeline/stage_upsampling.cc.o
+[79/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/render_pipeline/stage_xyb.cc.o
+[80/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/render_pipeline/stage_ycbcr.cc.o
+[81/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_bit_writer.cc.o
+[82/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/jpeg/dec_jpeg_data_writer.cc.o
+[83/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/splines.cc.o
+[84/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_coeff_order.cc.o
+[85/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_butteraugli_comparator.cc.o
+[86/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_comparator.cc.o
+[87/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_cache.cc.o
+[88/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_ans.cc.o
+[89/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/render_pipeline/stage_write.cc.o
+[90/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_context_map.cc.o
+[91/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_debug_image.cc.o
+[92/249] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/dec_group.cc.o
+[93/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_dot_dictionary.cc.o
+[94/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_gaborish.cc.o
+[95/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_fields.cc.o
+[96/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_external_image.cc.o
+[97/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_huffman.cc.o
+[98/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_huffman_tree.cc.o
+[99/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_linalg.cc.o
+[100/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_icc_codec.cc.o
+[101/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_cluster.cc.o
+[102/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_detect_dots.cc.o
+[103/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_image_bundle.cc.o
+[104/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_entropy_coder.cc.o
+[105/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_noise.cc.o
+[106/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_photon_noise.cc.o
+[107/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_progressive_split.cc.o
+[108/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_heuristics.cc.o
+[109/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_splines.cc.o
+[110/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_toc.cc.o
+[111/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_adaptive_quantization.cc.o
+[112/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/butteraugli/butteraugli.cc.o
+[113/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_quant_weights.cc.o
+[114/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/jpeg/enc_jpeg_huffman_decode.cc.o
+[115/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/jpeg/enc_jpeg_data.cc.o
+[116/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/jpeg/enc_jpeg_data_reader.cc.o
+[117/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/modular/encoding/enc_debug_tree.cc.o
+[118/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_patch_dictionary.cc.o
+[119/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_modular.cc.o
+[120/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_frame.cc.o
+[121/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/modular/transform/enc_rct.cc.o
+[122/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/modular/transform/enc_transform.cc.o
+[123/249] Building CXX object lib/CMakeFiles/jxl_threads.dir/threads/thread_parallel_runner.cc.o
+[124/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/modular/transform/enc_squeeze.cc.o
+[125/249] Building CXX object lib/CMakeFiles/jxl_threads.dir/threads/resizable_parallel_runner.cc.o
+[126/249] Linking CXX shared library lib/libjxl_dec.so.0.11.2
+[127/249] Building CXX object lib/CMakeFiles/jxl_threads.dir/threads/thread_parallel_runner_internal.cc.o
+[128/249] Linking CXX shared library lib/libjxl_threads.so.0.11.2
+[129/249] Building CXX object lib/CMakeFiles/jxl_extras_core-obj.dir/extras/alpha_blend.cc.o
+[130/249] Building CXX object lib/CMakeFiles/jxl_extras_core-obj.dir/extras/common.cc.o
+[131/249] Building CXX object lib/CMakeFiles/jxl_extras_core-obj.dir/extras/dec/color_description.cc.o
+[132/249] Building CXX object lib/CMakeFiles/jxl_extras_core-obj.dir/extras/compressed_icc.cc.o
+[133/249] Building CXX object lib/CMakeFiles/jxl_extras_core-obj.dir/extras/exif.cc.o
+[134/249] Building CXX object lib/CMakeFiles/jxl_extras_core-obj.dir/extras/enc/encode.cc.o
+[135/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_xyb.cc.o
+[136/249] Building CXX object lib/CMakeFiles/jxl_extras_core-obj.dir/extras/time.cc.o
+[137/249] Building CXX object lib/CMakeFiles/jxl_extras_core-obj.dir/extras/dec/color_hints.cc.o
+[138/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/modular/transform/enc_palette.cc.o
+[139/249] Building CXX object lib/CMakeFiles/jxl_extras_core-obj.dir/extras/mmap.cc.o
+[140/249] Building CXX object lib/CMakeFiles/jxl_extras_core-obj.dir/extras/dec/decode.cc.o
+[141/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/modular/encoding/enc_encoding.cc.o
+[142/249] Building CXX object lib/CMakeFiles/jxl_extras_core-obj.dir/extras/dec/exr.cc.o
+[143/249] Building CXX object lib/CMakeFiles/jxl_extras_core-obj.dir/extras/enc/exr.cc.o
+[144/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/encode.cc.o
+In member function ‘jxl::Status JxlEncoderOutputProcessorWrapper::SetAvailOut(uint8_t**, size_t*)’,
+    inlined from ‘jxl::Status JxlEncoderOutputProcessorWrapper::SetAvailOut(uint8_t**, size_t*)’ at /blfs/builds/libjxl-0.11.2/lib/jxl/encode.cc:183:13,
+    inlined from ‘jxl::Status JxlEncoderOutputProcessorWrapper::CopyOutput(std::vector<unsigned char>&, uint8_t*, size_t&)’ at /blfs/builds/libjxl-0.11.2/lib/jxl/encode.cc:195:5:
+/blfs/builds/libjxl-0.11.2/lib/jxl/encode.cc:187:13: warning: storing the address of local variable ‘next_out’ in ‘*this.JxlEncoderOutputProcessorWrapper::next_out_’ [-Wdangling-pointer=]
+  187 |   next_out_ = next_out;
+      |   ~~~~~~~~~~^~~~~~~~~~
+/blfs/builds/libjxl-0.11.2/lib/jxl/encode.cc: In member function ‘jxl::Status JxlEncoderOutputProcessorWrapper::CopyOutput(std::vector<unsigned char>&, uint8_t*, size_t&)’:
+/blfs/builds/libjxl-0.11.2/lib/jxl/encode.cc:193:44: note: ‘next_out’ declared here
+  193 |     std::vector<uint8_t>& output, uint8_t* next_out, size_t& avail_out) {
+      |                                   ~~~~~~~~~^~~~~~~~
+/blfs/builds/libjxl-0.11.2/lib/jxl/encode.cc:193:71: note: ‘this’ declared here
+  193 |     std::vector<uint8_t>& output, uint8_t* next_out, size_t& avail_out) {
+      |                                                                       ^
+[145/249] Building CXX object lib/CMakeFiles/jxl_extras_core-obj.dir/extras/gain_map.cc.o
+[146/249] Building CXX object lib/CMakeFiles/jxl_extras_core-obj.dir/extras/dec/jpg.cc.o
+[147/249] Building CXX object lib/CMakeFiles/jxl_extras_core-obj.dir/extras/enc/apng.cc.o
+[148/249] Building CXX object lib/CMakeFiles/jxl_extras_core-obj.dir/extras/enc/jxl.cc.o
+[149/249] Building CXX object lib/CMakeFiles/jxl_extras_core-obj.dir/extras/dec/apng.cc.o
+[150/249] Building CXX object lib/CMakeFiles/jxl_extras_core-obj.dir/extras/dec/pgx.cc.o
+[151/249] Building CXX object lib/CMakeFiles/jxl_extras_core-obj.dir/extras/dec/jxl.cc.o
+[152/249] Building CXX object lib/CMakeFiles/jxl_extras_core-obj.dir/extras/enc/pgx.cc.o
+[153/249] Building CXX object lib/CMakeFiles/jxl_extras_core_nocodec-obj.dir/extras/common.cc.o
+[154/249] Building CXX object lib/CMakeFiles/jxl_extras_core_nocodec-obj.dir/extras/alpha_blend.cc.o
+[155/249] Building CXX object lib/CMakeFiles/jxl_extras_core-obj.dir/extras/enc/jpg.cc.o
+[156/249] Building CXX object lib/CMakeFiles/jxl_extras_core_nocodec-obj.dir/extras/compressed_icc.cc.o
+[157/249] Building CXX object lib/CMakeFiles/jxl_extras_core-obj.dir/extras/dec/gif.cc.o
+[158/249] Building CXX object lib/CMakeFiles/jxl_extras_core_nocodec-obj.dir/extras/dec/color_description.cc.o
+[159/249] Building CXX object lib/CMakeFiles/jxl_extras_core_nocodec-obj.dir/extras/dec/color_hints.cc.o
+[160/249] Building CXX object lib/CMakeFiles/jxl_extras_core_nocodec-obj.dir/extras/mmap.cc.o
+[161/249] Building CXX object lib/CMakeFiles/jxl_extras_core_nocodec-obj.dir/extras/time.cc.o
+[162/249] Building CXX object lib/CMakeFiles/jxl_extras_core_nocodec-obj.dir/extras/exif.cc.o
+[163/249] Building CXX object lib/CMakeFiles/jxl_extras_core-obj.dir/extras/enc/npy.cc.o
+[164/249] Building CXX object lib/CMakeFiles/jxl_extras_core-obj.dir/extras/enc/pnm.cc.o
+[165/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/modular/encoding/enc_ma.cc.o
+[166/249] Building CXX object lib/CMakeFiles/jxl_extras_core-obj.dir/extras/dec/pnm.cc.o
+[167/249] Building CXX object lib/CMakeFiles/jxl_extras_core_nocodec-obj.dir/extras/dec/apng.cc.o
+[168/249] Building CXX object lib/CMakeFiles/jxl_extras_core_nocodec-obj.dir/extras/dec/exr.cc.o
+[169/249] Building CXX object lib/CMakeFiles/jxl_extras_core_nocodec-obj.dir/extras/enc/apng.cc.o
+[170/249] Building CXX object lib/CMakeFiles/jxl_extras_core_nocodec-obj.dir/extras/enc/encode.cc.o
+[171/249] Building CXX object lib/CMakeFiles/jxl_extras_core_nocodec-obj.dir/extras/dec/decode.cc.o
+[172/249] Building CXX object lib/CMakeFiles/jxl_extras_core_nocodec-obj.dir/extras/enc/exr.cc.o
+[173/249] Building CXX object lib/CMakeFiles/jxl_extras_core_nocodec-obj.dir/extras/dec/jpg.cc.o
+[174/249] Building CXX object lib/CMakeFiles/jxl_extras_core_nocodec-obj.dir/extras/gain_map.cc.o
+[175/249] Building CXX object lib/CMakeFiles/jxl_extras_core_nocodec-obj.dir/extras/enc/jpg.cc.o
+[176/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_fast_lossless.cc.o
+[177/249] Building CXX object lib/CMakeFiles/jxl_extras_core_nocodec-obj.dir/extras/enc/pgx.cc.o
+[178/249] Building CXX object lib/CMakeFiles/jxl_extras_core_nocodec-obj.dir/extras/dec/pgx.cc.o
+[179/249] Building CXX object lib/CMakeFiles/jxl_extras_core_nocodec-obj.dir/extras/dec/gif.cc.o
+[180/249] Building CXX object lib/CMakeFiles/jxl_extras_core_nocodec-obj.dir/extras/enc/jxl.cc.o
+[181/249] Creating library symlink lib/libjxl_threads.so.0.11 lib/libjxl_threads.so
+[182/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_ac_strategy.cc.o
+[183/249] Building CXX object lib/CMakeFiles/jxl_extras_core_nocodec-obj.dir/extras/dec/jxl.cc.o
+[184/249] Building CXX object tools/CMakeFiles/jxl_tool.dir/no_memory_manager.cc.o
+[185/249] Building CXX object tools/CMakeFiles/jxl_tool.dir/codec_config.cc.o
+[186/249] Building CXX object tools/CMakeFiles/jxl_tool.dir/cmdline.cc.o
+[187/249] Building CXX object tools/CMakeFiles/jxl_tool.dir/tool_version.cc.o
+[188/249] Building CXX object lib/CMakeFiles/jxl_extras_internal-obj.dir/extras/codec.cc.o
+[189/249] Building CXX object lib/CMakeFiles/jxl_extras_core_nocodec-obj.dir/extras/enc/pnm.cc.o
+[190/249] Building CXX object lib/CMakeFiles/jxl_extras_core_nocodec-obj.dir/extras/dec/pnm.cc.o
+[191/249] Building CXX object tools/CMakeFiles/jxl_tool.dir/speed_stats.cc.o
+[192/249] Building CXX object CMakeFiles/decode_exif_metadata.dir/examples/decode_exif_metadata.cc.o
+[193/249] Creating library symlink lib/libjxl_dec.so.0.11 lib/libjxl_dec.so
+[194/249] Building CXX object lib/CMakeFiles/jxl_extras_core_nocodec-obj.dir/extras/enc/npy.cc.o
+[195/249] Building CXX object tools/CMakeFiles/jxl_tool.dir/tracking_memory_manager.cc.o
+[196/249] Building CXX object lib/CMakeFiles/jxl_testlib-internal.dir/jxl/test_memory_manager.cc.o
+[197/249] Building CXX object lib/CMakeFiles/jxl_extras_internal-obj.dir/extras/hlg.cc.o
+[198/249] Building CXX object CMakeFiles/decode_oneshot.dir/examples/decode_oneshot.cc.o
+[199/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_chroma_from_luma.cc.o
+[200/249] Linking CXX static library tools/libjxl_tool.a
+[201/249] Building CXX object CMakeFiles/decode_progressive.dir/examples/decode_progressive.cc.o
+[202/249] Building CXX object CMakeFiles/encode_oneshot.dir/examples/encode_oneshot.cc.o
+[203/249] Building C object tools/CMakeFiles/jxlinfo.dir/jxlinfo.c.o
+[204/249] Building C object plugins/gdk-pixbuf/CMakeFiles/pixbufloader-jxl.dir/pixbufloader-jxl.c.o
+/blfs/builds/libjxl-0.11.2/plugins/gdk-pixbuf/pixbufloader-jxl.c: In function ‘gdk_pixbuf_jxl_animation_iter_get_type_once’:
+/blfs/builds/libjxl-0.11.2/plugins/gdk-pixbuf/pixbufloader-jxl.c:84:1: warning: ‘gdk_pixbuf_animation_iter_get_type’ is deprecated [-Wdeprecated-declarations]
+   84 | G_DEFINE_TYPE(GdkPixbufJxlAnimationIter, gdk_pixbuf_jxl_animation_iter,
+      | ^~~~~~~~~~~~~
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:36,
+                 from /blfs/builds/libjxl-0.11.2/plugins/gdk-pixbuf/pixbufloader-jxl.c:13:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-animation.h:102:25: note: declared here
+  102 | GType                   gdk_pixbuf_animation_iter_get_type                   (void) G_GNUC_CONST;
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[205/249] Building CXX object lib/CMakeFiles/jxl_extras_internal-obj.dir/extras/metrics.cc.o
+[206/249] Building CXX object tools/CMakeFiles/benchmark_xl.dir/benchmark/benchmark_codec.cc.o
+[207/249] Building CXX object tools/CMakeFiles/cjxl.dir/cjxl_main.cc.o
+[208/249] Building CXX object tools/CMakeFiles/djxl.dir/djxl_main.cc.o
+[209/249] Building CXX object lib/CMakeFiles/jxl_extras_internal-obj.dir/extras/packed_image_convert.cc.o
+[210/249] Building CXX object tools/CMakeFiles/benchmark_xl.dir/benchmark/benchmark_file_io.cc.o
+[211/249] Building CXX object tools/CMakeFiles/benchmark_xl.dir/benchmark/benchmark_utils.cc.o
+[212/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_transforms.cc.o
+[213/249] Building CXX object tools/CMakeFiles/benchmark_xl.dir/__/third_party/dirent.cc.o
+[214/249] Building CXX object lib/CMakeFiles/jxl_testlib-internal.dir/jxl/test_image.cc.o
+[215/249] Building CXX object lib/CMakeFiles/jxl_extras_internal-obj.dir/extras/tone_mapping.cc.o
+[216/249] Building CXX object lib/CMakeFiles/jxl_testlib-internal.dir/jxl/test_utils.cc.o
+[217/249] Building CXX object tools/CMakeFiles/benchmark_xl.dir/benchmark/benchmark_codec_png.cc.o
+[218/249] Building CXX object tools/CMakeFiles/benchmark_xl.dir/benchmark/benchmark_stats.cc.o
+[219/249] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_group.cc.o
+[220/249] Linking CXX executable decode_exif_metadata
+[221/249] Linking CXX executable decode_oneshot
+[222/249] Linking CXX shared library lib/libjxl.so.0.11.2
+[223/249] Creating library symlink lib/libjxl.so.0.11 lib/libjxl.so
+[224/249] Linking CXX static library lib/libjxl_extras_codec.a
+[225/249] Linking CXX static library lib/libjxl-internal.a
+[226/249] Linking CXX executable decode_progressive
+[227/249] Building CXX object tools/CMakeFiles/benchmark_xl.dir/ssimulacra2.cc.o
+[228/249] Linking CXX static library lib/libjxl_extras_nocodec-internal.a
+[229/249] Linking CXX static library lib/libjxl_extras-internal.a
+[230/249] Linking C shared module plugins/gdk-pixbuf/libpixbufloader-jxl.so
+[231/249] Linking CXX static library lib/libjxl_dec-internal.a
+[232/249] Linking CXX executable encode_oneshot
+[233/249] Linking CXX executable tools/cjxl
+[234/249] Building CXX object tools/CMakeFiles/benchmark_xl.dir/benchmark/benchmark_args.cc.o
+[235/249] Linking CXX executable tools/djxl
+[236/249] Linking CXX executable tools/jxlinfo
+[237/249] Building CXX object tools/CMakeFiles/benchmark_xl.dir/benchmark/benchmark_codec_custom.cc.o
+[238/249] Building CXX object tools/CMakeFiles/jxl_gauss_blur.dir/gauss_blur.cc.o
+[239/249] Linking CXX static library tools/libjxl_gauss_blur.a
+[240/249] Building CXX object tools/CMakeFiles/benchmark_xl.dir/benchmark/benchmark_codec_jxl.cc.o
+[241/249] Building CXX object tools/CMakeFiles/benchmark_xl.dir/benchmark/benchmark_codec_jpeg.cc.o
+[242/249] Building CXX object tools/CMakeFiles/benchmark_xl.dir/benchmark/benchmark_codec_webp.cc.o
+[243/249] Building CXX object tools/CMakeFiles/benchmark_xl.dir/benchmark/benchmark_xl.cc.o
+[244/249] Building CXX object tools/CMakeFiles/benchmark_xl.dir/benchmark/benchmark_codec_avif.cc.o
+[245/249] Linking CXX executable tools/benchmark_xl
+[246/249] Building CXX object lib/CMakeFiles/jxl_testlib-internal.dir/jxl/dec_transforms_testonly.cc.o
+[247/249] Linking CXX static library lib/libjxl_testlib-internal.a
+[248/249] Building CXX object tools/CMakeFiles/enc_fast_lossless.dir/__/lib/jxl/enc_fast_lossless.cc.o
+[249/249] Linking CXX shared library tools/libenc_fast_lossless.so
+[0/1] Install the project...
+-- Install configuration: "Release"
+-- Installing: /pkgs/libjxl/usr/lib/libjxl_cms.so.0.11.2
+-- Installing: /pkgs/libjxl/usr/lib/libjxl_cms.so.0.11
+-- Installing: /pkgs/libjxl/usr/lib/libjxl_cms.so
+-- Installing: /pkgs/libjxl/usr/lib/pkgconfig/libjxl_cms.pc
+-- Installing: /pkgs/libjxl/usr/lib/libjxl.so.0.11.2
+-- Installing: /pkgs/libjxl/usr/lib/libjxl.so.0.11
+-- Set non-toolchain portion of runtime path of "/pkgs/libjxl/usr/lib/libjxl.so.0.11.2" to ""
+-- Installing: /pkgs/libjxl/usr/lib/libjxl.so
+-- Installing: /pkgs/libjxl/usr/lib/pkgconfig/libjxl.pc
+-- Installing: /pkgs/libjxl/usr/lib/libjxl_extras_codec.a
+-- Installing: /pkgs/libjxl/usr/lib/libjxl_threads.so.0.11.2
+-- Installing: /pkgs/libjxl/usr/lib/libjxl_threads.so.0.11
+-- Installing: /pkgs/libjxl/usr/lib/libjxl_threads.so
+-- Installing: /pkgs/libjxl/usr/lib/pkgconfig/libjxl_threads.pc
+-- Installing: /pkgs/libjxl/usr/include/jxl
+-- Installing: /pkgs/libjxl/usr/include/jxl/version.h
+-- Installing: /pkgs/libjxl/usr/include/jxl/types.h
+-- Installing: /pkgs/libjxl/usr/include/jxl/stats.h
+-- Installing: /pkgs/libjxl/usr/include/jxl/cms_interface.h
+-- Installing: /pkgs/libjxl/usr/include/jxl/decode_cxx.h
+-- Installing: /pkgs/libjxl/usr/include/jxl/resizable_parallel_runner.h
+-- Installing: /pkgs/libjxl/usr/include/jxl/jxl_threads_export.h
+-- Installing: /pkgs/libjxl/usr/include/jxl/encode_cxx.h
+-- Installing: /pkgs/libjxl/usr/include/jxl/thread_parallel_runner_cxx.h
+-- Installing: /pkgs/libjxl/usr/include/jxl/compressed_icc.h
+-- Installing: /pkgs/libjxl/usr/include/jxl/gain_map.h
+-- Installing: /pkgs/libjxl/usr/include/jxl/encode.h
+-- Installing: /pkgs/libjxl/usr/include/jxl/resizable_parallel_runner_cxx.h
+-- Installing: /pkgs/libjxl/usr/include/jxl/memory_manager.h
+-- Installing: /pkgs/libjxl/usr/include/jxl/parallel_runner.h
+-- Installing: /pkgs/libjxl/usr/include/jxl/codestream_header.h
+-- Installing: /pkgs/libjxl/usr/include/jxl/cms.h
+-- Installing: /pkgs/libjxl/usr/include/jxl/color_encoding.h
+-- Installing: /pkgs/libjxl/usr/include/jxl/thread_parallel_runner.h
+-- Installing: /pkgs/libjxl/usr/include/jxl/jxl_export.h
+-- Installing: /pkgs/libjxl/usr/include/jxl/decode.h
+-- Installing: /pkgs/libjxl/usr/include/jxl/jxl_cms_export.h
+-- Installing: /pkgs/libjxl/usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-jxl.so
+-- Set non-toolchain portion of runtime path of "/pkgs/libjxl/usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-jxl.so" to ""
+-- Installing: /pkgs/libjxl/usr/share/thumbnailers/jxl.thumbnailer
+-- Installing: /pkgs/libjxl/usr/share/mime/packages/image-jxl.xml
+-- Installing: /pkgs/libjxl/usr/bin/cjxl
+-- Set non-toolchain portion of runtime path of "/pkgs/libjxl/usr/bin/cjxl" to ""
+-- Installing: /pkgs/libjxl/usr/bin/djxl
+-- Set non-toolchain portion of runtime path of "/pkgs/libjxl/usr/bin/djxl" to ""
+-- Installing: /pkgs/libjxl/usr/bin/jxlinfo
+-- Set non-toolchain portion of runtime path of "/pkgs/libjxl/usr/bin/jxlinfo" to ""
+-- Installing: /pkgs/libjxl/usr/bin/benchmark_xl
+-- Set non-toolchain portion of runtime path of "/pkgs/libjxl/usr/bin/benchmark_xl" to ""
+[0/1] Install the project...
+-- Install configuration: "Release"
+-- Installing: /usr/lib/libjxl_cms.so.0.11.2
+-- Installing: /usr/lib/libjxl_cms.so.0.11
+-- Up-to-date: /usr/lib/libjxl_cms.so
+-- Installing: /usr/lib/pkgconfig/libjxl_cms.pc
+-- Installing: /usr/lib/libjxl.so.0.11.2
+-- Installing: /usr/lib/libjxl.so.0.11
+-- Set non-toolchain portion of runtime path of "/usr/lib/libjxl.so.0.11.2" to ""
+-- Up-to-date: /usr/lib/libjxl.so
+-- Installing: /usr/lib/pkgconfig/libjxl.pc
+-- Installing: /usr/lib/libjxl_extras_codec.a
+-- Installing: /usr/lib/libjxl_threads.so.0.11.2
+-- Installing: /usr/lib/libjxl_threads.so.0.11
+-- Up-to-date: /usr/lib/libjxl_threads.so
+-- Installing: /usr/lib/pkgconfig/libjxl_threads.pc
+-- Up-to-date: /usr/include/jxl
+-- Installing: /usr/include/jxl/version.h
+-- Installing: /usr/include/jxl/types.h
+-- Installing: /usr/include/jxl/stats.h
+-- Installing: /usr/include/jxl/cms_interface.h
+-- Installing: /usr/include/jxl/decode_cxx.h
+-- Installing: /usr/include/jxl/resizable_parallel_runner.h
+-- Installing: /usr/include/jxl/jxl_threads_export.h
+-- Installing: /usr/include/jxl/encode_cxx.h
+-- Installing: /usr/include/jxl/thread_parallel_runner_cxx.h
+-- Installing: /usr/include/jxl/compressed_icc.h
+-- Installing: /usr/include/jxl/gain_map.h
+-- Installing: /usr/include/jxl/encode.h
+-- Installing: /usr/include/jxl/resizable_parallel_runner_cxx.h
+-- Installing: /usr/include/jxl/memory_manager.h
+-- Installing: /usr/include/jxl/parallel_runner.h
+-- Installing: /usr/include/jxl/codestream_header.h
+-- Installing: /usr/include/jxl/cms.h
+-- Installing: /usr/include/jxl/color_encoding.h
+-- Installing: /usr/include/jxl/thread_parallel_runner.h
+-- Installing: /usr/include/jxl/jxl_export.h
+-- Installing: /usr/include/jxl/decode.h
+-- Installing: /usr/include/jxl/jxl_cms_export.h
+-- Installing: /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-jxl.so
+-- Set non-toolchain portion of runtime path of "/usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-jxl.so" to ""
+-- Installing: /usr/share/thumbnailers/jxl.thumbnailer
+-- Installing: /usr/share/mime/packages/image-jxl.xml
+-- Installing: /usr/bin/cjxl
+-- Set non-toolchain portion of runtime path of "/usr/bin/cjxl" to ""
+-- Installing: /usr/bin/djxl
+-- Set non-toolchain portion of runtime path of "/usr/bin/djxl" to ""
+-- Installing: /usr/bin/jxlinfo
+-- Set non-toolchain portion of runtime path of "/usr/bin/jxlinfo" to ""
+-- Installing: /usr/bin/benchmark_xl
+-- Set non-toolchain portion of runtime path of "/usr/bin/benchmark_xl" to ""
+libjxl/
+libjxl/usr/
+libjxl/usr/include/
+libjxl/usr/include/jxl/
+libjxl/usr/include/jxl/version.h
+libjxl/usr/include/jxl/types.h
+libjxl/usr/include/jxl/stats.h
+libjxl/usr/include/jxl/cms_interface.h
+libjxl/usr/include/jxl/decode_cxx.h
+libjxl/usr/include/jxl/resizable_parallel_runner.h
+libjxl/usr/include/jxl/jxl_threads_export.h
+libjxl/usr/include/jxl/encode_cxx.h
+libjxl/usr/include/jxl/thread_parallel_runner_cxx.h
+libjxl/usr/include/jxl/compressed_icc.h
+libjxl/usr/include/jxl/gain_map.h
+libjxl/usr/include/jxl/encode.h
+libjxl/usr/include/jxl/resizable_parallel_runner_cxx.h
+libjxl/usr/include/jxl/memory_manager.h
+libjxl/usr/include/jxl/parallel_runner.h
+libjxl/usr/include/jxl/codestream_header.h
+libjxl/usr/include/jxl/cms.h
+libjxl/usr/include/jxl/color_encoding.h
+libjxl/usr/include/jxl/thread_parallel_runner.h
+libjxl/usr/include/jxl/jxl_export.h
+libjxl/usr/include/jxl/decode.h
+libjxl/usr/include/jxl/jxl_cms_export.h
+libjxl/usr/share/
+libjxl/usr/share/thumbnailers/
+libjxl/usr/share/thumbnailers/jxl.thumbnailer
+libjxl/usr/share/mime/
+libjxl/usr/share/mime/packages/
+libjxl/usr/share/mime/packages/image-jxl.xml
+libjxl/usr/bin/
+libjxl/usr/bin/djxl
+libjxl/usr/bin/cjxl
+libjxl/usr/bin/jxlinfo
+libjxl/usr/bin/benchmark_xl
+libjxl/usr/lib/
+libjxl/usr/lib/libjxl_cms.so.0.11
+libjxl/usr/lib/libjxl_threads.so.0.11.2
+libjxl/usr/lib/libjxl_cms.so
+libjxl/usr/lib/libjxl_cms.so.0.11.2
+libjxl/usr/lib/libjxl.so.0.11
+libjxl/usr/lib/libjxl.so
+libjxl/usr/lib/libjxl_threads.so.0.11
+libjxl/usr/lib/libjxl.so.0.11.2
+libjxl/usr/lib/gdk-pixbuf-2.0/
+libjxl/usr/lib/gdk-pixbuf-2.0/2.10.0/
+libjxl/usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/
+libjxl/usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-jxl.so
+libjxl/usr/lib/pkgconfig/
+libjxl/usr/lib/pkgconfig/libjxl.pc
+libjxl/usr/lib/pkgconfig/libjxl_cms.pc
+libjxl/usr/lib/pkgconfig/libjxl_threads.pc
+libjxl/usr/lib/libjxl_threads.so
+libjxl/usr/lib/libjxl_extras_codec.a
+libjxl/version
+libjxl/postinst
+libjxl/depends
+libjxl/make-depends
