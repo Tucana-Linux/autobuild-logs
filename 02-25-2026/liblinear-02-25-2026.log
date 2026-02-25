@@ -1,0 +1,92 @@
+--2026-02-25 09:39:12--  https://github.com/cjlin1/liblinear/archive/v250/liblinear-250.tar.gz
+Resolving github.com (github.com)... 140.82.114.4
+Connecting to github.com (github.com)|140.82.114.4|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://codeload.github.com/cjlin1/liblinear/tar.gz/refs/tags/v250 [following]
+--2026-02-25 09:39:13--  https://codeload.github.com/cjlin1/liblinear/tar.gz/refs/tags/v250
+Resolving codeload.github.com (codeload.github.com)... 140.82.114.9
+Connecting to codeload.github.com (codeload.github.com)|140.82.114.9|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/x-gzip]
+Saving to: ‘liblinear-250.tar.gz’
+
+     0K .......... .......... .......... .......... .......... 2.03M
+    50K .......... .......... ..                               45.4M=0.02s
+
+2026-02-25 09:39:13 (2.86 MB/s) - ‘liblinear-250.tar.gz’ saved [73776]
+
+liblinear-250/
+liblinear-250/.github/
+liblinear-250/.github/workflows/
+liblinear-250/.github/workflows/wheel.yml
+liblinear-250/COPYRIGHT
+liblinear-250/Makefile
+liblinear-250/Makefile.win
+liblinear-250/README
+liblinear-250/blas/
+liblinear-250/blas/Makefile
+liblinear-250/blas/blas.h
+liblinear-250/blas/blasp.h
+liblinear-250/blas/daxpy.c
+liblinear-250/blas/ddot.c
+liblinear-250/blas/dnrm2.c
+liblinear-250/blas/dscal.c
+liblinear-250/heart_scale
+liblinear-250/linear.cpp
+liblinear-250/linear.def
+liblinear-250/linear.h
+liblinear-250/matlab/
+liblinear-250/matlab/Makefile
+liblinear-250/matlab/README
+liblinear-250/matlab/libsvmread.c
+liblinear-250/matlab/libsvmwrite.c
+liblinear-250/matlab/linear_model_matlab.c
+liblinear-250/matlab/linear_model_matlab.h
+liblinear-250/matlab/make.m
+liblinear-250/matlab/predict.c
+liblinear-250/matlab/train.c
+liblinear-250/newton.cpp
+liblinear-250/newton.h
+liblinear-250/predict.c
+liblinear-250/python/
+liblinear-250/python/MANIFEST.in
+liblinear-250/python/Makefile
+liblinear-250/python/README
+liblinear-250/python/liblinear/
+liblinear-250/python/liblinear/__init__.py
+liblinear-250/python/liblinear/commonutil.py
+liblinear-250/python/liblinear/liblinear.py
+liblinear-250/python/liblinear/liblinearutil.py
+liblinear-250/python/setup.py
+liblinear-250/svm-scale.c
+liblinear-250/train.c
+liblinear-250/windows/
+liblinear-250/windows/README
+g++ -Wall -Wconversion -O3 -fPIC -c -o linear.o linear.cpp
+g++ -Wall -Wconversion -O3 -fPIC -c -o newton.o newton.cpp
+make -C blas OPTFLAGS='-Wall -Wconversion -O3 -fPIC' CC='cc';
+make[1]: Entering directory '/blfs/builds/liblinear-250/blas'
+cc -Wall -Wconversion -O3 -fPIC -c dnrm2.c
+cc -Wall -Wconversion -O3 -fPIC -c daxpy.c
+cc -Wall -Wconversion -O3 -fPIC -c ddot.c
+cc -Wall -Wconversion -O3 -fPIC -c dscal.c
+ar rcv blas.a dnrm2.o daxpy.o ddot.o dscal.o
+a - dnrm2.o
+a - daxpy.o
+a - ddot.o
+a - dscal.o
+ranlib blas.a
+make[1]: Leaving directory '/blfs/builds/liblinear-250/blas'
+g++ -shared -Wl,-soname,liblinear.so.6 linear.o newton.o blas/blas.a -o liblinear.so.6
+install: creating directory '/pkgs/liblinear'
+install: creating directory '/pkgs/liblinear/usr'
+'linear.h' -> '/pkgs/liblinear/usr/include'
+'liblinear.so.6' -> '/pkgs/liblinear/usr/lib'
+'/usr/lib/liblinear.so' -> 'liblinear.so.6'
+liblinear/
+liblinear/usr/
+liblinear/usr/include
+liblinear/usr/lib
+liblinear/version
+liblinear/depends
+liblinear/make-depends

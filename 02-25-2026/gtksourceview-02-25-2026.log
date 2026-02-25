@@ -1,0 +1,2028 @@
+--2026-02-25 09:21:12--  https://download.gnome.org/sources/gtksourceview/5.19/gtksourceview-5.19.0.tar.xz
+Resolving download.gnome.org (download.gnome.org)... 79.127.206.234, 152.233.10.59, 79.127.206.208, ...
+Connecting to download.gnome.org (download.gnome.org)|79.127.206.234|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1264612 (1.2M) [application/octet-stream]
+Saving to: ‘gtksourceview-5.19.0.tar.xz’
+
+     0K .......... .......... .......... .......... ..........  4% 3.83M 0s
+    50K .......... .......... .......... .......... ..........  8% 11.3M 0s
+   100K .......... .......... .......... .......... .......... 12% 13.3M 0s
+   150K .......... .......... .......... .......... .......... 16% 12.0M 0s
+   200K .......... .......... .......... .......... .......... 20% 33.3M 0s
+   250K .......... .......... .......... .......... .......... 24% 7.24M 0s
+   300K .......... .......... .......... .......... .......... 28% 49.3M 0s
+   350K .......... .......... .......... .......... .......... 32% 7.46M 0s
+   400K .......... .......... .......... .......... .......... 36% 77.7M 0s
+   450K .......... .......... .......... .......... .......... 40% 57.4M 0s
+   500K .......... .......... .......... .......... .......... 44% 67.9M 0s
+   550K .......... .......... .......... .......... .......... 48% 7.80M 0s
+   600K .......... .......... .......... .......... .......... 52% 74.8M 0s
+   650K .......... .......... .......... .......... .......... 56% 82.2M 0s
+   700K .......... .......... .......... .......... .......... 60% 56.2M 0s
+   750K .......... .......... .......... .......... .......... 64%  101M 0s
+   800K .......... .......... .......... .......... .......... 68% 9.17M 0s
+   850K .......... .......... .......... .......... .......... 72%  155M 0s
+   900K .......... .......... .......... .......... .......... 76%  103M 0s
+   950K .......... .......... .......... .......... .......... 80%  116M 0s
+  1000K .......... .......... .......... .......... .......... 85%  149M 0s
+  1050K .......... .......... .......... .......... .......... 89% 89.9M 0s
+  1100K .......... .......... .......... .......... .......... 93% 28.3M 0s
+  1150K .......... .......... .......... .......... .......... 97% 11.9M 0s
+  1200K .......... .......... .......... ....                 100%  213M=0.06s
+
+2026-02-25 09:21:12 (18.6 MB/s) - ‘gtksourceview-5.19.0.tar.xz’ saved [1264612/1264612]
+
+gtksourceview-5.19.0/
+gtksourceview-5.19.0/.editorconfig
+gtksourceview-5.19.0/.gitignore
+gtksourceview-5.19.0/.gitlab-ci/
+gtksourceview-5.19.0/.gitlab-ci/README.md
+gtksourceview-5.19.0/.gitlab-ci/fedora.Dockerfile
+gtksourceview-5.19.0/.gitlab-ci/run-docker.sh
+gtksourceview-5.19.0/.gitlab-ci.yml
+gtksourceview-5.19.0/AUTHORS
+gtksourceview-5.19.0/CONTRIBUTING.md
+gtksourceview-5.19.0/COPYING
+gtksourceview-5.19.0/NEWS
+gtksourceview-5.19.0/README.md
+gtksourceview-5.19.0/README.win32.md
+gtksourceview-5.19.0/data/
+gtksourceview-5.19.0/data/GtkSourceView-logo.png
+gtksourceview-5.19.0/data/fonts/
+gtksourceview-5.19.0/data/fonts/BuilderBlocks.ttf
+gtksourceview-5.19.0/data/fonts/BuilderBlocks.ttx
+gtksourceview-5.19.0/data/icons/
+gtksourceview-5.19.0/data/icons/COPYING
+gtksourceview-5.19.0/data/icons/hicolor/
+gtksourceview-5.19.0/data/icons/hicolor/scalable/
+gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/
+gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/completion-snippet-symbolic.svg
+gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/completion-word-symbolic.svg
+gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/lang-class-symbolic.svg
+gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/lang-define-symbolic.svg
+gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/lang-enum-symbolic.svg
+gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/lang-enum-value-symbolic.svg
+gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/lang-function-symbolic.svg
+gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/lang-include-symbolic.svg
+gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/lang-method-symbolic.svg
+gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/lang-namespace-symbolic.svg
+gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/lang-struct-field-symbolic.svg
+gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/lang-struct-symbolic.svg
+gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/lang-typedef-symbolic.svg
+gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/lang-union-symbolic.svg
+gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/lang-variable-symbolic.svg
+gtksourceview-5.19.0/data/icons/meson.build
+gtksourceview-5.19.0/data/language-specs/
+gtksourceview-5.19.0/data/language-specs/R.lang
+gtksourceview-5.19.0/data/language-specs/abnf.lang
+gtksourceview-5.19.0/data/language-specs/actionscript.lang
+gtksourceview-5.19.0/data/language-specs/ada.lang
+gtksourceview-5.19.0/data/language-specs/ansforth94.lang
+gtksourceview-5.19.0/data/language-specs/asciidoc.lang
+gtksourceview-5.19.0/data/language-specs/asp.lang
+gtksourceview-5.19.0/data/language-specs/astro.lang
+gtksourceview-5.19.0/data/language-specs/automake.lang
+gtksourceview-5.19.0/data/language-specs/awk.lang
+gtksourceview-5.19.0/data/language-specs/bennugd.lang
+gtksourceview-5.19.0/data/language-specs/bibtex.lang
+gtksourceview-5.19.0/data/language-specs/blueprint.lang
+gtksourceview-5.19.0/data/language-specs/bluespec.lang
+gtksourceview-5.19.0/data/language-specs/boo.lang
+gtksourceview-5.19.0/data/language-specs/c.lang
+gtksourceview-5.19.0/data/language-specs/cg.lang
+gtksourceview-5.19.0/data/language-specs/changelog.lang
+gtksourceview-5.19.0/data/language-specs/chdr.lang
+gtksourceview-5.19.0/data/language-specs/check-language.sh
+gtksourceview-5.19.0/data/language-specs/cmake.lang
+gtksourceview-5.19.0/data/language-specs/cobol.lang
+gtksourceview-5.19.0/data/language-specs/commonlisp.lang
+gtksourceview-5.19.0/data/language-specs/cpp.lang
+gtksourceview-5.19.0/data/language-specs/cpphdr.lang
+gtksourceview-5.19.0/data/language-specs/csharp.lang
+gtksourceview-5.19.0/data/language-specs/css.lang
+gtksourceview-5.19.0/data/language-specs/csv.lang
+gtksourceview-5.19.0/data/language-specs/cuda.lang
+gtksourceview-5.19.0/data/language-specs/d.lang
+gtksourceview-5.19.0/data/language-specs/dart.lang
+gtksourceview-5.19.0/data/language-specs/def.lang
+gtksourceview-5.19.0/data/language-specs/desktop.lang
+gtksourceview-5.19.0/data/language-specs/diff.lang
+gtksourceview-5.19.0/data/language-specs/docbook.lang
+gtksourceview-5.19.0/data/language-specs/docker.lang
+gtksourceview-5.19.0/data/language-specs/dosbatch.lang
+gtksourceview-5.19.0/data/language-specs/dot.lang
+gtksourceview-5.19.0/data/language-specs/dpatch.lang
+gtksourceview-5.19.0/data/language-specs/dtd.lang
+gtksourceview-5.19.0/data/language-specs/dtl.lang
+gtksourceview-5.19.0/data/language-specs/eiffel.lang
+gtksourceview-5.19.0/data/language-specs/elixir.lang
+gtksourceview-5.19.0/data/language-specs/erb-html.lang
+gtksourceview-5.19.0/data/language-specs/erb-js.lang
+gtksourceview-5.19.0/data/language-specs/erb.lang
+gtksourceview-5.19.0/data/language-specs/erlang.lang
+gtksourceview-5.19.0/data/language-specs/fcl.lang
+gtksourceview-5.19.0/data/language-specs/fish.lang
+gtksourceview-5.19.0/data/language-specs/forth.lang
+gtksourceview-5.19.0/data/language-specs/fortran.lang
+gtksourceview-5.19.0/data/language-specs/fsharp.lang
+gtksourceview-5.19.0/data/language-specs/ftl.lang
+gtksourceview-5.19.0/data/language-specs/gap.lang
+gtksourceview-5.19.0/data/language-specs/gdb-log.lang
+gtksourceview-5.19.0/data/language-specs/gdscript.lang
+gtksourceview-5.19.0/data/language-specs/genie.lang
+gtksourceview-5.19.0/data/language-specs/glsl.lang
+gtksourceview-5.19.0/data/language-specs/go.lang
+gtksourceview-5.19.0/data/language-specs/gradle.lang
+gtksourceview-5.19.0/data/language-specs/groff.lang
+gtksourceview-5.19.0/data/language-specs/groovy.lang
+gtksourceview-5.19.0/data/language-specs/gtk-doc.lang
+gtksourceview-5.19.0/data/language-specs/gtkrc.lang
+gtksourceview-5.19.0/data/language-specs/haddock.lang
+gtksourceview-5.19.0/data/language-specs/haskell-literate.lang
+gtksourceview-5.19.0/data/language-specs/haskell.lang
+gtksourceview-5.19.0/data/language-specs/haxe.lang
+gtksourceview-5.19.0/data/language-specs/html.lang
+gtksourceview-5.19.0/data/language-specs/idl-exelis.lang
+gtksourceview-5.19.0/data/language-specs/idl.lang
+gtksourceview-5.19.0/data/language-specs/imagej.lang
+gtksourceview-5.19.0/data/language-specs/ini.lang
+gtksourceview-5.19.0/data/language-specs/j.lang
+gtksourceview-5.19.0/data/language-specs/jade.lang
+gtksourceview-5.19.0/data/language-specs/java.lang
+gtksourceview-5.19.0/data/language-specs/javascript-expressions.lang
+gtksourceview-5.19.0/data/language-specs/javascript-functions-classes.lang
+gtksourceview-5.19.0/data/language-specs/javascript-literals.lang
+gtksourceview-5.19.0/data/language-specs/javascript-modules.lang
+gtksourceview-5.19.0/data/language-specs/javascript-statements.lang
+gtksourceview-5.19.0/data/language-specs/javascript-values.lang
+gtksourceview-5.19.0/data/language-specs/javascript.lang
+gtksourceview-5.19.0/data/language-specs/jsdoc.lang
+gtksourceview-5.19.0/data/language-specs/json.lang
+gtksourceview-5.19.0/data/language-specs/jsx.lang
+gtksourceview-5.19.0/data/language-specs/julia.lang
+gtksourceview-5.19.0/data/language-specs/kotlin.lang
+gtksourceview-5.19.0/data/language-specs/lang_v1_to_v2.xslt
+gtksourceview-5.19.0/data/language-specs/language-specs.its
+gtksourceview-5.19.0/data/language-specs/language-specs.pot
+gtksourceview-5.19.0/data/language-specs/language.dtd
+gtksourceview-5.19.0/data/language-specs/language.rng
+gtksourceview-5.19.0/data/language-specs/language2.rng
+gtksourceview-5.19.0/data/language-specs/latex.lang
+gtksourceview-5.19.0/data/language-specs/lean.lang
+gtksourceview-5.19.0/data/language-specs/less.lang
+gtksourceview-5.19.0/data/language-specs/lex.lang
+gtksourceview-5.19.0/data/language-specs/libtool.lang
+gtksourceview-5.19.0/data/language-specs/llvm.lang
+gtksourceview-5.19.0/data/language-specs/logcat.lang
+gtksourceview-5.19.0/data/language-specs/logtalk.lang
+gtksourceview-5.19.0/data/language-specs/lua.lang
+gtksourceview-5.19.0/data/language-specs/m4.lang
+gtksourceview-5.19.0/data/language-specs/makefile.lang
+gtksourceview-5.19.0/data/language-specs/mallard.lang
+gtksourceview-5.19.0/data/language-specs/markdown.lang
+gtksourceview-5.19.0/data/language-specs/matlab.lang
+gtksourceview-5.19.0/data/language-specs/maxima.lang
+gtksourceview-5.19.0/data/language-specs/mediawiki.lang
+gtksourceview-5.19.0/data/language-specs/meson.build
+gtksourceview-5.19.0/data/language-specs/meson.lang
+gtksourceview-5.19.0/data/language-specs/modelica.lang
+gtksourceview-5.19.0/data/language-specs/mxml.lang
+gtksourceview-5.19.0/data/language-specs/nemerle.lang
+gtksourceview-5.19.0/data/language-specs/netrexx.lang
+gtksourceview-5.19.0/data/language-specs/nix.lang
+gtksourceview-5.19.0/data/language-specs/nsis.lang
+gtksourceview-5.19.0/data/language-specs/objc.lang
+gtksourceview-5.19.0/data/language-specs/objj.lang
+gtksourceview-5.19.0/data/language-specs/ocaml.lang
+gtksourceview-5.19.0/data/language-specs/ocl.lang
+gtksourceview-5.19.0/data/language-specs/octave.lang
+gtksourceview-5.19.0/data/language-specs/ooc.lang
+gtksourceview-5.19.0/data/language-specs/opal.lang
+gtksourceview-5.19.0/data/language-specs/opencl.lang
+gtksourceview-5.19.0/data/language-specs/pascal.lang
+gtksourceview-5.19.0/data/language-specs/perl.lang
+gtksourceview-5.19.0/data/language-specs/php.lang
+gtksourceview-5.19.0/data/language-specs/pig.lang
+gtksourceview-5.19.0/data/language-specs/pkgconfig.lang
+gtksourceview-5.19.0/data/language-specs/po.lang
+gtksourceview-5.19.0/data/language-specs/powershell.lang
+gtksourceview-5.19.0/data/language-specs/prolog.lang
+gtksourceview-5.19.0/data/language-specs/protobuf.lang
+gtksourceview-5.19.0/data/language-specs/puppet.lang
+gtksourceview-5.19.0/data/language-specs/python.lang
+gtksourceview-5.19.0/data/language-specs/python3.lang
+gtksourceview-5.19.0/data/language-specs/reasonml.lang
+gtksourceview-5.19.0/data/language-specs/rpmspec.lang
+gtksourceview-5.19.0/data/language-specs/rst.lang
+gtksourceview-5.19.0/data/language-specs/ruby.lang
+gtksourceview-5.19.0/data/language-specs/rust.lang
+gtksourceview-5.19.0/data/language-specs/scala.lang
+gtksourceview-5.19.0/data/language-specs/scheme.lang
+gtksourceview-5.19.0/data/language-specs/scilab.lang
+gtksourceview-5.19.0/data/language-specs/scss.lang
+gtksourceview-5.19.0/data/language-specs/sh.lang
+gtksourceview-5.19.0/data/language-specs/sml.lang
+gtksourceview-5.19.0/data/language-specs/solidity.lang
+gtksourceview-5.19.0/data/language-specs/sparql.lang
+gtksourceview-5.19.0/data/language-specs/spice.lang
+gtksourceview-5.19.0/data/language-specs/sql.lang
+gtksourceview-5.19.0/data/language-specs/star.lang
+gtksourceview-5.19.0/data/language-specs/sweave.lang
+gtksourceview-5.19.0/data/language-specs/swift.lang
+gtksourceview-5.19.0/data/language-specs/systemverilog.lang
+gtksourceview-5.19.0/data/language-specs/t2t.lang
+gtksourceview-5.19.0/data/language-specs/tcl.lang
+gtksourceview-5.19.0/data/language-specs/tera.lang
+gtksourceview-5.19.0/data/language-specs/terraform.lang
+gtksourceview-5.19.0/data/language-specs/testv1.lang
+gtksourceview-5.19.0/data/language-specs/texinfo.lang
+gtksourceview-5.19.0/data/language-specs/thrift.lang
+gtksourceview-5.19.0/data/language-specs/todotxt.lang
+gtksourceview-5.19.0/data/language-specs/toml.lang
+gtksourceview-5.19.0/data/language-specs/twig.lang
+gtksourceview-5.19.0/data/language-specs/typescript-js-expressions.lang
+gtksourceview-5.19.0/data/language-specs/typescript-js-functions-classes.lang
+gtksourceview-5.19.0/data/language-specs/typescript-js-literals.lang
+gtksourceview-5.19.0/data/language-specs/typescript-js-modules.lang
+gtksourceview-5.19.0/data/language-specs/typescript-js-statements.lang
+gtksourceview-5.19.0/data/language-specs/typescript-jsx.lang
+gtksourceview-5.19.0/data/language-specs/typescript-type-expressions.lang
+gtksourceview-5.19.0/data/language-specs/typescript-type-generics.lang
+gtksourceview-5.19.0/data/language-specs/typescript-type-literals.lang
+gtksourceview-5.19.0/data/language-specs/typescript.lang
+gtksourceview-5.19.0/data/language-specs/ue2gsv.pl
+gtksourceview-5.19.0/data/language-specs/update-pot.sh
+gtksourceview-5.19.0/data/language-specs/vala.lang
+gtksourceview-5.19.0/data/language-specs/vbnet.lang
+gtksourceview-5.19.0/data/language-specs/verilog.lang
+gtksourceview-5.19.0/data/language-specs/vhdl.lang
+gtksourceview-5.19.0/data/language-specs/wren.lang
+gtksourceview-5.19.0/data/language-specs/xml.lang
+gtksourceview-5.19.0/data/language-specs/xslt.lang
+gtksourceview-5.19.0/data/language-specs/yacc.lang
+gtksourceview-5.19.0/data/language-specs/yaml.lang
+gtksourceview-5.19.0/data/language-specs/yara.lang
+gtksourceview-5.19.0/data/language-specs/zig.lang
+gtksourceview-5.19.0/data/meson.build
+gtksourceview-5.19.0/data/snippets/
+gtksourceview-5.19.0/data/snippets/licenses.snippets
+gtksourceview-5.19.0/data/snippets/meson.build
+gtksourceview-5.19.0/data/snippets/snippets.rng
+gtksourceview-5.19.0/data/styles/
+gtksourceview-5.19.0/data/styles/Adwaita-dark.xml
+gtksourceview-5.19.0/data/styles/Adwaita.xml
+gtksourceview-5.19.0/data/styles/check-style.sh
+gtksourceview-5.19.0/data/styles/classic-dark.xml
+gtksourceview-5.19.0/data/styles/classic.xml
+gtksourceview-5.19.0/data/styles/cobalt-light.xml
+gtksourceview-5.19.0/data/styles/cobalt.xml
+gtksourceview-5.19.0/data/styles/kate-dark.xml
+gtksourceview-5.19.0/data/styles/kate.xml
+gtksourceview-5.19.0/data/styles/meson.build
+gtksourceview-5.19.0/data/styles/oblivion.xml
+gtksourceview-5.19.0/data/styles/solarized-dark.xml
+gtksourceview-5.19.0/data/styles/solarized-light.xml
+gtksourceview-5.19.0/data/styles/styles.its
+gtksourceview-5.19.0/data/styles/styles.pot
+gtksourceview-5.19.0/data/styles/styles.rng
+gtksourceview-5.19.0/data/styles/tango.xml
+gtksourceview-5.19.0/data/styles/testdark.xml
+gtksourceview-5.19.0/data/styles/update-pot.sh
+gtksourceview-5.19.0/docs/
+gtksourceview-5.19.0/docs/GtkSource.toml.in
+gtksourceview-5.19.0/docs/lang-intro.md
+gtksourceview-5.19.0/docs/lang-reference.md
+gtksourceview-5.19.0/docs/lang-tutorial.md
+gtksourceview-5.19.0/docs/logo.svg
+gtksourceview-5.19.0/docs/meson.build
+gtksourceview-5.19.0/docs/overview.md
+gtksourceview-5.19.0/docs/porting-guide-3-to-4.md
+gtksourceview-5.19.0/docs/porting-guide-4-to-5.md
+gtksourceview-5.19.0/docs/snippet-reference.md
+gtksourceview-5.19.0/docs/style-reference.md
+gtksourceview-5.19.0/docs/urlmap.js
+gtksourceview-5.19.0/gtksourceview/
+gtksourceview-5.19.0/gtksourceview/GtkSource-5.metadata
+gtksourceview-5.19.0/gtksourceview/GtkSourceView.css
+gtksourceview-5.19.0/gtksourceview/completion-providers/
+gtksourceview-5.19.0/gtksourceview/completion-providers/meson.build
+gtksourceview-5.19.0/gtksourceview/completion-providers/snippets/
+gtksourceview-5.19.0/gtksourceview/completion-providers/snippets/gtksourcecompletionsnippets.c
+gtksourceview-5.19.0/gtksourceview/completion-providers/snippets/gtksourcecompletionsnippets.h
+gtksourceview-5.19.0/gtksourceview/completion-providers/snippets/gtksourcecompletionsnippetsproposal-private.h
+gtksourceview-5.19.0/gtksourceview/completion-providers/snippets/gtksourcecompletionsnippetsproposal.c
+gtksourceview-5.19.0/gtksourceview/completion-providers/snippets/meson.build
+gtksourceview-5.19.0/gtksourceview/completion-providers/words/
+gtksourceview-5.19.0/gtksourceview/completion-providers/words/gtksourcecompletionwords.c
+gtksourceview-5.19.0/gtksourceview/completion-providers/words/gtksourcecompletionwords.h
+gtksourceview-5.19.0/gtksourceview/completion-providers/words/gtksourcecompletionwordsbuffer-private.h
+gtksourceview-5.19.0/gtksourceview/completion-providers/words/gtksourcecompletionwordsbuffer.c
+gtksourceview-5.19.0/gtksourceview/completion-providers/words/gtksourcecompletionwordslibrary-private.h
+gtksourceview-5.19.0/gtksourceview/completion-providers/words/gtksourcecompletionwordslibrary.c
+gtksourceview-5.19.0/gtksourceview/completion-providers/words/gtksourcecompletionwordsmodel-private.h
+gtksourceview-5.19.0/gtksourceview/completion-providers/words/gtksourcecompletionwordsmodel.c
+gtksourceview-5.19.0/gtksourceview/completion-providers/words/gtksourcecompletionwordsproposal-private.h
+gtksourceview-5.19.0/gtksourceview/completion-providers/words/gtksourcecompletionwordsproposal.c
+gtksourceview-5.19.0/gtksourceview/completion-providers/words/gtksourcecompletionwordsutils-private.h
+gtksourceview-5.19.0/gtksourceview/completion-providers/words/gtksourcecompletionwordsutils.c
+gtksourceview-5.19.0/gtksourceview/completion-providers/words/meson.build
+gtksourceview-5.19.0/gtksourceview/gtksource.h
+gtksourceview-5.19.0/gtksourceview/gtksourceannotation-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourceannotation.c
+gtksourceview-5.19.0/gtksourceview/gtksourceannotation.h
+gtksourceview-5.19.0/gtksourceview/gtksourceannotationprovider-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourceannotationprovider.c
+gtksourceview-5.19.0/gtksourceview/gtksourceannotationprovider.h
+gtksourceview-5.19.0/gtksourceview/gtksourceannotations-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourceannotations.c
+gtksourceview-5.19.0/gtksourceview/gtksourceannotations.h
+gtksourceview-5.19.0/gtksourceview/gtksourceassistant-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourceassistant.c
+gtksourceview-5.19.0/gtksourceview/gtksourceassistantchild-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourceassistantchild.c
+gtksourceview-5.19.0/gtksourceview/gtksourcebuffer-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourcebuffer.c
+gtksourceview-5.19.0/gtksourceview/gtksourcebuffer.h
+gtksourceview-5.19.0/gtksourceview/gtksourcebufferinputstream-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourcebufferinputstream.c
+gtksourceview-5.19.0/gtksourceview/gtksourcebufferinternal-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourcebufferinternal.c
+gtksourceview-5.19.0/gtksourceview/gtksourcebufferoutputstream-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourcebufferoutputstream.c
+gtksourceview-5.19.0/gtksourceview/gtksourcecompletion-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourcecompletion.c
+gtksourceview-5.19.0/gtksourceview/gtksourcecompletion.h
+gtksourceview-5.19.0/gtksourceview/gtksourcecompletioncell-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourcecompletioncell.c
+gtksourceview-5.19.0/gtksourceview/gtksourcecompletioncell.h
+gtksourceview-5.19.0/gtksourceview/gtksourcecompletioncontext-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourcecompletioncontext.c
+gtksourceview-5.19.0/gtksourceview/gtksourcecompletioncontext.h
+gtksourceview-5.19.0/gtksourceview/gtksourcecompletioninfo-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourcecompletioninfo.c
+gtksourceview-5.19.0/gtksourceview/gtksourcecompletionlist-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourcecompletionlist.c
+gtksourceview-5.19.0/gtksourceview/gtksourcecompletionlist.ui
+gtksourceview-5.19.0/gtksourceview/gtksourcecompletionlistbox-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourcecompletionlistbox.c
+gtksourceview-5.19.0/gtksourceview/gtksourcecompletionlistboxrow-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourcecompletionlistboxrow.c
+gtksourceview-5.19.0/gtksourceview/gtksourcecompletionlistboxrow.ui
+gtksourceview-5.19.0/gtksourceview/gtksourcecompletionproposal.c
+gtksourceview-5.19.0/gtksourceview/gtksourcecompletionproposal.h
+gtksourceview-5.19.0/gtksourceview/gtksourcecompletionprovider.c
+gtksourceview-5.19.0/gtksourceview/gtksourcecompletionprovider.h
+gtksourceview-5.19.0/gtksourceview/gtksourcecontextengine-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourcecontextengine.c
+gtksourceview-5.19.0/gtksourceview/gtksourceencoding-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourceencoding.c
+gtksourceview-5.19.0/gtksourceview/gtksourceencoding.h
+gtksourceview-5.19.0/gtksourceview/gtksourceengine-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourceengine.c
+gtksourceview-5.19.0/gtksourceview/gtksourcefile-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourcefile.c
+gtksourceview-5.19.0/gtksourceview/gtksourcefile.h
+gtksourceview-5.19.0/gtksourceview/gtksourcefileloader.c
+gtksourceview-5.19.0/gtksourceview/gtksourcefileloader.h
+gtksourceview-5.19.0/gtksourceview/gtksourcefilesaver.c
+gtksourceview-5.19.0/gtksourceview/gtksourcefilesaver.h
+gtksourceview-5.19.0/gtksourceview/gtksourcegutter-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourcegutter.c
+gtksourceview-5.19.0/gtksourceview/gtksourcegutter.h
+gtksourceview-5.19.0/gtksourceview/gtksourcegutterlines-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourcegutterlines.c
+gtksourceview-5.19.0/gtksourceview/gtksourcegutterlines.h
+gtksourceview-5.19.0/gtksourceview/gtksourcegutterrenderer-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourcegutterrenderer.c
+gtksourceview-5.19.0/gtksourceview/gtksourcegutterrenderer.h
+gtksourceview-5.19.0/gtksourceview/gtksourcegutterrendererlines-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourcegutterrendererlines.c
+gtksourceview-5.19.0/gtksourceview/gtksourcegutterrenderermarks-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourcegutterrenderermarks.c
+gtksourceview-5.19.0/gtksourceview/gtksourcegutterrendererpixbuf.c
+gtksourceview-5.19.0/gtksourceview/gtksourcegutterrendererpixbuf.h
+gtksourceview-5.19.0/gtksourceview/gtksourcegutterrenderertext-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourcegutterrenderertext.c
+gtksourceview-5.19.0/gtksourceview/gtksourcegutterrenderertext.h
+gtksourceview-5.19.0/gtksourceview/gtksourcehover-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourcehover.c
+gtksourceview-5.19.0/gtksourceview/gtksourcehover.h
+gtksourceview-5.19.0/gtksourceview/gtksourcehoverassistant-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourcehoverassistant.c
+gtksourceview-5.19.0/gtksourceview/gtksourcehovercontext-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourcehovercontext.c
+gtksourceview-5.19.0/gtksourceview/gtksourcehovercontext.h
+gtksourceview-5.19.0/gtksourceview/gtksourcehoverdisplay-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourcehoverdisplay.c
+gtksourceview-5.19.0/gtksourceview/gtksourcehoverdisplay.h
+gtksourceview-5.19.0/gtksourceview/gtksourcehoverprovider.c
+gtksourceview-5.19.0/gtksourceview/gtksourcehoverprovider.h
+gtksourceview-5.19.0/gtksourceview/gtksourceindenter-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourceindenter.c
+gtksourceview-5.19.0/gtksourceview/gtksourceindenter.h
+gtksourceview-5.19.0/gtksourceview/gtksourceinformative-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourceinformative.c
+gtksourceview-5.19.0/gtksourceview/gtksourceinformative.ui
+gtksourceview-5.19.0/gtksourceview/gtksourceinit.c
+gtksourceview-5.19.0/gtksourceview/gtksourceinit.h
+gtksourceview-5.19.0/gtksourceview/gtksourceiter-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourceiter.c
+gtksourceview-5.19.0/gtksourceview/gtksourcelanguage-parser-2.c
+gtksourceview-5.19.0/gtksourceview/gtksourcelanguage-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourcelanguage.c
+gtksourceview-5.19.0/gtksourceview/gtksourcelanguage.h
+gtksourceview-5.19.0/gtksourceview/gtksourcelanguagemanager-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourcelanguagemanager.c
+gtksourceview-5.19.0/gtksourceview/gtksourcelanguagemanager.h
+gtksourceview-5.19.0/gtksourceview/gtksourcemap.c
+gtksourceview-5.19.0/gtksourceview/gtksourcemap.h
+gtksourceview-5.19.0/gtksourceview/gtksourcemark.c
+gtksourceview-5.19.0/gtksourceview/gtksourcemark.h
+gtksourceview-5.19.0/gtksourceview/gtksourcemarkattributes.c
+gtksourceview-5.19.0/gtksourceview/gtksourcemarkattributes.h
+gtksourceview-5.19.0/gtksourceview/gtksourcemarkssequence-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourcemarkssequence.c
+gtksourceview-5.19.0/gtksourceview/gtksourcemarshalers.list
+gtksourceview-5.19.0/gtksourceview/gtksourcepixbufhelper-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourcepixbufhelper.c
+gtksourceview-5.19.0/gtksourceview/gtksourceprintcompositor.c
+gtksourceview-5.19.0/gtksourceview/gtksourceprintcompositor.h
+gtksourceview-5.19.0/gtksourceview/gtksourceregex-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourceregex.c
+gtksourceview-5.19.0/gtksourceview/gtksourceregion.c
+gtksourceview-5.19.0/gtksourceview/gtksourceregion.h
+gtksourceview-5.19.0/gtksourceview/gtksourcescheduler.c
+gtksourceview-5.19.0/gtksourceview/gtksourcescheduler.h
+gtksourceview-5.19.0/gtksourceview/gtksourcesearchcontext-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourcesearchcontext.c
+gtksourceview-5.19.0/gtksourceview/gtksourcesearchcontext.h
+gtksourceview-5.19.0/gtksourceview/gtksourcesearchsettings.c
+gtksourceview-5.19.0/gtksourceview/gtksourcesearchsettings.h
+gtksourceview-5.19.0/gtksourceview/gtksourcesnippet-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourcesnippet.c
+gtksourceview-5.19.0/gtksourceview/gtksourcesnippet.h
+gtksourceview-5.19.0/gtksourceview/gtksourcesnippetbundle-parser.c
+gtksourceview-5.19.0/gtksourceview/gtksourcesnippetbundle-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourcesnippetbundle.c
+gtksourceview-5.19.0/gtksourceview/gtksourcesnippetchunk-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourcesnippetchunk.c
+gtksourceview-5.19.0/gtksourceview/gtksourcesnippetchunk.h
+gtksourceview-5.19.0/gtksourceview/gtksourcesnippetcontext-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourcesnippetcontext.c
+gtksourceview-5.19.0/gtksourceview/gtksourcesnippetcontext.h
+gtksourceview-5.19.0/gtksourceview/gtksourcesnippetmanager-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourcesnippetmanager.c
+gtksourceview-5.19.0/gtksourceview/gtksourcesnippetmanager.h
+gtksourceview-5.19.0/gtksourceview/gtksourcespacedrawer-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourcespacedrawer.c
+gtksourceview-5.19.0/gtksourceview/gtksourcespacedrawer.h
+gtksourceview-5.19.0/gtksourceview/gtksourcestyle-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourcestyle.c
+gtksourceview-5.19.0/gtksourceview/gtksourcestyle.h
+gtksourceview-5.19.0/gtksourceview/gtksourcestylescheme-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourcestylescheme.c
+gtksourceview-5.19.0/gtksourceview/gtksourcestylescheme.h
+gtksourceview-5.19.0/gtksourceview/gtksourcestyleschemechooser.c
+gtksourceview-5.19.0/gtksourceview/gtksourcestyleschemechooser.h
+gtksourceview-5.19.0/gtksourceview/gtksourcestyleschemechooserbutton.c
+gtksourceview-5.19.0/gtksourceview/gtksourcestyleschemechooserbutton.h
+gtksourceview-5.19.0/gtksourceview/gtksourcestyleschemechooserwidget.c
+gtksourceview-5.19.0/gtksourceview/gtksourcestyleschemechooserwidget.h
+gtksourceview-5.19.0/gtksourceview/gtksourcestyleschemechooserwidget.ui
+gtksourceview-5.19.0/gtksourceview/gtksourcestyleschememanager-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourcestyleschememanager.c
+gtksourceview-5.19.0/gtksourceview/gtksourcestyleschememanager.h
+gtksourceview-5.19.0/gtksourceview/gtksourcestyleschemepreview.c
+gtksourceview-5.19.0/gtksourceview/gtksourcestyleschemepreview.h
+gtksourceview-5.19.0/gtksourceview/gtksourcetag.c
+gtksourceview-5.19.0/gtksourceview/gtksourcetag.h
+gtksourceview-5.19.0/gtksourceview/gtksourcetrace.h
+gtksourceview-5.19.0/gtksourceview/gtksourcetypes-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourcetypes.h
+gtksourceview-5.19.0/gtksourceview/gtksourceutils-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourceutils.c
+gtksourceview-5.19.0/gtksourceview/gtksourceutils.h
+gtksourceview-5.19.0/gtksourceview/gtksourceversion.c
+gtksourceview-5.19.0/gtksourceview/gtksourceversion.h.in
+gtksourceview-5.19.0/gtksourceview/gtksourceview-assistants.c
+gtksourceview-5.19.0/gtksourceview/gtksourceview-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourceview-snippets.c
+gtksourceview-5.19.0/gtksourceview/gtksourceview.c
+gtksourceview-5.19.0/gtksourceview/gtksourceview.gresource.xml
+gtksourceview-5.19.0/gtksourceview/gtksourceview.h
+gtksourceview-5.19.0/gtksourceview/gtksourcevimimcontext-private.h
+gtksourceview-5.19.0/gtksourceview/gtksourcevimimcontext.c
+gtksourceview-5.19.0/gtksourceview/gtksourcevimimcontext.h
+gtksourceview-5.19.0/gtksourceview/implregex-private.h
+gtksourceview-5.19.0/gtksourceview/implregex.c
+gtksourceview-5.19.0/gtksourceview/meson.build
+gtksourceview-5.19.0/gtksourceview/quarkset-inline.h
+gtksourceview-5.19.0/gtksourceview/vim/
+gtksourceview-5.19.0/gtksourceview/vim/gtksourcevim.c
+gtksourceview-5.19.0/gtksourceview/vim/gtksourcevim.h
+gtksourceview-5.19.0/gtksourceview/vim/gtksourcevimcharpending.c
+gtksourceview-5.19.0/gtksourceview/vim/gtksourcevimcharpending.h
+gtksourceview-5.19.0/gtksourceview/vim/gtksourcevimcommand.c
+gtksourceview-5.19.0/gtksourceview/vim/gtksourcevimcommand.h
+gtksourceview-5.19.0/gtksourceview/vim/gtksourcevimcommandbar.c
+gtksourceview-5.19.0/gtksourceview/vim/gtksourcevimcommandbar.h
+gtksourceview-5.19.0/gtksourceview/vim/gtksourceviminsert.c
+gtksourceview-5.19.0/gtksourceview/vim/gtksourceviminsert.h
+gtksourceview-5.19.0/gtksourceview/vim/gtksourceviminsertliteral.c
+gtksourceview-5.19.0/gtksourceview/vim/gtksourceviminsertliteral.h
+gtksourceview-5.19.0/gtksourceview/vim/gtksourcevimjumplist.c
+gtksourceview-5.19.0/gtksourceview/vim/gtksourcevimjumplist.h
+gtksourceview-5.19.0/gtksourceview/vim/gtksourcevimmarks.c
+gtksourceview-5.19.0/gtksourceview/vim/gtksourcevimmarks.h
+gtksourceview-5.19.0/gtksourceview/vim/gtksourcevimmotion.c
+gtksourceview-5.19.0/gtksourceview/vim/gtksourcevimmotion.h
+gtksourceview-5.19.0/gtksourceview/vim/gtksourcevimnormal.c
+gtksourceview-5.19.0/gtksourceview/vim/gtksourcevimnormal.h
+gtksourceview-5.19.0/gtksourceview/vim/gtksourcevimregisters.c
+gtksourceview-5.19.0/gtksourceview/vim/gtksourcevimregisters.h
+gtksourceview-5.19.0/gtksourceview/vim/gtksourcevimreplace.c
+gtksourceview-5.19.0/gtksourceview/vim/gtksourcevimreplace.h
+gtksourceview-5.19.0/gtksourceview/vim/gtksourcevimstate.c
+gtksourceview-5.19.0/gtksourceview/vim/gtksourcevimstate.h
+gtksourceview-5.19.0/gtksourceview/vim/gtksourcevimtexthistory.c
+gtksourceview-5.19.0/gtksourceview/vim/gtksourcevimtexthistory.h
+gtksourceview-5.19.0/gtksourceview/vim/gtksourcevimtextobject.c
+gtksourceview-5.19.0/gtksourceview/vim/gtksourcevimtextobject.h
+gtksourceview-5.19.0/gtksourceview/vim/gtksourcevimvisual.c
+gtksourceview-5.19.0/gtksourceview/vim/gtksourcevimvisual.h
+gtksourceview-5.19.0/gtksourceview/vim/meson.build
+gtksourceview-5.19.0/gtksourceview.doap
+gtksourceview-5.19.0/meson.build
+gtksourceview-5.19.0/meson_options.txt
+gtksourceview-5.19.0/org.gnome.GtkSourceView.TestWidget.json
+gtksourceview-5.19.0/po/
+gtksourceview-5.19.0/po/LINGUAS
+gtksourceview-5.19.0/po/POTFILES.in
+gtksourceview-5.19.0/po/POTFILES.skip
+gtksourceview-5.19.0/po/ab.po
+gtksourceview-5.19.0/po/ar.po
+gtksourceview-5.19.0/po/as.po
+gtksourceview-5.19.0/po/ast.po
+gtksourceview-5.19.0/po/az.po
+gtksourceview-5.19.0/po/be.po
+gtksourceview-5.19.0/po/bg.po
+gtksourceview-5.19.0/po/bn.po
+gtksourceview-5.19.0/po/bn_IN.po
+gtksourceview-5.19.0/po/bs.po
+gtksourceview-5.19.0/po/ca.po
+gtksourceview-5.19.0/po/ca@valencia.po
+gtksourceview-5.19.0/po/cs.po
+gtksourceview-5.19.0/po/cy.po
+gtksourceview-5.19.0/po/da.po
+gtksourceview-5.19.0/po/de.po
+gtksourceview-5.19.0/po/dz.po
+gtksourceview-5.19.0/po/el.po
+gtksourceview-5.19.0/po/en@shaw.po
+gtksourceview-5.19.0/po/en_CA.po
+gtksourceview-5.19.0/po/en_GB.po
+gtksourceview-5.19.0/po/eo.po
+gtksourceview-5.19.0/po/es.po
+gtksourceview-5.19.0/po/et.po
+gtksourceview-5.19.0/po/eu.po
+gtksourceview-5.19.0/po/fa.po
+gtksourceview-5.19.0/po/fi.po
+gtksourceview-5.19.0/po/fr.po
+gtksourceview-5.19.0/po/fur.po
+gtksourceview-5.19.0/po/ga.po
+gtksourceview-5.19.0/po/gl.po
+gtksourceview-5.19.0/po/gu.po
+gtksourceview-5.19.0/po/he.po
+gtksourceview-5.19.0/po/hi.po
+gtksourceview-5.19.0/po/hr.po
+gtksourceview-5.19.0/po/hu.po
+gtksourceview-5.19.0/po/id.po
+gtksourceview-5.19.0/po/ie.po
+gtksourceview-5.19.0/po/is.po
+gtksourceview-5.19.0/po/it.po
+gtksourceview-5.19.0/po/ja.po
+gtksourceview-5.19.0/po/ka.po
+gtksourceview-5.19.0/po/kab.po
+gtksourceview-5.19.0/po/kk.po
+gtksourceview-5.19.0/po/kn.po
+gtksourceview-5.19.0/po/ko.po
+gtksourceview-5.19.0/po/kw.po
+gtksourceview-5.19.0/po/lt.po
+gtksourceview-5.19.0/po/lv.po
+gtksourceview-5.19.0/po/mai.po
+gtksourceview-5.19.0/po/meson.build
+gtksourceview-5.19.0/po/mg.po
+gtksourceview-5.19.0/po/mk.po
+gtksourceview-5.19.0/po/ml.po
+gtksourceview-5.19.0/po/mn.po
+gtksourceview-5.19.0/po/mr.po
+gtksourceview-5.19.0/po/ms.po
+gtksourceview-5.19.0/po/nb.po
+gtksourceview-5.19.0/po/ne.po
+gtksourceview-5.19.0/po/nl.po
+gtksourceview-5.19.0/po/nn.po
+gtksourceview-5.19.0/po/oc.po
+gtksourceview-5.19.0/po/or.po
+gtksourceview-5.19.0/po/pa.po
+gtksourceview-5.19.0/po/pl.po
+gtksourceview-5.19.0/po/pt.po
+gtksourceview-5.19.0/po/pt_BR.po
+gtksourceview-5.19.0/po/ro.po
+gtksourceview-5.19.0/po/ru.po
+gtksourceview-5.19.0/po/rw.po
+gtksourceview-5.19.0/po/si.po
+gtksourceview-5.19.0/po/sk.po
+gtksourceview-5.19.0/po/sl.po
+gtksourceview-5.19.0/po/sq.po
+gtksourceview-5.19.0/po/sr.po
+gtksourceview-5.19.0/po/sr@latin.po
+gtksourceview-5.19.0/po/sv.po
+gtksourceview-5.19.0/po/ta.po
+gtksourceview-5.19.0/po/te.po
+gtksourceview-5.19.0/po/tg.po
+gtksourceview-5.19.0/po/th.po
+gtksourceview-5.19.0/po/tr.po
+gtksourceview-5.19.0/po/ug.po
+gtksourceview-5.19.0/po/uk.po
+gtksourceview-5.19.0/po/vi.po
+gtksourceview-5.19.0/po/xh.po
+gtksourceview-5.19.0/po/zh_CN.po
+gtksourceview-5.19.0/po/zh_HK.po
+gtksourceview-5.19.0/po/zh_TW.po
+gtksourceview-5.19.0/subprojects/
+gtksourceview-5.19.0/subprojects/.gitignore
+gtksourceview-5.19.0/subprojects/glib.wrap
+gtksourceview-5.19.0/subprojects/gtk.wrap
+gtksourceview-5.19.0/subprojects/libxml2.wrap
+gtksourceview-5.19.0/subprojects/pcre2.wrap
+gtksourceview-5.19.0/tests/
+gtksourceview-5.19.0/tests/meson.build
+gtksourceview-5.19.0/tests/syntax-highlighting/
+gtksourceview-5.19.0/tests/syntax-highlighting/ChangeLog
+gtksourceview-5.19.0/tests/syntax-highlighting/README
+gtksourceview-5.19.0/tests/syntax-highlighting/file.Rnw
+gtksourceview-5.19.0/tests/syntax-highlighting/file.abnf
+gtksourceview-5.19.0/tests/syntax-highlighting/file.asciidoc
+gtksourceview-5.19.0/tests/syntax-highlighting/file.asp
+gtksourceview-5.19.0/tests/syntax-highlighting/file.astro
+gtksourceview-5.19.0/tests/syntax-highlighting/file.awk
+gtksourceview-5.19.0/tests/syntax-highlighting/file.bib
+gtksourceview-5.19.0/tests/syntax-highlighting/file.blp
+gtksourceview-5.19.0/tests/syntax-highlighting/file.c
+gtksourceview-5.19.0/tests/syntax-highlighting/file.cc
+gtksourceview-5.19.0/tests/syntax-highlighting/file.cg
+gtksourceview-5.19.0/tests/syntax-highlighting/file.cir
+gtksourceview-5.19.0/tests/syntax-highlighting/file.cmake
+gtksourceview-5.19.0/tests/syntax-highlighting/file.cob
+gtksourceview-5.19.0/tests/syntax-highlighting/file.css
+gtksourceview-5.19.0/tests/syntax-highlighting/file.csv
+gtksourceview-5.19.0/tests/syntax-highlighting/file.cu
+gtksourceview-5.19.0/tests/syntax-highlighting/file.dart
+gtksourceview-5.19.0/tests/syntax-highlighting/file.desktop
+gtksourceview-5.19.0/tests/syntax-highlighting/file.diff
+gtksourceview-5.19.0/tests/syntax-highlighting/file.dtd
+gtksourceview-5.19.0/tests/syntax-highlighting/file.dtl
+gtksourceview-5.19.0/tests/syntax-highlighting/file.erb
+gtksourceview-5.19.0/tests/syntax-highlighting/file.exs
+gtksourceview-5.19.0/tests/syntax-highlighting/file.f
+gtksourceview-5.19.0/tests/syntax-highlighting/file.fcl
+gtksourceview-5.19.0/tests/syntax-highlighting/file.frt
+gtksourceview-5.19.0/tests/syntax-highlighting/file.fs
+gtksourceview-5.19.0/tests/syntax-highlighting/file.ftl
+gtksourceview-5.19.0/tests/syntax-highlighting/file.g
+gtksourceview-5.19.0/tests/syntax-highlighting/file.gdb
+gtksourceview-5.19.0/tests/syntax-highlighting/file.glslf
+gtksourceview-5.19.0/tests/syntax-highlighting/file.go
+gtksourceview-5.19.0/tests/syntax-highlighting/file.groff
+gtksourceview-5.19.0/tests/syntax-highlighting/file.groovy
+gtksourceview-5.19.0/tests/syntax-highlighting/file.h
+gtksourceview-5.19.0/tests/syntax-highlighting/file.html
+gtksourceview-5.19.0/tests/syntax-highlighting/file.html.erb
+gtksourceview-5.19.0/tests/syntax-highlighting/file.hx
+gtksourceview-5.19.0/tests/syntax-highlighting/file.ijm
+gtksourceview-5.19.0/tests/syntax-highlighting/file.impl
+gtksourceview-5.19.0/tests/syntax-highlighting/file.ini
+gtksourceview-5.19.0/tests/syntax-highlighting/file.j
+gtksourceview-5.19.0/tests/syntax-highlighting/file.jade
+gtksourceview-5.19.0/tests/syntax-highlighting/file.java
+gtksourceview-5.19.0/tests/syntax-highlighting/file.js
+gtksourceview-5.19.0/tests/syntax-highlighting/file.js.erb
+gtksourceview-5.19.0/tests/syntax-highlighting/file.json
+gtksourceview-5.19.0/tests/syntax-highlighting/file.jsx
+gtksourceview-5.19.0/tests/syntax-highlighting/file.la
+gtksourceview-5.19.0/tests/syntax-highlighting/file.lean
+gtksourceview-5.19.0/tests/syntax-highlighting/file.less
+gtksourceview-5.19.0/tests/syntax-highlighting/file.lisp
+gtksourceview-5.19.0/tests/syntax-highlighting/file.ll
+gtksourceview-5.19.0/tests/syntax-highlighting/file.logcat
+gtksourceview-5.19.0/tests/syntax-highlighting/file.m
+gtksourceview-5.19.0/tests/syntax-highlighting/file.m4
+gtksourceview-5.19.0/tests/syntax-highlighting/file.md
+gtksourceview-5.19.0/tests/syntax-highlighting/file.mediawiki
+gtksourceview-5.19.0/tests/syntax-highlighting/file.ml
+gtksourceview-5.19.0/tests/syntax-highlighting/file.nix
+gtksourceview-5.19.0/tests/syntax-highlighting/file.octave
+gtksourceview-5.19.0/tests/syntax-highlighting/file.ooc
+gtksourceview-5.19.0/tests/syntax-highlighting/file.pc
+gtksourceview-5.19.0/tests/syntax-highlighting/file.php
+gtksourceview-5.19.0/tests/syntax-highlighting/file.pig
+gtksourceview-5.19.0/tests/syntax-highlighting/file.pl
+gtksourceview-5.19.0/tests/syntax-highlighting/file.po
+gtksourceview-5.19.0/tests/syntax-highlighting/file.prg
+gtksourceview-5.19.0/tests/syntax-highlighting/file.prolog
+gtksourceview-5.19.0/tests/syntax-highlighting/file.py
+gtksourceview-5.19.0/tests/syntax-highlighting/file.py3
+gtksourceview-5.19.0/tests/syntax-highlighting/file.rb
+gtksourceview-5.19.0/tests/syntax-highlighting/file.rq
+gtksourceview-5.19.0/tests/syntax-highlighting/file.rs
+gtksourceview-5.19.0/tests/syntax-highlighting/file.rst
+gtksourceview-5.19.0/tests/syntax-highlighting/file.sci
+gtksourceview-5.19.0/tests/syntax-highlighting/file.scss
+gtksourceview-5.19.0/tests/syntax-highlighting/file.sh
+gtksourceview-5.19.0/tests/syntax-highlighting/file.spec
+gtksourceview-5.19.0/tests/syntax-highlighting/file.sql
+gtksourceview-5.19.0/tests/syntax-highlighting/file.str
+gtksourceview-5.19.0/tests/syntax-highlighting/file.svh
+gtksourceview-5.19.0/tests/syntax-highlighting/file.t2t
+gtksourceview-5.19.0/tests/syntax-highlighting/file.tera
+gtksourceview-5.19.0/tests/syntax-highlighting/file.testv1
+gtksourceview-5.19.0/tests/syntax-highlighting/file.tex
+gtksourceview-5.19.0/tests/syntax-highlighting/file.texi
+gtksourceview-5.19.0/tests/syntax-highlighting/file.tf
+gtksourceview-5.19.0/tests/syntax-highlighting/file.toml
+gtksourceview-5.19.0/tests/syntax-highlighting/file.ts
+gtksourceview-5.19.0/tests/syntax-highlighting/file.tsx
+gtksourceview-5.19.0/tests/syntax-highlighting/file.twig
+gtksourceview-5.19.0/tests/syntax-highlighting/file.wren
+gtksourceview-5.19.0/tests/syntax-highlighting/file.xml
+gtksourceview-5.19.0/tests/syntax-highlighting/file.y
+gtksourceview-5.19.0/tests/syntax-highlighting/file.yaml
+gtksourceview-5.19.0/tests/syntax-highlighting/file.zig
+gtksourceview-5.19.0/tests/syntax-highlighting/gtkrc
+gtksourceview-5.19.0/tests/syntax-highlighting/meson.build
+gtksourceview-5.19.0/tests/syntax-highlighting/todo.txt
+gtksourceview-5.19.0/tests/test-completion.c
+gtksourceview-5.19.0/tests/test-completion.gresource.xml
+gtksourceview-5.19.0/tests/test-completion.ui
+gtksourceview-5.19.0/tests/test-int2str.c
+gtksourceview-5.19.0/tests/test-load.c
+gtksourceview-5.19.0/tests/test-preview.c
+gtksourceview-5.19.0/tests/test-search-performances.c
+gtksourceview-5.19.0/tests/test-search.c
+gtksourceview-5.19.0/tests/test-search.gresource.xml
+gtksourceview-5.19.0/tests/test-search.ui
+gtksourceview-5.19.0/tests/test-space-drawing.c
+gtksourceview-5.19.0/tests/test-widget.c
+gtksourceview-5.19.0/tests/test-widget.gresource.xml
+gtksourceview-5.19.0/tests/test-widget.ui
+gtksourceview-5.19.0/testsuite/
+gtksourceview-5.19.0/testsuite/def.lang
+gtksourceview-5.19.0/testsuite/gtksourceview.test.in
+gtksourceview-5.19.0/testsuite/language-specs/
+gtksourceview-5.19.0/testsuite/language-specs/test-empty.lang
+gtksourceview-5.19.0/testsuite/language-specs/test-full.lang
+gtksourceview-5.19.0/testsuite/lsan.supp
+gtksourceview-5.19.0/testsuite/meson.build
+gtksourceview-5.19.0/testsuite/setup-file-saver.sh
+gtksourceview-5.19.0/testsuite/styles/
+gtksourceview-5.19.0/testsuite/styles/classic.xml
+gtksourceview-5.19.0/testsuite/styles/test.xml
+gtksourceview-5.19.0/testsuite/test-buffer-input-stream.c
+gtksourceview-5.19.0/testsuite/test-buffer-output-stream.c
+gtksourceview-5.19.0/testsuite/test-buffer.c
+gtksourceview-5.19.0/testsuite/test-completion-words.c
+gtksourceview-5.19.0/testsuite/test-encoding.c
+gtksourceview-5.19.0/testsuite/test-file-loader.c
+gtksourceview-5.19.0/testsuite/test-file-saver.c
+gtksourceview-5.19.0/testsuite/test-iter.c
+gtksourceview-5.19.0/testsuite/test-language-specs.c
+gtksourceview-5.19.0/testsuite/test-language.c
+gtksourceview-5.19.0/testsuite/test-languagemanager.c
+gtksourceview-5.19.0/testsuite/test-mark.c
+gtksourceview-5.19.0/testsuite/test-printcompositor.c
+gtksourceview-5.19.0/testsuite/test-regex.c
+gtksourceview-5.19.0/testsuite/test-region.c
+gtksourceview-5.19.0/testsuite/test-search-context.c
+gtksourceview-5.19.0/testsuite/test-snippets.c
+gtksourceview-5.19.0/testsuite/test-space-drawer.c
+gtksourceview-5.19.0/testsuite/test-stylescheme.c
+gtksourceview-5.19.0/testsuite/test-styleschememanager.c
+gtksourceview-5.19.0/testsuite/test-syntax.c
+gtksourceview-5.19.0/testsuite/test-utils.c
+gtksourceview-5.19.0/testsuite/test-view.c
+gtksourceview-5.19.0/testsuite/test-vim-input.c
+gtksourceview-5.19.0/testsuite/test-vim-state.c
+gtksourceview-5.19.0/testsuite/test-vim-text-object.c
+gtksourceview-5.19.0/testsuite/test.snippets
+gtksourceview-5.19.0/testsuite/testsuite-2.lang
+gtksourceview-5.19.0/testsuite/testsuite.gresource.xml
+gtksourceview-5.19.0/testsuite/testsuite.lang
+The Meson build system
+Version: 1.10.1
+Source dir: /blfs/builds/gtksourceview-5.19.0
+Build dir: /blfs/builds/gtksourceview-5.19.0/build
+Build type: native build
+DEPRECATION: WrapDB v1 is deprecated, updated using `meson wrap update libxml2`
+Project name: gtksourceview
+Project version: 5.19.0
+C compiler for the host machine: cc (gcc 15.2.0 "cc (GCC) 15.2.0")
+C linker for the host machine: cc ld.bfd 2.45
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Program g-ir-scanner found: YES (/usr/bin/g-ir-scanner)
+Library m found: YES
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Run-time dependency glib-2.0 found: YES 2.86.4
+Run-time dependency gobject-2.0 found: YES 2.86.4
+Run-time dependency gio-2.0 found: YES 2.86.4
+Run-time dependency gtk4 found: YES 4.20.3
+Run-time dependency libxml-2.0 found: YES 2.15.1
+Run-time dependency fribidi found: YES 1.0.16
+Run-time dependency fontconfig found: YES 2.17.1
+Run-time dependency pangoft2 found: YES 1.57.0
+Run-time dependency libpcre2-8 found: YES 10.47
+Found CMake: /usr/bin/cmake (4.2.3)
+Run-time dependency gtk4-quartz found: NO (tried pkgconfig and cmake)
+Run-time dependency vulkan found: YES 1.4.344
+Run-time dependency gobject-introspection-1.0 found: YES 1.86.0
+Program xmllint found: YES (/usr/bin/xmllint)
+Has header "unistd.h" : YES 
+Checking for function "memalign" : YES 
+Checking for function "strnlen" : YES 
+Compiler for C supports arguments -Wcast-align: YES 
+Compiler for C supports arguments -Wdeclaration-after-statement: YES 
+Compiler for C supports arguments -Werror=address: YES 
+Compiler for C supports arguments -Werror=array-bounds: YES 
+Compiler for C supports arguments -Werror=empty-body: YES 
+Compiler for C supports arguments -Werror=implicit: YES 
+Compiler for C supports arguments -Werror=implicit-function-declaration: YES 
+Compiler for C supports arguments -Werror=init-self: YES 
+Compiler for C supports arguments -Werror=int-conversion: YES 
+Compiler for C supports arguments -Werror=int-to-pointer-cast: YES 
+Compiler for C supports arguments -Werror=main: YES 
+Compiler for C supports arguments -Werror=misleading-indentation: YES 
+Compiler for C supports arguments -Werror=missing-braces: YES 
+Compiler for C supports arguments -Werror=missing-include-dirs: YES 
+Compiler for C supports arguments -Werror=nonnull: YES 
+Compiler for C supports arguments -Werror=overflow: YES 
+Compiler for C supports arguments -Werror=parenthesis: NO 
+Compiler for C supports arguments -Werror=pointer-arith: YES 
+Compiler for C supports arguments -Werror=pointer-to-int-cast: YES 
+Compiler for C supports arguments -Werror=return-type: YES 
+Compiler for C supports arguments -Werror=sequence-point: YES 
+Compiler for C supports arguments -Werror=shadow: YES 
+Compiler for C supports arguments -Werror=strict-prototypes: YES 
+Compiler for C supports arguments -Werror=trigraphs: YES 
+Compiler for C supports arguments -Werror=undef: YES 
+Compiler for C supports arguments -Werror=write-strings: YES 
+Compiler for C supports arguments -Wformat-nonliteral: YES 
+Compiler for C supports arguments -Werror=format-security -Werror=format=2: YES 
+Compiler for C supports arguments -Wignored-qualifiers: YES 
+Compiler for C supports arguments -Wimplicit-function-declaration: YES 
+Compiler for C supports arguments -Wlogical-op: YES 
+Compiler for C supports arguments -Wmissing-format-attribute: YES 
+Compiler for C supports arguments -Wmissing-include-dirs: YES 
+Compiler for C supports arguments -Wmissing-noreturn: YES 
+Compiler for C supports arguments -Wnested-externs: YES 
+Compiler for C supports arguments -Wno-cast-function-type: YES 
+Compiler for C supports arguments -Wno-dangling-pointer: YES 
+Compiler for C supports arguments -Wno-missing-field-initializers: YES 
+Compiler for C supports arguments -Wno-sign-compare: YES 
+Compiler for C supports arguments -Wno-unused-parameter: YES 
+Compiler for C supports arguments -Wno-typedef-redefinition: NO 
+Compiler for C supports arguments -Wold-style-definition: YES 
+Compiler for C supports arguments -Wpointer-arith: YES 
+Compiler for C supports arguments -Wstrict-prototypes: YES 
+Compiler for C supports arguments -Wswitch-default: YES 
+Compiler for C supports arguments -Wswitch-enum: YES 
+Compiler for C supports arguments -Wundef: YES 
+Compiler for C supports arguments -Wuninitialized: YES 
+Compiler for C supports arguments -Wunused: YES 
+Compiler for C supports arguments -fno-strict-aliasing: YES 
+Compiler for C supports arguments -fstack-protector-strong: YES 
+Compiler for C supports arguments -Wmissing-declarations: YES 
+Compiler for C supports arguments -fvisibility=hidden: YES 
+Compiler for C supports link arguments -Wl,-z,defs: YES 
+Compiler for C supports link arguments -Wl,-z,now: YES 
+Compiler for C supports link arguments -Wl,-z,relro: YES 
+Compiler for C supports link arguments -Wl,-Bsymbolic: YES 
+Compiler for C supports link arguments -fno-plt: YES 
+Configuring config.h using configuration
+Dependency glib-2.0 found: YES 2.86.4 (cached)
+Program /usr/bin/glib-genmarshal found: YES (/usr/bin/glib-genmarshal)
+Dependency glib-2.0 found: YES 2.86.4 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Dependency glib-2.0 found: YES 2.86.4 (cached)
+Program /usr/bin/glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Configuring gtksourceversion.h using configuration
+Dependency gio-2.0 found: YES 2.86.4 (cached)
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Dependency gobject-introspection-1.0 found: YES 1.86.0 (cached)
+Dependency gobject-introspection-1.0 found: YES 1.86.0 (cached)
+Dependency gobject-introspection-1.0 found: YES 1.86.0 (cached)
+Program /usr/bin/g-ir-scanner found: YES (/usr/bin/g-ir-scanner)
+Dependency gobject-introspection-1.0 found: YES 1.86.0 (cached)
+Program /usr/bin/g-ir-compiler found: YES (/usr/bin/g-ir-compiler)
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Program vapigen found: YES (/usr/bin/vapigen)
+Program gi-docgen found: YES (/usr/bin/gi-docgen)
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Program msginit found: YES (/usr/bin/msginit)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program xgettext found: YES (/usr/bin/xgettext)
+Dependency gio-2.0 found: YES 2.86.4 (cached)
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Dependency gio-2.0 found: YES 2.86.4 (cached)
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Dependency gio-2.0 found: YES 2.86.4 (cached)
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Dependency gio-2.0 found: YES 2.86.4 (cached)
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Program gtk4-update-icon-cache found: YES (/usr/bin/gtk4-update-icon-cache)
+Build targets in project: 146
+
+gtksourceview 5.19.0
+
+    Documentation  : NO
+    Build Testsuite: YES
+    Install tests  : NO
+    Introspection  : YES
+    Vala vapi      : YES
+
+  User defined options
+    buildtype      : release
+    prefix         : /usr
+
+Found ninja-1.13.2 at /usr/bin/ninja
+WARNING: Running the setup command as `meson [options]` instead of `meson setup [options]` is ambiguous and deprecated.
+[1/336] Generating testsuite/testsuite-gresources_c with a custom command
+[2/336] Generating testsuite/testsuite-gresources_h with a custom command
+[3/336] Building translation po/ab/LC_MESSAGES/gtksourceview-5-ab.mo
+[4/336] Building translation po/ar/LC_MESSAGES/gtksourceview-5-ar.mo
+[5/336] Building translation po/as/LC_MESSAGES/gtksourceview-5-as.mo
+[6/336] Generating tests/test-completion-resources_c with a custom command
+[7/336] Generating tests/test-completion-resources_h with a custom command
+[8/336] Generating tests/test-search-resources_h with a custom command
+[9/336] Generating tests/test-widget-resources_h with a custom command
+[10/336] Generating tests/test-search-resources_c with a custom command
+[11/336] Building translation po/az/LC_MESSAGES/gtksourceview-5-az.mo
+[12/336] Generating tests/test-widget-resources_c with a custom command
+[13/336] Building translation po/ast/LC_MESSAGES/gtksourceview-5-ast.mo
+[14/336] Building translation po/bn/LC_MESSAGES/gtksourceview-5-bn.mo
+[15/336] Building translation po/cy/LC_MESSAGES/gtksourceview-5-cy.mo
+[16/336] Building translation po/ca@valencia/LC_MESSAGES/gtksourceview-5-ca@valencia.mo
+[17/336] Building translation po/be/LC_MESSAGES/gtksourceview-5-be.mo
+[18/336] Building translation po/bg/LC_MESSAGES/gtksourceview-5-bg.mo
+[19/336] Building translation po/bs/LC_MESSAGES/gtksourceview-5-bs.mo
+[20/336] Building translation po/bn_IN/LC_MESSAGES/gtksourceview-5-bn_IN.mo
+[21/336] Building translation po/de/LC_MESSAGES/gtksourceview-5-de.mo
+[22/336] Building translation po/ca/LC_MESSAGES/gtksourceview-5-ca.mo
+[23/336] Building translation po/cs/LC_MESSAGES/gtksourceview-5-cs.mo
+[24/336] Building translation po/dz/LC_MESSAGES/gtksourceview-5-dz.mo
+[25/336] Building translation po/da/LC_MESSAGES/gtksourceview-5-da.mo
+[26/336] Building translation po/eo/LC_MESSAGES/gtksourceview-5-eo.mo
+[27/336] Building translation po/en_CA/LC_MESSAGES/gtksourceview-5-en_CA.mo
+[28/336] Building translation po/el/LC_MESSAGES/gtksourceview-5-el.mo
+[29/336] Building translation po/en@shaw/LC_MESSAGES/gtksourceview-5-en@shaw.mo
+[30/336] Building translation po/en_GB/LC_MESSAGES/gtksourceview-5-en_GB.mo
+[31/336] Building translation po/es/LC_MESSAGES/gtksourceview-5-es.mo
+[32/336] Building translation po/fi/LC_MESSAGES/gtksourceview-5-fi.mo
+[33/336] Building translation po/fur/LC_MESSAGES/gtksourceview-5-fur.mo
+[34/336] Building translation po/et/LC_MESSAGES/gtksourceview-5-et.mo
+[35/336] Building translation po/gl/LC_MESSAGES/gtksourceview-5-gl.mo
+[36/336] Building translation po/gu/LC_MESSAGES/gtksourceview-5-gu.mo
+[37/336] Building translation po/he/LC_MESSAGES/gtksourceview-5-he.mo
+[38/336] Building translation po/eu/LC_MESSAGES/gtksourceview-5-eu.mo
+[39/336] Building translation po/fa/LC_MESSAGES/gtksourceview-5-fa.mo
+[40/336] Building translation po/fr/LC_MESSAGES/gtksourceview-5-fr.mo
+[41/336] Building translation po/ga/LC_MESSAGES/gtksourceview-5-ga.mo
+[42/336] Building translation po/hi/LC_MESSAGES/gtksourceview-5-hi.mo
+[43/336] Building translation po/hr/LC_MESSAGES/gtksourceview-5-hr.mo
+[44/336] Building translation po/it/LC_MESSAGES/gtksourceview-5-it.mo
+[45/336] Building translation po/id/LC_MESSAGES/gtksourceview-5-id.mo
+[46/336] Building translation po/is/LC_MESSAGES/gtksourceview-5-is.mo
+[47/336] Building translation po/ie/LC_MESSAGES/gtksourceview-5-ie.mo
+[48/336] Building translation po/hu/LC_MESSAGES/gtksourceview-5-hu.mo
+[49/336] Building translation po/ja/LC_MESSAGES/gtksourceview-5-ja.mo
+[50/336] Building translation po/kk/LC_MESSAGES/gtksourceview-5-kk.mo
+[51/336] Building translation po/ko/LC_MESSAGES/gtksourceview-5-ko.mo
+[52/336] Building translation po/kn/LC_MESSAGES/gtksourceview-5-kn.mo
+[53/336] Building translation po/kw/LC_MESSAGES/gtksourceview-5-kw.mo
+[54/336] Building translation po/ka/LC_MESSAGES/gtksourceview-5-ka.mo
+[55/336] Building translation po/kab/LC_MESSAGES/gtksourceview-5-kab.mo
+[56/336] Building translation po/mg/LC_MESSAGES/gtksourceview-5-mg.mo
+[57/336] Generating glib marshaller header gtksourceview/gtksource-marshal_h
+[58/336] Building translation po/mai/LC_MESSAGES/gtksourceview-5-mai.mo
+[59/336] Building translation po/ml/LC_MESSAGES/gtksourceview-5-ml.mo
+[60/336] Building translation po/mk/LC_MESSAGES/gtksourceview-5-mk.mo
+[61/336] Building translation po/mn/LC_MESSAGES/gtksourceview-5-mn.mo
+[62/336] Building translation po/mr/LC_MESSAGES/gtksourceview-5-mr.mo
+[63/336] Building translation po/nb/LC_MESSAGES/gtksourceview-5-nb.mo
+[64/336] Building translation po/lv/LC_MESSAGES/gtksourceview-5-lv.mo
+[65/336] Building translation po/lt/LC_MESSAGES/gtksourceview-5-lt.mo
+[66/336] Building translation po/ne/LC_MESSAGES/gtksourceview-5-ne.mo
+[67/336] Building translation po/or/LC_MESSAGES/gtksourceview-5-or.mo
+[68/336] Building translation po/nl/LC_MESSAGES/gtksourceview-5-nl.mo
+[69/336] Building translation po/ms/LC_MESSAGES/gtksourceview-5-ms.mo
+[70/336] Building translation po/pa/LC_MESSAGES/gtksourceview-5-pa.mo
+[71/336] Building translation po/nn/LC_MESSAGES/gtksourceview-5-nn.mo
+[72/336] Building translation po/oc/LC_MESSAGES/gtksourceview-5-oc.mo
+[73/336] Building translation po/pl/LC_MESSAGES/gtksourceview-5-pl.mo
+[74/336] Building translation po/ro/LC_MESSAGES/gtksourceview-5-ro.mo
+[75/336] Building translation po/rw/LC_MESSAGES/gtksourceview-5-rw.mo
+[76/336] Building translation po/ru/LC_MESSAGES/gtksourceview-5-ru.mo
+[77/336] Building translation po/pt/LC_MESSAGES/gtksourceview-5-pt.mo
+[78/336] Building translation po/pt_BR/LC_MESSAGES/gtksourceview-5-pt_BR.mo
+[79/336] Building translation po/si/LC_MESSAGES/gtksourceview-5-si.mo
+[80/336] Building translation po/sr/LC_MESSAGES/gtksourceview-5-sr.mo
+[81/336] Building translation po/sk/LC_MESSAGES/gtksourceview-5-sk.mo
+[82/336] Building translation po/sr@latin/LC_MESSAGES/gtksourceview-5-sr@latin.mo
+[83/336] Building translation po/sl/LC_MESSAGES/gtksourceview-5-sl.mo
+[84/336] Building translation po/sq/LC_MESSAGES/gtksourceview-5-sq.mo
+[85/336] Building translation po/sv/LC_MESSAGES/gtksourceview-5-sv.mo
+[86/336] Building translation po/tr/LC_MESSAGES/gtksourceview-5-tr.mo
+[87/336] Building translation po/ug/LC_MESSAGES/gtksourceview-5-ug.mo
+[88/336] Building translation po/th/LC_MESSAGES/gtksourceview-5-th.mo
+[89/336] Building translation po/ta/LC_MESSAGES/gtksourceview-5-ta.mo
+[90/336] Building translation po/te/LC_MESSAGES/gtksourceview-5-te.mo
+[91/336] Building translation po/uk/LC_MESSAGES/gtksourceview-5-uk.mo
+[92/336] Building translation po/tg/LC_MESSAGES/gtksourceview-5-tg.mo
+[93/336] Building translation po/zh_CN/LC_MESSAGES/gtksourceview-5-zh_CN.mo
+[94/336] Building translation po/vi/LC_MESSAGES/gtksourceview-5-vi.mo
+[95/336] Building translation po/zh_HK/LC_MESSAGES/gtksourceview-5-zh_HK.mo
+[96/336] Building translation po/xh/LC_MESSAGES/gtksourceview-5-xh.mo
+[97/336] Building translation po/zh_TW/LC_MESSAGES/gtksourceview-5-zh_TW.mo
+[98/336] Generating glib marshaller source gtksourceview/gtksource-marshal_c
+[99/336] Generating GObject enum file gtksourceview/gtksource-enumtypes.h (wrapped by meson because command contains newlines, to capture output)
+[100/336] Generating GObject enum file gtksourceview/gtksource-enumtypes.c (wrapped by meson because command contains newlines, to capture output)
+[101/336] Compiling C object tests/test-search.p/meson-generated_.._test-search-resources.c.o
+[102/336] Compiling C object gtksourceview/completion-providers/words/libgtksourceview-5completionwords.a.p/gtksourcecompletionwordsproposal.c.o
+[103/336] Compiling C object gtksourceview/completion-providers/words/libgtksourceview-5completionwords.a.p/gtksourcecompletionwordsmodel.c.o
+[104/336] Compiling C object gtksourceview/completion-providers/words/libgtksourceview-5completionwords.a.p/gtksourcecompletionwordslibrary.c.o
+[105/336] Compiling C object tests/test-completion.p/meson-generated_.._test-completion-resources.c.o
+[106/336] Compiling C object tests/test-widget.p/meson-generated_.._test-widget-resources.c.o
+[107/336] Generating gtksourceview/gtksourceview-gresources_h with a custom command
+[108/336] Compiling C object gtksourceview/completion-providers/words/libgtksourceview-5completionwords.a.p/gtksourcecompletionwordsutils.c.o
+[109/336] Compiling C object tests/test-load.p/test-load.c.o
+[110/336] Compiling C object tests/test-int2str.p/test-int2str.c.o
+[111/336] Compiling C object tests/test-space-drawing.p/test-space-drawing.c.o
+[112/336] Compiling C object tests/test-search-performances.p/test-search-performances.c.o
+[113/336] Compiling C object gtksourceview/completion-providers/snippets/libgtksourceview-5completionsnippets.a.p/gtksourcecompletionsnippetsproposal.c.o
+[114/336] Compiling C object gtksourceview/completion-providers/snippets/libgtksourceview-5completionsnippets.a.p/gtksourcecompletionsnippets.c.o
+[115/336] Compiling C object gtksourceview/completion-providers/words/libgtksourceview-5completionwords.a.p/gtksourcecompletionwordsbuffer.c.o
+[116/336] Compiling C object gtksourceview/completion-providers/words/libgtksourceview-5completionwords.a.p/gtksourcecompletionwords.c.o
+[117/336] Generating gtksourceview/gtksourceview-gresources_c with a custom command
+[118/336] Compiling C object tests/test-completion.p/test-completion.c.o
+[119/336] Compiling C object tests/test-search.p/test-search.c.o
+[120/336] Compiling C object tests/test-widget.p/test-widget.c.o
+[121/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcecompletionproposal.c.o
+[122/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/meson-generated_.._gtksource-marshal.c.o
+[123/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/meson-generated_.._gtksource-enumtypes.c.o
+[124/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/meson-generated_.._gtksourceview-gresources.c.o
+[125/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcecompletionprovider.c.o
+[126/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourceannotationprovider.c.o
+[127/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourceencoding.c.o
+[128/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcecompletioncell.c.o
+[129/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourceannotations.c.o
+[130/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourceannotation.c.o
+[131/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcecompletion.c.o
+[132/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcegutter.c.o
+[133/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcefile.c.o
+[134/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcehover.c.o
+[135/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcecompletioncontext.c.o
+[136/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcegutterrendererpixbuf.c.o
+[137/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcefileloader.c.o
+[138/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcehoverprovider.c.o
+[139/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcefilesaver.c.o
+[140/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcehovercontext.c.o
+[141/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcegutterrenderer.c.o
+[142/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourceindenter.c.o
+[143/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcegutterrenderertext.c.o
+[144/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcehoverdisplay.c.o
+[145/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcebuffer.c.o
+[146/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourceinit.c.o
+[147/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcegutterlines.c.o
+[148/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcemarkattributes.c.o
+[149/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcesearchsettings.c.o
+[150/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcelanguage.c.o
+[151/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcelanguagemanager.c.o
+[152/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcemark.c.o
+[153/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcemap.c.o
+[154/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourceregion.c.o
+[155/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcesnippetmanager.c.o
+[156/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcescheduler.c.o
+[157/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcesnippetchunk.c.o
+[158/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcesnippet.c.o
+[159/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourceprintcompositor.c.o
+[160/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcesnippetcontext.c.o
+[161/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourceversion.c.o
+[162/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcestyle.c.o
+[163/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcestyleschemechooserbutton.c.o
+[164/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcesearchcontext.c.o
+[165/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcestyleschemechooserwidget.c.o
+[166/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcestyleschemepreview.c.o
+[167/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcestyleschemechooser.c.o
+[168/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcestyleschememanager.c.o
+[169/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcetag.c.o
+[170/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcestylescheme.c.o
+[171/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcespacedrawer.c.o
+[172/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcecompletioninfo.c.o
+[173/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcevimimcontext.c.o
+[174/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourceassistantchild.c.o
+[175/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcebufferinputstream.c.o
+[176/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcebufferinternal.c.o
+[177/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourceutils.c.o
+[178/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourceassistant.c.o
+[179/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcecompletionlistboxrow.c.o
+[180/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcebufferoutputstream.c.o
+[181/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcecompletionlist.c.o
+[182/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcegutterrendererlines.c.o
+[183/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourceengine.c.o
+[184/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcehoverassistant.c.o
+[185/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcecompletionlistbox.c.o
+[186/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourceview.c.o
+[187/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcegutterrenderermarks.c.o
+[188/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourceinformative.c.o
+[189/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcepixbufhelper.c.o
+[190/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcemarkssequence.c.o
+[191/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourceiter.c.o
+[192/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourceview-snippets.c.o
+[193/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourceregex.c.o
+[194/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourceview-assistants.c.o
+[195/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/vim_gtksourcevimcharpending.c.o
+[196/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/vim_gtksourcevimcommandbar.c.o
+[197/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcesnippetbundle-parser.c.o
+[198/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcesnippetbundle.c.o
+[199/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/implregex.c.o
+[200/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/vim_gtksourceviminsert.c.o
+[201/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/vim_gtksourcevimjumplist.c.o
+[202/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcelanguage-parser-2.c.o
+[203/336] Linking static target gtksourceview/completion-providers/snippets/libgtksourceview-5completionsnippets.a
+[204/336] Linking static target gtksourceview/completion-providers/words/libgtksourceview-5completionwords.a
+[205/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/vim_gtksourcevim.c.o
+[206/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/vim_gtksourceviminsertliteral.c.o
+[207/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/vim_gtksourcevimnormal.c.o
+[208/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/vim_gtksourcevimmarks.c.o
+[209/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/vim_gtksourcevimregisters.c.o
+[210/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/vim_gtksourcevimreplace.c.o
+[211/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/vim_gtksourcevimtextobject.c.o
+[212/336] Compiling C object testsuite/test-buffer.p/meson-generated_.._testsuite-gresources.c.o
+[213/336] Compiling C object testsuite/test-buffer.p/meson-generated_.._.._gtksourceview_gtksourceview-gresources.c.o
+[214/336] Compiling C object testsuite/test-buffer-input-stream.p/meson-generated_.._testsuite-gresources.c.o
+[215/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/vim_gtksourcevimtexthistory.c.o
+[216/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/vim_gtksourcevimcommand.c.o
+[217/336] Compiling C object tests/test-preview.p/test-preview.c.o
+[218/336] Compiling C object testsuite/test-buffer-output-stream.p/meson-generated_.._testsuite-gresources.c.o
+[219/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/vim_gtksourcevimvisual.c.o
+[220/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/gtksourcecontextengine.c.o
+[221/336] Compiling C object testsuite/test-buffer-output-stream.p/meson-generated_.._.._gtksourceview_gtksourceview-gresources.c.o
+[222/336] Compiling C object testsuite/test-completion-words.p/meson-generated_.._testsuite-gresources.c.o
+[223/336] Compiling C object testsuite/test-completion-words.p/meson-generated_.._.._gtksourceview_gtksourceview-gresources.c.o
+[224/336] Compiling C object testsuite/test-buffer-input-stream.p/meson-generated_.._.._gtksourceview_gtksourceview-gresources.c.o
+[225/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/vim_gtksourcevimstate.c.o
+[226/336] Compiling C object testsuite/test-encoding.p/meson-generated_.._testsuite-gresources.c.o
+[227/336] Compiling C object testsuite/test-completion-words.p/test-completion-words.c.o
+[228/336] Compiling C object testsuite/test-file-loader.p/meson-generated_.._testsuite-gresources.c.o
+[229/336] Compiling C object testsuite/test-encoding.p/meson-generated_.._.._gtksourceview_gtksourceview-gresources.c.o
+[230/336] Compiling C object testsuite/test-buffer.p/test-buffer.c.o
+[231/336] Compiling C object testsuite/test-file-loader.p/meson-generated_.._.._gtksourceview_gtksourceview-gresources.c.o
+[232/336] Compiling C object testsuite/test-file-saver.p/meson-generated_.._testsuite-gresources.c.o
+[233/336] Compiling C object gtksourceview/libgtksourceview-5core.a.p/vim_gtksourcevimmotion.c.o
+[234/336] Compiling C object testsuite/test-buffer-input-stream.p/test-buffer-input-stream.c.o
+[235/336] Linking static target gtksourceview/libgtksourceview-5core.a
+[236/336] Compiling C object testsuite/test-encoding.p/test-encoding.c.o
+[237/336] Compiling C object testsuite/test-iter.p/meson-generated_.._testsuite-gresources.c.o
+[238/336] Compiling C object testsuite/test-language.p/meson-generated_.._testsuite-gresources.c.o
+[239/336] Compiling C object testsuite/test-file-saver.p/meson-generated_.._.._gtksourceview_gtksourceview-gresources.c.o
+[240/336] Compiling C object testsuite/test-language.p/meson-generated_.._.._gtksourceview_gtksourceview-gresources.c.o
+[241/336] Compiling C object testsuite/test-buffer-output-stream.p/test-buffer-output-stream.c.o
+[242/336] Compiling C object testsuite/test-iter.p/meson-generated_.._.._gtksourceview_gtksourceview-gresources.c.o
+[243/336] Compiling C object testsuite/test-file-loader.p/test-file-loader.c.o
+[244/336] Compiling C object testsuite/test-languagemanager.p/meson-generated_.._testsuite-gresources.c.o
+[245/336] Compiling C object testsuite/test-languagemanager.p/meson-generated_.._.._gtksourceview_gtksourceview-gresources.c.o
+[246/336] Linking target gtksourceview/libgtksourceview-5.so.0.0.0
+[247/336] Compiling C object testsuite/test-mark.p/meson-generated_.._testsuite-gresources.c.o
+[248/336] Compiling C object testsuite/test-language-specs.p/meson-generated_.._testsuite-gresources.c.o
+[249/336] Compiling C object testsuite/test-language-specs.p/meson-generated_.._.._gtksourceview_gtksourceview-gresources.c.o
+[250/336] Compiling C object testsuite/test-mark.p/meson-generated_.._.._gtksourceview_gtksourceview-gresources.c.o
+[251/336] Generating symbol file gtksourceview/libgtksourceview-5.so.0.0.0.p/libgtksourceview-5.so.0.0.0.symbols
+[252/336] Compiling C object testsuite/test-printcompositor.p/meson-generated_.._testsuite-gresources.c.o
+[253/336] Compiling C object testsuite/test-file-saver.p/test-file-saver.c.o
+[254/336] Compiling C object testsuite/test-language-specs.p/test-language-specs.c.o
+[255/336] Compiling C object testsuite/test-printcompositor.p/meson-generated_.._.._gtksourceview_gtksourceview-gresources.c.o
+[256/336] Compiling C object testsuite/test-language.p/test-language.c.o
+[257/336] Compiling C object testsuite/test-regex.p/meson-generated_.._testsuite-gresources.c.o
+[258/336] Compiling C object testsuite/test-iter.p/test-iter.c.o
+[259/336] Compiling C object testsuite/test-region.p/meson-generated_.._testsuite-gresources.c.o
+[260/336] Compiling C object testsuite/test-mark.p/test-mark.c.o
+[261/336] Compiling C object testsuite/test-regex.p/meson-generated_.._.._gtksourceview_gtksourceview-gresources.c.o
+[262/336] Compiling C object testsuite/test-snippets.p/meson-generated_.._testsuite-gresources.c.o
+[263/336] Compiling C object testsuite/test-printcompositor.p/test-printcompositor.c.o
+[264/336] Compiling C object testsuite/test-search-context.p/meson-generated_.._.._gtksourceview_gtksourceview-gresources.c.o
+[265/336] Compiling C object testsuite/test-region.p/meson-generated_.._.._gtksourceview_gtksourceview-gresources.c.o
+[266/336] Compiling C object testsuite/test-search-context.p/meson-generated_.._testsuite-gresources.c.o
+[267/336] Compiling C object testsuite/test-languagemanager.p/test-languagemanager.c.o
+[268/336] Compiling C object testsuite/test-space-drawer.p/meson-generated_.._testsuite-gresources.c.o
+[269/336] Compiling C object testsuite/test-snippets.p/meson-generated_.._.._gtksourceview_gtksourceview-gresources.c.o
+[270/336] Compiling C object testsuite/test-stylescheme.p/meson-generated_.._testsuite-gresources.c.o
+[271/336] Compiling C object testsuite/test-regex.p/test-regex.c.o
+[272/336] Compiling C object testsuite/test-region.p/test-region.c.o
+[273/336] Compiling C object testsuite/test-stylescheme.p/meson-generated_.._.._gtksourceview_gtksourceview-gresources.c.o
+[274/336] Compiling C object testsuite/test-snippets.p/test-snippets.c.o
+[275/336] Compiling C object testsuite/test-space-drawer.p/meson-generated_.._.._gtksourceview_gtksourceview-gresources.c.o
+[276/336] Compiling C object testsuite/test-space-drawer.p/test-space-drawer.c.o
+[277/336] Compiling C object testsuite/test-utils.p/meson-generated_.._testsuite-gresources.c.o
+[278/336] Compiling C object testsuite/test-styleschememanager.p/meson-generated_.._testsuite-gresources.c.o
+[279/336] Compiling C object testsuite/test-syntax.p/meson-generated_.._testsuite-gresources.c.o
+[280/336] Compiling C object testsuite/test-view.p/meson-generated_.._testsuite-gresources.c.o
+[281/336] Compiling C object testsuite/test-utils.p/meson-generated_.._.._gtksourceview_gtksourceview-gresources.c.o
+[282/336] Compiling C object testsuite/test-syntax.p/meson-generated_.._.._gtksourceview_gtksourceview-gresources.c.o
+[283/336] Compiling C object testsuite/test-styleschememanager.p/meson-generated_.._.._gtksourceview_gtksourceview-gresources.c.o
+[284/336] Compiling C object testsuite/test-stylescheme.p/test-stylescheme.c.o
+[285/336] Compiling C object testsuite/test-search-context.p/test-search-context.c.o
+[286/336] Compiling C object testsuite/test-vim-input.p/meson-generated_.._testsuite-gresources.c.o
+[287/336] Compiling C object testsuite/test-styleschememanager.p/test-styleschememanager.c.o
+[288/336] Compiling C object testsuite/test-view.p/meson-generated_.._.._gtksourceview_gtksourceview-gresources.c.o
+[289/336] Compiling C object testsuite/test-vim-input.p/meson-generated_.._.._gtksourceview_gtksourceview-gresources.c.o
+[290/336] Compiling C object testsuite/test-syntax.p/test-syntax.c.o
+[291/336] Compiling C object testsuite/test-vim-state.p/meson-generated_.._testsuite-gresources.c.o
+[292/336] Compiling C object testsuite/test-vim-text-object.p/meson-generated_.._testsuite-gresources.c.o
+[293/336] Compiling C object testsuite/test-utils.p/test-utils.c.o
+[294/336] Compiling C object testsuite/test-vim-state.p/meson-generated_.._.._gtksourceview_gtksourceview-gresources.c.o
+[295/336] Compiling C object testsuite/test-vim-input.p/test-vim-input.c.o
+[296/336] Compiling C object testsuite/test-vim-text-object.p/meson-generated_.._.._gtksourceview_gtksourceview-gresources.c.o
+[297/336] Compiling C object testsuite/test-view.p/test-view.c.o
+[298/336] Compiling C object testsuite/test-vim-state.p/test-vim-state.c.o
+[299/336] Compiling C object testsuite/test-vim-text-object.p/test-vim-text-object.c.o
+[300/336] Linking target tests/test-search-performances
+[301/336] Linking target tests/test-widget
+[302/336] Linking target tests/test-space-drawing
+[303/336] Linking target tests/test-search
+[304/336] Linking target tests/test-load
+[305/336] Linking target tests/test-completion
+[306/336] Linking target tests/test-int2str
+[307/336] Linking target testsuite/test-completion-words
+[308/336] Linking target testsuite/test-encoding
+[309/336] Linking target testsuite/test-buffer
+[310/336] Linking target testsuite/test-buffer-input-stream
+[311/336] Linking target testsuite/test-buffer-output-stream
+[312/336] Linking target tests/test-preview
+[313/336] Linking target testsuite/test-file-saver
+[314/336] Linking target testsuite/test-file-loader
+[315/336] Linking target testsuite/test-language
+[316/336] Linking target testsuite/test-iter
+[317/336] Linking target testsuite/test-snippets
+[318/336] Linking target testsuite/test-regex
+[319/336] Linking target testsuite/test-language-specs
+[320/336] Linking target testsuite/test-search-context
+[321/336] Linking target testsuite/test-printcompositor
+[322/336] Linking target testsuite/test-styleschememanager
+[323/336] Linking target testsuite/test-region
+[324/336] Linking target testsuite/test-mark
+[325/336] Linking target testsuite/test-space-drawer
+[326/336] Linking target testsuite/test-syntax
+[327/336] Linking target testsuite/test-languagemanager
+[328/336] Linking target testsuite/test-view
+[329/336] Linking target testsuite/test-stylescheme
+[330/336] Linking target testsuite/test-utils
+[331/336] Generating gtksourceview/GtkSource-5.gir with a custom command (wrapped by meson to set env)
+libhogweed.so.6: cannot open shared object file: No such file or directory
+Failed to load module: /usr/lib/gio/modules/libgiognutls.so
+[332/336] Linking target testsuite/test-vim-text-object
+[333/336] Linking target testsuite/test-vim-input
+[334/336] Linking target testsuite/test-vim-state
+[335/336] Generating gtksourceview/GtkSource-5.typelib with a custom command
+libhogweed.so.6: cannot open shared object file: No such file or directory
+Failed to load module: /usr/lib/gio/modules/libgiognutls.so
+[336/336] Generating gtksourceview/gtksourceview-5.vapi with a custom command
+GtkSource-5.gir:19603.7-19608.84: warning: Signal `GtkSource.View.smart_home_end' conflicts with property of the same name
+[0/1] Installing files
+Installing subdir /blfs/builds/gtksourceview-5.19.0/data/fonts to /usr/share/gtksourceview-5/fonts
+Installing /blfs/builds/gtksourceview-5.19.0/data/fonts/BuilderBlocks.ttf to /usr/share/gtksourceview-5/fonts
+Installing subdir /blfs/builds/gtksourceview-5.19.0/data/icons/hicolor to /usr/share/icons/hicolor
+Installing /blfs/builds/gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/lang-struct-symbolic.svg to /usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/completion-snippet-symbolic.svg to /usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/lang-namespace-symbolic.svg to /usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/lang-include-symbolic.svg to /usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/lang-enum-value-symbolic.svg to /usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/lang-class-symbolic.svg to /usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/lang-union-symbolic.svg to /usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/lang-function-symbolic.svg to /usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/lang-variable-symbolic.svg to /usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/completion-word-symbolic.svg to /usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/lang-define-symbolic.svg to /usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/lang-typedef-symbolic.svg to /usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/lang-enum-symbolic.svg to /usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/lang-struct-field-symbolic.svg to /usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/lang-method-symbolic.svg to /usr/share/icons/hicolor/scalable/actions
+Installing gtksourceview/gtksource-enumtypes.h to /usr/include/gtksourceview-5/gtksourceview
+Installing gtksourceview/libgtksourceview-5.so.0.0.0 to /usr/lib
+Installing gtksourceview/GtkSource-5.gir to /usr/share/gir-1.0
+Installing gtksourceview/GtkSource-5.typelib to /usr/lib/girepository-1.0
+Installing gtksourceview/gtksourceview-5.vapi to /usr/share/vala/vapi
+Installing po/ab/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/ab/LC_MESSAGES
+Installing po/ar/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/ar/LC_MESSAGES
+Installing po/as/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/as/LC_MESSAGES
+Installing po/ast/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/ast/LC_MESSAGES
+Installing po/az/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/az/LC_MESSAGES
+Installing po/be/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/be/LC_MESSAGES
+Installing po/bg/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/bg/LC_MESSAGES
+Installing po/bn/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/bn/LC_MESSAGES
+Installing po/bn_IN/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/bn_IN/LC_MESSAGES
+Installing po/bs/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/bs/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/ca/LC_MESSAGES
+Installing po/ca@valencia/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/ca@valencia/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/cs/LC_MESSAGES
+Installing po/cy/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/cy/LC_MESSAGES
+Installing po/da/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/de/LC_MESSAGES
+Installing po/dz/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/dz/LC_MESSAGES
+Installing po/el/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/el/LC_MESSAGES
+Installing po/en_CA/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/en_CA/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/en_GB/LC_MESSAGES
+Installing po/en@shaw/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/en@shaw/LC_MESSAGES
+Installing po/eo/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/eo/LC_MESSAGES
+Installing po/es/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/es/LC_MESSAGES
+Installing po/et/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/et/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/eu/LC_MESSAGES
+Installing po/fa/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/fa/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/fr/LC_MESSAGES
+Installing po/fur/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/fur/LC_MESSAGES
+Installing po/ga/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/ga/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/gl/LC_MESSAGES
+Installing po/gu/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/gu/LC_MESSAGES
+Installing po/he/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/he/LC_MESSAGES
+Installing po/hi/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/hi/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/hu/LC_MESSAGES
+Installing po/id/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/id/LC_MESSAGES
+Installing po/ie/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/ie/LC_MESSAGES
+Installing po/is/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/is/LC_MESSAGES
+Installing po/it/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/it/LC_MESSAGES
+Installing po/ja/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/ja/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/ka/LC_MESSAGES
+Installing po/kab/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/kab/LC_MESSAGES
+Installing po/kk/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/kk/LC_MESSAGES
+Installing po/kn/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/kn/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/ko/LC_MESSAGES
+Installing po/kw/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/kw/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/lt/LC_MESSAGES
+Installing po/lv/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/lv/LC_MESSAGES
+Installing po/mai/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/mai/LC_MESSAGES
+Installing po/mg/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/mg/LC_MESSAGES
+Installing po/mk/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/mk/LC_MESSAGES
+Installing po/ml/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/ml/LC_MESSAGES
+Installing po/mn/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/mn/LC_MESSAGES
+Installing po/mr/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/mr/LC_MESSAGES
+Installing po/ms/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/ms/LC_MESSAGES
+Installing po/nb/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/nb/LC_MESSAGES
+Installing po/ne/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/ne/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/nl/LC_MESSAGES
+Installing po/nn/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/nn/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/oc/LC_MESSAGES
+Installing po/or/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/or/LC_MESSAGES
+Installing po/pa/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/pa/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/pl/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/pt/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/ru/LC_MESSAGES
+Installing po/rw/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/rw/LC_MESSAGES
+Installing po/si/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/si/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/sl/LC_MESSAGES
+Installing po/sq/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/sq/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/sr/LC_MESSAGES
+Installing po/sr@latin/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/sr@latin/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/sv/LC_MESSAGES
+Installing po/ta/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/ta/LC_MESSAGES
+Installing po/te/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/te/LC_MESSAGES
+Installing po/tg/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/tg/LC_MESSAGES
+Installing po/th/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/th/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/tr/LC_MESSAGES
+Installing po/ug/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/ug/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/uk/LC_MESSAGES
+Installing po/vi/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/vi/LC_MESSAGES
+Installing po/xh/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/xh/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_HK/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/zh_HK/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/gtksourceview-5.mo to /usr/share/locale/zh_TW/LC_MESSAGES
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksource.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourceannotation.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourceannotations.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourceannotationprovider.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcebuffer.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcecompletion.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcecompletioncell.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcecompletioncontext.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcecompletionprovider.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcecompletionproposal.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourceencoding.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcefile.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcefileloader.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcefilesaver.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcegutter.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcegutterrenderer.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcegutterrendererpixbuf.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcegutterrenderertext.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcehover.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcehovercontext.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcehoverprovider.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcehoverdisplay.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourceindenter.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourceinit.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcelanguage.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcelanguagemanager.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcegutterlines.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcemap.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcemark.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcemarkattributes.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourceprintcompositor.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourceregion.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcescheduler.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcesearchcontext.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcesearchsettings.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcesnippet.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcesnippetchunk.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcesnippetcontext.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcesnippetmanager.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcespacedrawer.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcestyle.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcestylescheme.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcestyleschemechooser.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcestyleschemechooserbutton.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcestyleschemechooserwidget.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcestyleschememanager.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcestyleschemepreview.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcetag.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcetypes.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourceutils.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourceview.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcevimimcontext.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/completion-providers/snippets/gtksourcecompletionsnippets.h to /usr/include/gtksourceview-5/gtksourceview/completion-providers/snippets
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/completion-providers/words/gtksourcecompletionwords.h to /usr/include/gtksourceview-5/gtksourceview/completion-providers/words
+Installing /blfs/builds/gtksourceview-5.19.0/build/gtksourceview/gtksourceversion.h to /usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/build/meson-private/gtksourceview-5.deps to /usr/share/vala/vapi
+Installing /blfs/builds/gtksourceview-5.19.0/build/meson-private/gtksourceview-5.pc to /usr/lib/pkgconfig
+Installing /blfs/builds/gtksourceview-5.19.0/data/language-specs/language.rng to /usr/share/gtksourceview-5/language-specs
+Installing /blfs/builds/gtksourceview-5.19.0/data/language-specs/language2.rng to /usr/share/gtksourceview-5/language-specs
+Installing /blfs/builds/gtksourceview-5.19.0/data/language-specs/language.dtd to /usr/share/gtksourceview-5/language-specs
+Installing /blfs/builds/gtksourceview-5.19.0/data/snippets/snippets.rng to /usr/share/gtksourceview-5/snippets
+Installing /blfs/builds/gtksourceview-5.19.0/data/styles/styles.rng to /usr/share/gtksourceview-5/styles
+Installing symlink pointing to libgtksourceview-5.so.0.0.0 to /usr/lib/libgtksourceview-5.so.0
+Installing symlink pointing to libgtksourceview-5.so.0 to /usr/lib/libgtksourceview-5.so
+Running custom install script '/usr/bin/gtk4-update-icon-cache -q -t -f /usr/share/icons/hicolor'
+[0/1] Installing files
+Installing subdir /blfs/builds/gtksourceview-5.19.0/data/fonts to /pkgs/gtksourceview/usr/share/gtksourceview-5/fonts
+Installing /blfs/builds/gtksourceview-5.19.0/data/fonts/BuilderBlocks.ttf to /pkgs/gtksourceview/usr/share/gtksourceview-5/fonts
+Installing subdir /blfs/builds/gtksourceview-5.19.0/data/icons/hicolor to /pkgs/gtksourceview/usr/share/icons/hicolor
+Installing /blfs/builds/gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/lang-struct-symbolic.svg to /pkgs/gtksourceview/usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/completion-snippet-symbolic.svg to /pkgs/gtksourceview/usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/lang-namespace-symbolic.svg to /pkgs/gtksourceview/usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/lang-include-symbolic.svg to /pkgs/gtksourceview/usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/lang-enum-value-symbolic.svg to /pkgs/gtksourceview/usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/lang-class-symbolic.svg to /pkgs/gtksourceview/usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/lang-union-symbolic.svg to /pkgs/gtksourceview/usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/lang-function-symbolic.svg to /pkgs/gtksourceview/usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/lang-variable-symbolic.svg to /pkgs/gtksourceview/usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/completion-word-symbolic.svg to /pkgs/gtksourceview/usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/lang-define-symbolic.svg to /pkgs/gtksourceview/usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/lang-typedef-symbolic.svg to /pkgs/gtksourceview/usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/lang-enum-symbolic.svg to /pkgs/gtksourceview/usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/lang-struct-field-symbolic.svg to /pkgs/gtksourceview/usr/share/icons/hicolor/scalable/actions
+Installing /blfs/builds/gtksourceview-5.19.0/data/icons/hicolor/scalable/actions/lang-method-symbolic.svg to /pkgs/gtksourceview/usr/share/icons/hicolor/scalable/actions
+Installing gtksourceview/gtksource-enumtypes.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing gtksourceview/libgtksourceview-5.so.0.0.0 to /pkgs/gtksourceview/usr/lib
+Installing gtksourceview/GtkSource-5.gir to /pkgs/gtksourceview/usr/share/gir-1.0
+Installing gtksourceview/GtkSource-5.typelib to /pkgs/gtksourceview/usr/lib/girepository-1.0
+Installing gtksourceview/gtksourceview-5.vapi to /pkgs/gtksourceview/usr/share/vala/vapi
+Installing po/ab/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/ab/LC_MESSAGES
+Installing po/ar/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/ar/LC_MESSAGES
+Installing po/as/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/as/LC_MESSAGES
+Installing po/ast/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/ast/LC_MESSAGES
+Installing po/az/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/az/LC_MESSAGES
+Installing po/be/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/be/LC_MESSAGES
+Installing po/bg/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/bg/LC_MESSAGES
+Installing po/bn/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/bn/LC_MESSAGES
+Installing po/bn_IN/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/bn_IN/LC_MESSAGES
+Installing po/bs/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/bs/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/ca/LC_MESSAGES
+Installing po/ca@valencia/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/ca@valencia/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/cs/LC_MESSAGES
+Installing po/cy/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/cy/LC_MESSAGES
+Installing po/da/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/de/LC_MESSAGES
+Installing po/dz/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/dz/LC_MESSAGES
+Installing po/el/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/el/LC_MESSAGES
+Installing po/en_CA/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/en_CA/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/en_GB/LC_MESSAGES
+Installing po/en@shaw/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/en@shaw/LC_MESSAGES
+Installing po/eo/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/eo/LC_MESSAGES
+Installing po/es/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/es/LC_MESSAGES
+Installing po/et/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/et/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/eu/LC_MESSAGES
+Installing po/fa/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/fa/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/fr/LC_MESSAGES
+Installing po/fur/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/fur/LC_MESSAGES
+Installing po/ga/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/ga/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/gl/LC_MESSAGES
+Installing po/gu/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/gu/LC_MESSAGES
+Installing po/he/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/he/LC_MESSAGES
+Installing po/hi/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/hi/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/hu/LC_MESSAGES
+Installing po/id/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/id/LC_MESSAGES
+Installing po/ie/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/ie/LC_MESSAGES
+Installing po/is/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/is/LC_MESSAGES
+Installing po/it/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/it/LC_MESSAGES
+Installing po/ja/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/ja/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/ka/LC_MESSAGES
+Installing po/kab/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/kab/LC_MESSAGES
+Installing po/kk/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/kk/LC_MESSAGES
+Installing po/kn/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/kn/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/ko/LC_MESSAGES
+Installing po/kw/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/kw/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/lt/LC_MESSAGES
+Installing po/lv/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/lv/LC_MESSAGES
+Installing po/mai/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/mai/LC_MESSAGES
+Installing po/mg/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/mg/LC_MESSAGES
+Installing po/mk/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/mk/LC_MESSAGES
+Installing po/ml/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/ml/LC_MESSAGES
+Installing po/mn/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/mn/LC_MESSAGES
+Installing po/mr/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/mr/LC_MESSAGES
+Installing po/ms/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/ms/LC_MESSAGES
+Installing po/nb/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/nb/LC_MESSAGES
+Installing po/ne/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/ne/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/nl/LC_MESSAGES
+Installing po/nn/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/nn/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/oc/LC_MESSAGES
+Installing po/or/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/or/LC_MESSAGES
+Installing po/pa/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/pa/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/pl/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/pt/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/ru/LC_MESSAGES
+Installing po/rw/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/rw/LC_MESSAGES
+Installing po/si/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/si/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/sl/LC_MESSAGES
+Installing po/sq/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/sq/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/sr/LC_MESSAGES
+Installing po/sr@latin/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/sr@latin/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/sv/LC_MESSAGES
+Installing po/ta/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/ta/LC_MESSAGES
+Installing po/te/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/te/LC_MESSAGES
+Installing po/tg/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/tg/LC_MESSAGES
+Installing po/th/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/th/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/tr/LC_MESSAGES
+Installing po/ug/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/ug/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/uk/LC_MESSAGES
+Installing po/vi/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/vi/LC_MESSAGES
+Installing po/xh/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/xh/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_HK/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/zh_HK/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/gtksourceview-5.mo to /pkgs/gtksourceview/usr/share/locale/zh_TW/LC_MESSAGES
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksource.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourceannotation.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourceannotations.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourceannotationprovider.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcebuffer.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcecompletion.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcecompletioncell.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcecompletioncontext.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcecompletionprovider.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcecompletionproposal.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourceencoding.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcefile.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcefileloader.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcefilesaver.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcegutter.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcegutterrenderer.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcegutterrendererpixbuf.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcegutterrenderertext.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcehover.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcehovercontext.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcehoverprovider.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcehoverdisplay.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourceindenter.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourceinit.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcelanguage.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcelanguagemanager.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcegutterlines.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcemap.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcemark.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcemarkattributes.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourceprintcompositor.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourceregion.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcescheduler.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcesearchcontext.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcesearchsettings.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcesnippet.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcesnippetchunk.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcesnippetcontext.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcesnippetmanager.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcespacedrawer.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcestyle.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcestylescheme.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcestyleschemechooser.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcestyleschemechooserbutton.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcestyleschemechooserwidget.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcestyleschememanager.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcestyleschemepreview.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcetag.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcetypes.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourceutils.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourceview.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/gtksourcevimimcontext.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/completion-providers/snippets/gtksourcecompletionsnippets.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview/completion-providers/snippets
+Installing /blfs/builds/gtksourceview-5.19.0/gtksourceview/completion-providers/words/gtksourcecompletionwords.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview/completion-providers/words
+Installing /blfs/builds/gtksourceview-5.19.0/build/gtksourceview/gtksourceversion.h to /pkgs/gtksourceview/usr/include/gtksourceview-5/gtksourceview
+Installing /blfs/builds/gtksourceview-5.19.0/build/meson-private/gtksourceview-5.deps to /pkgs/gtksourceview/usr/share/vala/vapi
+Installing /blfs/builds/gtksourceview-5.19.0/build/meson-private/gtksourceview-5.pc to /pkgs/gtksourceview/usr/lib/pkgconfig
+Installing /blfs/builds/gtksourceview-5.19.0/data/language-specs/language.rng to /pkgs/gtksourceview/usr/share/gtksourceview-5/language-specs
+Installing /blfs/builds/gtksourceview-5.19.0/data/language-specs/language2.rng to /pkgs/gtksourceview/usr/share/gtksourceview-5/language-specs
+Installing /blfs/builds/gtksourceview-5.19.0/data/language-specs/language.dtd to /pkgs/gtksourceview/usr/share/gtksourceview-5/language-specs
+Installing /blfs/builds/gtksourceview-5.19.0/data/snippets/snippets.rng to /pkgs/gtksourceview/usr/share/gtksourceview-5/snippets
+Installing /blfs/builds/gtksourceview-5.19.0/data/styles/styles.rng to /pkgs/gtksourceview/usr/share/gtksourceview-5/styles
+Installing symlink pointing to libgtksourceview-5.so.0.0.0 to /pkgs/gtksourceview/usr/lib/libgtksourceview-5.so.0
+Installing symlink pointing to libgtksourceview-5.so.0 to /pkgs/gtksourceview/usr/lib/libgtksourceview-5.so
+Skipping custom install script because DESTDIR is set '/usr/bin/gtk4-update-icon-cache -q -t -f /usr/share/icons/hicolor'
+gtksourceview/
+gtksourceview/usr/
+gtksourceview/usr/include/
+gtksourceview/usr/include/gtksourceview-5/
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourcehoverdisplay.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourcevimimcontext.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourcestyleschemepreview.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourcecompletionproposal.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourcescheduler.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourcesnippet.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourcestyleschemechooser.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourcefilesaver.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourceversion.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourcegutterrendererpixbuf.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourcestyleschemechooserbutton.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksource-enumtypes.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourcetypes.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourcefileloader.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourceannotation.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourcespacedrawer.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourcecompletionprovider.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourcegutterrenderertext.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourcesearchsettings.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourcehoverprovider.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourcetag.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourcestyleschemechooserwidget.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourceutils.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourcefile.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourcecompletioncell.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourcegutterlines.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourceinit.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourcecompletion.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/completion-providers/
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/completion-providers/words/
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/completion-providers/words/gtksourcecompletionwords.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/completion-providers/snippets/
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/completion-providers/snippets/gtksourcecompletionsnippets.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourcemap.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourcesearchcontext.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourcemarkattributes.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourceannotations.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourcebuffer.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourcelanguagemanager.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourcehovercontext.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourceregion.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksource.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourcesnippetcontext.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourcegutter.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourceview.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourcestylescheme.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourceannotationprovider.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourceprintcompositor.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourcesnippetchunk.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourcegutterrenderer.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourceencoding.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourcesnippetmanager.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourcelanguage.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourceindenter.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourcecompletioncontext.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourcemark.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourcehover.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourcestyleschememanager.h
+gtksourceview/usr/include/gtksourceview-5/gtksourceview/gtksourcestyle.h
+gtksourceview/usr/share/
+gtksourceview/usr/share/vala/
+gtksourceview/usr/share/vala/vapi/
+gtksourceview/usr/share/vala/vapi/gtksourceview-5.deps
+gtksourceview/usr/share/vala/vapi/gtksourceview-5.vapi
+gtksourceview/usr/share/locale/
+gtksourceview/usr/share/locale/sr/
+gtksourceview/usr/share/locale/sr/LC_MESSAGES/
+gtksourceview/usr/share/locale/sr/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/nl/
+gtksourceview/usr/share/locale/nl/LC_MESSAGES/
+gtksourceview/usr/share/locale/nl/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/en@shaw/
+gtksourceview/usr/share/locale/en@shaw/LC_MESSAGES/
+gtksourceview/usr/share/locale/en@shaw/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/ab/
+gtksourceview/usr/share/locale/ab/LC_MESSAGES/
+gtksourceview/usr/share/locale/ab/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/tg/
+gtksourceview/usr/share/locale/tg/LC_MESSAGES/
+gtksourceview/usr/share/locale/tg/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/mai/
+gtksourceview/usr/share/locale/mai/LC_MESSAGES/
+gtksourceview/usr/share/locale/mai/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/fi/
+gtksourceview/usr/share/locale/fi/LC_MESSAGES/
+gtksourceview/usr/share/locale/fi/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/kn/
+gtksourceview/usr/share/locale/kn/LC_MESSAGES/
+gtksourceview/usr/share/locale/kn/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/id/
+gtksourceview/usr/share/locale/id/LC_MESSAGES/
+gtksourceview/usr/share/locale/id/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/ga/
+gtksourceview/usr/share/locale/ga/LC_MESSAGES/
+gtksourceview/usr/share/locale/ga/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/gu/
+gtksourceview/usr/share/locale/gu/LC_MESSAGES/
+gtksourceview/usr/share/locale/gu/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/ro/
+gtksourceview/usr/share/locale/ro/LC_MESSAGES/
+gtksourceview/usr/share/locale/ro/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/ko/
+gtksourceview/usr/share/locale/ko/LC_MESSAGES/
+gtksourceview/usr/share/locale/ko/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/sr@latin/
+gtksourceview/usr/share/locale/sr@latin/LC_MESSAGES/
+gtksourceview/usr/share/locale/sr@latin/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/zh_TW/
+gtksourceview/usr/share/locale/zh_TW/LC_MESSAGES/
+gtksourceview/usr/share/locale/zh_TW/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/hi/
+gtksourceview/usr/share/locale/hi/LC_MESSAGES/
+gtksourceview/usr/share/locale/hi/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/kk/
+gtksourceview/usr/share/locale/kk/LC_MESSAGES/
+gtksourceview/usr/share/locale/kk/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/nb/
+gtksourceview/usr/share/locale/nb/LC_MESSAGES/
+gtksourceview/usr/share/locale/nb/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/as/
+gtksourceview/usr/share/locale/as/LC_MESSAGES/
+gtksourceview/usr/share/locale/as/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/ie/
+gtksourceview/usr/share/locale/ie/LC_MESSAGES/
+gtksourceview/usr/share/locale/ie/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/ar/
+gtksourceview/usr/share/locale/ar/LC_MESSAGES/
+gtksourceview/usr/share/locale/ar/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/uk/
+gtksourceview/usr/share/locale/uk/LC_MESSAGES/
+gtksourceview/usr/share/locale/uk/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/kw/
+gtksourceview/usr/share/locale/kw/LC_MESSAGES/
+gtksourceview/usr/share/locale/kw/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/ast/
+gtksourceview/usr/share/locale/ast/LC_MESSAGES/
+gtksourceview/usr/share/locale/ast/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/ug/
+gtksourceview/usr/share/locale/ug/LC_MESSAGES/
+gtksourceview/usr/share/locale/ug/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/en_GB/
+gtksourceview/usr/share/locale/en_GB/LC_MESSAGES/
+gtksourceview/usr/share/locale/en_GB/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/oc/
+gtksourceview/usr/share/locale/oc/LC_MESSAGES/
+gtksourceview/usr/share/locale/oc/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/es/
+gtksourceview/usr/share/locale/es/LC_MESSAGES/
+gtksourceview/usr/share/locale/es/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/rw/
+gtksourceview/usr/share/locale/rw/LC_MESSAGES/
+gtksourceview/usr/share/locale/rw/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/th/
+gtksourceview/usr/share/locale/th/LC_MESSAGES/
+gtksourceview/usr/share/locale/th/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/he/
+gtksourceview/usr/share/locale/he/LC_MESSAGES/
+gtksourceview/usr/share/locale/he/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/az/
+gtksourceview/usr/share/locale/az/LC_MESSAGES/
+gtksourceview/usr/share/locale/az/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/nn/
+gtksourceview/usr/share/locale/nn/LC_MESSAGES/
+gtksourceview/usr/share/locale/nn/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/vi/
+gtksourceview/usr/share/locale/vi/LC_MESSAGES/
+gtksourceview/usr/share/locale/vi/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/fr/
+gtksourceview/usr/share/locale/fr/LC_MESSAGES/
+gtksourceview/usr/share/locale/fr/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/ca/
+gtksourceview/usr/share/locale/ca/LC_MESSAGES/
+gtksourceview/usr/share/locale/ca/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/ta/
+gtksourceview/usr/share/locale/ta/LC_MESSAGES/
+gtksourceview/usr/share/locale/ta/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/pl/
+gtksourceview/usr/share/locale/pl/LC_MESSAGES/
+gtksourceview/usr/share/locale/pl/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/da/
+gtksourceview/usr/share/locale/da/LC_MESSAGES/
+gtksourceview/usr/share/locale/da/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/ru/
+gtksourceview/usr/share/locale/ru/LC_MESSAGES/
+gtksourceview/usr/share/locale/ru/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/bn_IN/
+gtksourceview/usr/share/locale/bn_IN/LC_MESSAGES/
+gtksourceview/usr/share/locale/bn_IN/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/is/
+gtksourceview/usr/share/locale/is/LC_MESSAGES/
+gtksourceview/usr/share/locale/is/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/mk/
+gtksourceview/usr/share/locale/mk/LC_MESSAGES/
+gtksourceview/usr/share/locale/mk/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/hr/
+gtksourceview/usr/share/locale/hr/LC_MESSAGES/
+gtksourceview/usr/share/locale/hr/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/ja/
+gtksourceview/usr/share/locale/ja/LC_MESSAGES/
+gtksourceview/usr/share/locale/ja/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/kab/
+gtksourceview/usr/share/locale/kab/LC_MESSAGES/
+gtksourceview/usr/share/locale/kab/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/fa/
+gtksourceview/usr/share/locale/fa/LC_MESSAGES/
+gtksourceview/usr/share/locale/fa/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/zh_CN/
+gtksourceview/usr/share/locale/zh_CN/LC_MESSAGES/
+gtksourceview/usr/share/locale/zh_CN/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/cs/
+gtksourceview/usr/share/locale/cs/LC_MESSAGES/
+gtksourceview/usr/share/locale/cs/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/or/
+gtksourceview/usr/share/locale/or/LC_MESSAGES/
+gtksourceview/usr/share/locale/or/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/en_CA/
+gtksourceview/usr/share/locale/en_CA/LC_MESSAGES/
+gtksourceview/usr/share/locale/en_CA/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/lv/
+gtksourceview/usr/share/locale/lv/LC_MESSAGES/
+gtksourceview/usr/share/locale/lv/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/mr/
+gtksourceview/usr/share/locale/mr/LC_MESSAGES/
+gtksourceview/usr/share/locale/mr/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/pt_BR/
+gtksourceview/usr/share/locale/pt_BR/LC_MESSAGES/
+gtksourceview/usr/share/locale/pt_BR/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/cy/
+gtksourceview/usr/share/locale/cy/LC_MESSAGES/
+gtksourceview/usr/share/locale/cy/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/pt/
+gtksourceview/usr/share/locale/pt/LC_MESSAGES/
+gtksourceview/usr/share/locale/pt/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/hu/
+gtksourceview/usr/share/locale/hu/LC_MESSAGES/
+gtksourceview/usr/share/locale/hu/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/tr/
+gtksourceview/usr/share/locale/tr/LC_MESSAGES/
+gtksourceview/usr/share/locale/tr/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/sl/
+gtksourceview/usr/share/locale/sl/LC_MESSAGES/
+gtksourceview/usr/share/locale/sl/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/zh_HK/
+gtksourceview/usr/share/locale/zh_HK/LC_MESSAGES/
+gtksourceview/usr/share/locale/zh_HK/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/mg/
+gtksourceview/usr/share/locale/mg/LC_MESSAGES/
+gtksourceview/usr/share/locale/mg/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/bn/
+gtksourceview/usr/share/locale/bn/LC_MESSAGES/
+gtksourceview/usr/share/locale/bn/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/fur/
+gtksourceview/usr/share/locale/fur/LC_MESSAGES/
+gtksourceview/usr/share/locale/fur/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/eu/
+gtksourceview/usr/share/locale/eu/LC_MESSAGES/
+gtksourceview/usr/share/locale/eu/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/dz/
+gtksourceview/usr/share/locale/dz/LC_MESSAGES/
+gtksourceview/usr/share/locale/dz/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/el/
+gtksourceview/usr/share/locale/el/LC_MESSAGES/
+gtksourceview/usr/share/locale/el/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/xh/
+gtksourceview/usr/share/locale/xh/LC_MESSAGES/
+gtksourceview/usr/share/locale/xh/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/mn/
+gtksourceview/usr/share/locale/mn/LC_MESSAGES/
+gtksourceview/usr/share/locale/mn/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/sv/
+gtksourceview/usr/share/locale/sv/LC_MESSAGES/
+gtksourceview/usr/share/locale/sv/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/ml/
+gtksourceview/usr/share/locale/ml/LC_MESSAGES/
+gtksourceview/usr/share/locale/ml/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/sk/
+gtksourceview/usr/share/locale/sk/LC_MESSAGES/
+gtksourceview/usr/share/locale/sk/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/si/
+gtksourceview/usr/share/locale/si/LC_MESSAGES/
+gtksourceview/usr/share/locale/si/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/eo/
+gtksourceview/usr/share/locale/eo/LC_MESSAGES/
+gtksourceview/usr/share/locale/eo/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/bg/
+gtksourceview/usr/share/locale/bg/LC_MESSAGES/
+gtksourceview/usr/share/locale/bg/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/pa/
+gtksourceview/usr/share/locale/pa/LC_MESSAGES/
+gtksourceview/usr/share/locale/pa/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/ka/
+gtksourceview/usr/share/locale/ka/LC_MESSAGES/
+gtksourceview/usr/share/locale/ka/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/te/
+gtksourceview/usr/share/locale/te/LC_MESSAGES/
+gtksourceview/usr/share/locale/te/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/ne/
+gtksourceview/usr/share/locale/ne/LC_MESSAGES/
+gtksourceview/usr/share/locale/ne/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/it/
+gtksourceview/usr/share/locale/it/LC_MESSAGES/
+gtksourceview/usr/share/locale/it/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/de/
+gtksourceview/usr/share/locale/de/LC_MESSAGES/
+gtksourceview/usr/share/locale/de/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/ca@valencia/
+gtksourceview/usr/share/locale/ca@valencia/LC_MESSAGES/
+gtksourceview/usr/share/locale/ca@valencia/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/lt/
+gtksourceview/usr/share/locale/lt/LC_MESSAGES/
+gtksourceview/usr/share/locale/lt/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/et/
+gtksourceview/usr/share/locale/et/LC_MESSAGES/
+gtksourceview/usr/share/locale/et/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/sq/
+gtksourceview/usr/share/locale/sq/LC_MESSAGES/
+gtksourceview/usr/share/locale/sq/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/bs/
+gtksourceview/usr/share/locale/bs/LC_MESSAGES/
+gtksourceview/usr/share/locale/bs/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/be/
+gtksourceview/usr/share/locale/be/LC_MESSAGES/
+gtksourceview/usr/share/locale/be/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/ms/
+gtksourceview/usr/share/locale/ms/LC_MESSAGES/
+gtksourceview/usr/share/locale/ms/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/locale/gl/
+gtksourceview/usr/share/locale/gl/LC_MESSAGES/
+gtksourceview/usr/share/locale/gl/LC_MESSAGES/gtksourceview-5.mo
+gtksourceview/usr/share/gtksourceview-5/
+gtksourceview/usr/share/gtksourceview-5/styles/
+gtksourceview/usr/share/gtksourceview-5/styles/styles.rng
+gtksourceview/usr/share/gtksourceview-5/fonts/
+gtksourceview/usr/share/gtksourceview-5/fonts/BuilderBlocks.ttf
+gtksourceview/usr/share/gtksourceview-5/snippets/
+gtksourceview/usr/share/gtksourceview-5/snippets/snippets.rng
+gtksourceview/usr/share/gtksourceview-5/language-specs/
+gtksourceview/usr/share/gtksourceview-5/language-specs/language.rng
+gtksourceview/usr/share/gtksourceview-5/language-specs/language.dtd
+gtksourceview/usr/share/gtksourceview-5/language-specs/language2.rng
+gtksourceview/usr/share/icons/
+gtksourceview/usr/share/icons/hicolor/
+gtksourceview/usr/share/icons/hicolor/scalable/
+gtksourceview/usr/share/icons/hicolor/scalable/actions/
+gtksourceview/usr/share/icons/hicolor/scalable/actions/lang-struct-symbolic.svg
+gtksourceview/usr/share/icons/hicolor/scalable/actions/completion-snippet-symbolic.svg
+gtksourceview/usr/share/icons/hicolor/scalable/actions/lang-namespace-symbolic.svg
+gtksourceview/usr/share/icons/hicolor/scalable/actions/lang-include-symbolic.svg
+gtksourceview/usr/share/icons/hicolor/scalable/actions/lang-enum-value-symbolic.svg
+gtksourceview/usr/share/icons/hicolor/scalable/actions/lang-class-symbolic.svg
+gtksourceview/usr/share/icons/hicolor/scalable/actions/lang-union-symbolic.svg
+gtksourceview/usr/share/icons/hicolor/scalable/actions/lang-function-symbolic.svg
+gtksourceview/usr/share/icons/hicolor/scalable/actions/lang-variable-symbolic.svg
+gtksourceview/usr/share/icons/hicolor/scalable/actions/completion-word-symbolic.svg
+gtksourceview/usr/share/icons/hicolor/scalable/actions/lang-define-symbolic.svg
+gtksourceview/usr/share/icons/hicolor/scalable/actions/lang-typedef-symbolic.svg
+gtksourceview/usr/share/icons/hicolor/scalable/actions/lang-enum-symbolic.svg
+gtksourceview/usr/share/icons/hicolor/scalable/actions/lang-struct-field-symbolic.svg
+gtksourceview/usr/share/icons/hicolor/scalable/actions/lang-method-symbolic.svg
+gtksourceview/usr/share/gir-1.0/
+gtksourceview/usr/share/gir-1.0/GtkSource-5.gir
+gtksourceview/usr/lib/
+gtksourceview/usr/lib/girepository-1.0/
+gtksourceview/usr/lib/girepository-1.0/GtkSource-5.typelib
+gtksourceview/usr/lib/libgtksourceview-5.so
+gtksourceview/usr/lib/pkgconfig/
+gtksourceview/usr/lib/pkgconfig/gtksourceview-5.pc
+gtksourceview/usr/lib/libgtksourceview-5.so.0.0.0
+gtksourceview/usr/lib/libgtksourceview-5.so.0
+gtksourceview/version
+gtksourceview/depends
