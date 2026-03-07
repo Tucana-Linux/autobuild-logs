@@ -1,0 +1,809 @@
+--2026-03-07 10:12:41--  https://dist.libuv.org/dist/v1.52.1/libuv-v1.52.1.tar.gz
+Resolving dist.libuv.org (dist.libuv.org)... 185.199.108.153, 185.199.109.153, 185.199.110.153, ...
+Connecting to dist.libuv.org (dist.libuv.org)|185.199.108.153|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1354296 (1.3M) [application/gzip]
+Saving to: ‘libuv-v1.52.1.tar.gz’
+
+     0K .......... .......... .......... .......... ..........  3% 8.62M 0s
+    50K .......... .......... .......... .......... ..........  7% 15.7M 0s
+   100K .......... .......... .......... .......... .......... 11% 13.0M 0s
+   150K .......... .......... .......... .......... .......... 15% 52.9M 0s
+   200K .......... .......... .......... .......... .......... 18% 14.7M 0s
+   250K .......... .......... .......... .......... .......... 22%  247M 0s
+   300K .......... .......... .......... .......... .......... 26%  123M 0s
+   350K .......... .......... .......... .......... .......... 30% 14.2M 0s
+   400K .......... .......... .......... .......... .......... 34% 87.3M 0s
+   450K .......... .......... .......... .......... .......... 37% 15.9M 0s
+   500K .......... .......... .......... .......... .......... 41%  113M 0s
+   550K .......... .......... .......... .......... .......... 45% 98.1M 0s
+   600K .......... .......... .......... .......... .......... 49%  101M 0s
+   650K .......... .......... .......... .......... .......... 52% 19.1M 0s
+   700K .......... .......... .......... .......... .......... 56%  101M 0s
+   750K .......... .......... .......... .......... .......... 60%  110M 0s
+   800K .......... .......... .......... .......... .......... 64% 15.6M 0s
+   850K .......... .......... .......... .......... .......... 68% 80.1M 0s
+   900K .......... .......... .......... .......... .......... 71%  143M 0s
+   950K .......... .......... .......... .......... .......... 75%  123M 0s
+  1000K .......... .......... .......... .......... .......... 79%  103M 0s
+  1050K .......... .......... .......... .......... .......... 83%  107M 0s
+  1100K .......... .......... .......... .......... .......... 86%  124M 0s
+  1150K .......... .......... .......... .......... .......... 90% 30.2M 0s
+  1200K .......... .......... .......... .......... .......... 94%  104M 0s
+  1250K .......... .......... .......... .......... .......... 98% 98.3M 0s
+  1300K .......... .......... ..                              100%  217M=0.04s
+
+2026-03-07 10:12:41 (34.1 MB/s) - ‘libuv-v1.52.1.tar.gz’ saved [1354296/1354296]
+
+libuv-v1.52.1/
+libuv-v1.52.1/.clang-tidy
+libuv-v1.52.1/.gitattributes
+libuv-v1.52.1/.github/
+libuv-v1.52.1/.github/ISSUE_TEMPLATE.md
+libuv-v1.52.1/.github/dependabot.yml
+libuv-v1.52.1/.github/workflows/
+libuv-v1.52.1/.github/workflows/CI-docs.yml
+libuv-v1.52.1/.github/workflows/CI-sample.yml
+libuv-v1.52.1/.github/workflows/CI-unix.yml
+libuv-v1.52.1/.github/workflows/CI-win.yml
+libuv-v1.52.1/.github/workflows/sanitizer.yml
+libuv-v1.52.1/.gitignore
+libuv-v1.52.1/.mailmap
+libuv-v1.52.1/.readthedocs.yaml
+libuv-v1.52.1/AUTHORS
+libuv-v1.52.1/CMakeLists.txt
+libuv-v1.52.1/CONTRIBUTING.md
+libuv-v1.52.1/ChangeLog
+libuv-v1.52.1/LICENSE
+libuv-v1.52.1/LICENSE-docs
+libuv-v1.52.1/LICENSE-extra
+libuv-v1.52.1/LINKS.md
+libuv-v1.52.1/MAINTAINERS.md
+libuv-v1.52.1/Makefile.am
+libuv-v1.52.1/README.md
+libuv-v1.52.1/SECURITY.md
+libuv-v1.52.1/SUPPORTED_PLATFORMS.md
+libuv-v1.52.1/autogen.sh
+libuv-v1.52.1/cmake-toolchains/
+libuv-v1.52.1/cmake-toolchains/cross-mingw32.cmake
+libuv-v1.52.1/configure.ac
+libuv-v1.52.1/docs/
+libuv-v1.52.1/docs/Makefile
+libuv-v1.52.1/docs/code/
+libuv-v1.52.1/docs/code/.gitignore
+libuv-v1.52.1/docs/code/CMakeLists.txt
+libuv-v1.52.1/docs/code/cgi/
+libuv-v1.52.1/docs/code/cgi/main.c
+libuv-v1.52.1/docs/code/cgi/tick.c
+libuv-v1.52.1/docs/code/default-loop/
+libuv-v1.52.1/docs/code/default-loop/main.c
+libuv-v1.52.1/docs/code/detach/
+libuv-v1.52.1/docs/code/detach/main.c
+libuv-v1.52.1/docs/code/dns/
+libuv-v1.52.1/docs/code/dns/main.c
+libuv-v1.52.1/docs/code/helloworld/
+libuv-v1.52.1/docs/code/helloworld/main.c
+libuv-v1.52.1/docs/code/idle-basic/
+libuv-v1.52.1/docs/code/idle-basic/main.c
+libuv-v1.52.1/docs/code/idle-compute/
+libuv-v1.52.1/docs/code/idle-compute/main.c
+libuv-v1.52.1/docs/code/interfaces/
+libuv-v1.52.1/docs/code/interfaces/main.c
+libuv-v1.52.1/docs/code/locks/
+libuv-v1.52.1/docs/code/locks/main.c
+libuv-v1.52.1/docs/code/multi-echo-server/
+libuv-v1.52.1/docs/code/multi-echo-server/hammer.js
+libuv-v1.52.1/docs/code/multi-echo-server/main.c
+libuv-v1.52.1/docs/code/multi-echo-server/worker.c
+libuv-v1.52.1/docs/code/onchange/
+libuv-v1.52.1/docs/code/onchange/main.c
+libuv-v1.52.1/docs/code/pipe-echo-server/
+libuv-v1.52.1/docs/code/pipe-echo-server/main.c
+libuv-v1.52.1/docs/code/plugin/
+libuv-v1.52.1/docs/code/plugin/hello.c
+libuv-v1.52.1/docs/code/plugin/main.c
+libuv-v1.52.1/docs/code/plugin/plugin.h
+libuv-v1.52.1/docs/code/proc-streams/
+libuv-v1.52.1/docs/code/proc-streams/main.c
+libuv-v1.52.1/docs/code/proc-streams/test.c
+libuv-v1.52.1/docs/code/progress/
+libuv-v1.52.1/docs/code/progress/main.c
+libuv-v1.52.1/docs/code/queue-cancel/
+libuv-v1.52.1/docs/code/queue-cancel/main.c
+libuv-v1.52.1/docs/code/queue-work/
+libuv-v1.52.1/docs/code/queue-work/main.c
+libuv-v1.52.1/docs/code/ref-timer/
+libuv-v1.52.1/docs/code/ref-timer/main.c
+libuv-v1.52.1/docs/code/signal/
+libuv-v1.52.1/docs/code/signal/main.c
+libuv-v1.52.1/docs/code/spawn/
+libuv-v1.52.1/docs/code/spawn/main.c
+libuv-v1.52.1/docs/code/tcp-echo-server/
+libuv-v1.52.1/docs/code/tcp-echo-server/main.c
+libuv-v1.52.1/docs/code/thread-create/
+libuv-v1.52.1/docs/code/thread-create/main.c
+libuv-v1.52.1/docs/code/tty-gravity/
+libuv-v1.52.1/docs/code/tty-gravity/main.c
+libuv-v1.52.1/docs/code/tty/
+libuv-v1.52.1/docs/code/tty/main.c
+libuv-v1.52.1/docs/code/udp-dhcp/
+libuv-v1.52.1/docs/code/udp-dhcp/main.c
+libuv-v1.52.1/docs/code/uvcat/
+libuv-v1.52.1/docs/code/uvcat/main.c
+libuv-v1.52.1/docs/code/uvstop/
+libuv-v1.52.1/docs/code/uvstop/main.c
+libuv-v1.52.1/docs/code/uvtee/
+libuv-v1.52.1/docs/code/uvtee/main.c
+libuv-v1.52.1/docs/code/uvwget/
+libuv-v1.52.1/docs/code/uvwget/main.c
+libuv-v1.52.1/docs/make.bat
+libuv-v1.52.1/docs/requirements.txt
+libuv-v1.52.1/docs/src/
+libuv-v1.52.1/docs/src/api.rst
+libuv-v1.52.1/docs/src/async.rst
+libuv-v1.52.1/docs/src/check.rst
+libuv-v1.52.1/docs/src/conf.py
+libuv-v1.52.1/docs/src/design.rst
+libuv-v1.52.1/docs/src/dll.rst
+libuv-v1.52.1/docs/src/dns.rst
+libuv-v1.52.1/docs/src/errors.rst
+libuv-v1.52.1/docs/src/fs.rst
+libuv-v1.52.1/docs/src/fs_event.rst
+libuv-v1.52.1/docs/src/fs_poll.rst
+libuv-v1.52.1/docs/src/guide.rst
+libuv-v1.52.1/docs/src/guide/
+libuv-v1.52.1/docs/src/guide/about.rst
+libuv-v1.52.1/docs/src/guide/basics.rst
+libuv-v1.52.1/docs/src/guide/eventloops.rst
+libuv-v1.52.1/docs/src/guide/filesystem.rst
+libuv-v1.52.1/docs/src/guide/introduction.rst
+libuv-v1.52.1/docs/src/guide/networking.rst
+libuv-v1.52.1/docs/src/guide/processes.rst
+libuv-v1.52.1/docs/src/guide/threads.rst
+libuv-v1.52.1/docs/src/guide/utilities.rst
+libuv-v1.52.1/docs/src/handle.rst
+libuv-v1.52.1/docs/src/idle.rst
+libuv-v1.52.1/docs/src/index.rst
+libuv-v1.52.1/docs/src/loop.rst
+libuv-v1.52.1/docs/src/metrics.rst
+libuv-v1.52.1/docs/src/migration_010_100.rst
+libuv-v1.52.1/docs/src/misc.rst
+libuv-v1.52.1/docs/src/pipe.rst
+libuv-v1.52.1/docs/src/poll.rst
+libuv-v1.52.1/docs/src/prepare.rst
+libuv-v1.52.1/docs/src/process.rst
+libuv-v1.52.1/docs/src/request.rst
+libuv-v1.52.1/docs/src/signal.rst
+libuv-v1.52.1/docs/src/sphinx-plugins/
+libuv-v1.52.1/docs/src/sphinx-plugins/manpage.py
+libuv-v1.52.1/docs/src/static/
+libuv-v1.52.1/docs/src/static/architecture.png
+libuv-v1.52.1/docs/src/static/diagrams.key/
+libuv-v1.52.1/docs/src/static/diagrams.key/Data/
+libuv-v1.52.1/docs/src/static/diagrams.key/Data/st0-311.jpg
+libuv-v1.52.1/docs/src/static/diagrams.key/Data/st1-475.jpg
+libuv-v1.52.1/docs/src/static/diagrams.key/Index.zip
+libuv-v1.52.1/docs/src/static/diagrams.key/Metadata/
+libuv-v1.52.1/docs/src/static/diagrams.key/Metadata/BuildVersionHistory.plist
+libuv-v1.52.1/docs/src/static/diagrams.key/Metadata/DocumentIdentifier
+libuv-v1.52.1/docs/src/static/diagrams.key/Metadata/Properties.plist
+libuv-v1.52.1/docs/src/static/diagrams.key/preview-micro.jpg
+libuv-v1.52.1/docs/src/static/diagrams.key/preview-web.jpg
+libuv-v1.52.1/docs/src/static/diagrams.key/preview.jpg
+libuv-v1.52.1/docs/src/static/favicon.ico
+libuv-v1.52.1/docs/src/static/logo.png
+libuv-v1.52.1/docs/src/static/loop_iteration.png
+libuv-v1.52.1/docs/src/stream.rst
+libuv-v1.52.1/docs/src/tcp.rst
+libuv-v1.52.1/docs/src/threading.rst
+libuv-v1.52.1/docs/src/threadpool.rst
+libuv-v1.52.1/docs/src/timer.rst
+libuv-v1.52.1/docs/src/tty.rst
+libuv-v1.52.1/docs/src/udp.rst
+libuv-v1.52.1/docs/src/upgrading.rst
+libuv-v1.52.1/docs/src/version.rst
+libuv-v1.52.1/img/
+libuv-v1.52.1/img/banner.png
+libuv-v1.52.1/img/logos.svg
+libuv-v1.52.1/include/
+libuv-v1.52.1/include/uv.h
+libuv-v1.52.1/include/uv/
+libuv-v1.52.1/include/uv/aix.h
+libuv-v1.52.1/include/uv/bsd.h
+libuv-v1.52.1/include/uv/darwin.h
+libuv-v1.52.1/include/uv/errno.h
+libuv-v1.52.1/include/uv/linux.h
+libuv-v1.52.1/include/uv/os390.h
+libuv-v1.52.1/include/uv/posix.h
+libuv-v1.52.1/include/uv/sunos.h
+libuv-v1.52.1/include/uv/threadpool.h
+libuv-v1.52.1/include/uv/tree.h
+libuv-v1.52.1/include/uv/unix.h
+libuv-v1.52.1/include/uv/version.h
+libuv-v1.52.1/include/uv/win.h
+libuv-v1.52.1/libuv-static.pc.in
+libuv-v1.52.1/libuv.pc.in
+libuv-v1.52.1/m4/
+libuv-v1.52.1/m4/.gitignore
+libuv-v1.52.1/m4/as_case.m4
+libuv-v1.52.1/m4/ax_pthread.m4
+libuv-v1.52.1/m4/libuv-check-flags.m4
+libuv-v1.52.1/m4/libuv-check-versions.m4
+libuv-v1.52.1/src/
+libuv-v1.52.1/src/fs-poll.c
+libuv-v1.52.1/src/heap-inl.h
+libuv-v1.52.1/src/idna.c
+libuv-v1.52.1/src/idna.h
+libuv-v1.52.1/src/inet.c
+libuv-v1.52.1/src/queue.h
+libuv-v1.52.1/src/random.c
+libuv-v1.52.1/src/strscpy.c
+libuv-v1.52.1/src/strscpy.h
+libuv-v1.52.1/src/strtok.c
+libuv-v1.52.1/src/strtok.h
+libuv-v1.52.1/src/thread-common.c
+libuv-v1.52.1/src/threadpool.c
+libuv-v1.52.1/src/timer.c
+libuv-v1.52.1/src/unix/
+libuv-v1.52.1/src/unix/aix-common.c
+libuv-v1.52.1/src/unix/aix.c
+libuv-v1.52.1/src/unix/async.c
+libuv-v1.52.1/src/unix/bsd-ifaddrs.c
+libuv-v1.52.1/src/unix/bsd-proctitle.c
+libuv-v1.52.1/src/unix/core.c
+libuv-v1.52.1/src/unix/cygwin.c
+libuv-v1.52.1/src/unix/darwin-proctitle.c
+libuv-v1.52.1/src/unix/darwin-stub.h
+libuv-v1.52.1/src/unix/darwin-syscalls.h
+libuv-v1.52.1/src/unix/darwin.c
+libuv-v1.52.1/src/unix/dl.c
+libuv-v1.52.1/src/unix/freebsd.c
+libuv-v1.52.1/src/unix/fs.c
+libuv-v1.52.1/src/unix/fsevents.c
+libuv-v1.52.1/src/unix/getaddrinfo.c
+libuv-v1.52.1/src/unix/getnameinfo.c
+libuv-v1.52.1/src/unix/haiku.c
+libuv-v1.52.1/src/unix/hurd.c
+libuv-v1.52.1/src/unix/ibmi.c
+libuv-v1.52.1/src/unix/internal.h
+libuv-v1.52.1/src/unix/kqueue.c
+libuv-v1.52.1/src/unix/linux.c
+libuv-v1.52.1/src/unix/loop-watcher.c
+libuv-v1.52.1/src/unix/loop.c
+libuv-v1.52.1/src/unix/netbsd.c
+libuv-v1.52.1/src/unix/no-fsevents.c
+libuv-v1.52.1/src/unix/no-proctitle.c
+libuv-v1.52.1/src/unix/openbsd.c
+libuv-v1.52.1/src/unix/os390-proctitle.c
+libuv-v1.52.1/src/unix/os390-syscalls.c
+libuv-v1.52.1/src/unix/os390-syscalls.h
+libuv-v1.52.1/src/unix/os390.c
+libuv-v1.52.1/src/unix/pipe.c
+libuv-v1.52.1/src/unix/poll.c
+libuv-v1.52.1/src/unix/posix-hrtime.c
+libuv-v1.52.1/src/unix/posix-poll.c
+libuv-v1.52.1/src/unix/process.c
+libuv-v1.52.1/src/unix/procfs-exepath.c
+libuv-v1.52.1/src/unix/proctitle.c
+libuv-v1.52.1/src/unix/qnx.c
+libuv-v1.52.1/src/unix/random-devurandom.c
+libuv-v1.52.1/src/unix/random-getentropy.c
+libuv-v1.52.1/src/unix/random-getrandom.c
+libuv-v1.52.1/src/unix/random-sysctl-linux.c
+libuv-v1.52.1/src/unix/signal.c
+libuv-v1.52.1/src/unix/stream.c
+libuv-v1.52.1/src/unix/sunos.c
+libuv-v1.52.1/src/unix/sysinfo-loadavg.c
+libuv-v1.52.1/src/unix/sysinfo-memory.c
+libuv-v1.52.1/src/unix/tcp.c
+libuv-v1.52.1/src/unix/thread.c
+libuv-v1.52.1/src/unix/tty.c
+libuv-v1.52.1/src/unix/udp.c
+libuv-v1.52.1/src/uv-common.c
+libuv-v1.52.1/src/uv-common.h
+libuv-v1.52.1/src/uv-data-getter-setters.c
+libuv-v1.52.1/src/version.c
+libuv-v1.52.1/src/win/
+libuv-v1.52.1/src/win/async.c
+libuv-v1.52.1/src/win/core.c
+libuv-v1.52.1/src/win/detect-wakeup.c
+libuv-v1.52.1/src/win/dl.c
+libuv-v1.52.1/src/win/error.c
+libuv-v1.52.1/src/win/fs-event.c
+libuv-v1.52.1/src/win/fs-fd-hash-inl.h
+libuv-v1.52.1/src/win/fs.c
+libuv-v1.52.1/src/win/getaddrinfo.c
+libuv-v1.52.1/src/win/getnameinfo.c
+libuv-v1.52.1/src/win/handle-inl.h
+libuv-v1.52.1/src/win/handle.c
+libuv-v1.52.1/src/win/internal.h
+libuv-v1.52.1/src/win/loop-watcher.c
+libuv-v1.52.1/src/win/pipe.c
+libuv-v1.52.1/src/win/poll.c
+libuv-v1.52.1/src/win/process-stdio.c
+libuv-v1.52.1/src/win/process.c
+libuv-v1.52.1/src/win/req-inl.h
+libuv-v1.52.1/src/win/signal.c
+libuv-v1.52.1/src/win/snprintf.c
+libuv-v1.52.1/src/win/stream-inl.h
+libuv-v1.52.1/src/win/stream.c
+libuv-v1.52.1/src/win/tcp.c
+libuv-v1.52.1/src/win/thread.c
+libuv-v1.52.1/src/win/tty.c
+libuv-v1.52.1/src/win/udp.c
+libuv-v1.52.1/src/win/util.c
+libuv-v1.52.1/src/win/winapi.c
+libuv-v1.52.1/src/win/winapi.h
+libuv-v1.52.1/src/win/winsock.c
+libuv-v1.52.1/src/win/winsock.h
+libuv-v1.52.1/test/
+libuv-v1.52.1/test/benchmark-async-pummel.c
+libuv-v1.52.1/test/benchmark-async.c
+libuv-v1.52.1/test/benchmark-fs-stat.c
+libuv-v1.52.1/test/benchmark-getaddrinfo.c
+libuv-v1.52.1/test/benchmark-list.h
+libuv-v1.52.1/test/benchmark-loop-count.c
+libuv-v1.52.1/test/benchmark-million-async.c
+libuv-v1.52.1/test/benchmark-million-timers.c
+libuv-v1.52.1/test/benchmark-multi-accept.c
+libuv-v1.52.1/test/benchmark-ping-pongs.c
+libuv-v1.52.1/test/benchmark-ping-udp.c
+libuv-v1.52.1/test/benchmark-pound.c
+libuv-v1.52.1/test/benchmark-pump.c
+libuv-v1.52.1/test/benchmark-queue-work.c
+libuv-v1.52.1/test/benchmark-sizes.c
+libuv-v1.52.1/test/benchmark-spawn.c
+libuv-v1.52.1/test/benchmark-tcp-write-batch.c
+libuv-v1.52.1/test/benchmark-thread.c
+libuv-v1.52.1/test/benchmark-udp-pummel.c
+libuv-v1.52.1/test/blackhole-server.c
+libuv-v1.52.1/test/echo-server.c
+libuv-v1.52.1/test/fixtures/
+libuv-v1.52.1/test/fixtures/empty_file
+libuv-v1.52.1/test/fixtures/load_error.node
+libuv-v1.52.1/test/fixtures/lorem_ipsum.txt
+libuv-v1.52.1/test/fixtures/one_file/
+libuv-v1.52.1/test/fixtures/one_file/one_file
+libuv-v1.52.1/test/run-benchmarks.c
+libuv-v1.52.1/test/run-tests.c
+libuv-v1.52.1/test/runner-unix.c
+libuv-v1.52.1/test/runner-unix.h
+libuv-v1.52.1/test/runner-win.c
+libuv-v1.52.1/test/runner-win.h
+libuv-v1.52.1/test/runner.c
+libuv-v1.52.1/test/runner.h
+libuv-v1.52.1/test/task.h
+libuv-v1.52.1/test/test-active.c
+libuv-v1.52.1/test/test-async-null-cb.c
+libuv-v1.52.1/test/test-async.c
+libuv-v1.52.1/test/test-barrier.c
+libuv-v1.52.1/test/test-callback-stack.c
+libuv-v1.52.1/test/test-close-fd.c
+libuv-v1.52.1/test/test-close-order.c
+libuv-v1.52.1/test/test-condvar.c
+libuv-v1.52.1/test/test-connect-unspecified.c
+libuv-v1.52.1/test/test-connection-fail.c
+libuv-v1.52.1/test/test-cwd-and-chdir.c
+libuv-v1.52.1/test/test-default-loop-close.c
+libuv-v1.52.1/test/test-delayed-accept.c
+libuv-v1.52.1/test/test-dlerror.c
+libuv-v1.52.1/test/test-eintr-handling.c
+libuv-v1.52.1/test/test-embed.c
+libuv-v1.52.1/test/test-emfile.c
+libuv-v1.52.1/test/test-env-vars.c
+libuv-v1.52.1/test/test-error.c
+libuv-v1.52.1/test/test-fail-always.c
+libuv-v1.52.1/test/test-fork.c
+libuv-v1.52.1/test/test-fs-copyfile.c
+libuv-v1.52.1/test/test-fs-event.c
+libuv-v1.52.1/test/test-fs-fd-hash.c
+libuv-v1.52.1/test/test-fs-open-flags.c
+libuv-v1.52.1/test/test-fs-poll.c
+libuv-v1.52.1/test/test-fs-readdir.c
+libuv-v1.52.1/test/test-fs.c
+libuv-v1.52.1/test/test-get-currentexe.c
+libuv-v1.52.1/test/test-get-loadavg.c
+libuv-v1.52.1/test/test-get-memory.c
+libuv-v1.52.1/test/test-get-passwd.c
+libuv-v1.52.1/test/test-getaddrinfo.c
+libuv-v1.52.1/test/test-gethostname.c
+libuv-v1.52.1/test/test-getnameinfo.c
+libuv-v1.52.1/test/test-getsockname.c
+libuv-v1.52.1/test/test-getters-setters.c
+libuv-v1.52.1/test/test-gettimeofday.c
+libuv-v1.52.1/test/test-handle-fileno.c
+libuv-v1.52.1/test/test-homedir.c
+libuv-v1.52.1/test/test-hrtime.c
+libuv-v1.52.1/test/test-idle.c
+libuv-v1.52.1/test/test-idna.c
+libuv-v1.52.1/test/test-iouring-pollhup.c
+libuv-v1.52.1/test/test-ip-name.c
+libuv-v1.52.1/test/test-ip4-addr.c
+libuv-v1.52.1/test/test-ip6-addr.c
+libuv-v1.52.1/test/test-ipc-heavy-traffic-deadlock-bug.c
+libuv-v1.52.1/test/test-ipc-send-recv.c
+libuv-v1.52.1/test/test-ipc.c
+libuv-v1.52.1/test/test-list.h
+libuv-v1.52.1/test/test-loop-alive.c
+libuv-v1.52.1/test/test-loop-close.c
+libuv-v1.52.1/test/test-loop-configure.c
+libuv-v1.52.1/test/test-loop-handles.c
+libuv-v1.52.1/test/test-loop-oom.c
+libuv-v1.52.1/test/test-loop-stop.c
+libuv-v1.52.1/test/test-loop-time.c
+libuv-v1.52.1/test/test-metrics.c
+libuv-v1.52.1/test/test-multiple-listen.c
+libuv-v1.52.1/test/test-mutexes.c
+libuv-v1.52.1/test/test-not-readable-nor-writable-on-read-error.c
+libuv-v1.52.1/test/test-not-writable-after-shutdown.c
+libuv-v1.52.1/test/test-osx-select.c
+libuv-v1.52.1/test/test-pass-always.c
+libuv-v1.52.1/test/test-ping-pong.c
+libuv-v1.52.1/test/test-pipe-bind-error.c
+libuv-v1.52.1/test/test-pipe-close-stdout-read-stdin.c
+libuv-v1.52.1/test/test-pipe-connect-error.c
+libuv-v1.52.1/test/test-pipe-connect-multiple.c
+libuv-v1.52.1/test/test-pipe-connect-prepare.c
+libuv-v1.52.1/test/test-pipe-getsockname.c
+libuv-v1.52.1/test/test-pipe-pending-instances.c
+libuv-v1.52.1/test/test-pipe-sendmsg.c
+libuv-v1.52.1/test/test-pipe-server-close.c
+libuv-v1.52.1/test/test-pipe-set-fchmod.c
+libuv-v1.52.1/test/test-pipe-set-non-blocking.c
+libuv-v1.52.1/test/test-platform-output.c
+libuv-v1.52.1/test/test-poll-close-doesnt-corrupt-stack.c
+libuv-v1.52.1/test/test-poll-close.c
+libuv-v1.52.1/test/test-poll-closesocket.c
+libuv-v1.52.1/test/test-poll-multiple-handles.c
+libuv-v1.52.1/test/test-poll-oob.c
+libuv-v1.52.1/test/test-poll.c
+libuv-v1.52.1/test/test-process-priority.c
+libuv-v1.52.1/test/test-process-title-threadsafe.c
+libuv-v1.52.1/test/test-process-title.c
+libuv-v1.52.1/test/test-queue-foreach-delete.c
+libuv-v1.52.1/test/test-random.c
+libuv-v1.52.1/test/test-readable-on-eof.c
+libuv-v1.52.1/test/test-ref.c
+libuv-v1.52.1/test/test-run-nowait.c
+libuv-v1.52.1/test/test-run-once.c
+libuv-v1.52.1/test/test-semaphore.c
+libuv-v1.52.1/test/test-shutdown-close.c
+libuv-v1.52.1/test/test-shutdown-eof.c
+libuv-v1.52.1/test/test-shutdown-simultaneous.c
+libuv-v1.52.1/test/test-shutdown-twice.c
+libuv-v1.52.1/test/test-signal-multiple-loops.c
+libuv-v1.52.1/test/test-signal-pending-on-close.c
+libuv-v1.52.1/test/test-signal.c
+libuv-v1.52.1/test/test-socket-buffer-size.c
+libuv-v1.52.1/test/test-spawn.c
+libuv-v1.52.1/test/test-stdio-over-pipes.c
+libuv-v1.52.1/test/test-strscpy.c
+libuv-v1.52.1/test/test-strtok.c
+libuv-v1.52.1/test/test-tcp-alloc-cb-fail.c
+libuv-v1.52.1/test/test-tcp-bind-error.c
+libuv-v1.52.1/test/test-tcp-bind6-error.c
+libuv-v1.52.1/test/test-tcp-close-accept.c
+libuv-v1.52.1/test/test-tcp-close-after-read-timeout.c
+libuv-v1.52.1/test/test-tcp-close-reset.c
+libuv-v1.52.1/test/test-tcp-close-while-connecting.c
+libuv-v1.52.1/test/test-tcp-close.c
+libuv-v1.52.1/test/test-tcp-connect-error-after-write.c
+libuv-v1.52.1/test/test-tcp-connect-error.c
+libuv-v1.52.1/test/test-tcp-connect-timeout.c
+libuv-v1.52.1/test/test-tcp-connect6-error.c
+libuv-v1.52.1/test/test-tcp-create-socket-early.c
+libuv-v1.52.1/test/test-tcp-flags.c
+libuv-v1.52.1/test/test-tcp-oob.c
+libuv-v1.52.1/test/test-tcp-open.c
+libuv-v1.52.1/test/test-tcp-read-stop-start.c
+libuv-v1.52.1/test/test-tcp-read-stop.c
+libuv-v1.52.1/test/test-tcp-reuseport.c
+libuv-v1.52.1/test/test-tcp-rst.c
+libuv-v1.52.1/test/test-tcp-shutdown-after-write.c
+libuv-v1.52.1/test/test-tcp-try-write-error.c
+libuv-v1.52.1/test/test-tcp-try-write.c
+libuv-v1.52.1/test/test-tcp-unexpected-read.c
+libuv-v1.52.1/test/test-tcp-write-after-connect.c
+libuv-v1.52.1/test/test-tcp-write-fail.c
+libuv-v1.52.1/test/test-tcp-write-in-a-row.c
+libuv-v1.52.1/test/test-tcp-write-queue-order.c
+libuv-v1.52.1/test/test-tcp-write-to-half-open-connection.c
+libuv-v1.52.1/test/test-tcp-writealot.c
+libuv-v1.52.1/test/test-test-macros.c
+libuv-v1.52.1/test/test-thread-affinity.c
+libuv-v1.52.1/test/test-thread-equal.c
+libuv-v1.52.1/test/test-thread-name.c
+libuv-v1.52.1/test/test-thread-priority.c
+libuv-v1.52.1/test/test-thread.c
+libuv-v1.52.1/test/test-threadpool-cancel.c
+libuv-v1.52.1/test/test-threadpool.c
+libuv-v1.52.1/test/test-timer-again.c
+libuv-v1.52.1/test/test-timer-from-check.c
+libuv-v1.52.1/test/test-timer.c
+libuv-v1.52.1/test/test-tmpdir.c
+libuv-v1.52.1/test/test-tty-duplicate-key.c
+libuv-v1.52.1/test/test-tty-escape-sequence-processing.c
+libuv-v1.52.1/test/test-tty.c
+libuv-v1.52.1/test/test-udp-alloc-cb-fail.c
+libuv-v1.52.1/test/test-udp-bind.c
+libuv-v1.52.1/test/test-udp-connect.c
+libuv-v1.52.1/test/test-udp-connect6.c
+libuv-v1.52.1/test/test-udp-create-socket-early.c
+libuv-v1.52.1/test/test-udp-dgram-too-big.c
+libuv-v1.52.1/test/test-udp-ipv6.c
+libuv-v1.52.1/test/test-udp-mmsg.c
+libuv-v1.52.1/test/test-udp-multicast-interface.c
+libuv-v1.52.1/test/test-udp-multicast-interface6.c
+libuv-v1.52.1/test/test-udp-multicast-join.c
+libuv-v1.52.1/test/test-udp-multicast-join6.c
+libuv-v1.52.1/test/test-udp-multicast-ttl.c
+libuv-v1.52.1/test/test-udp-open.c
+libuv-v1.52.1/test/test-udp-options.c
+libuv-v1.52.1/test/test-udp-recv-cb-close-pollerr.c
+libuv-v1.52.1/test/test-udp-recv-in-a-row.c
+libuv-v1.52.1/test/test-udp-recvmsg-unreachable-error.c
+libuv-v1.52.1/test/test-udp-reuseport.c
+libuv-v1.52.1/test/test-udp-send-and-recv.c
+libuv-v1.52.1/test/test-udp-send-hang-loop.c
+libuv-v1.52.1/test/test-udp-send-immediate.c
+libuv-v1.52.1/test/test-udp-send-unreachable.c
+libuv-v1.52.1/test/test-udp-sendmmsg-error.c
+libuv-v1.52.1/test/test-udp-try-send.c
+libuv-v1.52.1/test/test-uname.c
+libuv-v1.52.1/test/test-walk-handles.c
+libuv-v1.52.1/test/test-watcher-cross-stop.c
+libuv-v1.52.1/tools/
+libuv-v1.52.1/tools/make_dist_html.py
+libuv-v1.52.1/tools/vswhere_usability_wrapper.cmd
+libuv-v1.52.1/tsansupp.txt
+libuv-v1.52.1/uv_win_longpath.manifest
++ libtoolize --copy --force
+libtoolize: putting auxiliary files in '.'.
+libtoolize: copying file './ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+libtoolize: copying file 'm4/libtool.m4'
+libtoolize: copying file 'm4/ltoptions.m4'
+libtoolize: copying file 'm4/ltsugar.m4'
+libtoolize: copying file 'm4/ltversion.m4'
+libtoolize: copying file 'm4/lt~obsolete.m4'
++ aclocal -I m4
++ autoconf
+configure.ac:45: warning: The macro 'AC_PROG_LIBTOOL' is obsolete.
+configure.ac:45: You should run autoupdate.
+m4/libtool.m4:100: AC_PROG_LIBTOOL is expanded from...
+configure.ac:45: the top level
+configure.ac:48: warning: $as_echo is obsolete; use AS_ECHO(["message"]) instead
+lib/m4sugar/m4sh.m4:690: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:697: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+m4/ax_pthread.m4:88: AX_PTHREAD is expanded from...
+configure.ac:48: the top level
++ automake --add-missing --copy
+configure.ac:43: installing './ar-lib'
+configure.ac:26: installing './compile'
+configure.ac:23: installing './config.guess'
+configure.ac:23: installing './config.sub'
+configure.ac:21: installing './install-sh'
+configure.ac:21: installing './missing'
+Makefile.am: installing './depcomp'
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether sleep supports fractional seconds... yes
+checking filesystem timestamp resolution... 0.01
+checking whether build environment is sane... yes
+checking for a race-free mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking xargs -n works... yes
+checking whether UID '0' is supported by ustar format... yes
+checking whether GID '0' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking whether to enable maintainer-specific portions of Makefiles... yes
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to enable C11 features... none needed
+checking whether gcc understands -c and -o together... yes
+checking whether make supports the include directive... yes (GNU style)
+checking dependency style of gcc... gcc3
+checking for gcc way to treat warnings as errors... -Werror
+checking if gcc supports __attribute__(( visibility("default") ))... yes
+checking if gcc supports -fvisibility=hidden flag... yes
+checking if gcc supports -fno-strict-aliasing flag... yes
+checking if gcc supports -fno-strict-aliasing flag... yes
+checking if gcc supports -g flag... yes
+checking if gcc supports -std=gnu11 flag... yes
+checking if gcc supports -Wall flag... yes
+checking if gcc supports -Wextra flag... yes
+checking if gcc supports -Wno-long-long flag... yes
+checking if gcc supports -Wno-unused-parameter flag... yes
+checking if gcc supports -Wstrict-prototypes flag... yes
+checking for ar... ar
+checking the archiver (ar) interface... ar
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for file... file
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ranlib... ranlib
+checking for archiver @FILE support... @
+checking for strip... strip
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking how to run the C preprocessor... gcc -E
+checking for egrep -e... (cached) /usr/bin/grep -E
+checking whether gcc is Clang... no
+checking whether pthreads work with -pthread... yes
+checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+checking whether more special flags are required for pthreads... no
+checking for PTHREAD_PRIO_INHERIT... yes
+checking for library containing dlopen... none required
+checking for library containing kstat_lookup... no
+checking for library containing gethostbyname... none required
+checking for library containing perfstat_cpu... no
+checking for library containing clock_gettime... none required
+checking for library containing sendfile... none required
+checking for library containing socket... none required
+checking for gcc option to enable large file support... none needed
+checking for sys/ahafs_evProds.h... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating libuv.pc
+config.status: executing depfiles commands
+config.status: executing libtool commands
+  CC       src/libuv_la-fs-poll.lo
+  CC       src/libuv_la-idna.lo
+  CC       src/libuv_la-random.lo
+  CC       src/libuv_la-inet.lo
+  CC       src/libuv_la-threadpool.lo
+  CC       src/libuv_la-strscpy.lo
+  CC       src/libuv_la-thread-common.lo
+  CC       src/libuv_la-version.lo
+  CC       src/libuv_la-timer.lo
+  CC       src/libuv_la-uv-data-getter-setters.lo
+  CC       src/libuv_la-uv-common.lo
+  CC       src/libuv_la-strtok.lo
+  CC       src/unix/libuv_la-async.lo
+  CC       src/unix/libuv_la-core.lo
+  CC       src/unix/libuv_la-dl.lo
+  CC       src/unix/libuv_la-fs.lo
+  CC       src/unix/libuv_la-getaddrinfo.lo
+  CC       src/unix/libuv_la-getnameinfo.lo
+  CC       src/unix/libuv_la-loop-watcher.lo
+  CC       src/unix/libuv_la-loop.lo
+  CC       src/unix/libuv_la-pipe.lo
+  CC       src/unix/libuv_la-poll.lo
+  CC       src/unix/libuv_la-process.lo
+  CC       src/unix/libuv_la-random-devurandom.lo
+  CC       src/unix/libuv_la-signal.lo
+  CC       src/unix/libuv_la-stream.lo
+  CC       src/unix/libuv_la-tcp.lo
+  CC       src/unix/libuv_la-thread.lo
+  CC       src/unix/libuv_la-tty.lo
+  CC       src/unix/libuv_la-udp.lo
+  CC       src/unix/libuv_la-linux.lo
+  CC       src/unix/libuv_la-procfs-exepath.lo
+  CC       src/unix/libuv_la-proctitle.lo
+  CC       src/unix/libuv_la-random-getrandom.lo
+  CC       src/unix/libuv_la-random-sysctl-linux.lo
+  CCLD     libuv.la
+make[1]: Entering directory '/blfs/builds/libuv-v1.52.1'
+ /usr/bin/mkdir -p '/pkgs/libuv/usr/lib'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   libuv.la '/pkgs/libuv/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libuv.so.1.0.0 /pkgs/libuv/usr/lib/libuv.so.1.0.0
+libtool: install: (cd /pkgs/libuv/usr/lib && { ln -s -f libuv.so.1.0.0 libuv.so.1 || { rm -f libuv.so.1 && ln -s libuv.so.1.0.0 libuv.so.1; }; })
+libtool: install: (cd /pkgs/libuv/usr/lib && { ln -s -f libuv.so.1.0.0 libuv.so || { rm -f libuv.so && ln -s libuv.so.1.0.0 libuv.so; }; })
+libtool: install: /usr/bin/install -c .libs/libuv.lai /pkgs/libuv/usr/lib/libuv.la
+libtool: warning: remember to run 'libtool --finish /usr/lib'
+ /usr/bin/mkdir -p '/pkgs/libuv/usr/include'
+ /usr/bin/install -c -m 644 include/uv.h '/pkgs/libuv/usr/include'
+ /usr/bin/mkdir -p '/pkgs/libuv/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libuv.pc '/pkgs/libuv/usr/lib/pkgconfig'
+ /usr/bin/mkdir -p '/pkgs/libuv/usr/include/uv'
+ /usr/bin/install -c -m 644 include/uv/errno.h include/uv/threadpool.h include/uv/version.h include/uv/unix.h include/uv/linux.h '/pkgs/libuv/usr/include/uv'
+make[1]: Leaving directory '/blfs/builds/libuv-v1.52.1'
+make[1]: Entering directory '/blfs/builds/libuv-v1.52.1'
+ /usr/bin/mkdir -p '/usr/lib'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   libuv.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libuv.so.1.0.0 /usr/lib/libuv.so.1.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libuv.so.1.0.0 libuv.so.1 || { rm -f libuv.so.1 && ln -s libuv.so.1.0.0 libuv.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libuv.so.1.0.0 libuv.so || { rm -f libuv.so && ln -s libuv.so.1.0.0 libuv.so; }; })
+libtool: install: /usr/bin/install -c .libs/libuv.lai /usr/lib/libuv.la
+libtool: finish: PATH="/usr/sbin:/usr/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /usr/bin/mkdir -p '/usr/include'
+ /usr/bin/install -c -m 644 include/uv.h '/usr/include'
+ /usr/bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libuv.pc '/usr/lib/pkgconfig'
+ /usr/bin/mkdir -p '/usr/include/uv'
+ /usr/bin/install -c -m 644 include/uv/errno.h include/uv/threadpool.h include/uv/version.h include/uv/unix.h include/uv/linux.h '/usr/include/uv'
+make[1]: Leaving directory '/blfs/builds/libuv-v1.52.1'
+libuv/
+libuv/usr/
+libuv/usr/include/
+libuv/usr/include/uv/
+libuv/usr/include/uv/version.h
+libuv/usr/include/uv/linux.h
+libuv/usr/include/uv/unix.h
+libuv/usr/include/uv/threadpool.h
+libuv/usr/include/uv/errno.h
+libuv/usr/include/uv.h
+libuv/usr/lib/
+libuv/usr/lib/libuv.so
+libuv/usr/lib/libuv.so.1
+libuv/usr/lib/pkgconfig/
+libuv/usr/lib/pkgconfig/libuv.pc
+libuv/usr/lib/libuv.la
+libuv/usr/lib/libuv.so.1.0.0
+libuv/version
+libuv/depends
+libuv/make-depends

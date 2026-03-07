@@ -1,0 +1,836 @@
+--2026-03-07 08:49:25--  https://github.com/jasper-software/jasper/archive/version-4.2.9/jasper-4.2.9.tar.gz
+Resolving github.com (github.com)... 140.82.113.3
+Connecting to github.com (github.com)|140.82.113.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://codeload.github.com/jasper-software/jasper/tar.gz/refs/tags/version-4.2.9 [following]
+--2026-03-07 08:49:25--  https://codeload.github.com/jasper-software/jasper/tar.gz/refs/tags/version-4.2.9
+Resolving codeload.github.com (codeload.github.com)... 140.82.113.10
+Connecting to codeload.github.com (codeload.github.com)|140.82.113.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/x-gzip]
+Saving to: ‘jasper-4.2.9.tar.gz’
+
+     0K .......... .......... .......... .......... .......... 2.09M
+    50K .......... .......... .......... .......... .......... 2.02M
+   100K .......... .......... .......... .......... .......... 3.99M
+   150K .......... .......... .......... .......... .......... 2.06M
+   200K .......... .......... .......... .......... .......... 2.05M
+   250K .......... .......... .......... .......... .......... 2.03M
+   300K .......... .......... .......... .......... .......... 4.04M
+   350K .......... .......... .......... .......... .......... 4.20M
+   400K .......... .......... .......... .......... .......... 4.08M
+   450K .......... .......... .......... .......... .......... 56.4M
+   500K .......... .......... .......... .......... .......... 4.19M
+   550K .......... .......... .......... .......... .......... 4.11M
+   600K .......... .......... .......... .......... .......... 4.15M
+   650K .......... .......... .......... .......... ..........  103M
+   700K .......... .......... .......... .......... .......... 4.15M
+   750K .......... .......... .......... .......... .......... 3.98M
+   800K .......... .......... .......... .......... ..........  220M
+   850K .......... .......... .......... .......... .......... 4.24M
+   900K .......... .......... .......... .......... .......... 4.05M
+   950K .......... .......... .......... .......... ..........  111M
+  1000K .......... .......... .......... .......... .......... 4.29M
+  1050K .......... .......... .......... .......... ..........  114M
+  1100K .......... .......... .......... .......... ..........  120M
+  1150K .......... .......... .......... .......... .......... 4.36M
+  1200K .......... .......... .......... .......... ..........  105M
+  1250K .......... .......... .......... .......... ..........  172M
+  1300K .......... .......... .......... .......... .......... 4.25M
+  1350K .......... .......... .......... .......... ..........  101M
+  1400K .......... .......... .......... .......... ..........  197M
+  1450K .......... .......... .......... .......... ..........  123M
+  1500K .......... .......... .......... .......... ..........  101M
+  1550K .......... .......... .......... .......... .......... 4.85M
+  1600K .......... .......... .......... .......... .......... 88.0M
+  1650K .......... .......... .......... .......... ..........  148M
+  1700K .......... .......... .......... .......... ..........  197M
+  1750K .......... .......... .......... .......... .......... 91.7M
+  1800K .......... .......... .......... .......... ..........  164M
+  1850K .......... .......... .......... .......... .......... 4.78M
+  1900K .......... .......... .......... .......... ..........  128M
+  1950K .......                                                 113M=0.3s
+
+2026-03-07 08:49:26 (6.13 MB/s) - ‘jasper-4.2.9.tar.gz’ saved [2004456]
+
+jasper-version-4.2.9/
+jasper-version-4.2.9/.gitattributes
+jasper-version-4.2.9/.github/
+jasper-version-4.2.9/.github/workflows/
+jasper-version-4.2.9/.github/workflows/ci.yml
+jasper-version-4.2.9/.github/workflows/deploy_manual.yml
+jasper-version-4.2.9/.github/workflows/release.yml
+jasper-version-4.2.9/.github/workflows/win_ci.yml
+jasper-version-4.2.9/.gitignore
+jasper-version-4.2.9/CMakeLists.txt
+jasper-version-4.2.9/COPYRIGHT.txt
+jasper-version-4.2.9/INSTALL.txt
+jasper-version-4.2.9/LICENSE.txt
+jasper-version-4.2.9/NEWS.txt
+jasper-version-4.2.9/README.md
+jasper-version-4.2.9/appveyor.yml
+jasper-version-4.2.9/bin/
+jasper-version-4.2.9/bin/base_utilities
+jasper-version-4.2.9/build/
+jasper-version-4.2.9/build/appveyor/
+jasper-version-4.2.9/build/appveyor/build.bat
+jasper-version-4.2.9/build/base_utilities
+jasper-version-4.2.9/build/build
+jasper-version-4.2.9/build/build_all
+jasper-version-4.2.9/build/build_wasi_jasper
+jasper-version-4.2.9/build/cmake/
+jasper-version-4.2.9/build/cmake/modules/
+jasper-version-4.2.9/build/cmake/modules/EnableAssertions.cmake
+jasper-version-4.2.9/build/cmake/modules/InSourceBuild.cmake
+jasper-version-4.2.9/build/cmake/modules/JasCheckType.cmake
+jasper-version-4.2.9/build/cmake/modules/JasGetIncludes.cmake
+jasper-version-4.2.9/build/cmake/modules/JasGetStdcVersion.cmake
+jasper-version-4.2.9/build/cmake/modules/JasPerConfig.cmake.in
+jasper-version-4.2.9/build/cmake/modules/Sanitizers.cmake
+jasper-version-4.2.9/build/cmake/src/
+jasper-version-4.2.9/build/cmake/src/print_stdc.c
+jasper-version-4.2.9/build/extract_release_notes
+jasper-version-4.2.9/build/github/
+jasper-version-4.2.9/build/github/deploy_gh_pages
+jasper-version-4.2.9/build/github/make_main_gh_page
+jasper-version-4.2.9/build/github/prebuild
+jasper-version-4.2.9/build/github/prebuild-v2
+jasper-version-4.2.9/build/install_wasi_sdk
+jasper-version-4.2.9/build/install_wasmtime
+jasper-version-4.2.9/build/make_dist
+jasper-version-4.2.9/build/make_release
+jasper-version-4.2.9/build/pkgconfig/
+jasper-version-4.2.9/build/pkgconfig/jasper.pc.in
+jasper-version-4.2.9/build/sysinfo
+jasper-version-4.2.9/build/wasm_cc
+jasper-version-4.2.9/data/
+jasper-version-4.2.9/data/colorprofiles/
+jasper-version-4.2.9/data/colorprofiles/README.txt
+jasper-version-4.2.9/data/colorprofiles/erimm.icm
+jasper-version-4.2.9/data/colorprofiles/esrgb.icm
+jasper-version-4.2.9/data/colorprofiles/esrgbgrey.icm
+jasper-version-4.2.9/data/colorprofiles/grey.icm
+jasper-version-4.2.9/data/colorprofiles/greyromm.icm
+jasper-version-4.2.9/data/colorprofiles/romm.icm
+jasper-version-4.2.9/data/colorprofiles/sgray.icm
+jasper-version-4.2.9/data/colorprofiles/srgb.icm
+jasper-version-4.2.9/data/colorprofiles/sycc.icm
+jasper-version-4.2.9/data/images/
+jasper-version-4.2.9/data/images/README.txt
+jasper-version-4.2.9/data/images/example.mif
+jasper-version-4.2.9/data/images/example.mif0
+jasper-version-4.2.9/data/images/feed.pnm
+jasper-version-4.2.9/data/images/feep.pnm
+jasper-version-4.2.9/data/images/feep2.pnm
+jasper-version-4.2.9/data/images/goldenears.bmp
+jasper-version-4.2.9/data/images/goldenears.jp2
+jasper-version-4.2.9/data/images/goldenears.jpg
+jasper-version-4.2.9/data/images/goldenears.pnm
+jasper-version-4.2.9/data/images/goldenears.ras
+jasper-version-4.2.9/data/images/goldenears_gray.jp2
+jasper-version-4.2.9/data/images/goldenears_gray.jpg
+jasper-version-4.2.9/data/images/goldenears_gray.pnm
+jasper-version-4.2.9/data/images/goldenears_gray.ras
+jasper-version-4.2.9/data/images/signed_12.pgx
+jasper-version-4.2.9/data/images/signed_16.pgx
+jasper-version-4.2.9/data/images/signed_8.pgx
+jasper-version-4.2.9/data/images/small_16x1.pnm
+jasper-version-4.2.9/data/images/small_1x1.pnm
+jasper-version-4.2.9/data/images/stawamuschief.pnm
+jasper-version-4.2.9/data/images/stawamuschief_gray.pnm
+jasper-version-4.2.9/data/images/test.pnm
+jasper-version-4.2.9/data/test/
+jasper-version-4.2.9/data/test/bad/
+jasper-version-4.2.9/data/test/bad/00003-jasper-assert-jas_matrix_t.jp2
+jasper-version-4.2.9/data/test/bad/00005-jasper-assert-ras_getcmap.ras
+jasper-version-4.2.9/data/test/bad/00006-jasper-assert-jpc_irct.jpc
+jasper-version-4.2.9/data/test/bad/00007-jasper-assert-jas_matrix_t.jpc
+jasper-version-4.2.9/data/test/bad/00008-jasper-assert-jpc_iict.jp2
+jasper-version-4.2.9/data/test/bad/00009-jasper-assert-jpc_iict.jp2
+jasper-version-4.2.9/data/test/bad/00012-jasper-assert-calcstepsizes.jp2
+jasper-version-4.2.9/data/test/bad/00013-jasper-assert-jpc_pi_nextrpcl.jpc
+jasper-version-4.2.9/data/test/bad/00014-jasper-assert-jpc_bitstream_getbits.jpc
+jasper-version-4.2.9/data/test/bad/00016-jasper-assert-jas_matrix_t.jp2
+jasper-version-4.2.9/data/test/bad/00020-jasper-signedintoverflow-jas_image_c.jpc
+jasper-version-4.2.9/data/test/bad/00028-jasper-uaf-jas_realloc.jpg
+jasper-version-4.2.9/data/test/bad/00029-jasper-uninitvalue-jpc_pi_nextcprl.jp2
+jasper-version-4.2.9/data/test/bad/00043-jasper-assert-jas_matrix_t.jpc
+jasper-version-4.2.9/data/test/bad/00047-jasper-stackoverflow-jpc_tsfb_getbands2.jpc
+jasper-version-4.2.9/data/test/bad/00052-jasper-misalignedaddress.jp2
+jasper-version-4.2.9/data/test/bad/00124-jasper-nullptr-jp2_cdef_destroy.jp2
+jasper-version-4.2.9/data/test/bad/10_crash.bmp
+jasper-version-4.2.9/data/test/bad/11_crash.jpc
+jasper-version-4.2.9/data/test/bad/12_crash.jpc
+jasper-version-4.2.9/data/test/bad/132_crashes.jp2
+jasper-version-4.2.9/data/test/bad/1_crash.jpg
+jasper-version-4.2.9/data/test/bad/268_poc.jp2
+jasper-version-4.2.9/data/test/bad/269.jp2
+jasper-version-4.2.9/data/test/bad/271a.pgx
+jasper-version-4.2.9/data/test/bad/271b.pgx
+jasper-version-4.2.9/data/test/bad/274.pgx
+jasper-version-4.2.9/data/test/bad/276.pgx
+jasper-version-4.2.9/data/test/bad/277.jp2
+jasper-version-4.2.9/data/test/bad/281a.pgx
+jasper-version-4.2.9/data/test/bad/281b.pgx
+jasper-version-4.2.9/data/test/bad/291.jp2
+jasper-version-4.2.9/data/test/bad/2_crashes.bmp
+jasper-version-4.2.9/data/test/bad/307_empty_iccp.jp2
+jasper-version-4.2.9/data/test/bad/309.jpc
+jasper-version-4.2.9/data/test/bad/318.jpc
+jasper-version-4.2.9/data/test/bad/345-0.pnm
+jasper-version-4.2.9/data/test/bad/345-1.pnm
+jasper-version-4.2.9/data/test/bad/353.pnm
+jasper-version-4.2.9/data/test/bad/367-PoC.jp2
+jasper-version-4.2.9/data/test/bad/383.heic
+jasper-version-4.2.9/data/test/bad/5_crashes.bmp
+jasper-version-4.2.9/data/test/bad/642_crashes.jpc
+jasper-version-4.2.9/data/test/bad/681_crashes.jp2
+jasper-version-4.2.9/data/test/bad/8_crashes.jp2
+jasper-version-4.2.9/data/test/bad/9_crash.bmp
+jasper-version-4.2.9/data/test/bad/README.txt
+jasper-version-4.2.9/data/test/bad/heap-out-of-bound-read-due-to-off-by-1-poc.jp2
+jasper-version-4.2.9/data/test/bad/hoob_8.jp2
+jasper-version-4.2.9/data/test/bad/invalid_free.jp2
+jasper-version-4.2.9/data/test/bad/invalid_munmap.jp2
+jasper-version-4.2.9/data/test/bad/jasper-abort-new.mif
+jasper-version-4.2.9/data/test/bad/jasper-abort.mif
+jasper-version-4.2.9/data/test/bad/jasper-assert-jpc_dec_tiledecode.jp2
+jasper-version-4.2.9/data/test/bad/jasper-doublefree-mem_close.jpg
+jasper-version-4.2.9/data/test/bad/jasper-heapoverflow-jpc_dec_cp_setfromcox.jp2
+jasper-version-4.2.9/data/test/bad/jasper-heapoverflow-jpc_getuint16.jp2
+jasper-version-4.2.9/data/test/bad/null-pointer-dereference-poc.jp2
+jasper-version-4.2.9/data/test/bad/nullptr.mif
+jasper-version-4.2.9/data/test/bad/poc.jp2
+jasper-version-4.2.9/data/test/bad/poc_2.jp2
+jasper-version-4.2.9/data/test/bad/poc_264.jp2
+jasper-version-4.2.9/data/test/bad/poc_265.jp2
+jasper-version-4.2.9/data/test/bad/poc_402.jpc
+jasper-version-4.2.9/data/test/bad/poc_403.jpc
+jasper-version-4.2.9/data/test/bad/sigsegv.jp2
+jasper-version-4.2.9/data/test/bad/vertcraig-heap-buffer-overflow-in-jpc_pi_nextrpcl.jp2
+jasper-version-4.2.9/data/test/good/
+jasper-version-4.2.9/data/test/good/00021-jasper-uninitvalue-jpg_mkimage.jpg
+jasper-version-4.2.9/data/test/good/105-PoC1.jp2
+jasper-version-4.2.9/data/test/good/109-PoC.jp2
+jasper-version-4.2.9/data/test/good/120-master1.mif
+jasper-version-4.2.9/data/test/good/120-master2.mif
+jasper-version-4.2.9/data/test/good/120-master3.mif
+jasper-version-4.2.9/data/test/good/120-other.mif
+jasper-version-4.2.9/data/test/good/368_poc_min.pnm
+jasper-version-4.2.9/data/test/good/392-rgba.jp2
+jasper-version-4.2.9/data/test/good/PoC1.jpc
+jasper-version-4.2.9/data/test/good/PoC2.jpc
+jasper-version-4.2.9/data/test/good/README.txt
+jasper-version-4.2.9/data/test/good/assert-pnm_getsint.mif
+jasper-version-4.2.9/data/test/good/jasper-nullptr-jpc_pi_destroy.jp2
+jasper-version-4.2.9/data/test/good/jasper-segfault-nullpointer.mif
+jasper-version-4.2.9/data/test/good/signed_pnm.pnm
+jasper-version-4.2.9/data/test/good/small_1x1.jpg
+jasper-version-4.2.9/data/test/other/
+jasper-version-4.2.9/data/test/other/278.jp2
+jasper-version-4.2.9/data/test/other/poc_400.pnm
+jasper-version-4.2.9/data/test/other/poc_401.pnm
+jasper-version-4.2.9/data/test/other/pr325-bad-icc-profile.jp2
+jasper-version-4.2.9/doc/
+jasper-version-4.2.9/doc/CMakeLists.txt
+jasper-version-4.2.9/doc/Doxyfile.in
+jasper-version-4.2.9/doc/README.txt
+jasper-version-4.2.9/doc/jpeg2000.pdf
+jasper-version-4.2.9/doc/src/
+jasper-version-4.2.9/doc/src/apps.dox
+jasper-version-4.2.9/doc/src/apps_imgcmp.dox
+jasper-version-4.2.9/doc/src/apps_imginfo.dox
+jasper-version-4.2.9/doc/src/apps_jasper.dox
+jasper-version-4.2.9/doc/src/apps_jiv.dox
+jasper-version-4.2.9/doc/src/bugs.dox
+jasper-version-4.2.9/doc/src/codecs.dox
+jasper-version-4.2.9/doc/src/figures/
+jasper-version-4.2.9/doc/src/figures/comp.fig
+jasper-version-4.2.9/doc/src/figures/make_figures
+jasper-version-4.2.9/doc/src/figures/refgridex.fig
+jasper-version-4.2.9/doc/src/figures/software.fig
+jasper-version-4.2.9/doc/src/figures/srcimgmodel.fig
+jasper-version-4.2.9/doc/src/figures_generated/
+jasper-version-4.2.9/doc/src/figures_generated/comp.eps
+jasper-version-4.2.9/doc/src/figures_generated/comp.png
+jasper-version-4.2.9/doc/src/figures_generated/refgridex.eps
+jasper-version-4.2.9/doc/src/figures_generated/refgridex.png
+jasper-version-4.2.9/doc/src/figures_generated/software.eps
+jasper-version-4.2.9/doc/src/figures_generated/software.png
+jasper-version-4.2.9/doc/src/figures_generated/srcimgmodel.eps
+jasper-version-4.2.9/doc/src/figures_generated/srcimgmodel.png
+jasper-version-4.2.9/doc/src/install.dox.in
+jasper-version-4.2.9/doc/src/intro.dox
+jasper-version-4.2.9/doc/src/lib.dox
+jasper-version-4.2.9/doc/src/lib_images.dox
+jasper-version-4.2.9/doc/src/lib_init.dox
+jasper-version-4.2.9/doc/src/lib_iostreams.dox
+jasper-version-4.2.9/doc/src/lib_log.dox
+jasper-version-4.2.9/doc/src/lib_math.dox
+jasper-version-4.2.9/doc/src/lib_misc.dox
+jasper-version-4.2.9/doc/src/lib_string.dox
+jasper-version-4.2.9/doc/src/lib_threads.dox
+jasper-version-4.2.9/doc/src/lib_timers.dox
+jasper-version-4.2.9/doc/src/license.dox.in
+jasper-version-4.2.9/doc/src/modules.dox
+jasper-version-4.2.9/doc/src/overview.dox.in
+jasper-version-4.2.9/doc/src/references.bib
+jasper-version-4.2.9/src/
+jasper-version-4.2.9/src/README.txt
+jasper-version-4.2.9/src/app/
+jasper-version-4.2.9/src/app/CMakeLists.txt
+jasper-version-4.2.9/src/app/fuzz.c
+jasper-version-4.2.9/src/app/imgcmp.1
+jasper-version-4.2.9/src/app/imgcmp.c
+jasper-version-4.2.9/src/app/imginfo.1
+jasper-version-4.2.9/src/app/imginfo.c
+jasper-version-4.2.9/src/app/jasper.1
+jasper-version-4.2.9/src/app/jasper.c
+jasper-version-4.2.9/src/app/jiv.1
+jasper-version-4.2.9/src/app/jiv.c
+jasper-version-4.2.9/src/app/multithread.c
+jasper-version-4.2.9/src/app/test_1.c
+jasper-version-4.2.9/src/app/test_2.cpp
+jasper-version-4.2.9/src/app/tmrdemo.c
+jasper-version-4.2.9/src/libjasper/
+jasper-version-4.2.9/src/libjasper/CMakeLists.txt
+jasper-version-4.2.9/src/libjasper/README.txt
+jasper-version-4.2.9/src/libjasper/base/
+jasper-version-4.2.9/src/libjasper/base/jas_cm.c
+jasper-version-4.2.9/src/libjasper/base/jas_debug.c
+jasper-version-4.2.9/src/libjasper/base/jas_getopt.c
+jasper-version-4.2.9/src/libjasper/base/jas_icc.c
+jasper-version-4.2.9/src/libjasper/base/jas_iccdata.c
+jasper-version-4.2.9/src/libjasper/base/jas_image.c
+jasper-version-4.2.9/src/libjasper/base/jas_init.c
+jasper-version-4.2.9/src/libjasper/base/jas_malloc.c
+jasper-version-4.2.9/src/libjasper/base/jas_seq.c
+jasper-version-4.2.9/src/libjasper/base/jas_stream.c
+jasper-version-4.2.9/src/libjasper/base/jas_string.c
+jasper-version-4.2.9/src/libjasper/base/jas_tmr.c
+jasper-version-4.2.9/src/libjasper/base/jas_tvp.c
+jasper-version-4.2.9/src/libjasper/base/jas_version.c
+jasper-version-4.2.9/src/libjasper/bmp/
+jasper-version-4.2.9/src/libjasper/bmp/bmp_cod.c
+jasper-version-4.2.9/src/libjasper/bmp/bmp_cod.h
+jasper-version-4.2.9/src/libjasper/bmp/bmp_dec.c
+jasper-version-4.2.9/src/libjasper/bmp/bmp_enc.c
+jasper-version-4.2.9/src/libjasper/bmp/bmp_enc.h
+jasper-version-4.2.9/src/libjasper/heic/
+jasper-version-4.2.9/src/libjasper/heic/heic_dec.c
+jasper-version-4.2.9/src/libjasper/heic/heic_enc.c
+jasper-version-4.2.9/src/libjasper/heic/heic_val.c
+jasper-version-4.2.9/src/libjasper/include/
+jasper-version-4.2.9/src/libjasper/include/jasper/
+jasper-version-4.2.9/src/libjasper/include/jasper/jas_cm.h
+jasper-version-4.2.9/src/libjasper/include/jasper/jas_compiler.h
+jasper-version-4.2.9/src/libjasper/include/jasper/jas_config.h.in
+jasper-version-4.2.9/src/libjasper/include/jasper/jas_debug.h
+jasper-version-4.2.9/src/libjasper/include/jasper/jas_dll.h
+jasper-version-4.2.9/src/libjasper/include/jasper/jas_fix.h
+jasper-version-4.2.9/src/libjasper/include/jasper/jas_getopt.h
+jasper-version-4.2.9/src/libjasper/include/jasper/jas_icc.h
+jasper-version-4.2.9/src/libjasper/include/jasper/jas_image.h
+jasper-version-4.2.9/src/libjasper/include/jasper/jas_init.h
+jasper-version-4.2.9/src/libjasper/include/jasper/jas_log.h
+jasper-version-4.2.9/src/libjasper/include/jasper/jas_malloc.h
+jasper-version-4.2.9/src/libjasper/include/jasper/jas_math.h
+jasper-version-4.2.9/src/libjasper/include/jasper/jas_seq.h
+jasper-version-4.2.9/src/libjasper/include/jasper/jas_stream.h
+jasper-version-4.2.9/src/libjasper/include/jasper/jas_string.h
+jasper-version-4.2.9/src/libjasper/include/jasper/jas_thread.h
+jasper-version-4.2.9/src/libjasper/include/jasper/jas_tmr.h
+jasper-version-4.2.9/src/libjasper/include/jasper/jas_tvp.h
+jasper-version-4.2.9/src/libjasper/include/jasper/jas_types.h
+jasper-version-4.2.9/src/libjasper/include/jasper/jas_version.h
+jasper-version-4.2.9/src/libjasper/include/jasper/jasper.h
+jasper-version-4.2.9/src/libjasper/jp2/
+jasper-version-4.2.9/src/libjasper/jp2/jp2_cod.c
+jasper-version-4.2.9/src/libjasper/jp2/jp2_cod.h
+jasper-version-4.2.9/src/libjasper/jp2/jp2_dec.c
+jasper-version-4.2.9/src/libjasper/jp2/jp2_dec.h
+jasper-version-4.2.9/src/libjasper/jp2/jp2_enc.c
+jasper-version-4.2.9/src/libjasper/jpc/
+jasper-version-4.2.9/src/libjasper/jpc/jpc_bs.c
+jasper-version-4.2.9/src/libjasper/jpc/jpc_bs.h
+jasper-version-4.2.9/src/libjasper/jpc/jpc_cod.c
+jasper-version-4.2.9/src/libjasper/jpc/jpc_cod.h
+jasper-version-4.2.9/src/libjasper/jpc/jpc_cs.c
+jasper-version-4.2.9/src/libjasper/jpc/jpc_cs.h
+jasper-version-4.2.9/src/libjasper/jpc/jpc_dec.c
+jasper-version-4.2.9/src/libjasper/jpc/jpc_dec.h
+jasper-version-4.2.9/src/libjasper/jpc/jpc_enc.c
+jasper-version-4.2.9/src/libjasper/jpc/jpc_enc.h
+jasper-version-4.2.9/src/libjasper/jpc/jpc_fix.h
+jasper-version-4.2.9/src/libjasper/jpc/jpc_flt.h
+jasper-version-4.2.9/src/libjasper/jpc/jpc_math.c
+jasper-version-4.2.9/src/libjasper/jpc/jpc_math.h
+jasper-version-4.2.9/src/libjasper/jpc/jpc_mct.c
+jasper-version-4.2.9/src/libjasper/jpc/jpc_mct.h
+jasper-version-4.2.9/src/libjasper/jpc/jpc_mqcod.c
+jasper-version-4.2.9/src/libjasper/jpc/jpc_mqcod.h
+jasper-version-4.2.9/src/libjasper/jpc/jpc_mqdec.c
+jasper-version-4.2.9/src/libjasper/jpc/jpc_mqdec.h
+jasper-version-4.2.9/src/libjasper/jpc/jpc_mqenc.c
+jasper-version-4.2.9/src/libjasper/jpc/jpc_mqenc.h
+jasper-version-4.2.9/src/libjasper/jpc/jpc_qmfb.c
+jasper-version-4.2.9/src/libjasper/jpc/jpc_qmfb.h
+jasper-version-4.2.9/src/libjasper/jpc/jpc_t1cod.c
+jasper-version-4.2.9/src/libjasper/jpc/jpc_t1cod.h
+jasper-version-4.2.9/src/libjasper/jpc/jpc_t1dec.c
+jasper-version-4.2.9/src/libjasper/jpc/jpc_t1dec.h
+jasper-version-4.2.9/src/libjasper/jpc/jpc_t1enc.c
+jasper-version-4.2.9/src/libjasper/jpc/jpc_t1enc.h
+jasper-version-4.2.9/src/libjasper/jpc/jpc_t2cod.c
+jasper-version-4.2.9/src/libjasper/jpc/jpc_t2cod.h
+jasper-version-4.2.9/src/libjasper/jpc/jpc_t2dec.c
+jasper-version-4.2.9/src/libjasper/jpc/jpc_t2dec.h
+jasper-version-4.2.9/src/libjasper/jpc/jpc_t2enc.c
+jasper-version-4.2.9/src/libjasper/jpc/jpc_t2enc.h
+jasper-version-4.2.9/src/libjasper/jpc/jpc_tagtree.c
+jasper-version-4.2.9/src/libjasper/jpc/jpc_tagtree.h
+jasper-version-4.2.9/src/libjasper/jpc/jpc_tsfb.c
+jasper-version-4.2.9/src/libjasper/jpc/jpc_tsfb.h
+jasper-version-4.2.9/src/libjasper/jpc/jpc_util.c
+jasper-version-4.2.9/src/libjasper/jpc/jpc_util.h
+jasper-version-4.2.9/src/libjasper/jpg/
+jasper-version-4.2.9/src/libjasper/jpg/README.txt
+jasper-version-4.2.9/src/libjasper/jpg/jpg_cod.h
+jasper-version-4.2.9/src/libjasper/jpg/jpg_dec.c
+jasper-version-4.2.9/src/libjasper/jpg/jpg_enc.c
+jasper-version-4.2.9/src/libjasper/jpg/jpg_enc.h
+jasper-version-4.2.9/src/libjasper/jpg/jpg_jpeglib.h
+jasper-version-4.2.9/src/libjasper/jpg/jpg_val.c
+jasper-version-4.2.9/src/libjasper/mif/
+jasper-version-4.2.9/src/libjasper/mif/README.txt
+jasper-version-4.2.9/src/libjasper/mif/mif_cod.c
+jasper-version-4.2.9/src/libjasper/mif/mif_cod.h
+jasper-version-4.2.9/src/libjasper/pgx/
+jasper-version-4.2.9/src/libjasper/pgx/pgx_cod.c
+jasper-version-4.2.9/src/libjasper/pgx/pgx_cod.h
+jasper-version-4.2.9/src/libjasper/pgx/pgx_dec.c
+jasper-version-4.2.9/src/libjasper/pgx/pgx_enc.c
+jasper-version-4.2.9/src/libjasper/pgx/pgx_enc.h
+jasper-version-4.2.9/src/libjasper/pnm/
+jasper-version-4.2.9/src/libjasper/pnm/pnm_cod.c
+jasper-version-4.2.9/src/libjasper/pnm/pnm_cod.h
+jasper-version-4.2.9/src/libjasper/pnm/pnm_dec.c
+jasper-version-4.2.9/src/libjasper/pnm/pnm_enc.c
+jasper-version-4.2.9/src/libjasper/pnm/pnm_enc.h
+jasper-version-4.2.9/src/libjasper/ras/
+jasper-version-4.2.9/src/libjasper/ras/ras_cod.c
+jasper-version-4.2.9/src/libjasper/ras/ras_cod.h
+jasper-version-4.2.9/src/libjasper/ras/ras_dec.c
+jasper-version-4.2.9/src/libjasper/ras/ras_enc.c
+jasper-version-4.2.9/src/libjasper/ras/ras_enc.h
+jasper-version-4.2.9/test/
+jasper-version-4.2.9/test/bin/
+jasper-version-4.2.9/test/bin/base_utilities
+jasper-version-4.2.9/test/bin/codec_tests
+jasper-version-4.2.9/test/bin/conformance_tests
+jasper-version-4.2.9/test/bin/jpcod
+jasper-version-4.2.9/test/bin/jpdec
+jasper-version-4.2.9/test/bin/jpenc
+jasper-version-4.2.9/test/bin/run_codec_test
+jasper-version-4.2.9/test/bin/run_conformance_tests
+jasper-version-4.2.9/test/bin/run_mem_test
+jasper-version-4.2.9/test/bin/run_test_1
+jasper-version-4.2.9/test/bin/run_test_2
+jasper-version-4.2.9/test/bin/run_test_3
+jasper-version-4.2.9/test/bin/run_test_5
+jasper-version-4.2.9/test/bin/run_test_imgcmp
+jasper-version-4.2.9/test/bin/run_test_imginfo
+jasper-version-4.2.9/test/bin/test_utilities
+jasper-version-4.2.9/test/bin/wrapper.in
+jasper-version-4.2.9/test/src/
+jasper-version-4.2.9/test/src/CMakeLists.txt
+jasper-version-4.2.9/test/src/app.c
+Software version: 4.2.9
+Shared library ABI version: 7
+Shared library build version: 7.0.0
+CMAKE_VERSION: 4.2.3
+-- The C compiler identification is GNU 15.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+CMAKE_C_COMPILER_ID: GNU
+CMAKE_C_COMPILER_VERISON: 15.2.0
+-- Performing Test JAS_HAVE_FSANITIZE_LEAK
+-- Performing Test JAS_HAVE_FSANITIZE_LEAK - Success
+-- Performing Test JAS_HAVE_FSANITIZE_UNDEFINED
+-- Performing Test JAS_HAVE_FSANITIZE_UNDEFINED - Success
+-- Performing Test JAS_HAVE_MSVC_FSANITIZE_ADDRESS
+-- Performing Test JAS_HAVE_MSVC_FSANITIZE_ADDRESS - Failed
+JAS_MULTICONFIGURATION_GENERATOR FALSE
+CMAKE_BUILD_TYPE: Release
+CMAKE_C_COMPILER_ID: GNU
+CMAKE_C_COMPILER: /usr/bin/cc
+CMAKE_LINKER: /usr/bin/ld
+-- Performing Test JAS_GCC_WARN_NO_STRINGOP_TRUNCATION
+-- Performing Test JAS_GCC_WARN_NO_STRINGOP_TRUNCATION - Success
+-- Performing Test JAS_GCC_WARN_NO_STRINGOP_OVERFLOW
+-- Performing Test JAS_GCC_WARN_NO_STRINGOP_OVERFLOW - Success
+-- Performing Test JAS_CLANG_WARN_NO_OUT_OF_RANGE_COMPARE
+-- Performing Test JAS_CLANG_WARN_NO_OUT_OF_RANGE_COMPARE - Success
+-- Performing Test HAVE_FUNCTION_SECTIONS
+-- Performing Test HAVE_FUNCTION_SECTIONS - Success
+-- Performing Test HAVE_DATA_SECTIONS
+-- Performing Test HAVE_DATA_SECTIONS - Success
+-- Performing Test HAVE_GC_SECTIONS
+-- Performing Test HAVE_GC_SECTIONS - Success
+CMAKE_C_FLAGS: -O2 -pedantic
+CMAKE_C_FLAGS_RELEASE: -O3 
+CMAKE_C_FLAGS_DEBUG: -g
+__STDC_VERSION__: 201112L
+-- Looking for include file fcntl.h
+-- Looking for include file fcntl.h - found
+-- Looking for include file io.h
+-- Looking for include file io.h - not found
+-- Looking for include file unistd.h
+-- Looking for include file unistd.h - found
+-- Looking for include file sys/time.h
+-- Looking for include file sys/time.h - found
+-- Looking for include file sys/types.h
+-- Looking for include file sys/types.h - found
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of max_align_t
+-- Check size of max_align_t - done
+JAS_HAVE_MAX_ALIGN_T: 1
+-- Check size of char
+-- Check size of char - done
+JAS_SIZEOF_CHAR: 1
+-- Check size of int
+-- Check size of int - done
+JAS_SIZEOF_INT: 4
+-- Check size of long
+-- Check size of long - done
+JAS_SIZEOF_LONG: 8
+-- Check size of long long
+-- Check size of long long - done
+JAS_SIZEOF_LLONG: 8
+-- Check size of size_t
+-- Check size of size_t - done
+JAS_SIZEOF_SIZE_T: 8
+-- Check size of ssize_t
+-- Check size of ssize_t - done
+JAS_HAVE_SSIZE_T: 
+-- Check size of int_fast32_t
+-- Check size of int_fast32_t - done
+JAS_SIZEOF_INT_FAST32_T: 8
+-- Check size of int_least32_t
+-- Check size of int_least32_t - done
+JAS_SIZEOF_INT_LEAST32_T: 4
+-- Check size of int_fast64_t
+-- Check size of int_fast64_t - done
+JAS_SIZEOF_INT_FAST64_T: 8
+-- Check size of int_least64_t
+-- Check size of int_least64_t - done
+JAS_SIZEOF_INT_LEAST64_T: 8
+-- Check size of __int128_t
+-- Check size of __int128_t - done
+JAS_SIZEOF_INT128_T: 16
+-- Looking for nanosleep
+-- Looking for nanosleep - found
+-- Looking for gettimeofday
+-- Looking for gettimeofday - found
+-- Looking for getrusage
+-- Looking for getrusage - found
+-- Looking for mkostemp
+-- Looking for mkostemp - found
+-- Looking for snprintf
+-- Looking for snprintf - found
+JAS_ENABLE_MIF_CODEC: OFF
+Support for all native codecs has been included.
+-- Performing Test JAS_TRY_COMPILE_C11_THREADS
+-- Performing Test JAS_TRY_COMPILE_C11_THREADS - Success
+-- Performing Test JAS_TRY_COMPILE_THREAD_LOCAL
+-- Performing Test JAS_TRY_COMPILE_THREAD_LOCAL - Success
+-- Looking for include file pthread.h
+-- Looking for include file pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+Threading support enabled.
+Threads_FOUND: TRUE
+Pthread library: /usr/lib/libpthread.a
+Prefer POSIX threading support: ON
+Threading support found: TRUE
+C11 threading support detected: TRUE
+POSIX threading support detected: TRUE
+WIN32 threading support detected: FALSE
+C11 threading support selected: FALSE
+POSIX threading support selected: TRUE
+Win32 threading support selected: FALSE
+Threading library: /usr/lib/libpthread.a
+_Thread_local: TRUE
+-- Found OpenGL: /usr/lib/libOpenGL.so
+-- Found GLUT: /usr/lib/libglut.so
+target: OpenGL::GL
+OpenGL::GL: adding include directory /usr/include
+target: OpenGL::GLU
+OpenGL::GLU: adding include directory /usr/include
+target: GLUT::GLUT
+GLUT::GLUT: adding include directory /usr/include
+CMAKE_REQUIRE_INCLUDES /usr/include;/usr/include;/usr/include
+-- Looking for include file GL/glut.h
+-- Looking for include file GL/glut.h - found
+-- Looking for include file GLUT/glut.h
+-- Looking for include file GLUT/glut.h - not found
+-- Looking for include file glut.h
+-- Looking for include file glut.h - not found
+-- Found JPEG: /usr/lib/libjpeg.so (found version "62")
+target: JPEG::JPEG
+JPEG::JPEG: adding include directory /usr/include
+JPEG include directories: /usr/include
+-- Performing Test JAS_HAVE_JPEGLIB_H
+-- Performing Test JAS_HAVE_JPEGLIB_H - Success
+JAS_INCLUDE_JPG_CODEC: ON
+-- Looking for include file libheif/heif.h
+-- Looking for include file libheif/heif.h - found
+JAS_INCLUDE_HEIC_CODEC: ON
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Failed
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- Configuring done (4.2s)
+-- Generating done (0.1s)
+-- Build files have been written to: /blfs/builds/jasper-version-4.2.9/BUILD
+[  2%] Building C object src/libjasper/CMakeFiles/libjasper.dir/base/jas_stream.c.o
+[  2%] Building C object src/libjasper/CMakeFiles/libjasper.dir/base/jas_cm.c.o
+[  4%] Building C object src/libjasper/CMakeFiles/libjasper.dir/base/jas_string.c.o
+[  5%] Building C object src/libjasper/CMakeFiles/libjasper.dir/base/jas_debug.c.o
+[  7%] Building C object src/libjasper/CMakeFiles/libjasper.dir/base/jas_getopt.c.o
+[  9%] Building C object src/libjasper/CMakeFiles/libjasper.dir/base/jas_icc.c.o
+[  9%] Building C object src/libjasper/CMakeFiles/libjasper.dir/base/jas_image.c.o
+[ 11%] Building C object src/libjasper/CMakeFiles/libjasper.dir/base/jas_iccdata.c.o
+[ 12%] Building C object src/libjasper/CMakeFiles/libjasper.dir/base/jas_init.c.o
+[ 14%] Building C object src/libjasper/CMakeFiles/libjasper.dir/base/jas_malloc.c.o
+[ 15%] Building C object src/libjasper/CMakeFiles/libjasper.dir/base/jas_seq.c.o
+[ 16%] Building C object src/libjasper/CMakeFiles/libjasper.dir/base/jas_tmr.c.o
+[ 18%] Building C object src/libjasper/CMakeFiles/libjasper.dir/base/jas_tvp.c.o
+[ 19%] Building C object src/libjasper/CMakeFiles/libjasper.dir/base/jas_version.c.o
+[ 21%] Building C object src/libjasper/CMakeFiles/libjasper.dir/bmp/bmp_cod.c.o
+[ 22%] Building C object src/libjasper/CMakeFiles/libjasper.dir/bmp/bmp_dec.c.o
+[ 23%] Building C object src/libjasper/CMakeFiles/libjasper.dir/bmp/bmp_enc.c.o
+[ 25%] Building C object src/libjasper/CMakeFiles/libjasper.dir/jp2/jp2_cod.c.o
+[ 26%] Building C object src/libjasper/CMakeFiles/libjasper.dir/jp2/jp2_dec.c.o
+[ 28%] Building C object src/libjasper/CMakeFiles/libjasper.dir/jp2/jp2_enc.c.o
+[ 29%] Building C object src/libjasper/CMakeFiles/libjasper.dir/jpc/jpc_bs.c.o
+[ 30%] Building C object src/libjasper/CMakeFiles/libjasper.dir/jpc/jpc_cs.c.o
+[ 32%] Building C object src/libjasper/CMakeFiles/libjasper.dir/jpc/jpc_cod.c.o
+[ 33%] Building C object src/libjasper/CMakeFiles/libjasper.dir/jpc/jpc_dec.c.o
+[ 35%] Building C object src/libjasper/CMakeFiles/libjasper.dir/jpc/jpc_enc.c.o
+[ 36%] Building C object src/libjasper/CMakeFiles/libjasper.dir/jpc/jpc_math.c.o
+[ 38%] Building C object src/libjasper/CMakeFiles/libjasper.dir/jpc/jpc_mct.c.o
+[ 39%] Building C object src/libjasper/CMakeFiles/libjasper.dir/jpc/jpc_mqcod.c.o
+[ 40%] Building C object src/libjasper/CMakeFiles/libjasper.dir/jpc/jpc_mqdec.c.o
+[ 42%] Building C object src/libjasper/CMakeFiles/libjasper.dir/jpc/jpc_mqenc.c.o
+[ 43%] Building C object src/libjasper/CMakeFiles/libjasper.dir/jpc/jpc_qmfb.c.o
+[ 45%] Building C object src/libjasper/CMakeFiles/libjasper.dir/jpc/jpc_t1cod.c.o
+[ 46%] Building C object src/libjasper/CMakeFiles/libjasper.dir/jpc/jpc_t1dec.c.o
+[ 47%] Building C object src/libjasper/CMakeFiles/libjasper.dir/jpc/jpc_t1enc.c.o
+[ 49%] Building C object src/libjasper/CMakeFiles/libjasper.dir/jpc/jpc_t2dec.c.o
+[ 50%] Building C object src/libjasper/CMakeFiles/libjasper.dir/jpc/jpc_t2cod.c.o
+[ 52%] Building C object src/libjasper/CMakeFiles/libjasper.dir/jpc/jpc_t2enc.c.o
+[ 53%] Building C object src/libjasper/CMakeFiles/libjasper.dir/jpc/jpc_tagtree.c.o
+[ 54%] Building C object src/libjasper/CMakeFiles/libjasper.dir/jpc/jpc_tsfb.c.o
+[ 56%] Building C object src/libjasper/CMakeFiles/libjasper.dir/jpc/jpc_util.c.o
+[ 57%] Building C object src/libjasper/CMakeFiles/libjasper.dir/jpg/jpg_val.c.o
+[ 59%] Building C object src/libjasper/CMakeFiles/libjasper.dir/jpg/jpg_dec.c.o
+[ 60%] Building C object src/libjasper/CMakeFiles/libjasper.dir/jpg/jpg_enc.c.o
+[ 61%] Building C object src/libjasper/CMakeFiles/libjasper.dir/heic/heic_val.c.o
+[ 63%] Building C object src/libjasper/CMakeFiles/libjasper.dir/heic/heic_dec.c.o
+[ 64%] Building C object src/libjasper/CMakeFiles/libjasper.dir/heic/heic_enc.c.o
+[ 66%] Building C object src/libjasper/CMakeFiles/libjasper.dir/mif/mif_cod.c.o
+[ 67%] Building C object src/libjasper/CMakeFiles/libjasper.dir/pgx/pgx_cod.c.o
+[ 69%] Building C object src/libjasper/CMakeFiles/libjasper.dir/pgx/pgx_dec.c.o
+[ 70%] Building C object src/libjasper/CMakeFiles/libjasper.dir/pgx/pgx_enc.c.o
+[ 71%] Building C object src/libjasper/CMakeFiles/libjasper.dir/pnm/pnm_cod.c.o
+[ 73%] Building C object src/libjasper/CMakeFiles/libjasper.dir/pnm/pnm_dec.c.o
+[ 74%] Building C object src/libjasper/CMakeFiles/libjasper.dir/ras/ras_cod.c.o
+[ 76%] Building C object src/libjasper/CMakeFiles/libjasper.dir/pnm/pnm_enc.c.o
+[ 77%] Building C object src/libjasper/CMakeFiles/libjasper.dir/ras/ras_dec.c.o
+[ 78%] Building C object src/libjasper/CMakeFiles/libjasper.dir/ras/ras_enc.c.o
+[ 80%] Linking C shared library libjasper.so
+[ 80%] Built target libjasper
+[ 84%] Building C object src/app/CMakeFiles/imgcmp.dir/imgcmp.c.o
+[ 84%] Building C object src/app/CMakeFiles/jiv.dir/jiv.c.o
+[ 84%] Building C object src/app/CMakeFiles/test_1.dir/test_1.c.o
+[ 87%] Building C object src/app/CMakeFiles/imginfo.dir/imginfo.c.o
+[ 87%] Building C object src/app/CMakeFiles/jasper.dir/jasper.c.o
+[ 88%] Building C object src/app/CMakeFiles/tmrdemo.dir/tmrdemo.c.o
+[ 90%] Building C object src/app/CMakeFiles/multithread.dir/multithread.c.o
+[ 91%] Linking C executable tmrdemo
+[ 92%] Linking C executable test_1
+[ 94%] Linking C executable imginfo
+[ 95%] Linking C executable jasper
+[ 97%] Linking C executable multithread
+[ 97%] Built target imginfo
+[ 97%] Built target tmrdemo
+[ 97%] Built target test_1
+[ 97%] Built target jasper
+[ 98%] Linking C executable imgcmp
+[ 98%] Built target multithread
+[100%] Linking C executable jiv
+[100%] Built target imgcmp
+[100%] Built target jiv
+[ 80%] Built target libjasper
+[ 83%] Built target jasper
+[ 85%] Built target imginfo
+[ 88%] Built target imgcmp
+[ 91%] Built target tmrdemo
+[ 94%] Built target jiv
+[ 97%] Built target multithread
+[100%] Built target test_1
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /pkgs/jasper/usr/lib/libjasper.so.7.0.0
+-- Installing: /pkgs/jasper/usr/lib/libjasper.so.7
+-- Installing: /pkgs/jasper/usr/lib/libjasper.so
+-- Installing: /pkgs/jasper/usr/include/jasper/jas_cm.h
+-- Installing: /pkgs/jasper/usr/include/jasper/jas_compiler.h
+-- Installing: /pkgs/jasper/usr/include/jasper/jas_config.h
+-- Installing: /pkgs/jasper/usr/include/jasper/jas_debug.h
+-- Installing: /pkgs/jasper/usr/include/jasper/jas_dll.h
+-- Installing: /pkgs/jasper/usr/include/jasper/jas_fix.h
+-- Installing: /pkgs/jasper/usr/include/jasper/jas_getopt.h
+-- Installing: /pkgs/jasper/usr/include/jasper/jas_icc.h
+-- Installing: /pkgs/jasper/usr/include/jasper/jas_image.h
+-- Installing: /pkgs/jasper/usr/include/jasper/jas_init.h
+-- Installing: /pkgs/jasper/usr/include/jasper/jas_log.h
+-- Installing: /pkgs/jasper/usr/include/jasper/jas_malloc.h
+-- Installing: /pkgs/jasper/usr/include/jasper/jas_math.h
+-- Installing: /pkgs/jasper/usr/include/jasper/jasper.h
+-- Installing: /pkgs/jasper/usr/include/jasper/jas_seq.h
+-- Installing: /pkgs/jasper/usr/include/jasper/jas_stream.h
+-- Installing: /pkgs/jasper/usr/include/jasper/jas_string.h
+-- Installing: /pkgs/jasper/usr/include/jasper/jas_thread.h
+-- Installing: /pkgs/jasper/usr/include/jasper/jas_tmr.h
+-- Installing: /pkgs/jasper/usr/include/jasper/jas_tvp.h
+-- Installing: /pkgs/jasper/usr/include/jasper/jas_types.h
+-- Installing: /pkgs/jasper/usr/include/jasper/jas_version.h
+-- Installing: /pkgs/jasper/usr/include/jasper/jas_export_cmake.h
+-- Installing: /pkgs/jasper/usr/bin/jasper
+-- Set non-toolchain portion of runtime path of "/pkgs/jasper/usr/bin/jasper" to ""
+-- Installing: /pkgs/jasper/usr/bin/imginfo
+-- Set non-toolchain portion of runtime path of "/pkgs/jasper/usr/bin/imginfo" to ""
+-- Installing: /pkgs/jasper/usr/bin/imgcmp
+-- Set non-toolchain portion of runtime path of "/pkgs/jasper/usr/bin/imgcmp" to ""
+-- Installing: /pkgs/jasper/usr/bin/jiv
+-- Set non-toolchain portion of runtime path of "/pkgs/jasper/usr/bin/jiv" to ""
+-- Installing: /pkgs/jasper/usr/share/man/man1/jasper.1
+-- Installing: /pkgs/jasper/usr/share/man/man1/imginfo.1
+-- Installing: /pkgs/jasper/usr/share/man/man1/imgcmp.1
+-- Installing: /pkgs/jasper/usr/share/man/man1/jiv.1
+-- Installing: /pkgs/jasper/usr/lib/pkgconfig/jasper.pc
+-- Installing: /pkgs/jasper/usr/share/doc/jasper/README.md
+[ 80%] Built target libjasper
+[ 83%] Built target jasper
+[ 85%] Built target imginfo
+[ 88%] Built target imgcmp
+[ 91%] Built target tmrdemo
+[ 94%] Built target jiv
+[ 97%] Built target multithread
+[100%] Built target test_1
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /usr/lib/libjasper.so.7.0.0
+-- Up-to-date: /usr/lib/libjasper.so.7
+-- Up-to-date: /usr/lib/libjasper.so
+-- Installing: /usr/include/jasper/jas_cm.h
+-- Installing: /usr/include/jasper/jas_compiler.h
+-- Installing: /usr/include/jasper/jas_config.h
+-- Installing: /usr/include/jasper/jas_debug.h
+-- Installing: /usr/include/jasper/jas_dll.h
+-- Installing: /usr/include/jasper/jas_fix.h
+-- Installing: /usr/include/jasper/jas_getopt.h
+-- Installing: /usr/include/jasper/jas_icc.h
+-- Installing: /usr/include/jasper/jas_image.h
+-- Installing: /usr/include/jasper/jas_init.h
+-- Installing: /usr/include/jasper/jas_log.h
+-- Installing: /usr/include/jasper/jas_malloc.h
+-- Installing: /usr/include/jasper/jas_math.h
+-- Installing: /usr/include/jasper/jasper.h
+-- Installing: /usr/include/jasper/jas_seq.h
+-- Installing: /usr/include/jasper/jas_stream.h
+-- Installing: /usr/include/jasper/jas_string.h
+-- Installing: /usr/include/jasper/jas_thread.h
+-- Installing: /usr/include/jasper/jas_tmr.h
+-- Installing: /usr/include/jasper/jas_tvp.h
+-- Installing: /usr/include/jasper/jas_types.h
+-- Installing: /usr/include/jasper/jas_version.h
+-- Installing: /usr/include/jasper/jas_export_cmake.h
+-- Installing: /usr/bin/jasper
+-- Set non-toolchain portion of runtime path of "/usr/bin/jasper" to ""
+-- Installing: /usr/bin/imginfo
+-- Set non-toolchain portion of runtime path of "/usr/bin/imginfo" to ""
+-- Installing: /usr/bin/imgcmp
+-- Set non-toolchain portion of runtime path of "/usr/bin/imgcmp" to ""
+-- Installing: /usr/bin/jiv
+-- Set non-toolchain portion of runtime path of "/usr/bin/jiv" to ""
+-- Installing: /usr/share/man/man1/jasper.1
+-- Installing: /usr/share/man/man1/imginfo.1
+-- Installing: /usr/share/man/man1/imgcmp.1
+-- Installing: /usr/share/man/man1/jiv.1
+-- Installing: /usr/lib/pkgconfig/jasper.pc
+-- Installing: /usr/share/doc/jasper/README.md
+jasper/
+jasper/usr/
+jasper/usr/include/
+jasper/usr/include/jasper/
+jasper/usr/include/jasper/jasper.h
+jasper/usr/include/jasper/jas_tmr.h
+jasper/usr/include/jasper/jas_cm.h
+jasper/usr/include/jasper/jas_seq.h
+jasper/usr/include/jasper/jas_dll.h
+jasper/usr/include/jasper/jas_debug.h
+jasper/usr/include/jasper/jas_types.h
+jasper/usr/include/jasper/jas_malloc.h
+jasper/usr/include/jasper/jas_fix.h
+jasper/usr/include/jasper/jas_stream.h
+jasper/usr/include/jasper/jas_thread.h
+jasper/usr/include/jasper/jas_tvp.h
+jasper/usr/include/jasper/jas_getopt.h
+jasper/usr/include/jasper/jas_compiler.h
+jasper/usr/include/jasper/jas_config.h
+jasper/usr/include/jasper/jas_math.h
+jasper/usr/include/jasper/jas_export_cmake.h
+jasper/usr/include/jasper/jas_version.h
+jasper/usr/include/jasper/jas_image.h
+jasper/usr/include/jasper/jas_icc.h
+jasper/usr/include/jasper/jas_init.h
+jasper/usr/include/jasper/jas_string.h
+jasper/usr/include/jasper/jas_log.h
+jasper/usr/share/
+jasper/usr/share/doc/
+jasper/usr/share/doc/jasper/
+jasper/usr/share/doc/jasper/README.md
+jasper/usr/share/man/
+jasper/usr/share/man/man1/
+jasper/usr/share/man/man1/jasper.1
+jasper/usr/share/man/man1/imgcmp.1
+jasper/usr/share/man/man1/jiv.1
+jasper/usr/share/man/man1/imginfo.1
+jasper/usr/bin/
+jasper/usr/bin/jasper
+jasper/usr/bin/imgcmp
+jasper/usr/bin/jiv
+jasper/usr/bin/imginfo
+jasper/usr/lib/
+jasper/usr/lib/libjasper.so.7.0.0
+jasper/usr/lib/libjasper.so
+jasper/usr/lib/pkgconfig/
+jasper/usr/lib/pkgconfig/jasper.pc
+jasper/usr/lib/libjasper.so.7
+jasper/version
+jasper/depends
+jasper/make-depends
