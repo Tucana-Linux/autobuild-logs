@@ -1,0 +1,527 @@
+--2026-03-15 08:09:28--  https://download.gnome.org/sources/libsoup/3.6/libsoup-3.6.6.tar.xz
+Resolving download.gnome.org (download.gnome.org)... 152.233.10.59, 79.127.206.235, 79.127.206.208, ...
+Connecting to download.gnome.org (download.gnome.org)|152.233.10.59|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1572004 (1.5M) [application/octet-stream]
+Saving to: ‘libsoup-3.6.6.tar.xz’
+
+     0K .......... .......... .......... .......... ..........  3% 3.64M 0s
+    50K .......... .......... .......... .......... ..........  6% 7.67M 0s
+   100K .......... .......... .......... .......... ..........  9% 12.3M 0s
+   150K .......... .......... .......... .......... .......... 13% 10.1M 0s
+   200K .......... .......... .......... .......... .......... 16% 7.16M 0s
+   250K .......... .......... .......... .......... .......... 19% 50.7M 0s
+   300K .......... .......... .......... .......... .......... 22% 16.9M 0s
+   350K .......... .......... .......... .......... .......... 26% 11.4M 0s
+   400K .......... .......... .......... .......... .......... 29% 13.2M 0s
+   450K .......... .......... .......... .......... .......... 32%  103M 0s
+   500K .......... .......... .......... .......... .......... 35% 13.6M 0s
+   550K .......... .......... .......... .......... .......... 39% 82.6M 0s
+   600K .......... .......... .......... .......... .......... 42% 14.7M 0s
+   650K .......... .......... .......... .......... .......... 45%  140M 0s
+   700K .......... .......... .......... .......... .......... 48% 85.3M 0s
+   750K .......... .......... .......... .......... .......... 52% 14.3M 0s
+   800K .......... .......... .......... .......... .......... 55% 91.8M 0s
+   850K .......... .......... .......... .......... .......... 58% 63.8M 0s
+   900K .......... .......... .......... .......... .......... 61% 22.0M 0s
+   950K .......... .......... .......... .......... .......... 65%  111M 0s
+  1000K .......... .......... .......... .......... .......... 68%  107M 0s
+  1050K .......... .......... .......... .......... .......... 71% 75.3M 0s
+  1100K .......... .......... .......... .......... .......... 74% 16.1M 0s
+  1150K .......... .......... .......... .......... .......... 78% 72.3M 0s
+  1200K .......... .......... .......... .......... .......... 81%  129M 0s
+  1250K .......... .......... .......... .......... .......... 84% 74.8M 0s
+  1300K .......... .......... .......... .......... .......... 87% 24.5M 0s
+  1350K .......... .......... .......... .......... .......... 91%  164M 0s
+  1400K .......... .......... .......... .......... .......... 94%  121M 0s
+  1450K .......... .......... .......... .......... .......... 97%  105M 0s
+  1500K .......... .......... .......... .....                100% 12.5M=0.08s
+
+2026-03-15 08:09:28 (19.9 MB/s) - ‘libsoup-3.6.6.tar.xz’ saved [1572004/1572004]
+
+libsoup-3.6.6/
+libsoup-3.6.6/.clang-format
+libsoup-3.6.6/.clang-tidy
+libsoup-3.6.6/.editorconfig
+libsoup-3.6.6/.gitignore
+libsoup-3.6.6/.gitlab-ci/
+libsoup-3.6.6/.gitlab-ci/Dockerfile
+libsoup-3.6.6/.gitlab-ci/README.md
+libsoup-3.6.6/.gitlab-ci/index.html
+libsoup-3.6.6/.gitlab-ci/lcovrc
+libsoup-3.6.6/.gitlab-ci/robots.txt
+libsoup-3.6.6/.gitlab-ci/run-docker.sh
+libsoup-3.6.6/.gitlab-ci.yml
+libsoup-3.6.6/AUTHORS
+libsoup-3.6.6/COPYING
+libsoup-3.6.6/ChangeLog.pre-git
+libsoup-3.6.6/Doxyfile
+libsoup-3.6.6/HACKING
+libsoup-3.6.6/NEWS
+libsoup-3.6.6/README
+libsoup-3.6.6/README.msvc
+libsoup-3.6.6/docs/
+libsoup-3.6.6/docs/reference/
+libsoup-3.6.6/docs/reference/build-howto.md
+libsoup-3.6.6/docs/reference/client-advanced.md
+libsoup-3.6.6/docs/reference/client-basic.md
+libsoup-3.6.6/docs/reference/client-thread-safety.md
+libsoup-3.6.6/docs/reference/client-tls.md
+libsoup-3.6.6/docs/reference/images/
+libsoup-3.6.6/docs/reference/images/favicon-16x16.png
+libsoup-3.6.6/docs/reference/images/favicon-180x180.png
+libsoup-3.6.6/docs/reference/images/favicon-192x192.png
+libsoup-3.6.6/docs/reference/images/favicon-32x32.png
+libsoup-3.6.6/docs/reference/images/favicon.ico
+libsoup-3.6.6/docs/reference/libsoup.toml.in
+libsoup-3.6.6/docs/reference/meson.build
+libsoup-3.6.6/docs/reference/migrating-from-libsoup-2.md
+libsoup-3.6.6/docs/reference/server-howto.md
+libsoup-3.6.6/docs/reference/urlmap.js
+libsoup-3.6.6/examples/
+libsoup-3.6.6/examples/get.c
+libsoup-3.6.6/examples/meson.build
+libsoup-3.6.6/examples/simple-httpd.c
+libsoup-3.6.6/examples/simple-proxy.c
+libsoup-3.6.6/examples/unix-socket-client.c
+libsoup-3.6.6/examples/unix-socket-server.c
+libsoup-3.6.6/fuzzing/
+libsoup-3.6.6/fuzzing/fuzz.h
+libsoup-3.6.6/fuzzing/fuzz_content_sniffer.c
+libsoup-3.6.6/fuzzing/fuzz_content_sniffer.dict
+libsoup-3.6.6/fuzzing/fuzz_cookie_parse.c
+libsoup-3.6.6/fuzzing/fuzz_cookie_parse.dict
+libsoup-3.6.6/fuzzing/fuzz_date_time.c
+libsoup-3.6.6/fuzzing/fuzz_decode_data_uri.c
+libsoup-3.6.6/fuzzing/fuzz_decode_data_uri.dict
+libsoup-3.6.6/fuzzing/fuzz_header_parsing.c
+libsoup-3.6.6/fuzzing/fuzz_header_parsing.dict
+libsoup-3.6.6/fuzzing/fuzz_headers_parse_request.c
+libsoup-3.6.6/fuzzing/fuzz_headers_parse_response.c
+libsoup-3.6.6/fuzzing/meson.build
+libsoup-3.6.6/get_apache_modules_dirs.py
+libsoup-3.6.6/libsoup/
+libsoup-3.6.6/libsoup/Soup-3.0-custom.vala
+libsoup-3.6.6/libsoup/Soup-3.0.metadata
+libsoup-3.6.6/libsoup/auth/
+libsoup-3.6.6/libsoup/auth/soup-auth-basic.c
+libsoup-3.6.6/libsoup/auth/soup-auth-basic.h
+libsoup-3.6.6/libsoup/auth/soup-auth-digest-private.h
+libsoup-3.6.6/libsoup/auth/soup-auth-digest.c
+libsoup-3.6.6/libsoup/auth/soup-auth-digest.h
+libsoup-3.6.6/libsoup/auth/soup-auth-manager.c
+libsoup-3.6.6/libsoup/auth/soup-auth-manager.h
+libsoup-3.6.6/libsoup/auth/soup-auth-negotiate.c
+libsoup-3.6.6/libsoup/auth/soup-auth-negotiate.h
+libsoup-3.6.6/libsoup/auth/soup-auth-ntlm.c
+libsoup-3.6.6/libsoup/auth/soup-auth-ntlm.h
+libsoup-3.6.6/libsoup/auth/soup-auth.c
+libsoup-3.6.6/libsoup/auth/soup-auth.h
+libsoup-3.6.6/libsoup/auth/soup-connection-auth.c
+libsoup-3.6.6/libsoup/auth/soup-connection-auth.h
+libsoup-3.6.6/libsoup/auth/soup-tls-interaction.c
+libsoup-3.6.6/libsoup/auth/soup-tls-interaction.h
+libsoup-3.6.6/libsoup/cache/
+libsoup-3.6.6/libsoup/cache/soup-cache-client-input-stream.c
+libsoup-3.6.6/libsoup/cache/soup-cache-client-input-stream.h
+libsoup-3.6.6/libsoup/cache/soup-cache-input-stream.c
+libsoup-3.6.6/libsoup/cache/soup-cache-input-stream.h
+libsoup-3.6.6/libsoup/cache/soup-cache-private.h
+libsoup-3.6.6/libsoup/cache/soup-cache.c
+libsoup-3.6.6/libsoup/cache/soup-cache.h
+libsoup-3.6.6/libsoup/content-decoder/
+libsoup-3.6.6/libsoup/content-decoder/soup-brotli-decompressor.c
+libsoup-3.6.6/libsoup/content-decoder/soup-brotli-decompressor.h
+libsoup-3.6.6/libsoup/content-decoder/soup-content-decoder.c
+libsoup-3.6.6/libsoup/content-decoder/soup-content-decoder.h
+libsoup-3.6.6/libsoup/content-decoder/soup-content-processor.c
+libsoup-3.6.6/libsoup/content-decoder/soup-content-processor.h
+libsoup-3.6.6/libsoup/content-decoder/soup-converter-wrapper.c
+libsoup-3.6.6/libsoup/content-decoder/soup-converter-wrapper.h
+libsoup-3.6.6/libsoup/content-sniffer/
+libsoup-3.6.6/libsoup/content-sniffer/soup-content-sniffer-stream.c
+libsoup-3.6.6/libsoup/content-sniffer/soup-content-sniffer-stream.h
+libsoup-3.6.6/libsoup/content-sniffer/soup-content-sniffer.c
+libsoup-3.6.6/libsoup/content-sniffer/soup-content-sniffer.h
+libsoup-3.6.6/libsoup/cookies/
+libsoup-3.6.6/libsoup/cookies/soup-cookie-jar-db.c
+libsoup-3.6.6/libsoup/cookies/soup-cookie-jar-db.h
+libsoup-3.6.6/libsoup/cookies/soup-cookie-jar-text.c
+libsoup-3.6.6/libsoup/cookies/soup-cookie-jar-text.h
+libsoup-3.6.6/libsoup/cookies/soup-cookie-jar.c
+libsoup-3.6.6/libsoup/cookies/soup-cookie-jar.h
+libsoup-3.6.6/libsoup/cookies/soup-cookie.c
+libsoup-3.6.6/libsoup/cookies/soup-cookie.h
+libsoup-3.6.6/libsoup/gconstructor.h
+libsoup-3.6.6/libsoup/generate-header-names.py
+libsoup-3.6.6/libsoup/generate-version-header.py
+libsoup-3.6.6/libsoup/hsts/
+libsoup-3.6.6/libsoup/hsts/soup-hsts-enforcer-db.c
+libsoup-3.6.6/libsoup/hsts/soup-hsts-enforcer-db.h
+libsoup-3.6.6/libsoup/hsts/soup-hsts-enforcer.c
+libsoup-3.6.6/libsoup/hsts/soup-hsts-enforcer.h
+libsoup-3.6.6/libsoup/hsts/soup-hsts-policy.c
+libsoup-3.6.6/libsoup/hsts/soup-hsts-policy.h
+libsoup-3.6.6/libsoup/http1/
+libsoup-3.6.6/libsoup/http1/soup-body-input-stream.c
+libsoup-3.6.6/libsoup/http1/soup-body-input-stream.h
+libsoup-3.6.6/libsoup/http1/soup-body-output-stream.c
+libsoup-3.6.6/libsoup/http1/soup-body-output-stream.h
+libsoup-3.6.6/libsoup/http1/soup-client-message-io-http1.c
+libsoup-3.6.6/libsoup/http1/soup-client-message-io-http1.h
+libsoup-3.6.6/libsoup/http1/soup-message-io-data.c
+libsoup-3.6.6/libsoup/http1/soup-message-io-data.h
+libsoup-3.6.6/libsoup/http1/soup-message-io-source.c
+libsoup-3.6.6/libsoup/http1/soup-message-io-source.h
+libsoup-3.6.6/libsoup/http2/
+libsoup-3.6.6/libsoup/http2/soup-body-input-stream-http2.c
+libsoup-3.6.6/libsoup/http2/soup-body-input-stream-http2.h
+libsoup-3.6.6/libsoup/http2/soup-client-message-io-http2.c
+libsoup-3.6.6/libsoup/http2/soup-client-message-io-http2.h
+libsoup-3.6.6/libsoup/include/
+libsoup-3.6.6/libsoup/include/meson.build
+libsoup-3.6.6/libsoup/include/soup-installed.h
+libsoup-3.6.6/libsoup/meson.build
+libsoup-3.6.6/libsoup/server/
+libsoup-3.6.6/libsoup/server/http1/
+libsoup-3.6.6/libsoup/server/http1/soup-server-message-io-http1.c
+libsoup-3.6.6/libsoup/server/http1/soup-server-message-io-http1.h
+libsoup-3.6.6/libsoup/server/http2/
+libsoup-3.6.6/libsoup/server/http2/soup-server-message-io-http2.c
+libsoup-3.6.6/libsoup/server/http2/soup-server-message-io-http2.h
+libsoup-3.6.6/libsoup/server/soup-auth-domain-basic.c
+libsoup-3.6.6/libsoup/server/soup-auth-domain-basic.h
+libsoup-3.6.6/libsoup/server/soup-auth-domain-digest.c
+libsoup-3.6.6/libsoup/server/soup-auth-domain-digest.h
+libsoup-3.6.6/libsoup/server/soup-auth-domain-private.h
+libsoup-3.6.6/libsoup/server/soup-auth-domain.c
+libsoup-3.6.6/libsoup/server/soup-auth-domain.h
+libsoup-3.6.6/libsoup/server/soup-listener.c
+libsoup-3.6.6/libsoup/server/soup-listener.h
+libsoup-3.6.6/libsoup/server/soup-message-body.c
+libsoup-3.6.6/libsoup/server/soup-message-body.h
+libsoup-3.6.6/libsoup/server/soup-path-map.c
+libsoup-3.6.6/libsoup/server/soup-path-map.h
+libsoup-3.6.6/libsoup/server/soup-server-connection.c
+libsoup-3.6.6/libsoup/server/soup-server-connection.h
+libsoup-3.6.6/libsoup/server/soup-server-message-io.c
+libsoup-3.6.6/libsoup/server/soup-server-message-io.h
+libsoup-3.6.6/libsoup/server/soup-server-message-private.h
+libsoup-3.6.6/libsoup/server/soup-server-message.c
+libsoup-3.6.6/libsoup/server/soup-server-message.h
+libsoup-3.6.6/libsoup/server/soup-server-private.h
+libsoup-3.6.6/libsoup/server/soup-server.c
+libsoup-3.6.6/libsoup/server/soup-server.h
+libsoup-3.6.6/libsoup/soup-client-input-stream.c
+libsoup-3.6.6/libsoup/soup-client-input-stream.h
+libsoup-3.6.6/libsoup/soup-client-message-io.c
+libsoup-3.6.6/libsoup/soup-client-message-io.h
+libsoup-3.6.6/libsoup/soup-connection-manager.c
+libsoup-3.6.6/libsoup/soup-connection-manager.h
+libsoup-3.6.6/libsoup/soup-connection.c
+libsoup-3.6.6/libsoup/soup-connection.h
+libsoup-3.6.6/libsoup/soup-date-utils-private.h
+libsoup-3.6.6/libsoup/soup-date-utils.c
+libsoup-3.6.6/libsoup/soup-date-utils.h
+libsoup-3.6.6/libsoup/soup-enum-types.c.template
+libsoup-3.6.6/libsoup/soup-enum-types.h.template
+libsoup-3.6.6/libsoup/soup-filter-input-stream.c
+libsoup-3.6.6/libsoup/soup-filter-input-stream.h
+libsoup-3.6.6/libsoup/soup-form.c
+libsoup-3.6.6/libsoup/soup-form.h
+libsoup-3.6.6/libsoup/soup-header-names.c
+libsoup-3.6.6/libsoup/soup-header-names.h
+libsoup-3.6.6/libsoup/soup-header-names.in
+libsoup-3.6.6/libsoup/soup-headers.c
+libsoup-3.6.6/libsoup/soup-headers.h
+libsoup-3.6.6/libsoup/soup-http2-utils.c
+libsoup-3.6.6/libsoup/soup-http2-utils.h
+libsoup-3.6.6/libsoup/soup-init.c
+libsoup-3.6.6/libsoup/soup-io-stream.c
+libsoup-3.6.6/libsoup/soup-io-stream.h
+libsoup-3.6.6/libsoup/soup-logger-input-stream.c
+libsoup-3.6.6/libsoup/soup-logger-input-stream.h
+libsoup-3.6.6/libsoup/soup-logger-private.h
+libsoup-3.6.6/libsoup/soup-logger.c
+libsoup-3.6.6/libsoup/soup-logger.h
+libsoup-3.6.6/libsoup/soup-message-headers-private.h
+libsoup-3.6.6/libsoup/soup-message-headers.c
+libsoup-3.6.6/libsoup/soup-message-headers.h
+libsoup-3.6.6/libsoup/soup-message-io-completion.h
+libsoup-3.6.6/libsoup/soup-message-metrics-private.h
+libsoup-3.6.6/libsoup/soup-message-metrics.c
+libsoup-3.6.6/libsoup/soup-message-metrics.h
+libsoup-3.6.6/libsoup/soup-message-private.h
+libsoup-3.6.6/libsoup/soup-message-queue-item.c
+libsoup-3.6.6/libsoup/soup-message-queue-item.h
+libsoup-3.6.6/libsoup/soup-message.c
+libsoup-3.6.6/libsoup/soup-message.h
+libsoup-3.6.6/libsoup/soup-method.c
+libsoup-3.6.6/libsoup/soup-method.h
+libsoup-3.6.6/libsoup/soup-misc.c
+libsoup-3.6.6/libsoup/soup-misc.h
+libsoup-3.6.6/libsoup/soup-multipart-input-stream.c
+libsoup-3.6.6/libsoup/soup-multipart-input-stream.h
+libsoup-3.6.6/libsoup/soup-multipart.c
+libsoup-3.6.6/libsoup/soup-multipart.h
+libsoup-3.6.6/libsoup/soup-session-feature-private.h
+libsoup-3.6.6/libsoup/soup-session-feature.c
+libsoup-3.6.6/libsoup/soup-session-feature.h
+libsoup-3.6.6/libsoup/soup-session-private.h
+libsoup-3.6.6/libsoup/soup-session.c
+libsoup-3.6.6/libsoup/soup-session.h
+libsoup-3.6.6/libsoup/soup-socket-properties.c
+libsoup-3.6.6/libsoup/soup-socket-properties.h
+libsoup-3.6.6/libsoup/soup-status.c
+libsoup-3.6.6/libsoup/soup-status.h
+libsoup-3.6.6/libsoup/soup-tld.c
+libsoup-3.6.6/libsoup/soup-tld.h
+libsoup-3.6.6/libsoup/soup-types-private.h
+libsoup-3.6.6/libsoup/soup-types.h
+libsoup-3.6.6/libsoup/soup-uri-utils-private.h
+libsoup-3.6.6/libsoup/soup-uri-utils.c
+libsoup-3.6.6/libsoup/soup-uri-utils.h
+libsoup-3.6.6/libsoup/soup-version.c
+libsoup-3.6.6/libsoup/soup-version.h.in
+libsoup-3.6.6/libsoup/soup.h
+libsoup-3.6.6/libsoup/websocket/
+libsoup-3.6.6/libsoup/websocket/soup-websocket-connection-private.h
+libsoup-3.6.6/libsoup/websocket/soup-websocket-connection.c
+libsoup-3.6.6/libsoup/websocket/soup-websocket-connection.h
+libsoup-3.6.6/libsoup/websocket/soup-websocket-extension-deflate.c
+libsoup-3.6.6/libsoup/websocket/soup-websocket-extension-deflate.h
+libsoup-3.6.6/libsoup/websocket/soup-websocket-extension-manager-private.h
+libsoup-3.6.6/libsoup/websocket/soup-websocket-extension-manager.c
+libsoup-3.6.6/libsoup/websocket/soup-websocket-extension-manager.h
+libsoup-3.6.6/libsoup/websocket/soup-websocket-extension.c
+libsoup-3.6.6/libsoup/websocket/soup-websocket-extension.h
+libsoup-3.6.6/libsoup/websocket/soup-websocket.c
+libsoup-3.6.6/libsoup/websocket/soup-websocket.h
+libsoup-3.6.6/libsoup.doap
+libsoup-3.6.6/meson.build
+libsoup-3.6.6/meson_options.txt
+libsoup-3.6.6/po/
+libsoup-3.6.6/po/LINGUAS
+libsoup-3.6.6/po/POTFILES.in
+libsoup-3.6.6/po/ab.po
+libsoup-3.6.6/po/an.po
+libsoup-3.6.6/po/as.po
+libsoup-3.6.6/po/be.po
+libsoup-3.6.6/po/bg.po
+libsoup-3.6.6/po/bn_IN.po
+libsoup-3.6.6/po/bs.po
+libsoup-3.6.6/po/ca.po
+libsoup-3.6.6/po/ca@valencia.po
+libsoup-3.6.6/po/cs.po
+libsoup-3.6.6/po/da.po
+libsoup-3.6.6/po/de.po
+libsoup-3.6.6/po/el.po
+libsoup-3.6.6/po/en_GB.po
+libsoup-3.6.6/po/eo.po
+libsoup-3.6.6/po/es.po
+libsoup-3.6.6/po/et.po
+libsoup-3.6.6/po/eu.po
+libsoup-3.6.6/po/fa.po
+libsoup-3.6.6/po/fi.po
+libsoup-3.6.6/po/fr.po
+libsoup-3.6.6/po/fur.po
+libsoup-3.6.6/po/gd.po
+libsoup-3.6.6/po/gl.po
+libsoup-3.6.6/po/gu.po
+libsoup-3.6.6/po/he.po
+libsoup-3.6.6/po/hi.po
+libsoup-3.6.6/po/hr.po
+libsoup-3.6.6/po/hu.po
+libsoup-3.6.6/po/id.po
+libsoup-3.6.6/po/it.po
+libsoup-3.6.6/po/ja.po
+libsoup-3.6.6/po/ka.po
+libsoup-3.6.6/po/kab.po
+libsoup-3.6.6/po/kk.po
+libsoup-3.6.6/po/kn.po
+libsoup-3.6.6/po/ko.po
+libsoup-3.6.6/po/kw.po
+libsoup-3.6.6/po/lt.po
+libsoup-3.6.6/po/lv.po
+libsoup-3.6.6/po/meson.build
+libsoup-3.6.6/po/ml.po
+libsoup-3.6.6/po/mr.po
+libsoup-3.6.6/po/ms.po
+libsoup-3.6.6/po/nb.po
+libsoup-3.6.6/po/ne.po
+libsoup-3.6.6/po/nl.po
+libsoup-3.6.6/po/oc.po
+libsoup-3.6.6/po/or.po
+libsoup-3.6.6/po/pa.po
+libsoup-3.6.6/po/pl.po
+libsoup-3.6.6/po/pt.po
+libsoup-3.6.6/po/pt_BR.po
+libsoup-3.6.6/po/ro.po
+libsoup-3.6.6/po/ru.po
+libsoup-3.6.6/po/sk.po
+libsoup-3.6.6/po/sl.po
+libsoup-3.6.6/po/sr.po
+libsoup-3.6.6/po/sr@latin.po
+libsoup-3.6.6/po/sv.po
+libsoup-3.6.6/po/ta.po
+libsoup-3.6.6/po/te.po
+libsoup-3.6.6/po/tg.po
+libsoup-3.6.6/po/th.po
+libsoup-3.6.6/po/tr.po
+libsoup-3.6.6/po/ug.po
+libsoup-3.6.6/po/uk.po
+libsoup-3.6.6/po/uz.po
+libsoup-3.6.6/po/uz@cyrillic.po
+libsoup-3.6.6/po/vi.po
+libsoup-3.6.6/po/zh_CN.po
+libsoup-3.6.6/po/zh_HK.po
+libsoup-3.6.6/po/zh_TW.po
+libsoup-3.6.6/subprojects/
+libsoup-3.6.6/subprojects/gi-docgen.wrap
+libsoup-3.6.6/subprojects/sysprof.wrap
+libsoup-3.6.6/subprojects/zlib.wrap
+libsoup-3.6.6/tests/
+libsoup-3.6.6/tests/auth-test.c
+libsoup-3.6.6/tests/autobahn/
+libsoup-3.6.6/tests/autobahn/autobahn-server.json.in
+libsoup-3.6.6/tests/autobahn/autobahn-server.sh
+libsoup-3.6.6/tests/autobahn/autobahn-test.c
+libsoup-3.6.6/tests/autobahn/meson.build
+libsoup-3.6.6/tests/brotli-data/
+libsoup-3.6.6/tests/brotli-data/compressed.br
+libsoup-3.6.6/tests/brotli-data/corrupt.br
+libsoup-3.6.6/tests/brotli-data/uncompressed.txt
+libsoup-3.6.6/tests/brotli-decompressor-test.c
+libsoup-3.6.6/tests/cache-test.c
+libsoup-3.6.6/tests/chunk-io-test.c
+libsoup-3.6.6/tests/coding-test.c
+libsoup-3.6.6/tests/connection-test.c
+libsoup-3.6.6/tests/context-test.c
+libsoup-3.6.6/tests/continue-test.c
+libsoup-3.6.6/tests/cookies-test.c
+libsoup-3.6.6/tests/date-test.c
+libsoup-3.6.6/tests/forms-test.c
+libsoup-3.6.6/tests/header-parsing-test.c
+libsoup-3.6.6/tests/hsts-db-test.c
+libsoup-3.6.6/tests/hsts-test.c
+libsoup-3.6.6/tests/htdigest
+libsoup-3.6.6/tests/htpasswd
+libsoup-3.6.6/tests/http2-body-stream-test.c
+libsoup-3.6.6/tests/http2-test.c
+libsoup-3.6.6/tests/httpd.conf.in
+libsoup-3.6.6/tests/index.txt
+libsoup-3.6.6/tests/libsoup.supp
+libsoup-3.6.6/tests/logger-test.c
+libsoup-3.6.6/tests/meson.build
+libsoup-3.6.6/tests/misc-test.c
+libsoup-3.6.6/tests/mock-pkcs11.c
+libsoup-3.6.6/tests/multipart-test.c
+libsoup-3.6.6/tests/multithread-test.c
+libsoup-3.6.6/tests/no-ssl-test.c
+libsoup-3.6.6/tests/ntlm-test-helper.c
+libsoup-3.6.6/tests/ntlm-test.c
+libsoup-3.6.6/tests/pkcs11/
+libsoup-3.6.6/tests/pkcs11/pkcs11.h
+libsoup-3.6.6/tests/pkcs11/pkcs11f.h
+libsoup-3.6.6/tests/pkcs11/pkcs11p.h
+libsoup-3.6.6/tests/pkcs11/pkcs11t.h
+libsoup-3.6.6/tests/pkcs11/pkcs11u.h
+libsoup-3.6.6/tests/proxy-test.c
+libsoup-3.6.6/tests/range-test.c
+libsoup-3.6.6/tests/redirect-test.c
+libsoup-3.6.6/tests/request-body-test.c
+libsoup-3.6.6/tests/resources/
+libsoup-3.6.6/tests/resources/atom.xml
+libsoup-3.6.6/tests/resources/feed.rdf
+libsoup-3.6.6/tests/resources/home.gif
+libsoup-3.6.6/tests/resources/home.jpg
+libsoup-3.6.6/tests/resources/home.png
+libsoup-3.6.6/tests/resources/html_binary.html
+libsoup-3.6.6/tests/resources/leading_space.html
+libsoup-3.6.6/tests/resources/mbox
+libsoup-3.6.6/tests/resources/mbox.gz
+libsoup-3.6.6/tests/resources/mbox.raw
+libsoup-3.6.6/tests/resources/mbox.zlib
+libsoup-3.6.6/tests/resources/misc.xml
+libsoup-3.6.6/tests/resources/ps_binary.ps
+libsoup-3.6.6/tests/resources/rss20.xml
+libsoup-3.6.6/tests/resources/test.aiff
+libsoup-3.6.6/tests/resources/test.html
+libsoup-3.6.6/tests/resources/test.mp4
+libsoup-3.6.6/tests/resources/test.ogg
+libsoup-3.6.6/tests/resources/test.wav
+libsoup-3.6.6/tests/resources/test.webm
+libsoup-3.6.6/tests/resources/text.txt
+libsoup-3.6.6/tests/resources/text_binary.txt
+libsoup-3.6.6/tests/resources/tux.webp
+libsoup-3.6.6/tests/samesite-test.c
+libsoup-3.6.6/tests/server-auth-test.c
+libsoup-3.6.6/tests/server-mem-limit-test.c
+libsoup-3.6.6/tests/server-test.c
+libsoup-3.6.6/tests/session-test.c
+libsoup-3.6.6/tests/sniffing-test.c
+libsoup-3.6.6/tests/soup-tests.gresource.xml
+libsoup-3.6.6/tests/ssl-test.c
+libsoup-3.6.6/tests/streaming-test.c
+libsoup-3.6.6/tests/template-tap.test.in
+libsoup-3.6.6/tests/test-cert-2.pem
+libsoup-3.6.6/tests/test-cert.pem
+libsoup-3.6.6/tests/test-key-2.pem
+libsoup-3.6.6/tests/test-key.pem
+libsoup-3.6.6/tests/test-utils.c
+libsoup-3.6.6/tests/test-utils.h
+libsoup-3.6.6/tests/timeout-test.c
+libsoup-3.6.6/tests/tld-test.c
+libsoup-3.6.6/tests/unix-socket-test.c
+libsoup-3.6.6/tests/uri-parsing-test.c
+libsoup-3.6.6/tests/websocket-test.c
+libsoup-3.6.6/tests/ws-test-helper.c
+The Meson build system
+Version: 1.10.1
+Source dir: /blfs/builds/libsoup-3.6.6
+Build dir: /blfs/builds/libsoup-3.6.6/build
+Build type: native build
+DEPRECATION: WrapDB v1 is deprecated, updated using `meson wrap update zlib`
+Project name: libsoup
+Project version: 3.6.6
+C compiler for the host machine: cc (gcc 15.2.0 "cc (GCC) 15.2.0")
+C linker for the host machine: cc ld.bfd 2.45
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Compiler for C supports arguments -Wmissing-include-dirs: YES 
+Compiler for C supports arguments -Wpointer-arith: YES 
+Compiler for C supports arguments -Winit-self: YES 
+Compiler for C supports arguments -Werror=missing-prototypes: YES 
+Compiler for C supports arguments -Werror=implicit-function-declaration: YES 
+Compiler for C supports arguments -Werror=aggregate-return: YES 
+Compiler for C supports arguments -Werror=format=2: YES 
+Compiler for C supports arguments -Werror=return-type: YES 
+Compiler for C supports arguments -Wincompatible-pointer-types: YES 
+Compiler for C supports arguments -Wstrict-prototypes: YES 
+Compiler for C supports arguments -Wno-format-zero-length: YES 
+Compiler for C supports arguments -Wno-missing-include-dirs: YES 
+Compiler for C supports arguments -Wno-typedef-redefinition: NO 
+Compiler for C supports arguments -Wno-unused-parameter: YES 
+Compiler for C supports arguments -Wno-sign-compare: YES 
+Compiler for C supports arguments -Wno-cast-function-type: YES 
+Compiler for C supports arguments -Wno-missing-field-initializers: YES 
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Run-time dependency glib-2.0 found: YES 2.86.4
+Run-time dependency gmodule-no-export-2.0 found: YES 2.86.4
+Run-time dependency gobject-2.0 found: YES 2.86.4
+Run-time dependency gio-2.0 found: YES 2.86.4
+Run-time dependency libnghttp2 found: YES 1.68.0
+Run-time dependency sqlite3 found: YES 3.52.0
+Run-time dependency libbrotlidec found: YES 1.2.0
+Run-time dependency gio-unix-2.0 found: YES 2.86.4
+Library dl found: YES
+Run-time dependency libpsl found: YES 0.21.5
+Checking for function "gmtime_r" : YES 
+Run-time dependency sysprof-capture-4 found: YES 49.0
+Checking if "GIO has real TLS support" with dependencies glib-2.0, gmodule-no-export-2.0, gobject-2.0, gio-2.0 runs: NO (1)
+
+../meson.build:201:4: ERROR: Assert failed: libsoup requires glib-networking for TLS support
+
+A full log can be found at /blfs/builds/libsoup-3.6.6/build/meson-logs/meson-log.txt
+WARNING: Running the setup command as `meson [options]` instead of `meson setup [options]` is ambiguous and deprecated.
+ninja: error: loading 'build.ninja': No such file or directory

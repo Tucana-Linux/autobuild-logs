@@ -1,0 +1,161 @@
+--2026-03-15 07:13:36--  https://www.x.org/pub/individual/lib/libpciaccess-0.19.tar.xz
+Resolving www.x.org (www.x.org)... 131.252.210.176
+Connecting to www.x.org (www.x.org)|131.252.210.176|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://www.x.org/archive//individual/lib/libpciaccess-0.19.tar.xz [following]
+--2026-03-15 07:13:36--  https://www.x.org/archive//individual/lib/libpciaccess-0.19.tar.xz
+Reusing existing connection to www.x.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 64732 (63K) [application/x-xz]
+Saving to: ‘libpciaccess-0.19.tar.xz’
+
+     0K .......... .......... .......... .......... .......... 79%  369K 0s
+    50K .......... ...                                        100%  122M=0.1s
+
+2026-03-15 07:13:36 (467 KB/s) - ‘libpciaccess-0.19.tar.xz’ saved [64732/64732]
+
+libpciaccess-0.19/
+libpciaccess-0.19/.gitignore
+libpciaccess-0.19/.gitlab-ci.yml
+libpciaccess-0.19/AUTHORS
+libpciaccess-0.19/COPYING
+libpciaccess-0.19/README.cygwin
+libpciaccess-0.19/README.md
+libpciaccess-0.19/include/
+libpciaccess-0.19/include/pciaccess.h
+libpciaccess-0.19/man/
+libpciaccess-0.19/man/meson.build
+libpciaccess-0.19/man/scanpci.man
+libpciaccess-0.19/meson.build
+libpciaccess-0.19/meson_options.txt
+libpciaccess-0.19/pciaccess.pc.in
+libpciaccess-0.19/scanpci/
+libpciaccess-0.19/scanpci/.gitignore
+libpciaccess-0.19/scanpci/meson.build
+libpciaccess-0.19/scanpci/scanpci.c
+libpciaccess-0.19/src/
+libpciaccess-0.19/src/Doxyfile
+libpciaccess-0.19/src/common_bridge.c
+libpciaccess-0.19/src/common_capability.c
+libpciaccess-0.19/src/common_device_name.c
+libpciaccess-0.19/src/common_init.c
+libpciaccess-0.19/src/common_interface.c
+libpciaccess-0.19/src/common_io.c
+libpciaccess-0.19/src/common_iterator.c
+libpciaccess-0.19/src/common_map.c
+libpciaccess-0.19/src/common_vgaarb.c
+libpciaccess-0.19/src/common_vgaarb_stub.c
+libpciaccess-0.19/src/freebsd_pci.c
+libpciaccess-0.19/src/hurd_pci.c
+libpciaccess-0.19/src/linux_devmem.c
+libpciaccess-0.19/src/linux_devmem.h
+libpciaccess-0.19/src/linux_sysfs.c
+libpciaccess-0.19/src/meson.build
+libpciaccess-0.19/src/netbsd_pci.c
+libpciaccess-0.19/src/openbsd_pci.c
+libpciaccess-0.19/src/pci_tools.h
+libpciaccess-0.19/src/pciaccess_private.h
+libpciaccess-0.19/src/solx_devfs.c
+libpciaccess-0.19/src/x86_pci.c
+libpciaccess-0.19/src/x86_pci.h
+The Meson build system
+Version: 1.10.1
+Source dir: /blfs/builds/libpciaccess-0.19
+Build dir: /blfs/builds/libpciaccess-0.19/build
+Build type: native build
+Project name: libpciaccess
+Project version: 0.19
+C compiler for the host machine: cc (gcc 15.2.0 "cc (GCC) 15.2.0")
+C linker for the host machine: cc ld.bfd 2.45
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Compiler for C supports arguments -Wpointer-arith: YES 
+Compiler for C supports arguments -Wmissing-declarations: YES 
+Compiler for C supports arguments -Wformat=2: YES 
+Compiler for C supports arguments -Wstrict-prototypes: YES 
+Compiler for C supports arguments -Wmissing-prototypes: YES 
+Compiler for C supports arguments -Wnested-externs: YES 
+Compiler for C supports arguments -Wbad-function-cast: YES 
+Compiler for C supports arguments -Wold-style-definition: YES 
+Compiler for C supports arguments -Wdeclaration-after-statement: YES 
+Compiler for C supports arguments -Wunused: YES 
+Compiler for C supports arguments -Wuninitialized: YES 
+Compiler for C supports arguments -Wshadow: YES 
+Compiler for C supports arguments -Wmissing-noreturn: YES 
+Compiler for C supports arguments -Wmissing-format-attribute: YES 
+Compiler for C supports arguments -Wredundant-decls: YES 
+Compiler for C supports arguments -Wlogical-op: YES 
+Compiler for C supports arguments -Werror=implicit: YES 
+Compiler for C supports arguments -Werror=nonnull: YES 
+Compiler for C supports arguments -Werror=init-self: YES 
+Compiler for C supports arguments -Werror=main: YES 
+Compiler for C supports arguments -Werror=missing-braces: YES 
+Compiler for C supports arguments -Werror=sequence-point: YES 
+Compiler for C supports arguments -Werror=return-type: YES 
+Compiler for C supports arguments -Werror=trigraphs: YES 
+Compiler for C supports arguments -Werror=array-bounds: YES 
+Compiler for C supports arguments -Werror=write-strings: YES 
+Compiler for C supports arguments -Werror=address: YES 
+Compiler for C supports arguments -Werror=int-to-pointer-cast: YES 
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Run-time dependency zlib found: YES 1.3.2
+Check usable header "asm/mtrr.h" : YES 
+Check usable header "err.h" : YES 
+Check usable header "stdint.h" : YES 
+Check usable header "string.h" : YES 
+Check usable header "strings.h" : YES 
+Check usable header "inttypes.h" : YES 
+Configuring config.h using configuration
+Program sed found: YES (/usr/bin/sed)
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Build targets in project: 3
+
+libpciaccess 0.19
+
+  User defined options
+    buildtype: release
+    prefix   : /usr
+
+Found ninja-1.13.2 at /usr/bin/ninja
+[1/15] Compiling C object src/libpciaccess.so.0.11.1.p/common_map.c.o
+[2/15] Compiling C object src/libpciaccess.so.0.11.1.p/linux_devmem.c.o
+[3/15] Compiling C object src/libpciaccess.so.0.11.1.p/common_iterator.c.o
+[4/15] Compiling C object src/libpciaccess.so.0.11.1.p/common_capability.c.o
+[5/15] Compiling C object src/libpciaccess.so.0.11.1.p/common_init.c.o
+../src/common_init.c: In function ‘pci_system_cleanup’:
+../src/common_init.c:123:17: warning: ‘pci_device_unmap_region’ is deprecated [-Wdeprecated-declarations]
+  123 |                 (void) pci_device_unmap_region( & pci_sys->devices[i].base, j );
+      |                 ^
+In file included from ../src/common_init.c:38:
+../include/pciaccess.h:90:26: note: declared here
+   90 | int PCIACCESS_DEPRECATED pci_device_unmap_region(struct pci_device *dev,
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~
+[6/15] Compiling C object src/libpciaccess.so.0.11.1.p/common_io.c.o
+[7/15] Compiling C object src/libpciaccess.so.0.11.1.p/common_bridge.c.o
+[8/15] Compiling C object scanpci/scanpci.p/scanpci.c.o
+[9/15] Compiling C object src/libpciaccess.so.0.11.1.p/common_vgaarb.c.o
+[10/15] Compiling C object src/libpciaccess.so.0.11.1.p/common_device_name.c.o
+[11/15] Compiling C object src/libpciaccess.so.0.11.1.p/common_interface.c.o
+[12/15] Compiling C object src/libpciaccess.so.0.11.1.p/linux_sysfs.c.o
+[13/15] Linking target src/libpciaccess.so.0.11.1
+[14/15] Generating symbol file src/libpciaccess.so.0.11.1.p/libpciaccess.so.0.11.1.symbols
+[15/15] Linking target scanpci/scanpci
+[0/1] Installing files
+Installing src/libpciaccess.so.0.11.1 to /pkgs/libpciaccess/usr/lib
+Installing /blfs/builds/libpciaccess-0.19/include/pciaccess.h to /pkgs/libpciaccess/usr/include
+Installing /blfs/builds/libpciaccess-0.19/build/meson-private/pciaccess.pc to /pkgs/libpciaccess/usr/lib/pkgconfig
+Installing symlink pointing to libpciaccess.so.0.11.1 to /pkgs/libpciaccess/usr/lib/libpciaccess.so.0
+Installing symlink pointing to libpciaccess.so.0 to /pkgs/libpciaccess/usr/lib/libpciaccess.so
+libpciaccess/
+libpciaccess/usr/
+libpciaccess/usr/include/
+libpciaccess/usr/include/pciaccess.h
+libpciaccess/usr/lib/
+libpciaccess/usr/lib/libpciaccess.so.0
+libpciaccess/usr/lib/libpciaccess.so.0.11.1
+libpciaccess/usr/lib/pkgconfig/
+libpciaccess/usr/lib/pkgconfig/pciaccess.pc
+libpciaccess/usr/lib/libpciaccess.so
+libpciaccess/version
+libpciaccess/depends
+libpciaccess/make-depends

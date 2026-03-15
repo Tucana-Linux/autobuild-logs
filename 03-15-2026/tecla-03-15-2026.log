@@ -1,0 +1,507 @@
+--2026-03-15 08:59:10--  https://download.gnome.org/sources/tecla/50/tecla-50.0.tar.xz
+Resolving download.gnome.org (download.gnome.org)... 79.127.206.207, 152.233.10.59, 79.127.206.235, ...
+Connecting to download.gnome.org (download.gnome.org)|79.127.206.207|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 84832 (83K) [application/octet-stream]
+Saving to: ‘tecla-50.0.tar.xz’
+
+     0K .......... .......... .......... .......... .......... 60% 4.43M 0s
+    50K .......... .......... .......... ..                   100% 14.3M=0.01s
+
+2026-03-15 08:59:11 (6.10 MB/s) - ‘tecla-50.0.tar.xz’ saved [84832/84832]
+
+tecla-50.0/
+tecla-50.0/.gitignore
+tecla-50.0/.gitlab-ci.yml
+tecla-50.0/LICENSE
+tecla-50.0/NEWS
+tecla-50.0/README.md
+tecla-50.0/data/
+tecla-50.0/data/icons/
+tecla-50.0/data/icons/hicolor/
+tecla-50.0/data/icons/hicolor/scalable/
+tecla-50.0/data/icons/hicolor/scalable/apps/
+tecla-50.0/data/icons/hicolor/scalable/apps/org.gnome.Tecla.Devel.svg
+tecla-50.0/data/icons/hicolor/scalable/apps/org.gnome.Tecla.svg
+tecla-50.0/data/icons/hicolor/symbolic/
+tecla-50.0/data/icons/hicolor/symbolic/apps/
+tecla-50.0/data/icons/hicolor/symbolic/apps/org.gnome.Tecla-symbolic.svg
+tecla-50.0/data/icons/meson.build
+tecla-50.0/data/icons/org.gnome.Tecla.svg
+tecla-50.0/data/meson.build
+tecla-50.0/data/org.gnome.Tecla.desktop.in
+tecla-50.0/meson.build
+tecla-50.0/po/
+tecla-50.0/po/LINGUAS
+tecla-50.0/po/POTFILES.in
+tecla-50.0/po/POTFILES.skip
+tecla-50.0/po/ar.po
+tecla-50.0/po/be.po
+tecla-50.0/po/bg.po
+tecla-50.0/po/ca.po
+tecla-50.0/po/cs.po
+tecla-50.0/po/da.po
+tecla-50.0/po/de.po
+tecla-50.0/po/el.po
+tecla-50.0/po/en_GB.po
+tecla-50.0/po/eo.po
+tecla-50.0/po/es.po
+tecla-50.0/po/eu.po
+tecla-50.0/po/fa.po
+tecla-50.0/po/fi.po
+tecla-50.0/po/fr.po
+tecla-50.0/po/fur.po
+tecla-50.0/po/gl.po
+tecla-50.0/po/he.po
+tecla-50.0/po/hi.po
+tecla-50.0/po/hu.po
+tecla-50.0/po/ia.po
+tecla-50.0/po/id.po
+tecla-50.0/po/ie.po
+tecla-50.0/po/it.po
+tecla-50.0/po/ka.po
+tecla-50.0/po/kab.po
+tecla-50.0/po/kk.po
+tecla-50.0/po/ko.po
+tecla-50.0/po/kw.po
+tecla-50.0/po/lt.po
+tecla-50.0/po/lv.po
+tecla-50.0/po/meson.build
+tecla-50.0/po/nb.po
+tecla-50.0/po/ne.po
+tecla-50.0/po/nl.po
+tecla-50.0/po/oc.po
+tecla-50.0/po/pa.po
+tecla-50.0/po/pl.po
+tecla-50.0/po/pt.po
+tecla-50.0/po/pt_BR.po
+tecla-50.0/po/ro.po
+tecla-50.0/po/ru.po
+tecla-50.0/po/sk.po
+tecla-50.0/po/sl.po
+tecla-50.0/po/sr.po
+tecla-50.0/po/sr@latin.po
+tecla-50.0/po/sv.po
+tecla-50.0/po/tr.po
+tecla-50.0/po/ug.po
+tecla-50.0/po/uk.po
+tecla-50.0/po/uz.po
+tecla-50.0/po/zh_CN.po
+tecla-50.0/po/zh_TW.po
+tecla-50.0/src/
+tecla-50.0/src/main.c
+tecla-50.0/src/meson.build
+tecla-50.0/src/pc105.h
+tecla-50.0/src/tecla-application.c
+tecla-50.0/src/tecla-application.h
+tecla-50.0/src/tecla-key.c
+tecla-50.0/src/tecla-key.css
+tecla-50.0/src/tecla-key.h
+tecla-50.0/src/tecla-keymap-observer.c
+tecla-50.0/src/tecla-keymap-observer.h
+tecla-50.0/src/tecla-layout.h
+tecla-50.0/src/tecla-model.c
+tecla-50.0/src/tecla-model.h
+tecla-50.0/src/tecla-util.c
+tecla-50.0/src/tecla-util.h
+tecla-50.0/src/tecla-view.c
+tecla-50.0/src/tecla-view.h
+tecla-50.0/src/tecla-view.ui
+tecla-50.0/src/tecla-window.ui
+tecla-50.0/src/tecla.gresource.xml
+tecla-50.0/tecla.doap
+The Meson build system
+Version: 1.10.1
+Source dir: /blfs/builds/tecla-50.0
+Build dir: /blfs/builds/tecla-50.0/build
+Build type: native build
+Project name: tecla
+Project version: 50.0
+C compiler for the host machine: cc (gcc 15.2.0 "cc (GCC) 15.2.0")
+C linker for the host machine: cc ld.bfd 2.45
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Compiler for C supports arguments -Wno-unused-parameter: YES 
+Configuring config.h using configuration
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Run-time dependency gtk4 found: YES 4.22.1
+Run-time dependency gtk4-wayland found: YES 4.22.1
+Run-time dependency wayland-client found: YES 1.24.91
+Run-time dependency libadwaita-1 found: YES 1.9.0
+Run-time dependency xkbcommon found: YES 1.13.1
+Library m found: YES
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Build-time dependency gio-2.0 found: YES 2.86.4
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Program msginit found: YES (/usr/bin/msginit)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program xgettext found: YES (/usr/bin/xgettext)
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Build targets in project: 59
+NOTICE: Future-deprecated features used:
+ * 0.62.0: {'pkgconfig.generate variable for builtin directories'}
+
+tecla 50.0
+
+  User defined options
+    buildtype: release
+    prefix   : /usr
+
+Found ninja-1.13.2 at /usr/bin/ninja
+[1/64] Building translation po/be/LC_MESSAGES/tecla-be.mo
+[2/64] Building translation po/el/LC_MESSAGES/tecla-el.mo
+[3/64] Generating src/tecla-gresources_c with a custom command
+[4/64] Building translation po/ar/LC_MESSAGES/tecla-ar.mo
+[5/64] Building translation po/bg/LC_MESSAGES/tecla-bg.mo
+[6/64] Building translation po/ca/LC_MESSAGES/tecla-ca.mo
+[7/64] Building translation po/cs/LC_MESSAGES/tecla-cs.mo
+[8/64] Building translation po/da/LC_MESSAGES/tecla-da.mo
+[9/64] Building translation po/de/LC_MESSAGES/tecla-de.mo
+[10/64] Building translation po/en_GB/LC_MESSAGES/tecla-en_GB.mo
+[11/64] Generating src/tecla-gresources_h with a custom command
+[12/64] Building translation po/eo/LC_MESSAGES/tecla-eo.mo
+[13/64] Building translation po/eu/LC_MESSAGES/tecla-eu.mo
+[14/64] Building translation po/fa/LC_MESSAGES/tecla-fa.mo
+[15/64] Building translation po/fi/LC_MESSAGES/tecla-fi.mo
+[16/64] Building translation po/es/LC_MESSAGES/tecla-es.mo
+[17/64] Building translation po/gl/LC_MESSAGES/tecla-gl.mo
+[18/64] Building translation po/fr/LC_MESSAGES/tecla-fr.mo
+[19/64] Building translation po/fur/LC_MESSAGES/tecla-fur.mo
+[20/64] Building translation po/he/LC_MESSAGES/tecla-he.mo
+[21/64] Building translation po/hi/LC_MESSAGES/tecla-hi.mo
+[22/64] Building translation po/hu/LC_MESSAGES/tecla-hu.mo
+[23/64] Building translation po/ia/LC_MESSAGES/tecla-ia.mo
+[24/64] Building translation po/id/LC_MESSAGES/tecla-id.mo
+[25/64] Building translation po/ka/LC_MESSAGES/tecla-ka.mo
+[26/64] Building translation po/kk/LC_MESSAGES/tecla-kk.mo
+[27/64] Building translation po/ie/LC_MESSAGES/tecla-ie.mo
+[28/64] Building translation po/it/LC_MESSAGES/tecla-it.mo
+[29/64] Building translation po/ko/LC_MESSAGES/tecla-ko.mo
+[30/64] Building translation po/kw/LC_MESSAGES/tecla-kw.mo
+[31/64] Building translation po/kab/LC_MESSAGES/tecla-kab.mo
+[32/64] Building translation po/nb/LC_MESSAGES/tecla-nb.mo
+[33/64] Building translation po/ne/LC_MESSAGES/tecla-ne.mo
+[34/64] Building translation po/lt/LC_MESSAGES/tecla-lt.mo
+[35/64] Building translation po/lv/LC_MESSAGES/tecla-lv.mo
+[36/64] Building translation po/nl/LC_MESSAGES/tecla-nl.mo
+[37/64] Building translation po/oc/LC_MESSAGES/tecla-oc.mo
+[38/64] Building translation po/pt/LC_MESSAGES/tecla-pt.mo
+[39/64] Building translation po/pl/LC_MESSAGES/tecla-pl.mo
+[40/64] Building translation po/pa/LC_MESSAGES/tecla-pa.mo
+[41/64] Building translation po/ro/LC_MESSAGES/tecla-ro.mo
+[42/64] Building translation po/ru/LC_MESSAGES/tecla-ru.mo
+[43/64] Building translation po/pt_BR/LC_MESSAGES/tecla-pt_BR.mo
+[44/64] Building translation po/sr/LC_MESSAGES/tecla-sr.mo
+[45/64] Building translation po/sr@latin/LC_MESSAGES/tecla-sr@latin.mo
+[46/64] Building translation po/sv/LC_MESSAGES/tecla-sv.mo
+[47/64] Building translation po/ug/LC_MESSAGES/tecla-ug.mo
+[48/64] Building translation po/tr/LC_MESSAGES/tecla-tr.mo
+[49/64] Building translation po/sl/LC_MESSAGES/tecla-sl.mo
+[50/64] Building translation po/uz/LC_MESSAGES/tecla-uz.mo
+[51/64] Building translation po/uk/LC_MESSAGES/tecla-uk.mo
+[52/64] Building translation po/zh_TW/LC_MESSAGES/tecla-zh_TW.mo
+[53/64] Building translation po/zh_CN/LC_MESSAGES/tecla-zh_CN.mo
+[54/64] Building translation po/sk/LC_MESSAGES/tecla-sk.mo
+[55/64] Merging translations for data/org.gnome.Tecla.desktop
+[56/64] Compiling C object src/tecla.p/meson-generated_.._tecla-gresources.c.o
+[57/64] Compiling C object src/tecla.p/tecla-util.c.o
+[58/64] Compiling C object src/tecla.p/tecla-key.c.o
+[59/64] Compiling C object src/tecla.p/tecla-model.c.o
+[60/64] Compiling C object src/tecla.p/tecla-keymap-observer.c.o
+[61/64] Compiling C object src/tecla.p/main.c.o
+[62/64] Compiling C object src/tecla.p/tecla-application.c.o
+[63/64] Compiling C object src/tecla.p/tecla-view.c.o
+[64/64] Linking target src/tecla
+[0/1] Installing files
+Installing data/org.gnome.Tecla.desktop to /usr/share/applications
+Installing src/tecla to /usr/bin
+Installing po/ar/LC_MESSAGES/tecla.mo to /usr/share/locale/ar/LC_MESSAGES
+Installing po/be/LC_MESSAGES/tecla.mo to /usr/share/locale/be/LC_MESSAGES
+Installing po/bg/LC_MESSAGES/tecla.mo to /usr/share/locale/bg/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/tecla.mo to /usr/share/locale/ca/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/tecla.mo to /usr/share/locale/cs/LC_MESSAGES
+Installing po/da/LC_MESSAGES/tecla.mo to /usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/tecla.mo to /usr/share/locale/de/LC_MESSAGES
+Installing po/el/LC_MESSAGES/tecla.mo to /usr/share/locale/el/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/tecla.mo to /usr/share/locale/en_GB/LC_MESSAGES
+Installing po/eo/LC_MESSAGES/tecla.mo to /usr/share/locale/eo/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/tecla.mo to /usr/share/locale/eu/LC_MESSAGES
+Installing po/es/LC_MESSAGES/tecla.mo to /usr/share/locale/es/LC_MESSAGES
+Installing po/fa/LC_MESSAGES/tecla.mo to /usr/share/locale/fa/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/tecla.mo to /usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/tecla.mo to /usr/share/locale/fr/LC_MESSAGES
+Installing po/fur/LC_MESSAGES/tecla.mo to /usr/share/locale/fur/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/tecla.mo to /usr/share/locale/gl/LC_MESSAGES
+Installing po/he/LC_MESSAGES/tecla.mo to /usr/share/locale/he/LC_MESSAGES
+Installing po/hi/LC_MESSAGES/tecla.mo to /usr/share/locale/hi/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/tecla.mo to /usr/share/locale/hu/LC_MESSAGES
+Installing po/ia/LC_MESSAGES/tecla.mo to /usr/share/locale/ia/LC_MESSAGES
+Installing po/id/LC_MESSAGES/tecla.mo to /usr/share/locale/id/LC_MESSAGES
+Installing po/ie/LC_MESSAGES/tecla.mo to /usr/share/locale/ie/LC_MESSAGES
+Installing po/it/LC_MESSAGES/tecla.mo to /usr/share/locale/it/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/tecla.mo to /usr/share/locale/ka/LC_MESSAGES
+Installing po/kab/LC_MESSAGES/tecla.mo to /usr/share/locale/kab/LC_MESSAGES
+Installing po/kk/LC_MESSAGES/tecla.mo to /usr/share/locale/kk/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/tecla.mo to /usr/share/locale/ko/LC_MESSAGES
+Installing po/kw/LC_MESSAGES/tecla.mo to /usr/share/locale/kw/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/tecla.mo to /usr/share/locale/lt/LC_MESSAGES
+Installing po/lv/LC_MESSAGES/tecla.mo to /usr/share/locale/lv/LC_MESSAGES
+Installing po/nb/LC_MESSAGES/tecla.mo to /usr/share/locale/nb/LC_MESSAGES
+Installing po/ne/LC_MESSAGES/tecla.mo to /usr/share/locale/ne/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/tecla.mo to /usr/share/locale/nl/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/tecla.mo to /usr/share/locale/oc/LC_MESSAGES
+Installing po/pa/LC_MESSAGES/tecla.mo to /usr/share/locale/pa/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/tecla.mo to /usr/share/locale/pl/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/tecla.mo to /usr/share/locale/pt/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/tecla.mo to /usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/tecla.mo to /usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/tecla.mo to /usr/share/locale/ru/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/tecla.mo to /usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/tecla.mo to /usr/share/locale/sl/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/tecla.mo to /usr/share/locale/sr/LC_MESSAGES
+Installing po/sr@latin/LC_MESSAGES/tecla.mo to /usr/share/locale/sr@latin/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/tecla.mo to /usr/share/locale/sv/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/tecla.mo to /usr/share/locale/tr/LC_MESSAGES
+Installing po/ug/LC_MESSAGES/tecla.mo to /usr/share/locale/ug/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/tecla.mo to /usr/share/locale/uk/LC_MESSAGES
+Installing po/uz/LC_MESSAGES/tecla.mo to /usr/share/locale/uz/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/tecla.mo to /usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/tecla.mo to /usr/share/locale/zh_TW/LC_MESSAGES
+Installing /blfs/builds/tecla-50.0/data/icons/hicolor/scalable/apps/org.gnome.Tecla.svg to /usr/share/icons/hicolor/scalable/apps
+Installing /blfs/builds/tecla-50.0/data/icons/hicolor/symbolic/apps/org.gnome.Tecla-symbolic.svg to /usr/share/icons/hicolor/symbolic/apps
+Installing /blfs/builds/tecla-50.0/build/meson-private/tecla.pc to /usr/share/pkgconfig
+[0/1] Installing files
+Installing data/org.gnome.Tecla.desktop to /pkgs/tecla/usr/share/applications
+Installing src/tecla to /pkgs/tecla/usr/bin
+Installing po/ar/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/ar/LC_MESSAGES
+Installing po/be/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/be/LC_MESSAGES
+Installing po/bg/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/bg/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/ca/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/cs/LC_MESSAGES
+Installing po/da/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/de/LC_MESSAGES
+Installing po/el/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/el/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/en_GB/LC_MESSAGES
+Installing po/eo/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/eo/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/eu/LC_MESSAGES
+Installing po/es/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/es/LC_MESSAGES
+Installing po/fa/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/fa/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/fr/LC_MESSAGES
+Installing po/fur/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/fur/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/gl/LC_MESSAGES
+Installing po/he/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/he/LC_MESSAGES
+Installing po/hi/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/hi/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/hu/LC_MESSAGES
+Installing po/ia/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/ia/LC_MESSAGES
+Installing po/id/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/id/LC_MESSAGES
+Installing po/ie/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/ie/LC_MESSAGES
+Installing po/it/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/it/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/ka/LC_MESSAGES
+Installing po/kab/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/kab/LC_MESSAGES
+Installing po/kk/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/kk/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/ko/LC_MESSAGES
+Installing po/kw/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/kw/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/lt/LC_MESSAGES
+Installing po/lv/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/lv/LC_MESSAGES
+Installing po/nb/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/nb/LC_MESSAGES
+Installing po/ne/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/ne/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/nl/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/oc/LC_MESSAGES
+Installing po/pa/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/pa/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/pl/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/pt/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/ru/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/sl/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/sr/LC_MESSAGES
+Installing po/sr@latin/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/sr@latin/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/sv/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/tr/LC_MESSAGES
+Installing po/ug/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/ug/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/uk/LC_MESSAGES
+Installing po/uz/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/uz/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/tecla.mo to /pkgs/tecla/usr/share/locale/zh_TW/LC_MESSAGES
+Installing /blfs/builds/tecla-50.0/data/icons/hicolor/scalable/apps/org.gnome.Tecla.svg to /pkgs/tecla/usr/share/icons/hicolor/scalable/apps
+Installing /blfs/builds/tecla-50.0/data/icons/hicolor/symbolic/apps/org.gnome.Tecla-symbolic.svg to /pkgs/tecla/usr/share/icons/hicolor/symbolic/apps
+Installing /blfs/builds/tecla-50.0/build/meson-private/tecla.pc to /pkgs/tecla/usr/share/pkgconfig
+tecla/
+tecla/usr/
+tecla/usr/share/
+tecla/usr/share/locale/
+tecla/usr/share/locale/sr/
+tecla/usr/share/locale/sr/LC_MESSAGES/
+tecla/usr/share/locale/sr/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/nl/
+tecla/usr/share/locale/nl/LC_MESSAGES/
+tecla/usr/share/locale/nl/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/fi/
+tecla/usr/share/locale/fi/LC_MESSAGES/
+tecla/usr/share/locale/fi/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/id/
+tecla/usr/share/locale/id/LC_MESSAGES/
+tecla/usr/share/locale/id/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/ro/
+tecla/usr/share/locale/ro/LC_MESSAGES/
+tecla/usr/share/locale/ro/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/ko/
+tecla/usr/share/locale/ko/LC_MESSAGES/
+tecla/usr/share/locale/ko/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/sr@latin/
+tecla/usr/share/locale/sr@latin/LC_MESSAGES/
+tecla/usr/share/locale/sr@latin/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/zh_TW/
+tecla/usr/share/locale/zh_TW/LC_MESSAGES/
+tecla/usr/share/locale/zh_TW/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/hi/
+tecla/usr/share/locale/hi/LC_MESSAGES/
+tecla/usr/share/locale/hi/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/kk/
+tecla/usr/share/locale/kk/LC_MESSAGES/
+tecla/usr/share/locale/kk/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/nb/
+tecla/usr/share/locale/nb/LC_MESSAGES/
+tecla/usr/share/locale/nb/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/ie/
+tecla/usr/share/locale/ie/LC_MESSAGES/
+tecla/usr/share/locale/ie/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/ar/
+tecla/usr/share/locale/ar/LC_MESSAGES/
+tecla/usr/share/locale/ar/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/uk/
+tecla/usr/share/locale/uk/LC_MESSAGES/
+tecla/usr/share/locale/uk/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/kw/
+tecla/usr/share/locale/kw/LC_MESSAGES/
+tecla/usr/share/locale/kw/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/uz/
+tecla/usr/share/locale/uz/LC_MESSAGES/
+tecla/usr/share/locale/uz/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/ia/
+tecla/usr/share/locale/ia/LC_MESSAGES/
+tecla/usr/share/locale/ia/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/ug/
+tecla/usr/share/locale/ug/LC_MESSAGES/
+tecla/usr/share/locale/ug/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/en_GB/
+tecla/usr/share/locale/en_GB/LC_MESSAGES/
+tecla/usr/share/locale/en_GB/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/oc/
+tecla/usr/share/locale/oc/LC_MESSAGES/
+tecla/usr/share/locale/oc/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/es/
+tecla/usr/share/locale/es/LC_MESSAGES/
+tecla/usr/share/locale/es/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/he/
+tecla/usr/share/locale/he/LC_MESSAGES/
+tecla/usr/share/locale/he/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/fr/
+tecla/usr/share/locale/fr/LC_MESSAGES/
+tecla/usr/share/locale/fr/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/ca/
+tecla/usr/share/locale/ca/LC_MESSAGES/
+tecla/usr/share/locale/ca/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/pl/
+tecla/usr/share/locale/pl/LC_MESSAGES/
+tecla/usr/share/locale/pl/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/da/
+tecla/usr/share/locale/da/LC_MESSAGES/
+tecla/usr/share/locale/da/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/ru/
+tecla/usr/share/locale/ru/LC_MESSAGES/
+tecla/usr/share/locale/ru/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/kab/
+tecla/usr/share/locale/kab/LC_MESSAGES/
+tecla/usr/share/locale/kab/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/fa/
+tecla/usr/share/locale/fa/LC_MESSAGES/
+tecla/usr/share/locale/fa/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/zh_CN/
+tecla/usr/share/locale/zh_CN/LC_MESSAGES/
+tecla/usr/share/locale/zh_CN/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/cs/
+tecla/usr/share/locale/cs/LC_MESSAGES/
+tecla/usr/share/locale/cs/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/lv/
+tecla/usr/share/locale/lv/LC_MESSAGES/
+tecla/usr/share/locale/lv/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/pt_BR/
+tecla/usr/share/locale/pt_BR/LC_MESSAGES/
+tecla/usr/share/locale/pt_BR/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/pt/
+tecla/usr/share/locale/pt/LC_MESSAGES/
+tecla/usr/share/locale/pt/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/hu/
+tecla/usr/share/locale/hu/LC_MESSAGES/
+tecla/usr/share/locale/hu/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/tr/
+tecla/usr/share/locale/tr/LC_MESSAGES/
+tecla/usr/share/locale/tr/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/sl/
+tecla/usr/share/locale/sl/LC_MESSAGES/
+tecla/usr/share/locale/sl/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/fur/
+tecla/usr/share/locale/fur/LC_MESSAGES/
+tecla/usr/share/locale/fur/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/eu/
+tecla/usr/share/locale/eu/LC_MESSAGES/
+tecla/usr/share/locale/eu/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/el/
+tecla/usr/share/locale/el/LC_MESSAGES/
+tecla/usr/share/locale/el/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/sv/
+tecla/usr/share/locale/sv/LC_MESSAGES/
+tecla/usr/share/locale/sv/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/sk/
+tecla/usr/share/locale/sk/LC_MESSAGES/
+tecla/usr/share/locale/sk/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/eo/
+tecla/usr/share/locale/eo/LC_MESSAGES/
+tecla/usr/share/locale/eo/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/bg/
+tecla/usr/share/locale/bg/LC_MESSAGES/
+tecla/usr/share/locale/bg/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/pa/
+tecla/usr/share/locale/pa/LC_MESSAGES/
+tecla/usr/share/locale/pa/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/ka/
+tecla/usr/share/locale/ka/LC_MESSAGES/
+tecla/usr/share/locale/ka/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/ne/
+tecla/usr/share/locale/ne/LC_MESSAGES/
+tecla/usr/share/locale/ne/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/it/
+tecla/usr/share/locale/it/LC_MESSAGES/
+tecla/usr/share/locale/it/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/de/
+tecla/usr/share/locale/de/LC_MESSAGES/
+tecla/usr/share/locale/de/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/lt/
+tecla/usr/share/locale/lt/LC_MESSAGES/
+tecla/usr/share/locale/lt/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/be/
+tecla/usr/share/locale/be/LC_MESSAGES/
+tecla/usr/share/locale/be/LC_MESSAGES/tecla.mo
+tecla/usr/share/locale/gl/
+tecla/usr/share/locale/gl/LC_MESSAGES/
+tecla/usr/share/locale/gl/LC_MESSAGES/tecla.mo
+tecla/usr/share/icons/
+tecla/usr/share/icons/hicolor/
+tecla/usr/share/icons/hicolor/symbolic/
+tecla/usr/share/icons/hicolor/symbolic/apps/
+tecla/usr/share/icons/hicolor/symbolic/apps/org.gnome.Tecla-symbolic.svg
+tecla/usr/share/icons/hicolor/scalable/
+tecla/usr/share/icons/hicolor/scalable/apps/
+tecla/usr/share/icons/hicolor/scalable/apps/org.gnome.Tecla.svg
+tecla/usr/share/pkgconfig/
+tecla/usr/share/pkgconfig/tecla.pc
+tecla/usr/share/applications/
+tecla/usr/share/applications/org.gnome.Tecla.desktop
+tecla/usr/bin/
+tecla/usr/bin/tecla
+tecla/version
+tecla/postinst
+tecla/depends

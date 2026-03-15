@@ -1,0 +1,946 @@
+--2026-03-15 08:34:14--  https://download.gnome.org/sources/gnome-font-viewer/50/gnome-font-viewer-50.0.tar.xz
+Resolving download.gnome.org (download.gnome.org)... 152.233.10.59, 79.127.206.235, 79.127.206.208, ...
+Connecting to download.gnome.org (download.gnome.org)|152.233.10.59|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 220048 (215K) [application/octet-stream]
+Saving to: ‘gnome-font-viewer-50.0.tar.xz’
+
+     0K .......... .......... .......... .......... .......... 23% 4.04M 0s
+    50K .......... .......... .......... .......... .......... 46% 9.24M 0s
+   100K .......... .......... .......... .......... .......... 69% 12.2M 0s
+   150K .......... .......... .......... .......... .......... 93% 6.93M 0s
+   200K .......... ....                                       100%  234M=0.03s
+
+2026-03-15 08:34:14 (7.37 MB/s) - ‘gnome-font-viewer-50.0.tar.xz’ saved [220048/220048]
+
+gnome-font-viewer-50.0/
+gnome-font-viewer-50.0/.gitignore
+gnome-font-viewer-50.0/.gitlab-ci.yml
+gnome-font-viewer-50.0/COPYING
+gnome-font-viewer-50.0/NEWS
+gnome-font-viewer-50.0/build-aux/
+gnome-font-viewer-50.0/build-aux/flatpak/
+gnome-font-viewer-50.0/build-aux/flatpak/org.gnome.font-viewerDevel.json
+gnome-font-viewer-50.0/data/
+gnome-font-viewer-50.0/data/gnome-font-viewer.thumbnailer
+gnome-font-viewer-50.0/data/icons/
+gnome-font-viewer-50.0/data/icons/hicolor/
+gnome-font-viewer-50.0/data/icons/hicolor/scalable/
+gnome-font-viewer-50.0/data/icons/hicolor/scalable/apps/
+gnome-font-viewer-50.0/data/icons/hicolor/scalable/apps/org.gnome.font-viewer.svg
+gnome-font-viewer-50.0/data/icons/hicolor/scalable/apps/org.gnome.font-viewerDevel.svg
+gnome-font-viewer-50.0/data/icons/hicolor/symbolic/
+gnome-font-viewer-50.0/data/icons/hicolor/symbolic/apps/
+gnome-font-viewer-50.0/data/icons/hicolor/symbolic/apps/org.gnome.font-viewer-symbolic.svg
+gnome-font-viewer-50.0/data/icons/meson.build
+gnome-font-viewer-50.0/data/meson.build
+gnome-font-viewer-50.0/data/org.gnome.font-viewer.desktop.in.in
+gnome-font-viewer-50.0/data/org.gnome.font-viewer.metainfo.xml.in
+gnome-font-viewer-50.0/data/org.gnome.font-viewer.service.in
+gnome-font-viewer-50.0/gnome-font-viewer.doap
+gnome-font-viewer-50.0/meson.build
+gnome-font-viewer-50.0/meson_options.txt
+gnome-font-viewer-50.0/po/
+gnome-font-viewer-50.0/po/LINGUAS
+gnome-font-viewer-50.0/po/POTFILES.in
+gnome-font-viewer-50.0/po/POTFILES.skip
+gnome-font-viewer-50.0/po/ab.po
+gnome-font-viewer-50.0/po/af.po
+gnome-font-viewer-50.0/po/am.po
+gnome-font-viewer-50.0/po/an.po
+gnome-font-viewer-50.0/po/ar.po
+gnome-font-viewer-50.0/po/as.po
+gnome-font-viewer-50.0/po/ast.po
+gnome-font-viewer-50.0/po/az.po
+gnome-font-viewer-50.0/po/be.po
+gnome-font-viewer-50.0/po/be@latin.po
+gnome-font-viewer-50.0/po/bg.po
+gnome-font-viewer-50.0/po/bn.po
+gnome-font-viewer-50.0/po/bn_IN.po
+gnome-font-viewer-50.0/po/br.po
+gnome-font-viewer-50.0/po/bs.po
+gnome-font-viewer-50.0/po/ca.po
+gnome-font-viewer-50.0/po/ca@valencia.po
+gnome-font-viewer-50.0/po/ckb.po
+gnome-font-viewer-50.0/po/crh.po
+gnome-font-viewer-50.0/po/cs.po
+gnome-font-viewer-50.0/po/cy.po
+gnome-font-viewer-50.0/po/da.po
+gnome-font-viewer-50.0/po/de.po
+gnome-font-viewer-50.0/po/dz.po
+gnome-font-viewer-50.0/po/el.po
+gnome-font-viewer-50.0/po/en_CA.po
+gnome-font-viewer-50.0/po/en_GB.po
+gnome-font-viewer-50.0/po/eo.po
+gnome-font-viewer-50.0/po/es.po
+gnome-font-viewer-50.0/po/et.po
+gnome-font-viewer-50.0/po/eu.po
+gnome-font-viewer-50.0/po/fa.po
+gnome-font-viewer-50.0/po/fi.po
+gnome-font-viewer-50.0/po/fr.po
+gnome-font-viewer-50.0/po/fur.po
+gnome-font-viewer-50.0/po/ga.po
+gnome-font-viewer-50.0/po/gd.po
+gnome-font-viewer-50.0/po/gl.po
+gnome-font-viewer-50.0/po/gu.po
+gnome-font-viewer-50.0/po/he.po
+gnome-font-viewer-50.0/po/hi.po
+gnome-font-viewer-50.0/po/hr.po
+gnome-font-viewer-50.0/po/hu.po
+gnome-font-viewer-50.0/po/id.po
+gnome-font-viewer-50.0/po/ie.po
+gnome-font-viewer-50.0/po/is.po
+gnome-font-viewer-50.0/po/it.po
+gnome-font-viewer-50.0/po/ja.po
+gnome-font-viewer-50.0/po/ka.po
+gnome-font-viewer-50.0/po/kab.po
+gnome-font-viewer-50.0/po/kk.po
+gnome-font-viewer-50.0/po/km.po
+gnome-font-viewer-50.0/po/kn.po
+gnome-font-viewer-50.0/po/ko.po
+gnome-font-viewer-50.0/po/ku.po
+gnome-font-viewer-50.0/po/kw.po
+gnome-font-viewer-50.0/po/ky.po
+gnome-font-viewer-50.0/po/lt.po
+gnome-font-viewer-50.0/po/lv.po
+gnome-font-viewer-50.0/po/mai.po
+gnome-font-viewer-50.0/po/meson.build
+gnome-font-viewer-50.0/po/mg.po
+gnome-font-viewer-50.0/po/mk.po
+gnome-font-viewer-50.0/po/ml.po
+gnome-font-viewer-50.0/po/mn.po
+gnome-font-viewer-50.0/po/mr.po
+gnome-font-viewer-50.0/po/ms.po
+gnome-font-viewer-50.0/po/nb.po
+gnome-font-viewer-50.0/po/nds.po
+gnome-font-viewer-50.0/po/ne.po
+gnome-font-viewer-50.0/po/nl.po
+gnome-font-viewer-50.0/po/nn.po
+gnome-font-viewer-50.0/po/oc.po
+gnome-font-viewer-50.0/po/or.po
+gnome-font-viewer-50.0/po/pa.po
+gnome-font-viewer-50.0/po/pl.po
+gnome-font-viewer-50.0/po/ps.po
+gnome-font-viewer-50.0/po/pt.po
+gnome-font-viewer-50.0/po/pt_BR.po
+gnome-font-viewer-50.0/po/ro.po
+gnome-font-viewer-50.0/po/ru.po
+gnome-font-viewer-50.0/po/rw.po
+gnome-font-viewer-50.0/po/sat.po
+gnome-font-viewer-50.0/po/si.po
+gnome-font-viewer-50.0/po/sk.po
+gnome-font-viewer-50.0/po/sl.po
+gnome-font-viewer-50.0/po/sq.po
+gnome-font-viewer-50.0/po/sr.po
+gnome-font-viewer-50.0/po/sr@latin.po
+gnome-font-viewer-50.0/po/sv.po
+gnome-font-viewer-50.0/po/ta.po
+gnome-font-viewer-50.0/po/te.po
+gnome-font-viewer-50.0/po/tg.po
+gnome-font-viewer-50.0/po/th.po
+gnome-font-viewer-50.0/po/tr.po
+gnome-font-viewer-50.0/po/ug.po
+gnome-font-viewer-50.0/po/uk.po
+gnome-font-viewer-50.0/po/uz.po
+gnome-font-viewer-50.0/po/uz@cyrillic.po
+gnome-font-viewer-50.0/po/vi.po
+gnome-font-viewer-50.0/po/wa.po
+gnome-font-viewer-50.0/po/xh.po
+gnome-font-viewer-50.0/po/zh_CN.po
+gnome-font-viewer-50.0/po/zh_HK.po
+gnome-font-viewer-50.0/po/zh_TW.po
+gnome-font-viewer-50.0/src/
+gnome-font-viewer-50.0/src/font-inscription.c
+gnome-font-viewer-50.0/src/font-inscription.h
+gnome-font-viewer-50.0/src/font-model.c
+gnome-font-viewer-50.0/src/font-model.h
+gnome-font-viewer-50.0/src/font-thumbnailer.c
+gnome-font-viewer-50.0/src/font-view-application.c
+gnome-font-viewer-50.0/src/font-view-application.h
+gnome-font-viewer-50.0/src/font-view-window.c
+gnome-font-viewer-50.0/src/font-view-window.h
+gnome-font-viewer-50.0/src/font-view-window.ui
+gnome-font-viewer-50.0/src/gnome-font-viewer.gresource.xml
+gnome-font-viewer-50.0/src/main.c
+gnome-font-viewer-50.0/src/meson.build
+gnome-font-viewer-50.0/src/open-type-layout.h
+gnome-font-viewer-50.0/src/style.css
+gnome-font-viewer-50.0/src/sushi-font-loader.c
+gnome-font-viewer-50.0/src/sushi-font-loader.h
+gnome-font-viewer-50.0/src/sushi-font-widget.c
+gnome-font-viewer-50.0/src/sushi-font-widget.h
+gnome-font-viewer-50.0/src/totem-resources.c
+gnome-font-viewer-50.0/src/totem-resources.h
+The Meson build system
+Version: 1.10.1
+Source dir: /blfs/builds/gnome-font-viewer-50.0
+Build dir: /blfs/builds/gnome-font-viewer-50.0/build
+Build type: native build
+Project name: gnome-font-viewer
+Project version: 50.0
+C compiler for the host machine: cc (gcc 15.2.0 "cc (GCC) 15.2.0")
+C linker for the host machine: cc ld.bfd 2.45
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Run-time dependency glib-2.0 found: YES 2.86.4
+Run-time dependency gtk4 found: YES 4.22.1
+Run-time dependency libadwaita-1 found: YES 1.9.0
+Run-time dependency harfbuzz found: YES 13.1.1
+Run-time dependency fontconfig found: YES 2.17.1
+Run-time dependency freetype2 found: YES 26.5.20
+Run-time dependency fribidi found: YES 1.0.16
+Library m found: YES
+Configuring config.h using configuration
+Build-time dependency gio-2.0 found: YES 2.86.4
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Program msginit found: YES (/usr/bin/msginit)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program xgettext found: YES (/usr/bin/xgettext)
+Program appstreamcli found: YES (/usr/bin/appstreamcli)
+Configuring org.gnome.font-viewer.desktop.in using configuration
+Configuring org.gnome.font-viewer.service using configuration
+Program update-desktop-database found: YES (/usr/bin/update-desktop-database)
+Build targets in project: 113
+
+gnome-font-viewer 50.0
+
+  User defined options
+    buildtype: release
+    prefix   : /usr
+
+Found ninja-1.13.2 at /usr/bin/ninja
+[1/121] Generating src/font-view-resources_c with a custom command
+[2/121] Generating src/font-view-resources_h with a custom command
+[3/121] Building translation po/ab/LC_MESSAGES/gnome-font-viewer-ab.mo
+[4/121] Building translation po/af/LC_MESSAGES/gnome-font-viewer-af.mo
+[5/121] Building translation po/am/LC_MESSAGES/gnome-font-viewer-am.mo
+[6/121] Building translation po/az/LC_MESSAGES/gnome-font-viewer-az.mo
+[7/121] Building translation po/an/LC_MESSAGES/gnome-font-viewer-an.mo
+[8/121] Building translation po/as/LC_MESSAGES/gnome-font-viewer-as.mo
+[9/121] Building translation po/ar/LC_MESSAGES/gnome-font-viewer-ar.mo
+[10/121] Building translation po/ast/LC_MESSAGES/gnome-font-viewer-ast.mo
+[11/121] Building translation po/be/LC_MESSAGES/gnome-font-viewer-be.mo
+[12/121] Building translation po/be@latin/LC_MESSAGES/gnome-font-viewer-be@latin.mo
+[13/121] Building translation po/bn_IN/LC_MESSAGES/gnome-font-viewer-bn_IN.mo
+[14/121] Building translation po/bg/LC_MESSAGES/gnome-font-viewer-bg.mo
+[15/121] Building translation po/bn/LC_MESSAGES/gnome-font-viewer-bn.mo
+[16/121] Building translation po/br/LC_MESSAGES/gnome-font-viewer-br.mo
+[17/121] Building translation po/bs/LC_MESSAGES/gnome-font-viewer-bs.mo
+[18/121] Building translation po/ca/LC_MESSAGES/gnome-font-viewer-ca.mo
+[19/121] Building translation po/ca@valencia/LC_MESSAGES/gnome-font-viewer-ca@valencia.mo
+[20/121] Building translation po/ckb/LC_MESSAGES/gnome-font-viewer-ckb.mo
+[21/121] Building translation po/cy/LC_MESSAGES/gnome-font-viewer-cy.mo
+[22/121] Building translation po/crh/LC_MESSAGES/gnome-font-viewer-crh.mo
+[23/121] Building translation po/cs/LC_MESSAGES/gnome-font-viewer-cs.mo
+[24/121] Building translation po/de/LC_MESSAGES/gnome-font-viewer-de.mo
+[25/121] Building translation po/da/LC_MESSAGES/gnome-font-viewer-da.mo
+[26/121] Building translation po/dz/LC_MESSAGES/gnome-font-viewer-dz.mo
+[27/121] Building translation po/el/LC_MESSAGES/gnome-font-viewer-el.mo
+[28/121] Building translation po/eo/LC_MESSAGES/gnome-font-viewer-eo.mo
+[29/121] Building translation po/en_GB/LC_MESSAGES/gnome-font-viewer-en_GB.mo
+[30/121] Building translation po/en_CA/LC_MESSAGES/gnome-font-viewer-en_CA.mo
+[31/121] Compiling C object src/gnome-thumbnail-font.p/totem-resources.c.o
+[32/121] Building translation po/et/LC_MESSAGES/gnome-font-viewer-et.mo
+[33/121] Building translation po/es/LC_MESSAGES/gnome-font-viewer-es.mo
+[34/121] Building translation po/fi/LC_MESSAGES/gnome-font-viewer-fi.mo
+[35/121] Building translation po/fa/LC_MESSAGES/gnome-font-viewer-fa.mo
+[36/121] Building translation po/eu/LC_MESSAGES/gnome-font-viewer-eu.mo
+[37/121] Building translation po/fur/LC_MESSAGES/gnome-font-viewer-fur.mo
+[38/121] Building translation po/fr/LC_MESSAGES/gnome-font-viewer-fr.mo
+[39/121] Building translation po/gl/LC_MESSAGES/gnome-font-viewer-gl.mo
+[40/121] Building translation po/ga/LC_MESSAGES/gnome-font-viewer-ga.mo
+[41/121] Building translation po/gd/LC_MESSAGES/gnome-font-viewer-gd.mo
+[42/121] Building translation po/gu/LC_MESSAGES/gnome-font-viewer-gu.mo
+[43/121] Building translation po/hi/LC_MESSAGES/gnome-font-viewer-hi.mo
+[44/121] Building translation po/id/LC_MESSAGES/gnome-font-viewer-id.mo
+[45/121] Building translation po/he/LC_MESSAGES/gnome-font-viewer-he.mo
+[46/121] Building translation po/hr/LC_MESSAGES/gnome-font-viewer-hr.mo
+[47/121] Building translation po/hu/LC_MESSAGES/gnome-font-viewer-hu.mo
+[48/121] Building translation po/ie/LC_MESSAGES/gnome-font-viewer-ie.mo
+[49/121] Building translation po/is/LC_MESSAGES/gnome-font-viewer-is.mo
+[50/121] Building translation po/kab/LC_MESSAGES/gnome-font-viewer-kab.mo
+[51/121] Building translation po/ja/LC_MESSAGES/gnome-font-viewer-ja.mo
+[52/121] Building translation po/ka/LC_MESSAGES/gnome-font-viewer-ka.mo
+[53/121] Building translation po/it/LC_MESSAGES/gnome-font-viewer-it.mo
+[54/121] Building translation po/kk/LC_MESSAGES/gnome-font-viewer-kk.mo
+[55/121] Building translation po/km/LC_MESSAGES/gnome-font-viewer-km.mo
+[56/121] Building translation po/kn/LC_MESSAGES/gnome-font-viewer-kn.mo
+[57/121] Building translation po/ky/LC_MESSAGES/gnome-font-viewer-ky.mo
+[58/121] Building translation po/ko/LC_MESSAGES/gnome-font-viewer-ko.mo
+[59/121] Building translation po/ku/LC_MESSAGES/gnome-font-viewer-ku.mo
+[60/121] Building translation po/kw/LC_MESSAGES/gnome-font-viewer-kw.mo
+[61/121] Building translation po/lt/LC_MESSAGES/gnome-font-viewer-lt.mo
+[62/121] Building translation po/lv/LC_MESSAGES/gnome-font-viewer-lv.mo
+[63/121] Building translation po/mg/LC_MESSAGES/gnome-font-viewer-mg.mo
+[64/121] Building translation po/mai/LC_MESSAGES/gnome-font-viewer-mai.mo
+[65/121] Building translation po/mk/LC_MESSAGES/gnome-font-viewer-mk.mo
+[66/121] Building translation po/ml/LC_MESSAGES/gnome-font-viewer-ml.mo
+[67/121] Building translation po/mr/LC_MESSAGES/gnome-font-viewer-mr.mo
+[68/121] Compiling C object src/gnome-font-viewer.p/meson-generated_.._font-view-resources.c.o
+[69/121] Building translation po/mn/LC_MESSAGES/gnome-font-viewer-mn.mo
+[70/121] Building translation po/ms/LC_MESSAGES/gnome-font-viewer-ms.mo
+[71/121] Building translation po/nds/LC_MESSAGES/gnome-font-viewer-nds.mo
+[72/121] Building translation po/nb/LC_MESSAGES/gnome-font-viewer-nb.mo
+[73/121] Building translation po/nn/LC_MESSAGES/gnome-font-viewer-nn.mo
+[74/121] Building translation po/ne/LC_MESSAGES/gnome-font-viewer-ne.mo
+[75/121] Building translation po/nl/LC_MESSAGES/gnome-font-viewer-nl.mo
+[76/121] Building translation po/oc/LC_MESSAGES/gnome-font-viewer-oc.mo
+[77/121] Building translation po/or/LC_MESSAGES/gnome-font-viewer-or.mo
+[78/121] Building translation po/pa/LC_MESSAGES/gnome-font-viewer-pa.mo
+[79/121] Building translation po/ps/LC_MESSAGES/gnome-font-viewer-ps.mo
+[80/121] Building translation po/ro/LC_MESSAGES/gnome-font-viewer-ro.mo
+[81/121] Building translation po/pt/LC_MESSAGES/gnome-font-viewer-pt.mo
+[82/121] Building translation po/pt_BR/LC_MESSAGES/gnome-font-viewer-pt_BR.mo
+[83/121] Building translation po/ru/LC_MESSAGES/gnome-font-viewer-ru.mo
+[84/121] Building translation po/pl/LC_MESSAGES/gnome-font-viewer-pl.mo
+[85/121] Building translation po/rw/LC_MESSAGES/gnome-font-viewer-rw.mo
+[86/121] Building translation po/sat/LC_MESSAGES/gnome-font-viewer-sat.mo
+[87/121] Building translation po/sq/LC_MESSAGES/gnome-font-viewer-sq.mo
+[88/121] Building translation po/sl/LC_MESSAGES/gnome-font-viewer-sl.mo
+[89/121] Building translation po/sr/LC_MESSAGES/gnome-font-viewer-sr.mo
+[90/121] Building translation po/si/LC_MESSAGES/gnome-font-viewer-si.mo
+[91/121] Building translation po/sk/LC_MESSAGES/gnome-font-viewer-sk.mo
+[92/121] Building translation po/sv/LC_MESSAGES/gnome-font-viewer-sv.mo
+[93/121] Building translation po/tg/LC_MESSAGES/gnome-font-viewer-tg.mo
+[94/121] Building translation po/sr@latin/LC_MESSAGES/gnome-font-viewer-sr@latin.mo
+[95/121] Building translation po/ta/LC_MESSAGES/gnome-font-viewer-ta.mo
+[96/121] Building translation po/te/LC_MESSAGES/gnome-font-viewer-te.mo
+[97/121] Building translation po/th/LC_MESSAGES/gnome-font-viewer-th.mo
+[98/121] Compiling C object src/gnome-thumbnail-font.p/sushi-font-loader.c.o
+[99/121] Building translation po/tr/LC_MESSAGES/gnome-font-viewer-tr.mo
+[100/121] Compiling C object src/gnome-font-viewer.p/sushi-font-loader.c.o
+[101/121] Building translation po/uk/LC_MESSAGES/gnome-font-viewer-uk.mo
+[102/121] Building translation po/ug/LC_MESSAGES/gnome-font-viewer-ug.mo
+[103/121] Building translation po/uz/LC_MESSAGES/gnome-font-viewer-uz.mo
+[104/121] Building translation po/uz@cyrillic/LC_MESSAGES/gnome-font-viewer-uz@cyrillic.mo
+[105/121] Building translation po/vi/LC_MESSAGES/gnome-font-viewer-vi.mo
+[106/121] Building translation po/zh_HK/LC_MESSAGES/gnome-font-viewer-zh_HK.mo
+[107/121] Building translation po/zh_CN/LC_MESSAGES/gnome-font-viewer-zh_CN.mo
+[108/121] Building translation po/zh_TW/LC_MESSAGES/gnome-font-viewer-zh_TW.mo
+[109/121] Building translation po/wa/LC_MESSAGES/gnome-font-viewer-wa.mo
+[110/121] Building translation po/xh/LC_MESSAGES/gnome-font-viewer-xh.mo
+[111/121] Compiling C object src/gnome-thumbnail-font.p/font-thumbnailer.c.o
+[112/121] Compiling C object src/gnome-font-viewer.p/main.c.o
+[113/121] Merging translations for data/org.gnome.font-viewer.desktop
+[114/121] Compiling C object src/gnome-font-viewer.p/font-inscription.c.o
+[115/121] Linking target src/gnome-thumbnail-font
+[116/121] Compiling C object src/gnome-font-viewer.p/font-model.c.o
+[117/121] Merging translations for data/org.gnome.font-viewer.metainfo.xml
+[118/121] Compiling C object src/gnome-font-viewer.p/font-view-application.c.o
+[119/121] Compiling C object src/gnome-font-viewer.p/sushi-font-widget.c.o
+../src/sushi-font-widget.c: In function ‘sushi_font_widget_size_request’:
+../src/sushi-font-widget.c:542:3: warning: ‘gtk_widget_get_style_context’ is deprecated [-Wdeprecated-declarations]
+  542 |   context = gtk_widget_get_style_context (drawing_area);
+      |   ^~~~~~~
+In file included from /usr/include/gtk-4.0/gtk/gtkapplication.h:26,
+                 from /usr/include/gtk-4.0/gtk/gtkwindow.h:32,
+                 from /usr/include/gtk-4.0/gtk/gtkaboutdialog.h:29,
+                 from /usr/include/gtk-4.0/gtk/gtk.h:33,
+                 from ../src/sushi-font-widget.h:30,
+                 from ../src/sushi-font-widget.c:27:
+/usr/include/gtk-4.0/gtk/gtkwidget.h:713:19: note: declared here
+  713 | GtkStyleContext * gtk_widget_get_style_context (GtkWidget *widget);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/sushi-font-widget.c:543:3: warning: ‘gtk_style_context_get_padding’ is deprecated [-Wdeprecated-declarations]
+  543 |   gtk_style_context_get_padding (context, &padding);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/gtk-4.0/gtk/gtk.h:270:
+/usr/include/gtk-4.0/gtk/deprecated/gtkstylecontext.h:118:6: note: declared here
+  118 | void gtk_style_context_get_padding          (GtkStyleContext *context,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/sushi-font-widget.c: In function ‘sushi_font_widget_snapshot’:
+../src/sushi-font-widget.c:659:3: warning: ‘gtk_widget_get_style_context’ is deprecated [-Wdeprecated-declarations]
+  659 |   context = gtk_widget_get_style_context (drawing_area);
+      |   ^~~~~~~
+/usr/include/gtk-4.0/gtk/gtkwidget.h:713:19: note: declared here
+  713 | GtkStyleContext * gtk_widget_get_style_context (GtkWidget *widget);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/sushi-font-widget.c:666:3: warning: ‘gtk_render_background’ is deprecated [-Wdeprecated-declarations]
+  666 |   gtk_render_background (context, cr,
+      |   ^~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/gtk-4.0/gtk/gtk.h:226:
+/usr/include/gtk-4.0/gtk/deprecated/gtkrender.h:56:13: note: declared here
+   56 | void        gtk_render_background  (GtkStyleContext     *context,
+      |             ^~~~~~~~~~~~~~~~~~~~~
+../src/sushi-font-widget.c:669:3: warning: ‘gtk_style_context_get_color’ is deprecated [-Wdeprecated-declarations]
+  669 |   gtk_style_context_get_color (context, &color);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/gtk-4.0/gtk/deprecated/gtkstylecontext.h:112:6: note: declared here
+  112 | void gtk_style_context_get_color            (GtkStyleContext *context,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/sushi-font-widget.c:670:3: warning: ‘gtk_style_context_get_padding’ is deprecated [-Wdeprecated-declarations]
+  670 |   gtk_style_context_get_padding (context, &padding);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/gtk-4.0/gtk/deprecated/gtkstylecontext.h:118:6: note: declared here
+  118 | void gtk_style_context_get_padding          (GtkStyleContext *context,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[120/121] Compiling C object src/gnome-font-viewer.p/font-view-window.c.o
+[121/121] Linking target src/gnome-font-viewer
+[0/1] Installing files
+Installing src/gnome-thumbnail-font to /usr/bin
+Installing src/gnome-font-viewer to /usr/bin
+Installing po/ab/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/ab/LC_MESSAGES
+Installing po/af/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/af/LC_MESSAGES
+Installing po/am/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/am/LC_MESSAGES
+Installing po/an/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/an/LC_MESSAGES
+Installing po/ar/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/ar/LC_MESSAGES
+Installing po/as/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/as/LC_MESSAGES
+Installing po/ast/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/ast/LC_MESSAGES
+Installing po/az/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/az/LC_MESSAGES
+Installing po/be/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/be/LC_MESSAGES
+Installing po/be@latin/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/be@latin/LC_MESSAGES
+Installing po/bg/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/bg/LC_MESSAGES
+Installing po/bn/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/bn/LC_MESSAGES
+Installing po/bn_IN/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/bn_IN/LC_MESSAGES
+Installing po/br/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/br/LC_MESSAGES
+Installing po/bs/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/bs/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/ca/LC_MESSAGES
+Installing po/ca@valencia/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/ca@valencia/LC_MESSAGES
+Installing po/ckb/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/ckb/LC_MESSAGES
+Installing po/crh/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/crh/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/cs/LC_MESSAGES
+Installing po/cy/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/cy/LC_MESSAGES
+Installing po/da/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/de/LC_MESSAGES
+Installing po/dz/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/dz/LC_MESSAGES
+Installing po/el/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/el/LC_MESSAGES
+Installing po/en_CA/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/en_CA/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/en_GB/LC_MESSAGES
+Installing po/eo/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/eo/LC_MESSAGES
+Installing po/es/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/es/LC_MESSAGES
+Installing po/et/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/et/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/eu/LC_MESSAGES
+Installing po/fa/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/fa/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/fr/LC_MESSAGES
+Installing po/fur/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/fur/LC_MESSAGES
+Installing po/ga/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/ga/LC_MESSAGES
+Installing po/gd/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/gd/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/gl/LC_MESSAGES
+Installing po/gu/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/gu/LC_MESSAGES
+Installing po/he/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/he/LC_MESSAGES
+Installing po/hi/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/hi/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/hu/LC_MESSAGES
+Installing po/id/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/id/LC_MESSAGES
+Installing po/ie/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/ie/LC_MESSAGES
+Installing po/is/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/is/LC_MESSAGES
+Installing po/it/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/it/LC_MESSAGES
+Installing po/ja/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/ja/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/ka/LC_MESSAGES
+Installing po/kab/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/kab/LC_MESSAGES
+Installing po/kk/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/kk/LC_MESSAGES
+Installing po/km/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/km/LC_MESSAGES
+Installing po/kn/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/kn/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/ko/LC_MESSAGES
+Installing po/ku/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/ku/LC_MESSAGES
+Installing po/kw/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/kw/LC_MESSAGES
+Installing po/ky/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/ky/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/lt/LC_MESSAGES
+Installing po/lv/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/lv/LC_MESSAGES
+Installing po/mai/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/mai/LC_MESSAGES
+Installing po/mg/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/mg/LC_MESSAGES
+Installing po/mk/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/mk/LC_MESSAGES
+Installing po/ml/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/ml/LC_MESSAGES
+Installing po/mn/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/mn/LC_MESSAGES
+Installing po/mr/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/mr/LC_MESSAGES
+Installing po/ms/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/ms/LC_MESSAGES
+Installing po/nb/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/nb/LC_MESSAGES
+Installing po/nds/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/nds/LC_MESSAGES
+Installing po/ne/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/ne/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/nl/LC_MESSAGES
+Installing po/nn/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/nn/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/oc/LC_MESSAGES
+Installing po/or/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/or/LC_MESSAGES
+Installing po/pa/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/pa/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/pl/LC_MESSAGES
+Installing po/ps/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/ps/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/pt/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/ru/LC_MESSAGES
+Installing po/rw/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/rw/LC_MESSAGES
+Installing po/sat/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/sat/LC_MESSAGES
+Installing po/si/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/si/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/sl/LC_MESSAGES
+Installing po/sq/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/sq/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/sr/LC_MESSAGES
+Installing po/sr@latin/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/sr@latin/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/sv/LC_MESSAGES
+Installing po/ta/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/ta/LC_MESSAGES
+Installing po/te/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/te/LC_MESSAGES
+Installing po/tg/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/tg/LC_MESSAGES
+Installing po/th/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/th/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/tr/LC_MESSAGES
+Installing po/ug/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/ug/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/uk/LC_MESSAGES
+Installing po/uz/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/uz/LC_MESSAGES
+Installing po/uz@cyrillic/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/uz@cyrillic/LC_MESSAGES
+Installing po/vi/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/vi/LC_MESSAGES
+Installing po/wa/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/wa/LC_MESSAGES
+Installing po/xh/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/xh/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_HK/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/zh_HK/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/gnome-font-viewer.mo to /usr/share/locale/zh_TW/LC_MESSAGES
+Installing data/org.gnome.font-viewer.metainfo.xml to /usr/share/metainfo
+Installing data/org.gnome.font-viewer.desktop to /usr/share/applications
+Installing /blfs/builds/gnome-font-viewer-50.0/data/icons/hicolor/scalable/apps/org.gnome.font-viewer.svg to /usr/share/icons/hicolor/scalable/apps
+Installing /blfs/builds/gnome-font-viewer-50.0/data/icons/hicolor/symbolic/apps/org.gnome.font-viewer-symbolic.svg to /usr/share/icons/hicolor/symbolic/apps
+Installing /blfs/builds/gnome-font-viewer-50.0/build/data/org.gnome.font-viewer.service to /usr/share/dbus-1/services
+Installing /blfs/builds/gnome-font-viewer-50.0/data/gnome-font-viewer.thumbnailer to /usr/share/thumbnailers
+Running custom install script '/usr/bin/update-desktop-database -q /usr/share/applications'
+[0/1] Installing files
+Installing src/gnome-thumbnail-font to /pkgs/gnome-font-viewer/usr/bin
+Installing src/gnome-font-viewer to /pkgs/gnome-font-viewer/usr/bin
+Installing po/ab/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/ab/LC_MESSAGES
+Installing po/af/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/af/LC_MESSAGES
+Installing po/am/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/am/LC_MESSAGES
+Installing po/an/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/an/LC_MESSAGES
+Installing po/ar/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/ar/LC_MESSAGES
+Installing po/as/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/as/LC_MESSAGES
+Installing po/ast/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/ast/LC_MESSAGES
+Installing po/az/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/az/LC_MESSAGES
+Installing po/be/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/be/LC_MESSAGES
+Installing po/be@latin/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/be@latin/LC_MESSAGES
+Installing po/bg/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/bg/LC_MESSAGES
+Installing po/bn/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/bn/LC_MESSAGES
+Installing po/bn_IN/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/bn_IN/LC_MESSAGES
+Installing po/br/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/br/LC_MESSAGES
+Installing po/bs/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/bs/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/ca/LC_MESSAGES
+Installing po/ca@valencia/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/ca@valencia/LC_MESSAGES
+Installing po/ckb/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/ckb/LC_MESSAGES
+Installing po/crh/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/crh/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/cs/LC_MESSAGES
+Installing po/cy/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/cy/LC_MESSAGES
+Installing po/da/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/de/LC_MESSAGES
+Installing po/dz/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/dz/LC_MESSAGES
+Installing po/el/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/el/LC_MESSAGES
+Installing po/en_CA/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/en_CA/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/en_GB/LC_MESSAGES
+Installing po/eo/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/eo/LC_MESSAGES
+Installing po/es/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/es/LC_MESSAGES
+Installing po/et/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/et/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/eu/LC_MESSAGES
+Installing po/fa/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/fa/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/fr/LC_MESSAGES
+Installing po/fur/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/fur/LC_MESSAGES
+Installing po/ga/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/ga/LC_MESSAGES
+Installing po/gd/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/gd/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/gl/LC_MESSAGES
+Installing po/gu/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/gu/LC_MESSAGES
+Installing po/he/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/he/LC_MESSAGES
+Installing po/hi/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/hi/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/hu/LC_MESSAGES
+Installing po/id/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/id/LC_MESSAGES
+Installing po/ie/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/ie/LC_MESSAGES
+Installing po/is/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/is/LC_MESSAGES
+Installing po/it/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/it/LC_MESSAGES
+Installing po/ja/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/ja/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/ka/LC_MESSAGES
+Installing po/kab/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/kab/LC_MESSAGES
+Installing po/kk/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/kk/LC_MESSAGES
+Installing po/km/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/km/LC_MESSAGES
+Installing po/kn/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/kn/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/ko/LC_MESSAGES
+Installing po/ku/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/ku/LC_MESSAGES
+Installing po/kw/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/kw/LC_MESSAGES
+Installing po/ky/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/ky/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/lt/LC_MESSAGES
+Installing po/lv/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/lv/LC_MESSAGES
+Installing po/mai/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/mai/LC_MESSAGES
+Installing po/mg/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/mg/LC_MESSAGES
+Installing po/mk/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/mk/LC_MESSAGES
+Installing po/ml/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/ml/LC_MESSAGES
+Installing po/mn/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/mn/LC_MESSAGES
+Installing po/mr/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/mr/LC_MESSAGES
+Installing po/ms/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/ms/LC_MESSAGES
+Installing po/nb/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/nb/LC_MESSAGES
+Installing po/nds/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/nds/LC_MESSAGES
+Installing po/ne/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/ne/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/nl/LC_MESSAGES
+Installing po/nn/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/nn/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/oc/LC_MESSAGES
+Installing po/or/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/or/LC_MESSAGES
+Installing po/pa/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/pa/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/pl/LC_MESSAGES
+Installing po/ps/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/ps/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/pt/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/ru/LC_MESSAGES
+Installing po/rw/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/rw/LC_MESSAGES
+Installing po/sat/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/sat/LC_MESSAGES
+Installing po/si/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/si/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/sl/LC_MESSAGES
+Installing po/sq/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/sq/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/sr/LC_MESSAGES
+Installing po/sr@latin/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/sr@latin/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/sv/LC_MESSAGES
+Installing po/ta/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/ta/LC_MESSAGES
+Installing po/te/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/te/LC_MESSAGES
+Installing po/tg/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/tg/LC_MESSAGES
+Installing po/th/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/th/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/tr/LC_MESSAGES
+Installing po/ug/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/ug/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/uk/LC_MESSAGES
+Installing po/uz/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/uz/LC_MESSAGES
+Installing po/uz@cyrillic/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/uz@cyrillic/LC_MESSAGES
+Installing po/vi/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/vi/LC_MESSAGES
+Installing po/wa/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/wa/LC_MESSAGES
+Installing po/xh/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/xh/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_HK/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/zh_HK/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/gnome-font-viewer.mo to /pkgs/gnome-font-viewer/usr/share/locale/zh_TW/LC_MESSAGES
+Installing data/org.gnome.font-viewer.metainfo.xml to /pkgs/gnome-font-viewer/usr/share/metainfo
+Installing data/org.gnome.font-viewer.desktop to /pkgs/gnome-font-viewer/usr/share/applications
+Installing /blfs/builds/gnome-font-viewer-50.0/data/icons/hicolor/scalable/apps/org.gnome.font-viewer.svg to /pkgs/gnome-font-viewer/usr/share/icons/hicolor/scalable/apps
+Installing /blfs/builds/gnome-font-viewer-50.0/data/icons/hicolor/symbolic/apps/org.gnome.font-viewer-symbolic.svg to /pkgs/gnome-font-viewer/usr/share/icons/hicolor/symbolic/apps
+Installing /blfs/builds/gnome-font-viewer-50.0/build/data/org.gnome.font-viewer.service to /pkgs/gnome-font-viewer/usr/share/dbus-1/services
+Installing /blfs/builds/gnome-font-viewer-50.0/data/gnome-font-viewer.thumbnailer to /pkgs/gnome-font-viewer/usr/share/thumbnailers
+Skipping custom install script because DESTDIR is set '/usr/bin/update-desktop-database -q /usr/share/applications'
+gnome-font-viewer/
+gnome-font-viewer/usr/
+gnome-font-viewer/usr/share/
+gnome-font-viewer/usr/share/locale/
+gnome-font-viewer/usr/share/locale/sr/
+gnome-font-viewer/usr/share/locale/sr/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/sr/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/nl/
+gnome-font-viewer/usr/share/locale/nl/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/nl/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/an/
+gnome-font-viewer/usr/share/locale/an/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/an/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/ab/
+gnome-font-viewer/usr/share/locale/ab/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/ab/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/sat/
+gnome-font-viewer/usr/share/locale/sat/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/sat/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/tg/
+gnome-font-viewer/usr/share/locale/tg/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/tg/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/mai/
+gnome-font-viewer/usr/share/locale/mai/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/mai/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/ku/
+gnome-font-viewer/usr/share/locale/ku/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/ku/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/fi/
+gnome-font-viewer/usr/share/locale/fi/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/fi/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/crh/
+gnome-font-viewer/usr/share/locale/crh/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/crh/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/kn/
+gnome-font-viewer/usr/share/locale/kn/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/kn/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/id/
+gnome-font-viewer/usr/share/locale/id/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/id/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/ga/
+gnome-font-viewer/usr/share/locale/ga/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/ga/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/gu/
+gnome-font-viewer/usr/share/locale/gu/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/gu/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/ro/
+gnome-font-viewer/usr/share/locale/ro/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/ro/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/ko/
+gnome-font-viewer/usr/share/locale/ko/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/ko/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/sr@latin/
+gnome-font-viewer/usr/share/locale/sr@latin/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/sr@latin/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/zh_TW/
+gnome-font-viewer/usr/share/locale/zh_TW/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/zh_TW/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/hi/
+gnome-font-viewer/usr/share/locale/hi/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/hi/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/kk/
+gnome-font-viewer/usr/share/locale/kk/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/kk/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/km/
+gnome-font-viewer/usr/share/locale/km/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/km/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/nb/
+gnome-font-viewer/usr/share/locale/nb/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/nb/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/as/
+gnome-font-viewer/usr/share/locale/as/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/as/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/af/
+gnome-font-viewer/usr/share/locale/af/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/af/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/ie/
+gnome-font-viewer/usr/share/locale/ie/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/ie/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/ar/
+gnome-font-viewer/usr/share/locale/ar/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/ar/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/uk/
+gnome-font-viewer/usr/share/locale/uk/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/uk/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/am/
+gnome-font-viewer/usr/share/locale/am/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/am/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/uz@cyrillic/
+gnome-font-viewer/usr/share/locale/uz@cyrillic/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/uz@cyrillic/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/kw/
+gnome-font-viewer/usr/share/locale/kw/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/kw/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/uz/
+gnome-font-viewer/usr/share/locale/uz/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/uz/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/wa/
+gnome-font-viewer/usr/share/locale/wa/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/wa/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/ast/
+gnome-font-viewer/usr/share/locale/ast/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/ast/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/ug/
+gnome-font-viewer/usr/share/locale/ug/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/ug/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/en_GB/
+gnome-font-viewer/usr/share/locale/en_GB/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/en_GB/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/oc/
+gnome-font-viewer/usr/share/locale/oc/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/oc/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/es/
+gnome-font-viewer/usr/share/locale/es/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/es/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/nds/
+gnome-font-viewer/usr/share/locale/nds/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/nds/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/rw/
+gnome-font-viewer/usr/share/locale/rw/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/rw/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/th/
+gnome-font-viewer/usr/share/locale/th/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/th/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/he/
+gnome-font-viewer/usr/share/locale/he/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/he/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/az/
+gnome-font-viewer/usr/share/locale/az/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/az/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/nn/
+gnome-font-viewer/usr/share/locale/nn/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/nn/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/vi/
+gnome-font-viewer/usr/share/locale/vi/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/vi/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/fr/
+gnome-font-viewer/usr/share/locale/fr/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/fr/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/ca/
+gnome-font-viewer/usr/share/locale/ca/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/ca/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/ta/
+gnome-font-viewer/usr/share/locale/ta/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/ta/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/pl/
+gnome-font-viewer/usr/share/locale/pl/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/pl/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/da/
+gnome-font-viewer/usr/share/locale/da/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/da/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/ru/
+gnome-font-viewer/usr/share/locale/ru/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/ru/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/bn_IN/
+gnome-font-viewer/usr/share/locale/bn_IN/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/bn_IN/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/is/
+gnome-font-viewer/usr/share/locale/is/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/is/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/mk/
+gnome-font-viewer/usr/share/locale/mk/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/mk/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/hr/
+gnome-font-viewer/usr/share/locale/hr/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/hr/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/ja/
+gnome-font-viewer/usr/share/locale/ja/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/ja/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/kab/
+gnome-font-viewer/usr/share/locale/kab/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/kab/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/fa/
+gnome-font-viewer/usr/share/locale/fa/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/fa/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/ckb/
+gnome-font-viewer/usr/share/locale/ckb/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/ckb/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/zh_CN/
+gnome-font-viewer/usr/share/locale/zh_CN/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/zh_CN/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/cs/
+gnome-font-viewer/usr/share/locale/cs/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/cs/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/or/
+gnome-font-viewer/usr/share/locale/or/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/or/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/en_CA/
+gnome-font-viewer/usr/share/locale/en_CA/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/en_CA/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/lv/
+gnome-font-viewer/usr/share/locale/lv/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/lv/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/mr/
+gnome-font-viewer/usr/share/locale/mr/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/mr/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/pt_BR/
+gnome-font-viewer/usr/share/locale/pt_BR/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/pt_BR/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/cy/
+gnome-font-viewer/usr/share/locale/cy/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/cy/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/pt/
+gnome-font-viewer/usr/share/locale/pt/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/pt/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/hu/
+gnome-font-viewer/usr/share/locale/hu/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/hu/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/tr/
+gnome-font-viewer/usr/share/locale/tr/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/tr/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/ps/
+gnome-font-viewer/usr/share/locale/ps/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/ps/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/sl/
+gnome-font-viewer/usr/share/locale/sl/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/sl/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/zh_HK/
+gnome-font-viewer/usr/share/locale/zh_HK/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/zh_HK/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/mg/
+gnome-font-viewer/usr/share/locale/mg/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/mg/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/bn/
+gnome-font-viewer/usr/share/locale/bn/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/bn/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/fur/
+gnome-font-viewer/usr/share/locale/fur/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/fur/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/be@latin/
+gnome-font-viewer/usr/share/locale/be@latin/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/be@latin/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/eu/
+gnome-font-viewer/usr/share/locale/eu/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/eu/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/dz/
+gnome-font-viewer/usr/share/locale/dz/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/dz/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/el/
+gnome-font-viewer/usr/share/locale/el/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/el/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/xh/
+gnome-font-viewer/usr/share/locale/xh/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/xh/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/mn/
+gnome-font-viewer/usr/share/locale/mn/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/mn/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/gd/
+gnome-font-viewer/usr/share/locale/gd/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/gd/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/sv/
+gnome-font-viewer/usr/share/locale/sv/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/sv/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/br/
+gnome-font-viewer/usr/share/locale/br/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/br/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/ml/
+gnome-font-viewer/usr/share/locale/ml/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/ml/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/sk/
+gnome-font-viewer/usr/share/locale/sk/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/sk/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/si/
+gnome-font-viewer/usr/share/locale/si/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/si/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/eo/
+gnome-font-viewer/usr/share/locale/eo/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/eo/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/bg/
+gnome-font-viewer/usr/share/locale/bg/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/bg/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/pa/
+gnome-font-viewer/usr/share/locale/pa/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/pa/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/ka/
+gnome-font-viewer/usr/share/locale/ka/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/ka/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/te/
+gnome-font-viewer/usr/share/locale/te/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/te/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/ne/
+gnome-font-viewer/usr/share/locale/ne/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/ne/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/it/
+gnome-font-viewer/usr/share/locale/it/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/it/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/de/
+gnome-font-viewer/usr/share/locale/de/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/de/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/ky/
+gnome-font-viewer/usr/share/locale/ky/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/ky/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/ca@valencia/
+gnome-font-viewer/usr/share/locale/ca@valencia/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/ca@valencia/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/lt/
+gnome-font-viewer/usr/share/locale/lt/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/lt/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/et/
+gnome-font-viewer/usr/share/locale/et/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/et/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/sq/
+gnome-font-viewer/usr/share/locale/sq/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/sq/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/bs/
+gnome-font-viewer/usr/share/locale/bs/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/bs/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/be/
+gnome-font-viewer/usr/share/locale/be/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/be/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/ms/
+gnome-font-viewer/usr/share/locale/ms/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/ms/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/locale/gl/
+gnome-font-viewer/usr/share/locale/gl/LC_MESSAGES/
+gnome-font-viewer/usr/share/locale/gl/LC_MESSAGES/gnome-font-viewer.mo
+gnome-font-viewer/usr/share/dbus-1/
+gnome-font-viewer/usr/share/dbus-1/services/
+gnome-font-viewer/usr/share/dbus-1/services/org.gnome.font-viewer.service
+gnome-font-viewer/usr/share/icons/
+gnome-font-viewer/usr/share/icons/hicolor/
+gnome-font-viewer/usr/share/icons/hicolor/symbolic/
+gnome-font-viewer/usr/share/icons/hicolor/symbolic/apps/
+gnome-font-viewer/usr/share/icons/hicolor/symbolic/apps/org.gnome.font-viewer-symbolic.svg
+gnome-font-viewer/usr/share/icons/hicolor/scalable/
+gnome-font-viewer/usr/share/icons/hicolor/scalable/apps/
+gnome-font-viewer/usr/share/icons/hicolor/scalable/apps/org.gnome.font-viewer.svg
+gnome-font-viewer/usr/share/thumbnailers/
+gnome-font-viewer/usr/share/thumbnailers/gnome-font-viewer.thumbnailer
+gnome-font-viewer/usr/share/metainfo/
+gnome-font-viewer/usr/share/metainfo/org.gnome.font-viewer.metainfo.xml
+gnome-font-viewer/usr/share/applications/
+gnome-font-viewer/usr/share/applications/org.gnome.font-viewer.desktop
+gnome-font-viewer/usr/bin/
+gnome-font-viewer/usr/bin/gnome-font-viewer
+gnome-font-viewer/usr/bin/gnome-thumbnail-font
+gnome-font-viewer/version
+gnome-font-viewer/depends

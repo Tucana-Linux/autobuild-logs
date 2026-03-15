@@ -1,0 +1,616 @@
+--2026-03-15 08:59:28--  https://download.gnome.org/sources/xdg-desktop-portal-gnome/50/xdg-desktop-portal-gnome-50.0.tar.xz
+Resolving download.gnome.org (download.gnome.org)... 79.127.206.235, 79.127.206.207, 152.233.11.105, ...
+Connecting to download.gnome.org (download.gnome.org)|79.127.206.235|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 200348 (196K) [application/octet-stream]
+Saving to: ‘xdg-desktop-portal-gnome-50.0.tar.xz’
+
+     0K .......... .......... .......... .......... .......... 25% 4.96M 0s
+    50K .......... .......... .......... .......... .......... 51% 6.11M 0s
+   100K .......... .......... .......... .......... .......... 76% 11.8M 0s
+   150K .......... .......... .......... .......... .....     100% 9.20M=0.03s
+
+2026-03-15 08:59:28 (7.12 MB/s) - ‘xdg-desktop-portal-gnome-50.0.tar.xz’ saved [200348/200348]
+
+xdg-desktop-portal-gnome-50.0/
+xdg-desktop-portal-gnome-50.0/.gitignore
+xdg-desktop-portal-gnome-50.0/.gitlab-ci/
+xdg-desktop-portal-gnome-50.0/.gitlab-ci/install-meson-project.sh
+xdg-desktop-portal-gnome-50.0/.gitlab-ci.yml
+xdg-desktop-portal-gnome-50.0/COPYING
+xdg-desktop-portal-gnome-50.0/NEWS
+xdg-desktop-portal-gnome-50.0/README.md
+xdg-desktop-portal-gnome-50.0/data/
+xdg-desktop-portal-gnome-50.0/data/gnome.portal.in
+xdg-desktop-portal-gnome-50.0/data/meson.build
+xdg-desktop-portal-gnome-50.0/data/org.freedesktop.Accounts.User.xml
+xdg-desktop-portal-gnome-50.0/data/org.freedesktop.Accounts.xml
+xdg-desktop-portal-gnome-50.0/data/org.freedesktop.impl.portal.desktop.gnome.service.in
+xdg-desktop-portal-gnome-50.0/data/org.gnome.GlobalShortcutsProvider.xml
+xdg-desktop-portal-gnome-50.0/data/org.gnome.GlobalShortcutsRebind.xml
+xdg-desktop-portal-gnome-50.0/data/org.gnome.Mutter.DisplayConfig.xml
+xdg-desktop-portal-gnome-50.0/data/org.gnome.Mutter.InputCapture.xml
+xdg-desktop-portal-gnome-50.0/data/org.gnome.Mutter.RemoteDesktop.xml
+xdg-desktop-portal-gnome-50.0/data/org.gnome.Mutter.ScreenCast.xml
+xdg-desktop-portal-gnome-50.0/data/org.gnome.Shell.Introspect.xml
+xdg-desktop-portal-gnome-50.0/data/org.gnome.Shell.Screenshot.xml
+xdg-desktop-portal-gnome-50.0/data/org.gnome.Shell.xml
+xdg-desktop-portal-gnome-50.0/data/org.gtk.Notifications.xml
+xdg-desktop-portal-gnome-50.0/data/xdg-desktop-portal-gnome.desktop.in.in
+xdg-desktop-portal-gnome-50.0/data/xdg-desktop-portal-gnome.service.in
+xdg-desktop-portal-gnome-50.0/demo/
+xdg-desktop-portal-gnome-50.0/demo/README.md
+xdg-desktop-portal-gnome-50.0/demo/build-and-run.sh
+xdg-desktop-portal-gnome-50.0/demo/display-config-mock.py
+xdg-desktop-portal-gnome-50.0/demo/follow-xdpg-log.sh
+xdg-desktop-portal-gnome-50.0/demo/mock-build-and-run.sh
+xdg-desktop-portal-gnome-50.0/logo.png
+xdg-desktop-portal-gnome-50.0/meson.build
+xdg-desktop-portal-gnome-50.0/meson_options.txt
+xdg-desktop-portal-gnome-50.0/po/
+xdg-desktop-portal-gnome-50.0/po/LINGUAS
+xdg-desktop-portal-gnome-50.0/po/POTFILES.in
+xdg-desktop-portal-gnome-50.0/po/ab.po
+xdg-desktop-portal-gnome-50.0/po/ar.po
+xdg-desktop-portal-gnome-50.0/po/be.po
+xdg-desktop-portal-gnome-50.0/po/bg.po
+xdg-desktop-portal-gnome-50.0/po/ca.po
+xdg-desktop-portal-gnome-50.0/po/cs.po
+xdg-desktop-portal-gnome-50.0/po/da.po
+xdg-desktop-portal-gnome-50.0/po/de.po
+xdg-desktop-portal-gnome-50.0/po/el.po
+xdg-desktop-portal-gnome-50.0/po/en_GB.po
+xdg-desktop-portal-gnome-50.0/po/eo.po
+xdg-desktop-portal-gnome-50.0/po/es.po
+xdg-desktop-portal-gnome-50.0/po/eu.po
+xdg-desktop-portal-gnome-50.0/po/fa.po
+xdg-desktop-portal-gnome-50.0/po/fi.po
+xdg-desktop-portal-gnome-50.0/po/fil.po
+xdg-desktop-portal-gnome-50.0/po/fr.po
+xdg-desktop-portal-gnome-50.0/po/fur.po
+xdg-desktop-portal-gnome-50.0/po/gl.po
+xdg-desktop-portal-gnome-50.0/po/he.po
+xdg-desktop-portal-gnome-50.0/po/hi.po
+xdg-desktop-portal-gnome-50.0/po/hr.po
+xdg-desktop-portal-gnome-50.0/po/hu.po
+xdg-desktop-portal-gnome-50.0/po/ia.po
+xdg-desktop-portal-gnome-50.0/po/id.po
+xdg-desktop-portal-gnome-50.0/po/ie.po
+xdg-desktop-portal-gnome-50.0/po/is.po
+xdg-desktop-portal-gnome-50.0/po/it.po
+xdg-desktop-portal-gnome-50.0/po/ja.po
+xdg-desktop-portal-gnome-50.0/po/ka.po
+xdg-desktop-portal-gnome-50.0/po/kab.po
+xdg-desktop-portal-gnome-50.0/po/kk.po
+xdg-desktop-portal-gnome-50.0/po/ko.po
+xdg-desktop-portal-gnome-50.0/po/kw.po
+xdg-desktop-portal-gnome-50.0/po/lt.po
+xdg-desktop-portal-gnome-50.0/po/lv.po
+xdg-desktop-portal-gnome-50.0/po/meson.build
+xdg-desktop-portal-gnome-50.0/po/nb.po
+xdg-desktop-portal-gnome-50.0/po/ne.po
+xdg-desktop-portal-gnome-50.0/po/nl.po
+xdg-desktop-portal-gnome-50.0/po/oc.po
+xdg-desktop-portal-gnome-50.0/po/pa.po
+xdg-desktop-portal-gnome-50.0/po/pl.po
+xdg-desktop-portal-gnome-50.0/po/pt.po
+xdg-desktop-portal-gnome-50.0/po/pt_BR.po
+xdg-desktop-portal-gnome-50.0/po/ro.po
+xdg-desktop-portal-gnome-50.0/po/ru.po
+xdg-desktop-portal-gnome-50.0/po/sk.po
+xdg-desktop-portal-gnome-50.0/po/sl.po
+xdg-desktop-portal-gnome-50.0/po/sr.po
+xdg-desktop-portal-gnome-50.0/po/sr@latin.po
+xdg-desktop-portal-gnome-50.0/po/sv.po
+xdg-desktop-portal-gnome-50.0/po/th.po
+xdg-desktop-portal-gnome-50.0/po/tr.po
+xdg-desktop-portal-gnome-50.0/po/ug.po
+xdg-desktop-portal-gnome-50.0/po/uk.po
+xdg-desktop-portal-gnome-50.0/po/uz.po
+xdg-desktop-portal-gnome-50.0/po/zh_CN.po
+xdg-desktop-portal-gnome-50.0/po/zh_TW.po
+xdg-desktop-portal-gnome-50.0/src/
+xdg-desktop-portal-gnome-50.0/src/access.c
+xdg-desktop-portal-gnome-50.0/src/access.h
+xdg-desktop-portal-gnome-50.0/src/account.c
+xdg-desktop-portal-gnome-50.0/src/account.h
+xdg-desktop-portal-gnome-50.0/src/accountdialog.c
+xdg-desktop-portal-gnome-50.0/src/accountdialog.css
+xdg-desktop-portal-gnome-50.0/src/accountdialog.h
+xdg-desktop-portal-gnome-50.0/src/accountdialog.ui
+xdg-desktop-portal-gnome-50.0/src/appchooser.c
+xdg-desktop-portal-gnome-50.0/src/appchooser.h
+xdg-desktop-portal-gnome-50.0/src/appchooserdialog.c
+xdg-desktop-portal-gnome-50.0/src/appchooserdialog.h
+xdg-desktop-portal-gnome-50.0/src/appchooserdialog.ui
+xdg-desktop-portal-gnome-50.0/src/appchooserrow.c
+xdg-desktop-portal-gnome-50.0/src/appchooserrow.h
+xdg-desktop-portal-gnome-50.0/src/appchooserrow.ui
+xdg-desktop-portal-gnome-50.0/src/assets/
+xdg-desktop-portal-gnome-50.0/src/assets/gnome-shell-system.svg
+xdg-desktop-portal-gnome-50.0/src/assets/gnome-shell-workspace-indicator.svg
+xdg-desktop-portal-gnome-50.0/src/background.c
+xdg-desktop-portal-gnome-50.0/src/background.h
+xdg-desktop-portal-gnome-50.0/src/clipboard.c
+xdg-desktop-portal-gnome-50.0/src/clipboard.h
+xdg-desktop-portal-gnome-50.0/src/displaystatetracker.c
+xdg-desktop-portal-gnome-50.0/src/displaystatetracker.h
+xdg-desktop-portal-gnome-50.0/src/dynamic-launcher.c
+xdg-desktop-portal-gnome-50.0/src/dynamic-launcher.h
+xdg-desktop-portal-gnome-50.0/src/fc-monitor.c
+xdg-desktop-portal-gnome-50.0/src/fc-monitor.h
+xdg-desktop-portal-gnome-50.0/src/filechooser.c
+xdg-desktop-portal-gnome-50.0/src/filechooser.h
+xdg-desktop-portal-gnome-50.0/src/globalshortcuts.c
+xdg-desktop-portal-gnome-50.0/src/globalshortcuts.h
+xdg-desktop-portal-gnome-50.0/src/gnomeinputcapture.c
+xdg-desktop-portal-gnome-50.0/src/gnomeinputcapture.h
+xdg-desktop-portal-gnome-50.0/src/gnomescreencast.c
+xdg-desktop-portal-gnome-50.0/src/gnomescreencast.h
+xdg-desktop-portal-gnome-50.0/src/icons/
+xdg-desktop-portal-gnome-50.0/src/icons/info-outline-symbolic.svg
+xdg-desktop-portal-gnome-50.0/src/inputcapture.c
+xdg-desktop-portal-gnome-50.0/src/inputcapture.h
+xdg-desktop-portal-gnome-50.0/src/inputcapturedialog.c
+xdg-desktop-portal-gnome-50.0/src/inputcapturedialog.h
+xdg-desktop-portal-gnome-50.0/src/inputcapturedialog.ui
+xdg-desktop-portal-gnome-50.0/src/lockdown.c
+xdg-desktop-portal-gnome-50.0/src/lockdown.h
+xdg-desktop-portal-gnome-50.0/src/meson.build
+xdg-desktop-portal-gnome-50.0/src/notification.c
+xdg-desktop-portal-gnome-50.0/src/notification.h
+xdg-desktop-portal-gnome-50.0/src/print.c
+xdg-desktop-portal-gnome-50.0/src/print.h
+xdg-desktop-portal-gnome-50.0/src/remotedesktop.c
+xdg-desktop-portal-gnome-50.0/src/remotedesktop.h
+xdg-desktop-portal-gnome-50.0/src/remotedesktopdialog.c
+xdg-desktop-portal-gnome-50.0/src/remotedesktopdialog.h
+xdg-desktop-portal-gnome-50.0/src/remotedesktopdialog.ui
+xdg-desktop-portal-gnome-50.0/src/request.c
+xdg-desktop-portal-gnome-50.0/src/request.h
+xdg-desktop-portal-gnome-50.0/src/screencast.c
+xdg-desktop-portal-gnome-50.0/src/screencast.h
+xdg-desktop-portal-gnome-50.0/src/screencastdialog.c
+xdg-desktop-portal-gnome-50.0/src/screencastdialog.h
+xdg-desktop-portal-gnome-50.0/src/screencastdialog.ui
+xdg-desktop-portal-gnome-50.0/src/screencastgeometrycontainer.c
+xdg-desktop-portal-gnome-50.0/src/screencastgeometrycontainer.h
+xdg-desktop-portal-gnome-50.0/src/screencastwidget-dark.css
+xdg-desktop-portal-gnome-50.0/src/screencastwidget-light.css
+xdg-desktop-portal-gnome-50.0/src/screencastwidget.c
+xdg-desktop-portal-gnome-50.0/src/screencastwidget.css
+xdg-desktop-portal-gnome-50.0/src/screencastwidget.h
+xdg-desktop-portal-gnome-50.0/src/screencastwidget.ui
+xdg-desktop-portal-gnome-50.0/src/screenshot.c
+xdg-desktop-portal-gnome-50.0/src/screenshot.h
+xdg-desktop-portal-gnome-50.0/src/screenshotdialog.c
+xdg-desktop-portal-gnome-50.0/src/screenshotdialog.h
+xdg-desktop-portal-gnome-50.0/src/screenshotdialog.ui
+xdg-desktop-portal-gnome-50.0/src/session.c
+xdg-desktop-portal-gnome-50.0/src/session.h
+xdg-desktop-portal-gnome-50.0/src/settings.c
+xdg-desktop-portal-gnome-50.0/src/settings.h
+xdg-desktop-portal-gnome-50.0/src/shellintrospect.c
+xdg-desktop-portal-gnome-50.0/src/shellintrospect.h
+xdg-desktop-portal-gnome-50.0/src/testappchooser.c
+xdg-desktop-portal-gnome-50.0/src/usb.c
+xdg-desktop-portal-gnome-50.0/src/usb.h
+xdg-desktop-portal-gnome-50.0/src/usbdialog.c
+xdg-desktop-portal-gnome-50.0/src/usbdialog.h
+xdg-desktop-portal-gnome-50.0/src/usbdialog.ui
+xdg-desktop-portal-gnome-50.0/src/utils.c
+xdg-desktop-portal-gnome-50.0/src/utils.h
+xdg-desktop-portal-gnome-50.0/src/wallpaper.c
+xdg-desktop-portal-gnome-50.0/src/wallpaper.h
+xdg-desktop-portal-gnome-50.0/src/wallpaperdialog.c
+xdg-desktop-portal-gnome-50.0/src/wallpaperdialog.h
+xdg-desktop-portal-gnome-50.0/src/wallpaperdialog.ui
+xdg-desktop-portal-gnome-50.0/src/wallpaperpreview.c
+xdg-desktop-portal-gnome-50.0/src/wallpaperpreview.css
+xdg-desktop-portal-gnome-50.0/src/wallpaperpreview.h
+xdg-desktop-portal-gnome-50.0/src/wallpaperpreview.ui
+xdg-desktop-portal-gnome-50.0/src/xdg-desktop-portal-gnome.c
+xdg-desktop-portal-gnome-50.0/src/xdg-desktop-portal-gnome.gresource.xml
+xdg-desktop-portal-gnome-50.0/src/xdg-desktop-portal-gnome.gschema.xml
+xdg-desktop-portal-gnome-50.0/subprojects/
+xdg-desktop-portal-gnome-50.0/subprojects/libadwaita.wrap
+xdg-desktop-portal-gnome-50.0/subprojects/libgxdp/
+xdg-desktop-portal-gnome-50.0/subprojects/libgxdp/.gitlab-ci/
+xdg-desktop-portal-gnome-50.0/subprojects/libgxdp/.gitlab-ci/install-meson-project.sh
+xdg-desktop-portal-gnome-50.0/subprojects/libgxdp/.gitlab-ci.yml
+xdg-desktop-portal-gnome-50.0/subprojects/libgxdp/README.md
+xdg-desktop-portal-gnome-50.0/subprojects/libgxdp/data/
+xdg-desktop-portal-gnome-50.0/subprojects/libgxdp/data/mutter-x11-interop.xml
+xdg-desktop-portal-gnome-50.0/subprojects/libgxdp/data/org.gnome.Mutter.ServiceChannel.xml
+xdg-desktop-portal-gnome-50.0/subprojects/libgxdp/libgxdp.doap
+xdg-desktop-portal-gnome-50.0/subprojects/libgxdp/meson.build
+xdg-desktop-portal-gnome-50.0/subprojects/libgxdp/meson.options
+xdg-desktop-portal-gnome-50.0/subprojects/libgxdp/src/
+xdg-desktop-portal-gnome-50.0/subprojects/libgxdp/src/gxdp-config.h.meson
+xdg-desktop-portal-gnome-50.0/subprojects/libgxdp/src/gxdp-external-window-wayland.c
+xdg-desktop-portal-gnome-50.0/subprojects/libgxdp/src/gxdp-external-window-wayland.h
+xdg-desktop-portal-gnome-50.0/subprojects/libgxdp/src/gxdp-external-window-x11.c
+xdg-desktop-portal-gnome-50.0/subprojects/libgxdp/src/gxdp-external-window-x11.h
+xdg-desktop-portal-gnome-50.0/subprojects/libgxdp/src/gxdp-external-window.c
+xdg-desktop-portal-gnome-50.0/subprojects/libgxdp/src/gxdp-external-window.h
+xdg-desktop-portal-gnome-50.0/subprojects/libgxdp/src/gxdp-wayland.c
+xdg-desktop-portal-gnome-50.0/subprojects/libgxdp/src/gxdp-wayland.h
+xdg-desktop-portal-gnome-50.0/subprojects/libgxdp/src/gxdp.c
+xdg-desktop-portal-gnome-50.0/subprojects/libgxdp/src/gxdp.h
+xdg-desktop-portal-gnome-50.0/subprojects/libgxdp/src/meson.build
+xdg-desktop-portal-gnome-50.0/subprojects/libgxdp/tests/
+xdg-desktop-portal-gnome-50.0/subprojects/libgxdp/tests/meson.build
+xdg-desktop-portal-gnome-50.0/subprojects/libgxdp/tests/test-portal.c
+xdg-desktop-portal-gnome-50.0/subprojects/libgxdp/tests/test-stacking.py
+xdg-desktop-portal-gnome-50.0/subprojects/libgxdp/tests/test-wayland-client.c
+xdg-desktop-portal-gnome-50.0/subprojects/libgxdp/tests/test-x11-client.c
+xdg-desktop-portal-gnome-50.0/subprojects/libgxdp.wrap
+xdg-desktop-portal-gnome-50.0/xdg-desktop-portal-gnome.doap
+The Meson build system
+Version: 1.10.1
+Source dir: /blfs/builds/xdg-desktop-portal-gnome-50.0
+Build dir: /blfs/builds/xdg-desktop-portal-gnome-50.0/build
+Build type: native build
+Project name: xdg-desktop-portal-gnome
+Project version: 50.0
+C compiler for the host machine: cc (gcc 15.2.0 "cc (GCC) 15.2.0")
+C linker for the host machine: cc ld.bfd 2.45
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+
+Executing subproject libgxdp 
+
+libgxdp| Project name: libgxdp
+libgxdp| Project version: 48.alpha
+libgxdp| C compiler for the host machine: cc (gcc 15.2.0 "cc (GCC) 15.2.0")
+libgxdp| C linker for the host machine: cc ld.bfd 2.45
+libgxdp| Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+libgxdp| Run-time dependency gtk4 found: YES 4.22.1
+libgxdp| Run-time dependency gtk4-wayland found: YES 4.22.1
+libgxdp| Program wayland-scanner found: YES (/usr/bin/wayland-scanner)
+libgxdp| Build-time dependency gio-2.0 found: YES 2.86.4
+libgxdp| Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+libgxdp| Run-time dependency wayland-client found: YES 1.24.91
+libgxdp| Run-time dependency gtk4-x11 found: YES 4.22.1
+libgxdp| Run-time dependency x11 found: YES 1.8.13
+libgxdp| Configuring gxdp-config.h using configuration
+libgxdp| Build targets in project: 4
+libgxdp| Subproject libgxdp finished.
+
+Run-time dependency systemd found: YES 259
+Configuring gnome.portal using configuration
+Configuring org.freedesktop.impl.portal.desktop.gnome.service using configuration
+Configuring xdg-desktop-portal-gnome.service using configuration
+Configuring xdg-desktop-portal-gnome.desktop.in using configuration
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Program msginit found: YES (/usr/bin/msginit)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program xgettext found: YES (/usr/bin/xgettext)
+Run-time dependency xdg-desktop-portal found: YES 1.20.2
+Dependency gio-2.0 found: YES 2.86.4 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Dependency gio-2.0 found: YES 2.86.4 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Dependency gio-2.0 found: YES 2.86.4 (cached)
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Configuring config.h using configuration
+Run-time dependency libadwaita-1 found: YES 1.9.0
+Library m found: YES
+Run-time dependency fontconfig found: YES 2.17.1
+Run-time dependency glib-2.0 found: YES 2.86.4
+Run-time dependency gio-unix-2.0 found: YES 2.86.4
+Dependency gtk4 found: YES 4.22.1 (cached)
+Run-time dependency gtk4-unix-print found: YES 4.22.1
+Run-time dependency gsettings-desktop-schemas found: YES 49.1
+Run-time dependency gnome-desktop-4 found: YES 44.5
+Run-time dependency gnome-bg-4 found: YES 44.5
+Dependency libgxdp found: YES 48.alpha (overridden)
+Dependency gio-2.0 found: YES 2.86.4 (cached)
+Program /usr/bin/glib-compile-schemas found: YES (/usr/bin/glib-compile-schemas)
+Build targets in project: 73
+
+xdg-desktop-portal-gnome 50.0
+
+    prefix            : /usr
+    datadir           : share
+    libdir            : lib
+    libexecdir        : libexec
+    dbus_service_dir  : share/dbus-1/services
+
+  systemd session service
+    systemd-service   : auto
+    systemduserunitdir: /usr/lib/systemd/user
+
+  Subprojects
+    libgxdp           : YES
+
+  User defined options
+    buildtype         : release
+    prefix            : /usr
+
+Found ninja-1.13.2 at /usr/bin/ninja
+[1/119] Generating subprojects/libgxdp/src/mutter-x11-interop client header with a custom command
+[2/119] Generating subprojects/libgxdp/src/mutter-x11-interop source with a custom command
+[3/119] Generating src/xdg-desktop-portal-gnome-resources_h with a custom command
+[4/119] Generating src/xdg-desktop-portal-gnome-resources_c with a custom command
+[5/119] Building translation po/ab/LC_MESSAGES/xdg-desktop-portal-gnome-ab.mo
+[6/119] Building translation po/be/LC_MESSAGES/xdg-desktop-portal-gnome-be.mo
+[7/119] Building translation po/ar/LC_MESSAGES/xdg-desktop-portal-gnome-ar.mo
+[8/119] Building translation po/bg/LC_MESSAGES/xdg-desktop-portal-gnome-bg.mo
+[9/119] Building translation po/ca/LC_MESSAGES/xdg-desktop-portal-gnome-ca.mo
+[10/119] Building translation po/cs/LC_MESSAGES/xdg-desktop-portal-gnome-cs.mo
+[11/119] Building translation po/da/LC_MESSAGES/xdg-desktop-portal-gnome-da.mo
+[12/119] Building translation po/el/LC_MESSAGES/xdg-desktop-portal-gnome-el.mo
+[13/119] Building translation po/es/LC_MESSAGES/xdg-desktop-portal-gnome-es.mo
+[14/119] Building translation po/de/LC_MESSAGES/xdg-desktop-portal-gnome-de.mo
+[15/119] Building translation po/en_GB/LC_MESSAGES/xdg-desktop-portal-gnome-en_GB.mo
+[16/119] Building translation po/fa/LC_MESSAGES/xdg-desktop-portal-gnome-fa.mo
+[17/119] Building translation po/eo/LC_MESSAGES/xdg-desktop-portal-gnome-eo.mo
+[18/119] Building translation po/eu/LC_MESSAGES/xdg-desktop-portal-gnome-eu.mo
+[19/119] Building translation po/fil/LC_MESSAGES/xdg-desktop-portal-gnome-fil.mo
+[20/119] Building translation po/fr/LC_MESSAGES/xdg-desktop-portal-gnome-fr.mo
+[21/119] Building translation po/fi/LC_MESSAGES/xdg-desktop-portal-gnome-fi.mo
+[22/119] Building translation po/he/LC_MESSAGES/xdg-desktop-portal-gnome-he.mo
+[23/119] Building translation po/fur/LC_MESSAGES/xdg-desktop-portal-gnome-fur.mo
+[24/119] Building translation po/hr/LC_MESSAGES/xdg-desktop-portal-gnome-hr.mo
+[25/119] Building translation po/hu/LC_MESSAGES/xdg-desktop-portal-gnome-hu.mo
+[26/119] Building translation po/gl/LC_MESSAGES/xdg-desktop-portal-gnome-gl.mo
+[27/119] Building translation po/hi/LC_MESSAGES/xdg-desktop-portal-gnome-hi.mo
+[28/119] Building translation po/ia/LC_MESSAGES/xdg-desktop-portal-gnome-ia.mo
+[29/119] Building translation po/id/LC_MESSAGES/xdg-desktop-portal-gnome-id.mo
+[30/119] Building translation po/is/LC_MESSAGES/xdg-desktop-portal-gnome-is.mo
+[31/119] Building translation po/ie/LC_MESSAGES/xdg-desktop-portal-gnome-ie.mo
+[32/119] Building translation po/it/LC_MESSAGES/xdg-desktop-portal-gnome-it.mo
+[33/119] Building translation po/ka/LC_MESSAGES/xdg-desktop-portal-gnome-ka.mo
+[34/119] Building translation po/kw/LC_MESSAGES/xdg-desktop-portal-gnome-kw.mo
+[35/119] Building translation po/kab/LC_MESSAGES/xdg-desktop-portal-gnome-kab.mo
+[36/119] Building translation po/ko/LC_MESSAGES/xdg-desktop-portal-gnome-ko.mo
+[37/119] Generating gdbus header src/shell-dbus.h
+[38/119] Building translation po/ja/LC_MESSAGES/xdg-desktop-portal-gnome-ja.mo
+[39/119] Building translation po/kk/LC_MESSAGES/xdg-desktop-portal-gnome-kk.mo
+[40/119] Building translation po/lt/LC_MESSAGES/xdg-desktop-portal-gnome-lt.mo
+[41/119] Building translation po/lv/LC_MESSAGES/xdg-desktop-portal-gnome-lv.mo
+[42/119] Building translation po/nb/LC_MESSAGES/xdg-desktop-portal-gnome-nb.mo
+[43/119] Building translation po/ne/LC_MESSAGES/xdg-desktop-portal-gnome-ne.mo
+[44/119] Building translation po/pt/LC_MESSAGES/xdg-desktop-portal-gnome-pt.mo
+[45/119] Building translation po/nl/LC_MESSAGES/xdg-desktop-portal-gnome-nl.mo
+[46/119] Building translation po/oc/LC_MESSAGES/xdg-desktop-portal-gnome-oc.mo
+[47/119] Building translation po/pa/LC_MESSAGES/xdg-desktop-portal-gnome-pa.mo
+[48/119] Building translation po/sk/LC_MESSAGES/xdg-desktop-portal-gnome-sk.mo
+[49/119] Building translation po/pt_BR/LC_MESSAGES/xdg-desktop-portal-gnome-pt_BR.mo
+[50/119] Building translation po/ru/LC_MESSAGES/xdg-desktop-portal-gnome-ru.mo
+[51/119] Building translation po/pl/LC_MESSAGES/xdg-desktop-portal-gnome-pl.mo
+[52/119] Building translation po/ro/LC_MESSAGES/xdg-desktop-portal-gnome-ro.mo
+[53/119] Building translation po/sl/LC_MESSAGES/xdg-desktop-portal-gnome-sl.mo
+[54/119] Building translation po/sr/LC_MESSAGES/xdg-desktop-portal-gnome-sr.mo
+[55/119] Building translation po/sr@latin/LC_MESSAGES/xdg-desktop-portal-gnome-sr@latin.mo
+[56/119] Generating gdbus source subprojects/libgxdp/src/gxdp-dbus.c
+[57/119] Generating gdbus header subprojects/libgxdp/src/gxdp-dbus.h
+[58/119] Building translation po/th/LC_MESSAGES/xdg-desktop-portal-gnome-th.mo
+[59/119] Building translation po/ug/LC_MESSAGES/xdg-desktop-portal-gnome-ug.mo
+[60/119] Building translation po/tr/LC_MESSAGES/xdg-desktop-portal-gnome-tr.mo
+[61/119] Building translation po/sv/LC_MESSAGES/xdg-desktop-portal-gnome-sv.mo
+[62/119] Building translation po/zh_CN/LC_MESSAGES/xdg-desktop-portal-gnome-zh_CN.mo
+[63/119] Building translation po/uz/LC_MESSAGES/xdg-desktop-portal-gnome-uz.mo
+[64/119] Generating gdbus header src/xdg-desktop-portal-dbus.h
+[65/119] Generating gdbus source src/shell-dbus.c
+[66/119] Building translation po/uk/LC_MESSAGES/xdg-desktop-portal-gnome-uk.mo
+[67/119] Building translation po/zh_TW/LC_MESSAGES/xdg-desktop-portal-gnome-zh_TW.mo
+[68/119] Generating gdbus source src/xdg-desktop-portal-dbus.c
+[69/119] Compiling C object src/xdg-desktop-portal-gnome.p/meson-generated_.._.._subprojects_libgxdp_src_mutter-x11-interop-protocol.c.o
+[70/119] Merging translations for data/xdg-desktop-portal-gnome.desktop
+[71/119] Compiling C object src/xdg-desktop-portal-gnome.p/meson-generated_.._xdg-desktop-portal-gnome-resources.c.o
+[72/119] Compiling C object src/xdg-desktop-portal-gnome.p/dynamic-launcher.c.o
+../src/dynamic-launcher.c: In function ‘handle_prepare_install’:
+../src/dynamic-launcher.c:255:3: warning: ‘gtk_dialog_new_with_buttons’ is deprecated [-Wdeprecated-declarations]
+  255 |   dialog = GTK_WINDOW (gtk_dialog_new_with_buttons (title,
+      |   ^~~~~~
+In file included from /usr/include/gtk-4.0/gtk/deprecated/gtkappchooserdialog.h:31,
+                 from /usr/include/gtk-4.0/gtk/gtk.h:44,
+                 from ../src/dynamic-launcher.c:27:
+/usr/include/gtk-4.0/gtk/deprecated/gtkdialog.h:137:12: note: declared here
+  137 | GtkWidget* gtk_dialog_new_with_buttons (const char      *title,
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/dynamic-launcher.c:264:3: warning: ‘gtk_dialog_get_content_area’ is deprecated [-Wdeprecated-declarations]
+  264 |   content_area = gtk_dialog_get_content_area (GTK_DIALOG (dialog));
+      |   ^~~~~~~~~~~~
+/usr/include/gtk-4.0/gtk/deprecated/gtkdialog.h:176:13: note: declared here
+  176 | GtkWidget * gtk_dialog_get_content_area (GtkDialog *dialog);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/dynamic-launcher.c:290:3: warning: ‘gtk_image_set_from_pixbuf’ is deprecated: Use 'gtk_image_set_from_paintable' instead [-Wdeprecated-declarations]
+  290 |   gtk_image_set_from_pixbuf (GTK_IMAGE (image), pixbuf);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/gtk-4.0/gtk/gtkentry.h:40,
+                 from /usr/include/gtk-4.0/gtk/deprecated/gtktreeview.h:27,
+                 from /usr/include/gtk-4.0/gtk/deprecated/gtkcombobox.h:26,
+                 from /usr/include/gtk-4.0/gtk/gtk.h:95:
+/usr/include/gtk-4.0/gtk/gtkimage.h:95:6: note: declared here
+   95 | void gtk_image_set_from_pixbuf    (GtkImage        *image,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~
+../src/dynamic-launcher.c:315:3: warning: ‘gtk_dialog_set_default_response’ is deprecated [-Wdeprecated-declarations]
+  315 |   gtk_dialog_set_default_response (GTK_DIALOG (dialog), GTK_RESPONSE_OK);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/gtk-4.0/gtk/deprecated/gtkdialog.h:161:6: note: declared here
+  161 | void gtk_dialog_set_default_response   (GtkDialog *dialog,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[73/119] Compiling C object src/xdg-desktop-portal-gnome.p/account.c.o
+[74/119] Compiling C object src/xdg-desktop-portal-gnome.p/appchooserdialog.c.o
+../src/appchooserdialog.c: In function ‘show_error_dialog’:
+../src/appchooserdialog.c:175:3: warning: ‘adw_message_dialog_new’ is deprecated: Use 'adw_alert_dialog_new' instead [-Wdeprecated-declarations]
+  175 |   message_dialog = adw_message_dialog_new (parent, primary, secondary);
+      |   ^~~~~~~~~~~~~~
+In file included from /usr/include/libadwaita-1/adwaita.h:63,
+                 from ../src/appchooserdialog.c:27:
+/usr/include/libadwaita-1/adw-message-dialog.h:40:12: note: declared here
+   40 | GtkWidget *adw_message_dialog_new (GtkWindow  *parent,
+      |            ^~~~~~~~~~~~~~~~~~~~~~
+../src/appchooserdialog.c:176:3: warning: ‘adw_message_dialog_add_response’ is deprecated: Use 'adw_alert_dialog_add_response' instead [-Wdeprecated-declarations]
+  176 |   adw_message_dialog_add_response (ADW_MESSAGE_DIALOG (message_dialog), "ok", _("_OK"));
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/libadwaita-1/adw-message-dialog.h:95:6: note: declared here
+   95 | void adw_message_dialog_add_response (AdwMessageDialog *self,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/appchooserdialog.c:177:3: warning: ‘adw_message_dialog_set_default_response’ is deprecated: Use 'adw_alert_dialog_set_default_response' instead [-Wdeprecated-declarations]
+  177 |   adw_message_dialog_set_default_response (ADW_MESSAGE_DIALOG (message_dialog), "ok");
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/libadwaita-1/adw-message-dialog.h:135:13: note: declared here
+  135 | void        adw_message_dialog_set_default_response (AdwMessageDialog *self,
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[75/119] Compiling C object src/xdg-desktop-portal-gnome.p/appchooserrow.c.o
+[76/119] Compiling C object src/xdg-desktop-portal-gnome.p/clipboard.c.o
+[77/119] Compiling C object src/xdg-desktop-portal-gnome.p/meson-generated_.._.._subprojects_libgxdp_src_gxdp-dbus.c.o
+[78/119] Compiling C object src/xdg-desktop-portal-gnome.p/accountdialog.c.o
+../src/accountdialog.c: In function ‘file_chooser_response’:
+../src/accountdialog.c:128:3: warning: ‘gtk_file_chooser_get_file’ is deprecated [-Wdeprecated-declarations]
+  128 |   file = gtk_file_chooser_get_file (GTK_FILE_CHOOSER (widget));
+      |   ^~~~
+In file included from /usr/include/gtk-4.0/gtk/gtk.h:131,
+                 from /usr/include/libadwaita-1/adwaita.h:9,
+                 from ../src/accountdialog.c:5:
+/usr/include/gtk-4.0/gtk/deprecated/gtkfilechooser.h:123:22: note: declared here
+  123 | GFile *              gtk_file_chooser_get_file            (GtkFileChooser       *chooser);
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~~
+../src/accountdialog.c: In function ‘image_button_clicked’:
+../src/accountdialog.c:159:3: warning: ‘gtk_file_chooser_dialog_new’ is deprecated [-Wdeprecated-declarations]
+  159 |   chooser = gtk_file_chooser_dialog_new (_("Select an Image"),
+      |   ^~~~~~~
+In file included from /usr/include/gtk-4.0/gtk/gtk.h:132:
+/usr/include/gtk-4.0/gtk/deprecated/gtkfilechooserdialog.h:39:12: note: declared here
+   39 | GtkWidget *gtk_file_chooser_dialog_new              (const char           *title,
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/accountdialog.c:168:3: warning: ‘gtk_dialog_set_default_response’ is deprecated [-Wdeprecated-declarations]
+  168 |   gtk_dialog_set_default_response (GTK_DIALOG (chooser), GTK_RESPONSE_OK);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/gtk-4.0/gtk/deprecated/gtkappchooserdialog.h:31,
+                 from /usr/include/gtk-4.0/gtk/gtk.h:44:
+/usr/include/gtk-4.0/gtk/deprecated/gtkdialog.h:161:6: note: declared here
+  161 | void gtk_dialog_set_default_response   (GtkDialog *dialog,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/accountdialog.c:172:3: warning: ‘gtk_file_filter_add_pixbuf_formats’ is deprecated [-Wdeprecated-declarations]
+  172 |   gtk_file_filter_add_pixbuf_formats (filter);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/gtk-4.0/gtk/deprecated/gtkfilechooser.h:25:
+/usr/include/gtk-4.0/gtk/gtkfilefilter.h:64:17: note: declared here
+   64 | void            gtk_file_filter_add_pixbuf_formats (GtkFileFilter *filter);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/accountdialog.c:173:3: warning: ‘gtk_file_chooser_add_filter’ is deprecated [-Wdeprecated-declarations]
+  173 |   gtk_file_chooser_add_filter (GTK_FILE_CHOOSER (chooser), filter);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/gtk-4.0/gtk/deprecated/gtkfilechooser.h:140:22: note: declared here
+  140 | void                 gtk_file_chooser_add_filter          (GtkFileChooser       *chooser,
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+[79/119] Compiling C object src/xdg-desktop-portal-gnome.p/access.c.o
+../src/access.c: In function ‘create_access_dialog’:
+../src/access.c:213:3: warning: ‘adw_message_dialog_new’ is deprecated: Use 'adw_alert_dialog_new' instead [-Wdeprecated-declarations]
+  213 |   dialog = adw_message_dialog_new (GTK_WINDOW (fake_parent), title, subtitle);
+      |   ^~~~~~
+In file included from /usr/include/libadwaita-1/adwaita.h:63,
+                 from ../src/access.c:5:
+/usr/include/libadwaita-1/adw-message-dialog.h:40:12: note: declared here
+   40 | GtkWidget *adw_message_dialog_new (GtkWindow  *parent,
+      |            ^~~~~~~~~~~~~~~~~~~~~~
+../src/access.c:218:3: warning: ‘adw_message_dialog_add_responses’ is deprecated: Use 'adw_alert_dialog_add_responses' instead [-Wdeprecated-declarations]
+  218 |   adw_message_dialog_add_responses (ADW_MESSAGE_DIALOG (dialog),
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/libadwaita-1/adw-message-dialog.h:104:6: note: declared here
+  104 | void adw_message_dialog_add_responses (AdwMessageDialog *self,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/access.c:223:3: warning: ‘adw_message_dialog_set_default_response’ is deprecated: Use 'adw_alert_dialog_set_default_response' instead [-Wdeprecated-declarations]
+  223 |   adw_message_dialog_set_default_response (ADW_MESSAGE_DIALOG (dialog), "deny");
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/libadwaita-1/adw-message-dialog.h:135:13: note: declared here
+  135 | void        adw_message_dialog_set_default_response (AdwMessageDialog *self,
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/access.c:226:3: warning: ‘adw_message_dialog_set_extra_child’ is deprecated: Use 'adw_alert_dialog_set_extra_child' instead [-Wdeprecated-declarations]
+  226 |   adw_message_dialog_set_extra_child (ADW_MESSAGE_DIALOG (dialog), extra);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/libadwaita-1/adw-message-dialog.h:91:12: note: declared here
+   91 | void       adw_message_dialog_set_extra_child (AdwMessageDialog *self,
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[80/119] Compiling C object src/xdg-desktop-portal-gnome.p/fc-monitor.c.o
+[81/119] Compiling C object src/xdg-desktop-portal-gnome.p/background.c.o
+[82/119] Compiling C object src/xdg-desktop-portal-gnome.p/displaystatetracker.c.o
+[83/119] Compiling C object src/xdg-desktop-portal-gnome.p/inputcapturedialog.c.o
+[84/119] Compiling C object src/xdg-desktop-portal-gnome.p/inputcapture.c.o
+[85/119] Compiling C object src/xdg-desktop-portal-gnome.p/lockdown.c.o
+[86/119] Compiling C object src/xdg-desktop-portal-gnome.p/filechooser.c.o
+[87/119] Compiling C object src/xdg-desktop-portal-gnome.p/globalshortcuts.c.o
+[88/119] Compiling C object src/xdg-desktop-portal-gnome.p/gnomescreencast.c.o
+[89/119] Compiling C object src/xdg-desktop-portal-gnome.p/appchooser.c.o
+[90/119] Compiling C object src/xdg-desktop-portal-gnome.p/request.c.o
+[91/119] Compiling C object src/xdg-desktop-portal-gnome.p/gnomeinputcapture.c.o
+[92/119] Compiling C object src/xdg-desktop-portal-gnome.p/print.c.o
+../src/print.c: In function ‘handle_prepare_print’:
+../src/print.c:730:7: warning: ‘gtk_dialog_get_widget_for_response’ is deprecated [-Wdeprecated-declarations]
+  730 |       GtkWidget *button = gtk_dialog_get_widget_for_response (GTK_DIALOG (dialog), GTK_RESPONSE_OK);
+      |       ^~~~~~~~~
+In file included from /usr/include/gtk-4.0/gtk/deprecated/gtkappchooserdialog.h:31,
+                 from /usr/include/gtk-4.0/gtk/gtk.h:44,
+                 from ../src/print.c:28:
+/usr/include/gtk-4.0/gtk/deprecated/gtkdialog.h:164:12: note: declared here
+  164 | GtkWidget* gtk_dialog_get_widget_for_response (GtkDialog *dialog,
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[93/119] Compiling C object src/xdg-desktop-portal-gnome.p/notification.c.o
+[94/119] Compiling C object src/xdg-desktop-portal-gnome.p/session.c.o
+[95/119] Compiling C object src/xdg-desktop-portal-gnome.p/screenshot.c.o
+[96/119] Compiling C object src/xdg-desktop-portal-gnome.p/screencastdialog.c.o
+[97/119] Compiling C object src/xdg-desktop-portal-gnome.p/remotedesktopdialog.c.o
+[98/119] Compiling C object src/xdg-desktop-portal-gnome.p/screenshotdialog.c.o
+[99/119] Compiling C object src/xdg-desktop-portal-gnome.p/screencastgeometrycontainer.c.o
+[100/119] Compiling C object src/xdg-desktop-portal-gnome.p/remotedesktop.c.o
+[101/119] Compiling C object src/xdg-desktop-portal-gnome.p/shellintrospect.c.o
+[102/119] Compiling C object src/xdg-desktop-portal-gnome.p/utils.c.o
+[103/119] Compiling C object src/xdg-desktop-portal-gnome.p/wallpaperdialog.c.o
+[104/119] Compiling C object src/xdg-desktop-portal-gnome.p/.._subprojects_libgxdp_src_gxdp.c.o
+[105/119] Compiling C object src/xdg-desktop-portal-gnome.p/usbdialog.c.o
+[106/119] Compiling C object src/xdg-desktop-portal-gnome.p/settings.c.o
+FAILED: [code=1] src/xdg-desktop-portal-gnome.p/settings.c.o 
+cc -Isrc/xdg-desktop-portal-gnome.p -Isrc -I../src -Isubprojects/libgxdp/src -I../subprojects/libgxdp/src -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sysprof-6 -I/usr/include/gio-unix-2.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/gtk-4.0 -I/usr/include/pango-1.0 -I/usr/include/fribidi -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/glycin-2 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/graphene-1.0 -I/usr/lib/graphene-1.0/include -I/usr/include/gtk-4.0/unix-print -I/usr/include/gsettings-desktop-schemas -I/usr/include/gnome-desktop-4.0 -I/usr/include/libxml2 -I/usr/include/libadwaita-1 -I/usr/include/appstream -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O3 -O2 -mfpmath=sse -msse -msse2 -pthread -mfpmath=sse -msse -msse2 -mfpmath=sse -msse -msse2 -mfpmath=sse -msse -msse2 -mfpmath=sse -msse -msse2 -mfpmath=sse -msse -msse2 -MD -MQ src/xdg-desktop-portal-gnome.p/settings.c.o -MF src/xdg-desktop-portal-gnome.p/settings.c.o.d -o src/xdg-desktop-portal-gnome.p/settings.c.o -c ../src/settings.c
+../src/settings.c: In function ‘get_reduced_motion_value’:
+../src/settings.c:141:10: error: ‘G_DESKTOP_REDUCED_MOTION_REDUCE’ undeclared (first use in this function); did you mean ‘GTK_REDUCED_MOTION_REDUCE’?
+  141 |     case G_DESKTOP_REDUCED_MOTION_REDUCE:
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |          GTK_REDUCED_MOTION_REDUCE
+../src/settings.c:141:10: note: each undeclared identifier is reported only once for each function it appears in
+../src/settings.c:144:10: error: ‘G_DESKTOP_REDUCED_MOTION_NO_PREFERENCE’ undeclared (first use in this function); did you mean ‘GTK_REDUCED_MOTION_NO_PREFERENCE’?
+  144 |     case G_DESKTOP_REDUCED_MOTION_NO_PREFERENCE:
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |          GTK_REDUCED_MOTION_NO_PREFERENCE
+[107/119] Compiling C object src/xdg-desktop-portal-gnome.p/wallpaper.c.o
+[108/119] Compiling C object src/xdg-desktop-portal-gnome.p/.._subprojects_libgxdp_src_gxdp-external-window-wayland.c.o
+[109/119] Compiling C object src/xdg-desktop-portal-gnome.p/usb.c.o
+[110/119] Compiling C object src/xdg-desktop-portal-gnome.p/screencastwidget.c.o
+[111/119] Compiling C object src/xdg-desktop-portal-gnome.p/wallpaperpreview.c.o
+../src/wallpaperpreview.c: In function ‘draw_preview_func’:
+../src/wallpaperpreview.c:85:3: warning: ‘gdk_cairo_set_source_pixbuf’ is deprecated [-Wdeprecated-declarations]
+   85 |   gdk_cairo_set_source_pixbuf (cr, pixbuf, 0, 0);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/gtk-4.0/gdk/gdk.h:30,
+                 from /usr/include/gtk-4.0/gtk/gtk.h:30,
+                 from ../src/wallpaperpreview.c:30:
+/usr/include/gtk-4.0/gdk/gdkcairo.h:34:12: note: declared here
+   34 | void       gdk_cairo_set_source_pixbuf  (cairo_t              *cr,
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+[112/119] Compiling C object src/xdg-desktop-portal-gnome.p/screencast.c.o
+../src/screencast.c: In function ‘serialize_screen_cast_streams_as_restore_data’:
+../src/screencast.c:157:7: warning: ‘stream_variant’ may be used uninitialized [-Wmaybe-uninitialized]
+  157 |       g_variant_builder_add (impl_builder,
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  158 |                              "(uuv)",
+      |                              ~~~~~~~~
+  159 |                              info->id,
+      |                              ~~~~~~~~~
+  160 |                              info->type,
+      |                              ~~~~~~~~~~~
+  161 |                              stream_variant);
+      |                              ~~~~~~~~~~~~~~~
+../src/screencast.c:129:17: note: ‘stream_variant’ was declared here
+  129 |       GVariant *stream_variant;
+      |                 ^~~~~~~~~~~~~~
+[113/119] Compiling C object src/xdg-desktop-portal-gnome.p/.._subprojects_libgxdp_src_gxdp-external-window.c.o
+[114/119] Compiling C object src/xdg-desktop-portal-gnome.p/xdg-desktop-portal-gnome.c.o
+[115/119] Compiling C object src/xdg-desktop-portal-gnome.p/.._subprojects_libgxdp_src_gxdp-external-window-x11.c.o
+[116/119] Compiling C object src/xdg-desktop-portal-gnome.p/.._subprojects_libgxdp_src_gxdp-wayland.c.o
+[117/119] Compiling C object src/xdg-desktop-portal-gnome.p/meson-generated_.._shell-dbus.c.o
+[118/119] Compiling C object src/xdg-desktop-portal-gnome.p/meson-generated_.._xdg-desktop-portal-dbus.c.o
+ninja: build stopped: subcommand failed.
