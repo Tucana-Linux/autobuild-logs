@@ -1,0 +1,898 @@
+--2026-03-20 09:38:41--  https://archive.xfce.org/src/xfce/xfconf/4.21/xfconf-4.21.2.tar.xz
+Resolving archive.xfce.org (archive.xfce.org)... 217.70.191.87
+Connecting to archive.xfce.org (archive.xfce.org)|217.70.191.87|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://archive.al-us.xfce.org/src/xfce/xfconf/4.21/xfconf-4.21.2.tar.xz [following]
+--2026-03-20 09:38:41--  https://archive.al-us.xfce.org/src/xfce/xfconf/4.21/xfconf-4.21.2.tar.xz
+Resolving archive.al-us.xfce.org (archive.al-us.xfce.org)... 207.223.116.211
+Connecting to archive.al-us.xfce.org (archive.al-us.xfce.org)|207.223.116.211|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 161400 (158K) [application/x-xz]
+Saving to: ‘xfconf-4.21.2.tar.xz’
+
+     0K .......... .......... .......... .......... .......... 31%  355K 0s
+    50K .......... .......... .......... .......... .......... 63%  386K 0s
+   100K .......... .......... .......... .......... .......... 95%  293K 0s
+   150K .......                                               100% 2.69M=0.4s
+
+2026-03-20 09:38:42 (355 KB/s) - ‘xfconf-4.21.2.tar.xz’ saved [161400/161400]
+
+xfconf-4.21.2/
+xfconf-4.21.2/.clang-format
+xfconf-4.21.2/.gitlab-ci.yml
+xfconf-4.21.2/.scan-build-false-positives
+xfconf-4.21.2/AUTHORS
+xfconf-4.21.2/COPYING
+xfconf-4.21.2/NEWS
+xfconf-4.21.2/README.md
+xfconf-4.21.2/common/
+xfconf-4.21.2/common/meson.build
+xfconf-4.21.2/common/xfconf-common-private.h
+xfconf-4.21.2/common/xfconf-dbus.xml.in
+xfconf-4.21.2/common/xfconf-errors.c
+xfconf-4.21.2/common/xfconf-gvaluefuncs.c
+xfconf-4.21.2/common/xfconf-gvaluefuncs.h
+xfconf-4.21.2/common/xfconf-marshal.list
+xfconf-4.21.2/common/xfconf-types.c
+xfconf-4.21.2/completions/
+xfconf-4.21.2/completions/meson.build
+xfconf-4.21.2/completions/xfconf-query
+xfconf-4.21.2/docs/
+xfconf-4.21.2/docs/reference/
+xfconf-4.21.2/docs/reference/gtkdocentities.ent.in
+xfconf-4.21.2/docs/reference/meson.build
+xfconf-4.21.2/docs/reference/xfconf-docs.xml.in
+xfconf-4.21.2/docs/reference/xfconf-overrides.txt
+xfconf-4.21.2/docs/reference/xfconf-sections.txt
+xfconf-4.21.2/docs/reference/xfconf.types
+xfconf-4.21.2/docs/spec/
+xfconf-4.21.2/docs/spec/backend.txt
+xfconf-4.21.2/docs/spec/general.txt
+xfconf-4.21.2/docs/spec/lockdown-behavior.txt
+xfconf-4.21.2/docs/spec/perchannel-xml.dtd
+xfconf-4.21.2/docs/spec/perchannel-xml.txt
+xfconf-4.21.2/gsettings-backend/
+xfconf-4.21.2/gsettings-backend/meson.build
+xfconf-4.21.2/gsettings-backend/xfconf-giomodule.c
+xfconf-4.21.2/gsettings-backend/xfconf-gsettings-backend.c
+xfconf-4.21.2/gsettings-backend/xfconf-gsettings-backend.h
+xfconf-4.21.2/meson.build
+xfconf-4.21.2/meson_options.txt
+xfconf-4.21.2/po/
+xfconf-4.21.2/po/LINGUAS
+xfconf-4.21.2/po/POTFILES.in
+xfconf-4.21.2/po/ar.po
+xfconf-4.21.2/po/ast.po
+xfconf-4.21.2/po/be.po
+xfconf-4.21.2/po/bg.po
+xfconf-4.21.2/po/bn.po
+xfconf-4.21.2/po/ca.po
+xfconf-4.21.2/po/cs.po
+xfconf-4.21.2/po/da.po
+xfconf-4.21.2/po/de.po
+xfconf-4.21.2/po/el.po
+xfconf-4.21.2/po/en_AU.po
+xfconf-4.21.2/po/en_CA.po
+xfconf-4.21.2/po/en_GB.po
+xfconf-4.21.2/po/es.po
+xfconf-4.21.2/po/et.po
+xfconf-4.21.2/po/eu.po
+xfconf-4.21.2/po/fi.po
+xfconf-4.21.2/po/fr.po
+xfconf-4.21.2/po/gl.po
+xfconf-4.21.2/po/he.po
+xfconf-4.21.2/po/hi.po
+xfconf-4.21.2/po/hr.po
+xfconf-4.21.2/po/hu.po
+xfconf-4.21.2/po/hy_AM.po
+xfconf-4.21.2/po/hye.po
+xfconf-4.21.2/po/id.po
+xfconf-4.21.2/po/is.po
+xfconf-4.21.2/po/it.po
+xfconf-4.21.2/po/ja.po
+xfconf-4.21.2/po/ka.po
+xfconf-4.21.2/po/kab.po
+xfconf-4.21.2/po/kk.po
+xfconf-4.21.2/po/ko.po
+xfconf-4.21.2/po/lt.po
+xfconf-4.21.2/po/lv.po
+xfconf-4.21.2/po/meson.build
+xfconf-4.21.2/po/ms.po
+xfconf-4.21.2/po/nb.po
+xfconf-4.21.2/po/nl.po
+xfconf-4.21.2/po/nn.po
+xfconf-4.21.2/po/oc.po
+xfconf-4.21.2/po/pa.po
+xfconf-4.21.2/po/pl.po
+xfconf-4.21.2/po/pt.po
+xfconf-4.21.2/po/pt_BR.po
+xfconf-4.21.2/po/ro.po
+xfconf-4.21.2/po/ru.po
+xfconf-4.21.2/po/si.po
+xfconf-4.21.2/po/sk.po
+xfconf-4.21.2/po/sl.po
+xfconf-4.21.2/po/sq.po
+xfconf-4.21.2/po/sr.po
+xfconf-4.21.2/po/sv.po
+xfconf-4.21.2/po/te.po
+xfconf-4.21.2/po/th.po
+xfconf-4.21.2/po/tr.po
+xfconf-4.21.2/po/ug.po
+xfconf-4.21.2/po/uk.po
+xfconf-4.21.2/po/ur.po
+xfconf-4.21.2/po/ur_PK.po
+xfconf-4.21.2/po/vi.po
+xfconf-4.21.2/po/zh_CN.po
+xfconf-4.21.2/po/zh_HK.po
+xfconf-4.21.2/po/zh_TW.po
+xfconf-4.21.2/tests/
+xfconf-4.21.2/tests/Makefile.inc
+xfconf-4.21.2/tests/get-properties/
+xfconf-4.21.2/tests/get-properties/t-get-arrayv.c
+xfconf-4.21.2/tests/get-properties/t-get-boolean.c
+xfconf-4.21.2/tests/get-properties/t-get-double.c
+xfconf-4.21.2/tests/get-properties/t-get-int.c
+xfconf-4.21.2/tests/get-properties/t-get-string.c
+xfconf-4.21.2/tests/get-properties/t-get-stringlist.c
+xfconf-4.21.2/tests/get-properties/t-get-uint64.c
+xfconf-4.21.2/tests/has-properties/
+xfconf-4.21.2/tests/has-properties/t-has-arrayv.c
+xfconf-4.21.2/tests/has-properties/t-has-boolean.c
+xfconf-4.21.2/tests/has-properties/t-has-double.c
+xfconf-4.21.2/tests/has-properties/t-has-int.c
+xfconf-4.21.2/tests/has-properties/t-has-string.c
+xfconf-4.21.2/tests/has-properties/t-has-stringlist.c
+xfconf-4.21.2/tests/has-properties/t-has-uint64.c
+xfconf-4.21.2/tests/list-channels/
+xfconf-4.21.2/tests/list-channels/t-list-channels.c
+xfconf-4.21.2/tests/meson.build
+xfconf-4.21.2/tests/object-bindings/
+xfconf-4.21.2/tests/object-bindings/t-object-bindings.c
+xfconf-4.21.2/tests/others/
+xfconf-4.21.2/tests/others/t-issue-16.c
+xfconf-4.21.2/tests/property-changed-signal/
+xfconf-4.21.2/tests/property-changed-signal/t-string-changed-signal-detailed.c
+xfconf-4.21.2/tests/property-changed-signal/t-string-changed-signal.c
+xfconf-4.21.2/tests/reset-properties/
+xfconf-4.21.2/tests/reset-properties/t-reset-arrayv.c
+xfconf-4.21.2/tests/reset-properties/t-reset-boolean.c
+xfconf-4.21.2/tests/reset-properties/t-reset-double.c
+xfconf-4.21.2/tests/reset-properties/t-reset-int.c
+xfconf-4.21.2/tests/reset-properties/t-reset-string.c
+xfconf-4.21.2/tests/reset-properties/t-reset-stringlist.c
+xfconf-4.21.2/tests/reset-properties/t-reset-uint64.c
+xfconf-4.21.2/tests/set-properties/
+xfconf-4.21.2/tests/set-properties/t-set-arrayv.c
+xfconf-4.21.2/tests/set-properties/t-set-boolean.c
+xfconf-4.21.2/tests/set-properties/t-set-double.c
+xfconf-4.21.2/tests/set-properties/t-set-int.c
+xfconf-4.21.2/tests/set-properties/t-set-string.c
+xfconf-4.21.2/tests/set-properties/t-set-stringlist.c
+xfconf-4.21.2/tests/set-properties/t-set-uint64.c
+xfconf-4.21.2/tests/tests-common.h
+xfconf-4.21.2/tests/tests-driver.sh
+xfconf-4.21.2/tests/tests-end/
+xfconf-4.21.2/tests/tests-end/t-tests-end.c
+xfconf-4.21.2/xdt-gen-visibility
+xfconf-4.21.2/xfce-revision.h.in
+xfconf-4.21.2/xfconf/
+xfconf-4.21.2/xfconf/.clang-format
+xfconf-4.21.2/xfconf/libxfconf-0.deps
+xfconf-4.21.2/xfconf/libxfconf-0.pc.in
+xfconf-4.21.2/xfconf/meson.build
+xfconf-4.21.2/xfconf/xfconf-binding.c
+xfconf-4.21.2/xfconf/xfconf-binding.h
+xfconf-4.21.2/xfconf/xfconf-cache.c
+xfconf-4.21.2/xfconf/xfconf-cache.h
+xfconf-4.21.2/xfconf/xfconf-channel.c
+xfconf-4.21.2/xfconf/xfconf-channel.h
+xfconf-4.21.2/xfconf/xfconf-errors.h
+xfconf-4.21.2/xfconf/xfconf-private.h
+xfconf-4.21.2/xfconf/xfconf-types.h
+xfconf-4.21.2/xfconf/xfconf.c
+xfconf-4.21.2/xfconf/xfconf.h
+xfconf-4.21.2/xfconf/xfconf.symbols
+xfconf-4.21.2/xfconf-query/
+xfconf-4.21.2/xfconf-query/main.c
+xfconf-4.21.2/xfconf-query/meson.build
+xfconf-4.21.2/xfconfd/
+xfconf-4.21.2/xfconfd/main.c
+xfconf-4.21.2/xfconfd/meson.build
+xfconf-4.21.2/xfconfd/org.xfce.Xfconf.service.in
+xfconf-4.21.2/xfconfd/xfconf-backend-factory.c
+xfconf-4.21.2/xfconfd/xfconf-backend-factory.h
+xfconf-4.21.2/xfconfd/xfconf-backend-perchannel-xml.c
+xfconf-4.21.2/xfconfd/xfconf-backend-perchannel-xml.h
+xfconf-4.21.2/xfconfd/xfconf-backend.c
+xfconf-4.21.2/xfconfd/xfconf-backend.h
+xfconf-4.21.2/xfconfd/xfconf-daemon.c
+xfconf-4.21.2/xfconfd/xfconf-daemon.h
+xfconf-4.21.2/xfconfd/xfconf-lifecycle-manager.c
+xfconf-4.21.2/xfconfd/xfconf-lifecycle-manager.h
+xfconf-4.21.2/xfconfd/xfconf-locking-utils.c
+xfconf-4.21.2/xfconfd/xfconf-locking-utils.h
+xfconf-4.21.2/xfconfd/xfconfd.service.in
+The Meson build system
+Version: 1.10.2
+Source dir: /blfs/builds/xfconf-4.21.2
+Build dir: /blfs/builds/xfconf-4.21.2/build
+Build type: native build
+Project name: xfconf
+Project version: 4.21.2
+C compiler for the host machine: cc (gcc 15.2.0 "cc (GCC) 15.2.0")
+C linker for the host machine: cc ld.bfd 2.45
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Run-time dependency glib-2.0 found: YES 2.88.0
+Run-time dependency gio-2.0 found: YES 2.88.0
+Run-time dependency gio-unix-2.0 found: YES 2.88.0
+Run-time dependency gmodule-2.0 found: YES 2.88.0
+Run-time dependency gthread-2.0 found: YES 2.88.0
+Run-time dependency libxfce4util-1.0 found: YES 4.20.1
+Program xdt-gen-visibility found: YES (/blfs/builds/xfconf-4.21.2/xdt-gen-visibility)
+Run-time dependency gobject-introspection-1.0 found: YES 1.86.0
+Program vapigen found: YES (/usr/bin/vapigen)
+Found CMake: /usr/bin/cmake (4.2.3)
+Run-time dependency bash-completion found: NO (tried pkgconfig and cmake)
+Checking for alignment of "guchar" with dependency glib-2.0: 1 
+Checking for alignment of "gchar" with dependency glib-2.0: 1 
+Checking for alignment of "guint16" with dependency glib-2.0: 2 
+Checking for alignment of "gint16" with dependency glib-2.0: 2 
+Checking for alignment of "guint32" with dependency glib-2.0: 4 
+Checking for alignment of "gint32" with dependency glib-2.0: 4 
+Checking for alignment of "guint64" with dependency glib-2.0: 8 
+Checking for alignment of "gint64" with dependency glib-2.0: 8 
+Checking for alignment of "gfloat" with dependency glib-2.0: 4 
+Checking for alignment of "gdouble" with dependency glib-2.0: 8 
+Checking for alignment of "gboolean" with dependency glib-2.0: 4 
+Checking for alignment of "gpointer" with dependency glib-2.0: 8 
+Checking for function "fdatasync" : YES 
+Checking for function "fsync" : YES 
+Check usable header "sys/stat.h" : YES 
+Check usable header "sys/types.h" : YES 
+Check usable header "sys/wait.h" : YES 
+Check usable header "errno.h" : YES 
+Check usable header "fcntl.h" : YES 
+Check usable header "grp.h" : YES 
+Check usable header "signal.h" : YES 
+Check usable header "stdlib.h" : YES 
+Check usable header "string.h" : YES 
+Check usable header "unistd.h" : YES 
+Compiler for C supports arguments -Wmissing-declarations: YES 
+Compiler for C supports arguments -Wmissing-noreturn: YES 
+Compiler for C supports arguments -Wold-style-definition: YES 
+Compiler for C supports arguments -Wredundant-decls: YES 
+Compiler for C supports arguments -Wpointer-arith: YES 
+Compiler for C supports arguments -Wcast-align: YES 
+Compiler for C supports arguments -Winit-self: YES 
+Compiler for C supports arguments -Wshadow: YES 
+Compiler for C supports arguments -Wmissing-include-dirs: YES 
+Compiler for C supports arguments -Wundef: YES 
+Compiler for C supports arguments -Wformat: YES 
+Compiler for C supports arguments -Wformat-security: YES 
+Compiler for C supports arguments -Wformat-y2k: YES 
+Compiler for C supports arguments -Wnested-externs: YES 
+Compiler for C supports arguments -Wno-unused-parameter: YES 
+Compiler for C supports arguments -Wno-declaration-after-statement: YES 
+Compiler for C supports arguments -Wno-missing-field-initializers: YES 
+Compiler for C supports arguments -Werror=implicit-function-declaration: YES 
+Compiler for C supports arguments -Wno-error=deprecated-declarations: YES 
+Dependency glib-2.0 found: YES 2.88.0 (cached)
+Program /usr/bin/glib-genmarshal found: YES (/usr/bin/glib-genmarshal)
+Configuring xfconf-visibility.h with command
+Configuring xfconf-visibility.c with command
+Configuring xfconf-dbus.xml using configuration
+Dependency gio-2.0 found: YES 2.88.0 (cached)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Dependency gobject-introspection-1.0 found: YES 1.86.0 (cached)
+Dependency gobject-introspection-1.0 found: YES 1.86.0 (cached)
+Program /usr/bin/g-ir-scanner found: YES (/usr/bin/g-ir-scanner)
+Dependency gobject-introspection-1.0 found: YES 1.86.0 (cached)
+Program /usr/bin/g-ir-compiler found: YES (/usr/bin/g-ir-compiler)
+Program vapigen found: YES (/usr/bin/vapigen)
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Program msginit found: YES (/usr/bin/msginit)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program xgettext found: YES (/usr/bin/xgettext)
+Configuring xfconfd.service using configuration
+Configuring org.xfce.Xfconf.service using configuration
+Build targets in project: 115
+
+xfconf 4.21.2
+
+  User defined options
+    prefix: /usr
+
+Found ninja-1.13.2 at /usr/bin/ninja
+[1/170] Generating glib marshaller header common/xfconf-marshal_h
+[2/170] Compiling C object xfconf/libxfconf-0.so.3.0.0.p/meson-generated_.._.._common_xfconf-visibility.c.o
+[3/170] Generating gdbus header common/xfconf-gdbus-bindings.h
+[4/170] Generating xfce-revision.h with a custom command
+[5/170] Generating gdbus source common/xfconf-gdbus-bindings.c
+[6/170] Compiling C object xfconf/libxfconf-0.so.3.0.0.p/.._common_xfconf-types.c.o
+[7/170] Compiling C object gsettings-backend/libxfconfgsettingsbackend.so.p/xfconf-giomodule.c.o
+[8/170] Compiling C object common/libxfconf-common.a.p/meson-generated_.._xfconf-visibility.c.o
+[9/170] Generating glib marshaller source common/xfconf-marshal_c
+[10/170] Compiling C object tests/t-set-arrayv.p/set-properties_t-set-arrayv.c.o
+[11/170] Compiling C object xfconf/libxfconf-0.so.3.0.0.p/xfconf.c.o
+[12/170] Compiling C object common/libxfconf-common.a.p/xfconf-errors.c.o
+[13/170] Compiling C object gsettings-backend/libxfconfgsettingsbackend.so.p/xfconf-gsettings-backend.c.o
+[14/170] Compiling C object tests/t-set-double.p/set-properties_t-set-double.c.o
+[15/170] Compiling C object tests/t-set-boolean.p/set-properties_t-set-boolean.c.o
+[16/170] Compiling C object common/libxfconf-common.a.p/meson-generated_.._xfconf-marshal.c.o
+[17/170] Compiling C object common/libxfconf-gvaluefuncs.a.p/xfconf-gvaluefuncs.c.o
+[18/170] Compiling C object tests/t-set-string.p/set-properties_t-set-string.c.o
+[19/170] Compiling C object tests/t-set-int.p/set-properties_t-set-int.c.o
+[20/170] Linking static target common/libxfconf-gvaluefuncs.a
+[21/170] Linking static target common/libxfconf-common.a
+[22/170] Compiling C object xfconf/libxfconf-0.so.3.0.0.p/xfconf-binding.c.o
+[23/170] Compiling C object xfconf/libxfconf-0.so.3.0.0.p/xfconf-cache.c.o
+[24/170] Compiling C object tests/t-set-stringlist.p/set-properties_t-set-stringlist.c.o
+[25/170] Compiling C object tests/t-set-uint64.p/set-properties_t-set-uint64.c.o
+[26/170] Compiling C object common/libxfconf-dbus.a.p/meson-generated_.._xfconf-gdbus-bindings.c.o
+[27/170] Linking static target common/libxfconf-dbus.a
+[28/170] Compiling C object tests/t-has-double.p/has-properties_t-has-double.c.o
+[29/170] Compiling C object tests/t-has-int.p/has-properties_t-has-int.c.o
+[30/170] Compiling C object tests/t-has-arrayv.p/has-properties_t-has-arrayv.c.o
+[31/170] Compiling C object tests/t-has-stringlist.p/has-properties_t-has-stringlist.c.o
+[32/170] Compiling C object tests/t-has-boolean.p/has-properties_t-has-boolean.c.o
+[33/170] Compiling C object tests/t-get-arrayv.p/get-properties_t-get-arrayv.c.o
+[34/170] Compiling C object tests/t-has-uint64.p/has-properties_t-has-uint64.c.o
+[35/170] Compiling C object tests/t-has-string.p/has-properties_t-has-string.c.o
+[36/170] Compiling C object tests/t-get-boolean.p/get-properties_t-get-boolean.c.o
+[37/170] Compiling C object tests/t-reset-arrayv.p/reset-properties_t-reset-arrayv.c.o
+[38/170] Compiling C object tests/t-get-uint64.p/get-properties_t-get-uint64.c.o
+[39/170] Compiling C object tests/t-get-double.p/get-properties_t-get-double.c.o
+[40/170] Compiling C object tests/t-reset-double.p/reset-properties_t-reset-double.c.o
+[41/170] Compiling C object tests/t-get-stringlist.p/get-properties_t-get-stringlist.c.o
+[42/170] Compiling C object tests/t-get-int.p/get-properties_t-get-int.c.o
+[43/170] Compiling C object tests/t-get-string.p/get-properties_t-get-string.c.o
+[44/170] Compiling C object tests/t-tests-end.p/tests-end_t-tests-end.c.o
+[45/170] Compiling C object xfconf/libxfconf-0.so.3.0.0.p/xfconf-channel.c.o
+[46/170] Compiling C object tests/t-reset-boolean.p/reset-properties_t-reset-boolean.c.o
+[47/170] Compiling C object tests/t-reset-string.p/reset-properties_t-reset-string.c.o
+[48/170] Compiling C object tests/t-reset-stringlist.p/reset-properties_t-reset-stringlist.c.o
+[49/170] Compiling C object tests/t-reset-int.p/reset-properties_t-reset-int.c.o
+[50/170] Linking target xfconf/libxfconf-0.so.3.0.0
+[51/170] Compiling C object tests/t-issue-16.p/others_t-issue-16.c.o
+[52/170] Compiling C object tests/t-reset-uint64.p/reset-properties_t-reset-uint64.c.o
+[53/170] Compiling C object tests/t-string-changed-signal-detailed.p/property-changed-signal_t-string-changed-signal-detailed.c.o
+[54/170] Compiling C object tests/t-object-bindings.p/object-bindings_t-object-bindings.c.o
+[55/170] Compiling C object tests/t-string-changed-signal.p/property-changed-signal_t-string-changed-signal.c.o
+[56/170] Compiling C object xfconfd/xfconfd.p/.._common_xfconf-types.c.o
+[57/170] Building translation po/ar/LC_MESSAGES/xfconf-ar.mo
+[58/170] Building translation po/ast/LC_MESSAGES/xfconf-ast.mo
+[59/170] Building translation po/be/LC_MESSAGES/xfconf-be.mo
+[60/170] Building translation po/bg/LC_MESSAGES/xfconf-bg.mo
+[61/170] Building translation po/bn/LC_MESSAGES/xfconf-bn.mo
+[62/170] Building translation po/ca/LC_MESSAGES/xfconf-ca.mo
+[63/170] Building translation po/cs/LC_MESSAGES/xfconf-cs.mo
+[64/170] Building translation po/da/LC_MESSAGES/xfconf-da.mo
+[65/170] Compiling C object tests/t-list-channels.p/list-channels_t-list-channels.c.o
+[66/170] Building translation po/de/LC_MESSAGES/xfconf-de.mo
+[67/170] Building translation po/el/LC_MESSAGES/xfconf-el.mo
+[68/170] Building translation po/en_AU/LC_MESSAGES/xfconf-en_AU.mo
+[69/170] Building translation po/en_CA/LC_MESSAGES/xfconf-en_CA.mo
+[70/170] Building translation po/et/LC_MESSAGES/xfconf-et.mo
+[71/170] Building translation po/en_GB/LC_MESSAGES/xfconf-en_GB.mo
+[72/170] Building translation po/es/LC_MESSAGES/xfconf-es.mo
+[73/170] Building translation po/eu/LC_MESSAGES/xfconf-eu.mo
+[74/170] Compiling C object xfconfd/xfconfd.p/meson-generated_.._.._common_xfconf-visibility.c.o
+[75/170] Building translation po/fr/LC_MESSAGES/xfconf-fr.mo
+[76/170] Building translation po/fi/LC_MESSAGES/xfconf-fi.mo
+[77/170] Generating symbol file xfconf/libxfconf-0.so.3.0.0.p/libxfconf-0.so.3.0.0.symbols
+[78/170] Building translation po/gl/LC_MESSAGES/xfconf-gl.mo
+[79/170] Building translation po/hr/LC_MESSAGES/xfconf-hr.mo
+[80/170] Building translation po/hi/LC_MESSAGES/xfconf-hi.mo
+[81/170] Building translation po/hy_AM/LC_MESSAGES/xfconf-hy_AM.mo
+[82/170] Building translation po/he/LC_MESSAGES/xfconf-he.mo
+[83/170] Building translation po/hu/LC_MESSAGES/xfconf-hu.mo
+[84/170] Building translation po/it/LC_MESSAGES/xfconf-it.mo
+[85/170] Building translation po/hye/LC_MESSAGES/xfconf-hye.mo
+[86/170] Building translation po/id/LC_MESSAGES/xfconf-id.mo
+[87/170] Building translation po/is/LC_MESSAGES/xfconf-is.mo
+[88/170] Compiling C object xfconfd/xfconfd.p/xfconf-lifecycle-manager.c.o
+[89/170] Building translation po/ja/LC_MESSAGES/xfconf-ja.mo
+[90/170] Building translation po/ko/LC_MESSAGES/xfconf-ko.mo
+[91/170] Building translation po/kab/LC_MESSAGES/xfconf-kab.mo
+[92/170] Building translation po/ka/LC_MESSAGES/xfconf-ka.mo
+[93/170] Building translation po/kk/LC_MESSAGES/xfconf-kk.mo
+[94/170] Linking target gsettings-backend/libxfconfgsettingsbackend.so
+[95/170] Building translation po/lt/LC_MESSAGES/xfconf-lt.mo
+[96/170] Building translation po/lv/LC_MESSAGES/xfconf-lv.mo
+[97/170] Building translation po/ms/LC_MESSAGES/xfconf-ms.mo
+[98/170] Compiling C object xfconfd/xfconfd.p/xfconf-locking-utils.c.o
+[99/170] Building translation po/pa/LC_MESSAGES/xfconf-pa.mo
+[100/170] Building translation po/pl/LC_MESSAGES/xfconf-pl.mo
+[101/170] Building translation po/pt_BR/LC_MESSAGES/xfconf-pt_BR.mo
+[102/170] Building translation po/nl/LC_MESSAGES/xfconf-nl.mo
+[103/170] Building translation po/pt/LC_MESSAGES/xfconf-pt.mo
+[104/170] Building translation po/nb/LC_MESSAGES/xfconf-nb.mo
+[105/170] Building translation po/ro/LC_MESSAGES/xfconf-ro.mo
+[106/170] Building translation po/ru/LC_MESSAGES/xfconf-ru.mo
+[107/170] Building translation po/nn/LC_MESSAGES/xfconf-nn.mo
+[108/170] Building translation po/si/LC_MESSAGES/xfconf-si.mo
+[109/170] Building translation po/oc/LC_MESSAGES/xfconf-oc.mo
+[110/170] Building translation po/sk/LC_MESSAGES/xfconf-sk.mo
+[111/170] Building translation po/sq/LC_MESSAGES/xfconf-sq.mo
+[112/170] Compiling C object xfconfd/xfconfd.p/xfconf-backend-factory.c.o
+[113/170] Building translation po/sr/LC_MESSAGES/xfconf-sr.mo
+[114/170] Building translation po/sl/LC_MESSAGES/xfconf-sl.mo
+[115/170] Building translation po/tr/LC_MESSAGES/xfconf-tr.mo
+[116/170] Building translation po/uk/LC_MESSAGES/xfconf-uk.mo
+[117/170] Building translation po/sv/LC_MESSAGES/xfconf-sv.mo
+[118/170] Building translation po/th/LC_MESSAGES/xfconf-th.mo
+[119/170] Building translation po/te/LC_MESSAGES/xfconf-te.mo
+[120/170] Building translation po/ug/LC_MESSAGES/xfconf-ug.mo
+[121/170] Building translation po/vi/LC_MESSAGES/xfconf-vi.mo
+[122/170] Building translation po/zh_CN/LC_MESSAGES/xfconf-zh_CN.mo
+[123/170] Building translation po/zh_HK/LC_MESSAGES/xfconf-zh_HK.mo
+[124/170] Building translation po/ur/LC_MESSAGES/xfconf-ur.mo
+[125/170] Compiling C object xfconfd/xfconfd.p/main.c.o
+[126/170] Building translation po/ur_PK/LC_MESSAGES/xfconf-ur_PK.mo
+[127/170] Building translation po/zh_TW/LC_MESSAGES/xfconf-zh_TW.mo
+[128/170] Compiling C object xfconf-query/xfconf-query.p/main.c.o
+[129/170] Compiling C object xfconfd/xfconfd.p/xfconf-daemon.c.o
+[130/170] Linking target tests/t-set-int
+[131/170] Linking target tests/t-has-arrayv
+[132/170] Linking target tests/t-set-boolean
+[133/170] Linking target tests/t-set-arrayv
+[134/170] Linking target tests/t-set-double
+[135/170] Linking target tests/t-set-stringlist
+[136/170] Linking target tests/t-set-string
+[137/170] Linking target tests/t-set-uint64
+[138/170] Linking target tests/t-has-boolean
+[139/170] Linking target tests/t-has-string
+[140/170] Linking target tests/t-has-double
+[141/170] Compiling C object xfconfd/xfconfd.p/xfconf-backend.c.o
+[142/170] Linking target tests/t-has-uint64
+[143/170] Linking target tests/t-has-int
+[144/170] Linking target tests/t-get-stringlist
+[145/170] Linking target tests/t-get-uint64
+[146/170] Linking target tests/t-get-double
+[147/170] Linking target tests/t-has-stringlist
+[148/170] Linking target tests/t-get-int
+[149/170] Linking target tests/t-reset-boolean
+[150/170] Linking target tests/t-get-boolean
+[151/170] Linking target tests/t-get-string
+[152/170] Linking target tests/t-get-arrayv
+[153/170] Linking target tests/t-reset-string
+[154/170] Linking target tests/t-reset-int
+[155/170] Linking target tests/t-reset-arrayv
+[156/170] Linking target tests/t-reset-double
+[157/170] Linking target tests/t-list-channels
+[158/170] Linking target tests/t-tests-end
+[159/170] Linking target tests/t-reset-uint64
+[160/170] Linking target tests/t-string-changed-signal-detailed
+[161/170] Linking target tests/t-reset-stringlist
+[162/170] Linking target xfconf-query/xfconf-query
+[163/170] Linking target tests/t-string-changed-signal
+[164/170] Linking target tests/t-object-bindings
+[165/170] Linking target tests/t-issue-16
+[166/170] Compiling C object xfconfd/xfconfd.p/xfconf-backend-perchannel-xml.c.o
+[167/170] Linking target xfconfd/xfconfd
+[168/170] Generating xfconf/Xfconf-0.gir with a custom command (wrapped by meson to set env)
+libhogweed.so.6: cannot open shared object file: No such file or directory
+Failed to load module: /usr/lib/gio/modules/libgiognutls.so
+[169/170] Generating xfconf/Xfconf-0.typelib with a custom command
+libhogweed.so.6: cannot open shared object file: No such file or directory
+Failed to load module: /usr/lib/gio/modules/libgiognutls.so
+[170/170] Generating xfconf/libxfconf-0.vapi with a custom command
+[1/49] Generating xfce-revision.h with a custom command
+[2/46] Compiling C object xfconf/libxfconf-0.so.3.0.0.p/xfconf.c.o
+[3/46] Compiling C object xfconf/libxfconf-0.so.3.0.0.p/xfconf-cache.c.o
+[4/46] Compiling C object xfconf/libxfconf-0.so.3.0.0.p/xfconf-channel.c.o
+[5/46] Linking target xfconf/libxfconf-0.so.3.0.0
+[6/46] Generating symbol file xfconf/libxfconf-0.so.3.0.0.p/libxfconf-0.so.3.0.0.symbols
+[7/10] Generating xfconf/Xfconf-0.gir with a custom command (wrapped by meson to set env)
+libhogweed.so.6: cannot open shared object file: No such file or directory
+Failed to load module: /usr/lib/gio/modules/libgiognutls.so
+[8/10] Generating xfconf/Xfconf-0.typelib with a custom command
+libhogweed.so.6: cannot open shared object file: No such file or directory
+Failed to load module: /usr/lib/gio/modules/libgiognutls.so
+[9/10] Generating xfconf/libxfconf-0.vapi with a custom command
+[9/10] Installing files
+Installing xfconf/libxfconf-0.so.3.0.0 to /pkgs/xfconf/usr/lib
+Installing xfconf/Xfconf-0.gir to /pkgs/xfconf/usr/share/gir-1.0
+Installing xfconf/Xfconf-0.typelib to /pkgs/xfconf/usr/lib/girepository-1.0
+Installing xfconf/libxfconf-0.vapi to /pkgs/xfconf/usr/share/vala/vapi
+Installing gsettings-backend/libxfconfgsettingsbackend.so to /pkgs/xfconf/usr/lib/gio/modules
+Installing po/ar/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/ar/LC_MESSAGES
+Installing po/ast/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/ast/LC_MESSAGES
+Installing po/be/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/be/LC_MESSAGES
+Installing po/bg/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/bg/LC_MESSAGES
+Installing po/bn/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/bn/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/ca/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/cs/LC_MESSAGES
+Installing po/da/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/de/LC_MESSAGES
+Installing po/el/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/el/LC_MESSAGES
+Installing po/en_AU/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/en_AU/LC_MESSAGES
+Installing po/en_CA/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/en_CA/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/en_GB/LC_MESSAGES
+Installing po/es/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/es/LC_MESSAGES
+Installing po/et/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/et/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/eu/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/fr/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/gl/LC_MESSAGES
+Installing po/he/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/he/LC_MESSAGES
+Installing po/hi/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/hi/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/hu/LC_MESSAGES
+Installing po/hy_AM/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/hy_AM/LC_MESSAGES
+Installing po/hye/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/hye/LC_MESSAGES
+Installing po/id/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/id/LC_MESSAGES
+Installing po/is/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/is/LC_MESSAGES
+Installing po/it/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/it/LC_MESSAGES
+Installing po/ja/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/ja/LC_MESSAGES
+Installing po/kab/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/kab/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/ka/LC_MESSAGES
+Installing po/kk/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/kk/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/ko/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/lt/LC_MESSAGES
+Installing po/lv/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/lv/LC_MESSAGES
+Installing po/ms/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/ms/LC_MESSAGES
+Installing po/nb/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/nb/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/nl/LC_MESSAGES
+Installing po/nn/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/nn/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/oc/LC_MESSAGES
+Installing po/pa/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/pa/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/pl/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/pt/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/ru/LC_MESSAGES
+Installing po/si/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/si/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/sl/LC_MESSAGES
+Installing po/sq/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/sq/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/sr/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/sv/LC_MESSAGES
+Installing po/te/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/te/LC_MESSAGES
+Installing po/th/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/th/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/tr/LC_MESSAGES
+Installing po/ug/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/ug/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/uk/LC_MESSAGES
+Installing po/ur_PK/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/ur_PK/LC_MESSAGES
+Installing po/ur/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/ur/LC_MESSAGES
+Installing po/vi/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/vi/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_HK/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/zh_HK/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/xfconf.mo to /pkgs/xfconf/usr/share/locale/zh_TW/LC_MESSAGES
+Installing xfconf-query/xfconf-query to /pkgs/xfconf/usr/bin
+Installing xfconfd/xfconfd to /pkgs/xfconf/usr/lib/xfce4/xfconf
+Installing /blfs/builds/xfconf-4.21.2/xfconf/xfconf-binding.h to /pkgs/xfconf/usr/include/xfce4/xfconf-0/xfconf
+Installing /blfs/builds/xfconf-4.21.2/xfconf/xfconf-channel.h to /pkgs/xfconf/usr/include/xfce4/xfconf-0/xfconf
+Installing /blfs/builds/xfconf-4.21.2/xfconf/xfconf-errors.h to /pkgs/xfconf/usr/include/xfce4/xfconf-0/xfconf
+Installing /blfs/builds/xfconf-4.21.2/xfconf/xfconf-types.h to /pkgs/xfconf/usr/include/xfce4/xfconf-0/xfconf
+Installing /blfs/builds/xfconf-4.21.2/xfconf/xfconf.h to /pkgs/xfconf/usr/include/xfce4/xfconf-0/xfconf
+Installing /blfs/builds/xfconf-4.21.2/completions/xfconf-query to /pkgs/xfconf/usr/share/bash-completion/completions
+Installing /blfs/builds/xfconf-4.21.2/build/meson-private/libxfconf-0.pc to /pkgs/xfconf/usr/lib/pkgconfig
+Installing /blfs/builds/xfconf-4.21.2/build/meson-private/libxfconf-0.deps to /pkgs/xfconf/usr/share/vala/vapi
+Installing /blfs/builds/xfconf-4.21.2/build/xfconfd/xfconfd.service to /pkgs/xfconf/usr/lib/systemd/user
+Installing /blfs/builds/xfconf-4.21.2/build/xfconfd/org.xfce.Xfconf.service to /pkgs/xfconf/usr/share/dbus-1/services
+Installing symlink pointing to libxfconf-0.so.3.0.0 to /pkgs/xfconf/usr/lib/libxfconf-0.so.3
+Installing symlink pointing to libxfconf-0.so.3 to /pkgs/xfconf/usr/lib/libxfconf-0.so
+[1/6] Generating xfce-revision.h with a custom command
+[1/2] Installing files
+Installing xfconf/libxfconf-0.so.3.0.0 to /usr/lib
+Installing xfconf/Xfconf-0.gir to /usr/share/gir-1.0
+Installing xfconf/Xfconf-0.typelib to /usr/lib/girepository-1.0
+Installing xfconf/libxfconf-0.vapi to /usr/share/vala/vapi
+Installing gsettings-backend/libxfconfgsettingsbackend.so to /usr/lib/gio/modules
+Installing po/ar/LC_MESSAGES/xfconf.mo to /usr/share/locale/ar/LC_MESSAGES
+Installing po/ast/LC_MESSAGES/xfconf.mo to /usr/share/locale/ast/LC_MESSAGES
+Installing po/be/LC_MESSAGES/xfconf.mo to /usr/share/locale/be/LC_MESSAGES
+Installing po/bg/LC_MESSAGES/xfconf.mo to /usr/share/locale/bg/LC_MESSAGES
+Installing po/bn/LC_MESSAGES/xfconf.mo to /usr/share/locale/bn/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/xfconf.mo to /usr/share/locale/ca/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/xfconf.mo to /usr/share/locale/cs/LC_MESSAGES
+Installing po/da/LC_MESSAGES/xfconf.mo to /usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/xfconf.mo to /usr/share/locale/de/LC_MESSAGES
+Installing po/el/LC_MESSAGES/xfconf.mo to /usr/share/locale/el/LC_MESSAGES
+Installing po/en_AU/LC_MESSAGES/xfconf.mo to /usr/share/locale/en_AU/LC_MESSAGES
+Installing po/en_CA/LC_MESSAGES/xfconf.mo to /usr/share/locale/en_CA/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/xfconf.mo to /usr/share/locale/en_GB/LC_MESSAGES
+Installing po/es/LC_MESSAGES/xfconf.mo to /usr/share/locale/es/LC_MESSAGES
+Installing po/et/LC_MESSAGES/xfconf.mo to /usr/share/locale/et/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/xfconf.mo to /usr/share/locale/eu/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/xfconf.mo to /usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/xfconf.mo to /usr/share/locale/fr/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/xfconf.mo to /usr/share/locale/gl/LC_MESSAGES
+Installing po/he/LC_MESSAGES/xfconf.mo to /usr/share/locale/he/LC_MESSAGES
+Installing po/hi/LC_MESSAGES/xfconf.mo to /usr/share/locale/hi/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/xfconf.mo to /usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/xfconf.mo to /usr/share/locale/hu/LC_MESSAGES
+Installing po/hy_AM/LC_MESSAGES/xfconf.mo to /usr/share/locale/hy_AM/LC_MESSAGES
+Installing po/hye/LC_MESSAGES/xfconf.mo to /usr/share/locale/hye/LC_MESSAGES
+Installing po/id/LC_MESSAGES/xfconf.mo to /usr/share/locale/id/LC_MESSAGES
+Installing po/is/LC_MESSAGES/xfconf.mo to /usr/share/locale/is/LC_MESSAGES
+Installing po/it/LC_MESSAGES/xfconf.mo to /usr/share/locale/it/LC_MESSAGES
+Installing po/ja/LC_MESSAGES/xfconf.mo to /usr/share/locale/ja/LC_MESSAGES
+Installing po/kab/LC_MESSAGES/xfconf.mo to /usr/share/locale/kab/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/xfconf.mo to /usr/share/locale/ka/LC_MESSAGES
+Installing po/kk/LC_MESSAGES/xfconf.mo to /usr/share/locale/kk/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/xfconf.mo to /usr/share/locale/ko/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/xfconf.mo to /usr/share/locale/lt/LC_MESSAGES
+Installing po/lv/LC_MESSAGES/xfconf.mo to /usr/share/locale/lv/LC_MESSAGES
+Installing po/ms/LC_MESSAGES/xfconf.mo to /usr/share/locale/ms/LC_MESSAGES
+Installing po/nb/LC_MESSAGES/xfconf.mo to /usr/share/locale/nb/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/xfconf.mo to /usr/share/locale/nl/LC_MESSAGES
+Installing po/nn/LC_MESSAGES/xfconf.mo to /usr/share/locale/nn/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/xfconf.mo to /usr/share/locale/oc/LC_MESSAGES
+Installing po/pa/LC_MESSAGES/xfconf.mo to /usr/share/locale/pa/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/xfconf.mo to /usr/share/locale/pl/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/xfconf.mo to /usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/xfconf.mo to /usr/share/locale/pt/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/xfconf.mo to /usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/xfconf.mo to /usr/share/locale/ru/LC_MESSAGES
+Installing po/si/LC_MESSAGES/xfconf.mo to /usr/share/locale/si/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/xfconf.mo to /usr/share/locale/sk/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/xfconf.mo to /usr/share/locale/sl/LC_MESSAGES
+Installing po/sq/LC_MESSAGES/xfconf.mo to /usr/share/locale/sq/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/xfconf.mo to /usr/share/locale/sr/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/xfconf.mo to /usr/share/locale/sv/LC_MESSAGES
+Installing po/te/LC_MESSAGES/xfconf.mo to /usr/share/locale/te/LC_MESSAGES
+Installing po/th/LC_MESSAGES/xfconf.mo to /usr/share/locale/th/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/xfconf.mo to /usr/share/locale/tr/LC_MESSAGES
+Installing po/ug/LC_MESSAGES/xfconf.mo to /usr/share/locale/ug/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/xfconf.mo to /usr/share/locale/uk/LC_MESSAGES
+Installing po/ur_PK/LC_MESSAGES/xfconf.mo to /usr/share/locale/ur_PK/LC_MESSAGES
+Installing po/ur/LC_MESSAGES/xfconf.mo to /usr/share/locale/ur/LC_MESSAGES
+Installing po/vi/LC_MESSAGES/xfconf.mo to /usr/share/locale/vi/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/xfconf.mo to /usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_HK/LC_MESSAGES/xfconf.mo to /usr/share/locale/zh_HK/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/xfconf.mo to /usr/share/locale/zh_TW/LC_MESSAGES
+Installing xfconf-query/xfconf-query to /usr/bin
+Installing xfconfd/xfconfd to /usr/lib/xfce4/xfconf
+Installing /blfs/builds/xfconf-4.21.2/xfconf/xfconf-binding.h to /usr/include/xfce4/xfconf-0/xfconf
+Installing /blfs/builds/xfconf-4.21.2/xfconf/xfconf-channel.h to /usr/include/xfce4/xfconf-0/xfconf
+Installing /blfs/builds/xfconf-4.21.2/xfconf/xfconf-errors.h to /usr/include/xfce4/xfconf-0/xfconf
+Installing /blfs/builds/xfconf-4.21.2/xfconf/xfconf-types.h to /usr/include/xfce4/xfconf-0/xfconf
+Installing /blfs/builds/xfconf-4.21.2/xfconf/xfconf.h to /usr/include/xfce4/xfconf-0/xfconf
+Installing /blfs/builds/xfconf-4.21.2/completions/xfconf-query to /usr/share/bash-completion/completions
+Installing /blfs/builds/xfconf-4.21.2/build/meson-private/libxfconf-0.pc to /usr/lib/pkgconfig
+Installing /blfs/builds/xfconf-4.21.2/build/meson-private/libxfconf-0.deps to /usr/share/vala/vapi
+Installing /blfs/builds/xfconf-4.21.2/build/xfconfd/xfconfd.service to /usr/lib/systemd/user
+Installing /blfs/builds/xfconf-4.21.2/build/xfconfd/org.xfce.Xfconf.service to /usr/share/dbus-1/services
+Installing symlink pointing to libxfconf-0.so.3.0.0 to /usr/lib/libxfconf-0.so.3
+Installing symlink pointing to libxfconf-0.so.3 to /usr/lib/libxfconf-0.so
+xfconf/
+xfconf/usr/
+xfconf/usr/include/
+xfconf/usr/include/xfce4/
+xfconf/usr/include/xfce4/xfconf-0/
+xfconf/usr/include/xfce4/xfconf-0/xfconf/
+xfconf/usr/include/xfce4/xfconf-0/xfconf/xfconf-errors.h
+xfconf/usr/include/xfce4/xfconf-0/xfconf/xfconf-binding.h
+xfconf/usr/include/xfce4/xfconf-0/xfconf/xfconf-types.h
+xfconf/usr/include/xfce4/xfconf-0/xfconf/xfconf.h
+xfconf/usr/include/xfce4/xfconf-0/xfconf/xfconf-channel.h
+xfconf/usr/share/
+xfconf/usr/share/vala/
+xfconf/usr/share/vala/vapi/
+xfconf/usr/share/vala/vapi/libxfconf-0.deps
+xfconf/usr/share/vala/vapi/libxfconf-0.vapi
+xfconf/usr/share/locale/
+xfconf/usr/share/locale/sr/
+xfconf/usr/share/locale/sr/LC_MESSAGES/
+xfconf/usr/share/locale/sr/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/nl/
+xfconf/usr/share/locale/nl/LC_MESSAGES/
+xfconf/usr/share/locale/nl/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/fi/
+xfconf/usr/share/locale/fi/LC_MESSAGES/
+xfconf/usr/share/locale/fi/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/id/
+xfconf/usr/share/locale/id/LC_MESSAGES/
+xfconf/usr/share/locale/id/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/en_AU/
+xfconf/usr/share/locale/en_AU/LC_MESSAGES/
+xfconf/usr/share/locale/en_AU/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/ro/
+xfconf/usr/share/locale/ro/LC_MESSAGES/
+xfconf/usr/share/locale/ro/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/ko/
+xfconf/usr/share/locale/ko/LC_MESSAGES/
+xfconf/usr/share/locale/ko/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/zh_TW/
+xfconf/usr/share/locale/zh_TW/LC_MESSAGES/
+xfconf/usr/share/locale/zh_TW/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/hi/
+xfconf/usr/share/locale/hi/LC_MESSAGES/
+xfconf/usr/share/locale/hi/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/kk/
+xfconf/usr/share/locale/kk/LC_MESSAGES/
+xfconf/usr/share/locale/kk/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/nb/
+xfconf/usr/share/locale/nb/LC_MESSAGES/
+xfconf/usr/share/locale/nb/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/ar/
+xfconf/usr/share/locale/ar/LC_MESSAGES/
+xfconf/usr/share/locale/ar/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/uk/
+xfconf/usr/share/locale/uk/LC_MESSAGES/
+xfconf/usr/share/locale/uk/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/ast/
+xfconf/usr/share/locale/ast/LC_MESSAGES/
+xfconf/usr/share/locale/ast/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/ug/
+xfconf/usr/share/locale/ug/LC_MESSAGES/
+xfconf/usr/share/locale/ug/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/en_GB/
+xfconf/usr/share/locale/en_GB/LC_MESSAGES/
+xfconf/usr/share/locale/en_GB/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/oc/
+xfconf/usr/share/locale/oc/LC_MESSAGES/
+xfconf/usr/share/locale/oc/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/es/
+xfconf/usr/share/locale/es/LC_MESSAGES/
+xfconf/usr/share/locale/es/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/th/
+xfconf/usr/share/locale/th/LC_MESSAGES/
+xfconf/usr/share/locale/th/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/he/
+xfconf/usr/share/locale/he/LC_MESSAGES/
+xfconf/usr/share/locale/he/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/nn/
+xfconf/usr/share/locale/nn/LC_MESSAGES/
+xfconf/usr/share/locale/nn/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/vi/
+xfconf/usr/share/locale/vi/LC_MESSAGES/
+xfconf/usr/share/locale/vi/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/fr/
+xfconf/usr/share/locale/fr/LC_MESSAGES/
+xfconf/usr/share/locale/fr/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/ca/
+xfconf/usr/share/locale/ca/LC_MESSAGES/
+xfconf/usr/share/locale/ca/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/ur_PK/
+xfconf/usr/share/locale/ur_PK/LC_MESSAGES/
+xfconf/usr/share/locale/ur_PK/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/pl/
+xfconf/usr/share/locale/pl/LC_MESSAGES/
+xfconf/usr/share/locale/pl/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/da/
+xfconf/usr/share/locale/da/LC_MESSAGES/
+xfconf/usr/share/locale/da/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/ru/
+xfconf/usr/share/locale/ru/LC_MESSAGES/
+xfconf/usr/share/locale/ru/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/is/
+xfconf/usr/share/locale/is/LC_MESSAGES/
+xfconf/usr/share/locale/is/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/hr/
+xfconf/usr/share/locale/hr/LC_MESSAGES/
+xfconf/usr/share/locale/hr/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/hy_AM/
+xfconf/usr/share/locale/hy_AM/LC_MESSAGES/
+xfconf/usr/share/locale/hy_AM/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/ja/
+xfconf/usr/share/locale/ja/LC_MESSAGES/
+xfconf/usr/share/locale/ja/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/kab/
+xfconf/usr/share/locale/kab/LC_MESSAGES/
+xfconf/usr/share/locale/kab/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/zh_CN/
+xfconf/usr/share/locale/zh_CN/LC_MESSAGES/
+xfconf/usr/share/locale/zh_CN/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/cs/
+xfconf/usr/share/locale/cs/LC_MESSAGES/
+xfconf/usr/share/locale/cs/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/en_CA/
+xfconf/usr/share/locale/en_CA/LC_MESSAGES/
+xfconf/usr/share/locale/en_CA/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/lv/
+xfconf/usr/share/locale/lv/LC_MESSAGES/
+xfconf/usr/share/locale/lv/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/pt_BR/
+xfconf/usr/share/locale/pt_BR/LC_MESSAGES/
+xfconf/usr/share/locale/pt_BR/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/pt/
+xfconf/usr/share/locale/pt/LC_MESSAGES/
+xfconf/usr/share/locale/pt/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/hu/
+xfconf/usr/share/locale/hu/LC_MESSAGES/
+xfconf/usr/share/locale/hu/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/tr/
+xfconf/usr/share/locale/tr/LC_MESSAGES/
+xfconf/usr/share/locale/tr/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/sl/
+xfconf/usr/share/locale/sl/LC_MESSAGES/
+xfconf/usr/share/locale/sl/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/zh_HK/
+xfconf/usr/share/locale/zh_HK/LC_MESSAGES/
+xfconf/usr/share/locale/zh_HK/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/bn/
+xfconf/usr/share/locale/bn/LC_MESSAGES/
+xfconf/usr/share/locale/bn/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/eu/
+xfconf/usr/share/locale/eu/LC_MESSAGES/
+xfconf/usr/share/locale/eu/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/el/
+xfconf/usr/share/locale/el/LC_MESSAGES/
+xfconf/usr/share/locale/el/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/sv/
+xfconf/usr/share/locale/sv/LC_MESSAGES/
+xfconf/usr/share/locale/sv/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/sk/
+xfconf/usr/share/locale/sk/LC_MESSAGES/
+xfconf/usr/share/locale/sk/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/si/
+xfconf/usr/share/locale/si/LC_MESSAGES/
+xfconf/usr/share/locale/si/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/bg/
+xfconf/usr/share/locale/bg/LC_MESSAGES/
+xfconf/usr/share/locale/bg/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/pa/
+xfconf/usr/share/locale/pa/LC_MESSAGES/
+xfconf/usr/share/locale/pa/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/ka/
+xfconf/usr/share/locale/ka/LC_MESSAGES/
+xfconf/usr/share/locale/ka/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/te/
+xfconf/usr/share/locale/te/LC_MESSAGES/
+xfconf/usr/share/locale/te/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/hye/
+xfconf/usr/share/locale/hye/LC_MESSAGES/
+xfconf/usr/share/locale/hye/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/it/
+xfconf/usr/share/locale/it/LC_MESSAGES/
+xfconf/usr/share/locale/it/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/de/
+xfconf/usr/share/locale/de/LC_MESSAGES/
+xfconf/usr/share/locale/de/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/lt/
+xfconf/usr/share/locale/lt/LC_MESSAGES/
+xfconf/usr/share/locale/lt/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/et/
+xfconf/usr/share/locale/et/LC_MESSAGES/
+xfconf/usr/share/locale/et/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/sq/
+xfconf/usr/share/locale/sq/LC_MESSAGES/
+xfconf/usr/share/locale/sq/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/ur/
+xfconf/usr/share/locale/ur/LC_MESSAGES/
+xfconf/usr/share/locale/ur/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/be/
+xfconf/usr/share/locale/be/LC_MESSAGES/
+xfconf/usr/share/locale/be/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/ms/
+xfconf/usr/share/locale/ms/LC_MESSAGES/
+xfconf/usr/share/locale/ms/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/locale/gl/
+xfconf/usr/share/locale/gl/LC_MESSAGES/
+xfconf/usr/share/locale/gl/LC_MESSAGES/xfconf.mo
+xfconf/usr/share/bash-completion/
+xfconf/usr/share/bash-completion/completions/
+xfconf/usr/share/bash-completion/completions/xfconf-query
+xfconf/usr/share/dbus-1/
+xfconf/usr/share/dbus-1/services/
+xfconf/usr/share/dbus-1/services/org.xfce.Xfconf.service
+xfconf/usr/share/gir-1.0/
+xfconf/usr/share/gir-1.0/Xfconf-0.gir
+xfconf/usr/bin/
+xfconf/usr/bin/xfconf-query
+xfconf/usr/lib/
+xfconf/usr/lib/xfce4/
+xfconf/usr/lib/xfce4/xfconf/
+xfconf/usr/lib/xfce4/xfconf/xfconfd
+xfconf/usr/lib/girepository-1.0/
+xfconf/usr/lib/girepository-1.0/Xfconf-0.typelib
+xfconf/usr/lib/libxfconf-0.so.3.0.0
+xfconf/usr/lib/pkgconfig/
+xfconf/usr/lib/pkgconfig/libxfconf-0.pc
+xfconf/usr/lib/libxfconf-0.so
+xfconf/usr/lib/systemd/
+xfconf/usr/lib/systemd/user/
+xfconf/usr/lib/systemd/user/xfconfd.service
+xfconf/usr/lib/gio/
+xfconf/usr/lib/gio/modules/
+xfconf/usr/lib/gio/modules/libxfconfgsettingsbackend.so
+xfconf/usr/lib/libxfconf-0.so.3
+xfconf/version
+xfconf/depends
+xfconf/make-depends

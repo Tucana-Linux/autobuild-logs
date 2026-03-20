@@ -1,0 +1,1031 @@
+--2026-03-20 14:44:59--  https://download.gnome.org/sources/blueprint-compiler/0.20/blueprint-compiler-0.20.4.tar.xz
+Resolving download.gnome.org (download.gnome.org)... 152.233.11.105, 79.127.206.207, 79.127.206.234, ...
+Connecting to download.gnome.org (download.gnome.org)|152.233.11.105|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 126108 (123K) [application/octet-stream]
+Saving to: ‘blueprint-compiler-0.20.4.tar.xz’
+
+     0K .......... .......... .......... .......... .......... 40% 3.75M 0s
+    50K .......... .......... .......... .......... .......... 81% 6.28M 0s
+   100K .......... .......... ...                             100%  331M=0.02s
+
+2026-03-20 14:44:59 (5.76 MB/s) - ‘blueprint-compiler-0.20.4.tar.xz’ saved [126108/126108]
+
+blueprint-compiler-0.20.4/
+blueprint-compiler-0.20.4/.coveragerc
+blueprint-compiler-0.20.4/.gitignore
+blueprint-compiler-0.20.4/.gitlab-ci.yml
+blueprint-compiler-0.20.4/CONTRIBUTING.md
+blueprint-compiler-0.20.4/COPYING
+blueprint-compiler-0.20.4/MAINTENANCE.md
+blueprint-compiler-0.20.4/NEWS.md
+blueprint-compiler-0.20.4/README.md
+blueprint-compiler-0.20.4/blueprint-compiler.doap
+blueprint-compiler-0.20.4/blueprint-compiler.pc.in
+blueprint-compiler-0.20.4/blueprint-compiler.py
+blueprint-compiler-0.20.4/blueprintcompiler/
+blueprint-compiler-0.20.4/blueprintcompiler/__init__.py
+blueprint-compiler-0.20.4/blueprintcompiler/annotations.py
+blueprint-compiler-0.20.4/blueprintcompiler/ast_utils.py
+blueprint-compiler-0.20.4/blueprintcompiler/completions.py
+blueprint-compiler-0.20.4/blueprintcompiler/completions_utils.py
+blueprint-compiler-0.20.4/blueprintcompiler/data/
+blueprint-compiler-0.20.4/blueprintcompiler/data/collect_stats.py
+blueprint-compiler-0.20.4/blueprintcompiler/data/stats.json
+blueprint-compiler-0.20.4/blueprintcompiler/decompiler.py
+blueprint-compiler-0.20.4/blueprintcompiler/errors.py
+blueprint-compiler-0.20.4/blueprintcompiler/formatter.py
+blueprint-compiler-0.20.4/blueprintcompiler/gir.py
+blueprint-compiler-0.20.4/blueprintcompiler/interactive_port.py
+blueprint-compiler-0.20.4/blueprintcompiler/language/
+blueprint-compiler-0.20.4/blueprintcompiler/language/__init__.py
+blueprint-compiler-0.20.4/blueprintcompiler/language/adw_breakpoint.py
+blueprint-compiler-0.20.4/blueprintcompiler/language/adw_response_dialog.py
+blueprint-compiler-0.20.4/blueprintcompiler/language/binding.py
+blueprint-compiler-0.20.4/blueprintcompiler/language/common.py
+blueprint-compiler-0.20.4/blueprintcompiler/language/contexts.py
+blueprint-compiler-0.20.4/blueprintcompiler/language/expression.py
+blueprint-compiler-0.20.4/blueprintcompiler/language/gobject_object.py
+blueprint-compiler-0.20.4/blueprintcompiler/language/gobject_property.py
+blueprint-compiler-0.20.4/blueprintcompiler/language/gobject_signal.py
+blueprint-compiler-0.20.4/blueprintcompiler/language/gtk_a11y.py
+blueprint-compiler-0.20.4/blueprintcompiler/language/gtk_combo_box_text.py
+blueprint-compiler-0.20.4/blueprintcompiler/language/gtk_file_filter.py
+blueprint-compiler-0.20.4/blueprintcompiler/language/gtk_layout.py
+blueprint-compiler-0.20.4/blueprintcompiler/language/gtk_level_bar.py
+blueprint-compiler-0.20.4/blueprintcompiler/language/gtk_list_item_factory.py
+blueprint-compiler-0.20.4/blueprintcompiler/language/gtk_menu.py
+blueprint-compiler-0.20.4/blueprintcompiler/language/gtk_scale.py
+blueprint-compiler-0.20.4/blueprintcompiler/language/gtk_size_group.py
+blueprint-compiler-0.20.4/blueprintcompiler/language/gtk_string_list.py
+blueprint-compiler-0.20.4/blueprintcompiler/language/gtk_styles.py
+blueprint-compiler-0.20.4/blueprintcompiler/language/gtkbuilder_child.py
+blueprint-compiler-0.20.4/blueprintcompiler/language/gtkbuilder_template.py
+blueprint-compiler-0.20.4/blueprintcompiler/language/imports.py
+blueprint-compiler-0.20.4/blueprintcompiler/language/response_id.py
+blueprint-compiler-0.20.4/blueprintcompiler/language/translated.py
+blueprint-compiler-0.20.4/blueprintcompiler/language/translation_domain.py
+blueprint-compiler-0.20.4/blueprintcompiler/language/types.py
+blueprint-compiler-0.20.4/blueprintcompiler/language/ui.py
+blueprint-compiler-0.20.4/blueprintcompiler/language/values.py
+blueprint-compiler-0.20.4/blueprintcompiler/linter.py
+blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/
+blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/__init__.py
+blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/avoid_all_caps.py
+blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/incorrect_widget_placement.py
+blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/missing_user_facing_properties.py
+blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/no_gtk_switch_state.py
+blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/no_visible_true.py
+blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/number_of_children.py
+blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/order_properties_gtk_adjustment.py
+blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/prefer_adw_bin.py
+blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/prefer_unicode_chars.py
+blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/require_a11y_label.py
+blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/scrollable_parent.py
+blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/translatable_display_string.py
+blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/unused_widget.py
+blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/use_styles_over_css_classes.py
+blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/utils.py
+blueprint-compiler-0.20.4/blueprintcompiler/lsp.py
+blueprint-compiler-0.20.4/blueprintcompiler/lsp_utils.py
+blueprint-compiler-0.20.4/blueprintcompiler/main.py
+blueprint-compiler-0.20.4/blueprintcompiler/outputs/
+blueprint-compiler-0.20.4/blueprintcompiler/outputs/__init__.py
+blueprint-compiler-0.20.4/blueprintcompiler/outputs/xml/
+blueprint-compiler-0.20.4/blueprintcompiler/outputs/xml/__init__.py
+blueprint-compiler-0.20.4/blueprintcompiler/outputs/xml/xml_emitter.py
+blueprint-compiler-0.20.4/blueprintcompiler/parse_tree.py
+blueprint-compiler-0.20.4/blueprintcompiler/parser.py
+blueprint-compiler-0.20.4/blueprintcompiler/tokenizer.py
+blueprint-compiler-0.20.4/blueprintcompiler/types.py
+blueprint-compiler-0.20.4/blueprintcompiler/utils.py
+blueprint-compiler-0.20.4/blueprintcompiler/xml_reader.py
+blueprint-compiler-0.20.4/build-aux/
+blueprint-compiler-0.20.4/build-aux/Dockerfile
+blueprint-compiler-0.20.4/build-aux/install_deps.sh
+blueprint-compiler-0.20.4/docs/
+blueprint-compiler-0.20.4/docs/_static/
+blueprint-compiler-0.20.4/docs/_static/styles.css
+blueprint-compiler-0.20.4/docs/collect-sections.py
+blueprint-compiler-0.20.4/docs/conf.py
+blueprint-compiler-0.20.4/docs/experimental.svg
+blueprint-compiler-0.20.4/docs/flatpak.rst
+blueprint-compiler-0.20.4/docs/index.rst
+blueprint-compiler-0.20.4/docs/linter.rst
+blueprint-compiler-0.20.4/docs/meson.build
+blueprint-compiler-0.20.4/docs/packaging.rst
+blueprint-compiler-0.20.4/docs/reference/
+blueprint-compiler-0.20.4/docs/reference/diagnostics.rst
+blueprint-compiler-0.20.4/docs/reference/document_root.rst
+blueprint-compiler-0.20.4/docs/reference/expressions.rst
+blueprint-compiler-0.20.4/docs/reference/extensions.rst
+blueprint-compiler-0.20.4/docs/reference/gir-namespace.png
+blueprint-compiler-0.20.4/docs/reference/index.rst
+blueprint-compiler-0.20.4/docs/reference/menus.rst
+blueprint-compiler-0.20.4/docs/reference/objects.rst
+blueprint-compiler-0.20.4/docs/reference/templates.rst
+blueprint-compiler-0.20.4/docs/reference/values.rst
+blueprint-compiler-0.20.4/docs/setup.rst
+blueprint-compiler-0.20.4/docs/translations.rst
+blueprint-compiler-0.20.4/justfile
+blueprint-compiler-0.20.4/meson.build
+blueprint-compiler-0.20.4/meson_options.txt
+blueprint-compiler-0.20.4/tests/
+blueprint-compiler-0.20.4/tests/__init__.py
+blueprint-compiler-0.20.4/tests/formatting/
+blueprint-compiler-0.20.4/tests/formatting/comment_in.blp
+blueprint-compiler-0.20.4/tests/formatting/comment_out.blp
+blueprint-compiler-0.20.4/tests/formatting/correct1.blp
+blueprint-compiler-0.20.4/tests/formatting/in1.blp
+blueprint-compiler-0.20.4/tests/formatting/in2.blp
+blueprint-compiler-0.20.4/tests/formatting/lists_in.blp
+blueprint-compiler-0.20.4/tests/formatting/lists_out.blp
+blueprint-compiler-0.20.4/tests/formatting/out.blp
+blueprint-compiler-0.20.4/tests/formatting/string_in.blp
+blueprint-compiler-0.20.4/tests/formatting/string_out.blp
+blueprint-compiler-0.20.4/tests/formatting/wrapping_in.blp
+blueprint-compiler-0.20.4/tests/formatting/wrapping_out.blp
+blueprint-compiler-0.20.4/tests/fuzz.py
+blueprint-compiler-0.20.4/tests/fuzz.sh
+blueprint-compiler-0.20.4/tests/linter_samples/
+blueprint-compiler-0.20.4/tests/linter_samples/avoid_all_caps.blp
+blueprint-compiler-0.20.4/tests/linter_samples/incorrect_widget_placement.blp
+blueprint-compiler-0.20.4/tests/linter_samples/label_with_child.blp
+blueprint-compiler-0.20.4/tests/linter_samples/missing_user_facing_properties.blp
+blueprint-compiler-0.20.4/tests/linter_samples/no_gtk_switch_state.blp
+blueprint-compiler-0.20.4/tests/linter_samples/no_visible_true.blp
+blueprint-compiler-0.20.4/tests/linter_samples/number_of_children.blp
+blueprint-compiler-0.20.4/tests/linter_samples/order_properties_gtk_adjustment.blp
+blueprint-compiler-0.20.4/tests/linter_samples/prefer_adw_bin.blp
+blueprint-compiler-0.20.4/tests/linter_samples/prefer_unicode.blp
+blueprint-compiler-0.20.4/tests/linter_samples/require_a11y_label.blp
+blueprint-compiler-0.20.4/tests/linter_samples/scrollable_parent.blp
+blueprint-compiler-0.20.4/tests/linter_samples/translatable_display_string.blp
+blueprint-compiler-0.20.4/tests/linter_samples/unused_widget.blp
+blueprint-compiler-0.20.4/tests/linter_samples/use_styles_over_css_classes.blp
+blueprint-compiler-0.20.4/tests/meson.build
+blueprint-compiler-0.20.4/tests/sample_errors/
+blueprint-compiler-0.20.4/tests/sample_errors/a11y_in_non_widget.blp
+blueprint-compiler-0.20.4/tests/sample_errors/a11y_in_non_widget.err
+blueprint-compiler-0.20.4/tests/sample_errors/a11y_list_empty.blp
+blueprint-compiler-0.20.4/tests/sample_errors/a11y_list_empty.err
+blueprint-compiler-0.20.4/tests/sample_errors/a11y_non_list_property.blp
+blueprint-compiler-0.20.4/tests/sample_errors/a11y_non_list_property.err
+blueprint-compiler-0.20.4/tests/sample_errors/a11y_prop_dne.blp
+blueprint-compiler-0.20.4/tests/sample_errors/a11y_prop_dne.err
+blueprint-compiler-0.20.4/tests/sample_errors/a11y_prop_obj_dne.blp
+blueprint-compiler-0.20.4/tests/sample_errors/a11y_prop_obj_dne.err
+blueprint-compiler-0.20.4/tests/sample_errors/a11y_prop_type.blp
+blueprint-compiler-0.20.4/tests/sample_errors/a11y_prop_type.err
+blueprint-compiler-0.20.4/tests/sample_errors/abstract_class.blp
+blueprint-compiler-0.20.4/tests/sample_errors/abstract_class.err
+blueprint-compiler-0.20.4/tests/sample_errors/action_widget_float_response.blp
+blueprint-compiler-0.20.4/tests/sample_errors/action_widget_float_response.err
+blueprint-compiler-0.20.4/tests/sample_errors/action_widget_have_no_id.blp
+blueprint-compiler-0.20.4/tests/sample_errors/action_widget_have_no_id.err
+blueprint-compiler-0.20.4/tests/sample_errors/action_widget_in_invalid_container.blp
+blueprint-compiler-0.20.4/tests/sample_errors/action_widget_in_invalid_container.err
+blueprint-compiler-0.20.4/tests/sample_errors/action_widget_multiple_default.blp
+blueprint-compiler-0.20.4/tests/sample_errors/action_widget_multiple_default.err
+blueprint-compiler-0.20.4/tests/sample_errors/action_widget_negative_response.blp
+blueprint-compiler-0.20.4/tests/sample_errors/action_widget_negative_response.err
+blueprint-compiler-0.20.4/tests/sample_errors/action_widget_response_dne.blp
+blueprint-compiler-0.20.4/tests/sample_errors/action_widget_response_dne.err
+blueprint-compiler-0.20.4/tests/sample_errors/adw_alert_dialog_duplicate_flags.blp
+blueprint-compiler-0.20.4/tests/sample_errors/adw_alert_dialog_duplicate_flags.err
+blueprint-compiler-0.20.4/tests/sample_errors/adw_breakpoint.blp
+blueprint-compiler-0.20.4/tests/sample_errors/adw_breakpoint.err
+blueprint-compiler-0.20.4/tests/sample_errors/adw_message_dialog_duplicate_flags.blp
+blueprint-compiler-0.20.4/tests/sample_errors/adw_message_dialog_duplicate_flags.err
+blueprint-compiler-0.20.4/tests/sample_errors/array_wrong_type.blp
+blueprint-compiler-0.20.4/tests/sample_errors/array_wrong_type.err
+blueprint-compiler-0.20.4/tests/sample_errors/array_wrong_type_value.blp
+blueprint-compiler-0.20.4/tests/sample_errors/array_wrong_type_value.err
+blueprint-compiler-0.20.4/tests/sample_errors/bad_escape_sequence.blp
+blueprint-compiler-0.20.4/tests/sample_errors/bad_escape_sequence.err
+blueprint-compiler-0.20.4/tests/sample_errors/binding_flags.blp
+blueprint-compiler-0.20.4/tests/sample_errors/binding_flags.err
+blueprint-compiler-0.20.4/tests/sample_errors/binding_object_not_found.blp
+blueprint-compiler-0.20.4/tests/sample_errors/binding_object_not_found.err
+blueprint-compiler-0.20.4/tests/sample_errors/bitfield_member_dne.blp
+blueprint-compiler-0.20.4/tests/sample_errors/bitfield_member_dne.err
+blueprint-compiler-0.20.4/tests/sample_errors/children.blp
+blueprint-compiler-0.20.4/tests/sample_errors/children.err
+blueprint-compiler-0.20.4/tests/sample_errors/class_assign.blp
+blueprint-compiler-0.20.4/tests/sample_errors/class_assign.err
+blueprint-compiler-0.20.4/tests/sample_errors/class_dne.blp
+blueprint-compiler-0.20.4/tests/sample_errors/class_dne.err
+blueprint-compiler-0.20.4/tests/sample_errors/consecutive_unexpected_tokens.blp
+blueprint-compiler-0.20.4/tests/sample_errors/consecutive_unexpected_tokens.err
+blueprint-compiler-0.20.4/tests/sample_errors/convert_bool_to_obj.blp
+blueprint-compiler-0.20.4/tests/sample_errors/convert_bool_to_obj.err
+blueprint-compiler-0.20.4/tests/sample_errors/does_not_implement.blp
+blueprint-compiler-0.20.4/tests/sample_errors/does_not_implement.err
+blueprint-compiler-0.20.4/tests/sample_errors/duplicate_internal_child.blp
+blueprint-compiler-0.20.4/tests/sample_errors/duplicate_internal_child.err
+blueprint-compiler-0.20.4/tests/sample_errors/duplicate_obj_id.blp
+blueprint-compiler-0.20.4/tests/sample_errors/duplicate_obj_id.err
+blueprint-compiler-0.20.4/tests/sample_errors/duplicates.blp
+blueprint-compiler-0.20.4/tests/sample_errors/duplicates.err
+blueprint-compiler-0.20.4/tests/sample_errors/empty.blp
+blueprint-compiler-0.20.4/tests/sample_errors/empty.err
+blueprint-compiler-0.20.4/tests/sample_errors/enum_member_dne.blp
+blueprint-compiler-0.20.4/tests/sample_errors/enum_member_dne.err
+blueprint-compiler-0.20.4/tests/sample_errors/expected_semicolon.blp
+blueprint-compiler-0.20.4/tests/sample_errors/expected_semicolon.err
+blueprint-compiler-0.20.4/tests/sample_errors/expr_cast_conversion.blp
+blueprint-compiler-0.20.4/tests/sample_errors/expr_cast_conversion.err
+blueprint-compiler-0.20.4/tests/sample_errors/expr_cast_needed.blp
+blueprint-compiler-0.20.4/tests/sample_errors/expr_cast_needed.err
+blueprint-compiler-0.20.4/tests/sample_errors/expr_closure_not_cast.blp
+blueprint-compiler-0.20.4/tests/sample_errors/expr_closure_not_cast.err
+blueprint-compiler-0.20.4/tests/sample_errors/expr_item_not_cast.blp
+blueprint-compiler-0.20.4/tests/sample_errors/expr_item_not_cast.err
+blueprint-compiler-0.20.4/tests/sample_errors/expr_lookup_dne.blp
+blueprint-compiler-0.20.4/tests/sample_errors/expr_lookup_dne.err
+blueprint-compiler-0.20.4/tests/sample_errors/expr_lookup_no_properties.blp
+blueprint-compiler-0.20.4/tests/sample_errors/expr_lookup_no_properties.err
+blueprint-compiler-0.20.4/tests/sample_errors/expr_try_cast.blp
+blueprint-compiler-0.20.4/tests/sample_errors/expr_try_cast.err
+blueprint-compiler-0.20.4/tests/sample_errors/expr_try_type_mismatch.blp
+blueprint-compiler-0.20.4/tests/sample_errors/expr_try_type_mismatch.err
+blueprint-compiler-0.20.4/tests/sample_errors/expr_unknown_object.blp
+blueprint-compiler-0.20.4/tests/sample_errors/expr_unknown_object.err
+blueprint-compiler-0.20.4/tests/sample_errors/expr_value_assignment.blp
+blueprint-compiler-0.20.4/tests/sample_errors/expr_value_assignment.err
+blueprint-compiler-0.20.4/tests/sample_errors/expr_value_closure_arg.blp
+blueprint-compiler-0.20.4/tests/sample_errors/expr_value_closure_arg.err
+blueprint-compiler-0.20.4/tests/sample_errors/expr_value_item.blp
+blueprint-compiler-0.20.4/tests/sample_errors/expr_value_item.err
+blueprint-compiler-0.20.4/tests/sample_errors/filters_in_non_file_filter.blp
+blueprint-compiler-0.20.4/tests/sample_errors/filters_in_non_file_filter.err
+blueprint-compiler-0.20.4/tests/sample_errors/float_to_int_assignment.blp
+blueprint-compiler-0.20.4/tests/sample_errors/float_to_int_assignment.err
+blueprint-compiler-0.20.4/tests/sample_errors/gtk_3.blp
+blueprint-compiler-0.20.4/tests/sample_errors/gtk_3.err
+blueprint-compiler-0.20.4/tests/sample_errors/gtk_exact_version.blp
+blueprint-compiler-0.20.4/tests/sample_errors/gtk_exact_version.err
+blueprint-compiler-0.20.4/tests/sample_errors/incomplete_signal.blp
+blueprint-compiler-0.20.4/tests/sample_errors/incomplete_signal.err
+blueprint-compiler-0.20.4/tests/sample_errors/int_object.blp
+blueprint-compiler-0.20.4/tests/sample_errors/int_object.err
+blueprint-compiler-0.20.4/tests/sample_errors/invalid_bool.blp
+blueprint-compiler-0.20.4/tests/sample_errors/invalid_bool.err
+blueprint-compiler-0.20.4/tests/sample_errors/issue_230.blp
+blueprint-compiler-0.20.4/tests/sample_errors/issue_230.err
+blueprint-compiler-0.20.4/tests/sample_errors/layout_in_non_widget.blp
+blueprint-compiler-0.20.4/tests/sample_errors/layout_in_non_widget.err
+blueprint-compiler-0.20.4/tests/sample_errors/legacy_template.blp
+blueprint-compiler-0.20.4/tests/sample_errors/legacy_template.err
+blueprint-compiler-0.20.4/tests/sample_errors/level_bar_offset_value.blp
+blueprint-compiler-0.20.4/tests/sample_errors/level_bar_offset_value.err
+blueprint-compiler-0.20.4/tests/sample_errors/list_factory.blp
+blueprint-compiler-0.20.4/tests/sample_errors/list_factory.err
+blueprint-compiler-0.20.4/tests/sample_errors/menu_assignment.blp
+blueprint-compiler-0.20.4/tests/sample_errors/menu_assignment.err
+blueprint-compiler-0.20.4/tests/sample_errors/menu_toplevel_attribute.blp
+blueprint-compiler-0.20.4/tests/sample_errors/menu_toplevel_attribute.err
+blueprint-compiler-0.20.4/tests/sample_errors/newline_in_string_array.blp
+blueprint-compiler-0.20.4/tests/sample_errors/newline_in_string_array.err
+blueprint-compiler-0.20.4/tests/sample_errors/newline_in_string_array_multi.blp
+blueprint-compiler-0.20.4/tests/sample_errors/newline_in_string_array_multi.err
+blueprint-compiler-0.20.4/tests/sample_errors/no_import_version.blp
+blueprint-compiler-0.20.4/tests/sample_errors/no_import_version.err
+blueprint-compiler-0.20.4/tests/sample_errors/not_a_class.blp
+blueprint-compiler-0.20.4/tests/sample_errors/not_a_class.err
+blueprint-compiler-0.20.4/tests/sample_errors/ns_not_found.blp
+blueprint-compiler-0.20.4/tests/sample_errors/ns_not_found.err
+blueprint-compiler-0.20.4/tests/sample_errors/ns_not_imported.blp
+blueprint-compiler-0.20.4/tests/sample_errors/ns_not_imported.err
+blueprint-compiler-0.20.4/tests/sample_errors/obj_in_string_list.blp
+blueprint-compiler-0.20.4/tests/sample_errors/obj_in_string_list.err
+blueprint-compiler-0.20.4/tests/sample_errors/obj_prop_type.blp
+blueprint-compiler-0.20.4/tests/sample_errors/obj_prop_type.err
+blueprint-compiler-0.20.4/tests/sample_errors/object_dne.blp
+blueprint-compiler-0.20.4/tests/sample_errors/object_dne.err
+blueprint-compiler-0.20.4/tests/sample_errors/prop_null.blp
+blueprint-compiler-0.20.4/tests/sample_errors/prop_null.err
+blueprint-compiler-0.20.4/tests/sample_errors/property_dne.blp
+blueprint-compiler-0.20.4/tests/sample_errors/property_dne.err
+blueprint-compiler-0.20.4/tests/sample_errors/read_only_properties.blp
+blueprint-compiler-0.20.4/tests/sample_errors/read_only_properties.err
+blueprint-compiler-0.20.4/tests/sample_errors/scale_mark_position.blp
+blueprint-compiler-0.20.4/tests/sample_errors/scale_mark_position.err
+blueprint-compiler-0.20.4/tests/sample_errors/signal_dne.blp
+blueprint-compiler-0.20.4/tests/sample_errors/signal_dne.err
+blueprint-compiler-0.20.4/tests/sample_errors/signal_exclusive_flags.blp
+blueprint-compiler-0.20.4/tests/sample_errors/signal_exclusive_flags.err
+blueprint-compiler-0.20.4/tests/sample_errors/signal_object_dne.blp
+blueprint-compiler-0.20.4/tests/sample_errors/signal_object_dne.err
+blueprint-compiler-0.20.4/tests/sample_errors/signal_unnecessary_flags.blp
+blueprint-compiler-0.20.4/tests/sample_errors/signal_unnecessary_flags.err
+blueprint-compiler-0.20.4/tests/sample_errors/single_quoted_translated.blp
+blueprint-compiler-0.20.4/tests/sample_errors/single_quoted_translated.err
+blueprint-compiler-0.20.4/tests/sample_errors/size_group_non_widget.blp
+blueprint-compiler-0.20.4/tests/sample_errors/size_group_non_widget.err
+blueprint-compiler-0.20.4/tests/sample_errors/size_group_obj_dne.blp
+blueprint-compiler-0.20.4/tests/sample_errors/size_group_obj_dne.err
+blueprint-compiler-0.20.4/tests/sample_errors/string_to_num_assignment.blp
+blueprint-compiler-0.20.4/tests/sample_errors/string_to_num_assignment.err
+blueprint-compiler-0.20.4/tests/sample_errors/string_to_object_assignment.blp
+blueprint-compiler-0.20.4/tests/sample_errors/string_to_object_assignment.err
+blueprint-compiler-0.20.4/tests/sample_errors/string_to_type_assignment.blp
+blueprint-compiler-0.20.4/tests/sample_errors/string_to_type_assignment.err
+blueprint-compiler-0.20.4/tests/sample_errors/strv.blp
+blueprint-compiler-0.20.4/tests/sample_errors/strv.err
+blueprint-compiler-0.20.4/tests/sample_errors/styles_in_non_widget.blp
+blueprint-compiler-0.20.4/tests/sample_errors/styles_in_non_widget.err
+blueprint-compiler-0.20.4/tests/sample_errors/subscope.blp
+blueprint-compiler-0.20.4/tests/sample_errors/subscope.err
+blueprint-compiler-0.20.4/tests/sample_errors/template_parent.blp
+blueprint-compiler-0.20.4/tests/sample_errors/template_parent.err
+blueprint-compiler-0.20.4/tests/sample_errors/translated_assignment.blp
+blueprint-compiler-0.20.4/tests/sample_errors/translated_assignment.err
+blueprint-compiler-0.20.4/tests/sample_errors/translated_string_array.blp
+blueprint-compiler-0.20.4/tests/sample_errors/translated_string_array.err
+blueprint-compiler-0.20.4/tests/sample_errors/two_templates.blp
+blueprint-compiler-0.20.4/tests/sample_errors/two_templates.err
+blueprint-compiler-0.20.4/tests/sample_errors/typeof_assignment.blp
+blueprint-compiler-0.20.4/tests/sample_errors/typeof_assignment.err
+blueprint-compiler-0.20.4/tests/sample_errors/uint.blp
+blueprint-compiler-0.20.4/tests/sample_errors/uint.err
+blueprint-compiler-0.20.4/tests/sample_errors/unrecognized_syntax.blp
+blueprint-compiler-0.20.4/tests/sample_errors/unrecognized_syntax.err
+blueprint-compiler-0.20.4/tests/sample_errors/upgrade_sync_create.blp
+blueprint-compiler-0.20.4/tests/sample_errors/upgrade_sync_create.err
+blueprint-compiler-0.20.4/tests/sample_errors/upgrade_template_list_item.blp
+blueprint-compiler-0.20.4/tests/sample_errors/upgrade_template_list_item.err
+blueprint-compiler-0.20.4/tests/sample_errors/using_invalid_namespace.blp
+blueprint-compiler-0.20.4/tests/sample_errors/using_invalid_namespace.err
+blueprint-compiler-0.20.4/tests/sample_errors/warn_old_bind.blp
+blueprint-compiler-0.20.4/tests/sample_errors/warn_old_bind.err
+blueprint-compiler-0.20.4/tests/sample_errors/warn_old_extern.blp
+blueprint-compiler-0.20.4/tests/sample_errors/warn_old_extern.err
+blueprint-compiler-0.20.4/tests/sample_errors/warn_unused_import.blp
+blueprint-compiler-0.20.4/tests/sample_errors/warn_unused_import.err
+blueprint-compiler-0.20.4/tests/sample_errors/widgets_in_non_size_group.blp
+blueprint-compiler-0.20.4/tests/sample_errors/widgets_in_non_size_group.err
+blueprint-compiler-0.20.4/tests/samples/
+blueprint-compiler-0.20.4/tests/samples/accessibility.blp
+blueprint-compiler-0.20.4/tests/samples/accessibility.ui
+blueprint-compiler-0.20.4/tests/samples/accessibility_dec.blp
+blueprint-compiler-0.20.4/tests/samples/accessibility_multiple_labelled_by.blp
+blueprint-compiler-0.20.4/tests/samples/accessibility_multiple_labelled_by.ui
+blueprint-compiler-0.20.4/tests/samples/action_widgets.blp
+blueprint-compiler-0.20.4/tests/samples/action_widgets.ui
+blueprint-compiler-0.20.4/tests/samples/adw_alertdialog_responses.blp
+blueprint-compiler-0.20.4/tests/samples/adw_alertdialog_responses.ui
+blueprint-compiler-0.20.4/tests/samples/adw_breakpoint.blp
+blueprint-compiler-0.20.4/tests/samples/adw_breakpoint.ui
+blueprint-compiler-0.20.4/tests/samples/adw_breakpoint_template.blp
+blueprint-compiler-0.20.4/tests/samples/adw_breakpoint_template.ui
+blueprint-compiler-0.20.4/tests/samples/adw_breakpoint_template_dec.blp
+blueprint-compiler-0.20.4/tests/samples/adw_messagedialog_responses.blp
+blueprint-compiler-0.20.4/tests/samples/adw_messagedialog_responses.ui
+blueprint-compiler-0.20.4/tests/samples/bind_expr_prop.blp
+blueprint-compiler-0.20.4/tests/samples/bind_expr_prop.ui
+blueprint-compiler-0.20.4/tests/samples/bind_literal.blp
+blueprint-compiler-0.20.4/tests/samples/bind_literal.ui
+blueprint-compiler-0.20.4/tests/samples/cast_simple_binding.blp
+blueprint-compiler-0.20.4/tests/samples/cast_simple_binding.ui
+blueprint-compiler-0.20.4/tests/samples/cast_simple_binding_dec.blp
+blueprint-compiler-0.20.4/tests/samples/cast_uint_to_bool.blp
+blueprint-compiler-0.20.4/tests/samples/cast_uint_to_bool.ui
+blueprint-compiler-0.20.4/tests/samples/child_type.blp
+blueprint-compiler-0.20.4/tests/samples/child_type.ui
+blueprint-compiler-0.20.4/tests/samples/combo_box_text.blp
+blueprint-compiler-0.20.4/tests/samples/combo_box_text.ui
+blueprint-compiler-0.20.4/tests/samples/comments.blp
+blueprint-compiler-0.20.4/tests/samples/comments.ui
+blueprint-compiler-0.20.4/tests/samples/empty_array.blp
+blueprint-compiler-0.20.4/tests/samples/empty_array.ui
+blueprint-compiler-0.20.4/tests/samples/enum.blp
+blueprint-compiler-0.20.4/tests/samples/enum.ui
+blueprint-compiler-0.20.4/tests/samples/expr_closure.blp
+blueprint-compiler-0.20.4/tests/samples/expr_closure.ui
+blueprint-compiler-0.20.4/tests/samples/expr_closure_args.blp
+blueprint-compiler-0.20.4/tests/samples/expr_closure_args.ui
+blueprint-compiler-0.20.4/tests/samples/expr_closure_dec.blp
+blueprint-compiler-0.20.4/tests/samples/expr_closure_inferred_type.blp
+blueprint-compiler-0.20.4/tests/samples/expr_closure_inferred_type.ui
+blueprint-compiler-0.20.4/tests/samples/expr_lookup.blp
+blueprint-compiler-0.20.4/tests/samples/expr_lookup.ui
+blueprint-compiler-0.20.4/tests/samples/expr_null.blp
+blueprint-compiler-0.20.4/tests/samples/expr_null.ui
+blueprint-compiler-0.20.4/tests/samples/expr_null_infer_type.blp
+blueprint-compiler-0.20.4/tests/samples/expr_null_infer_type.ui
+blueprint-compiler-0.20.4/tests/samples/expr_translated.blp
+blueprint-compiler-0.20.4/tests/samples/expr_translated.ui
+blueprint-compiler-0.20.4/tests/samples/expr_try.blp
+blueprint-compiler-0.20.4/tests/samples/expr_try.ui
+blueprint-compiler-0.20.4/tests/samples/expr_value.blp
+blueprint-compiler-0.20.4/tests/samples/expr_value.ui
+blueprint-compiler-0.20.4/tests/samples/expr_value_closure.blp
+blueprint-compiler-0.20.4/tests/samples/expr_value_closure.ui
+blueprint-compiler-0.20.4/tests/samples/expr_value_literal.blp
+blueprint-compiler-0.20.4/tests/samples/expr_value_literal.ui
+blueprint-compiler-0.20.4/tests/samples/extern_class_with_namespace.blp
+blueprint-compiler-0.20.4/tests/samples/extern_class_with_namespace.ui
+blueprint-compiler-0.20.4/tests/samples/extern_class_with_namespace_dec.blp
+blueprint-compiler-0.20.4/tests/samples/file_filter.blp
+blueprint-compiler-0.20.4/tests/samples/file_filter.ui
+blueprint-compiler-0.20.4/tests/samples/flags.blp
+blueprint-compiler-0.20.4/tests/samples/flags.ui
+blueprint-compiler-0.20.4/tests/samples/gtkcolumnview.blp
+blueprint-compiler-0.20.4/tests/samples/gtkcolumnview.ui
+blueprint-compiler-0.20.4/tests/samples/id_prop.blp
+blueprint-compiler-0.20.4/tests/samples/id_prop.ui
+blueprint-compiler-0.20.4/tests/samples/inline_menu.blp
+blueprint-compiler-0.20.4/tests/samples/inline_menu.ui
+blueprint-compiler-0.20.4/tests/samples/issue_119.blp
+blueprint-compiler-0.20.4/tests/samples/issue_119.ui
+blueprint-compiler-0.20.4/tests/samples/issue_119_dec.blp
+blueprint-compiler-0.20.4/tests/samples/issue_177.blp
+blueprint-compiler-0.20.4/tests/samples/issue_177.ui
+blueprint-compiler-0.20.4/tests/samples/issue_187.ui
+blueprint-compiler-0.20.4/tests/samples/issue_187_dec.blp
+blueprint-compiler-0.20.4/tests/samples/issue_195.blp
+blueprint-compiler-0.20.4/tests/samples/issue_195.ui
+blueprint-compiler-0.20.4/tests/samples/issue_221.blp
+blueprint-compiler-0.20.4/tests/samples/issue_221.ui
+blueprint-compiler-0.20.4/tests/samples/layout.blp
+blueprint-compiler-0.20.4/tests/samples/layout.ui
+blueprint-compiler-0.20.4/tests/samples/layout_dec.blp
+blueprint-compiler-0.20.4/tests/samples/level_bar_offsets.blp
+blueprint-compiler-0.20.4/tests/samples/level_bar_offsets.ui
+blueprint-compiler-0.20.4/tests/samples/list_factory.blp
+blueprint-compiler-0.20.4/tests/samples/list_factory.ui
+blueprint-compiler-0.20.4/tests/samples/list_factory_dec.blp
+blueprint-compiler-0.20.4/tests/samples/list_factory_nested.blp
+blueprint-compiler-0.20.4/tests/samples/list_factory_nested.ui
+blueprint-compiler-0.20.4/tests/samples/list_factory_nested_dec.blp
+blueprint-compiler-0.20.4/tests/samples/menu.blp
+blueprint-compiler-0.20.4/tests/samples/menu.ui
+blueprint-compiler-0.20.4/tests/samples/menu_dec.blp
+blueprint-compiler-0.20.4/tests/samples/menu_no_id.blp
+blueprint-compiler-0.20.4/tests/samples/menu_no_id.ui
+blueprint-compiler-0.20.4/tests/samples/multiline_string.blp
+blueprint-compiler-0.20.4/tests/samples/multiline_string.ui
+blueprint-compiler-0.20.4/tests/samples/multiline_string_dec.blp
+blueprint-compiler-0.20.4/tests/samples/numbers.blp
+blueprint-compiler-0.20.4/tests/samples/numbers.ui
+blueprint-compiler-0.20.4/tests/samples/numbers_dec.blp
+blueprint-compiler-0.20.4/tests/samples/object_prop.blp
+blueprint-compiler-0.20.4/tests/samples/object_prop.ui
+blueprint-compiler-0.20.4/tests/samples/parseable.blp
+blueprint-compiler-0.20.4/tests/samples/parseable.ui
+blueprint-compiler-0.20.4/tests/samples/placeholder.ui
+blueprint-compiler-0.20.4/tests/samples/placeholder_dec.blp
+blueprint-compiler-0.20.4/tests/samples/property.blp
+blueprint-compiler-0.20.4/tests/samples/property.ui
+blueprint-compiler-0.20.4/tests/samples/property_binding.blp
+blueprint-compiler-0.20.4/tests/samples/property_binding.ui
+blueprint-compiler-0.20.4/tests/samples/resource_prop.blp
+blueprint-compiler-0.20.4/tests/samples/resource_prop.ui
+blueprint-compiler-0.20.4/tests/samples/scale_marks.blp
+blueprint-compiler-0.20.4/tests/samples/scale_marks.ui
+blueprint-compiler-0.20.4/tests/samples/signal.blp
+blueprint-compiler-0.20.4/tests/samples/signal.ui
+blueprint-compiler-0.20.4/tests/samples/signal_not_swapped.blp
+blueprint-compiler-0.20.4/tests/samples/signal_not_swapped.ui
+blueprint-compiler-0.20.4/tests/samples/signal_template_object.blp
+blueprint-compiler-0.20.4/tests/samples/signal_template_object.ui
+blueprint-compiler-0.20.4/tests/samples/signal_unnecessary_swapped.ui
+blueprint-compiler-0.20.4/tests/samples/signal_unnecessary_swapped_dec.blp
+blueprint-compiler-0.20.4/tests/samples/size_group.blp
+blueprint-compiler-0.20.4/tests/samples/size_group.ui
+blueprint-compiler-0.20.4/tests/samples/string_array.blp
+blueprint-compiler-0.20.4/tests/samples/string_array.ui
+blueprint-compiler-0.20.4/tests/samples/string_list.blp
+blueprint-compiler-0.20.4/tests/samples/string_list.ui
+blueprint-compiler-0.20.4/tests/samples/strings.blp
+blueprint-compiler-0.20.4/tests/samples/strings.ui
+blueprint-compiler-0.20.4/tests/samples/strings_dec.blp
+blueprint-compiler-0.20.4/tests/samples/style.blp
+blueprint-compiler-0.20.4/tests/samples/style.ui
+blueprint-compiler-0.20.4/tests/samples/style_dec.blp
+blueprint-compiler-0.20.4/tests/samples/subscope.blp
+blueprint-compiler-0.20.4/tests/samples/subscope.ui
+blueprint-compiler-0.20.4/tests/samples/subscope_dec.blp
+blueprint-compiler-0.20.4/tests/samples/template.blp
+blueprint-compiler-0.20.4/tests/samples/template.ui
+blueprint-compiler-0.20.4/tests/samples/template_bind_property.blp
+blueprint-compiler-0.20.4/tests/samples/template_bind_property.ui
+blueprint-compiler-0.20.4/tests/samples/template_binding.blp
+blueprint-compiler-0.20.4/tests/samples/template_binding.ui
+blueprint-compiler-0.20.4/tests/samples/template_binding_extern.blp
+blueprint-compiler-0.20.4/tests/samples/template_binding_extern.ui
+blueprint-compiler-0.20.4/tests/samples/template_id.blp
+blueprint-compiler-0.20.4/tests/samples/template_id.ui
+blueprint-compiler-0.20.4/tests/samples/template_id_dec.blp
+blueprint-compiler-0.20.4/tests/samples/template_no_parent.blp
+blueprint-compiler-0.20.4/tests/samples/template_no_parent.ui
+blueprint-compiler-0.20.4/tests/samples/template_orphan.blp
+blueprint-compiler-0.20.4/tests/samples/template_orphan.ui
+blueprint-compiler-0.20.4/tests/samples/template_simple_binding.blp
+blueprint-compiler-0.20.4/tests/samples/template_simple_binding.ui
+blueprint-compiler-0.20.4/tests/samples/translated.blp
+blueprint-compiler-0.20.4/tests/samples/translated.ui
+blueprint-compiler-0.20.4/tests/samples/translation_domain.blp
+blueprint-compiler-0.20.4/tests/samples/translation_domain.ui
+blueprint-compiler-0.20.4/tests/samples/translator_comments.blp
+blueprint-compiler-0.20.4/tests/samples/translator_comments.ui
+blueprint-compiler-0.20.4/tests/samples/typeof.blp
+blueprint-compiler-0.20.4/tests/samples/typeof.ui
+blueprint-compiler-0.20.4/tests/samples/uint.blp
+blueprint-compiler-0.20.4/tests/samples/uint.ui
+blueprint-compiler-0.20.4/tests/samples/unchecked_class.blp
+blueprint-compiler-0.20.4/tests/samples/unchecked_class.ui
+blueprint-compiler-0.20.4/tests/samples/unchecked_class_dec.blp
+blueprint-compiler-0.20.4/tests/samples/using.blp
+blueprint-compiler-0.20.4/tests/samples/using.ui
+blueprint-compiler-0.20.4/tests/test_deprecations.py
+blueprint-compiler-0.20.4/tests/test_formatter.py
+blueprint-compiler-0.20.4/tests/test_linter.py
+blueprint-compiler-0.20.4/tests/test_samples.py
+blueprint-compiler-0.20.4/tests/test_tokenizer.py
+The Meson build system
+Version: 1.10.2
+Source dir: /blfs/builds/blueprint-compiler-0.20.4
+Build dir: /blfs/builds/blueprint-compiler-0.20.4/build
+Build type: native build
+Project name: blueprint-compiler
+Project version: 0.20.4
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Program python3 found: YES (/usr/bin/python3)
+Configuring blueprint-compiler.pc using configuration
+Configuring blueprint-compiler using configuration
+Build targets in project: 1
+
+blueprint-compiler 0.20.4
+
+  User defined options
+    buildtype: release
+    prefix   : /usr
+
+Found ninja-1.13.2 at /usr/bin/ninja
+[1/1] Generating docs/reference_docs.json with a custom command
+[1/2] Generating docs/reference_docs.json with a custom command
+[1/2] Installing files
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/main.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/decompiler.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/completions_utils.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/tokenizer.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/ast_utils.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/parse_tree.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/__init__.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/annotations.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/interactive_port.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/parser.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/lsp_utils.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/errors.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/formatter.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/utils.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/xml_reader.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/gir.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/types.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/lsp.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/completions.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/data/collect_stats.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/outputs/__init__.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/outputs/xml/__init__.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/outputs/xml/xml_emitter.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/scrollable_parent.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/prefer_adw_bin.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/use_styles_over_css_classes.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/no_visible_true.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/no_gtk_switch_state.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/incorrect_widget_placement.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/avoid_all_caps.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/translatable_display_string.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/__init__.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/require_a11y_label.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/unused_widget.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/missing_user_facing_properties.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/number_of_children.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/utils.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/prefer_unicode_chars.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/order_properties_gtk_adjustment.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/binding.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/gobject_object.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/gtk_scale.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/ui.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/common.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/translation_domain.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/gtk_styles.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/translated.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/gtk_combo_box_text.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/gtk_file_filter.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/gtk_layout.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/gobject_signal.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/contexts.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/__init__.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/gtk_a11y.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/gtkbuilder_child.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/values.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/imports.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/adw_breakpoint.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/response_id.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/gtk_level_bar.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/gtk_size_group.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/gtk_list_item_factory.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/expression.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/adw_response_dialog.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/gtkbuilder_template.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/gtk_menu.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/gtk_string_list.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/types.py'...
+Compiling '/pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/gobject_property.py'...
+Installing subdir /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/main.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/decompiler.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/completions_utils.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/tokenizer.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/ast_utils.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/parse_tree.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/__init__.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/annotations.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/interactive_port.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/parser.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/lsp_utils.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/errors.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/formatter.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/utils.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/xml_reader.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/gir.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/linter.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/types.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/lsp.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/completions.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/data/stats.json to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/data
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/data/collect_stats.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/data
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/outputs/__init__.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/outputs
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/outputs/xml/__init__.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/outputs/xml
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/outputs/xml/xml_emitter.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/outputs/xml
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/scrollable_parent.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/prefer_adw_bin.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/use_styles_over_css_classes.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/no_visible_true.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/no_gtk_switch_state.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/incorrect_widget_placement.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/avoid_all_caps.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/translatable_display_string.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/__init__.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/require_a11y_label.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/unused_widget.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/missing_user_facing_properties.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/number_of_children.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/utils.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/prefer_unicode_chars.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/order_properties_gtk_adjustment.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/binding.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/gobject_object.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/gtk_scale.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/ui.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/common.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/translation_domain.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/gtk_styles.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/translated.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/gtk_combo_box_text.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/gtk_file_filter.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/gtk_layout.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/gobject_signal.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/contexts.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/__init__.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/gtk_a11y.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/gtkbuilder_child.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/values.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/imports.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/adw_breakpoint.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/response_id.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/gtk_level_bar.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/gtk_size_group.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/gtk_list_item_factory.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/expression.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/adw_response_dialog.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/gtkbuilder_template.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/gtk_menu.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/gtk_string_list.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/types.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/gobject_property.py to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing docs/reference_docs.json to /pkgs/blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/build/blueprint-compiler.pc to /pkgs/blueprint-compiler/usr/share/pkgconfig
+Installing /blfs/builds/blueprint-compiler-0.20.4/build/blueprint-compiler to /pkgs/blueprint-compiler/usr/bin
+Running custom install script '/usr/bin/python3 /blfs/builds/blueprint-compiler-0.20.4/build/meson-private/pycompile.py python-3.14-installed.json 0'
+[1/2] Generating docs/reference_docs.json with a custom command
+[1/2] Installing files
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/main.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/decompiler.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/completions_utils.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/tokenizer.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/ast_utils.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/parse_tree.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/__init__.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/annotations.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/interactive_port.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/parser.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/lsp_utils.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/errors.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/formatter.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/utils.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/xml_reader.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/gir.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/linter.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/types.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/lsp.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/completions.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/data/collect_stats.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/outputs/__init__.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/outputs/xml/__init__.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/outputs/xml/xml_emitter.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/scrollable_parent.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/prefer_adw_bin.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/use_styles_over_css_classes.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/no_visible_true.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/no_gtk_switch_state.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/incorrect_widget_placement.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/avoid_all_caps.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/translatable_display_string.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/__init__.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/require_a11y_label.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/unused_widget.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/missing_user_facing_properties.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/number_of_children.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/utils.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/prefer_unicode_chars.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/order_properties_gtk_adjustment.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/language/binding.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/language/gobject_object.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/language/gtk_scale.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/language/ui.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/language/common.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/language/translation_domain.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/language/gtk_styles.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/language/translated.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/language/gtk_combo_box_text.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/language/gtk_file_filter.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/language/gtk_layout.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/language/gobject_signal.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/language/contexts.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/language/__init__.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/language/gtk_a11y.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/language/gtkbuilder_child.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/language/values.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/language/imports.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/language/adw_breakpoint.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/language/response_id.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/language/gtk_level_bar.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/language/gtk_size_group.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/language/gtk_list_item_factory.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/language/expression.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/language/adw_response_dialog.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/language/gtkbuilder_template.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/language/gtk_menu.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/language/gtk_string_list.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/language/types.py'...
+Compiling '/usr/lib/python3.14/site-packages/blueprintcompiler/language/gobject_property.py'...
+Installing subdir /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler to /usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/main.py to /usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/decompiler.py to /usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/completions_utils.py to /usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/tokenizer.py to /usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/ast_utils.py to /usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/parse_tree.py to /usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/__init__.py to /usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/annotations.py to /usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/interactive_port.py to /usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/parser.py to /usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/lsp_utils.py to /usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/errors.py to /usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/formatter.py to /usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/utils.py to /usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/xml_reader.py to /usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/gir.py to /usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/linter.py to /usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/types.py to /usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/lsp.py to /usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/completions.py to /usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/data/stats.json to /usr/lib/python3.14/site-packages/blueprintcompiler/data
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/data/collect_stats.py to /usr/lib/python3.14/site-packages/blueprintcompiler/data
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/outputs/__init__.py to /usr/lib/python3.14/site-packages/blueprintcompiler/outputs
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/outputs/xml/__init__.py to /usr/lib/python3.14/site-packages/blueprintcompiler/outputs/xml
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/outputs/xml/xml_emitter.py to /usr/lib/python3.14/site-packages/blueprintcompiler/outputs/xml
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/scrollable_parent.py to /usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/prefer_adw_bin.py to /usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/use_styles_over_css_classes.py to /usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/no_visible_true.py to /usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/no_gtk_switch_state.py to /usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/incorrect_widget_placement.py to /usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/avoid_all_caps.py to /usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/translatable_display_string.py to /usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/__init__.py to /usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/require_a11y_label.py to /usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/unused_widget.py to /usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/missing_user_facing_properties.py to /usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/number_of_children.py to /usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/utils.py to /usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/prefer_unicode_chars.py to /usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/linter_rules/order_properties_gtk_adjustment.py to /usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/binding.py to /usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/gobject_object.py to /usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/gtk_scale.py to /usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/ui.py to /usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/common.py to /usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/translation_domain.py to /usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/gtk_styles.py to /usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/translated.py to /usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/gtk_combo_box_text.py to /usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/gtk_file_filter.py to /usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/gtk_layout.py to /usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/gobject_signal.py to /usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/contexts.py to /usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/__init__.py to /usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/gtk_a11y.py to /usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/gtkbuilder_child.py to /usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/values.py to /usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/imports.py to /usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/adw_breakpoint.py to /usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/response_id.py to /usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/gtk_level_bar.py to /usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/gtk_size_group.py to /usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/gtk_list_item_factory.py to /usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/expression.py to /usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/adw_response_dialog.py to /usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/gtkbuilder_template.py to /usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/gtk_menu.py to /usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/gtk_string_list.py to /usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/types.py to /usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing /blfs/builds/blueprint-compiler-0.20.4/blueprintcompiler/language/gobject_property.py to /usr/lib/python3.14/site-packages/blueprintcompiler/language
+Installing docs/reference_docs.json to /usr/lib/python3.14/site-packages/blueprintcompiler
+Installing /blfs/builds/blueprint-compiler-0.20.4/build/blueprint-compiler.pc to /usr/share/pkgconfig
+Installing /blfs/builds/blueprint-compiler-0.20.4/build/blueprint-compiler to /usr/bin
+Running custom install script '/usr/bin/python3 /blfs/builds/blueprint-compiler-0.20.4/build/meson-private/pycompile.py python-3.14-installed.json 0'
+blueprint-compiler/
+blueprint-compiler/usr/
+blueprint-compiler/usr/share/
+blueprint-compiler/usr/share/pkgconfig/
+blueprint-compiler/usr/share/pkgconfig/blueprint-compiler.pc
+blueprint-compiler/usr/bin/
+blueprint-compiler/usr/bin/blueprint-compiler
+blueprint-compiler/usr/lib/
+blueprint-compiler/usr/lib/python3.14/
+blueprint-compiler/usr/lib/python3.14/site-packages/
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/data/
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/data/stats.json
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/data/__pycache__/
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/data/__pycache__/collect_stats.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/data/collect_stats.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/main.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/outputs/
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/outputs/__pycache__/
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/outputs/__pycache__/__init__.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/outputs/__init__.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/outputs/xml/
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/outputs/xml/__pycache__/
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/outputs/xml/__pycache__/xml_emitter.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/outputs/xml/__pycache__/__init__.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/outputs/xml/__init__.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/outputs/xml/xml_emitter.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/scrollable_parent.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/prefer_adw_bin.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/__pycache__/
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/__pycache__/no_gtk_switch_state.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/__pycache__/utils.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/__pycache__/translatable_display_string.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/__pycache__/unused_widget.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/__pycache__/order_properties_gtk_adjustment.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/__pycache__/use_styles_over_css_classes.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/__pycache__/scrollable_parent.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/__pycache__/missing_user_facing_properties.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/__pycache__/number_of_children.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/__pycache__/prefer_unicode_chars.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/__pycache__/require_a11y_label.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/__pycache__/__init__.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/__pycache__/prefer_adw_bin.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/__pycache__/incorrect_widget_placement.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/__pycache__/avoid_all_caps.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/__pycache__/no_visible_true.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/use_styles_over_css_classes.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/no_visible_true.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/no_gtk_switch_state.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/incorrect_widget_placement.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/avoid_all_caps.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/translatable_display_string.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/__init__.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/require_a11y_label.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/unused_widget.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/missing_user_facing_properties.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/number_of_children.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/utils.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/prefer_unicode_chars.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter_rules/order_properties_gtk_adjustment.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/decompiler.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/__pycache__/
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/__pycache__/annotations.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/__pycache__/utils.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/__pycache__/formatter.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/__pycache__/gir.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/__pycache__/main.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/__pycache__/linter.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/__pycache__/tokenizer.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/__pycache__/lsp.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/__pycache__/ast_utils.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/__pycache__/xml_reader.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/__pycache__/types.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/__pycache__/__init__.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/__pycache__/completions_utils.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/__pycache__/completions.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/__pycache__/decompiler.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/__pycache__/interactive_port.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/__pycache__/errors.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/__pycache__/parser.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/__pycache__/lsp_utils.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/__pycache__/parse_tree.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/completions_utils.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/tokenizer.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/reference_docs.json
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/ast_utils.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/parse_tree.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/__init__.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/annotations.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/interactive_port.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/parser.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/lsp_utils.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/errors.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/formatter.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/binding.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/gobject_object.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/gtk_scale.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/ui.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/common.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/translation_domain.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/gtk_styles.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/translated.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/__pycache__/
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/__pycache__/binding.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/__pycache__/gtk_level_bar.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/__pycache__/gobject_signal.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/__pycache__/gtk_a11y.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/__pycache__/adw_breakpoint.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/__pycache__/translation_domain.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/__pycache__/common.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/__pycache__/gtk_string_list.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/__pycache__/gtk_scale.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/__pycache__/gtk_size_group.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/__pycache__/values.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/__pycache__/contexts.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/__pycache__/gobject_property.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/__pycache__/gtk_file_filter.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/__pycache__/gtk_layout.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/__pycache__/imports.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/__pycache__/gtk_menu.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/__pycache__/response_id.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/__pycache__/gtkbuilder_child.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/__pycache__/translated.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/__pycache__/types.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/__pycache__/adw_response_dialog.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/__pycache__/gtk_combo_box_text.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/__pycache__/gtkbuilder_template.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/__pycache__/gtk_styles.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/__pycache__/__init__.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/__pycache__/gtk_list_item_factory.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/__pycache__/ui.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/__pycache__/gobject_object.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/__pycache__/expression.cpython-314.pyc
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/gtk_combo_box_text.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/gtk_file_filter.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/gtk_layout.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/gobject_signal.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/contexts.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/__init__.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/gtk_a11y.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/gtkbuilder_child.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/values.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/imports.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/adw_breakpoint.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/response_id.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/gtk_level_bar.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/gtk_size_group.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/gtk_list_item_factory.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/expression.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/adw_response_dialog.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/gtkbuilder_template.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/gtk_menu.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/gtk_string_list.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/types.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/language/gobject_property.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/utils.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/xml_reader.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/gir.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/linter.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/types.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/lsp.py
+blueprint-compiler/usr/lib/python3.14/site-packages/blueprintcompiler/completions.py
+blueprint-compiler/version
+blueprint-compiler/depends
+blueprint-compiler/make-depends
