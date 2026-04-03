@@ -1,0 +1,433 @@
+--2026-04-03 09:54:28--  https://gstreamer.freedesktop.org/src/gstreamer-vaapi/gstreamer-vaapi-1.26.11.tar.xz
+Resolving gstreamer.freedesktop.org (gstreamer.freedesktop.org)... 131.252.210.176
+Connecting to gstreamer.freedesktop.org (gstreamer.freedesktop.org)|131.252.210.176|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 561836 (549K) [application/x-xz]
+Saving to: ‘gstreamer-vaapi-1.26.11.tar.xz’
+
+     0K .......... .......... .......... .......... ..........  9%  417K 1s
+    50K .......... .......... .......... .......... .......... 18% 1.54M 1s
+   100K .......... .......... .......... .......... .......... 27%  733K 1s
+   150K .......... .......... .......... .......... .......... 36% 1.35M 0s
+   200K .......... .......... .......... .......... .......... 45%  739K 0s
+   250K .......... .......... .......... .......... .......... 54% 29.4M 0s
+   300K .......... .......... .......... .......... .......... 63% 1.50M 0s
+   350K .......... .......... .......... .......... .......... 72% 1.45M 0s
+   400K .......... .......... .......... .......... .......... 82% 1.48M 0s
+   450K .......... .......... .......... .......... .......... 91% 1.37M 0s
+   500K .......... .......... .......... .......... ........  100% 35.7M=0.5s
+
+2026-04-03 09:54:29 (1.16 MB/s) - ‘gstreamer-vaapi-1.26.11.tar.xz’ saved [561836/561836]
+
+gstreamer-vaapi-1.26.11/
+gstreamer-vaapi-1.26.11/.gitignore
+gstreamer-vaapi-1.26.11/AUTHORS
+gstreamer-vaapi-1.26.11/COPYING.LIB
+gstreamer-vaapi-1.26.11/ChangeLog
+gstreamer-vaapi-1.26.11/NEWS
+gstreamer-vaapi-1.26.11/README
+gstreamer-vaapi-1.26.11/RELEASE
+gstreamer-vaapi-1.26.11/docs/
+gstreamer-vaapi-1.26.11/docs/gst_plugins_cache.json
+gstreamer-vaapi-1.26.11/docs/index.md
+gstreamer-vaapi-1.26.11/docs/meson.build
+gstreamer-vaapi-1.26.11/docs/sitemap.txt
+gstreamer-vaapi-1.26.11/gst/
+gstreamer-vaapi-1.26.11/gst/meson.build
+gstreamer-vaapi-1.26.11/gst/vaapi/
+gstreamer-vaapi-1.26.11/gst/vaapi/gstcompat.h
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapi.c
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapi.h
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapidecode.c
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapidecode.h
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapidecode_props.c
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapidecode_props.h
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapidecodebin.c
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapidecodebin.h
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapidecodedoc.c
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapiencode.c
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapiencode.h
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapiencode_h264.c
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapiencode_h264.h
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapiencode_h265.c
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapiencode_h265.h
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapiencode_jpeg.c
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapiencode_jpeg.h
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapiencode_mpeg2.c
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapiencode_mpeg2.h
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapiencode_vp8.c
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapiencode_vp8.h
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapiencode_vp9.c
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapiencode_vp9.h
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapioverlay.c
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapioverlay.h
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapipluginbase.c
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapipluginbase.h
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapipluginutil.c
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapipluginutil.h
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapipostproc.c
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapipostproc.h
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapipostprocutil.c
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapipostprocutil.h
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapisink.c
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapisink.h
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapivideobuffer.c
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapivideobuffer.h
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapivideobufferpool.c
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapivideobufferpool.h
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapivideocontext.c
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapivideocontext.h
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapivideomemory.c
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapivideomemory.h
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapivideometa.c
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapivideometa.h
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapivideometa_texture.c
+gstreamer-vaapi-1.26.11/gst/vaapi/gstvaapivideometa_texture.h
+gstreamer-vaapi-1.26.11/gst/vaapi/meson.build
+gstreamer-vaapi-1.26.11/gst-libs/
+gstreamer-vaapi-1.26.11/gst-libs/gst/
+gstreamer-vaapi-1.26.11/gst-libs/gst/meson.build
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/egl_compat.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/egl_vtable.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiblend.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiblend.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapibufferproxy.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapibufferproxy.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapibufferproxy_priv.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapicodec_objects.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapicodec_objects.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapicodedbuffer.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapicodedbuffer.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapicodedbuffer_priv.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapicodedbufferpool.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapicodedbufferpool.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapicodedbufferproxy.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapicodedbufferproxy.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapicodedbufferproxy_priv.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapicompat.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapicontext.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapicontext.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidebug.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidecoder.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidecoder.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidecoder_av1.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidecoder_av1.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidecoder_dpb.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidecoder_dpb.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidecoder_h264.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidecoder_h264.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidecoder_h265.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidecoder_h265.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidecoder_jpeg.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidecoder_jpeg.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidecoder_mpeg2.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidecoder_mpeg2.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidecoder_mpeg4.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidecoder_mpeg4.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidecoder_objects.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidecoder_objects.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidecoder_priv.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidecoder_unit.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidecoder_unit.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidecoder_vc1.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidecoder_vc1.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidecoder_vp8.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidecoder_vp8.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidecoder_vp9.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidecoder_vp9.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidisplay.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidisplay.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidisplay_drm.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidisplay_drm.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidisplay_drm_priv.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidisplay_egl.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidisplay_egl.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidisplay_egl_priv.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidisplay_glx.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidisplay_glx.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidisplay_glx_priv.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidisplay_priv.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidisplay_wayland.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidisplay_wayland.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidisplay_wayland_priv.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidisplay_x11.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidisplay_x11.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapidisplay_x11_priv.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiencoder.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiencoder.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiencoder_h264.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiencoder_h264.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiencoder_h265.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiencoder_h265.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiencoder_jpeg.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiencoder_jpeg.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiencoder_mpeg2.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiencoder_mpeg2.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiencoder_mpeg2_priv.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiencoder_objects.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiencoder_objects.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiencoder_priv.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiencoder_vp8.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiencoder_vp8.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiencoder_vp9.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiencoder_vp9.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapifilter.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapifilter.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiimage.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiimage.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiimage_priv.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiimagepool.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiimagepool.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiminiobject.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiminiobject.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiparser_frame.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiparser_frame.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiprofile.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiprofile.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiprofilecaps.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiprofilecaps.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapisubpicture.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapisubpicture.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapisurface.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapisurface.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapisurface_drm.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapisurface_drm.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapisurface_egl.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapisurface_egl.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapisurface_priv.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapisurfacepool.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapisurfacepool.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapisurfaceproxy.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapisurfaceproxy.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapisurfaceproxy_priv.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapitexture.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapitexture.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapitexture_egl.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapitexture_egl.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapitexture_glx.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapitexture_glx.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapitexture_priv.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapitexturemap.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapitexturemap.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapitypes.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiutils.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiutils.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiutils_core.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiutils_core.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiutils_egl.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiutils_egl.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiutils_glx.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiutils_glx.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiutils_h264.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiutils_h264.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiutils_h264_priv.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiutils_h265.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiutils_h265.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiutils_h265_priv.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiutils_h26x.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiutils_h26x_priv.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiutils_mpeg2.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiutils_mpeg2.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiutils_mpeg2_priv.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiutils_vpx.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiutils_vpx.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiutils_x11.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiutils_x11.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapivalue.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapivalue.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapivideopool.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapivideopool.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapivideopool_priv.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiwindow.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiwindow.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiwindow_drm.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiwindow_drm.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiwindow_egl.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiwindow_egl.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiwindow_glx.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiwindow_glx.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiwindow_priv.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiwindow_wayland.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiwindow_wayland.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiwindow_x11.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiwindow_x11.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiwindow_x11_priv.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/gstvaapiworkarounds.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/meson.build
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/ogl_compat.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/sysdeps.h
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/video-format.c
+gstreamer-vaapi-1.26.11/gst-libs/gst/vaapi/video-format.h
+gstreamer-vaapi-1.26.11/gst-libs/meson.build
+gstreamer-vaapi-1.26.11/gstreamer-vaapi.doap
+gstreamer-vaapi-1.26.11/meson.build
+gstreamer-vaapi-1.26.11/meson_options.txt
+gstreamer-vaapi-1.26.11/scripts/
+gstreamer-vaapi-1.26.11/scripts/extract-release-date-from-doap-file.py
+gstreamer-vaapi-1.26.11/scripts/gen-changelog.py
+gstreamer-vaapi-1.26.11/tests/
+gstreamer-vaapi-1.26.11/tests/check/
+gstreamer-vaapi-1.26.11/tests/check/elements/
+gstreamer-vaapi-1.26.11/tests/check/elements/vaapioverlay.c
+gstreamer-vaapi-1.26.11/tests/check/elements/vaapipostproc.c
+gstreamer-vaapi-1.26.11/tests/check/meson.build
+gstreamer-vaapi-1.26.11/tests/examples/
+gstreamer-vaapi-1.26.11/tests/examples/meson.build
+gstreamer-vaapi-1.26.11/tests/examples/test-roi.c
+gstreamer-vaapi-1.26.11/tests/examples/test-vaapicontext.c
+gstreamer-vaapi-1.26.11/tests/examples/test-vaapipostproc.c
+gstreamer-vaapi-1.26.11/tests/examples/test-vaapisink.c
+gstreamer-vaapi-1.26.11/tests/internal/
+gstreamer-vaapi-1.26.11/tests/internal/codec.c
+gstreamer-vaapi-1.26.11/tests/internal/codec.h
+gstreamer-vaapi-1.26.11/tests/internal/decoder.c
+gstreamer-vaapi-1.26.11/tests/internal/decoder.h
+gstreamer-vaapi-1.26.11/tests/internal/image.c
+gstreamer-vaapi-1.26.11/tests/internal/image.h
+gstreamer-vaapi-1.26.11/tests/internal/meson.build
+gstreamer-vaapi-1.26.11/tests/internal/output.c
+gstreamer-vaapi-1.26.11/tests/internal/output.h
+gstreamer-vaapi-1.26.11/tests/internal/simple-decoder.c
+gstreamer-vaapi-1.26.11/tests/internal/simple-encoder.c
+gstreamer-vaapi-1.26.11/tests/internal/test-decode.c
+gstreamer-vaapi-1.26.11/tests/internal/test-decode.h
+gstreamer-vaapi-1.26.11/tests/internal/test-display.c
+gstreamer-vaapi-1.26.11/tests/internal/test-filter.c
+gstreamer-vaapi-1.26.11/tests/internal/test-h264.c
+gstreamer-vaapi-1.26.11/tests/internal/test-h264.h
+gstreamer-vaapi-1.26.11/tests/internal/test-jpeg.c
+gstreamer-vaapi-1.26.11/tests/internal/test-jpeg.h
+gstreamer-vaapi-1.26.11/tests/internal/test-mpeg2.c
+gstreamer-vaapi-1.26.11/tests/internal/test-mpeg2.h
+gstreamer-vaapi-1.26.11/tests/internal/test-mpeg4.c
+gstreamer-vaapi-1.26.11/tests/internal/test-mpeg4.h
+gstreamer-vaapi-1.26.11/tests/internal/test-subpicture-data.c
+gstreamer-vaapi-1.26.11/tests/internal/test-subpicture-data.h
+gstreamer-vaapi-1.26.11/tests/internal/test-subpicture.c
+gstreamer-vaapi-1.26.11/tests/internal/test-surfaces.c
+gstreamer-vaapi-1.26.11/tests/internal/test-textures.c
+gstreamer-vaapi-1.26.11/tests/internal/test-vc1.c
+gstreamer-vaapi-1.26.11/tests/internal/test-vc1.h
+gstreamer-vaapi-1.26.11/tests/internal/test-windows.c
+gstreamer-vaapi-1.26.11/tests/internal/y4mreader.c
+gstreamer-vaapi-1.26.11/tests/internal/y4mreader.h
+gstreamer-vaapi-1.26.11/tests/meson.build
+The Meson build system
+Version: 1.10.2
+Source dir: /blfs/builds/gstreamer-vaapi-1.26.11
+Build dir: /blfs/builds/gstreamer-vaapi-1.26.11/build
+Build type: native build
+Project name: gstreamer-vaapi
+Project version: 1.26.11
+C compiler for the host machine: cc (gcc 15.2.0 "cc (GCC) 15.2.0")
+C linker for the host machine: cc ld.bfd 2.45
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Compiler for C supports link arguments -Wl,-Bsymbolic-functions: YES 
+Compiler for C supports arguments -fvisibility=hidden: YES 
+Compiler for C supports arguments -fno-strict-aliasing: YES 
+Library m found: YES
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Run-time dependency gstreamer-1.0 found: YES 1.28.1
+Run-time dependency gstreamer-base-1.0 found: YES 1.28.1
+Run-time dependency gstreamer-pbutils-1.0 found: YES 1.28.1
+Run-time dependency gstreamer-allocators-1.0 found: YES 1.28.1
+Run-time dependency gstreamer-video-1.0 found: YES 1.28.1
+Run-time dependency gstreamer-codecparsers-1.0 found: YES 1.28.1
+Run-time dependency gstreamer-gl-1.0 found: YES 1.28.1
+Header "gst/gstconfig.h" has symbol "GST_DISABLE_GST_DEBUG" with dependency gstreamer-1.0: NO 
+Message: GStreamer debug system is enabled
+Run-time dependency libva found: YES 1.23.0
+Run-time dependency libva-drm found: YES 1.23.0
+Run-time dependency libva-wayland found: YES 1.23.0
+Run-time dependency libva-x11 found: YES 1.23.0
+Run-time dependency libdrm found: YES 2.4.131
+Run-time dependency libudev found: YES 260
+Run-time dependency x11 found: YES 1.8.13
+Run-time dependency xrandr found: YES 1.5.5
+Run-time dependency gmodule-no-export-2.0 found: YES 2.88.0
+Run-time dependency egl found: YES 1.5
+Run-time dependency glesv2 found: YES 3.2
+Run-time dependency gl found: YES 1.2
+Library dl found: YES
+Run-time dependency wayland-client found: YES 1.25.0
+Run-time dependency wayland-protocols found: YES 1.48
+Program wayland-scanner found: YES (/usr/bin/wayland-scanner)
+Run-time dependency gstreamer-check-1.0 found: YES 1.28.1
+Run-time dependency gtk+-3.0 found: YES 3.24.52
+Has header "GLES2/gl2.h" with dependency glesv2: YES 
+Has header "GLES2/gl2ext.h" with dependency glesv2: YES 
+Has header "GLES3/gl3.h" with dependency glesv2: YES 
+Has header "GLES3/gl3ext.h" with dependency glesv2: YES 
+Has header "GLES2/gl2ext.h" with dependency glesv2: YES (cached)
+Run-time dependency gstreamer-gl-prototypes-1.0 found: YES 1.28.1
+Run-time dependency gstreamer-gl-x11-1.0 found: YES 1.28.1
+Run-time dependency gstreamer-gl-wayland-1.0 found: YES 1.28.1
+Run-time dependency gstreamer-gl-egl-1.0 found: YES 1.28.1
+Has header "X11/XKBlib.h" with dependency x11: YES 
+Program gst-plugins-doc-cache-generator found: YES (/usr/libexec/gstreamer-1.0/gst-plugins-doc-cache-generator)
+Program hotdoc found: NO
+Message: Hotdoc not found, not building the documentation
+../meson.build:220: WARNING: GStreamer VA-API is deprecated in favor of GstVA in gst-plugins-bad
+Program scripts/extract-release-date-from-doap-file.py found: YES (/blfs/builds/gstreamer-vaapi-1.26.11/scripts/extract-release-date-from-doap-file.py)
+Message: Package release date: 2026-03-10
+Configuring config.h using configuration
+Build targets in project: 24
+
+gstreamer-vaapi 1.26.11
+
+    Plugins       : vaapi
+
+  User defined options
+    buildtype     : release
+    package-origin: https://github.com/xXTeraXx/Tucana
+    prefix        : /usr
+    wrap_mode     : nodownload
+
+Found ninja-1.13.2 at /usr/bin/ninja
+[1/145] Generating gst-libs/gst/vaapi/vaapi-dmabuf-client-code with a custom command
+[2/145] Generating gst-libs/gst/vaapi/vaapi-dmabuf-client-header with a custom command
+[3/145] Generating gst-libs/gst/vaapi/vaapi-xdg-shell-client-header with a custom command
+[4/145] Generating gst-libs/gst/vaapi/vaapi-xdg-shell-client-code with a custom command
+[5/145] Compiling C object gst-libs/gst/vaapi/libgstlibvaapi-1.0.a.p/meson-generated_.._linux-dmabuf-unstable-v1-client-protocol.c.o
+[6/145] Compiling C object gst-libs/gst/vaapi/libgstlibvaapi-1.0.a.p/meson-generated_.._xdg-shell-client-protocol.c.o
+[7/145] Compiling C object tests/internal/liblibdecutils.a.p/test-h264.c.o
+[8/145] Compiling C object tests/internal/liblibdecutils.a.p/test-mpeg2.c.o
+[9/145] Compiling C object tests/internal/liblibdecutils.a.p/test-mpeg4.c.o
+[10/145] Compiling C object tests/internal/liblibdecutils.a.p/test-jpeg.c.o
+[11/145] Compiling C object tests/internal/liblibdecutils.a.p/test-vc1.c.o
+[12/145] Compiling C object tests/internal/liblibutils.a.p/test-subpicture-data.c.o
+[13/145] Compiling C object tests/internal/liblibutils.a.p/codec.c.o
+[14/145] Compiling C object tests/internal/liblibdecutils.a.p/decoder.c.o
+[15/145] Compiling C object gst/vaapi/libgstvaapi.so.p/gstvaapi.c.o
+[16/145] Compiling C object gst-libs/gst/vaapi/libgstlibvaapi-1.0.a.p/gstvaapibufferproxy.c.o
+[17/145] Compiling C object gst-libs/gst/vaapi/libgstlibvaapi-1.0.a.p/gstvaapiblend.c.o
+[18/145] Compiling C object tests/internal/liblibutils.a.p/y4mreader.c.o
+[19/145] Compiling C object gst-libs/gst/vaapi/libgstlibvaapi-1.0.a.p/gstvaapicodec_objects.c.o
+[20/145] Compiling C object tests/internal/liblibutils.a.p/image.c.o
+[21/145] Compiling C object gst-libs/gst/vaapi/libgstlibvaapi-1.0.a.p/gstvaapidecoder_dpb.c.o
+[22/145] Compiling C object tests/internal/liblibutils.a.p/output.c.o
+[23/145] Compiling C object gst-libs/gst/vaapi/libgstlibvaapi-1.0.a.p/gstvaapidecoder_h265.c.o
+FAILED: [code=1] gst-libs/gst/vaapi/libgstlibvaapi-1.0.a.p/gstvaapidecoder_h265.c.o 
+cc -Igst-libs/gst/vaapi/libgstlibvaapi-1.0.a.p -Igst-libs/gst/vaapi -I../gst-libs/gst/vaapi -I. -I.. -Igst-libs -I../gst-libs -I/usr/include/gstreamer-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sysprof-6 -I/usr/include/libdrm -I/usr/lib/gstreamer-1.0/include -I/usr/include/gudev-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O3 -fvisibility=hidden -fno-strict-aliasing -O2 -fPIC -pthread -DHAVE_CONFIG_H -DGST_USE_UNSTABLE_API '-DGST_VAAPI_VERSION_ID="1.26.11"' -MD -MQ gst-libs/gst/vaapi/libgstlibvaapi-1.0.a.p/gstvaapidecoder_h265.c.o -MF gst-libs/gst/vaapi/libgstlibvaapi-1.0.a.p/gstvaapidecoder_h265.c.o.d -o gst-libs/gst/vaapi/libgstlibvaapi-1.0.a.p/gstvaapidecoder_h265.c.o -c ../gst-libs/gst/vaapi/gstvaapidecoder_h265.c
+../gst-libs/gst/vaapi/gstvaapidecoder_h265.c: In function ‘nal_is_irap’:
+../gst-libs/gst/vaapi/gstvaapidecoder_h265.c:459:20: error: ‘RESERVED_IRAP_NAL_TYPE_MAX’ undeclared (first use in this function); did you mean ‘GST_H265_RESERVED_IRAP_NAL_TYPE_MAX’?
+  459 |       (nal_type <= RESERVED_IRAP_NAL_TYPE_MAX))
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                    GST_H265_RESERVED_IRAP_NAL_TYPE_MAX
+../gst-libs/gst/vaapi/gstvaapidecoder_h265.c:459:20: note: each undeclared identifier is reported only once for each function it appears in
+[24/145] Compiling C object gst-libs/gst/vaapi/libgstlibvaapi-1.0.a.p/gstvaapicontext.c.o
+[25/145] Compiling C object gst-libs/gst/vaapi/libgstlibvaapi-1.0.a.p/gstvaapidecoder_unit.c.o
+[26/145] Compiling C object gst-libs/gst/vaapi/libgstlibvaapi-1.0.a.p/gstvaapidecoder_objects.c.o
+[27/145] Compiling C object gst-libs/gst/vaapi/libgstlibvaapi-1.0.a.p/gstvaapidecoder.c.o
+[28/145] Compiling C object gst-libs/gst/vaapi/libgstlibvaapi-1.0.a.p/gstvaapidecoder_vp8.c.o
+[29/145] Compiling C object gst-libs/gst/vaapi/libgstlibvaapi-1.0.a.p/gstvaapidecoder_mpeg4.c.o
+[30/145] Compiling C object gst-libs/gst/vaapi/libgstlibvaapi-1.0.a.p/gstvaapidecoder_jpeg.c.o
+[31/145] Compiling C object gst-libs/gst/vaapi/libgstlibvaapi-1.0.a.p/gstvaapidecoder_mpeg2.c.o
+[32/145] Compiling C object gst-libs/gst/vaapi/libgstlibvaapi-1.0.a.p/gstvaapidecoder_vc1.c.o
+[33/145] Compiling C object gst-libs/gst/vaapi/libgstlibvaapi-1.0.a.p/gstvaapidecoder_vp9.c.o
+[34/145] Compiling C object gst-libs/gst/vaapi/libgstlibvaapi-1.0.a.p/gstvaapifilter.c.o
+[35/145] Compiling C object gst-libs/gst/vaapi/libgstlibvaapi-1.0.a.p/gstvaapidisplay.c.o
+[36/145] Compiling C object gst-libs/gst/vaapi/libgstlibvaapi-1.0.a.p/gstvaapidecoder_h264.c.o
+ninja: build stopped: subcommand failed.
