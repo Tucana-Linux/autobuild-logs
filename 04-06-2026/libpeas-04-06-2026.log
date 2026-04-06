@@ -1,0 +1,1220 @@
+--2026-04-06 09:11:47--  https://download.gnome.org/sources/libpeas/1.38/libpeas-1.38.1.tar.xz
+Resolving download.gnome.org (download.gnome.org)... 79.127.206.235, 79.127.206.207, 152.233.11.105, ...
+Connecting to download.gnome.org (download.gnome.org)|79.127.206.235|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 196456 (192K) [application/octet-stream]
+Saving to: ‘libpeas-1.38.1.tar.xz’
+
+     0K .......... .......... .......... .......... .......... 26% 4.42M 0s
+    50K .......... .......... .......... .......... .......... 52% 6.08M 0s
+   100K .......... .......... .......... .......... .......... 78% 32.2M 0s
+   150K .......... .......... .......... .......... .         100% 6.15M=0.03s
+
+2026-04-06 09:11:47 (6.88 MB/s) - ‘libpeas-1.38.1.tar.xz’ saved [196456/196456]
+
+libpeas-1.38.1/
+libpeas-1.38.1/.gitignore
+libpeas-1.38.1/.gitlab-ci.yml
+libpeas-1.38.1/AUTHORS
+libpeas-1.38.1/COPYING
+libpeas-1.38.1/NEWS
+libpeas-1.38.1/README
+libpeas-1.38.1/copyfile.py
+libpeas-1.38.1/data/
+libpeas-1.38.1/data/glade/
+libpeas-1.38.1/data/glade/libpeas-gtk.xml.in
+libpeas-1.38.1/data/glade/meson.build
+libpeas-1.38.1/data/icons/
+libpeas-1.38.1/data/icons/16x16/
+libpeas-1.38.1/data/icons/16x16/libpeas-plugin.png
+libpeas-1.38.1/data/icons/16x16/libpeas-plugin.svg
+libpeas-1.38.1/data/icons/22x22/
+libpeas-1.38.1/data/icons/22x22/libpeas-plugin.png
+libpeas-1.38.1/data/icons/22x22/libpeas-plugin.svg
+libpeas-1.38.1/data/icons/32x32/
+libpeas-1.38.1/data/icons/32x32/libpeas-plugin.png
+libpeas-1.38.1/data/icons/32x32/libpeas-plugin.svg
+libpeas-1.38.1/data/icons/meson.build
+libpeas-1.38.1/data/icons/scalable/
+libpeas-1.38.1/data/icons/scalable/libpeas-plugin.svg
+libpeas-1.38.1/data/meson.build
+libpeas-1.38.1/docs/
+libpeas-1.38.1/docs/meson.build
+libpeas-1.38.1/docs/reference/
+libpeas-1.38.1/docs/reference/images/
+libpeas-1.38.1/docs/reference/images/peas-gtk-plugin-manager.png
+libpeas-1.38.1/docs/reference/libpeas-gtk-urlmap.js
+libpeas-1.38.1/docs/reference/libpeas-gtk.toml.in
+libpeas-1.38.1/docs/reference/libpeas-urlmap.js
+libpeas-1.38.1/docs/reference/libpeas.toml.in
+libpeas-1.38.1/docs/reference/meson.build
+libpeas-1.38.1/libpeas/
+libpeas-1.38.1/libpeas/gconstructor.h
+libpeas-1.38.1/libpeas/meson.build
+libpeas-1.38.1/libpeas/peas-activatable.c
+libpeas-1.38.1/libpeas/peas-activatable.h
+libpeas-1.38.1/libpeas/peas-autocleanups.h
+libpeas-1.38.1/libpeas/peas-debug.c
+libpeas-1.38.1/libpeas/peas-debug.h
+libpeas-1.38.1/libpeas/peas-dirs.c
+libpeas-1.38.1/libpeas/peas-dirs.h
+libpeas-1.38.1/libpeas/peas-engine-priv.h
+libpeas-1.38.1/libpeas/peas-engine.c
+libpeas-1.38.1/libpeas/peas-engine.h
+libpeas-1.38.1/libpeas/peas-extension-base.c
+libpeas-1.38.1/libpeas/peas-extension-base.h
+libpeas-1.38.1/libpeas/peas-extension-set.c
+libpeas-1.38.1/libpeas/peas-extension-set.h
+libpeas-1.38.1/libpeas/peas-extension.c
+libpeas-1.38.1/libpeas/peas-extension.h
+libpeas-1.38.1/libpeas/peas-i18n-priv.h
+libpeas-1.38.1/libpeas/peas-i18n.c
+libpeas-1.38.1/libpeas/peas-introspection.c
+libpeas-1.38.1/libpeas/peas-introspection.h
+libpeas-1.38.1/libpeas/peas-marshal.list
+libpeas-1.38.1/libpeas/peas-object-module.c
+libpeas-1.38.1/libpeas/peas-object-module.h
+libpeas-1.38.1/libpeas/peas-plugin-info-priv.h
+libpeas-1.38.1/libpeas/peas-plugin-info.c
+libpeas-1.38.1/libpeas/peas-plugin-info.h
+libpeas-1.38.1/libpeas/peas-plugin-loader-c.c
+libpeas-1.38.1/libpeas/peas-plugin-loader-c.h
+libpeas-1.38.1/libpeas/peas-plugin-loader.c
+libpeas-1.38.1/libpeas/peas-plugin-loader.h
+libpeas-1.38.1/libpeas/peas-utils-osx.h
+libpeas-1.38.1/libpeas/peas-utils-osx.m
+libpeas-1.38.1/libpeas/peas-utils.c
+libpeas-1.38.1/libpeas/peas-utils.h
+libpeas-1.38.1/libpeas/peas-version-macros.h
+libpeas-1.38.1/libpeas/peas-version.h.in
+libpeas-1.38.1/libpeas/peas.h
+libpeas-1.38.1/libpeas-gtk/
+libpeas-1.38.1/libpeas-gtk/meson.build
+libpeas-1.38.1/libpeas-gtk/peas-gtk-autocleanups.h
+libpeas-1.38.1/libpeas-gtk/peas-gtk-configurable.c
+libpeas-1.38.1/libpeas-gtk/peas-gtk-configurable.h
+libpeas-1.38.1/libpeas-gtk/peas-gtk-disable-plugins-dialog.c
+libpeas-1.38.1/libpeas-gtk/peas-gtk-disable-plugins-dialog.h
+libpeas-1.38.1/libpeas-gtk/peas-gtk-plugin-manager-store.c
+libpeas-1.38.1/libpeas-gtk/peas-gtk-plugin-manager-store.h
+libpeas-1.38.1/libpeas-gtk/peas-gtk-plugin-manager-view.c
+libpeas-1.38.1/libpeas-gtk/peas-gtk-plugin-manager-view.h
+libpeas-1.38.1/libpeas-gtk/peas-gtk-plugin-manager.c
+libpeas-1.38.1/libpeas-gtk/peas-gtk-plugin-manager.h
+libpeas-1.38.1/libpeas-gtk/peas-gtk.h
+libpeas-1.38.1/libpeas.doap
+libpeas-1.38.1/license_change
+libpeas-1.38.1/loaders/
+libpeas-1.38.1/loaders/lua5.1/
+libpeas-1.38.1/loaders/lua5.1/meson.build
+libpeas-1.38.1/loaders/lua5.1/peas-lua-internal.c
+libpeas-1.38.1/loaders/lua5.1/peas-lua-internal.h
+libpeas-1.38.1/loaders/lua5.1/peas-lua-utils.c
+libpeas-1.38.1/loaders/lua5.1/peas-lua-utils.h
+libpeas-1.38.1/loaders/lua5.1/peas-plugin-loader-lua.c
+libpeas-1.38.1/loaders/lua5.1/peas-plugin-loader-lua.h
+libpeas-1.38.1/loaders/lua5.1/resources/
+libpeas-1.38.1/loaders/lua5.1/resources/meson.build
+libpeas-1.38.1/loaders/lua5.1/resources/peas-lua-compile.lua
+libpeas-1.38.1/loaders/lua5.1/resources/peas-lua-internal.lua
+libpeas-1.38.1/loaders/lua5.1/resources/peas-lua-strict.lua
+libpeas-1.38.1/loaders/lua5.1/resources/peas-lua.gresource.xml
+libpeas-1.38.1/loaders/meson.build
+libpeas-1.38.1/loaders/python/
+libpeas-1.38.1/loaders/python/meson.build
+libpeas-1.38.1/loaders/python/peas-plugin-loader-python.c
+libpeas-1.38.1/loaders/python/peas-plugin-loader-python.h
+libpeas-1.38.1/loaders/python/peas-python-compile.py
+libpeas-1.38.1/loaders/python/peas-python-internal.c
+libpeas-1.38.1/loaders/python/peas-python-internal.h
+libpeas-1.38.1/loaders/python/peas-python-internal.py
+libpeas-1.38.1/loaders/python/peas-python.gresource.xml
+libpeas-1.38.1/loaders/python3/
+libpeas-1.38.1/loaders/python3/meson.build
+libpeas-1.38.1/loaders/python3/peas-python3.gresource.xml
+libpeas-1.38.1/meson.build
+libpeas-1.38.1/meson_options.txt
+libpeas-1.38.1/peas-demo/
+libpeas-1.38.1/peas-demo/meson.build
+libpeas-1.38.1/peas-demo/peas-demo-window.c
+libpeas-1.38.1/peas-demo/peas-demo-window.h
+libpeas-1.38.1/peas-demo/peas-demo.c
+libpeas-1.38.1/peas-demo/plugins/
+libpeas-1.38.1/peas-demo/plugins/helloworld/
+libpeas-1.38.1/peas-demo/plugins/helloworld/helloworld.plugin
+libpeas-1.38.1/peas-demo/plugins/helloworld/meson.build
+libpeas-1.38.1/peas-demo/plugins/helloworld/peasdemo-hello-world-configurable.c
+libpeas-1.38.1/peas-demo/plugins/helloworld/peasdemo-hello-world-configurable.h
+libpeas-1.38.1/peas-demo/plugins/helloworld/peasdemo-hello-world-plugin.c
+libpeas-1.38.1/peas-demo/plugins/helloworld/peasdemo-hello-world-plugin.h
+libpeas-1.38.1/peas-demo/plugins/luahello/
+libpeas-1.38.1/peas-demo/plugins/luahello/luahello.lua
+libpeas-1.38.1/peas-demo/plugins/luahello/luahello.plugin
+libpeas-1.38.1/peas-demo/plugins/luahello/meson.build
+libpeas-1.38.1/peas-demo/plugins/meson.build
+libpeas-1.38.1/peas-demo/plugins/pythonhello/
+libpeas-1.38.1/peas-demo/plugins/pythonhello/meson.build
+libpeas-1.38.1/peas-demo/plugins/pythonhello/pythonhello.plugin
+libpeas-1.38.1/peas-demo/plugins/pythonhello/pythonhello.py
+libpeas-1.38.1/peas-demo/plugins/secondtime/
+libpeas-1.38.1/peas-demo/plugins/secondtime/gnome-foot.png
+libpeas-1.38.1/peas-demo/plugins/secondtime/meson.build
+libpeas-1.38.1/peas-demo/plugins/secondtime/second-time.c
+libpeas-1.38.1/peas-demo/plugins/secondtime/second-time.h
+libpeas-1.38.1/peas-demo/plugins/secondtime/secondtime.plugin
+libpeas-1.38.1/po/
+libpeas-1.38.1/po/LINGUAS
+libpeas-1.38.1/po/POTFILES.in
+libpeas-1.38.1/po/POTFILES.skip
+libpeas-1.38.1/po/ab.po
+libpeas-1.38.1/po/an.po
+libpeas-1.38.1/po/ar.po
+libpeas-1.38.1/po/as.po
+libpeas-1.38.1/po/ast.po
+libpeas-1.38.1/po/be.po
+libpeas-1.38.1/po/bg.po
+libpeas-1.38.1/po/bn_IN.po
+libpeas-1.38.1/po/bs.po
+libpeas-1.38.1/po/ca.po
+libpeas-1.38.1/po/ca@valencia.po
+libpeas-1.38.1/po/cs.po
+libpeas-1.38.1/po/da.po
+libpeas-1.38.1/po/de.po
+libpeas-1.38.1/po/el.po
+libpeas-1.38.1/po/en_GB.po
+libpeas-1.38.1/po/eo.po
+libpeas-1.38.1/po/es.po
+libpeas-1.38.1/po/et.po
+libpeas-1.38.1/po/eu.po
+libpeas-1.38.1/po/fa.po
+libpeas-1.38.1/po/fi.po
+libpeas-1.38.1/po/fr.po
+libpeas-1.38.1/po/fur.po
+libpeas-1.38.1/po/gl.po
+libpeas-1.38.1/po/gu.po
+libpeas-1.38.1/po/he.po
+libpeas-1.38.1/po/hi.po
+libpeas-1.38.1/po/hr.po
+libpeas-1.38.1/po/hu.po
+libpeas-1.38.1/po/id.po
+libpeas-1.38.1/po/ie.po
+libpeas-1.38.1/po/is.po
+libpeas-1.38.1/po/it.po
+libpeas-1.38.1/po/ja.po
+libpeas-1.38.1/po/ka.po
+libpeas-1.38.1/po/kab.po
+libpeas-1.38.1/po/kk.po
+libpeas-1.38.1/po/kn.po
+libpeas-1.38.1/po/ko.po
+libpeas-1.38.1/po/lt.po
+libpeas-1.38.1/po/lv.po
+libpeas-1.38.1/po/meson.build
+libpeas-1.38.1/po/ml.po
+libpeas-1.38.1/po/mr.po
+libpeas-1.38.1/po/ms.po
+libpeas-1.38.1/po/nb.po
+libpeas-1.38.1/po/nds.po
+libpeas-1.38.1/po/ne.po
+libpeas-1.38.1/po/nl.po
+libpeas-1.38.1/po/oc.po
+libpeas-1.38.1/po/or.po
+libpeas-1.38.1/po/pa.po
+libpeas-1.38.1/po/pl.po
+libpeas-1.38.1/po/pt.po
+libpeas-1.38.1/po/pt_BR.po
+libpeas-1.38.1/po/ro.po
+libpeas-1.38.1/po/ru.po
+libpeas-1.38.1/po/sk.po
+libpeas-1.38.1/po/sl.po
+libpeas-1.38.1/po/sr.po
+libpeas-1.38.1/po/sr@latin.po
+libpeas-1.38.1/po/sv.po
+libpeas-1.38.1/po/ta.po
+libpeas-1.38.1/po/te.po
+libpeas-1.38.1/po/tg.po
+libpeas-1.38.1/po/th.po
+libpeas-1.38.1/po/tr.po
+libpeas-1.38.1/po/ug.po
+libpeas-1.38.1/po/uk.po
+libpeas-1.38.1/po/vi.po
+libpeas-1.38.1/po/zh_CN.po
+libpeas-1.38.1/po/zh_HK.po
+libpeas-1.38.1/po/zh_TW.po
+libpeas-1.38.1/subprojects/
+libpeas-1.38.1/subprojects/gi-docgen.wrap
+libpeas-1.38.1/subprojects/glib.wrap
+libpeas-1.38.1/tests/
+libpeas-1.38.1/tests/libpeas/
+libpeas-1.38.1/tests/libpeas/engine.c
+libpeas-1.38.1/tests/libpeas/extension-c.c
+libpeas-1.38.1/tests/libpeas/extension-lua.c
+libpeas-1.38.1/tests/libpeas/extension-py.c
+libpeas-1.38.1/tests/libpeas/extension-set.c
+libpeas-1.38.1/tests/libpeas/introspection/
+libpeas-1.38.1/tests/libpeas/introspection/introspection-abstract.c
+libpeas-1.38.1/tests/libpeas/introspection/introspection-abstract.h
+libpeas-1.38.1/tests/libpeas/introspection/introspection-base.c
+libpeas-1.38.1/tests/libpeas/introspection/introspection-base.h
+libpeas-1.38.1/tests/libpeas/introspection/introspection-callable.c
+libpeas-1.38.1/tests/libpeas/introspection/introspection-callable.h
+libpeas-1.38.1/tests/libpeas/introspection/introspection-has-prerequisite.c
+libpeas-1.38.1/tests/libpeas/introspection/introspection-has-prerequisite.h
+libpeas-1.38.1/tests/libpeas/introspection/introspection-prerequisite.c
+libpeas-1.38.1/tests/libpeas/introspection/introspection-prerequisite.h
+libpeas-1.38.1/tests/libpeas/introspection/introspection-unimplemented.c
+libpeas-1.38.1/tests/libpeas/introspection/introspection-unimplemented.h
+libpeas-1.38.1/tests/libpeas/introspection/meson.build
+libpeas-1.38.1/tests/libpeas/meson.build
+libpeas-1.38.1/tests/libpeas/plugin-info.c
+libpeas-1.38.1/tests/libpeas/plugins/
+libpeas-1.38.1/tests/libpeas/plugins/embedded/
+libpeas-1.38.1/tests/libpeas/plugins/embedded/embedded-invalid-loader.plugin
+libpeas-1.38.1/tests/libpeas/plugins/embedded/embedded-missing-symbol.plugin
+libpeas-1.38.1/tests/libpeas/plugins/embedded/embedded-plugin.c
+libpeas-1.38.1/tests/libpeas/plugins/embedded/embedded-plugin.h
+libpeas-1.38.1/tests/libpeas/plugins/embedded/embedded.gresource.xml
+libpeas-1.38.1/tests/libpeas/plugins/embedded/embedded.plugin
+libpeas-1.38.1/tests/libpeas/plugins/embedded/meson.build
+libpeas-1.38.1/tests/libpeas/plugins/extension-c/
+libpeas-1.38.1/tests/libpeas/plugins/extension-c/extension-c-abstract.c
+libpeas-1.38.1/tests/libpeas/plugins/extension-c/extension-c-abstract.h
+libpeas-1.38.1/tests/libpeas/plugins/extension-c/extension-c-missing-symbol-plugin.c
+libpeas-1.38.1/tests/libpeas/plugins/extension-c/extension-c-missing-symbol.plugin
+libpeas-1.38.1/tests/libpeas/plugins/extension-c/extension-c-plugin.c
+libpeas-1.38.1/tests/libpeas/plugins/extension-c/extension-c-plugin.h
+libpeas-1.38.1/tests/libpeas/plugins/extension-c/extension-c.gschema.xml
+libpeas-1.38.1/tests/libpeas/plugins/extension-c/extension-c.plugin
+libpeas-1.38.1/tests/libpeas/plugins/extension-c/meson.build
+libpeas-1.38.1/tests/libpeas/plugins/extension-c-nonexistent.plugin
+libpeas-1.38.1/tests/libpeas/plugins/extension-lua/
+libpeas-1.38.1/tests/libpeas/plugins/extension-lua/extension-lua51.gschema.xml
+libpeas-1.38.1/tests/libpeas/plugins/extension-lua/extension-lua51.lua
+libpeas-1.38.1/tests/libpeas/plugins/extension-lua/extension-lua51.plugin
+libpeas-1.38.1/tests/libpeas/plugins/extension-lua/meson.build
+libpeas-1.38.1/tests/libpeas/plugins/extension-lua51-nonexistent.plugin
+libpeas-1.38.1/tests/libpeas/plugins/extension-python/
+libpeas-1.38.1/tests/libpeas/plugins/extension-python/extension-py.gschema.xml.in
+libpeas-1.38.1/tests/libpeas/plugins/extension-python/extension-py.plugin.in
+libpeas-1.38.1/tests/libpeas/plugins/extension-python/extension-py.py.in
+libpeas-1.38.1/tests/libpeas/plugins/extension-python/meson.build
+libpeas-1.38.1/tests/libpeas/plugins/extension-python-nonexistent.plugin
+libpeas-1.38.1/tests/libpeas/plugins/extension-python3-nonexistent.plugin
+libpeas-1.38.1/tests/libpeas/plugins/info-missing-module.plugin
+libpeas-1.38.1/tests/libpeas/plugins/info-missing-name.plugin
+libpeas-1.38.1/tests/libpeas/plugins/invalid.plugin
+libpeas-1.38.1/tests/libpeas/plugins/meson.build
+libpeas-1.38.1/tests/libpeas/plugins/nonexistent-dep.plugin
+libpeas-1.38.1/tests/libpeas/plugins/not-loadable.plugin
+libpeas-1.38.1/tests/libpeas/plugins/os-dependant-help.plugin
+libpeas-1.38.1/tests/libpeas/plugins/two-deps.plugin
+libpeas-1.38.1/tests/libpeas/plugins/unkown-loader.plugin
+libpeas-1.38.1/tests/libpeas/testing/
+libpeas-1.38.1/tests/libpeas/testing/meson.build
+libpeas-1.38.1/tests/libpeas/testing/testing-extension.c
+libpeas-1.38.1/tests/libpeas/testing/testing-extension.h
+libpeas-1.38.1/tests/libpeas/testing/testing.c
+libpeas-1.38.1/tests/libpeas/testing/testing.h
+libpeas-1.38.1/tests/libpeas-gtk/
+libpeas-1.38.1/tests/libpeas-gtk/meson.build
+libpeas-1.38.1/tests/libpeas-gtk/plugin-manager-store.c
+libpeas-1.38.1/tests/libpeas-gtk/plugin-manager-view.c
+libpeas-1.38.1/tests/libpeas-gtk/plugin-manager.c
+libpeas-1.38.1/tests/libpeas-gtk/plugins/
+libpeas-1.38.1/tests/libpeas-gtk/plugins/builtin-configurable/
+libpeas-1.38.1/tests/libpeas-gtk/plugins/builtin-configurable/builtin-configurable.c
+libpeas-1.38.1/tests/libpeas-gtk/plugins/builtin-configurable/builtin-configurable.h
+libpeas-1.38.1/tests/libpeas-gtk/plugins/builtin-configurable/builtin-configurable.plugin
+libpeas-1.38.1/tests/libpeas-gtk/plugins/builtin-configurable/meson.build
+libpeas-1.38.1/tests/libpeas-gtk/plugins/configurable/
+libpeas-1.38.1/tests/libpeas-gtk/plugins/configurable/configurable-plugin.c
+libpeas-1.38.1/tests/libpeas-gtk/plugins/configurable/configurable-plugin.h
+libpeas-1.38.1/tests/libpeas-gtk/plugins/configurable/configurable.plugin
+libpeas-1.38.1/tests/libpeas-gtk/plugins/configurable/meson.build
+libpeas-1.38.1/tests/libpeas-gtk/plugins/hidden.plugin
+libpeas-1.38.1/tests/libpeas-gtk/plugins/invalid-custom-icon.plugin
+libpeas-1.38.1/tests/libpeas-gtk/plugins/invalid-stock-icon.plugin
+libpeas-1.38.1/tests/libpeas-gtk/plugins/meson.build
+libpeas-1.38.1/tests/libpeas-gtk/plugins/valid-custom-icon/
+libpeas-1.38.1/tests/libpeas-gtk/plugins/valid-custom-icon/exists.png
+libpeas-1.38.1/tests/libpeas-gtk/plugins/valid-custom-icon/meson.build
+libpeas-1.38.1/tests/libpeas-gtk/plugins/valid-custom-icon/valid-custom-icon.plugin
+libpeas-1.38.1/tests/libpeas-gtk/plugins/valid-stock-icon.plugin
+libpeas-1.38.1/tests/libpeas-gtk/testing/
+libpeas-1.38.1/tests/libpeas-gtk/testing/meson.build
+libpeas-1.38.1/tests/libpeas-gtk/testing/testing.c
+libpeas-1.38.1/tests/libpeas-gtk/testing/testing.h
+libpeas-1.38.1/tests/meson.build
+libpeas-1.38.1/tests/plugins/
+libpeas-1.38.1/tests/plugins/builtin/
+libpeas-1.38.1/tests/plugins/builtin/builtin-plugin.c
+libpeas-1.38.1/tests/plugins/builtin/builtin-plugin.h
+libpeas-1.38.1/tests/plugins/builtin/builtin.plugin
+libpeas-1.38.1/tests/plugins/builtin/meson.build
+libpeas-1.38.1/tests/plugins/full-info.plugin
+libpeas-1.38.1/tests/plugins/has-dep/
+libpeas-1.38.1/tests/plugins/has-dep/has-dep-plugin.c
+libpeas-1.38.1/tests/plugins/has-dep/has-dep-plugin.h
+libpeas-1.38.1/tests/plugins/has-dep/has-dep.plugin
+libpeas-1.38.1/tests/plugins/has-dep/meson.build
+libpeas-1.38.1/tests/plugins/loadable/
+libpeas-1.38.1/tests/plugins/loadable/loadable-plugin.c
+libpeas-1.38.1/tests/plugins/loadable/loadable-plugin.h
+libpeas-1.38.1/tests/plugins/loadable/loadable.plugin
+libpeas-1.38.1/tests/plugins/loadable/meson.build
+libpeas-1.38.1/tests/plugins/meson.build
+libpeas-1.38.1/tests/plugins/min-info.plugin
+libpeas-1.38.1/tests/plugins/self-dep/
+libpeas-1.38.1/tests/plugins/self-dep/meson.build
+libpeas-1.38.1/tests/plugins/self-dep/self-dep-plugin.c
+libpeas-1.38.1/tests/plugins/self-dep/self-dep-plugin.h
+libpeas-1.38.1/tests/plugins/self-dep/self-dep.plugin
+libpeas-1.38.1/tests/plugins/unavailable.plugin
+libpeas-1.38.1/tests/testing-util/
+libpeas-1.38.1/tests/testing-util/meson.build
+libpeas-1.38.1/tests/testing-util/peas-test-common.h
+libpeas-1.38.1/tests/testing-util/testing-util.c
+libpeas-1.38.1/tests/testing-util/testing-util.h
+libpeas-1.38.1/tests/valgrind.suppressions
+The Meson build system
+Version: 1.10.2
+Source dir: /blfs/builds/libpeas-1.38.1
+Build dir: /blfs/builds/libpeas-1.38.1/build
+Build type: native build
+Project name: libpeas
+Project version: 1.38.1
+C compiler for the host machine: cc (gcc 15.2.0 "cc (GCC) 15.2.0")
+C linker for the host machine: cc ld.bfd 2.45
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Run-time dependency glib-2.0 found: YES 2.88.0
+Run-time dependency gobject-2.0 found: YES 2.88.0
+Run-time dependency gmodule-2.0 found: YES 2.88.0
+Run-time dependency gio-2.0 found: YES 2.88.0
+Run-time dependency girepository-2.0 found: YES 2.88.0
+Run-time dependency gtk+-3.0 found: YES 3.24.52
+../meson.build:108: WARNING: Project targets '>= 0.50.0' but uses feature introduced in '0.54.0': fallback arg in dependency.
+Build-time dependency gi-docgen found: YES 2023.3
+Found CMake: /usr/bin/cmake (4.3.1)
+Run-time dependency gladeui-2.0 found: NO (tried pkgconfig and cmake)
+Run-time dependency python3-embed found: YES 3.14
+Run-time dependency python2 found: NO (tried pkgconfig)
+Run-time dependency pygobject-3.0 found: YES 3.56.2
+Run-time dependency lua51 found: NO (tried pkgconfig)
+Run-time dependency lua-5.1 found: NO (tried pkgconfig and cmake)
+Run-time dependency luajit found: YES 2.1.1774896198
+Program lua5.1 found: NO
+Program lua51 found: NO
+Program luajit found: YES (/usr/bin/luajit)
+Program xmllint found: YES (/usr/bin/xmllint)
+WARNING: You should add the boolean check kwarg to the run_command call.
+         It currently defaults to false,
+         but it will default to true in meson 2.0.
+         See also: https://github.com/mesonbuild/meson/issues/9300
+Message: lua-lgi version: not found
+Compiler for C supports arguments -fvisibility=hidden: YES 
+Configuring config.h using configuration
+Program copyfile.py found: YES (/usr/bin/python3 /blfs/builds/libpeas-1.38.1/copyfile.py)
+Configuring peas-version.h using configuration
+Dependency glib-2.0 found: YES 2.88.0 (cached)
+Program /usr/bin/glib-genmarshal found: YES (/usr/bin/glib-genmarshal)
+Run-time dependency gobject-introspection-1.0 found: YES 1.86.0
+Dependency gobject-introspection-1.0 found: YES 1.86.0 (cached)
+Program /usr/bin/g-ir-scanner found: YES (/usr/bin/g-ir-scanner)
+Dependency gobject-introspection-1.0 found: YES 1.86.0 (cached)
+Program /usr/bin/g-ir-compiler found: YES (/usr/bin/g-ir-compiler)
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Program msginit found: YES (/usr/bin/msginit)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program xgettext found: YES (/usr/bin/xgettext)
+Dependency gio-2.0 found: YES 2.88.0 (cached)
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Dependency gio-2.0 found: YES 2.88.0 (cached)
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Configuring extension-python.gschema.xml using configuration
+Configuring extension-python.plugin using configuration
+Configuring extension-python.py using configuration
+Configuring extension-python3.gschema.xml using configuration
+Configuring extension-python3.plugin using configuration
+Configuring extension-python3.py using configuration
+Message: 
+------
+libpeas 1.38.1 (1.0)
+
+             Demos: true
+     Documentation: false
+     Glade catalog: false
+     GTK+ widgetry: true
+     Introspection: true
+   Lua 5.1 support: false
+  Python 2 support: false
+  Python 3 support: true
+
+Directories:
+            prefix: /usr
+        includedir: /usr/include
+            libdir: /usr/lib
+           datadir: /usr/share
+------
+Build targets in project: 131
+WARNING: Project specifies a minimum meson_version '>= 0.50.0' but uses features which were added in newer versions:
+ * 0.54.0: {'fallback arg in dependency'}
+
+libpeas 1.38.1
+
+  User defined options
+    buildtype: release
+    prefix   : /usr
+    wrap_mode: nofallback
+
+Found ninja-1.13.2 at /usr/bin/ninja
+WARNING: Running the setup command as `meson [options]` instead of `meson setup [options]` is ambiguous and deprecated.
+[1/192] Generating tests/libpeas/plugins/embedded/embedded-resources_c with a custom command
+[2/192] Generating tests/libpeas/plugins/embedded/embedded-resources_h with a custom command
+[3/192] Generating loaders/python3/peas-python2-resources_c with a custom command
+[4/192] Generating loaders/python3/peas-python2-resources_h with a custom command
+[5/192] Building translation po/ab/LC_MESSAGES/libpeas-1.0-ab.mo
+[6/192] Building translation po/ast/LC_MESSAGES/libpeas-1.0-ast.mo
+[7/192] Building translation po/be/LC_MESSAGES/libpeas-1.0-be.mo
+[8/192] Building translation po/bg/LC_MESSAGES/libpeas-1.0-bg.mo
+[9/192] Building translation po/an/LC_MESSAGES/libpeas-1.0-an.mo
+[10/192] Building translation po/ar/LC_MESSAGES/libpeas-1.0-ar.mo
+[11/192] Building translation po/as/LC_MESSAGES/libpeas-1.0-as.mo
+[12/192] Building translation po/bs/LC_MESSAGES/libpeas-1.0-bs.mo
+[13/192] Building translation po/ca/LC_MESSAGES/libpeas-1.0-ca.mo
+[14/192] Building translation po/ca@valencia/LC_MESSAGES/libpeas-1.0-ca@valencia.mo
+[15/192] Building translation po/bn_IN/LC_MESSAGES/libpeas-1.0-bn_IN.mo
+[16/192] Building translation po/da/LC_MESSAGES/libpeas-1.0-da.mo
+[17/192] Building translation po/de/LC_MESSAGES/libpeas-1.0-de.mo
+[18/192] Building translation po/el/LC_MESSAGES/libpeas-1.0-el.mo
+[19/192] Building translation po/cs/LC_MESSAGES/libpeas-1.0-cs.mo
+[20/192] Building translation po/en_GB/LC_MESSAGES/libpeas-1.0-en_GB.mo
+[21/192] Building translation po/eo/LC_MESSAGES/libpeas-1.0-eo.mo
+[22/192] Building translation po/et/LC_MESSAGES/libpeas-1.0-et.mo
+[23/192] Building translation po/eu/LC_MESSAGES/libpeas-1.0-eu.mo
+[24/192] Building translation po/fi/LC_MESSAGES/libpeas-1.0-fi.mo
+[25/192] Building translation po/fr/LC_MESSAGES/libpeas-1.0-fr.mo
+[26/192] Building translation po/es/LC_MESSAGES/libpeas-1.0-es.mo
+[27/192] Building translation po/fur/LC_MESSAGES/libpeas-1.0-fur.mo
+[28/192] Building translation po/fa/LC_MESSAGES/libpeas-1.0-fa.mo
+[29/192] Building translation po/gl/LC_MESSAGES/libpeas-1.0-gl.mo
+[30/192] Building translation po/he/LC_MESSAGES/libpeas-1.0-he.mo
+[31/192] Building translation po/hu/LC_MESSAGES/libpeas-1.0-hu.mo
+[32/192] Building translation po/hi/LC_MESSAGES/libpeas-1.0-hi.mo
+[33/192] Building translation po/gu/LC_MESSAGES/libpeas-1.0-gu.mo
+[34/192] Building translation po/hr/LC_MESSAGES/libpeas-1.0-hr.mo
+[35/192] Building translation po/ie/LC_MESSAGES/libpeas-1.0-ie.mo
+[36/192] Building translation po/is/LC_MESSAGES/libpeas-1.0-is.mo
+[37/192] Building translation po/ka/LC_MESSAGES/libpeas-1.0-ka.mo
+[38/192] Building translation po/id/LC_MESSAGES/libpeas-1.0-id.mo
+[39/192] Building translation po/it/LC_MESSAGES/libpeas-1.0-it.mo
+[40/192] Building translation po/kk/LC_MESSAGES/libpeas-1.0-kk.mo
+[41/192] Building translation po/ja/LC_MESSAGES/libpeas-1.0-ja.mo
+[42/192] Building translation po/kab/LC_MESSAGES/libpeas-1.0-kab.mo
+[43/192] Building translation po/kn/LC_MESSAGES/libpeas-1.0-kn.mo
+[44/192] Building translation po/ko/LC_MESSAGES/libpeas-1.0-ko.mo
+[45/192] Building translation po/lv/LC_MESSAGES/libpeas-1.0-lv.mo
+[46/192] Building translation po/ml/LC_MESSAGES/libpeas-1.0-ml.mo
+[47/192] Building translation po/mr/LC_MESSAGES/libpeas-1.0-mr.mo
+[48/192] Building translation po/lt/LC_MESSAGES/libpeas-1.0-lt.mo
+[49/192] Building translation po/ms/LC_MESSAGES/libpeas-1.0-ms.mo
+[50/192] Building translation po/nds/LC_MESSAGES/libpeas-1.0-nds.mo
+[51/192] Building translation po/ne/LC_MESSAGES/libpeas-1.0-ne.mo
+[52/192] Building translation po/nl/LC_MESSAGES/libpeas-1.0-nl.mo
+[53/192] Building translation po/or/LC_MESSAGES/libpeas-1.0-or.mo
+[54/192] Building translation po/nb/LC_MESSAGES/libpeas-1.0-nb.mo
+[55/192] Building translation po/oc/LC_MESSAGES/libpeas-1.0-oc.mo
+[56/192] Building translation po/pa/LC_MESSAGES/libpeas-1.0-pa.mo
+[57/192] Building translation po/pl/LC_MESSAGES/libpeas-1.0-pl.mo
+[58/192] Building translation po/pt/LC_MESSAGES/libpeas-1.0-pt.mo
+[59/192] Building translation po/ro/LC_MESSAGES/libpeas-1.0-ro.mo
+[60/192] Building translation po/ru/LC_MESSAGES/libpeas-1.0-ru.mo
+[61/192] Building translation po/sl/LC_MESSAGES/libpeas-1.0-sl.mo
+[62/192] Building translation po/pt_BR/LC_MESSAGES/libpeas-1.0-pt_BR.mo
+[63/192] Building translation po/sk/LC_MESSAGES/libpeas-1.0-sk.mo
+[64/192] Building translation po/sr/LC_MESSAGES/libpeas-1.0-sr.mo
+[65/192] Building translation po/sv/LC_MESSAGES/libpeas-1.0-sv.mo
+[66/192] Building translation po/ta/LC_MESSAGES/libpeas-1.0-ta.mo
+[67/192] Building translation po/tg/LC_MESSAGES/libpeas-1.0-tg.mo
+[68/192] Building translation po/sr@latin/LC_MESSAGES/libpeas-1.0-sr@latin.mo
+[69/192] Building translation po/th/LC_MESSAGES/libpeas-1.0-th.mo
+[70/192] Building translation po/tr/LC_MESSAGES/libpeas-1.0-tr.mo
+[71/192] Building translation po/te/LC_MESSAGES/libpeas-1.0-te.mo
+[72/192] Building translation po/uk/LC_MESSAGES/libpeas-1.0-uk.mo
+[73/192] Building translation po/zh_CN/LC_MESSAGES/libpeas-1.0-zh_CN.mo
+[74/192] Building translation po/ug/LC_MESSAGES/libpeas-1.0-ug.mo
+[75/192] Building translation po/vi/LC_MESSAGES/libpeas-1.0-vi.mo
+[76/192] Building translation po/zh_HK/LC_MESSAGES/libpeas-1.0-zh_HK.mo
+[77/192] Building translation po/zh_TW/LC_MESSAGES/libpeas-1.0-zh_TW.mo
+[78/192] Generating tests/libpeas/plugins/embedded/embedded-data with a custom command
+[79/192] Generating peas-demo/plugins/secondtime/libsecondtime-data with a custom command
+[80/192] Generating tests/libpeas/plugins/extension-c/libextension-c-data with a custom command
+[81/192] Generating tests/libpeas-gtk/plugins/builtin-configurable/libbuiltin-configurable-data with a custom command
+[82/192] Generating tests/libpeas-gtk/plugins/configurable/libconfigurable-data with a custom command
+[83/192] Generating tests/libpeas-gtk/plugins/libpeas-gtk-test-data with a custom command
+[84/192] Generating peas-demo/plugins/pythonhello/pythonhello-data with a custom command
+[85/192] Generating tests/libpeas/plugins/libpeas-test-data with a custom command
+[86/192] Generating tests/libpeas/plugins/extension-c/libextension-c-missing-symbol-data with a custom command
+[87/192] Generating peas-demo/plugins/helloworld/libhelloworld-data with a custom command
+[88/192] Generating glib marshaller header libpeas/peas-marshal_h
+[89/192] Generating tests/libpeas-gtk/plugins/valid-custom-icon/valid-custom-icon-data with a custom command
+[90/192] Generating tests/plugins/generic-data with a custom command
+[91/192] Generating tests/plugins/builtin/libbuiltin-data with a custom command
+[92/192] Generating tests/plugins/has-dep/libhas-dep-data with a custom command
+[93/192] Generating tests/plugins/loadable/libloadable-data with a custom command
+[94/192] Generating tests/plugins/self-dep/libself-dep-data with a custom command
+[95/192] Compiling C object libpeas/libpeas-1.0.so.1.3800.1.p/peas-dirs.c.o
+[96/192] Compiling C object libpeas/libpeas-1.0.so.1.3800.1.p/peas-i18n.c.o
+[97/192] Generating glib marshaller source libpeas/peas-marshal_c
+[98/192] Compiling C object libpeas/libpeas-1.0.so.1.3800.1.p/peas-debug.c.o
+[99/192] Compiling C object libpeas/libpeas-1.0.so.1.3800.1.p/peas-activatable.c.o
+[100/192] Compiling C object libpeas/libpeas-1.0.so.1.3800.1.p/peas-extension-base.c.o
+[101/192] Compiling C object libpeas/libpeas-1.0.so.1.3800.1.p/peas-plugin-loader-c.c.o
+[102/192] Compiling C object libpeas/libpeas-1.0.so.1.3800.1.p/peas-extension.c.o
+[103/192] Compiling C object libpeas/libpeas-1.0.so.1.3800.1.p/peas-plugin-loader.c.o
+[104/192] Compiling C object libpeas/libpeas-1.0.so.1.3800.1.p/meson-generated_.._peas-marshal.c.o
+[105/192] Compiling C object libpeas/libpeas-1.0.so.1.3800.1.p/peas-introspection.c.o
+[106/192] Compiling C object libpeas/libpeas-1.0.so.1.3800.1.p/peas-utils.c.o
+[107/192] Compiling C object libpeas/libpeas-1.0.so.1.3800.1.p/peas-extension-set.c.o
+[108/192] Compiling C object libpeas/libpeas-1.0.so.1.3800.1.p/peas-plugin-info.c.o
+[109/192] Compiling C object tests/testing-util/libtesting-util-1.0.so.p/testing-util.c.o
+[110/192] Compiling C object libpeas-gtk/libpeas-gtk-1.0.so.1.3800.1.p/peas-gtk-configurable.c.o
+[111/192] Compiling C object tests/libpeas/introspection/libintrospection-1.0.so.p/introspection-callable.c.o
+[112/192] Compiling C object libpeas/libpeas-1.0.so.1.3800.1.p/peas-object-module.c.o
+[113/192] Compiling C object tests/libpeas/introspection/libintrospection-1.0.so.p/introspection-prerequisite.c.o
+[114/192] Compiling C object libpeas/libpeas-1.0.so.1.3800.1.p/peas-engine.c.o
+[115/192] Compiling C object tests/libpeas/introspection/libintrospection-1.0.so.p/introspection-base.c.o
+[116/192] Linking target libpeas/libpeas-1.0.so.1.3800.1
+[117/192] Compiling C object tests/libpeas/introspection/libintrospection-1.0.so.p/introspection-has-prerequisite.c.o
+[118/192] Compiling C object tests/libpeas/introspection/libintrospection-1.0.so.p/introspection-unimplemented.c.o
+[119/192] Compiling C object tests/libpeas/introspection/libintrospection-1.0.so.p/introspection-abstract.c.o
+[120/192] Compiling C object libpeas-gtk/libpeas-gtk-1.0.so.1.3800.1.p/peas-gtk-plugin-manager-store.c.o
+[121/192] Compiling C object libpeas-gtk/libpeas-gtk-1.0.so.1.3800.1.p/peas-gtk-plugin-manager.c.o
+[122/192] Generating symbol file libpeas/libpeas-1.0.so.1.3800.1.p/libpeas-1.0.so.1.3800.1.symbols
+[123/192] Compiling C object libpeas-gtk/libpeas-gtk-1.0.so.1.3800.1.p/peas-gtk-disable-plugins-dialog.c.o
+[124/192] Compiling C object loaders/python3/libpython3loader.so.p/meson-generated_.._peas-python2-resources.c.o
+[125/192] Compiling C object libpeas-gtk/libpeas-gtk-1.0.so.1.3800.1.p/peas-gtk-plugin-manager-view.c.o
+[126/192] Compiling C object tests/libpeas/plugins/embedded/libembedded.so.p/meson-generated_.._embedded-resources.c.o
+[127/192] Linking target tests/testing-util/libtesting-util-1.0.so
+[128/192] Linking target tests/libpeas/introspection/libintrospection-1.0.so
+[129/192] Compiling C object tests/libpeas/testing/liblibpeas-testing-1.0.so.p/testing.c.o
+[130/192] Linking target libpeas-gtk/libpeas-gtk-1.0.so.1.3800.1
+[131/192] Compiling C object tests/libpeas/plugins/embedded/libembedded.so.p/embedded-plugin.c.o
+[132/192] Compiling C object tests/libpeas/testing/liblibpeas-testing-1.0.so.p/testing-extension.c.o
+[133/192] Compiling C object tests/libpeas-gtk/testing/liblibpeas-gtk-testing-1.0.so.p/testing.c.o
+[134/192] Linking target tests/libpeas/plugins/embedded/libembedded.so
+[135/192] Generating symbol file tests/testing-util/libtesting-util-1.0.so.p/libtesting-util-1.0.so.symbols
+[136/192] Generating symbol file libpeas-gtk/libpeas-gtk-1.0.so.1.3800.1.p/libpeas-gtk-1.0.so.1.3800.1.symbols
+[137/192] Compiling C object tests/libpeas/plugins/extension-c/libextension-c-missing-symbol.so.p/extension-c-missing-symbol-plugin.c.o
+[138/192] Generating symbol file tests/libpeas/introspection/libintrospection-1.0.so.p/libintrospection-1.0.so.symbols
+[139/192] Generating symbol file tests/libpeas/plugins/embedded/libembedded.so.p/libembedded.so.symbols
+[140/192] Linking target tests/libpeas-gtk/testing/liblibpeas-gtk-testing-1.0.so
+[141/192] Linking target tests/libpeas/testing/liblibpeas-testing-1.0.so
+[142/192] Compiling C object loaders/python3/libpython3loader.so.p/.._python_peas-plugin-loader-python.c.o
+../loaders/python/peas-plugin-loader-python.c: In function ‘peas_plugin_loader_python_initialize’:
+../loaders/python/peas-plugin-loader-python.c:268:3: warning: ‘PyEval_InitThreads’ is deprecated [-Wdeprecated-declarations]
+  268 |   PyEval_InitThreads ();
+      |   ^~~~~~~~~~~~~~~~~~
+In file included from /usr/include/python3.14/Python.h:135,
+                 from ../loaders/python/peas-python-internal.h:31,
+                 from ../loaders/python/peas-plugin-loader-python.c:28:
+/usr/include/python3.14/ceval.h:114:37: note: declared here
+  114 | Py_DEPRECATED(3.9) PyAPI_FUNC(void) PyEval_InitThreads(void);
+      |                                     ^~~~~~~~~~~~~~~~~~
+[143/192] Compiling C object tests/libpeas/plugins/extension-c/libextension-c.so.p/extension-c-abstract.c.o
+[144/192] Compiling C object peas-demo/peas-demo.p/peas-demo-window.c.o
+[145/192] Compiling C object tests/libpeas/plugins/extension-c/libextension-c.so.p/extension-c-plugin.c.o
+[146/192] Compiling C object peas-demo/peas-demo.p/peas-demo.c.o
+[147/192] Compiling C object loaders/python3/libpython3loader.so.p/.._python_peas-python-internal.c.o
+../loaders/python/peas-python-internal.c: In function ‘peas_python_internal_setup’:
+../loaders/python/peas-python-internal.c:71:9: warning: unused variable ‘localedir’ [-Wunused-variable]
+   71 |   char *localedir = NULL;
+      |         ^~~~~~~~~
+[148/192] Generating symbol file tests/libpeas/testing/liblibpeas-testing-1.0.so.p/liblibpeas-testing-1.0.so.symbols
+[149/192] Generating symbol file tests/libpeas-gtk/testing/liblibpeas-gtk-testing-1.0.so.p/liblibpeas-gtk-testing-1.0.so.symbols
+[150/192] Compiling C object peas-demo/plugins/secondtime/libsecondtime.so.p/second-time.c.o
+[151/192] Compiling C object tests/libpeas/engine.p/engine.c.o
+[152/192] Compiling C object tests/libpeas/extension-set.p/extension-set.c.o
+[153/192] Compiling C object peas-demo/plugins/helloworld/libhelloworld.so.p/peasdemo-hello-world-configurable.c.o
+[154/192] Compiling C object tests/libpeas/extension-py.p/extension-py.c.o
+[155/192] Compiling C object peas-demo/plugins/helloworld/libhelloworld.so.p/peasdemo-hello-world-plugin.c.o
+[156/192] Linking target loaders/python3/libpython3loader.so
+[157/192] Compiling C object tests/libpeas/extension-c.p/extension-c.c.o
+[158/192] Compiling C object tests/libpeas/plugin-info.p/plugin-info.c.o
+[159/192] Compiling C object tests/plugins/builtin/libbuiltin.so.p/builtin-plugin.c.o
+[160/192] Compiling C object tests/libpeas-gtk/plugins/builtin-configurable/libbuiltin-configurable.so.p/builtin-configurable.c.o
+[161/192] Linking target tests/libpeas/plugins/extension-c/libextension-c-missing-symbol.so
+[162/192] Linking target tests/libpeas/plugins/extension-c/libextension-c.so
+[163/192] Linking target peas-demo/plugins/helloworld/libhelloworld.so
+[164/192] Linking target tests/libpeas/extension-c
+[165/192] Linking target peas-demo/plugins/secondtime/libsecondtime.so
+[166/192] Compiling C object tests/libpeas-gtk/plugins/configurable/libconfigurable.so.p/configurable-plugin.c.o
+[167/192] Linking target tests/libpeas/plugin-info
+[168/192] Compiling C object tests/plugins/loadable/libloadable.so.p/loadable-plugin.c.o
+[169/192] Linking target tests/libpeas/extension-set
+[170/192] Linking target tests/plugins/builtin/libbuiltin.so
+[171/192] Linking target tests/plugins/loadable/libloadable.so
+[172/192] Linking target tests/libpeas/engine
+[173/192] Linking target tests/libpeas-gtk/plugins/builtin-configurable/libbuiltin-configurable.so
+[174/192] Linking target tests/libpeas-gtk/plugins/configurable/libconfigurable.so
+[175/192] Linking target tests/libpeas/extension-py
+[176/192] Linking target peas-demo/peas-demo
+[177/192] Compiling C object tests/plugins/self-dep/libself-dep.so.p/self-dep-plugin.c.o
+[178/192] Linking target tests/plugins/self-dep/libself-dep.so
+[179/192] Compiling C object tests/plugins/has-dep/libhas-dep.so.p/has-dep-plugin.c.o
+[180/192] Compiling C object tests/libpeas-gtk/plugin-manager.p/plugin-manager.c.o
+[181/192] Linking target tests/plugins/has-dep/libhas-dep.so
+[182/192] Linking target tests/libpeas-gtk/plugin-manager
+[183/192] Compiling C object tests/libpeas-gtk/plugin-manager-store.p/plugin-manager-store.c.o
+[184/192] Compiling C object tests/libpeas-gtk/plugin-manager-view.p/plugin-manager-view.c.o
+[185/192] Linking target tests/libpeas-gtk/plugin-manager-store
+[186/192] Generating libpeas/Peas-1.0.gir with a custom command (wrapped by meson to set env)
+libhogweed.so.6: cannot open shared object file: No such file or directory
+Failed to load module: /usr/lib/gio/modules/libgiognutls.so
+../libpeas/peas-activatable.h:40: Warning: Peas: multiple comment blocks documenting 'PeasActivatable:' identifier (already seen at peas-activatable.c:26).
+../libpeas/peas-plugin-info.h:65: Warning: Peas: multiple comment blocks documenting 'PeasPluginInfo:' identifier (already seen at peas-plugin-info.c:39).
+../libpeas/peas-extension.h:39: Warning: Peas: multiple comment blocks documenting 'PeasExtension:' identifier (already seen at peas-extension.c:27).
+../libpeas/peas-engine.h:44: Warning: Peas: multiple comment blocks documenting 'PeasEngine:' identifier (already seen at peas-engine.c:41).
+../libpeas/peas-extension-base.h:42: Warning: Peas: multiple comment blocks documenting 'PeasExtensionBase:' identifier (already seen at peas-extension-base.c:28).
+../libpeas/peas-extension-set.h:46: Warning: Peas: multiple comment blocks documenting 'PeasExtensionSet:' identifier (already seen at peas-extension-set.c:34).
+../libpeas/peas-object-module.h:65: Warning: Peas: multiple comment blocks documenting 'PeasObjectModule:' identifier (already seen at peas-object-module.c:33).
+[187/192] Linking target tests/libpeas-gtk/plugin-manager-view
+[188/192] Generating libpeas/Peas-1.0.typelib with a custom command
+libhogweed.so.6: cannot open shared object file: No such file or directory
+Failed to load module: /usr/lib/gio/modules/libgiognutls.so
+[189/192] Generating tests/libpeas/introspection/Introspection-1.0.gir with a custom command (wrapped by meson to set env)
+libhogweed.so.6: cannot open shared object file: No such file or directory
+Failed to load module: /usr/lib/gio/modules/libgiognutls.so
+[190/192] Generating tests/libpeas/introspection/Introspection-1.0.typelib with a custom command
+libhogweed.so.6: cannot open shared object file: No such file or directory
+Failed to load module: /usr/lib/gio/modules/libgiognutls.so
+[191/192] Generating libpeas-gtk/PeasGtk-1.0.gir with a custom command (wrapped by meson to set env)
+libhogweed.so.6: cannot open shared object file: No such file or directory
+Failed to load module: /usr/lib/gio/modules/libgiognutls.so
+../libpeas-gtk/peas-gtk-configurable.h:39: Warning: PeasGtk: multiple comment blocks documenting 'PeasGtkConfigurable:' identifier (already seen at peas-gtk-configurable.c:28).
+../libpeas-gtk/peas-gtk-plugin-manager.h:44: Warning: PeasGtk: multiple comment blocks documenting 'PeasGtkPluginManager:' identifier (already seen at peas-gtk-plugin-manager.c:44).
+../libpeas-gtk/peas-gtk-plugin-manager-view.h:47: Warning: PeasGtk: multiple comment blocks documenting 'PeasGtkPluginManagerView:' identifier (already seen at peas-gtk-plugin-manager-view.c:39).
+[192/192] Generating libpeas-gtk/PeasGtk-1.0.typelib with a custom command
+libhogweed.so.6: cannot open shared object file: No such file or directory
+Failed to load module: /usr/lib/gio/modules/libgiognutls.so
+[0/1] Installing files
+Installing libpeas/libpeas-1.0.so.1.3800.1 to /usr/lib
+Installing libpeas/Peas-1.0.gir to /usr/share/gir-1.0
+Installing libpeas/Peas-1.0.typelib to /usr/lib/girepository-1.0
+Installing libpeas-gtk/libpeas-gtk-1.0.so.1.3800.1 to /usr/lib
+Installing libpeas-gtk/PeasGtk-1.0.gir to /usr/share/gir-1.0
+Installing libpeas-gtk/PeasGtk-1.0.typelib to /usr/lib/girepository-1.0
+Installing po/ab/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/ab/LC_MESSAGES
+Installing po/an/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/an/LC_MESSAGES
+Installing po/ar/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/ar/LC_MESSAGES
+Installing po/as/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/as/LC_MESSAGES
+Installing po/ast/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/ast/LC_MESSAGES
+Installing po/be/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/be/LC_MESSAGES
+Installing po/bg/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/bg/LC_MESSAGES
+Installing po/bn_IN/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/bn_IN/LC_MESSAGES
+Installing po/bs/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/bs/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/ca/LC_MESSAGES
+Installing po/ca@valencia/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/ca@valencia/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/cs/LC_MESSAGES
+Installing po/da/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/de/LC_MESSAGES
+Installing po/el/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/el/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/en_GB/LC_MESSAGES
+Installing po/eo/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/eo/LC_MESSAGES
+Installing po/es/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/es/LC_MESSAGES
+Installing po/et/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/et/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/eu/LC_MESSAGES
+Installing po/fa/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/fa/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/fr/LC_MESSAGES
+Installing po/fur/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/fur/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/gl/LC_MESSAGES
+Installing po/gu/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/gu/LC_MESSAGES
+Installing po/he/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/he/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/hu/LC_MESSAGES
+Installing po/hi/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/hi/LC_MESSAGES
+Installing po/id/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/id/LC_MESSAGES
+Installing po/ie/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/ie/LC_MESSAGES
+Installing po/is/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/is/LC_MESSAGES
+Installing po/it/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/it/LC_MESSAGES
+Installing po/ja/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/ja/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/ka/LC_MESSAGES
+Installing po/kab/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/kab/LC_MESSAGES
+Installing po/kk/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/kk/LC_MESSAGES
+Installing po/kn/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/kn/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/ko/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/lt/LC_MESSAGES
+Installing po/lv/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/lv/LC_MESSAGES
+Installing po/ml/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/ml/LC_MESSAGES
+Installing po/mr/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/mr/LC_MESSAGES
+Installing po/ms/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/ms/LC_MESSAGES
+Installing po/nb/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/nb/LC_MESSAGES
+Installing po/nds/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/nds/LC_MESSAGES
+Installing po/ne/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/ne/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/nl/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/oc/LC_MESSAGES
+Installing po/or/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/or/LC_MESSAGES
+Installing po/pa/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/pa/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/pl/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/pt/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/ru/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/sl/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/sk/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/sr/LC_MESSAGES
+Installing po/sr@latin/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/sr@latin/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/sv/LC_MESSAGES
+Installing po/ta/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/ta/LC_MESSAGES
+Installing po/te/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/te/LC_MESSAGES
+Installing po/tg/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/tg/LC_MESSAGES
+Installing po/th/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/th/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/tr/LC_MESSAGES
+Installing po/ug/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/ug/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/uk/LC_MESSAGES
+Installing po/vi/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/vi/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_HK/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/zh_HK/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/libpeas-1.0.mo to /usr/share/locale/zh_TW/LC_MESSAGES
+Installing loaders/python3/libpython3loader.so to /usr/lib/libpeas-1.0/loaders
+Installing peas-demo/peas-demo to /usr/bin
+Installing peas-demo/plugins/helloworld/libhelloworld.so to /usr/lib/peas-demo/plugins/helloworld
+Installing peas-demo/plugins/helloworld/helloworld.plugin to /usr/lib/peas-demo/plugins/helloworld
+Installing peas-demo/plugins/pythonhello/pythonhello.py to /usr/lib/peas-demo/plugins/pythonhello
+Installing peas-demo/plugins/pythonhello/pythonhello.plugin to /usr/lib/peas-demo/plugins/pythonhello
+Installing peas-demo/plugins/secondtime/libsecondtime.so to /usr/lib/peas-demo/plugins/secondtime
+Installing peas-demo/plugins/secondtime/secondtime.plugin to /usr/lib/peas-demo/plugins/secondtime
+Installing /blfs/builds/libpeas-1.38.1/libpeas/peas-activatable.h to /usr/include/libpeas-1.0/libpeas
+Installing /blfs/builds/libpeas-1.38.1/libpeas/peas-autocleanups.h to /usr/include/libpeas-1.0/libpeas
+Installing /blfs/builds/libpeas-1.38.1/libpeas/peas-engine.h to /usr/include/libpeas-1.0/libpeas
+Installing /blfs/builds/libpeas-1.38.1/libpeas/peas-extension.h to /usr/include/libpeas-1.0/libpeas
+Installing /blfs/builds/libpeas-1.38.1/libpeas/peas-extension-base.h to /usr/include/libpeas-1.0/libpeas
+Installing /blfs/builds/libpeas-1.38.1/libpeas/peas-extension-set.h to /usr/include/libpeas-1.0/libpeas
+Installing /blfs/builds/libpeas-1.38.1/libpeas/peas-object-module.h to /usr/include/libpeas-1.0/libpeas
+Installing /blfs/builds/libpeas-1.38.1/libpeas/peas-plugin-info.h to /usr/include/libpeas-1.0/libpeas
+Installing /blfs/builds/libpeas-1.38.1/libpeas/peas-version-macros.h to /usr/include/libpeas-1.0/libpeas
+Installing /blfs/builds/libpeas-1.38.1/libpeas/peas.h to /usr/include/libpeas-1.0/libpeas
+Installing /blfs/builds/libpeas-1.38.1/libpeas-gtk/peas-gtk-autocleanups.h to /usr/include/libpeas-1.0/libpeas-gtk
+Installing /blfs/builds/libpeas-1.38.1/libpeas-gtk/peas-gtk-configurable.h to /usr/include/libpeas-1.0/libpeas-gtk
+Installing /blfs/builds/libpeas-1.38.1/libpeas-gtk/peas-gtk-plugin-manager.h to /usr/include/libpeas-1.0/libpeas-gtk
+Installing /blfs/builds/libpeas-1.38.1/libpeas-gtk/peas-gtk-plugin-manager-view.h to /usr/include/libpeas-1.0/libpeas-gtk
+Installing /blfs/builds/libpeas-1.38.1/libpeas-gtk/peas-gtk.h to /usr/include/libpeas-1.0/libpeas-gtk
+Installing /blfs/builds/libpeas-1.38.1/build/libpeas/peas-version.h to /usr/include/libpeas-1.0/libpeas
+Installing /blfs/builds/libpeas-1.38.1/build/meson-private/libpeas-1.0.pc to /usr/lib/pkgconfig
+Installing /blfs/builds/libpeas-1.38.1/build/meson-private/libpeas-gtk-1.0.pc to /usr/lib/pkgconfig
+Installing /blfs/builds/libpeas-1.38.1/data/icons/16x16/libpeas-plugin.png to /usr/share/icons/hicolor/16x16/actions
+Installing /blfs/builds/libpeas-1.38.1/data/icons/22x22/libpeas-plugin.png to /usr/share/icons/hicolor/22x22/actions
+Installing /blfs/builds/libpeas-1.38.1/data/icons/32x32/libpeas-plugin.png to /usr/share/icons/hicolor/32x32/actions
+Installing /blfs/builds/libpeas-1.38.1/data/icons/scalable/libpeas-plugin.svg to /usr/share/icons/hicolor/scalable/actions
+Installing symlink pointing to libpeas-1.0.so.1.3800.1 to /usr/lib/libpeas-1.0.so.1
+Installing symlink pointing to libpeas-1.0.so.1 to /usr/lib/libpeas-1.0.so
+Installing symlink pointing to libpeas-gtk-1.0.so.1.3800.1 to /usr/lib/libpeas-gtk-1.0.so.1
+Installing symlink pointing to libpeas-gtk-1.0.so.1 to /usr/lib/libpeas-gtk-1.0.so
+[0/1] Installing files
+Installing libpeas/libpeas-1.0.so.1.3800.1 to /pkgs/libpeas/usr/lib
+Installing libpeas/Peas-1.0.gir to /pkgs/libpeas/usr/share/gir-1.0
+Installing libpeas/Peas-1.0.typelib to /pkgs/libpeas/usr/lib/girepository-1.0
+Installing libpeas-gtk/libpeas-gtk-1.0.so.1.3800.1 to /pkgs/libpeas/usr/lib
+Installing libpeas-gtk/PeasGtk-1.0.gir to /pkgs/libpeas/usr/share/gir-1.0
+Installing libpeas-gtk/PeasGtk-1.0.typelib to /pkgs/libpeas/usr/lib/girepository-1.0
+Installing po/ab/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/ab/LC_MESSAGES
+Installing po/an/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/an/LC_MESSAGES
+Installing po/ar/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/ar/LC_MESSAGES
+Installing po/as/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/as/LC_MESSAGES
+Installing po/ast/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/ast/LC_MESSAGES
+Installing po/be/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/be/LC_MESSAGES
+Installing po/bg/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/bg/LC_MESSAGES
+Installing po/bn_IN/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/bn_IN/LC_MESSAGES
+Installing po/bs/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/bs/LC_MESSAGES
+Installing po/ca/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/ca/LC_MESSAGES
+Installing po/ca@valencia/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/ca@valencia/LC_MESSAGES
+Installing po/cs/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/cs/LC_MESSAGES
+Installing po/da/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/da/LC_MESSAGES
+Installing po/de/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/de/LC_MESSAGES
+Installing po/el/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/el/LC_MESSAGES
+Installing po/en_GB/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/en_GB/LC_MESSAGES
+Installing po/eo/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/eo/LC_MESSAGES
+Installing po/es/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/es/LC_MESSAGES
+Installing po/et/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/et/LC_MESSAGES
+Installing po/eu/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/eu/LC_MESSAGES
+Installing po/fa/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/fa/LC_MESSAGES
+Installing po/fi/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/fi/LC_MESSAGES
+Installing po/fr/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/fr/LC_MESSAGES
+Installing po/fur/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/fur/LC_MESSAGES
+Installing po/gl/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/gl/LC_MESSAGES
+Installing po/gu/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/gu/LC_MESSAGES
+Installing po/he/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/he/LC_MESSAGES
+Installing po/hr/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/hr/LC_MESSAGES
+Installing po/hu/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/hu/LC_MESSAGES
+Installing po/hi/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/hi/LC_MESSAGES
+Installing po/id/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/id/LC_MESSAGES
+Installing po/ie/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/ie/LC_MESSAGES
+Installing po/is/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/is/LC_MESSAGES
+Installing po/it/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/it/LC_MESSAGES
+Installing po/ja/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/ja/LC_MESSAGES
+Installing po/ka/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/ka/LC_MESSAGES
+Installing po/kab/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/kab/LC_MESSAGES
+Installing po/kk/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/kk/LC_MESSAGES
+Installing po/kn/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/kn/LC_MESSAGES
+Installing po/ko/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/ko/LC_MESSAGES
+Installing po/lt/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/lt/LC_MESSAGES
+Installing po/lv/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/lv/LC_MESSAGES
+Installing po/ml/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/ml/LC_MESSAGES
+Installing po/mr/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/mr/LC_MESSAGES
+Installing po/ms/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/ms/LC_MESSAGES
+Installing po/nb/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/nb/LC_MESSAGES
+Installing po/nds/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/nds/LC_MESSAGES
+Installing po/ne/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/ne/LC_MESSAGES
+Installing po/nl/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/nl/LC_MESSAGES
+Installing po/oc/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/oc/LC_MESSAGES
+Installing po/or/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/or/LC_MESSAGES
+Installing po/pa/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/pa/LC_MESSAGES
+Installing po/pl/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/pl/LC_MESSAGES
+Installing po/pt/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/pt/LC_MESSAGES
+Installing po/pt_BR/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/pt_BR/LC_MESSAGES
+Installing po/ro/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/ro/LC_MESSAGES
+Installing po/ru/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/ru/LC_MESSAGES
+Installing po/sl/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/sl/LC_MESSAGES
+Installing po/sk/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/sk/LC_MESSAGES
+Installing po/sr/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/sr/LC_MESSAGES
+Installing po/sr@latin/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/sr@latin/LC_MESSAGES
+Installing po/sv/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/sv/LC_MESSAGES
+Installing po/ta/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/ta/LC_MESSAGES
+Installing po/te/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/te/LC_MESSAGES
+Installing po/tg/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/tg/LC_MESSAGES
+Installing po/th/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/th/LC_MESSAGES
+Installing po/tr/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/tr/LC_MESSAGES
+Installing po/ug/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/ug/LC_MESSAGES
+Installing po/uk/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/uk/LC_MESSAGES
+Installing po/vi/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/vi/LC_MESSAGES
+Installing po/zh_CN/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/zh_CN/LC_MESSAGES
+Installing po/zh_HK/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/zh_HK/LC_MESSAGES
+Installing po/zh_TW/LC_MESSAGES/libpeas-1.0.mo to /pkgs/libpeas/usr/share/locale/zh_TW/LC_MESSAGES
+Installing loaders/python3/libpython3loader.so to /pkgs/libpeas/usr/lib/libpeas-1.0/loaders
+Installing peas-demo/peas-demo to /pkgs/libpeas/usr/bin
+Installing peas-demo/plugins/helloworld/libhelloworld.so to /pkgs/libpeas/usr/lib/peas-demo/plugins/helloworld
+Installing peas-demo/plugins/helloworld/helloworld.plugin to /pkgs/libpeas/usr/lib/peas-demo/plugins/helloworld
+Installing peas-demo/plugins/pythonhello/pythonhello.py to /pkgs/libpeas/usr/lib/peas-demo/plugins/pythonhello
+Installing peas-demo/plugins/pythonhello/pythonhello.plugin to /pkgs/libpeas/usr/lib/peas-demo/plugins/pythonhello
+Installing peas-demo/plugins/secondtime/libsecondtime.so to /pkgs/libpeas/usr/lib/peas-demo/plugins/secondtime
+Installing peas-demo/plugins/secondtime/secondtime.plugin to /pkgs/libpeas/usr/lib/peas-demo/plugins/secondtime
+Installing /blfs/builds/libpeas-1.38.1/libpeas/peas-activatable.h to /pkgs/libpeas/usr/include/libpeas-1.0/libpeas
+Installing /blfs/builds/libpeas-1.38.1/libpeas/peas-autocleanups.h to /pkgs/libpeas/usr/include/libpeas-1.0/libpeas
+Installing /blfs/builds/libpeas-1.38.1/libpeas/peas-engine.h to /pkgs/libpeas/usr/include/libpeas-1.0/libpeas
+Installing /blfs/builds/libpeas-1.38.1/libpeas/peas-extension.h to /pkgs/libpeas/usr/include/libpeas-1.0/libpeas
+Installing /blfs/builds/libpeas-1.38.1/libpeas/peas-extension-base.h to /pkgs/libpeas/usr/include/libpeas-1.0/libpeas
+Installing /blfs/builds/libpeas-1.38.1/libpeas/peas-extension-set.h to /pkgs/libpeas/usr/include/libpeas-1.0/libpeas
+Installing /blfs/builds/libpeas-1.38.1/libpeas/peas-object-module.h to /pkgs/libpeas/usr/include/libpeas-1.0/libpeas
+Installing /blfs/builds/libpeas-1.38.1/libpeas/peas-plugin-info.h to /pkgs/libpeas/usr/include/libpeas-1.0/libpeas
+Installing /blfs/builds/libpeas-1.38.1/libpeas/peas-version-macros.h to /pkgs/libpeas/usr/include/libpeas-1.0/libpeas
+Installing /blfs/builds/libpeas-1.38.1/libpeas/peas.h to /pkgs/libpeas/usr/include/libpeas-1.0/libpeas
+Installing /blfs/builds/libpeas-1.38.1/libpeas-gtk/peas-gtk-autocleanups.h to /pkgs/libpeas/usr/include/libpeas-1.0/libpeas-gtk
+Installing /blfs/builds/libpeas-1.38.1/libpeas-gtk/peas-gtk-configurable.h to /pkgs/libpeas/usr/include/libpeas-1.0/libpeas-gtk
+Installing /blfs/builds/libpeas-1.38.1/libpeas-gtk/peas-gtk-plugin-manager.h to /pkgs/libpeas/usr/include/libpeas-1.0/libpeas-gtk
+Installing /blfs/builds/libpeas-1.38.1/libpeas-gtk/peas-gtk-plugin-manager-view.h to /pkgs/libpeas/usr/include/libpeas-1.0/libpeas-gtk
+Installing /blfs/builds/libpeas-1.38.1/libpeas-gtk/peas-gtk.h to /pkgs/libpeas/usr/include/libpeas-1.0/libpeas-gtk
+Installing /blfs/builds/libpeas-1.38.1/build/libpeas/peas-version.h to /pkgs/libpeas/usr/include/libpeas-1.0/libpeas
+Installing /blfs/builds/libpeas-1.38.1/build/meson-private/libpeas-1.0.pc to /pkgs/libpeas/usr/lib/pkgconfig
+Installing /blfs/builds/libpeas-1.38.1/build/meson-private/libpeas-gtk-1.0.pc to /pkgs/libpeas/usr/lib/pkgconfig
+Installing /blfs/builds/libpeas-1.38.1/data/icons/16x16/libpeas-plugin.png to /pkgs/libpeas/usr/share/icons/hicolor/16x16/actions
+Installing /blfs/builds/libpeas-1.38.1/data/icons/22x22/libpeas-plugin.png to /pkgs/libpeas/usr/share/icons/hicolor/22x22/actions
+Installing /blfs/builds/libpeas-1.38.1/data/icons/32x32/libpeas-plugin.png to /pkgs/libpeas/usr/share/icons/hicolor/32x32/actions
+Installing /blfs/builds/libpeas-1.38.1/data/icons/scalable/libpeas-plugin.svg to /pkgs/libpeas/usr/share/icons/hicolor/scalable/actions
+Installing symlink pointing to libpeas-1.0.so.1.3800.1 to /pkgs/libpeas/usr/lib/libpeas-1.0.so.1
+Installing symlink pointing to libpeas-1.0.so.1 to /pkgs/libpeas/usr/lib/libpeas-1.0.so
+Installing symlink pointing to libpeas-gtk-1.0.so.1.3800.1 to /pkgs/libpeas/usr/lib/libpeas-gtk-1.0.so.1
+Installing symlink pointing to libpeas-gtk-1.0.so.1 to /pkgs/libpeas/usr/lib/libpeas-gtk-1.0.so
+libpeas/
+libpeas/usr/
+libpeas/usr/include/
+libpeas/usr/include/libpeas-1.0/
+libpeas/usr/include/libpeas-1.0/libpeas/
+libpeas/usr/include/libpeas-1.0/libpeas/peas-engine.h
+libpeas/usr/include/libpeas-1.0/libpeas/peas-plugin-info.h
+libpeas/usr/include/libpeas-1.0/libpeas/peas.h
+libpeas/usr/include/libpeas-1.0/libpeas/peas-autocleanups.h
+libpeas/usr/include/libpeas-1.0/libpeas/peas-version-macros.h
+libpeas/usr/include/libpeas-1.0/libpeas/peas-extension-base.h
+libpeas/usr/include/libpeas-1.0/libpeas/peas-extension-set.h
+libpeas/usr/include/libpeas-1.0/libpeas/peas-extension.h
+libpeas/usr/include/libpeas-1.0/libpeas/peas-object-module.h
+libpeas/usr/include/libpeas-1.0/libpeas/peas-activatable.h
+libpeas/usr/include/libpeas-1.0/libpeas/peas-version.h
+libpeas/usr/include/libpeas-1.0/libpeas-gtk/
+libpeas/usr/include/libpeas-1.0/libpeas-gtk/peas-gtk-plugin-manager-view.h
+libpeas/usr/include/libpeas-1.0/libpeas-gtk/peas-gtk-configurable.h
+libpeas/usr/include/libpeas-1.0/libpeas-gtk/peas-gtk-autocleanups.h
+libpeas/usr/include/libpeas-1.0/libpeas-gtk/peas-gtk-plugin-manager.h
+libpeas/usr/include/libpeas-1.0/libpeas-gtk/peas-gtk.h
+libpeas/usr/share/
+libpeas/usr/share/locale/
+libpeas/usr/share/locale/sr/
+libpeas/usr/share/locale/sr/LC_MESSAGES/
+libpeas/usr/share/locale/sr/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/nl/
+libpeas/usr/share/locale/nl/LC_MESSAGES/
+libpeas/usr/share/locale/nl/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/an/
+libpeas/usr/share/locale/an/LC_MESSAGES/
+libpeas/usr/share/locale/an/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/ab/
+libpeas/usr/share/locale/ab/LC_MESSAGES/
+libpeas/usr/share/locale/ab/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/tg/
+libpeas/usr/share/locale/tg/LC_MESSAGES/
+libpeas/usr/share/locale/tg/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/fi/
+libpeas/usr/share/locale/fi/LC_MESSAGES/
+libpeas/usr/share/locale/fi/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/kn/
+libpeas/usr/share/locale/kn/LC_MESSAGES/
+libpeas/usr/share/locale/kn/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/id/
+libpeas/usr/share/locale/id/LC_MESSAGES/
+libpeas/usr/share/locale/id/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/gu/
+libpeas/usr/share/locale/gu/LC_MESSAGES/
+libpeas/usr/share/locale/gu/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/ro/
+libpeas/usr/share/locale/ro/LC_MESSAGES/
+libpeas/usr/share/locale/ro/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/ko/
+libpeas/usr/share/locale/ko/LC_MESSAGES/
+libpeas/usr/share/locale/ko/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/sr@latin/
+libpeas/usr/share/locale/sr@latin/LC_MESSAGES/
+libpeas/usr/share/locale/sr@latin/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/zh_TW/
+libpeas/usr/share/locale/zh_TW/LC_MESSAGES/
+libpeas/usr/share/locale/zh_TW/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/hi/
+libpeas/usr/share/locale/hi/LC_MESSAGES/
+libpeas/usr/share/locale/hi/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/kk/
+libpeas/usr/share/locale/kk/LC_MESSAGES/
+libpeas/usr/share/locale/kk/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/nb/
+libpeas/usr/share/locale/nb/LC_MESSAGES/
+libpeas/usr/share/locale/nb/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/as/
+libpeas/usr/share/locale/as/LC_MESSAGES/
+libpeas/usr/share/locale/as/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/ie/
+libpeas/usr/share/locale/ie/LC_MESSAGES/
+libpeas/usr/share/locale/ie/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/ar/
+libpeas/usr/share/locale/ar/LC_MESSAGES/
+libpeas/usr/share/locale/ar/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/uk/
+libpeas/usr/share/locale/uk/LC_MESSAGES/
+libpeas/usr/share/locale/uk/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/ast/
+libpeas/usr/share/locale/ast/LC_MESSAGES/
+libpeas/usr/share/locale/ast/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/ug/
+libpeas/usr/share/locale/ug/LC_MESSAGES/
+libpeas/usr/share/locale/ug/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/en_GB/
+libpeas/usr/share/locale/en_GB/LC_MESSAGES/
+libpeas/usr/share/locale/en_GB/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/oc/
+libpeas/usr/share/locale/oc/LC_MESSAGES/
+libpeas/usr/share/locale/oc/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/es/
+libpeas/usr/share/locale/es/LC_MESSAGES/
+libpeas/usr/share/locale/es/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/nds/
+libpeas/usr/share/locale/nds/LC_MESSAGES/
+libpeas/usr/share/locale/nds/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/th/
+libpeas/usr/share/locale/th/LC_MESSAGES/
+libpeas/usr/share/locale/th/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/he/
+libpeas/usr/share/locale/he/LC_MESSAGES/
+libpeas/usr/share/locale/he/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/vi/
+libpeas/usr/share/locale/vi/LC_MESSAGES/
+libpeas/usr/share/locale/vi/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/fr/
+libpeas/usr/share/locale/fr/LC_MESSAGES/
+libpeas/usr/share/locale/fr/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/ca/
+libpeas/usr/share/locale/ca/LC_MESSAGES/
+libpeas/usr/share/locale/ca/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/ta/
+libpeas/usr/share/locale/ta/LC_MESSAGES/
+libpeas/usr/share/locale/ta/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/pl/
+libpeas/usr/share/locale/pl/LC_MESSAGES/
+libpeas/usr/share/locale/pl/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/da/
+libpeas/usr/share/locale/da/LC_MESSAGES/
+libpeas/usr/share/locale/da/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/ru/
+libpeas/usr/share/locale/ru/LC_MESSAGES/
+libpeas/usr/share/locale/ru/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/bn_IN/
+libpeas/usr/share/locale/bn_IN/LC_MESSAGES/
+libpeas/usr/share/locale/bn_IN/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/is/
+libpeas/usr/share/locale/is/LC_MESSAGES/
+libpeas/usr/share/locale/is/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/hr/
+libpeas/usr/share/locale/hr/LC_MESSAGES/
+libpeas/usr/share/locale/hr/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/ja/
+libpeas/usr/share/locale/ja/LC_MESSAGES/
+libpeas/usr/share/locale/ja/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/kab/
+libpeas/usr/share/locale/kab/LC_MESSAGES/
+libpeas/usr/share/locale/kab/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/fa/
+libpeas/usr/share/locale/fa/LC_MESSAGES/
+libpeas/usr/share/locale/fa/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/zh_CN/
+libpeas/usr/share/locale/zh_CN/LC_MESSAGES/
+libpeas/usr/share/locale/zh_CN/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/cs/
+libpeas/usr/share/locale/cs/LC_MESSAGES/
+libpeas/usr/share/locale/cs/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/or/
+libpeas/usr/share/locale/or/LC_MESSAGES/
+libpeas/usr/share/locale/or/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/lv/
+libpeas/usr/share/locale/lv/LC_MESSAGES/
+libpeas/usr/share/locale/lv/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/mr/
+libpeas/usr/share/locale/mr/LC_MESSAGES/
+libpeas/usr/share/locale/mr/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/pt_BR/
+libpeas/usr/share/locale/pt_BR/LC_MESSAGES/
+libpeas/usr/share/locale/pt_BR/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/pt/
+libpeas/usr/share/locale/pt/LC_MESSAGES/
+libpeas/usr/share/locale/pt/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/hu/
+libpeas/usr/share/locale/hu/LC_MESSAGES/
+libpeas/usr/share/locale/hu/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/tr/
+libpeas/usr/share/locale/tr/LC_MESSAGES/
+libpeas/usr/share/locale/tr/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/sl/
+libpeas/usr/share/locale/sl/LC_MESSAGES/
+libpeas/usr/share/locale/sl/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/zh_HK/
+libpeas/usr/share/locale/zh_HK/LC_MESSAGES/
+libpeas/usr/share/locale/zh_HK/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/fur/
+libpeas/usr/share/locale/fur/LC_MESSAGES/
+libpeas/usr/share/locale/fur/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/eu/
+libpeas/usr/share/locale/eu/LC_MESSAGES/
+libpeas/usr/share/locale/eu/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/el/
+libpeas/usr/share/locale/el/LC_MESSAGES/
+libpeas/usr/share/locale/el/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/sv/
+libpeas/usr/share/locale/sv/LC_MESSAGES/
+libpeas/usr/share/locale/sv/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/ml/
+libpeas/usr/share/locale/ml/LC_MESSAGES/
+libpeas/usr/share/locale/ml/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/sk/
+libpeas/usr/share/locale/sk/LC_MESSAGES/
+libpeas/usr/share/locale/sk/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/eo/
+libpeas/usr/share/locale/eo/LC_MESSAGES/
+libpeas/usr/share/locale/eo/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/bg/
+libpeas/usr/share/locale/bg/LC_MESSAGES/
+libpeas/usr/share/locale/bg/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/pa/
+libpeas/usr/share/locale/pa/LC_MESSAGES/
+libpeas/usr/share/locale/pa/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/ka/
+libpeas/usr/share/locale/ka/LC_MESSAGES/
+libpeas/usr/share/locale/ka/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/te/
+libpeas/usr/share/locale/te/LC_MESSAGES/
+libpeas/usr/share/locale/te/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/ne/
+libpeas/usr/share/locale/ne/LC_MESSAGES/
+libpeas/usr/share/locale/ne/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/it/
+libpeas/usr/share/locale/it/LC_MESSAGES/
+libpeas/usr/share/locale/it/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/de/
+libpeas/usr/share/locale/de/LC_MESSAGES/
+libpeas/usr/share/locale/de/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/ca@valencia/
+libpeas/usr/share/locale/ca@valencia/LC_MESSAGES/
+libpeas/usr/share/locale/ca@valencia/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/lt/
+libpeas/usr/share/locale/lt/LC_MESSAGES/
+libpeas/usr/share/locale/lt/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/et/
+libpeas/usr/share/locale/et/LC_MESSAGES/
+libpeas/usr/share/locale/et/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/bs/
+libpeas/usr/share/locale/bs/LC_MESSAGES/
+libpeas/usr/share/locale/bs/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/be/
+libpeas/usr/share/locale/be/LC_MESSAGES/
+libpeas/usr/share/locale/be/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/ms/
+libpeas/usr/share/locale/ms/LC_MESSAGES/
+libpeas/usr/share/locale/ms/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/locale/gl/
+libpeas/usr/share/locale/gl/LC_MESSAGES/
+libpeas/usr/share/locale/gl/LC_MESSAGES/libpeas-1.0.mo
+libpeas/usr/share/icons/
+libpeas/usr/share/icons/hicolor/
+libpeas/usr/share/icons/hicolor/22x22/
+libpeas/usr/share/icons/hicolor/22x22/actions/
+libpeas/usr/share/icons/hicolor/22x22/actions/libpeas-plugin.png
+libpeas/usr/share/icons/hicolor/16x16/
+libpeas/usr/share/icons/hicolor/16x16/actions/
+libpeas/usr/share/icons/hicolor/16x16/actions/libpeas-plugin.png
+libpeas/usr/share/icons/hicolor/32x32/
+libpeas/usr/share/icons/hicolor/32x32/actions/
+libpeas/usr/share/icons/hicolor/32x32/actions/libpeas-plugin.png
+libpeas/usr/share/icons/hicolor/scalable/
+libpeas/usr/share/icons/hicolor/scalable/actions/
+libpeas/usr/share/icons/hicolor/scalable/actions/libpeas-plugin.svg
+libpeas/usr/share/gir-1.0/
+libpeas/usr/share/gir-1.0/PeasGtk-1.0.gir
+libpeas/usr/share/gir-1.0/Peas-1.0.gir
+libpeas/usr/bin/
+libpeas/usr/bin/peas-demo
+libpeas/usr/lib/
+libpeas/usr/lib/peas-demo/
+libpeas/usr/lib/peas-demo/plugins/
+libpeas/usr/lib/peas-demo/plugins/pythonhello/
+libpeas/usr/lib/peas-demo/plugins/pythonhello/pythonhello.plugin
+libpeas/usr/lib/peas-demo/plugins/pythonhello/pythonhello.py
+libpeas/usr/lib/peas-demo/plugins/helloworld/
+libpeas/usr/lib/peas-demo/plugins/helloworld/libhelloworld.so
+libpeas/usr/lib/peas-demo/plugins/helloworld/helloworld.plugin
+libpeas/usr/lib/peas-demo/plugins/secondtime/
+libpeas/usr/lib/peas-demo/plugins/secondtime/libsecondtime.so
+libpeas/usr/lib/peas-demo/plugins/secondtime/secondtime.plugin
+libpeas/usr/lib/libpeas-1.0/
+libpeas/usr/lib/libpeas-1.0/loaders/
+libpeas/usr/lib/libpeas-1.0/loaders/libpython3loader.so
+libpeas/usr/lib/libpeas-1.0.so.1
+libpeas/usr/lib/girepository-1.0/
+libpeas/usr/lib/girepository-1.0/Peas-1.0.typelib
+libpeas/usr/lib/girepository-1.0/PeasGtk-1.0.typelib
+libpeas/usr/lib/libpeas-1.0.so.1.3800.1
+libpeas/usr/lib/libpeas-1.0.so
+libpeas/usr/lib/pkgconfig/
+libpeas/usr/lib/pkgconfig/libpeas-gtk-1.0.pc
+libpeas/usr/lib/pkgconfig/libpeas-1.0.pc
+libpeas/usr/lib/libpeas-gtk-1.0.so.1
+libpeas/usr/lib/libpeas-gtk-1.0.so.1.3800.1
+libpeas/usr/lib/libpeas-gtk-1.0.so
+libpeas/version
+libpeas/postinst
+libpeas/depends
