@@ -1,0 +1,131 @@
+--2026-04-07 09:31:53--  http://miniupnp.free.fr/files/miniupnpc-20091016.tar.gz
+Resolving miniupnp.free.fr (miniupnp.free.fr)... 212.27.63.162
+Connecting to miniupnp.free.fr (miniupnp.free.fr)|212.27.63.162|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 41792 (41K) [application/x-gzip]
+Saving to: ‘miniupnpc-20091016.tar.gz’
+
+     0K .......... .......... .......... ..........           100%  459K=0.09s
+
+2026-04-07 09:31:53 (459 KB/s) - ‘miniupnpc-20091016.tar.gz’ saved [41792/41792]
+
+miniupnpc-20091016/Makefile
+miniupnpc-20091016/igd_desc_parse.c
+miniupnpc-20091016/igd_desc_parse.h
+miniupnpc-20091016/miniwget.c
+miniupnpc-20091016/miniwget.h
+miniupnpc-20091016/minixml.c
+miniupnpc-20091016/minixml.h
+miniupnpc-20091016/upnpc.c
+miniupnpc-20091016/testminixml.c
+miniupnpc-20091016/minisoap.c
+miniupnpc-20091016/minisoap.h
+miniupnpc-20091016/miniupnpc.c
+miniupnpc-20091016/miniupnpc.h
+miniupnpc-20091016/README
+miniupnpc-20091016/LICENCE
+miniupnpc-20091016/upnpcommands.c
+miniupnpc-20091016/upnpreplyparse.c
+miniupnpc-20091016/upnpreplyparse.h
+miniupnpc-20091016/upnpcommands.h
+miniupnpc-20091016/Makefile.mingw
+miniupnpc-20091016/bsdqueue.h
+miniupnpc-20091016/Changelog.txt
+miniupnpc-20091016/minixmlvalid.c
+miniupnpc-20091016/declspec.h
+miniupnpc-20091016/mingw32make.bat
+miniupnpc-20091016/testupnpreplyparse.c
+miniupnpc-20091016/miniupnpcmodule.c
+miniupnpc-20091016/pymoduletest.py
+miniupnpc-20091016/setup.py
+miniupnpc-20091016/setupmingw32.py
+miniupnpc-20091016/minissdpc.h
+miniupnpc-20091016/minissdpc.c
+miniupnpc-20091016/man3/miniupnpc.3
+miniupnpc-20091016/upnperrors.h
+miniupnpc-20091016/upnperrors.c
+miniupnpc-20091016/testigddescparse.c
+miniupnpc-20091016/testupnpigd.py
+miniupnpc-20091016/miniupnpc.def
+miniupnpc-20091016/codelength.h
+miniupnpc-20091016/miniupnpcstrings.h.in
+miniupnpc-20091016/updateminiupnpcstrings.sh
+cc -O2    -c -o minixmlvalid.o minixmlvalid.c
+cc -O2    -c -o minixml.o minixml.c
+/bin/sh updateminiupnpcstrings.sh
+cc -O2    -c -o igd_desc_parse.o igd_desc_parse.c
+cc -O2    -c -o miniupnpc.o miniupnpc.c
+cc -O2    -c -o upnpreplyparse.o upnpreplyparse.c
+cc -O2    -c -o upnpcommands.o upnpcommands.c
+cc -O2    -c -o minissdpc.o minissdpc.c
+cc -O2    -c -o upnperrors.o upnperrors.c
+cc -O2    -c -o upnpc.o upnpc.c
+cc -O2    -c -o testminixml.o testminixml.c
+cc -O2    -c -o testupnpreplyparse.o testupnpreplyparse.c
+which: no lsb_release in (/usr/bin:/bin:/usr/sbin:/sbin:/usr/sbin/)
+Detected OS [Linux] version [6.16.7-tucana]
+setting OS_STRING macro value to Linux/6.16.7-tucana in miniupnpcstrings.h.
+cc -O2    -c -o testigddescparse.o testigddescparse.c
+cc -O2    -c -o miniwget.o miniwget.c
+cc -O2    -c -o minisoap.o minisoap.c
+cc   minixmlvalid.o minixml.o   -o minixmlvalid
+cc   testminixml.o minixml.o igd_desc_parse.o   -o testminixml
+cc   testigddescparse.o igd_desc_parse.o minixml.o   -o testigddescparse
+cc   testupnpreplyparse.o minixml.o upnpreplyparse.o   -o testupnpreplyparse
+minixml validation test
+./minixmlvalid
+14 events
+touch validateminixml
+ar crs libminiupnpc.a miniwget.o minixml.o igd_desc_parse.o minisoap.o miniupnpc.o upnpreplyparse.o upnpcommands.o minissdpc.o upnperrors.o
+cc -shared -Wl,-soname,libminiupnpc.so.4 -o libminiupnpc.so miniwget.o minixml.o igd_desc_parse.o minisoap.o miniupnpc.o upnpreplyparse.o upnpcommands.o minissdpc.o upnperrors.o
+cc -o upnpc-shared upnpc.o libminiupnpc.so
+cc -o upnpc-static upnpc.o libminiupnpc.a
+Traceback (most recent call last):
+  File "/blfs/builds/miniupnpc-20091016/setup.py", line 10, in <module>
+    setup(name="miniupnpc", version="1.3",
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          ext_modules=[
+          ^^^^^^^^^^^^^
+    	         Extension(name="miniupnpc", sources=["miniupnpcmodule.c"],
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    			           extra_objects=["libminiupnpc.a"])
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    			 ])
+        ^^
+  File "/usr/lib/python3.14/site-packages/setuptools/_distutils/core.py", line 148, in setup
+    _setup_distribution = dist = klass(attrs)
+                                 ~~~~~^^^^^^^
+  File "/usr/lib/python3.14/site-packages/setuptools/dist.py", line 321, in __init__
+    _Distribution.__init__(self, dist_attrs)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/site-packages/setuptools/_distutils/dist.py", line 307, in __init__
+    self.finalize_options()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.14/site-packages/setuptools/dist.py", line 789, in finalize_options
+    for ep in sorted(loaded, key=by_order):
+              ~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/site-packages/setuptools/dist.py", line 788, in <lambda>
+    loaded = map(lambda e: e.load(), filtered)
+                           ~~~~~~^^
+  File "/usr/lib/python3.14/importlib/metadata/__init__.py", line 179, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.14/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1398, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1314, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1398, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1314, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1398, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 759, in exec_module
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "/usr/lib/python3.14/site-packages/setuptools_scm/__init__.py", line 8, in <module>
+    from vcs_versioning import Configuration
+ModuleNotFoundError: No module named 'vcs_versioning'
