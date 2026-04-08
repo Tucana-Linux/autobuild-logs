@@ -1,0 +1,425 @@
+--2026-04-08 09:47:54--  https://github.com/containers/aardvark-dns/archive/refs/tags/v1.17.1.tar.gz
+Resolving github.com (github.com)... 140.82.113.3
+Connecting to github.com (github.com)|140.82.113.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://codeload.github.com/containers/aardvark-dns/tar.gz/refs/tags/v1.17.1 [following]
+--2026-04-08 09:47:54--  https://codeload.github.com/containers/aardvark-dns/tar.gz/refs/tags/v1.17.1
+Resolving codeload.github.com (codeload.github.com)... 140.82.113.10
+Connecting to codeload.github.com (codeload.github.com)|140.82.113.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/x-gzip]
+Saving to: ‘v1.17.1.tar.gz’
+
+     0K .......... .......... .......... .......... .......... 2.18M
+    50K .......... ......                                      15.9M=0.02s
+
+2026-04-08 09:47:54 (2.78 MB/s) - ‘v1.17.1.tar.gz’ saved [68355]
+
+aardvark-dns-1.17.1/
+aardvark-dns-1.17.1/.cirrus.yml
+aardvark-dns-1.17.1/.fmf/
+aardvark-dns-1.17.1/.fmf/version
+aardvark-dns-1.17.1/.github/
+aardvark-dns-1.17.1/.github/renovate.json5
+aardvark-dns-1.17.1/.github/workflows/
+aardvark-dns-1.17.1/.github/workflows/check_cirrus_cron.yml
+aardvark-dns-1.17.1/.github/workflows/release.yml
+aardvark-dns-1.17.1/.gitignore
+aardvark-dns-1.17.1/.packit-copr-rpm.sh
+aardvark-dns-1.17.1/.packit.yaml
+aardvark-dns-1.17.1/CODE-OF-CONDUCT.md
+aardvark-dns-1.17.1/CONTRIBUTING.md
+aardvark-dns-1.17.1/Cargo.lock
+aardvark-dns-1.17.1/Cargo.toml
+aardvark-dns-1.17.1/DISTRO_PACKAGE.md
+aardvark-dns-1.17.1/LICENSE
+aardvark-dns-1.17.1/Makefile
+aardvark-dns-1.17.1/OWNERS
+aardvark-dns-1.17.1/README.md
+aardvark-dns-1.17.1/RELEASE_NOTES.md
+aardvark-dns-1.17.1/build.rs
+aardvark-dns-1.17.1/config.md
+aardvark-dns-1.17.1/contrib/
+aardvark-dns-1.17.1/contrib/cirrus/
+aardvark-dns-1.17.1/contrib/cirrus/lib.sh
+aardvark-dns-1.17.1/contrib/cirrus/netavark_cache_groom.sh
+aardvark-dns-1.17.1/contrib/cirrus/runner.sh
+aardvark-dns-1.17.1/contrib/cirrus/setup.sh
+aardvark-dns-1.17.1/contrib/perf/
+aardvark-dns-1.17.1/contrib/perf/nslookup.py
+aardvark-dns-1.17.1/contrib/perf/run.sh
+aardvark-dns-1.17.1/docs/
+aardvark-dns-1.17.1/docs/publish-crate.md
+aardvark-dns-1.17.1/hack/
+aardvark-dns-1.17.1/hack/get_ci_vm.sh
+aardvark-dns-1.17.1/hack/tree_status.sh
+aardvark-dns-1.17.1/plans/
+aardvark-dns-1.17.1/plans/main.fmf
+aardvark-dns-1.17.1/rpm/
+aardvark-dns-1.17.1/rpm/aardvark-dns.spec
+aardvark-dns-1.17.1/rpm/gating.yaml
+aardvark-dns-1.17.1/src/
+aardvark-dns-1.17.1/src/backend/
+aardvark-dns-1.17.1/src/backend/mod.rs
+aardvark-dns-1.17.1/src/commands/
+aardvark-dns-1.17.1/src/commands/mod.rs
+aardvark-dns-1.17.1/src/commands/run.rs
+aardvark-dns-1.17.1/src/commands/version.rs
+aardvark-dns-1.17.1/src/config/
+aardvark-dns-1.17.1/src/config/constants.rs
+aardvark-dns-1.17.1/src/config/mod.rs
+aardvark-dns-1.17.1/src/dns/
+aardvark-dns-1.17.1/src/dns/coredns.rs
+aardvark-dns-1.17.1/src/dns/mod.rs
+aardvark-dns-1.17.1/src/error.rs
+aardvark-dns-1.17.1/src/lib.rs
+aardvark-dns-1.17.1/src/main.rs
+aardvark-dns-1.17.1/src/server/
+aardvark-dns-1.17.1/src/server/mod.rs
+aardvark-dns-1.17.1/src/server/serve.rs
+aardvark-dns-1.17.1/src/test/
+aardvark-dns-1.17.1/src/test/config/
+aardvark-dns-1.17.1/src/test/config/network_scoped_custom_dns/
+aardvark-dns-1.17.1/src/test/config/network_scoped_custom_dns/podman
+aardvark-dns-1.17.1/src/test/config/podman/
+aardvark-dns-1.17.1/src/test/config/podman/podman
+aardvark-dns-1.17.1/src/test/config/podman2
+aardvark-dns-1.17.1/src/test/config/podman_bad_config/
+aardvark-dns-1.17.1/src/test/config/podman_bad_config/podman
+aardvark-dns-1.17.1/src/test/config/podman_custom_dns_servers/
+aardvark-dns-1.17.1/src/test/config/podman_custom_dns_servers/podman
+aardvark-dns-1.17.1/src/test/config/podman_v6_entries/
+aardvark-dns-1.17.1/src/test/config/podman_v6_entries/podman_v6_entries
+aardvark-dns-1.17.1/src/test/config/podman_v6_entries/podman_v6_entries_proper
+aardvark-dns-1.17.1/src/test/config/test1
+aardvark-dns-1.17.1/src/test/mod.rs
+aardvark-dns-1.17.1/src/test/test.rs
+aardvark-dns-1.17.1/test/
+aardvark-dns-1.17.1/test/100-basic-name-resolution.bats
+aardvark-dns-1.17.1/test/200-two-networks.bats
+aardvark-dns-1.17.1/test/300-three-networks.bats
+aardvark-dns-1.17.1/test/400-aliases.bats
+aardvark-dns-1.17.1/test/500-reverse-lookups.bats
+aardvark-dns-1.17.1/test/600-errors.bats
+aardvark-dns-1.17.1/test/dnsmasq.conf
+aardvark-dns-1.17.1/test/helpers.bash
+aardvark-dns-1.17.1/test/tmt/
+aardvark-dns-1.17.1/test/tmt/main.fmf
+aardvark-dns-1.17.1/test/tmt/test_integration.sh
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded windows-link v0.2.1
+  Downloaded rand_core v0.9.3
+  Downloaded android_system_properties v0.1.5
+  Downloaded tokio-macros v2.6.0
+  Downloaded rand_chacha v0.9.0
+  Downloaded shlex v1.3.0
+  Downloaded num-conv v0.1.0
+  Downloaded num_threads v0.1.7
+  Downloaded anstyle-query v1.1.4
+  Downloaded yoke-derive v0.8.1
+  Downloaded inotify-sys v0.1.5
+  Downloaded wasm-bindgen-shared v0.2.105
+  Downloaded memoffset v0.9.1
+  Downloaded windows-link v0.1.3
+  Downloaded utf8_iter v1.0.4
+  Downloaded futures-core v0.3.31
+  Downloaded utf8parse v0.2.2
+  Downloaded windows-interface v0.59.3
+  Downloaded scopeguard v1.2.0
+  Downloaded slab v0.4.11
+  Downloaded idna_adapter v1.2.1
+  Downloaded strsim v0.11.1
+  Downloaded once_cell_polyfill v1.70.2
+  Downloaded iana-time-zone-haiku v0.1.2
+  Downloaded hostname v0.4.1
+  Downloaded windows-strings v0.5.1
+  Downloaded futures-macro v0.3.31
+  Downloaded anstyle-wincon v3.0.10
+  Downloaded futures-executor v0.3.31
+  Downloaded async-trait v0.1.89
+  Downloaded windows-implement v0.60.2
+  Downloaded writeable v0.6.2
+  Downloaded wasi v0.11.1+wasi-snapshot-preview1
+  Downloaded hickory-client v0.25.2
+  Downloaded core-foundation-sys v0.8.7
+  Downloaded wit-bindgen v0.46.0
+  Downloaded clap v4.5.51
+  Downloaded arc-swap v1.7.1
+  Downloaded zerocopy-derive v0.8.27
+  Downloaded rand v0.9.2
+  Downloaded wasip2 v1.0.1+wasi-0.2.4
+  Downloaded icu_provider v2.1.1
+  Downloaded futures-util v0.3.31
+  Downloaded tinyvec v1.10.0
+  Downloaded clap_builder v4.5.51
+  Downloaded icu_properties v2.1.1
+  Downloaded chrono v0.4.42
+  Downloaded radix_trie v0.2.1
+  Downloaded zerocopy v0.8.27
+  Downloaded thiserror v2.0.17
+  Downloaded tracing-core v0.1.34
+  Downloaded icu_normalizer v2.1.1
+  Downloaded icu_normalizer_data v2.1.1
+  Downloaded serde_derive v1.0.228
+  Downloaded windows_aarch64_gnullvm v0.52.6
+  Downloaded icu_locale_core v2.1.1
+  Downloaded proc-macro2 v1.0.103
+  Downloaded tracing v0.1.41
+  Downloaded zerotrie v0.2.3
+  Downloaded bytes v1.10.1
+  Downloaded windows_i686_gnullvm v0.52.6
+  Downloaded icu_collections v2.1.1
+  Downloaded unicode-ident v1.0.22
+  Downloaded url v2.5.7
+  Downloaded idna v1.1.0
+  Downloaded serde v1.0.228
+  Downloaded mio v1.1.0
+  Downloaded hickory-server v0.25.2
+  Downloaded prefix-trie v0.7.0
+  Downloaded socket2 v0.6.1
+  Downloaded windows_i686_gnu v0.52.6
+  Downloaded tokio-util v0.7.17
+  Downloaded log v0.4.28
+  Downloaded serde_core v1.0.228
+  Downloaded bumpalo v3.19.0
+  Downloaded critical-section v1.2.0
+  Downloaded windows_aarch64_msvc v0.52.6
+  Downloaded bitflags v2.10.0
+  Downloaded flume v0.11.1
+  Downloaded r-efi v5.3.0
+  Downloaded zerovec v0.11.5
+  Downloaded cc v1.2.44
+  Downloaded time v0.3.44
+  Downloaded litemap v0.8.1
+  Downloaded tinystr v0.8.2
+  Downloaded ipnet v2.11.0
+  Downloaded num-traits v0.2.19
+  Downloaded once_cell v1.21.3
+  Downloaded inotify v0.11.0
+  Downloaded futures v0.3.31
+  Downloaded memchr v2.7.6
+  Downloaded js-sys v0.3.82
+  Downloaded icu_properties_data v2.1.1
+  Downloaded synstructure v0.13.2
+  Downloaded smallvec v1.15.1
+  Downloaded deranged v0.5.5
+  Downloaded quote v1.0.41
+  Downloaded windows-core v0.62.2
+  Downloaded iana-time-zone v0.1.64
+  Downloaded clap_derive v4.5.49
+  Downloaded spin v0.9.8
+  Downloaded data-encoding v2.9.0
+  Downloaded getrandom v0.3.4
+  Downloaded wasm-bindgen-macro-support v0.2.105
+  Downloaded wasm-bindgen v0.2.105
+  Downloaded getrandom v0.2.16
+  Downloaded autocfg v1.5.0
+  Downloaded displaydoc v0.2.5
+  Downloaded yoke v0.8.1
+  Downloaded zerovec-derive v0.11.2
+  Downloaded portable-atomic v1.11.1
+  Downloaded thiserror-impl v2.0.17
+  Downloaded syn v2.0.108
+  Downloaded time-macros v0.2.24
+  Downloaded pin-project-lite v0.2.16
+  Downloaded anstyle-parse v0.2.7
+  Downloaded anstream v0.6.21
+  Downloaded anstyle v1.0.13
+  Downloaded nanorand v0.7.0
+  Downloaded lock_api v0.4.14
+  Downloaded futures-channel v0.3.31
+  Downloaded find-msvc-tools v0.1.4
+  Downloaded rustversion v1.0.22
+  Downloaded zerofrom v0.1.6
+  Downloaded futures-task v0.3.31
+  Downloaded windows-result v0.4.1
+  Downloaded colorchoice v1.0.4
+  Downloaded potential_utf v0.1.4
+  Downloaded clap_lex v0.7.6
+  Downloaded nibble_vec v0.1.0
+  Downloaded enum-as-inner v0.6.1
+  Downloaded stable_deref_trait v1.2.1
+  Downloaded zerofrom-derive v0.1.6
+  Downloaded ppv-lite86 v0.2.21
+  Downloaded windows-targets v0.52.6
+  Downloaded tinyvec_macros v0.1.1
+  Downloaded form_urlencoded v1.2.2
+  Downloaded endian-type v0.1.2
+  Downloaded is_terminal_polyfill v1.70.2
+  Downloaded heck v0.5.0
+  Downloaded wasm-bindgen-macro v0.2.105
+  Downloaded untrusted v0.9.0
+  Downloaded futures-sink v0.3.31
+  Downloaded signal-hook-registry v1.4.6
+  Downloaded windows-targets v0.53.5
+  Downloaded itoa v1.0.15
+  Downloaded powerfmt v0.2.0
+  Downloaded time-core v0.1.6
+  Downloaded syslog v7.0.0
+  Downloaded cfg-if v1.0.4
+  Downloaded percent-encoding v2.3.2
+  Downloaded cfg_aliases v0.2.1
+  Downloaded futures-io v0.3.31
+  Downloaded pin-utils v0.1.0
+  Downloaded nix v0.30.1
+  Downloaded hickory-proto v0.25.2
+  Downloaded windows_x86_64_gnullvm v0.52.6
+  Downloaded windows_aarch64_gnullvm v0.53.1
+  Downloaded tokio v1.48.0
+  Downloaded libc v0.2.177
+  Downloaded windows_i686_gnullvm v0.53.1
+  Downloaded windows_x86_64_gnullvm v0.53.1
+  Downloaded windows_aarch64_msvc v0.53.1
+  Downloaded windows_x86_64_gnu v0.52.6
+  Downloaded windows_i686_msvc v0.53.1
+  Downloaded windows_x86_64_msvc v0.53.1
+  Downloaded windows_x86_64_msvc v0.52.6
+  Downloaded windows_i686_msvc v0.52.6
+  Downloaded windows_i686_gnu v0.53.1
+  Downloaded windows_x86_64_gnu v0.53.1
+  Downloaded ring v0.17.14
+  Downloaded windows-sys v0.61.2
+  Downloaded windows-sys v0.52.0
+  Downloaded windows-sys v0.60.2
+   Compiling proc-macro2 v1.0.103
+   Compiling quote v1.0.41
+   Compiling unicode-ident v1.0.22
+   Compiling libc v0.2.177
+   Compiling stable_deref_trait v1.2.1
+   Compiling autocfg v1.5.0
+   Compiling cfg-if v1.0.4
+   Compiling writeable v0.6.2
+   Compiling litemap v0.8.1
+   Compiling pin-project-lite v0.2.16
+   Compiling futures-core v0.3.31
+   Compiling smallvec v1.15.1
+   Compiling icu_properties_data v2.1.1
+   Compiling icu_normalizer_data v2.1.1
+   Compiling serde_core v1.0.228
+   Compiling futures-sink v0.3.31
+   Compiling zerocopy v0.8.27
+   Compiling serde v1.0.228
+   Compiling portable-atomic v1.11.1
+   Compiling getrandom v0.3.4
+   Compiling futures-channel v0.3.31
+   Compiling memchr v2.7.6
+   Compiling heck v0.5.0
+   Compiling slab v0.4.11
+   Compiling bytes v1.10.1
+   Compiling critical-section v1.2.0
+   Compiling pin-utils v0.1.0
+   Compiling futures-io v0.3.31
+   Compiling futures-task v0.3.31
+   Compiling thiserror v2.0.17
+   Compiling utf8_iter v1.0.4
+   Compiling num-traits v0.2.19
+   Compiling percent-encoding v2.3.2
+   Compiling utf8parse v0.2.2
+   Compiling tinyvec_macros v0.1.1
+   Compiling powerfmt v0.2.0
+   Compiling anstyle-parse v0.2.7
+   Compiling form_urlencoded v1.2.2
+   Compiling deranged v0.5.5
+   Compiling tinyvec v1.10.0
+   Compiling once_cell v1.21.3
+   Compiling syn v2.0.108
+   Compiling memoffset v0.9.1
+   Compiling is_terminal_polyfill v1.70.2
+   Compiling tracing-core v0.1.34
+   Compiling time-core v0.1.6
+   Compiling anstyle v1.0.13
+   Compiling anstyle-query v1.1.4
+   Compiling cfg_aliases v0.2.1
+   Compiling num_threads v0.1.7
+   Compiling num-conv v0.1.0
+   Compiling iana-time-zone v0.1.64
+   Compiling colorchoice v1.0.4
+   Compiling data-encoding v2.9.0
+   Compiling scopeguard v1.2.0
+   Compiling itoa v1.0.15
+   Compiling lock_api v0.4.14
+   Compiling chrono v0.4.42
+   Compiling tracing v0.1.41
+   Compiling anstream v0.6.21
+   Compiling nix v0.30.1
+   Compiling nibble_vec v0.1.0
+   Compiling signal-hook-registry v1.4.6
+   Compiling mio v1.1.0
+   Compiling socket2 v0.6.1
+   Compiling time v0.3.44
+   Compiling rand_core v0.9.3
+   Compiling getrandom v0.2.16
+   Compiling strsim v0.11.1
+   Compiling ppv-lite86 v0.2.21
+   Compiling bitflags v2.10.0
+   Compiling endian-type v0.1.2
+   Compiling clap_lex v0.7.6
+   Compiling radix_trie v0.2.1
+   Compiling nanorand v0.7.0
+   Compiling clap_builder v4.5.51
+   Compiling hostname v0.4.1
+   Compiling inotify-sys v0.1.5
+   Compiling rand_chacha v0.9.0
+   Compiling spin v0.9.8
+   Compiling log v0.4.28
+   Compiling arc-swap v1.7.1
+   Compiling flume v0.11.1
+   Compiling rand v0.9.2
+   Compiling syslog v7.0.0
+   Compiling aardvark-dns v1.17.1 (/blfs/builds/aardvark-dns-1.17.1)
+   Compiling synstructure v0.13.2
+   Compiling zerofrom-derive v0.1.6
+   Compiling yoke-derive v0.8.1
+   Compiling zerovec-derive v0.11.2
+   Compiling displaydoc v0.2.5
+   Compiling serde_derive v1.0.228
+   Compiling futures-macro v0.3.31
+   Compiling tokio-macros v2.6.0
+   Compiling thiserror-impl v2.0.17
+   Compiling async-trait v0.1.89
+   Compiling enum-as-inner v0.6.1
+   Compiling clap_derive v4.5.49
+   Compiling tokio v1.48.0
+   Compiling futures-util v0.3.31
+   Compiling zerofrom v0.1.6
+   Compiling yoke v0.8.1
+   Compiling zerovec v0.11.5
+   Compiling zerotrie v0.2.3
+   Compiling tinystr v0.8.2
+   Compiling potential_utf v0.1.4
+   Compiling icu_locale_core v2.1.1
+   Compiling icu_collections v2.1.1
+   Compiling clap v4.5.51
+   Compiling ipnet v2.11.0
+   Compiling icu_provider v2.1.1
+   Compiling icu_properties v2.1.1
+   Compiling icu_normalizer v2.1.1
+   Compiling prefix-trie v0.7.0
+   Compiling futures-executor v0.3.31
+   Compiling futures v0.3.31
+   Compiling idna_adapter v1.2.1
+   Compiling idna v1.1.0
+   Compiling url v2.5.7
+   Compiling tokio-util v0.7.17
+   Compiling inotify v0.11.0
+   Compiling hickory-proto v0.25.2
+   Compiling hickory-client v0.25.2
+   Compiling hickory-server v0.25.2
+    Finished `release` profile [optimized] target(s) in 21.91s
+install: creating directory '/pkgs/aardvark-dns/usr/lib'
+install: creating directory '/pkgs/aardvark-dns/usr/lib/podman'
+'target/release/aardvark-dns' -> '/pkgs/aardvark-dns/usr/lib/podman/aardvark-dns'
+aardvark-dns/
+aardvark-dns/usr/
+aardvark-dns/usr/bin/
+aardvark-dns/usr/lib/
+aardvark-dns/usr/lib/podman/
+aardvark-dns/usr/lib/podman/aardvark-dns
+aardvark-dns/version
+aardvark-dns/depends
+aardvark-dns/make-depends
+'/pkgs/aardvark-dns/depends' -> '/depends'
+'/pkgs/aardvark-dns/make-depends' -> '/make-depends'
+'/pkgs/aardvark-dns/usr/lib/podman/aardvark-dns' -> '/usr/lib/podman/aardvark-dns'
+'/pkgs/aardvark-dns/version' -> '/version'

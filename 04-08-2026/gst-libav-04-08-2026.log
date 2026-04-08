@@ -1,0 +1,182 @@
+--2026-04-08 09:50:42--  https://gstreamer.freedesktop.org/src/gst-libav/gst-libav-1.28.2.tar.xz
+Resolving gstreamer.freedesktop.org (gstreamer.freedesktop.org)... 131.252.210.176
+Connecting to gstreamer.freedesktop.org (gstreamer.freedesktop.org)|131.252.210.176|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 206764 (202K) [application/x-xz]
+Saving to: ‘gst-libav-1.28.2.tar.xz’
+
+     0K .......... .......... .......... .......... .......... 24%  368K 0s
+    50K .......... .......... .......... .......... .......... 49% 1.36M 0s
+   100K .......... .......... .......... .......... .......... 74% 1.44M 0s
+   150K .......... .......... .......... .......... .......... 99%  753K 0s
+   200K .                                                     100% 3.57T=0.3s
+
+2026-04-08 09:50:43 (742 KB/s) - ‘gst-libav-1.28.2.tar.xz’ saved [206764/206764]
+
+gst-libav-1.28.2/
+gst-libav-1.28.2/.gitignore
+gst-libav-1.28.2/COPYING
+gst-libav-1.28.2/ChangeLog
+gst-libav-1.28.2/README.md
+gst-libav-1.28.2/RELEASE
+gst-libav-1.28.2/docs/
+gst-libav-1.28.2/docs/gst_plugins_cache.json
+gst-libav-1.28.2/docs/index.md
+gst-libav-1.28.2/docs/meson.build
+gst-libav-1.28.2/docs/sitemap.txt
+gst-libav-1.28.2/ext/
+gst-libav-1.28.2/ext/libav/
+gst-libav-1.28.2/ext/libav/gstav.c
+gst-libav-1.28.2/ext/libav/gstav.h
+gst-libav-1.28.2/ext/libav/gstavauddec.c
+gst-libav-1.28.2/ext/libav/gstavauddec.h
+gst-libav-1.28.2/ext/libav/gstavaudenc.c
+gst-libav-1.28.2/ext/libav/gstavaudenc.h
+gst-libav-1.28.2/ext/libav/gstavcfg.c
+gst-libav-1.28.2/ext/libav/gstavcfg.h
+gst-libav-1.28.2/ext/libav/gstavcodecmap.c
+gst-libav-1.28.2/ext/libav/gstavcodecmap.h
+gst-libav-1.28.2/ext/libav/gstavdeinterlace.c
+gst-libav-1.28.2/ext/libav/gstavdemux.c
+gst-libav-1.28.2/ext/libav/gstavmux.c
+gst-libav-1.28.2/ext/libav/gstavprotocol.c
+gst-libav-1.28.2/ext/libav/gstavprotocol.h
+gst-libav-1.28.2/ext/libav/gstavutils.c
+gst-libav-1.28.2/ext/libav/gstavutils.h
+gst-libav-1.28.2/ext/libav/gstavvidcmp.c
+gst-libav-1.28.2/ext/libav/gstavviddec.c
+gst-libav-1.28.2/ext/libav/gstavviddec.h
+gst-libav-1.28.2/ext/libav/gstavvidenc.c
+gst-libav-1.28.2/ext/libav/gstavvidenc.h
+gst-libav-1.28.2/ext/libav/meson.build
+gst-libav-1.28.2/gst-libav.doap
+gst-libav-1.28.2/meson.build
+gst-libav-1.28.2/meson.options
+gst-libav-1.28.2/release-notes-1.28.md
+gst-libav-1.28.2/scripts/
+gst-libav-1.28.2/scripts/dist-common-files.py
+gst-libav-1.28.2/scripts/extract-release-date-from-doap-file.py
+gst-libav-1.28.2/scripts/gen-changelog.py
+gst-libav-1.28.2/tests/
+gst-libav-1.28.2/tests/check/
+gst-libav-1.28.2/tests/check/elements/
+gst-libav-1.28.2/tests/check/elements/avaudenc.c
+gst-libav-1.28.2/tests/check/elements/avdec_adpcm.c
+gst-libav-1.28.2/tests/check/elements/avdemux_ape.c
+gst-libav-1.28.2/tests/check/elements/avvidenc.c
+gst-libav-1.28.2/tests/check/generic/
+gst-libav-1.28.2/tests/check/generic/libavcodec-locking.c
+gst-libav-1.28.2/tests/check/generic/plugin-test.c
+gst-libav-1.28.2/tests/check/gst-libav.supp
+gst-libav-1.28.2/tests/check/meson.build
+gst-libav-1.28.2/tests/files/
+gst-libav-1.28.2/tests/files/586957.ape
+gst-libav-1.28.2/tests/files/591809.wav
+gst-libav-1.28.2/tests/meson.build
+The Meson build system
+Version: 1.10.2
+Source dir: /blfs/builds/gst-libav-1.28.2
+Build dir: /blfs/builds/gst-libav-1.28.2/build
+Build type: native build
+Project name: gst-libav
+Project version: 1.28.2
+C compiler for the host machine: cc (gcc 15.2.0 "cc (GCC) 15.2.0")
+C linker for the host machine: cc ld.bfd 2.45
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Run-time dependency libavcodec found: YES 62.11.100
+Run-time dependency libavfilter found: YES 11.4.100
+Run-time dependency libavformat found: YES 62.3.100
+Run-time dependency libavutil found: YES 60.8.100
+Checking if "libav is provided by FFmpeg" with dependencies libavcodec, libavfilter, libavformat, libavutil compiles: YES 
+Has header "unistd.h" : YES 
+Run-time dependency gstreamer-1.0 found: YES 1.28.2
+Run-time dependency gstreamer-base-1.0 found: YES 1.28.2
+Run-time dependency gstreamer-check-1.0 found: YES 1.28.2
+Run-time dependency gstreamer-video-1.0 found: YES 1.28.2
+Run-time dependency gstreamer-audio-1.0 found: YES 1.28.2
+Run-time dependency gstreamer-pbutils-1.0 found: YES 1.28.2
+Library m found: YES
+Compiler for C supports link arguments -Wl,-z,nodelete: YES 
+Compiler for C supports arguments -fvisibility=hidden: YES 
+Compiler for C supports link arguments -Wl,--exclude-libs=ALL: YES 
+Compiler for C supports arguments -fno-strict-aliasing: YES 
+Header "gst/gstconfig.h" has symbol "GST_DISABLE_GST_DEBUG" with dependency gstreamer-1.0: NO 
+Message: GStreamer debug system is enabled
+Compiler for C supports arguments -Waddress: YES 
+Compiler for C supports arguments -Waggregate-return: YES 
+Compiler for C supports arguments -Wformat: YES 
+Compiler for C supports arguments -Wformat-nonliteral: YES 
+Compiler for C supports arguments -Wformat-security: YES 
+Compiler for C supports arguments -Wimplicit-fallthrough=3: YES 
+Compiler for C supports arguments -Winit-self: YES 
+Compiler for C supports arguments -Wmissing-declarations: YES 
+Compiler for C supports arguments -Wmissing-include-dirs: YES 
+Compiler for C supports arguments -Wmissing-parameter-type: YES 
+Compiler for C supports arguments -Wmissing-prototypes: YES 
+Compiler for C supports arguments -Wno-multichar: YES 
+Compiler for C supports arguments -Wold-style-definition: YES 
+Compiler for C supports arguments -Wpointer-arith: YES 
+Compiler for C supports arguments -Wredundant-decls: YES 
+Compiler for C supports arguments -Wredundant-decls: YES (cached)
+Compiler for C supports arguments -Wshift-negative-value: YES 
+Compiler for C supports arguments -Wtype-limits: YES 
+Compiler for C supports arguments -Wundef: YES 
+Compiler for C supports arguments -Wvla: YES 
+Compiler for C supports arguments -Wwrite-strings: YES 
+Program gst-plugins-doc-cache-generator found: YES (/usr/libexec/gstreamer-1.0/gst-plugins-doc-cache-generator)
+Configuring doc_sources.json using configuration
+Configuring doc_plugin_libs.json using configuration
+Run-time dependency gstreamer-plugins-base-1.0 found: YES 1.28.2
+Program scripts/extract-release-date-from-doap-file.py found: YES (/blfs/builds/gst-libav-1.28.2/scripts/extract-release-date-from-doap-file.py)
+Message: Package release date: 2026-04-07
+Configuring config.h using configuration
+Build targets in project: 9
+
+gst-libav 1.28.2
+
+  User defined options
+    buildtype   : release
+    package-name: GStreamer 1.28.2 For Tucana
+    prefix      : /usr
+
+Found ninja-1.13.2 at /usr/bin/ninja
+[1/26] Compiling C object ext/libav/libgstlibav.so.p/gstavutils.c.o
+[2/26] Compiling C object ext/libav/libgstlibav.so.p/gstav.c.o
+[3/26] Compiling C object ext/libav/libgstlibav.so.p/gstavprotocol.c.o
+[4/26] Compiling C object tests/check/elements_avaudenc.p/elements_avaudenc.c.o
+[5/26] Compiling C object ext/libav/libgstlibav.so.p/gstavvidenc.c.o
+[6/26] Compiling C object ext/libav/libgstlibav.so.p/gstavvidcmp.c.o
+[7/26] Compiling C object tests/check/elements_avdemux_ape.p/elements_avdemux_ape.c.o
+[8/26] Compiling C object ext/libav/libgstlibav.so.p/gstavaudenc.c.o
+[9/26] Compiling C object ext/libav/libgstlibav.so.p/gstavauddec.c.o
+[10/26] Compiling C object ext/libav/libgstlibav.so.p/gstavmux.c.o
+[11/26] Compiling C object ext/libav/libgstlibav.so.p/gstavdeinterlace.c.o
+[12/26] Compiling C object tests/check/elements_avvidenc.p/elements_avvidenc.c.o
+[13/26] Linking target tests/check/elements_avdemux_ape
+[14/26] Linking target tests/check/elements_avaudenc
+[15/26] Linking target tests/check/elements_avvidenc
+[16/26] Compiling C object tests/check/elements_avdec_adpcm.p/elements_avdec_adpcm.c.o
+[17/26] Compiling C object ext/libav/libgstlibav.so.p/gstavcfg.c.o
+[18/26] Compiling C object tests/check/generic_libavcodec_locking.p/generic_libavcodec-locking.c.o
+[19/26] Compiling C object tests/check/generic_plugin_test.p/generic_plugin-test.c.o
+[20/26] Linking target tests/check/elements_avdec_adpcm
+[21/26] Linking target tests/check/generic_libavcodec_locking
+[22/26] Linking target tests/check/generic_plugin_test
+[23/26] Compiling C object ext/libav/libgstlibav.so.p/gstavdemux.c.o
+[24/26] Compiling C object ext/libav/libgstlibav.so.p/gstavviddec.c.o
+[25/26] Compiling C object ext/libav/libgstlibav.so.p/gstavcodecmap.c.o
+[26/26] Linking target ext/libav/libgstlibav.so
+[0/1] Installing files
+Installing ext/libav/libgstlibav.so to /pkgs/gst-libav/usr/lib/gstreamer-1.0
+[0/1] Installing files
+Installing ext/libav/libgstlibav.so to /usr/lib/gstreamer-1.0
+gst-libav/
+gst-libav/usr/
+gst-libav/usr/lib/
+gst-libav/usr/lib/gstreamer-1.0/
+gst-libav/usr/lib/gstreamer-1.0/libgstlibav.so
+gst-libav/version
+gst-libav/depends
+gst-libav/make-depends
