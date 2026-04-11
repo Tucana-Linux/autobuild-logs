@@ -1,0 +1,757 @@
+--2026-04-11 09:59:10--  https://files.pythonhosted.org/packages/source/r/rich/rich-14.3.4.tar.gz
+Resolving files.pythonhosted.org (files.pythonhosted.org)... 151.101.0.223, 151.101.64.223, 151.101.128.223, ...
+Connecting to files.pythonhosted.org (files.pythonhosted.org)|151.101.0.223|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://files.pythonhosted.org/packages/e9/67/cae617f1351490c25a4b8ac3b8b63a4dda609295d8222bad12242dfdc629/rich-14.3.4.tar.gz [following]
+--2026-04-11 09:59:10--  https://files.pythonhosted.org/packages/e9/67/cae617f1351490c25a4b8ac3b8b63a4dda609295d8222bad12242dfdc629/rich-14.3.4.tar.gz
+Reusing existing connection to files.pythonhosted.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 230524 (225K) [binary/octet-stream]
+Saving to: ‘rich-14.3.4.tar.gz’
+
+     0K .......... .......... .......... .......... .......... 22% 6.99M 0s
+    50K .......... .......... .......... .......... .......... 44% 15.9M 0s
+   100K .......... .......... .......... .......... .......... 66% 8.96M 0s
+   150K .......... .......... .......... .......... .......... 88% 6.75M 0s
+   200K .......... .......... .....                           100% 87.8M=0.02s
+
+2026-04-11 09:59:10 (9.55 MB/s) - ‘rich-14.3.4.tar.gz’ saved [230524/230524]
+
+rich-14.3.4/LICENSE
+rich-14.3.4/README.md
+rich-14.3.4/pyproject.toml
+rich-14.3.4/rich/__init__.py
+rich-14.3.4/rich/__main__.py
+rich-14.3.4/rich/_emoji_codes.py
+rich-14.3.4/rich/_emoji_replace.py
+rich-14.3.4/rich/_export_format.py
+rich-14.3.4/rich/_extension.py
+rich-14.3.4/rich/_fileno.py
+rich-14.3.4/rich/_inspect.py
+rich-14.3.4/rich/_log_render.py
+rich-14.3.4/rich/_loop.py
+rich-14.3.4/rich/_null_file.py
+rich-14.3.4/rich/_palettes.py
+rich-14.3.4/rich/_pick.py
+rich-14.3.4/rich/_ratio.py
+rich-14.3.4/rich/_spinners.py
+rich-14.3.4/rich/_stack.py
+rich-14.3.4/rich/_timer.py
+rich-14.3.4/rich/_unicode_data/__init__.py
+rich-14.3.4/rich/_unicode_data/_versions.py
+rich-14.3.4/rich/_unicode_data/unicode10-0-0.py
+rich-14.3.4/rich/_unicode_data/unicode11-0-0.py
+rich-14.3.4/rich/_unicode_data/unicode12-0-0.py
+rich-14.3.4/rich/_unicode_data/unicode12-1-0.py
+rich-14.3.4/rich/_unicode_data/unicode13-0-0.py
+rich-14.3.4/rich/_unicode_data/unicode14-0-0.py
+rich-14.3.4/rich/_unicode_data/unicode15-0-0.py
+rich-14.3.4/rich/_unicode_data/unicode15-1-0.py
+rich-14.3.4/rich/_unicode_data/unicode16-0-0.py
+rich-14.3.4/rich/_unicode_data/unicode17-0-0.py
+rich-14.3.4/rich/_unicode_data/unicode4-1-0.py
+rich-14.3.4/rich/_unicode_data/unicode5-0-0.py
+rich-14.3.4/rich/_unicode_data/unicode5-1-0.py
+rich-14.3.4/rich/_unicode_data/unicode5-2-0.py
+rich-14.3.4/rich/_unicode_data/unicode6-0-0.py
+rich-14.3.4/rich/_unicode_data/unicode6-1-0.py
+rich-14.3.4/rich/_unicode_data/unicode6-2-0.py
+rich-14.3.4/rich/_unicode_data/unicode6-3-0.py
+rich-14.3.4/rich/_unicode_data/unicode7-0-0.py
+rich-14.3.4/rich/_unicode_data/unicode8-0-0.py
+rich-14.3.4/rich/_unicode_data/unicode9-0-0.py
+rich-14.3.4/rich/_win32_console.py
+rich-14.3.4/rich/_windows.py
+rich-14.3.4/rich/_windows_renderer.py
+rich-14.3.4/rich/_wrap.py
+rich-14.3.4/rich/abc.py
+rich-14.3.4/rich/align.py
+rich-14.3.4/rich/ansi.py
+rich-14.3.4/rich/bar.py
+rich-14.3.4/rich/box.py
+rich-14.3.4/rich/cells.py
+rich-14.3.4/rich/color.py
+rich-14.3.4/rich/color_triplet.py
+rich-14.3.4/rich/columns.py
+rich-14.3.4/rich/console.py
+rich-14.3.4/rich/constrain.py
+rich-14.3.4/rich/containers.py
+rich-14.3.4/rich/control.py
+rich-14.3.4/rich/default_styles.py
+rich-14.3.4/rich/diagnose.py
+rich-14.3.4/rich/emoji.py
+rich-14.3.4/rich/errors.py
+rich-14.3.4/rich/file_proxy.py
+rich-14.3.4/rich/filesize.py
+rich-14.3.4/rich/highlighter.py
+rich-14.3.4/rich/json.py
+rich-14.3.4/rich/jupyter.py
+rich-14.3.4/rich/layout.py
+rich-14.3.4/rich/live.py
+rich-14.3.4/rich/live_render.py
+rich-14.3.4/rich/logging.py
+rich-14.3.4/rich/markdown.py
+rich-14.3.4/rich/markup.py
+rich-14.3.4/rich/measure.py
+rich-14.3.4/rich/padding.py
+rich-14.3.4/rich/pager.py
+rich-14.3.4/rich/palette.py
+rich-14.3.4/rich/panel.py
+rich-14.3.4/rich/pretty.py
+rich-14.3.4/rich/progress.py
+rich-14.3.4/rich/progress_bar.py
+rich-14.3.4/rich/prompt.py
+rich-14.3.4/rich/protocol.py
+rich-14.3.4/rich/py.typed
+rich-14.3.4/rich/region.py
+rich-14.3.4/rich/repr.py
+rich-14.3.4/rich/rule.py
+rich-14.3.4/rich/scope.py
+rich-14.3.4/rich/screen.py
+rich-14.3.4/rich/segment.py
+rich-14.3.4/rich/spinner.py
+rich-14.3.4/rich/status.py
+rich-14.3.4/rich/style.py
+rich-14.3.4/rich/styled.py
+rich-14.3.4/rich/syntax.py
+rich-14.3.4/rich/table.py
+rich-14.3.4/rich/terminal_theme.py
+rich-14.3.4/rich/text.py
+rich-14.3.4/rich/theme.py
+rich-14.3.4/rich/themes.py
+rich-14.3.4/rich/traceback.py
+rich-14.3.4/rich/tree.py
+rich-14.3.4/PKG-INFO
+* Creating isolated environment: venv+pip...
+* Installing packages in isolated environment:
+  - poetry-core>=1.0.0
+* Getting build dependencies for wheel...
+* Building wheel...
+The "poetry.dev-dependencies" section is deprecated and will be removed in a future version. Use "poetry.group.dev.dependencies" instead.
+Successfully built rich-14.3.4-py3-none-any.whl
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__init__.py' -> '/usr/lib/python3.14/site-packages/rich/__init__.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__main__.py' -> '/usr/lib/python3.14/site-packages/rich/__main__.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_emoji_codes.py' -> '/usr/lib/python3.14/site-packages/rich/_emoji_codes.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_emoji_replace.py' -> '/usr/lib/python3.14/site-packages/rich/_emoji_replace.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_export_format.py' -> '/usr/lib/python3.14/site-packages/rich/_export_format.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_extension.py' -> '/usr/lib/python3.14/site-packages/rich/_extension.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_fileno.py' -> '/usr/lib/python3.14/site-packages/rich/_fileno.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_inspect.py' -> '/usr/lib/python3.14/site-packages/rich/_inspect.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_log_render.py' -> '/usr/lib/python3.14/site-packages/rich/_log_render.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_loop.py' -> '/usr/lib/python3.14/site-packages/rich/_loop.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_null_file.py' -> '/usr/lib/python3.14/site-packages/rich/_null_file.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_palettes.py' -> '/usr/lib/python3.14/site-packages/rich/_palettes.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_pick.py' -> '/usr/lib/python3.14/site-packages/rich/_pick.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_ratio.py' -> '/usr/lib/python3.14/site-packages/rich/_ratio.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_spinners.py' -> '/usr/lib/python3.14/site-packages/rich/_spinners.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_stack.py' -> '/usr/lib/python3.14/site-packages/rich/_stack.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_timer.py' -> '/usr/lib/python3.14/site-packages/rich/_timer.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__init__.py' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__init__.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/_versions.py' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/_versions.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode10-0-0.py' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode10-0-0.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode11-0-0.py' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode11-0-0.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode12-0-0.py' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode12-0-0.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode12-1-0.py' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode12-1-0.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode13-0-0.py' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode13-0-0.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode14-0-0.py' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode14-0-0.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode15-0-0.py' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode15-0-0.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode15-1-0.py' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode15-1-0.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode16-0-0.py' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode16-0-0.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode17-0-0.py' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode17-0-0.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode4-1-0.py' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode4-1-0.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode5-0-0.py' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode5-0-0.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode5-1-0.py' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode5-1-0.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode5-2-0.py' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode5-2-0.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode6-0-0.py' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode6-0-0.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode6-1-0.py' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode6-1-0.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode6-2-0.py' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode6-2-0.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode6-3-0.py' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode6-3-0.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode7-0-0.py' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode7-0-0.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode8-0-0.py' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode8-0-0.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode9-0-0.py' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode9-0-0.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/__init__.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/__init__.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/__init__.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/__init__.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/_versions.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/_versions.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/_versions.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/_versions.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode10-0-0.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode10-0-0.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode10-0-0.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode10-0-0.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode11-0-0.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode11-0-0.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode11-0-0.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode11-0-0.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode12-0-0.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode12-0-0.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode12-0-0.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode12-0-0.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode12-1-0.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode12-1-0.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode12-1-0.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode12-1-0.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode13-0-0.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode13-0-0.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode13-0-0.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode13-0-0.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode14-0-0.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode14-0-0.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode14-0-0.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode14-0-0.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode15-0-0.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode15-0-0.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode15-0-0.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode15-0-0.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode15-1-0.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode15-1-0.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode15-1-0.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode15-1-0.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode16-0-0.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode16-0-0.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode16-0-0.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode16-0-0.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode17-0-0.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode17-0-0.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode17-0-0.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode17-0-0.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode4-1-0.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode4-1-0.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode4-1-0.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode4-1-0.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode5-0-0.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode5-0-0.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode5-0-0.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode5-0-0.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode5-1-0.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode5-1-0.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode5-1-0.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode5-1-0.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode5-2-0.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode5-2-0.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode5-2-0.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode5-2-0.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode6-0-0.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode6-0-0.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode6-0-0.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode6-0-0.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode6-1-0.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode6-1-0.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode6-1-0.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode6-1-0.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode6-2-0.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode6-2-0.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode6-2-0.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode6-2-0.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode6-3-0.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode6-3-0.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode6-3-0.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode6-3-0.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode7-0-0.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode7-0-0.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode7-0-0.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode7-0-0.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode8-0-0.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode8-0-0.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode8-0-0.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode8-0-0.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode9-0-0.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode9-0-0.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode9-0-0.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode9-0-0.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_win32_console.py' -> '/usr/lib/python3.14/site-packages/rich/_win32_console.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_windows.py' -> '/usr/lib/python3.14/site-packages/rich/_windows.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_windows_renderer.py' -> '/usr/lib/python3.14/site-packages/rich/_windows_renderer.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/_wrap.py' -> '/usr/lib/python3.14/site-packages/rich/_wrap.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/abc.py' -> '/usr/lib/python3.14/site-packages/rich/abc.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/align.py' -> '/usr/lib/python3.14/site-packages/rich/align.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/ansi.py' -> '/usr/lib/python3.14/site-packages/rich/ansi.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/bar.py' -> '/usr/lib/python3.14/site-packages/rich/bar.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/box.py' -> '/usr/lib/python3.14/site-packages/rich/box.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/cells.py' -> '/usr/lib/python3.14/site-packages/rich/cells.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/color.py' -> '/usr/lib/python3.14/site-packages/rich/color.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/color_triplet.py' -> '/usr/lib/python3.14/site-packages/rich/color_triplet.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/columns.py' -> '/usr/lib/python3.14/site-packages/rich/columns.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/console.py' -> '/usr/lib/python3.14/site-packages/rich/console.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/constrain.py' -> '/usr/lib/python3.14/site-packages/rich/constrain.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/containers.py' -> '/usr/lib/python3.14/site-packages/rich/containers.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/control.py' -> '/usr/lib/python3.14/site-packages/rich/control.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/default_styles.py' -> '/usr/lib/python3.14/site-packages/rich/default_styles.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/diagnose.py' -> '/usr/lib/python3.14/site-packages/rich/diagnose.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/emoji.py' -> '/usr/lib/python3.14/site-packages/rich/emoji.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/errors.py' -> '/usr/lib/python3.14/site-packages/rich/errors.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/file_proxy.py' -> '/usr/lib/python3.14/site-packages/rich/file_proxy.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/filesize.py' -> '/usr/lib/python3.14/site-packages/rich/filesize.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/highlighter.py' -> '/usr/lib/python3.14/site-packages/rich/highlighter.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/json.py' -> '/usr/lib/python3.14/site-packages/rich/json.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/jupyter.py' -> '/usr/lib/python3.14/site-packages/rich/jupyter.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/layout.py' -> '/usr/lib/python3.14/site-packages/rich/layout.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/live.py' -> '/usr/lib/python3.14/site-packages/rich/live.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/live_render.py' -> '/usr/lib/python3.14/site-packages/rich/live_render.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/logging.py' -> '/usr/lib/python3.14/site-packages/rich/logging.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/markdown.py' -> '/usr/lib/python3.14/site-packages/rich/markdown.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/markup.py' -> '/usr/lib/python3.14/site-packages/rich/markup.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/measure.py' -> '/usr/lib/python3.14/site-packages/rich/measure.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/padding.py' -> '/usr/lib/python3.14/site-packages/rich/padding.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/pager.py' -> '/usr/lib/python3.14/site-packages/rich/pager.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/palette.py' -> '/usr/lib/python3.14/site-packages/rich/palette.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/panel.py' -> '/usr/lib/python3.14/site-packages/rich/panel.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/pretty.py' -> '/usr/lib/python3.14/site-packages/rich/pretty.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/progress.py' -> '/usr/lib/python3.14/site-packages/rich/progress.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/progress_bar.py' -> '/usr/lib/python3.14/site-packages/rich/progress_bar.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/prompt.py' -> '/usr/lib/python3.14/site-packages/rich/prompt.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/protocol.py' -> '/usr/lib/python3.14/site-packages/rich/protocol.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/py.typed' -> '/usr/lib/python3.14/site-packages/rich/py.typed'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/region.py' -> '/usr/lib/python3.14/site-packages/rich/region.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/repr.py' -> '/usr/lib/python3.14/site-packages/rich/repr.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/rule.py' -> '/usr/lib/python3.14/site-packages/rich/rule.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/scope.py' -> '/usr/lib/python3.14/site-packages/rich/scope.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/screen.py' -> '/usr/lib/python3.14/site-packages/rich/screen.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/segment.py' -> '/usr/lib/python3.14/site-packages/rich/segment.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/spinner.py' -> '/usr/lib/python3.14/site-packages/rich/spinner.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/status.py' -> '/usr/lib/python3.14/site-packages/rich/status.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/style.py' -> '/usr/lib/python3.14/site-packages/rich/style.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/styled.py' -> '/usr/lib/python3.14/site-packages/rich/styled.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/syntax.py' -> '/usr/lib/python3.14/site-packages/rich/syntax.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/table.py' -> '/usr/lib/python3.14/site-packages/rich/table.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/terminal_theme.py' -> '/usr/lib/python3.14/site-packages/rich/terminal_theme.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/text.py' -> '/usr/lib/python3.14/site-packages/rich/text.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/theme.py' -> '/usr/lib/python3.14/site-packages/rich/theme.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/themes.py' -> '/usr/lib/python3.14/site-packages/rich/themes.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/traceback.py' -> '/usr/lib/python3.14/site-packages/rich/traceback.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/tree.py' -> '/usr/lib/python3.14/site-packages/rich/tree.py'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/__init__.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/__init__.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/__init__.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/__init__.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/__main__.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/__main__.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/__main__.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/__main__.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_emoji_codes.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/_emoji_codes.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_emoji_codes.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/_emoji_codes.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_emoji_replace.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/_emoji_replace.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_emoji_replace.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/_emoji_replace.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_export_format.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/_export_format.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_export_format.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/_export_format.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_extension.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/_extension.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_extension.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/_extension.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_fileno.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/_fileno.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_fileno.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/_fileno.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_inspect.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/_inspect.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_inspect.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/_inspect.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_log_render.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/_log_render.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_log_render.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/_log_render.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_loop.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/_loop.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_loop.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/_loop.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_null_file.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/_null_file.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_null_file.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/_null_file.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_palettes.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/_palettes.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_palettes.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/_palettes.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_pick.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/_pick.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_pick.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/_pick.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_ratio.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/_ratio.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_ratio.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/_ratio.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_spinners.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/_spinners.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_spinners.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/_spinners.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_stack.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/_stack.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_stack.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/_stack.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_timer.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/_timer.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_timer.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/_timer.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_win32_console.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/_win32_console.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_win32_console.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/_win32_console.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_windows.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/_windows.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_windows.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/_windows.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_windows_renderer.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/_windows_renderer.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_windows_renderer.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/_windows_renderer.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_wrap.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/_wrap.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_wrap.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/_wrap.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/abc.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/abc.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/abc.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/abc.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/align.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/align.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/align.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/align.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/ansi.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/ansi.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/ansi.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/ansi.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/bar.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/bar.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/bar.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/bar.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/box.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/box.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/box.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/box.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/cells.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/cells.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/cells.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/cells.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/color.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/color.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/color.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/color.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/color_triplet.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/color_triplet.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/color_triplet.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/color_triplet.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/columns.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/columns.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/columns.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/columns.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/console.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/console.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/console.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/console.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/constrain.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/constrain.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/constrain.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/constrain.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/containers.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/containers.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/containers.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/containers.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/control.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/control.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/control.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/control.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/default_styles.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/default_styles.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/default_styles.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/default_styles.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/diagnose.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/diagnose.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/diagnose.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/diagnose.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/emoji.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/emoji.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/emoji.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/emoji.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/errors.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/errors.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/errors.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/errors.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/file_proxy.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/file_proxy.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/file_proxy.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/file_proxy.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/filesize.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/filesize.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/filesize.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/filesize.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/highlighter.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/highlighter.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/highlighter.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/highlighter.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/json.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/json.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/json.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/json.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/jupyter.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/jupyter.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/jupyter.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/jupyter.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/layout.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/layout.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/layout.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/layout.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/live.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/live.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/live.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/live.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/live_render.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/live_render.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/live_render.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/live_render.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/logging.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/logging.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/logging.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/logging.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/markdown.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/markdown.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/markdown.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/markdown.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/markup.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/markup.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/markup.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/markup.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/measure.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/measure.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/measure.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/measure.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/padding.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/padding.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/padding.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/padding.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/pager.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/pager.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/pager.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/pager.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/palette.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/palette.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/palette.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/palette.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/panel.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/panel.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/panel.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/panel.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/pretty.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/pretty.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/pretty.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/pretty.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/progress.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/progress.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/progress.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/progress.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/progress_bar.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/progress_bar.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/progress_bar.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/progress_bar.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/prompt.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/prompt.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/prompt.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/prompt.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/protocol.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/protocol.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/protocol.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/protocol.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/region.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/region.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/region.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/region.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/repr.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/repr.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/repr.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/repr.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/rule.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/rule.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/rule.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/rule.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/scope.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/scope.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/scope.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/scope.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/screen.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/screen.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/screen.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/screen.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/segment.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/segment.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/segment.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/segment.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/spinner.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/spinner.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/spinner.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/spinner.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/status.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/status.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/status.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/status.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/style.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/style.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/style.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/style.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/styled.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/styled.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/styled.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/styled.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/syntax.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/syntax.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/syntax.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/syntax.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/table.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/table.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/table.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/table.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/terminal_theme.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/terminal_theme.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/terminal_theme.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/terminal_theme.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/text.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/text.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/text.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/text.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/theme.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/theme.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/theme.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/theme.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/themes.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/themes.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/themes.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/themes.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/traceback.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/traceback.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/traceback.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/traceback.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/tree.cpython-314.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/tree.cpython-314.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/tree.cpython-314.opt-1.pyc' -> '/usr/lib/python3.14/site-packages/rich/__pycache__/tree.cpython-314.opt-1.pyc'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich-14.3.4.dist-info' -> '/usr/lib/python3.14/site-packages/rich-14.3.4.dist-info'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich-14.3.4.dist-info/METADATA' -> '/usr/lib/python3.14/site-packages/rich-14.3.4.dist-info/METADATA'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich-14.3.4.dist-info/WHEEL' -> '/usr/lib/python3.14/site-packages/rich-14.3.4.dist-info/WHEEL'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich-14.3.4.dist-info/licenses' -> '/usr/lib/python3.14/site-packages/rich-14.3.4.dist-info/licenses'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich-14.3.4.dist-info/licenses/LICENSE' -> '/usr/lib/python3.14/site-packages/rich-14.3.4.dist-info/licenses/LICENSE'
+'/pkgs/python-rich/usr/lib/python3.14/site-packages/rich-14.3.4.dist-info/RECORD' -> '/usr/lib/python3.14/site-packages/rich-14.3.4.dist-info/RECORD'
+python-rich/
+python-rich/usr/
+python-rich/usr/lib/
+python-rich/usr/lib/python3.14/
+python-rich/usr/lib/python3.14/site-packages/
+python-rich/usr/lib/python3.14/site-packages/rich/
+python-rich/usr/lib/python3.14/site-packages/rich/segment.py
+python-rich/usr/lib/python3.14/site-packages/rich/_emoji_codes.py
+python-rich/usr/lib/python3.14/site-packages/rich/screen.py
+python-rich/usr/lib/python3.14/site-packages/rich/tree.py
+python-rich/usr/lib/python3.14/site-packages/rich/table.py
+python-rich/usr/lib/python3.14/site-packages/rich/diagnose.py
+python-rich/usr/lib/python3.14/site-packages/rich/styled.py
+python-rich/usr/lib/python3.14/site-packages/rich/_loop.py
+python-rich/usr/lib/python3.14/site-packages/rich/_emoji_replace.py
+python-rich/usr/lib/python3.14/site-packages/rich/constrain.py
+python-rich/usr/lib/python3.14/site-packages/rich/highlighter.py
+python-rich/usr/lib/python3.14/site-packages/rich/scope.py
+python-rich/usr/lib/python3.14/site-packages/rich/align.py
+python-rich/usr/lib/python3.14/site-packages/rich/_win32_console.py
+python-rich/usr/lib/python3.14/site-packages/rich/cells.py
+python-rich/usr/lib/python3.14/site-packages/rich/pager.py
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/spinner.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/progress_bar.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/align.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/jupyter.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/pretty.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/pretty.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_wrap.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/prompt.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/bar.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_emoji_replace.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/style.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_loop.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/default_styles.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/screen.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/markdown.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_export_format.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/columns.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/progress.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/segment.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/diagnose.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/cells.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/abc.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_null_file.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_stack.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/file_proxy.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_emoji_codes.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_fileno.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/palette.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/region.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/color_triplet.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/measure.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/palette.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/box.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/ansi.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_palettes.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/control.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_fileno.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_pick.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/status.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_log_render.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_spinners.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/status.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_palettes.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/__init__.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/filesize.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/markdown.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/control.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/containers.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/region.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_win32_console.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/progress_bar.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/layout.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/json.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/traceback.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/table.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_emoji_codes.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/default_styles.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/__main__.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/emoji.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/protocol.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_windows.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_extension.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/align.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/scope.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_windows_renderer.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/constrain.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/errors.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_emoji_replace.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/filesize.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/highlighter.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/text.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_ratio.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/diagnose.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_windows_renderer.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/console.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/jupyter.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/terminal_theme.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_ratio.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/containers.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_windows.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/pager.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_inspect.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/layout.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_pick.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/traceback.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_stack.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/file_proxy.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/terminal_theme.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_loop.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_win32_console.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/json.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/cells.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/tree.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/console.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/tree.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/styled.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/live_render.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/bar.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/emoji.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/color_triplet.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/themes.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_spinners.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/color.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/padding.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/spinner.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/progress.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/padding.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/color.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/syntax.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/live.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_timer.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/theme.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/theme.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/logging.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_extension.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/syntax.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/constrain.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/columns.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/box.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/themes.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_inspect.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_log_render.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/markup.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/pager.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/abc.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/__main__.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/__init__.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/panel.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_timer.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_null_file.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/rule.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/scope.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/live.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/rule.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/protocol.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/prompt.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/logging.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/measure.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/errors.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/ansi.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/text.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_wrap.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/style.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/markup.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/repr.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/highlighter.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/table.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/_export_format.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/screen.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/panel.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/live_render.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/repr.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/styled.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/__pycache__/segment.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/logging.py
+python-rich/usr/lib/python3.14/site-packages/rich/_extension.py
+python-rich/usr/lib/python3.14/site-packages/rich/live_render.py
+python-rich/usr/lib/python3.14/site-packages/rich/prompt.py
+python-rich/usr/lib/python3.14/site-packages/rich/_fileno.py
+python-rich/usr/lib/python3.14/site-packages/rich/style.py
+python-rich/usr/lib/python3.14/site-packages/rich/terminal_theme.py
+python-rich/usr/lib/python3.14/site-packages/rich/console.py
+python-rich/usr/lib/python3.14/site-packages/rich/rule.py
+python-rich/usr/lib/python3.14/site-packages/rich/_timer.py
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode6-2-0.py
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode6-3-0.py
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode13-0-0.py
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode12-1-0.py
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode5-2-0.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode5-0-0.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode4-1-0.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode6-0-0.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode4-1-0.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode6-3-0.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode8-0-0.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode11-0-0.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode12-0-0.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode12-0-0.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode12-1-0.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/_versions.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode13-0-0.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode6-0-0.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode15-0-0.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode16-0-0.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode15-0-0.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/__init__.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode15-1-0.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode10-0-0.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode7-0-0.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode5-1-0.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode13-0-0.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/_versions.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode7-0-0.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode5-2-0.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode12-1-0.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode10-0-0.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode17-0-0.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode5-0-0.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode11-0-0.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode8-0-0.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode6-3-0.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode17-0-0.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode14-0-0.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/__init__.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode6-2-0.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode16-0-0.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode6-2-0.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode15-1-0.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode9-0-0.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode5-1-0.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode6-1-0.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode9-0-0.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode14-0-0.cpython-314.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__pycache__/unicode6-1-0.cpython-314.opt-1.pyc
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode16-0-0.py
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode15-0-0.py
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode14-0-0.py
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode4-1-0.py
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode8-0-0.py
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode6-0-0.py
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode9-0-0.py
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode6-1-0.py
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode12-0-0.py
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/__init__.py
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode11-0-0.py
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode15-1-0.py
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode5-2-0.py
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode17-0-0.py
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/_versions.py
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode10-0-0.py
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode5-1-0.py
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode5-0-0.py
+python-rich/usr/lib/python3.14/site-packages/rich/_unicode_data/unicode7-0-0.py
+python-rich/usr/lib/python3.14/site-packages/rich/region.py
+python-rich/usr/lib/python3.14/site-packages/rich/file_proxy.py
+python-rich/usr/lib/python3.14/site-packages/rich/columns.py
+python-rich/usr/lib/python3.14/site-packages/rich/__main__.py
+python-rich/usr/lib/python3.14/site-packages/rich/_wrap.py
+python-rich/usr/lib/python3.14/site-packages/rich/palette.py
+python-rich/usr/lib/python3.14/site-packages/rich/traceback.py
+python-rich/usr/lib/python3.14/site-packages/rich/_log_render.py
+python-rich/usr/lib/python3.14/site-packages/rich/_pick.py
+python-rich/usr/lib/python3.14/site-packages/rich/repr.py
+python-rich/usr/lib/python3.14/site-packages/rich/bar.py
+python-rich/usr/lib/python3.14/site-packages/rich/spinner.py
+python-rich/usr/lib/python3.14/site-packages/rich/status.py
+python-rich/usr/lib/python3.14/site-packages/rich/_ratio.py
+python-rich/usr/lib/python3.14/site-packages/rich/json.py
+python-rich/usr/lib/python3.14/site-packages/rich/__init__.py
+python-rich/usr/lib/python3.14/site-packages/rich/containers.py
+python-rich/usr/lib/python3.14/site-packages/rich/markup.py
+python-rich/usr/lib/python3.14/site-packages/rich/pretty.py
+python-rich/usr/lib/python3.14/site-packages/rich/themes.py
+python-rich/usr/lib/python3.14/site-packages/rich/measure.py
+python-rich/usr/lib/python3.14/site-packages/rich/emoji.py
+python-rich/usr/lib/python3.14/site-packages/rich/errors.py
+python-rich/usr/lib/python3.14/site-packages/rich/markdown.py
+python-rich/usr/lib/python3.14/site-packages/rich/filesize.py
+python-rich/usr/lib/python3.14/site-packages/rich/box.py
+python-rich/usr/lib/python3.14/site-packages/rich/panel.py
+python-rich/usr/lib/python3.14/site-packages/rich/progress_bar.py
+python-rich/usr/lib/python3.14/site-packages/rich/theme.py
+python-rich/usr/lib/python3.14/site-packages/rich/control.py
+python-rich/usr/lib/python3.14/site-packages/rich/_stack.py
+python-rich/usr/lib/python3.14/site-packages/rich/jupyter.py
+python-rich/usr/lib/python3.14/site-packages/rich/_windows.py
+python-rich/usr/lib/python3.14/site-packages/rich/color_triplet.py
+python-rich/usr/lib/python3.14/site-packages/rich/layout.py
+python-rich/usr/lib/python3.14/site-packages/rich/_palettes.py
+python-rich/usr/lib/python3.14/site-packages/rich/color.py
+python-rich/usr/lib/python3.14/site-packages/rich/_inspect.py
+python-rich/usr/lib/python3.14/site-packages/rich/_windows_renderer.py
+python-rich/usr/lib/python3.14/site-packages/rich/_export_format.py
+python-rich/usr/lib/python3.14/site-packages/rich/py.typed
+python-rich/usr/lib/python3.14/site-packages/rich/_spinners.py
+python-rich/usr/lib/python3.14/site-packages/rich/protocol.py
+python-rich/usr/lib/python3.14/site-packages/rich/text.py
+python-rich/usr/lib/python3.14/site-packages/rich/progress.py
+python-rich/usr/lib/python3.14/site-packages/rich/default_styles.py
+python-rich/usr/lib/python3.14/site-packages/rich/_null_file.py
+python-rich/usr/lib/python3.14/site-packages/rich/live.py
+python-rich/usr/lib/python3.14/site-packages/rich/abc.py
+python-rich/usr/lib/python3.14/site-packages/rich/ansi.py
+python-rich/usr/lib/python3.14/site-packages/rich/syntax.py
+python-rich/usr/lib/python3.14/site-packages/rich/padding.py
+python-rich/usr/lib/python3.14/site-packages/rich-14.3.4.dist-info/
+python-rich/usr/lib/python3.14/site-packages/rich-14.3.4.dist-info/RECORD
+python-rich/usr/lib/python3.14/site-packages/rich-14.3.4.dist-info/METADATA
+python-rich/usr/lib/python3.14/site-packages/rich-14.3.4.dist-info/WHEEL
+python-rich/usr/lib/python3.14/site-packages/rich-14.3.4.dist-info/licenses/
+python-rich/usr/lib/python3.14/site-packages/rich-14.3.4.dist-info/licenses/LICENSE
+python-rich/version
+python-rich/depends
+python-rich/make-depends
